@@ -137,7 +137,7 @@
   }
   if (_scratchpad) {
     const s = document.createElement('script');
-    s.src = 'scratchpad.js?v=3';
+    s.src = 'scratchpad.js?v=4';
     s.async = true;
     document.head.appendChild(s);
   }
