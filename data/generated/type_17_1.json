@@ -38,7 +38,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization or listing multiples.",
       "steps": [
-        "6 = 2×3, 12 = 2²×3, 18 = 2×3². LCM = 2²×3² = 36."
+        "6 = 2\u00d73, 12 = 2\u00b2\u00d73, 18 = 2\u00d73\u00b2. LCM = 2\u00b2\u00d73\u00b2 = 36."
       ],
       "final_answer": "36"
     }
@@ -59,7 +59,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "9 = 3², 15 = 3×5, 25 = 5². LCM = 3²×5² = 225."
+        "9 = 3\u00b2, 15 = 3\u00d75, 25 = 5\u00b2. LCM = 3\u00b2\u00d75\u00b2 = 225."
       ],
       "final_answer": "225"
     }
@@ -80,7 +80,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "4 = 2², 10 = 2×5, 15 = 3×5. LCM = 2²×3×5 = 60."
+        "4 = 2\u00b2, 10 = 2\u00d75, 15 = 3\u00d75. LCM = 2\u00b2\u00d73\u00d75 = 60."
       ],
       "final_answer": "60"
     }
@@ -101,7 +101,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "12 = 2²×3, 18 = 2×3², 24 = 2³×3. LCM = 2³×3² = 72."
+        "12 = 2\u00b2\u00d73, 18 = 2\u00d73\u00b2, 24 = 2\u00b3\u00d73. LCM = 2\u00b3\u00d73\u00b2 = 72."
       ],
       "final_answer": "72"
     }
@@ -122,7 +122,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "5 = 5, 6 = 2×3, 10 = 2×5. LCM = 2×3×5 = 30."
+        "5 = 5, 6 = 2\u00d73, 10 = 2\u00d75. LCM = 2\u00d73\u00d75 = 30."
       ],
       "final_answer": "30"
     }
@@ -164,7 +164,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "8 = 2³, 20 = 2²×5, 30 = 2×3×5. LCM = 2³×3×5 = 120."
+        "8 = 2\u00b3, 20 = 2\u00b2\u00d75, 30 = 2\u00d73\u00d75. LCM = 2\u00b3\u00d73\u00d75 = 120."
       ],
       "final_answer": "120"
     }
@@ -185,7 +185,7 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "16 = 2⁴, 24 = 2³×3, 40 = 2³×5. LCM = 2⁴×3×5 = 240."
+        "16 = 2\u2074, 24 = 2\u00b3\u00d73, 40 = 2\u00b3\u00d75. LCM = 2\u2074\u00d73\u00d75 = 240."
       ],
       "final_answer": "240"
     }
@@ -206,9 +206,469 @@
     "solution": {
       "strategy": "Find LCM using prime factorization.",
       "steps": [
-        "9 = 3², 12 = 2²×3, 20 = 2²×5. LCM = 2²×3²×5 = 180."
+        "9 = 3\u00b2, 12 = 2\u00b2\u00d73, 20 = 2\u00b2\u00d75. LCM = 2\u00b2\u00d73\u00b2\u00d75 = 180."
       ],
       "final_answer": "180"
     }
+  },
+  {
+    "question": "What is the least common multiple of 9 and 18?",
+    "options": {
+      "A": "36",
+      "B": "27",
+      "C": "162",
+      "D": "18"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 9 and 18.",
+        "Smallest shared multiple = 18."
+      ],
+      "final_answer": "18"
+    },
+    "id": "17_1_011",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 15 and 14?",
+    "options": {
+      "A": "196",
+      "B": "219",
+      "C": "29",
+      "D": "210"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 15 and 14.",
+        "Smallest shared multiple = 210."
+      ],
+      "final_answer": "210"
+    },
+    "id": "17_1_012",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 9 and 15?",
+    "options": {
+      "A": "45",
+      "B": "54",
+      "C": "135",
+      "D": "30"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 9 and 15.",
+        "Smallest shared multiple = 45."
+      ],
+      "final_answer": "45"
+    },
+    "id": "17_1_013",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 8 and 18?",
+    "options": {
+      "A": "77",
+      "B": "80",
+      "C": "144",
+      "D": "72"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 8 and 18.",
+        "Smallest shared multiple = 72."
+      ],
+      "final_answer": "72"
+    },
+    "id": "17_1_014",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 4 and 20?",
+    "options": {
+      "A": "24",
+      "B": "20",
+      "C": "29",
+      "D": "40"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 4 and 20.",
+        "Smallest shared multiple = 20."
+      ],
+      "final_answer": "20"
+    },
+    "id": "17_1_015",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 4 and 14?",
+    "options": {
+      "A": "28",
+      "B": "56",
+      "C": "33",
+      "D": "32"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 4 and 14.",
+        "Smallest shared multiple = 28."
+      ],
+      "final_answer": "28"
+    },
+    "id": "17_1_016",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 8 and 20?",
+    "options": {
+      "A": "80",
+      "B": "40",
+      "C": "47",
+      "D": "20"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 8 and 20.",
+        "Smallest shared multiple = 40."
+      ],
+      "final_answer": "40"
+    },
+    "id": "17_1_017",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 10 and 15?",
+    "options": {
+      "A": "40",
+      "B": "15",
+      "C": "30",
+      "D": "25"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 10 and 15.",
+        "Smallest shared multiple = 30."
+      ],
+      "final_answer": "30"
+    },
+    "id": "17_1_018",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 12 and 6?",
+    "options": {
+      "A": "19",
+      "B": "6",
+      "C": "72",
+      "D": "12"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 12 and 6.",
+        "Smallest shared multiple = 12."
+      ],
+      "final_answer": "12"
+    },
+    "id": "17_1_019",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 14 and 9?",
+    "options": {
+      "A": "117",
+      "B": "140",
+      "C": "126",
+      "D": "133"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 14 and 9.",
+        "Smallest shared multiple = 126."
+      ],
+      "final_answer": "126"
+    },
+    "id": "17_1_020",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 10 and 15?",
+    "options": {
+      "A": "30",
+      "B": "25",
+      "C": "35",
+      "D": "60"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 10 and 15.",
+        "Smallest shared multiple = 30."
+      ],
+      "final_answer": "30"
+    },
+    "id": "17_1_021",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 8 and 15?",
+    "options": {
+      "A": "120",
+      "B": "23",
+      "C": "105",
+      "D": "128"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 8 and 15.",
+        "Smallest shared multiple = 120."
+      ],
+      "final_answer": "120"
+    },
+    "id": "17_1_022",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 6 and 20?",
+    "options": {
+      "A": "120",
+      "B": "26",
+      "C": "40",
+      "D": "60"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 6 and 20.",
+        "Smallest shared multiple = 60."
+      ],
+      "final_answer": "60"
+    },
+    "id": "17_1_023",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 10 and 9?",
+    "options": {
+      "A": "90",
+      "B": "100",
+      "C": "95",
+      "D": "180"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 10 and 9.",
+        "Smallest shared multiple = 90."
+      ],
+      "final_answer": "90"
+    },
+    "id": "17_1_024",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 15 and 6?",
+    "options": {
+      "A": "45",
+      "B": "30",
+      "C": "24",
+      "D": "35"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 15 and 6.",
+        "Smallest shared multiple = 30."
+      ],
+      "final_answer": "30"
+    },
+    "id": "17_1_025",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 9 and 6?",
+    "options": {
+      "A": "12",
+      "B": "36",
+      "C": "18",
+      "D": "27"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 9 and 6.",
+        "Smallest shared multiple = 18."
+      ],
+      "final_answer": "18"
+    },
+    "id": "17_1_026",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 10 and 6?",
+    "options": {
+      "A": "60",
+      "B": "35",
+      "C": "30",
+      "D": "40"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 10 and 6.",
+        "Smallest shared multiple = 30."
+      ],
+      "final_answer": "30"
+    },
+    "id": "17_1_027",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 14 and 18?",
+    "options": {
+      "A": "252",
+      "B": "32",
+      "C": "135",
+      "D": "126"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 14 and 18.",
+        "Smallest shared multiple = 126."
+      ],
+      "final_answer": "126"
+    },
+    "id": "17_1_028",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 14 and 12?",
+    "options": {
+      "A": "91",
+      "B": "168",
+      "C": "93",
+      "D": "84"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 14 and 12.",
+        "Smallest shared multiple = 84."
+      ],
+      "final_answer": "84"
+    },
+    "id": "17_1_029",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
+  },
+  {
+    "question": "What is the least common multiple of 4 and 12?",
+    "options": {
+      "A": "16",
+      "B": "19",
+      "C": "48",
+      "D": "12"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Find the smallest positive integer divisible by both numbers.",
+      "steps": [
+        "List small multiples of 4 and 12.",
+        "Smallest shared multiple = 12."
+      ],
+      "final_answer": "12"
+    },
+    "id": "17_1_030",
+    "type_id": "17_1",
+    "source": "generated_v2",
+    "canonical_id": "17_001"
   }
 ]

@@ -15,7 +15,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 4×12 + 9 = 57 in; second: 5×12 + 6.5 = 66.5 in",
+        "First: 4\u00d712 + 9 = 57 in; second: 5\u00d712 + 6.5 = 66.5 in",
         "Difference = 66.5 - 57 = 9.5 in"
       ],
       "final_answer": "B"
@@ -37,7 +37,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 3×12 + 4 = 40 in; second: 4×12 + 11 = 59 in",
+        "First: 3\u00d712 + 4 = 40 in; second: 4\u00d712 + 11 = 59 in",
         "Difference = 59 - 40 = 19 in"
       ],
       "final_answer": "C"
@@ -59,7 +59,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 5×12 + 2 = 62 in; second: 6×12 + 8 = 80 in",
+        "First: 5\u00d712 + 2 = 62 in; second: 6\u00d712 + 8 = 80 in",
         "Difference = 80 - 62 = 18 in"
       ],
       "final_answer": "C"
@@ -81,7 +81,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 2×12 + 7 = 31 in; second: 3×12 + 10 = 46 in",
+        "First: 2\u00d712 + 7 = 31 in; second: 3\u00d712 + 10 = 46 in",
         "Difference = 46 - 31 = 15 in"
       ],
       "final_answer": "C"
@@ -103,7 +103,7 @@
     "solution": {
       "strategy": "Convert both lengths to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 6×12 + 3 = 75 in; second: 7×12 + 9.5 = 93.5 in",
+        "First: 6\u00d712 + 3 = 75 in; second: 7\u00d712 + 9.5 = 93.5 in",
         "Difference = 93.5 - 75 = 18.5 in"
       ],
       "final_answer": "C"
@@ -125,7 +125,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 1×12 + 5 = 17 in; second: 2×12 + 11 = 35 in",
+        "First: 1\u00d712 + 5 = 17 in; second: 2\u00d712 + 11 = 35 in",
         "Difference = 35 - 17 = 18 in"
       ],
       "final_answer": "C"
@@ -147,7 +147,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 4×12 + 6 = 54 in; second: 5×12 + 10.5 = 70.5 in",
+        "First: 4\u00d712 + 6 = 54 in; second: 5\u00d712 + 10.5 = 70.5 in",
         "Difference = 70.5 - 54 = 16.5 in"
       ],
       "final_answer": "C"
@@ -169,7 +169,7 @@
     "solution": {
       "strategy": "Convert both lengths to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 3×12 + 8 = 44 in; second: 5×12 + 2 = 62 in",
+        "First: 3\u00d712 + 8 = 44 in; second: 5\u00d712 + 2 = 62 in",
         "Difference = 62 - 44 = 18 in"
       ],
       "final_answer": "C"
@@ -191,7 +191,7 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 2×12 + 3 = 27 in; second: 3×12 + 7.5 = 43.5 in",
+        "First: 2\u00d712 + 3 = 27 in; second: 3\u00d712 + 7.5 = 43.5 in",
         "Difference = 43.5 - 27 = 16.5 in"
       ],
       "final_answer": "C"
@@ -213,10 +213,450 @@
     "solution": {
       "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
       "steps": [
-        "First: 5×12 + 4 = 64 in; second: 6×12 + 11 = 83 in",
+        "First: 5\u00d712 + 4 = 64 in; second: 6\u00d712 + 11 = 83 in",
         "Difference = 83 - 64 = 19 in"
       ],
       "final_answer": "C"
     }
+  },
+  {
+    "question": "If 1 dollar = 100 cents, how many cents are in 15 dollars?",
+    "options": {
+      "A": "1501",
+      "B": "1600",
+      "C": "1500",
+      "D": "1700"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "15 dollars \u00d7 100 cents/dollar = 1500 cents"
+      ],
+      "final_answer": "1500"
+    },
+    "id": "40_1_011",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 9 yards?",
+    "options": {
+      "A": "360",
+      "B": "288",
+      "C": "323",
+      "D": "324"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "9 yards \u00d7 36 inches/yard = 324 inches"
+      ],
+      "final_answer": "324"
+    },
+    "id": "40_1_012",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 hour = 60 minutes, how many minutes are in 9 hours?",
+    "options": {
+      "A": "540",
+      "B": "600",
+      "C": "420",
+      "D": "660"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "9 hours \u00d7 60 minutes/hour = 540 minutes"
+      ],
+      "final_answer": "540"
+    },
+    "id": "40_1_013",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 meter = 100 centimeters, how many centimeters are in 3 meters?",
+    "options": {
+      "A": "200",
+      "B": "299",
+      "C": "300",
+      "D": "500"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "3 meters \u00d7 100 centimeters/meter = 300 centimeters"
+      ],
+      "final_answer": "300"
+    },
+    "id": "40_1_014",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 meter = 100 centimeters, how many centimeters are in 3 meters?",
+    "options": {
+      "A": "299",
+      "B": "300",
+      "C": "200",
+      "D": "301"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "3 meters \u00d7 100 centimeters/meter = 300 centimeters"
+      ],
+      "final_answer": "300"
+    },
+    "id": "40_1_015",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 4 yards?",
+    "options": {
+      "A": "144",
+      "B": "143",
+      "C": "145",
+      "D": "72"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "4 yards \u00d7 36 inches/yard = 144 inches"
+      ],
+      "final_answer": "144"
+    },
+    "id": "40_1_016",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 9 yards?",
+    "options": {
+      "A": "323",
+      "B": "324",
+      "C": "252",
+      "D": "396"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "9 yards \u00d7 36 inches/yard = 324 inches"
+      ],
+      "final_answer": "324"
+    },
+    "id": "40_1_017",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 hour = 60 minutes, how many minutes are in 20 hours?",
+    "options": {
+      "A": "1260",
+      "B": "1080",
+      "C": "1200",
+      "D": "1140"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "20 hours \u00d7 60 minutes/hour = 1200 minutes"
+      ],
+      "final_answer": "1200"
+    },
+    "id": "40_1_018",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 4 yards?",
+    "options": {
+      "A": "144",
+      "B": "143",
+      "C": "180",
+      "D": "108"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "4 yards \u00d7 36 inches/yard = 144 inches"
+      ],
+      "final_answer": "144"
+    },
+    "id": "40_1_019",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 3 yards?",
+    "options": {
+      "A": "36",
+      "B": "107",
+      "C": "180",
+      "D": "108"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "3 yards \u00d7 36 inches/yard = 108 inches"
+      ],
+      "final_answer": "108"
+    },
+    "id": "40_1_020",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 hour = 60 minutes, how many minutes are in 3 hours?",
+    "options": {
+      "A": "179",
+      "B": "180",
+      "C": "240",
+      "D": "181"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "3 hours \u00d7 60 minutes/hour = 180 minutes"
+      ],
+      "final_answer": "180"
+    },
+    "id": "40_1_021",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 dollar = 100 cents, how many cents are in 9 dollars?",
+    "options": {
+      "A": "899",
+      "B": "901",
+      "C": "800",
+      "D": "900"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "9 dollars \u00d7 100 cents/dollar = 900 cents"
+      ],
+      "final_answer": "900"
+    },
+    "id": "40_1_022",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 12 yards?",
+    "options": {
+      "A": "504",
+      "B": "360",
+      "C": "432",
+      "D": "431"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "12 yards \u00d7 36 inches/yard = 432 inches"
+      ],
+      "final_answer": "432"
+    },
+    "id": "40_1_023",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 hour = 60 minutes, how many minutes are in 7 hours?",
+    "options": {
+      "A": "419",
+      "B": "480",
+      "C": "540",
+      "D": "420"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "7 hours \u00d7 60 minutes/hour = 420 minutes"
+      ],
+      "final_answer": "420"
+    },
+    "id": "40_1_024",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 dollar = 100 cents, how many cents are in 5 dollars?",
+    "options": {
+      "A": "300",
+      "B": "501",
+      "C": "500",
+      "D": "700"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "5 dollars \u00d7 100 cents/dollar = 500 cents"
+      ],
+      "final_answer": "500"
+    },
+    "id": "40_1_025",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 hour = 60 minutes, how many minutes are in 6 hours?",
+    "options": {
+      "A": "480",
+      "B": "420",
+      "C": "359",
+      "D": "360"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "6 hours \u00d7 60 minutes/hour = 360 minutes"
+      ],
+      "final_answer": "360"
+    },
+    "id": "40_1_026",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 hour = 60 minutes, how many minutes are in 15 hours?",
+    "options": {
+      "A": "899",
+      "B": "840",
+      "C": "900",
+      "D": "780"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "15 hours \u00d7 60 minutes/hour = 900 minutes"
+      ],
+      "final_answer": "900"
+    },
+    "id": "40_1_027",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 yard = 36 inches, how many inches are in 6 yards?",
+    "options": {
+      "A": "252",
+      "B": "216",
+      "C": "288",
+      "D": "215"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "6 yards \u00d7 36 inches/yard = 216 inches"
+      ],
+      "final_answer": "216"
+    },
+    "id": "40_1_028",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 foot = 12 inches, how many inches are in 6 feet?",
+    "options": {
+      "A": "72",
+      "B": "84",
+      "C": "48",
+      "D": "96"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "6 feet \u00d7 12 inches/foot = 72 inches"
+      ],
+      "final_answer": "72"
+    },
+    "id": "40_1_029",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
+  },
+  {
+    "question": "If 1 meter = 100 centimeters, how many centimeters are in 15 meters?",
+    "options": {
+      "A": "1700",
+      "B": "1400",
+      "C": "1300",
+      "D": "1500"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Multiply the number of larger units by the conversion factor to get the smaller units.",
+      "steps": [
+        "15 meters \u00d7 100 centimeters/meter = 1500 centimeters"
+      ],
+      "final_answer": "1500"
+    },
+    "id": "40_1_030",
+    "type_id": "40_1",
+    "source": "generated_v2",
+    "canonical_id": "40_001"
   }
 ]

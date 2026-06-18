@@ -17,7 +17,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 43/8 to a mixed number.",
-        "Calculate 43 ÷ 8 = 5 with a remainder of 3.",
+        "Calculate 43 \u00f7 8 = 5 with a remainder of 3.",
         "Write the mixed number as 5 3/8."
       ],
       "final_answer": "The mixed number is bigger than 5 and smaller than 6, so (C) is the correct answer."
@@ -41,7 +41,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 67/9 to a mixed number.",
-        "Calculate 67 ÷ 9 = 7 with a remainder of 4.",
+        "Calculate 67 \u00f7 9 = 7 with a remainder of 4.",
         "Write the mixed number as 7 4/9."
       ],
       "final_answer": "The mixed number is bigger than 7 and smaller than 8, so (B) is the correct answer."
@@ -65,7 +65,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 29/5 to a mixed number.",
-        "Calculate 29 ÷ 5 = 5 with a remainder of 4.",
+        "Calculate 29 \u00f7 5 = 5 with a remainder of 4.",
         "Write the mixed number as 5 4/5."
       ],
       "final_answer": "The mixed number is bigger than 5 and smaller than 6, so (B) is the correct answer."
@@ -89,7 +89,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 51/7 to a mixed number.",
-        "Calculate 51 ÷ 7 = 7 with a remainder of 2.",
+        "Calculate 51 \u00f7 7 = 7 with a remainder of 2.",
         "Write the mixed number as 7 2/7."
       ],
       "final_answer": "The mixed number is bigger than 7 and smaller than 8, so (B) is the correct answer."
@@ -113,7 +113,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 38/6 to a mixed number.",
-        "Calculate 38 ÷ 6 = 6 with a remainder of 2.",
+        "Calculate 38 \u00f7 6 = 6 with a remainder of 2.",
         "Write the mixed number as 6 2/6."
       ],
       "final_answer": "The mixed number is bigger than 6 and smaller than 7, so (B) is the correct answer."
@@ -137,7 +137,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 74/10 to a mixed number.",
-        "Calculate 74 ÷ 10 = 7 with a remainder of 4.",
+        "Calculate 74 \u00f7 10 = 7 with a remainder of 4.",
         "Write the mixed number as 7 4/10."
       ],
       "final_answer": "The mixed number is bigger than 7 and smaller than 8, so (B) is the correct answer."
@@ -161,7 +161,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 95/11 to a mixed number.",
-        "Calculate 95 ÷ 11 = 8 with a remainder of 7.",
+        "Calculate 95 \u00f7 11 = 8 with a remainder of 7.",
         "Write the mixed number as 8 7/11."
       ],
       "final_answer": "The mixed number is bigger than 8 and smaller than 9, so (B) is the correct answer."
@@ -185,7 +185,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 22/4 to a mixed number.",
-        "Calculate 22 ÷ 4 = 5 with a remainder of 2.",
+        "Calculate 22 \u00f7 4 = 5 with a remainder of 2.",
         "Write the mixed number as 5 2/4."
       ],
       "final_answer": "The mixed number is bigger than 5 and smaller than 6, so (B) is the correct answer."
@@ -209,7 +209,7 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 61/8 to a mixed number.",
-        "Calculate 61 ÷ 8 = 7 with a remainder of 5.",
+        "Calculate 61 \u00f7 8 = 7 with a remainder of 5.",
         "Write the mixed number as 7 5/8."
       ],
       "final_answer": "The mixed number is bigger than 7 and smaller than 8, so (B) is the correct answer."
@@ -233,10 +233,490 @@
       "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
       "steps": [
         "Convert the improper fraction 83/12 to a mixed number.",
-        "Calculate 83 ÷ 12 = 6 with a remainder of 11.",
+        "Calculate 83 \u00f7 12 = 6 with a remainder of 11.",
         "Write the mixed number as 6 11/12."
       ],
       "final_answer": "The mixed number is bigger than 6 and smaller than 7, so (B) is the correct answer."
     }
+  },
+  {
+    "question": "What is the remainder when 90 is divided by 8?",
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "2",
+      "D": "5"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "8 \u00d7 11 = 88",
+        "90 \u2212 88 = 2",
+        "So 90 \u00f7 8 = 11 remainder 2."
+      ],
+      "final_answer": "2"
+    },
+    "id": "8_1_011",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 77 is divided by 4?",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "4 \u00d7 19 = 76",
+        "77 \u2212 76 = 1",
+        "So 77 \u00f7 4 = 19 remainder 1."
+      ],
+      "final_answer": "1"
+    },
+    "id": "8_1_012",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 78 is divided by 4?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "3",
+      "D": "2"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "4 \u00d7 19 = 76",
+        "78 \u2212 76 = 2",
+        "So 78 \u00f7 4 = 19 remainder 2."
+      ],
+      "final_answer": "2"
+    },
+    "id": "8_1_013",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 106 is divided by 8?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "1"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "8 \u00d7 13 = 104",
+        "106 \u2212 104 = 2",
+        "So 106 \u00f7 8 = 13 remainder 2."
+      ],
+      "final_answer": "2"
+    },
+    "id": "8_1_014",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 59 is divided by 5?",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "5 \u00d7 11 = 55",
+        "59 \u2212 55 = 4",
+        "So 59 \u00f7 5 = 11 remainder 4."
+      ],
+      "final_answer": "4"
+    },
+    "id": "8_1_015",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 118 is divided by 9?",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "3",
+      "D": "2"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "9 \u00d7 13 = 117",
+        "118 \u2212 117 = 1",
+        "So 118 \u00f7 9 = 13 remainder 1."
+      ],
+      "final_answer": "1"
+    },
+    "id": "8_1_016",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 121 is divided by 7?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "2"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "7 \u00d7 17 = 119",
+        "121 \u2212 119 = 2",
+        "So 121 \u00f7 7 = 17 remainder 2."
+      ],
+      "final_answer": "2"
+    },
+    "id": "8_1_017",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 191 is divided by 6?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "6 \u00d7 31 = 186",
+        "191 \u2212 186 = 5",
+        "So 191 \u00f7 6 = 31 remainder 5."
+      ],
+      "final_answer": "5"
+    },
+    "id": "8_1_018",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 219 is divided by 7?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "2",
+      "D": "3"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "7 \u00d7 31 = 217",
+        "219 \u2212 217 = 2",
+        "So 219 \u00f7 7 = 31 remainder 2."
+      ],
+      "final_answer": "2"
+    },
+    "id": "8_1_019",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 83 is divided by 7?",
+    "options": {
+      "A": "5",
+      "B": "3",
+      "C": "6",
+      "D": "4"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "7 \u00d7 11 = 77",
+        "83 \u2212 77 = 6",
+        "So 83 \u00f7 7 = 11 remainder 6."
+      ],
+      "final_answer": "6"
+    },
+    "id": "8_1_020",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 148 is divided by 5?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "0",
+      "D": "2"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "5 \u00d7 29 = 145",
+        "148 \u2212 145 = 3",
+        "So 148 \u00f7 5 = 29 remainder 3."
+      ],
+      "final_answer": "3"
+    },
+    "id": "8_1_021",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 158 is divided by 5?",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "1",
+      "D": "4"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "5 \u00d7 31 = 155",
+        "158 \u2212 155 = 3",
+        "So 158 \u00f7 5 = 31 remainder 3."
+      ],
+      "final_answer": "3"
+    },
+    "id": "8_1_022",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 47 is divided by 4?",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "0"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "4 \u00d7 11 = 44",
+        "47 \u2212 44 = 3",
+        "So 47 \u00f7 4 = 11 remainder 3."
+      ],
+      "final_answer": "3"
+    },
+    "id": "8_1_023",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 138 is divided by 7?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "4",
+      "D": "6"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "7 \u00d7 19 = 133",
+        "138 \u2212 133 = 5",
+        "So 138 \u00f7 7 = 19 remainder 5."
+      ],
+      "final_answer": "5"
+    },
+    "id": "8_1_024",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 67 is divided by 6?",
+    "options": {
+      "A": "0",
+      "B": "4",
+      "C": "3",
+      "D": "1"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "6 \u00d7 11 = 66",
+        "67 \u2212 66 = 1",
+        "So 67 \u00f7 6 = 11 remainder 1."
+      ],
+      "final_answer": "1"
+    },
+    "id": "8_1_025",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 189 is divided by 11?",
+    "options": {
+      "A": "5",
+      "B": "1",
+      "C": "2",
+      "D": "0"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "11 \u00d7 17 = 187",
+        "189 \u2212 187 = 2",
+        "So 189 \u00f7 11 = 17 remainder 2."
+      ],
+      "final_answer": "2"
+    },
+    "id": "8_1_026",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 81 is divided by 6?",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "5",
+      "D": "2"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "6 \u00d7 13 = 78",
+        "81 \u2212 78 = 3",
+        "So 81 \u00f7 6 = 13 remainder 3."
+      ],
+      "final_answer": "3"
+    },
+    "id": "8_1_027",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 67 is divided by 6?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "6 \u00d7 11 = 66",
+        "67 \u2212 66 = 1",
+        "So 67 \u00f7 6 = 11 remainder 1."
+      ],
+      "final_answer": "1"
+    },
+    "id": "8_1_028",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 236 is divided by 8?",
+    "options": {
+      "A": "5",
+      "B": "1",
+      "C": "4",
+      "D": "2"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "8 \u00d7 29 = 232",
+        "236 \u2212 232 = 4",
+        "So 236 \u00f7 8 = 29 remainder 4."
+      ],
+      "final_answer": "4"
+    },
+    "id": "8_1_029",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
+  },
+  {
+    "question": "What is the remainder when 95 is divided by 7?",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Divide and find what is left over after taking out as many groups of the divisor as possible.",
+      "steps": [
+        "7 \u00d7 13 = 91",
+        "95 \u2212 91 = 4",
+        "So 95 \u00f7 7 = 13 remainder 4."
+      ],
+      "final_answer": "4"
+    },
+    "id": "8_1_030",
+    "type_id": "8_1",
+    "source": "generated_v2",
+    "canonical_id": null
   }
 ]

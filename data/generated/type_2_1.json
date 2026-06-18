@@ -39,8 +39,8 @@
     "solution": {
       "strategy": "Substitute x = 3 and solve for y.",
       "steps": [
-        "3(3)(2y - 3) = 45 → 9(2y - 3) = 45",
-        "2y - 3 = 5 → y = 4"
+        "3(3)(2y - 3) = 45 \u2192 9(2y - 3) = 45",
+        "2y - 3 = 5 \u2192 y = 4"
       ],
       "final_answer": "C"
     }
@@ -61,7 +61,7 @@
     "solution": {
       "strategy": "Substitute x = 3 and solve for y.",
       "steps": [
-        "9(2y - 3) = 27 → 2y - 3 = 3 → y = 3"
+        "9(2y - 3) = 27 \u2192 2y - 3 = 3 \u2192 y = 3"
       ],
       "final_answer": "B"
     }
@@ -82,7 +82,7 @@
     "solution": {
       "strategy": "Substitute x = 1 and solve for y.",
       "steps": [
-        "3(4y - 1) = 9 → 4y - 1 = 3 → y = 1"
+        "3(4y - 1) = 9 \u2192 4y - 1 = 3 \u2192 y = 1"
       ],
       "final_answer": "B"
     }
@@ -103,7 +103,7 @@
     "solution": {
       "strategy": "Substitute x = 4 and solve for y.",
       "steps": [
-        "16(2y - 4) = 32 → 2y - 4 = 2 → y = 3"
+        "16(2y - 4) = 32 \u2192 2y - 4 = 2 \u2192 y = 3"
       ],
       "final_answer": "A"
     }
@@ -124,7 +124,7 @@
     "solution": {
       "strategy": "Substitute x = 5 and solve for y.",
       "steps": [
-        "10(2y - 5) = 50 → 2y - 5 = 5 → y = 5"
+        "10(2y - 5) = 50 \u2192 2y - 5 = 5 \u2192 y = 5"
       ],
       "final_answer": "B"
     }
@@ -145,7 +145,7 @@
     "solution": {
       "strategy": "Substitute x = 2 and solve for y.",
       "steps": [
-        "8(3y - 2) = 80 → 3y - 2 = 10 → y = 4"
+        "8(3y - 2) = 80 \u2192 3y - 2 = 10 \u2192 y = 4"
       ],
       "final_answer": "C"
     }
@@ -166,7 +166,7 @@
     "solution": {
       "strategy": "Substitute x = 2 and solve for y.",
       "steps": [
-        "8(3y - 2) = 56 → 3y - 2 = 7 → y = 3"
+        "8(3y - 2) = 56 \u2192 3y - 2 = 7 \u2192 y = 3"
       ],
       "final_answer": "B"
     }
@@ -187,7 +187,7 @@
     "solution": {
       "strategy": "Substitute x = 3 and solve for y.",
       "steps": [
-        "6(5y - 3) = 72 → 5y - 3 = 12 → y = 3"
+        "6(5y - 3) = 72 \u2192 5y - 3 = 12 \u2192 y = 3"
       ],
       "final_answer": "B"
     }
@@ -208,9 +208,509 @@
     "solution": {
       "strategy": "Substitute x = 4 and solve for y.",
       "steps": [
-        "12(4y - 4) = 96 → 4y - 4 = 8 → y = 3"
+        "12(4y - 4) = 96 \u2192 4y - 4 = 8 \u2192 y = 3"
       ],
       "final_answer": "A"
     }
+  },
+  {
+    "question": "If x = 7 and 3x + 2y = 37, what is the value of y?",
+    "options": {
+      "A": "3",
+      "B": "7",
+      "C": "5",
+      "D": "8"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 7: 3(7) + 2y = 37",
+        "Simplify: 21 + 2y = 37",
+        "Subtract 21: 2y = 16",
+        "Divide by 2: y = 8"
+      ],
+      "final_answer": "8"
+    },
+    "id": "2_1_011",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 6 and 3x + 4y = 42, what is the value of y?",
+    "options": {
+      "A": "9",
+      "B": "7",
+      "C": "11",
+      "D": "6"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 6: 3(6) + 4y = 42",
+        "Simplify: 18 + 4y = 42",
+        "Subtract 18: 4y = 24",
+        "Divide by 4: y = 6"
+      ],
+      "final_answer": "6"
+    },
+    "id": "2_1_012",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 8 and 5x + 3y = 52, what is the value of y?",
+    "options": {
+      "A": "2",
+      "B": "6",
+      "C": "9",
+      "D": "4"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 8: 5(8) + 3y = 52",
+        "Simplify: 40 + 3y = 52",
+        "Subtract 40: 3y = 12",
+        "Divide by 3: y = 4"
+      ],
+      "final_answer": "4"
+    },
+    "id": "2_1_013",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 7 and 5x + 2y = 55, what is the value of y?",
+    "options": {
+      "A": "13",
+      "B": "5",
+      "C": "7",
+      "D": "10"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 7: 5(7) + 2y = 55",
+        "Simplify: 35 + 2y = 55",
+        "Subtract 35: 2y = 20",
+        "Divide by 2: y = 10"
+      ],
+      "final_answer": "10"
+    },
+    "id": "2_1_014",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 2 and 3x + 2y = 16, what is the value of y?",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "3",
+      "D": "5"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 2: 3(2) + 2y = 16",
+        "Simplify: 6 + 2y = 16",
+        "Subtract 6: 2y = 10",
+        "Divide by 2: y = 5"
+      ],
+      "final_answer": "5"
+    },
+    "id": "2_1_015",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 4 and 2x + 3y = 38, what is the value of y?",
+    "options": {
+      "A": "12",
+      "B": "11",
+      "C": "10",
+      "D": "15"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 4: 2(4) + 3y = 38",
+        "Simplify: 8 + 3y = 38",
+        "Subtract 8: 3y = 30",
+        "Divide by 3: y = 10"
+      ],
+      "final_answer": "10"
+    },
+    "id": "2_1_016",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 2 and 3x + 5y = 26, what is the value of y?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "9"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 2: 3(2) + 5y = 26",
+        "Simplify: 6 + 5y = 26",
+        "Subtract 6: 5y = 20",
+        "Divide by 5: y = 4"
+      ],
+      "final_answer": "4"
+    },
+    "id": "2_1_017",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 8 and 3x + 5y = 39, what is the value of y?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "6",
+      "D": "1"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 8: 3(8) + 5y = 39",
+        "Simplify: 24 + 5y = 39",
+        "Subtract 24: 5y = 15",
+        "Divide by 5: y = 3"
+      ],
+      "final_answer": "3"
+    },
+    "id": "2_1_018",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 5 and 5x + 3y = 34, what is the value of y?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "3",
+      "D": "6"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 5: 5(5) + 3y = 34",
+        "Simplify: 25 + 3y = 34",
+        "Subtract 25: 3y = 9",
+        "Divide by 3: y = 3"
+      ],
+      "final_answer": "3"
+    },
+    "id": "2_1_019",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 3 and 2x + 3y = 36, what is the value of y?",
+    "options": {
+      "A": "15",
+      "B": "10",
+      "C": "8",
+      "D": "12"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 3: 2(3) + 3y = 36",
+        "Simplify: 6 + 3y = 36",
+        "Subtract 6: 3y = 30",
+        "Divide by 3: y = 10"
+      ],
+      "final_answer": "10"
+    },
+    "id": "2_1_020",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 3 and 4x + 3y = 30, what is the value of y?",
+    "options": {
+      "A": "3",
+      "B": "10",
+      "C": "9",
+      "D": "6"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 3: 4(3) + 3y = 30",
+        "Simplify: 12 + 3y = 30",
+        "Subtract 12: 3y = 18",
+        "Divide by 3: y = 6"
+      ],
+      "final_answer": "6"
+    },
+    "id": "2_1_021",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 3 and 4x + 4y = 28, what is the value of y?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "1"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 3: 4(3) + 4y = 28",
+        "Simplify: 12 + 4y = 28",
+        "Subtract 12: 4y = 16",
+        "Divide by 4: y = 4"
+      ],
+      "final_answer": "4"
+    },
+    "id": "2_1_022",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 8 and 5x + 3y = 58, what is the value of y?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "2",
+      "D": "8"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 8: 5(8) + 3y = 58",
+        "Simplify: 40 + 3y = 58",
+        "Subtract 40: 3y = 18",
+        "Divide by 3: y = 6"
+      ],
+      "final_answer": "6"
+    },
+    "id": "2_1_023",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 8 and 5x + 3y = 58, what is the value of y?",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "3",
+      "D": "10"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 8: 5(8) + 3y = 58",
+        "Simplify: 40 + 3y = 58",
+        "Subtract 40: 3y = 18",
+        "Divide by 3: y = 6"
+      ],
+      "final_answer": "6"
+    },
+    "id": "2_1_024",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 5 and 2x + 2y = 30, what is the value of y?",
+    "options": {
+      "A": "11",
+      "B": "5",
+      "C": "8",
+      "D": "10"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 5: 2(5) + 2y = 30",
+        "Simplify: 10 + 2y = 30",
+        "Subtract 10: 2y = 20",
+        "Divide by 2: y = 10"
+      ],
+      "final_answer": "10"
+    },
+    "id": "2_1_025",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 5 and 4x + 3y = 44, what is the value of y?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "8",
+      "D": "12"
+    },
+    "correct": "C",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 5: 4(5) + 3y = 44",
+        "Simplify: 20 + 3y = 44",
+        "Subtract 20: 3y = 24",
+        "Divide by 3: y = 8"
+      ],
+      "final_answer": "8"
+    },
+    "id": "2_1_026",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 2 and 5x + 3y = 28, what is the value of y?",
+    "options": {
+      "A": "11",
+      "B": "9",
+      "C": "2",
+      "D": "6"
+    },
+    "correct": "D",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 2: 5(2) + 3y = 28",
+        "Simplify: 10 + 3y = 28",
+        "Subtract 10: 3y = 18",
+        "Divide by 3: y = 6"
+      ],
+      "final_answer": "6"
+    },
+    "id": "2_1_027",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 3 and 2x + 3y = 27, what is the value of y?",
+    "options": {
+      "A": "9",
+      "B": "7",
+      "C": "11",
+      "D": "10"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 3: 2(3) + 3y = 27",
+        "Simplify: 6 + 3y = 27",
+        "Subtract 6: 3y = 21",
+        "Divide by 3: y = 7"
+      ],
+      "final_answer": "7"
+    },
+    "id": "2_1_028",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 4 and 4x + 4y = 28, what is the value of y?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "1"
+    },
+    "correct": "A",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 4: 4(4) + 4y = 28",
+        "Simplify: 16 + 4y = 28",
+        "Subtract 16: 4y = 12",
+        "Divide by 4: y = 3"
+      ],
+      "final_answer": "3"
+    },
+    "id": "2_1_029",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
+  },
+  {
+    "question": "If x = 3 and 4x + 4y = 48, what is the value of y?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "14"
+    },
+    "correct": "B",
+    "image_path": null,
+    "solution": {
+      "strategy": "Substitute the known value of x into the equation, simplify, and solve for y.",
+      "steps": [
+        "Substitute x = 3: 4(3) + 4y = 48",
+        "Simplify: 12 + 4y = 48",
+        "Subtract 12: 4y = 36",
+        "Divide by 4: y = 9"
+      ],
+      "final_answer": "9"
+    },
+    "id": "2_1_030",
+    "type_id": "2_1",
+    "source": "generated_v2",
+    "canonical_id": "2_001"
   }
 ]
