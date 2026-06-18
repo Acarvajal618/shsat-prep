@@ -212,6 +212,41 @@
       touch-action: none !important;
     }
 
+    /* iPad's "double-tap with Pencil to select word" gesture works at a
+       lower level than JS pointer events. The only reliable way to block
+       it is to make text content non-tappable, so iOS never registers
+       a pen-on-text event. Interactive elements stay tappable. */
+    body.scratchpad-loaded .hw-q-text,
+    body.scratchpad-loaded .hw-q-number,
+    body.scratchpad-loaded .hw-q-type-link,
+    body.scratchpad-loaded .hw-solution,
+    body.scratchpad-loaded .hw-diagram,
+    body.scratchpad-loaded .hw-title,
+    body.scratchpad-loaded .hw-date,
+    body.scratchpad-loaded .hw-meta,
+    body.scratchpad-loaded .hw-progress-label,
+    body.scratchpad-loaded .hw-locked-hint,
+    body.scratchpad-loaded .hw-locked-badge,
+    body.scratchpad-loaded .hw-sets-badge,
+    body.scratchpad-loaded .hw-type-badge,
+    body.scratchpad-loaded h1, body.scratchpad-loaded h2, body.scratchpad-loaded h3,
+    body.scratchpad-loaded p, body.scratchpad-loaded li,
+    body.scratchpad-loaded .session-header h2,
+    body.scratchpad-loaded .hw-summary {
+      pointer-events: none !important;
+    }
+    /* But keep interactive elements working */
+    body.scratchpad-loaded .hw-option,
+    body.scratchpad-loaded .hw-submit,
+    body.scratchpad-loaded .btn-back,
+    body.scratchpad-loaded .hw-card,
+    body.scratchpad-loaded button,
+    body.scratchpad-loaded .unlock-btn,
+    body.scratchpad-loaded .unlock-input,
+    body.scratchpad-loaded a {
+      pointer-events: auto !important;
+    }
+
     @media (max-width: 600px) {
       #scratchpad-toolbar { bottom: 10px; right: 10px; padding: 6px 8px; gap: 6px; }
       #scratchpad-toolbar button { width: 34px; height: 34px; font-size: 16px; }
