@@ -27,6 +27,12 @@
   // ── Canvas (page-sized, behind toolbar) ──
   const canvas = document.createElement('canvas');
   canvas.id = 'scratchpad-canvas';
+  // role=application tells iOS "this is a custom widget; don't apply default
+  // text-selection / Scribble behavior over it". Combined with the
+  // touchstart preventDefault below, this stops Apple Pencil from firing the
+  // system "double-tap to select word" gesture between strokes.
+  canvas.setAttribute('role', 'application');
+  canvas.setAttribute('aria-label', 'scratchpad drawing surface');
   Object.assign(canvas.style, {
     position: 'absolute',
     top: '0',
@@ -122,6 +128,22 @@
   canvas.addEventListener('pointerup', endStroke);
   canvas.addEventListener('pointercancel', endStroke);
   canvas.addEventListener('pointerleave', endStroke);
+
+  // Block iPadOS's system-level Pencil gestures (double-tap-to-select,
+  // Scribble handwriting recognition, gesture pinch) by aggressively
+  // preventDefault-ing every native touch/gesture event on the canvas.
+  // These run BEFORE pointer events and need passive:false to actually
+  // cancel anything.
+  const swallow = (e) => {
+    if (mode === 'scroll') return;
+    e.preventDefault();
+  };
+  canvas.addEventListener('touchstart', swallow, { passive: false });
+  canvas.addEventListener('touchmove',  swallow, { passive: false });
+  canvas.addEventListener('touchend',   swallow, { passive: false });
+  canvas.addEventListener('gesturestart',  swallow, { passive: false });
+  canvas.addEventListener('gesturechange', swallow, { passive: false });
+  canvas.addEventListener('gestureend',    swallow, { passive: false });
 
   // ── Toolbar (fixed floating UI) ──
   const toolbar = document.createElement('div');
