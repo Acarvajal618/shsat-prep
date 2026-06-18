@@ -13,14 +13,16 @@
   const params = new URLSearchParams(window.location.search);
   if (params.get('scratchpad') !== '1') return;
 
-  const STROKE_WIDTH = 2.5;
   const DEFAULT_COLOR = '#1a73e8';
-  const ERASER_RADIUS = 22;  // px around pointer that wipes strokes
+  const PEN_SIZES = [1.5, 2.5, 4, 6, 9];  // S, M (default), L, XL, XXL
+  const ERASER_SIZES = [16, 22, 32, 48];  // S, M (default), L, XL
   let strokes = [];
   let currentStroke = null;
   let drawing = false;
   let mode = 'scroll';      // 'scroll' | 'draw' | 'erase'
   let color = DEFAULT_COLOR;
+  let penSize = PEN_SIZES[1];
+  let eraserRadius = ERASER_SIZES[1];
 
   // ── Canvas (page-sized, behind toolbar) ──
   const canvas = document.createElement('canvas');
@@ -53,7 +55,7 @@
     for (const s of strokes) {
       if (s.points.length < 1) continue;
       ctx.strokeStyle = s.color;
-      ctx.lineWidth = s.width || STROKE_WIDTH;
+      ctx.lineWidth = s.width || penSize;
       ctx.beginPath();
       ctx.moveTo(s.points[0].x, s.points[0].y);
       for (let i = 1; i < s.points.length; i++) {
@@ -72,7 +74,7 @@
   }
 
   function eraseAt(x, y) {
-    const r2 = ERASER_RADIUS * ERASER_RADIUS;
+    const r2 = eraserRadius * eraserRadius;
     const before = strokes.length;
     strokes = strokes.filter((s) => {
       for (let i = 0; i < s.points.length; i++) {
@@ -91,7 +93,7 @@
     canvas.setPointerCapture(e.pointerId);
     if (mode === 'draw') {
       drawing = true;
-      currentStroke = { color, width: STROKE_WIDTH, points: [pageCoord(e)] };
+      currentStroke = { color, width: penSize, points: [pageCoord(e)] };
       strokes.push(currentStroke);
       redraw();
     } else if (mode === 'erase') {
@@ -128,6 +130,10 @@
     <button id="sp-mode" type="button" title="Draw mode">✏️</button>
     <button id="sp-erase" type="button" title="Eraser (removes whole strokes)">🩹</button>
     <input type="color" id="sp-color" value="${DEFAULT_COLOR}" title="Stroke color">
+    <div id="sp-size-wrap" title="Pen / eraser size">
+      <span id="sp-size-preview"></span>
+      <input type="range" id="sp-size" min="0" max="${PEN_SIZES.length - 1}" step="1" value="1">
+    </div>
     <button id="sp-undo" type="button" title="Undo last stroke">↶</button>
     <button id="sp-clear" type="button" title="Clear all">🗑️</button>
     <span id="sp-status">Scroll</span>
@@ -154,6 +160,20 @@
     #scratchpad-toolbar input[type=color] {
       width: 38px; height: 38px; border: 1px solid #d0d0d8;
       border-radius: 8px; cursor: pointer; padding: 2px; background: #fff;
+    }
+    #sp-size-wrap {
+      display: flex; align-items: center; gap: 6px;
+      padding: 0 4px; border: 1px solid #d0d0d8; border-radius: 8px;
+      height: 38px; background: #f4f4f7;
+    }
+    #sp-size-wrap input[type=range] {
+      width: 70px; margin: 0;
+    }
+    #sp-size-preview {
+      display: inline-block;
+      background: currentColor;
+      border-radius: 50%;
+      flex-shrink: 0;
     }
     #sp-status {
       font-size: 13px; font-weight: 600;
@@ -208,6 +228,42 @@
     document.getElementById('sp-mode').textContent = (mode === 'draw') ? '🖊️' : '✏️';
     const label = mode === 'draw' ? 'Draw' : (mode === 'erase' ? 'Erase' : 'Scroll');
     document.getElementById('sp-status').textContent = label;
+    syncSizeSlider();
+  }
+
+  function syncSizeSlider() {
+    const slider = document.getElementById('sp-size');
+    if (!slider) return;
+    const sizes = (mode === 'erase') ? ERASER_SIZES : PEN_SIZES;
+    slider.max = sizes.length - 1;
+    if (mode === 'erase') {
+      // Find the closest matching index for current eraserRadius
+      let idx = ERASER_SIZES.indexOf(eraserRadius);
+      if (idx < 0) idx = 1;
+      slider.value = idx;
+    } else {
+      let idx = PEN_SIZES.indexOf(penSize);
+      if (idx < 0) idx = 1;
+      slider.value = idx;
+    }
+    updateSizePreview();
+  }
+
+  function updateSizePreview() {
+    const preview = document.getElementById('sp-size-preview');
+    if (!preview) return;
+    if (mode === 'erase') {
+      // Cap visual at 18px so the toolbar stays compact
+      const visual = Math.min(eraserRadius / 2, 18);
+      preview.style.width = visual + 'px';
+      preview.style.height = visual + 'px';
+      preview.style.color = '#999';
+    } else {
+      const visual = Math.min(Math.max(penSize * 2, 4), 18);
+      preview.style.width = visual + 'px';
+      preview.style.height = visual + 'px';
+      preview.style.color = color;
+    }
   }
 
   // ── Wire everything once DOM is ready ──
@@ -223,6 +279,16 @@
     });
     document.getElementById('sp-color').addEventListener('input', (e) => {
       color = e.target.value;
+      updateSizePreview();
+    });
+    document.getElementById('sp-size').addEventListener('input', (e) => {
+      const idx = parseInt(e.target.value, 10);
+      if (mode === 'erase') {
+        eraserRadius = ERASER_SIZES[idx];
+      } else {
+        penSize = PEN_SIZES[idx];
+      }
+      updateSizePreview();
     });
     document.getElementById('sp-undo').addEventListener('click', () => {
       strokes.pop();
@@ -235,6 +301,7 @@
         redraw();
       }
     });
+    syncSizeSlider();
     resize();
 
     // Resize watcher (content changes as prep questions load / images fetch)

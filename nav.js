@@ -131,13 +131,13 @@
   const _compact = _q.indexOf('compact=1') !== -1 || _scratchpad;
   if (_compact) {
     const c = document.createElement('script');
-    c.src = 'compact.js?v=1';
+    c.src = 'compact.js?v=2';
     c.async = true;
     document.head.appendChild(c);
   }
   if (_scratchpad) {
     const s = document.createElement('script');
-    s.src = 'scratchpad.js?v=4';
+    s.src = 'scratchpad.js?v=5';
     s.async = true;
     document.head.appendChild(s);
   }
