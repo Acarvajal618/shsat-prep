@@ -16,6 +16,14 @@
   const DEFAULT_COLOR = '#1a73e8';
   const PEN_SIZES = [1.5, 2.5, 4, 6, 9];  // S, M (default), L, XL, XXL
   const ERASER_SIZES = [16, 22, 32, 48];  // S, M (default), L, XL
+  const QUICK_COLORS = [
+    { name: 'black',  hex: '#000000' },
+    { name: 'red',    hex: '#d93025' },
+    { name: 'green',  hex: '#137333' },
+    { name: 'purple', hex: '#9b1cbf' },
+    { name: 'orange', hex: '#f29900' },
+    { name: 'blue',   hex: '#1a73e8' },
+  ];
   let strokes = [];
   let currentStroke = null;
   let drawing = false;
@@ -148,10 +156,14 @@
   // ── Toolbar (fixed floating UI) ──
   const toolbar = document.createElement('div');
   toolbar.id = 'scratchpad-toolbar';
+  const swatchesHtml = QUICK_COLORS.map(c =>
+    `<button class="sp-swatch" type="button" data-color="${c.hex}" title="${c.name}" style="background:${c.hex}"></button>`
+  ).join('');
   toolbar.innerHTML = `
     <button id="sp-mode" type="button" title="Draw mode">✏️</button>
     <button id="sp-erase" type="button" title="Eraser (removes whole strokes)">🩹</button>
-    <input type="color" id="sp-color" value="${DEFAULT_COLOR}" title="Stroke color">
+    <div id="sp-swatches">${swatchesHtml}</div>
+    <input type="color" id="sp-color" value="${DEFAULT_COLOR}" title="Custom color">
     <div id="sp-size-wrap" title="Pen / eraser size">
       <span id="sp-size-preview"></span>
       <input type="range" id="sp-size" min="0" max="${PEN_SIZES.length - 1}" step="1" value="1">
@@ -196,6 +208,26 @@
       background: currentColor;
       border-radius: 50%;
       flex-shrink: 0;
+    }
+    #sp-swatches {
+      display: flex; gap: 4px;
+      padding: 0 4px;
+    }
+    .sp-swatch {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 1px #d0d0d8;
+      cursor: pointer; padding: 0;
+      transition: transform 0.1s;
+    }
+    .sp-swatch:hover { transform: scale(1.08); }
+    .sp-swatch.active {
+      box-shadow: 0 0 0 2px #333;
+      transform: scale(1.12);
+    }
+    @media (max-width: 600px) {
+      .sp-swatch { width: 22px; height: 22px; }
     }
     #sp-status {
       font-size: 13px; font-weight: 600;
@@ -312,6 +344,18 @@
     updateSizePreview();
   }
 
+  function setColor(hex) {
+    color = hex.toLowerCase();
+    document.getElementById('sp-color').value = color;
+    document.querySelectorAll('.sp-swatch').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.color.toLowerCase() === color);
+    });
+    updateSizePreview();
+    // Switching color while erasing should switch back to drawing — the
+    // user clearly wants to ink.
+    if (mode === 'erase') setMode('draw');
+  }
+
   function updateSizePreview() {
     const preview = document.getElementById('sp-size-preview');
     if (!preview) return;
@@ -382,8 +426,10 @@
       setMode(mode === 'erase' ? 'scroll' : 'erase');
     });
     document.getElementById('sp-color').addEventListener('input', (e) => {
-      color = e.target.value;
-      updateSizePreview();
+      setColor(e.target.value);
+    });
+    document.querySelectorAll('.sp-swatch').forEach(btn => {
+      btn.addEventListener('click', () => setColor(btn.dataset.color));
     });
     document.getElementById('sp-size').addEventListener('input', (e) => {
       const idx = parseInt(e.target.value, 10);
@@ -406,6 +452,7 @@
       }
     });
     syncSizeSlider();
+    setColor(DEFAULT_COLOR);  // marks the matching swatch active
     resize();
 
     // Resize watcher (content changes as prep questions load / images fetch)
