@@ -162,14 +162,25 @@
     body.scratchpad-draw-mode #sp-status { color: #1a73e8; }
     body.scratchpad-draw-mode { overflow-x: hidden; }
 
-    /* Prevent iPad/iOS from triggering text selection, copy popup, or the
-       magnifier loupe when the Apple Pencil is dragging across content. */
-    body.scratchpad-draw-mode,
-    body.scratchpad-draw-mode * {
+    /* Whenever the scratchpad is loaded (even in scroll mode), suppress
+       iOS text selection, the "Copy / Search / Ask AI" callout, and the
+       magnifier loupe. The user is recording video — they don't need to
+       select text on this page. */
+    body.scratchpad-loaded,
+    body.scratchpad-loaded * {
       -webkit-user-select: none !important;
+      -moz-user-select: none !important;
+      -ms-user-select: none !important;
       user-select: none !important;
       -webkit-touch-callout: none !important;
       -webkit-tap-highlight-color: transparent !important;
+    }
+    /* Keep form inputs (password box) usable */
+    body.scratchpad-loaded input,
+    body.scratchpad-loaded textarea {
+      -webkit-user-select: text !important;
+      user-select: text !important;
+      -webkit-touch-callout: default !important;
     }
     body.scratchpad-draw-mode {
       touch-action: none;
@@ -201,6 +212,7 @@
 
   // ── Wire everything once DOM is ready ──
   function init() {
+    document.body.classList.add('scratchpad-loaded');
     document.body.appendChild(canvas);
     document.body.appendChild(toolbar);
     document.getElementById('sp-mode').addEventListener('click', () => {
