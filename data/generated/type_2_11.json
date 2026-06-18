@@ -1,0 +1,215 @@
+[
+  {
+    "id": "2_11_001",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 4, what is the value of y?",
+    "options": {
+      "A": "-9",
+      "B": "-1",
+      "C": "1",
+      "D": "Cannot be determined from the information given."
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "Simplify: 20 - y + x = 30 - x + y → 2x - 2y = 10 → x - y = 5.",
+      "steps": [
+        "20 − y + x = 30 − x + y",
+        "2x − 2y = 10, x − y = 5",
+        "4 − y = 5 → y = −1"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_11_002",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 5, what is the value of y?",
+    "options": {
+      "A": "-1",
+      "B": "0",
+      "C": "1",
+      "D": "5"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 5 - y = 5 → y = 0.",
+      "steps": [
+        "x − y = 5",
+        "y = 0"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_11_003",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 6, what is the value of y?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "6"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 6 - y = 5 → y = 1.",
+      "steps": [
+        "y = 1"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_11_004",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 10, what is the value of y?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 10 - y = 5 → y = 5.",
+      "steps": [
+        "y = 5"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "2_11_005",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 3, what is the value of y?",
+    "options": {
+      "A": "-2",
+      "B": "-1",
+      "C": "0",
+      "D": "2"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 3 - y = 5 → y = -2.",
+      "steps": [
+        "y = −2"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "2_11_006",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 8, what is the value of y?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 8 - y = 5 → y = 3.",
+      "steps": [
+        "y = 3"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_11_007",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 0, what is the value of y?",
+    "options": {
+      "A": "-5",
+      "B": "-1",
+      "C": "0",
+      "D": "5"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 0 - y = 5 → y = -5.",
+      "steps": [
+        "y = −5"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "2_11_008",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 7, what is the value of y?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 7 - y = 5 → y = 2.",
+      "steps": [
+        "y = 2"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_11_009",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 9, what is the value of y?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 9 - y = 5 → y = 4.",
+      "steps": [
+        "y = 4"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "2_11_010",
+    "type_id": "2_11",
+    "question": "Given that 20 - (y - x) = 30 - (x - y), and x = 11, what is the value of y?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "2_011",
+    "solution": {
+      "strategy": "x - y = 5; 11 - y = 5 → y = 6.",
+      "steps": [
+        "y = 6"
+      ],
+      "final_answer": "C"
+    }
+  }
+]

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Percentage Trainer — SHSAT Prep</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .trainer-hero { text-align: center; padding: 2rem 1rem 1.25rem; }
+    .trainer-hero h1 { font-size: 1.9rem; margin: 0 0 0.3rem; }
+    .trainer-hero p { color: var(--text-muted); margin: 0; font-size: 1rem; }
+
+    .score-banner {
+      background: linear-gradient(135deg, #4c1d63 0%, #c026d3 100%);
+      border-radius: var(--radius);
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .score-banner .label { font-size: 0.8rem; opacity: 0.75; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.2rem; }
+    .score-banner .value { font-size: 1.6rem; font-weight: 800; line-height: 1; }
+    .score-item { text-align: center; }
+    .score-divider { width: 1px; background: rgba(255,255,255,0.2); height: 40px; }
+
+    .type-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+    .type-pill {
+      padding: 0.45em 1.1em; border-radius: 99px; border: 2px solid var(--border);
+      background: var(--surface); color: var(--text); font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: all 0.15s; font-family: inherit;
+    }
+    .type-pill:hover { border-color: var(--primary); color: var(--primary); }
+    .type-pill.active { border-color: var(--primary); background: var(--primary); color: #fff; }
+
+    .problem-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-top: 3px solid var(--primary);
+      border-radius: var(--radius); padding: 1.75rem 1.5rem;
+      margin-bottom: 1rem; box-shadow: var(--shadow);
+      animation: fadeSlideIn 0.22s ease both;
+    }
+    @keyframes fadeSlideIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+
+    .problem-type-badge {
+      display: inline-block; background: var(--primary-light); color: var(--primary);
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+      padding: 0.2em 0.65em; border-radius: 4px; margin-bottom: 0.75rem;
+    }
+    .problem-text { font-size: 1.15rem; font-weight: 600; line-height: 1.55; margin-bottom: 1.25rem; }
+
+    .answer-row { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.25rem; }
+    .answer-input {
+      padding: 0.55rem 0.85rem; border-radius: 8px; border: 1.5px solid var(--border);
+      font-size: 1rem; font-family: inherit; width: 160px; transition: border-color 0.15s;
+    }
+    .answer-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(192,38,211,0.1); }
+    .answer-input.correct { border-color: var(--correct); background: #e6f4ea; }
+    .answer-input.incorrect { border-color: var(--incorrect); background: #fce8e6; }
+
+    .feedback-box {
+      border-radius: 10px; padding: 1.1rem 1.25rem; margin-bottom: 1rem;
+      border: 1.5px solid; animation: fadeSlideIn 0.18s ease both;
+    }
+    .feedback-box.correct { background: #e6f4ea; border-color: var(--correct); }
+    .feedback-box.incorrect { background: #fce8e6; border-color: var(--incorrect); }
+    .feedback-status { font-size: 1.3rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .feedback-status.correct { color: var(--correct); }
+    .feedback-status.incorrect { color: var(--incorrect); }
+    .solution-steps { font-size: 0.92rem; line-height: 1.65; }
+    .solution-steps strong { color: var(--primary); }
+    .step-math {
+      display: inline-block; font-family: 'Courier New', monospace; background: #f1f5fb;
+      border: 1px solid var(--border); border-radius: 5px; padding: 0.1em 0.45em; font-size: 0.88em; margin: 0.05em 0;
+    }
+
+    .btn-row { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; margin-top: 0.5rem; }
+    .btn-generate { background: var(--primary); color: #fff; border-color: var(--primary); box-shadow: 0 2px 6px rgba(192,38,211,0.25); }
+    .btn-generate:hover { background: var(--primary-hover); }
+    .btn-check { background: #1e8e3e; color: #fff; border-color: #1e8e3e; }
+    .btn-check:hover { background: #137333; }
+    .btn-check:disabled { background: var(--border); border-color: var(--border); color: var(--text-muted); cursor: not-allowed; }
+
+    .back-link { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--text-muted); text-decoration: none; font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .back-link:hover { color: var(--primary); }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <main class="main">
+    <a class="back-link" href="index.html">← Back to Dashboard</a>
+
+    <div class="trainer-hero">
+      <h1>📊 Percentage Trainer</h1>
+      <p>Master the 4 percentage problem types that appear on the SHSAT.</p>
+    </div>
+
+    <!-- Score banner -->
+    <div class="score-banner">
+      <div class="score-item">
+        <div class="label">Session Score</div>
+        <div class="value" id="score-display">0 / 0</div>
+      </div>
+      <div class="score-divider"></div>
+      <div class="score-item">
+        <div class="label">Accuracy</div>
+        <div class="value" id="accuracy-display">—</div>
+      </div>
+      <div class="score-divider"></div>
+      <div class="score-item">
+        <div class="label">Streak</div>
+        <div class="value" id="streak-display">0 🔥</div>
+      </div>
+    </div>
+
+    <!-- Type selection -->
+    <div class="type-pills" id="type-pills">
+      <button class="type-pill active" data-type="all">All Types</button>
+      <button class="type-pill" data-type="percent-of">📊 % of a Number</button>
+      <button class="type-pill" data-type="percent-change">📈 % Change</button>
+      <button class="type-pill" data-type="find-original">🔍 Find the Original</button>
+      <button class="type-pill" data-type="tax-tip">💵 Tax / Tip</button>
+    </div>
+
+    <!-- Problem card -->
+    <div class="problem-card" id="problem-card">
+      <div class="problem-type-badge" id="problem-type-badge">—</div>
+      <p class="problem-text" id="problem-text">Press "New Problem" to start!</p>
+      <div class="answer-row">
+        <input class="answer-input" type="number" id="answer-input" placeholder="Your answer" step="any" />
+        <button class="btn btn-check" id="btn-check" disabled>Check ✓</button>
+      </div>
+      <div id="feedback-area"></div>
+      <div class="btn-row">
+        <button class="btn btn-generate" id="btn-new">New Problem →</button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+  (function() {
+    var sessionCorrect = 0, sessionTotal = 0, streak = 0;
+    var currentProblem = null;
+    var selectedType = 'all';
+    var answered = false;
+
+    var TYPES = ['percent-of', 'percent-change', 'find-original', 'tax-tip'];
+    var TYPE_LABELS = {
+      'percent-of': '% of a Number',
+      'percent-change': '% Change',
+      'find-original': 'Find the Original',
+      'tax-tip': 'Tax / Tip'
+    };
+
+    function rand(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    function round2(n) { return Math.round(n * 100) / 100; }
+
+    function generateProblem(type) {
+      if (type === 'all') { type = TYPES[rand(0, TYPES.length - 1)]; }
+
+      var p = { type: type, typeLabel: TYPE_LABELS[type] };
+
+      if (type === 'percent-of') {
+        var pct = rand(1, 99);
+        var num = rand(10, 500);
+        p.question = 'What is ' + pct + '% of ' + num + '?';
+        p.answer = round2(pct / 100 * num);
+        p.solution = [
+          'Convert percent to decimal: ' + pct + '% = ' + pct + '/100 = ' + round2(pct/100),
+          'Multiply: ' + round2(pct/100) + ' × ' + num + ' = ' + p.answer
+        ];
+        p.formula = 'Answer = (percent ÷ 100) × number';
+      } else if (type === 'percent-change') {
+        var a = rand(10, 300);
+        var b = rand(10, 300);
+        while (b === a) b = rand(10, 300);
+        var change = round2((b - a) / a * 100);
+        var dir = b > a ? 'increase' : 'decrease';
+        p.question = 'A value went from ' + a + ' to ' + b + '. What is the percent ' + dir + '? (round to 2 decimal places)';
+        p.answer = Math.abs(change);
+        p.solution = [
+          'Change = ' + b + ' − ' + a + ' = ' + (b - a),
+          'Divide by original: ' + (b - a) + ' ÷ ' + a + ' = ' + round2((b-a)/a),
+          'Multiply by 100: ' + round2((b-a)/a) + ' × 100 = ' + change + '%',
+          'The percent ' + dir + ' is ' + Math.abs(change) + '%'
+        ];
+        p.formula = 'Percent change = ((new − old) ÷ old) × 100';
+      } else if (type === 'find-original') {
+        var pct2 = rand(5, 95);
+        var result = rand(10, 300);
+        var original = round2(result / (pct2 / 100));
+        p.question = result + ' is ' + pct2 + '% of what number? (round to 2 decimal places)';
+        p.answer = original;
+        p.solution = [
+          'Set up: ' + result + ' = ' + pct2 + '% × original',
+          'Divide both sides by ' + pct2 + '%: original = ' + result + ' ÷ ' + round2(pct2/100),
+          'original = ' + result + ' ÷ ' + round2(pct2/100) + ' = ' + original
+        ];
+        p.formula = 'Original = amount ÷ (percent ÷ 100)';
+      } else if (type === 'tax-tip') {
+        var price = rand(5, 200);
+        var taxPct = rand(1, 25);
+        var tax = round2(price * taxPct / 100);
+        var total = round2(price + tax);
+        p.question = 'An item costs $' + price + '. The tax rate is ' + taxPct + '%. What is the total price?';
+        p.answer = total;
+        p.solution = [
+          'Calculate tax: $' + price + ' × ' + taxPct + '% = $' + price + ' × ' + round2(taxPct/100) + ' = $' + tax,
+          'Add tax to original price: $' + price + ' + $' + tax + ' = $' + total
+        ];
+        p.formula = 'Total = price × (1 + tax rate)';
+      }
+
+      return p;
+    }
+
+    function displayProblem(p) {
+      currentProblem = p;
+      answered = false;
+      document.getElementById('problem-type-badge').textContent = p.typeLabel;
+      document.getElementById('problem-text').textContent = p.question;
+      document.getElementById('answer-input').value = '';
+      document.getElementById('answer-input').className = 'answer-input';
+      document.getElementById('answer-input').disabled = false;
+      document.getElementById('btn-check').disabled = false;
+      document.getElementById('feedback-area').innerHTML = '';
+      // Re-trigger animation
+      var card = document.getElementById('problem-card');
+      card.style.animation = 'none';
+      requestAnimationFrame(function() { card.style.animation = ''; });
+    }
+
+    function checkAnswer() {
+      if (!currentProblem || answered) return;
+      var raw = document.getElementById('answer-input').value.trim();
+      if (raw === '') return;
+      var userAns = parseFloat(raw);
+      if (isNaN(userAns)) { alert('Please enter a number.'); return; }
+
+      // Allow tolerance of ±0.05 for floating point
+      var tolerance = 0.051;
+      var correct = Math.abs(userAns - currentProblem.answer) <= tolerance;
+      answered = true;
+      sessionTotal++;
+      if (correct) { sessionCorrect++; streak++; } else { streak = 0; }
+
+      updateScore();
+
+      var input = document.getElementById('answer-input');
+      input.className = 'answer-input ' + (correct ? 'correct' : 'incorrect');
+      input.disabled = true;
+      document.getElementById('btn-check').disabled = true;
+
+      var stepsHtml = currentProblem.solution.map(function(s) {
+        return '<div style="margin-bottom:0.3rem">• ' + s + '</div>';
+      }).join('');
+
+      var feedbackHtml =
+        '<div class="feedback-box ' + (correct ? 'correct' : 'incorrect') + '">' +
+          '<div class="feedback-status ' + (correct ? 'correct' : 'incorrect') + '">' +
+            (correct ? '✓ Correct!' : '✗ Incorrect — Answer: ' + currentProblem.answer) +
+          '</div>' +
+          '<div class="solution-steps">' +
+            '<div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#6b7280;margin-bottom:0.4rem">Solution</div>' +
+            stepsHtml +
+            '<div style="margin-top:0.5rem;font-size:0.82rem;color:#6b7280"><em>Formula: ' + currentProblem.formula + '</em></div>' +
+          '</div>' +
+        '</div>';
+
+      document.getElementById('feedback-area').innerHTML = feedbackHtml;
+    }
+
+    function updateScore() {
+      var pct = sessionTotal > 0 ? Math.round(100 * sessionCorrect / sessionTotal) : 0;
+      document.getElementById('score-display').textContent = sessionCorrect + ' / ' + sessionTotal;
+      document.getElementById('accuracy-display').textContent = sessionTotal > 0 ? pct + '%' : '—';
+      document.getElementById('streak-display').textContent = streak + ' 🔥';
+    }
+
+    // Type pill selection
+    document.getElementById('type-pills').addEventListener('click', function(e) {
+      var pill = e.target.closest('.type-pill');
+      if (!pill) return;
+      selectedType = pill.dataset.type;
+      document.querySelectorAll('.type-pill').forEach(function(p) { p.classList.remove('active'); });
+      pill.classList.add('active');
+    });
+
+    // New problem button
+    document.getElementById('btn-new').addEventListener('click', function() {
+      displayProblem(generateProblem(selectedType));
+    });
+
+    // Check button
+    document.getElementById('btn-check').addEventListener('click', checkAnswer);
+
+    // Enter key on input
+    document.getElementById('answer-input').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') checkAnswer();
+    });
+
+    // Start with a problem
+    displayProblem(generateProblem('all'));
+    document.getElementById('btn-check').disabled = false;
+  })();
+  </script>
+</body>
+</html>

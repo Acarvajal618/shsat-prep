@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_8_001",
+    "type_id": "6_8",
+    "question": "Patricia ate lunch at a restaurant yesterday. She ordered three items: a salad, a bowl of soup, and a glass of iced tea. The salad cost $3, the soup cost $4, and the iced tea cost $1. If there is a 6% tax on food but not on drinks, how much did Patricia pay for lunch?",
+    "options": {
+      "A": "$7.00",
+      "B": "$8.42",
+      "C": "$8.48",
+      "D": "$9.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Add food items, apply tax to food only, add drink.",
+      "steps": [
+        "Food: $3 + $4 = $7. Tax: $7 × 1.06 = $7.42",
+        "Drink: $1 (no tax). Total: $7.42 + $1 = $8.42"
+      ],
+      "final_answer": "$8.42"
+    }
+  },
+  {
+    "id": "6_8_002",
+    "type_id": "6_8",
+    "question": "James ate at a café. He ordered a sandwich for $6, a side for $2, and coffee for $3. If there is a 5% tax on food but not on drinks, how much did James pay?",
+    "options": {
+      "A": "$11.00",
+      "B": "$11.40",
+      "C": "$11.55",
+      "D": "$12.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Tax applies to food ($6+$2=$8) only; coffee untaxed.",
+      "steps": [
+        "Food with tax: $8 × 1.05 = $8.40",
+        "Total: $8.40 + $3 = $11.40"
+      ],
+      "final_answer": "$11.40"
+    }
+  },
+  {
+    "id": "6_8_003",
+    "type_id": "6_8",
+    "question": "Maria ordered a burger for $5, fries for $2, and a soda for $1.50. There is an 8% tax on food but not on drinks. How much did Maria pay in total?",
+    "options": {
+      "A": "$8.50",
+      "B": "$9.06",
+      "C": "$9.26",
+      "D": "$9.50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $5+$2=$7 with 8% tax; soda $1.50 untaxed.",
+      "steps": [
+        "Food with tax: $7 × 1.08 = $7.56",
+        "Total: $7.56 + $1.50 = $9.06"
+      ],
+      "final_answer": "$9.06"
+    }
+  },
+  {
+    "id": "6_8_004",
+    "type_id": "6_8",
+    "question": "David had a pizza slice for $4, a salad for $5, and water for $1. If tax is 10% on food only, how much did David pay?",
+    "options": {
+      "A": "$10.00",
+      "B": "$10.90",
+      "C": "$11.00",
+      "D": "$11.10"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $4+$5=$9 with 10% tax; water untaxed.",
+      "steps": [
+        "Food with tax: $9 × 1.10 = $9.90",
+        "Total: $9.90 + $1 = $10.90"
+      ],
+      "final_answer": "$10.90"
+    }
+  },
+  {
+    "id": "6_8_005",
+    "type_id": "6_8",
+    "question": "Lisa ordered pasta for $12, bread for $3, and iced tea for $2. There is 6% tax on food but not on drinks. How much was her total bill?",
+    "options": {
+      "A": "$17.00",
+      "B": "$17.90",
+      "C": "$18.00",
+      "D": "$18.10"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $12+$3=$15 with 6% tax; iced tea untaxed.",
+      "steps": [
+        "Food with tax: $15 × 1.06 = $15.90",
+        "Total: $15.90 + $2 = $17.90"
+      ],
+      "final_answer": "$17.90"
+    }
+  },
+  {
+    "id": "6_8_006",
+    "type_id": "6_8",
+    "question": "Ryan bought a wrap for $7, chips for $2, and lemonade for $2.50. Tax is 7% on food only. How much did Ryan pay?",
+    "options": {
+      "A": "$11.50",
+      "B": "$12.13",
+      "C": "$12.43",
+      "D": "$12.50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $7+$2=$9 with 7% tax; lemonade untaxed.",
+      "steps": [
+        "Food with tax: $9 × 1.07 = $9.63",
+        "Total: $9.63 + $2.50 = $12.13"
+      ],
+      "final_answer": "$12.13"
+    }
+  },
+  {
+    "id": "6_8_007",
+    "type_id": "6_8",
+    "question": "Emma ordered a bagel for $3.50, cream cheese for $1, and orange juice for $4. There is 8% tax on food but not on drinks. How much did Emma pay?",
+    "options": {
+      "A": "$8.50",
+      "B": "$8.86",
+      "C": "$9.26",
+      "D": "$9.50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $3.50+$1=$4.50 with 8% tax; juice untaxed.",
+      "steps": [
+        "Food with tax: $4.50 × 1.08 = $4.86",
+        "Total: $4.86 + $4 = $8.86"
+      ],
+      "final_answer": "$8.86"
+    }
+  },
+  {
+    "id": "6_8_008",
+    "type_id": "6_8",
+    "question": "Carlos had tacos for $8, rice for $2, and a soft drink for $2. Tax is 9% on food only. How much was his total?",
+    "options": {
+      "A": "$12.00",
+      "B": "$12.90",
+      "C": "$13.10",
+      "D": "$13.20"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $8+$2=$10 with 9% tax; drink untaxed.",
+      "steps": [
+        "Food with tax: $10 × 1.09 = $10.90",
+        "Total: $10.90 + $2 = $12.90"
+      ],
+      "final_answer": "$12.90"
+    }
+  },
+  {
+    "id": "6_8_009",
+    "type_id": "6_8",
+    "question": "Nina ordered soup for $5, a roll for $1.50, and milk for $2. If there is 6% tax on food but not on drinks, how much did Nina pay?",
+    "options": {
+      "A": "$8.50",
+      "B": "$8.89",
+      "C": "$9.00",
+      "D": "$9.09"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $5+$1.50=$6.50 with 6% tax; milk untaxed.",
+      "steps": [
+        "Food with tax: $6.50 × 1.06 = $6.89",
+        "Total: $6.89 + $2 = $8.89"
+      ],
+      "final_answer": "$8.89"
+    }
+  },
+  {
+    "id": "6_8_010",
+    "type_id": "6_8",
+    "question": "Omar bought a sandwich for $9, fruit for $3, and water for $1. Tax is 5% on food only. How much did Omar pay in total?",
+    "options": {
+      "A": "$13.00",
+      "B": "$13.60",
+      "C": "$13.65",
+      "D": "$14.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_008",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Food $9+$3=$12 with 5% tax; water untaxed.",
+      "steps": [
+        "Food with tax: $12 × 1.05 = $12.60",
+        "Total: $12.60 + $1 = $13.60"
+      ],
+      "final_answer": "$13.60"
+    }
+  }
+]

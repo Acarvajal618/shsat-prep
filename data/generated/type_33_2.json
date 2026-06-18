@@ -1,0 +1,213 @@
+[
+  {
+    "id": "33_2_001",
+    "type_id": "33_2",
+    "question": "Elli opens an account with a deposit of $1,200. This account earns 4% simple interest annually. How many years will it take for her $1,200 deposit to earn $432 interest?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correct": "C",
+    "source": "canonical",
+    "canonical_id": "33_002",
+    "diagram": null,
+    "solution": {
+      "strategy": "Simple interest I = P × r × t. Solve for t.",
+      "steps": [
+        "432 = 1200 × 0.04 × t → t = 432/48 = 9 years."
+      ],
+      "final_answer": "9"
+    }
+  },
+  {
+    "id": "33_2_002",
+    "type_id": "33_2",
+    "question": "A deposit of $1,200 earns 4% simple interest annually. How many years until it earns $432 interest?",
+    "options": {
+      "A": "9",
+      "B": "2",
+      "C": "3",
+      "D": "12"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 432 / (1200 × 0.04) = 9 years."
+      ],
+      "final_answer": "9"
+    }
+  },
+  {
+    "id": "33_2_003",
+    "type_id": "33_2",
+    "question": "A deposit of $1,000 earns 5% simple interest annually. How many years until it earns $250 interest?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "3",
+      "D": "12"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 250 / (1000 × 0.05) = 5 years."
+      ],
+      "final_answer": "5"
+    }
+  },
+  {
+    "id": "33_2_004",
+    "type_id": "33_2",
+    "question": "A deposit of $800 earns 6% simple interest annually. How many years until it earns $288 interest?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "6",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 288 / (800 × 0.06) = 6 years."
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "33_2_005",
+    "type_id": "33_2",
+    "question": "A deposit of $2,000 earns 3% simple interest annually. How many years until it earns $360 interest?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "12",
+      "D": "6"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 360 / (2000 × 0.03) = 6 years."
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "33_2_006",
+    "type_id": "33_2",
+    "question": "A deposit of $1,500 earns 4% simple interest annually. How many years until it earns $300 interest?",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "12"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 300 / (1500 × 0.04) = 5 years."
+      ],
+      "final_answer": "5"
+    }
+  },
+  {
+    "id": "33_2_007",
+    "type_id": "33_2",
+    "question": "A deposit of $5,000 earns 2% simple interest annually. How many years until it earns $500 interest?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "3",
+      "D": "12"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 500 / (5000 × 0.02) = 5 years."
+      ],
+      "final_answer": "5"
+    }
+  },
+  {
+    "id": "33_2_008",
+    "type_id": "33_2",
+    "question": "A deposit of $600 earns 5% simple interest annually. How many years until it earns $180 interest?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "6",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 180 / (600 × 0.05) = 6 years."
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "33_2_009",
+    "type_id": "33_2",
+    "question": "A deposit of $3,000 earns 4% simple interest annually. How many years until it earns $480 interest?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "12",
+      "D": "4"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 480 / (3000 × 0.04) = 4 years."
+      ],
+      "final_answer": "4"
+    }
+  },
+  {
+    "id": "33_2_010",
+    "type_id": "33_2",
+    "question": "A deposit of $4,000 earns 5% simple interest annually. How many years until it earns $1000 interest?",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "12"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "33_002",
+    "solution": {
+      "strategy": "I = P × r × t, so t = I / (P × r).",
+      "steps": [
+        "t = 1000 / (4000 × 0.05) = 5 years."
+      ],
+      "final_answer": "5"
+    }
+  }
+]

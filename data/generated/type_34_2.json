@@ -1,0 +1,214 @@
+[
+  {
+    "id": "34_2_001",
+    "type_id": "34_2",
+    "question": "[PICTURE REQUIRED]\nIn 2019, how many graduates from Centerville High School chose either to enter the workforce or to continue their education at a vocational school? (Pie chart: Education/Career Plans, 2019, Total 600. Workforce 12%, 2-year College 28%, 4-year College 38%, Vocational School 22%.)",
+    "options": {
+      "A": "72",
+      "B": "132",
+      "C": "168",
+      "D": "204"
+    },
+    "correct": "D",
+    "source": "canonical",
+    "canonical_id": "34_002",
+    "diagram": "| Plan           | Percent |\n|----------------|--------|\n| Workforce      | 12%    |\n| 2-year College | 28%    |\n| 4-year College | 38%    |\n| Vocational     | 22%    |\nTotal Graduates: 600",
+    "solution": {
+      "strategy": "Workforce 12% + Vocational 22% = 34%. 34% of 600 = 204.",
+      "steps": [
+        "12% + 22% = 34%.",
+        "0.34 × 600 = 204."
+      ],
+      "final_answer": "204"
+    }
+  },
+  {
+    "id": "34_2_002",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 500. Workforce 10%, Vocational 25%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "175",
+      "B": "62",
+      "C": "107",
+      "D": "190"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(10+25)% of 500 = 175."
+      ],
+      "final_answer": "175"
+    }
+  },
+  {
+    "id": "34_2_003",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 400. Workforce 12%, Vocational 22%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "62",
+      "B": "136",
+      "C": "107",
+      "D": "190"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(12+22)% of 400 = 136."
+      ],
+      "final_answer": "136"
+    }
+  },
+  {
+    "id": "34_2_004",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 800. Workforce 10%, Vocational 25%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "62",
+      "B": "107",
+      "C": "280",
+      "D": "190"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(10+25)% of 800 = 280."
+      ],
+      "final_answer": "280"
+    }
+  },
+  {
+    "id": "34_2_005",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 300. Workforce 12%, Vocational 22%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "62",
+      "B": "107",
+      "C": "190",
+      "D": "102"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(12+22)% of 300 = 102."
+      ],
+      "final_answer": "102"
+    }
+  },
+  {
+    "id": "34_2_006",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 1000. Workforce 10%, Vocational 25%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "350",
+      "B": "62",
+      "C": "107",
+      "D": "190"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(10+25)% of 1000 = 350."
+      ],
+      "final_answer": "350"
+    }
+  },
+  {
+    "id": "34_2_007",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 600. Workforce 12%, Vocational 22%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "62",
+      "B": "204",
+      "C": "107",
+      "D": "190"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(12+22)% of 600 = 204."
+      ],
+      "final_answer": "204"
+    }
+  },
+  {
+    "id": "34_2_008",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 450. Workforce 10%, Vocational 25%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "62",
+      "B": "107",
+      "C": "157",
+      "D": "190"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(10+25)% of 450 = 157."
+      ],
+      "final_answer": "157"
+    }
+  },
+  {
+    "id": "34_2_009",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 750. Workforce 12%, Vocational 22%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "62",
+      "B": "107",
+      "C": "190",
+      "D": "255"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(12+22)% of 750 = 255."
+      ],
+      "final_answer": "255"
+    }
+  },
+  {
+    "id": "34_2_010",
+    "type_id": "34_2",
+    "question": "In 2019, total graduates were 550. Workforce 10%, Vocational 25%. How many chose either workforce or vocational?",
+    "options": {
+      "A": "192",
+      "B": "62",
+      "C": "107",
+      "D": "190"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "34_002",
+    "solution": {
+      "strategy": "Add the two percentages and multiply by total.",
+      "steps": [
+        "(10+25)% of 550 = 192."
+      ],
+      "final_answer": "192"
+    }
+  }
+]

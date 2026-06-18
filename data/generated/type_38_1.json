@@ -1,0 +1,212 @@
+[
+  {
+    "id": "38_1_001",
+    "type_id": "38_1",
+    "question": "Ben can choose 2 of his 4 best friends to go with him to the movies. His best friends are Carla, David, Emma, and Frank. How many different pairs of 2 friends can he choose from the 4?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "12"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 4: C(4,2) = 4×3/2 = 6"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_002",
+    "type_id": "38_1",
+    "question": "Maria can choose 2 of her 6 best friends to go with her to the concert. Her best friends are Nina, Omar, Paula, Quinn, Rachel, and Sam. How many different pairs of 2 friends can she choose from the 6?",
+    "options": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "30"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 6: C(6,2) = 6×5/2 = 15"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_003",
+    "type_id": "38_1",
+    "question": "Jake can choose 2 of his 5 best friends to go with him to the game. His best friends are Kate, Leo, Mia, Noah, and Olivia. How many different pairs of 2 friends can he choose from the 5?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 5: C(5,2) = 5×4/2 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_004",
+    "type_id": "38_1",
+    "question": "Priya can choose 2 of her 7 best friends to go with her to the museum. Her best friends are Tom, Uma, Victor, Wendy, Xavier, Yolanda, and Zane. How many different pairs of 2 friends can she choose from the 7?",
+    "options": {
+      "A": "14",
+      "B": "21",
+      "C": "28",
+      "D": "42"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 7: C(7,2) = 7×6/2 = 21"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_005",
+    "type_id": "38_1",
+    "question": "Chris can choose 3 of his 5 best friends to form a study group. His best friends are Dana, Evan, Fiona, Greg, and Helen. How many different groups of 3 friends can he choose from the 5?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 3 from n is C(n,3) = n(n-1)(n-2)/6.",
+      "steps": [
+        "Choose 3 from 5: C(5,3) = 5×4×3/6 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_006",
+    "type_id": "38_1",
+    "question": "Sofia can choose 2 of her 8 best friends to go with her to the park. How many different pairs of 2 friends can she choose from the 8?",
+    "options": {
+      "A": "16",
+      "B": "24",
+      "C": "28",
+      "D": "56"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 8: C(8,2) = 8×7/2 = 28"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "38_1_007",
+    "type_id": "38_1",
+    "question": "Alicia can choose 2 of her 5 best friends to go with her to the amusement park. Her best friends are Connie, Dale, Eric, Finley, and Georgette. How many different pairs of 2 friends can she choose from the 5?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 5: C(5,2) = 5×4/2 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_008",
+    "type_id": "38_1",
+    "question": "Marcus can choose 2 of his 9 classmates to be on his project team. How many different pairs of 2 classmates can he choose from the 9?",
+    "options": {
+      "A": "18",
+      "B": "36",
+      "C": "72",
+      "D": "81"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 9: C(9,2) = 9×8/2 = 36"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "38_1_009",
+    "type_id": "38_1",
+    "question": "Lily can choose 3 of her 6 best friends to go with her to the beach. How many different groups of 3 friends can she choose from the 6?",
+    "options": {
+      "A": "12",
+      "B": "18",
+      "C": "20",
+      "D": "30"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 3 from n is C(n,3) = n(n-1)(n-2)/6.",
+      "steps": [
+        "Choose 3 from 6: C(6,3) = 6×5×4/6 = 20"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "38_1_010",
+    "type_id": "38_1",
+    "question": "Ryan can choose 2 of his 10 teammates to run a relay with him. How many different pairs of 2 teammates can he choose from the 10?",
+    "options": {
+      "A": "20",
+      "B": "45",
+      "C": "90",
+      "D": "100"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_001",
+    "solution": {
+      "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
+      "steps": [
+        "Choose 2 from 10: C(10,2) = 10×9/2 = 45"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

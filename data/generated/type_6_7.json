@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_7_001",
+    "type_id": "6_7",
+    "question": "An air mattress is partially filled with a liters of air. Gwen adds 80 liters of air to the air mattress such that it is 80% inflated. If Gwen adds 30 more liters of air, the air mattress will be 90% full. What is the value of a?",
+    "options": {
+      "A": "100",
+      "B": "121",
+      "C": "160",
+      "D": "209"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Let T be total capacity. (a+80)/T = 0.8 and (a+110)/T = 0.9, so 30/T = 0.1, T = 300, a = 240 − 80 = 160.",
+      "steps": [
+        "30/T = 0.1 → T = 300",
+        "a + 80 = 240 → a = 160"
+      ],
+      "final_answer": "160"
+    }
+  },
+  {
+    "id": "6_7_002",
+    "type_id": "6_7",
+    "question": "A water tank is partially filled with a gallons of water. Marcus adds 60 gallons such that the tank is 60% full. If he adds 40 more gallons, the tank will be 80% full. What is the value of a?",
+    "options": {
+      "A": "10",
+      "B": "30",
+      "C": "60",
+      "D": "90"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Let T be total capacity. (a+60)/T = 0.6 and (a+100)/T = 0.8, so 40/T = 0.2, T = 200, a = 120 − 60 = 60.",
+      "steps": [
+        "40/T = 0.2 → T = 200",
+        "a + 60 = 120 → a = 60"
+      ],
+      "final_answer": "60"
+    }
+  },
+  {
+    "id": "6_7_003",
+    "type_id": "6_7",
+    "question": "A pool is partially filled with a cubic meters of water. Lin adds 50 cubic meters so it is 50% full. Adding 50 more cubic meters makes it 75% full. What is the value of a?",
+    "options": {
+      "A": "0",
+      "B": "25",
+      "C": "50",
+      "D": "75"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Let T be total capacity. (a+50)/T = 0.5 and (a+100)/T = 0.75, so 50/T = 0.25, T = 200, a = 100 − 50 = 50.",
+      "steps": [
+        "50/T = 0.25 → T = 200",
+        "a + 50 = 100 → a = 50"
+      ],
+      "final_answer": "50"
+    }
+  },
+  {
+    "id": "6_7_004",
+    "type_id": "6_7",
+    "question": "A fuel tank is partially filled with a liters of fuel. Jordan adds 100 liters so the tank is 75% full. If Jordan adds 20 more liters, the tank will be 85% full. What is the value of a?",
+    "options": {
+      "A": "50",
+      "B": "100",
+      "C": "150",
+      "D": "200"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Let T be total capacity. (a+100)/T = 0.75 and (a+120)/T = 0.85, so 20/T = 0.1, T = 200, a = 150 − 100 = 50.",
+      "steps": [
+        "20/T = 0.1 → T = 200",
+        "a = 150 − 100 = 50"
+      ],
+      "final_answer": "50"
+    }
+  },
+  {
+    "id": "6_7_005",
+    "type_id": "6_7",
+    "question": "A cistern is partially filled with a liters of water. Sam adds 40 liters so it is 40% full. Adding 50 more liters makes it 65% full. What is the value of a?",
+    "options": {
+      "A": "0",
+      "B": "20",
+      "C": "40",
+      "D": "60"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "(a+40)/T = 0.4 and (a+90)/T = 0.65, so 50/T = 0.25, T = 200, a = 80 − 40 = 40.",
+      "steps": [
+        "50/T = 0.25 → T = 200",
+        "a + 40 = 80 → a = 40"
+      ],
+      "final_answer": "40"
+    }
+  },
+  {
+    "id": "6_7_006",
+    "type_id": "6_7",
+    "question": "A barrel is partially filled with a gallons. Dana adds 90 gallons so it is 60% full. Adding 30 more gallons makes it 75% full. What is the value of a?",
+    "options": {
+      "A": "20",
+      "B": "30",
+      "C": "40",
+      "D": "60"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "(a+90)/T = 0.6 and (a+120)/T = 0.75, so 30/T = 0.15, T = 200, a = 120 − 90 = 30.",
+      "steps": [
+        "30/T = 0.15 → T = 200",
+        "a + 90 = 120 → a = 30"
+      ],
+      "final_answer": "30"
+    }
+  },
+  {
+    "id": "6_7_007",
+    "type_id": "6_7",
+    "question": "An oil drum is partially filled with a liters. Chris adds 70 liters so it is 70% full. Adding 15 more liters makes it 77.5% full. What is the value of a?",
+    "options": {
+      "A": "50",
+      "B": "70",
+      "C": "80",
+      "D": "100"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "(a+70)/T = 0.7 and (a+85)/T = 0.775, so 15/T = 0.075, T = 200, a = 140 − 70 = 70.",
+      "steps": [
+        "15/T = 0.075 → T = 200",
+        "a + 70 = 140 → a = 70"
+      ],
+      "final_answer": "70"
+    }
+  },
+  {
+    "id": "6_7_008",
+    "type_id": "6_7",
+    "question": "A reservoir is partially filled with a cubic meters. Alex adds 120 liters such that it is 80% full. If Alex adds 40 more liters, it will be 90% full. What is the value of a?",
+    "options": {
+      "A": "160",
+      "B": "200",
+      "C": "240",
+      "D": "280"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "(a+120)/T = 0.8 and (a+160)/T = 0.9, so 40/T = 0.1, T = 400, a = 320 − 120 = 200.",
+      "steps": [
+        "40/T = 0.1 → T = 400",
+        "a + 120 = 320 → a = 200"
+      ],
+      "final_answer": "200"
+    }
+  },
+  {
+    "id": "6_7_009",
+    "type_id": "6_7",
+    "question": "A vat is partially filled with a liters. Morgan adds 50 liters so it is 50% full. Adding 30 more liters makes it 65% full. What is the value of a?",
+    "options": {
+      "A": "30",
+      "B": "50",
+      "C": "70",
+      "D": "100"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "(a+50)/T = 0.5 and (a+80)/T = 0.65, so 30/T = 0.15, T = 200, a = 100 − 50 = 50.",
+      "steps": [
+        "30/T = 0.15 → T = 200",
+        "a + 50 = 100 → a = 50"
+      ],
+      "final_answer": "50"
+    }
+  },
+  {
+    "id": "6_7_010",
+    "type_id": "6_7",
+    "question": "A tank is partially filled with a gallons. Riley adds 80 gallons such that it is 80% full. If Riley adds 20 more gallons, it will be 88% full. What is the value of a?",
+    "options": {
+      "A": "80",
+      "B": "120",
+      "C": "160",
+      "D": "200"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "(a+80)/T = 0.8 and (a+100)/T = 0.88, so 20/T = 0.08, T = 250, a = 200 − 80 = 120.",
+      "steps": [
+        "20/T = 0.08 → T = 250",
+        "a + 80 = 200 → a = 120"
+      ],
+      "final_answer": "120"
+    }
+  }
+]

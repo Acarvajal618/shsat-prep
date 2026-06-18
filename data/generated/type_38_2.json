@@ -1,0 +1,213 @@
+[
+  {
+    "id": "38_2_001",
+    "type_id": "38_2",
+    "question": "A salad bar offers vegetable platters in 4 sizes (small, medium, large, and super-sized) and 6 different vegetables to choose from. Different platters can be created by changing the size and/or the choice of vegetables. If Selena wants to order a platter with exactly 2 different vegetables, how many different platters could she create?",
+    "options": {
+      "A": "24",
+      "B": "36",
+      "C": "60",
+      "D": "90"
+    },
+    "correct": "C",
+    "source": "canonical",
+    "canonical_id": "38_002",
+    "diagram": null,
+    "solution": {
+      "strategy": "4 sizes × C(6,2) vegetables = 4 × 15 = 60.",
+      "steps": [
+        "C(6,2) = 15; 4 × 15 = 60."
+      ],
+      "final_answer": "60"
+    }
+  },
+  {
+    "id": "38_2_002",
+    "type_id": "38_2",
+    "question": "A salad bar has 4 sizes and 6 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "60",
+      "B": "15",
+      "C": "26",
+      "D": "93"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(6,2) = 15; 4 × that = 60."
+      ],
+      "final_answer": "60"
+    }
+  },
+  {
+    "id": "38_2_003",
+    "type_id": "38_2",
+    "question": "A salad bar has 3 sizes and 5 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "15",
+      "B": "30",
+      "C": "26",
+      "D": "93"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(5,2) = 10; 3 × that = 30."
+      ],
+      "final_answer": "30"
+    }
+  },
+  {
+    "id": "38_2_004",
+    "type_id": "38_2",
+    "question": "A salad bar has 5 sizes and 6 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "15",
+      "B": "26",
+      "C": "75",
+      "D": "93"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(6,2) = 15; 5 × that = 75."
+      ],
+      "final_answer": "75"
+    }
+  },
+  {
+    "id": "38_2_005",
+    "type_id": "38_2",
+    "question": "A salad bar has 4 sizes and 7 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "15",
+      "B": "26",
+      "C": "93",
+      "D": "84"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(7,2) = 21; 4 × that = 84."
+      ],
+      "final_answer": "84"
+    }
+  },
+  {
+    "id": "38_2_006",
+    "type_id": "38_2",
+    "question": "A salad bar has 6 sizes and 5 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "60",
+      "B": "15",
+      "C": "26",
+      "D": "93"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(5,2) = 10; 6 × that = 60."
+      ],
+      "final_answer": "60"
+    }
+  },
+  {
+    "id": "38_2_007",
+    "type_id": "38_2",
+    "question": "A salad bar has 3 sizes and 6 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "15",
+      "B": "45",
+      "C": "26",
+      "D": "93"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(6,2) = 15; 3 × that = 45."
+      ],
+      "final_answer": "45"
+    }
+  },
+  {
+    "id": "38_2_008",
+    "type_id": "38_2",
+    "question": "A salad bar has 5 sizes and 4 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "15",
+      "B": "26",
+      "C": "30",
+      "D": "93"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(4,2) = 6; 5 × that = 30."
+      ],
+      "final_answer": "30"
+    }
+  },
+  {
+    "id": "38_2_009",
+    "type_id": "38_2",
+    "question": "A salad bar has 4 sizes and 8 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "15",
+      "B": "26",
+      "C": "93",
+      "D": "112"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(8,2) = 28; 4 × that = 112."
+      ],
+      "final_answer": "112"
+    }
+  },
+  {
+    "id": "38_2_010",
+    "type_id": "38_2",
+    "question": "A salad bar has 6 sizes and 4 vegetables. How many different platters with exactly 2 vegetables can be created?",
+    "options": {
+      "A": "36",
+      "B": "15",
+      "C": "26",
+      "D": "93"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "38_002",
+    "solution": {
+      "strategy": "sizes × C(veggies, 2).",
+      "steps": [
+        "C(4,2) = 6; 6 × that = 36."
+      ],
+      "final_answer": "36"
+    }
+  }
+]

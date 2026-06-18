@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Unit 6_12 — Repeated Percent Decrease</title><style>
+:root{--navy:#1c2b4a;--blue:#1a73e8;--blue-light:#e8f0fe;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--amber-light:#fef7e0;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}.page{max-width:720px;margin:0 auto}
+.lh{background:linear-gradient(135deg,var(--navy) 0%,#1a73e8 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}.ub{display:inline-block;background:rgba(255,255,255,.2);border-radius:6px;padding:.2em .7em;font-size:.75rem;font-weight:700;text-transform:uppercase;margin-bottom:.75rem}.lh h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}.tg{font-size:.95rem;opacity:.85}
+.st{font-size:.72rem;font-weight:700;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}.st::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,.06)}.ag{border-top:3px solid var(--green)}.aa{border-top:3px solid var(--amber)}
+.sb{background:var(--blue-light);border-left:4px solid var(--blue);border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin-bottom:1.25rem}.sb-l{font-size:.72rem;font-weight:700;text-transform:uppercase;color:var(--blue);margin-bottom:.35rem}
+.sigs{list-style:none;padding:0}.sigs li{padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.93rem;display:flex;gap:.6rem}.sigs li:last-child{border-bottom:none}
+.pt{font-size:1.05rem;font-weight:600;line-height:1.55;margin-bottom:1rem}.pimg{max-width:100%;border-radius:8px;margin:.75rem 0 1rem;display:block;border:1px solid var(--border)}
+.og{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}.or{display:flex;align-items:center;gap:.6rem;padding:.55rem .85rem;border:1.5px solid var(--border);border-radius:8px;font-size:.95rem;background:var(--bg)}.or.c{border-color:var(--green);background:var(--green-light);font-weight:600}.or.w{opacity:.55}.ol{font-weight:700;min-width:1.2rem;color:var(--muted)}.or.c .ol{color:var(--green)}.cb{margin-left:auto;background:var(--green);color:#fff;font-size:.65rem;font-weight:700;padding:.15em .5em;border-radius:4px}
+.sl{list-style:none;padding:0}.sl li{display:flex;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--border);font-size:.95rem}.sl li:last-child{border-bottom:none}.sn{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-size:.72rem;font-weight:700;display:flex;align-items:center;justify-content:center}.sb2{flex:1;line-height:1.55}
+.m{display:inline-block;font-family:'Courier New',monospace;background:#f1f5fb;border:1px solid var(--border);border-radius:5px;padding:.1em .45em;font-size:.88em}
+.fa{display:flex;align-items:center;gap:1rem;background:var(--green-light);border:1.5px solid var(--green);border-radius:10px;padding:1rem 1.25rem;margin-top:1.25rem}.fachk{font-size:1.5rem}.fatxt{font-size:1rem;font-weight:700;color:var(--green)}.fasub{font-size:.85rem;color:var(--muted);margin-top:.1rem}
+.ml{list-style:none;padding:0}.ml li{display:flex;gap:.75rem;padding:.7rem 0;border-bottom:1px solid var(--border);font-size:.92rem}.ml li:last-child{border-bottom:none}.mlbl{font-weight:600;color:var(--red);display:block;margin-bottom:.1rem;font-size:.85rem}.glbl{font-weight:600;color:var(--green);display:block;margin-bottom:.1rem;font-size:.85rem}
+.tl{display:inline-flex;align-items:center;gap:.5rem;background:var(--blue);color:#fff;text-decoration:none;padding:.65rem 1.3rem;border-radius:8px;font-weight:600;font-size:.95rem}
+.back{display:inline-flex;align-items:center;gap:.4rem;color:var(--blue);text-decoration:none;font-size:.88rem;margin-bottom:1.25rem}
+.tbl{width:100%;border-collapse:collapse;margin:.75rem 0 1rem;font-size:.93rem}.tbl th{background:var(--navy);color:#fff;padding:.5rem .75rem;text-align:left}.tbl td{padding:.45rem .75rem;border-bottom:1px solid var(--border)}.tbl tr:nth-child(even) td{background:#f8fafc}
+</style></head>
+<body><div class="page">
+<a class="back" href="../index.html">← Back to Dashboard</a>
+<div class="lh"><div class="ub">Unit 6_12</div><h1>Repeated Percent Decrease — City Population</h1><p class="tg">Find the percent decrease rate, then apply it to the next period.</p></div>
+<p class="st">Strategy</p>
+<div class="card aa"><div class="sb"><div class="sb-l">The Approach</div><p>Find the percent decrease from 2016→2018, then apply that same rate to the 2018 population to predict 2020.</p></div>
+<ul class="sigs">
+<li><span>🔍</span><span>Percent decrease = (old − new) / old.</span></li>
+<li><span>🔍</span><span>Use 2016→2018 as specified; don't use 2014→2016.</span></li>
+<li><span>🔍</span><span>Apply the same rate to 2018 population.</span></li>
+</ul></div>
+<p class="st">The Problem</p>
+<div class="card aa"><p class="pt">Based on the graph above, if the percent decrease from the 2018 population to the 2020 population of City X is the same as the percent decrease from the 2016 population to the 2018 population, what should the 2020 population in City X be?</p>
+<img class="pimg" src="../images/PERCENTAGE_12.jpg" alt="City X population graph">
+<table class="tbl"><thead><tr><th>Year</th><th>Population</th></tr></thead><tbody>
+<tr><td>2014</td><td>600,000</td></tr>
+<tr><td>2016</td><td>500,000</td></tr>
+<tr><td>2018</td><td>400,000</td></tr>
+</tbody></table>
+<div class="og">
+<div class="or w"><span class="ol">A</span>280,000</div>
+<div class="or w"><span class="ol">B</span>300,000</div>
+<div class="or c"><span class="ol">C</span>320,000<span class="cb">✓</span></div>
+<div class="or w"><span class="ol">D</span>350,000</div>
+</div></div>
+<p class="st">Step-by-Step Solution</p>
+<div class="card ag"><ol class="sl">
+<li><div class="sn">1</div><div class="sb2"><strong>Percent decrease 2016→2018.</strong><br><span class="m">(500,000 − 400,000) / 500,000 = 100,000 / 500,000 = 20%</span></div></li>
+<li><div class="sn">2</div><div class="sb2"><strong>Apply 20% decrease to 2018 population.</strong><br><span class="m">400,000 × 0.80 = 320,000</span></div></li>
+</ol>
+<div class="fa"><span class="fachk">✅</span><div><div class="fatxt">Answer C — 320,000</div><div class="fasub">20% of 400,000 = 80,000. 400,000 − 80,000 = 320,000 ✓</div></div></div></div>
+<p class="st">Common Mistakes</p>
+<div class="card"><ul class="ml">
+<li><span>❌</span><div><span class="mlbl">Simple subtraction</span>Subtracting 100,000 again gives 300,000 — that's not a percent calculation.</div></li>
+<li><span>❌</span><div><span class="mlbl">Wrong period</span>Using 2014→2016 instead of 2016→2018 as specified.</div></li>
+<li><span>✅</span><div><span class="glbl">Right move</span>Always use the correct base (500,000) for the percent calculation, then apply that rate to the new base (400,000).</div></li>
+</ul></div>
+<p class="st">Ready?</p>
+<div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+<div><p style="font-weight:600;margin-bottom:.25rem">Practice Unit 6_12</p><p style="font-size:.88rem;color:var(--muted)">Practice this problem type.</p></div>
+<a class="tl" href="../index.html#practice?type=6_12">Practice now →</a></div>
+</div>
+<script src="lesson.js"></script></body></html>

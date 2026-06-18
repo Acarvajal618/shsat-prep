@@ -1,0 +1,212 @@
+[
+  {
+    "id": "24_1_001",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 19 hours. If the population is 100 at 2:15 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "2:15 a.m.",
+      "B": "4:15 a.m.",
+      "C": "6:15 a.m.",
+      "D": "4:15 p.m."
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Break the total time into manageable chunks. Doubled twice = 2 × 19 = 38 hours from start.",
+      "steps": [
+        "Start at 2:15 p.m. Add 24 hours: 2:15 p.m. the next day. Add remaining 14 hours: 4:15 a.m. the following morning (i.e., 2:15 p.m. + 14h = 4:15 a.m. next day). So 2:15 p.m. + 38h = 4:15 a.m. (next day)."
+      ],
+      "final_answer": "4:15 a.m."
+    }
+  },
+  {
+    "id": "24_1_002",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 12 hours. If the population is 200 at 8:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "8:00 p.m.",
+      "B": "8:00 a.m. the next day",
+      "C": "12:00 a.m. the next day",
+      "D": "2:00 a.m. the next day"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 2 × 12 = 24 hours. 8:00 a.m. + 24h = 8:00 a.m. the next day.",
+      "steps": [
+        "24 hours from 8:00 a.m. is 8:00 a.m. the next day."
+      ],
+      "final_answer": "8:00 a.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_003",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 15 hours. If the population is 100 at 10:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "10:00 p.m.",
+      "B": "4:00 a.m. the next day",
+      "C": "4:00 p.m. the next day",
+      "D": "10:00 a.m. the next day"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 30 hours. 10:00 a.m. + 24h = 10:00 a.m. next day; + 6h = 4:00 p.m. next day.",
+      "steps": [
+        "30 hours from 10:00 a.m. is 4:00 p.m. the next day."
+      ],
+      "final_answer": "4:00 p.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_004",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 10 hours. If the population is 50 at 6:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "2:00 a.m. the next day",
+      "B": "6:00 a.m. the next day",
+      "C": "2:00 p.m. the next day",
+      "D": "10:00 p.m."
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 20 hours. 6:00 a.m. + 20h = 2:00 a.m. the next day.",
+      "steps": [
+        "20 hours from 6:00 a.m. is 2:00 a.m. the next day."
+      ],
+      "final_answer": "2:00 a.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_005",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 8 hours. If the population is 300 at 12:00 noon on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "4:00 a.m. the next day",
+      "B": "12:00 noon the next day",
+      "C": "4:00 p.m. the next day",
+      "D": "8:00 p.m."
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 16 hours. 12:00 noon + 16h = 4:00 a.m. the next day.",
+      "steps": [
+        "16 hours from 12:00 noon is 4:00 a.m. the next day."
+      ],
+      "final_answer": "4:00 a.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_006",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 6 hours. If the population is 100 at 9:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "9:00 p.m.",
+      "B": "9:00 a.m. the next day",
+      "C": "3:00 p.m. the next day",
+      "D": "9:00 p.m. the next day"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 12 hours. 9:00 a.m. + 12h = 9:00 p.m. same day.",
+      "steps": [
+        "12 hours from 9:00 a.m. is 9:00 p.m. the same day."
+      ],
+      "final_answer": "9:00 p.m."
+    }
+  },
+  {
+    "id": "24_1_007",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 20 hours. If the population is 150 at 8:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "4:00 a.m. the next day",
+      "B": "12:00 noon the next day",
+      "C": "4:00 p.m. the next day",
+      "D": "8:00 a.m. two days later"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 40 hours. 8:00 a.m. + 40h = 8:00 a.m. + 24h + 16h = 12:00 midnight + 16h = 4:00 p.m. the next day.",
+      "steps": [
+        "40 hours from 8:00 a.m. is 4:00 p.m. the next day."
+      ],
+      "final_answer": "4:00 p.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_008",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 7 hours. If the population is 80 at 3:00 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "5:00 a.m. the next day",
+      "B": "10:00 a.m. the next day",
+      "C": "3:00 p.m. the next day",
+      "D": "5:00 p.m. the next day"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 14 hours. 3:00 p.m. + 14h = 5:00 a.m. the next day.",
+      "steps": [
+        "14 hours from 3:00 p.m. is 5:00 a.m. the next day."
+      ],
+      "final_answer": "5:00 a.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_009",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 11 hours. If the population is 250 at 1:00 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "11:00 p.m. the next day",
+      "B": "1:00 a.m. the next day",
+      "C": "11:00 a.m. the next day",
+      "D": "1:00 p.m. the next day"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 22 hours. 1:00 p.m. + 22h = 11:00 a.m. the next day.",
+      "steps": [
+        "22 hours from 1:00 p.m. is 11:00 a.m. the next day."
+      ],
+      "final_answer": "11:00 a.m. the next day"
+    }
+  },
+  {
+    "id": "24_1_010",
+    "type_id": "24_1",
+    "question": "The population of a particular bacteria doubles in size every 9 hours. If the population is 120 at 7:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "options": {
+      "A": "1:00 a.m. the next day",
+      "B": "4:00 a.m. the next day",
+      "C": "7:00 a.m. the next day",
+      "D": "4:00 p.m. the next day"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "24_001",
+    "solution": {
+      "strategy": "Doubled twice = 18 hours. 7:00 a.m. + 18h = 1:00 a.m. the next day.",
+      "steps": [
+        "18 hours from 7:00 a.m. is 1:00 a.m. the next day."
+      ],
+      "final_answer": "1:00 a.m. the next day"
+    }
+  }
+]

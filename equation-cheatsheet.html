@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Equation Cheat Sheet — SHSAT Prep</title>
+  <style>
+    :root {
+      --navy:#4c1d63; --blue:#c026d3; --blue-light:#fae8ff;
+      --green:#1e8e3e; --green-light:#e6f4ea;
+      --amber:#f9ab00; --amber-light:#fef7e0;
+      --red:#d93025; --red-light:#fce8e6;
+      --text:#1c2333; --muted:#6b7280; --border:#dde3ec;
+      --bg:#f0f4f8; --surface:#fff; --radius:10px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui,-apple-system,sans-serif; background: var(--bg); color: var(--text); padding: 1.5rem 1rem 4rem; }
+    .page { max-width: 1100px; margin: 0 auto; }
+    .back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--blue); text-decoration: none; font-size: 0.88rem; margin-bottom: 1rem; }
+    h1 { font-size: 1.6rem; font-weight: 900; margin-bottom: 0.3rem; color: var(--navy); }
+    .subtitle { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.5rem; }
+
+    /* ── Difficulty header ── */
+    .diff-row {
+      display: grid;
+      grid-template-columns: 160px repeat(5, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      align-items: center;
+    }
+    .diff-label {
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      padding: 0.25rem 0;
+    }
+    .diff-badge {
+      text-align: center;
+      border-radius: 99px;
+      padding: 0.2rem 0;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .d1 { background: #dcfce7; color: #166534; }
+    .d2 { background: #d1fae5; color: #065f46; }
+    .d3 { background: #fef9c3; color: #854d0e; }
+    .d4 { background: #ffedd5; color: #9a3412; }
+    .d5 { background: #fee2e2; color: #991b1b; }
+
+    /* ── Row layout ── */
+    .type-row {
+      display: grid;
+      grid-template-columns: 160px repeat(5, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      align-items: stretch;
+    }
+    .type-label {
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 0.75rem 0.6rem;
+      background: var(--navy);
+      color: #fff;
+      border-radius: var(--radius);
+      font-size: 0.82rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .type-label .type-sub {
+      font-size: 0.68rem;
+      font-weight: 400;
+      opacity: 0.7;
+      margin-top: 0.2rem;
+    }
+
+    /* ── Example card ── */
+    .ex-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.75rem 0.85rem;
+      font-size: 0.82rem;
+      line-height: 1.5;
+      display: flex; flex-direction: column; gap: 0.35rem;
+    }
+    .ex-eq {
+      font-family: 'Courier New', monospace;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--navy);
+      background: var(--blue-light);
+      border-radius: 5px;
+      padding: 0.25rem 0.5rem;
+      display: inline-block;
+    }
+    .ex-steps { font-size: 0.76rem; color: var(--muted); padding-left: 0.25rem; }
+    .ex-step { display: flex; gap: 0.4rem; align-items: baseline; margin-bottom: 0.15rem; }
+    .ex-step-n { color: var(--blue); font-weight: 700; font-size: 0.7rem; min-width: 1rem; }
+    .ex-step-eq { font-family: monospace; color: var(--text); }
+    .ex-step-why { color: var(--muted); font-size: 0.7rem; }
+    .ex-answer {
+      font-family: monospace; font-weight: 800; font-size: 0.9rem;
+      color: var(--green); border-top: 1px solid var(--border); padding-top: 0.3rem; margin-top: 0.1rem;
+    }
+    .op { color: var(--blue); font-weight: 700; }
+    del { color: var(--red); text-decoration-color: var(--red); }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+<div class="page">
+  <a href="trainer.html" class="back">← Back to Equation Trainer</a>
+  <h1>Equation Cheat Sheet</h1>
+  <p class="subtitle">Five equation types · five difficulty levels · increasing complexity left to right.</p>
+
+  <!-- Difficulty header -->
+  <div class="diff-row">
+    <div></div>
+    <div class="diff-badge d1">Level 1<br><span style="font-weight:400;font-size:0.65rem">Easiest</span></div>
+    <div class="diff-badge d2">Level 2</div>
+    <div class="diff-badge d3">Level 3</div>
+    <div class="diff-badge d4">Level 4</div>
+    <div class="diff-badge d5">Level 5<br><span style="font-weight:400;font-size:0.65rem">Hardest</span></div>
+  </div>
+
+  <!-- ══ ROW 1: One-step ══ -->
+  <div class="type-row">
+    <div class="type-label">One-Step<div class="type-sub">ax = b<br>x + b = c</div></div>
+
+    <div class="ex-card">
+      <span class="ex-eq">3x = 12</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq"><del>3</del>x/<del>3</del> = 12/3</span></div>
+      </div>
+      <div class="ex-answer">x = 4</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">x + 7 = 15</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">x + <del>7</del> = 15 − 7</span></div>
+      </div>
+      <div class="ex-answer">x = 8</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">5x = −30</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq"><del>5</del>x/<del>5</del> = −30/5</span></div>
+      </div>
+      <div class="ex-answer">x = −6</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">x − 11 = 4</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">x <del>− 11</del> = 4 + 11</span></div>
+      </div>
+      <div class="ex-answer">x = 15</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">−4x = 36</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq"><del>−4</del>x/<del>−4</del> = 36/−4</span></div>
+      </div>
+      <div class="ex-answer">x = −9</div>
+    </div>
+  </div>
+
+  <!-- ══ ROW 2: Two-step ══ -->
+  <div class="type-row">
+    <div class="type-label">Two-Step<div class="type-sub">ax + b = c</div></div>
+
+    <div class="ex-card">
+      <span class="ex-eq">2x + 3 = 9</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">2x = 9 − 3 = 6</span></div>
+        <div class="ex-step"><span class="ex-step-n">2.</span><span class="ex-step-eq">x = 6/2</span></div>
+      </div>
+      <div class="ex-answer">x = 3</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">4x − 5 = 11</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">4x = 11 + 5 = 16</span></div>
+        <div class="ex-step"><span class="ex-step-n">2.</span><span class="ex-step-eq">x = 16/4</span></div>
+      </div>
+      <div class="ex-answer">x = 4</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">7x + 14 = 0</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">7x = −14</span></div>
+        <div class="ex-step"><span class="ex-step-n">2.</span><span class="ex-step-eq">x = −14/7</span></div>
+      </div>
+      <div class="ex-answer">x = −2</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">3x − 8 = 16</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">3x = 24</span></div>
+        <div class="ex-step"><span class="ex-step-n">2.</span><span class="ex-step-eq">x = 24/3</span></div>
+      </div>
+      <div class="ex-answer">x = 8</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">−5x + 20 = 45</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">1.</span><span class="ex-step-eq">−5x = 25</span></div>
+        <div class="ex-step"><span class="ex-step-n">2.</span><span class="ex-step-eq">x = 25/−5</span></div>
+      </div>
+      <div class="ex-answer">x = −5</div>
+    </div>
+  </div>
+
+  <!-- ══ ROW 3: Distribution ══ -->
+  <div class="type-row">
+    <div class="type-label">Distribution<div class="type-sub">a(x + b) = c</div></div>
+
+    <div class="ex-card">
+      <span class="ex-eq">2(x + 3) = 10</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">÷2</span><span class="ex-step-eq">x + 3 = 5</span></div>
+        <div class="ex-step"><span class="ex-step-n">−3</span><span class="ex-step-eq">x = 2</span></div>
+      </div>
+      <div class="ex-answer">x = 2</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">3(x − 4) = 15</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x − 4 = 5</span></div>
+        <div class="ex-step"><span class="ex-step-n">+4</span><span class="ex-step-eq">x = 9</span></div>
+      </div>
+      <div class="ex-answer">x = 9</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">5(x + 2) = 35</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">÷5</span><span class="ex-step-eq">x + 2 = 7</span></div>
+        <div class="ex-step"><span class="ex-step-n">−2</span><span class="ex-step-eq">x = 5</span></div>
+      </div>
+      <div class="ex-answer">x = 5</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">4(2x − 1) = 28</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">÷4</span><span class="ex-step-eq">2x − 1 = 7</span></div>
+        <div class="ex-step"><span class="ex-step-n">+1</span><span class="ex-step-eq">2x = 8</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷2</span><span class="ex-step-eq">x = 4</span></div>
+      </div>
+      <div class="ex-answer">x = 4</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">6(3x + 5) = 48</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">÷6</span><span class="ex-step-eq">3x + 5 = 8</span></div>
+        <div class="ex-step"><span class="ex-step-n">−5</span><span class="ex-step-eq">3x = 3</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x = 1</span></div>
+      </div>
+      <div class="ex-answer">x = 1</div>
+    </div>
+  </div>
+
+  <!-- ══ ROW 4: Both sides ══ -->
+  <div class="type-row">
+    <div class="type-label">Both Sides<div class="type-sub">ax + b = cx + d</div></div>
+
+    <div class="ex-card">
+      <span class="ex-eq">5x = 2x + 9</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">−2x</span><span class="ex-step-eq">3x = 9</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x = 3</span></div>
+      </div>
+      <div class="ex-answer">x = 3</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">7x + 1 = 4x + 10</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">−4x</span><span class="ex-step-eq">3x + 1 = 10</span></div>
+        <div class="ex-step"><span class="ex-step-n">−1</span><span class="ex-step-eq">3x = 9</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x = 3</span></div>
+      </div>
+      <div class="ex-answer">x = 3</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">8x − 3 = 5x + 9</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">−5x</span><span class="ex-step-eq">3x − 3 = 9</span></div>
+        <div class="ex-step"><span class="ex-step-n">+3</span><span class="ex-step-eq">3x = 12</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x = 4</span></div>
+      </div>
+      <div class="ex-answer">x = 4</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">10x + 6 = 3x − 8</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">−3x</span><span class="ex-step-eq">7x + 6 = −8</span></div>
+        <div class="ex-step"><span class="ex-step-n">−6</span><span class="ex-step-eq">7x = −14</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷7</span><span class="ex-step-eq">x = −2</span></div>
+      </div>
+      <div class="ex-answer">x = −2</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">12x − 15 = 7x + 20</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">−7x</span><span class="ex-step-eq">5x − 15 = 20</span></div>
+        <div class="ex-step"><span class="ex-step-n">+15</span><span class="ex-step-eq">5x = 35</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷5</span><span class="ex-step-eq">x = 7</span></div>
+      </div>
+      <div class="ex-answer">x = 7</div>
+    </div>
+  </div>
+
+  <!-- ══ ROW 5: Proportion ══ -->
+  <div class="type-row">
+    <div class="type-label">Proportion<div class="type-sub">a/b = c/x</div></div>
+
+    <div class="ex-card">
+      <span class="ex-eq">1/2 = 3/x</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">×</span><span class="ex-step-eq">1·x = 2·3</span></div>
+        <div class="ex-step"><span class="ex-step-n">=</span><span class="ex-step-eq">x = 6</span></div>
+      </div>
+      <div class="ex-answer">x = 6</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">3/4 = 9/x</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">×</span><span class="ex-step-eq">3x = 36</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x = 12</span></div>
+      </div>
+      <div class="ex-answer">x = 12</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">5/8 = 15/x</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">×</span><span class="ex-step-eq">5x = 120</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷5</span><span class="ex-step-eq">x = 24</span></div>
+      </div>
+      <div class="ex-answer">x = 24</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">7/3 = x/12</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">×</span><span class="ex-step-eq">3x = 84</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷3</span><span class="ex-step-eq">x = 28</span></div>
+      </div>
+      <div class="ex-answer">x = 28</div>
+    </div>
+
+    <div class="ex-card">
+      <span class="ex-eq">11/6 = x/18</span>
+      <div class="ex-steps">
+        <div class="ex-step"><span class="ex-step-n">×</span><span class="ex-step-eq">6x = 198</span></div>
+        <div class="ex-step"><span class="ex-step-n">÷6</span><span class="ex-step-eq">x = 33</span></div>
+      </div>
+      <div class="ex-answer">x = 33</div>
+    </div>
+  </div>
+
+  <p style="margin-top:1rem;font-size:0.78rem;color:var(--muted);text-align:center">
+    Strategy: always work left→right (easier→harder). Keep x on the left. Do inverse operations — undo addition with subtraction, undo multiplication with division.
+  </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sprint Mode — SHSAT Prep</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ── Score meter ── */
+    .score-ring-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 0 0.5rem;
+    }
+    .score-ring {
+      position: relative;
+      width: 140px;
+      height: 140px;
+    }
+    .score-ring svg {
+      transform: rotate(-90deg);
+    }
+    .score-ring-bg {
+      fill: none;
+      stroke: var(--border);
+      stroke-width: 12;
+    }
+    .score-ring-fill {
+      fill: none;
+      stroke: var(--primary);
+      stroke-width: 12;
+      stroke-linecap: round;
+      stroke-dasharray: 351.86; /* 2π * 56 */
+      stroke-dashoffset: 351.86;
+      transition: stroke-dashoffset 0.6s ease, stroke 0.4s ease;
+    }
+    .score-ring-fill.zone     { stroke: #f9ab00; }
+    .score-ring-fill.mastered { stroke: #1e8e3e; }
+    .score-ring-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .score-ring-num {
+      font-size: 2.4rem;
+      font-weight: 900;
+      line-height: 1;
+      color: var(--text);
+      transition: color 0.4s;
+    }
+    .score-ring-num.zone     { color: #92600a; }
+    .score-ring-num.mastered { color: #137333; }
+    .score-ring-sub {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── Goal target markers on a thin bar below ring ── */
+    .score-bar-wrap {
+      width: 100%;
+      max-width: 360px;
+      margin: 0.4rem auto 0;
+    }
+    .score-bar-track {
+      height: 8px;
+      background: var(--border);
+      border-radius: 99px;
+      overflow: visible;
+      position: relative;
+    }
+    .score-bar-fill {
+      height: 100%;
+      border-radius: 99px;
+      background: linear-gradient(90deg, var(--primary), #34d399);
+      transition: width 0.6s ease, background 0.4s;
+    }
+    .score-bar-fill.zone     { background: linear-gradient(90deg, #f9ab00, #ff6d00); }
+    .score-bar-fill.mastered { background: linear-gradient(90deg, #1e8e3e, #34d399); }
+    .score-bar-tick {
+      position: absolute;
+      top: -3px;
+      width: 2px;
+      height: 14px;
+      background: rgba(0,0,0,0.25);
+      border-radius: 1px;
+    }
+    .score-milestones {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+    }
+    .score-milestone-center {
+      text-align: center;
+      flex: 1;
+    }
+
+    /* ── Badge ── */
+    .sprint-badge {
+      display: inline-block;
+      padding: 0.2em 0.75em;
+      border-radius: 99px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-top: 0.5rem;
+      letter-spacing: 0.02em;
+    }
+    .badge-zone     { background: #fef7e0; color: #92600a; border: 1px solid #f9ab00; }
+    .badge-proficient { background: #e6f4ea; color: #137333; border: 1px solid #1e8e3e; }
+    .badge-mastered { background: #ceead6; color: #0d652d; border: 1px solid #0d652d; }
+
+    /* ── Goal selector ── */
+    .goal-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.6rem 0 1rem; }
+    .goal-btn {
+      padding: 0.45em 1.1em;
+      border-radius: 7px;
+      border: 2px solid var(--border);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: inherit;
+      transition: border-color 0.12s, background 0.12s, color 0.12s;
+    }
+    .goal-btn:hover { border-color: var(--primary); background: var(--primary-light); }
+    .goal-btn.active { border-color: var(--primary); background: var(--primary); color: #fff; }
+
+    /* ── Feedback strip ── */
+    .sprint-feedback {
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+    .sprint-feedback.correct  { background: #e6f4ea; color: #137333; border-left: 4px solid #1e8e3e; }
+    .sprint-feedback.wrong    { background: #fce8e6; color: #c62828; border-left: 4px solid #d93025; }
+    .sprint-delta {
+      margin-left: auto;
+      font-size: 0.82rem;
+      opacity: 0.85;
+    }
+
+    /* ── Picker ── */
+    .picker-scroll {
+      max-height: 38vh;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.5rem 0.75rem;
+      background: var(--surface);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Session header ── */
+    .sprint-session-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+    .sprint-type-chip {
+      font-size: 0.82rem;
+      font-weight: 700;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 0.25em 0.75em;
+      border-radius: 99px;
+    }
+    .sprint-stats-row {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Complete screen ── */
+    .complete-wrap {
+      text-align: center;
+      padding: 2.5rem 1rem;
+    }
+    .complete-icon { font-size: 3.5rem; margin-bottom: 0.5rem; }
+    .complete-stats {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin: 1.25rem 0 2rem;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.75rem 1.25rem;
+      min-width: 90px;
+    }
+    .stat-num   { font-size: 1.6rem; font-weight: 900; color: var(--primary); display: block; }
+    .stat-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <main class="main" style="max-width:680px">
+
+    <!-- ── Setup ── -->
+    <div id="screen-setup">
+      <h1 style="margin-bottom:0.2rem">Sprint Mode</h1>
+      <p class="subtitle" style="margin-bottom:1.25rem">
+        Pick a skill and chase a SmartScore. Correct answers climb your score — mistakes push it back.
+        Reach your goal to finish.
+      </p>
+
+      <h2 style="font-size:0.95rem;margin:0 0 0.4rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-muted)">Pick a skill</h2>
+      <div class="picker-scroll" id="sprint-picker"></div>
+
+      <h2 style="font-size:0.95rem;margin:0 0 0.4rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-muted)">Goal</h2>
+      <div class="goal-btns" id="goal-btns">
+        <button class="goal-btn" data-goal="80">80 — Proficient</button>
+        <button class="goal-btn active" data-goal="90">90 — Excellent</button>
+        <button class="goal-btn" data-goal="100">100 — Mastered</button>
+      </div>
+
+      <button class="btn btn-primary" id="start-sprint">Start sprint →</button>
+    </div>
+
+    <!-- ── Sprint session ── -->
+    <div id="screen-sprint" class="hidden">
+
+      <div class="sprint-session-header">
+        <span class="sprint-type-chip" id="sprint-type-chip"></span>
+        <span class="sprint-stats-row" id="sprint-stats-row"></span>
+        <button class="btn" id="quit-btn" style="font-size:0.8rem;padding:0.3rem 0.8rem">Quit</button>
+      </div>
+
+      <!-- Score ring + bar -->
+      <div class="score-ring-wrap">
+        <div class="score-ring">
+          <svg viewBox="0 0 120 120" width="140" height="140">
+            <circle class="score-ring-bg" cx="60" cy="60" r="56"/>
+            <circle class="score-ring-fill" id="ring-fill" cx="60" cy="60" r="56"/>
+          </svg>
+          <div class="score-ring-label">
+            <span class="score-ring-num" id="ring-num">0</span>
+            <span class="score-ring-sub">SmartScore</span>
+          </div>
+        </div>
+        <div id="sprint-badge" class="sprint-badge hidden"></div>
+        <div class="score-bar-wrap">
+          <div class="score-bar-track">
+            <div class="score-bar-fill" id="bar-fill" style="width:0%"></div>
+            <!-- tick marks at 80 and 90 -->
+            <div class="score-bar-tick" style="left:80%"></div>
+            <div class="score-bar-tick" style="left:90%"></div>
+          </div>
+          <div class="score-milestones">
+            <span>0</span>
+            <span class="score-milestone-center">80 Proficient</span>
+            <span class="score-milestone-center">90 Excellent</span>
+            <span>100</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feedback strip (hidden until answer submitted) -->
+      <div id="sprint-feedback" class="sprint-feedback hidden"></div>
+
+      <!-- Question card -->
+      <article class="question-card" id="sprint-qcard">
+        <div id="sprint-diagram" class="diagram-container"></div>
+        <p class="question-text" id="sprint-qtext"></p>
+        <div class="options" id="sprint-options"></div>
+        <div class="actions" style="margin-top:1rem">
+          <button class="btn btn-primary" id="sprint-submit">Submit</button>
+          <button class="btn btn-primary hidden" id="sprint-next">Next →</button>
+        </div>
+      </article>
+    </div>
+
+    <!-- ── Complete ── -->
+    <div id="screen-complete" class="hidden">
+      <div class="complete-wrap">
+        <div class="complete-icon" id="complete-icon"></div>
+        <h1 id="complete-title" style="margin:0 0 0.4rem"></h1>
+        <p id="complete-sub" style="color:var(--text-muted);margin:0 0 1rem"></p>
+        <div class="complete-stats" id="complete-stats"></div>
+        <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap">
+          <button class="btn btn-primary" id="try-again">Try again</button>
+          <a href="index.html#dashboard" class="btn">Dashboard</a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="common.js?v=1"></script>
+  <script>
+  (function () {
+    const DATA = 'data/';
+    const CIRCUMFERENCE = 2 * Math.PI * 56; // 351.86
+
+    let problemTypes = [];
+    let subtypeList  = [];
+    let problems     = [];
+    let selectedType = null;
+    let goalScore    = 90;
+
+    // Session state
+    let score    = 0;
+    let qIndex   = 0;
+    let correct  = 0;
+    let total    = 0;
+    let answered = false;
+
+    // ── Score dynamics ──────────────────────────────────────
+    // Points gained/lost scale with current score.
+    // Easier to climb early; brutally hard in the Challenge Zone.
+    function delta(current, isCorrect) {
+      if (isCorrect) {
+        if (current < 40) return 14;
+        if (current < 60) return 10;
+        if (current < 80) return  7;
+        if (current < 90) return  5;
+        return 3;  // Challenge Zone — tiny gains
+      } else {
+        if (current < 40) return  -5;
+        if (current < 60) return  -8;
+        if (current < 80) return -12;
+        if (current < 90) return -16;
+        return -20; // Challenge Zone — big penalty
+      }
+    }
+
+    // ── Meter update ────────────────────────────────────────
+    function updateMeter(newScore) {
+      score = Math.max(0, Math.min(100, newScore));
+
+      const ringFill = document.getElementById('ring-fill');
+      const ringNum  = document.getElementById('ring-num');
+      const barFill  = document.getElementById('bar-fill');
+      const badge    = document.getElementById('sprint-badge');
+
+      // Animate ring
+      const offset = CIRCUMFERENCE * (1 - score / 100);
+      ringFill.style.strokeDashoffset = offset;
+      ringNum.textContent = score;
+
+      // Bar
+      barFill.style.width = score + '%';
+
+      // Color class
+      const zone     = score >= 90 && score < 100;
+      const mastered = score >= 100;
+      ['zone','mastered'].forEach(c => {
+        ringFill.classList.toggle(c, c === 'zone' ? zone : mastered);
+        ringNum.classList.toggle(c, c === 'zone' ? zone : mastered);
+        barFill.classList.toggle(c, c === 'zone' ? zone : mastered);
+      });
+
+      // Badge
+      badge.className = 'sprint-badge';
+      if (mastered) {
+        badge.textContent = '★ Mastered!';
+        badge.classList.add('badge-mastered');
+        badge.classList.remove('hidden');
+      } else if (zone) {
+        badge.textContent = '🔥 Challenge Zone — stay sharp';
+        badge.classList.add('badge-zone');
+        badge.classList.remove('hidden');
+      } else if (score >= 80) {
+        badge.textContent = '✓ Proficient';
+        badge.classList.add('badge-proficient');
+        badge.classList.remove('hidden');
+      } else {
+        badge.classList.add('hidden');
+      }
+    }
+
+    // ── Helpers (from common.js) ──────────────────────────────
+    const escapeHtml         = window.SHSAT.escapeHtml;
+    const renderMarkdownTable = window.SHSAT.renderMarkdownTable;
+
+    function typeName(typeId) {
+      const [major] = String(typeId).split('_');
+      const t = problemTypes.find(x => String(x.id) === major);
+      return t ? t.name : typeId;
+    }
+
+    // ── Show question ────────────────────────────────────────
+    function showQuestion() {
+      if (qIndex >= problems.length) qIndex = 0; // cycle
+      answered = false;
+      const p = problems[qIndex];
+
+      document.getElementById('sprint-qtext').textContent = p.question;
+      document.getElementById('sprint-stats-row').textContent =
+        'Q' + (total + 1) + (p.id ? '  ·  ID ' + p.id : '') + '  ·  goal ' + goalScore;
+
+      // Figure (image + diagram)
+      window.SHSAT.renderDiagram(document.getElementById('sprint-diagram'), p);
+
+      // Options
+      const cont = document.getElementById('sprint-options');
+      cont.innerHTML = '';
+      ['A','B','C','D','E','F','G','H'].forEach(key => {
+        if (!(key in (p.options || {}))) return;
+        const label = document.createElement('label');
+        label.className = 'option';
+        label.innerHTML =
+          '<input type="radio" name="sprint-ans" value="' + key + '" />' +
+          ' <span>' + key + '. ' + escapeHtml(String(p.options[key])) + '</span>';
+        label.addEventListener('click', (e) => {
+          if (answered) return;
+          e.preventDefault();
+          const wasSelected = label.classList.contains('selected');
+          cont.querySelectorAll('.option').forEach(el => el.classList.remove('selected'));
+          cont.querySelectorAll('input').forEach(el => { el.checked = false; });
+          if (!wasSelected) {
+            label.classList.add('selected');
+            label.querySelector('input').checked = true;
+          }
+        });
+        cont.appendChild(label);
+      });
+
+      // Buttons
+      document.getElementById('sprint-feedback').classList.add('hidden');
+      document.getElementById('sprint-submit').classList.remove('hidden');
+      document.getElementById('sprint-next').classList.add('hidden');
+    }
+
+    // ── Submit ───────────────────────────────────────────────
+    function submitAnswer() {
+      if (answered) return;
+      const checked = document.querySelector('#sprint-options input:checked');
+      if (!checked) return;
+
+      answered = true;
+      total++;
+
+      const p          = problems[qIndex];
+      const isCorrect  = checked.value === p.correct;
+      const d          = delta(score, isCorrect);
+      const prevScore  = score;
+
+      if (isCorrect) correct++;
+      updateMeter(score + d);
+
+      // Color options
+      document.querySelectorAll('#sprint-options .option').forEach(el => {
+        const val = el.querySelector('input').value;
+        el.querySelector('input').disabled = true;
+        if (val === p.correct)       el.classList.add('correct');
+        else if (val === checked.value) el.classList.add('incorrect');
+      });
+
+      // Feedback strip
+      const fb   = document.getElementById('sprint-feedback');
+      const sign = d > 0 ? '+' : '';
+      fb.className = 'sprint-feedback ' + (isCorrect ? 'correct' : 'wrong');
+      fb.innerHTML =
+        '<span>' + (isCorrect
+          ? '✓ Correct!'
+          : '✗ Incorrect — correct answer: <strong>' + p.correct + '</strong>') +
+        '</span><span class="sprint-delta">' + sign + d + ' pts  (' + prevScore + ' → ' + score + ')</span>';
+      fb.classList.remove('hidden');
+
+      document.getElementById('sprint-submit').classList.add('hidden');
+      document.getElementById('sprint-next').classList.remove('hidden');
+
+      // Goal reached?
+      if (score >= goalScore) {
+        setTimeout(showComplete, 750);
+      }
+    }
+
+    // ── Next question ────────────────────────────────────────
+    function nextQuestion() {
+      qIndex++;
+      showQuestion();
+      document.getElementById('sprint-qcard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // ── Complete screen ──────────────────────────────────────
+    function showComplete() {
+      document.getElementById('screen-sprint').classList.add('hidden');
+      document.getElementById('screen-complete').classList.remove('hidden');
+
+      const goalReached = score >= goalScore;
+      const mastered    = score >= 100;
+
+      document.getElementById('complete-icon').textContent  = mastered ? '🏆' : goalReached ? '🎯' : '💪';
+      document.getElementById('complete-title').textContent = mastered ? 'Mastered!' : goalReached ? 'Goal reached!' : 'Sprint ended';
+      document.getElementById('complete-sub').textContent   =
+        typeName(selectedType) + ' (' + selectedType + ')  ·  SmartScore ' + score + ' / ' + goalScore + ' goal';
+
+      const pct = total > 0 ? Math.round(100 * correct / total) : 0;
+      document.getElementById('complete-stats').innerHTML =
+        stat(score,       'SmartScore') +
+        stat(correct + '/' + total, 'Correct')   +
+        stat(pct + '%',   'Accuracy');
+
+      saveMastery();
+    }
+
+    function stat(val, label) {
+      return '<div class="stat-card"><span class="stat-num">' + val +
+        '</span><span class="stat-label">' + label + '</span></div>';
+    }
+
+    // ── Save to shared mastery store ─────────────────────────
+    function saveMastery() {
+      try {
+        const key  = 'shsat_mastery';
+        const m    = JSON.parse(localStorage.getItem(key) || '{}');
+        const prev = m[selectedType] || { level: 'not_started', correct: 0, total: 0 };
+        const lvl  = score >= 100 ? 'mastered'
+                   : score >= 90  ? 'proficient'
+                   : score >= 70  ? 'familiar'
+                   : 'attempted';
+        m[selectedType] = {
+          level:       lvl,
+          correct:     (prev.correct || 0) + correct,
+          total:       (prev.total   || 0) + total,
+          lastSprint:  score
+        };
+        localStorage.setItem(key, JSON.stringify(m));
+      } catch (e) {}
+    }
+
+    // ── Boot ─────────────────────────────────────────────────
+    async function init() {
+      // Load types list + subtype order from exam CSV
+      const [typesRes, csvRes] = await Promise.all([
+        fetch(DATA + 'problem_types.json'),
+        fetch(DATA + 'exam_diagnostic_full.csv?v=full')
+      ]);
+      problemTypes = await typesRes.json();
+      subtypeList  = (await csvRes.text())
+        .trim().split(/\r?\n/).slice(1)
+        .map(row => (row.split(',')[1] || '').trim())
+        .filter(Boolean);
+
+      // Build grouped picker
+      const groups = {};
+      subtypeList.forEach(id => {
+        const [major] = String(id).split('_');
+        if (!groups[major]) groups[major] = { name: typeName(id), ids: [] };
+        groups[major].ids.push(id);
+      });
+
+      const picker = document.getElementById('sprint-picker');
+      Object.entries(groups).forEach(([major, group]) => {
+        const sec = document.createElement('div');
+        sec.className = 'picker-unit-section';
+
+        const hdr = document.createElement('div');
+        hdr.className = 'picker-unit-header';
+        hdr.textContent = 'Unit ' + major + ' — ' + group.name;
+        sec.appendChild(hdr);
+
+        const grid = document.createElement('div');
+        grid.className = 'picker-subtype-grid';
+        group.ids.forEach(typeId => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'picker-subtype-card';
+          btn.dataset.typeid = typeId;
+          btn.innerHTML =
+            '<span class="picker-subtype-name">' + escapeHtml(typeName(typeId)) + '</span>' +
+            '<span class="picker-subtype-id">'   + typeId + '</span>';
+          btn.addEventListener('click', () => {
+            picker.querySelectorAll('.picker-subtype-card').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            selectedType = typeId;
+          });
+          grid.appendChild(btn);
+        });
+
+        sec.appendChild(grid);
+        picker.appendChild(sec);
+      });
+
+      // Goal buttons
+      document.querySelectorAll('.goal-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          goalScore = parseInt(btn.dataset.goal, 10);
+        });
+      });
+
+      // Start sprint
+      document.getElementById('start-sprint').addEventListener('click', async () => {
+        if (!selectedType) { alert('Pick a skill first.'); return; }
+        const res = await fetch(DATA + 'generated/type_' + selectedType + '.json');
+        if (!res.ok) { alert('No problems found for this type.'); return; }
+        const list = await res.json();
+        if (!list || !list.length) { alert('No problems found for this type.'); return; }
+
+        // Shuffle pool
+        problems = [...list].sort(() => Math.random() - 0.5);
+        score = 0; qIndex = 0; correct = 0; total = 0; answered = false;
+
+        updateMeter(0);
+        document.getElementById('sprint-type-chip').textContent = typeName(selectedType) + ' ' + selectedType;
+        document.getElementById('screen-setup').classList.add('hidden');
+        document.getElementById('screen-complete').classList.add('hidden');
+        document.getElementById('screen-sprint').classList.remove('hidden');
+        showQuestion();
+      });
+
+      document.getElementById('sprint-submit').addEventListener('click', submitAnswer);
+      document.getElementById('sprint-next').addEventListener('click', nextQuestion);
+
+      document.getElementById('quit-btn').addEventListener('click', showComplete);
+
+      document.getElementById('try-again').addEventListener('click', () => {
+        score = 0; qIndex = 0; correct = 0; total = 0; answered = false;
+        updateMeter(0);
+        document.getElementById('screen-complete').classList.add('hidden');
+        document.getElementById('screen-setup').classList.remove('hidden');
+      });
+    }
+
+    init().catch(err => {
+      document.querySelector('.main').innerHTML =
+        '<p style="color:red">Failed to load. Make sure the server is running: <code>shsat-start</code></p>';
+      console.error(err);
+    });
+
+  })();
+  </script>
+</body>
+</html>

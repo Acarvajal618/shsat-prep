@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Progress — SHSAT Prep</title>
+  <style>
+    :root {
+      --navy: #4c1d63; --blue: #c026d3; --blue-light: #fae8ff;
+      --green: #1e8e3e; --green-light: #e6f4ea;
+      --red: #d93025; --red-light: #fce8e6;
+      --amber: #f9ab00; --amber-light: #fef7e0;
+      --text: #1c2333; --muted: #6b7280; --border: #dde3ec;
+      --bg: #f0f4f8; --surface: #fff; --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui,-apple-system,sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    header {
+      background: var(--navy);
+      padding: 0 1.5rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 52px; position: sticky; top: 0; z-index: 10;
+    }
+    header a.logo { font-weight: 800; font-size: 1.1rem; color: #fff; text-decoration: none; }
+    header a.back { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 0.88rem; padding: 0.35rem 0.8rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2); transition: background 0.15s; }
+    header a.back:hover { background: rgba(255,255,255,0.1); color: #fff; }
+    .page { max-width: 780px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    .hero { background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%); border-radius: var(--radius); padding: 1.75rem; margin-bottom: 2rem; color: #fff; }
+    .hero h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 0.25rem; }
+    .hero p { opacity: 0.8; font-size: 0.9rem; margin: 0; }
+    .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); text-align: center; }
+    .stat-num { font-size: 2rem; font-weight: 800; color: var(--blue); line-height: 1; margin-bottom: 0.3rem; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+    .section-title {
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em;
+      color: var(--muted); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;
+    }
+    .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    thead th { text-align: left; padding: 0.6rem 0.75rem; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); border-bottom: 2px solid var(--border); }
+    tbody td { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--border); }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: #f7f9fc; }
+    .acc-bar-wrap { width: 80px; height: 8px; background: #e2e8f0; border-radius: 99px; overflow: hidden; display: inline-block; vertical-align: middle; margin-right: 0.5rem; }
+    .acc-bar { height: 100%; border-radius: 99px; }
+    .acc-pct { font-weight: 700; font-size: 0.88rem; vertical-align: middle; }
+    .weak  { color: var(--red); }
+    .mid   { color: var(--amber); }
+    .strong{ color: var(--green); }
+    .empty-state { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+    .empty-state .icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+    .btn-back { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--blue); color: #fff; text-decoration: none; padding: 0.55rem 1.2rem; border-radius: 8px; font-weight: 600; font-size: 0.9rem; margin-top: 1.5rem; box-shadow: 0 2px 8px rgba(192,38,211,0.25); transition: background 0.15s; }
+    .btn-back:hover { background: #a21caf; }
+    .btn-clear { background: none; border: 1px solid var(--border); border-radius: 7px; padding: 0.4rem 0.85rem; font-size: 0.82rem; color: var(--muted); cursor: pointer; font-family: inherit; transition: border-color 0.12s, color 0.12s; }
+    .btn-clear:hover { border-color: var(--red); color: var(--red); }
+    @media (max-width: 540px) { .page { padding: 1rem 1rem 3rem; } }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <div class="page">
+    <div class="hero">
+      <h1>📊 My Progress</h1>
+      <p>Your score history across all practice sessions — weakest types shown first.</p>
+    </div>
+
+    <div class="stats-row" id="stats-row">
+      <div class="stat-card"><div class="stat-num" id="stat-total">—</div><div class="stat-label">Total Attempted</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-correct">—</div><div class="stat-label">Correct</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-pct">—</div><div class="stat-label">Overall Accuracy</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-types">—</div><div class="stat-label">Types Practiced</div></div>
+    </div>
+
+    <p class="section-title">Performance by Unit Type</p>
+    <div class="card" id="table-card">
+      <div class="empty-state" id="empty-state">
+        <div class="icon">📝</div>
+        <p style="font-weight:600;margin-bottom:0.4rem">No practice history yet</p>
+        <p style="font-size:0.88rem">Complete some practice sessions and your results will appear here.</p>
+        <a class="btn-back" href="index.html#practice">Start Practicing →</a>
+      </div>
+      <table id="results-table" style="display:none">
+        <thead>
+          <tr>
+            <th>Unit Type</th>
+            <th>Attempts</th>
+            <th>Correct</th>
+            <th>Accuracy</th>
+          </tr>
+        </thead>
+        <tbody id="results-tbody"></tbody>
+      </table>
+    </div>
+
+    <div id="clear-wrap" style="display:none;text-align:right;margin-top:-0.75rem;margin-bottom:1.5rem">
+      <button class="btn-clear" id="btn-clear">🗑 Clear history</button>
+    </div>
+
+    <div style="text-align:center;margin-top:1rem">
+      <a class="btn-back" href="index.html">← Back to Dashboard</a>
+    </div>
+  </div>
+
+  <script>
+  (function() {
+    var key = 'shsat_results';
+    var results = JSON.parse(localStorage.getItem(key) || '[]');
+
+    var total = results.length;
+    var correct = results.filter(function(r){ return r.correct; }).length;
+    var pct = total > 0 ? Math.round(100 * correct / total) : 0;
+
+    document.getElementById('stat-total').textContent = total;
+    document.getElementById('stat-correct').textContent = correct;
+    document.getElementById('stat-pct').textContent = total > 0 ? pct + '%' : '—';
+
+    if (total === 0) {
+      document.getElementById('stat-types').textContent = '0';
+      return;
+    }
+
+    // Aggregate by typeId
+    var byType = {};
+    results.forEach(function(r) {
+      if (!byType[r.typeId]) byType[r.typeId] = { attempts: 0, correct: 0 };
+      byType[r.typeId].attempts++;
+      if (r.correct) byType[r.typeId].correct++;
+    });
+
+    var types = Object.keys(byType);
+    document.getElementById('stat-types').textContent = types.length;
+
+    // Sort by accuracy ascending (weakest first)
+    types.sort(function(a, b) {
+      var aAcc = byType[a].correct / byType[a].attempts;
+      var bAcc = byType[b].correct / byType[b].attempts;
+      return aAcc - bAcc;
+    });
+
+    var tbody = document.getElementById('results-tbody');
+    types.forEach(function(typeId) {
+      var d = byType[typeId];
+      var acc = Math.round(100 * d.correct / d.attempts);
+      var cls = acc < 50 ? 'weak' : (acc < 75 ? 'mid' : 'strong');
+      var barColor = acc < 50 ? '#d93025' : (acc < 75 ? '#f9ab00' : '#1e8e3e');
+      var tr = document.createElement('tr');
+      tr.innerHTML =
+        '<td><strong>' + escHtml(typeId) + '</strong></td>' +
+        '<td>' + d.attempts + '</td>' +
+        '<td>' + d.correct + '</td>' +
+        '<td>' +
+          '<span class="acc-bar-wrap"><span class="acc-bar" style="width:' + acc + '%;background:' + barColor + '"></span></span>' +
+          '<span class="acc-pct ' + cls + '">' + acc + '%</span>' +
+        '</td>';
+      tbody.appendChild(tr);
+    });
+
+    document.getElementById('empty-state').style.display = 'none';
+    document.getElementById('results-table').style.display = '';
+    document.getElementById('clear-wrap').style.display = 'block';
+
+    document.getElementById('btn-clear').addEventListener('click', function() {
+      if (confirm('Clear all practice history? This cannot be undone.')) {
+        localStorage.removeItem(key);
+        location.reload();
+      }
+    });
+
+    function escHtml(s) {
+      var d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+  })();
+  </script>
+</body>
+</html>

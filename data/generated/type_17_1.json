@@ -1,0 +1,214 @@
+[
+  {
+    "id": "17_1_001",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 8, 32, and 48?",
+    "options": {
+      "A": "64",
+      "B": "96",
+      "C": "128",
+      "D": "144"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Since 48 and 32 are both multiples of 8, find the least common multiple of 48 and 32 only.",
+      "steps": [
+        "List multiples of 48: 48, 96, 144, 192, ...",
+        "List multiples of 32: 32, 64, 96, ...",
+        "Identify the least common multiple from the lists: 96."
+      ],
+      "final_answer": "96"
+    }
+  },
+  {
+    "id": "17_1_002",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 6, 12, and 18?",
+    "options": {
+      "A": "18",
+      "B": "36",
+      "C": "72",
+      "D": "108"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization or listing multiples.",
+      "steps": [
+        "6 = 2×3, 12 = 2²×3, 18 = 2×3². LCM = 2²×3² = 36."
+      ],
+      "final_answer": "36"
+    }
+  },
+  {
+    "id": "17_1_003",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 9, 15, and 25?",
+    "options": {
+      "A": "75",
+      "B": "225",
+      "C": "375",
+      "D": "450"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "9 = 3², 15 = 3×5, 25 = 5². LCM = 3²×5² = 225."
+      ],
+      "final_answer": "225"
+    }
+  },
+  {
+    "id": "17_1_004",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 4, 10, and 15?",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "90",
+      "D": "120"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "4 = 2², 10 = 2×5, 15 = 3×5. LCM = 2²×3×5 = 60."
+      ],
+      "final_answer": "60"
+    }
+  },
+  {
+    "id": "17_1_005",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 12, 18, and 24?",
+    "options": {
+      "A": "72",
+      "B": "96",
+      "C": "144",
+      "D": "216"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "12 = 2²×3, 18 = 2×3², 24 = 2³×3. LCM = 2³×3² = 72."
+      ],
+      "final_answer": "72"
+    }
+  },
+  {
+    "id": "17_1_006",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 5, 6, and 10?",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "90",
+      "D": "120"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "5 = 5, 6 = 2×3, 10 = 2×5. LCM = 2×3×5 = 30."
+      ],
+      "final_answer": "30"
+    }
+  },
+  {
+    "id": "17_1_007",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 7, 14, and 21?",
+    "options": {
+      "A": "42",
+      "B": "84",
+      "C": "98",
+      "D": "147"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Since 14 and 21 are multiples of 7, LCM(7,14,21) = LCM(14,21) = 42.",
+      "steps": [
+        "Multiples of 21: 21, 42, ...; 42 is a multiple of 14. LCM = 42."
+      ],
+      "final_answer": "42"
+    }
+  },
+  {
+    "id": "17_1_008",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 8, 20, and 30?",
+    "options": {
+      "A": "120",
+      "B": "240",
+      "C": "360",
+      "D": "480"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "8 = 2³, 20 = 2²×5, 30 = 2×3×5. LCM = 2³×3×5 = 120."
+      ],
+      "final_answer": "120"
+    }
+  },
+  {
+    "id": "17_1_009",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 16, 24, and 40?",
+    "options": {
+      "A": "80",
+      "B": "120",
+      "C": "240",
+      "D": "480"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "16 = 2⁴, 24 = 2³×3, 40 = 2³×5. LCM = 2⁴×3×5 = 240."
+      ],
+      "final_answer": "240"
+    }
+  },
+  {
+    "id": "17_1_010",
+    "type_id": "17_1",
+    "question": "What is the least common multiple of 9, 12, and 20?",
+    "options": {
+      "A": "180",
+      "B": "360",
+      "C": "540",
+      "D": "720"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "17_001",
+    "solution": {
+      "strategy": "Find LCM using prime factorization.",
+      "steps": [
+        "9 = 3², 12 = 2²×3, 20 = 2²×5. LCM = 2²×3²×5 = 180."
+      ],
+      "final_answer": "180"
+    }
+  }
+]

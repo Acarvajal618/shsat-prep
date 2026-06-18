@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_14_001",
+    "type_id": "6_14",
+    "question": "In a certain 3,000-meter race, 2 people finished in under 10 minutes, 7 people finished between 10 and 11 minutes, 18 people finished between 11 and 12 minutes, and the other 473 people finished in more than 12 minutes. What percentage of the people in the competition finished in 12 minutes or less?",
+    "options": {
+      "A": "0.0054%",
+      "B": "0.054%",
+      "C": "0.54%",
+      "D": "5.4%"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Add counts for 12 min or less; divide by total; convert to percent.",
+      "steps": [
+        "In 12 min or less: 2 + 7 + 18 = 27",
+        "Total: 27 + 473 = 500. Percent: 27/500 × 100 = 5.4%"
+      ],
+      "final_answer": "5.4%"
+    }
+  },
+  {
+    "id": "6_14_002",
+    "type_id": "6_14",
+    "question": "In a certain race, 5 people finished in under 8 minutes, 12 between 8 and 9 minutes, 23 between 9 and 10 minutes, and 460 in over 10 minutes. What percentage finished in 10 minutes or less?",
+    "options": {
+      "A": "4%",
+      "B": "8%",
+      "C": "8.2%",
+      "D": "10%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5+12+23 = 40 in 10 min or less; total 500; 40/500 = 8%.",
+      "steps": [
+        "In 10 min or less: 40",
+        "Total: 500. Percent: 40/500 × 100 = 8%"
+      ],
+      "final_answer": "8%"
+    }
+  },
+  {
+    "id": "6_14_003",
+    "type_id": "6_14",
+    "question": "In a marathon, 3 finished under 3 hours, 15 between 3 and 3.5 hours, 32 between 3.5 and 4 hours, and 150 over 4 hours. What percentage finished in 4 hours or less?",
+    "options": {
+      "A": "15%",
+      "B": "20%",
+      "C": "25%",
+      "D": "50%"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "3+15+32 = 50 in 4 hr or less; total 200; 50/200 = 25%.",
+      "steps": [
+        "In 4 hr or less: 50",
+        "Total: 200. Percent: 50/200 × 100 = 25%"
+      ],
+      "final_answer": "25%"
+    }
+  },
+  {
+    "id": "6_14_004",
+    "type_id": "6_14",
+    "question": "In a 5K race, 4 finished under 18 minutes, 10 between 18 and 20 minutes, 26 between 20 and 22 minutes, and 360 in over 22 minutes. What percentage finished in 22 minutes or less?",
+    "options": {
+      "A": "1%",
+      "B": "10%",
+      "C": "11%",
+      "D": "12%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "4+10+26 = 40; total 400; 40/400 = 10%.",
+      "steps": [
+        "In 22 min or less: 40",
+        "Total: 400. Percent: 40/400 × 100 = 10%"
+      ],
+      "final_answer": "10%"
+    }
+  },
+  {
+    "id": "6_14_005",
+    "type_id": "6_14",
+    "question": "In a swim meet, 1 finished under 1 minute, 8 between 1 and 1.5 minutes, 16 between 1.5 and 2 minutes, and 75 over 2 minutes. What percentage finished in 2 minutes or less?",
+    "options": {
+      "A": "20%",
+      "B": "25%",
+      "C": "26%",
+      "D": "30%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "1+8+16 = 25; total 100; 25/100 = 25%.",
+      "steps": [
+        "In 2 min or less: 25",
+        "Total: 100. Percent: 25/100 × 100 = 25%"
+      ],
+      "final_answer": "25%"
+    }
+  },
+  {
+    "id": "6_14_006",
+    "type_id": "6_14",
+    "question": "In a race, 6 finished in under 12 minutes, 14 between 12 and 13 minutes, 30 between 13 and 14 minutes, and 450 in over 14 minutes. What percentage finished in 14 minutes or less?",
+    "options": {
+      "A": "9%",
+      "B": "10%",
+      "C": "11%",
+      "D": "12%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "6+14+30 = 50; total 500; 50/500 = 10%.",
+      "steps": [
+        "In 14 min or less: 50",
+        "Total: 500. Percent: 50/500 × 100 = 10%"
+      ],
+      "final_answer": "10%"
+    }
+  },
+  {
+    "id": "6_14_007",
+    "type_id": "6_14",
+    "question": "In a competition, 2 finished in under 5 minutes, 9 between 5 and 6 minutes, 19 between 6 and 7 minutes, and 270 in over 7 minutes. What percentage finished in 7 minutes or less?",
+    "options": {
+      "A": "9%",
+      "B": "10%",
+      "C": "11%",
+      "D": "12%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "2+9+19 = 30; total 300; 30/300 = 10%.",
+      "steps": [
+        "In 7 min or less: 30",
+        "Total: 300. Percent: 30/300 × 100 = 10%"
+      ],
+      "final_answer": "10%"
+    }
+  },
+  {
+    "id": "6_14_008",
+    "type_id": "6_14",
+    "question": "In a race, 4 people finished under 15 minutes, 11 between 15 and 16 minutes, 25 between 16 and 17 minutes, and 360 in over 17 minutes. What percentage finished in 17 minutes or less?",
+    "options": {
+      "A": "8%",
+      "B": "10%",
+      "C": "12%",
+      "D": "15%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "4+11+25 = 40; total 400; 40/400 = 10%.",
+      "steps": [
+        "In 17 min or less: 40",
+        "Total: 400. Percent: 40/400 × 100 = 10%"
+      ],
+      "final_answer": "10%"
+    }
+  },
+  {
+    "id": "6_14_009",
+    "type_id": "6_14",
+    "question": "In a track meet, 3 finished under 11 minutes, 7 between 11 and 12 minutes, 20 between 12 and 13 minutes, and 470 in over 13 minutes. What percentage finished in 13 minutes or less?",
+    "options": {
+      "A": "5%",
+      "B": "6%",
+      "C": "7%",
+      "D": "8%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "3+7+20 = 30; total 500; 30/500 = 6%.",
+      "steps": [
+        "In 13 min or less: 30",
+        "Total: 500. Percent: 30/500 × 100 = 6%"
+      ],
+      "final_answer": "6%"
+    }
+  },
+  {
+    "id": "6_14_010",
+    "type_id": "6_14",
+    "question": "In a race, 1 finished in under 9 minutes, 6 between 9 and 10 minutes, 13 between 10 and 11 minutes, and 180 in over 11 minutes. What percentage finished in 11 minutes or less?",
+    "options": {
+      "A": "9%",
+      "B": "10%",
+      "C": "11%",
+      "D": "20%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_014",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "1+6+13 = 20; total 200; 20/200 = 10%.",
+      "steps": [
+        "In 11 min or less: 20",
+        "Total: 200. Percent: 20/200 × 100 = 10%"
+      ],
+      "final_answer": "10%"
+    }
+  }
+]

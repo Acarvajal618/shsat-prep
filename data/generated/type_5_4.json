@@ -1,0 +1,213 @@
+[
+  {
+    "id": "5_4_001",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 120 are greater than 20 and less than 120?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "Even factors of 120 = 2×odd factor. List even factors and count those strictly between 20 and 120.",
+      "steps": [
+        "120 = 2³×3×5. Even factors: 2,4,6,8,10,12,20,24,30,40,60,120",
+        "Between 20 and 120: 24, 30, 40, 60 → count 4"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_4_002",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 72 are greater than 20 and less than 72?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "72 = 2³×3². Even factors: 2,4,6,8,12,18,24,36,72. Between 20 and 72: 24, 36 → count 2.",
+      "steps": [
+        "24 and 36 → count 2"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_4_003",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 96 are greater than 20 and less than 96?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "96 = 2⁵×3. Even factors: 2,4,6,8,12,16,24,32,48,96. Between 20 and 96: 24, 32, 48 → count 3. So B.",
+      "steps": [
+        "24, 32, 48 → count 3"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_4_004",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 60 are greater than 20 and less than 60?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "60 = 2²×3×5. Even: 2,4,6,10,12,20,30,60. Between 20 and 60: 30 only → count 1.",
+      "steps": [
+        "30 only → count 1"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_4_005",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 84 are greater than 20 and less than 84?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "84 = 2²×3×7. Even: 2,4,6,12,14,28,42,84. Between 20 and 84: 28, 42 → count 2.",
+      "steps": [
+        "28 and 42 → count 2"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_4_006",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 144 are greater than 20 and less than 144?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "144 = 2⁴×3². Even factors between 20 and 144: 24, 36, 48, 72, 96 → count 5. (Also 18<20, 12<20.)",
+      "steps": [
+        "24, 36, 48, 72, 96 → count 5"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_4_007",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 48 are greater than 20 and less than 48?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "48 = 2⁴×3. Even: 2,4,6,8,12,16,24,48. Between 20 and 48: 24 only → count 1.",
+      "steps": [
+        "24 only → count 1"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_4_008",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 180 are greater than 20 and less than 180?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "180 = 2²×3²×5. Even factors between 20 and 180: 30, 36, 60, 90 → count 4.",
+      "steps": [
+        "30, 36, 60, 90 → count 4"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "5_4_009",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 56 are greater than 20 and less than 56?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "56 = 2³×7. Even: 2,4,8,14,28,56. Between 20 and 56: 28 only → count 1.",
+      "steps": [
+        "28 only → count 1"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_4_010",
+    "type_id": "5_4",
+    "question": "How many positive even factors of 100 are greater than 20 and less than 100?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "5_004",
+    "solution": {
+      "strategy": "100 = 2²×5². Even: 2,4,10,20,50,100. Between 20 and 100: 50 only → count 1.",
+      "steps": [
+        "50 only → count 1"
+      ],
+      "final_answer": "A"
+    }
+  }
+]

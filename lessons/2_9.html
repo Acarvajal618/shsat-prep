@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unit 2_9 — Plug &amp; Solve: Fraction Arithmetic After Substitution</title>
+  <style>
+    :root {
+      --navy: #1c2b4a; --blue: #1a73e8; --blue-light: #e8f0fe;
+      --green: #1e8e3e; --green-light: #e6f4ea;
+      --red: #d93025; --red-light: #fce8e6;
+      --amber: #f9ab00; --amber-light: #fef7e0;
+      --text: #1c2333; --muted: #6b7280; --border: #dde3ec;
+      --bg: #f0f4f8; --surface: #fff; --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui,-apple-system,sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem 1rem 4rem; }
+    .page { max-width: 720px; margin: 0 auto; }
+    .lesson-header { background: linear-gradient(135deg, var(--navy) 0%, #1a73e8 100%); border-radius: var(--radius); padding: 2rem; margin-bottom: 2rem; color: #fff; }
+    .unit-badge { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 6px; padding: 0.2em 0.7em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.75rem; }
+    .lesson-header h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.2; }
+    .lesson-header .tagline { font-size: 0.95rem; opacity: 0.85; }
+    .section-title { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+    .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .card-accent-blue { border-top: 3px solid var(--blue); }
+    .card-accent-green { border-top: 3px solid var(--green); }
+    .card-accent-amber { border-top: 3px solid var(--amber); }
+    .strategy-box { background: var(--blue-light); border-left: 4px solid var(--blue); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
+    .strategy-box .label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--blue); margin-bottom: 0.35rem; }
+    .strategy-box p { font-size: 0.97rem; font-weight: 500; }
+    .signal-list { list-style: none; padding: 0; }
+    .signal-list li { padding: 0.45rem 0; border-bottom: 1px solid var(--border); font-size: 0.93rem; display: flex; gap: 0.6rem; align-items: flex-start; }
+    .signal-list li:last-child { border-bottom: none; }
+    .signal-list .icon { flex-shrink: 0; font-size: 1rem; margin-top: 0.05rem; }
+    .problem-text { font-size: 1.1rem; font-weight: 600; line-height: 1.55; margin-bottom: 1.25rem; max-width: 580px; }
+    .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .option-row { display: flex; align-items: center; gap: 0.6rem; padding: 0.55rem 0.85rem; border: 1.5px solid var(--border); border-radius: 8px; font-size: 0.95rem; background: var(--bg); }
+    .option-row.correct { border-color: var(--green); background: var(--green-light); font-weight: 600; }
+    .option-row.wrong { opacity: 0.55; }
+    .option-letter { font-weight: 700; min-width: 1.2rem; color: var(--muted); }
+    .option-row.correct .option-letter { color: var(--green); }
+    .correct-badge { margin-left: auto; background: var(--green); color: #fff; font-size: 0.65rem; font-weight: 700; padding: 0.15em 0.5em; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .steps-list { list-style: none; padding: 0; }
+    .steps-list li { display: flex; gap: 1rem; align-items: flex-start; padding: 0.85rem 0; border-bottom: 1px solid var(--border); font-size: 0.95rem; }
+    .steps-list li:last-child { border-bottom: none; }
+    .step-num { flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-body { flex: 1; line-height: 1.55; }
+    .step-math { display: inline-block; font-family: 'Courier New', monospace; background: #f1f5fb; border: 1px solid var(--border); border-radius: 5px; padding: 0.15em 0.5em; font-size: 0.9em; margin: 0.1em 0; }
+    .step-highlight { background: var(--amber-light); border-left: 3px solid var(--amber); border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; margin-top: 0.35rem; font-size: 0.88rem; }
+    .final-answer { display: flex; align-items: center; gap: 1rem; background: var(--green-light); border: 1.5px solid var(--green); border-radius: 10px; padding: 1rem 1.25rem; margin-top: 1.25rem; }
+    .final-answer .checkmark { font-size: 1.5rem; }
+    .final-answer .text { font-size: 1rem; font-weight: 700; color: var(--green); }
+    .final-answer .sub { font-size: 0.85rem; color: var(--muted); font-weight: 400; margin-top: 0.1rem; }
+    .mistake-list { list-style: none; padding: 0; }
+    .mistake-list li { display: flex; gap: 0.75rem; padding: 0.7rem 0; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
+    .mistake-list li:last-child { border-bottom: none; }
+    .mistake-icon { flex-shrink: 0; font-size: 1rem; margin-top: 0.1rem; }
+    .mistake-label { font-weight: 600; color: var(--red); display: block; margin-bottom: 0.1rem; font-size: 0.85rem; }
+    .try-it-link { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--blue); color: #fff; text-decoration: none; padding: 0.65rem 1.3rem; border-radius: 8px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 8px rgba(26,115,232,0.3); transition: background 0.15s; }
+    .try-it-link:hover { background: #1557b0; }
+    .back-link { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; margin-bottom: 1.25rem; }
+    .back-link:hover { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <a class="back-link" href="../index.html#practice?type=2_9">← Back to practice</a>
+
+    <div class="lesson-header">
+      <div class="unit-badge">Unit 2_9 · Plug &amp; Solve</div>
+      <h1>Fraction Arithmetic After Substitution</h1>
+      <p class="tagline">Solve for x when y is given and the equation involves a fraction.</p>
+    </div><p class="section-title">The Problem</p>
+    <div class="card card-accent-amber">
+      <p class="problem-text">If x − 7/10 = y, and y = 2, what is the value of x?</p>
+      <div class="options-grid">
+        <div class="option-row wrong">
+          <span class="option-letter">A</span>
+          <span>−3/10</span>
+          
+        </div>
+        <div class="option-row wrong">
+          <span class="option-letter">B</span>
+          <span>9/10</span>
+          
+        </div>
+        <div class="option-row wrong">
+          <span class="option-letter">C</span>
+          <span>13/10</span>
+          
+        </div>
+        <div class="option-row correct">
+          <span class="option-letter">D</span>
+          <span>27/10</span>
+          <span class="correct-badge">✓ answer</span>
+        </div>
+      </div>
+      
+    </div>
+
+    <p class="section-title">The Strategy</p>
+    <div class="card card-accent-blue">
+      <div class="strategy-box">
+        <div class="label">Core idea</div>
+        <p>Substitute the given value, then isolate x by adding the fraction to both sides. Use equivalent fractions with a common denominator to get an exact answer.</p>
+      </div>
+        
+      <p class="section-title" style="margin-top:1rem">When you'll see this</p>
+      <ul class="signal-list">
+        <li><span class="icon">🔍</span><span>The equation has a fraction subtracted from x — adding it back isolates x.</span></li>
+        <li><span class="icon">🔍</span><span>Answer choices are all fractions with denominator 10 — work in tenths throughout.</span></li>
+        <li><span class="icon">🔍</span><span>y is given as a whole number — substituting immediately simplifies the right side.</span></li>
+      </ul>
+    </div>
+
+    
+      <p class="section-title">Step-by-Step Solution</p>
+    <div class="card card-accent-green">
+      <ol class="steps-list">
+        <li>
+          <span class="step-num">1</span>
+          <div class="step-body">
+            <strong>Substitute y = 2.</strong><br>
+            <span class="step-math">x − 7/10 = 2</span>
+            
+          </div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div class="step-body">
+            <strong>Add 7/10 to both sides.</strong><br>
+            <span class="step-math">x = 2 + 7/10</span>
+            
+          </div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div class="step-body">
+            <strong>Convert 2 to tenths.</strong><br>
+            <span class="step-math">2 = 20/10</span><br><span class="step-math">x = 20/10 + 7/10</span>
+            
+          </div>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <div class="step-body">
+            <strong>Add the fractions.</strong><br>
+            <span class="step-math">x = 27/10</span>
+            
+          </div>
+        </li>
+      </ol>
+      <div class="final-answer">
+        <span class="checkmark">✅</span>
+        <div>
+          <div class="text">x = 27/10 → Answer: D</div>
+          <div class="sub">27/10 − 7/10 = 20/10 = 2 ✓</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="section-title">Common Mistakes</p>
+    <div class="card">
+      <ul class="mistake-list">
+        <li>
+          <span class="mistake-icon">❌</span>
+          <div>
+            <span class="mistake-label">Subtracting instead of adding 7/10</span>
+            Getting <span class="step-math">2 − 7/10 = 13/10</span> — that's answer C, a deliberate trap. You're isolating x, so add the fraction.
+          </div>
+        </li>
+        <li>
+          <span class="mistake-icon">❌</span>
+          <div>
+            <span class="mistake-label">Picking 9/10 (answer B)</span>
+            Miscounting: <span class="step-math">10 + 7 = 17</span> instead of <span class="step-math">20 + 7 = 27</span>. Convert 2 to 20/10 explicitly.
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <p class="section-title">Ready?</p>
+    <div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+      <div>
+        <p style="font-weight:600;margin-bottom:0.25rem">Practice Unit 2_9</p>
+        <p style="font-size:0.88rem;color:var(--muted)">10 variations of this problem type, randomly shuffled.</p>
+      </div>
+      <a class="try-it-link" href="../index.html#practice?type=2_9">Practice now →</a>
+    </div>
+  </div>
+
+    
+<script src="lesson.js"></script></body>
+</html>

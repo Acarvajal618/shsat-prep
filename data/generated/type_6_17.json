@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_17_001",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nA pizza place manager recorded the number of pizza toppings that customers ordered when they bought a large pizza. The table above shows the percent distribution for the 120 large pizzas that were sold at the pizza place yesterday. For these 120 large pizzas, how many customers ordered at least 3 toppings?",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "24",
+      "D": "96"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Number of Toppings Ordered | Percent of Customers |\n|----------------------------|----------------------|\n| 1                          | 25%                  |\n| 2                          | 55%                  |\n| 3                          | 15%                  |\n| 4 or more                  | 5%                   |",
+    "solution": {
+      "strategy": "At least 3 = 3 + 4 or more = 15% + 5% = 20%. Find 20% of 120.",
+      "steps": [
+        "Percent at least 3: 15% + 5% = 20%",
+        "Count: 20% of 120 = 24"
+      ],
+      "final_answer": "24"
+    }
+  },
+  {
+    "id": "6_17_002",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 200 orders. How many orders were for at least 2 items?",
+    "options": {
+      "A": "80",
+      "B": "100",
+      "C": "120",
+      "D": "140"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Items | Percent |\n|-------|--------|\n| 1     | 40%    |\n| 2     | 35%    |\n| 3     | 20%    |\n| 4+    | 5%     |",
+    "solution": {
+      "strategy": "At least 2 = 2 + 3 + 4+ = 35% + 20% + 5% = 60%. 60% of 200 = 120.",
+      "steps": [
+        "Percent at least 2: 35% + 20% + 5% = 60%",
+        "Count: 60% of 200 = 120"
+      ],
+      "final_answer": "120"
+    }
+  },
+  {
+    "id": "6_17_003",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 150 customers. How many customers chose 3 or more options?",
+    "options": {
+      "A": "30",
+      "B": "45",
+      "C": "60",
+      "D": "75"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Options | Percent |\n|---------|--------|\n| 1       | 50%    |\n| 2       | 20%    |\n| 3       | 25%    |\n| 4+      | 5%     |",
+    "solution": {
+      "strategy": "3 or more = 25% + 5% = 30%. 30% of 150 = 45.",
+      "steps": [
+        "Percent 3 or more: 25% + 5% = 30%",
+        "Count: 30% of 150 = 45"
+      ],
+      "final_answer": "45"
+    }
+  },
+  {
+    "id": "6_17_004",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 80 pizzas. How many pizzas had at least 4 toppings?",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "12",
+      "D": "16"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 30%    |\n| 2        | 25%    |\n| 3        | 25%    |\n| 4+       | 20%    |",
+    "solution": {
+      "strategy": "At least 4 = 20%. 20% of 80 = 16.",
+      "steps": [
+        "Percent 4+: 20%",
+        "Count: 20% of 80 = 16"
+      ],
+      "final_answer": "16"
+    }
+  },
+  {
+    "id": "6_17_005",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 100 large pizzas. How many had 1 or 2 toppings?",
+    "options": {
+      "A": "70",
+      "B": "75",
+      "C": "80",
+      "D": "85"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 35%    |\n| 2        | 45%    |\n| 3        | 15%    |\n| 4+       | 5%     |",
+    "solution": {
+      "strategy": "1 or 2 = 35% + 45% = 80%. 80% of 100 = 80.",
+      "steps": [
+        "Percent 1 or 2: 35% + 45% = 80%",
+        "Count: 80% of 100 = 80"
+      ],
+      "final_answer": "80"
+    }
+  },
+  {
+    "id": "6_17_006",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 250 orders. How many orders were for at least 3 toppings?",
+    "options": {
+      "A": "50",
+      "B": "62",
+      "C": "75",
+      "D": "87"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 60%    |\n| 2        | 20%    |\n| 3        | 15%    |\n| 4+       | 5%     |",
+    "solution": {
+      "strategy": "At least 3 = 15% + 5% = 20%. 20% of 250 = 50.",
+      "steps": [
+        "Percent at least 3: 15% + 5% = 20%",
+        "Count: 20% of 250 = 50"
+      ],
+      "final_answer": "50"
+    }
+  },
+  {
+    "id": "6_17_007",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 180 large pizzas. How many customers ordered at least 3 toppings?",
+    "options": {
+      "A": "36",
+      "B": "45",
+      "C": "54",
+      "D": "72"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 40%    |\n| 2        | 30%    |\n| 3        | 20%    |\n| 4+       | 10%    |",
+    "solution": {
+      "strategy": "At least 3 = 20% + 10% = 30%. 30% of 180 = 54.",
+      "steps": [
+        "Percent at least 3: 20% + 10% = 30%",
+        "Count: 30% of 180 = 54"
+      ],
+      "final_answer": "54"
+    }
+  },
+  {
+    "id": "6_17_008",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 60 pizzas. How many had 2 or fewer toppings?",
+    "options": {
+      "A": "30",
+      "B": "36",
+      "C": "42",
+      "D": "48"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 25%    |\n| 2        | 35%    |\n| 3        | 30%    |\n| 4+       | 10%    |",
+    "solution": {
+      "strategy": "2 or fewer = 25% + 35% = 60%. 60% of 60 = 36.",
+      "steps": [
+        "Percent 2 or fewer: 25% + 35% = 60%",
+        "Count: 60% of 60 = 36"
+      ],
+      "final_answer": "36"
+    }
+  },
+  {
+    "id": "6_17_009",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 90 large pizzas. How many had at least 3 toppings?",
+    "options": {
+      "A": "18",
+      "B": "27",
+      "C": "36",
+      "D": "45"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 40%    |\n| 2        | 30%    |\n| 3        | 20%    |\n| 4+       | 10%    |",
+    "solution": {
+      "strategy": "At least 3 = 20% + 10% = 30%. 30% of 90 = 27.",
+      "steps": [
+        "Percent at least 3: 20% + 10% = 30%",
+        "Count: 30% of 90 = 27"
+      ],
+      "final_answer": "27"
+    }
+  },
+  {
+    "id": "6_17_010",
+    "type_id": "6_17",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the percent distribution for 140 pizzas. How many had 4 or more toppings?",
+    "options": {
+      "A": "7",
+      "B": "14",
+      "C": "21",
+      "D": "28"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_017",
+    "image_path": null,
+    "diagram": "| Toppings | Percent |\n|----------|--------|\n| 1        | 30%    |\n| 2        | 40%    |\n| 3        | 20%    |\n| 4+       | 10%    |",
+    "solution": {
+      "strategy": "4 or more = 10%. 10% of 140 = 14.",
+      "steps": [
+        "Percent 4+: 10%",
+        "Count: 10% of 140 = 14"
+      ],
+      "final_answer": "14"
+    }
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "18_3_001",
+    "type_id": "18_3",
+    "question": "Today, Weiwei is half as old as Caleb. In 3 years, Weiwei will be 2/3 as old as Caleb. How old is Caleb today?",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "12"
+    },
+    "correct": "B",
+    "source": "canonical",
+    "canonical_id": "18_003",
+    "diagram": null,
+    "solution": {
+      "strategy": "Define variables for ages now; set up ratio now and ratio in 3 years; solve for Caleb.",
+      "steps": [
+        "Let Caleb's age today = C. Weiwei's age today = C/2.",
+        "In 3 years: Weiwei = C/2 + 3, Caleb = C + 3. Condition: (C/2 + 3) = (2/3)(C + 3).",
+        "Multiply by 3: (3C/2 + 9) = 2C + 6. So 3C/2 - 2C = -3, -C/2 = -3, C = 6."
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "18_3_002",
+    "type_id": "18_3",
+    "question": "Today, Lina is one third as old as Marcus. In 4 years, Lina will be half as old as Marcus. How old is Marcus today?",
+    "options": {
+      "A": "12",
+      "B": "1",
+      "C": "4",
+      "D": "21"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Marcus's age today = C. Then Lina's age today = 0.3333333333333333C.",
+        "In 4 years: Lina = 0.3333333333333333C + 4, Marcus = C + 4. So 0.3333333333333333C + 4 = 0.5(C + 4).",
+        "Solve: C = 12."
+      ],
+      "final_answer": "12"
+    }
+  },
+  {
+    "id": "18_3_003",
+    "type_id": "18_3",
+    "question": "Today, Priya is two fifths as old as Quinn. In 5 years, Priya will be half as old as Quinn. How old is Quinn today?",
+    "options": {
+      "A": "1",
+      "B": "25",
+      "C": "4",
+      "D": "21"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Quinn's age today = C. Then Priya's age today = 0.4C.",
+        "In 5 years: Priya = 0.4C + 5, Quinn = C + 5. So 0.4C + 5 = 0.5(C + 5).",
+        "Solve: C = 25."
+      ],
+      "final_answer": "25"
+    }
+  },
+  {
+    "id": "18_3_004",
+    "type_id": "18_3",
+    "question": "Today, Sara is one third as old as Tom. In 2 years, Sara will be two fifths as old as Tom. How old is Tom today?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "6",
+      "D": "21"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Tom's age today = C. Then Sara's age today = 0.3333333333333333C.",
+        "In 2 years: Sara = 0.3333333333333333C + 2, Tom = C + 2. So 0.3333333333333333C + 2 = 0.4(C + 2).",
+        "Solve: C = 6."
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "18_3_005",
+    "type_id": "18_3",
+    "question": "Today, Nina is half as old as Omar. In 3 years, Nina will be three fifths as old as Omar. How old is Omar today?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "21",
+      "D": "9"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Omar's age today = C. Then Nina's age today = 0.5C.",
+        "In 3 years: Nina = 0.5C + 3, Omar = C + 3. So 0.5C + 3 = 0.6(C + 3).",
+        "Solve: C = 9."
+      ],
+      "final_answer": "9"
+    }
+  },
+  {
+    "id": "18_3_006",
+    "type_id": "18_3",
+    "question": "Today, Amy is one fourth as old as Ben. In 3 years, Amy will be one third as old as Ben. How old is Ben today?",
+    "options": {
+      "A": "12",
+      "B": "1",
+      "C": "4",
+      "D": "21"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Ben's age today = C. Then Amy's age today = 0.25C.",
+        "In 3 years: Amy = 0.25C + 3, Ben = C + 3. So 0.25C + 3 = 0.3333333333333333(C + 3).",
+        "Solve: C = 12."
+      ],
+      "final_answer": "12"
+    }
+  },
+  {
+    "id": "18_3_007",
+    "type_id": "18_3",
+    "question": "Today, Emma is three eighths as old as Frank. In 4 years, Emma will be half as old as Frank. How old is Frank today?",
+    "options": {
+      "A": "1",
+      "B": "16",
+      "C": "4",
+      "D": "21"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Frank's age today = C. Then Emma's age today = 0.375C.",
+        "In 4 years: Emma = 0.375C + 4, Frank = C + 4. So 0.375C + 4 = 0.5(C + 4).",
+        "Solve: C = 16."
+      ],
+      "final_answer": "16"
+    }
+  },
+  {
+    "id": "18_3_008",
+    "type_id": "18_3",
+    "question": "Today, Grace is two thirds as old as Henry. In 2 years, Grace will be three fourths as old as Henry. How old is Henry today?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "8",
+      "D": "21"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Henry's age today = C. Then Grace's age today = 0.6666666666666666C.",
+        "In 2 years: Grace = 0.6666666666666666C + 2, Henry = C + 2. So 0.6666666666666666C + 2 = 0.75(C + 2).",
+        "Solve: C = 8."
+      ],
+      "final_answer": "8"
+    }
+  },
+  {
+    "id": "18_3_009",
+    "type_id": "18_3",
+    "question": "Today, Ivy is one fifth as old as Jack. In 5 years, Ivy will be one fourth as old as Jack. How old is Jack today?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "21",
+      "D": "20"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Jack's age today = C. Then Ivy's age today = 0.2C.",
+        "In 5 years: Ivy = 0.2C + 5, Jack = C + 5. So 0.2C + 5 = 0.25(C + 5).",
+        "Solve: C = 20."
+      ],
+      "final_answer": "20"
+    }
+  },
+  {
+    "id": "18_3_010",
+    "type_id": "18_3",
+    "question": "Today, Kate is three sevenths as old as Leo. In 4 years, Kate will be half as old as Leo. How old is Leo today?",
+    "options": {
+      "A": "28",
+      "B": "1",
+      "C": "4",
+      "D": "21"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "18_003",
+    "solution": {
+      "strategy": "Set up two equations from the ratios (now and in k years); solve for the unknown age.",
+      "steps": [
+        "Let Leo's age today = C. Then Kate's age today = 0.42857142857142855C.",
+        "In 4 years: Kate = 0.42857142857142855C + 4, Leo = C + 4. So 0.42857142857142855C + 4 = 0.5(C + 4).",
+        "Solve: C = 28."
+      ],
+      "final_answer": "28"
+    }
+  }
+]

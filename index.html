@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHSAT Prep — Practice & Mastery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .main { max-width: 100% !important; padding: 0.5rem 2rem 2rem !important; }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+
+  <main id="app" class="main">
+    <div id="screen-dashboard" class="screen hidden">
+      <h1>Your progress</h1>
+      <p class="subtitle">Master skills by type. Practice a type or take the full diagnostic.</p>
+      <div class="mastery-summary" id="mastery-summary"></div>
+      <div id="dashboard-links" style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1.5rem">
+        <a href="progress.html" style="display:inline-flex;align-items:center;gap:0.5rem;background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:0.65rem 1.1rem;color:var(--text);text-decoration:none;font-weight:600;font-size:0.9rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);transition:box-shadow 0.15s,transform 0.12s" onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';this.style.transform='translateY(-1px)'" onmouseout="this.style.boxShadow='0 1px 4px rgba(0,0,0,0.07)';this.style.transform=''">📊 My Progress</a>
+        <a href="trainers.html" style="display:inline-flex;align-items:center;gap:0.5rem;background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:0.65rem 1.1rem;color:var(--text);text-decoration:none;font-weight:600;font-size:0.9rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);transition:box-shadow 0.15s,transform 0.12s" onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12)';this.style.transform='translateY(-1px)'" onmouseout="this.style.boxShadow='0 1px 4px rgba(0,0,0,0.07)';this.style.transform=''">🏋️ Trainers</a>
+      </div>
+      <div class="type-grid" id="type-grid"></div>
+    </div>
+
+    <div id="screen-practice" class="screen hidden">
+
+      <!-- Setup: always visible -->
+      <div id="practice-setup">
+        <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.5rem">
+          <h1 style="margin:0">Practice</h1>
+          <div class="practice-options" style="margin:0">
+            <label>Questions:</label>
+            <select id="practice-count">
+              <option value="5">5</option>
+              <option value="10" selected>10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary" id="start-practice">Start →</button>
+        </div>
+        <div class="type-picker" id="type-picker"></div>
+      </div>
+
+      <!-- Session: question left, solution right -->
+      <div id="practice-session" class="hidden">
+        <div class="practice-progress-bar-wrap">
+          <div class="practice-pbar-track"><div class="practice-pbar-fill" id="practice-pbar-fill" style="width:0%"></div></div>
+          <span class="practice-progress-label" id="practice-progress-text">0 / 0</span>
+        </div>
+        <div style="display:grid;grid-template-columns:3fr 2fr;gap:1.5rem;align-items:start">
+          <!-- LEFT: question -->
+          <article class="question-card" id="question-card">
+            <div class="diagram-container" id="diagram-container"></div>
+            <p class="question-text" id="question-text"></p>
+            <div class="options" id="options"></div>
+            <div class="actions">
+              <button type="button" class="btn" id="submit-answer">Submit</button>
+            </div>
+          </article>
+          <!-- RIGHT: single panel, content swapped by JS -->
+          <div id="practice-right-col" style="position:sticky;top:4rem">
+            <div id="solution-cover" class="question-card" style="color:var(--text-muted,#888);font-size:0.9rem;text-align:center;padding:2rem">
+              Select an answer and hit Submit to see the solution.
+            </div>
+            <article class="feedback-card" id="feedback-card" style="display:none;margin-bottom:0.75rem">
+              <div id="feedback-result"></div>
+              <div class="solution" id="solution-box"></div>
+            </article>
+            <div id="next-question-wrap" style="display:none;text-align:right">
+              <button type="button" class="btn btn-primary" id="next-question">Next →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="screen-exam" class="screen hidden">
+      <div class="exam-setup" id="exam-setup">
+        <h1>Diagnostic exam</h1>
+        <p>One question per type (dashboard shows all). No timer by default.</p>
+        <label><input type="checkbox" id="exam-timer" /> Show timer</label>
+        <button type="button" class="btn btn-primary" id="start-exam">Start diagnostic</button>
+      </div>
+      <div class="exam-session hidden" id="exam-session">
+        <div class="exam-header">
+          <span id="exam-progress-text">0 / 0</span>
+          <span id="exam-timer-display" class="hidden"></span>
+        </div>
+        <article class="question-card" id="exam-question-card">
+          <div class="diagram-container" id="exam-diagram-container"></div>
+          <p class="question-text" id="exam-question-text"></p>
+          <div class="options" id="exam-options"></div>
+          <div class="actions">
+            <button type="button" class="btn" id="exam-submit">Submit</button>
+          </div>
+        </article>
+        <article class="exam-feedback hidden" id="exam-feedback">
+          <div id="exam-feedback-result"></div>
+          <div class="solution" id="exam-solution-box"></div>
+          <button type="button" class="btn btn-primary" id="exam-next">Next question</button>
+        </article>
+      </div>
+      <div class="exam-results hidden" id="exam-results">
+        <h2>Diagnostic results</h2>
+        <p id="exam-score-text"></p>
+        <div class="missed-types" id="missed-types"></div>
+        <button type="button" class="btn btn-primary" id="exam-review-set">Practice missed types</button>
+        <a href="#dashboard" class="btn">Back to dashboard</a>
+      </div>
+    </div>
+
+    <div id="screen-loading" class="screen">
+      <p>Loading…</p>
+    </div>
+  </main>
+
+  <script src="nav.js?v=1"></script>
+  <script src="common.js?v=1"></script>
+  <script src="app.js?v=3"></script>
+</body>
+</html>

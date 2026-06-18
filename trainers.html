@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trainers — SHSAT Prep</title>
+  <style>
+    :root{--navy:#4c1d63;--blue:#c026d3;--blue-light:#fae8ff;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px}
+    *{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}
+    .page{max-width:800px;margin:0 auto}
+    .lh{background:linear-gradient(135deg,var(--navy) 0%,#c026d3 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}
+    .lh h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}.lh p{opacity:.85}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.25rem}
+    .tcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;box-shadow:0 1px 4px rgba(0,0,0,.06);display:flex;flex-direction:column;gap:1rem;transition:box-shadow .15s,transform .12s}
+    .tcard:hover{box-shadow:0 4px 16px rgba(0,0,0,.1);transform:translateY(-2px)}
+    .tcard-icon{font-size:2.5rem}
+    .tcard-title{font-size:1.15rem;font-weight:700;color:var(--navy)}
+    .tcard-desc{font-size:.9rem;color:var(--muted);flex:1}
+    .tcard-btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--blue);color:#fff;text-decoration:none;padding:.65rem 1.3rem;border-radius:8px;font-weight:600;font-size:.9rem;align-self:flex-start}
+    .back{display:inline-flex;align-items:center;gap:.4rem;color:var(--blue);text-decoration:none;font-size:.88rem;margin-bottom:1.25rem}
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+  <div class="page">
+    <a href="index.html" class="back">&larr; Back to Dashboard</a>
+    <div class="lh">
+      <h1>&#127947; Trainers</h1>
+      <p>Focused skill drills to sharpen your SHSAT math. Pick a trainer and practice until it clicks.</p>
+    </div>
+    <div class="grid">
+      <div class="tcard">
+        <div class="tcard-icon">&#9878;&#65039;</div>
+        <div class="tcard-title">Equation Trainer</div>
+        <div class="tcard-desc">Solve one-step and two-step algebraic equations with instant feedback and step-by-step solutions.</div>
+        <a href="trainer.html" class="tcard-btn">Start Training &rarr;</a>
+      </div>
+      <div class="tcard">
+        <div class="tcard-icon">&#128202;</div>
+        <div class="tcard-title">Percentage Trainer</div>
+        <div class="tcard-desc">Practice percent of a number, percent change, and reverse percentage problems.</div>
+        <a href="percentage-trainer.html" class="tcard-btn">Start Training &rarr;</a>
+      </div>
+      <div class="tcard">
+        <div class="tcard-icon">&#128290;</div>
+        <div class="tcard-title">Ratio &amp; Proportion Trainer</div>
+        <div class="tcard-desc">Master part-to-whole ratios, scaling recipes, and solving for missing values in proportions.</div>
+        <a href="ratio-trainer.html" class="tcard-btn">Start Training &rarr;</a>
+      </div>
+      <div class="tcard">
+        <div class="tcard-icon">&#128172;</div>
+        <div class="tcard-title">Word Problem &rarr; Equation Trainer</div>
+        <div class="tcard-desc">Translate word problems into algebraic equations &mdash; a critical SHSAT skill tested every year.</div>
+        <a href="word-equation-trainer.html" class="tcard-btn">Start Training &rarr;</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1_2_001",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.19",
+      "B": "$7.70",
+      "C": "$8.75",
+      "D": "$9.58"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 16               |\n| $8.25        | 3                |\n| $13.25       | 1                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "16($7.25) + 3($8.25) + 1($13.25) = 116 + 24.75 + 13.25 = 154",
+        "154 / 20 = 7.70"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_002",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.50",
+      "B": "$8.00",
+      "C": "$8.38",
+      "D": "$9.25"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 10               |\n| $8.50        | 6                |\n| $10.00       | 4                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "10($7.25) + 6($8.50) + 4($10.00) = 72.50 + 51 + 40 = 163.50",
+        "163.50 / 20 = 8.175, round to $8.38"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "1_2_003",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.25",
+      "B": "$7.65",
+      "C": "$8.00",
+      "D": "$8.50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 14               |\n| $8.00        | 4                |\n| $9.50        | 2                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "14($7.25) + 4($8.00) + 2($9.50) = 101.50 + 32 + 19 = 153",
+        "153 / 20 = 7.65"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_004",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.80",
+      "B": "$8.15",
+      "C": "$8.50",
+      "D": "$9.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.50        | 12               |\n| $8.25        | 5                |\n| $10.25       | 3                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "12($7.50) + 5($8.25) + 3($10.25) = 90 + 41.25 + 30.75 = 162",
+        "162 / 20 = 8.15"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_005",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.40",
+      "B": "$7.95",
+      "C": "$8.25",
+      "D": "$8.75"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 15               |\n| $8.50        | 3                |\n| $12.00       | 2                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "15($7.25) + 3($8.50) + 2($12.00) = 108.75 + 25.50 + 24 = 159.25",
+        "159.25 / 20 = 7.9625, about $7.95"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_006",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.55",
+      "B": "$8.00",
+      "C": "$8.44",
+      "D": "$9.10"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 8                |\n| $8.25        | 8                |\n| $9.75        | 4                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "8($7.25) + 8($8.25) + 4($9.75) = 58 + 66 + 39 = 169",
+        "169 / 20 = 8.45, about $8.44"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "1_2_007",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.60",
+      "B": "$8.20",
+      "C": "$8.55",
+      "D": "$9.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 12               |\n| $8.75        | 5                |\n| $11.00       | 3                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "12($7.25) + 5($8.75) + 3($11.00) = 87 + 43.75 + 33 = 163.75",
+        "163.75 / 20 = 8.1875, about $8.20"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_008",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.35",
+      "B": "$7.85",
+      "C": "$8.25",
+      "D": "$8.90"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 14               |\n| $8.25        | 2                |\n| $9.75        | 4                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "14($7.25) + 2($8.25) + 4($9.75) = 101.50 + 16.50 + 39 = 157",
+        "157 / 20 = 7.85"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_009",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.90",
+      "B": "$8.25",
+      "C": "$8.60",
+      "D": "$9.15"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 10               |\n| $8.25        | 7                |\n| $10.00       | 3                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "10($7.25) + 7($8.25) + 3($10.00) = 72.50 + 57.75 + 30 = 165.25",
+        "165.25 / 20 = 8.2625, about $8.25"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_2_010",
+    "type_id": "1_2",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean minimum wage of the 20 states in the table above?",
+    "options": {
+      "A": "$7.45",
+      "B": "$7.95",
+      "C": "$8.30",
+      "D": "$8.65"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_002",
+    "diagram": "| Minimum Wage | Number of States |\n|--------------|------------------|\n| $7.25        | 11               |\n| $8.50        | 6                |\n| $9.50        | 3                |",
+    "solution": {
+      "strategy": "For each row, multiply the minimum wage by the number of states; add those products; divide by the total number of states to get the mean.",
+      "steps": [
+        "11($7.25) + 6($8.50) + 3($9.50) = 79.75 + 51 + 28.50 = 159.25",
+        "159.25 / 20 = 7.9625, about $7.95"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

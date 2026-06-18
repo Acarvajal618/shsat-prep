@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unit 7_1 — Plug &amp; Solve: Area of a Quadrilateral via Diagonal</title>
+  <style>
+    :root {
+      --navy: #1c2b4a; --blue: #1a73e8; --blue-light: #e8f0fe;
+      --green: #1e8e3e; --green-light: #e6f4ea;
+      --red: #d93025; --red-light: #fce8e6;
+      --amber: #f9ab00; --amber-light: #fef7e0;
+      --text: #1c2333; --muted: #6b7280; --border: #dde3ec;
+      --bg: #f0f4f8; --surface: #fff; --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui,-apple-system,sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem 1rem 4rem; }
+    .page { max-width: 720px; margin: 0 auto; }
+    .lesson-header { background: linear-gradient(135deg, var(--navy) 0%, #1a73e8 100%); border-radius: var(--radius); padding: 2rem; margin-bottom: 2rem; color: #fff; }
+    .unit-badge { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 6px; padding: 0.2em 0.7em; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.75rem; }
+    .lesson-header h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.2; }
+    .lesson-header .tagline { font-size: 0.95rem; opacity: 0.85; }
+    .section-title { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+    .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .card-accent-blue { border-top: 3px solid var(--blue); }
+    .card-accent-green { border-top: 3px solid var(--green); }
+    .card-accent-amber { border-top: 3px solid var(--amber); }
+    .strategy-box { background: var(--blue-light); border-left: 4px solid var(--blue); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
+    .strategy-box .label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--blue); margin-bottom: 0.35rem; }
+    .strategy-box p { font-size: 0.97rem; font-weight: 500; }
+    .signal-list { list-style: none; padding: 0; }
+    .signal-list li { padding: 0.45rem 0; border-bottom: 1px solid var(--border); font-size: 0.93rem; display: flex; gap: 0.6rem; align-items: flex-start; }
+    .signal-list li:last-child { border-bottom: none; }
+    .signal-list .icon { flex-shrink: 0; font-size: 1rem; margin-top: 0.05rem; }
+    .problem-text { font-size: 1.1rem; font-weight: 600; line-height: 1.55; margin-bottom: 1.25rem; max-width: 580px; }
+    .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .option-row { display: flex; align-items: center; gap: 0.6rem; padding: 0.55rem 0.85rem; border: 1.5px solid var(--border); border-radius: 8px; font-size: 0.95rem; background: var(--bg); }
+    .option-row.correct { border-color: var(--green); background: var(--green-light); font-weight: 600; }
+    .option-row.wrong { opacity: 0.55; }
+    .option-letter { font-weight: 700; min-width: 1.2rem; color: var(--muted); }
+    .option-row.correct .option-letter { color: var(--green); }
+    .correct-badge { margin-left: auto; background: var(--green); color: #fff; font-size: 0.65rem; font-weight: 700; padding: 0.15em 0.5em; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .steps-list { list-style: none; padding: 0; }
+    .steps-list li { display: flex; gap: 1rem; align-items: flex-start; padding: 0.85rem 0; border-bottom: 1px solid var(--border); font-size: 0.95rem; }
+    .steps-list li:last-child { border-bottom: none; }
+    .step-num { flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-body { flex: 1; line-height: 1.55; }
+    .step-math { display: inline-block; font-family: 'Courier New', monospace; background: #f1f5fb; border: 1px solid var(--border); border-radius: 5px; padding: 0.15em 0.5em; font-size: 0.9em; margin: 0.1em 0; }
+    .step-highlight { background: var(--amber-light); border-left: 3px solid var(--amber); border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; margin-top: 0.35rem; font-size: 0.88rem; }
+    .final-answer { display: flex; align-items: center; gap: 1rem; background: var(--green-light); border: 1.5px solid var(--green); border-radius: 10px; padding: 1rem 1.25rem; margin-top: 1.25rem; }
+    .final-answer .checkmark { font-size: 1.5rem; }
+    .final-answer .text { font-size: 1rem; font-weight: 700; color: var(--green); }
+    .final-answer .sub { font-size: 0.85rem; color: var(--muted); font-weight: 400; margin-top: 0.1rem; }
+    .mistake-list { list-style: none; padding: 0; }
+    .mistake-list li { display: flex; gap: 0.75rem; padding: 0.7rem 0; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
+    .mistake-list li:last-child { border-bottom: none; }
+    .mistake-icon { flex-shrink: 0; font-size: 1rem; margin-top: 0.1rem; }
+    .mistake-label { font-weight: 600; color: var(--red); display: block; margin-bottom: 0.1rem; font-size: 0.85rem; }
+    .try-it-link { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--blue); color: #fff; text-decoration: none; padding: 0.65rem 1.3rem; border-radius: 8px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 8px rgba(26,115,232,0.3); transition: background 0.15s; }
+    .try-it-link:hover { background: #1557b0; }
+    .back-link { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; margin-bottom: 1.25rem; }
+    .back-link:hover { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <a class="back-link" href="../index.html#practice?type=7_1">← Back to practice</a>
+
+    <div class="lesson-header">
+      <div class="unit-badge">Unit 7_1 · Plug &amp; Solve</div>
+      <h1>Area of a Quadrilateral via Diagonal</h1>
+      <p class="tagline">Split the quadrilateral into two right triangles using the diagonal, find each area, add.</p>
+    </div><p class="section-title">The Problem</p>
+    <div class="card card-accent-amber">
+      <p class="problem-text">Quadrilateral ABCD has right angles at D and B. AD = 20 cm, DC = 15 cm, BC = 7 cm, AB = 24 cm. What is the area of quadrilateral ABCD?</p>
+      <div class="options-grid">
+        <div class="option-row wrong">
+          <span class="option-letter">A</span>
+          <span>66 sq cm</span>
+          
+        </div>
+        <div class="option-row wrong">
+          <span class="option-letter">B</span>
+          <span>117 sq cm</span>
+          
+        </div>
+        <div class="option-row correct">
+          <span class="option-letter">C</span>
+          <span>234 sq cm</span>
+          <span class="correct-badge">✓ answer</span>
+        </div>
+        <div class="option-row wrong">
+          <span class="option-letter">D</span>
+          <span>468 sq cm</span>
+          
+        </div>
+      </div>
+      <div class="problem-diagram" style="margin-top:1.25rem;overflow-x:auto;text-align:center"><svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" style="font-family:system-ui,sans-serif;max-width:100%">
+  <!-- Triangle ADC -->
+  <polygon points="30,150 30,30 170,150" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+  <!-- Triangle ABC -->
+  <polygon points="30,150 170,150 170,80" fill="#e6f4ea" stroke="#1e8e3e" stroke-width="1.5"/>
+  <!-- Diagonal AC -->
+  <line x1="30" y1="150" x2="170" y2="150" stroke="#f9ab00" stroke-width="2" stroke-dasharray="6,3"/>
+  <!-- Labels -->
+  <text x="20" y="95" font-size="12" font-weight="700" fill="#1a73e8" text-anchor="middle">20</text>
+  <text x="100" y="168" font-size="12" font-weight="700" fill="#1a73e8" text-anchor="middle">15</text>
+  <text x="182" y="118" font-size="12" font-weight="700" fill="#1e8e3e" text-anchor="middle">7</text>
+  <text x="100" y="108" font-size="12" font-weight="700" fill="#1e8e3e" text-anchor="middle">24</text>
+  <!-- Vertex labels -->
+  <text x="20" y="162" font-size="12" font-weight="700" fill="#1c2b4a">A</text>
+  <text x="20" y="24" font-size="12" font-weight="700" fill="#1c2b4a">D</text>
+  <text x="170" y="162" font-size="12" font-weight="700" fill="#1c2b4a">C</text>
+  <text x="172" y="78" font-size="12" font-weight="700" fill="#1c2b4a">B</text>
+  <!-- Right angle marks -->
+  <rect x="30" y="130" width="10" height="10" fill="none" stroke="#1c2b4a" stroke-width="1.5"/>
+  <rect x="158" y="148" width="10" height="10" fill="none" stroke="#1c2b4a" stroke-width="1.5" transform="rotate(-90,163,153)"/>
+  <!-- Area labels -->
+  <text x="70" y="110" font-size="11" fill="#1a73e8" text-anchor="middle">△ADC</text>
+  <text x="140" y="145" font-size="11" fill="#1e8e3e" text-anchor="middle">△ABC</text>
+</svg></div>
+    </div>
+
+    <p class="section-title">The Strategy</p>
+    <div class="card card-accent-blue">
+      <div class="strategy-box">
+        <div class="label">Core idea</div>
+        <p>When a quadrilateral has right angles at two vertices, draw the diagonal connecting those vertices to create two right triangles. Find the area of each triangle (½ × base × height), then add them together.</p>
+      </div>
+        
+      <p class="section-title" style="margin-top:1rem">When you'll see this</p>
+      <ul class="signal-list">
+        <li><span class="icon">🔍</span><span>Right angles at two non-adjacent vertices → diagonal creates two right triangles.</span></li>
+        <li><span class="icon">🔍</span><span>Area of right triangle = ½ × leg₁ × leg₂.</span></li>
+        <li><span class="icon">🔍</span><span>If the answer choices include double your answer, check you used ½ for triangle area.</span></li>
+      </ul>
+    </div>
+
+    
+      <p class="section-title">Step-by-Step Solution</p>
+    <div class="card card-accent-green">
+      <ol class="steps-list">
+        <li>
+          <span class="step-num">1</span>
+          <div class="step-body">
+            <strong>Draw diagonal AC to split ABCD into two right triangles.</strong><br>
+            Triangle ADC has legs AD = 20 and DC = 15 (right angle at D).<br>Triangle ABC has legs BC = 7 and AB = 24 (right angle at B).
+            
+          </div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div class="step-body">
+            <strong>Find area of triangle ADC.</strong><br>
+            <span class="step-math">Area = ½ × 20 × 15 = ½ × 300 = 150 sq cm</span>
+            
+          </div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div class="step-body">
+            <strong>Find area of triangle ABC.</strong><br>
+            <span class="step-math">Area = ½ × 7 × 24 = ½ × 168 = 84 sq cm</span>
+            
+          </div>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <div class="step-body">
+            <strong>Add the two areas.</strong><br>
+            <span class="step-math">150 + 84 = 234 sq cm</span>
+            
+          </div>
+        </li>
+      </ol>
+      <div class="final-answer">
+        <span class="checkmark">✅</span>
+        <div>
+          <div class="text">234 sq cm → Answer: C</div>
+          <div class="sub">Check: ½(20)(15) = 150, ½(7)(24) = 84. Total = 234 ✓</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="section-title">Common Mistakes</p>
+    <div class="card">
+      <ul class="mistake-list">
+        <li>
+          <span class="mistake-icon">❌</span>
+          <div>
+            <span class="mistake-label">Forgetting the ½ in triangle area</span>
+            Computing 20×15 + 7×24 = 300 + 168 = 468 — that's answer D (double the correct answer). Always use ½ for triangle area.
+          </div>
+        </li>
+        <li>
+          <span class="mistake-icon">❌</span>
+          <div>
+            <span class="mistake-label">Only calculating one triangle</span>
+            Getting 150 or 84 alone. The quadrilateral = BOTH triangles combined.
+          </div>
+        </li>
+        <li>
+          <span class="mistake-icon">❌</span>
+          <div>
+            <span class="mistake-label">Using wrong pairs of legs</span>
+            Pairing AD with BC (different triangles) instead of AD with DC, and BC with AB.
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <p class="section-title">Ready?</p>
+    <div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+      <div>
+        <p style="font-weight:600;margin-bottom:0.25rem">Practice Unit 7_1</p>
+        <p style="font-size:0.88rem;color:var(--muted)">10 variations of this problem type, randomly shuffled.</p>
+      </div>
+      <a class="try-it-link" href="../index.html#practice?type=7_1">Practice now →</a>
+    </div>
+  </div>
+
+    
+<script src="lesson.js"></script></body>
+</html>

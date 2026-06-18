@@ -1,0 +1,232 @@
+[
+  {
+    "id": "9_7_001",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles of service, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the train fare be to travel a total distance of 100 miles?",
+    "options": {
+      "A": "$15.00",
+      "B": "$17.50",
+      "C": "$20.00",
+      "D": "$25.00"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "First 10: $5. Next 40: 40×0.25=$10. Remaining 50: 50×0.10=$5. Total $20.",
+      "steps": [
+        "5 + 10 + 5 = $20"
+      ],
+      "final_answer": "$20.00"
+    }
+  },
+  {
+    "id": "9_7_002",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 50 miles?",
+    "options": {
+      "A": "$12.00",
+      "B": "$12.50",
+      "C": "$15.00",
+      "D": "$17.50"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "First 10: $5. Next 40: $10. Total 50 miles: $15.",
+      "steps": [
+        "5 + 40(0.25) = 5 + 10 = $15"
+      ],
+      "final_answer": "$15.00"
+    }
+  },
+  {
+    "id": "9_7_003",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 80 miles?",
+    "options": {
+      "A": "$16.00",
+      "B": "$18.00",
+      "C": "$20.00",
+      "D": "$22.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 40(0.25) + 30(0.10) = 5 + 10 + 3 = $18.",
+      "steps": [
+        "5 + 10 + 3 = $18"
+      ],
+      "final_answer": "$18.00"
+    }
+  },
+  {
+    "id": "9_7_004",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 120 miles?",
+    "options": {
+      "A": "$22.00",
+      "B": "$24.00",
+      "C": "$26.00",
+      "D": "$28.00"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 10 + 70(0.10) = 5 + 10 + 7 = $22.",
+      "steps": [
+        "5 + 10 + 7 = $22"
+      ],
+      "final_answer": "$22.00"
+    }
+  },
+  {
+    "id": "9_7_005",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 75 miles?",
+    "options": {
+      "A": "$16.00",
+      "B": "$16.25",
+      "C": "$17.50",
+      "D": "$18.00"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 10 + 25(0.10) = 5 + 10 + 2.50 = $17.50.",
+      "steps": [
+        "5 + 10 + 2.50 = $17.50"
+      ],
+      "final_answer": "$17.50"
+    }
+  },
+  {
+    "id": "9_7_006",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 90 miles?",
+    "options": {
+      "A": "$18.00",
+      "B": "$19.00",
+      "C": "$20.00",
+      "D": "$21.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 10 + 40(0.10) = 5 + 10 + 4 = $19.",
+      "steps": [
+        "5 + 10 + 4 = $19"
+      ],
+      "final_answer": "$19.00"
+    }
+  },
+  {
+    "id": "9_7_007",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 30 miles?",
+    "options": {
+      "A": "$10.00",
+      "B": "$10.50",
+      "C": "$11.00",
+      "D": "$12.00"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 20(0.25) = 5 + 5 = $10.",
+      "steps": [
+        "5 + 5 = $10"
+      ],
+      "final_answer": "$10.00"
+    }
+  },
+  {
+    "id": "9_7_008",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 110 miles?",
+    "options": {
+      "A": "$20.00",
+      "B": "$21.00",
+      "C": "$22.00",
+      "D": "$23.00"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 10 + 60(0.10) = 5 + 10 + 6 = $21.",
+      "steps": [
+        "5 + 10 + 6 = $21"
+      ],
+      "final_answer": "$21.00"
+    }
+  },
+  {
+    "id": "9_7_009",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 45 miles?",
+    "options": {
+      "A": "$13.25",
+      "B": "$13.75",
+      "C": "$14.00",
+      "D": "$14.50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 35(0.25) = 5 + 8.75 = $13.75.",
+      "steps": [
+        "5 + 8.75 = $13.75"
+      ],
+      "final_answer": "$13.75"
+    }
+  },
+  {
+    "id": "9_7_010",
+    "type_id": "9_7",
+    "question": "A train fare is $5.00 for the first 10 miles, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile. What would the fare be for 70 miles?",
+    "options": {
+      "A": "$16.00",
+      "B": "$16.50",
+      "C": "$17.00",
+      "D": "$17.50"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "9_007",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "5 + 10 + 20(0.10) = 5 + 10 + 2 = $17.",
+      "steps": [
+        "5 + 10 + 2 = $17"
+      ],
+      "final_answer": "$17.00"
+    }
+  }
+]

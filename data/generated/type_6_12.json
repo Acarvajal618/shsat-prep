@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_12_001",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from the 2018 population to the 2020 population of City X is the same as the percent decrease from the 2016 population to the 2018 population, what should the 2020 population in City X be?",
+    "options": {
+      "A": "280,000",
+      "B": "300,000",
+      "C": "320,000",
+      "D": "350,000"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2014 | 6                             |\n| 2016 | 5                             |\n| 2018 | 4                             |",
+    "solution": {
+      "strategy": "Compute percent decrease 2016→2018; apply same decrease 2018→2020.",
+      "steps": [
+        "2016→2018: (5−4)/5 = 20% decrease",
+        "2018→2020: 4 × 0.80 = 3.2 hundred thousands = 320,000"
+      ],
+      "final_answer": "320,000"
+    }
+  },
+  {
+    "id": "6_12_002",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 value be?",
+    "options": {
+      "A": "180,000",
+      "B": "200,000",
+      "C": "225,000",
+      "D": "250,000"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 4                             |\n| 2018 | 3                             |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "Decrease (4−3)/4 = 25%. 2020: 3 × 0.75 = 2.25 → 225,000.",
+      "steps": [
+        "Percent decrease: (4−3)/4 = 25%",
+        "2020: 3 × 0.75 = 2.25 hundred thousands = 225,000"
+      ],
+      "final_answer": "225,000"
+    }
+  },
+  {
+    "id": "6_12_003",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 population be?",
+    "options": {
+      "A": "240,000",
+      "B": "300,000",
+      "C": "320,000",
+      "D": "350,000"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 5                             |\n| 2018 | 4                             |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "Percent decrease 2016→2018 is (5−4)/5 = 20%. Apply same: 2020 = 4 × 0.80 = 3.2 hundred thousands.",
+      "steps": [
+        "Percent decrease: (5−4)/5 = 20%",
+        "2020: 4 × 0.80 = 3.2 hundred thousands = 320,000"
+      ],
+      "final_answer": "320,000"
+    }
+  },
+  {
+    "id": "6_12_004",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 value be?",
+    "options": {
+      "A": "400,000",
+      "B": "410,000",
+      "C": "417,000",
+      "D": "420,000"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 6                             |\n| 2018 | 5                             |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "Percent decrease (6−5)/6 = 1/6. 2020 = 5 × (5/6) = 25/6 ≈ 4.167 hundred thousands ≈ 417,000.",
+      "steps": [
+        "Percent decrease: (6−5)/6 ≈ 16.67%",
+        "2020: 5 × (5/6) = 25/6 hundred thousands ≈ 417,000"
+      ],
+      "final_answer": "417,000"
+    }
+  },
+  {
+    "id": "6_12_005",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 population be?",
+    "options": {
+      "A": "192,000",
+      "B": "200,000",
+      "C": "208,000",
+      "D": "225,000"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 4                             |\n| 2018 | 3                             |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "Percent decrease (4−3)/4 = 25%. 2020: 3 × 0.75 = 2.25 hundred thousands = 225,000.",
+      "steps": [
+        "Percent decrease: (4−3)/4 = 25%",
+        "2020: 3 × 0.75 = 2.25 hundred thousands = 225,000"
+      ],
+      "final_answer": "225,000"
+    }
+  },
+  {
+    "id": "6_12_006",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 population be?",
+    "options": {
+      "A": "256,000",
+      "B": "270,000",
+      "C": "288,000",
+      "D": "300,000"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 4.5                           |\n| 2018 | 3.6                           |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "Percent decrease (4.5−3.6)/4.5 = 20%. 2020: 3.6 × 0.80 = 2.88 hundred thousands = 288,000.",
+      "steps": [
+        "Percent decrease: (4.5−3.6)/4.5 = 20%",
+        "2020: 3.6 × 0.80 = 2.88 hundred thousands = 288,000"
+      ],
+      "final_answer": "288,000"
+    }
+  },
+  {
+    "id": "6_12_007",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 value be?",
+    "options": {
+      "A": "360,000",
+      "B": "384,000",
+      "C": "400,000",
+      "D": "420,000"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 6                             |\n| 2018 | 4.8                           |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "(6−4.8)/6 = 20%. 2020: 4.8 × 0.80 = 3.84 hundred thousands = 384,000.",
+      "steps": [
+        "Percent decrease: (6−4.8)/6 = 20%",
+        "2020: 4.8 × 0.80 = 3.84 hundred thousands = 384,000"
+      ],
+      "final_answer": "384,000"
+    }
+  },
+  {
+    "id": "6_12_008",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 population be?",
+    "options": {
+      "A": "150,000",
+      "B": "168,750",
+      "C": "180,000",
+      "D": "200,000"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 3                             |\n| 2018 | 2.25                         |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "(3−2.25)/3 = 25%. 2020: 2.25 × 0.75 = 1.6875 hundred thousands = 168,750.",
+      "steps": [
+        "Percent decrease: (3−2.25)/3 = 25%",
+        "2020: 2.25 × 0.75 = 1.6875 hundred thousands = 168,750"
+      ],
+      "final_answer": "168,750"
+    }
+  },
+  {
+    "id": "6_12_009",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 population be?",
+    "options": {
+      "A": "480,000",
+      "B": "500,000",
+      "C": "512,000",
+      "D": "540,000"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 8                             |\n| 2018 | 6.4                          |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "(8−6.4)/8 = 20%. 2020: 6.4 × 0.80 = 5.12 hundred thousands = 512,000.",
+      "steps": [
+        "Percent decrease: (8−6.4)/8 = 20%",
+        "2020: 6.4 × 0.80 = 5.12 hundred thousands = 512,000"
+      ],
+      "final_answer": "512,000"
+    }
+  },
+  {
+    "id": "6_12_010",
+    "type_id": "6_12",
+    "question": "[PICTURE REQUIRED]\nBased on the graph above, if the percent decrease from 2018 to 2020 is the same as from 2016 to 2018, what should the 2020 population be?",
+    "options": {
+      "A": "432,000",
+      "B": "450,000",
+      "C": "480,000",
+      "D": "500,000"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_012",
+    "image_path": null,
+    "diagram": "| Year | Population (Hundred Thousands) |\n|------|--------------------------------|\n| 2016 | 6.75                          |\n| 2018 | 5.4                           |\n| 2020 | ?                             |",
+    "solution": {
+      "strategy": "Percent decrease (6.75−5.4)/6.75 = 20%. 2020: 5.4 × 0.80 = 4.32 hundred thousands = 432,000.",
+      "steps": [
+        "Percent decrease: (6.75−5.4)/6.75 = 20%",
+        "2020: 5.4 × 0.80 = 4.32 hundred thousands = 432,000"
+      ],
+      "final_answer": "432,000"
+    }
+  }
+]

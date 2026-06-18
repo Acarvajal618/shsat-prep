@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Unit 9_9 — Shopping Equation</title>
+<style>
+:root{--navy:#1c2b4a;--blue:#1a73e8;--blue-light:#e8f0fe;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--amber-light:#fef7e0;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}.page{max-width:720px;margin:0 auto}
+.lh{background:linear-gradient(135deg,var(--navy) 0%,#1a73e8 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}.ub{display:inline-block;background:rgba(255,255,255,.2);border-radius:6px;padding:.2em .7em;font-size:.75rem;font-weight:700;text-transform:uppercase;margin-bottom:.75rem}.lh h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}.tg{font-size:.95rem;opacity:.85}
+.st{font-size:.72rem;font-weight:700;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}.st::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,.06)}.ag{border-top:3px solid var(--green)}.aa{border-top:3px solid var(--amber)}
+.sb{background:var(--blue-light);border-left:4px solid var(--blue);border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin-bottom:1.25rem}.sb-l{font-size:.72rem;font-weight:700;text-transform:uppercase;color:var(--blue);margin-bottom:.35rem}
+.sigs{list-style:none;padding:0}.sigs li{padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.93rem;display:flex;gap:.6rem}.sigs li:last-child{border-bottom:none}
+.pt{font-size:1.05rem;font-weight:600;line-height:1.55;margin-bottom:1rem}.pimg{max-width:100%;border-radius:8px;margin:.75rem 0 1rem;display:block;border:1px solid var(--border)}
+.og{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}.or{display:flex;align-items:center;gap:.6rem;padding:.55rem .85rem;border:1.5px solid var(--border);border-radius:8px;font-size:.95rem;background:var(--bg)}.or.c{border-color:var(--green);background:var(--green-light);font-weight:600}.or.w{opacity:.55}.ol{font-weight:700;min-width:1.2rem;color:var(--muted)}.or.c .ol{color:var(--green)}.cb{margin-left:auto;background:var(--green);color:#fff;font-size:.65rem;font-weight:700;padding:.15em .5em;border-radius:4px}
+.sl{list-style:none;padding:0}.sl li{display:flex;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--border);font-size:.95rem}.sl li:last-child{border-bottom:none}.sn{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-size:.72rem;font-weight:700;display:flex;align-items:center;justify-content:center}.sb2{flex:1;line-height:1.55}
+.m{display:inline-block;font-family:'Courier New',monospace;background:#f1f5fb;border:1px solid var(--border);border-radius:5px;padding:.1em .45em;font-size:.88em}
+.fa{display:flex;align-items:center;gap:1rem;background:var(--green-light);border:1.5px solid var(--green);border-radius:10px;padding:1rem 1.25rem;margin-top:1.25rem}.fachk{font-size:1.5rem}.fatxt{font-size:1rem;font-weight:700;color:var(--green)}.fasub{font-size:.85rem;color:var(--muted);margin-top:.1rem}
+.ml{list-style:none;padding:0}.ml li{display:flex;gap:.75rem;padding:.7rem 0;border-bottom:1px solid var(--border);font-size:.92rem}.ml li:last-child{border-bottom:none}.mlbl{font-weight:600;color:var(--red);display:block;margin-bottom:.1rem;font-size:.85rem}.glbl{font-weight:600;color:var(--green);display:block;margin-bottom:.1rem;font-size:.85rem}
+.tl{display:inline-flex;align-items:center;gap:.5rem;background:var(--blue);color:#fff;text-decoration:none;padding:.65rem 1.3rem;border-radius:8px;font-weight:600;font-size:.95rem}
+.back{display:inline-flex;align-items:center;gap:.4rem;color:#1a73e8;text-decoration:none;font-size:.88rem;margin-bottom:1.25rem}
+</style></head>
+<body><div class="page">
+<a class="back" href="../index.html">← Back to Dashboard</a>
+<div class="lh"><div class="ub">Unit 9_9</div><h1>Shopping Equation</h1><p class="tg">Translate the money story into an equation, then solve for the item price.</p></div>
+<p class="st">Strategy</p>
+<div class="card aa"><div class="sb"><div class="sb-l">The Approach</div><p>Let each item cost <span class="m">x</span>. Write “starting money − total spent = ending balance.” A debt is a negative ending balance.</p></div>
+<ul class="sigs"><li><span>🔍</span><span>One person buys identical items.</span></li><li><span>🔍</span><span>The problem mentions a debt (negative balance).</span></li><li><span>🔍</span><span>Two identical items means the equation will include <span class="m">2x</span>.</span></li></ul></div>
+<p class="st">The Problem</p>
+<div class="card aa"><p class="pt">If Thomas went shopping with $15, bought two items that cost the same amount, and ended up with a debt of $5, how much did each item cost?</p>
+<img class="pimg" src="../images/SETUP_SOLVE_EQN_9.jpg" alt="Shopping equation diagram">
+<div class="og">
+<div class="or w"><span class="ol">A</span>$5</div>
+<div class="or c"><span class="ol">B</span>$10<span class="cb">✓</span></div>
+<div class="or w"><span class="ol">C</span>$15</div>
+<div class="or w"><span class="ol">D</span>$20</div>
+</div></div>
+<p class="st">Step-by-Step Solution</p>
+<div class="card ag"><ol class="sl">
+<li><div class="sn">1</div><div class="sb2"><strong>Define the variable.</strong><br>Let <span class="m">x</span> represent the price of each item.</div></div>
+<li><div class="sn">2</div><div class="sb2"><strong>Model the spending.</strong><br>Thomas buys two identical items, so he spends <span class="m">2x</span>.</div></div>
+<li><div class="sn">3</div><div class="sb2"><strong>Write the balance equation.</strong><br>Starting money − spending = ending balance → <span class="m">15 − 2x = −5</span> because a $5 debt is −5.</div></div>
+<li><div class="sn">4</div><div class="sb2"><strong>Solve for <span class="m">x</span>.</strong><br>Subtract 15 from both sides: <span class="m">−2x = −20</span>. Divide by −2: <span class="m">x = 10</span>.</div></div>
+</ol>
+<div class="fa"><span class="fachk">✅</span><div><div class="fatxt">Answer: B → $10 each</div><div class="fasub">15 − 2(10) = −5, matching the $5 debt.</div></div></div></div>
+<p class="st">Common Mistakes</p>
+<div class="card"><ul class="ml">
+<li><span>❌</span><div><span class="mlbl">Treating debt as +$5</span>The equation becomes 15 − 2x = 5, which produces the wrong answer.</div></li>
+<li><span>❌</span><div><span class="mlbl">Using 15 ÷ 2</span>Halving the starting money ignores the fact that Thomas overspent.</div></li>
+<li><span>✅</span><div><span class="glbl">Explicitly mark negative balances</span>Write “ending balance = −5” so the sign is right before solving.</div></li>
+</ul></div>
+<p class="st">Ready?</p>
+<div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+<div><p style="font-weight:600;margin-bottom:.25rem">Practice Unit 9_9</p><p style="font-size:.88rem;color:var(--muted)">Practice this problem type.</p></div>
+<a class="tl" href="../index.html#practice?type=9_9">Practice now →</a></div>
+</div><script src="lesson.js"></script></body></html>

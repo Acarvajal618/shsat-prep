@@ -1,0 +1,224 @@
+[
+  {
+    "id": "18_4_001",
+    "type_id": "18_4",
+    "question": "Danielle and Emma participated in a book-reading contest over the summer. Danielle read 13 books, and Emma read 15 fewer than 3 times the number of books that Danielle read. How many books did Danielle and Emma read over the summer?",
+    "options": {
+      "A": "24",
+      "B": "37",
+      "C": "52",
+      "D": "66"
+    },
+    "correct": "B",
+    "source": "canonical",
+    "canonical_id": "18_004",
+    "diagram": null,
+    "solution": {
+      "strategy": "Danielle's count is given; express Emma's in terms of it, then add for total.",
+      "steps": [
+        "Danielle read 13 books.",
+        "Emma read 15 fewer than 3 times 13: 3(13) - 15 = 24.",
+        "Total = 13 + 24 = 37."
+      ],
+      "final_answer": "37"
+    }
+  },
+  {
+    "id": "18_4_002",
+    "type_id": "18_4",
+    "question": "Emma and Emma participated in a book-reading contest. Emma read 10 books, and Emma read 5 fewer than 2 times the number of books that Emma read. How many books did Emma and Emma read together?",
+    "options": {
+      "A": "25",
+      "B": "13",
+      "C": "24",
+      "D": "45"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 2(10) - 5 = 15.",
+        "Total = 10 + 15 = 25."
+      ],
+      "final_answer": "25"
+    }
+  },
+  {
+    "id": "18_4_003",
+    "type_id": "18_4",
+    "question": "Maya and Emma participated in a book-reading contest. Maya read 8 books, and Emma read 10 fewer than 3 times the number of books that Maya read. How many books did Maya and Emma read together?",
+    "options": {
+      "A": "13",
+      "B": "22",
+      "C": "24",
+      "D": "45"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 3(8) - 10 = 14.",
+        "Total = 8 + 14 = 22."
+      ],
+      "final_answer": "22"
+    }
+  },
+  {
+    "id": "18_4_004",
+    "type_id": "18_4",
+    "question": "Zoe and Emma participated in a book-reading contest. Zoe read 15 books, and Emma read 8 fewer than 2 times the number of books that Zoe read. How many books did Zoe and Emma read together?",
+    "options": {
+      "A": "13",
+      "B": "24",
+      "C": "37",
+      "D": "45"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 2(15) - 8 = 22.",
+        "Total = 15 + 22 = 37."
+      ],
+      "final_answer": "37"
+    }
+  },
+  {
+    "id": "18_4_005",
+    "type_id": "18_4",
+    "question": "Anna and Emma participated in a book-reading contest. Anna read 12 books, and Emma read 20 fewer than 4 times the number of books that Anna read. How many books did Anna and Emma read together?",
+    "options": {
+      "A": "13",
+      "B": "24",
+      "C": "45",
+      "D": "40"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 4(12) - 20 = 28.",
+        "Total = 12 + 28 = 40."
+      ],
+      "final_answer": "40"
+    }
+  },
+  {
+    "id": "18_4_006",
+    "type_id": "18_4",
+    "question": "Beth and Emma participated in a book-reading contest. Beth read 7 books, and Emma read 6 fewer than 3 times the number of books that Beth read. How many books did Beth and Emma read together?",
+    "options": {
+      "A": "22",
+      "B": "13",
+      "C": "24",
+      "D": "45"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 3(7) - 6 = 15.",
+        "Total = 7 + 15 = 22."
+      ],
+      "final_answer": "22"
+    }
+  },
+  {
+    "id": "18_4_007",
+    "type_id": "18_4",
+    "question": "Clara and Emma participated in a book-reading contest. Clara read 9 books, and Emma read 4 fewer than 2 times the number of books that Clara read. How many books did Clara and Emma read together?",
+    "options": {
+      "A": "13",
+      "B": "23",
+      "C": "24",
+      "D": "45"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 2(9) - 4 = 14.",
+        "Total = 9 + 14 = 23."
+      ],
+      "final_answer": "23"
+    }
+  },
+  {
+    "id": "18_4_008",
+    "type_id": "18_4",
+    "question": "Diana and Emma participated in a book-reading contest. Diana read 11 books, and Emma read 12 fewer than 3 times the number of books that Diana read. How many books did Diana and Emma read together?",
+    "options": {
+      "A": "13",
+      "B": "24",
+      "C": "32",
+      "D": "45"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 3(11) - 12 = 21.",
+        "Total = 11 + 21 = 32."
+      ],
+      "final_answer": "32"
+    }
+  },
+  {
+    "id": "18_4_009",
+    "type_id": "18_4",
+    "question": "Ella and Emma participated in a book-reading contest. Ella read 14 books, and Emma read 7 fewer than 2 times the number of books that Ella read. How many books did Ella and Emma read together?",
+    "options": {
+      "A": "13",
+      "B": "24",
+      "C": "45",
+      "D": "35"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 2(14) - 7 = 21.",
+        "Total = 14 + 21 = 35."
+      ],
+      "final_answer": "35"
+    }
+  },
+  {
+    "id": "18_4_010",
+    "type_id": "18_4",
+    "question": "Faye and Emma participated in a book-reading contest. Faye read 6 books, and Emma read 9 fewer than 4 times the number of books that Faye read. How many books did Faye and Emma read together?",
+    "options": {
+      "A": "21",
+      "B": "13",
+      "C": "24",
+      "D": "45"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "18_004",
+    "solution": {
+      "strategy": "Compute Emma's count from the relation, then add.",
+      "steps": [
+        "Emma = 4(6) - 9 = 15.",
+        "Total = 6 + 15 = 21."
+      ],
+      "final_answer": "21"
+    }
+  }
+]

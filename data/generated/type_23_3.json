@@ -1,0 +1,214 @@
+[
+  {
+    "id": "23_3_001",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 30 red and blue marbles is 1/5. How many blue marbles must be removed from the bag to increase the probability to 1/4?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "24"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Use the given probability to figure out how many red marbles are in the bag.",
+      "steps": [
+        "Set up the proportion: 1/5 = red/30, so red = 6.",
+        "Set up a new proportion for the desired probability: 1/4 = 6/total, so total = 24.",
+        "Calculate how many blue marbles need to be removed: 30 - 24 = 6."
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "23_3_002",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 24 red and blue marbles is 1/3. How many blue marbles must be removed from the bag to increase the probability to 1/2?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "16"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Find red count from given probability; then find total for desired probability; subtract to get blue removed.",
+      "steps": [
+        "1/3 = red/24, so red = 8. For P(red) = 1/2: 1/2 = 8/total, total = 16. Blue removed: 24 - 16 = 8."
+      ],
+      "final_answer": "8"
+    }
+  },
+  {
+    "id": "23_3_003",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 40 red and blue marbles is 1/5. How many blue marbles must be removed from the bag to increase the probability to 1/4?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "24"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 40/5 = 8. For 1/4 = 8/total, total = 32. Remove 40 - 32 = 8 blue.",
+      "steps": [
+        "red = 8. total = 32. Blue removed = 8."
+      ],
+      "final_answer": "8"
+    }
+  },
+  {
+    "id": "23_3_004",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 20 red and blue marbles is 1/4. How many blue marbles must be removed from the bag to increase the probability to 1/2?",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "10",
+      "D": "15"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 20/4 = 5. For 1/2 = 5/total, total = 10. Remove 20 - 10 = 10 blue.",
+      "steps": [
+        "red = 5. total = 10. Blue removed = 10."
+      ],
+      "final_answer": "10"
+    }
+  },
+  {
+    "id": "23_3_005",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 36 red and blue marbles is 1/6. How many blue marbles must be removed from the bag to increase the probability to 1/4?",
+    "options": {
+      "A": "12",
+      "B": "18",
+      "C": "20",
+      "D": "24"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 36/6 = 6. For 1/4 = 6/total, total = 24. Remove 36 - 24 = 12 blue.",
+      "steps": [
+        "red = 6. total = 24. Blue removed = 12."
+      ],
+      "final_answer": "12"
+    }
+  },
+  {
+    "id": "23_3_006",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 50 red and blue marbles is 1/5. How many blue marbles must be removed from the bag to increase the probability to 1/2?",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "40"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 50/5 = 10. For 1/2 = 10/total, total = 20. Remove 50 - 20 = 30 blue.",
+      "steps": [
+        "red = 10. total = 20. Blue removed = 30."
+      ],
+      "final_answer": "30"
+    }
+  },
+  {
+    "id": "23_3_007",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 28 red and blue marbles is 1/4. How many blue marbles must be removed from the bag to increase the probability to 1/2?",
+    "options": {
+      "A": "7",
+      "B": "10",
+      "C": "14",
+      "D": "21"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 28/4 = 7. For 1/2 = 7/total, total = 14. Remove 28 - 14 = 14 blue.",
+      "steps": [
+        "red = 7. total = 14. Blue removed = 14."
+      ],
+      "final_answer": "14"
+    }
+  },
+  {
+    "id": "23_3_008",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 45 red and blue marbles is 1/5. How many blue marbles must be removed from the bag to increase the probability to 1/3?",
+    "options": {
+      "A": "15",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 45/5 = 9. For 1/3 = 9/total, total = 27. Remove 45 - 27 = 18 blue.",
+      "steps": [
+        "red = 9. total = 27. Blue removed = 18."
+      ],
+      "final_answer": "18"
+    }
+  },
+  {
+    "id": "23_3_009",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 32 red and blue marbles is 1/8. How many blue marbles must be removed from the bag to increase the probability to 1/4?",
+    "options": {
+      "A": "16",
+      "B": "20",
+      "C": "24",
+      "D": "28"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 32/8 = 4. For 1/4 = 4/total, total = 16. Remove 32 - 16 = 16 blue.",
+      "steps": [
+        "red = 4. total = 16. Blue removed = 16."
+      ],
+      "final_answer": "16"
+    }
+  },
+  {
+    "id": "23_3_010",
+    "type_id": "23_3",
+    "question": "The probability of picking a red marble from a bag of 60 red and blue marbles is 1/6. How many blue marbles must be removed from the bag to increase the probability to 1/3?",
+    "options": {
+      "A": "20",
+      "B": "30",
+      "C": "40",
+      "D": "50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "23_003",
+    "solution": {
+      "strategy": "Red = 60/6 = 10. For 1/3 = 10/total, total = 30. Remove 60 - 30 = 30 blue.",
+      "steps": [
+        "red = 10. total = 30. Blue removed = 30."
+      ],
+      "final_answer": "30"
+    }
+  }
+]

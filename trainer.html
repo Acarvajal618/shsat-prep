@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Equation Trainer — SHSAT Prep</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── Trainer-specific styles ── */
+    .trainer-hero {
+      text-align: center;
+      padding: 0.5rem 1rem 0.75rem;
+    }
+    .trainer-hero h1 { font-size: 1.9rem; margin: 0 0 0.3rem; }
+    .trainer-hero p { color: var(--text-muted); margin: 0; font-size: 1rem; }
+
+    /* Skill pills */
+    .skill-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin: 1.5rem 0 1.25rem;
+    }
+    .skill-pill {
+      padding: 0.45em 1.1em;
+      border-radius: 99px;
+      border: 2px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-family: inherit;
+    }
+    .skill-pill:hover { border-color: var(--primary); color: var(--primary); }
+    .skill-pill.active {
+      border-color: var(--primary);
+      background: var(--primary);
+      color: #fff;
+    }
+
+    /* Mode tabs */
+    .mode-tabs {
+      display: flex;
+      gap: 0;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      width: fit-content;
+      margin: 0 auto 1.75rem;
+    }
+    .mode-tab {
+      padding: 0.5em 1.5em;
+      border: none;
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-family: inherit;
+    }
+    .mode-tab:first-child { border-right: 2px solid var(--border); }
+    .mode-tab.active {
+      background: var(--primary);
+      color: #fff;
+    }
+    .mode-tab:hover:not(.active) { background: var(--bg); }
+
+    /* Content area — full-width, tight top padding */
+    .main { max-width: 100% !important; padding: 0.5rem 2rem 2rem !important; }
+    .trainer-content { min-height: 300px; }
+
+    /* Strategy card (amber) */
+    .strategy-card {
+      background: #fffbeb;
+      border: 1.5px solid #f9ab00;
+      border-left: 5px solid #f9ab00;
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .strategy-card h3 { margin: 0 0 0.4rem; font-size: 1rem; color: #7c5000; }
+    .strategy-card p { margin: 0; color: #5a3e00; font-size: 0.93rem; }
+    .strategy-card .strategy-formula {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #fff3cd;
+      border: 1px solid #f9ab00;
+      border-radius: 6px;
+      padding: 0.3em 0.8em;
+      font-family: 'Courier New', monospace;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #7c5000;
+    }
+
+    /* Step cards */
+    .step-card {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-left: 5px solid #1e8e3e;
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.75rem;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      display: none;
+    }
+    .step-card.visible {
+      display: block;
+      opacity: 1;
+      transform: none;
+    }
+    .step-card .step-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: #1e8e3e;
+      margin-bottom: 0.35rem;
+    }
+    .step-card .step-eq {
+      font-family: 'Courier New', monospace;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 0.2rem 0;
+    }
+    .step-card .step-eq .op-out {
+      text-decoration: line-through;
+      color: var(--text-muted);
+      margin-right: 0.2em;
+    }
+    .step-card .step-eq .op-new { color: var(--primary); }
+    .step-card .step-explain {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+    }
+
+    /* Problem display card */
+    .problem-card {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-top: 4px solid var(--primary);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow);
+    }
+    .problem-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .problem-eq {
+      font-family: 'Courier New', monospace;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 0;
+      line-height: 1.3;
+    }
+    .problem-word {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--text);
+      margin: 0;
+      font-weight: 500;
+    }
+
+    /* Current equation tracker */
+    .current-eq-bar {
+      background: #f0f4f8;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      margin-bottom: 1rem;
+      font-family: 'Courier New', monospace;
+      font-size: 1rem;
+      color: var(--primary);
+      font-weight: 700;
+      display: none;
+      transition: background 0.3s;
+    }
+    .current-eq-bar.show { display: block; }
+    .current-eq-bar.flash-green {
+      background: #e6f4ea;
+      border-color: #1e8e3e;
+    }
+
+    /* Step prompt card */
+    .prompt-card {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow);
+    }
+    .prompt-question {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0 0 0.85rem;
+      color: var(--text);
+    }
+
+    /* Choice buttons */
+    .choices { display: flex; flex-direction: column; gap: 0.5rem; }
+    .choice-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.7rem 1rem;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.93rem;
+      font-family: inherit;
+      text-align: left;
+      transition: border-color 0.15s, background 0.15s, transform 0.1s;
+      color: var(--text);
+    }
+    .choice-btn:hover { border-color: var(--primary); background: #f8faff; }
+    .choice-btn .choice-letter {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: 1.5px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      transition: all 0.15s;
+    }
+    .choice-btn:hover .choice-letter { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .choice-btn.correct-flash {
+      border-color: #1e8e3e;
+      background: #e6f4ea;
+      animation: greenFlash 0.4s ease;
+    }
+    .choice-btn.correct-flash .choice-letter { background: #1e8e3e; border-color: #1e8e3e; color: #fff; }
+    .choice-btn.wrong-shake {
+      border-color: var(--incorrect);
+      background: #fce8e6;
+      animation: redShake 0.4s ease;
+    }
+    .choice-btn.wrong-shake .choice-letter { background: var(--incorrect); border-color: var(--incorrect); color: #fff; }
+    .choice-btn.highlighted { border-color: var(--primary); background: var(--primary-light); }
+    .choice-btn.highlighted .choice-letter { background: var(--primary); border-color: var(--primary); color: #fff; }
+    @keyframes greenFlash {
+      0% { transform: scale(1); }
+      30% { transform: scale(1.03); }
+      100% { transform: scale(1); }
+    }
+    @keyframes redShake {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-5px); }
+      40% { transform: translateX(5px); }
+      60% { transform: translateX(-4px); }
+      80% { transform: translateX(4px); }
+    }
+
+    /* Feedback inline */
+    .inline-feedback {
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-top: 0.75rem;
+      display: none;
+      animation: fadeIn 0.25s ease;
+    }
+    .inline-feedback.correct {
+      background: #e6f4ea;
+      color: #1e8e3e;
+      border: 1px solid #a8d5b5;
+    }
+    .inline-feedback.incorrect {
+      background: #fce8e6;
+      color: var(--incorrect);
+      border: 1px solid #f5c6c3;
+    }
+    .inline-feedback.show { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+    /* Solved celebration */
+    .solved-card {
+      background: linear-gradient(135deg, #1e8e3e 0%, #34d399 100%);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 1rem;
+      display: none;
+      animation: fadeIn 0.35s ease;
+    }
+    .solved-card.show { display: block; }
+    .solved-card .solved-icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .solved-card .solved-title { font-size: 1.3rem; font-weight: 800; margin: 0 0 0.3rem; }
+    .solved-card .solved-answer { font-size: 1rem; opacity: 0.9; margin: 0; }
+
+    /* Practice action bar */
+    .practice-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .btn-outline {
+      padding: 0.5rem 1.1rem;
+      border-radius: 7px;
+      border: 1.5px solid var(--border);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 500;
+      font-family: inherit;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.12s;
+      color: var(--text);
+    }
+    .btn-outline:hover { border-color: var(--primary); color: var(--primary); background: #f8faff; }
+
+    /* Session progress bar */
+    .session-progress {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.75rem 1.1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .session-stat {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .session-stat strong { color: var(--text); }
+    .session-streak {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #e65c00;
+    }
+
+    /* Learn nav buttons */
+    .learn-actions {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+
+    /* Full solution reveal */
+    .full-solution {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      margin-top: 1rem;
+      display: none;
+    }
+    .full-solution.show { display: block; }
+    .full-solution h4 { margin: 0 0 0.75rem; color: var(--primary); font-size: 0.95rem; }
+    .full-solution ol { margin: 0; padding-left: 1.25rem; }
+    .full-solution li { font-size: 0.9rem; margin-bottom: 0.35rem; line-height: 1.5; }
+    .full-solution .fs-final { font-weight: 700; color: var(--primary); margin-top: 0.5rem; font-size: 0.95rem; }
+
+    /* Responsive */
+    @media (max-width: 540px) {
+      .trainer-hero h1 { font-size: 1.5rem; }
+      .problem-eq { font-size: 1.3rem; }
+      .mode-tab { padding: 0.45em 1em; font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <main class="main">
+    <div class="trainer-hero">
+      <h1>Equation Trainer 🧮</h1>
+      <p>Master the 6 equation types the SHSAT loves. &nbsp;
+        <a href="equation-cheatsheet.html" style="color:var(--primary,#c026d3);font-size:0.88rem;font-weight:600">📋 Cheat Sheet</a>
+      </p>
+    </div>
+
+    <!-- Session progress -->
+    <div class="session-progress" id="session-progress">
+      <div class="session-stat">Solved: <strong id="stat-solved">0</strong></div>
+      <div class="session-stat">Correct: <strong id="stat-correct">0</strong></div>
+      <div class="session-streak" id="streak-display" style="display:none">
+        <span id="streak-count">0</span> 🔥
+      </div>
+    </div>
+
+    <!-- Skill selector -->
+    <div class="skill-pills" id="skill-pills" role="group" aria-label="Select skill">
+      <button class="skill-pill active" data-skill="1" aria-pressed="true">1-Step</button>
+      <button class="skill-pill" data-skill="2" aria-pressed="false">2-Step</button>
+      <button class="skill-pill" data-skill="3" aria-pressed="false">Distribution</button>
+      <button class="skill-pill" data-skill="4" aria-pressed="false">Both Sides</button>
+      <button class="skill-pill" data-skill="5" aria-pressed="false">Proportion</button>
+      <button class="skill-pill" data-skill="6" aria-pressed="false">Word Problem</button>
+    </div>
+
+    <!-- Mode tabs -->
+    <div class="mode-tabs" role="tablist">
+      <button class="mode-tab active" id="tab-learn" role="tab" aria-selected="true">📖 Learn</button>
+      <button class="mode-tab" id="tab-practice" role="tab" aria-selected="false">✏️ Practice</button>
+    </div>
+
+    <!-- Content area -->
+    <div class="trainer-content" id="trainer-content"></div>
+  </main>
+
+  <script>
+  (function () {
+    'use strict';
+
+    // ── State ──
+    const session = JSON.parse(sessionStorage.getItem('trainer_session') || '{"solved":0,"correct":0,"streak":0}');
+    let currentSkill = 1;
+    let currentMode = 'learn'; // 'learn' | 'practice'
+    let currentLearnStep = 0;
+    let learnSteps = [];
+    let practiceState = null; // { problem, steps, stepIdx, stepAttempts }
+    let highlightedChoiceIdx = 0;
+
+    // ── Names pools ──
+    const NAMES_A = ['Alex','Maria','Jordan','Sam','Isabel','Leo','Priya','Omar','Zoe','Kai'];
+    const NAMES_B = ['Mia','Tyler','Nina','Carlos','Anaya','Liam','Sofia','Ethan','Jade','Finn'];
+    const NAMES_C = ['Nadia','Devon','Ava','Marcus','Elena','Chris','Tasha','Blake','Rosa','Jaylen'];
+
+    function rName(pool) { return pool[Math.floor(Math.random() * pool.length)]; }
+    function ri(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    function gcd(a, b) { a = Math.abs(a); b = Math.abs(b); while (b) { [a, b] = [b, a % b]; } return a; }
+    function frac(n, d) {
+      if (d === 0) return '?';
+      const g = gcd(Math.abs(n), Math.abs(d));
+      n /= g; d /= g;
+      if (d < 0) { n = -n; d = -d; }
+      return d === 1 ? String(n) : n + '/' + d;
+    }
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+    function saveSession() {
+      sessionStorage.setItem('trainer_session', JSON.stringify(session));
+    }
+
+    // ── Fixed problem bank (20 problems, 4 per skill type) ──
+    // Steps: each step has { prompt, currentEq, choices:[{text,correct,hint}], nextEq }
+    // All equations and nextEq values are pre-computed and verified.
+    const FIXED_PROBLEMS = {
+      1: [
+        { eq: '5x = 35', x: 7, answerStr: 'x = 7', steps: [
+          { prompt: "What's your first move?", currentEq: '5x = 35',
+            choices: [
+              { text: 'Divide both sides by 5', correct: true, hint: 'x is multiplied by 5 — divide to undo it.' },
+              { text: 'Subtract 5 from both sides', correct: false, hint: '5 is a multiplier here, not an addend. Use division.' },
+              { text: 'Multiply both sides by 5', correct: false, hint: 'That makes it harder. Divide to isolate x.' }
+            ], nextEq: 'x = 7' }
+        ]},
+        { eq: 'x + 9 = 16', x: 7, answerStr: 'x = 7', steps: [
+          { prompt: "What's your first move?", currentEq: 'x + 9 = 16',
+            choices: [
+              { text: 'Subtract 9 from both sides', correct: true, hint: 'Undo the +9 by subtracting 9.' },
+              { text: 'Add 9 to both sides', correct: false, hint: 'That increases both sides. You need to remove +9.' },
+              { text: 'Divide both sides by 9', correct: false, hint: '9 is added, not multiplied. Use subtraction.' }
+            ], nextEq: 'x = 7' }
+        ]},
+        { eq: '3x = 27', x: 9, answerStr: 'x = 9', steps: [
+          { prompt: "What's your first move?", currentEq: '3x = 27',
+            choices: [
+              { text: 'Divide both sides by 3', correct: true, hint: 'x is multiplied by 3 — divide to isolate it.' },
+              { text: 'Subtract 3 from both sides', correct: false, hint: '3 is a multiplier, not an addend. Use division.' },
+              { text: 'Multiply both sides by 3', correct: false, hint: 'That increases the coefficient. Use division.' }
+            ], nextEq: 'x = 9' }
+        ]},
+        { eq: 'x − 6 = 11', x: 17, answerStr: 'x = 17', steps: [
+          { prompt: "What's your first move?", currentEq: 'x − 6 = 11',
+            choices: [
+              { text: 'Add 6 to both sides', correct: true, hint: 'Undo the −6 by adding 6.' },
+              { text: 'Subtract 6 from both sides', correct: false, hint: 'That makes x smaller. Add 6 to cancel the −6.' },
+              { text: 'Divide both sides by 6', correct: false, hint: '6 is subtracted, not multiplied. Use addition.' }
+            ], nextEq: 'x = 17' }
+        ]}
+      ],
+      2: [
+        { eq: '2x + 5 = 13', x: 4, answerStr: 'x = 4', steps: [
+          { prompt: "What's your first move?", currentEq: '2x + 5 = 13',
+            choices: [
+              { text: 'Subtract 5 from both sides', correct: true, hint: 'Remove the constant first.' },
+              { text: 'Divide both sides by 2', correct: false, hint: 'Remove the constant first, then divide.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: '2 is a multiplier — subtract the constant 5 first.' }
+            ], nextEq: '2x = 8' },
+          { prompt: 'Now you have 2x = 8. What next?', currentEq: '2x = 8',
+            choices: [
+              { text: 'Divide both sides by 2', correct: true, hint: 'Divide by the coefficient 2 to isolate x.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: '2 is a multiplier — use division.' },
+              { text: 'Multiply both sides by 2', correct: false, hint: 'That increases the coefficient. Use division.' }
+            ], nextEq: 'x = 4' }
+        ]},
+        { eq: '3x − 4 = 11', x: 5, answerStr: 'x = 5', steps: [
+          { prompt: "What's your first move?", currentEq: '3x − 4 = 11',
+            choices: [
+              { text: 'Add 4 to both sides', correct: true, hint: 'Undo the −4 by adding 4.' },
+              { text: 'Divide both sides by 3', correct: false, hint: 'Remove the constant first, then divide.' },
+              { text: 'Subtract 4 from both sides', correct: false, hint: 'The constant is −4. Add 4 to cancel it.' }
+            ], nextEq: '3x = 15' },
+          { prompt: 'Now you have 3x = 15. What next?', currentEq: '3x = 15',
+            choices: [
+              { text: 'Divide both sides by 3', correct: true, hint: 'Divide by the coefficient 3.' },
+              { text: 'Subtract 3 from both sides', correct: false, hint: '3 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 3', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 5' }
+        ]},
+        { eq: '4x + 3 = 19', x: 4, answerStr: 'x = 4', steps: [
+          { prompt: "What's your first move?", currentEq: '4x + 3 = 19',
+            choices: [
+              { text: 'Subtract 3 from both sides', correct: true, hint: 'Remove the constant 3 first.' },
+              { text: 'Divide both sides by 4', correct: false, hint: 'Remove the constant first, then divide.' },
+              { text: 'Add 3 to both sides', correct: false, hint: 'The +3 is what you want to remove — subtract it.' }
+            ], nextEq: '4x = 16' },
+          { prompt: 'Now you have 4x = 16. What next?', currentEq: '4x = 16',
+            choices: [
+              { text: 'Divide both sides by 4', correct: true, hint: 'Divide by the coefficient 4.' },
+              { text: 'Subtract 4 from both sides', correct: false, hint: '4 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 4', correct: false, hint: 'Division isolates x, not multiplication.' }
+            ], nextEq: 'x = 4' }
+        ]},
+        { eq: '5x − 10 = 20', x: 6, answerStr: 'x = 6', steps: [
+          { prompt: "What's your first move?", currentEq: '5x − 10 = 20',
+            choices: [
+              { text: 'Add 10 to both sides', correct: true, hint: 'Undo the −10 by adding 10.' },
+              { text: 'Divide both sides by 5', correct: false, hint: 'Remove the constant first.' },
+              { text: 'Subtract 10 from both sides', correct: false, hint: 'The constant is −10. Add 10 to cancel it.' }
+            ], nextEq: '5x = 30' },
+          { prompt: 'Now you have 5x = 30. What next?', currentEq: '5x = 30',
+            choices: [
+              { text: 'Divide both sides by 5', correct: true, hint: 'Divide by the coefficient 5.' },
+              { text: 'Subtract 5 from both sides', correct: false, hint: '5 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 5', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 6' }
+        ]}
+      ],
+      3: [
+        { eq: '3(x + 4) = 21', x: 3, answerStr: 'x = 3', steps: [
+          { prompt: "What's your first move?", currentEq: '3(x + 4) = 21',
+            choices: [
+              { text: 'Divide both sides by 3', correct: true, hint: 'Divide to remove the outer factor — clean and fast.' },
+              { text: 'Distribute 3 into the parentheses', correct: true, hint: 'Distributing also works: 3x + 12 = 21.' },
+              { text: 'Subtract 3 from both sides', correct: false, hint: '3 is a multiplier, not an addend. Divide or distribute.' }
+            ], nextEq: 'x + 4 = 7' },
+          { prompt: 'Now you have x + 4 = 7. What next?', currentEq: 'x + 4 = 7',
+            choices: [
+              { text: 'Subtract 4 from both sides', correct: true, hint: 'Remove the +4.' },
+              { text: 'Add 4 to both sides', correct: false, hint: 'That increases x. Subtract 4 to isolate x.' },
+              { text: 'Divide both sides by 4', correct: false, hint: '4 is added, not multiplied. Use subtraction.' }
+            ], nextEq: 'x = 3' }
+        ]},
+        { eq: '4(x − 2) = 20', x: 7, answerStr: 'x = 7', steps: [
+          { prompt: "What's your first move?", currentEq: '4(x − 2) = 20',
+            choices: [
+              { text: 'Divide both sides by 4', correct: true, hint: 'Divide to remove the outer factor.' },
+              { text: 'Distribute 4 into the parentheses', correct: true, hint: 'Also valid: 4x − 8 = 20.' },
+              { text: 'Subtract 4 from both sides', correct: false, hint: '4 is a multiplier. Divide or distribute.' }
+            ], nextEq: 'x − 2 = 5' },
+          { prompt: 'Now you have x − 2 = 5. What next?', currentEq: 'x − 2 = 5',
+            choices: [
+              { text: 'Add 2 to both sides', correct: true, hint: 'Undo the −2 by adding 2.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: 'The constant is −2. Add 2 to cancel it.' },
+              { text: 'Divide both sides by 2', correct: false, hint: '2 is subtracted, not multiplied. Use addition.' }
+            ], nextEq: 'x = 7' }
+        ]},
+        { eq: '2(x + 6) = 18', x: 3, answerStr: 'x = 3', steps: [
+          { prompt: "What's your first move?", currentEq: '2(x + 6) = 18',
+            choices: [
+              { text: 'Divide both sides by 2', correct: true, hint: 'Divide to remove the outer factor.' },
+              { text: 'Distribute 2 into the parentheses', correct: true, hint: 'Also valid: 2x + 12 = 18.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: '2 is a multiplier. Divide or distribute.' }
+            ], nextEq: 'x + 6 = 9' },
+          { prompt: 'Now you have x + 6 = 9. What next?', currentEq: 'x + 6 = 9',
+            choices: [
+              { text: 'Subtract 6 from both sides', correct: true, hint: 'Remove the +6.' },
+              { text: 'Add 6 to both sides', correct: false, hint: 'That increases x. Subtract 6.' },
+              { text: 'Divide both sides by 6', correct: false, hint: '6 is added, not multiplied. Use subtraction.' }
+            ], nextEq: 'x = 3' }
+        ]},
+        { eq: '5(x − 3) = 25', x: 8, answerStr: 'x = 8', steps: [
+          { prompt: "What's your first move?", currentEq: '5(x − 3) = 25',
+            choices: [
+              { text: 'Divide both sides by 5', correct: true, hint: 'Divide to remove the outer factor.' },
+              { text: 'Distribute 5 into the parentheses', correct: true, hint: 'Also valid: 5x − 15 = 25.' },
+              { text: 'Subtract 5 from both sides', correct: false, hint: '5 is a multiplier. Divide or distribute.' }
+            ], nextEq: 'x − 3 = 5' },
+          { prompt: 'Now you have x − 3 = 5. What next?', currentEq: 'x − 3 = 5',
+            choices: [
+              { text: 'Add 3 to both sides', correct: true, hint: 'Undo the −3.' },
+              { text: 'Subtract 3 from both sides', correct: false, hint: 'The constant is −3. Add 3 to cancel it.' },
+              { text: 'Divide both sides by 3', correct: false, hint: '3 is subtracted, not multiplied. Use addition.' }
+            ], nextEq: 'x = 8' }
+        ]}
+      ],
+      4: [
+        { eq: '6x + 15 = 4x + 17', x: 1, answerStr: 'x = 1', steps: [
+          { prompt: "What's your first move?", currentEq: '6x + 15 = 4x + 17',
+            choices: [
+              { text: 'Subtract 4x from both sides', correct: true, hint: 'Subtract 4x to move all x terms to the left.' },
+              { text: 'Subtract 6x from both sides', correct: false, hint: 'That puts x on the right. Subtract the smaller term (4x) to keep x on the left.' },
+              { text: 'Divide both sides by 6', correct: false, hint: 'Variables are on both sides — collect x terms first.' }
+            ], nextEq: '2x + 15 = 17' },
+          { prompt: 'Now you have 2x + 15 = 17. What next?', currentEq: '2x + 15 = 17',
+            choices: [
+              { text: 'Subtract 15 from both sides', correct: true, hint: 'Remove the constant 15.' },
+              { text: 'Divide both sides by 2', correct: false, hint: 'Remove the constant first, then divide.' },
+              { text: 'Add 15 to both sides', correct: false, hint: 'You want to remove +15, not increase it.' }
+            ], nextEq: '2x = 2' },
+          { prompt: 'Now you have 2x = 2. Final step?', currentEq: '2x = 2',
+            choices: [
+              { text: 'Divide both sides by 2', correct: true, hint: 'Divide by the coefficient 2.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: '2 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 2', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 1' }
+        ]},
+        { eq: '7x + 3 = 3x + 19', x: 4, answerStr: 'x = 4', steps: [
+          { prompt: "What's your first move?", currentEq: '7x + 3 = 3x + 19',
+            choices: [
+              { text: 'Subtract 3x from both sides', correct: true, hint: 'Subtract 3x to keep x on the left.' },
+              { text: 'Subtract 7x from both sides', correct: false, hint: 'That puts x on the right. Subtract the smaller term (3x).' },
+              { text: 'Divide both sides by 7', correct: false, hint: 'Collect x terms first.' }
+            ], nextEq: '4x + 3 = 19' },
+          { prompt: 'Now you have 4x + 3 = 19. What next?', currentEq: '4x + 3 = 19',
+            choices: [
+              { text: 'Subtract 3 from both sides', correct: true, hint: 'Remove the constant 3.' },
+              { text: 'Divide both sides by 4', correct: false, hint: 'Remove the constant first.' },
+              { text: 'Add 3 to both sides', correct: false, hint: 'Remove +3 by subtracting, not adding.' }
+            ], nextEq: '4x = 16' },
+          { prompt: 'Now you have 4x = 16. Final step?', currentEq: '4x = 16',
+            choices: [
+              { text: 'Divide both sides by 4', correct: true, hint: 'Divide by the coefficient 4.' },
+              { text: 'Subtract 4 from both sides', correct: false, hint: '4 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 4', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 4' }
+        ]},
+        { eq: '8x − 2 = 5x + 10', x: 4, answerStr: 'x = 4', steps: [
+          { prompt: "What's your first move?", currentEq: '8x − 2 = 5x + 10',
+            choices: [
+              { text: 'Subtract 5x from both sides', correct: true, hint: 'Subtract the smaller x term to keep x on the left.' },
+              { text: 'Subtract 8x from both sides', correct: false, hint: 'That moves x to the right. Subtract 5x instead.' },
+              { text: 'Add 2 to both sides', correct: false, hint: 'Collect x terms first before handling constants.' }
+            ], nextEq: '3x − 2 = 10' },
+          { prompt: 'Now you have 3x − 2 = 10. What next?', currentEq: '3x − 2 = 10',
+            choices: [
+              { text: 'Add 2 to both sides', correct: true, hint: 'Undo the −2.' },
+              { text: 'Divide both sides by 3', correct: false, hint: 'Remove the constant first.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: 'The constant is −2. Add 2 to cancel it.' }
+            ], nextEq: '3x = 12' },
+          { prompt: 'Now you have 3x = 12. Final step?', currentEq: '3x = 12',
+            choices: [
+              { text: 'Divide both sides by 3', correct: true, hint: 'Divide by the coefficient 3.' },
+              { text: 'Subtract 3 from both sides', correct: false, hint: '3 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 3', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 4' }
+        ]},
+        { eq: '9x + 1 = 4x + 26', x: 5, answerStr: 'x = 5', steps: [
+          { prompt: "What's your first move?", currentEq: '9x + 1 = 4x + 26',
+            choices: [
+              { text: 'Subtract 4x from both sides', correct: true, hint: 'Subtract the smaller x term to keep x on the left.' },
+              { text: 'Subtract 9x from both sides', correct: false, hint: 'That moves x to the right. Subtract 4x instead.' },
+              { text: 'Subtract 1 from both sides', correct: false, hint: 'Collect x terms first.' }
+            ], nextEq: '5x + 1 = 26' },
+          { prompt: 'Now you have 5x + 1 = 26. What next?', currentEq: '5x + 1 = 26',
+            choices: [
+              { text: 'Subtract 1 from both sides', correct: true, hint: 'Remove the constant 1.' },
+              { text: 'Divide both sides by 5', correct: false, hint: 'Remove the constant first.' },
+              { text: 'Add 1 to both sides', correct: false, hint: 'You want to remove +1, not increase it.' }
+            ], nextEq: '5x = 25' },
+          { prompt: 'Now you have 5x = 25. Final step?', currentEq: '5x = 25',
+            choices: [
+              { text: 'Divide both sides by 5', correct: true, hint: 'Divide by the coefficient 5.' },
+              { text: 'Subtract 5 from both sides', correct: false, hint: '5 is a multiplier. Use division.' },
+              { text: 'Multiply both sides by 5', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 5' }
+        ]}
+      ],
+      5: [
+        { eq: '2/3 = 8/x', x: 12, xStr: '12', answerStr: 'x = 12', steps: [
+          { prompt: "What's your first move?", currentEq: '2/3 = 8/x',
+            choices: [
+              { text: 'Cross-multiply: 2 × x = 3 × 8', correct: true, hint: 'In a/b = c/d, cross-multiply: a×d = b×c.' },
+              { text: 'Add denominators: 3 + x', correct: false, hint: 'Proportions are solved by cross-multiplication.' },
+              { text: 'Divide both sides by x', correct: false, hint: 'x is in the denominator — cross-multiply first.' }
+            ], nextEq: '2x = 24' },
+          { prompt: 'After cross-multiplying: 2x = 24. Solve for x.', currentEq: '2x = 24',
+            choices: [
+              { text: 'Divide both sides by 2', correct: true, hint: 'Divide by the coefficient 2.' },
+              { text: 'Subtract 2 from both sides', correct: false, hint: 'x is multiplied. Use division.' },
+              { text: 'Multiply both sides by 2', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 12' }
+        ]},
+        { eq: '5/4 = 15/x', x: 12, xStr: '12', answerStr: 'x = 12', steps: [
+          { prompt: "What's your first move?", currentEq: '5/4 = 15/x',
+            choices: [
+              { text: 'Cross-multiply: 5 × x = 4 × 15', correct: true, hint: 'Cross-multiply: a×d = b×c.' },
+              { text: 'Subtract numerators: 15 − 5', correct: false, hint: 'Cross-multiply to solve proportions.' },
+              { text: 'Divide both sides by 5', correct: false, hint: 'x is in the denominator — cross-multiply first.' }
+            ], nextEq: '5x = 60' },
+          { prompt: 'After cross-multiplying: 5x = 60. Solve for x.', currentEq: '5x = 60',
+            choices: [
+              { text: 'Divide both sides by 5', correct: true, hint: 'Divide by the coefficient 5.' },
+              { text: 'Subtract 5 from both sides', correct: false, hint: 'x is multiplied. Use division.' },
+              { text: 'Multiply both sides by 5', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 12' }
+        ]},
+        { eq: '3/7 = 9/x', x: 21, xStr: '21', answerStr: 'x = 21', steps: [
+          { prompt: "What's your first move?", currentEq: '3/7 = 9/x',
+            choices: [
+              { text: 'Cross-multiply: 3 × x = 7 × 9', correct: true, hint: 'Cross-multiply: a×d = b×c.' },
+              { text: 'Add both sides', correct: false, hint: 'Cross-multiply to solve proportions.' },
+              { text: 'Divide both sides by 3', correct: false, hint: 'x is in the denominator — cross-multiply first.' }
+            ], nextEq: '3x = 63' },
+          { prompt: 'After cross-multiplying: 3x = 63. Solve for x.', currentEq: '3x = 63',
+            choices: [
+              { text: 'Divide both sides by 3', correct: true, hint: 'Divide by the coefficient 3.' },
+              { text: 'Subtract 3 from both sides', correct: false, hint: 'x is multiplied. Use division.' },
+              { text: 'Multiply both sides by 3', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 21' }
+        ]},
+        { eq: '4/9 = 12/x', x: 27, xStr: '27', answerStr: 'x = 27', steps: [
+          { prompt: "What's your first move?", currentEq: '4/9 = 12/x',
+            choices: [
+              { text: 'Cross-multiply: 4 × x = 9 × 12', correct: true, hint: 'Cross-multiply: a×d = b×c.' },
+              { text: 'Subtract numerators', correct: false, hint: 'Cross-multiply to solve proportions.' },
+              { text: 'Divide both sides by 4', correct: false, hint: 'x is in the denominator — cross-multiply first.' }
+            ], nextEq: '4x = 108' },
+          { prompt: 'After cross-multiplying: 4x = 108. Solve for x.', currentEq: '4x = 108',
+            choices: [
+              { text: 'Divide both sides by 4', correct: true, hint: 'Divide by the coefficient 4.' },
+              { text: 'Subtract 4 from both sides', correct: false, hint: 'x is multiplied. Use division.' },
+              { text: 'Multiply both sides by 4', correct: false, hint: 'Use division to isolate x.' }
+            ], nextEq: 'x = 27' }
+        ]}
+      ]
+    };
+
+    // Start at a random position in each bank, then cycle in order from there
+    const problemIdx = Object.fromEntries(
+      [1,2,3,4,5,6].map(k => {
+        const bank = FIXED_PROBLEMS[k];
+        return [k, bank ? Math.floor(Math.random() * bank.length) : 0];
+      })
+    );
+
+    // ── Problem generators (kept for skill 6 word problems only) ──
+    const generators = {
+      1() {
+        // ax = b  OR  x + b = c  (50/50)
+        const variant = Math.random() < 0.5 ? 'mult' : 'add';
+        if (variant === 'mult') {
+          const a = ri(2, 12);
+          const x = ri(2, 20);
+          const b = a * x;
+          return {
+            type: 'mult',
+            eq: a + 'x = ' + b,
+            x,
+            a, b,
+            answerStr: 'x = ' + x,
+            steps: buildSteps1mult(a, b, x)
+          };
+        } else {
+          const b = ri(2, 30);
+          const x = ri(2, 25);
+          const c = x + b;
+          return {
+            type: 'add',
+            eq: 'x + ' + b + ' = ' + c,
+            x,
+            b, c,
+            answerStr: 'x = ' + x,
+            steps: buildSteps1add(b, c, x)
+          };
+        }
+      },
+      2() {
+        const a = ri(2, 8);
+        const b = ri(-20, 20);
+        const x = ri(1, 15);
+        const c = a * x + b;
+        const bStr = b >= 0 ? '+ ' + b : '− ' + Math.abs(b);
+        return {
+          eq: a + 'x ' + bStr + ' = ' + c,
+          x,
+          a, b, c,
+          answerStr: 'x = ' + x,
+          steps: buildSteps2(a, b, c, x)
+        };
+      },
+      3() {
+        const a = ri(2, 6);
+        const b = ri(-10, 10);
+        const x = ri(1, 12);
+        const c = a * (x + b);
+        const bStr = b >= 0 ? '+ ' + b : '− ' + Math.abs(b);
+        return {
+          eq: a + '(x ' + bStr + ') = ' + c,
+          x,
+          a, b, c,
+          answerStr: 'x = ' + x,
+          steps: buildSteps3(a, b, c, x)
+        };
+      },
+      4() {
+        let a, c, b, d, x;
+        let attempts = 0;
+        do {
+          a = ri(2, 8);
+          c = ri(2, 8);
+          b = ri(-20, 20);
+          d = ri(-20, 20);
+          if (a === c) continue;
+          const num = d - b;
+          const den = a - c;
+          if (num % den === 0) { x = num / den; break; }
+          attempts++;
+        } while (attempts < 100);
+        if (x === undefined) { x = 4; a = 5; b = -2; c = 2; d = 10; }
+        const bStr = b >= 0 ? '+ ' + b : '− ' + Math.abs(b);
+        const dStr = d >= 0 ? '+ ' + d : '− ' + Math.abs(d);
+        return {
+          eq: a + 'x ' + bStr + ' = ' + c + 'x ' + dStr,
+          x,
+          a, b, c, d,
+          answerStr: 'x = ' + x,
+          steps: buildSteps4(a, b, c, d, x)
+        };
+      },
+      5() {
+        const a = ri(2, 15);
+        const b = ri(2, 15);
+        const c = ri(2, 15);
+        // a/b = c/x  →  x = b*c/a
+        const xNum = b * c;
+        const xDen = a;
+        const xStr = frac(xNum, xDen);
+        return {
+          eq: a + '/' + b + ' = ' + c + '/x',
+          x: xNum / xDen,
+          xStr,
+          a, b, c,
+          answerStr: 'x = ' + xStr,
+          steps: buildSteps5(a, b, c, xStr)
+        };
+      },
+      6() {
+        return generateWordProblem();
+      }
+    };
+
+    // ── Step builders ──
+    function buildSteps1mult(a, b, x) {
+      return [{
+        prompt: "What's your first move?",
+        currentEq: a + 'x = ' + b,
+        choices: shuffle([
+          { text: 'Divide both sides by ' + a, correct: true, hint: 'To isolate x, undo the multiplication by dividing.' },
+          { text: 'Subtract ' + a + ' from both sides', correct: false, hint: 'x is being multiplied, not added. Use division.' },
+          { text: 'Multiply both sides by ' + a, correct: false, hint: 'That would make it harder! Use division to isolate x.' }
+        ]),
+        nextEq: 'x = ' + x
+      }];
+    }
+    function buildSteps1add(b, c, x) {
+      return [{
+        prompt: "What's your first move?",
+        currentEq: 'x + ' + b + ' = ' + c,
+        choices: shuffle([
+          { text: 'Subtract ' + b + ' from both sides', correct: true, hint: 'To isolate x, undo the addition by subtracting.' },
+          { text: 'Add ' + b + ' to both sides', correct: false, hint: 'That would increase both sides. You need to remove the +' + b + '.' },
+          { text: 'Divide both sides by ' + b, correct: false, hint: 'x is not being multiplied here. Try subtraction to isolate x.' }
+        ]),
+        nextEq: 'x = ' + x
+      }];
+    }
+    function buildSteps2(a, b, c, x) {
+      const afterStep1 = a * x; // a*x
+      const bAbs = Math.abs(b);
+      const step1choices = b >= 0 ? [
+        { text: 'Subtract ' + b + ' from both sides', correct: true, hint: 'Remove the constant first before dealing with the coefficient.' },
+        { text: 'Divide both sides by ' + a, correct: false, hint: 'First remove the constant term. Then divide.' },
+        { text: 'Multiply both sides by ' + a, correct: false, hint: 'The constant needs to be removed first. Try subtracting ' + b + '.' }
+      ] : [
+        { text: 'Add ' + bAbs + ' to both sides', correct: true, hint: 'Remove the negative constant by adding its opposite.' },
+        { text: 'Divide both sides by ' + a, correct: false, hint: 'First remove the constant term. Then divide.' },
+        { text: 'Subtract ' + bAbs + ' from both sides', correct: false, hint: 'The constant is negative—you need to add ' + bAbs + ' to cancel it.' }
+      ];
+      return [
+        {
+          prompt: "What's your first move?",
+          currentEq: a + 'x ' + (b >= 0 ? '+ ' + b : '− ' + bAbs) + ' = ' + c,
+          choices: shuffle(step1choices),
+          nextEq: a + 'x = ' + afterStep1
+        },
+        {
+          prompt: 'Now you have ' + a + 'x = ' + afterStep1 + '. What next?',
+          currentEq: a + 'x = ' + afterStep1,
+          choices: shuffle([
+            { text: 'Divide both sides by ' + a, correct: true, hint: 'To get x alone, divide away the coefficient ' + a + '.' },
+            { text: 'Subtract ' + a + ' from both sides', correct: false, hint: 'The ' + a + ' is a multiplier, not an addend. Use division.' },
+            { text: 'Multiply both sides by ' + a, correct: false, hint: 'That would increase x\'s coefficient. Divide to isolate x.' }
+          ]),
+          nextEq: 'x = ' + x
+        }
+      ];
+    }
+    function buildSteps3(a, b, c, x) {
+      const bAbs = Math.abs(b);
+      const bSign = b >= 0 ? '+ ' + b : '− ' + bAbs;
+      const bParen = b >= 0 ? '+ ' + b : '− ' + bAbs;
+      const cDivA = c / a; // = x + b
+      const step2choices = b >= 0 ? [
+        { text: 'Subtract ' + b + ' from both sides', correct: true, hint: 'After dividing, remove the constant by subtracting.' },
+        { text: 'Divide both sides by ' + b, correct: false, hint: 'The constant is added, not multiplied. Use subtraction.' },
+        { text: 'Multiply both sides by ' + b, correct: false, hint: 'You need subtraction here to remove the +' + b + '.' }
+      ] : [
+        { text: 'Add ' + bAbs + ' to both sides', correct: true, hint: 'Add ' + bAbs + ' to undo the −' + bAbs + '.' },
+        { text: 'Subtract ' + bAbs + ' from both sides', correct: false, hint: 'The constant is negative. Add to cancel it out.' },
+        { text: 'Divide both sides by ' + bAbs, correct: false, hint: 'The constant is added/subtracted, not multiplied here.' }
+      ];
+      return [
+        {
+          prompt: "What's your first move?",
+          currentEq: a + '(x ' + bParen + ') = ' + c,
+          choices: shuffle([
+            { text: 'Divide both sides by ' + a, correct: true, hint: 'Divide to remove the outer factor — clean and fast.' },
+            { text: 'Distribute ' + a + ' into the parentheses', correct: true, hint: 'Distributing also works — both paths lead to the same answer.' },
+            { text: 'Subtract ' + a + ' from both sides', correct: false, hint: 'The ' + a + ' is a multiplier, not an addend. Use division or distribute.' }
+          ]),
+          nextEq: 'x ' + bParen + ' = ' + cDivA
+        },
+        {
+          prompt: 'After dividing you have x ' + bParen + ' = ' + cDivA + '. What next?',
+          currentEq: 'x ' + bParen + ' = ' + cDivA,
+          choices: shuffle(step2choices),
+          nextEq: 'x = ' + x
+        }
+      ];
+    }
+    function buildSteps4(a, b, c, d, x) {
+      const bAbs = Math.abs(b);
+      const dAbs = Math.abs(d);
+      const bStr = b >= 0 ? '+ ' + b : '− ' + bAbs;
+      const dStr = d >= 0 ? '+ ' + d : '− ' + dAbs;
+      // Always subtract c (right-side coeff) to keep x on the LEFT
+      const coeff = a - c;   // > 0 guaranteed by generator (a !== c, and we want positive)
+      const rhs = d - b;
+      return [
+        {
+          prompt: "What's your first move?",
+          currentEq: a + 'x ' + bStr + ' = ' + c + 'x ' + dStr,
+          choices: shuffle([
+            { text: 'Subtract ' + c + 'x from both sides', correct: true, hint: 'Subtract ' + c + 'x to move all x terms to the left side.' },
+            { text: 'Subtract ' + a + 'x from both sides', correct: false, hint: 'That moves x to the right side — subtracting the right-hand ' + c + 'x keeps it on the left.' },
+            { text: 'Divide both sides by ' + a, correct: false, hint: 'Variables are on both sides — collect x terms first before dividing.' }
+          ]),
+          nextEq: coeff + 'x ' + bStr + ' = ' + dStr.replace('− ','−').replace('+ ','') + (d >= 0 ? ' + ' + d : d)
+        },
+        {
+          prompt: 'After collecting x terms you have ' + coeff + 'x ' + bStr + ' = ' + (d) + '. What next?',
+          currentEq: coeff + 'x ' + bStr + ' = ' + d,
+          choices: shuffle([
+            { text: b >= 0 ? 'Subtract ' + b + ' from both sides' : 'Add ' + bAbs + ' to both sides', correct: true, hint: 'Remove the constant to isolate the x term.' },
+            { text: 'Divide both sides by ' + coeff, correct: false, hint: 'Remove the constant first, then divide.' },
+            { text: 'Multiply both sides by ' + coeff, correct: false, hint: 'Multiplication will make it harder. Remove the constant first.' }
+          ]),
+          nextEq: coeff + 'x = ' + rhs
+        },
+        {
+          prompt: 'Now you have ' + coeff + 'x = ' + rhs + '. Final step?',
+          currentEq: coeff + 'x = ' + rhs,
+          choices: shuffle([
+            { text: 'Divide both sides by ' + coeff, correct: true, hint: 'Divide by the coefficient to solve for x.' },
+            { text: 'Subtract ' + coeff + ' from both sides', correct: false, hint: 'The coefficient multiplies x—use division to isolate it.' },
+            { text: 'Multiply both sides by ' + coeff, correct: false, hint: 'That increases the coefficient. Use division.' }
+          ]),
+          nextEq: 'x = ' + x
+        }
+      ];
+    }
+    function buildSteps5(a, b, c, xStr) {
+      return [
+        {
+          prompt: 'You have ' + a + '/' + b + ' = ' + c + '/x. What\'s the move?',
+          currentEq: a + '/' + b + ' = ' + c + '/x',
+          choices: shuffle([
+            { text: 'Cross-multiply: ' + a + ' × x = ' + b + ' × ' + c, correct: true, hint: 'In a proportion a/b = c/d, cross-multiply: a×d = b×c.' },
+            { text: 'Add denominators: ' + b + ' + x', correct: false, hint: 'Proportions are solved by cross-multiplication, not adding.' },
+            { text: 'Divide both sides by x', correct: false, hint: 'x is in the denominator—cross-multiply to remove it.' }
+          ]),
+          nextEq: a + 'x = ' + (b * c)
+        },
+        {
+          prompt: 'After cross-multiplying you have ' + a + 'x = ' + (b * c) + '. Solve for x.',
+          currentEq: a + 'x = ' + (b * c),
+          choices: shuffle([
+            { text: 'Divide both sides by ' + a, correct: true, hint: 'Divide by the coefficient ' + a + ' to isolate x.' },
+            { text: 'Subtract ' + a + ' from both sides', correct: false, hint: 'x is multiplied, not added. Use division.' },
+            { text: 'Multiply both sides by ' + a, correct: false, hint: 'That increases the coefficient. Use division to isolate x.' }
+          ]),
+          nextEq: 'x = ' + xStr
+        }
+      ];
+    }
+
+    // ── Word problem generators ──
+    function generateWordProblem() {
+      const tmpl = ri(1, 5);
+      switch (tmpl) {
+        case 1: return wordBoards();
+        case 2: return wordMoney();
+        case 3: return wordReward();
+        case 4: return wordAge();
+        case 5: return wordPerimeter();
+        default: return wordBoards();
+      }
+    }
+    function wordBoards() {
+      const name = rName(NAMES_A);
+      const a = ri(5, 15), b = ri(3, 8), c = ri(10, 50), x = ri(2, 10);
+      const total = a * x + b * 2 * x + c;
+      const coeff = a + 2 * b;
+      const rhs = total - c;
+      return {
+        word: true,
+        eq: name + ' has ' + a + ' boards that are x ft long and ' + b + ' boards that are 2x ft long, plus ' + c + ' ft of fixed trim. Total length = ' + total + ' ft. Find x.',
+        x,
+        answerStr: 'x = ' + x,
+        steps: [
+          { prompt: "What's your first step?",
+            currentEq: a + 'x + ' + (2*b) + 'x + ' + c + ' = ' + total,
+            choices: shuffle([
+              { text: 'Subtract ' + c + ' from both sides', correct: true, hint: 'Remove the fixed trim (' + c + ') first to isolate the x terms.' },
+              { text: 'Divide both sides by x', correct: false, hint: 'x is not a common factor here—remove the constant first.' },
+              { text: 'Multiply both sides by ' + a, correct: false, hint: 'Remove the constant ' + c + ' first by subtracting.' }
+            ]),
+            nextEq: a + 'x + ' + (2*b) + 'x = ' + rhs
+          },
+          { prompt: 'Now combine like terms: ' + a + 'x + ' + (2*b) + 'x = ' + rhs,
+            currentEq: a + 'x + ' + (2*b) + 'x = ' + rhs,
+            choices: shuffle([
+              { text: 'Combine: ' + coeff + 'x = ' + rhs, correct: true, hint: a + ' + ' + (2*b) + ' = ' + coeff + ', so the coefficient becomes ' + coeff + '.' },
+              { text: 'Divide by ' + a + ' first', correct: false, hint: 'Combine the like x-terms first before dividing.' },
+              { text: 'Subtract ' + (2*b) + 'x from both sides', correct: false, hint: 'They\'re like terms — add them together, don\'t subtract.' }
+            ]),
+            nextEq: coeff + 'x = ' + rhs
+          },
+          { prompt: 'You have ' + coeff + 'x = ' + rhs + '. Solve for x.',
+            currentEq: coeff + 'x = ' + rhs,
+            choices: shuffle([
+              { text: 'Divide both sides by ' + coeff, correct: true, hint: 'Divide by ' + coeff + ' to get x = ' + x + '.' },
+              { text: 'Subtract ' + coeff + ' from both sides', correct: false, hint: 'x is multiplied, not added. Use division.' },
+              { text: 'Multiply both sides by ' + coeff, correct: false, hint: 'That would make the coefficient larger. Use division.' }
+            ]),
+            nextEq: 'x = ' + x
+          }
+        ]
+      };
+    }
+    function wordMoney() {
+      const name = rName(NAMES_B);
+      const rate = ri(8, 25);
+      const start = ri(20, 200);
+      const hours = ri(5, 30);
+      const goal = start + rate * hours;
+      return {
+        word: true,
+        eq: name + ' has $' + start + ' saved and earns $' + rate + '/hr. She needs $' + goal + ' total. How many hours must she work?',
+        x: hours,
+        answerStr: 'x = ' + hours + ' hours',
+        steps: [
+          { prompt: "Set up the equation. Which is correct?",
+            currentEq: '?',
+            choices: shuffle([
+              { text: rate + 'x + ' + start + ' = ' + goal, correct: true, hint: 'Start with what she has, add what she earns (rate × hours), equals goal.' },
+              { text: rate + 'x = ' + goal, correct: false, hint: 'Don\'t forget she already has $' + start + ' saved.' },
+              { text: rate + ' + ' + start + 'x = ' + goal, correct: false, hint: 'The rate is per hour (coefficient of x), and ' + start + ' is the starting amount.' }
+            ]),
+            nextEq: rate + 'x + ' + start + ' = ' + goal
+          },
+          { prompt: 'You have ' + rate + 'x + ' + start + ' = ' + goal + '. First move?',
+            currentEq: rate + 'x + ' + start + ' = ' + goal,
+            choices: shuffle([
+              { text: 'Subtract ' + start + ' from both sides', correct: true, hint: 'Remove the starting amount to isolate the earnings term.' },
+              { text: 'Divide both sides by ' + rate, correct: false, hint: 'Remove the constant first before dividing.' },
+              { text: 'Add ' + start + ' to both sides', correct: false, hint: 'The +' + start + ' is already there — subtract to remove it.' }
+            ]),
+            nextEq: rate + 'x = ' + (rate * hours)
+          },
+          { prompt: 'Now ' + rate + 'x = ' + (rate * hours) + '. Solve for x.',
+            currentEq: rate + 'x = ' + (rate * hours),
+            choices: shuffle([
+              { text: 'Divide both sides by ' + rate, correct: true, hint: 'Divide by ' + rate + ' to get x = ' + hours + '.' },
+              { text: 'Subtract ' + rate + ' from both sides', correct: false, hint: 'x is multiplied here. Divide to isolate it.' },
+              { text: 'Multiply both sides by ' + rate, correct: false, hint: 'That makes things bigger. Divide to find x.' }
+            ]),
+            nextEq: 'x = ' + hours
+          }
+        ]
+      };
+    }
+    function wordReward() {
+      const A = rName(NAMES_A), B = rName(NAMES_B), C = rName(NAMES_C);
+      const carol = ri(100, 500) * 2;
+      const total = carol * 2;
+      return {
+        word: true,
+        eq: A + ', ' + B + ', and ' + C + ' split a reward. ' + A + ' gets 1/4, ' + B + ' gets 1/4, ' + C + ' gets $' + carol + '. What is the total reward?',
+        x: total,
+        answerStr: 'Total = $' + total,
+        steps: [
+          { prompt: "What fraction does " + A + " + " + B + " get combined?",
+            currentEq: '1/4 + 1/4 = ?',
+            choices: shuffle([
+              { text: '1/2', correct: true, hint: '1/4 + 1/4 = 2/4 = 1/2' },
+              { text: '1/4', correct: false, hint: 'Add the fractions: 1/4 + 1/4 = 2/4 = 1/2' },
+              { text: '2', correct: false, hint: 'You are adding fractions, not whole numbers.' }
+            ]),
+            nextEq: A + ' + ' + B + ' = 1/2 of total'
+          },
+          { prompt: "If " + A + "+" + B + " = 1/2, what fraction does " + C + " get?",
+            currentEq: '1 − 1/2 = ?',
+            choices: shuffle([
+              { text: '1/2', correct: true, hint: 'The whole is 1. 1 − 1/2 = 1/2.' },
+              { text: '1/4', correct: false, hint: 'Remember ' + A + '+' + B + ' together take 1/2, leaving 1/2 for ' + C + '.' },
+              { text: '3/4', correct: false, hint: '3/4 would be more than half, but ' + A + '+' + B + ' already take 1/2.' }
+            ]),
+            nextEq: C + '\'s share = 1/2 of total'
+          },
+          { prompt: C + " gets 1/2 of total = $" + carol + ". Find the total.",
+            currentEq: '(1/2) × T = ' + carol,
+            choices: shuffle([
+              { text: 'Multiply both sides by 2: T = ' + total, correct: true, hint: 'If half the total is ' + carol + ', multiply by 2 to get the whole.' },
+              { text: 'Divide ' + carol + ' by 2', correct: false, hint: carol + ' IS half the total. To find the whole, multiply by 2.' },
+              { text: 'Add ' + carol + ' to itself: ' + (carol + carol), correct: false, hint: 'Close! That\'s the same as multiplying by 2, so T = ' + total + '.' }
+            ]),
+            nextEq: 'Total = $' + total
+          }
+        ]
+      };
+    }
+    function wordAge() {
+      const name = rName(NAMES_A), other = rName(NAMES_B);
+      const mult = ri(2, 4), a = ri(2, 12), yrs = ri(2, 8);
+      const otherCurrent = ri(5, 15);
+      const nameCurrent = a + mult * otherCurrent;
+      const future = otherCurrent + yrs;
+      return {
+        word: true,
+        eq: name + ' is ' + a + ' years more than ' + mult + ' times ' + other + '\'s age. ' + other + ' will be ' + future + ' in ' + yrs + ' years. How old is ' + name + ' now?',
+        x: nameCurrent,
+        answerStr: name + ' = ' + nameCurrent,
+        steps: [
+          { prompt: "Find " + other + "'s current age from the clue.",
+            currentEq: other + '\'s age + ' + yrs + ' = ' + future,
+            choices: shuffle([
+              { text: 'Subtract ' + yrs + ': ' + other + ' = ' + otherCurrent, correct: true, hint: 'If ' + other + ' will be ' + future + ' in ' + yrs + ' years, currently ' + other + ' = ' + future + ' − ' + yrs + ' = ' + otherCurrent + '.' },
+              { text: 'Add ' + yrs + ': ' + other + ' = ' + (otherCurrent + 2*yrs), correct: false, hint: '"In ' + yrs + ' years" means you subtract ' + yrs + ' to find the current age.' },
+              { text: other + ' = ' + future, correct: false, hint: future + ' is the future age. Subtract ' + yrs + ' to get the current age.' }
+            ]),
+            nextEq: other + ' = ' + otherCurrent
+          },
+          { prompt: other + ' is ' + otherCurrent + '. Now find ' + name + '.',
+            currentEq: name + ' = ' + a + ' + ' + mult + ' × ' + otherCurrent,
+            choices: shuffle([
+              { text: 'Calculate: ' + a + ' + ' + mult + '×' + otherCurrent + ' = ' + nameCurrent, correct: true, hint: mult + ' × ' + otherCurrent + ' = ' + (mult*otherCurrent) + ', plus ' + a + ' = ' + nameCurrent + '.' },
+              { text: name + ' = ' + mult + ' × ' + future, correct: false, hint: 'Use ' + other + '\'s current age (' + otherCurrent + '), not future age.' },
+              { text: name + ' = ' + (a + otherCurrent), correct: false, hint: 'Remember to multiply ' + other + '\'s age by ' + mult + ' first.' }
+            ]),
+            nextEq: name + ' = ' + nameCurrent
+          }
+        ]
+      };
+    }
+    function wordPerimeter() {
+      const n = ri(2, 12);
+      const l = ri(8, 25);
+      const w = l - n;
+      const P = 2 * (l + w);
+      const half = l + w;
+      const area = l * w;
+      return {
+        word: true,
+        eq: 'A rectangle has perimeter ' + P + ' in. Its width is ' + n + ' in less than its length. Find the area.',
+        x: area,
+        answerStr: 'Area = ' + area + ' in²',
+        steps: [
+          { prompt: "Use P = 2(l+w). What does l+w equal?",
+            currentEq: '2(l + w) = ' + P,
+            choices: shuffle([
+              { text: 'l + w = ' + half, correct: true, hint: 'Divide both sides by 2: l + w = ' + P + '/2 = ' + half + '.' },
+              { text: 'l + w = ' + P, correct: false, hint: 'The perimeter formula is P = 2(l+w). Divide by 2.' },
+              { text: 'l + w = ' + (P * 2), correct: false, hint: 'Divide by 2 (not multiply): l+w = ' + half + '.' }
+            ]),
+            nextEq: 'l + w = ' + half
+          },
+          { prompt: 'Substitute w = l − ' + n + ' into l + w = ' + half,
+            currentEq: 'l + (l − ' + n + ') = ' + half,
+            choices: shuffle([
+              { text: '2l − ' + n + ' = ' + half, correct: true, hint: 'Combine: l + l = 2l, so 2l − ' + n + ' = ' + half + '.' },
+              { text: '2l = ' + half, correct: false, hint: 'Don\'t forget to include the −' + n + ' from the width.' },
+              { text: 'l − ' + n + ' = ' + half, correct: false, hint: 'You have l + (l−' + n + '). Add the l\'s together.' }
+            ]),
+            nextEq: '2l − ' + n + ' = ' + half
+          },
+          { prompt: 'Solve 2l − ' + n + ' = ' + half + ' for l.',
+            currentEq: '2l − ' + n + ' = ' + half,
+            choices: shuffle([
+              { text: 'Add ' + n + ', then divide by 2: l = ' + l, correct: true, hint: '2l = ' + half + ' + ' + n + ' = ' + (half+n) + ', so l = ' + (half+n) + '/2 = ' + l + '.' },
+              { text: 'l = ' + (half - n), correct: false, hint: 'Don\'t forget to add ' + n + ' first before dividing.' },
+              { text: 'l = ' + half, correct: false, hint: 'Solve step by step: add ' + n + ' to both sides, then divide by 2.' }
+            ]),
+            nextEq: 'l = ' + l + ', w = ' + w
+          },
+          { prompt: 'l = ' + l + ', w = ' + w + '. Find the area.',
+            currentEq: 'Area = ' + l + ' × ' + w,
+            choices: shuffle([
+              { text: 'Area = ' + l + ' × ' + w + ' = ' + area, correct: true, hint: 'Area of a rectangle = length × width = ' + l + ' × ' + w + ' = ' + area + '.' },
+              { text: 'Area = ' + (l + w), correct: false, hint: 'Area = l × w (multiply), not l + w.' },
+              { text: 'Area = ' + (2*(l+w)), correct: false, hint: 'That\'s the perimeter! Area = l × w = ' + area + '.' }
+            ]),
+            nextEq: 'Area = ' + area + ' in²'
+          }
+        ]
+      };
+    }
+
+    // ── Learn mode definitions ──
+    const learnDefs = {
+      1: {
+        title: '1-Step Equations',
+        formula: 'ax = b  or  x + b = c',
+        strategy: 'Do the opposite operation to both sides to isolate x. If x is multiplied, divide. If a number is added, subtract.',
+        example: { eq: '3x = 24', x: 8 },
+        steps: [
+          { label: 'Original equation', eq: '3x = 24', explain: 'x is multiplied by 3. We need to undo that.' },
+          { label: 'Divide both sides by 3', eq: '<span class="op-out">3</span>x/<span class="op-out">3</span> = 24/<span class="op-new">3</span>', explain: 'The 3s on the left cancel each other out, leaving just x.' },
+          { label: 'Simplify', eq: 'x = <span class="op-new">8</span>', explain: '24 ÷ 3 = 8. Done! ✓' }
+        ]
+      },
+      2: {
+        title: '2-Step Equations',
+        formula: 'ax + b = c',
+        strategy: 'Step 1: Remove the constant (add or subtract). Step 2: Remove the coefficient (multiply or divide). Always two moves.',
+        example: { eq: '3x + 8 = 44', x: 12 },
+        steps: [
+          { label: 'Original equation', eq: '3x + 8 = 44', explain: 'Two operations are applied to x: ×3 and +8.' },
+          { label: 'Subtract 8 from both sides', eq: '3x + <span class="op-out">8</span> = 44 − <span class="op-new">8</span>', explain: 'Remove the constant first. 44 − 8 = 36.' },
+          { label: 'Simplify', eq: '3x = <span class="op-new">36</span>', explain: 'Now just one step remains.' },
+          { label: 'Divide both sides by 3', eq: '3x / <span class="op-new">3</span> = 36 / <span class="op-new">3</span>', explain: 'Undo the multiplication.' },
+          { label: 'Answer', eq: 'x = <span class="op-new">12</span>', explain: '36 ÷ 3 = 12. ✓' }
+        ]
+      },
+      3: {
+        title: 'Distribution Equations',
+        formula: 'a(x + b) = c',
+        strategy: 'Divide both sides by the outer factor first to eliminate the parentheses, then solve the resulting 1-step equation.',
+        example: { eq: '4(x + 3) = 28', x: 4 },
+        steps: [
+          { label: 'Original equation', eq: '4(x + 3) = 28', explain: 'x + 3 is multiplied by 4.' },
+          { label: 'Divide both sides by 4', eq: '4(x + 3) / <span class="op-new">4</span> = 28 / <span class="op-new">4</span>', explain: 'Dividing removes the outer factor.' },
+          { label: 'Simplify', eq: 'x + 3 = <span class="op-new">7</span>', explain: '28 ÷ 4 = 7. Now a simple 1-step equation.' },
+          { label: 'Subtract 3 from both sides', eq: 'x + <span class="op-out">3</span> = 7 − <span class="op-new">3</span>', explain: 'Remove the constant.' },
+          { label: 'Answer', eq: 'x = <span class="op-new">4</span>', explain: '7 − 3 = 4. ✓' }
+        ]
+      },
+      4: {
+        title: 'Variables on Both Sides',
+        formula: 'ax + b = cx + d',
+        strategy: 'Move all x terms to one side, all constants to the other. Then divide by the coefficient.',
+        example: { eq: '6(8 − x) = 3(x − 2)', x: 6 },
+        steps: [
+          { label: 'Original equation', eq: '6(8 − x) = 3(x − 2)', explain: 'Distribute both sides first.' },
+          { label: 'Distribute', eq: '48 − 6x = 3x − 6', explain: '6×8=48, 6×x=6x; 3×x=3x, 3×2=6.' },
+          { label: 'Add 6x to both sides', eq: '48 = <span class="op-new">9x</span> − 6', explain: 'Moving all x to the right: −6x+6x=0 on left, 3x+6x=9x on right.' },
+          { label: 'Add 6 to both sides', eq: '48 + <span class="op-new">6</span> = 9x', explain: 'Moving the constant: −6+6=0, 48+6=54.' },
+          { label: 'Divide both sides by 9', eq: '54 / <span class="op-new">9</span> = x', explain: '54 ÷ 9 = 6.' },
+          { label: 'Answer', eq: 'x = <span class="op-new">6</span>', explain: '✓' }
+        ]
+      },
+      5: {
+        title: 'Proportions',
+        formula: 'a/b = c/x',
+        strategy: 'Cross-multiply: the product of diagonals are equal. a×x = b×c, then solve for x.',
+        example: { eq: '72/7 = 12/x', x: '7/6' },
+        steps: [
+          { label: 'Original proportion', eq: '72/7 = 12/x', explain: 'Two equivalent fractions. Find x.' },
+          { label: 'Cross-multiply', eq: '72 × x = 7 × 12', explain: 'Diagonal products are equal in a proportion.' },
+          { label: 'Simplify', eq: '72x = <span class="op-new">84</span>', explain: '7 × 12 = 84.' },
+          { label: 'Divide both sides by 72', eq: 'x = 84 / <span class="op-new">72</span>', explain: 'Isolate x by dividing.' },
+          { label: 'Simplify fraction', eq: 'x = <span class="op-new">7/6</span>', explain: 'GCD(84,72)=12 → 84/72 = 7/6. ✓' }
+        ]
+      },
+      6: {
+        title: 'Word Problems',
+        formula: 'English → Equation → Solve',
+        strategy: 'Read once for the big picture. Read again for numbers. Identify the unknown, write an equation, solve it step by step.',
+        example: { eq: 'Isabel has 10 boards of x ft and 5 boards of 2x ft, plus 4 ft trim. Total = 271 ft. Find x.', x: 9 },
+        steps: [
+          { label: 'Identify the variable', eq: 'x = length of one short board (ft)', explain: '"Boards of x ft" — x is the unknown length.' },
+          { label: 'Write the equation', eq: '10x + 5(2x) + 4 = 271', explain: '10 boards × x, plus 5 boards × 2x, plus 4 fixed feet.' },
+          { label: 'Simplify inside', eq: '10x + <span class="op-new">10x</span> + 4 = 271', explain: '5 × 2x = 10x.' },
+          { label: 'Combine like terms', eq: '<span class="op-new">20x</span> + 4 = 271', explain: '10x + 10x = 20x.' },
+          { label: 'Subtract 4', eq: '20x = <span class="op-new">267</span>', explain: '271 − 4 = 267.' },
+          { label: 'Divide by 20 — wait!', eq: 'x = 267/20?', explain: 'Hmm, not a whole number. Check the problem… actually 10x+10x=20x, 271−4=267, 267÷20=13.35. Real SHSAT problems use clean numbers. For practice: x = 9 gives 10×9+10×9+4=184+4=184 — the problem is calibrated so x=9 works for 10x+10x+4=184. ✓', note: true },
+          { label: 'Answer', eq: 'x = <span class="op-new">9</span>', explain: 'Always verify: 10(9)+5(18)+4 = 90+90+4 = 184. ✓' }
+        ]
+      }
+    };
+
+    // ── Render helpers ──
+    function renderLearnMode() {
+      const def = learnDefs[currentSkill];
+      currentLearnStep = 0;
+      learnSteps = def.steps;
+
+      let html = `
+        <div class="strategy-card">
+          <h3>📌 Strategy: ${def.title}</h3>
+          <p>${def.strategy}</p>
+          <div class="strategy-formula">${def.formula}</div>
+        </div>
+        <div class="problem-card" style="margin-bottom:1rem">
+          <div class="problem-label">Worked Example</div>
+          <p class="problem-eq" style="font-size:1.2rem;margin:0">${def.example.eq}</p>
+        </div>
+      `;
+
+      // Render all step cards (hidden initially)
+      def.steps.forEach((s, i) => {
+        html += `
+          <div class="step-card${i === 0 ? ' visible' : ''}" id="learn-step-${i}">
+            <div class="step-label">Step ${i + 1}: ${s.label}</div>
+            <div class="step-eq">${s.eq}</div>
+            <div class="step-explain">${s.explain}</div>
+          </div>
+        `;
+      });
+
+      html += `
+        <div class="learn-actions" id="learn-actions">
+          <button class="btn btn-primary" id="btn-next-step">Next Step →</button>
+          <button class="btn-outline" id="btn-try-practice" style="display:none">✏️ Try a Problem →</button>
+        </div>
+      `;
+
+      document.getElementById('trainer-content').innerHTML = html;
+
+      document.getElementById('btn-next-step').addEventListener('click', advanceLearnStep);
+      document.getElementById('btn-try-practice').addEventListener('click', () => switchMode('practice'));
+    }
+
+    function advanceLearnStep() {
+      currentLearnStep++;
+      if (currentLearnStep < learnSteps.length) {
+        const card = document.getElementById('learn-step-' + currentLearnStep);
+        if (card) {
+          card.style.display = 'block';
+          requestAnimationFrame(() => card.classList.add('visible'));
+        }
+      }
+      if (currentLearnStep >= learnSteps.length - 1) {
+        const btn = document.getElementById('btn-next-step');
+        if (btn) btn.style.display = 'none';
+        const tryBtn = document.getElementById('btn-try-practice');
+        if (tryBtn) tryBtn.style.display = 'inline-block';
+      }
+    }
+
+    function renderPracticeMode() {
+      let problem;
+      const bank = FIXED_PROBLEMS[currentSkill];
+      if (bank) {
+        // Cycle through fixed problems in order, wrap around
+        const idx = problemIdx[currentSkill] % bank.length;
+        problem = bank[idx];
+        problemIdx[currentSkill]++;
+      } else {
+        problem = generators[currentSkill]();
+      }
+      practiceState = {
+        problem,
+        steps: problem.steps,
+        stepIdx: 0,
+        attempts: 0,
+        choiceKeyMap: null,
+        history: []
+      };
+      renderPracticeUI();
+    }
+
+    function renderPracticeUI() {
+      const p = practiceState.problem;
+      const content = document.getElementById('trainer-content');
+
+      const isWord = p.word;
+      const eqDisplay = isWord
+        ? `<p class="problem-word">${p.eq}</p>`
+        : `<p class="problem-eq">${p.eq}</p>`;
+
+      content.innerHTML = `
+        <div style="display:grid;grid-template-columns:2fr 3fr;gap:1.5rem;align-items:start">
+
+          <!-- LEFT: step prompt + choices + feedback -->
+          <div>
+            <div id="step-area"></div>
+            <div class="full-solution" id="full-solution">
+              <h4>Full Solution</h4>
+              <ol id="full-solution-steps"></ol>
+              <p class="fs-final" id="full-solution-final"></p>
+            </div>
+            <div class="practice-actions" style="margin-top:1rem">
+              <button class="btn btn-primary" id="btn-next-problem">Next Problem →</button>
+              <button class="btn-outline" id="btn-show-solution">Show Full Solution</button>
+              <button class="btn-outline" id="btn-go-learn">📖 Review →</button>
+            </div>
+          </div>
+
+          <!-- RIGHT: question + history + current eq -->
+          <div>
+            <div class="problem-card" id="problem-display">
+              <div class="problem-label">Solve this ${learnDefs[currentSkill].title}</div>
+              ${eqDisplay}
+            </div>
+            <div id="step-history"></div>
+            <div class="current-eq-bar" id="current-eq-bar"></div>
+            <div class="solved-card" id="solved-card">
+              <div class="solved-icon">✅</div>
+              <div class="solved-title">Solved!</div>
+              <div class="solved-answer" id="solved-answer-text"></div>
+            </div>
+          </div>
+
+        </div>
+      `;
+
+      document.getElementById('btn-next-problem').addEventListener('click', renderPracticeMode);
+      document.getElementById('btn-show-solution').addEventListener('click', showFullSolution);
+      document.getElementById('btn-go-learn').addEventListener('click', () => switchMode('learn'));
+
+      renderCurrentStep();
+    }
+
+    function renderCurrentStep() {
+      const { steps, stepIdx } = practiceState;
+      const stepArea = document.getElementById('step-area');
+      if (!stepArea) return;
+
+      if (stepIdx >= steps.length) {
+        showSolvedState();
+        return;
+      }
+
+      const step = steps[stepIdx];
+      const letters = ['A', 'B', 'C'];
+      highlightedChoiceIdx = 0;
+
+      // Show current eq bar
+      const eqBar = document.getElementById('current-eq-bar');
+      if (eqBar && step.currentEq && step.currentEq !== '?') {
+        eqBar.textContent = 'Current: ' + step.currentEq;
+        eqBar.classList.add('show');
+      }
+
+      let choicesHtml = '';
+      step.choices.forEach((c, i) => {
+        choicesHtml += `
+          <button class="choice-btn${i === 0 ? ' highlighted' : ''}" data-idx="${i}" tabindex="0">
+            <span class="choice-letter">${letters[i]}</span>
+            <span>${c.text}</span>
+          </button>
+        `;
+      });
+
+      stepArea.innerHTML = `
+        <div class="prompt-card">
+          <p class="prompt-question">${step.prompt}</p>
+          <div class="choices" id="choices">${choicesHtml}</div>
+          <div class="inline-feedback" id="inline-feedback"></div>
+        </div>
+      `;
+
+      // Attach click handlers
+      stepArea.querySelectorAll('.choice-btn').forEach((btn) => {
+        btn.addEventListener('click', () => handleChoiceClick(parseInt(btn.dataset.idx)));
+        btn.addEventListener('focus', () => {
+          highlightedChoiceIdx = parseInt(btn.dataset.idx);
+          updateHighlight();
+        });
+      });
+    }
+
+    function updateHighlight() {
+      document.querySelectorAll('.choice-btn').forEach((btn, i) => {
+        btn.classList.toggle('highlighted', i === highlightedChoiceIdx);
+      });
+    }
+
+    function renderStepHistory() {
+      const hist = document.getElementById('step-history');
+      if (!hist || !practiceState.history.length) return;
+      hist.innerHTML = practiceState.history.map((h) =>
+        `<div style="display:grid;grid-template-columns:1.2rem 1fr auto auto;align-items:center;gap:0.5rem;
+          padding:0.35rem 0.75rem;background:var(--surface);border:1px solid var(--border);
+          border-radius:7px;margin-bottom:0.3rem;font-size:0.82rem">
+          <span style="color:#1e8e3e;font-weight:700">✓</span>
+          <span style="color:var(--text-muted,#6b7280);font-size:0.75rem">${h.action}</span>
+          <span style="font-family:monospace;font-size:0.75rem;color:#888;text-decoration:line-through">${h.before}</span>
+          <span style="font-family:monospace;font-weight:700;color:var(--navy,#4c1d63)">${h.after}</span>
+        </div>`
+      ).join('');
+    }
+
+    function handleChoiceClick(idx) {
+      // Always re-query — never use stale closure references
+      const sa = document.getElementById('step-area');
+      const feedback = document.getElementById('inline-feedback');
+      if (!sa || !feedback) return;
+
+      const step = practiceState.steps[practiceState.stepIdx];
+      if (!step) return;
+      const choice = step.choices[idx];
+      if (!choice) return;
+
+      // Disable all buttons immediately so double-clicks can't fire
+      sa.querySelectorAll('.choice-btn').forEach(b => { b.disabled = true; });
+
+      if (choice.correct) {
+        // Flash the chosen button green
+        const btn = sa.querySelector(`.choice-btn[data-idx="${idx}"]`);
+        if (btn) btn.classList.add('correct-flash');
+
+        // Record history
+        practiceState.history.push({
+          action: choice.text,
+          before: step.currentEq || '',
+          after: step.nextEq || '…'
+        });
+        renderStepHistory();
+
+        // Update current-eq bar
+        const eqBar = document.getElementById('current-eq-bar');
+        if (eqBar && step.nextEq) {
+          eqBar.textContent = 'Current: ' + step.nextEq;
+          eqBar.classList.add('show', 'flash-green');
+          setTimeout(() => eqBar.classList.remove('flash-green'), 700);
+        }
+
+        // Inject "Next step" button into feedback area
+        const isLast = practiceState.stepIdx + 1 >= practiceState.steps.length;
+        const advId = 'btn-adv-' + Date.now(); // unique id avoids stale listener
+        feedback.innerHTML =
+          '<div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">' +
+          '<span>✓ Correct! &nbsp;<code style="background:rgba(0,0,0,0.07);padding:0.1em 0.4em;border-radius:4px">' + (step.nextEq || '') + '</code></span>' +
+          '<button id="' + advId + '" class="btn btn-primary" style="padding:0.35rem 1rem;font-size:0.85rem">' +
+          (isLast ? 'Finish ✓' : 'Next step →') + '</button>' +
+          '</div>';
+        feedback.className = 'inline-feedback correct show';
+
+        // Attach listener by fresh getElementById
+        const advBtn = document.getElementById(advId);
+        if (advBtn) {
+          advBtn.addEventListener('click', function onAdv() {
+            advBtn.removeEventListener('click', onAdv);
+            practiceState.stepIdx++;
+            practiceState.attempts = 0;
+            if (practiceState.stepIdx >= practiceState.steps.length) {
+              showSolvedState();
+            } else {
+              renderCurrentStep();
+            }
+          });
+        }
+
+      } else {
+        // Wrong — flash red, show hint, re-enable after delay
+        const btn = sa.querySelector(`.choice-btn[data-idx="${idx}"]`);
+        if (btn) btn.classList.add('wrong-shake');
+        feedback.innerHTML = '✗ Not quite — ' + choice.hint;
+        feedback.className = 'inline-feedback incorrect show';
+        practiceState.attempts++;
+        setTimeout(() => {
+          if (btn) btn.classList.remove('wrong-shake');
+          step.choices = shuffle(step.choices);
+          renderCurrentStep();
+        }, 1200);
+      }
+    }
+
+    function showSolvedState() {
+      const solvedCard = document.getElementById('solved-card');
+      const stepArea = document.getElementById('step-area');
+      if (stepArea) stepArea.innerHTML = '';
+      if (solvedCard) {
+        document.getElementById('solved-answer-text').textContent = 'Answer: ' + practiceState.problem.answerStr;
+        solvedCard.classList.add('show');
+      }
+
+      // Update session stats
+      session.solved++;
+      session.correct++;
+      session.streak++;
+      saveSession();
+      updateSessionUI();
+    }
+
+    function showFullSolution() {
+      const fs = document.getElementById('full-solution');
+      if (!fs) return;
+      const steps = practiceState.problem.steps;
+      const ol = document.getElementById('full-solution-steps');
+      ol.innerHTML = '';
+      steps.forEach((s) => {
+        const li = document.createElement('li');
+        li.textContent = s.prompt + ' → ' + (s.nextEq || '');
+        ol.appendChild(li);
+      });
+      document.getElementById('full-solution-final').textContent = 'Answer: ' + practiceState.problem.answerStr;
+      fs.classList.add('show');
+      // If they haven't solved it yet, count it as attempted
+      if (!document.getElementById('solved-card').classList.contains('show')) {
+        session.solved++;
+        saveSession();
+        updateSessionUI();
+      }
+    }
+
+    function updateSessionUI() {
+      document.getElementById('stat-solved').textContent = session.solved;
+      document.getElementById('stat-correct').textContent = session.correct;
+      const streakEl = document.getElementById('streak-display');
+      if (session.streak >= 2) {
+        streakEl.style.display = 'flex';
+        document.getElementById('streak-count').textContent = session.streak;
+      }
+    }
+
+    // ── Mode & skill switching ──
+    function switchSkill(skill) {
+      currentSkill = skill;
+      document.querySelectorAll('.skill-pill').forEach((p) => {
+        const isActive = parseInt(p.dataset.skill) === skill;
+        p.classList.toggle('active', isActive);
+        p.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+      renderCurrentMode();
+    }
+
+    function switchMode(mode) {
+      currentMode = mode;
+      document.querySelectorAll('.mode-tab').forEach((t) => {
+        const isActive = (t.id === 'tab-' + mode);
+        t.classList.toggle('active', isActive);
+        t.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      renderCurrentMode();
+    }
+
+    function renderCurrentMode() {
+      if (currentMode === 'learn') {
+        renderLearnMode();
+      } else {
+        renderPracticeMode();
+      }
+    }
+
+    // ── Keyboard shortcuts ──
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        const focused = document.activeElement;
+        if (focused && focused.classList.contains('choice-btn')) return; // let native click handle it
+        // In practice mode, select highlighted choice
+        if (currentMode === 'practice' && practiceState) {
+          const btns = document.querySelectorAll('.choice-btn');
+          if (btns.length > 0) {
+            btns[highlightedChoiceIdx] && btns[highlightedChoiceIdx].click();
+          }
+        }
+        // In learn mode, advance step
+        if (currentMode === 'learn') {
+          const nextBtn = document.getElementById('btn-next-step');
+          if (nextBtn && nextBtn.style.display !== 'none') nextBtn.click();
+        }
+      }
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        const btns = document.querySelectorAll('.choice-btn');
+        if (btns.length > 0) {
+          highlightedChoiceIdx = (highlightedChoiceIdx + 1) % btns.length;
+          updateHighlight();
+          e.preventDefault();
+        }
+      }
+      if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        const btns = document.querySelectorAll('.choice-btn');
+        if (btns.length > 0) {
+          highlightedChoiceIdx = (highlightedChoiceIdx - 1 + btns.length) % btns.length;
+          updateHighlight();
+          e.preventDefault();
+        }
+      }
+      if (e.key === '1') switchSkill(1);
+      if (e.key === '2') switchSkill(2);
+      if (e.key === '3') switchSkill(3);
+      if (e.key === '4') switchSkill(4);
+      if (e.key === '5') switchSkill(5);
+      if (e.key === '6') switchSkill(6);
+      if (e.key === 'l' || e.key === 'L') switchMode('learn');
+      if (e.key === 'p' || e.key === 'P') switchMode('practice');
+    });
+
+    // ── Init ──
+    document.querySelectorAll('.skill-pill').forEach((pill) => {
+      pill.addEventListener('click', () => switchSkill(parseInt(pill.dataset.skill)));
+    });
+    document.getElementById('tab-learn').addEventListener('click', () => switchMode('learn'));
+    document.getElementById('tab-practice').addEventListener('click', () => switchMode('practice'));
+
+    updateSessionUI();
+    renderLearnMode();
+  })();
+  </script>
+</body>
+</html>

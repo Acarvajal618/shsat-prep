@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unit 5_2 — Factor Counting with Exclusion</title>
+  <style>
+    :root { --navy:#1c2b4a;--blue:#1a73e8;--blue-light:#e8f0fe;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--amber-light:#fef7e0;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px; }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}
+    .page{max-width:720px;margin:0 auto}
+    .lesson-header{background:linear-gradient(135deg,var(--navy) 0%,#1a73e8 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}
+    .unit-badge{display:inline-block;background:rgba(255,255,255,0.2);border-radius:6px;padding:0.2em 0.7em;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.75rem}
+    .lesson-header h1{font-size:1.75rem;font-weight:800;margin-bottom:0.5rem;line-height:1.2}
+    .lesson-header .tagline{font-size:0.95rem;opacity:0.85}
+    .section-title{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.09em;color:var(--muted);margin-bottom:0.75rem;display:flex;align-items:center;gap:0.5rem}
+    .section-title::after{content:'';flex:1;height:1px;background:var(--border)}
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+    .card-accent-green{border-top:3px solid var(--green)}
+    .card-accent-amber{border-top:3px solid var(--amber)}
+    .strategy-box{background:var(--blue-light);border-left:4px solid var(--blue);border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin-bottom:1.25rem}
+    .strategy-box .label{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:var(--blue);margin-bottom:0.35rem}
+    .signal-list{list-style:none;padding:0}
+    .signal-list li{padding:0.45rem 0;border-bottom:1px solid var(--border);font-size:0.93rem;display:flex;gap:0.6rem}
+    .signal-list li:last-child{border-bottom:none}
+    .problem-text{font-size:1.05rem;font-weight:600;line-height:1.55;margin-bottom:1rem}
+    .problem-image{max-width:100%;border-radius:8px;margin:0.75rem 0 1rem;display:block;border:1px solid var(--border)}
+    .options-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.5rem}
+    .opt{display:flex;align-items:center;gap:0.6rem;padding:0.55rem 0.85rem;border:1.5px solid var(--border);border-radius:8px;font-size:0.95rem;background:var(--bg)}
+    .opt.correct{border-color:var(--green);background:var(--green-light);font-weight:600}
+    .opt.wrong{opacity:0.55}
+    .opt-letter{font-weight:700;min-width:1.2rem;color:var(--muted)}
+    .opt.correct .opt-letter{color:var(--green)}
+    .cbadge{margin-left:auto;background:var(--green);color:#fff;font-size:0.65rem;font-weight:700;padding:0.15em 0.5em;border-radius:4px}
+    .steps-list{list-style:none;padding:0}
+    .steps-list li{display:flex;gap:1rem;padding:0.85rem 0;border-bottom:1px solid var(--border);font-size:0.95rem}
+    .steps-list li:last-child{border-bottom:none}
+    .snum{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-size:0.72rem;font-weight:700;display:flex;align-items:center;justify-content:center}
+    .sbody{flex:1;line-height:1.55}
+    .m{display:inline-block;font-family:'Courier New',monospace;background:#f1f5fb;border:1px solid var(--border);border-radius:5px;padding:0.1em 0.45em;font-size:0.88em}
+    .tip{background:var(--amber-light);border-left:3px solid var(--amber);border-radius:0 6px 6px 0;padding:0.4rem 0.7rem;margin-top:0.3rem;font-size:0.88rem}
+    .final-answer{display:flex;align-items:center;gap:1rem;background:var(--green-light);border:1.5px solid var(--green);border-radius:10px;padding:1rem 1.25rem;margin-top:1.25rem}
+    .fa-check{font-size:1.5rem}
+    .fa-text{font-size:1rem;font-weight:700;color:var(--green)}
+    .fa-sub{font-size:0.85rem;color:var(--muted);margin-top:0.1rem}
+    .mistake-list{list-style:none;padding:0}
+    .mistake-list li{display:flex;gap:0.75rem;padding:0.7rem 0;border-bottom:1px solid var(--border);font-size:0.92rem}
+    .mistake-list li:last-child{border-bottom:none}
+    .mlabel{font-weight:600;color:var(--red);display:block;margin-bottom:0.1rem;font-size:0.85rem}
+    .glabel{font-weight:600;color:var(--green);display:block;margin-bottom:0.1rem;font-size:0.85rem}
+    .try-link{display:inline-flex;align-items:center;gap:0.5rem;background:var(--blue);color:#fff;text-decoration:none;padding:0.65rem 1.3rem;border-radius:8px;font-weight:600;font-size:0.95rem}
+    .back-link{display:inline-flex;align-items:center;gap:0.4rem;color:var(--blue);text-decoration:none;font-size:0.88rem;margin-bottom:1.25rem}
+  </style>
+</head>
+<body>
+<div class="page">
+  <a class="back-link" href="../index.html">← Back to Dashboard</a>
+  <div class="lesson-header">
+    <div class="unit-badge">Unit 5_2</div>
+    <h1>Factor Counting with Exclusion</h1>
+    <p class="tagline">Count multiples of A, subtract multiples of A×B.</p>
+  </div><p class="section-title">Strategy</p>
+  <div class="card">
+    <div class="strategy-box">
+      <div class="label">Core Approach</div>
+      <div>To find numbers divisible by 3 but NOT by 6, count all multiples of 3, then subtract multiples of 6 (since multiples of 6 are the ones divisible by BOTH 3 and 6). This is an inclusion-exclusion shortcut.</div>
+    </div>
+    <p class="section-title">Step-by-Step Solution</p>
+  <div class="card card-accent-green">
+    <ul class="steps-list">
+      <li>
+        <div class="snum">1</div>
+        <div class="sbody">Count multiples of 3 from 1–99: <span class="m">99 ÷ 3 = 33</span> numbers.</div>
+      </li>
+      <li>
+        <div class="snum">2</div>
+        <div class="sbody">Count multiples of 6 from 1–99: <span class="m">floor(99 ÷ 6) = 16</span> numbers.</div>
+      </li>
+      <li>
+        <div class="snum">3</div>
+        <div class="sbody">Multiples of 3 but not 6: <span class="m">33 − 16 = 17</span>.</div>
+      </li>
+    </ul>
+    <div class="final-answer">
+      <div class="fa-check">✅</div>
+      <div>
+        <div class="fa-text">Answer: D → 17</div>
+        <div class="fa-sub">Check: odd multiples of 3 from 3,9,15,...99 — every other multiple of 3 is odd = 33/2 ≈ 17 odd ones ✓</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-title">Common Mistakes</p>
+  <div class="card card-accent-amber">
+    <ul class="mistake-list">
+      <li>
+        <div>
+          <span class="mlabel">✗ Mistake</span>
+          Trying to list all numbers — too slow for the test.
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="mlabel">✗ Mistake</span>
+          Using 99÷6=16.5 and rounding up to 17 instead of down to 16.
+        </div>
+      </li>
+      <li>
+        <div>
+          <div>
+            <span class="glabel">💡 Key Insight</span>
+            A number divisible by 6 must be divisible by both 2 and 3. So 'divisible by 3 but not 6' means 'divisible by 3 but not 2' — i.e., ODD multiples of 3.
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <p class="section-title">Ready?</p>
+  <div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+    <div><p style="font-weight:600;margin-bottom:0.25rem">Practice Unit 5_2</p><p style="font-size:0.88rem;color:var(--muted)">Practice this problem type.</p></div>
+    <a class="try-link" href="../index.html#practice?type=5_2">Practice now →</a>
+  </div>
+</div><p class="section-title" style="margin-top:1rem">When to use this</p>
+    <ul class="signal-list">
+      <li><span>📌</span> 'Has factor X but not factor Y'</li>
+      <li><span>📌</span> Large range of numbers — don't list them all</li>
+      <li><span>📌</span> Use division to count: floor(n/k) = count of multiples of k up to n</li>
+    </ul>
+  </div>
+
+  <p class="section-title">Sample Problem</p>
+  <div class="card">
+    <p class="problem-text">How many numbers from 1 to 99 have 3 as a factor but do NOT have 6 as a factor?</p>
+    <img class="problem-image" src="FACTORING_2.jpg" alt="Factoring problem diagram" />
+    <div class="options-grid">
+      <div class="opt wrong"><span class="opt-letter">A</span> 1</div>
+      <div class="opt wrong"><span class="opt-letter">B</span> 3</div>
+      <div class="opt wrong"><span class="opt-letter">C</span> 9</div>
+      <div class="opt correct"><span class="opt-letter">D</span> 17 <span class="cbadge">✓</span></div>
+    </div>
+  </div>
+
+  
+<script src="lesson.js"></script></body>
+</html>

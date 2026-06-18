@@ -1,0 +1,213 @@
+[
+  {
+    "id": "41_2_001",
+    "type_id": "41_2",
+    "question": "A town's little league program has 108 baseballs, 54 bats, and 72 cases of sunflower seeds left over from last year. The items will be distributed to each team in the league. If each team receives an equal number of each item and there are no items remaining, what is the greatest possible number of teams in the little league program?",
+    "options": {
+      "A": "6",
+      "B": "9",
+      "C": "12",
+      "D": "18"
+    },
+    "correct": "D",
+    "source": "canonical",
+    "canonical_id": "41_002",
+    "diagram": null,
+    "solution": {
+      "strategy": "GCF(108, 54, 72) = 18. Greatest number of teams = 18.",
+      "steps": [
+        "108 = 2²×3³, 54 = 2×3³, 72 = 2³×3². GCF = 2×3² = 18."
+      ],
+      "final_answer": "18"
+    }
+  },
+  {
+    "id": "41_2_002",
+    "type_id": "41_2",
+    "question": "A league has 108 baseballs, 54 bats, and 72 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "18",
+      "B": "2",
+      "C": "5",
+      "D": "22"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(108, 54, 72) = 18."
+      ],
+      "final_answer": "18"
+    }
+  },
+  {
+    "id": "41_2_003",
+    "type_id": "41_2",
+    "question": "A league has 96 baseballs, 48 bats, and 72 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "2",
+      "B": "24",
+      "C": "5",
+      "D": "22"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(96, 48, 72) = 24."
+      ],
+      "final_answer": "24"
+    }
+  },
+  {
+    "id": "41_2_004",
+    "type_id": "41_2",
+    "question": "A league has 60 baseballs, 40 bats, and 80 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "20",
+      "D": "22"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(60, 40, 80) = 20."
+      ],
+      "final_answer": "20"
+    }
+  },
+  {
+    "id": "41_2_005",
+    "type_id": "41_2",
+    "question": "A league has 84 baseballs, 63 bats, and 42 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "22",
+      "D": "21"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(84, 63, 42) = 21."
+      ],
+      "final_answer": "21"
+    }
+  },
+  {
+    "id": "41_2_006",
+    "type_id": "41_2",
+    "question": "A league has 72 baseballs, 90 bats, and 108 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "18",
+      "B": "2",
+      "C": "5",
+      "D": "22"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(72, 90, 108) = 18."
+      ],
+      "final_answer": "18"
+    }
+  },
+  {
+    "id": "41_2_007",
+    "type_id": "41_2",
+    "question": "A league has 120 baseballs, 80 bats, and 100 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "2",
+      "B": "20",
+      "C": "5",
+      "D": "22"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(120, 80, 100) = 20."
+      ],
+      "final_answer": "20"
+    }
+  },
+  {
+    "id": "41_2_008",
+    "type_id": "41_2",
+    "question": "A league has 54 baseballs, 36 bats, and 81 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "9",
+      "D": "22"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(54, 36, 81) = 9."
+      ],
+      "final_answer": "9"
+    }
+  },
+  {
+    "id": "41_2_009",
+    "type_id": "41_2",
+    "question": "A league has 96 baseballs, 72 bats, and 60 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "22",
+      "D": "12"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(96, 72, 60) = 12."
+      ],
+      "final_answer": "12"
+    }
+  },
+  {
+    "id": "41_2_010",
+    "type_id": "41_2",
+    "question": "A league has 88 baseballs, 66 bats, and 110 cases to distribute equally to teams with none left over. What is the greatest number of teams?",
+    "options": {
+      "A": "22",
+      "B": "2",
+      "C": "5",
+      "D": "10"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "41_002",
+    "solution": {
+      "strategy": "Greatest number of teams = GCF(a, b, c).",
+      "steps": [
+        "GCF(88, 66, 110) = 22."
+      ],
+      "final_answer": "22"
+    }
+  }
+]

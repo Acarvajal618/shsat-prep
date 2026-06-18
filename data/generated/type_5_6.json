@@ -1,0 +1,213 @@
+[
+  {
+    "id": "5_6_001",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 130/x an integer?",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "6",
+      "D": "5"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "Count positive divisors of 130. 130 = 2×5×13; (1+1)(1+1)(1+1) = 8.",
+      "steps": [
+        "130 = 2 × 5 × 13",
+        "Number of divisors = 2 × 2 × 2 = 8"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "5_6_002",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 72/x an integer?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "72 = 2³×3². Number of divisors = (3+1)(2+1) = 12.",
+      "steps": [
+        "(3+1)(2+1) = 12"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_003",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 100/x an integer?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "100 = 2²×5². Number of divisors = (2+1)(2+1) = 9.",
+      "steps": [
+        "(2+1)(2+1) = 9"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_004",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 48/x an integer?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "48 = 2⁴×3. Number of divisors = (4+1)(1+1) = 10.",
+      "steps": [
+        "(4+1)(1+1) = 10"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_005",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 60/x an integer?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "60 = 2²×3×5. Number of divisors = (2+1)(1+1)(1+1) = 12.",
+      "steps": [
+        "3 × 2 × 2 = 12"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_006",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 36/x an integer?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "36 = 2²×3². Number of divisors = (2+1)(2+1) = 9.",
+      "steps": [
+        "(2+1)(2+1) = 9"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_007",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 84/x an integer?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "84 = 2²×3×7. Number of divisors = (2+1)(1+1)(1+1) = 12.",
+      "steps": [
+        "3 × 2 × 2 = 12"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_008",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 56/x an integer?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "56 = 2³×7. Number of divisors = (3+1)(1+1) = 8.",
+      "steps": [
+        "(3+1)(1+1) = 8"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_6_009",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 90/x an integer?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "90 = 2×3²×5. Number of divisors = (1+1)(2+1)(1+1) = 12.",
+      "steps": [
+        "2 × 3 × 2 = 12"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_6_010",
+    "type_id": "5_6",
+    "question": "For how many positive integers x is 96/x an integer?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_006",
+    "solution": {
+      "strategy": "96 = 2⁵×3. Number of divisors = (5+1)(1+1) = 12.",
+      "steps": [
+        "(5+1)(1+1) = 12"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

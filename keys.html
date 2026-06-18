@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🤫 keys</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .keys-page {
+      max-width: 520px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .keys-hero {
+      background: linear-gradient(135deg, #4c1d63 0%, var(--primary) 100%);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.75rem;
+      color: #fff;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 16px rgba(192,38,211,0.18);
+    }
+    .keys-hero h1 { font-size: 1.4rem; margin: 0 0 0.3rem; font-weight: 800; }
+    .keys-hero p { margin: 0; opacity: 0.85; font-size: 0.9rem; }
+    .keys-list {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .keys-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .keys-row:last-child { border-bottom: none; }
+    .keys-date {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .keys-date .weekday {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-left: 0.5rem;
+    }
+    .keys-key {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 0.3em 0.7em;
+      border-radius: 6px;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      user-select: all;
+      transition: background 0.12s;
+    }
+    .keys-key:hover { background: #fbd0dd; }
+    .keys-note {
+      margin-top: 1.25rem;
+      padding: 0.85rem 1rem;
+      background: #fffaf0;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      color: #8a6b0f;
+    }
+    .keys-empty {
+      padding: 2rem 1rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <div class="keys-page">
+    <div class="keys-hero">
+      <h1>🌸 Prep Keys</h1>
+      <p>Daily answer-unlock passwords. Don't share with the student. 🤫</p>
+    </div>
+
+    <div class="keys-list" id="keys-list">
+      <div class="keys-empty">Loading…</div>
+    </div>
+
+    <div class="keys-note">
+      💡 Tap any key to highlight it for copying. To change a key, edit <code>homework/index.json</code> — the <code>password</code> field on each assignment.
+    </div>
+  </div>
+
+  <script>
+  (async function () {
+    const list = document.getElementById('keys-list');
+    try {
+      const r = await fetch('homework/index.json?v=' + Date.now());
+      const data = await r.json();
+      const withKeys = data
+        .filter(a => a.password)
+        .sort((a, b) => a.date.localeCompare(b.date));
+
+      if (!withKeys.length) {
+        list.innerHTML = '<div class="keys-empty">No prep days have keys set.</div>';
+        return;
+      }
+
+      list.innerHTML = withKeys.map(a => {
+        const d = new Date(a.date + 'T12:00:00');
+        const month = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        const weekday = d.toLocaleDateString('en-US', { weekday: 'short' });
+        return `
+          <div class="keys-row">
+            <div class="keys-date">${month}<span class="weekday">${weekday}</span></div>
+            <code class="keys-key">${a.password}</code>
+          </div>
+        `;
+      }).join('');
+    } catch (e) {
+      list.innerHTML = '<div class="keys-empty">Failed to load. Check the server.</div>';
+      console.error(e);
+    }
+  })();
+  </script>
+</body>
+</html>

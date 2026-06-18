@@ -1,0 +1,232 @@
+[
+  {
+    "id": "35_1_001",
+    "type_id": "35_1",
+    "question": "If a + b < 6, and a - b > 5, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(5, -1)",
+      "B": "(4, 2)",
+      "C": "(3, 1)",
+      "D": "(2, 4)"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 6 and a - b > 5 must hold.",
+      "steps": [
+        "A: 5 + (-1) = 4 < 6 ✓; 5 - (-1) = 6 > 5 ✓",
+        "B: 4 + 2 = 6 is not < 6; C, D fail similarly",
+        "Only (5, -1) satisfies both inequalities"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "35_1_002",
+    "type_id": "35_1",
+    "question": "If a + b < 4, and a - b > 7, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(5, -2)",
+      "B": "(6, -3)",
+      "C": "(4, 0)",
+      "D": "(3, 2)"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 4 and a - b > 7 must hold.",
+      "steps": [
+        "B: 6 + (-3) = 3 < 4 ✓; 6 - (-3) = 9 > 7 ✓",
+        "A: 5 + (-2) = 3 < 4 ✓ but 5 - (-2) = 7 is not > 7",
+        "Only (6, -3) satisfies both"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "35_1_003",
+    "type_id": "35_1",
+    "question": "If a + b < 8, and a - b > 5, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(4, 5)",
+      "B": "(3, 2)",
+      "C": "(6, 1)",
+      "D": "(7, 0)"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 8 and a - b > 5 must hold.",
+      "steps": [
+        "D: 7 + 0 = 7 < 8 ✓; 7 - 0 = 7 > 5 ✓",
+        "C: 6 - 1 = 5 is not > 5; A, B fail one or both",
+        "Only (7, 0) satisfies both"
+      ],
+      "final_answer": "D"
+    }
+  },
+  {
+    "id": "35_1_004",
+    "type_id": "35_1",
+    "question": "If a + b < 3, and a - b > 8, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(6, -4)",
+      "B": "(5, -2)",
+      "C": "(4, 0)",
+      "D": "(7, 2)"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 3 and a - b > 8 must hold.",
+      "steps": [
+        "A: 6 + (-4) = 2 < 3 ✓; 6 - (-4) = 10 > 8 ✓",
+        "B: 5 + (-2) = 3 is not < 3; C, D fail",
+        "Only (6, -4) satisfies both"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "35_1_005",
+    "type_id": "35_1",
+    "question": "If a + b < 7, and a - b > 3, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(2, 3)",
+      "B": "(6, -1)",
+      "C": "(5, 4)",
+      "D": "(1, 5)"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 7 and a - b > 3 must hold.",
+      "steps": [
+        "B: 6 + (-1) = 5 < 7 ✓; 6 - (-1) = 7 > 3 ✓",
+        "A, C, D either fail a+b < 7 or a-b > 3",
+        "Only (6, -1) satisfies both"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "35_1_006",
+    "type_id": "35_1",
+    "question": "If a + b < 5, and a - b > 4, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(5, -2)",
+      "B": "(4, 0)",
+      "C": "(3, 3)",
+      "D": "(6, 1)"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 5 and a - b > 4 must hold.",
+      "steps": [
+        "A: 5 + (-2) = 3 < 5 ✓; 5 - (-2) = 7 > 4 ✓",
+        "B: 4+0=4 is not < 5; C, D fail",
+        "Only (5, -2) satisfies both"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "35_1_007",
+    "type_id": "35_1",
+    "question": "If a + b < 9, and a - b > 2, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(4, 6)",
+      "B": "(6, 2)",
+      "C": "(2, 5)",
+      "D": "(5, 5)"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 9 and a - b > 2 must hold.",
+      "steps": [
+        "B: 6 + 2 = 8 < 9 ✓; 6 - 2 = 4 > 2 ✓",
+        "A: 4+6=10 not < 9; C: 2+5=7<9 but 2-5=-3 not >2; D: 5+5=10 not < 9",
+        "Only (6, 2) satisfies both"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "35_1_008",
+    "type_id": "35_1",
+    "question": "If a + b < 4, and a - b > 6, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(3, 1)",
+      "B": "(5, -2)",
+      "C": "(4, 2)",
+      "D": "(2, 3)"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 4 and a - b > 6 must hold.",
+      "steps": [
+        "B: 5 + (-2) = 3 < 4 ✓; 5 - (-2) = 7 > 6 ✓",
+        "A, C, D fail one or both inequalities",
+        "Only (5, -2) satisfies both"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "35_1_009",
+    "type_id": "35_1",
+    "question": "If a + b < 6, and a - b > 8, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(7, 0)",
+      "B": "(8, -3)",
+      "C": "(5, 2)",
+      "D": "(6, 1)"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 6 and a - b > 8 must hold.",
+      "steps": [
+        "B: 8 + (-3) = 5 < 6 ✓; 8 - (-3) = 11 > 8 ✓",
+        "A: 7+0=7 not < 6; C, D fail a-b > 8",
+        "Only (8, -3) satisfies both"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "35_1_010",
+    "type_id": "35_1",
+    "question": "If a + b < 10, and a - b > 1, which of the following pairs could be the values of a and b?",
+    "options": {
+      "A": "(6, 3)",
+      "B": "(5, 6)",
+      "C": "(4, 5)",
+      "D": "(2, 8)"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "35_001",
+    "solution": {
+      "strategy": "Check each pair: both a + b < 10 and a - b > 1 must hold.",
+      "steps": [
+        "A: 6 + 3 = 9 < 10 ✓; 6 - 3 = 3 > 1 ✓",
+        "B: 5+6=11 not < 10; C: 4-5=-1 not > 1; D: 2+8=10 not < 10",
+        "Only (6, 3) satisfies both"
+      ],
+      "final_answer": "A"
+    }
+  }
+]

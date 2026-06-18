@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Unit 10_2 — Circumference from Rectangle Dimensions</title>
+<style>
+:root{--navy:#1c2b4a;--blue:#1a73e8;--blue-light:#e8f0fe;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--amber-light:#fef7e0;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}.page{max-width:720px;margin:0 auto}
+.lh{background:linear-gradient(135deg,var(--navy) 0%,#1a73e8 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}.ub{display:inline-block;background:rgba(255,255,255,.2);border-radius:6px;padding:.2em .7em;font-size:.75rem;font-weight:700;text-transform:uppercase;margin-bottom:.75rem}.lh h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}.tg{font-size:.95rem;opacity:.85}
+.st{font-size:.72rem;font-weight:700;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}.st::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,.06)}.ag{border-top:3px solid var(--green)}.aa{border-top:3px solid var(--amber)}
+.sb{background:var(--blue-light);border-left:4px solid var(--blue);border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin-bottom:1.25rem}.sb-l{font-size:.72rem;font-weight:700;text-transform:uppercase;color:var(--blue);margin-bottom:.35rem}
+.sigs{list-style:none;padding:0}.sigs li{padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.93rem;display:flex;gap:.6rem}.sigs li:last-child{border-bottom:none}
+.pt{font-size:1.05rem;font-weight:600;line-height:1.55;margin-bottom:1rem}.pimg{max-width:100%;border-radius:8px;margin:.75rem 0 1rem;display:block;border:1px solid var(--border)}
+.og{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}.or{display:flex;align-items:center;gap:.6rem;padding:.55rem .85rem;border:1.5px solid var(--border);border-radius:8px;font-size:.95rem;background:var(--bg)}.or.c{border-color:var(--green);background:var(--green-light);font-weight:600}.or.w{opacity:.55}.ol{font-weight:700;min-width:1.2rem;color:var(--muted)}.or.c .ol{color:var(--green)}.cb{margin-left:auto;background:var(--green);color:#fff;font-size:.65rem;font-weight:700;padding:.15em .5em;border-radius:4px}
+.sl{list-style:none;padding:0}.sl li{display:flex;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--border);font-size:.95rem}.sl li:last-child{border-bottom:none}.sn{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-size:.72rem;font-weight:700;display:flex;align-items:center;justify-content:center}.sb2{flex:1;line-height:1.55}
+.m{display:inline-block;font-family:'Courier New',monospace;background:#f1f5fb;border:1px solid var(--border);border-radius:5px;padding:.1em .45em;font-size:.88em}
+.fa{display:flex;align-items:center;gap:1rem;background:var(--green-light);border:1.5px solid var(--green);border-radius:10px;padding:1rem 1.25rem;margin-top:1.25rem}.fachk{font-size:1.5rem}.fatxt{font-size:1rem;font-weight:700;color:var(--green)}.fasub{font-size:.85rem;color:var(--muted);margin-top:.1rem}
+.ml{list-style:none;padding:0}.ml li{display:flex;gap:.75rem;padding:.7rem 0;border-bottom:1px solid var(--border);font-size:.92rem}.ml li:last-child{border-bottom:none}.mlbl{font-weight:600;color:var(--red);display:block;margin-bottom:.1rem;font-size:.85rem}.glbl{font-weight:600;color:var(--green);display:block;margin-bottom:.1rem;font-size:.85rem}
+.tl{display:inline-flex;align-items:center;gap:.5rem;background:var(--blue);color:#fff;text-decoration:none;padding:.65rem 1.3rem;border-radius:8px;font-weight:600;font-size:.95rem}
+.back{display:inline-flex;align-items:center;gap:.4rem;color:#1a73e8;text-decoration:none;font-size:.88rem;margin-bottom:1.25rem}
+</style></head>
+<body><div class="page">
+<a class="back" href="../index.html">← Back to Dashboard</a>
+<div class="lh"><div class="ub">Unit 10_2</div><h1>Circumference from Rectangle Dimensions</h1><p class="tg">Use the rectangle's perimeter to uncover the circle's diameter, then apply C = πd.</p></div>
+<p class="st">Strategy</p>
+<div class="card aa"><div class="sb"><div class="sb-l">The Approach</div><p>The radius equals the rectangle's short side, so the diameter equals the long side. Express the perimeter in terms of the diameter, solve for <span class="m">d</span>, then compute circumference using <span class="m">C = πd</span>.</p></div>
+<ul class="sigs"><li><span>🔍</span><span>Circle is inscribed in a rectangle/square.</span></li><li><span>🔍</span><span>Perimeter is given instead of a side length.</span></li><li><span>🔍</span><span>The problem explicitly labels a radius reaching the opposite side.</span></li></ul></div>
+<p class="st">The Problem</p>
+<div class="card aa"><p class="pt">P is the center of the circle shown above. AB is a diameter. The perimeter of rectangle ABCD is 72 cm. PQ is a radius, Q is on CD. What is the circumference of the circle?</p>
+<img class="pimg" src="../images/CIRCUMFERENCE_2.jpg" alt="Circle inside rectangle">
+<div class="og">
+<div class="or w"><span class="ol">E</span>12π</div>
+<div class="or w"><span class="ol">F</span>18π</div>
+<div class="or c"><span class="ol">G</span>24π<span class="cb">✓</span></div>
+<div class="or w"><span class="ol">H</span>144π</div>
+</div></div>
+<p class="st">Step-by-Step Solution</p>
+<div class="card ag"><ol class="sl">
+<li><div class="sn">1</div><div class="sb2"><strong>Relate the rectangle to the circle.</strong><br>If AB is a diameter, then BC (the short side) equals the radius <span class="m">r</span>.</div></div>
+<li><div class="sn">2</div><div class="sb2"><strong>Write the perimeter in terms of the diameter.</strong><br>Perimeter = 2(long + short) = <span class="m">2(d + d/2) = 3d</span>.</div></div>
+<li><div class="sn">3</div><div class="sb2"><strong>Solve for the diameter.</strong><br><span class="m">3d = 72 ⇒ d = 24</span> cm.</div></div>
+<li><div class="sn">4</div><div class="sb2"><strong>Compute circumference.</strong><br><span class="m">C = πd = 24π</span>.</div></div>
+</ol>
+<div class="fa"><span class="fachk">✅</span><div><div class="fatxt">Answer: G → 24π cm</div><div class="fasub">Short side = radius = d/2, so perimeter = 3d = 72 ⇒ d = 24 ⇒ C = 24π.</div></div></div></div>
+<p class="st">Common Mistakes</p>
+<div class="card"><ul class="ml">
+<li><span>❌</span><div><span class="mlbl">Dividing 72 by 2</span>and calling 36 the diameter ignores that the short side is only half the diameter.</div></li>
+<li><span>❌</span><div><span class="mlbl">Using <span class="m">C = 2πr</span> with the wrong radius</span>If you plug in 36 for r, you get 72π — way too large.</div></li>
+<li><span>✅</span><div><span class="glbl">Label the rectangle sides</span>Annotate the diagram with "d" and "d/2" before writing the perimeter equation.</div></li>
+</ul></div>
+<p class="st">Ready?</p>
+<div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+<div><p style="font-weight:600;margin-bottom:.25rem">Practice Unit 10_2</p><p style="font-size:.88rem;color:var(--muted)">Practice this problem type.</p></div>
+<a class="tl" href="../index.html#practice?type=10_2">Practice now →</a></div>
+</div><script src="lesson.js"></script></body></html>

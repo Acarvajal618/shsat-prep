@@ -1,0 +1,252 @@
+[
+  {
+    "id": "6_22_001",
+    "type_id": "6_22",
+    "question": "Two farmers each have a watermelon patch of equal size. Farmer A's patch is divided into 20 equal rows, and Farmer B's patch is divided into 16 equal rows. If Farmer A harvests 14 rows of his watermelon patch, what is the greatest number of whole rows that Farmer B can harvest from his patch without harvesting a greater percentage of a patch than Farmer A harvested?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "Farmer A: 14/20 = 70%. Farmer B: greatest whole rows so rows/16 ≤ 0.70. 11/16 = 68.75%, 12/16 = 75% > 70%. So 11.",
+      "steps": [
+        "A's percentage: 14/20 = 70%",
+        "11/16 = 68.75% ≤ 70%; 12/16 = 75% > 70%",
+        "Greatest whole rows: 11"
+      ],
+      "final_answer": "11"
+    }
+  },
+  {
+    "id": "6_22_002",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 25 rows, and Farmer B's patch is divided into 20 rows. If Farmer A harvests 15 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 15/25 = 60%. B: 12/20 = 60%, 13/20 = 65% > 60%. So 12.",
+      "steps": [
+        "A's percentage: 15/25 = 60%",
+        "12/20 = 60% ≤ 60%",
+        "Greatest: 12"
+      ],
+      "final_answer": "12"
+    }
+  },
+  {
+    "id": "6_22_003",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 10 rows, and Farmer B's patch is divided into 8 rows. If Farmer A harvests 6 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 6/10 = 60%. B: 4/8 = 50% ≤ 60%; 5/8 = 62.5% > 60%. Greatest whole rows: 4.",
+      "steps": [
+        "A's percentage: 6/10 = 60%",
+        "4/8 = 50% ≤ 60%; 5/8 = 62.5% > 60%",
+        "Greatest: 4"
+      ],
+      "final_answer": "4"
+    }
+  },
+  {
+    "id": "6_22_004",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 30 rows, and Farmer B's patch is divided into 24 rows. If Farmer A harvests 18 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 18/30 = 60%. B: 14/24 ≈ 58.33% ≤ 60%; 15/24 = 62.5% > 60%. So 14.",
+      "steps": [
+        "A's percentage: 18/30 = 60%",
+        "14/24 ≈ 58.33% ≤ 60%",
+        "Greatest: 14"
+      ],
+      "final_answer": "14"
+    }
+  },
+  {
+    "id": "6_22_005",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 15 rows, and Farmer B's patch is divided into 12 rows. If Farmer A harvests 9 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 9/15 = 60%. B: 7/12 ≈ 58.33% ≤ 60%; 8/12 > 60%. So 7.",
+      "steps": [
+        "A's percentage: 9/15 = 60%",
+        "7/12 ≈ 58.33% ≤ 60%",
+        "Greatest: 7"
+      ],
+      "final_answer": "7"
+    }
+  },
+  {
+    "id": "6_22_006",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 12 rows, and Farmer B's patch is divided into 10 rows. If Farmer A harvests 8 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 8/12 ≈ 66.67%. B: 6/10 = 60% ≤ 66.67%; 7/10 = 70% > 66.67%. So 6.",
+      "steps": [
+        "A's percentage: 8/12 ≈ 66.67%",
+        "6/10 = 60% ≤ 66.67%",
+        "Greatest: 6"
+      ],
+      "final_answer": "6"
+    }
+  },
+  {
+    "id": "6_22_007",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 24 rows, and Farmer B's patch is divided into 18 rows. If Farmer A harvests 16 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 16/24 = 2/3 ≈ 66.67%. B: 12/18 = 2/3; 13/18 > 2/3. So 12.",
+      "steps": [
+        "A's percentage: 16/24 = 2/3",
+        "12/18 = 2/3 ≤ 2/3",
+        "Greatest: 12"
+      ],
+      "final_answer": "12"
+    }
+  },
+  {
+    "id": "6_22_008",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 8 rows, and Farmer B's patch is divided into 6 rows. If Farmer A harvests 5 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 5/8 = 62.5%. B: 3/6 = 50% ≤ 62.5%; 4/6 > 62.5%. So 3.",
+      "steps": [
+        "A's percentage: 5/8 = 62.5%",
+        "3/6 = 50% ≤ 62.5%",
+        "Greatest: 3"
+      ],
+      "final_answer": "3"
+    }
+  },
+  {
+    "id": "6_22_009",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 18 rows, and Farmer B's patch is divided into 15 rows. If Farmer A harvests 12 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 12/18 = 2/3 ≈ 66.67%. B: 10/15 = 2/3; 11/15 > 2/3. So 10.",
+      "steps": [
+        "A's percentage: 12/18 = 2/3",
+        "10/15 = 2/3 ≤ 2/3",
+        "Greatest: 10"
+      ],
+      "final_answer": "10"
+    }
+  },
+  {
+    "id": "6_22_010",
+    "type_id": "6_22",
+    "question": "Two farmers each have a patch of equal size. Farmer A's patch is divided into 15 rows, and Farmer B's patch is divided into 20 rows. If Farmer A harvests 9 rows, what is the greatest number of whole rows that Farmer B can harvest without exceeding Farmer A's percentage?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_022",
+    "image_path": null,
+    "diagram": null,
+    "solution": {
+      "strategy": "A: 9/15 = 60%. B: 12/20 = 60%; 13/20 = 65% > 60%. So 12.",
+      "steps": [
+        "A's percentage: 9/15 = 60%",
+        "12/20 = 60% ≤ 60%",
+        "Greatest: 12"
+      ],
+      "final_answer": "12"
+    }
+  }
+]

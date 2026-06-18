@@ -1,0 +1,213 @@
+[
+  {
+    "id": "5_5_001",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, 4, ..., 297, 298, 299, 300} are multiples of 10 but not multiples of 15?",
+    "options": {
+      "A": "20",
+      "B": "24",
+      "C": "25",
+      "D": "30"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 10 in 1..300: 30. Multiples of 15 (LCM 30): 20. Multiples of 10 but not 15: 30 − 20 = 20.",
+      "steps": [
+        "floor(300/10) = 30",
+        "floor(300/30) = 10? No, multiples of 15: 15,30,...,300 → 20. Multiples of 30: 10. So 30 − 10 = 20"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "5_5_002",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 98, 99, 100} are multiples of 5 but not multiples of 10?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 5: 20. Multiples of 10: 10. Multiples of 5 not 10: 20 − 10 = 10.",
+      "steps": [
+        "20 − 10 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_5_003",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 148, 149, 150} are multiples of 6 but not multiples of 9?",
+    "options": {
+      "A": "14",
+      "B": "17",
+      "C": "20",
+      "D": "25"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 6: floor(150/6)=25. Multiples of 18 (LCM of 6,9): floor(150/18)=8. So 25−8=17.",
+      "steps": [
+        "25 − 8 = 17"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_5_004",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 198, 199, 200} are multiples of 4 but not multiples of 6?",
+    "options": {
+      "A": "17",
+      "B": "20",
+      "C": "25",
+      "D": "34"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 4: 50. Multiples of 12: 16. So 50 − 16 = 34.",
+      "steps": [
+        "50 − 16 = 34"
+      ],
+      "final_answer": "D"
+    }
+  },
+  {
+    "id": "5_5_005",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 88, 89, 90} are multiples of 3 but not multiples of 6?",
+    "options": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "20"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 3: 30. Multiples of 6: 15. So 30 − 15 = 15.",
+      "steps": [
+        "30 − 15 = 15"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_5_006",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 118, 119, 120} are multiples of 6 but not multiples of 12?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 6: 20. Multiples of 12: 10. So 20 − 10 = 10.",
+      "steps": [
+        "20 − 10 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_5_007",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 78, 79, 80} are multiples of 5 but not multiples of 15?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 5: 16. Multiples of 15: 5. So 16 − 5 = 11.",
+      "steps": [
+        "16 − 5 = 11"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "5_5_008",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 138, 139, 140} are multiples of 7 but not multiples of 14?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 7: 20. Multiples of 14: 10. So 20 − 10 = 10.",
+      "steps": [
+        "20 − 10 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_5_009",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 58, 59, 60} are multiples of 4 but not multiples of 12?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 4: 15. Multiples of 12: 5. So 15 − 5 = 10.",
+      "steps": [
+        "15 − 5 = 10"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "5_5_010",
+    "type_id": "5_5",
+    "question": "How many members of the set {1, 2, 3, ..., 178, 179, 180} are multiples of 9 but not multiples of 18?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "5_005",
+    "solution": {
+      "strategy": "Multiples of 9: 20. Multiples of 18: 10. So 20 − 10 = 10.",
+      "steps": [
+        "20 − 10 = 10"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ratio &amp; Proportion Trainer — SHSAT Prep</title>
+  <style>
+    :root{--navy:#4c1d63;--blue:#c026d3;--blue-light:#fae8ff;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}
+    .page{max-width:680px;margin:0 auto}
+    .lh{background:linear-gradient(135deg,var(--navy) 0%,#c026d3 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}
+    .lh h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}.lh p{opacity:.85}
+    .back{display:inline-flex;align-items:center;gap:.4rem;color:var(--blue);text-decoration:none;font-size:.88rem;margin-bottom:1.25rem}
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:1.25rem}
+    .score-bar{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;background:var(--blue-light);border-radius:var(--radius);padding:.75rem 1.25rem}
+    .score-label{font-size:.9rem;color:var(--navy);font-weight:600}
+    .score-val{font-size:1.1rem;font-weight:800;color:var(--blue)}
+    .prob-type{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-bottom:.75rem}
+    .prob-text{font-size:1.05rem;font-weight:600;color:var(--navy);margin-bottom:1.25rem;line-height:1.5}
+    .input-row{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem}
+    .ans-input{border:2px solid var(--border);border-radius:8px;padding:.6rem .9rem;font-size:1rem;width:140px;outline:none;transition:border-color .15s}
+    .ans-input:focus{border-color:var(--blue)}
+    .btn{display:inline-flex;align-items:center;gap:.4rem;border:none;border-radius:8px;padding:.65rem 1.3rem;font-weight:600;font-size:.9rem;cursor:pointer;transition:opacity .15s,transform .1s}
+    .btn:active{transform:scale(.97)}
+    .btn-blue{background:var(--blue);color:#fff}
+    .btn-outline{background:#fff;color:var(--navy);border:1.5px solid var(--border)}
+    .btn-green{background:var(--green);color:#fff}
+    .solution{margin-top:1rem;padding:1rem 1.25rem;border-radius:8px;font-size:.9rem;line-height:1.7;display:none}
+    .solution.correct{background:var(--green-light);border-left:4px solid var(--green);color:#14532d}
+    .solution.wrong{background:#fef2f2;border-left:4px solid var(--red);color:#7f1d1d}
+    .solution.shown{display:block}
+    .tag{display:inline-block;background:var(--blue-light);color:var(--blue);font-size:.75rem;font-weight:700;border-radius:6px;padding:.15rem .55rem;margin-left:.5rem}
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+  <div class="page">
+    <a href="trainers.html" class="back">&larr; Back to Trainers</a>
+    <div class="lh">
+      <h1>&#128290; Ratio &amp; Proportion Trainer</h1>
+      <p>Three problem types: part-to-whole, scaling, and missing-value proportions.</p>
+    </div>
+
+    <div class="score-bar">
+      <span class="score-label">Session Score:</span>
+      <span class="score-val" id="score-display">0 / 0</span>
+    </div>
+
+    <div class="card" id="problem-card">
+      <div class="prob-type" id="prob-type-label">Loading...</div>
+      <div class="prob-text" id="prob-text">Press Generate to start.</div>
+      <div class="input-row">
+        <input class="ans-input" type="number" id="ans-input" placeholder="Your answer" />
+        <button class="btn btn-blue" id="check-btn" onclick="checkAnswer()">Check</button>
+        <button class="btn btn-outline" id="gen-btn" onclick="generate()">Generate New</button>
+      </div>
+      <div class="solution" id="solution-box"></div>
+    </div>
+  </div>
+
+  <script>
+    let correctAnswer = 0;
+    let sessionCorrect = 0;
+    let sessionTotal = 0;
+    let currentType = '';
+
+    function rand(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function gcd(a, b) {
+      return b === 0 ? a : gcd(b, a % b);
+    }
+
+    function updateScore() {
+      document.getElementById('score-display').textContent = sessionCorrect + ' / ' + sessionTotal;
+    }
+
+    function generate() {
+      document.getElementById('ans-input').value = '';
+      document.getElementById('ans-input').style.borderColor = 'var(--border)';
+      const sol = document.getElementById('solution-box');
+      sol.className = 'solution';
+      sol.textContent = '';
+
+      const type = rand(1, 3);
+      let label = '';
+      let text = '';
+
+      if (type === 1) {
+        // Part-to-whole
+        currentType = 'part-to-whole';
+        label = 'Part-to-Whole Ratio';
+        const boys = rand(1, 6);
+        const girls = rand(1, 6);
+        const total = (boys + girls) * rand(2, 8);
+        const boysCount = Math.round(total * boys / (boys + girls));
+        const girlsCount = total - boysCount;
+        correctAnswer = boysCount;
+        text = 'In a class of ' + total + ' students, the ratio of boys to girls is ' + boys + ':' + girls + '. How many boys are there?';
+        document.getElementById('prob-type-label').textContent = '&#128290; ' + label;
+        document.getElementById('prob-text').textContent = text;
+        document.getElementById('prob-type-label').innerHTML = '<span>&#128290;</span> ' + label;
+        document.getElementById('solution-box').dataset.explanation =
+          'Total parts = ' + boys + ' + ' + girls + ' = ' + (boys+girls) + '.\n' +
+          'Boys\u2019 share = ' + boys + '/' + (boys+girls) + ' of ' + total + ' = ' + boys + ' \u00d7 ' + total + ' \u00f7 ' + (boys+girls) + ' = ' + boysCount + '.';
+
+      } else if (type === 2) {
+        // Scaling
+        currentType = 'scaling';
+        label = 'Scaling Proportion';
+        const flourA = rand(1, 5);
+        const cookiesB = rand(10, 30) * rand(1,3);
+        const cookiesC = cookiesB * rand(2, 5);
+        const flourAnswer = flourA * cookiesC / cookiesB;
+        correctAnswer = flourAnswer;
+        text = 'A recipe uses ' + flourA + ' cup' + (flourA > 1 ? 's' : '') + ' of flour to make ' + cookiesB + ' cookies. How many cups of flour are needed for ' + cookiesC + ' cookies?';
+        document.getElementById('solution-box').dataset.explanation =
+          'Set up the proportion: ' + flourA + '/' + cookiesB + ' = x/' + cookiesC + '.\n' +
+          'Cross-multiply: x = ' + flourA + ' \u00d7 ' + cookiesC + ' \u00f7 ' + cookiesB + ' = ' + flourAnswer + '.';
+
+      } else {
+        // Missing value
+        currentType = 'missing-value';
+        label = 'Missing Value Proportion';
+        const x = rand(2, 12);
+        const y = rand(2, 12);
+        const z = rand(2, 12);
+        const missing = (x * z) / y;
+        correctAnswer = missing;
+        text = x + '/' + y + ' = ?/' + z + '  \u2014  Find the missing value (simplify if needed).';
+        document.getElementById('solution-box').dataset.explanation =
+          'Cross-multiply: ? = ' + x + ' \u00d7 ' + z + ' \u00f7 ' + y + ' = ' + missing + '.';
+      }
+
+      document.getElementById('prob-type-label').textContent = label;
+      document.getElementById('prob-text').textContent = text;
+    }
+
+    function checkAnswer() {
+      const input = document.getElementById('ans-input');
+      const userVal = parseFloat(input.value);
+      if (isNaN(userVal)) {
+        input.style.borderColor = 'var(--amber)';
+        return;
+      }
+      sessionTotal++;
+      const sol = document.getElementById('solution-box');
+      const explanation = sol.dataset.explanation || '';
+      const tolerance = 0.01;
+      const isCorrect = Math.abs(userVal - correctAnswer) < tolerance;
+
+      if (isCorrect) {
+        sessionCorrect++;
+        input.style.borderColor = 'var(--green)';
+        sol.className = 'solution correct shown';
+        sol.innerHTML = '<strong>&#10003; Correct!</strong> ' + explanation.replace(/\n/g, '<br>');
+      } else {
+        input.style.borderColor = 'var(--red)';
+        sol.className = 'solution wrong shown';
+        sol.innerHTML = '<strong>&#10007; Not quite.</strong> The answer is <strong>' + correctAnswer + '</strong>.<br>' + explanation.replace(/\n/g, '<br>');
+      }
+      updateScore();
+    }
+
+    // Allow Enter key to check
+    document.getElementById('ans-input').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') checkAnswer();
+    });
+
+    generate();
+  </script>
+</body>
+</html>

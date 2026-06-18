@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Word Problem &rarr; Equation Trainer — SHSAT Prep</title>
+  <style>
+    :root{--navy:#4c1d63;--blue:#c026d3;--blue-light:#fae8ff;--green:#1e8e3e;--green-light:#e6f4ea;--red:#d93025;--amber:#f9ab00;--text:#1c2333;--muted:#6b7280;--border:#dde3ec;--bg:#f0f4f8;--surface:#fff;--radius:12px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem 4rem}
+    .page{max-width:700px;margin:0 auto}
+    .lh{background:linear-gradient(135deg,var(--navy) 0%,#c026d3 100%);border-radius:var(--radius);padding:2rem;margin-bottom:2rem;color:#fff}
+    .lh h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}.lh p{opacity:.85}
+    .back{display:inline-flex;align-items:center;gap:.4rem;color:var(--blue);text-decoration:none;font-size:.88rem;margin-bottom:1.25rem}
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:1.25rem}
+    .score-bar{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;background:var(--blue-light);border-radius:var(--radius);padding:.75rem 1.25rem}
+    .score-label{font-size:.9rem;color:var(--navy);font-weight:600}
+    .score-val{font-size:1.1rem;font-weight:800;color:var(--blue)}
+    .prob-type{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-bottom:.75rem}
+    .prob-text{font-size:1.1rem;font-weight:600;color:var(--navy);margin-bottom:1.5rem;line-height:1.55;padding:1rem 1.25rem;background:var(--blue-light);border-radius:8px;border-left:4px solid var(--blue)}
+    .options{display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.25rem}
+    .opt-btn{display:flex;align-items:center;gap:.75rem;background:#fff;border:2px solid var(--border);border-radius:8px;padding:.75rem 1rem;font-size:.95rem;cursor:pointer;text-align:left;transition:border-color .15s,background .15s;font-family:inherit}
+    .opt-btn:hover:not(:disabled){border-color:var(--blue);background:var(--blue-light)}
+    .opt-btn.correct{border-color:var(--green)!important;background:var(--green-light)!important;color:#14532d}
+    .opt-btn.wrong{border-color:var(--red)!important;background:#fef2f2!important;color:#7f1d1d}
+    .opt-btn:disabled{cursor:default}
+    .opt-letter{display:inline-flex;align-items:center;justify-content:center;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--blue-light);color:var(--blue);font-weight:700;font-size:.8rem;flex-shrink:0}
+    .opt-btn.correct .opt-letter{background:var(--green);color:#fff}
+    .opt-btn.wrong .opt-letter{background:var(--red);color:#fff}
+    .explanation{margin-top:.5rem;padding:1rem 1.25rem;background:#f8faff;border-left:4px solid var(--blue);border-radius:8px;font-size:.9rem;line-height:1.7;display:none;color:var(--text)}
+    .explanation.shown{display:block}
+    .btn{display:inline-flex;align-items:center;gap:.4rem;border:none;border-radius:8px;padding:.65rem 1.3rem;font-weight:600;font-size:.9rem;cursor:pointer;transition:opacity .15s,transform .1s;font-family:inherit}
+    .btn:active{transform:scale(.97)}
+    .btn-blue{background:var(--blue);color:#fff}
+    .next-row{margin-top:1.25rem;display:none}
+    .next-row.shown{display:flex;gap:.75rem}
+    .mono{font-family:'Courier New',Courier,monospace;font-weight:700}
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+  <div class="page">
+    <a href="trainers.html" class="back">&larr; Back to Trainers</a>
+    <div class="lh">
+      <h1>&#128172; Word Problem &rarr; Equation Trainer</h1>
+      <p>Read the word problem, then choose the correct algebraic equation. Build the habit of translating words into math.</p>
+    </div>
+
+    <div class="score-bar">
+      <span class="score-label">Session Score:</span>
+      <span class="score-val" id="score-display">0 / 0</span>
+    </div>
+
+    <div class="card" id="problem-card">
+      <div class="prob-type" id="prob-type-label">Word Problem</div>
+      <div class="prob-text" id="prob-text">Press "Next Problem" to begin.</div>
+      <div class="options" id="options-container"></div>
+      <div class="explanation" id="explanation-box"></div>
+      <div class="next-row" id="next-row">
+        <button class="btn btn-blue" onclick="loadProblem()">Next Problem &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let sessionCorrect = 0;
+    let sessionTotal = 0;
+    let answered = false;
+
+    function rand(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    // Problem templates — each returns { text, correct, distractors[], explanation }
+    const templates = [
+      // 1. K more than M times a number is R  =>  M*n + K = R
+      function() {
+        const m = rand(2, 6), k = rand(1, 15), r = rand(10, 40);
+        const correct = m + 'n + ' + k + ' = ' + r;
+        return {
+          text: k + ' more than ' + m + ' times a number is ' + r,
+          correct: correct,
+          distractors: [
+            m + 'n - ' + k + ' = ' + r,
+            k + 'n + ' + m + ' = ' + r,
+            m + '(n + ' + k + ') = ' + r
+          ],
+          explanation: '"' + k + ' more than \u2026" means add ' + k + '. "' + m + ' times a number" means ' + m + 'n. "is ' + r + '" means = ' + r + '.<br>So the equation is <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 2. A number decreased by K equals M times the number  =>  n - K = M*n
+      function() {
+        const k = rand(2, 20), m = rand(2, 5);
+        const correct = 'n \u2212 ' + k + ' = ' + m + 'n';
+        return {
+          text: 'A number decreased by ' + k + ' equals ' + m + ' times the number',
+          correct: correct,
+          distractors: [
+            'n + ' + k + ' = ' + m + 'n',
+            k + ' \u2212 n = ' + m + 'n',
+            'n \u2212 ' + k + ' = ' + m + ' + n'
+          ],
+          explanation: '"Decreased by ' + k + '" means subtract: n \u2212 ' + k + '. "Equals ' + m + ' times the number" means = ' + m + 'n.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 3. The product of a number and M is R  =>  M*n = R
+      function() {
+        const m = rand(2, 12), r = rand(12, 72);
+        const correct = m + 'n = ' + r;
+        return {
+          text: 'The product of a number and ' + m + ' is ' + r,
+          correct: correct,
+          distractors: [
+            'n + ' + m + ' = ' + r,
+            'n / ' + m + ' = ' + r,
+            m + ' + n = ' + r
+          ],
+          explanation: '"Product of a number and ' + m + '" means multiply: ' + m + 'n. "Is ' + r + '" means = ' + r + '.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 4. K less than M times a number is R  =>  M*n - K = R
+      function() {
+        const m = rand(2, 6), k = rand(1, 15), r = rand(5, 40);
+        const correct = m + 'n \u2212 ' + k + ' = ' + r;
+        return {
+          text: k + ' less than ' + m + ' times a number is ' + r,
+          correct: correct,
+          distractors: [
+            m + 'n + ' + k + ' = ' + r,
+            k + 'n \u2212 ' + m + ' = ' + r,
+            m + '(n \u2212 ' + k + ') = ' + r
+          ],
+          explanation: '"' + k + ' less than \u2026" means subtract ' + k + ' from the expression. "' + m + ' times a number" = ' + m + 'n. So: ' + m + 'n \u2212 ' + k + ' = ' + r + '.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 5. A number divided by M, plus K, equals R  =>  n/M + K = R
+      function() {
+        const m = rand(2, 10), k = rand(1, 12), r = rand(5, 25);
+        const correct = 'n/' + m + ' + ' + k + ' = ' + r;
+        return {
+          text: 'A number divided by ' + m + ', plus ' + k + ', equals ' + r,
+          correct: correct,
+          distractors: [
+            'n/' + m + ' \u2212 ' + k + ' = ' + r,
+            m + 'n + ' + k + ' = ' + r,
+            'n/(' + m + ' + ' + k + ') = ' + r
+          ],
+          explanation: '"A number divided by ' + m + '" = n/' + m + '. "Plus ' + k + '" adds ' + k + '. "Equals ' + r + '" means = ' + r + '.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 6. Twice a number minus K is R  =>  2n - K = R
+      function() {
+        const k = rand(1, 20), r = rand(1, 30);
+        const correct = '2n \u2212 ' + k + ' = ' + r;
+        return {
+          text: 'Twice a number, decreased by ' + k + ', is ' + r,
+          correct: correct,
+          distractors: [
+            '2n + ' + k + ' = ' + r,
+            '2(n \u2212 ' + k + ') = ' + r,
+            'n/2 \u2212 ' + k + ' = ' + r
+          ],
+          explanation: '"Twice a number" = 2n. "Decreased by ' + k + '" means subtract ' + k + '. "Is ' + r + '" means = ' + r + '.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 7. M times a number, increased by K, equals N times the number minus R
+      function() {
+        const m = rand(2, 5), k = rand(1, 10), n2 = m + rand(1, 4), r = rand(1, 15);
+        const correct = m + 'n + ' + k + ' = ' + n2 + 'n \u2212 ' + r;
+        return {
+          text: m + ' times a number, increased by ' + k + ', equals ' + n2 + ' times the number decreased by ' + r,
+          correct: correct,
+          distractors: [
+            m + 'n \u2212 ' + k + ' = ' + n2 + 'n + ' + r,
+            m + 'n + ' + k + ' = ' + n2 + '(n \u2212 ' + r + ')',
+            m + '(n + ' + k + ') = ' + n2 + 'n \u2212 ' + r
+          ],
+          explanation: 'Left side: ' + m + ' times n plus ' + k + ' = ' + m + 'n + ' + k + '. Right side: ' + n2 + ' times n minus ' + r + ' = ' + n2 + 'n \u2212 ' + r + '.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      },
+      // 8. The sum of a number and K is M times the number
+      function() {
+        const k = rand(2, 20), m = rand(2, 6);
+        const correct = 'n + ' + k + ' = ' + m + 'n';
+        return {
+          text: 'The sum of a number and ' + k + ' is ' + m + ' times the number',
+          correct: correct,
+          distractors: [
+            'n \u2212 ' + k + ' = ' + m + 'n',
+            k + 'n = ' + m + ' + n',
+            'n + ' + k + ' = n/' + m
+          ],
+          explanation: '"Sum of a number and ' + k + '" = n + ' + k + '. "Is ' + m + ' times the number" = ' + m + 'n.<br>Equation: <span class="mono">' + correct + '</span>.'
+        };
+      }
+    ];
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function updateScore() {
+      document.getElementById('score-display').textContent = sessionCorrect + ' / ' + sessionTotal;
+    }
+
+    function loadProblem() {
+      answered = false;
+      document.getElementById('next-row').className = 'next-row';
+      document.getElementById('explanation-box').className = 'explanation';
+      document.getElementById('explanation-box').innerHTML = '';
+
+      const tmpl = templates[rand(0, templates.length - 1)];
+      const prob = tmpl();
+
+      document.getElementById('prob-text').textContent = prob.text;
+
+      // Build 4 choices: 1 correct + 3 distractors, shuffled
+      const choices = shuffle([
+        { label: prob.correct, isCorrect: true },
+        { label: prob.distractors[0], isCorrect: false },
+        { label: prob.distractors[1], isCorrect: false },
+        { label: prob.distractors[2], isCorrect: false }
+      ]);
+
+      const letters = ['A', 'B', 'C', 'D'];
+      const container = document.getElementById('options-container');
+      container.innerHTML = '';
+
+      choices.forEach(function(choice, idx) {
+        const btn = document.createElement('button');
+        btn.className = 'opt-btn';
+        btn.innerHTML = '<span class="opt-letter">' + letters[idx] + '</span> <span class="mono">' + choice.label + '</span>';
+        btn.addEventListener('click', function() {
+          if (answered) return;
+          answered = true;
+          sessionTotal++;
+
+          if (choice.isCorrect) {
+            sessionCorrect++;
+            btn.classList.add('correct');
+          } else {
+            btn.classList.add('wrong');
+            // Highlight the correct one
+            container.querySelectorAll('.opt-btn').forEach(function(b, i) {
+              if (choices[i].isCorrect) b.classList.add('correct');
+            });
+          }
+
+          // Disable all buttons
+          container.querySelectorAll('.opt-btn').forEach(function(b) { b.disabled = true; });
+
+          // Show explanation
+          const expBox = document.getElementById('explanation-box');
+          expBox.innerHTML = (choice.isCorrect
+            ? '<strong style="color:var(--green)">&#10003; Correct!</strong><br>'
+            : '<strong style="color:var(--red)">&#10007; Not quite.</strong><br>') + prob.explanation;
+          expBox.className = 'explanation shown';
+
+          updateScore();
+          document.getElementById('next-row').className = 'next-row shown';
+        });
+        container.appendChild(btn);
+      });
+    }
+
+    loadProblem();
+  </script>
+</body>
+</html>

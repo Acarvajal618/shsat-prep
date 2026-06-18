@@ -1,0 +1,222 @@
+[
+  {
+    "id": "41_1_001",
+    "type_id": "41_1",
+    "question": "A camp counselor has 54 paintbrushes, 72 tubes of paint, and 90 sheets of paper to distribute to the children in the camp. If each child receives an equal number of each item and there are no items remaining, what is the greatest possible number of children in the camp?",
+    "options": {
+      "A": "6",
+      "B": "9",
+      "C": "18",
+      "D": "36"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of children is the GCF of the three quantities.",
+      "steps": [
+        "GCF(54, 72, 90): 54 = 2×3³, 72 = 2³×3², 90 = 2×3²×5",
+        "GCF = 2×3² = 18"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "41_1_002",
+    "type_id": "41_1",
+    "question": "A teacher has 24 pencils, 36 erasers, and 60 sheets of sticker paper to give to students. If each student receives an equal number of each item and there are no items remaining, what is the greatest possible number of students?",
+    "options": {
+      "A": "6",
+      "B": "12",
+      "C": "18",
+      "D": "24"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of students is the GCF of the three quantities.",
+      "steps": [
+        "GCF(24, 36, 60): 24 = 2³×3, 36 = 2²×3², 60 = 2²×3×5",
+        "GCF = 2²×3 = 12"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "41_1_003",
+    "type_id": "41_1",
+    "question": "A coach has 48 water bottles, 64 energy bars, and 80 towels to distribute to the team. If each team member receives an equal number of each item and there are no items remaining, what is the greatest possible number of team members?",
+    "options": {
+      "A": "8",
+      "B": "16",
+      "C": "24",
+      "D": "32"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of team members is the GCF of the three quantities.",
+      "steps": [
+        "GCF(48, 64, 80): 48 = 2⁴×3, 64 = 2⁶, 80 = 2⁴×5",
+        "GCF = 2⁴ = 16"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "41_1_004",
+    "type_id": "41_1",
+    "question": "A scout leader has 30 compasses, 45 flashlights, and 75 first-aid kits to give to scouts. If each scout receives an equal number of each item and there are no items remaining, what is the greatest possible number of scouts?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "30"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of scouts is the GCF of the three quantities.",
+      "steps": [
+        "GCF(30, 45, 75): 30 = 2×3×5, 45 = 3²×5, 75 = 3×5²",
+        "GCF = 3×5 = 15"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "41_1_005",
+    "type_id": "41_1",
+    "question": "A librarian has 42 books, 63 bookmarks, and 84 pencils to distribute to reading club members. If each member receives an equal number of each item and there are no items remaining, what is the greatest possible number of members?",
+    "options": {
+      "A": "7",
+      "B": "14",
+      "C": "21",
+      "D": "42"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of members is the GCF of the three quantities.",
+      "steps": [
+        "GCF(42, 63, 84): 42 = 2×3×7, 63 = 3²×7, 84 = 2²×3×7",
+        "GCF = 3×7 = 21"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "41_1_006",
+    "type_id": "41_1",
+    "question": "A party planner has 36 balloons, 54 streamers, and 72 party favors to put into goody bags. If each goody bag has an equal number of each item and there are no items remaining, what is the greatest possible number of goody bags?",
+    "options": {
+      "A": "6",
+      "B": "9",
+      "C": "18",
+      "D": "36"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of goody bags is the GCF of the three quantities.",
+      "steps": [
+        "GCF(36, 54, 72): 36 = 2²×3², 54 = 2×3³, 72 = 2³×3²",
+        "GCF = 2×3² = 18"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "41_1_007",
+    "type_id": "41_1",
+    "question": "A baker has 40 muffins, 56 cookies, and 88 brownies to pack into boxes. If each box has an equal number of each item and there are no items remaining, what is the greatest possible number of boxes?",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "12",
+      "D": "16"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of boxes is the GCF of the three quantities.",
+      "steps": [
+        "GCF(40, 56, 88): 40 = 2³×5, 56 = 2³×7, 88 = 2³×11",
+        "GCF = 2³ = 8"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "41_1_008",
+    "type_id": "41_1",
+    "question": "A gardener has 28 seed packets, 42 pots, and 70 bags of soil to give to volunteers. If each volunteer receives an equal number of each item and there are no items remaining, what is the greatest possible number of volunteers?",
+    "options": {
+      "A": "7",
+      "B": "14",
+      "C": "21",
+      "D": "28"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of volunteers is the GCF of the three quantities.",
+      "steps": [
+        "GCF(28, 42, 70): 28 = 2²×7, 42 = 2×3×7, 70 = 2×5×7",
+        "GCF = 2×7 = 14"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "41_1_009",
+    "type_id": "41_1",
+    "question": "A craft instructor has 32 beads, 48 strings, and 64 clasps to make bracelets. If each bracelet kit has an equal number of each item and there are no items remaining, what is the greatest possible number of bracelet kits?",
+    "options": {
+      "A": "8",
+      "B": "16",
+      "C": "24",
+      "D": "32"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of kits is the GCF of the three quantities.",
+      "steps": [
+        "GCF(32, 48, 64): 32 = 2⁵, 48 = 2⁴×3, 64 = 2⁶",
+        "GCF = 2⁴ = 16"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "41_1_010",
+    "type_id": "41_1",
+    "question": "A science teacher has 60 test tubes, 84 petri dishes, and 108 slides to distribute to lab groups. If each group receives an equal number of each item and there are no items remaining, what is the greatest possible number of lab groups?",
+    "options": {
+      "A": "6",
+      "B": "12",
+      "C": "18",
+      "D": "24"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "41_001",
+    "solution": {
+      "strategy": "The greatest number of lab groups is the GCF of the three quantities.",
+      "steps": [
+        "GCF(60, 84, 108): 60 = 2²×3×5, 84 = 2²×3×7, 108 = 2²×3³",
+        "GCF = 2²×3 = 12"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

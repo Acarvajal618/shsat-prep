@@ -1,0 +1,213 @@
+[
+  {
+    "id": "2_8_001",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 24, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "5.1",
+      "B": "29",
+      "C": "240",
+      "D": "1,200"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "lm/(lp) = m/p; compute m and p from l, then m/p + l.",
+      "steps": [
+        "m = 2(24)+2 = 50, p = 24−14 = 10",
+        "lm/(lp) + l = m/p + l = 50/10 + 24 = 29"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_8_002",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 20, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "25",
+      "B": "27",
+      "C": "29",
+      "D": "31"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 42, p = 6; m/p + l = 42/6 + 20 = 7 + 20 = 27.",
+      "steps": [
+        "m/p + l = 7 + 20 = 27"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_8_003",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 16, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "31",
+      "B": "33",
+      "C": "35",
+      "D": "37"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 34, p = 2; m/p + l = 34/2 + 16 = 17 + 16 = 33.",
+      "steps": [
+        "m/p + l = 17 + 16 = 33"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_8_004",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 15, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "45",
+      "B": "47",
+      "C": "49",
+      "D": "51"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 32, p = 1; m/p + l = 32 + 15 = 47.",
+      "steps": [
+        "m/p + l = 32 + 15 = 47"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_8_005",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 18, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "26",
+      "B": "27.5",
+      "C": "29",
+      "D": "30"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 38, p = 4; m/p + l = 38/4 + 18 = 9.5 + 18 = 27.5.",
+      "steps": [
+        "m/p + l = 9.5 + 18 = 27.5"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_8_006",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 26, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "28",
+      "B": "30",
+      "C": "30.5",
+      "D": "32"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 54, p = 12; m/p + l = 54/12 + 26 = 4.5 + 26 = 30.5.",
+      "steps": [
+        "m/p + l = 4.5 + 26 = 30.5"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "2_8_007",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 22, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "27",
+      "B": "27.75",
+      "C": "28",
+      "D": "29"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 46, p = 8; m/p + l = 46/8 + 22 = 5.75 + 22 = 27.75.",
+      "steps": [
+        "m/p + l = 5.75 + 22 = 27.75"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "2_8_008",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 28, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "30",
+      "B": "31",
+      "C": "32.14",
+      "D": "33"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 58, p = 14; m/p + l = 58/14 + 28 ≈ 4.14 + 28 = 32.14.",
+      "steps": [
+        "m/p + l = 58/14 + 28 ≈ 32.14"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "2_8_009",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 30, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "32",
+      "B": "33",
+      "C": "33.875",
+      "D": "35"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 62, p = 16; m/p + l = 62/16 + 30 = 3.875 + 30 = 33.875.",
+      "steps": [
+        "m/p + l = 62/16 + 30 = 33.875"
+      ],
+      "final_answer": "C"
+    }
+  },
+  {
+    "id": "2_8_010",
+    "type_id": "2_8",
+    "question": "What is lm/(lp) + l given that l = 21, m = 2l + 2, and p = l - 14?",
+    "options": {
+      "A": "26",
+      "B": "27.29",
+      "C": "30",
+      "D": "32"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "2_008",
+    "solution": {
+      "strategy": "m = 44, p = 7; m/p + l = 44/7 + 21 ≈ 27.29.",
+      "steps": [
+        "m/p + l = 44/7 + 21 ≈ 27.29"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

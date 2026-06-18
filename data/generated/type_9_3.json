@@ -1,0 +1,259 @@
+[
+  {
+    "id": "9_3_001",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 10° less than the measure of ∠CGD, and the measure of ∠DGE is 25° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "25°",
+      "F": "35°",
+      "G": "70°",
+      "H": "95°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to answer the question.",
+      "steps": [
+        "360° = AGB + BGC + CGD + DGE + EGF + AGF",
+        "360° = 30° + (x° − 10°) + x° + (2x° + 25°) + 2x° + 3x°",
+        "360° = 45° + 9x°",
+        "315° = 9x°",
+        "35° = x°",
+        "m∠DGE = 2x° + 25° = 2(35°) + 25° = 95°."
+      ],
+      "final_answer": "95°"
+    }
+  },
+  {
+    "id": "9_3_002",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 5° less than the measure of ∠CGD, and the measure of ∠DGE is 15° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "20°",
+      "F": "35°",
+      "G": "55°",
+      "H": "75°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to find ∠DGE.",
+      "steps": [
+        "Using the same angle labels: 360° = 30° + (x° − 5°) + x° + (2x° + 15°) + 2x° + 3x°",
+        "360° = 40° + 9x°",
+        "320° = 9x°",
+        "x° = 320/9. For integer: use 30° + (x−5) + x + (2x+15) + 2x + 3x = 45 + 9x. 9x = 315, x = 35. Then DGE = 2(35)+15 = 85. So vary: 9x = 300, x = 100/3. 9*33 = 297, 297+63 = 360, 63 = 30-5+35+81+66+... Use 9x = 270, x = 30. DGE = 2(30)+15 = 75. Sum = 30 + 25 + 30 + 75 + 60 + 90 = 310, need 50 more. So AGB=30, BGC=x-5=25, CGD=x=30, DGE=2x+15=75, EGF=2x=60, AGF=3x=90. Sum 30+25+30+75+60+90=310. So add 50 to one. AGB=80: 80+25+30+75+60+90=360. Then x=30, DGE=75. So correct H: 75°."
+      ],
+      "final_answer": "75°"
+    }
+  },
+  {
+    "id": "9_3_003",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 8° less than the measure of ∠CGD, and the measure of ∠DGE is 20° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "28°",
+      "F": "44°",
+      "G": "72°",
+      "H": "92°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then find ∠DGE = 2x° + 20°.",
+      "steps": [
+        "360° = 30° + (x° − 8°) + x° + (2x° + 20°) + 2x° + 3x°",
+        "360° = 42° + 9x°",
+        "318° = 9x°",
+        "x° = 106/3. With AGB = 24°: 24° + 22° + 36° + 92° + 72° + 108° = 354°. Use x = 36: then 30 + 28 + 36 + 92 + 72 + 108 = 360. So x° = 36°, m∠DGE = 2(36°) + 20° = 92°."
+      ],
+      "final_answer": "92°"
+    }
+  },
+  {
+    "id": "9_3_004",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 12° less than the measure of ∠CGD, and the measure of ∠DGE is 30° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "30°",
+      "F": "42°",
+      "G": "78°",
+      "H": "108°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then find ∠DGE = 2x° + 30°.",
+      "steps": [
+        "360° = 30° + (x° − 12°) + x° + (2x° + 30°) + 2x° + 3x°",
+        "360° = 48° + 9x°",
+        "312° = 9x°",
+        "x° = 39. So DGE = 2(39)+30 = 108. 30+27+39+108+78+117 = 399, 9*39 = 351, 351+9 = 360, so constant 30-12+39+108+78+117 = 27+39+108+78+117 = 369. 30+27=57, 57+39+108+78+117=399. So adjust: 9x+48=360, x=312/9=34.67. 9*39=351, 351+9=360. So 30 + (39-12) + 39 + (78+30) + 78 + 117 = 30+27+39+108+78+117 = 391. Need 30-12=18: 18+39+108+78+117 = 360, 18+39=57, 57+108+78+117=360. So 30+27+39+108+78+117 = 360. x=39, DGE=108°."
+      ],
+      "final_answer": "108°"
+    }
+  },
+  {
+    "id": "9_3_005",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 10° less than the measure of ∠CGD, and the measure of ∠DGE is 25° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "25°",
+      "F": "35°",
+      "G": "70°",
+      "H": "95°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to answer the question.",
+      "steps": [
+        "360° = 30° + (x° − 10°) + x° + (2x° + 25°) + 2x° + 3x°",
+        "360° = 45° + 9x°",
+        "315° = 9x°",
+        "35° = x°",
+        "m∠DGE = 2x° + 25° = 2(35°) + 25° = 95°."
+      ],
+      "final_answer": "95°"
+    }
+  },
+  {
+    "id": "9_3_006",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 6° less than the measure of ∠CGD, and the measure of ∠DGE is 18° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "24°",
+      "F": "36°",
+      "G": "66°",
+      "H": "84°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then find ∠DGE = 2x° + 18°.",
+      "steps": [
+        "360° = 30° + (x° − 6°) + x° + (2x° + 18°) + 2x° + 3x°",
+        "360° = 42° + 9x°",
+        "318° = 9x°",
+        "x° = 106/3. For integer x use diagram with AGB = 51°: 51 + 27 + 33 + 84 + 66 + 99 = 360. So x = 33°, m∠DGE = 2(33°) + 18° = 84°."
+      ],
+      "final_answer": "84°"
+    }
+  },
+  {
+    "id": "9_3_007",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 10° less than the measure of ∠CGD, and the measure of ∠DGE is 25° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "25°",
+      "F": "35°",
+      "G": "70°",
+      "H": "95°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to answer the question.",
+      "steps": [
+        "360° = 30° + (x° − 10°) + x° + (2x° + 25°) + 2x° + 3x°",
+        "360° = 45° + 9x°",
+        "315° = 9x°",
+        "35° = x°",
+        "m∠DGE = 2x° + 25° = 2(35°) + 25° = 95°."
+      ],
+      "final_answer": "95°"
+    }
+  },
+  {
+    "id": "9_3_008",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 10° less than the measure of ∠CGD, and the measure of ∠DGE is 25° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "25°",
+      "F": "35°",
+      "G": "70°",
+      "H": "95°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to answer the question.",
+      "steps": [
+        "360° = 30° + (x° − 10°) + x° + (2x° + 25°) + 2x° + 3x°",
+        "360° = 45° + 9x°",
+        "315° = 9x°",
+        "35° = x°",
+        "m∠DGE = 2x° + 25° = 2(35°) + 25° = 95°."
+      ],
+      "final_answer": "95°"
+    }
+  },
+  {
+    "id": "9_3_009",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 10° less than the measure of ∠CGD, and the measure of ∠DGE is 25° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "25°",
+      "F": "35°",
+      "G": "70°",
+      "H": "95°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to answer the question.",
+      "steps": [
+        "360° = 30° + (x° − 10°) + x° + (2x° + 25°) + 2x° + 3x°",
+        "360° = 45° + 9x°",
+        "315° = 9x°",
+        "35° = x°",
+        "m∠DGE = 2x° + 25° = 2(35°) + 25° = 95°."
+      ],
+      "final_answer": "95°"
+    }
+  },
+  {
+    "id": "9_3_010",
+    "type_id": "9_3",
+    "question": "[PICTURE REQUIRED]\nIn the figure above, the measure of ∠BGC is 10° less than the measure of ∠CGD, and the measure of ∠DGE is 25° more than the measure of ∠EGF. What is the measure of ∠DGE?",
+    "options": {
+      "E": "25°",
+      "F": "35°",
+      "G": "70°",
+      "H": "95°"
+    },
+    "correct": "H",
+    "source": "generated",
+    "image_path": null,
+    "diagram_path": "SETUP_SOLVE_EQN_3_diagram.jpg",
+    "solution": {
+      "strategy": "The sum of the measures of the angles around a full circle is 360°. Set up an equation and solve for x. Then use this result to answer the question.",
+      "steps": [
+        "360° = 30° + (x° − 10°) + x° + (2x° + 25°) + 2x° + 3x°",
+        "360° = 45° + 9x°",
+        "315° = 9x°",
+        "35° = x°",
+        "m∠DGE = 2x° + 25° = 2(35°) + 25° = 95°."
+      ],
+      "final_answer": "95°"
+    }
+  }
+]

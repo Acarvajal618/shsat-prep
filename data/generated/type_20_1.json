@@ -1,0 +1,213 @@
+[
+  {
+    "id": "20_1_001",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 1/3 and Y is located at 11/3?",
+    "options": {
+      "A": "-2",
+      "B": "-4/3",
+      "C": "-1/3",
+      "D": "2"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "Use midpoint relations to determine the positions of points Z, X, and W.",
+      "steps": [
+        "Z is at 1/3, Y is at 11/3. X is halfway between Z and Y: X = (1/3 + 11/3)/2 = 2.",
+        "Z is halfway between W and X: 1/3 = (W + 2)/2, so W = 2/3 - 2 = -4/3."
+      ],
+      "final_answer": "-4/3"
+    }
+  },
+  {
+    "id": "20_1_002",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 0 and Y is located at 8?",
+    "options": {
+      "A": "-6",
+      "B": "-4",
+      "C": "4",
+      "D": "6"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "Use midpoint formula. X = (0+8)/2 = 4. Z = (W+X)/2 so 0 = (W+4)/2, W = -4.",
+      "steps": [
+        "X = 4. W = 2(0) - 4 = -4."
+      ],
+      "final_answer": "-4"
+    }
+  },
+  {
+    "id": "20_1_003",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 2 and Y is located at 10?",
+    "options": {
+      "A": "-4",
+      "B": "-2",
+      "C": "0",
+      "D": "6"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (2+10)/2 = 6. Z = (W+X)/2 so 2 = (W+6)/2, W = -2.",
+      "steps": [
+        "X = 6. W = 2(2) - 6 = -2."
+      ],
+      "final_answer": "-2"
+    }
+  },
+  {
+    "id": "20_1_004",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at -1 and Y is located at 5?",
+    "options": {
+      "A": "-5",
+      "B": "-4",
+      "C": "-3",
+      "D": "2"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (-1+5)/2 = 2. W = 2Z - X = 2(-1) - 2 = -4.",
+      "steps": [
+        "X = 2. W = 2(-1) - 2 = -4."
+      ],
+      "final_answer": "-4"
+    }
+  },
+  {
+    "id": "20_1_005",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 1/2 and Y is located at 9/2?",
+    "options": {
+      "A": "-5/2",
+      "B": "-3/2",
+      "C": "1/2",
+      "D": "5/2"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (1/2 + 9/2)/2 = 5/2. Z = (W+X)/2 so 1/2 = (W + 5/2)/2, W = 1 - 5/2 = -3/2.",
+      "steps": [
+        "X = 5/2. W = 2(1/2) - 5/2 = -3/2."
+      ],
+      "final_answer": "-3/2"
+    }
+  },
+  {
+    "id": "20_1_006",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 3 and Y is located at 15?",
+    "options": {
+      "A": "-6",
+      "B": "-3",
+      "C": "0",
+      "D": "9"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (3+15)/2 = 9. W = 2(3) - 9 = -3.",
+      "steps": [
+        "X = 9. W = -3."
+      ],
+      "final_answer": "-3"
+    }
+  },
+  {
+    "id": "20_1_007",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at -2 and Y is located at 4?",
+    "options": {
+      "A": "-6",
+      "B": "-5",
+      "C": "-4",
+      "D": "0"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (-2+4)/2 = 1. W = 2(-2) - 1 = -5.",
+      "steps": [
+        "X = 1. W = -5."
+      ],
+      "final_answer": "-5"
+    }
+  },
+  {
+    "id": "20_1_008",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 4 and Y is located at 12?",
+    "options": {
+      "A": "-2",
+      "B": "0",
+      "C": "2",
+      "D": "8"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (4+12)/2 = 8. W = 2(4) - 8 = 0.",
+      "steps": [
+        "X = 8. W = 0."
+      ],
+      "final_answer": "0"
+    }
+  },
+  {
+    "id": "20_1_009",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at -3 and Y is located at 3?",
+    "options": {
+      "A": "-9",
+      "B": "-6",
+      "C": "0",
+      "D": "6"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (-3+3)/2 = 0. W = 2(-3) - 0 = -6.",
+      "steps": [
+        "X = 0. W = -6."
+      ],
+      "final_answer": "-6"
+    }
+  },
+  {
+    "id": "20_1_010",
+    "type_id": "20_1",
+    "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 6 and Y is located at 18?",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "6",
+      "D": "12"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "20_001",
+    "solution": {
+      "strategy": "X = (6+18)/2 = 12. W = 2(6) - 12 = 0.",
+      "steps": [
+        "X = 12. W = 0."
+      ],
+      "final_answer": "0"
+    }
+  }
+]

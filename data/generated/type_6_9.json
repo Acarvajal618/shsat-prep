@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_9_001",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 300 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of mountain bicycles that will be sold?",
+    "options": {
+      "A": "80",
+      "B": "100",
+      "C": "120",
+      "D": "133"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 600    |\n| Mountain     | 900    |\n| Hybrid       | 1,200  |\n| Total        | 2,700  |",
+    "solution": {
+      "strategy": "Find fraction of mountain bikes from table; apply to 300.",
+      "steps": [
+        "Mountain: 900/2700 = 1/3",
+        "Estimate: (1/3) × 300 = 100"
+      ],
+      "final_answer": "100"
+    }
+  },
+  {
+    "id": "6_9_002",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 400 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of road bicycles that will be sold?",
+    "options": {
+      "A": "80",
+      "B": "89",
+      "C": "100",
+      "D": "120"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 400    |\n| Mountain     | 600    |\n| Hybrid       | 1,000  |\n| Total        | 2,000  |",
+    "solution": {
+      "strategy": "Road is 400/2000 = 1/5. For 400 bikes: (1/5)×400 = 80.",
+      "steps": [
+        "Road: 400/2000 = 1/5",
+        "Estimate: (1/5) × 400 = 80"
+      ],
+      "final_answer": "80"
+    }
+  },
+  {
+    "id": "6_9_003",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 600 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of hybrid bicycles that will be sold?",
+    "options": {
+      "A": "200",
+      "B": "240",
+      "C": "300",
+      "D": "360"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 500    |\n| Mountain     | 500    |\n| Hybrid       | 1,000  |\n| Total        | 2,000  |",
+    "solution": {
+      "strategy": "Hybrid is 1000/2000 = 1/2. For 600: 300.",
+      "steps": [
+        "Hybrid: 1000/2000 = 1/2",
+        "Estimate: (1/2) × 600 = 300"
+      ],
+      "final_answer": "300"
+    }
+  },
+  {
+    "id": "6_9_004",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 450 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of mountain bicycles that will be sold?",
+    "options": {
+      "A": "100",
+      "B": "135",
+      "C": "150",
+      "D": "180"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 600    |\n| Mountain     | 900    |\n| Hybrid       | 1,500  |\n| Total        | 3,000  |",
+    "solution": {
+      "strategy": "Mountain 900/3000 = 3/10. For 450: 135.",
+      "steps": [
+        "Mountain: 900/3000 = 3/10",
+        "Estimate: (3/10) × 450 = 135"
+      ],
+      "final_answer": "135"
+    }
+  },
+  {
+    "id": "6_9_005",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 200 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of road bicycles that will be sold?",
+    "options": {
+      "A": "40",
+      "B": "50",
+      "C": "60",
+      "D": "80"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 600    |\n| Mountain     | 400    |\n| Hybrid       | 1,000  |\n| Total        | 2,000  |",
+    "solution": {
+      "strategy": "Road 600/2000 = 3/10. For 200: (3/10)×200 = 60.",
+      "steps": [
+        "Road: 600/2000 = 3/10",
+        "Estimate: (3/10) × 200 = 60"
+      ],
+      "final_answer": "60"
+    }
+  },
+  {
+    "id": "6_9_006",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 500 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of hybrid bicycles that will be sold?",
+    "options": {
+      "A": "150",
+      "B": "200",
+      "C": "250",
+      "D": "300"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 400    |\n| Mountain     | 600    |\n| Hybrid       | 1,000  |\n| Total        | 2,000  |",
+    "solution": {
+      "strategy": "Hybrid 1000/2000 = 1/2. For 500: 250.",
+      "steps": [
+        "Hybrid: 1000/2000 = 1/2",
+        "Estimate: (1/2) × 500 = 250"
+      ],
+      "final_answer": "250"
+    }
+  },
+  {
+    "id": "6_9_007",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 360 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of mountain bicycles that will be sold?",
+    "options": {
+      "A": "72",
+      "B": "90",
+      "C": "108",
+      "D": "120"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 600    |\n| Mountain     | 1,000  |\n| Hybrid       | 1,400  |\n| Total        | 3,000  |",
+    "solution": {
+      "strategy": "Mountain 1000/3000 = 1/3. For 360: 120.",
+      "steps": [
+        "Mountain: 1000/3000 = 1/3",
+        "Estimate: (1/3) × 360 = 120"
+      ],
+      "final_answer": "120"
+    }
+  },
+  {
+    "id": "6_9_008",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 240 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of road bicycles that will be sold?",
+    "options": {
+      "A": "48",
+      "B": "60",
+      "C": "72",
+      "D": "96"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 500    |\n| Mountain     | 750    |\n| Hybrid       | 1,250  |\n| Total        | 2,500  |",
+    "solution": {
+      "strategy": "Road 500/2500 = 1/5. For 240: 48.",
+      "steps": [
+        "Road: 500/2500 = 1/5",
+        "Estimate: (1/5) × 240 = 48"
+      ],
+      "final_answer": "48"
+    }
+  },
+  {
+    "id": "6_9_009",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 900 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of hybrid bicycles that will be sold?",
+    "options": {
+      "A": "300",
+      "B": "400",
+      "C": "450",
+      "D": "500"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 600    |\n| Mountain     | 900    |\n| Hybrid       | 1,500  |\n| Total        | 3,000  |",
+    "solution": {
+      "strategy": "Hybrid 1500/3000 = 1/2. For 900: 450.",
+      "steps": [
+        "Hybrid: 1500/3000 = 1/2",
+        "Estimate: (1/2) × 900 = 450"
+      ],
+      "final_answer": "450"
+    }
+  },
+  {
+    "id": "6_9_010",
+    "type_id": "6_9",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the number of each type of bicycle sold at a local shop last year. If 180 bikes will be sold next month, what is the best estimate (based on last year's sales) of the number of mountain bicycles that will be sold?",
+    "options": {
+      "A": "36",
+      "B": "45",
+      "C": "54",
+      "D": "60"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_009",
+    "image_path": null,
+    "diagram": "| Bicycle Type | Number |\n|--------------|--------|\n| Road         | 400    |\n| Mountain     | 600    |\n| Hybrid       | 1,000  |\n| Total        | 2,000  |",
+    "solution": {
+      "strategy": "Mountain 600/2000 = 3/10. For 180: (3/10)×180 = 54.",
+      "steps": [
+        "Mountain: 600/2000 = 3/10",
+        "Estimate: (3/10) × 180 = 54"
+      ],
+      "final_answer": "54"
+    }
+  }
+]

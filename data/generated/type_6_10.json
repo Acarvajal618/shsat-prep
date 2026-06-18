@@ -1,0 +1,242 @@
+[
+  {
+    "id": "6_10_001",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, April sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "12 1/2%",
+      "B": "25%",
+      "C": "37 1/2%",
+      "D": "50%"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 40                         |\n| May   | 10                         |\n| June  | 30                         |",
+    "solution": {
+      "strategy": "Find April sales and total second-quarter sales; compute percentage.",
+      "steps": [
+        "Total: 40 + 10 + 30 = 80",
+        "April percent: 40/80 × 100 = 50%"
+      ],
+      "final_answer": "50%"
+    }
+  },
+  {
+    "id": "6_10_002",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, May sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "10%",
+      "B": "12 1/2%",
+      "C": "25%",
+      "D": "50%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 40                         |\n| May   | 10                         |\n| June  | 30                         |",
+    "solution": {
+      "strategy": "May/total = 10/80 = 12.5%.",
+      "steps": [
+        "Total: 80",
+        "May percent: 10/80 × 100 = 12.5%"
+      ],
+      "final_answer": "12 1/2%"
+    }
+  },
+  {
+    "id": "6_10_003",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, June sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "25%",
+      "B": "30%",
+      "C": "37 1/2%",
+      "D": "50%"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 24                         |\n| May   | 16                         |\n| June  | 24                         |",
+    "solution": {
+      "strategy": "Total 24+16+24=64. June 24/64 = 37.5%.",
+      "steps": [
+        "Total: 64",
+        "June percent: 24/64 × 100 = 37.5%"
+      ],
+      "final_answer": "37 1/2%"
+    }
+  },
+  {
+    "id": "6_10_004",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, April sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "20%",
+      "B": "25%",
+      "C": "33 1/3%",
+      "D": "40%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 25                         |\n| May   | 50                         |\n| June  | 25                         |",
+    "solution": {
+      "strategy": "Total 25+50+25=100. April 25/100=25%.",
+      "steps": [
+        "Total: 100",
+        "April percent: 25/100 × 100 = 25%"
+      ],
+      "final_answer": "25%"
+    }
+  },
+  {
+    "id": "6_10_005",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, May sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "20%",
+      "B": "30%",
+      "C": "40%",
+      "D": "50%"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 30                         |\n| May   | 40                         |\n| June  | 30                         |",
+    "solution": {
+      "strategy": "Total 100. May 40/100=40%.",
+      "steps": [
+        "Total: 100",
+        "May percent: 40/100 × 100 = 40%"
+      ],
+      "final_answer": "40%"
+    }
+  },
+  {
+    "id": "6_10_006",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, June sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "15%",
+      "B": "25%",
+      "C": "30%",
+      "D": "50%"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 20                         |\n| May   | 20                         |\n| June  | 40                         |",
+    "solution": {
+      "strategy": "Total 80. June 40/80=50%.",
+      "steps": [
+        "Total: 80",
+        "June percent: 40/80 × 100 = 50%"
+      ],
+      "final_answer": "50%"
+    }
+  },
+  {
+    "id": "6_10_007",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, April sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "16 2/3%",
+      "B": "25%",
+      "C": "33 1/3%",
+      "D": "50%"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 20                         |\n| May   | 20                         |\n| June  | 20                         |",
+    "solution": {
+      "strategy": "Total 60. April 20/60 = 33 1/3%.",
+      "steps": [
+        "Total: 60",
+        "April percent: 20/60 × 100 = 33 1/3%"
+      ],
+      "final_answer": "33 1/3%"
+    }
+  },
+  {
+    "id": "6_10_008",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, May sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "10%",
+      "B": "20%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 50                         |\n| May   | 20                         |\n| June  | 30                         |",
+    "solution": {
+      "strategy": "Total 100. May 20/100=20%.",
+      "steps": [
+        "Total: 100",
+        "May percent: 20/100 × 100 = 20%"
+      ],
+      "final_answer": "20%"
+    }
+  },
+  {
+    "id": "6_10_009",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, April sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "30%",
+      "B": "40%",
+      "C": "50%",
+      "D": "60%"
+    },
+    "correct": "D",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 60                         |\n| May   | 20                         |\n| June  | 20                         |",
+    "solution": {
+      "strategy": "Total 100. April 60/100=60%.",
+      "steps": [
+        "Total: 100",
+        "April percent: 60/100 × 100 = 60%"
+      ],
+      "final_answer": "60%"
+    }
+  },
+  {
+    "id": "6_10_010",
+    "type_id": "6_10",
+    "question": "[PICTURE REQUIRED]\nAccording to the bar graph above, June sales accounted for approximately what percent of the total second-quarter sales?",
+    "options": {
+      "A": "25%",
+      "B": "35%",
+      "C": "45%",
+      "D": "55%"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "6_010",
+    "image_path": null,
+    "diagram": "| Month | Sales (Millions of Dollars) |\n|-------|----------------------------|\n| April | 30                         |\n| May   | 30                         |\n| June  | 20                         |",
+    "solution": {
+      "strategy": "Total 80. June 20/80=25%.",
+      "steps": [
+        "Total: 80",
+        "June percent: 20/80 × 100 = 25%"
+      ],
+      "final_answer": "25%"
+    }
+  }
+]

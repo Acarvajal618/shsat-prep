@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1_6_001",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain baseball game at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular game?",
+    "options": {
+      "A": "$68",
+      "B": "$71.50",
+      "C": "$75",
+      "D": "$78.50"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $60           | 2                          |\n| $68           | 5                          |\n| $75           | 4                          |\n| $82           | 4                          |",
+    "solution": {
+      "strategy": "Order the 15 values and find the 8th (middle) value. The table gives 2 at $60, 5 at $68, 4 at $75, 4 at $82; the 8th value falls in the $68 group.",
+      "steps": [
+        "Cumulative: 2, 7, 11, 15. 8th value is the 6th in the $68 block, so median = $68"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "1_6_002",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain concert at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular concert?",
+    "options": {
+      "A": "$52",
+      "B": "$58",
+      "C": "$62",
+      "D": "$65"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $48           | 3                          |\n| $58           | 6                          |\n| $65           | 4                          |\n| $72           | 2                          |",
+    "solution": {
+      "strategy": "Order the 15 values and find the 8th value. Cumulative: 3, 9, 13, 15. 8th is in the $58 block.",
+      "steps": [
+        "Median = $58"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_6_003",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain game at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular game?",
+    "options": {
+      "A": "$70",
+      "B": "$74",
+      "C": "$78",
+      "D": "$82"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $70           | 5                          |\n| $78           | 4                          |\n| $85           | 4                          |\n| $92           | 2                          |",
+    "solution": {
+      "strategy": "Cumulative counts: 5, 9, 13, 15. 8th value is in the $70 block.",
+      "steps": [
+        "Median = $70"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "1_6_004",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain show at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular show?",
+    "options": {
+      "A": "$55",
+      "B": "$60",
+      "C": "$64.50",
+      "D": "$70"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $55           | 4                          |\n| $60           | 5                          |\n| $68           | 3                          |\n| $75           | 3                          |",
+    "solution": {
+      "strategy": "Cumulative: 4, 9, 12, 15. 8th value is in the $60 block.",
+      "steps": [
+        "Median = $60"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_6_005",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain event at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular event?",
+    "options": {
+      "A": "$72",
+      "B": "$76",
+      "C": "$80",
+      "D": "$84"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $72           | 6                          |\n| $80           | 4                          |\n| $88           | 3                          |\n| $95           | 2                          |",
+    "solution": {
+      "strategy": "Cumulative: 6, 10, 13, 15. 8th value is in the $72 block.",
+      "steps": [
+        "Median = $72"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "1_6_006",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain baseball game at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular game?",
+    "options": {
+      "A": "$64",
+      "B": "$68",
+      "C": "$72",
+      "D": "$76"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $64           | 3                          |\n| $68           | 5                          |\n| $76           | 4                          |\n| $84           | 3                          |",
+    "solution": {
+      "strategy": "Cumulative: 3, 8, 12, 15. 8th value is in the $68 block.",
+      "steps": [
+        "Median = $68"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_6_007",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain concert at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular concert?",
+    "options": {
+      "A": "$75",
+      "B": "$79",
+      "C": "$83",
+      "D": "$87"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $75           | 5                          |\n| $83           | 4                          |\n| $90           | 4                          |\n| $98           | 2                          |",
+    "solution": {
+      "strategy": "Cumulative: 5, 9, 13, 15. 8th value is in the $75 block.",
+      "steps": [
+        "Median = $75"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "1_6_008",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain game at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular game?",
+    "options": {
+      "A": "$50",
+      "B": "$56",
+      "C": "$62",
+      "D": "$68"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $50           | 2                          |\n| $56           | 6                          |\n| $62           | 4                          |\n| $70           | 3                          |",
+    "solution": {
+      "strategy": "Cumulative: 2, 8, 12, 15. 8th value is in the $56 block.",
+      "steps": [
+        "Median = $56"
+      ],
+      "final_answer": "B"
+    }
+  },
+  {
+    "id": "1_6_009",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain show at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular show?",
+    "options": {
+      "A": "$78",
+      "B": "$82",
+      "C": "$86",
+      "D": "$90"
+    },
+    "correct": "A",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $78           | 5                          |\n| $86           | 5                          |\n| $94           | 3                          |\n| $102          | 2                          |",
+    "solution": {
+      "strategy": "Cumulative: 5, 10, 13, 15. 8th value is in the $78 block.",
+      "steps": [
+        "Median = $78"
+      ],
+      "final_answer": "A"
+    }
+  },
+  {
+    "id": "1_6_010",
+    "type_id": "1_6",
+    "question": "[PICTURE REQUIRED]\nThe table above shows the average price of a ticket to a certain event at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular event?",
+    "options": {
+      "A": "$61",
+      "B": "$65",
+      "C": "$69",
+      "D": "$73"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_006",
+    "diagram": "| Average Price | Number of Online Resellers |\n|---------------|----------------------------|\n| $61           | 4                          |\n| $65           | 5                          |\n| $73           | 4                          |\n| $80           | 2                          |",
+    "solution": {
+      "strategy": "Cumulative: 4, 9, 13, 15. 8th value is in the $65 block.",
+      "steps": [
+        "Median = $65"
+      ],
+      "final_answer": "B"
+    }
+  }
+]

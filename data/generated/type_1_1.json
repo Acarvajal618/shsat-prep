@@ -1,0 +1,262 @@
+[
+  {
+    "id": "1_1_001",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$28",
+      "B": "$36",
+      "C": "$41.50",
+      "D": "$52"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $20        | 50             |\n| $45        | 30             |\n| $95        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 50($20) + 30($45) + 20($95)",
+        "Compute each term: 50 × 20 = 1000, 30 × 45 = 1350, 20 × 95 = 1900",
+        "Add the results: 1000 + 1350 + 1900 = 4250",
+        "Divide by total number of customers: 4250 / 100 = 41.50"
+      ],
+      "final_answer": "41.50"
+    }
+  },
+  {
+    "id": "1_1_002",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$22",
+      "B": "$34",
+      "C": "$38.25",
+      "D": "$48"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $15        | 40             |\n| $35        | 40             |\n| $70        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 40($15) + 40($35) + 20($70)",
+        "Compute each term: 40 × 15 = 600, 40 × 35 = 1400, 20 × 70 = 1400",
+        "Add the results: 600 + 1400 + 1400 = 3400",
+        "Divide by total number of customers: 3400 / 100 = 34"
+      ],
+      "final_answer": "34"
+    }
+  },
+  {
+    "id": "1_1_003",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$30",
+      "B": "$40.25",
+      "C": "$45",
+      "D": "$55"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $25        | 55             |\n| $42        | 25             |\n| $80        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 55($25) + 25($42) + 20($80)",
+        "Compute each term: 55 × 25 = 1375, 25 × 42 = 1050, 20 × 80 = 1600",
+        "Add the results: 1375 + 1050 + 1600 = 4025",
+        "Divide by total number of customers: 4025 / 100 = 40.25"
+      ],
+      "final_answer": "40.25"
+    }
+  },
+  {
+    "id": "1_1_004",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$32",
+      "B": "$39",
+      "C": "$48",
+      "D": "$58"
+    },
+    "correct": "C",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $30        | 45             |\n| $50        | 35             |\n| $85        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 45($30) + 35($50) + 20($85)",
+        "Compute each term: 45 × 30 = 1350, 35 × 50 = 1750, 20 × 85 = 1700",
+        "Add the results: 1350 + 1750 + 1700 = 4800",
+        "Divide by total number of customers: 4800 / 100 = 48"
+      ],
+      "final_answer": "48"
+    }
+  },
+  {
+    "id": "1_1_005",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$26",
+      "B": "$38",
+      "C": "$42",
+      "D": "$50"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $18        | 50             |\n| $38        | 30             |\n| $88        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 50($18) + 30($38) + 20($88)",
+        "Compute each term: 50 × 18 = 900, 30 × 38 = 1140, 20 × 88 = 1760",
+        "Add the results: 900 + 1140 + 1760 = 3800",
+        "Divide by total number of customers: 3800 / 100 = 38"
+      ],
+      "final_answer": "38"
+    }
+  },
+  {
+    "id": "1_1_006",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$35",
+      "B": "$40.80",
+      "C": "$51",
+      "D": "$60"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $24        | 60             |\n| $48        | 25             |\n| $96        | 15             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 60($24) + 25($48) + 15($96)",
+        "Compute each term: 60 × 24 = 1440, 25 × 48 = 1200, 15 × 96 = 1440",
+        "Add the results: 1440 + 1200 + 1440 = 4080",
+        "Divide by total number of customers: 4080 / 100 = 40.80"
+      ],
+      "final_answer": "40.80"
+    }
+  },
+  {
+    "id": "1_1_007",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$29",
+      "B": "$36.25",
+      "C": "$44",
+      "D": "$56"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $22        | 50             |\n| $40        | 35             |\n| $75        | 15             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 50($22) + 35($40) + 15($75)",
+        "Compute each term: 50 × 22 = 1100, 35 × 40 = 1400, 15 × 75 = 1125",
+        "Add the results: 1100 + 1400 + 1125 = 3625",
+        "Divide by total number of customers: 3625 / 100 = 36.25"
+      ],
+      "final_answer": "36.25"
+    }
+  },
+  {
+    "id": "1_1_008",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$38",
+      "B": "$48.80",
+      "C": "$52",
+      "D": "$62"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $28        | 45             |\n| $52        | 35             |\n| $90        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 45($28) + 35($52) + 20($90)",
+        "Compute each term: 45 × 28 = 1260, 35 × 52 = 1820, 20 × 90 = 1800",
+        "Add the results: 1260 + 1820 + 1800 = 4880",
+        "Divide by total number of customers: 4880 / 100 = 48.80"
+      ],
+      "final_answer": "48.80"
+    }
+  },
+  {
+    "id": "1_1_009",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$31",
+      "B": "$37.25",
+      "C": "$47",
+      "D": "$54"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $20        | 55             |\n| $45        | 30             |\n| $85        | 15             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 55($20) + 30($45) + 15($85)",
+        "Compute each term: 55 × 20 = 1100, 30 × 45 = 1350, 15 × 85 = 1275",
+        "Add the results: 1100 + 1350 + 1275 = 3725",
+        "Divide by total number of customers: 3725 / 100 = 37.25"
+      ],
+      "final_answer": "37.25"
+    }
+  },
+  {
+    "id": "1_1_010",
+    "type_id": "1_1",
+    "question": "[PICTURE REQUIRED]\nWhat is the mean price paid by the 100 customers in the table above?",
+    "options": {
+      "A": "$34",
+      "B": "$44",
+      "C": "$50",
+      "D": "$59"
+    },
+    "correct": "B",
+    "source": "generated",
+    "canonical_id": "1_001",
+    "image_path": null,
+    "diagram": "| Price Paid | # of Customers |\n|------------|----------------|\n| $26        | 40             |\n| $48        | 40             |\n| $72        | 20             |",
+    "solution": {
+      "strategy": "For each column in the table, multiply the number of customers by the price paid. Add the results together and divide by the total number of customers to find the mean (average) of the 100 customers.",
+      "steps": [
+        "Calculate total revenue: 40($26) + 40($48) + 20($72)",
+        "Compute each term: 40 × 26 = 1040, 40 × 48 = 1920, 20 × 72 = 1440",
+        "Add the results: 1040 + 1920 + 1440 = 4400",
+        "Divide by total number of customers: 4400 / 100 = 44"
+      ],
+      "final_answer": "44"
+    }
+  }
+]

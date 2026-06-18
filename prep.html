@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHSAT Prep — Prep</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── Assignment list ── */
+    .hw-list { display: flex; flex-direction: column; gap: 1rem; max-width: 720px; margin: 0 auto 2rem; }
+    .hw-card {
+      background: var(--surface, #fff); border: 1px solid var(--border, #dde3ec);
+      border-radius: var(--radius, 10px); padding: 1.25rem 1.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06); cursor: pointer;
+      transition: box-shadow 0.15s, transform 0.12s;
+    }
+    .hw-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-1px); }
+    .hw-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+    .hw-date { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted, #6b7280); }
+    .hw-title { font-size: 1.1rem; font-weight: 700; color: var(--text, #1c2333); }
+    .hw-meta { font-size: 0.85rem; color: var(--muted, #6b7280); }
+    .hw-types { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+    .hw-type-badge { background: var(--blue-light, #fae8ff); color: var(--blue, #c026d3); border-radius: 6px; padding: 0.15em 0.6em; font-size: 0.78rem; font-weight: 600; }
+    .hw-locked-badge { background: #fef3c7; color: #b45309; border-radius: 6px; padding: 0.15em 0.6em; font-size: 0.78rem; font-weight: 600; margin-left: 0.5rem; }
+
+    /* ── Password gate ── */
+    #hw-unlock { display: none; max-width: 400px; margin: 3rem auto; text-align: center; }
+    .unlock-card { background: var(--surface,#fff); border: 1px solid var(--border,#dde3ec); border-radius: var(--radius,10px); padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .unlock-card h2 { font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .unlock-card p { color: var(--muted,#6b7280); font-size: 0.9rem; margin-bottom: 1.25rem; }
+    .unlock-input { width: 100%; padding: 0.65rem 1rem; border: 2px solid var(--border,#dde3ec); border-radius: 8px; font-size: 1rem; text-align: center; letter-spacing: 0.15em; margin-bottom: 0.75rem; outline: none; transition: border-color 0.15s; }
+    .unlock-input:focus { border-color: var(--blue,#c026d3); }
+    .unlock-input.error { border-color: var(--red,#d93025); animation: shake 0.3s; }
+    @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} }
+    .unlock-btn { background: var(--blue,#c026d3); color: #fff; border: none; border-radius: 8px; padding: 0.65rem 1.5rem; font-size: 1rem; font-weight: 700; cursor: pointer; width: 100%; }
+    .unlock-btn:hover { opacity: 0.9; }
+    .unlock-error { color: var(--red,#d93025); font-size: 0.85rem; margin-top: 0.5rem; display: none; }
+
+    /* ── Session view ── */
+    #hw-session { display: none; max-width: 720px; margin: 0 auto; }
+    .session-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+    .session-header h2 { font-size: 1.3rem; font-weight: 800; flex: 1; }
+    .btn-back { background: none; border: 1px solid var(--border,#dde3ec); border-radius: 8px; padding: 0.4rem 0.9rem; cursor: pointer; font-size: 0.9rem; font-weight: 600; color: var(--text,#1c2333); }
+    .btn-back:hover { background: var(--bg,#f0f4f8); }
+    .hw-question-block { background: var(--surface,#fff); border: 1px solid var(--border,#dde3ec); border-radius: var(--radius,10px); padding: 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    @media (max-width: 600px) {
+      main.main { padding: 0.6rem 0.4rem !important; }
+      .hw-list, #hw-session { max-width: 100%; }
+      .hw-question-block { padding: 0.85rem 0.7rem; }
+      .hw-card { padding: 0.85rem; }
+      .hw-q-text { font-size: 0.82rem; }
+      .hw-q-number { font-size: 0.65rem; }
+      .hw-title { font-size: 0.9rem; }
+      .hw-date { font-size: 0.7rem; }
+      .hw-meta { font-size: 0.75rem; }
+      .hw-option { font-size: 0.8rem; padding: 0.5rem 0.7rem; }
+      .hw-submit { font-size: 0.85rem; padding: 0.5rem 1.1rem; }
+      .hw-progress-label { font-size: 0.72rem; }
+      .hw-solution { font-size: 0.8rem; }
+      .hw-summary h3 { font-size: 1.1rem; }
+      .hw-summary .score { font-size: 2rem; }
+    }
+    .hw-q-number { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted,#6b7280); margin-bottom: 0.5rem; }
+    .hw-q-type-link { font-size: 0.8rem; color: var(--blue,#c026d3); text-decoration: none; font-weight: 600; margin-left: 0.5rem; }
+    .hw-q-type-link:hover { text-decoration: underline; }
+    .hw-q-text { font-size: 1rem; font-weight: 500; margin-bottom: 1rem; line-height: 1.5; white-space: pre-line; }
+    .hw-diagram { background: var(--bg,#f0f4f8); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1rem; font-size: 0.88rem; overflow-x: auto; }
+    .hw-diagram table { border-collapse: collapse; }
+    .hw-diagram th, .hw-diagram td { border: 1px solid #ccc; padding: 0.3rem 0.7rem; }
+    .hw-diagram th { background: #e8eef6; font-weight: 700; }
+    .hw-options { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+    .hw-option { display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 1rem; border: 2px solid var(--border,#dde3ec); border-radius: 8px; cursor: pointer; font-size: 0.95rem; transition: border-color 0.12s, background 0.12s; user-select: none; }
+    .hw-option:hover { border-color: #1a73e8; background: #e8f0fe; }
+    .hw-option.selected { border-color: #1a73e8; background: #e8f0fe; }
+    .hw-option.correct { border-color: var(--green,#1e8e3e); background: var(--green-light,#e6f4ea); }
+    .hw-option.wrong { border-color: var(--red,#d93025); background: var(--red-light,#fce8e6); }
+    .hw-option-letter { font-weight: 700; min-width: 1.4rem; color: var(--blue,#c026d3); }
+    .hw-submit { background: var(--blue,#c026d3); color: #fff; border: none; border-radius: 8px; padding: 0.6rem 1.4rem; font-size: 0.95rem; font-weight: 700; cursor: pointer; margin-bottom: 0.75rem; }
+    .hw-submit:hover { opacity: 0.9; }
+    .hw-submit:disabled { opacity: 0.35; cursor: default; }
+    .hw-locked-hint { font-size: 0.8rem; color: var(--muted,#6b7280); margin-left: 0.75rem; font-style: italic; }
+    .hw-solution { display: none; background: var(--bg,#f0f4f8); border-radius: 8px; padding: 1rem; margin-top: 0.75rem; font-size: 0.9rem; }
+    .hw-solution.visible { display: block; }
+    .hw-solution .sol-label { font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted,#6b7280); margin-bottom: 0.4rem; }
+    .hw-solution ol { margin: 0.5rem 0 0 1.2rem; }
+    .hw-solution li { margin-bottom: 0.25rem; }
+    .hw-progress-wrap { margin-bottom: 1.5rem; }
+    .hw-pbar-track { height: 6px; background: var(--border,#dde3ec); border-radius: 3px; overflow: hidden; }
+    .hw-pbar-fill { height: 100%; background: var(--blue,#c026d3); border-radius: 3px; transition: width 0.3s; }
+    .hw-progress-label { font-size: 0.8rem; color: var(--muted,#6b7280); margin-top: 0.3rem; }
+    .hw-summary { background: var(--surface,#fff); border: 1px solid var(--border,#dde3ec); border-radius: var(--radius,10px); padding: 2rem; text-align: center; margin-top: 1rem; }
+    .hw-summary h3 { font-size: 1.4rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .hw-summary .score { font-size: 2.5rem; font-weight: 900; color: var(--blue,#c026d3); }
+    .hw-summary .score-sub { color: var(--muted,#6b7280); margin-bottom: 1rem; }
+
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <main class="main" style="padding: 2rem 1rem;">
+
+    <!-- Assignment list -->
+    <div id="hw-list-view">
+      <h1 style="margin-bottom:0.25rem">Prep</h1>
+      <p style="color:var(--muted,#6b7280);margin-bottom:1.5rem">Daily assignments. Click one to start.</p>
+      <div class="hw-list" id="hw-list"></div>
+      <p id="hw-empty" style="display:none;color:var(--muted,#6b7280);text-align:center;padding:2rem">No prep assignments yet.</p>
+    </div>
+
+    <!-- Password unlock gate -->
+    <div id="hw-unlock">
+      <div class="unlock-card">
+        <div style="font-size:2rem;margin-bottom:0.75rem">🔒</div>
+        <h2 id="unlock-title">Check Answers</h2>
+        <div id="unlock-score-preview" style="margin-bottom:1rem;padding:0.75rem;background:#f0f4f8;border-radius:8px;font-size:0.95rem"></div>
+        <p>Enter the password your teacher gave you to reveal the correct answers.</p>
+        <input class="unlock-input" id="unlock-input" type="password" placeholder="Enter password" maxlength="30" />
+        <div class="unlock-error" id="unlock-error">Incorrect password. Try again.</div>
+        <button class="unlock-btn" id="unlock-btn">Unlock</button>
+        <div style="margin-top:1rem">
+          <a href="#" id="unlock-skip" style="font-size:0.85rem;color:var(--muted,#6b7280)">← Back to questions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active session -->
+    <div id="hw-session">
+      <div class="session-header">
+        <button class="btn-back" id="hw-back">← Back</button>
+        <h2 id="hw-session-title"></h2>
+        <button id="hw-unlock-btn" style="background:none;border:1px solid #f59e0b;border-radius:8px;padding:0.35rem 0.85rem;font-size:0.85rem;font-weight:700;color:#b45309;cursor:pointer;display:none" onclick="showUnlock()">🔒 Check answers</button>
+      </div>
+      <div id="hw-all-answered-hint" style="display:none;background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:0.6rem 1rem;margin-bottom:1rem;font-size:0.88rem;color:#92400e">
+        ⚠️ Answer all questions first before checking your answers.
+      </div>
+      <div class="hw-progress-wrap">
+        <div class="hw-pbar-track"><div class="hw-pbar-fill" id="hw-pbar" style="width:0%"></div></div>
+        <div class="hw-progress-label" id="hw-progress-label">0 / 0 answered</div>
+      </div>
+      <div id="hw-questions"></div>
+      <div class="hw-summary" id="hw-summary" style="display:none">
+        <h3>Assignment complete! 🎉</h3>
+        <div class="score" id="hw-score"></div>
+        <div class="score-sub" id="hw-score-sub"></div>
+        <button class="hw-submit" onclick="document.getElementById('hw-back').click()" style="margin-top:1rem">← Back to assignments</button>
+      </div>
+    </div>
+
+  </main>
+
+
+  <script src="common.js?v=1"></script>
+  <script>
+  // ════════════════════════════════════════════════════════════════
+  // PREP
+  // ════════════════════════════════════════════════════════════════
+  let assignments = [];
+  let currentAssignment = null;
+  let unlocked = false;   // answers unlocked for current session
+  let answered = {};
+  let revealed = {};
+
+  // ── Diagram renderer (uses shared SHSAT.renderDiagramHtml from common.js) ──
+  const renderDiagram = window.SHSAT.renderDiagramHtml;
+
+  // ── Load index ────────────────────────────────────────────────
+  async function loadHomework() {
+    let data;
+    try { const r = await fetch('homework/index.json'); data = r.ok ? await r.json() : []; }
+    catch { data = []; }
+    assignments = data;
+    renderList();
+    // If URL has a date hash like #2026-05-14, open that assignment
+    routeFromHash();
+  }
+
+  function routeFromHash() {
+    const hash = (window.location.hash || '').replace(/^#/, '');
+    if (!hash) return;
+    const hw = assignments.find(a => a.date === hash);
+    if (hw) openAssignment(hw);
+  }
+
+  window.addEventListener('hashchange', () => {
+    const hash = (window.location.hash || '').replace(/^#/, '');
+    if (!hash) {
+      // back to list
+      document.getElementById('hw-session').style.display='none';
+      document.getElementById('hw-unlock').style.display='none';
+      document.getElementById('hw-list-view').style.display='block';
+      currentAssignment=null;
+    } else {
+      routeFromHash();
+    }
+  });
+
+  function renderList() {
+    const list = document.getElementById('hw-list');
+    const empty = document.getElementById('hw-empty');
+    list.innerHTML = '';
+    if (!assignments.length) { empty.style.display=''; return; }
+    [...assignments].sort((a,b)=>a.date.localeCompare(b.date)).forEach(hw => {
+      const card = document.createElement('div');
+      card.className = 'hw-card';
+      const typeIds = (hw.questions||[]).map(q=>q.type_id).filter((v,i,a)=>a.indexOf(v)===i);
+      const lockBadge = hw.password ? '<span class="hw-locked-badge">🔒 locked</span>' : '';
+      card.innerHTML = `
+        <div class="hw-card-header">
+          <span class="hw-date">${formatDate(hw.date)}</span>
+          <span class="hw-meta">${(hw.questions||[]).length} question${(hw.questions||[]).length!==1?'s':''}</span>
+        </div>
+        <div class="hw-title">${hw.title} ${lockBadge}</div>
+        <div class="hw-types">${typeIds.map(id=>`<span class="hw-type-badge">${id}</span>`).join('')}</div>
+      `;
+      card.onclick = () => {
+        if (window.location.hash !== '#' + hw.date) {
+          window.location.hash = hw.date; // hashchange handler will openAssignment
+        } else {
+          openAssignment(hw);
+        }
+      };
+      list.appendChild(card);
+    });
+  }
+
+  function formatDate(iso) {
+    const d = new Date(iso+'T12:00:00');
+    return d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
+  }
+
+  // ── Password gate ─────────────────────────────────────────────
+  function allAnswered() {
+    const total = (currentAssignment._loaded||[]).length;
+    return Object.keys(answered).length >= total && total > 0;
+  }
+
+  function showUnlock() {
+    if (!allAnswered()) {
+      document.getElementById('hw-all-answered-hint').style.display='block';
+      setTimeout(()=>document.getElementById('hw-all-answered-hint').style.display='none', 3000);
+      return;
+    }
+    // Build score preview (blind — they see their tally, not which are right)
+    const questions = currentAssignment._loaded;
+    const total = questions.length;
+    // We don't reveal correct yet — just show they answered everything
+    document.getElementById('unlock-score-preview').innerHTML =
+      `<strong>You answered all ${total} question${total!==1?'s':''}.</strong><br>
+       Enter the password to see how you did and reveal the correct answers.`;
+
+    document.getElementById('hw-session').style.display='none';
+    document.getElementById('hw-unlock').style.display='block';
+    document.getElementById('unlock-title').textContent = currentAssignment.title;
+    document.getElementById('unlock-input').value='';
+    document.getElementById('unlock-error').style.display='none';
+    document.getElementById('unlock-input').focus();
+  }
+
+  document.getElementById('unlock-btn').onclick = () => {
+    const val = document.getElementById('unlock-input').value.trim();
+    if (val === currentAssignment.password) {
+      unlocked = true;
+      document.getElementById('hw-unlock').style.display='none';
+      document.getElementById('hw-session').style.display='block';
+      document.getElementById('hw-unlock-btn').style.display='none';
+
+      // Grade and reveal all questions at once
+      const questions = currentAssignment._loaded;
+      questions.forEach((q, qi) => {
+        if (revealed[qi]) return;
+        revealed[qi] = true;
+        document.querySelectorAll(`#opts-${qi} .hw-option`).forEach(el => {
+          el.classList.remove('selected');
+          if (el.dataset.letter === q.correct) el.classList.add('correct');
+          else if (el.dataset.letter === answered[qi]) el.classList.add('wrong');
+        });
+        document.getElementById(`submit-${qi}`).disabled = true;
+        document.getElementById(`sol-${qi}`).classList.add('visible');
+      });
+      updateProgress(questions);
+
+      // Show score
+      const correct = questions.filter((q,qi) => answered[qi] === q.correct).length;
+      const total = questions.length;
+      document.getElementById('hw-summary').style.display='block';
+      document.getElementById('hw-score').textContent = `${correct} / ${total}`;
+      document.getElementById('hw-score-sub').textContent =
+        correct===total ? 'Perfect score! 🌟' :
+        correct>=total*0.7 ? 'Great work! Keep it up.' :
+        'Review the solutions above and try again.';
+      document.getElementById('hw-summary').scrollIntoView({behavior:'smooth'});
+    } else {
+      const inp = document.getElementById('unlock-input');
+      inp.classList.add('error');
+      document.getElementById('unlock-error').style.display='block';
+      setTimeout(()=>inp.classList.remove('error'),400);
+    }
+  };
+
+  document.getElementById('unlock-input').addEventListener('keydown', e => {
+    if (e.key==='Enter') document.getElementById('unlock-btn').click();
+  });
+
+  document.getElementById('unlock-skip').onclick = e => {
+    e.preventDefault();
+    document.getElementById('hw-unlock').style.display='none';
+    document.getElementById('hw-session').style.display='block';
+  };
+
+  // ── Open assignment ───────────────────────────────────────────
+  async function openAssignment(hw) {
+    currentAssignment = hw;
+    answered = {}; revealed = {};
+    unlocked = !hw.password; // if no password, auto-unlock
+
+    const questions = [];
+    for (const item of (hw.questions||[])) {
+      try {
+        const r = await fetch(`data/generated/type_${item.type_id}.json`);
+        if (!r.ok) continue;
+        const bank = await r.json();
+        // Look up by stable problem_id first; fall back to positional index for legacy entries
+        let problem = null;
+        if (item.problem_id) {
+          problem = Array.isArray(bank) ? bank.find(p => p.id === item.problem_id) : null;
+        } else if (typeof item.index === 'number') {
+          problem = Array.isArray(bank) ? bank[item.index] : null;
+        }
+        if (problem) questions.push({...problem, type_name:item.type_name, type_id:item.type_id, lesson_url:item.lesson_url});
+      } catch {}
+    }
+    currentAssignment._loaded = questions;
+
+    document.getElementById('hw-list-view').style.display='none';
+    document.getElementById('hw-unlock').style.display='none';
+    document.getElementById('hw-session').style.display='block';
+    document.getElementById('hw-summary').style.display='none';
+    document.getElementById('hw-all-answered-hint').style.display='none';
+    document.getElementById('hw-session-title').textContent = hw.title;
+    // Unlock button hidden until all answered (updated in selectOption)
+    document.getElementById('hw-unlock-btn').style.display = 'none';
+    renderSession(questions);
+  }
+
+  function renderSession(questions) {
+    updateProgress(questions);
+    const container = document.getElementById('hw-questions');
+    container.innerHTML = '';
+    questions.forEach((q,qi) => {
+      const block = document.createElement('div');
+      block.className = 'hw-question-block';
+      block.id = `hw-q-${qi}`;
+      const opts = q.options||{};
+      const letters = Object.keys(opts).sort();
+      const figureHtml = window.SHSAT.renderProblemFigureHtml(q);
+      const diagramHtml = figureHtml ? `<div class="hw-diagram">${figureHtml}</div>` : '';
+      const lessonLink = q.lesson_url ? `<a class="hw-q-type-link" href="${q.lesson_url}" target="_blank">📖 Learn</a>` : '';
+      const lockHint = (!unlocked && currentAssignment.password)
+        ? `<span class="hw-locked-hint">🔒 Select your answer — unlock button appears when all done</span>` : '';
+      block.innerHTML = `
+        <div class="hw-q-number">Question ${qi+1} &nbsp;·&nbsp; ID ${q.id || q.problem_id || '?'} &nbsp;·&nbsp; ${q.type_id} ${lessonLink}</div>
+        ${diagramHtml}
+        <div class="hw-q-text">${q.question}</div>
+        <div class="hw-options" id="opts-${qi}">
+          ${letters.map(l=>`
+            <div class="hw-option" data-qi="${qi}" data-letter="${l}" onclick="selectOption(${qi},'${l}')">
+              <span class="hw-option-letter">${l}</span>
+              <span>${opts[l]}</span>
+            </div>`).join('')}
+        </div>
+        <button class="hw-submit" id="submit-${qi}" onclick="submitAnswer(${qi})" disabled
+          style="${(!unlocked && currentAssignment.password) ? 'display:none' : ''}">Check answer</button>
+        ${lockHint}
+        <div class="hw-solution" id="sol-${qi}">
+          <div class="sol-label">Solution</div>
+          <div>${q.solution?.strategy||''}</div>
+          ${q.solution?.steps?.length?`<ol>${q.solution.steps.map(s=>`<li>${s}</li>`).join('')}</ol>`:''}
+          ${q.solution?.final_answer?`<div style="margin-top:0.5rem;font-weight:700">Answer: ${q.solution.final_answer}</div>`:''}
+        </div>
+      `;
+      container.appendChild(block);
+    });
+  }
+
+  function selectOption(qi, letter) {
+    if (revealed[qi]) return;
+    // Toggle: clicking the already-selected option deselects it
+    const currentlySelected = answered[qi] === letter;
+    if (currentlySelected) {
+      delete answered[qi];
+      document.querySelectorAll(`#opts-${qi} .hw-option`).forEach(el => {
+        el.classList.remove('selected');
+      });
+      if (unlocked) {
+        document.getElementById(`submit-${qi}`).disabled = true;
+      } else if (currentAssignment.password && !allAnswered()) {
+        document.getElementById('hw-unlock-btn').style.display = 'none';
+      }
+    } else {
+      answered[qi] = letter;
+      document.querySelectorAll(`#opts-${qi} .hw-option`).forEach(el => {
+        el.classList.toggle('selected', el.dataset.letter===letter);
+      });
+      if (unlocked) {
+        document.getElementById(`submit-${qi}`).disabled = false;
+      } else if (allAnswered() && currentAssignment.password) {
+        document.getElementById('hw-unlock-btn').style.display = 'block';
+      }
+    }
+    updateProgress(currentAssignment._loaded);
+  }
+
+  function submitAnswer(qi) {
+    if (!unlocked || revealed[qi] || !answered[qi]) return;
+    const q = currentAssignment._loaded[qi];
+    revealed[qi] = true;
+    document.querySelectorAll(`#opts-${qi} .hw-option`).forEach(el => {
+      el.classList.remove('selected');
+      if (el.dataset.letter===q.correct) el.classList.add('correct');
+      else if (el.dataset.letter===answered[qi]) el.classList.add('wrong');
+    });
+    document.getElementById(`submit-${qi}`).disabled = true;
+    document.getElementById(`sol-${qi}`).classList.add('visible');
+    updateProgress(currentAssignment._loaded);
+    checkAllAnswered();
+  }
+
+  function updateProgress(questions) {
+    const total = questions.length;
+    // In locked mode track selections; in unlocked track reveals
+    const done = unlocked ? Object.keys(revealed).length : Object.keys(answered).length;
+    const pct = total ? (done/total*100) : 0;
+    document.getElementById('hw-pbar').style.width = pct+'%';
+    const suffix = (!unlocked && currentAssignment?.password) ? 'selected' : 'answered';
+    document.getElementById('hw-progress-label').textContent = `${done} / ${total} ${suffix}`;
+  }
+
+  function checkAllAnswered() {
+    const questions = currentAssignment._loaded;
+    if (Object.keys(revealed).length < questions.length) return;
+    const correct = questions.filter((q,qi)=>answered[qi]===q.correct).length;
+    setTimeout(()=>{
+      document.getElementById('hw-summary').style.display='block';
+      document.getElementById('hw-score').textContent = `${correct} / ${questions.length}`;
+      document.getElementById('hw-score-sub').textContent =
+        correct===questions.length ? 'Perfect score! 🌟' :
+        correct>=questions.length*0.7 ? 'Great work! Keep it up.' :
+        'Review the solutions above and try again.';
+      document.getElementById('hw-summary').scrollIntoView({behavior:'smooth'});
+    },400);
+  }
+
+  document.getElementById('hw-back').onclick = () => {
+    // Clearing the hash triggers hashchange which hides the session view
+    if (window.location.hash) {
+      history.pushState('', document.title, window.location.pathname + window.location.search);
+      // pushState doesn't fire hashchange; do the work directly
+    }
+    document.getElementById('hw-session').style.display='none';
+    document.getElementById('hw-unlock').style.display='none';
+    document.getElementById('hw-list-view').style.display='block';
+    currentAssignment=null;
+  };
+
+  loadHomework();
+  </script>
+</body>
+</html>
