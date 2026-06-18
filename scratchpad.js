@@ -289,13 +289,20 @@
     };
     document.addEventListener('selectstart', (e) => { if (!inForm(e)) e.preventDefault(); }, true);
     document.addEventListener('contextmenu',  (e) => { if (!inForm(e)) e.preventDefault(); }, true);
-    // iPadOS Scribble fires a "touchstart" with a special force value when
-    // the Pencil drags over text. Cancelling at the document level here
-    // wouldn't kill scrolling because it's only swallowed for the pen.
+    // iPadOS Scribble fires a "touchstart" with touchType "stylus" when the
+    // Pencil drags over text. We only want to suppress it on regular page
+    // content — never on the toolbar or canvas, otherwise the user can't
+    // toggle modes or draw.
+    const inToolbarOrCanvas = (e) => {
+      const t = e.target;
+      if (!t || !t.closest) return false;
+      return !!t.closest('#scratchpad-toolbar') || t.id === 'scratchpad-canvas';
+    };
     document.addEventListener('touchstart', (e) => {
-      if (e.touches && e.touches[0] && e.touches[0].touchType === 'stylus' && !inForm(e)) {
-        e.preventDefault();
-      }
+      if (!e.touches || !e.touches[0]) return;
+      if (e.touches[0].touchType !== 'stylus') return;
+      if (inForm(e) || inToolbarOrCanvas(e)) return;
+      e.preventDefault();
     }, { passive: false, capture: true });
     document.getElementById('sp-mode').addEventListener('click', () => {
       setMode(mode === 'draw' ? 'scroll' : 'draw');
