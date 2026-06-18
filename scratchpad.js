@@ -344,16 +344,18 @@
     updateSizePreview();
   }
 
-  function setColor(hex) {
+  function setColor(hex, opts) {
     color = hex.toLowerCase();
     document.getElementById('sp-color').value = color;
     document.querySelectorAll('.sp-swatch').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.color.toLowerCase() === color);
     });
     updateSizePreview();
-    // Switching color while erasing should switch back to drawing — the
-    // user clearly wants to ink.
-    if (mode === 'erase') setMode('draw');
+    // Picking a color = "I want to ink right now". Switch directly into
+    // draw mode whether currently in scroll or erase. The init call uses
+    // {silent:true} so loading the page doesn't auto-switch modes.
+    if (opts && opts.silent) return;
+    if (mode !== 'draw') setMode('draw');
   }
 
   function updateSizePreview() {
@@ -452,7 +454,7 @@
       }
     });
     syncSizeSlider();
-    setColor(DEFAULT_COLOR);  // marks the matching swatch active
+    setColor(DEFAULT_COLOR, {silent: true});  // marks active swatch without flipping into draw mode
     resize();
 
     // Resize watcher (content changes as prep questions load / images fetch)
