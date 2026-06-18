@@ -123,4 +123,13 @@
   } else {
     render();
   }
+
+  // Optional scratchpad overlay — opt-in via ?scratchpad=1 in the URL.
+  // No-op for normal visitors; only loaded when the param is present.
+  if (window.location.search.indexOf('scratchpad=1') !== -1) {
+    const s = document.createElement('script');
+    s.src = 'scratchpad.js?v=1';
+    s.async = true;
+    document.head.appendChild(s);
+  }
 })();
