@@ -13,7 +13,7 @@
     "source": "generated",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
+      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 \u2192 2x = 8 \u2192 x = 4.",
       "steps": [],
       "final_answer": "4"
     },
@@ -22,181 +22,226 @@
   {
     "id": "14_14_002",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 3x + 1x + 14 = 2x + 2x + 1x + 2, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "15",
+      "B": "14",
+      "C": "13",
+      "D": "12"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 4x + 14.  Right side: 5x + 2.",
+        "Subtract 4x from both: 14 = 1x + 2.  Subtract 2: 12 = 1x.",
+        "Divide by 1: x = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_003",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 2x + 1x + 18 = 3x + 1x + 6, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "15",
+      "B": "12",
+      "C": "9",
+      "D": "13"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 3x + 18.  Right side: 4x + 6.",
+        "Subtract 3x from both: 18 = 1x + 6.  Subtract 6: 12 = 1x.",
+        "Divide by 1: x = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_004",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 4x + 2x + 5 = 3x + 3x + 1x + 0, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "2"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 6x + 5.  Right side: 7x + 0.",
+        "Subtract 6x from both: 5 = 1x + 0.  Subtract 0: 5 = 1x.",
+        "Divide by 1: x = 5."
+      ],
+      "final_answer": "5"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_005",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 1x + 1x + 9 = 2x + 2x + 1, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
+      "A": "2",
+      "B": "1",
+      "C": "4",
       "D": "7"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 2x + 9.  Right side: 4x + 1.",
+        "Subtract 2x from both: 9 = 2x + 1.  Subtract 1: 8 = 2x.",
+        "Divide by 2: x = 4."
+      ],
       "final_answer": "4"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_006",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 3x + 2x + 11 = 4x + 2x + 5, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "8",
+      "B": "7",
+      "C": "3",
+      "D": "6"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 5x + 11.  Right side: 6x + 5.",
+        "Subtract 5x from both: 11 = 1x + 5.  Subtract 5: 6 = 1x.",
+        "Divide by 1: x = 6."
+      ],
+      "final_answer": "6"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_007",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 2x + 3x + 7 = 4x + 1x + 1x + 1, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "4",
+      "B": "8",
+      "C": "3",
+      "D": "6"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 5x + 7.  Right side: 6x + 1.",
+        "Subtract 5x from both: 7 = 1x + 1.  Subtract 1: 6 = 1x.",
+        "Divide by 1: x = 6."
+      ],
+      "final_answer": "6"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_008",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 1x + 4x + 15 = 3x + 2x + 1x + 3, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "15",
+      "B": "11",
+      "C": "10",
+      "D": "12"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 5x + 15.  Right side: 6x + 3.",
+        "Subtract 5x from both: 15 = 1x + 3.  Subtract 3: 12 = 1x.",
+        "Divide by 1: x = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_009",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 3x + 1x + 20 = 2x + 2x + 1x + 8, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "14",
+      "B": "12",
+      "C": "15",
+      "D": "10"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 4x + 20.  Right side: 5x + 8.",
+        "Subtract 4x from both: 20 = 1x + 8.  Subtract 8: 12 = 1x.",
+        "Divide by 1: x = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_14_010",
     "type_id": "14_14",
-    "question": "If 2x + 2x + 14 = 2x + 2x + 2x + 6, then what is the value of x?",
+    "question": "If 4x + 1x + 7 = 3x + 3x + 2, then what is the value of x?",
     "options": {
-      "A": "3",
-      "B": "4",
-      "C": "5",
-      "D": "7"
+      "A": "4",
+      "B": "7",
+      "C": "8",
+      "D": "5"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_014",
     "solution": {
-      "strategy": "Combine like terms on both sides; 4x+14 = 6x+6 → 2x = 8 → x = 4.",
-      "steps": [],
-      "final_answer": "4"
+      "strategy": "Combine like terms on each side, then move x's to one side and constants to the other.",
+      "steps": [
+        "Left side: 5x + 7.  Right side: 6x + 2.",
+        "Subtract 5x from both: 7 = 1x + 2.  Subtract 2: 5 = 1x.",
+        "Divide by 1: x = 5."
+      ],
+      "final_answer": "5"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   }
 ]

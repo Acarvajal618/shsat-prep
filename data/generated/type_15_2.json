@@ -22,181 +22,226 @@
   {
     "id": "15_2_002",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {6, 7, 8, 9}. If 3N/4 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 3N/4 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 3N/4 an integer, 3N must be divisible by 4.",
+        "Check N = 8: 3 \u00d7 8 = 24, and 24/4 = 6 \u2713.",
+        "None of the other choices produce an integer, so N = 8."
+      ],
+      "final_answer": "8"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_003",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {8, 10, 12, 14}. If 5N/6 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 5N/6 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 5N/6 an integer, 5N must be divisible by 6.",
+        "Check N = 12: 5 \u00d7 12 = 60, and 60/6 = 10 \u2713.",
+        "None of the other choices produce an integer, so N = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_004",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {5, 7, 9, 10}. If 7N/3 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "10"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 7N/3 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 7N/3 an integer, 7N must be divisible by 3.",
+        "Check N = 9: 7 \u00d7 9 = 63, and 63/3 = 21 \u2713.",
+        "None of the other choices produce an integer, so N = 9."
+      ],
+      "final_answer": "9"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_005",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {8, 12, 15, 18}. If 4N/5 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "8",
+      "B": "12",
+      "C": "15",
+      "D": "18"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 4N/5 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 4N/5 an integer, 4N must be divisible by 5.",
+        "Check N = 15: 4 \u00d7 15 = 60, and 60/5 = 12 \u2713.",
+        "None of the other choices produce an integer, so N = 15."
+      ],
+      "final_answer": "15"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_006",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {6, 10, 12, 14}. If 9N/4 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "14"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 9N/4 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 9N/4 an integer, 9N must be divisible by 4.",
+        "Check N = 12: 9 \u00d7 12 = 108, and 108/4 = 27 \u2713.",
+        "None of the other choices produce an integer, so N = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_007",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {10, 12, 16, 20}. If 5N/8 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "10",
+      "B": "12",
+      "C": "16",
+      "D": "20"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 5N/8 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 5N/8 an integer, 5N must be divisible by 8.",
+        "Check N = 16: 5 \u00d7 16 = 80, and 80/8 = 10 \u2713.",
+        "None of the other choices produce an integer, so N = 16."
+      ],
+      "final_answer": "16"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_008",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {6, 10, 12, 14}. If 7N/4 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "14"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 7N/4 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 7N/4 an integer, 7N must be divisible by 4.",
+        "Check N = 12: 7 \u00d7 12 = 84, and 84/4 = 21 \u2713.",
+        "None of the other choices produce an integer, so N = 12."
+      ],
+      "final_answer": "12"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_009",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {7, 9, 10, 13}. If 11N/3 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "7",
+      "B": "9",
+      "C": "10",
+      "D": "13"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 11N/3 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 11N/3 an integer, 11N must be divisible by 3.",
+        "Check N = 9: 11 \u00d7 9 = 99, and 99/3 = 33 \u2713.",
+        "None of the other choices produce an integer, so N = 9."
+      ],
+      "final_answer": "9"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "15_2_010",
     "type_id": "15_2",
-    "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N / 1.4 is an integer, what is N?",
+    "question": "N belongs to the set of positive integers {4, 10, 12, 16}. If 13N/5 is an integer, what is N?",
     "options": {
-      "A": "0.4",
-      "B": "0.5",
-      "C": "1.1",
-      "D": "2.0"
+      "A": "4",
+      "B": "10",
+      "C": "12",
+      "D": "16"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "15_002",
     "solution": {
-      "strategy": "Check which N makes the expression an integer.",
-      "steps": [],
-      "final_answer": "B"
+      "strategy": "Test each candidate: compute 13N/5 and check whether the result is a whole number.",
+      "steps": [
+        "For N to make 13N/5 an integer, 13N must be divisible by 5.",
+        "Check N = 10: 13 \u00d7 10 = 130, and 130/5 = 26 \u2713.",
+        "None of the other choices produce an integer, so N = 10."
+      ],
+      "final_answer": "10"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   }
 ]

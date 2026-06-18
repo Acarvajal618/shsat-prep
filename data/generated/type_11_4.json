@@ -13,7 +13,7 @@
     "source": "generated",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
+      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x \u2192 y=-x/5.",
       "steps": [],
       "final_answer": "A"
     },
@@ -22,181 +22,226 @@
   {
     "id": "11_4_002",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 2y(3-|-5|)+y(4-|-2|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "x/10",
+      "B": "-x/4",
+      "C": "-2x",
+      "D": "-x/2"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-5| = 5, so 3-|-5| = -2. Similarly |-2| = 2, so 4-|-2| = 2.",
+        "x = 2y(-2) + y(2) = (-4 + 2)y = -2y.",
+        "Solve for y: y = x / -2 = -x/2."
+      ],
+      "final_answer": "-x/2"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_003",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 4y(1-|-3|)+y(2-|-5|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "-x/11",
+      "B": "-x/15",
+      "C": "x/6",
+      "D": "-11x"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-3| = 3, so 1-|-3| = -2. Similarly |-5| = 5, so 2-|-5| = -3.",
+        "x = 4y(-2) + y(-3) = (-8 + -3)y = -11y.",
+        "Solve for y: y = x / -11 = -x/11."
+      ],
+      "final_answer": "-x/11"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_004",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 3y(5-|-2|)+y(1-|-4|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "x/6",
+      "B": "6x",
+      "C": "x/16",
+      "D": "-x/9"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-2| = 2, so 5-|-2| = 3. Similarly |-4| = 4, so 1-|-4| = -3.",
+        "x = 3y(3) + y(-3) = (9 + -3)y = 6y.",
+        "Solve for y: y = x / 6 = x/6."
+      ],
+      "final_answer": "x/6"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_005",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 2y(4-|-1|)+y(3-|-5|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "-x/6",
+      "B": "x/11",
+      "C": "x/4",
+      "D": "4x"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-1| = 1, so 4-|-1| = 3. Similarly |-5| = 5, so 3-|-5| = -2.",
+        "x = 2y(3) + y(-2) = (6 + -2)y = 4y.",
+        "Solve for y: y = x / 4 = x/4."
+      ],
+      "final_answer": "x/4"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_006",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 5y(1-|-4|)+y(2-|-3|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "x/7",
+      "B": "-x/21",
+      "C": "-16x",
+      "D": "-x/16"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-4| = 4, so 1-|-4| = -3. Similarly |-3| = 3, so 2-|-3| = -1.",
+        "x = 5y(-3) + y(-1) = (-15 + -1)y = -16y.",
+        "Solve for y: y = x / -16 = -x/16."
+      ],
+      "final_answer": "-x/16"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_007",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 3y(2-|-6|)+y(1-|-2|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "x/7",
+      "B": "-13x",
+      "C": "-x/13",
+      "D": "-x/16"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-6| = 6, so 2-|-6| = -4. Similarly |-2| = 2, so 1-|-2| = -1.",
+        "x = 3y(-4) + y(-1) = (-12 + -1)y = -13y.",
+        "Solve for y: y = x / -13 = -x/13."
+      ],
+      "final_answer": "-x/13"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_008",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 4y(3-|-1|)+y(5-|-2|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "-x/15",
+      "B": "11x",
+      "C": "x/11",
+      "D": "x/17"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-1| = 1, so 3-|-1| = 2. Similarly |-2| = 2, so 5-|-2| = 3.",
+        "x = 4y(2) + y(3) = (8 + 3)y = 11y.",
+        "Solve for y: y = x / 11 = x/11."
+      ],
+      "final_answer": "x/11"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_009",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 2y(6-|-4|)+y(3-|-1|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "x/6",
+      "B": "-x/8",
+      "C": "6x",
+      "D": "x/15"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-4| = 4, so 6-|-4| = 2. Similarly |-1| = 1, so 3-|-1| = 2.",
+        "x = 2y(2) + y(2) = (4 + 2)y = 6y.",
+        "Solve for y: y = x / 6 = x/6."
+      ],
+      "final_answer": "x/6"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "11_4_010",
     "type_id": "11_4",
-    "question": "If x = 3y(2-|-4|)+y(3-|-2|), what is the value of y in terms of x?",
+    "question": "If x = 3y(1-|-5|)+y(2-|-4|), what is the value of y in terms of x?",
     "options": {
-      "A": "-x/5",
-      "B": "-5x",
-      "C": "-x",
-      "D": "x/23"
+      "A": "-14x",
+      "B": "-x/14",
+      "C": "x/5",
+      "D": "-x/17"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "11_004",
     "solution": {
-      "strategy": "Simplify: 2-|-4|=-2, 3-|-2|=1; 3y(-2)+y(1)=-5y=x → y=-x/5.",
-      "steps": [],
-      "final_answer": "A"
+      "strategy": "Simplify each absolute value, then combine like terms in y to solve for y in terms of x.",
+      "steps": [
+        "|-5| = 5, so 1-|-5| = -4. Similarly |-4| = 4, so 2-|-4| = -2.",
+        "x = 3y(-4) + y(-2) = (-12 + -2)y = -14y.",
+        "Solve for y: y = x / -14 = -x/14."
+      ],
+      "final_answer": "-x/14"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   }
 ]

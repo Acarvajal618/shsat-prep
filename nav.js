@@ -124,11 +124,20 @@
     render();
   }
 
-  // Optional scratchpad overlay — opt-in via ?scratchpad=1 in the URL.
-  // No-op for normal visitors; only loaded when the param is present.
-  if (window.location.search.indexOf('scratchpad=1') !== -1) {
+  // Optional opt-in features — both controlled by URL params.
+  // Scratchpad mode also enables the compact layout automatically.
+  const _q = window.location.search;
+  const _scratchpad = _q.indexOf('scratchpad=1') !== -1;
+  const _compact = _q.indexOf('compact=1') !== -1 || _scratchpad;
+  if (_compact) {
+    const c = document.createElement('script');
+    c.src = 'compact.js?v=1';
+    c.async = true;
+    document.head.appendChild(c);
+  }
+  if (_scratchpad) {
     const s = document.createElement('script');
-    s.src = 'scratchpad.js?v=1';
+    s.src = 'scratchpad.js?v=2';
     s.async = true;
     document.head.appendChild(s);
   }

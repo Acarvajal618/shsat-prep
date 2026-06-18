@@ -134,6 +134,20 @@
     }
     body.scratchpad-draw-mode #sp-status { color: #1a73e8; }
     body.scratchpad-draw-mode { overflow-x: hidden; }
+
+    /* Prevent iPad/iOS from triggering text selection, copy popup, or the
+       magnifier loupe when the Apple Pencil is dragging across content. */
+    body.scratchpad-draw-mode,
+    body.scratchpad-draw-mode * {
+      -webkit-user-select: none !important;
+      user-select: none !important;
+      -webkit-touch-callout: none !important;
+      -webkit-tap-highlight-color: transparent !important;
+    }
+    body.scratchpad-draw-mode {
+      touch-action: none;
+    }
+
     @media (max-width: 600px) {
       #scratchpad-toolbar { bottom: 10px; right: 10px; padding: 6px 8px; gap: 6px; }
       #scratchpad-toolbar button { width: 34px; height: 34px; font-size: 16px; }

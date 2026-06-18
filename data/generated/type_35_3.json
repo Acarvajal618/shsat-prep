@@ -24,172 +24,217 @@
   {
     "id": "35_3_002",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a is positive and the sum of a and b is negative, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "a + b > 0",
+      "B": "b is positive",
+      "C": "b is negative",
+      "D": "|a| > |b|"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a is positive and the sum of a and b is negative.",
+        "Therefore: b is negative."
+      ],
+      "final_answer": "b is negative"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_003",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a is positive and ab > 0, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "b is negative",
+      "B": "b is positive",
+      "C": "ab/2 is negative",
+      "D": "b/a is negative"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a is positive and ab > 0.",
+        "Therefore: b is positive."
+      ],
+      "final_answer": "b is positive"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_004",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a is positive and ac < 0, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
+      "A": "c is positive",
       "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "C": "c is negative",
+      "D": "ac > 0"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a is positive and ac < 0.",
+        "Therefore: c is negative."
+      ],
+      "final_answer": "c is negative"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_005",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a is negative and ab > 0, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "ab is negative",
+      "B": "b is negative",
+      "C": "b/a is positive",
+      "D": "b is positive"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a is negative and ab > 0.",
+        "Therefore: b is negative."
+      ],
+      "final_answer": "b is negative"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_006",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a is positive, b is positive, and c is negative, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "b/c is positive",
+      "B": "ac is negative",
+      "C": "ab is negative",
+      "D": "a + c is negative"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a is positive, b is positive, and c is negative.",
+        "Therefore: ac is negative."
+      ],
+      "final_answer": "ac is negative"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_007",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If ab > 0 and bc > 0, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "ac > 0",
+      "B": "ac < 0",
+      "C": "abc < 0",
+      "D": "a + b < 0"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: ab > 0 and bc > 0.",
+        "Therefore: ac > 0."
+      ],
+      "final_answer": "ac > 0"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_008",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If abc > 0 and a > 0, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "bc < 0",
+      "B": "b/c < 0",
+      "C": "bc > 0",
+      "D": "b + c < 0"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: abc > 0 and a > 0.",
+        "Therefore: bc > 0."
+      ],
+      "final_answer": "bc > 0"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_009",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a is negative and b is positive, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "a/b > 1",
+      "B": "a \u00d7 b is positive",
+      "C": "a \u00d7 b is negative",
+      "D": "a + b is always positive"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a is negative and b is positive.",
+        "Therefore: a \u00d7 b is negative."
+      ],
+      "final_answer": "a \u00d7 b is negative"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_3_010",
     "type_id": "35_3",
-    "question": "If a is positive and the product of b and c is positive, which must be true?",
+    "question": "If a/b > 0, which of the following must be true?",
     "options": {
-      "A": "a/c is negative",
-      "B": "a/c is positive",
-      "C": "b/c is negative",
-      "D": "b/c is positive"
+      "A": "a + b > 0",
+      "B": "a and b have the same sign",
+      "C": "a > b",
+      "D": "a and b have opposite signs"
     },
-    "correct": "D",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "35_003",
     "solution": {
-      "strategy": "bc > 0 ⇒ b and c same sign ⇒ b/c > 0.",
-      "steps": [],
-      "final_answer": "D"
-    }
+      "strategy": "Apply the sign rules: same signs multiply/divide to positive; opposite signs multiply/divide to negative; a positive plus a negative depends on magnitudes.",
+      "steps": [
+        "Given: a/b > 0.",
+        "Therefore: a and b have the same sign."
+      ],
+      "final_answer": "a and b have the same sign"
+    },
+    "diagram": null,
+    "image_path": null
   }
 ]

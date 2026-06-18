@@ -24,199 +24,235 @@
   {
     "id": "14_6_002",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.15 per word for the first 100 words and $0.1 per word after that. Theo submitted 3 essays: 200, 300, and 400 words. How much did the magazine pay Theo?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$120",
+      "B": "$90",
+      "C": "$105",
+      "D": "$135"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "200 words \u2192 100 \u00d7 $0.15 + 100 \u00d7 $0.1 = $15.00 + $10.00 = $25.00",
+        "300 words \u2192 100 \u00d7 $0.15 + 200 \u00d7 $0.1 = $15.00 + $20.00 = $35.00",
+        "400 words \u2192 100 \u00d7 $0.15 + 300 \u00d7 $0.1 = $15.00 + $30.00 = $45.00",
+        "Total: $25.00 + $35.00 + $45.00 = $105.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$105"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_003",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.2 per word for the first 150 words and $0.1 per word after that. Otis submitted 3 essays: 200, 300, and 500 words. How much did the magazine pay Otis?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$130",
+      "B": "$100",
+      "C": "$175",
+      "D": "$145"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "200 words \u2192 150 \u00d7 $0.2 + 50 \u00d7 $0.1 = $30.00 + $5.00 = $35.00",
+        "300 words \u2192 150 \u00d7 $0.2 + 150 \u00d7 $0.1 = $30.00 + $15.00 = $45.00",
+        "500 words \u2192 150 \u00d7 $0.2 + 350 \u00d7 $0.1 = $30.00 + $35.00 = $65.00",
+        "Total: $35.00 + $45.00 + $65.00 = $145.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$145"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_004",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.12 per word for the first 200 words and $0.08 per word after that. Lena submitted 3 essays: 250, 350, and 600 words. How much did the magazine pay Lena?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$120",
+      "B": "$104",
+      "C": "$96",
+      "D": "$144"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "250 words \u2192 200 \u00d7 $0.12 + 50 \u00d7 $0.08 = $24.00 + $4.00 = $28.00",
+        "350 words \u2192 200 \u00d7 $0.12 + 150 \u00d7 $0.08 = $24.00 + $12.00 = $36.00",
+        "600 words \u2192 200 \u00d7 $0.12 + 400 \u00d7 $0.08 = $24.00 + $32.00 = $56.00",
+        "Total: $28.00 + $36.00 + $56.00 = $120.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$120"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_005",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.1 per word for the first 250 words and $0.05 per word after that. Nora submitted 3 essays: 400, 500, and 600 words. How much did the magazine pay Nora?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$150",
+      "B": "$112.5",
+      "C": "$75",
+      "D": "$137.5"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "400 words \u2192 250 \u00d7 $0.1 + 150 \u00d7 $0.05 = $25.00 + $7.50 = $32.50",
+        "500 words \u2192 250 \u00d7 $0.1 + 250 \u00d7 $0.05 = $25.00 + $12.50 = $37.50",
+        "600 words \u2192 250 \u00d7 $0.1 + 350 \u00d7 $0.05 = $25.00 + $17.50 = $42.50",
+        "Total: $32.50 + $37.50 + $42.50 = $112.50"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$112.5"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_006",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.25 per word for the first 100 words and $0.15 per word after that. Theo submitted 3 essays: 150, 250, and 400 words. How much did the magazine pay Theo?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$200",
+      "B": "$150",
+      "C": "$120",
+      "D": "$175"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "150 words \u2192 100 \u00d7 $0.25 + 50 \u00d7 $0.15 = $25.00 + $7.50 = $32.50",
+        "250 words \u2192 100 \u00d7 $0.25 + 150 \u00d7 $0.15 = $25.00 + $22.50 = $47.50",
+        "400 words \u2192 100 \u00d7 $0.25 + 300 \u00d7 $0.15 = $25.00 + $45.00 = $70.00",
+        "Total: $32.50 + $47.50 + $70.00 = $150.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$150"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_007",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.2 per word for the first 200 words and $0.12 per word after that. Maya submitted 3 essays: 300, 400, and 500 words. How much did the magazine pay Maya?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$240",
+      "B": "$144",
+      "C": "$192",
+      "D": "$232"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "300 words \u2192 200 \u00d7 $0.2 + 100 \u00d7 $0.12 = $40.00 + $12.00 = $52.00",
+        "400 words \u2192 200 \u00d7 $0.2 + 200 \u00d7 $0.12 = $40.00 + $24.00 = $64.00",
+        "500 words \u2192 200 \u00d7 $0.2 + 300 \u00d7 $0.12 = $40.00 + $36.00 = $76.00",
+        "Total: $52.00 + $64.00 + $76.00 = $192.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$192"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_008",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.18 per word for the first 150 words and $0.09 per word after that. Nora submitted 3 essays: 200, 350, and 500 words. How much did the magazine pay Nora?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$94.5",
+      "B": "$135",
+      "C": "$121.5",
+      "D": "$189"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "200 words \u2192 150 \u00d7 $0.18 + 50 \u00d7 $0.09 = $27.00 + $4.50 = $31.50",
+        "350 words \u2192 150 \u00d7 $0.18 + 200 \u00d7 $0.09 = $27.00 + $18.00 = $45.00",
+        "500 words \u2192 150 \u00d7 $0.18 + 350 \u00d7 $0.09 = $27.00 + $31.50 = $58.50",
+        "Total: $31.50 + $45.00 + $58.50 = $135.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$135"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_009",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.1 per word for the first 200 words and $0.06 per word after that. Diego submitted 3 essays: 300, 400, and 700 words. How much did the magazine pay Diego?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$108",
+      "B": "$96",
+      "C": "$84",
+      "D": "$128"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "300 words \u2192 200 \u00d7 $0.1 + 100 \u00d7 $0.06 = $20.00 + $6.00 = $26.00",
+        "400 words \u2192 200 \u00d7 $0.1 + 200 \u00d7 $0.06 = $20.00 + $12.00 = $32.00",
+        "700 words \u2192 200 \u00d7 $0.1 + 500 \u00d7 $0.06 = $20.00 + $30.00 = $50.00",
+        "Total: $26.00 + $32.00 + $50.00 = $108.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$108"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_6_010",
     "type_id": "14_6",
-    "question": "A magazine pays authors $0.10 per word for the first 250 words and $0.05 per word after that. Sam submitted three essays: 300, 400, and 500 words. How much did the magazine pay Sam?",
+    "question": "A magazine pays authors $0.15 per word for the first 100 words and $0.08 per word after that. Diego submitted 3 essays: 200, 400, and 600 words. How much did the magazine pay Diego?",
     "options": {
-      "A": "$97.50",
-      "B": "$102.5",
-      "C": "$92.5",
-      "D": "$107.5"
+      "A": "$96",
+      "B": "$180",
+      "C": "$117",
+      "D": "$132"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "14_006",
     "solution": {
-      "strategy": "For each essay: first 250 words at 0.10, remainder at 0.05; sum.",
+      "strategy": "For each essay, pay for the first threshold words at the higher rate and the remaining words at the lower rate. Sum across essays.",
       "steps": [
-        "300: 25+2.5=27.50; 400: 25+7.5=32.50; 500: 25+12.5=37.50; total 97.50."
+        "200 words \u2192 100 \u00d7 $0.15 + 100 \u00d7 $0.08 = $15.00 + $8.00 = $23.00",
+        "400 words \u2192 100 \u00d7 $0.15 + 300 \u00d7 $0.08 = $15.00 + $24.00 = $39.00",
+        "600 words \u2192 100 \u00d7 $0.15 + 500 \u00d7 $0.08 = $15.00 + $40.00 = $55.00",
+        "Total: $23.00 + $39.00 + $55.00 = $117.00"
       ],
-      "final_answer": "$97.50"
+      "final_answer": "$117"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   }
 ]

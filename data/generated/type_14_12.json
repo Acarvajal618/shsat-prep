@@ -15,7 +15,7 @@
     "solution": {
       "strategy": "Cross-multiply; solve for x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(2x+1)/4 = 12/20 \u2192 2x+1 = 2.4 \u2192 x = 0.7."
       ],
       "final_answer": "0.7"
     },
@@ -24,199 +24,226 @@
   {
     "id": "14_12_002",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (3x + 2) / 6 = 8 / 24, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "0.2",
+      "B": "0",
+      "C": "0.3",
+      "D": "-0.5"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(3x + 2)/6 = 8/24.  Cross-multiply: 24(3x + 2) = 6 \u00d7 8 = 48.",
+        "Divide both sides by 24: 3x + 2 = 48/24 = 2.",
+        "Solve for x: x = (2 - 2)/3 = 0."
       ],
-      "final_answer": "0.7"
+      "final_answer": "0"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_003",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (2x + 5) / 3 = 14 / 6, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "1",
+      "B": "1.3",
+      "C": "0",
+      "D": "1.2"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(2x + 5)/3 = 14/6.  Cross-multiply: 6(2x + 5) = 3 \u00d7 14 = 42.",
+        "Divide both sides by 6: 2x + 5 = 42/6 = 7.",
+        "Solve for x: x = (7 - 5)/2 = 1."
       ],
-      "final_answer": "0.7"
+      "final_answer": "1"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_004",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (5x - 2) / 7 = 18 / 21, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "2.6",
+      "B": "2.1",
+      "C": "1.1",
+      "D": "1.6"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(5x - 2)/7 = 18/21.  Cross-multiply: 21(5x - 2) = 7 \u00d7 18 = 126.",
+        "Divide both sides by 21: 5x - 2 = 126/21 = 6.",
+        "Solve for x: x = (6 + 2)/5 = 1.6."
       ],
-      "final_answer": "0.7"
+      "final_answer": "1.6"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_005",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (3x + 1) / 5 = 8 / 10, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "1.5",
+      "B": "1.2",
+      "C": "2",
+      "D": "1"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(3x + 1)/5 = 8/10.  Cross-multiply: 10(3x + 1) = 5 \u00d7 8 = 40.",
+        "Divide both sides by 10: 3x + 1 = 40/10 = 4.",
+        "Solve for x: x = (4 - 1)/3 = 1."
       ],
-      "final_answer": "0.7"
+      "final_answer": "1"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_006",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (2x + 3) / 4 = 11 / 8, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "0.25",
+      "B": "1.25",
+      "C": "0.95",
+      "D": "0.75"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(2x + 3)/4 = 11/8.  Cross-multiply: 8(2x + 3) = 4 \u00d7 11 = 44.",
+        "Divide both sides by 8: 2x + 3 = 44/8 = 5.5.",
+        "Solve for x: x = (5.5 - 3)/2 = 1.25."
       ],
-      "final_answer": "0.7"
+      "final_answer": "1.25"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_007",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (4x - 1) / 3 = 10 / 6, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "1.5",
+      "B": "1.3",
+      "C": "2.5",
+      "D": "1"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(4x - 1)/3 = 10/6.  Cross-multiply: 6(4x - 1) = 3 \u00d7 10 = 30.",
+        "Divide both sides by 6: 4x - 1 = 30/6 = 5.",
+        "Solve for x: x = (5 + 1)/4 = 1.5."
       ],
-      "final_answer": "0.7"
+      "final_answer": "1.5"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_008",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (2x - 1) / 5 = 12 / 15, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "2.7",
+      "B": "2.5",
+      "C": "3.5",
+      "D": "3"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(2x - 1)/5 = 12/15.  Cross-multiply: 15(2x - 1) = 5 \u00d7 12 = 60.",
+        "Divide both sides by 15: 2x - 1 = 60/15 = 4.",
+        "Solve for x: x = (4 + 1)/2 = 2.5."
       ],
-      "final_answer": "0.7"
+      "final_answer": "2.5"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_009",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (3x + 4) / 4 = 10 / 8, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "0.333333",
+      "B": "0.53",
+      "C": "-0.67",
+      "D": "0.03"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(3x + 4)/4 = 10/8.  Cross-multiply: 8(3x + 4) = 4 \u00d7 10 = 40.",
+        "Divide both sides by 8: 3x + 4 = 40/8 = 5.",
+        "Solve for x: x = (5 - 4)/3 = 0.333333."
       ],
-      "final_answer": "0.7"
+      "final_answer": "0.333333"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "14_12_010",
     "type_id": "14_12",
-    "question": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+    "question": "If (5x + 1) / 6 = 11 / 22, what is the value of x?",
     "options": {
-      "A": "0.5",
-      "B": "0.7",
-      "C": "1.0",
-      "D": "1.4"
+      "A": "0.4",
+      "B": "0.6",
+      "C": "0.7",
+      "D": "0.2"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "14_012",
     "solution": {
-      "strategy": "Cross-multiply; solve for x.",
+      "strategy": "Cross-multiply, then isolate x.",
       "steps": [
-        "(2x+1)/4 = 12/20 → 2x+1 = 2.4 → x = 0.7."
+        "(5x + 1)/6 = 11/22.  Cross-multiply: 22(5x + 1) = 6 \u00d7 11 = 66.",
+        "Divide both sides by 22: 5x + 1 = 66/22 = 3.",
+        "Solve for x: x = (3 - 1)/5 = 0.4."
       ],
-      "final_answer": "0.7"
+      "final_answer": "0.4"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   }
 ]
