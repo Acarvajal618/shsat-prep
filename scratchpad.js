@@ -183,9 +183,8 @@
     body.scratchpad-draw-mode { overflow-x: hidden; }
 
     /* Whenever the scratchpad is loaded (even in scroll mode), suppress
-       iOS text selection, the "Copy / Search / Ask AI" callout, and the
-       magnifier loupe. The user is recording video — they don't need to
-       select text on this page. */
+       iOS text selection, the "Copy / Search / Ask AI" callout, the magnifier
+       loupe, and Apple Pencil's Scribble "select with pen" gesture. */
     body.scratchpad-loaded,
     body.scratchpad-loaded * {
       -webkit-user-select: none !important;
@@ -194,6 +193,12 @@
       user-select: none !important;
       -webkit-touch-callout: none !important;
       -webkit-tap-highlight-color: transparent !important;
+      -webkit-user-drag: none !important;
+    }
+    /* Block all gestures except vertical/horizontal scroll — this is the
+       big one for iPadOS: it prevents Pencil-drag-to-select from firing. */
+    body.scratchpad-loaded {
+      touch-action: pan-x pan-y !important;
     }
     /* Keep form inputs (password box) usable */
     body.scratchpad-loaded input,
@@ -201,9 +206,10 @@
       -webkit-user-select: text !important;
       user-select: text !important;
       -webkit-touch-callout: default !important;
+      touch-action: auto !important;
     }
     body.scratchpad-draw-mode {
-      touch-action: none;
+      touch-action: none !important;
     }
 
     @media (max-width: 600px) {
@@ -271,6 +277,26 @@
     document.body.classList.add('scratchpad-loaded');
     document.body.appendChild(canvas);
     document.body.appendChild(toolbar);
+
+    // Intercept the JS events that fire just before the iOS selection
+    // menu appears. selectstart precedes a text selection; contextmenu
+    // precedes the long-press / right-click menu. Both must be cancelled
+    // outside of form inputs.
+    const inForm = (e) => {
+      const t = e.target;
+      if (!t || !t.tagName) return false;
+      return /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);
+    };
+    document.addEventListener('selectstart', (e) => { if (!inForm(e)) e.preventDefault(); }, true);
+    document.addEventListener('contextmenu',  (e) => { if (!inForm(e)) e.preventDefault(); }, true);
+    // iPadOS Scribble fires a "touchstart" with a special force value when
+    // the Pencil drags over text. Cancelling at the document level here
+    // wouldn't kill scrolling because it's only swallowed for the pen.
+    document.addEventListener('touchstart', (e) => {
+      if (e.touches && e.touches[0] && e.touches[0].touchType === 'stylus' && !inForm(e)) {
+        e.preventDefault();
+      }
+    }, { passive: false, capture: true });
     document.getElementById('sp-mode').addEventListener('click', () => {
       setMode(mode === 'draw' ? 'scroll' : 'draw');
     });
