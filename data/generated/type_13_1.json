@@ -24,200 +24,227 @@
   {
     "id": "13_1_002",
     "type_id": "13_1",
-    "question": "There are 100 giggles in one laugh and 4 laughs in a burst. How many giggles are in 3 bursts?",
+    "question": "There are 1000 meters in one kilometer and 3 kilometers in a league (3 km). How many meters are in 3 leagues?",
     "options": {
-      "A": "1,200",
-      "B": "600",
-      "C": "2,400",
-      "D": "1,700"
+      "A": "10,000",
+      "B": "9",
+      "C": "3,000",
+      "D": "9,000"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "100 \u00d7 4 \u00d7 3 = 1200."
+        "Start with 3 leagues.",
+        "Multiply by the first conversion factor: 3 leagues \u00d7 (3 kilometers/1 league (3 km)) = 9 kilometers.",
+        "Multiply by the next conversion factor: 9 kilometers \u00d7 (1000 meters/1 kilometer) = 9,000 meters."
       ],
-      "final_answer": "1200"
+      "final_answer": "9,000 meters"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_003",
     "type_id": "13_1",
-    "question": "There are 50 giggles in one laugh and 5 laughs in a burst. How many giggles are in 2 bursts?",
+    "question": "There are 60 seconds in one minute and 60 minutes in a hour. How many seconds are in 3 hours?",
     "options": {
-      "A": "500",
-      "B": "250",
-      "C": "1,000",
-      "D": "1,000"
+      "A": "10,800",
+      "B": "10,860",
+      "C": "5,400",
+      "D": "21,600"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "50 \u00d7 5 \u00d7 2 = 500."
+        "Start with 3 hours.",
+        "Multiply by the first conversion factor: 3 hours \u00d7 (60 minutes/1 hour) = 180 minutes.",
+        "Multiply by the next conversion factor: 180 minutes \u00d7 (60 seconds/1 minute) = 10,800 seconds."
       ],
-      "final_answer": "500"
+      "final_answer": "10,800 seconds"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_004",
     "type_id": "13_1",
-    "question": "There are 200 giggles in one laugh and 2 laughs in a burst. How many giggles are in 5 bursts?",
+    "question": "There are 12 inches in one foot and 3 feet in a yard. How many inches are in 4 yards?",
     "options": {
-      "A": "2,000",
-      "B": "1,000",
-      "C": "4,000",
-      "D": "2,500"
+      "A": "144",
+      "B": "288",
+      "C": "12",
+      "D": "72"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "200 \u00d7 2 \u00d7 5 = 2000."
+        "Start with 4 yards.",
+        "Multiply by the first conversion factor: 4 yards \u00d7 (3 feet/1 yard) = 12 feet.",
+        "Multiply by the next conversion factor: 12 feet \u00d7 (12 inches/1 foot) = 144 inches."
       ],
-      "final_answer": "2000"
+      "final_answer": "144 inches"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_005",
     "type_id": "13_1",
-    "question": "There are 150 giggles in one laugh and 3 laughs in a burst. How many giggles are in 4 bursts?",
+    "question": "There are 100 cents in one dime and 10 dimes in a dollar bill (10 dimes). How many cents are in 5 dollar bills?",
     "options": {
-      "A": "1,800",
-      "B": "900",
-      "C": "3,600",
-      "D": "2,300"
+      "A": "10,000",
+      "B": "50",
+      "C": "5,000",
+      "D": "5,100"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "150 \u00d7 3 \u00d7 4 = 1800."
+        "Start with 5 dollar bills.",
+        "Multiply by the first conversion factor: 5 dollar bills \u00d7 (10 dimes/1 dollar bill (10 dimes)) = 50 dimes.",
+        "Multiply by the next conversion factor: 50 dimes \u00d7 (100 cents/1 dime) = 5,000 cents."
       ],
-      "final_answer": "1800"
+      "final_answer": "5,000 cents"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_006",
     "type_id": "13_1",
-    "question": "There are 300 giggles in one laugh and 2 laughs in a burst. How many giggles are in 3 bursts?",
+    "question": "There are 1000 milligrams in one gram (1000 mg) and 5 grams in a decigram-bundle (5 grams). How many milligrams are in 4 decigram-bundles?",
     "options": {
-      "A": "1,800",
-      "B": "900",
-      "C": "3,600",
-      "D": "2,300"
+      "A": "21,000",
+      "B": "4,000",
+      "C": "20,000",
+      "D": "40,000"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "300 \u00d7 2 \u00d7 3 = 1800."
+        "Start with 4 decigram-bundles.",
+        "Multiply by the first conversion factor: 4 decigram-bundles \u00d7 (5 grams/1 decigram-bundle (5 grams)) = 20 grams.",
+        "Multiply by the next conversion factor: 20 grams \u00d7 (1000 milligrams/1 gram (1000 mg)) = 20,000 milligrams."
       ],
-      "final_answer": "1800"
+      "final_answer": "20,000 milligrams"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_007",
     "type_id": "13_1",
-    "question": "There are 80 giggles in one laugh and 5 laughs in a burst. How many giggles are in 4 bursts?",
+    "question": "There are 24 hours in one day and 7 days in a week. How many hours are in 5 weeks?",
     "options": {
-      "A": "1,600",
-      "B": "800",
-      "C": "3,200",
-      "D": "2,100"
+      "A": "840",
+      "B": "864",
+      "C": "35",
+      "D": "420"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "80 \u00d7 5 \u00d7 4 = 1600."
+        "Start with 5 weeks.",
+        "Multiply by the first conversion factor: 5 weeks \u00d7 (7 days/1 week) = 35 days.",
+        "Multiply by the next conversion factor: 35 days \u00d7 (24 hours/1 day) = 840 hours."
       ],
-      "final_answer": "1600"
+      "final_answer": "840 hours"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_008",
     "type_id": "13_1",
-    "question": "There are 120 giggles in one laugh and 4 laughs in a burst. How many giggles are in 5 bursts?",
+    "question": "There are 12 months in one year and 4 years in a presidential term (4 years). How many months are in 4 presidential terms?",
     "options": {
-      "A": "2,400",
-      "B": "1,200",
-      "C": "4,800",
-      "D": "2,900"
+      "A": "192",
+      "B": "204",
+      "C": "384",
+      "D": "96"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "120 \u00d7 4 \u00d7 5 = 2400."
+        "Start with 4 presidential terms.",
+        "Multiply by the first conversion factor: 4 presidential terms \u00d7 (4 years/1 presidential term (4 years)) = 16 years.",
+        "Multiply by the next conversion factor: 16 years \u00d7 (12 months/1 year) = 192 months."
       ],
-      "final_answer": "2400"
+      "final_answer": "192 months"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_009",
     "type_id": "13_1",
-    "question": "There are 400 giggles in one laugh and 2 laughs in a burst. How many giggles are in 2 bursts?",
+    "question": "There are 52 weeks in one year and 2 years in a biennium (2 years). How many weeks are in 3 biennia?",
     "options": {
-      "A": "1,600",
-      "B": "800",
-      "C": "3,200",
-      "D": "2,100"
+      "A": "156",
+      "B": "312",
+      "C": "624",
+      "D": "6"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "400 \u00d7 2 \u00d7 2 = 1600."
+        "Start with 3 biennia.",
+        "Multiply by the first conversion factor: 3 biennia \u00d7 (2 years/1 biennium (2 years)) = 6 years.",
+        "Multiply by the next conversion factor: 6 years \u00d7 (52 weeks/1 year) = 312 weeks."
       ],
-      "final_answer": "1600"
+      "final_answer": "312 weeks"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "id": "13_1_010",
     "type_id": "13_1",
-    "question": "There are 60 giggles in one laugh and 10 laughs in a burst. How many giggles are in 2 bursts?",
+    "question": "There are 16 ounces in one pound and 4 pounds in a quarter-bushel (4 lb). How many ounces are in 3 quarter-bushels?",
     "options": {
-      "A": "1,200",
-      "B": "600",
-      "C": "2,400",
-      "D": "1,700"
+      "A": "384",
+      "B": "192",
+      "C": "96",
+      "D": "12"
     },
-    "correct": "A",
-    "source": "generated",
+    "correct": "B",
+    "source": "generated_v3_fix",
     "canonical_id": "13_001",
     "solution": {
-      "strategy": "Multiply conversion factors along the chain.",
+      "strategy": "Apply each conversion factor one step at a time, cancelling out units as you go.",
       "steps": [
-        "60 \u00d7 10 \u00d7 2 = 1200."
+        "Start with 3 quarter-bushels.",
+        "Multiply by the first conversion factor: 3 quarter-bushels \u00d7 (4 pounds/1 quarter-bushel (4 lb)) = 12 pounds.",
+        "Multiply by the next conversion factor: 12 pounds \u00d7 (16 ounces/1 pound) = 192 ounces."
       ],
-      "final_answer": "1200"
+      "final_answer": "192 ounces"
     },
-    "image_path": null
+    "image_path": null,
+    "diagram": null
   },
   {
     "question": "How many hours are equal to 90 minutes?",

@@ -4,7 +4,7 @@
     "type_id": "35_4",
     "question": "If -1 < y < 0, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
+      "A": "y\u00b2",
       "B": "1 - y",
       "C": "1 + y",
       "D": "2y"
@@ -22,172 +22,226 @@
   {
     "id": "35_4_002",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If -1 < y < 0, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
+      "A": "2y",
+      "B": "-y",
       "C": "1 + y",
-      "D": "2y"
+      "D": "y\u00b2"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = -0.8.",
+        "Evaluate each: 2y = -1.6; -y = 0.8; 1 + y = 0.2; y\u00b2 = 0.64.",
+        "The largest is -y."
+      ],
+      "final_answer": "-y"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_003",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If -1 < y < 0, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
+      "A": "y - 2",
+      "B": "2y",
       "C": "1 + y",
-      "D": "2y"
+      "D": "y\u00b3"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = -0.5.",
+        "Evaluate each: y - 2 = -2.5; 2y = -1; 1 + y = 0.5; y\u00b3 = -0.125.",
+        "The largest is 1 + y."
+      ],
+      "final_answer": "1 + y"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_004",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If 0 < y < 1, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "y + 2",
+      "B": "y - 2",
+      "C": "y\u00b2",
+      "D": "-y"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "A",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = 0.5.",
+        "Evaluate each: y + 2 = 2.5; y - 2 = -1.5; y\u00b2 = 0.25; -y = -0.5.",
+        "The largest is y + 2."
+      ],
+      "final_answer": "y + 2"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_005",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If -2 < y < -1, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "2y",
+      "B": "y - 2",
+      "C": "1 - y",
+      "D": "y\u00b2"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = -1.5.",
+        "Evaluate each: 2y = -3; y - 2 = -3.5; 1 - y = 2.5; y\u00b2 = 2.25.",
+        "The largest is 1 - y."
+      ],
+      "final_answer": "1 - y"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_006",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If 1 < y < 2, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "1 + y",
+      "B": "y + 2",
+      "C": "y\u00b3",
+      "D": "1/y"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = 1.5.",
+        "Evaluate each: 1 + y = 2.5; y + 2 = 3.5; y\u00b3 = 3.375; 1/y = 0.666667.",
+        "The largest is y + 2."
+      ],
+      "final_answer": "y + 2"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_007",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If -1 < y < 0, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "y\u00b2",
+      "B": "y\u00b3",
+      "C": "1/y",
+      "D": "1 + y"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "D",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = -0.25.",
+        "Evaluate each: y\u00b2 = 0.0625; y\u00b3 = -0.015625; 1/y = -4; 1 + y = 0.75.",
+        "The largest is 1 + y."
+      ],
+      "final_answer": "1 + y"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_008",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If 0 < y < 1, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "1/y",
+      "B": "y\u00b3",
+      "C": "2y",
+      "D": "y - 2"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = 0.75.",
+        "Evaluate each: 1/y = 1.33333; y\u00b3 = 0.421875; 2y = 1.5; y - 2 = -1.25.",
+        "The largest is 2y."
+      ],
+      "final_answer": "2y"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_009",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If y > 2, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "1 + y",
+      "B": "y\u00b3",
+      "C": "2y",
+      "D": "y\u00b2"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = 3.",
+        "Evaluate each: 1 + y = 4; y\u00b3 = 27; 2y = 6; y\u00b2 = 9.",
+        "The largest is y\u00b3."
+      ],
+      "final_answer": "y\u00b3"
+    },
+    "diagram": null,
+    "image_path": null
   },
   {
     "id": "35_4_010",
     "type_id": "35_4",
-    "question": "If -1 < y < 0, which has the greatest value?",
+    "question": "If y < -2, which of the following has the greatest value?",
     "options": {
-      "A": "y²",
-      "B": "1 - y",
-      "C": "1 + y",
-      "D": "2y"
+      "A": "1/y",
+      "B": "2y",
+      "C": "-y",
+      "D": "y + 2"
     },
-    "correct": "B",
-    "source": "generated",
+    "correct": "C",
+    "source": "generated_v3_fix",
     "canonical_id": "35_004",
     "solution": {
-      "strategy": "1 - y is largest for y in (-1, 0).",
-      "steps": [],
-      "final_answer": "B"
-    }
+      "strategy": "Pick a number in the given range, plug it into each expression, and compare results.",
+      "steps": [
+        "Pick a test value in the range: y = -3.",
+        "Evaluate each: 1/y = -0.333333; 2y = -6; -y = 3; y + 2 = -1.",
+        "The largest is -y."
+      ],
+      "final_answer": "-y"
+    },
+    "diagram": null,
+    "image_path": null
   }
 ]

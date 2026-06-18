@@ -10,13 +10,13 @@
       "D": "90"
     },
     "correct": "C",
-    "source": "canonical",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "diagram": null,
     "solution": {
-      "strategy": "4 sizes × C(6,2) vegetables = 4 × 15 = 60.",
+      "strategy": "4 sizes \u00d7 C(6,2) vegetables = 4 \u00d7 15 = 60.",
       "steps": [
-        "C(6,2) = 15; 4 × 15 = 60."
+        "C(6,2) = 15; 4 \u00d7 15 = 60."
       ],
       "final_answer": "60"
     }
@@ -32,12 +32,14 @@
       "D": "93"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(6,2) = 15; 4 × that = 60."
+        "Count combinations of 2 vegetables from 6: C(6, 2) = 6 \u00d7 5 / 2 = 15.",
+        "Each of the 4 sizes can be paired with any of those 15 vegetable combinations.",
+        "Total platters = 4 \u00d7 15 = 60."
       ],
       "final_answer": "60"
     }
@@ -53,12 +55,14 @@
       "D": "93"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(5,2) = 10; 3 × that = 30."
+        "Count combinations of 2 vegetables from 5: C(5, 2) = 5 \u00d7 4 / 2 = 10.",
+        "Each of the 3 sizes can be paired with any of those 10 vegetable combinations.",
+        "Total platters = 3 \u00d7 10 = 30."
       ],
       "final_answer": "30"
     }
@@ -74,12 +78,14 @@
       "D": "93"
     },
     "correct": "C",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(6,2) = 15; 5 × that = 75."
+        "Count combinations of 2 vegetables from 6: C(6, 2) = 6 \u00d7 5 / 2 = 15.",
+        "Each of the 5 sizes can be paired with any of those 15 vegetable combinations.",
+        "Total platters = 5 \u00d7 15 = 75."
       ],
       "final_answer": "75"
     }
@@ -95,12 +101,14 @@
       "D": "84"
     },
     "correct": "D",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(7,2) = 21; 4 × that = 84."
+        "Count combinations of 2 vegetables from 7: C(7, 2) = 7 \u00d7 6 / 2 = 21.",
+        "Each of the 4 sizes can be paired with any of those 21 vegetable combinations.",
+        "Total platters = 4 \u00d7 21 = 84."
       ],
       "final_answer": "84"
     }
@@ -116,12 +124,14 @@
       "D": "93"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(5,2) = 10; 6 × that = 60."
+        "Count combinations of 2 vegetables from 5: C(5, 2) = 5 \u00d7 4 / 2 = 10.",
+        "Each of the 6 sizes can be paired with any of those 10 vegetable combinations.",
+        "Total platters = 6 \u00d7 10 = 60."
       ],
       "final_answer": "60"
     }
@@ -137,12 +147,14 @@
       "D": "93"
     },
     "correct": "B",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(6,2) = 15; 3 × that = 45."
+        "Count combinations of 2 vegetables from 6: C(6, 2) = 6 \u00d7 5 / 2 = 15.",
+        "Each of the 3 sizes can be paired with any of those 15 vegetable combinations.",
+        "Total platters = 3 \u00d7 15 = 45."
       ],
       "final_answer": "45"
     }
@@ -158,12 +170,14 @@
       "D": "93"
     },
     "correct": "C",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(4,2) = 6; 5 × that = 30."
+        "Count combinations of 2 vegetables from 4: C(4, 2) = 4 \u00d7 3 / 2 = 6.",
+        "Each of the 5 sizes can be paired with any of those 6 vegetable combinations.",
+        "Total platters = 5 \u00d7 6 = 30."
       ],
       "final_answer": "30"
     }
@@ -179,12 +193,14 @@
       "D": "112"
     },
     "correct": "D",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(8,2) = 28; 4 × that = 112."
+        "Count combinations of 2 vegetables from 8: C(8, 2) = 8 \u00d7 7 / 2 = 28.",
+        "Each of the 4 sizes can be paired with any of those 28 vegetable combinations.",
+        "Total platters = 4 \u00d7 28 = 112."
       ],
       "final_answer": "112"
     }
@@ -200,12 +216,14 @@
       "D": "93"
     },
     "correct": "A",
-    "source": "generated",
+    "source": "generated_v3_fix",
     "canonical_id": "38_002",
     "solution": {
-      "strategy": "sizes × C(veggies, 2).",
+      "strategy": "A 'platter' is one size paired with a choice of 2 vegetables out of the available ones. Count the combinations of 2 vegetables from N (order doesn't matter), then multiply by the number of sizes.",
       "steps": [
-        "C(4,2) = 6; 6 × that = 36."
+        "Count combinations of 2 vegetables from 4: C(4, 2) = 4 \u00d7 3 / 2 = 6.",
+        "Each of the 6 sizes can be paired with any of those 6 vegetable combinations.",
+        "Total platters = 6 \u00d7 6 = 36."
       ],
       "final_answer": "36"
     }
