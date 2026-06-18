@@ -34,12 +34,29 @@
       justify-content: space-between;
       padding: 0.9rem 1.1rem;
       border-bottom: 1px solid var(--border);
+      gap: 0.75rem;
+      flex-wrap: wrap;
     }
     .keys-row:last-child { border-bottom: none; }
     .keys-date {
       font-size: 0.85rem;
       font-weight: 700;
       color: var(--text);
+      flex-shrink: 0;
+    }
+    .keys-keys {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .keys-set-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-right: 0.2rem;
     }
     .keys-date .weekday {
       font-size: 0.72rem;
@@ -95,7 +112,7 @@
     </div>
 
     <div class="keys-note">
-      💡 Tap any key to highlight it for copying. To change a key, edit <code>homework/index.json</code> — the <code>password</code> field on each assignment.
+      💡 Tap any key to highlight it for copying. To change a key, edit <code>homework/index.json</code> — the <code>password</code> field on each set (or top-level for legacy entries).
     </div>
   </div>
 
@@ -105,23 +122,39 @@
     try {
       const r = await fetch('homework/index.json?v=' + Date.now());
       const data = await r.json();
+
+      function getSetPasswords(a) {
+        // Returns [{name, password}], normalized across legacy + sets schemas
+        if (a.sets && Object.keys(a.sets).length) {
+          return Object.keys(a.sets).sort().map(n => ({ name: n, password: a.sets[n].password }));
+        }
+        if (a.password) return [{ name: '1', password: a.password }];
+        return [];
+      }
+
       const withKeys = data
-        .filter(a => a.password)
-        .sort((a, b) => a.date.localeCompare(b.date));
+        .map(a => ({ a, keys: getSetPasswords(a).filter(k => k.password) }))
+        .filter(x => x.keys.length)
+        .sort((x, y) => x.a.date.localeCompare(y.a.date));
 
       if (!withKeys.length) {
         list.innerHTML = '<div class="keys-empty">No prep days have keys set.</div>';
         return;
       }
 
-      list.innerHTML = withKeys.map(a => {
+      list.innerHTML = withKeys.map(({ a, keys }) => {
         const d = new Date(a.date + 'T12:00:00');
         const month = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         const weekday = d.toLocaleDateString('en-US', { weekday: 'short' });
+        const multi = keys.length > 1;
+        const keysHtml = keys.map(k => {
+          const label = multi ? `<span class="keys-set-label">Set ${k.name}</span>` : '';
+          return `<span style="display:inline-flex;align-items:center">${label}<code class="keys-key">${k.password}</code></span>`;
+        }).join('');
         return `
           <div class="keys-row">
             <div class="keys-date">${month}<span class="weekday">${weekday}</span></div>
-            <code class="keys-key">${a.password}</code>
+            <div class="keys-keys">${keysHtml}</div>
           </div>
         `;
       }).join('');

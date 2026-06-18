@@ -22,6 +22,19 @@
     .hw-types { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
     .hw-type-badge { background: var(--blue-light, #fae8ff); color: var(--blue, #c026d3); border-radius: 6px; padding: 0.15em 0.6em; font-size: 0.78rem; font-weight: 600; }
     .hw-locked-badge { background: #fef3c7; color: #b45309; border-radius: 6px; padding: 0.15em 0.6em; font-size: 0.78rem; font-weight: 600; margin-left: 0.5rem; }
+    .hw-sets-badge { background: #e0e7ff; color: #4338ca; border-radius: 6px; padding: 0.15em 0.6em; font-size: 0.78rem; font-weight: 600; margin-left: 0.5rem; }
+
+    /* Set tabs */
+    .set-tabs { display: flex; gap: 0.3rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .set-tab {
+      background: var(--surface,#fff); border: 1px solid var(--border,#dde3ec);
+      color: var(--text,#1c2333); border-radius: 999px;
+      padding: 0.35rem 0.95rem; font-size: 0.85rem; font-weight: 700;
+      cursor: pointer; transition: all 0.12s;
+    }
+    .set-tab:hover { background: var(--primary-light,#fae8ff); }
+    .set-tab.active { background: var(--primary,#c026d3); color: #fff; border-color: var(--primary,#c026d3); }
+    .set-tab-sub { font-size: 0.7rem; font-weight: 500; opacity: 0.8; margin-left: 0.4em; }
 
     /* ── Password gate ── */
     #hw-unlock { display: none; max-width: 400px; margin: 3rem auto; text-align: center; }
@@ -132,6 +145,7 @@
         <h2 id="hw-session-title"></h2>
         <button id="hw-unlock-btn" style="background:none;border:1px solid #f59e0b;border-radius:8px;padding:0.35rem 0.85rem;font-size:0.85rem;font-weight:700;color:#b45309;cursor:pointer;display:none" onclick="showUnlock()">🔒 Check answers</button>
       </div>
+      <div class="set-tabs" id="hw-set-tabs" style="display:none"></div>
       <div id="hw-all-answered-hint" style="display:none;background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:0.6rem 1rem;margin-bottom:1rem;font-size:0.88rem;color:#92400e">
         ⚠️ Answer all questions first before checking your answers.
       </div>
@@ -157,7 +171,7 @@
   // PREP
   // ════════════════════════════════════════════════════════════════
   let assignments = [];
-  let currentAssignment = null;
+  let currentAssignment = null;  // { ...hw, _activeSet: '1', _sets, _setNames }
   let unlocked = false;   // answers unlocked for current session
   let answered = {};
   let revealed = {};
@@ -165,27 +179,40 @@
   // ── Diagram renderer (uses shared SHSAT.renderDiagramHtml from common.js) ──
   const renderDiagram = window.SHSAT.renderDiagramHtml;
 
+  // ── Normalize sets (handles legacy flat schema) ───────────────
+  function getSets(hw) {
+    if (hw.sets && Object.keys(hw.sets).length) return hw.sets;
+    return { '1': { questions: hw.questions || [], password: hw.password || null } };
+  }
+  function setLabel(name) { return 'Set ' + name; }
+
   // ── Load index ────────────────────────────────────────────────
   async function loadHomework() {
     let data;
-    try { const r = await fetch('homework/index.json'); data = r.ok ? await r.json() : []; }
+    try { const r = await fetch('homework/index.json?v=' + Date.now()); data = r.ok ? await r.json() : []; }
     catch { data = []; }
     assignments = data;
     renderList();
-    // If URL has a date hash like #2026-05-14, open that assignment
+    // If URL has a date hash like #2026-05-14 or #2026-06-17/2, open that assignment+set
     routeFromHash();
   }
 
+  function parseHash() {
+    const raw = (window.location.hash || '').replace(/^#/, '');
+    if (!raw) return null;
+    const [date, set] = raw.split('/');
+    return { date, set: set || null };
+  }
+
   function routeFromHash() {
-    const hash = (window.location.hash || '').replace(/^#/, '');
-    if (!hash) return;
-    const hw = assignments.find(a => a.date === hash);
-    if (hw) openAssignment(hw);
+    const parsed = parseHash();
+    if (!parsed) return;
+    const hw = assignments.find(a => a.date === parsed.date);
+    if (hw) openAssignment(hw, parsed.set);
   }
 
   window.addEventListener('hashchange', () => {
-    const hash = (window.location.hash || '').replace(/^#/, '');
-    if (!hash) {
+    if (!parseHash()) {
       // back to list
       document.getElementById('hw-session').style.display='none';
       document.getElementById('hw-unlock').style.display='none';
@@ -202,20 +229,29 @@
     list.innerHTML = '';
     if (!assignments.length) { empty.style.display=''; return; }
     [...assignments].sort((a,b)=>a.date.localeCompare(b.date)).forEach(hw => {
+      const sets = getSets(hw);
+      const setNames = Object.keys(sets).sort();
+      const firstSet = sets[setNames[0]];
+      const nQ = (firstSet.questions||[]).length;
       const card = document.createElement('div');
       card.className = 'hw-card';
-      const typeIds = (hw.questions||[]).map(q=>q.type_id).filter((v,i,a)=>a.indexOf(v)===i);
-      const lockBadge = hw.password ? '<span class="hw-locked-badge">🔒 locked</span>' : '';
+      const typeIds = (firstSet.questions||[]).map(q=>q.type_id).filter((v,i,a)=>a.indexOf(v)===i);
+      const lockBadge = firstSet.password ? '<span class="hw-locked-badge">🔒 locked</span>' : '';
+      const setsBadge = setNames.length > 1 ? `<span class="hw-sets-badge">${setNames.length} sets</span>` : '';
+      const meta = setNames.length > 1
+        ? `${setNames.length} × ${nQ} questions`
+        : `${nQ} question${nQ!==1?'s':''}`;
       card.innerHTML = `
         <div class="hw-card-header">
           <span class="hw-date">${formatDate(hw.date)}</span>
-          <span class="hw-meta">${(hw.questions||[]).length} question${(hw.questions||[]).length!==1?'s':''}</span>
+          <span class="hw-meta">${meta}</span>
         </div>
-        <div class="hw-title">${hw.title} ${lockBadge}</div>
+        <div class="hw-title">${hw.title} ${lockBadge}${setsBadge}</div>
         <div class="hw-types">${typeIds.map(id=>`<span class="hw-type-badge">${id}</span>`).join('')}</div>
       `;
       card.onclick = () => {
-        if (window.location.hash !== '#' + hw.date) {
+        const targetHash = '#' + hw.date;
+        if (window.location.hash !== targetHash) {
           window.location.hash = hw.date; // hashchange handler will openAssignment
         } else {
           openAssignment(hw);
@@ -310,13 +346,22 @@
   };
 
   // ── Open assignment ───────────────────────────────────────────
-  async function openAssignment(hw) {
+  async function openAssignment(hw, requestedSet) {
+    const sets = getSets(hw);
+    const setNames = Object.keys(sets).sort();
+    const activeSet = (requestedSet && sets[requestedSet]) ? requestedSet : setNames[0];
+    const setData = sets[activeSet];
+
     currentAssignment = hw;
+    currentAssignment._sets = sets;
+    currentAssignment._setNames = setNames;
+    currentAssignment._activeSet = activeSet;
+    currentAssignment.password = setData.password;  // selectOption / unlock-btn read this
     answered = {}; revealed = {};
-    unlocked = !hw.password; // if no password, auto-unlock
+    unlocked = !setData.password; // if no password, auto-unlock
 
     const questions = [];
-    for (const item of (hw.questions||[])) {
+    for (const item of (setData.questions||[])) {
       try {
         const r = await fetch(`data/generated/type_${item.type_id}.json`);
         if (!r.ok) continue;
@@ -339,9 +384,36 @@
     document.getElementById('hw-summary').style.display='none';
     document.getElementById('hw-all-answered-hint').style.display='none';
     document.getElementById('hw-session-title').textContent = hw.title;
+    renderSetTabs(setNames, activeSet, hw.date);
     // Unlock button hidden until all answered (updated in selectOption)
     document.getElementById('hw-unlock-btn').style.display = 'none';
     renderSession(questions);
+  }
+
+  function renderSetTabs(setNames, activeSet, date) {
+    const tabs = document.getElementById('hw-set-tabs');
+    if (setNames.length <= 1) {
+      tabs.style.display = 'none';
+      return;
+    }
+    tabs.style.display = 'flex';
+    tabs.innerHTML = setNames.map(name => {
+      const cls = name === activeSet ? 'set-tab active' : 'set-tab';
+      const sub = name === '1' ? '<span class="set-tab-sub">original</span>' : '<span class="set-tab-sub">expanded</span>';
+      return `<button class="${cls}" data-set="${name}">${setLabel(name)} ${sub}</button>`;
+    }).join('');
+    tabs.querySelectorAll('.set-tab').forEach(btn => {
+      btn.onclick = () => {
+        const next = btn.dataset.set;
+        if (next === currentAssignment._activeSet) return;
+        const targetHash = '#' + date + '/' + next;
+        if (window.location.hash !== targetHash) {
+          window.location.hash = date + '/' + next; // hashchange triggers reload
+        } else {
+          openAssignment(currentAssignment, next);
+        }
+      };
+    });
   }
 
   function renderSession(questions) {
