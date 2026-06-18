@@ -15,10 +15,11 @@
 
   const STROKE_WIDTH = 2.5;
   const DEFAULT_COLOR = '#1a73e8';
+  const ERASER_RADIUS = 22;  // px around pointer that wipes strokes
   let strokes = [];
   let currentStroke = null;
   let drawing = false;
-  let mode = 'scroll';      // 'scroll' | 'draw'
+  let mode = 'scroll';      // 'scroll' | 'draw' | 'erase'
   let color = DEFAULT_COLOR;
 
   // ── Canvas (page-sized, behind toolbar) ──
@@ -70,20 +71,45 @@
     return { x: e.pageX, y: e.pageY };
   }
 
+  function eraseAt(x, y) {
+    const r2 = ERASER_RADIUS * ERASER_RADIUS;
+    const before = strokes.length;
+    strokes = strokes.filter((s) => {
+      for (let i = 0; i < s.points.length; i++) {
+        const dx = s.points[i].x - x;
+        const dy = s.points[i].y - y;
+        if (dx * dx + dy * dy < r2) return false;
+      }
+      return true;
+    });
+    if (strokes.length !== before) redraw();
+  }
+
   canvas.addEventListener('pointerdown', (e) => {
-    if (mode !== 'draw') return;
+    if (mode === 'scroll') return;
     e.preventDefault();
-    drawing = true;
     canvas.setPointerCapture(e.pointerId);
-    currentStroke = { color, width: STROKE_WIDTH, points: [pageCoord(e)] };
-    strokes.push(currentStroke);
-    redraw();
+    if (mode === 'draw') {
+      drawing = true;
+      currentStroke = { color, width: STROKE_WIDTH, points: [pageCoord(e)] };
+      strokes.push(currentStroke);
+      redraw();
+    } else if (mode === 'erase') {
+      drawing = true;
+      const pt = pageCoord(e);
+      eraseAt(pt.x, pt.y);
+    }
   });
   canvas.addEventListener('pointermove', (e) => {
     if (!drawing) return;
     e.preventDefault();
-    currentStroke.points.push(pageCoord(e));
-    redraw();
+    if (mode === 'draw') {
+      currentStroke.points.push(pageCoord(e));
+      redraw();
+    } else if (mode === 'erase') {
+      const pt = pageCoord(e);
+      eraseAt(pt.x, pt.y);
+    }
   });
   function endStroke(e) {
     if (!drawing) return;
@@ -99,7 +125,8 @@
   const toolbar = document.createElement('div');
   toolbar.id = 'scratchpad-toolbar';
   toolbar.innerHTML = `
-    <button id="sp-mode" type="button" title="Toggle draw / scroll">✏️</button>
+    <button id="sp-mode" type="button" title="Draw mode">✏️</button>
+    <button id="sp-erase" type="button" title="Eraser (removes whole strokes)">🩹</button>
     <input type="color" id="sp-color" value="${DEFAULT_COLOR}" title="Stroke color">
     <button id="sp-undo" type="button" title="Undo last stroke">↶</button>
     <button id="sp-clear" type="button" title="Clear all">🗑️</button>
@@ -159,14 +186,17 @@
 
   function setMode(next) {
     mode = next;
-    canvas.style.pointerEvents = (mode === 'draw') ? 'auto' : 'none';
-    canvas.style.touchAction = (mode === 'draw') ? 'none' : 'auto';
-    canvas.style.cursor = (mode === 'draw') ? 'crosshair' : 'default';
-    document.body.classList.toggle('scratchpad-draw-mode', mode === 'draw');
-    const btn = document.getElementById('sp-mode');
-    btn.classList.toggle('active', mode === 'draw');
-    btn.textContent = (mode === 'draw') ? '🖊️' : '✏️';
-    document.getElementById('sp-status').textContent = (mode === 'draw') ? 'Draw' : 'Scroll';
+    const interactive = (mode !== 'scroll');
+    canvas.style.pointerEvents = interactive ? 'auto' : 'none';
+    canvas.style.touchAction = interactive ? 'none' : 'auto';
+    canvas.style.cursor = mode === 'draw' ? 'crosshair' : (mode === 'erase' ? 'cell' : 'default');
+    // body class disables text-selection/iOS callout while drawing or erasing
+    document.body.classList.toggle('scratchpad-draw-mode', interactive);
+    document.getElementById('sp-mode').classList.toggle('active', mode === 'draw');
+    document.getElementById('sp-erase').classList.toggle('active', mode === 'erase');
+    document.getElementById('sp-mode').textContent = (mode === 'draw') ? '🖊️' : '✏️';
+    const label = mode === 'draw' ? 'Draw' : (mode === 'erase' ? 'Erase' : 'Scroll');
+    document.getElementById('sp-status').textContent = label;
   }
 
   // ── Wire everything once DOM is ready ──
@@ -175,6 +205,9 @@
     document.body.appendChild(toolbar);
     document.getElementById('sp-mode').addEventListener('click', () => {
       setMode(mode === 'draw' ? 'scroll' : 'draw');
+    });
+    document.getElementById('sp-erase').addEventListener('click', () => {
+      setMode(mode === 'erase' ? 'scroll' : 'erase');
     });
     document.getElementById('sp-color').addEventListener('input', (e) => {
       color = e.target.value;
@@ -207,6 +240,7 @@
     document.addEventListener('keydown', (e) => {
       if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
       if (e.key === 'd' || e.key === 'D') setMode(mode === 'draw' ? 'scroll' : 'draw');
+      if (e.key === 'e' || e.key === 'E') setMode(mode === 'erase' ? 'scroll' : 'erase');
       if ((e.key === 'z' || e.key === 'Z') && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();
         strokes.pop();
@@ -214,7 +248,7 @@
       }
     });
 
-    console.log('[scratchpad] active — toggle with toolbar or "d" key');
+    console.log('[scratchpad] active — d=draw, e=erase, ⌘Z=undo');
   }
 
   if (document.readyState === 'loading') {
