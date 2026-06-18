@@ -304,6 +304,20 @@
       if (inForm(e) || inToolbarOrCanvas(e)) return;
       e.preventDefault();
     }, { passive: false, capture: true });
+
+    // Pencil pointerdown fires before touchstart/selectstart and is what
+    // actually triggers iPadOS's "look up / Ask AI" popover when the pen
+    // lands on text. Cancel pen pointerdown on regular page content;
+    // toolbar/canvas/form inputs are exempted.
+    const blockPenPointer = (e) => {
+      if (e.pointerType !== 'pen') return;
+      if (inForm(e) || inToolbarOrCanvas(e)) return;
+      e.preventDefault();
+      // Don't stopPropagation — answer-option onclick handlers still need
+      // to receive synthetic click events that follow.
+    };
+    document.addEventListener('pointerdown', blockPenPointer, { capture: true });
+    document.addEventListener('pointerup',   blockPenPointer, { capture: true });
     document.getElementById('sp-mode').addEventListener('click', () => {
       setMode(mode === 'draw' ? 'scroll' : 'draw');
     });
