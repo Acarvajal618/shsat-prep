@@ -1,0 +1,184 @@
+{
+  "_schema": {
+    "description": "NYC DOE SHSAT Practice Test A — Math section (50 questions). Kept fully separate from the type_X_Y bank; DO NOT sample these into daily prep panels yet.",
+    "id_format": "AM<NN>  (variations later: AM<NN>.1, AM<NN>.2, ...)",
+    "question_types": {
+      "mc":       "Multiple choice A-D, one answer",
+      "mc_multi": "Multiple choice A-F, N correct answers ('select the TWO correct answers')",
+      "grid_in":  "Numeric text input (may also carry an inline figure/diagram)",
+      "dropdown": "One or more inline dropdowns embedded in a walkthrough"
+    },
+    "fields": {
+      "id":                 "AM01..AM50",
+      "origin":             "DOE_EXAM_A",
+      "q_number":           "1..50 (integer)",
+      "question_type":      "mc | mc_multi | grid_in | dropdown",
+      "question":           "prompt text (multi-line ok; math typeset simply — e.g. x/1 = 0.125/125, x = 0.001)",
+      "options":            "for mc/mc_multi: {A, B, ...} -> string",
+      "n_correct":          "for mc_multi: how many correct choices are expected (e.g. 2)",
+      "correct":            "for mc: single letter string; for mc_multi: array of letters; blank until solutions loaded",
+      "grid_answer":        "for grid_in: numeric answer as string (blank until solutions loaded)",
+      "dropdowns":          "for dropdown: [{label, choices[], answer_index}] — one per blank in the prompt",
+      "exhibit_image_path": "optional path to a supporting figure image (relative to web/public/)",
+      "source_screenshot":  "AM<NN>.png in Problems/EXAM_A/",
+      "transcription_status": "empty | transcribed | verified"
+    },
+    "type_id":  "left null for now; will map to the 41-major-type system in a later pass",
+    "solution": "left null for now; will be filled with DOE-provided solutions when supplied"
+  },
+  "questions": [
+    {
+      "id": "AM01",
+      "origin": "DOE_EXAM_A",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "In a scale diagram, 0.125 inch represents 125 feet. How many inches represent 1 foot?",
+      "options": {
+        "A": "0.001",
+        "B": "0.01",
+        "C": "0.1",
+        "D": "0.12"
+      },
+      "correct": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM01.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM02",
+      "origin": "DOE_EXAM_A",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "A car is traveling 55 miles per hour, and 1 mile = 5,280 feet. Which of the following calculations would give the car's speed in **feet per second**?",
+      "options": {
+        "A": "(55 · 5,280) / 1",
+        "B": "(55 · 5,280) / 3,600",
+        "C": "(55 · 3,600) / 5,280",
+        "D": "(55 · 5,280) / 60"
+      },
+      "correct": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM02.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM03",
+      "origin": "DOE_EXAM_A",
+      "q_number": 3,
+      "question_type": "grid_in",
+      "question": "For what value of w is 4w = 2w − 8?",
+      "grid_answer": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM03.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM04",
+      "origin": "DOE_EXAM_A",
+      "q_number": 4,
+      "question_type": "grid_in",
+      "question": "A survey asked students what pets they have. Based on the results, the following statements are all true:\n\n• 20 students have cats.\n• 23 students have dogs.\n• 3 students have both dogs and cats.\n• 5 students have no dogs or cats.\n\nHow many students were surveyed?",
+      "grid_answer": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM04.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM05",
+      "origin": "DOE_EXAM_A",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "The sum of the numbers x, y, and z is 50. The ratio of x to y is 1:4, and the ratio of y to z is 4:5. What is the value of y?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "10",
+        "D": "20"
+      },
+      "correct": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM05.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM06",
+      "origin": "DOE_EXAM_A",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "7 + (3n + 6) − (4n + 8) =",
+      "options": {
+        "A": "5 − n",
+        "B": "5 + n",
+        "C": "21 − n",
+        "D": "21 + n"
+      },
+      "correct": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM06.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM07",
+      "origin": "DOE_EXAM_A",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "In a certain school, course grades range from 0 to 100. Adrianna took 4 courses and her mean course grade was 90. Roberto took 5 courses. If both students have the same sum of course grades, what was Roberto's mean?",
+      "options": {
+        "A": "72",
+        "B": "80",
+        "C": "90",
+        "D": "92"
+      },
+      "correct": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM07.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM08",
+      "origin": "DOE_EXAM_A",
+      "q_number": 8,
+      "question_type": "dropdown",
+      "question": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives 8 of his stamps to Kevin. Liam now has 12 more stamps than Kevin.\n\nHow many stamps did Liam start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of stamps originally in Liam's and Kevin's collections is L = [DROPDOWN_1] K.\n\nAfter Liam gives 8 stamps to Kevin, the equation becomes L − 8 = [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Liam started with [DROPDOWN_3] stamps.",
+      "dropdowns": [
+        { "label": "DROPDOWN_1", "choices": null, "answer_index": null },
+        { "label": "DROPDOWN_2", "choices": null, "answer_index": null },
+        { "label": "DROPDOWN_3", "choices": null, "answer_index": null }
+      ],
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM08.png",
+      "transcription_status": "transcribed_needs_dropdown_choices"
+    },
+    {
+      "id": "AM09",
+      "origin": "DOE_EXAM_A",
+      "q_number": 9,
+      "question_type": "grid_in",
+      "question": "In the figure above, PQRS is a parallelogram. What is the value of x?\n\n(Figure: parallelogram PQRS with a small square marking a right angle at Q where x° sits at the top-left corner, and 72° marked at the bottom-right at vertex S.)",
+      "grid_answer": null,
+      "exhibit_image_path": "images/exam_a/AM09_figure.png",
+      "source_screenshot": "Problems/EXAM_A/AM09.png",
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM10",
+      "origin": "DOE_EXAM_A",
+      "q_number": 10,
+      "question_type": "mc_multi",
+      "question": "Three expressions are given:\n\n−2(2.5n + 4)\n5 − n\n3(2n + 7)\n\nWhich of these are equivalent to the sum of these three expressions?\n\nSelect the **two** correct answers.",
+      "options": {
+        "A": "5 − n + 6n + 21 − 5n − 8",
+        "B": "5 − n + 6n + 21 − 5n + 8",
+        "C": "5 − n + 5n + 21 − 5n − 8",
+        "D": "18 − n",
+        "E": "18",
+        "F": "34"
+      },
+      "n_correct": 2,
+      "correct": null,
+      "exhibit_image_path": null,
+      "source_screenshot": "Problems/EXAM_A/AM10.png",
+      "transcription_status": "transcribed"
+    }
+  ]
+}
