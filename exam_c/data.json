@@ -1,0 +1,9 @@
+{
+  "_schema": {
+    "description": "NYC DOE SHSAT Practice Test C — Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A/B schema.",
+    "id_format": "CM<NN>  (variants later: CM<NN>.1, CM<NN>.2, ...)",
+    "math_notation": "LaTeX math in \\( ... \\) inline and \\[ ... \\] display; KaTeX renders it in the browser.",
+    "question_types": ["mc", "mc_multi", "grid_in", "grid_keypad", "dropdown", "drag_drop", "graph_select", "ray_place", "numberline_click"]
+  },
+  "questions": []
+}
