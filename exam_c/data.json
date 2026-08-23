@@ -1,146 +1,430 @@
 {
   "_schema": {
-    "description": "NYC DOE SHSAT Practice Test C — Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A/B schema.",
+    "description": "NYC DOE SHSAT Practice Test C \u2014 Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A/B schema.",
     "id_format": "CM<NN>  (variants later: CM<NN>.1, CM<NN>.2, ...)",
     "math_notation": "LaTeX math in \\( ... \\) inline and \\[ ... \\] display; KaTeX renders it in the browser.",
-    "question_types": ["mc", "mc_multi", "grid_in", "grid_keypad", "dropdown", "drag_drop", "graph_select", "ray_place", "numberline_click"]
+    "question_types": [
+      "mc",
+      "mc_multi",
+      "grid_in",
+      "grid_keypad",
+      "dropdown",
+      "drag_drop",
+      "graph_select",
+      "ray_place",
+      "numberline_click"
+    ]
   },
   "questions": [
     {
-      "id": "CM01", "origin": "DOE_EXAM_C", "q_number": 1, "question_type": "mc",
+      "id": "CM01",
+      "origin": "DOE_EXAM_C",
+      "q_number": 1,
+      "question_type": "mc",
       "question": "What is the prime factorization of \\(756\\)?",
-      "options": {"A": "\\(2^2 \\cdot 3^2 \\cdot 21\\)", "B": "\\(2^2 \\cdot 3 \\cdot 7 \\cdot 9\\)", "C": "\\(2^2 \\cdot 7 \\cdot 27\\)", "D": "\\(2^2 \\cdot 3^3 \\cdot 7\\)"},
+      "options": {
+        "A": "\\(2^2 \\cdot 3^2 \\cdot 21\\)",
+        "B": "\\(2^2 \\cdot 3 \\cdot 7 \\cdot 9\\)",
+        "C": "\\(2^2 \\cdot 7 \\cdot 27\\)",
+        "D": "\\(2^2 \\cdot 3^3 \\cdot 7\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_C/CM01.png",
-      "solution": {"letter": "D", "exhibit_text": "(D) Determine the prime factors of \\(756\\) using a factor tree:\n\n\\(756\\)\n\\(\\;\\; 2 \\;\\; 378\\)\n\\(\\;\\;\\;\\;\\;\\; 2 \\;\\; 189\\)\n\\(\\;\\;\\;\\;\\;\\;\\;\\;\\;\\; 3 \\;\\; 63\\)\n\\(\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\; 3 \\;\\; 21\\)\n\\(\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\; 3 \\;\\; 7\\)\n\nThe prime factors are \\(2, 2, 3, 3, 3,\\) and \\(7\\), or \\(2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 3 \\cdot 7\\), which can be expressed using exponents as \\(2^2 \\cdot 3^3 \\cdot 7\\)."},
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Determine the prime factors of \\(756\\) using a factor tree:\n\n\\(756\\)\n\\(\\;\\; 2 \\;\\; 378\\)\n\\(\\;\\;\\;\\;\\;\\; 2 \\;\\; 189\\)\n\\(\\;\\;\\;\\;\\;\\;\\;\\;\\;\\; 3 \\;\\; 63\\)\n\\(\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\; 3 \\;\\; 21\\)\n\\(\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\; 3 \\;\\; 7\\)\n\nThe prime factors are \\(2, 2, 3, 3, 3,\\) and \\(7\\), or \\(2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 3 \\cdot 7\\), which can be expressed using exponents as \\(2^2 \\cdot 3^3 \\cdot 7\\)."
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM02", "origin": "DOE_EXAM_C", "q_number": 2, "question_type": "mc",
+      "id": "CM02",
+      "origin": "DOE_EXAM_C",
+      "q_number": 2,
+      "question_type": "mc",
       "question": "If \\((8 \\div m) + 4 = 20\\), what is the value of \\(m\\)?",
-      "options": {"A": "\\(\\dfrac{1}{3}\\)", "B": "\\(\\dfrac{1}{2}\\)", "C": "\\(2\\)", "D": "\\(3\\)"},
+      "options": {
+        "A": "\\(\\dfrac{1}{3}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(2\\)",
+        "D": "\\(3\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_C/CM02.png",
-      "solution": {"letter": "B", "exhibit_text": "(B) The quantity \\((8 \\div m)\\) means the same as \\(\\dfrac{8}{m}\\), so the equation can be rewritten:\n\n\\[\\left(\\dfrac{8}{m}\\right) + 4 = 20\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\\left(\\dfrac{8}{m}\\right) = 16\\]\n\nMultiply both sides of the equation by \\(m\\):\n\n\\[8 = 16m\\]\n\nSolve for \\(m\\):\n\n\\[\\left(\\dfrac{8}{16}\\right) = m\\]\n\\[\\dfrac{1}{2} = m\\]"},
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) The quantity \\((8 \\div m)\\) means the same as \\(\\dfrac{8}{m}\\), so the equation can be rewritten:\n\n\\[\\left(\\dfrac{8}{m}\\right) + 4 = 20\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\\left(\\dfrac{8}{m}\\right) = 16\\]\n\nMultiply both sides of the equation by \\(m\\):\n\n\\[8 = 16m\\]\n\nSolve for \\(m\\):\n\n\\[\\left(\\dfrac{8}{16}\\right) = m\\]\n\\[\\dfrac{1}{2} = m\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM03", "origin": "DOE_EXAM_C", "q_number": 3, "question_type": "mc",
+      "id": "CM03",
+      "origin": "DOE_EXAM_C",
+      "q_number": 3,
+      "question_type": "mc",
       "question": "\\[6x = x - 1{,}680\\]\n\nWhat is the value of \\(x\\) in the equation shown above?",
-      "options": {"A": "\\(336\\)", "B": "\\(240\\)", "C": "\\(-240\\)", "D": "\\(-336\\)"},
+      "options": {
+        "A": "\\(336\\)",
+        "B": "\\(240\\)",
+        "C": "\\(-240\\)",
+        "D": "\\(-336\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_C/CM03.png",
-      "solution": {"letter": "D", "exhibit_text": "(D) Simplify \\(6x = x - 1{,}680\\). First, subtract \\(x\\) from both sides of the equation. Then, divide both sides by \\(5\\).\n\n\\[6x - x = x - x - 1{,}680\\]\n\\[5x = -1{,}680\\]\n\\[\\dfrac{5x}{5} = \\dfrac{-1{,}680}{5}\\]\n\\[x = -336\\]"},
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Simplify \\(6x = x - 1{,}680\\). First, subtract \\(x\\) from both sides of the equation. Then, divide both sides by \\(5\\).\n\n\\[6x - x = x - x - 1{,}680\\]\n\\[5x = -1{,}680\\]\n\\[\\dfrac{5x}{5} = \\dfrac{-1{,}680}{5}\\]\n\\[x = -336\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM04", "origin": "DOE_EXAM_C", "q_number": 4, "question_type": "mc",
+      "id": "CM04",
+      "origin": "DOE_EXAM_C",
+      "q_number": 4,
+      "question_type": "mc",
       "question": "A person buys a used car with a down payment of $\\(1{,}200\\) and makes monthly payments of $\\(275\\) for \\(3\\) years. What is the total amount the person pays for the car?",
-      "options": {"A": "$\\(2{,}025\\)", "B": "$\\(9{,}900\\)", "C": "$\\(11{,}100\\)", "D": "$\\(13{,}500\\)"},
+      "options": {
+        "A": "$\\(2{,}025\\)",
+        "B": "$\\(9{,}900\\)",
+        "C": "$\\(11{,}100\\)",
+        "D": "$\\(13{,}500\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_C/CM04.png",
-      "solution": {"letter": "C", "exhibit_text": "(C) Determine the total cost of the car by adding the down payment to the total monthly payments over \\(3\\) years.\n\nThere are \\(12\\) months in a year, so multiply (\\(12\\) months/year \\(\\times\\) \\(3\\) years) to get a total of \\(36\\) months. Determine the total monthly payments by multiplying the monthly payment (\\$\\(275\\)) \\(\\times\\) the total number of months (\\(36\\)):\n\n\\[275 \\times 36 = 9{,}900\\]\n\nDetermine the total cost of the car by adding the down payment (\\$\\(1{,}200\\)) to the total monthly payments (\\$\\(9{,}900\\)):\n\n\\[9{,}900 + 1{,}200 = 11{,}100\\]\n\nThe total cost of the car is \\$\\(11{,}100\\)."},
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Determine the total cost of the car by adding the down payment to the total monthly payments over \\(3\\) years.\n\nThere are \\(12\\) months in a year, so multiply (\\(12\\) months/year \\(\\times\\) \\(3\\) years) to get a total of \\(36\\) months. Determine the total monthly payments by multiplying the monthly payment (\\$\\(275\\)) \\(\\times\\) the total number of months (\\(36\\)):\n\n\\[275 \\times 36 = 9{,}900\\]\n\nDetermine the total cost of the car by adding the down payment (\\$\\(1{,}200\\)) to the total monthly payments (\\$\\(9{,}900\\)):\n\n\\[9{,}900 + 1{,}200 = 11{,}100\\]\n\nThe total cost of the car is \\$\\(11{,}100\\)."
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM05", "origin": "DOE_EXAM_C", "q_number": 5, "question_type": "grid_in",
+      "id": "CM05",
+      "origin": "DOE_EXAM_C",
+      "q_number": 5,
+      "question_type": "grid_in",
       "question": "Maya read \\(n\\) pages for her English homework. Trevor read three times as many pages as Maya. Together, Maya and Trevor read \\(12\\) more pages than Ali read. Write an expression that shows how many pages Ali read, in terms of \\(n\\).\n\nEnter your answer in the space provided. Enter only your answer.",
       "grid_answer": "4n - 12",
       "source_screenshot": "Problems/EXAM_C/CM05.png",
-      "solution": {"letter": null, "exhibit_text": "(\\(4n - 12\\)) Let \\(n\\) represent the number of pages that Maya read.\n\nTrevor read three times as many pages as Maya: Trevor's pages \\(= 3n\\).\n\nTo find how many pages they read together, add Maya's and Trevor's pages: \\(n + 3n = 4n\\).\n\nThis means that together, they read \\(4n\\) pages.\n\nAli read \\(12\\) fewer pages than Maya and Trevor read together. So \\(12\\) should be subtracted from the total:\n\nAli's pages \\(= 4n - 12\\)."},
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(4n - 12\\)) Let \\(n\\) represent the number of pages that Maya read.\n\nTrevor read three times as many pages as Maya: Trevor's pages \\(= 3n\\).\n\nTo find how many pages they read together, add Maya's and Trevor's pages: \\(n + 3n = 4n\\).\n\nThis means that together, they read \\(4n\\) pages.\n\nAli read \\(12\\) fewer pages than Maya and Trevor read together. So \\(12\\) should be subtracted from the total:\n\nAli's pages \\(= 4n - 12\\)."
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM06", "origin": "DOE_EXAM_C", "q_number": 6, "question_type": "mc",
+      "id": "CM06",
+      "origin": "DOE_EXAM_C",
+      "q_number": 6,
+      "question_type": "mc",
       "question": "In the parallelogram above, what is the value of \\(x\\)?",
-      "options": {"A": "\\(36\\)", "B": "\\(18\\)", "C": "\\(6\\)", "D": "\\(5\\)"},
+      "options": {
+        "A": "\\(36\\)",
+        "B": "\\(18\\)",
+        "C": "\\(6\\)",
+        "D": "\\(5\\)"
+      },
       "correct": "A",
-      "figure_svg": "<svg viewBox='0 0 500 220' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><polygon points='120,170 200,50 460,50 380,170' fill='none' stroke='#111' stroke-width='1.6'/><text x='350' y='75' font-family='Georgia,serif' font-style='italic' font-size='18'>3x°</text><text x='195' y='165' font-family='Georgia,serif' font-style='italic' font-size='18'>2x°</text><path d='M 200 50 L 218 60 L 210 75' fill='none' stroke='#111' stroke-width='1' /><path d='M 380 170 L 358 165 L 365 148' fill='none' stroke='#111' stroke-width='1' /></svg>",
+      "figure_svg": "<svg viewBox='0 0 500 220' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><polygon points='120,170 200,50 460,50 380,170' fill='none' stroke='#111' stroke-width='1.6'/><text x='350' y='75' font-family='Georgia,serif' font-style='italic' font-size='18'>3x\u00b0</text><text x='195' y='165' font-family='Georgia,serif' font-style='italic' font-size='18'>2x\u00b0</text><path d='M 200 50 L 218 60 L 210 75' fill='none' stroke='#111' stroke-width='1' /><path d='M 380 170 L 358 165 L 365 148' fill='none' stroke='#111' stroke-width='1' /></svg>",
       "source_screenshot": "Problems/EXAM_C/CM06.png",
-      "solution": {"letter": "A", "exhibit_text": "(A) In a parallelogram, any two adjacent angles are supplementary, so the sum of the two given angles is equal to \\(180°\\).\n\nWrite an equation showing that the sum of \\(3x°\\) and \\(2x°\\) is equal to \\(180°\\):\n\n\\[3x + 2x = 180\\]\n\nSolve for \\(x\\):\n\n\\[5x = 180\\]\n\\[\\dfrac{5x}{5} = \\dfrac{180}{5}\\]\n\\[x = 36\\]"},
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) In a parallelogram, any two adjacent angles are supplementary, so the sum of the two given angles is equal to \\(180\u00b0\\).\n\nWrite an equation showing that the sum of \\(3x\u00b0\\) and \\(2x\u00b0\\) is equal to \\(180\u00b0\\):\n\n\\[3x + 2x = 180\\]\n\nSolve for \\(x\\):\n\n\\[5x = 180\\]\n\\[\\dfrac{5x}{5} = \\dfrac{180}{5}\\]\n\\[x = 36\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM07", "origin": "DOE_EXAM_C", "q_number": 7, "question_type": "mc",
+      "id": "CM07",
+      "origin": "DOE_EXAM_C",
+      "q_number": 7,
+      "question_type": "mc",
       "question": "\\[-12 > 6x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
-      "options": {"A": "\\(x > -6\\)", "B": "\\(x < -6\\)", "C": "\\(x < -2\\)", "D": "\\(x > -2\\)"},
+      "options": {
+        "A": "\\(x > -6\\)",
+        "B": "\\(x < -6\\)",
+        "C": "\\(x < -2\\)",
+        "D": "\\(x > -2\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_C/CM07.png",
-      "solution": {"letter": "C", "exhibit_text": "(C) Divide to solve for \\(x\\):\n\n\\[\\dfrac{(-12)}{6} > \\dfrac{6x}{6}\\]\n\\[-2 > x\\]\n\nRewriting \\(-2 > x\\) with the \\(x\\) term first requires reversing the inequality symbol in order to keep the meaning \"\\(x\\) is less than \\((-2)\\)\".\n\n\\[x < -2\\]"},
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Divide to solve for \\(x\\):\n\n\\[\\dfrac{(-12)}{6} > \\dfrac{6x}{6}\\]\n\\[-2 > x\\]\n\nRewriting \\(-2 > x\\) with the \\(x\\) term first requires reversing the inequality symbol in order to keep the meaning \"\\(x\\) is less than \\((-2)\\)\".\n\n\\[x < -2\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM08", "origin": "DOE_EXAM_C", "q_number": 8, "question_type": "mc_multi",
+      "id": "CM08",
+      "origin": "DOE_EXAM_C",
+      "q_number": 8,
+      "question_type": "mc_multi",
       "question": "Jordan is helping plan snacks for a school dance. He knows that \\(0.75\\) of the students voted for pizza, and he wants to record the same amount using a fraction.\n\nWhich fractions are equivalent to the decimal \\(0.75\\)?\n\nSelect the **four** correct answers.",
-      "options": {"A": "\\(\\dfrac{3}{4}\\)", "B": "\\(\\dfrac{15}{20}\\)", "C": "\\(\\dfrac{75}{100}\\)", "D": "\\(\\dfrac{2}{5}\\)", "E": "\\(\\dfrac{6}{8}\\)", "F": "\\(\\dfrac{8}{10}\\)"},
+      "options": {
+        "A": "\\(\\dfrac{3}{4}\\)",
+        "B": "\\(\\dfrac{15}{20}\\)",
+        "C": "\\(\\dfrac{75}{100}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)",
+        "E": "\\(\\dfrac{6}{8}\\)",
+        "F": "\\(\\dfrac{8}{10}\\)"
+      },
       "n_correct": 4,
-      "correct": ["A", "B", "C", "E"],
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
       "source_screenshot": "Problems/EXAM_C/CM08.png",
-      "solution": {"letter": null, "exhibit_text": "(A, B, C, E) Check each fraction to determine whether it is equal to \\(0.75\\) when simplified or converted to a decimal.\n\n\\(\\dfrac{3}{4} \\to 3 \\div 4 = 0.75\\)\nThis is the most common fraction equal to \\(0.75\\).\n\n\\(\\dfrac{15}{20} \\to 15 \\div 20 = 0.75\\)\nSimplifies to \\(3/4\\), because \\(15\\) and \\(20\\) can both be divided by \\(5\\).\n\n\\(\\dfrac{75}{100} \\to 75 \\div 100 = 0.75\\)\nThis is a direct match to \\(0.75\\) when written as a decimal.\n\n\\(\\dfrac{2}{5} \\to 2 \\div 5 = 0.4\\), which is less than \\(0.75\\)."},
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(A, B, C, E) Check each fraction to determine whether it is equal to \\(0.75\\) when simplified or converted to a decimal.\n\n\\(\\dfrac{3}{4} \\to 3 \\div 4 = 0.75\\)\nThis is the most common fraction equal to \\(0.75\\).\n\n\\(\\dfrac{15}{20} \\to 15 \\div 20 = 0.75\\)\nSimplifies to \\(3/4\\), because \\(15\\) and \\(20\\) can both be divided by \\(5\\).\n\n\\(\\dfrac{75}{100} \\to 75 \\div 100 = 0.75\\)\nThis is a direct match to \\(0.75\\) when written as a decimal.\n\n\\(\\dfrac{2}{5} \\to 2 \\div 5 = 0.4\\), which is less than \\(0.75\\)."
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM09", "origin": "DOE_EXAM_C", "q_number": 9, "question_type": "mc",
+      "id": "CM09",
+      "origin": "DOE_EXAM_C",
+      "q_number": 9,
+      "question_type": "mc",
       "question": "Maria rides her bicycle to school at a constant speed of \\(15\\) miles per hour. If the distance to school is \\(6\\) miles, how many **minutes** will it take Maria to get to school?",
-      "options": {"A": "\\(10\\)", "B": "\\(15\\)", "C": "\\(24\\)", "D": "\\(30\\)"},
+      "options": {
+        "A": "\\(10\\)",
+        "B": "\\(15\\)",
+        "C": "\\(24\\)",
+        "D": "\\(30\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_C/CM09.png",
-      "solution": {"letter": "C", "exhibit_text": "(C) Maria's rate of speed is given as \\(15\\) miles per hour. Since \\(1\\) hour is equivalent to \\(60\\) minutes, her rate of speed, in miles per minute, can be determined.\n\n\\[\\dfrac{15 \\text{ miles}}{1 \\text{ hour}} = \\dfrac{15 \\text{ miles}}{60 \\text{ minutes}} = \\dfrac{1 \\text{ mile}}{4 \\text{ minutes}}, \\text{ or } \\dfrac{1}{4} \\text{ mile per minute}\\]\n\nTherefore, it takes Maria \\(4\\) minutes to ride \\(1\\) mile.\n\nThe distance to school is \\(6\\) miles, so it will take \\(6 \\times 4 = 24\\) minutes to ride to school."},
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Maria's rate of speed is given as \\(15\\) miles per hour. Since \\(1\\) hour is equivalent to \\(60\\) minutes, her rate of speed, in miles per minute, can be determined.\n\n\\[\\dfrac{15 \\text{ miles}}{1 \\text{ hour}} = \\dfrac{15 \\text{ miles}}{60 \\text{ minutes}} = \\dfrac{1 \\text{ mile}}{4 \\text{ minutes}}, \\text{ or } \\dfrac{1}{4} \\text{ mile per minute}\\]\n\nTherefore, it takes Maria \\(4\\) minutes to ride \\(1\\) mile.\n\nThe distance to school is \\(6\\) miles, so it will take \\(6 \\times 4 = 24\\) minutes to ride to school."
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM10", "origin": "DOE_EXAM_C", "q_number": 10, "question_type": "mc",
+      "id": "CM10",
+      "origin": "DOE_EXAM_C",
+      "q_number": 10,
+      "question_type": "mc",
       "question": "In the figure above, \\(n \\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
-      "options": {"A": "\\(17\\)", "B": "\\(117\\)", "C": "\\(163\\)", "D": "\\(173\\)"},
+      "options": {
+        "A": "\\(17\\)",
+        "B": "\\(117\\)",
+        "C": "\\(163\\)",
+        "D": "\\(173\\)"
+      },
       "correct": "C",
       "exhibit_image_path": "images/exam_c/CM10.png",
       "source_screenshot": "Problems/EXAM_C/CM10.png",
-      "solution": {"letter": "C", "exhibit_text": "(C) The triangle formed by line \\(p\\), line \\(m\\), and the line segment connecting the two contains a \\(73°\\) angle, a right angle (\\(90°\\)), and a missing angle measuring \\(x°\\). The sum of the interior angles of a triangle is \\(180°\\), so begin by finding the value of \\(x\\):\n\n\\[180° = 73° + 90° + x\\]\n\\[180° = 163° + x\\]\n\\[17° = x\\]\n\nLine \\(m\\) is a straight line, so it has a measure of \\(180°\\). The \\(17°\\) angle from the triangle and the adjacent angle outside the triangle are supplementary, so they have a sum of \\(180°\\). Let \\(s\\) represent the measure of the adjacent angle outside the triangle. The value of \\(s\\) can be determined by subtracting:\n\n\\[180° - 17° = s\\]\n\\[163° = s\\]\n\nSince \\(n \\parallel p\\), angle \\(s\\) and angle \\(r\\) are corresponding angles, so \\(r = 163°\\)."},
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) The triangle formed by line \\(p\\), line \\(m\\), and the line segment connecting the two contains a \\(73\u00b0\\) angle, a right angle (\\(90\u00b0\\)), and a missing angle measuring \\(x\u00b0\\). The sum of the interior angles of a triangle is \\(180\u00b0\\), so begin by finding the value of \\(x\\):\n\n\\[180\u00b0 = 73\u00b0 + 90\u00b0 + x\\]\n\\[180\u00b0 = 163\u00b0 + x\\]\n\\[17\u00b0 = x\\]\n\nLine \\(m\\) is a straight line, so it has a measure of \\(180\u00b0\\). The \\(17\u00b0\\) angle from the triangle and the adjacent angle outside the triangle are supplementary, so they have a sum of \\(180\u00b0\\). Let \\(s\\) represent the measure of the adjacent angle outside the triangle. The value of \\(s\\) can be determined by subtracting:\n\n\\[180\u00b0 - 17\u00b0 = s\\]\n\\[163\u00b0 = s\\]\n\nSince \\(n \\parallel p\\), angle \\(s\\) and angle \\(r\\) are corresponding angles, so \\(r = 163\u00b0\\)."
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM11", "origin": "DOE_EXAM_C", "q_number": 11, "question_type": "mc",
+      "id": "CM11",
+      "origin": "DOE_EXAM_C",
+      "q_number": 11,
+      "question_type": "mc",
       "question": "Allison has \\(5\\) stamp albums with \\(576\\) stamps in each album. If she transfers her stamp collection to \\(6\\) albums, each holding \\(378\\) stamps, how many stamps will be left over?",
-      "options": {"A": "\\(198\\)", "B": "\\(612\\)", "C": "\\(620\\)", "D": "\\(632\\)"},
+      "options": {
+        "A": "\\(198\\)",
+        "B": "\\(612\\)",
+        "C": "\\(620\\)",
+        "D": "\\(632\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_C/CM11.png",
-      "solution": {"letter": "B", "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"},
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM12", "origin": "DOE_EXAM_C", "q_number": 12, "question_type": "numberline_click",
+      "id": "CM12",
+      "origin": "DOE_EXAM_C",
+      "q_number": 12,
+      "question_type": "numberline_click",
       "question": "A spinner has \\(5\\) congruent sections labeled as shown. One side of a fair coin is heads, and the other side is tails. The spinner is spun one time, and the coin is flipped. What is the probability that the spinner lands on \\(1\\) and the coin lands on tails?\n\nSelect the place on the number line that represents the probability.",
-      "nl_min": 0, "nl_max": 1, "nl_step": 0.1,
+      "nl_min": 0,
+      "nl_max": 1,
+      "nl_step": 0.1,
       "correct": 0.2,
       "exhibit_image_path": "images/exam_c/CM12.png",
       "source_screenshot": "Problems/EXAM_C/CM12.png",
-      "solution": {"letter": null, "exhibit_text": "\\(0.2\\) \\(\\left(\\dfrac{2}{10}\\right)\\)\n\nThe spinner has five equal-sized sections. Two of the sections are labeled with a \\(1\\). So, the probability of landing on a \\(1\\) is two out of five, or \\(2/5\\).\n\nA coin has two sides, one heads and one tails. So, the probability of landing on tails is one out of two, or \\(1/2\\).\n\nThe compound probability of the spinner landing on a \\(1\\) **and** the coin landing on tails can be calculated by multiplying \\(2/5\\) and \\(1/2\\) as shown:\n\n\\[\\dfrac{2}{5} \\cdot \\dfrac{1}{2} = \\dfrac{2}{10} = 0.2\\]"},
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(0.2\\) \\(\\left(\\dfrac{2}{10}\\right)\\)\n\nThe spinner has five equal-sized sections. Two of the sections are labeled with a \\(1\\). So, the probability of landing on a \\(1\\) is two out of five, or \\(2/5\\).\n\nA coin has two sides, one heads and one tails. So, the probability of landing on tails is one out of two, or \\(1/2\\).\n\nThe compound probability of the spinner landing on a \\(1\\) **and** the coin landing on tails can be calculated by multiplying \\(2/5\\) and \\(1/2\\) as shown:\n\n\\[\\dfrac{2}{5} \\cdot \\dfrac{1}{2} = \\dfrac{2}{10} = 0.2\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM13", "origin": "DOE_EXAM_C", "q_number": 13, "question_type": "mc",
-      "question": "Start with the number \\(135.28\\) and perform the following steps in order:\n\n• Step 1: Multiply by \\(10\\).\n• Step 2: Add \\(0.5\\) to the result of Step 1.\n• Step 3: Drop the digits after the decimal point.\n• Step 4: Divide by \\(10\\).\n\nWhat is the result?",
-      "options": {"A": "\\(13.5\\)", "B": "\\(135\\)", "C": "\\(135.2\\)", "D": "\\(135.3\\)"},
+      "id": "CM13",
+      "origin": "DOE_EXAM_C",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "Start with the number \\(135.28\\) and perform the following steps in order:\n\n\u2022 Step 1: Multiply by \\(10\\).\n\u2022 Step 2: Add \\(0.5\\) to the result of Step 1.\n\u2022 Step 3: Drop the digits after the decimal point.\n\u2022 Step 4: Divide by \\(10\\).\n\nWhat is the result?",
+      "options": {
+        "A": "\\(13.5\\)",
+        "B": "\\(135\\)",
+        "C": "\\(135.2\\)",
+        "D": "\\(135.3\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_C/CM13.png",
-      "solution": {"letter": "D", "exhibit_text": "(D) Begin by multiplying \\(135.28\\) by \\(10\\):\n\n\\[135.28 \\times 10 = 1{,}352.8\\]\n\nAdd \\(0.5\\):\n\n\\[1{,}352.8 + 0.5 = 1{,}353.3\\]\n\nDrop the digits after the decimal point, so \\(1{,}353.3\\) becomes \\(1{,}353\\).\n\nDivide by \\(10\\):\n\n\\[1{,}353 \\div 10 = 135.3\\]"},
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Begin by multiplying \\(135.28\\) by \\(10\\):\n\n\\[135.28 \\times 10 = 1{,}352.8\\]\n\nAdd \\(0.5\\):\n\n\\[1{,}352.8 + 0.5 = 1{,}353.3\\]\n\nDrop the digits after the decimal point, so \\(1{,}353.3\\) becomes \\(1{,}353\\).\n\nDivide by \\(10\\):\n\n\\[1{,}353 \\div 10 = 135.3\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM14", "origin": "DOE_EXAM_C", "q_number": 14, "question_type": "mc",
+      "id": "CM14",
+      "origin": "DOE_EXAM_C",
+      "q_number": 14,
+      "question_type": "mc",
       "question": "If \\(x = -2\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
-      "options": {"A": "\\(-18\\)", "B": "\\(-6\\)", "C": "\\(-2\\)", "D": "\\(2\\)"},
+      "options": {
+        "A": "\\(-18\\)",
+        "B": "\\(-6\\)",
+        "C": "\\(-2\\)",
+        "D": "\\(2\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_C/CM14.png",
-      "solution": {"letter": "B", "exhibit_text": "(B) Substitute \\(-2\\) for each value of \\(x\\) in the expression:\n\n\\[|(-2) + (-2)^2 + (-2)^3|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving exponents:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving multiplication:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + (-4) + (-6)|\\]\n\nSimplify by adding the terms within the absolute value bars:\n\n\\[|-6| - |-12|\\]\n\\[6 - 12 = -6\\]"},
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Substitute \\(-2\\) for each value of \\(x\\) in the expression:\n\n\\[|(-2) + (-2)^2 + (-2)^3|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving exponents:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving multiplication:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + (-4) + (-6)|\\]\n\nSimplify by adding the terms within the absolute value bars:\n\n\\[|-6| - |-12|\\]\n\\[6 - 12 = -6\\]"
+      },
       "transcription_status": "verbatim_verified"
     },
     {
-      "id": "CM15", "origin": "DOE_EXAM_C", "q_number": 15, "question_type": "grid_in",
+      "id": "CM15",
+      "origin": "DOE_EXAM_C",
+      "q_number": 15,
+      "question_type": "grid_in",
       "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(3.99\\). The store also sells orange juice in a \\(6\\)-pack of \\(5.5\\)-fluid-ounce bottles for $\\(1.79\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space.",
       "grid_answer": "3",
       "source_screenshot": "Problems/EXAM_C/CM15.png",
-      "solution": {"letter": null, "exhibit_text": "(3) To determine the cost of a gallon of orange juice, begin by finding the total number of ounces in the **6-pack** of bottles:\n\n\\[5.5 \\text{ oz} \\times 6 = 33 \\text{ oz}\\]\n\nSo, \\(33\\) oz of orange juice costs $\\(1.79\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion using the $\\(1.79\\) cost per \\(33\\) oz of orange juice and the unknown cost \\((x)\\) per \\(1\\) gallon of orange juice:\n\n\\[\\dfrac{33 \\text{ oz}}{$1.79} = \\dfrac{128 \\text{ oz}}{x}\\]\n\nCross multiply to solve for \\(x\\) in the proportion:\n\n\\[(33) \\times (x) = ($1.79) \\times (128)\\]\n\\[33x = $229.12\\]\n\nDivide both sides by \\(33\\):\n\n\\[x = $6.94 \\text{ per gallon}\\]\n\nSubtract the cost of \\(1\\) gallon of milk from the cost of \\(1\\) gallon of orange juice:\n\n\\[$6.94 - $3.99 = $2.95\\]\n\nTo the nearest dollar, a gallon of orange juice costs $\\(3\\) more than a gallon of milk."},
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(3) To determine the cost of a gallon of orange juice, begin by finding the total number of ounces in the **6-pack** of bottles:\n\n\\[5.5 \\text{ oz} \\times 6 = 33 \\text{ oz}\\]\n\nSo, \\(33\\) oz of orange juice costs $\\(1.79\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion using the $\\(1.79\\) cost per \\(33\\) oz of orange juice and the unknown cost \\((x)\\) per \\(1\\) gallon of orange juice:\n\n\\[\\dfrac{33 \\text{ oz}}{$1.79} = \\dfrac{128 \\text{ oz}}{x}\\]\n\nCross multiply to solve for \\(x\\) in the proportion:\n\n\\[(33) \\times (x) = ($1.79) \\times (128)\\]\n\\[33x = $229.12\\]\n\nDivide both sides by \\(33\\):\n\n\\[x = $6.94 \\text{ per gallon}\\]\n\nSubtract the cost of \\(1\\) gallon of milk from the cost of \\(1\\) gallon of orange juice:\n\n\\[$6.94 - $3.99 = $2.95\\]\n\nTo the nearest dollar, a gallon of orange juice costs $\\(3\\) more than a gallon of milk."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM16",
+      "origin": "DOE_EXAM_C",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{3 + (-3)}{3 - (-3)} = \\]",
+      "options": {
+        "A": "\\(-1\\)",
+        "B": "\\(0\\)",
+        "C": "\\(\\dfrac{1}{6}\\)",
+        "D": "\\(1\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_C/CM16.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Simplify the expression.\n\n\\(3 + (-3)\\) is the equivalent of subtracting \\(3\\) from \\(3\\), and \\(3 - (-3)\\) is equivalent of adding \\(3\\) to \\(3\\):\n\n\\[\\dfrac{3 + (-3)}{3 - (-3)} = \\dfrac{3 - 3}{3 + 3} = \\dfrac{0}{6}\\]\n\nThe zero property of division states that zero divided by any number equals zero, so \\(\\dfrac{0}{6} = 0\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM17",
+      "origin": "DOE_EXAM_C",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?\n\n(On the number line: M is at 1, R is at 3, S is at 6, N is at 7.)",
+      "options": {
+        "A": "\\(\\dfrac{1}{2}\\) unit",
+        "B": "\\(1\\) unit",
+        "C": "\\(1\\dfrac{1}{2}\\) units",
+        "D": "\\(2\\) units"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.3'/><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='104' y1='40' x2='104' y2='50' stroke='#111' stroke-width='1.3'/><text x='104' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='148' y1='40' x2='148' y2='50' stroke='#111' stroke-width='1.3'/><text x='148' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='192' y1='40' x2='192' y2='50' stroke='#111' stroke-width='1.3'/><text x='192' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='236' y1='40' x2='236' y2='50' stroke='#111' stroke-width='1.3'/><text x='236' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280' y1='40' x2='280' y2='50' stroke='#111' stroke-width='1.3'/><text x='280' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='324' y1='40' x2='324' y2='50' stroke='#111' stroke-width='1.3'/><text x='324' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='368' y1='40' x2='368' y2='50' stroke='#111' stroke-width='1.3'/><text x='368' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='412' y1='40' x2='412' y2='50' stroke='#111' stroke-width='1.3'/><text x='412' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><text x='104' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='192' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='324' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>",
+      "source_screenshot": "Problems/EXAM_C/CM17.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) \\(\\overline{MN}\\) begins at \\(1\\) and ends at \\(7\\). Determine the length of \\(\\overline{MN}\\):\n\n\\[7 - 1 = 6\\]\n\nThe midpoint of a line segment is located exactly halfway between the two endpoints. Since \\(\\overline{MN}\\) is \\(6\\) units in length, the two endpoints are \\(6\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(6\\) by \\(2\\):\n\n\\[6 \\div 2 = 3\\]\n\nThe location of the midpoint of \\(\\overline{MN}\\) is \\(3\\) units from either endpoint. Find the midpoint by either adding \\(3\\) to the location of \\(M\\) (\\(1\\)) or subtracting \\(3\\) from the location of \\(N\\) (\\(7\\)):\n\n\\[1 + 3 = 4\\]\n\\[7 - 3 = 4\\]\n\nThe midpoint of \\(\\overline{MN}\\) is located at \\(4\\).\n\n\\(\\overline{RS}\\) begins at \\(3\\) and ends at \\(6\\). Determine the length of \\(\\overline{RS}\\):\n\n\\[6 - 3 = 3\\]\n\nSince \\(\\overline{RS}\\) is \\(3\\) units in length, the two endpoints are \\(3\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(3\\) by \\(2\\):\n\n\\[3 \\div 2 = 1.5\\]\n\nThe location of the midpoint of \\(\\overline{RS}\\) is \\(1.5\\) units from either endpoint. Find the midpoint by either adding \\(1.5\\) to the location of \\(R\\) (\\(3\\)) or subtracting \\(1.5\\) from the location of \\(S\\) (\\(6\\)):\n\n\\[3 + 1.5 = 4.5\\]\n\nThe midpoint of \\(\\overline{RS}\\) is located at \\(4.5\\).\n\nThe distance between the midpoints \\(4\\) and \\(4.5\\) is \\(\\dfrac{1}{2}\\) unit."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM18",
+      "origin": "DOE_EXAM_C",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "I. \\(s - t\\)\nII. \\(st^2\\)\nIII. \\(s^t\\)\n\nIf \\(s\\) is a positive integer and \\(t\\) is a negative integer, which of the above expressions **must** be a positive number?",
+      "options": {
+        "A": "II only",
+        "B": "I and II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_C/CM18.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Each of the three expressions must be considered:\n\nExpression I: \\(s - t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSubtracting a negative integer is the equivalent of adding a positive integer, so \\(s - (-t)\\) is equivalent to finding the value of \\(s + t\\), which must result in a positive number.\n\nExpression II: \\(st^2\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSquaring a negative integer results in a positive integer, so \\(s(-t)^2\\) is equivalent to finding the value of \\(st^2\\), which must result in a positive number.\n\nExpression III: \\(s^t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer: raising a positive number to a negative power gives \\(\\dfrac{1}{s^{|t|}}\\), which is still positive.\n\nAll three expressions must be positive."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM19",
+      "origin": "DOE_EXAM_C",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "What is the value of \\(\\left(-\\dfrac{3}{4}\\right)\\left(-\\dfrac{2}{5}\\right)\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{7}{20}\\)",
+        "B": "\\(-\\dfrac{3}{10}\\)",
+        "C": "\\(\\dfrac{3}{10}\\)",
+        "D": "\\(\\dfrac{7}{20}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_C/CM19.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Evaluate the expression by multiplying the terms in the numerator and the terms in the denominator. The product of two negative values is positive:\n\n\\[\\dfrac{(-3) \\times (-2)}{4 \\times 5} = \\dfrac{6}{20}\\]\n\nSimplify the result:\n\n\\[\\dfrac{6 \\div 2}{20 \\div 2} = \\dfrac{3}{10}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM20",
+      "origin": "DOE_EXAM_C",
+      "q_number": 20,
+      "question_type": "dropdown",
+      "question": "Two circles, with centers at \\(A\\) and \\(C\\), are shown. Line segment \\(\\overline{AB}\\) is congruent to line segment \\(\\overline{DE}\\).\n\nDetermine the area, \\(A\\), and the circumference, \\(C\\), of each circle to complete the table.\n\nSelect one answer in each row.\n\nFor \\(A = 25\\pi\\): [DROPDOWN_1]\nFor \\(C = 5\\pi\\): [DROPDOWN_2]",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "exhibit_image_path": "images/exam_c/CM20.png",
+      "source_screenshot": "Problems/EXAM_C/CM20.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(A = 25\\pi\\): Circle A\n\\(C = 5\\pi\\): Circle C\n\nAs shown in the illustration, \\(AB\\) (the radius of Circle A) is \\(5\\) units in length. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), we know it is also \\(5\\) units in length.\n\nCircle A:\n\\[A = \\pi r^2\\]\n\\[A = 25\\pi\\]\n\\[r = 5\\]\nWe know the radius of Circle A is \\(5\\) so the answer to row 1 is A.\n\nCircle C:\n\\[C = \\pi \\cdot d\\]\n\\[C = 5\\pi\\]\nSince the diameter of Circle C is \\(5\\), the circumference is \\(5\\pi\\)."
+      },
       "transcription_status": "verbatim_verified"
     }
   ]
