@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHSAT Practice Exams</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .exams-page { max-width: 900px; margin: 2rem auto; padding: 1.25rem; }
+    .exams-page h1 { font-size: 1.6rem; font-weight: 800; margin: 0 0 0.35rem; letter-spacing: -0.01em; }
+    .exams-lede { color: var(--text-muted, #7e6b87); margin: 0 0 1.5rem; font-size: 0.95rem; }
+    .exams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+    .exam-card {
+      background: var(--surface, #fff);
+      border: 1px solid var(--border, #ead5f1);
+      border-radius: var(--radius, 10px);
+      padding: 1.25rem 1.35rem;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow, 0 1px 4px rgba(76,29,99,0.08));
+      transition: transform 0.12s, box-shadow 0.15s;
+      display: block;
+    }
+    .exam-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(76,29,99,0.14);
+    }
+    .exam-card .letter {
+      display: inline-block;
+      font-size: 1.9rem; font-weight: 800;
+      color: var(--primary, #c026d3);
+      letter-spacing: -0.03em;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .exam-card .title {
+      font-size: 1.05rem; font-weight: 700;
+      color: var(--text, #2e1b3b);
+      margin: 0 0 0.2rem;
+    }
+    .exam-card .meta { color: var(--text-muted, #7e6b87); font-size: 0.82rem; }
+    .exam-card.locked { opacity: 0.55; pointer-events: none; }
+    .exam-card.locked .meta { color: #999; }
+    @media (max-width: 500px) {
+      .exams-page { margin: 1rem auto; padding: 1rem; }
+      .exam-card { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <main class="exams-page">
+    <h1>SHSAT Practice Exams</h1>
+    <p class="exams-lede">Official NYC DOE practice tests, reconstructed with the TestNav look. Every question has the DOE-supplied solution embedded.</p>
+
+    <div class="exams-grid">
+      <a class="exam-card" href="exam-a.html">
+        <span class="letter">A</span>
+        <div class="title">Practice Test A — Math</div>
+        <div class="meta">50 questions · verbatim solutions</div>
+      </a>
+      <a class="exam-card" href="exam-b.html">
+        <span class="letter">B</span>
+        <div class="title">Practice Test B — Math</div>
+        <div class="meta">50 questions · verbatim solutions</div>
+      </a>
+      <a class="exam-card" href="exam-c.html">
+        <span class="letter">C</span>
+        <div class="title">Practice Test C — Math</div>
+        <div class="meta">50 questions · verbatim solutions</div>
+      </a>
+      <a class="exam-card" href="exam-d.html">
+        <span class="letter">D</span>
+        <div class="title">Practice Test D — Math</div>
+        <div class="meta">In progress · transcription ongoing</div>
+      </a>
+    </div>
+  </main>
+</body>
+</html>

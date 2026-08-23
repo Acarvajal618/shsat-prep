@@ -1,8 +1,104 @@
 {
   "_schema": {
-    "description": "NYC DOE SHSAT Practice Test D — Math section (50 questions).",
+    "description": "NYC DOE SHSAT Practice Test D \u2014 Math section (50 questions).",
     "id_format": "DM<NN>",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "DM01",
+      "origin": "DOE_EXAM_D",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "What is the prime factorization of \\(3{,}575\\)?",
+      "options": {
+        "A": "\\(5 \\cdot 11 \\cdot 13\\)",
+        "B": "\\(5^2 \\cdot 11 \\cdot 13\\)",
+        "C": "\\(5 \\cdot 715\\)",
+        "D": "\\(5^2 \\cdot 143\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM01.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) By observation, \\(3{,}575\\) ends in \\(75\\); therefore, \\(3{,}575\\) is divisible by \\(25\\).\n\n\\[3{,}575 \\div 25 = 143\\]\n\nTest \\(143\\) for factors and eliminate \\(3\\), \\(5\\), and \\(7\\), but \\(11\\) is a factor.\n\n\\[143 \\div 11 = 13\\text{; both } 11 \\text{ and } 13 \\text{ are prime numbers.}\\]\n\nThe first factor, \\(25\\), is **not** prime but is the product of primes, \\(5 \\times 5 = 5^2\\).\n\nThe prime factorization of \\(3{,}575\\) is \\(5^2 \\times 11 \\times 13\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM02",
+      "origin": "DOE_EXAM_D",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "What is the value of \\(z\\) in \\(\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\)?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(5\\)",
+        "C": "\\(y\\)",
+        "D": "\\(2y - x\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_D/DM02.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) First, multiply both sides of the equation by \\(10\\) to eliminate the fractions. In other words, multiply each term by \\(10\\).\n\n\\[\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\]\n\\[10\\left(\\dfrac{x}{10} + \\dfrac{y - x}{5}\\right) = 10\\left(\\dfrac{z}{10}\\right)\\]\n\\[\\dfrac{10x}{10} + \\dfrac{10(y - x)}{5} = \\dfrac{10z}{10}\\]\n\\[x + 2(y - x) = z\\]\n\nThen, distribute and combine like terms to find the value for \\(z\\).\n\n\\[x + 2(y - x) = z\\]\n\\[x + 2y - 2x = z\\]\n\\[2y - x = z\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM03",
+      "origin": "DOE_EXAM_D",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "Two sets, \\(R\\) and \\(S\\), are described below. The sum of the elements in set \\(R\\) equals the sum of the elements in set \\(S\\).\n\n\\[R = \\{5, x, 3, 8\\}\\]\n\\[S = \\{6, y, 4, 1\\}\\]\n\nWhat is the value of \\(x - y\\)?",
+      "options": {
+        "A": "\\(-7\\)",
+        "B": "\\(-5\\)",
+        "C": "\\(5\\)",
+        "D": "\\(7\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM03.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) First, find the sum for each set by adding the terms in each set separately.\n\nThe sum for set \\(R\\) is \\(5 + x + 3 + 8\\), which is \\(x + 16\\).\n\nThe sum for set \\(S\\) is \\(6 + y + 4 + 1\\), which is \\(y + 11\\).\n\nThe question states that these two sums are equal to each other, so write the equation and then rearrange using inverse operations.\n\n\\[x + 16 = y + 11\\]\n\\[x = y - 5\\]\n\\[x - y = -5\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM04",
+      "origin": "DOE_EXAM_D",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "If \\(x = \\dfrac{1}{4}\\), what is the value of \\(\\dfrac{2}{2 - x}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{3}{4}\\)",
+        "B": "\\(\\dfrac{8}{9}\\)",
+        "C": "\\(1\\tfrac{1}{7}\\)",
+        "D": "\\(3\\tfrac{1}{2}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM04.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) The first step is to substitute the value for \\(x\\) into the expression to get \\(\\dfrac{2}{2 - \\tfrac{1}{4}}\\).\n\nThen, evaluate the denominator and finally divide the numerator by the denominator.\n\n\\[\\dfrac{2}{\\left(\\tfrac{7}{4}\\right)} = 2 \\div \\left(\\dfrac{7}{4}\\right) = 2 \\left(\\dfrac{4}{7}\\right) = \\dfrac{8}{7} = 1\\tfrac{1}{7}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM05",
+      "origin": "DOE_EXAM_D",
+      "q_number": 5,
+      "question_type": "grid_keypad",
+      "question": "In a school raffle, \\(1\\) out of every \\(25\\) students wins a prize. Each prize includes a randomly selected trading card from a set of \\(100\\) different cards, labeled C1 through C100, with each card equally likely to be chosen. If one student is selected at random, what is the probability that the student both wins a prize and receives Card C17?\n\nWrite an expression that represents the probability that a student wins the prize and receives Card C17.\n\nEnter your answer in the space provided. Enter only your answer.",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_answer": "1/25 \u00b7 1/100",
+      "source_screenshot": "Problems/EXAM_D/DM05.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(\\left(\\dfrac{1}{25} \\cdot \\dfrac{1}{100}\\right)\\)\n\nTo calculate the joint probability, first determine the probability of each independent event.\n\nThe probability that a randomly selected student wins the prize is \\(\\dfrac{1}{25}\\).\n\nThe probability that a randomly selected student will receive Card C17 is \\(\\dfrac{1}{100}\\), because Card C17 is \\(1\\) card out of \\(100\\) labeled cards.\n\nThe probability that a student wins the prize and receives Card C17 is the product of those two probabilities, \\(\\dfrac{1}{25} \\cdot \\dfrac{1}{100}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    }
+  ]
 }

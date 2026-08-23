@@ -451,12 +451,17 @@
     };
 
     async function boot() {
-      const r = await fetch(DATA_URL);
-      const data = await r.json();
-      state.questions = (data.questions || []).sort((a, b) => a.q_number - b.q_number);
+      wireControls();  // wire nav/tool buttons FIRST so they never go dead on slow loads
+      try {
+        const r = await fetch(DATA_URL);
+        const data = await r.json();
+        state.questions = (data.questions || []).sort((a, b) => a.q_number - b.q_number);
+      } catch (e) {
+        console.error('boot fetch failed:', e);
+        state.questions = [];
+      }
       routeFromHash();
       render();
-      wireControls();
     }
 
     function parseHash() {
@@ -745,6 +750,9 @@
             <button class="tn-keypad-btn icon" data-kp="MIXED" title="Mixed number">
               <svg viewBox="0 0 32 22" width="32" height="22"><rect x="2" y="6" width="10" height="10" fill="none" stroke="#333"/><rect x="16" y="1" width="14" height="8" fill="none" stroke="#333"/><rect x="16" y="13" width="14" height="8" fill="none" stroke="#333"/></svg>
             </button>
+          </div>
+          <div class="tn-keypad-row">
+            <button class="tn-keypad-btn" data-kp="π" title="Pi">π</button>
           </div>
         </div>
       `;
