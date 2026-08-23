@@ -1,9 +1,18 @@
 {
   "_schema": {
-    "description": "NYC DOE SHSAT Practice Test B — Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A schema.",
+    "description": "NYC DOE SHSAT Practice Test B \u2014 Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A schema.",
     "id_format": "BM<NN>  (variants later: BM<NN>.1, BM<NN>.2, ...)",
     "math_notation": "LaTeX math in \\( ... \\) inline and \\[ ... \\] display; KaTeX renders it in the browser.",
-    "question_types": ["mc", "mc_multi", "grid_in", "grid_keypad", "dropdown", "drag_drop", "graph_select", "ray_place"]
+    "question_types": [
+      "mc",
+      "mc_multi",
+      "grid_in",
+      "grid_keypad",
+      "dropdown",
+      "drag_drop",
+      "graph_select",
+      "ray_place"
+    ]
   },
   "questions": [
     {
@@ -12,7 +21,12 @@
       "q_number": 1,
       "question_type": "mc",
       "question": "The decimal \\(0.06\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
-      "options": { "A": "\\(3\\)", "B": "\\(6\\)", "C": "\\(12\\)", "D": "\\(30\\)" },
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(6\\)",
+        "C": "\\(12\\)",
+        "D": "\\(30\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_B/BM01.png",
       "solution": {
@@ -26,12 +40,23 @@
       "origin": "DOE_EXAM_B",
       "q_number": 2,
       "question_type": "drag_drop",
-      "question": "The list shows the results of a survey. A survey was taken to see whether students like basketball, soccer, both, or neither. These were the results:\n\n• 25 students like basketball.\n• 19 students like soccer.\n• 7 students like both basketball and soccer.\n• 10 students don't like either basketball or soccer.\n\nUse the information provided to determine how many students were surveyed and how many like only soccer.\n\nMove the correct answer to each box.\n\nThere were [BOX_1] students surveyed, and [BOX_2] students like only soccer.",
-      "drop_values": ["12", "19", "3", "47"],
+      "question": "The list shows the results of a survey. A survey was taken to see whether students like basketball, soccer, both, or neither. These were the results:\n\n\u2022 25 students like basketball.\n\u2022 19 students like soccer.\n\u2022 7 students like both basketball and soccer.\n\u2022 10 students don't like either basketball or soccer.\n\nUse the information provided to determine how many students were surveyed and how many like only soccer.\n\nMove the correct answer to each box.\n\nThere were [BOX_1] students surveyed, and [BOX_2] students like only soccer.",
+      "drop_values": [
+        "12",
+        "19",
+        "3",
+        "47"
+      ],
       "drop_allow_reuse": false,
       "boxes": [
-        { "label": "BOX_1", "correct_value": "47" },
-        { "label": "BOX_2", "correct_value": "12" }
+        {
+          "label": "BOX_1",
+          "correct_value": "47"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "12"
+        }
       ],
       "source_screenshot": "Problems/EXAM_B/BM02.png",
       "solution": {
@@ -54,7 +79,11 @@
         "E": "\\(\\dfrac{x}{150} = \\dfrac{18}{250}\\)"
       },
       "n_correct": 3,
-      "correct": ["A", "C", "D"],
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
       "source_screenshot": "Problems/EXAM_B/BM03.png",
       "solution": {
         "letter": null,
@@ -95,16 +124,21 @@
       "origin": "DOE_EXAM_B",
       "q_number": 6,
       "question_type": "mc",
-      "question": "In the figure above, \\(PQRS\\) is a parallelogram. The measure of \\(\\angle PQT\\) is \\(50°\\), and the measure of \\(\\angle PTQ\\) is \\(70°\\). What is the measure of \\(\\angle QRS\\)?",
-      "options": { "A": "\\(60°\\)", "B": "\\(70°\\)", "C": "\\(80°\\)", "D": "\\(120°\\)" },
+      "question": "In the figure above, \\(PQRS\\) is a parallelogram. The measure of \\(\\angle PQT\\) is \\(50\u00b0\\), and the measure of \\(\\angle PTQ\\) is \\(70\u00b0\\). What is the measure of \\(\\angle QRS\\)?",
+      "options": {
+        "A": "\\(60\u00b0\\)",
+        "B": "\\(70\u00b0\\)",
+        "C": "\\(80\u00b0\\)",
+        "D": "\\(120\u00b0\\)"
+      },
       "correct": "A",
-      "exhibit_image_path": "images/exam_b/BM06.png",
       "source_screenshot": "Problems/EXAM_B/BM06.png",
       "solution": {
         "letter": "A",
-        "exhibit_text": "(A) Find the missing angle, \\(\\angle QPT\\), of triangle \\(PQT\\): \\(180° - 70° - 50° = 60°\\).\n\nIn parallelogram \\(PQRS\\), \\(\\angle QPT\\) is congruent to \\(\\angle QRS\\), so the measure of \\(\\angle QRS\\) is also \\(60°\\)."
+        "exhibit_text": "(A) Find the missing angle, angle QPT, of triangle PQT: 180\u00b0 \u2212 70\u00b0 \u2212 50\u00b0 = 60\u00b0\n\nIn parallelogram PQRS, angle QPT is congruent to angle QRS, so the measure of angle QRS is also 60\u00b0."
       },
-      "transcription_status": "transcribed"
+      "transcription_status": "transcribed",
+      "figure_svg": "<svg viewBox='0 0 620 320' xmlns='http://www.w3.org/2000/svg' style='max-width:520px; margin: 0 auto; display: block;'><line x1='90' y1='260' x2='500' y2='260' stroke='#111' stroke-width='1.6'/><line x1='90' y1='260' x2='220' y2='60' stroke='#111' stroke-width='1.6'/><line x1='220' y1='60' x2='550' y2='60' stroke='#111' stroke-width='1.6'/><line x1='550' y1='60' x2='500' y2='260' stroke='#111' stroke-width='1.6'/><line x1='220' y1='60' x2='260' y2='260' stroke='#111' stroke-width='1.6'/><text x='75' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>P</text><text x='222' y='50' font-family='Georgia,serif' font-style='italic' font-size='20'>Q</text><text x='555' y='50' font-family='Georgia,serif' font-style='italic' font-size='20'>R</text><text x='255' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>T</text><text x='505' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>S</text><text x='245' y='90' font-family='Georgia,serif' font-size='14'>50\u00b0</text><text x='270' y='250' font-family='Georgia,serif' font-size='14'>70\u00b0</text></svg>"
     },
     {
       "id": "BM07",
@@ -112,12 +146,17 @@
       "q_number": 7,
       "question_type": "mc",
       "question": "\\[M = 3N = \\dfrac{P}{4} = Q + 5 = \\dfrac{R}{7} > 0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
-      "options": { "A": "\\(M\\)", "B": "\\(N\\)", "C": "\\(P\\)", "D": "\\(R\\)" },
+      "options": {
+        "A": "\\(M\\)",
+        "B": "\\(N\\)",
+        "C": "\\(P\\)",
+        "D": "\\(R\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_B/BM07.png",
       "solution": {
         "letter": "D",
-        "exhibit_text": "(D) Break the equations apart to each equal \\(M\\):\n\n\\(M = 3N \\Rightarrow N = M/3\\)\n\\(M = P/4 \\Rightarrow P = 4M\\)\n\\(M = Q + 5 \\Rightarrow Q = M - 5\\)\n\\(M = R/7 \\Rightarrow R = 7M\\)\n\nSince \\(M > 0\\), \\(R = 7M\\) is the greatest."
+        "exhibit_text": "(D) Break the equations apart to each equal \\(M\\):\n\n\\[M = 3N\\]\n\\[M = \\dfrac{P}{4}\\]\n\\[M = Q + 5\\]\n\\[M = \\dfrac{R}{7}\\]\n\nPick a number to substitute into the equations, and solve the equations to find the values of \\(M\\), \\(N\\), \\(P\\), \\(Q\\), and \\(R\\).\n\nLet \\(M = 2\\). Since all the equations are equal to \\(2\\), substitute \\(2\\) to find each variable.\n\n\\[M = 3N\\]\n\\[2 = 3N\\]\n\\[\\dfrac{2}{3} = N\\]\n\n\\[M = \\dfrac{P}{4}\\]\n\\[2 = \\dfrac{P}{4}\\]\n\\[8 = P\\]\n\n\\[M = Q + 5\\]\n\\[2 = Q + 5\\]\n\\[-3 = Q\\]\n\n\\[M = \\dfrac{R}{7}\\]\n\\[2 = \\dfrac{R}{7}\\]\n\\[14 = R\\]\n\nComparing the values: \\(M = 2\\), \\(N = \\tfrac{2}{3}\\), \\(P = 8\\), \\(Q = -3\\), \\(R = 14\\). \\(R\\) has the greatest value."
       },
       "transcription_status": "transcribed"
     },
@@ -127,7 +166,12 @@
       "q_number": 8,
       "question_type": "mc",
       "question": "A roofing contractor uses shingles at a rate of \\(3\\) bundles for every \\(96\\) square feet of roof covered. At this rate, how many bundles of shingles will he need in order to cover a roof that is \\(416\\) square feet?",
-      "options": { "A": "\\(5\\)", "B": "\\(12\\)", "C": "\\(13\\)", "D": "\\(14\\)" },
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(12\\)",
+        "C": "\\(13\\)",
+        "D": "\\(14\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_B/BM08.png",
       "solution": {
@@ -142,7 +186,12 @@
       "q_number": 9,
       "question_type": "mc",
       "question": "To make party invitations, Macie could buy a package of paper for $\\(10.50\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.15\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
-      "options": { "A": "\\(60\\)", "B": "\\(65\\)", "C": "\\(69\\)", "D": "\\(70\\)" },
+      "options": {
+        "A": "\\(60\\)",
+        "B": "\\(65\\)",
+        "C": "\\(69\\)",
+        "D": "\\(70\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_B/BM09.png",
       "solution": {
@@ -157,7 +206,12 @@
       "q_number": 11,
       "question_type": "mc",
       "question": "A bag contains \\(75\\) marbles that are red, blue, or green. The ratio of red to blue marbles is \\(15{:}7\\), and the ratio of blue to green marbles is \\(7{:}3\\). If \\(2\\) blue marbles are removed and replaced with \\(2\\) green marbles, what will be the new ratio of red to green marbles?",
-      "options": { "A": "\\(3{:}1\\)", "B": "\\(5{:}1\\)", "C": "\\(15{:}3\\)", "D": "\\(45{:}11\\)" },
+      "options": {
+        "A": "\\(3{:}1\\)",
+        "B": "\\(5{:}1\\)",
+        "C": "\\(15{:}3\\)",
+        "D": "\\(45{:}11\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_B/BM11.png",
       "solution": {
@@ -171,8 +225,13 @@
       "origin": "DOE_EXAM_B",
       "q_number": 12,
       "question_type": "mc",
-      "question": "The table above shows the number of times that different desserts were ordered at a restaurant. Based on this information, what is the probability of a customer ordering ice cream as a dessert?\n\n(DESSERT CHOICES — Cookies: \\(42\\), Pie: \\(23\\), Cake: \\(47\\), Ice Cream: \\(48\\).)",
-      "options": { "A": "\\(25\\%\\)", "B": "\\(30\\%\\)", "C": "\\(40\\%\\)", "D": "\\(48\\%\\)" },
+      "question": "The table above shows the number of times that different desserts were ordered at a restaurant. Based on this information, what is the probability of a customer ordering ice cream as a dessert?\n\n(DESSERT CHOICES \u2014 Cookies: \\(42\\), Pie: \\(23\\), Cake: \\(47\\), Ice Cream: \\(48\\).)",
+      "options": {
+        "A": "\\(25\\%\\)",
+        "B": "\\(30\\%\\)",
+        "C": "\\(40\\%\\)",
+        "D": "\\(48\\%\\)"
+      },
       "correct": "B",
       "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>DESSERT CHOICES</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Dessert</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Number of Times Ordered</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cookies</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>42</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Pie</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>23</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cake</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>47</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Ice Cream</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>48</td></tr></tbody></table>",
       "source_screenshot": "Problems/EXAM_B/BM12.png",
@@ -186,15 +245,18 @@
       "id": "BM13",
       "origin": "DOE_EXAM_B",
       "q_number": 13,
-      "question_type": "grid_in",
+      "question_type": "numberline_click",
       "question": "A basket contains \\(3\\) apples, \\(4\\) oranges, \\(5\\) bananas, and \\(8\\) pears.\n\nIf one piece of fruit is randomly pulled from the basket, what is the probability that it will be a pear?\n\nEnter the decimal value (between \\(0\\) and \\(1\\)) corresponding to the point on the number line.",
-      "grid_answer": "0.4",
       "source_screenshot": "Problems/EXAM_B/BM13.png",
       "solution": {
         "letter": null,
         "exhibit_text": "The total number of fruits is \\(3 + 4 + 5 + 8 = 20\\) fruits.\n\nThe probability of picking a pear is \\(\\dfrac{8}{20} = \\dfrac{8}{20} = 0.4\\)."
       },
-      "transcription_status": "transcribed"
+      "transcription_status": "transcribed",
+      "nl_min": 0,
+      "nl_max": 1,
+      "nl_step": 0.1,
+      "correct": 0.4
     },
     {
       "id": "BM14",
@@ -202,7 +264,12 @@
       "q_number": 14,
       "question_type": "mc",
       "question": "A cooler contains three types of beverages: \\(5\\) bottles of apple juice, \\(3\\) bottles of grape juice, and \\(6\\) bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is **not** apple juice?",
-      "options": { "A": "\\(\\dfrac{1}{9}\\)", "B": "\\(\\dfrac{5}{14}\\)", "C": "\\(\\dfrac{9}{14}\\)", "D": "\\(\\dfrac{2}{3}\\)" },
+      "options": {
+        "A": "\\(\\dfrac{1}{9}\\)",
+        "B": "\\(\\dfrac{5}{14}\\)",
+        "C": "\\(\\dfrac{9}{14}\\)",
+        "D": "\\(\\dfrac{2}{3}\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_B/BM14.png",
       "solution": {
@@ -217,7 +284,12 @@
       "q_number": 15,
       "question_type": "mc",
       "question": "A large circular dinner plate has a radius of \\(20\\) centimeters. A smaller circular plate with a circumference of \\(20\\pi\\) centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is **not** covered by the smaller plate?",
-      "options": { "A": "\\(20\\pi\\) sq cm", "B": "\\(100\\pi\\) sq cm", "C": "\\(200\\pi\\) sq cm", "D": "\\(300\\pi\\) sq cm" },
+      "options": {
+        "A": "\\(20\\pi\\) sq cm",
+        "B": "\\(100\\pi\\) sq cm",
+        "C": "\\(200\\pi\\) sq cm",
+        "D": "\\(300\\pi\\) sq cm"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_B/BM15.png",
       "solution": {
@@ -240,7 +312,10 @@
         "E": "<table style='display:inline-table; border-collapse:collapse; font-family:Georgia,serif; font-size:13px;'><tr><td style='border:1px solid #111; padding:4px 10px; background:#f3f3f3;'>Number of Books Purchased</td><td style='border:1px solid #111; padding:4px 8px;'>10</td><td style='border:1px solid #111; padding:4px 8px;'>15</td><td style='border:1px solid #111; padding:4px 8px;'>20</td><td style='border:1px solid #111; padding:4px 8px;'>25</td></tr><tr><td style='border:1px solid #111; padding:4px 10px; background:#f3f3f3;'>Total Cost ($)</td><td style='border:1px solid #111; padding:4px 8px;'>100</td><td style='border:1px solid #111; padding:4px 8px;'>100</td><td style='border:1px solid #111; padding:4px 8px;'>100</td><td style='border:1px solid #111; padding:4px 8px;'>100</td></tr></table>"
       },
       "n_correct": 2,
-      "correct": ["A", "C"],
+      "correct": [
+        "A",
+        "C"
+      ],
       "source_screenshot": "Problems/EXAM_B/BM16.png",
       "solution": {
         "letter": null,
@@ -268,7 +343,12 @@
       "q_number": 18,
       "question_type": "mc",
       "question": "If \\(\\dfrac{36}{y} = 4x\\), what is the value of \\(x\\) when \\(y = 3\\)?",
-      "options": { "A": "\\(3\\)", "B": "\\(4\\)", "C": "\\(9\\)", "D": "\\(12\\)" },
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(4\\)",
+        "C": "\\(9\\)",
+        "D": "\\(12\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_B/BM18.png",
       "solution": {
@@ -283,7 +363,12 @@
       "q_number": 19,
       "question_type": "mc",
       "question": "Points \\(X\\), \\(Y\\), and \\(Z\\) are on a straight line, and \\(Y\\) is between \\(X\\) and \\(Z\\). Length \\(\\overline{YZ} = \\dfrac{3}{5}\\overline{XY}\\), and length \\(\\overline{XY} = 20\\) centimeters. What is the length of \\(\\overline{XZ}\\)?",
-      "options": { "A": "\\(12\\) cm", "B": "\\(24\\) cm", "C": "\\(30\\) cm", "D": "\\(32\\) cm" },
+      "options": {
+        "A": "\\(12\\) cm",
+        "B": "\\(24\\) cm",
+        "C": "\\(30\\) cm",
+        "D": "\\(32\\) cm"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_B/BM19.png",
       "solution": {
@@ -298,7 +383,12 @@
       "q_number": 20,
       "question_type": "mc",
       "question": "Bryana bought \\(1\\tfrac{3}{4}\\) yards of cloth at $\\(8.00\\) per yard. If there was an \\(8\\%\\) sales tax, what was the total cost of the cloth?",
-      "options": { "A": "$\\(12.96\\)", "B": "$\\(14.08\\)", "C": "$\\(15.12\\)", "D": "$\\(16.08\\)" },
+      "options": {
+        "A": "$\\(12.96\\)",
+        "B": "$\\(14.08\\)",
+        "C": "$\\(15.12\\)",
+        "D": "$\\(16.08\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_B/BM20.png",
       "solution": {
@@ -313,7 +403,12 @@
       "q_number": 21,
       "question_type": "mc",
       "question": "On the number line above, \\(\\overline{MN} = 5\\tfrac{5}{6}\\). What is the position of point \\(M\\)?",
-      "options": { "A": "\\(-7\\tfrac{1}{6}\\)", "B": "\\(-4\\tfrac{1}{2}\\)", "C": "\\(4\\tfrac{1}{2}\\)", "D": "\\(7\\tfrac{1}{6}\\)" },
+      "options": {
+        "A": "\\(-7\\tfrac{1}{6}\\)",
+        "B": "\\(-4\\tfrac{1}{2}\\)",
+        "C": "\\(4\\tfrac{1}{2}\\)",
+        "D": "\\(7\\tfrac{1}{6}\\)"
+      },
       "correct": "B",
       "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>1</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>3</text></svg>",
       "source_screenshot": "Problems/EXAM_B/BM21.png",
@@ -328,8 +423,13 @@
       "origin": "DOE_EXAM_B",
       "q_number": 22,
       "question_type": "mc",
-      "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
-      "options": { "A": "\\(0.28\\) gram", "B": "\\(0.48\\) gram", "C": "\\(0.96\\) gram", "D": "\\(48\\) grams" },
+      "question": "A United States presidential coin is made from an alloy of four metals\u2014copper, zinc, manganese, and nickel\u2014with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
+      "options": {
+        "A": "\\(0.28\\) gram",
+        "B": "\\(0.48\\) gram",
+        "C": "\\(0.96\\) gram",
+        "D": "\\(48\\) grams"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_B/BM22.png",
       "solution": {
@@ -344,7 +444,12 @@
       "q_number": 23,
       "question_type": "mc",
       "question": "Nicole's age now is three times Carmen's age. If Carmen will be \\(17\\) in \\(2\\) years, how old was Nicole \\(5\\) years ago?",
-      "options": { "A": "\\(38\\) yr", "B": "\\(40\\) yr", "C": "\\(45\\) yr", "D": "\\(50\\) yr" },
+      "options": {
+        "A": "\\(38\\) yr",
+        "B": "\\(40\\) yr",
+        "C": "\\(45\\) yr",
+        "D": "\\(50\\) yr"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_B/BM23.png",
       "solution": {
@@ -359,7 +464,12 @@
       "q_number": 24,
       "question_type": "mc",
       "question": "A chemical decays in such a way that the amount left at the end of each week is \\(20\\%\\) less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
-      "options": { "A": "\\(40\\%\\)", "B": "\\(60\\%\\)", "C": "\\(64\\%\\)", "D": "\\(80\\%\\)" },
+      "options": {
+        "A": "\\(40\\%\\)",
+        "B": "\\(60\\%\\)",
+        "C": "\\(64\\%\\)",
+        "D": "\\(80\\%\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_B/BM24.png",
       "solution": {
@@ -374,7 +484,12 @@
       "q_number": 25,
       "question_type": "mc",
       "question": "If \\(w - 1\\) is an odd integer, which one of the following **must** be an even integer?",
-      "options": { "A": "\\(w + 1\\)", "B": "\\(2w - 1\\)", "C": "\\(2w - 2\\)", "D": "\\(2w + 1\\)" },
+      "options": {
+        "A": "\\(w + 1\\)",
+        "B": "\\(2w - 1\\)",
+        "C": "\\(2w - 2\\)",
+        "D": "\\(2w + 1\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_B/BM25.png",
       "solution": {
@@ -389,7 +504,12 @@
       "q_number": 10,
       "question_type": "mc",
       "question": "At \\(1{:}00\\) p.m. one day, the temperature was \\(8\\) degrees above zero. During the rest of the day, the temperature fell \\(3\\) degrees per hour. What was the temperature at \\(7{:}00\\) p.m. that day?",
-      "options": { "A": "\\(-13°\\)", "B": "\\(-10°\\)", "C": "\\(-7°\\)", "D": "\\(5°\\)" },
+      "options": {
+        "A": "\\(-13\u00b0\\)",
+        "B": "\\(-10\u00b0\\)",
+        "C": "\\(-7\u00b0\\)",
+        "D": "\\(5\u00b0\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_B/BM10.png",
       "solution": {

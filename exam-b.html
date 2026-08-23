@@ -532,7 +532,12 @@
       const q = currentQ();
       if (!q || !q.solution || !q.solution.exhibit_text) return;
       const body = document.getElementById('tn-exhibit-body');
-      body.innerHTML = esc(q.solution.exhibit_text);
+      let html = '';
+      if (q.solution.exhibit_svg) {
+        html += `<div style="margin-bottom:12px;">${q.solution.exhibit_svg}</div>`;
+      }
+      html += esc(q.solution.exhibit_text);
+      body.innerHTML = html;
       typesetMath(body);
       const panel = document.getElementById('tn-exhibit-panel');
       panel.classList.add('open');
@@ -624,6 +629,8 @@
         bodyHtml += renderGraphSelect(q);
       } else if (q.question_type === 'ray_place') {
         bodyHtml += renderRayPlace(q);
+      } else if (q.question_type === 'numberline_click') {
+        bodyHtml += renderNumberlineClick(q);
       } else if (q.question_type === 'dropdown') {
         const hasChoices = (q.dropdowns || []).some(d => d.choices && d.choices.length);
         if (!hasChoices) {
@@ -1004,6 +1011,17 @@
           });
         }
       }
+
+      if (q.question_type === 'numberline_click') {
+        document.querySelectorAll('.tn-nl-dot').forEach(dot => {
+          dot.addEventListener('click', () => {
+            const v = parseFloat(dot.getAttribute('data-value'));
+            state.answers[q.q_number] = v;
+            render();
+          });
+        });
+      }
+
     }
 
     boot();
