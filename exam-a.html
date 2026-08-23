@@ -87,23 +87,7 @@
     }
     .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
 
-    /* ── Exhibits tab (right edge) ── */
-    .tn-exhibits-tab {
-      position: fixed; right: 0; top: 130px;
-      background: #ffffff;
-      border: 1px solid var(--tn-toolbar-border);
-      border-right: none;
-      border-radius: 4px 0 0 4px;
-      padding: 12px 6px;
-      font-size: 11px;
-      color: #555;
-      cursor: pointer;
-      writing-mode: vertical-rl;
-      transform: rotate(180deg);
-      display: flex; align-items: center; gap: 4px;
-      z-index: 100;
-    }
-    .tn-exhibits-tab:hover { background: #f4f4f4; }
+    /* (Exhibits vertical tab on right edge removed per user request) */
 
     /* ── Main question area ── */
     .tn-main {
@@ -290,12 +274,19 @@
       background: #fff;
     }
     .tn-exhibit-body {
-      padding: 22px 24px;
+      padding: 18px 22px;
       font-size: 14px;
-      line-height: 1.6;
+      line-height: 1.35;
       color: #222;
       white-space: pre-line;
       font-family: Georgia, 'Times New Roman', serif;
+    }
+    /* Tighten spacing around KaTeX display equations inside the solution */
+    .tn-exhibit-body .katex-display {
+      margin: 0.25em 0 !important;
+    }
+    .tn-exhibit-body .katex-display > .katex {
+      display: inline-block;
     }
 
     @media (max-width: 700px) {
@@ -336,8 +327,6 @@
     <span id="tn-counter">1 OF 50</span>
   </div>
 
-  <div class="tn-exhibits-tab" id="tn-exhibits" title="Exhibits (placeholder)">Exhibits 📁</div>
-
   <div class="tn-main">
     <div class="tn-card" id="tn-card">
       <div class="tn-question" id="tn-question">Loading…</div>
@@ -347,14 +336,14 @@
       </div>
     </div>
 
-    <!-- Inline exhibit/solution panel (opens below the card) -->
+    <!-- Inline solution panel (opens below the card) -->
     <div class="tn-exhibit-panel" id="tn-exhibit-panel">
       <div class="tn-exhibit-header">
-        <span>Exhibits</span>
+        <span>Solutions</span>
         <button class="tn-exhibit-close" id="tn-close-exhibit">X</button>
       </div>
       <div class="tn-exhibit-tabs">
-        <div class="tn-exhibit-tab active">Exhibit 1</div>
+        <div class="tn-exhibit-tab active">Solution</div>
       </div>
       <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
     </div>
