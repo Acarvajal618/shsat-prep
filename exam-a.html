@@ -531,6 +531,13 @@
       typesetMath(document.getElementById('tn-card'));
     }
 
+    function renderOptionContent(v) {
+      // Pass through raw HTML/SVG (starts with '<'); otherwise escape then let KaTeX process
+      const s = (v || '').trim();
+      if (s.startsWith('<')) return s;
+      return esc(v);
+    }
+
     function renderMc(q) {
       const letters = Object.keys(q.options || {}).sort();
       const sel = state.answers[q.q_number] || null;
@@ -540,7 +547,7 @@
         return `<div class="${cls}" data-letter="${L}">
           <span class="tn-radio"></span>
           <span class="tn-letter">${L}.</span>
-          <span class="tn-option-text">${esc(q.options[L])}</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
         </div>`;
       }).join('');
       return `<div class="tn-options" data-mode="mc">${opts}</div>`;
@@ -555,7 +562,7 @@
         return `<div class="${cls}" data-letter="${L}">
           <span class="tn-checkbox"></span>
           <span class="tn-letter">${L}</span>
-          <span class="tn-option-text">${esc(q.options[L])}</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
         </div>`;
       }).join('');
       return `<div class="tn-options" data-mode="mc_multi">${opts}</div>`;
