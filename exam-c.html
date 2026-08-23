@@ -889,6 +889,36 @@
       `;
     }
 
+    // ── Number-line click (BM13-style): dots at each step ────────────
+    function renderNumberlineClick(q) {
+      const min = q.nl_min ?? 0;
+      const max = q.nl_max ?? 1;
+      const step = q.nl_step ?? 0.1;
+      const sel = state.answers[q.q_number];
+      const values = [];
+      for (let v = min; v <= max + 1e-9; v = Math.round((v + step) * 1e6) / 1e6) values.push(Math.round(v * 1e6) / 1e6);
+      values.unshift(min);
+      const uniq = [...new Set(values.map(v => Math.round(v * 1e6) / 1e6))].sort((a,b)=>a-b);
+      const WIDTH = 500;
+      const LEFT = 40; const RIGHT = WIDTH - 40;
+      const usable = RIGHT - LEFT;
+      const dots = uniq.map(v => {
+        const x = LEFT + (v - min) / (max - min) * usable;
+        const isSel = sel !== undefined && sel !== null && Math.abs(sel - v) < 1e-6;
+        const fill = isSel ? '#1a73e8' : '#ffffff';
+        return `<circle class="tn-nl-dot" cx="${x}" cy="30" r="8" fill="${fill}" stroke="#4a4a4a" stroke-width="1.6" data-value="${v}" style="cursor:pointer"/>` +
+               `<text x="${x}" y="55" text-anchor="middle" font-size="11" font-family="Georgia,serif">${v}</text>`;
+      }).join('');
+      return `
+        <svg viewBox="0 0 ${WIDTH} 68" style="max-width:${WIDTH}px; margin:16px auto; display:block;">
+          <line x1="15" y1="30" x2="${WIDTH-15}" y2="30" stroke="#111" stroke-width="1.4"/>
+          <path d="M 4 30 L 18 26 L 18 34 Z" fill="#111"/>
+          <path d="M ${WIDTH-4} 30 L ${WIDTH-18} 26 L ${WIDTH-18} 34 Z" fill="#111"/>
+          ${dots}
+        </svg>
+      `;
+    }
+
     function wireInputs(q) {
       document.querySelectorAll('.tn-option').forEach((el) => {
         el.addEventListener('click', () => {
