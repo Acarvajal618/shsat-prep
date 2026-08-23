@@ -490,6 +490,104 @@
         "exhibit_text": "(B) First, find the length of the bus trip in miles by multiplying the time, \\(9\\) hours, by the average (mean) speed, \\(50\\) miles per hour, to get \\(450\\) miles.\n\nThen, divide the total distance, \\(450\\) miles, by the average (mean) speed, \\(45\\) miles per hour, to get the total time:\n\n\\[450 \\div 45 = 10 \\text{ hours}\\]"
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM26",
+      "origin": "DOE_EXAM_D",
+      "q_number": 26,
+      "question_type": "grid_keypad",
+      "question": "Jordan has a budget of $\\(120\\) to rent a food truck. The rental company charges $\\(18\\) per hour to rent the truck, plus a one-time cleaning fee of $\\(30\\).\n\nWrite an inequality that represents this situation, in which \\(x\\) is the number of hours Jordan can rent the truck.\n\nEnter your answer in the space provided. Enter only your answer.",
+      "grid_answer": "30+18x\u2264120",
+      "accepted_answers": [
+        "30+18x\u2264120",
+        "120\u226530+18x"
+      ],
+      "source_screenshot": "Problems/EXAM_D/DM26.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(30 + 18x \\le 120\\))\n\nLet \\(x\\) represent the number of hours Jordan can rent the truck.\n\nThe hourly rental cost can be represented as $\\(18 \\cdot x\\), written as \\(18x\\).\n\nThe onetime cleaning fee of $\\(30\\) is added to the hourly cost to obtain the total cost.\n\nThe sum of the cleaning fee and the hourly rental cost is represented as \\(30 + 18x\\).\n\nAs Jordan has $\\(120\\) to spend, the total cost must be less than or equal to $\\(120\\).\n\nThis is represented as \\(30 + 18x \\le 120\\) or \\(120 \\ge 30 + 18x\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM27",
+      "origin": "DOE_EXAM_D",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "A birdseed mixture is \\(\\dfrac{2}{5}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.10\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(25\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+      "options": {
+        "A": "$\\(10.00\\)",
+        "B": "$\\(16.00\\)",
+        "C": "$\\(40.00\\)",
+        "D": "$\\(160.00\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM27.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) First, calculate the amount of sunflower seeds in \\(25\\) pounds of this birdseed by using ratio reasoning to find that there are \\(10\\) pounds of sunflower seeds in the birdseed.\n\n\\[\\dfrac{2}{5} = \\dfrac{10}{25}\\]\n\nThen, use ratio reasoning to find the cost of the sunflower seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.10}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$1.60\\]\n\nThe cost of the sunflower seeds is $\\(1.60\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(10\\) pounds.\n\n\\[\\dfrac{\\$1.60}{1 \\text{ pound}} \\times \\dfrac{10 \\text{ pounds}}{1} = \\$16.00\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM28",
+      "origin": "DOE_EXAM_D",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "A graph shows the relationship between the number of gallons of water, \\(y\\), that has been added to a tank and the number of hours, \\(x\\), that water has been added to the tank at a constant rate. What does the ordered pair \\((3, 24)\\) represent?",
+      "options": {
+        "A": "Three gallons of water was added in \\(24\\) hours.",
+        "B": "Three gallons of water was added per hour.",
+        "C": "Twenty-four gallons of water was added in \\(3\\) hours.",
+        "D": "Twenty-four gallons of water was added per hour."
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM28.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) It is given that \\(x\\)-values on the graph represent the numbers of hours for which water was added to the tank, and the \\(y\\)-values represent the numbers of gallons of water added in \\(x\\) hours. In the ordered pair \\((3, 24)\\), \\(3\\) represents an \\(x\\)-value and \\(24\\) represents a \\(y\\)-value.\n\nTherefore, \\((3, 24)\\) represents a data point for \\(24\\) gallons of water being added to the tank in a \\(3\\)-hour period."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM29",
+      "origin": "DOE_EXAM_D",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "Karl has one red spinner and one blue spinner. Each spinner is divided into \\(4\\) equal sections, numbered \\(1\\) through \\(4\\). He spins each spinner once and writes down the number that each lands on. What is the probability that the two numbers, when multiplied together, will have \\(4\\) as a product?",
+      "options": {
+        "A": "\\(\\dfrac{1}{16}\\)",
+        "B": "\\(\\dfrac{3}{16}\\)",
+        "C": "\\(\\dfrac{4}{7}\\)",
+        "D": "\\(\\dfrac{7}{16}\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM29.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) There are four possible outcomes for each spin of the spinner:\n\n\\(1, 2, 3, 4\\)\n\nThe possible outcomes of two spins are:\n\n\\(11 \\quad 12 \\quad 13 \\quad \\boxed{14}\\)\n\\(21 \\quad \\boxed{22} \\quad 23 \\quad 24\\)\n\\(31 \\quad 32 \\quad 33 \\quad 34\\)\n\\(\\boxed{41} \\quad 42 \\quad 43 \\quad 44\\)\n\nOf the \\(16\\) possible outcomes, **only** \\(3\\) pairings have a product of \\(4\\): \\(14\\), \\(22\\), and \\(41\\).\n\nTherefore, the probability that the two numbers resulting from two consecutive spins have a product of \\(4\\) is \\(\\dfrac{3}{16}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM30",
+      "origin": "DOE_EXAM_D",
+      "q_number": 30,
+      "question_type": "mc",
+      "question": "A recipe uses \\(\\dfrac{2}{3}\\) cup of sugar for every \\(1\\dfrac{1}{4}\\) cups of flour. A cook wants to increase the recipe. How many cups of sugar are needed for each cup of flour?",
+      "options": {
+        "A": "\\(\\dfrac{8}{15}\\)",
+        "B": "\\(\\dfrac{5}{6}\\)",
+        "C": "\\(1\\dfrac{7}{8}\\)",
+        "D": "\\(3\\dfrac{2}{3}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_D/DM30.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) To find the cups of sugar for each cup of flour, find the unit rate using this ratio:\n\n\\[\\dfrac{\\dfrac{2}{3} \\text{ cup of sugar}}{1\\dfrac{1}{4} \\text{ cups of flour}}\\]\n\nThen, convert the denominator to an improper fraction and divide to find the cups of sugar per cup of flour.\n\n\\[\\dfrac{\\dfrac{2}{3}}{\\dfrac{5}{4}} = \\dfrac{2}{3} \\div \\dfrac{5}{4} = \\dfrac{2}{3} \\times \\dfrac{4}{5} = \\dfrac{8}{15}\\]"
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
