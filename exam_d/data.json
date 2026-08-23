@@ -194,6 +194,108 @@
         "exhibit_text": "(A) Use inverse operations to isolate the variable \\(x\\) by first getting the \\(x\\) variable on one side.\n\n\\[2x + 11 > 3x + 9\\]\n\\[2x - 3x + 11 > 3x - 3x + 9\\]\n\\[-x + 11 > 9\\]\n\\[-x + 11 - 11 > 9 - 11\\]\n\\[-x > -2\\]\n\nNow, when dividing by \\(-1\\), the direction of the inequality sign changes.\n\n\\[-x > -2\\]\n\\[x < 2\\]\n\nAnother way to solve is to keep the coefficient of \\(x\\) positive and then recognizing that \\(2 > x\\) is the same as \\(x < 2\\)."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM11",
+      "origin": "DOE_EXAM_D",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "In a scale drawing of a triangular park, the sides measure \\(5\\) inches, \\(7\\) inches, and \\(8\\) inches. The perimeter of the actual park is \\(25\\) miles. What is the actual length of the shortest side of the park?",
+      "options": {
+        "A": "\\(6.25\\) mi",
+        "B": "\\(8.75\\) mi",
+        "C": "\\(10\\) mi",
+        "D": "\\(15.625\\) mi"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_D/DM11.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) To find the perimeter of a triangle, add the measures of the three sides. The perimeter of the scale drawing is\n\\[5 + 7 + 8 = 20 \\text{ inches.}\\]\n\nNow, use the perimeters to find the scale factor for the scale drawing to the actual perimeter.\n\nThe scale factor is \\(20\\) inches to \\(25\\) miles, which reduces to a scale factor of \\(4\\) inches to \\(5\\) miles. Note that the scale for the perimeter is the same as the scale for the side lengths.\n\nSince the smallest side on the scale drawing is \\(5\\) inches, use the scale factor to find the actual side length of the smallest side:\n\n\\[5 \\text{ inches} \\left( \\dfrac{5 \\text{ miles}}{4 \\text{ inches}} \\right) = 6.25 \\text{ miles}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM12",
+      "origin": "DOE_EXAM_D",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "\\(P\\) is the center of the circle above, and \\(R\\), \\(S\\), and \\(T\\) are points on the circle. What is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(15\\)",
+        "C": "\\(17\\)",
+        "D": "\\(19\\)"
+      },
+      "correct": "D",
+      "figure_svg": "<svg viewBox='0 0 360 260' xmlns='http://www.w3.org/2000/svg' style='max-width:340px; margin: 0 auto; display: block;'><circle cx='180' cy='130' r='95' fill='none' stroke='#111' stroke-width='1.4'/><line x1='85' y1='130' x2='275' y2='130' stroke='#111' stroke-width='1.4'/><line x1='200' y1='130' x2='240' y2='55' stroke='#111' stroke-width='1.4'/><line x1='200' y1='130' x2='200' y2='150' stroke='#111' stroke-width='1.1'/><line x1='200' y1='150' x2='220' y2='150' stroke='#111' stroke-width='1.1'/><line x1='220' y1='150' x2='220' y2='130' stroke='#111' stroke-width='1.1'/><circle cx='85' cy='130' r='2.5' fill='#111'/><circle cx='200' cy='130' r='2.5' fill='#111'/><circle cx='275' cy='130' r='2.5' fill='#111'/><circle cx='240' cy='55' r='2.5' fill='#111'/><text x='75' y='128' font-family='Georgia,serif' font-size='14' text-anchor='end'>R</text><text x='200' y='122' font-family='Georgia,serif' font-size='14' text-anchor='middle'>P</text><text x='285' y='128' font-family='Georgia,serif' font-size='14'>T</text><text x='245' y='48' font-family='Georgia,serif' font-size='14'>S</text><text x='215' y='95' font-family='Georgia,serif' font-size='12' font-style='italic'>12</text><text x='142' y='150' font-family='Georgia,serif' font-size='12' font-style='italic'>x</text><text x='237' y='150' font-family='Georgia,serif' font-size='12' font-style='italic'>5</text><line x1='140' y1='139' x2='150' y2='139' stroke='#111' stroke-width='0.8'/><path d='M 145 139 L 141 137 L 141 141 Z' fill='#111'/><line x1='227' y1='139' x2='245' y2='139' stroke='#111' stroke-width='0.8'/><path d='M 245 139 L 249 137 L 249 141 Z' fill='#111'/></svg>",
+      "source_screenshot": "Problems/EXAM_D/DM12.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) \\(\\overline{SP}\\) represents the radius of the circle and has length \\(12\\).\n\nBoth \\(\\overline{RP}\\) and \\(\\overline{PT}\\) are radii and also have length \\(12\\).\n\nTherefore, the length of \\(\\overline{RT}\\), which is a diameter, is \\(24\\) and is also represented by \\(x + 5\\).\n\n\\[x + 5 = 24\\]\n\\[x = 19\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM13",
+      "origin": "DOE_EXAM_D",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "In the right triangle shown above, what is the measure of the smallest angle?",
+      "options": {
+        "A": "\\(43\u00b0\\)",
+        "B": "\\(44\u00b0\\)",
+        "C": "\\(46\u00b0\\)",
+        "D": "\\(47\u00b0\\)"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox='0 0 360 280' xmlns='http://www.w3.org/2000/svg' style='max-width:340px; margin: 0 auto; display: block;'><polygon points='80,50 80,220 300,220' fill='none' stroke='#111' stroke-width='1.4'/><polyline points='80,66 96,66 96,50' fill='none' stroke='#111' stroke-width='1'/><polyline points='96,220 96,204 80,204' fill='none' stroke='#111' stroke-width='1'/><path d='M 80 82 A 32 32 0 0 0 96 82' fill='none' stroke='#111' stroke-width='1'/><text x='118' y='94' font-family='Georgia,serif' font-size='13'>(2x + 9)\u00b0</text><text x='250' y='210' font-family='Georgia,serif' font-size='13'>(3x \u2212 14)\u00b0</text></svg>",
+      "source_screenshot": "Problems/EXAM_D/DM13.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) Since the three angles of a triangle have a sum of \\(180\u00b0\\), and since one angle is a right angle, the other two angles have a sum of \\(90\u00b0\\). By writing an equation and using inverse operations, the value of \\(x\\) can be found.\n\n\\[(2x + 9) + (3x - 14) = 90\\]\n\\[5x - 5 = 90\\]\n\\[5x = 95\\]\n\\[x = 19\\]\n\nNow, use substitution to find the measure of the two angles to determine the smallest angle of the triangle.\n\n\\[2x + 9 = 2(19) + 9 = 47\\]\n\\[3x - 14 = 3(19) - 14 = 43\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM14",
+      "origin": "DOE_EXAM_D",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "James must read \\(84\\) pages of a book for a class assignment. If he reads \\(\\dfrac{1}{4}\\) of the pages in the morning and \\(\\dfrac{1}{3}\\) of the **remaining** pages in the afternoon, how many pages will he still need to read?",
+      "options": {
+        "A": "\\(35\\)",
+        "B": "\\(42\\)",
+        "C": "\\(45\\)",
+        "D": "\\(56\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM14.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Pages read in the morning: \\(\\left(\\dfrac{1}{4}\\right)(84) = 21\\)\n\nPages remaining after the morning: \\(84 - 21 = 63\\)\n\nPages read in the afternoon: \\(\\left(\\dfrac{1}{3}\\right)(63) = 21\\)\n\nPages he still needs to read: \\(63 - 21 = 42\\)"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM15",
+      "origin": "DOE_EXAM_D",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{1}{11} + \\dfrac{1}{22} + \\dfrac{1}{33}\\]\n\nWhat is the value of the expression shown above?",
+      "options": {
+        "A": "\\(\\dfrac{1}{22}\\)",
+        "B": "\\(\\dfrac{1}{11}\\)",
+        "C": "\\(\\dfrac{1}{6}\\)",
+        "D": "\\(\\dfrac{3}{22}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM15.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) To add fractions, find a common denominator and rename the fractions using the common denominator. The least common denominator for \\(11\\), \\(22\\), and \\(33\\) is \\(66\\). After adding the fractions, the final fraction can be reduced to lowest terms.\n\n\\[\\dfrac{1}{11} = \\dfrac{1 \\times 6}{11 \\times 6} = \\dfrac{6}{66}\\]\n\\[\\dfrac{1}{22} = \\dfrac{1 \\times 3}{22 \\times 3} = \\dfrac{3}{66}\\]\n\\[\\dfrac{1}{33} = \\dfrac{1 \\times 2}{33 \\times 2} = \\dfrac{2}{66}\\]\n\n\\[\\dfrac{6}{66} + \\dfrac{3}{66} + \\dfrac{2}{66} = \\dfrac{11}{66} = \\dfrac{1}{6}\\]"
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
