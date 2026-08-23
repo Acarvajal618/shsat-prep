@@ -3,31 +3,168 @@
     "description": "NYC DOE SHSAT Practice Test B — Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A schema.",
     "id_format": "BM<NN>  (variants later: BM<NN>.1, BM<NN>.2, ...)",
     "math_notation": "LaTeX math in \\( ... \\) inline and \\[ ... \\] display; KaTeX renders it in the browser.",
-    "question_types": {
-      "mc":            "Multiple choice A-D, one answer",
-      "mc_multi":      "Multiple choice A-F, N correct answers",
-      "grid_in":       "Numeric text input",
-      "grid_keypad":   "Numeric text input with visual keypad + fraction/mixed buttons",
-      "dropdown":      "Inline dropdowns embedded in a walkthrough",
-      "drag_drop":     "Chips dragged into boxes embedded in the prose",
-      "graph_select":  "Clickable points on a coordinate grid",
-      "ray_place":     "Pick a ray shape and click a number-line position"
-    },
-    "fields": {
-      "id":                 "BM01..BM50",
-      "origin":             "DOE_EXAM_B",
-      "q_number":           "1..50",
-      "question_type":      "one of the types above",
-      "question":           "prompt text (LaTeX math in \\(...\\))",
-      "options":            "for mc/mc_multi",
-      "correct":            "letter or array",
-      "grid_answer":        "for grid_in / grid_keypad",
-      "figure_svg":         "optional inline SVG",
-      "exhibit_image_path": "optional path to a figure image",
-      "source_screenshot":  "BM<NN>.png in Problems/EXAM_B/",
-      "solution":           "{ letter, exhibit_text }",
-      "transcription_status": "empty | transcribed | verified"
-    }
+    "question_types": ["mc", "mc_multi", "grid_in", "grid_keypad", "dropdown", "drag_drop", "graph_select", "ray_place"]
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "BM01",
+      "origin": "DOE_EXAM_B",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "The decimal \\(0.06\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
+      "options": { "A": "\\(3\\)", "B": "\\(6\\)", "C": "\\(12\\)", "D": "\\(30\\)" },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_B/BM01.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) \\(0.06 = \\dfrac{6}{100}\\). Simplify the fraction to find the answer: \\(\\dfrac{6}{100} = \\dfrac{3}{50}\\), so \\(x = 3\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM02",
+      "origin": "DOE_EXAM_B",
+      "q_number": 2,
+      "question_type": "drag_drop",
+      "question": "The list shows the results of a survey. A survey was taken to see whether students like basketball, soccer, both, or neither. These were the results:\n\n• 25 students like basketball.\n• 19 students like soccer.\n• 7 students like both basketball and soccer.\n• 10 students don't like either basketball or soccer.\n\nUse the information provided to determine how many students were surveyed and how many like only soccer.\n\nMove the correct answer to each box.\n\nThere were [BOX_1] students surveyed, and [BOX_2] students like only soccer.",
+      "drop_values": ["12", "19", "3", "47"],
+      "drop_allow_reuse": false,
+      "boxes": [
+        { "label": "BOX_1", "correct_value": "47" },
+        { "label": "BOX_2", "correct_value": "12" }
+      ],
+      "source_screenshot": "Problems/EXAM_B/BM02.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "There were **47** students surveyed, and **12** students like only soccer.\n\nStart with total number of students who like basketball and soccer separately and subtract the number of students who were counted twice.\n\nThere were \\(25\\) who like basketball, \\(19\\) who like soccer, and \\(7\\) who like both.\n\nSo, the number who like basketball or soccer is \\((25 + 19) - 7 = 37\\).\n\nAdd the students who don't like either: \\(37 + 10 = 47\\).\n\nStudents who like only soccer: \\(19 - 7 = 12\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM03",
+      "origin": "DOE_EXAM_B",
+      "q_number": 3,
+      "question_type": "mc_multi",
+      "question": "At a diner, \\(18\\) dozen buns were used yesterday for \\(150\\) lunch customers. Today, there were \\(250\\) lunch customers. Assuming that the bun usage rate is the same for both days, which proportions can be used to determine how many dozen buns are needed for \\(250\\) lunch customers?\n\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{18}{150} = \\dfrac{x}{250}\\)",
+        "B": "\\(\\dfrac{18}{250} = \\dfrac{x}{150}\\)",
+        "C": "\\(\\dfrac{150}{18} = \\dfrac{250}{x}\\)",
+        "D": "\\(\\dfrac{x}{18} = \\dfrac{250}{150}\\)",
+        "E": "\\(\\dfrac{x}{150} = \\dfrac{18}{250}\\)"
+      },
+      "n_correct": 3,
+      "correct": ["A", "C", "D"],
+      "source_screenshot": "Problems/EXAM_B/BM03.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "The three correct answers are:\n\n\\[\\dfrac{18}{150} = \\dfrac{x}{250}\\]\n\\[\\dfrac{150}{18} = \\dfrac{250}{x}\\]\n\\[\\dfrac{x}{18} = \\dfrac{250}{150}\\]\n\nEach simplifies to \\(150x = 18(250) = 4{,}500\\), so \\(x = 30\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM04",
+      "origin": "DOE_EXAM_B",
+      "q_number": 4,
+      "question_type": "grid_in",
+      "question": "Maria is playing a game in which players earn points called minks, zogs, and barts.\n\n\\(1\\) mink \\(= 3\\) zogs\n\\(1\\) mink \\(= \\dfrac{1}{4}\\) bart\n\nMaria has \\(60\\) zogs and \\(24\\) barts. She wants to exchange her zogs and barts for minks. How many minks will Maria receive from the exchange?\n\nEnter your answer in the space.",
+      "grid_answer": "116",
+      "source_screenshot": "Problems/EXAM_B/BM04.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "Step 1: Convert zogs to minks. Since \\(1\\) mink \\(= 3\\) zogs, \\(60 \\div 3 = 20\\) minks.\n\nStep 2: Convert barts to minks. Since \\(1\\) mink \\(= \\dfrac{1}{4}\\) bart, \\(1\\) bart \\(= 4\\) minks. So \\(24 \\times 4 = 96\\) minks.\n\nStep 3: Total minks \\(= 20 + 96 = 116\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM05",
+      "origin": "DOE_EXAM_B",
+      "q_number": 5,
+      "question_type": "grid_in",
+      "question": "How many \\(5\\)-digit numbers can be created using the digits \\(2, 3, 5, 7,\\) and \\(8\\) without repeating any digits within that \\(5\\)-digit number?\n\nEnter your answer in the space.",
+      "grid_answer": "120",
+      "source_screenshot": "Problems/EXAM_B/BM05.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(120) There are \\(5\\) choices for the first digit, \\(4\\) choices for the second digit, \\(3\\) choices for the third digit, \\(2\\) choices for the fourth digit, and \\(1\\) choice for the final digit.\n\n\\[5 \\times 4 \\times 3 \\times 2 \\times 1 = 120\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM06",
+      "origin": "DOE_EXAM_B",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "In the figure above, \\(PQRS\\) is a parallelogram. The measure of \\(\\angle PQT\\) is \\(50°\\), and the measure of \\(\\angle PTQ\\) is \\(70°\\). What is the measure of \\(\\angle QRS\\)?",
+      "options": { "A": "\\(60°\\)", "B": "\\(70°\\)", "C": "\\(80°\\)", "D": "\\(120°\\)" },
+      "correct": "A",
+      "exhibit_image_path": "images/exam_b/BM06.png",
+      "source_screenshot": "Problems/EXAM_B/BM06.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) Find the missing angle, \\(\\angle QPT\\), of triangle \\(PQT\\): \\(180° - 70° - 50° = 60°\\).\n\nIn parallelogram \\(PQRS\\), \\(\\angle QPT\\) is congruent to \\(\\angle QRS\\), so the measure of \\(\\angle QRS\\) is also \\(60°\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM07",
+      "origin": "DOE_EXAM_B",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "\\[M = 3N = \\dfrac{P}{4} = Q + 5 = \\dfrac{R}{7} > 0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
+      "options": { "A": "\\(M\\)", "B": "\\(N\\)", "C": "\\(P\\)", "D": "\\(R\\)" },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_B/BM07.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Break the equations apart to each equal \\(M\\):\n\n\\(M = 3N \\Rightarrow N = M/3\\)\n\\(M = P/4 \\Rightarrow P = 4M\\)\n\\(M = Q + 5 \\Rightarrow Q = M - 5\\)\n\\(M = R/7 \\Rightarrow R = 7M\\)\n\nSince \\(M > 0\\), \\(R = 7M\\) is the greatest."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM08",
+      "origin": "DOE_EXAM_B",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "A roofing contractor uses shingles at a rate of \\(3\\) bundles for every \\(96\\) square feet of roof covered. At this rate, how many bundles of shingles will he need in order to cover a roof that is \\(416\\) square feet?",
+      "options": { "A": "\\(5\\)", "B": "\\(12\\)", "C": "\\(13\\)", "D": "\\(14\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_B/BM08.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Set up a proportion:\n\n\\[\\dfrac{x}{416} = \\dfrac{3}{96}\\]\n\\[96x = 1{,}248\\]\n\\[x = 13 \\text{ bundles}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM09",
+      "origin": "DOE_EXAM_B",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "To make party invitations, Macie could buy a package of paper for $\\(10.50\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.15\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
+      "options": { "A": "\\(60\\)", "B": "\\(65\\)", "C": "\\(69\\)", "D": "\\(70\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_B/BM09.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Set up an inequality to compare the costs:\n\n\\[0.15x \\le 10.50\\]\n\\[x \\le 70\\]\n\nTherefore, \\(70\\) individual sheets would cost $\\(10.50\\), so \\(69\\) is the greatest number of individual sheets Macie can buy that would be **less** expensive than the package."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM10",
+      "origin": "DOE_EXAM_B",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "At \\(1{:}00\\) p.m. one day, the temperature was \\(8\\) degrees above zero. During the rest of the day, the temperature fell \\(3\\) degrees per hour. What was the temperature at \\(7{:}00\\) p.m. that day?",
+      "options": { "A": "\\(-13°\\)", "B": "\\(-10°\\)", "C": "\\(-7°\\)", "D": "\\(5°\\)" },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_B/BM10.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) \\(7{:}00\\) p.m. is \\(6\\) hours after \\(1{:}00\\) p.m. Calculate the number of degrees the temperature dropped in \\(6\\) hours: \\(3 \\times 6 = 18\\) degrees. Subtract that from the starting point (\\(8\\) degrees) to find the solution: \\(8 - 18 = -10\\) degrees."
+      },
+      "transcription_status": "transcribed"
+    }
+  ]
 }
