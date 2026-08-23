@@ -6,72 +6,83 @@
   <title>SHSAT Practice Test A — Math</title>
   <style>
     :root {
-      --tn-bg: #f4f4f4;
+      --tn-bg: #ffffff;
       --tn-toolbar-bg: #ffffff;
-      --tn-toolbar-border: #d0d0d0;
-      --tn-infobar-bg: #6b6b6b;
+      --tn-toolbar-border: #cccccc;
+      --tn-infobar-bg: #6d6d6d;
       --tn-infobar-text: #ffffff;
       --tn-accent: #1a73e8;
-      --tn-progress: #4c9eff;
-      --tn-card-border: #dcdcdc;
-      --tn-card-shadow: 0 1px 3px rgba(0,0,0,0.04);
-      --tn-text: #202020;
+      --tn-accent-blue-btn: #4a90e2;
+      --tn-progress: #62a3ea;
+      --tn-card-border: #e0e0e0;
+      --tn-text: #222;
       --tn-muted: #888;
     }
     * { box-sizing: border-box; }
     html, body {
       margin: 0; padding: 0;
       background: var(--tn-bg);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       color: var(--tn-text);
       min-height: 100vh;
     }
 
-    /* ── Top toolbar (nav arrows + tool palette + guest) ── */
+    /* ── Top toolbar (nav arrows + tools + guest) ── */
     .tn-toolbar {
-      background: var(--tn-toolbar-bg);
-      border-bottom: 1px solid var(--tn-toolbar-border);
+      background: #f4f4f4;
       display: flex; align-items: center;
-      padding: 8px 16px;
-      gap: 12px;
+      padding: 10px 20px;
+      gap: 10px;
+      border-bottom: 1px solid #dcdcdc;
     }
-    .tn-nav-arrows { display: flex; gap: 4px; margin-right: 12px; }
+    .tn-nav-arrows { display: flex; gap: 2px; }
     .tn-btn {
-      background: #ffffff; border: 1px solid #cfcfcf;
-      border-radius: 6px;
-      width: 40px; height: 32px;
+      background: #ffffff;
+      border: 1px solid #b8b8b8;
+      border-radius: 2px;
+      width: 42px; height: 32px;
       display: inline-flex; align-items: center; justify-content: center;
       cursor: pointer; font-size: 15px; padding: 0;
-      color: #444;
-      transition: background 0.12s, border-color 0.12s;
+      color: #333;
+      transition: background 0.08s, border-color 0.08s;
     }
-    .tn-btn:hover { background: #eef4ff; border-color: #7ea8e8; }
-    .tn-btn.next { background: var(--tn-accent); color: #fff; border-color: var(--tn-accent); }
-    .tn-btn.next:hover { background: #1668d1; }
-    .tn-btn:disabled { opacity: 0.35; cursor: default; }
-    .tn-btn.active { background: #dbe9ff; border-color: var(--tn-accent); color: var(--tn-accent); }
+    .tn-btn:hover:not(:disabled) { background: #ebebeb; }
+    .tn-btn.next {
+      background: var(--tn-accent-blue-btn);
+      color: #fff;
+      border-color: var(--tn-accent-blue-btn);
+    }
+    .tn-btn.next:hover { background: #3d7fc7; }
+    .tn-btn:disabled { opacity: 0.35; cursor: default; background: #fff; }
+    .tn-btn.active {
+      background: #d6d6d6;
+      border-color: #666;
+      color: #111;
+    }
 
-    .tn-tools { display: flex; gap: 4px; margin-left: 4px; padding-left: 12px; border-left: 1px solid #e0e0e0; }
-    .tn-tools .tn-btn { width: 40px; height: 32px; font-size: 16px; }
+    .tn-tools { display: flex; gap: 0; margin-left: 8px; }
+    .tn-tools .tn-btn { border-radius: 0; margin-left: -1px; }
+    .tn-tools .tn-btn:first-child { border-radius: 2px 0 0 2px; margin-left: 0; }
+    .tn-tools .tn-btn:last-child { border-radius: 0 2px 2px 0; }
 
-    .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #444; font-size: 13px; }
+    .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #333; font-size: 13px; }
     .tn-user .tn-avatar {
-      width: 26px; height: 26px; border-radius: 4px;
-      background: #ddd;
+      width: 22px; height: 22px; border-radius: 2px;
+      background: #d8d8d8;
       display: inline-flex; align-items: center; justify-content: center;
-      color: #666; font-size: 14px;
+      color: #555; font-size: 13px;
     }
 
-    /* ── Info bar (test name + progress) ── */
-    .tn-progress-line { height: 4px; background: var(--tn-progress); }
+    /* ── Progress line + info bar ── */
+    .tn-progress-line { height: 3px; background: var(--tn-progress); }
     .tn-infobar {
       background: var(--tn-infobar-bg);
       color: var(--tn-infobar-text);
-      padding: 8px 20px;
+      padding: 6px 22px;
       font-size: 12px;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.05em;
     }
-    .tn-infobar .sep { margin: 0 8px; opacity: 0.6; }
+    .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
 
     /* ── Exhibits tab (right edge) ── */
     .tn-exhibits-tab {
@@ -79,8 +90,8 @@
       background: #ffffff;
       border: 1px solid var(--tn-toolbar-border);
       border-right: none;
-      border-radius: 6px 0 0 6px;
-      padding: 12px 8px;
+      border-radius: 4px 0 0 4px;
+      padding: 12px 6px;
       font-size: 11px;
       color: #555;
       cursor: pointer;
@@ -95,14 +106,13 @@
     .tn-main {
       max-width: 1000px;
       margin: 32px auto;
-      padding: 0 20px;
+      padding: 0 24px;
     }
     .tn-card {
       background: #fff;
       border: 1px solid var(--tn-card-border);
-      border-radius: 4px;
-      box-shadow: var(--tn-card-shadow);
-      padding: 28px 32px;
+      border-radius: 0;
+      padding: 30px 34px;
       min-height: 260px;
     }
     .tn-question {
@@ -113,44 +123,47 @@
     }
     .tn-question strong { font-weight: 700; }
     .tn-figure {
-      margin: 14px 0 8px;
+      margin: 8px 0 16px;
       display: flex; justify-content: center;
     }
-    .tn-figure img {
-      max-width: 100%;
-      height: auto;
-    }
+    .tn-figure img { max-width: 100%; height: auto; }
+    .tn-figure svg { width: 100%; max-width: 520px; height: auto; }
 
     /* Options — multiple choice */
-    .tn-options { margin-top: 20px; display: flex; flex-direction: column; gap: 6px; }
+    .tn-options { margin-top: 22px; display: flex; flex-direction: column; gap: 4px; }
     .tn-option {
       display: flex; align-items: flex-start; gap: 12px;
-      padding: 10px 14px;
+      padding: 10px 12px;
       cursor: pointer;
-      border-radius: 4px;
+      border-radius: 2px;
       user-select: none;
-      transition: background 0.1s;
+      transition: background 0.08s;
     }
-    .tn-option:hover { background: #f4f4f4; }
+    .tn-option:hover { background: #f6f6f6; }
+    .tn-option.crossed { cursor: not-allowed; }
+    .tn-option.crossed:hover { background: transparent; }
+
     .tn-radio {
-      width: 18px; height: 18px; border-radius: 50%;
-      border: 1.5px solid #999;
-      flex-shrink: 0; margin-top: 1px;
+      width: 16px; height: 16px; border-radius: 50%;
+      border: 1.5px solid #888;
+      flex-shrink: 0; margin-top: 2px;
       position: relative;
+      background: #fff;
     }
     .tn-option.selected .tn-radio {
       border-color: var(--tn-accent);
     }
     .tn-option.selected .tn-radio::after {
       content: ''; position: absolute;
-      top: 3px; left: 3px; width: 9px; height: 9px;
+      top: 2.5px; left: 2.5px; width: 8px; height: 8px;
       border-radius: 50%; background: var(--tn-accent);
     }
     .tn-checkbox {
-      width: 16px; height: 16px; border-radius: 2px;
-      border: 1.5px solid #999;
-      flex-shrink: 0; margin-top: 2px;
+      width: 15px; height: 15px; border-radius: 2px;
+      border: 1.5px solid #888;
+      flex-shrink: 0; margin-top: 3px;
       position: relative;
+      background: #fff;
     }
     .tn-option.selected .tn-checkbox {
       border-color: var(--tn-accent);
@@ -158,41 +171,45 @@
     }
     .tn-option.selected .tn-checkbox::after {
       content: '✓'; position: absolute;
-      color: #fff; font-size: 12px; font-weight: bold;
-      top: -3px; left: 2px;
+      color: #fff; font-size: 11px; font-weight: bold;
+      top: -4px; left: 1.5px;
     }
     .tn-letter { font-weight: 500; min-width: 20px; }
     .tn-option-text { flex: 1; }
 
-    /* Cross-out state — strike through options */
-    .tn-option.crossed { opacity: 0.55; }
+    /* Cross-out state — strike through options and disable interaction */
     .tn-option.crossed .tn-letter,
     .tn-option.crossed .tn-option-text {
       text-decoration: line-through;
-      text-decoration-color: #c00;
+      text-decoration-color: #d33;
       text-decoration-thickness: 2px;
+      color: #999;
+    }
+    .tn-option.crossed .tn-radio,
+    .tn-option.crossed .tn-checkbox {
+      opacity: 0.4;
     }
 
     /* Grid-in numeric input */
     .tn-grid-input {
-      margin-top: 18px;
+      margin-top: 16px;
       padding: 8px 12px;
-      border: 1.5px solid #999;
-      border-radius: 3px;
+      border: 1.5px solid #7a7a7a;
+      border-radius: 2px;
       width: 140px;
       font-size: 16px;
       font-family: inherit;
       outline: none;
     }
     .tn-grid-input:focus { border-color: var(--tn-accent); }
-    .tn-grid-label { margin-top: 14px; color: #444; font-size: 14px; }
+    .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
 
     /* Dropdown blanks inside prose */
     .tn-dropdown {
       display: inline-block;
-      padding: 3px 24px 3px 10px;
-      border: 1.5px solid #999;
-      border-radius: 3px;
+      padding: 3px 22px 3px 10px;
+      border: 1.5px solid #888;
+      border-radius: 2px;
       background: #fff;
       font-family: inherit; font-size: 14px;
       cursor: pointer;
@@ -201,21 +218,96 @@
       -webkit-appearance: none;
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0 L5 6 L10 0 Z' fill='%23555'/></svg>");
       background-repeat: no-repeat;
-      background-position: right 8px center;
+      background-position: right 6px center;
       min-width: 90px;
       color: #333;
     }
-    .tn-dropdown:disabled { color: #999; background-color: #f8f8f8; cursor: not-allowed; }
+    .tn-dropdown:disabled { color: #999; background-color: #f6f6f6; cursor: not-allowed; }
     .tn-dropdown-note { color: var(--tn-muted); font-size: 12px; margin-top: 10px; font-style: italic; }
 
-    /* Small helper for lists/bullets rendered from newline */
-    .tn-bullets { margin: 8px 0 0 20px; }
+    /* Solution button below card */
+    .tn-card-actions {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+      display: flex; gap: 10px;
+    }
+    .tn-btn-solution {
+      background: #fff;
+      border: 1px solid #b8b8b8;
+      border-radius: 2px;
+      padding: 8px 18px;
+      font-size: 13px;
+      color: #333;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .tn-btn-solution:hover { background: #ebebeb; }
+    .tn-btn-solution:disabled { opacity: 0.5; cursor: default; }
+
+    /* Solution modal (mimics TestNav Exhibits panel) */
+    .tn-modal-backdrop {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.35);
+      z-index: 1000;
+      display: none;
+      align-items: flex-start; justify-content: center;
+      padding-top: 60px;
+    }
+    .tn-modal-backdrop.open { display: flex; }
+    .tn-modal {
+      background: #fff;
+      border: 1px solid #cfcfcf;
+      border-radius: 3px;
+      width: min(720px, 92%);
+      max-height: 80vh;
+      display: flex; flex-direction: column;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.16);
+    }
+    .tn-modal-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 14px;
+      background: #ececec;
+      border-bottom: 1px solid #cfcfcf;
+      font-size: 14px; color: #333;
+    }
+    .tn-modal-close {
+      background: transparent; border: none; cursor: pointer;
+      font-size: 14px; color: #333; padding: 4px 8px;
+    }
+    .tn-modal-close:hover { color: #000; }
+    .tn-modal-tabs {
+      display: flex; padding: 0 14px;
+      background: #fff;
+      border-bottom: 1px solid #cfcfcf;
+    }
+    .tn-modal-tab {
+      padding: 8px 14px;
+      font-size: 13px;
+      color: #333;
+      cursor: default;
+      border: 1px solid transparent;
+      border-bottom: none;
+      margin-bottom: -1px;
+    }
+    .tn-modal-tab.active {
+      border-color: #cfcfcf;
+      background: #fff;
+    }
+    .tn-modal-body {
+      padding: 20px 22px;
+      font-size: 14px;
+      line-height: 1.55;
+      color: #222;
+      overflow-y: auto;
+      white-space: pre-line;
+    }
 
     @media (max-width: 700px) {
-      .tn-toolbar { padding: 6px 10px; gap: 6px; flex-wrap: wrap; }
+      .tn-toolbar { padding: 8px 12px; gap: 6px; flex-wrap: wrap; }
       .tn-user { font-size: 12px; }
-      .tn-main { margin: 16px auto; padding: 0 10px; }
-      .tn-card { padding: 18px 14px; }
+      .tn-main { margin: 16px auto; padding: 0 12px; }
+      .tn-card { padding: 20px 16px; }
       .tn-question { font-size: 14px; }
       .tn-exhibits-tab { top: 150px; }
     }
@@ -229,7 +321,7 @@
       <button class="tn-btn next" id="tn-next" title="Next question">→</button>
     </div>
     <div class="tn-tools">
-      <button class="tn-btn" id="tn-cursor" title="Cursor (default)">↖</button>
+      <button class="tn-btn" id="tn-cursor" title="Pointer">↖</button>
       <button class="tn-btn" id="tn-crossout" title="Cross out answer choices">✕</button>
       <button class="tn-btn" id="tn-notes" title="Notes (disabled)" disabled>📝</button>
       <button class="tn-btn" id="tn-pencil" title="Highlighter (disabled)" disabled>✏️</button>
@@ -240,7 +332,6 @@
     </div>
   </div>
 
-  <!-- Progress + info -->
   <div class="tn-progress-line"></div>
   <div class="tn-infobar">
     <span>SHSAT PRACTICE TEST A</span>
@@ -250,14 +341,29 @@
     <span id="tn-counter">1 OF 50</span>
   </div>
 
-  <!-- Exhibits tab (visual only for now) -->
   <div class="tn-exhibits-tab" id="tn-exhibits" title="Exhibits (placeholder)">Exhibits 📁</div>
 
-  <!-- Question card -->
   <div class="tn-main">
     <div class="tn-card" id="tn-card">
       <div class="tn-question" id="tn-question">Loading…</div>
       <div id="tn-body"></div>
+      <div class="tn-card-actions">
+        <button class="tn-btn-solution" id="tn-show-solution" disabled>Solution</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Solution modal (TestNav Exhibits lookalike) -->
+  <div class="tn-modal-backdrop" id="tn-solution-modal">
+    <div class="tn-modal">
+      <div class="tn-modal-header">
+        <span>Exhibits</span>
+        <button class="tn-modal-close" id="tn-close-modal">X</button>
+      </div>
+      <div class="tn-modal-tabs">
+        <div class="tn-modal-tab active">Exhibit 1</div>
+      </div>
+      <div class="tn-modal-body" id="tn-modal-body"></div>
     </div>
   </div>
 
@@ -265,9 +371,9 @@
     const DATA_URL = 'exam_a/data.json?v=' + Date.now();
     const state = {
       questions: [],
-      cur: 0,             // 0-indexed
-      answers: {},        // {qNumber: value}   value shape varies by type
-      crossedOut: {},     // {qNumber: {letter: true}}
+      cur: 0,
+      answers: {},
+      crossedOut: {},
       crossoutMode: false,
     };
 
@@ -289,25 +395,27 @@
     function routeFromHash() {
       const q = parseHash();
       if (q) {
-        state.cur = q - 1;
+        // Find index for that q_number (may be less than 50 if we haven't transcribed them all)
+        const idx = state.questions.findIndex(x => x.q_number === q);
+        state.cur = idx >= 0 ? idx : 0;
       } else {
         state.cur = 0;
-        location.hash = 'Q1';
+        location.hash = state.questions.length ? 'Q' + state.questions[0].q_number : 'Q1';
       }
     }
 
     window.addEventListener('hashchange', () => {
       routeFromHash();
       render();
+      closeModal();
     });
 
     function currentQ() { return state.questions[state.cur] || null; }
 
     function updateCounter() {
       const q = currentQ();
-      const total = state.questions.length || 50;
       const n = q ? q.q_number : (state.cur + 1);
-      document.getElementById('tn-counter').textContent = n + ' OF ' + total;
+      document.getElementById('tn-counter').textContent = n + ' OF 50';
     }
 
     function wireControls() {
@@ -315,10 +423,16 @@
       document.getElementById('tn-next').onclick = () => go(+1);
       document.getElementById('tn-cursor').onclick = () => setCrossout(false);
       document.getElementById('tn-crossout').onclick = () => setCrossout(!state.crossoutMode);
+      document.getElementById('tn-show-solution').onclick = openModal;
+      document.getElementById('tn-close-modal').onclick = closeModal;
+      document.getElementById('tn-solution-modal').addEventListener('click', (e) => {
+        if (e.target.id === 'tn-solution-modal') closeModal();
+      });
       document.addEventListener('keydown', (e) => {
         if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
         if (e.key === 'ArrowRight') go(+1);
         if (e.key === 'ArrowLeft') go(-1);
+        if (e.key === 'Escape') closeModal();
       });
       setCrossout(false);
     }
@@ -336,22 +450,30 @@
       location.hash = 'Q' + state.questions[next].q_number;
     }
 
+    function openModal() {
+      const q = currentQ();
+      if (!q || !q.solution || !q.solution.exhibit_text) return;
+      document.getElementById('tn-modal-body').textContent = q.solution.exhibit_text;
+      document.getElementById('tn-solution-modal').classList.add('open');
+    }
+    function closeModal() {
+      document.getElementById('tn-solution-modal').classList.remove('open');
+    }
+
     function esc(s) {
       return (s || '').replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
     }
 
-    // Prep the question text: convert bullet lines to <ul>, respect newlines otherwise.
     function renderQuestionText(text) {
       const lines = (text || '').split('\n');
       const html = [];
       let inList = false;
       for (const line of lines) {
         if (line.trim().startsWith('• ')) {
-          if (!inList) { html.push('<ul class="tn-bullets">'); inList = true; }
+          if (!inList) { html.push('<ul style="margin:8px 0 0 20px;">'); inList = true; }
           html.push('<li>' + esc(line.trim().slice(2)) + '</li>');
         } else {
           if (inList) { html.push('</ul>'); inList = false; }
-          // Bold **markdown**
           const bolded = esc(line).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
           html.push('<div>' + bolded + '</div>');
         }
@@ -369,25 +491,20 @@
       if (!q) {
         document.getElementById('tn-question').textContent = 'No question found.';
         document.getElementById('tn-body').innerHTML = '';
+        document.getElementById('tn-show-solution').disabled = true;
         return;
       }
 
-      // Split the question text for dropdown types (embedded [DROPDOWN_N] tokens)
-      let questionHtml;
-      if (q.question_type === 'dropdown') {
-        questionHtml = renderDropdownProse(q);
-      } else {
-        questionHtml = renderQuestionText(q.question);
-      }
+      const questionHtml = (q.question_type === 'dropdown') ? renderDropdownProse(q) : renderQuestionText(q.question);
       document.getElementById('tn-question').innerHTML = questionHtml;
 
-      // Optional figure
       let bodyHtml = '';
-      if (q.exhibit_image_path) {
+      if (q.figure_svg) {
+        bodyHtml += `<div class="tn-figure">${q.figure_svg}</div>`;
+      } else if (q.exhibit_image_path) {
         bodyHtml += `<div class="tn-figure"><img src="${q.exhibit_image_path}" alt="figure"></div>`;
       }
 
-      // Answer input area
       if (q.question_type === 'mc') {
         bodyHtml += renderMc(q);
       } else if (q.question_type === 'mc_multi') {
@@ -395,9 +512,15 @@
       } else if (q.question_type === 'grid_in') {
         bodyHtml += renderGridIn(q);
       } else if (q.question_type === 'dropdown') {
-        bodyHtml += `<div class="tn-dropdown-note">Answer choices for the dropdowns aren't loaded yet — placeholder shown.</div>`;
+        const hasChoices = (q.dropdowns || []).some(d => d.choices && d.choices.length);
+        if (!hasChoices) {
+          bodyHtml += `<div class="tn-dropdown-note">Dropdown choices not captured yet — placeholders shown. Use the Solution button for the DOE walkthrough.</div>`;
+        }
       }
       document.getElementById('tn-body').innerHTML = bodyHtml;
+
+      const hasSolution = !!(q.solution && q.solution.exhibit_text);
+      document.getElementById('tn-show-solution').disabled = !hasSolution;
 
       wireInputs(q);
     }
@@ -407,9 +530,7 @@
       const sel = state.answers[q.q_number] || null;
       const crossed = state.crossedOut[q.q_number] || {};
       const opts = letters.map(L => {
-        const cls = 'tn-option'
-          + (sel === L ? ' selected' : '')
-          + (crossed[L] ? ' crossed' : '');
+        const cls = 'tn-option' + (sel === L ? ' selected' : '') + (crossed[L] ? ' crossed' : '');
         return `<div class="${cls}" data-letter="${L}">
           <span class="tn-radio"></span>
           <span class="tn-letter">${L}.</span>
@@ -424,9 +545,7 @@
       const sel = new Set(state.answers[q.q_number] || []);
       const crossed = state.crossedOut[q.q_number] || {};
       const opts = letters.map(L => {
-        const cls = 'tn-option'
-          + (sel.has(L) ? ' selected' : '')
-          + (crossed[L] ? ' crossed' : '');
+        const cls = 'tn-option' + (sel.has(L) ? ' selected' : '') + (crossed[L] ? ' crossed' : '');
         return `<div class="${cls}" data-letter="${L}">
           <span class="tn-checkbox"></span>
           <span class="tn-letter">${L}</span>
@@ -445,27 +564,27 @@
     }
 
     function renderDropdownProse(q) {
-      // Replace [DROPDOWN_N] tokens with a <select> placeholder
       let html = renderQuestionText(q.question);
       (q.dropdowns || []).forEach((d) => {
         const marker = '[' + d.label + ']';
         const choices = d.choices || [];
-        const opts = ['<option>Choose...</option>'].concat(
-          choices.map((c, i) => `<option value="${i}">${esc(c)}</option>`)
-        ).join('');
-        const disabledAttr = choices.length ? '' : 'disabled';
-        html = html.split(marker).join(
-          `<select class="tn-dropdown" data-label="${d.label}" ${disabledAttr}>${opts}</select>`
-        );
+        let selectHtml;
+        if (choices.length) {
+          const opts = ['<option>Choose...</option>'].concat(
+            choices.map((c, i) => `<option value="${i}">${esc(c)}</option>`)
+          ).join('');
+          selectHtml = `<select class="tn-dropdown" data-label="${d.label}">${opts}</select>`;
+        } else {
+          selectHtml = `<select class="tn-dropdown" data-label="${d.label}" disabled><option>Choose...</option></select>`;
+        }
+        html = html.split(marker).join(selectHtml);
       });
       return html;
     }
 
     function wireInputs(q) {
-      // Options click for mc / mc_multi
-      const nodes = document.querySelectorAll('.tn-option');
-      nodes.forEach((el) => {
-        el.addEventListener('click', (ev) => {
+      document.querySelectorAll('.tn-option').forEach((el) => {
+        el.addEventListener('click', () => {
           const letter = el.dataset.letter;
           if (state.crossoutMode) {
             state.crossedOut[q.q_number] = state.crossedOut[q.q_number] || {};
@@ -473,6 +592,10 @@
             render();
             return;
           }
+          // Cursor mode: crossed-out options are unclickable
+          const crossed = state.crossedOut[q.q_number] || {};
+          if (crossed[letter]) return;
+
           if (q.question_type === 'mc') {
             state.answers[q.q_number] = (state.answers[q.q_number] === letter) ? null : letter;
           } else if (q.question_type === 'mc_multi') {

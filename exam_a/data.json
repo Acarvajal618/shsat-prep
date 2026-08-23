@@ -4,27 +4,28 @@
     "id_format": "AM<NN>  (variations later: AM<NN>.1, AM<NN>.2, ...)",
     "question_types": {
       "mc":       "Multiple choice A-D, one answer",
-      "mc_multi": "Multiple choice A-F, N correct answers ('select the TWO correct answers')",
-      "grid_in":  "Numeric text input (may also carry an inline figure/diagram)",
+      "mc_multi": "Multiple choice A-F, N correct answers",
+      "grid_in":  "Numeric text input (may also carry an inline figure)",
       "dropdown": "One or more inline dropdowns embedded in a walkthrough"
     },
     "fields": {
       "id":                 "AM01..AM50",
       "origin":             "DOE_EXAM_A",
-      "q_number":           "1..50 (integer)",
+      "q_number":           "1..50",
       "question_type":      "mc | mc_multi | grid_in | dropdown",
-      "question":           "prompt text (multi-line ok; math typeset simply — e.g. x/1 = 0.125/125, x = 0.001)",
+      "question":           "prompt text",
       "options":            "for mc/mc_multi: {A, B, ...} -> string",
-      "n_correct":          "for mc_multi: how many correct choices are expected (e.g. 2)",
-      "correct":            "for mc: single letter string; for mc_multi: array of letters; blank until solutions loaded",
-      "grid_answer":        "for grid_in: numeric answer as string (blank until solutions loaded)",
-      "dropdowns":          "for dropdown: [{label, choices[], answer_index}] — one per blank in the prompt",
-      "exhibit_image_path": "optional path to a supporting figure image (relative to web/public/)",
+      "n_correct":          "for mc_multi",
+      "correct":            "for mc: single letter; for mc_multi: array of letters",
+      "grid_answer":        "for grid_in: numeric answer string",
+      "dropdowns":          "for dropdown: [{label, choices|null, answer_display}]",
+      "figure_svg":         "optional inline SVG string rendered above the answer inputs",
+      "exhibit_image_path": "optional path to a supporting figure image",
       "source_screenshot":  "AM<NN>.png in Problems/EXAM_A/",
+      "solution":           "{ letter, exhibit_text }  — the DOE-supplied Exhibit 1 content",
+      "source_solution_screenshots": "list of solution screenshot filenames used for transcription",
       "transcription_status": "empty | transcribed | verified"
-    },
-    "type_id":  "left null for now; will map to the 41-major-type system in a later pass",
-    "solution": "left null for now; will be filled with DOE-provided solutions when supplied"
+    }
   },
   "questions": [
     {
@@ -33,15 +34,13 @@
       "q_number": 1,
       "question_type": "mc",
       "question": "In a scale diagram, 0.125 inch represents 125 feet. How many inches represent 1 foot?",
-      "options": {
-        "A": "0.001",
-        "B": "0.01",
-        "C": "0.1",
-        "D": "0.12"
-      },
-      "correct": null,
-      "exhibit_image_path": null,
+      "options": { "A": "0.001", "B": "0.01", "C": "0.1", "D": "0.12" },
+      "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM01.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) Let x be the number of inches representing 1 foot. Set up a proportion and solve for x:\n\nx/1 = 0.125/125\n\nx = 0.001 in."
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -56,9 +55,12 @@
         "C": "(55 · 3,600) / 5,280",
         "D": "(55 · 5,280) / 60"
       },
-      "correct": null,
-      "exhibit_image_path": null,
+      "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM02.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Divide the rate (55 miles per hour) by the number of seconds in an hour (60 minutes × 60 seconds = 3,600 seconds):\n\n55/3,600 miles per second\n\nMultiply by the number of feet in a mile (5,280):\n\n(55 × 5,280) / 3,600 feet per second"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -67,9 +69,12 @@
       "q_number": 3,
       "question_type": "grid_in",
       "question": "For what value of w is 4w = 2w − 8?",
-      "grid_answer": null,
-      "exhibit_image_path": null,
+      "grid_answer": "-4",
       "source_screenshot": "Problems/EXAM_A/AM03.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(−4)\n\n4w = 2w − 8\n2w = −8\nw = −4"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -78,9 +83,12 @@
       "q_number": 4,
       "question_type": "grid_in",
       "question": "A survey asked students what pets they have. Based on the results, the following statements are all true:\n\n• 20 students have cats.\n• 23 students have dogs.\n• 3 students have both dogs and cats.\n• 5 students have no dogs or cats.\n\nHow many students were surveyed?",
-      "grid_answer": null,
-      "exhibit_image_path": null,
+      "grid_answer": "45",
       "source_screenshot": "Problems/EXAM_A/AM04.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(45) Let x = number of students with **only** cats as pets. Let y = number of students with **only** dogs as pets.\n\nCalculate x and y using the given information:\n\nThere are 20 students who have cats, and of those 20 students, 3 have both cats and dogs. If 3 out of 20 students also have dogs, then x = 20 − 3 = 17.\n\nThere are 23 students who have dogs, and of those 23 students, 3 have both cats and dogs. If 3 out of 23 students also have cats, then y = 23 − 3 = 20.\n\nTo find the total number of students surveyed, add the number of students who **only** have cats (x), the number of students who **only** have dogs (y), the number of students who have both (3), and the number of students who have neither (5):\n\n3 + 5 + x + y = 8 + 17 + 20 = 45"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -89,15 +97,13 @@
       "q_number": 5,
       "question_type": "mc",
       "question": "The sum of the numbers x, y, and z is 50. The ratio of x to y is 1:4, and the ratio of y to z is 4:5. What is the value of y?",
-      "options": {
-        "A": "4",
-        "B": "8",
-        "C": "10",
-        "D": "20"
-      },
-      "correct": null,
-      "exhibit_image_path": null,
+      "options": { "A": "4", "B": "8", "C": "10", "D": "20" },
+      "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM05.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Since both ratios have y in common, solve for x and z in terms of y in both equations.\n\nUsing y : x = 1 : 4, solve for x in terms of y:\n\nx/y = 1/4\n\nx = (1/4)y\n\nUsing the ratio y : z = 4 : 5, solve for z in terms of y:\n\ny/z = 4/5\n\nz = (5/4)y\n\nThe question states x + y + z = 50. Substitute from the two equations above and solve for y:\n\n(1/4)y + y + (5/4)y = 50\n\n(10/4)y = 50\n\n10y = 200\n\ny = 20"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -106,15 +112,13 @@
       "q_number": 6,
       "question_type": "mc",
       "question": "7 + (3n + 6) − (4n + 8) =",
-      "options": {
-        "A": "5 − n",
-        "B": "5 + n",
-        "C": "21 − n",
-        "D": "21 + n"
-      },
-      "correct": null,
-      "exhibit_image_path": null,
+      "options": { "A": "5 − n", "B": "5 + n", "C": "21 − n", "D": "21 + n" },
+      "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM06.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) 7 + 3n + 6 − 4n − 8 =\n(7 + 6 − 8) + (3n − 4n) =\n5 − n"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -123,15 +127,13 @@
       "q_number": 7,
       "question_type": "mc",
       "question": "In a certain school, course grades range from 0 to 100. Adrianna took 4 courses and her mean course grade was 90. Roberto took 5 courses. If both students have the same sum of course grades, what was Roberto's mean?",
-      "options": {
-        "A": "72",
-        "B": "80",
-        "C": "90",
-        "D": "92"
-      },
-      "correct": null,
-      "exhibit_image_path": null,
+      "options": { "A": "72", "B": "80", "C": "90", "D": "92" },
+      "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM07.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) The sum of Adrianna's course grades equals 4 times the mean (average) of her grades:\n\n90 × 4 = 360\n\nRoberto has the same sum (360) as Adrianna. Find the mean of his course grades:\n\n360 ÷ 5 = 72"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -141,23 +143,31 @@
       "question_type": "dropdown",
       "question": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives 8 of his stamps to Kevin. Liam now has 12 more stamps than Kevin.\n\nHow many stamps did Liam start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of stamps originally in Liam's and Kevin's collections is L = [DROPDOWN_1] K.\n\nAfter Liam gives 8 stamps to Kevin, the equation becomes L − 8 = [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Liam started with [DROPDOWN_3] stamps.",
       "dropdowns": [
-        { "label": "DROPDOWN_1", "choices": null, "answer_index": null },
-        { "label": "DROPDOWN_2", "choices": null, "answer_index": null },
-        { "label": "DROPDOWN_3", "choices": null, "answer_index": null }
+        { "label": "DROPDOWN_1", "choices": null, "answer_display": "2" },
+        { "label": "DROPDOWN_2", "choices": null, "answer_display": "K + 20" },
+        { "label": "DROPDOWN_3", "choices": null, "answer_display": "56" }
       ],
-      "exhibit_image_path": null,
       "source_screenshot": "Problems/EXAM_A/AM08.png",
-      "transcription_status": "transcribed_needs_dropdown_choices"
+      "solution": {
+        "letter": null,
+        "exhibit_text": "Liam originally has twice as many stamps as Kevin, so the equation is L = 2K.\n\nAfter Liam gives 8 stamps to Kevin, the equation becomes L − 8 = (K + 8) + 12, which simplifies to L − 8 = K + 20.\n\nSubstitute L = 2K into the equation: 2K − 8 = K + 20.\n\nSolve for K:\n2K − K = 20 + 8\nK = 28\n\nSubstitute to find L: L = 2K = 2 × 28 = 56.\n\nSo, Liam started with 56 stamps."
+      },
+      "transcription_status": "transcribed"
     },
     {
       "id": "AM09",
       "origin": "DOE_EXAM_A",
       "q_number": 9,
       "question_type": "grid_in",
-      "question": "In the figure above, PQRS is a parallelogram. What is the value of x?\n\n(Figure: parallelogram PQRS with a small square marking a right angle at Q where x° sits at the top-left corner, and 72° marked at the bottom-right at vertex S.)",
-      "grid_answer": null,
-      "exhibit_image_path": "images/exam_a/AM09_figure.png",
+      "question": "In the figure above, PQRS is a parallelogram. What is the value of x?",
+      "grid_answer": "162",
+      "figure_svg": "<svg viewBox='0 0 640 400' xmlns='http://www.w3.org/2000/svg' style='max-width:520px; margin: 0 auto; display: block;'><line x1='80' y1='340' x2='600' y2='340' stroke='#111' stroke-width='1.6'/><line x1='90' y1='340' x2='240' y2='90' stroke='#111' stroke-width='1.6'/><line x1='240' y1='90' x2='560' y2='90' stroke='#111' stroke-width='1.6'/><line x1='560' y1='90' x2='410' y2='340' stroke='#111' stroke-width='1.6'/><line x1='240' y1='90' x2='240' y2='40' stroke='#111' stroke-width='1.6'/><path d='M 240 55 L 255 55 L 255 70 L 240 70' fill='none' stroke='#111' stroke-width='1.2'/><text x='205' y='75' font-family='Georgia, Times New Roman, serif' font-style='italic' font-size='22'>x°</text><path d='M 460 340 A 28 28 0 0 0 445 314' fill='none' stroke='#111' stroke-width='1.2'/><text x='460' y='330' font-family='Georgia, Times New Roman, serif' font-size='18'>72°</text><text x='247' y='110' font-family='Georgia, Times New Roman, serif' font-size='22'>Q</text><text x='568' y='90' font-family='Georgia, Times New Roman, serif' font-size='22'>R</text><text x='75' y='365' font-family='Georgia, Times New Roman, serif' font-size='22'>P</text><text x='405' y='365' font-family='Georgia, Times New Roman, serif' font-size='22'>S</text></svg>",
+      "exhibit_image_path": null,
       "source_screenshot": "Problems/EXAM_A/AM09.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(162) To find angle x, first find the measure of angle PQR by finding the measure of angle PSR:\n\nm∠PSR = m∠PQR\nm∠PSR = 180 − 72\nm∠PSR = 108\n\nThe measure of angle PQR is also 108.\n\nFind the measure of angle x:\n\n108 + 90 + x = 360\n198 + x = 360\nx = 162"
+      },
       "transcription_status": "transcribed"
     },
     {
@@ -175,9 +185,12 @@
         "F": "34"
       },
       "n_correct": 2,
-      "correct": null,
-      "exhibit_image_path": null,
+      "correct": ["A", "E"],
       "source_screenshot": "Problems/EXAM_A/AM10.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "Add the three expressions: 5 − n + 3(2n + 7) + (−2)(2.5n + 4).\n\nDistribute 3 and −2:\n\n5 − n + 6n + 21 − 5n − 8.\n\nCombine the variable terms and combine the constants:\n\n(−n + 6n − 5n) + (5 + 21 − 8) = 18."
+      },
       "transcription_status": "transcribed"
     }
   ]
