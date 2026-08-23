@@ -1,29 +1,29 @@
 {
   "_schema": {
-    "description": "NYC DOE SHSAT Practice Test A — Math section (50 questions). Kept fully separate from the type_X_Y bank; DO NOT sample these into daily prep panels yet.",
+    "description": "NYC DOE SHSAT Practice Test A \u2014 Math section (50 questions). Kept fully separate from the type_X_Y bank; DO NOT sample these into daily prep panels yet.",
     "id_format": "AM<NN>  (variations later: AM<NN>.1, AM<NN>.2, ...)",
     "math_notation": "LaTeX math is wrapped in \\( ... \\) for inline and \\[ ... \\] for display; KaTeX renders it in the browser.",
     "question_types": {
-      "mc":       "Multiple choice A-D, one answer",
+      "mc": "Multiple choice A-D, one answer",
       "mc_multi": "Multiple choice A-F, N correct answers",
-      "grid_in":  "Numeric text input (may also carry an inline figure)",
+      "grid_in": "Numeric text input (may also carry an inline figure)",
       "dropdown": "One or more inline dropdowns embedded in a walkthrough"
     },
     "fields": {
-      "id":                 "AM01..AM50",
-      "origin":             "DOE_EXAM_A",
-      "q_number":           "1..50",
-      "question_type":      "mc | mc_multi | grid_in | dropdown",
-      "question":           "prompt text (LaTeX math in \\(...\\) )",
-      "options":            "for mc/mc_multi: {A, B, ...} -> string",
-      "n_correct":          "for mc_multi",
-      "correct":            "for mc: single letter; for mc_multi: array of letters",
-      "grid_answer":        "for grid_in: numeric answer string",
-      "dropdowns":          "for dropdown: [{label, choices|null, answer_display}]",
-      "figure_svg":         "optional inline SVG string rendered above the answer inputs",
+      "id": "AM01..AM50",
+      "origin": "DOE_EXAM_A",
+      "q_number": "1..50",
+      "question_type": "mc | mc_multi | grid_in | dropdown",
+      "question": "prompt text (LaTeX math in \\(...\\) )",
+      "options": "for mc/mc_multi: {A, B, ...} -> string",
+      "n_correct": "for mc_multi",
+      "correct": "for mc: single letter; for mc_multi: array of letters",
+      "grid_answer": "for grid_in: numeric answer string",
+      "dropdowns": "for dropdown: [{label, choices|null, answer_display}]",
+      "figure_svg": "optional inline SVG string rendered above the answer inputs",
       "exhibit_image_path": "optional path to a supporting figure image",
-      "source_screenshot":  "AM<NN>.png in Problems/EXAM_A/",
-      "solution":           "{ letter, exhibit_text }  — the DOE-supplied Exhibit 1 content",
+      "source_screenshot": "AM<NN>.png in Problems/EXAM_A/",
+      "solution": "{ letter, exhibit_text }  \u2014 the DOE-supplied Exhibit 1 content",
       "transcription_status": "empty | transcribed | verified"
     }
   },
@@ -34,7 +34,12 @@
       "q_number": 1,
       "question_type": "mc",
       "question": "In a scale diagram, \\(0.125\\) inch represents \\(125\\) feet. How many inches represent \\(1\\) foot?",
-      "options": { "A": "\\(0.001\\)", "B": "\\(0.01\\)", "C": "\\(0.1\\)", "D": "\\(0.12\\)" },
+      "options": {
+        "A": "\\(0.001\\)",
+        "B": "\\(0.01\\)",
+        "C": "\\(0.1\\)",
+        "D": "\\(0.12\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM01.png",
       "solution": {
@@ -82,7 +87,7 @@
       "origin": "DOE_EXAM_A",
       "q_number": 4,
       "question_type": "grid_in",
-      "question": "A survey asked students what pets they have. Based on the results, the following statements are all true:\n\n• 20 students have cats.\n• 23 students have dogs.\n• 3 students have both dogs and cats.\n• 5 students have no dogs or cats.\n\nHow many students were surveyed?",
+      "question": "A survey asked students what pets they have. Based on the results, the following statements are all true:\n\n\u2022 20 students have cats.\n\u2022 23 students have dogs.\n\u2022 3 students have both dogs and cats.\n\u2022 5 students have no dogs or cats.\n\nHow many students were surveyed?",
       "grid_answer": "45",
       "source_screenshot": "Problems/EXAM_A/AM04.png",
       "solution": {
@@ -97,7 +102,12 @@
       "q_number": 5,
       "question_type": "mc",
       "question": "The sum of the numbers \\(x\\), \\(y\\), and \\(z\\) is \\(50\\). The ratio of \\(x\\) to \\(y\\) is \\(1{:}4\\), and the ratio of \\(y\\) to \\(z\\) is \\(4{:}5\\). What is the value of \\(y\\)?",
-      "options": { "A": "\\(4\\)", "B": "\\(8\\)", "C": "\\(10\\)", "D": "\\(20\\)" },
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(8\\)",
+        "C": "\\(10\\)",
+        "D": "\\(20\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM05.png",
       "solution": {
@@ -112,7 +122,12 @@
       "q_number": 6,
       "question_type": "mc",
       "question": "\\(7 + (3n + 6) - (4n + 8) = \\)",
-      "options": { "A": "\\(5 - n\\)", "B": "\\(5 + n\\)", "C": "\\(21 - n\\)", "D": "\\(21 + n\\)" },
+      "options": {
+        "A": "\\(5 - n\\)",
+        "B": "\\(5 + n\\)",
+        "C": "\\(21 - n\\)",
+        "D": "\\(21 + n\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM06.png",
       "solution": {
@@ -127,7 +142,12 @@
       "q_number": 7,
       "question_type": "mc",
       "question": "In a certain school, course grades range from \\(0\\) to \\(100\\). Adrianna took \\(4\\) courses and her mean course grade was \\(90\\). Roberto took \\(5\\) courses. If both students have the same sum of course grades, what was Roberto's mean?",
-      "options": { "A": "\\(72\\)", "B": "\\(80\\)", "C": "\\(90\\)", "D": "\\(92\\)" },
+      "options": {
+        "A": "\\(72\\)",
+        "B": "\\(80\\)",
+        "C": "\\(90\\)",
+        "D": "\\(92\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM07.png",
       "solution": {
@@ -143,9 +163,21 @@
       "question_type": "dropdown",
       "question": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives \\(8\\) of his stamps to Kevin. Liam now has \\(12\\) more stamps than Kevin.\n\nHow many stamps did Liam start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of stamps originally in Liam's and Kevin's collections is \\(L =\\) [DROPDOWN_1] \\(K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes \\(L - 8 =\\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Liam started with [DROPDOWN_3] stamps.",
       "dropdowns": [
-        { "label": "DROPDOWN_1", "choices": null, "answer_display": "2" },
-        { "label": "DROPDOWN_2", "choices": null, "answer_display": "K + 20" },
-        { "label": "DROPDOWN_3", "choices": null, "answer_display": "56" }
+        {
+          "label": "DROPDOWN_1",
+          "choices": null,
+          "answer_display": "2"
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": null,
+          "answer_display": "K + 20"
+        },
+        {
+          "label": "DROPDOWN_3",
+          "choices": null,
+          "answer_display": "56"
+        }
       ],
       "source_screenshot": "Problems/EXAM_A/AM08.png",
       "solution": {
@@ -161,7 +193,7 @@
       "question_type": "grid_in",
       "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "grid_answer": "162",
-      "figure_svg": "<svg viewBox='0 0 680 400' xmlns='http://www.w3.org/2000/svg' style='max-width:520px; margin: 0 auto; display: block;'><line x1='180' y1='340' x2='620' y2='340' stroke='#111' stroke-width='1.6'/><line x1='212' y1='340' x2='280' y2='130' stroke='#111' stroke-width='1.6'/><line x1='280' y1='130' x2='560' y2='130' stroke='#111' stroke-width='1.6'/><line x1='560' y1='130' x2='492' y2='340' stroke='#111' stroke-width='1.6'/><line x1='280' y1='130' x2='280' y2='60' stroke='#111' stroke-width='1.6'/><path d='M 280 115 L 295 115 L 295 130' fill='none' stroke='#111' stroke-width='1.2'/><text x='245' y='118' font-family='Georgia, Times New Roman, serif' font-style='italic' font-size='22'>x°</text><path d='M 522 340 A 30 30 0 0 0 501 319' fill='none' stroke='#111' stroke-width='1.2'/><text x='524' y='325' font-family='Georgia, Times New Roman, serif' font-size='18'>72°</text><text x='288' y='150' font-family='Georgia, Times New Roman, serif' font-size='22'>Q</text><text x='568' y='128' font-family='Georgia, Times New Roman, serif' font-size='22'>R</text><text x='195' y='365' font-family='Georgia, Times New Roman, serif' font-size='22'>P</text><text x='485' y='365' font-family='Georgia, Times New Roman, serif' font-size='22'>S</text></svg>",
+      "figure_svg": "<svg viewBox='0 0 680 400' xmlns='http://www.w3.org/2000/svg' style='max-width:520px; margin: 0 auto; display: block;'><line x1='180' y1='340' x2='620' y2='340' stroke='#111' stroke-width='1.6'/><line x1='212' y1='340' x2='280' y2='130' stroke='#111' stroke-width='1.6'/><line x1='280' y1='130' x2='560' y2='130' stroke='#111' stroke-width='1.6'/><line x1='560' y1='130' x2='492' y2='340' stroke='#111' stroke-width='1.6'/><line x1='280' y1='130' x2='280' y2='60' stroke='#111' stroke-width='1.6'/><path d='M 280 115 L 295 115 L 295 130' fill='none' stroke='#111' stroke-width='1.2'/><text x='245' y='118' font-family='Georgia, Times New Roman, serif' font-style='italic' font-size='22'>x\u00b0</text><path d='M 522 340 A 30 30 0 0 0 501 319' fill='none' stroke='#111' stroke-width='1.2'/><text x='524' y='325' font-family='Georgia, Times New Roman, serif' font-size='18'>72\u00b0</text><text x='288' y='150' font-family='Georgia, Times New Roman, serif' font-size='22'>Q</text><text x='568' y='128' font-family='Georgia, Times New Roman, serif' font-size='22'>R</text><text x='195' y='365' font-family='Georgia, Times New Roman, serif' font-size='22'>P</text><text x='485' y='365' font-family='Georgia, Times New Roman, serif' font-size='22'>S</text></svg>",
       "exhibit_image_path": null,
       "source_screenshot": "Problems/EXAM_A/AM09.png",
       "solution": {
@@ -185,7 +217,10 @@
         "F": "\\(34\\)"
       },
       "n_correct": 2,
-      "correct": ["A", "E"],
+      "correct": [
+        "A",
+        "E"
+      ],
       "source_screenshot": "Problems/EXAM_A/AM10.png",
       "solution": {
         "letter": null,
@@ -199,7 +234,12 @@
       "q_number": 11,
       "question_type": "mc",
       "question": "In the pyramid above, each triangular face has the same area, and the base \\(MNPQ\\) is a square that measures \\(8\\) centimeters on each side. If the length of \\(\\overline{RS} = 6\\) centimeters, what is the surface area of the pyramid **excluding** the base?",
-      "options": { "A": "\\(48\\) sq cm", "B": "\\(96\\) sq cm", "C": "\\(128\\) sq cm", "D": "\\(160\\) sq cm" },
+      "options": {
+        "A": "\\(48\\) sq cm",
+        "B": "\\(96\\) sq cm",
+        "C": "\\(128\\) sq cm",
+        "D": "\\(160\\) sq cm"
+      },
       "correct": "B",
       "figure_svg": "<svg viewBox='0 0 700 480' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='400' y1='60' x2='400' y2='180' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='200' y2='320' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='600' y2='300' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='60' x2='200' y2='320' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='200' y1='320' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='400' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='500' y2='350' stroke='#111' stroke-width='1.6'/><path d='M 494 340 L 505 346 L 512 336' fill='none' stroke='#111' stroke-width='1.2'/><text x='393' y='52' font-family='Georgia,serif' font-size='22'>R</text><text x='383' y='178' font-family='Georgia,serif' font-size='22'>N</text><text x='178' y='325' font-family='Georgia,serif' font-size='22'>M</text><text x='608' y='300' font-family='Georgia,serif' font-size='22'>P</text><text x='393' y='425' font-family='Georgia,serif' font-size='22'>Q</text><text x='510' y='360' font-family='Georgia,serif' font-size='22'>S</text></svg>",
       "source_screenshot": "Problems/EXAM_A/AM11.png",
@@ -215,12 +255,17 @@
       "q_number": 12,
       "question_type": "mc",
       "question": "The perimeter of a rectangle is \\(510\\) centimeters. The ratio of the length to the width is \\(3{:}2\\). What are the dimensions of this rectangle?",
-      "options": { "A": "\\(150\\) cm by \\(105\\) cm", "B": "\\(153\\) cm by \\(102\\) cm", "C": "\\(158\\) cm by \\(97\\) cm", "D": "\\(165\\) cm by \\(90\\) cm" },
+      "options": {
+        "A": "\\(150\\) cm by \\(105\\) cm",
+        "B": "\\(153\\) cm by \\(102\\) cm",
+        "C": "\\(158\\) cm by \\(97\\) cm",
+        "D": "\\(165\\) cm by \\(90\\) cm"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM12.png",
       "solution": {
         "letter": "B",
-        "exhibit_text": "(B) [DOE solution not captured — computed below]\n\nLet the length be \\(3k\\) and width be \\(2k\\). The perimeter is \\(2(3k) + 2(2k) = 10k = 510\\), so \\(k = 51\\).\n\n\\[\\text{Length} = 3(51) = 153 \\text{ cm}\\]\n\\[\\text{Width} = 2(51) = 102 \\text{ cm}\\]"
+        "exhibit_text": "(B) [DOE solution not captured \u2014 computed below]\n\nLet the length be \\(3k\\) and width be \\(2k\\). The perimeter is \\(2(3k) + 2(2k) = 10k = 510\\), so \\(k = 51\\).\n\n\\[\\text{Length} = 3(51) = 153 \\text{ cm}\\]\n\\[\\text{Width} = 2(51) = 102 \\text{ cm}\\]"
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -231,10 +276,10 @@
       "question_type": "mc",
       "question": "Which number line below shows the solution to the inequality \\(-4 < \\dfrac{x}{2} < 2\\)?",
       "options": {
-        "A": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 15 28 L 5 24 L 5 32 Z' fill='#111'/><path d='M 385 28 L 395 24 L 395 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='146' y1='28' x2='254' y2='28' stroke='#111' stroke-width='3'/><circle cx='146' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='254' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−10</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−5</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>",
-        "B": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 15 28 L 5 24 L 5 32 Z' fill='#111'/><path d='M 385 28 L 395 24 L 395 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='128' y1='28' x2='290' y2='28' stroke='#111' stroke-width='3'/><circle cx='128' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='290' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−10</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−5</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>",
-        "C": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 15 28 L 5 24 L 5 32 Z' fill='#111'/><path d='M 385 28 L 395 24 L 395 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='38' y1='28' x2='272' y2='28' stroke='#111' stroke-width='3'/><circle cx='38' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='272' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−10</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−5</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>",
-        "D": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 15 28 L 5 24 L 5 32 Z' fill='#111'/><path d='M 385 28 L 395 24 L 395 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='56' y1='28' x2='272' y2='28' stroke='#111' stroke-width='3'/><circle cx='56' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='272' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−10</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>−5</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>"
+        "A": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 3 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 397 28 L 382 24 L 382 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='146' y1='28' x2='254' y2='28' stroke='#111' stroke-width='3'/><circle cx='146' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='254' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u221210</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u22125</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>",
+        "B": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 3 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 397 28 L 382 24 L 382 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='128' y1='28' x2='290' y2='28' stroke='#111' stroke-width='3'/><circle cx='128' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='290' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u221210</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u22125</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>",
+        "C": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 3 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 397 28 L 382 24 L 382 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='38' y1='28' x2='272' y2='28' stroke='#111' stroke-width='3'/><circle cx='38' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='272' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u221210</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u22125</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>",
+        "D": "<svg viewBox='0 0 400 55' xmlns='http://www.w3.org/2000/svg' style='max-width:360px;'><line x1='15' y1='28' x2='385' y2='28' stroke='#111' stroke-width='1.3'/><path d='M 3 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 397 28 L 382 24 L 382 32 Z' fill='#111'/><line x1='20' y1='23' x2='20' y2='33' stroke='#111'/><line x1='38' y1='25' x2='38' y2='31' stroke='#111'/><line x1='56' y1='25' x2='56' y2='31' stroke='#111'/><line x1='74' y1='25' x2='74' y2='31' stroke='#111'/><line x1='92' y1='25' x2='92' y2='31' stroke='#111'/><line x1='110' y1='23' x2='110' y2='33' stroke='#111'/><line x1='128' y1='25' x2='128' y2='31' stroke='#111'/><line x1='146' y1='25' x2='146' y2='31' stroke='#111'/><line x1='164' y1='25' x2='164' y2='31' stroke='#111'/><line x1='182' y1='25' x2='182' y2='31' stroke='#111'/><line x1='200' y1='23' x2='200' y2='33' stroke='#111'/><line x1='218' y1='25' x2='218' y2='31' stroke='#111'/><line x1='236' y1='25' x2='236' y2='31' stroke='#111'/><line x1='254' y1='25' x2='254' y2='31' stroke='#111'/><line x1='272' y1='25' x2='272' y2='31' stroke='#111'/><line x1='290' y1='23' x2='290' y2='33' stroke='#111'/><line x1='308' y1='25' x2='308' y2='31' stroke='#111'/><line x1='326' y1='25' x2='326' y2='31' stroke='#111'/><line x1='344' y1='25' x2='344' y2='31' stroke='#111'/><line x1='362' y1='25' x2='362' y2='31' stroke='#111'/><line x1='380' y1='23' x2='380' y2='33' stroke='#111'/><line x1='56' y1='28' x2='272' y2='28' stroke='#111' stroke-width='3'/><circle cx='56' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><circle cx='272' cy='28' r='4' fill='#fff' stroke='#111' stroke-width='1.5'/><text x='20' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u221210</text><text x='110' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>\u22125</text><text x='200' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>0</text><text x='290' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>5</text><text x='380' y='48' text-anchor='middle' font-size='10' font-family='sans-serif'>10</text></svg>"
       },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM13.png",
@@ -254,7 +299,7 @@
       "source_screenshot": "Problems/EXAM_A/AM14.png",
       "solution": {
         "letter": null,
-        "exhibit_text": "\\((63)\\) [DOE solution not captured — computed below]\n\nLet the two consecutive integers be \\(n\\) and \\(n+1\\):\n\n\\[n + (n+1) = -15\\]\n\\[2n + 1 = -15\\]\n\\[n = -8\\]\n\nSo the smaller is \\(-8\\) and the larger is \\(-7\\). Add \\(1\\) to the smaller: \\(-8 + 1 = -7\\). Subtract \\(2\\) from the larger: \\(-7 - 2 = -9\\).\n\nProduct: \\(-7 \\times -9 = 63\\)."
+        "exhibit_text": "\\((63)\\) [DOE solution not captured \u2014 computed below]\n\nLet the two consecutive integers be \\(n\\) and \\(n+1\\):\n\n\\[n + (n+1) = -15\\]\n\\[2n + 1 = -15\\]\n\\[n = -8\\]\n\nSo the smaller is \\(-8\\) and the larger is \\(-7\\). Add \\(1\\) to the smaller: \\(-8 + 1 = -7\\). Subtract \\(2\\) from the larger: \\(-7 - 2 = -9\\).\n\nProduct: \\(-7 \\times -9 = 63\\)."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -264,7 +309,12 @@
       "q_number": 15,
       "question_type": "mc",
       "question": "A box of colored pencils contains exactly \\(6\\) red pencils. The probability of choosing a red pencil from the box is \\(\\dfrac{2}{7}\\). How many of the pencils in the box are **not** red?",
-      "options": { "A": "\\(5\\)", "B": "\\(15\\)", "C": "\\(21\\)", "D": "\\(30\\)" },
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(15\\)",
+        "C": "\\(21\\)",
+        "D": "\\(30\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM15.png",
       "solution": {
@@ -279,7 +329,12 @@
       "q_number": 16,
       "question_type": "mc",
       "question": "What is the area of the shaded region in the graph above?",
-      "options": { "A": "\\(0.25\\) square unit", "B": "\\(0.5\\) square unit", "C": "\\(1\\) square unit", "D": "\\(1.5\\) square units" },
+      "options": {
+        "A": "\\(0.25\\) square unit",
+        "B": "\\(0.5\\) square unit",
+        "C": "\\(1\\) square unit",
+        "D": "\\(1.5\\) square units"
+      },
       "correct": "B",
       "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:260px; margin: 0 auto; display: block;'><line x1='60' y1='230' x2='60' y2='30' stroke='#111' stroke-width='1.5'/><path d='M 55 40 L 60 25 L 65 40' fill='none' stroke='#111' stroke-width='1.5'/><text x='50' y='20' font-style='italic' font-family='Georgia,serif' font-size='16'>y</text><line x1='30' y1='200' x2='285' y2='200' stroke='#111' stroke-width='1.5'/><path d='M 275 195 L 290 200 L 275 205' fill='none' stroke='#111' stroke-width='1.5'/><text x='293' y='205' font-style='italic' font-family='Georgia,serif' font-size='16'>x</text><text x='42' y='218' font-style='italic' font-family='Georgia,serif' font-size='16'>O</text><line x1='120' y1='196' x2='120' y2='204' stroke='#111'/><text x='115' y='218' font-family='Georgia,serif' font-size='13'>1</text><line x1='180' y1='196' x2='180' y2='204' stroke='#111'/><text x='175' y='218' font-family='Georgia,serif' font-size='13'>2</text><line x1='56' y1='140' x2='64' y2='140' stroke='#111'/><text x='42' y='145' font-family='Georgia,serif' font-size='13'>1</text><line x1='56' y1='80' x2='64' y2='80' stroke='#111'/><text x='42' y='85' font-family='Georgia,serif' font-size='13'>2</text><line x1='120' y1='200' x2='120' y2='80' stroke='#ddd' stroke-width='1'/><line x1='180' y1='200' x2='180' y2='80' stroke='#ddd' stroke-width='1'/><line x1='60' y1='140' x2='180' y2='140' stroke='#ddd' stroke-width='1'/><line x1='60' y1='80' x2='180' y2='80' stroke='#ddd' stroke-width='1'/><polygon points='60,200 120,200 120,140' fill='#c8c8c8' stroke='#111' stroke-width='1.2'/><line x1='60' y1='200' x2='240' y2='30' stroke='#111' stroke-width='1.6'/><path d='M 230 25 L 245 25 L 240 40' fill='none' stroke='#111' stroke-width='1.5'/></svg>",
       "source_screenshot": "Problems/EXAM_A/AM16.png",
@@ -296,8 +351,28 @@
       "question_type": "dropdown",
       "question": "Consider this expression:\n\n\\[|(-8) - (-3) + 6| - |6 - 11|\\]\n\nCreate an equivalent expression.\n\nMove the correct answer to each box. Not all answers will be used. (Choices: \\(1\\), \\(17\\), \\(-5\\), \\(11\\), \\(-8\\).)\n\nEquivalent expression: \\(|\\) [DROPDOWN_1] \\(|\\) \\(-\\) \\(|\\) [DROPDOWN_2] \\(|\\)",
       "dropdowns": [
-        { "label": "DROPDOWN_1", "choices": ["1", "17", "-5", "11", "-8"], "answer_index": 0 },
-        { "label": "DROPDOWN_2", "choices": ["1", "17", "-5", "11", "-8"], "answer_index": 2 }
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "1",
+            "17",
+            "-5",
+            "11",
+            "-8"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "1",
+            "17",
+            "-5",
+            "11",
+            "-8"
+          ],
+          "answer_index": 2
+        }
       ],
       "source_screenshot": "Problems/EXAM_A/AM17.png",
       "solution": {
@@ -312,7 +387,12 @@
       "q_number": 18,
       "question_type": "mc",
       "question": "Mrs. Cranston bought five bottles of water for $\\(0.90\\) each and \\(8\\) pounds of meat. She paid a total of $\\(26.90\\) for these items, **not** including tax. What was the price per pound of the meat?",
-      "options": { "A": "$\\(2.80\\)", "B": "$\\(3.25\\)", "C": "$\\(14.40\\)", "D": "$\\(22.40\\)" },
+      "options": {
+        "A": "$\\(2.80\\)",
+        "B": "$\\(3.25\\)",
+        "C": "$\\(14.40\\)",
+        "D": "$\\(22.40\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM18.png",
       "solution": {
@@ -327,7 +407,12 @@
       "q_number": 19,
       "question_type": "mc",
       "question": "In a sample of \\(10\\) cards, \\(4\\) are red and \\(6\\) are blue. If \\(2\\) cards are selected at random from the sample, one at a time without replacement, what is the probability that both cards are **not** blue?",
-      "options": { "A": "\\(\\dfrac{2}{15}\\)", "B": "\\(\\dfrac{4}{25}\\)", "C": "\\(\\dfrac{3}{10}\\)", "D": "\\(\\dfrac{1}{3}\\)" },
+      "options": {
+        "A": "\\(\\dfrac{2}{15}\\)",
+        "B": "\\(\\dfrac{4}{25}\\)",
+        "C": "\\(\\dfrac{3}{10}\\)",
+        "D": "\\(\\dfrac{1}{3}\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM19.png",
       "solution": {
@@ -342,7 +427,12 @@
       "q_number": 20,
       "question_type": "mc",
       "question": "\\(1\\) sind \\(= 4\\) lorgs\n\\(2\\) plunks \\(= 5\\) dalts\n\\(5\\) sinds \\(= 2\\) harps\n\\(1\\) plunk \\(= 3\\) harps\n\nA nation has five types of coins: sinds, dalts, lorgs, harps, and plunks. The relationship between the coins is shown above. Which coin is most valuable?",
-      "options": { "A": "sind", "B": "dalt", "C": "harp", "D": "plunk" },
+      "options": {
+        "A": "sind",
+        "B": "dalt",
+        "C": "harp",
+        "D": "plunk"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM20.png",
       "solution": {
@@ -357,7 +447,12 @@
       "q_number": 21,
       "question_type": "mc",
       "question": "The faculty of a certain four-year college consists of \\(179\\) teachers. There are \\(663\\) first-year students. The student-to-faculty ratio for the entire college is \\(15\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
-      "options": { "A": "\\(1{,}989\\)", "B": "\\(2{,}022\\)", "C": "\\(2{,}652\\)", "D": "\\(2{,}685\\)" },
+      "options": {
+        "A": "\\(1{,}989\\)",
+        "B": "\\(2{,}022\\)",
+        "C": "\\(2{,}652\\)",
+        "D": "\\(2{,}685\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM21.png",
       "solution": {
@@ -371,16 +466,22 @@
       "origin": "DOE_EXAM_A",
       "q_number": 22,
       "question_type": "mc",
-      "question": "According to the pie chart above (HOW PEOPLE GET TO WORK IN CENTER CITY): Bicycle 4%, Walk 22%, Bus 10%, Drive Alone 49%, Car Pool 15%. Total number of people working in Center City = 15,000.\n\nHow many more people in Center City walk to work than ride their bicycle to work?",
-      "options": { "A": "\\(2{,}500\\)", "B": "\\(2{,}700\\)", "C": "\\(2{,}800\\)", "D": "\\(3{,}000\\)" },
+      "question": "According to the pie chart above, how many more people in Center City walk to work than ride their bicycle to work?",
+      "options": {
+        "A": "\\(2{,}500\\)",
+        "B": "\\(2{,}700\\)",
+        "C": "\\(2{,}800\\)",
+        "D": "\\(3{,}000\\)"
+      },
       "correct": "B",
-      "exhibit_image_path": "images/exam_a/AM22.png",
+      "exhibit_image_path": null,
       "source_screenshot": "Problems/EXAM_A/AM22.png",
       "solution": {
         "letter": "B",
         "exhibit_text": "(B) According to the chart, \\(22\\%\\) of people walk to work and \\(4\\%\\) ride a bicycle.\n\nSubtract to find the percentage of how many more people walk than bicycle:\n\n\\[22\\% - 4\\% = 18\\%\\]\n\nTo find the exact number of people, multiply \\(18\\%\\) (\\(0.18\\)) by the number of people working in Center City (\\(15{,}000\\)):\n\n\\[15{,}000 \\times 0.18 = 2{,}700\\]"
       },
-      "transcription_status": "transcribed"
+      "transcription_status": "transcribed",
+      "figure_svg": "<svg viewBox='0 0 400 320' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><text x='200' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='13' font-weight='bold'>HOW PEOPLE GET TO WORK</text><text x='200' y='38' text-anchor='middle' font-family='Georgia,serif' font-size='13' font-weight='bold'>IN CENTER CITY</text><path d='M 180 160 L 180.00 60.00 A 100 100 0 0 1 278.23 141.26 Z' fill='#a8c8e0' stroke='#333' stroke-width='1'/><path d='M 180 160 L 278.23 141.26 A 100 100 0 0 1 270.48 202.58 Z' fill='#e0c8a8' stroke='#333' stroke-width='1'/><path d='M 180 160 L 270.48 202.58 A 100 100 0 0 1 87.02 123.19 Z' fill='#c8d8a8' stroke='#333' stroke-width='1'/><path d='M 180 160 L 87.02 123.19 A 100 100 0 0 1 155.13 63.14 Z' fill='#d8b0d0' stroke='#333' stroke-width='1'/><path d='M 180 160 L 155.13 63.14 A 100 100 0 0 1 180.00 60.00 Z' fill='#e0a8a8' stroke='#333' stroke-width='1'/><text x='258' y='70' text-anchor='middle' font-family='Georgia,serif' font-size='11'>Walk 22%</text><text x='301' y='179' text-anchor='middle' font-family='Georgia,serif' font-size='11'>Bus 10%</text><text x='132' y='276' text-anchor='middle' font-family='Georgia,serif' font-size='11'>Drive Alone 49%</text><text x='99' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='11'>Car Pool 15%</text><text x='165' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='11'>Bicycle 4%</text><text x='200' y='305' text-anchor='middle' font-family='Georgia,serif' font-size='12' font-style='italic'>Total number of people working in Center City = 15,000</text></svg>"
     },
     {
       "id": "AM23",
@@ -388,7 +489,12 @@
       "q_number": 23,
       "question_type": "mc",
       "question": "In a scale drawing of a triangular banner, one side measures \\(16\\) centimeters and the other two sides each measure \\(12\\) centimeters. On the actual banner, these two sides each measure \\(36\\) feet. What is the length of the remaining side of the actual banner?",
-      "options": { "A": "\\(16\\) ft", "B": "\\(32\\) ft", "C": "\\(40\\) ft", "D": "\\(48\\) ft" },
+      "options": {
+        "A": "\\(16\\) ft",
+        "B": "\\(32\\) ft",
+        "C": "\\(40\\) ft",
+        "D": "\\(48\\) ft"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM23.png",
       "solution": {
@@ -403,7 +509,12 @@
       "q_number": 24,
       "question_type": "mc",
       "question": "The **least** of \\(5\\) consecutive integers is \\(l\\), and the **greatest** is \\(g\\). What is the value of \\(\\dfrac{l+g}{2}\\) in terms of \\(l\\)?",
-      "options": { "A": "\\(2l\\)", "B": "\\(3l\\)", "C": "\\(l + 2\\)", "D": "\\(l + 5\\)" },
+      "options": {
+        "A": "\\(2l\\)",
+        "B": "\\(3l\\)",
+        "C": "\\(l + 2\\)",
+        "D": "\\(l + 5\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM24.png",
       "solution": {
@@ -433,9 +544,48 @@
       "question_type": "dropdown",
       "question": "Complete the steps to show one way to solve the equation \\(24 = -0.5(x + 8)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used. (Choices: \\(-56\\), \\(-40\\), \\(-4\\), \\(4\\), \\(20\\), \\(28\\), \\(40\\), \\(56\\).)\n\n\\(24 = -0.5(x + 8)\\)\n\\(24 = -0.5x +\\) [DROPDOWN_1]\n[DROPDOWN_2] \\( = -0.5x\\)\n[DROPDOWN_3] \\( = x\\)",
       "dropdowns": [
-        { "label": "DROPDOWN_1", "choices": ["-56","-40","-4","4","20","28","40","56"], "answer_index": 2 },
-        { "label": "DROPDOWN_2", "choices": ["-56","-40","-4","4","20","28","40","56"], "answer_index": 5 },
-        { "label": "DROPDOWN_3", "choices": ["-56","-40","-4","4","20","28","40","56"], "answer_index": 0 }
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "-56",
+            "-40",
+            "-4",
+            "4",
+            "20",
+            "28",
+            "40",
+            "56"
+          ],
+          "answer_index": 2
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "-56",
+            "-40",
+            "-4",
+            "4",
+            "20",
+            "28",
+            "40",
+            "56"
+          ],
+          "answer_index": 5
+        },
+        {
+          "label": "DROPDOWN_3",
+          "choices": [
+            "-56",
+            "-40",
+            "-4",
+            "4",
+            "20",
+            "28",
+            "40",
+            "56"
+          ],
+          "answer_index": 0
+        }
       ],
       "source_screenshot": "Problems/EXAM_A/AM27.png",
       "solution": {
@@ -470,7 +620,12 @@
       "q_number": 29,
       "question_type": "mc",
       "question": "There are \\(6\\) different cookies on a plate. Aiden will choose \\(2\\) of these cookies to pack in his lunch. How many different pairs of \\(2\\) cookies can he choose from the \\(6\\)?",
-      "options": { "A": "\\(12\\)", "B": "\\(15\\)", "C": "\\(30\\)", "D": "\\(36\\)" },
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(15\\)",
+        "C": "\\(30\\)",
+        "D": "\\(36\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM29.png",
       "solution": {
@@ -485,7 +640,12 @@
       "q_number": 30,
       "question_type": "mc",
       "question": "For a presentation, Deion can create \\(5\\) slides in \\(20\\) minutes, working at a constant rate. Kyra can create \\(3\\) slides in \\(10\\) minutes, working at her own constant rate. What is the total number of slides the two of them can create in one hour?",
-      "options": { "A": "\\(16\\)", "B": "\\(30\\)", "C": "\\(33\\)", "D": "\\(55\\)" },
+      "options": {
+        "A": "\\(16\\)",
+        "B": "\\(30\\)",
+        "C": "\\(33\\)",
+        "D": "\\(55\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM30.png",
       "solution": {
@@ -500,9 +660,14 @@
       "q_number": 31,
       "question_type": "mc",
       "question": "On the number line above (with point \\(L\\) at \\(4\\tfrac{5}{16}\\) and point \\(N\\) somewhere to the right of \\(L\\)), \\(LN = \\dfrac{1}{8}\\). Point \\(M\\) (**not** shown) is located between point \\(L\\) and point \\(N\\). Which value below is a possible value for \\(M\\)?",
-      "options": { "A": "\\(4.26\\)", "B": "\\(4.31\\)", "C": "\\(4.35\\)", "D": "\\(4.58\\)" },
+      "options": {
+        "A": "\\(4.26\\)",
+        "B": "\\(4.31\\)",
+        "C": "\\(4.35\\)",
+        "D": "\\(4.58\\)"
+      },
       "correct": "C",
-      "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='40' x2='430' y2='40' stroke='#111' stroke-width='1.4'/><path d='M 30 40 L 20 36 L 20 44 Z' fill='#111'/><path d='M 430 40 L 440 36 L 440 44 Z' fill='#111'/><line x1='130' y1='34' x2='130' y2='46' stroke='#111' stroke-width='1.4'/><line x1='300' y1='34' x2='300' y2='46' stroke='#111' stroke-width='1.4'/><text x='128' y='27' font-family='Georgia,serif' font-style='italic' font-size='16'>L</text><text x='298' y='27' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text><text x='130' y='68' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4 5/16</text></svg>",
+      "figure_svg": "<svg viewBox='0 0 460 95' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='40' x2='430' y2='40' stroke='#111' stroke-width='1.4'/><path d='M 18 40 L 33 36 L 33 44 Z' fill='#111'/><path d='M 442 40 L 427 36 L 427 44 Z' fill='#111'/><line x1='130' y1='34' x2='130' y2='46' stroke='#111' stroke-width='1.4'/><line x1='300' y1='34' x2='300' y2='46' stroke='#111' stroke-width='1.4'/><text x='128' y='27' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='298' y='27' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='118' y='72' font-family='Georgia,serif' font-size='16'>4</text><text x='139' y='66' text-anchor='middle' font-family='Georgia,serif' font-size='13'>5</text><line x1='131' y1='69' x2='149' y2='69' stroke='#111' stroke-width='1'/><text x='139' y='82' text-anchor='middle' font-family='Georgia,serif' font-size='13'>16</text></svg>",
       "source_screenshot": "Problems/EXAM_A/AM31.png",
       "solution": {
         "letter": "C",
@@ -516,12 +681,17 @@
       "q_number": 33,
       "question_type": "mc",
       "question": "Ryan must read \\(150\\) pages for school this weekend. It took him \\(30\\) minutes to read the first \\(20\\) pages. At this rate, how much **additional** time will it take him to finish the reading?",
-      "options": { "A": "\\(2\\tfrac{1}{6}\\) hr", "B": "\\(3\\tfrac{1}{4}\\) hr", "C": "\\(3\\tfrac{3}{4}\\) hr", "D": "\\(7\\tfrac{1}{2}\\) hr" },
+      "options": {
+        "A": "\\(2\\tfrac{1}{6}\\) hr",
+        "B": "\\(3\\tfrac{1}{4}\\) hr",
+        "C": "\\(3\\tfrac{3}{4}\\) hr",
+        "D": "\\(7\\tfrac{1}{2}\\) hr"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM33.png",
       "solution": {
         "letter": "B",
-        "exhibit_text": "(B) [DOE solution not captured — computed below]\n\nRyan reads \\(20\\) pages in \\(30\\) minutes, so his rate is \\(\\dfrac{20}{30} = \\dfrac{2}{3}\\) pages per minute.\n\nRemaining pages: \\(150 - 20 = 130\\).\n\nTime for remaining pages: \\(130 \\div \\dfrac{2}{3} = 130 \\times \\dfrac{3}{2} = 195\\) minutes.\n\n\\(195\\) minutes \\(= 3\\) hr \\(15\\) min \\(= 3\\tfrac{1}{4}\\) hr."
+        "exhibit_text": "(B) [DOE solution not captured \u2014 computed below]\n\nRyan reads \\(20\\) pages in \\(30\\) minutes, so his rate is \\(\\dfrac{20}{30} = \\dfrac{2}{3}\\) pages per minute.\n\nRemaining pages: \\(150 - 20 = 130\\).\n\nTime for remaining pages: \\(130 \\div \\dfrac{2}{3} = 130 \\times \\dfrac{3}{2} = 195\\) minutes.\n\n\\(195\\) minutes \\(= 3\\) hr \\(15\\) min \\(= 3\\tfrac{1}{4}\\) hr."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -531,12 +701,17 @@
       "q_number": 34,
       "question_type": "mc",
       "question": "Suppose \\(M = \\dfrac{w}{x}\\), \\(N = \\dfrac{y}{z}\\), and \\(w\\), \\(x\\), \\(y\\), and \\(z\\) do **not** equal \\(0\\). What is \\(\\dfrac{M}{N}\\) in terms of \\(w\\), \\(x\\), \\(y\\), and \\(z\\)?",
-      "options": { "A": "\\(\\dfrac{wx}{yz}\\)", "B": "\\(\\dfrac{wy}{xz}\\)", "C": "\\(\\dfrac{wz}{xy}\\)", "D": "\\(\\dfrac{xy}{wz}\\)" },
+      "options": {
+        "A": "\\(\\dfrac{wx}{yz}\\)",
+        "B": "\\(\\dfrac{wy}{xz}\\)",
+        "C": "\\(\\dfrac{wz}{xy}\\)",
+        "D": "\\(\\dfrac{xy}{wz}\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM34.png",
       "solution": {
         "letter": "C",
-        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\n\\[\\dfrac{M}{N} = \\dfrac{w/x}{y/z} = \\dfrac{w}{x} \\times \\dfrac{z}{y} = \\dfrac{wz}{xy}\\]"
+        "exhibit_text": "(C) [DOE solution not captured \u2014 computed below]\n\n\\[\\dfrac{M}{N} = \\dfrac{w/x}{y/z} = \\dfrac{w}{x} \\times \\dfrac{z}{y} = \\dfrac{wz}{xy}\\]"
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -546,12 +721,17 @@
       "q_number": 35,
       "question_type": "mc",
       "question": "In the set of consecutive integers from \\(12\\) to \\(30\\), inclusive, there are four integers that are multiples of both \\(2\\) and \\(3\\). How many integers in this set are multiples of **neither** \\(2\\) nor \\(3\\)?",
-      "options": { "A": "\\(5\\)", "B": "\\(6\\)", "C": "\\(13\\)", "D": "\\(15\\)" },
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(6\\)",
+        "C": "\\(13\\)",
+        "D": "\\(15\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM35.png",
       "solution": {
         "letter": "B",
-        "exhibit_text": "(B) [DOE solution not captured — computed below]\n\nTotal integers from \\(12\\) to \\(30\\) inclusive: \\(19\\).\n\nMultiples of \\(2\\) in range: \\(12,14,16,18,20,22,24,26,28,30\\) → \\(10\\).\n\nMultiples of \\(3\\) in range: \\(12,15,18,21,24,27,30\\) → \\(7\\).\n\nMultiples of both (\\(6\\)): \\(12,18,24,30\\) → \\(4\\).\n\nBy inclusion-exclusion, multiples of \\(2\\) **or** \\(3\\) = \\(10 + 7 - 4 = 13\\).\n\nMultiples of **neither** = \\(19 - 13 = 6\\)."
+        "exhibit_text": "(B) [DOE solution not captured \u2014 computed below]\n\nTotal integers from \\(12\\) to \\(30\\) inclusive: \\(19\\).\n\nMultiples of \\(2\\) in range: \\(12,14,16,18,20,22,24,26,28,30\\) \u2192 \\(10\\).\n\nMultiples of \\(3\\) in range: \\(12,15,18,21,24,27,30\\) \u2192 \\(7\\).\n\nMultiples of both (\\(6\\)): \\(12,18,24,30\\) \u2192 \\(4\\).\n\nBy inclusion-exclusion, multiples of \\(2\\) **or** \\(3\\) = \\(10 + 7 - 4 = 13\\).\n\nMultiples of **neither** = \\(19 - 13 = 6\\)."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -561,12 +741,17 @@
       "q_number": 36,
       "question_type": "mc",
       "question": "If \\(3n\\) is a positive even number, how many **odd** numbers are in the range from \\(3n\\) up to and including \\(3n + 5\\)?",
-      "options": { "A": "\\(2\\)", "B": "\\(3\\)", "C": "\\(4\\)", "D": "\\(5\\)" },
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(3\\)",
+        "C": "\\(4\\)",
+        "D": "\\(5\\)"
+      },
       "correct": "B",
       "source_screenshot": "Problems/EXAM_A/AM36.png",
       "solution": {
         "letter": "B",
-        "exhibit_text": "(B) [DOE solution not captured — computed below]\n\nThe range \\(3n, 3n+1, 3n+2, 3n+3, 3n+4, 3n+5\\) contains \\(6\\) consecutive integers.\n\nSince \\(3n\\) is even, the numbers alternate even/odd starting with even:\n\\(3n\\) (even), \\(3n+1\\) (odd), \\(3n+2\\) (even), \\(3n+3\\) (odd), \\(3n+4\\) (even), \\(3n+5\\) (odd).\n\nThere are \\(3\\) odd numbers."
+        "exhibit_text": "(B) [DOE solution not captured \u2014 computed below]\n\nThe range \\(3n, 3n+1, 3n+2, 3n+3, 3n+4, 3n+5\\) contains \\(6\\) consecutive integers.\n\nSince \\(3n\\) is even, the numbers alternate even/odd starting with even:\n\\(3n\\) (even), \\(3n+1\\) (odd), \\(3n+2\\) (even), \\(3n+3\\) (odd), \\(3n+4\\) (even), \\(3n+5\\) (odd).\n\nThere are \\(3\\) odd numbers."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -575,7 +760,7 @@
       "origin": "DOE_EXAM_A",
       "q_number": 37,
       "question_type": "mc_multi",
-      "question": "When a student buys \\(4\\) notebooks, the total cost is \\$\\(12\\). Each notebook costs the same amount. Select each point on the graph that best represents \\(y\\), the total cost of \\(x\\) notebooks.\n\nSelect **all** the correct answers.\n\n(Refer to the graph above showing several plotted points.)",
+      "question": "When a student buys \\(4\\) notebooks, the total cost is $\\(12\\). Each notebook costs the same amount. Select each point on the graph that best represents \\(y\\), the total cost of \\(x\\) notebooks.\n\nSelect **all** the correct answers.\n\n(Refer to the graph above showing several plotted points.)",
       "options": {
         "A": "\\((1, 3)\\)",
         "B": "\\((2, 6)\\)",
@@ -585,12 +770,17 @@
         "F": "\\((3, 7)\\)"
       },
       "n_correct": 4,
-      "correct": ["A", "B", "C", "D"],
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "exhibit_image_path": "images/exam_a/AM37.png",
       "source_screenshot": "Problems/EXAM_A/AM37.png",
       "solution": {
         "letter": null,
-        "exhibit_text": "[DOE solution not captured — computed below]\n\nEach notebook costs \\$\\(12 \\div 4 = \\$3\\), so \\(y = 3x\\).\n\nValid points: \\((1, 3), (2, 6), (3, 9), (4, 12), (5, 15), \\ldots\\)\n\nOn the graph, the plotted points that satisfy \\(y = 3x\\) are the correct answers."
+        "exhibit_text": "[DOE solution not captured \u2014 computed below]\n\nEach notebook costs $\\(12 \\div 4 = $3\\), so \\(y = 3x\\).\n\nValid points: \\((1, 3), (2, 6), (3, 9), (4, 12), (5, 15), \\ldots\\)\n\nOn the graph, the plotted points that satisfy \\(y = 3x\\) are the correct answers."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -600,12 +790,17 @@
       "q_number": 38,
       "question_type": "mc",
       "question": "\\[\\dfrac{w}{x} = \\dfrac{y}{z}\\]\n\nIn the equation above, \\(w\\), \\(x\\), \\(y\\), and \\(z\\) are positive numbers. Which of these is equal to \\(z\\)?",
-      "options": { "A": "\\(x\\)", "B": "\\(xy\\)", "C": "\\(\\dfrac{w}{xy}\\)", "D": "\\(\\dfrac{xy}{w}\\)" },
+      "options": {
+        "A": "\\(x\\)",
+        "B": "\\(xy\\)",
+        "C": "\\(\\dfrac{w}{xy}\\)",
+        "D": "\\(\\dfrac{xy}{w}\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM38.png",
       "solution": {
         "letter": "D",
-        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nCross-multiply: \\(wz = xy\\). Divide by \\(w\\): \\(z = \\dfrac{xy}{w}\\)."
+        "exhibit_text": "(D) [DOE solution not captured \u2014 computed below]\n\nCross-multiply: \\(wz = xy\\). Divide by \\(w\\): \\(z = \\dfrac{xy}{w}\\)."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -614,31 +809,43 @@
       "origin": "DOE_EXAM_A",
       "q_number": 39,
       "question_type": "mc",
-      "question": "On the number line above, points \\(W\\), \\(X\\), \\(Y\\), and \\(Z\\) are integers, and \\(WX{:}XY{:}YZ = 4{:}2{:}3\\). What is the value of \\(\\overline{WY}\\)?\n\n(\\(W\\) is at \\(-10\\) and \\(Z\\) is at \\(8\\) on the number line.)",
-      "options": { "A": "\\(8\\)", "B": "\\(11\\)", "C": "\\(12\\)", "D": "\\(18\\)" },
+      "question": "On the number line above, points \\(W\\), \\(X\\), \\(Y\\), and \\(Z\\) are integers, and \\(WX{:}XY{:}YZ = 4{:}2{:}3\\). What is the value of \\(\\overline{WY}\\)?",
+      "options": {
+        "A": "\\(8\\)",
+        "B": "\\(11\\)",
+        "C": "\\(12\\)",
+        "D": "\\(18\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM39.png",
       "solution": {
         "letter": "C",
-        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\nDistance from \\(W\\) to \\(Z\\): \\(8 - (-10) = 18\\).\n\nRatio parts sum: \\(4 + 2 + 3 = 9\\).\n\nEach part: \\(18 \\div 9 = 2\\).\n\nSo \\(WX = 8\\), \\(XY = 4\\), \\(YZ = 6\\).\n\n\\(WY = WX + XY = 8 + 4 = 12\\)."
+        "exhibit_text": "(C) [DOE solution not captured \u2014 computed below]\n\nDistance from \\(W\\) to \\(Z\\): \\(8 - (-10) = 18\\).\n\nRatio parts sum: \\(4 + 2 + 3 = 9\\).\n\nEach part: \\(18 \\div 9 = 2\\).\n\nSo \\(WX = 8\\), \\(XY = 4\\), \\(YZ = 6\\).\n\n\\(WY = WX + XY = 8 + 4 = 12\\)."
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "figure_svg": "<svg viewBox='0 0 460 95' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='330' y1='40' x2='330' y2='50' stroke='#111' stroke-width='1.4'/><line x1='390' y1='40' x2='390' y2='50' stroke='#111' stroke-width='1.4'/><text x='58' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>W</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>X</text><text x='328' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>Y</text><text x='388' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>Z</text><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>\u221210</text><text x='210' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><text x='390' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text></svg>"
     },
     {
       "id": "AM40",
       "origin": "DOE_EXAM_A",
       "q_number": 40,
       "question_type": "mc",
-      "question": "Mr. Blake's biology class is divided into three sections. The same test was given to each section. The table above shows both the lowest score and the range of scores on this test for each section. What is the **overall** range of all scores in all three sections?\n\n(Section I: lowest \\(65\\), range \\(28\\). Section II: lowest \\(62\\), range \\(25\\). Section III: lowest \\(67\\), range \\(22\\).)",
-      "options": { "A": "\\(25\\)", "B": "\\(27\\)", "C": "\\(28\\)", "D": "\\(31\\)" },
+      "question": "Mr. Blake's biology class is divided into three sections. The same test was given to each section. The table above shows both the lowest score and the range of scores on this test for each section. What is the **overall** range of all scores in all three sections?",
+      "options": {
+        "A": "\\(25\\)",
+        "B": "\\(27\\)",
+        "C": "\\(28\\)",
+        "D": "\\(31\\)"
+      },
       "correct": "D",
-      "exhibit_image_path": "images/exam_a/AM40.png",
+      "exhibit_image_path": null,
       "source_screenshot": "Problems/EXAM_A/AM40.png",
       "solution": {
         "letter": "D",
-        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nHighest score per section = lowest + range:\n\nSection I: \\(65 + 28 = 93\\)\nSection II: \\(62 + 25 = 87\\)\nSection III: \\(67 + 22 = 89\\)\n\nOverall highest: \\(93\\). Overall lowest: \\(62\\).\n\nOverall range: \\(93 - 62 = 31\\)."
+        "exhibit_text": "(D) [DOE solution not captured \u2014 computed below]\n\nHighest score per section = lowest + range:\n\nSection I: \\(65 + 28 = 93\\)\nSection II: \\(62 + 25 = 87\\)\nSection III: \\(67 + 22 = 89\\)\n\nOverall highest: \\(93\\). Overall lowest: \\(62\\).\n\nOverall range: \\(93 - 62 = 31\\)."
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SCORES ON BIOLOGY TEST</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Section</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Lowest Score</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Range</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>I</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>65</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>28</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>II</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>62</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>25</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>III</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>67</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>22</td></tr></tbody></table>"
     },
     {
       "id": "AM32",
@@ -659,15 +866,22 @@
       "origin": "DOE_EXAM_A",
       "q_number": 41,
       "question_type": "mc",
-      "question": "The bar graph above shows the number of schools per city for five small cities. Cities \\(M\\) and \\(N\\) each have \\(500\\) students per school. City \\(P\\) has \\(400\\) students per school. Cities \\(Q\\) and \\(R\\) each have \\(700\\) students per school. Which of the five cities has the **greatest** number of students?\n\n(Bar graph: M=8 schools, N=5, P=9, Q=6, R=4.)",
-      "options": { "A": "City \\(M\\)", "B": "City \\(P\\)", "C": "City \\(Q\\)", "D": "City \\(R\\)" },
+      "question": "The graph above shows the number of schools per city for five small cities. Cities \\(M\\) and \\(N\\) each have \\(500\\) students per school. City \\(P\\) has \\(400\\) students per school. Cities \\(Q\\) and \\(R\\) each have \\(700\\) students per school. Which of the five cities has the **greatest** number of students?",
+      "options": {
+        "A": "City \\(M\\)",
+        "B": "City \\(P\\)",
+        "C": "City \\(Q\\)",
+        "D": "City \\(R\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM41.png",
       "solution": {
         "letter": "C",
-        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\nStudents per city:\n\n\\(M\\): \\(8 \\times 500 = 4{,}000\\)\n\\(N\\): \\(5 \\times 500 = 2{,}500\\)\n\\(P\\): \\(9 \\times 400 = 3{,}600\\)\n\\(Q\\): \\(6 \\times 700 = 4{,}200\\)\n\\(R\\): \\(4 \\times 700 = 2{,}800\\)\n\nCity \\(Q\\) has the greatest number of students."
+        "exhibit_text": "(C) [DOE solution not captured \u2014 computed below]\n\nStudents per city:\n\n\\(M\\): \\(8 \\times 500 = 4{,}000\\)\n\\(N\\): \\(5 \\times 500 = 2{,}500\\)\n\\(P\\): \\(9 \\times 400 = 3{,}600\\)\n\\(Q\\): \\(6 \\times 700 = 4{,}200\\)\n\\(R\\): \\(4 \\times 700 = 2{,}800\\)\n\nCity \\(Q\\) has the greatest number of students."
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "figure_svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><text x='240' y='18' text-anchor='middle' font-family='Georgia,serif' font-size='13' font-weight='bold'>NUMBER OF SCHOOLS IN</text><text x='240' y='35' text-anchor='middle' font-family='Georgia,serif' font-size='13' font-weight='bold'>FIVE CITIES</text><line x1='75' y1='173' x2='450' y2='173' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='156' x2='450' y2='156' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='139' x2='450' y2='139' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='122' x2='450' y2='122' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='105' x2='450' y2='105' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='88' x2='450' y2='88' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='71' x2='450' y2='71' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='54' x2='450' y2='54' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='37' x2='450' y2='37' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='20' x2='450' y2='20' stroke='#ddd' stroke-width='0.6'/><line x1='75' y1='45' x2='75' y2='190' stroke='#111' stroke-width='1.2'/><line x1='75' y1='190' x2='450' y2='190' stroke='#111' stroke-width='1.2'/><text x='68' y='194' text-anchor='end' font-family='Georgia,serif' font-size='13'>0</text><text x='68' y='177' text-anchor='end' font-family='Georgia,serif' font-size='13'>1</text><text x='68' y='160' text-anchor='end' font-family='Georgia,serif' font-size='13'>2</text><text x='68' y='143' text-anchor='end' font-family='Georgia,serif' font-size='13'>3</text><text x='68' y='126' text-anchor='end' font-family='Georgia,serif' font-size='13'>4</text><text x='68' y='109' text-anchor='end' font-family='Georgia,serif' font-size='13'>5</text><text x='68' y='92' text-anchor='end' font-family='Georgia,serif' font-size='13'>6</text><text x='68' y='75' text-anchor='end' font-family='Georgia,serif' font-size='13'>7</text><text x='68' y='58' text-anchor='end' font-family='Georgia,serif' font-size='13'>8</text><text x='68' y='41' text-anchor='end' font-family='Georgia,serif' font-size='13'>9</text><text x='68' y='24' text-anchor='end' font-family='Georgia,serif' font-size='13'>10</text><rect x='90' y='54' width='40' height='136' fill='#c0c0c0' stroke='#111' stroke-width='0.8'/><text x='110' y='210' text-anchor='middle' font-family='Georgia,serif' font-size='14'>M</text><rect x='160' y='105' width='40' height='85' fill='#c0c0c0' stroke='#111' stroke-width='0.8'/><text x='180' y='210' text-anchor='middle' font-family='Georgia,serif' font-size='14'>N</text><rect x='230' y='37' width='40' height='153' fill='#c0c0c0' stroke='#111' stroke-width='0.8'/><text x='250' y='210' text-anchor='middle' font-family='Georgia,serif' font-size='14'>P</text><rect x='300' y='88' width='40' height='102' fill='#c0c0c0' stroke='#111' stroke-width='0.8'/><text x='320' y='210' text-anchor='middle' font-family='Georgia,serif' font-size='14'>Q</text><rect x='370' y='122' width='40' height='68' fill='#c0c0c0' stroke='#111' stroke-width='0.8'/><text x='390' y='210' text-anchor='middle' font-family='Georgia,serif' font-size='14'>R</text><text x='15' y='95' font-family='Georgia,serif' font-size='13'>Number</text><text x='15' y='112' font-family='Georgia,serif' font-size='13'>of</text><text x='15' y='129' font-family='Georgia,serif' font-size='13'>Schools</text><text x='240' y='235' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>City</text></svg>",
+      "exhibit_image_path": null
     },
     {
       "id": "AM42",
@@ -675,12 +889,17 @@
       "q_number": 42,
       "question_type": "mc",
       "question": "\\[\\dfrac{10}{13} = 0.\\overline{769230}\\]\n\nIn the infinitely repeating decimal above, \\(7\\) is the first digit in the repeating pattern. What is the \\(391\\)st digit?",
-      "options": { "A": "\\(0\\)", "B": "\\(3\\)", "C": "\\(6\\)", "D": "\\(7\\)" },
+      "options": {
+        "A": "\\(0\\)",
+        "B": "\\(3\\)",
+        "C": "\\(6\\)",
+        "D": "\\(7\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM42.png",
       "solution": {
         "letter": "D",
-        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nThe repeating pattern has \\(6\\) digits: \\(7, 6, 9, 2, 3, 0\\).\n\nCompute \\(391 \\bmod 6\\): \\(391 = 65 \\times 6 + 1\\), so \\(391 \\bmod 6 = 1\\).\n\nThe \\(391\\)st digit corresponds to the \\(1\\)st digit of the pattern, which is \\(7\\)."
+        "exhibit_text": "(D) [DOE solution not captured \u2014 computed below]\n\nThe repeating pattern has \\(6\\) digits: \\(7, 6, 9, 2, 3, 0\\).\n\nCompute \\(391 \\bmod 6\\): \\(391 = 65 \\times 6 + 1\\), so \\(391 \\bmod 6 = 1\\).\n\nThe \\(391\\)st digit corresponds to the \\(1\\)st digit of the pattern, which is \\(7\\)."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -700,7 +919,7 @@
       "source_screenshot": "Problems/EXAM_A/AM43.png",
       "solution": {
         "letter": "D",
-        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nSolve the inequality:\n\n\\[-3 \\le 2x - 5\\]\n\\[2 \\le 2x\\]\n\\[1 \\le x\\]\n\nSo \\(x \\ge 1\\): closed dot at \\(1\\) (including \\(1\\)) with the ray extending to the right."
+        "exhibit_text": "(D) [DOE solution not captured \u2014 computed below]\n\nSolve the inequality:\n\n\\[-3 \\le 2x - 5\\]\n\\[2 \\le 2x\\]\n\\[1 \\le x\\]\n\nSo \\(x \\ge 1\\): closed dot at \\(1\\) (including \\(1\\)) with the ray extending to the right."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -710,12 +929,17 @@
       "q_number": 44,
       "question_type": "mc",
       "question": "A sports store has a container of handballs: \\(4\\) blue, \\(5\\) red, \\(8\\) yellow, \\(9\\) white, and \\(11\\) green. If one ball is picked from the container at random, what is the probability that it will be yellow?",
-      "options": { "A": "\\(\\dfrac{1}{37}\\)", "B": "\\(\\dfrac{1}{8}\\)", "C": "\\(\\dfrac{8}{37}\\)", "D": "\\(\\dfrac{8}{29}\\)" },
+      "options": {
+        "A": "\\(\\dfrac{1}{37}\\)",
+        "B": "\\(\\dfrac{1}{8}\\)",
+        "C": "\\(\\dfrac{8}{37}\\)",
+        "D": "\\(\\dfrac{8}{29}\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM44.png",
       "solution": {
         "letter": "C",
-        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\nTotal balls: \\(4 + 5 + 8 + 9 + 11 = 37\\).\n\nYellow balls: \\(8\\).\n\nProbability: \\(\\dfrac{8}{37}\\)."
+        "exhibit_text": "(C) [DOE solution not captured \u2014 computed below]\n\nTotal balls: \\(4 + 5 + 8 + 9 + 11 = 37\\).\n\nYellow balls: \\(8\\).\n\nProbability: \\(\\dfrac{8}{37}\\)."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -724,13 +948,18 @@
       "origin": "DOE_EXAM_A",
       "q_number": 45,
       "question_type": "mc",
-      "question": "Each week, Leon has fixed expenses of \\$\\(1{,}250\\) at his furniture shop. It costs him \\$\\(150\\) to make a chair in his shop, and he sells each chair for \\$\\(275\\). What is Leon's **profit** if he makes and sells \\(25\\) chairs in \\(1\\) week?",
-      "options": { "A": "\\$\\(1{,}875\\)", "B": "\\$\\(2{,}500\\)", "C": "\\$\\(3{,}125\\)", "D": "\\$\\(4{,}375\\)" },
+      "question": "Each week, Leon has fixed expenses of $\\(1{,}250\\) at his furniture shop. It costs him $\\(150\\) to make a chair in his shop, and he sells each chair for $\\(275\\). What is Leon's **profit** if he makes and sells \\(25\\) chairs in \\(1\\) week?",
+      "options": {
+        "A": "$\\(1{,}875\\)",
+        "B": "$\\(2{,}500\\)",
+        "C": "$\\(3{,}125\\)",
+        "D": "$\\(4{,}375\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM45.png",
       "solution": {
         "letter": "A",
-        "exhibit_text": "(A) [DOE solution not captured — computed below]\n\nRevenue: \\(25 \\times \\$275 = \\$6{,}875\\).\nVariable cost: \\(25 \\times \\$150 = \\$3{,}750\\).\nFixed cost: \\$\\(1{,}250\\).\n\nProfit = Revenue − Variable − Fixed = \\(\\$6{,}875 − \\$3{,}750 − \\$1{,}250 = \\$1{,}875\\)."
+        "exhibit_text": "(A) [DOE solution not captured \u2014 computed below]\n\nRevenue: \\(25 \\times $275 = $6{,}875\\).\nVariable cost: \\(25 \\times $150 = $3{,}750\\).\nFixed cost: $\\(1{,}250\\).\n\nProfit = Revenue \u2212 Variable \u2212 Fixed = \\($6{,}875 \u2212 $3{,}750 \u2212 $1{,}250 = $1{,}875\\)."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -740,12 +969,17 @@
       "q_number": 46,
       "question_type": "mc",
       "question": "Using the approximation \\(2.54\\) centimeters \\(= 1\\) inch, how many centimeters are in \\(4\\) feet \\(7\\) inches?",
-      "options": { "A": "\\(21.65\\)", "B": "\\(119.38\\)", "C": "\\(121.92\\)", "D": "\\(139.70\\)" },
+      "options": {
+        "A": "\\(21.65\\)",
+        "B": "\\(119.38\\)",
+        "C": "\\(121.92\\)",
+        "D": "\\(139.70\\)"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM46.png",
       "solution": {
         "letter": "D",
-        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nConvert \\(4\\) feet \\(7\\) inches to inches:\n\n\\(4 \\times 12 + 7 = 55\\) inches.\n\nConvert to centimeters:\n\n\\(55 \\times 2.54 = 139.70\\) cm."
+        "exhibit_text": "(D) [DOE solution not captured \u2014 computed below]\n\nConvert \\(4\\) feet \\(7\\) inches to inches:\n\n\\(4 \\times 12 + 7 = 55\\) inches.\n\nConvert to centimeters:\n\n\\(55 \\times 2.54 = 139.70\\) cm."
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -754,15 +988,21 @@
       "origin": "DOE_EXAM_A",
       "q_number": 47,
       "question_type": "mc",
-      "question": "On the number line above, \\(JK = 3\\tfrac{1}{2}\\), \\(JM = 9\\tfrac{3}{4}\\), and \\(LM = 1\\tfrac{1}{8}\\). What is the position of point \\(L\\)?\n\n(Point \\(K\\) is at position \\(\\tfrac{3}{8}\\) on the number line.)",
-      "options": { "A": "\\(5\\tfrac{1}{8}\\)", "B": "\\(5\\tfrac{1}{4}\\)", "C": "\\(5\\tfrac{1}{2}\\)", "D": "\\(6\\tfrac{1}{4}\\)" },
+      "question": "On the number line above, \\(JK = 3\\tfrac{1}{2}\\), \\(JM = 9\\tfrac{3}{4}\\), and \\(LM = 1\\tfrac{1}{8}\\). What is the position of point \\(L\\)?",
+      "options": {
+        "A": "\\(5\\tfrac{1}{8}\\)",
+        "B": "\\(5\\tfrac{1}{4}\\)",
+        "C": "\\(5\\tfrac{1}{2}\\)",
+        "D": "\\(6\\tfrac{1}{4}\\)"
+      },
       "correct": "C",
       "source_screenshot": "Problems/EXAM_A/AM47.png",
       "solution": {
         "letter": "C",
-        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\n\\(K = \\tfrac{3}{8} = 0.375\\).\n\n\\(J = K - JK = 0.375 - 3.5 = -3.125\\).\n\n\\(M = J + JM = -3.125 + 9.75 = 6.625\\).\n\n\\(L = M - LM = 6.625 - 1.125 = 5.5 = 5\\tfrac{1}{2}\\)."
+        "exhibit_text": "(C) [DOE solution not captured \u2014 computed below]\n\n\\(K = \\tfrac{3}{8} = 0.375\\).\n\n\\(J = K - JK = 0.375 - 3.5 = -3.125\\).\n\n\\(M = J + JM = -3.125 + 9.75 = 6.625\\).\n\n\\(L = M - LM = 6.625 - 1.125 = 5.5 = 5\\tfrac{1}{2}\\)."
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='290' y1='40' x2='290' y2='50' stroke='#111' stroke-width='1.4'/><line x1='370' y1='40' x2='370' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>J</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>K</text><text x='288' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='202' y='70' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='196' y1='73' x2='218' y2='73' stroke='#111' stroke-width='1'/><text x='207' y='86' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text></svg>"
     },
     {
       "id": "AM48",
@@ -780,7 +1020,7 @@
       "source_screenshot": "Problems/EXAM_A/AM48.png",
       "solution": {
         "letter": "C",
-        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\n\\[4x - 3y = 12\\]\n\\[4x = 3y + 12\\]\n\\[x = \\dfrac{3y + 12}{4} = \\dfrac{3}{4}y + 3\\]"
+        "exhibit_text": "(C) [DOE solution not captured \u2014 computed below]\n\n\\[4x - 3y = 12\\]\n\\[4x = 3y + 12\\]\n\\[x = \\dfrac{3y + 12}{4} = \\dfrac{3}{4}y + 3\\]"
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -789,27 +1029,33 @@
       "origin": "DOE_EXAM_A",
       "q_number": 49,
       "question_type": "mc",
-      "question": "There are \\(20\\) students in a class. The frequency table above shows the number of students in this class who ate \\(0, 1, 2, 3, 4,\\) or \\(5\\) servings of fruits and vegetables yesterday. What is the **mean** number of servings of fruits and vegetables eaten yesterday per student in this class?\n\n(Frequencies: \\(0\\) servings → \\(5\\) students, \\(1\\) → \\(7\\), \\(2\\) → \\(3\\), \\(3\\) → \\(4\\), \\(4\\) → \\(0\\), \\(5\\) → \\(1\\).)",
-      "options": { "A": "\\(1\\tfrac{1}{2}\\)", "B": "\\(3\\)", "C": "\\(3\\tfrac{1}{3}\\)", "D": "\\(4\\)" },
+      "question": "There are \\(20\\) students in a class. The frequency table above shows the number of students in this class who ate \\(0, 1, 2, 3, 4,\\) or \\(5\\) servings of fruits and vegetables yesterday. What is the **mean** number of servings of fruits and vegetables eaten yesterday per student in this class?",
+      "options": {
+        "A": "\\(1\\tfrac{1}{2}\\)",
+        "B": "\\(3\\)",
+        "C": "\\(3\\tfrac{1}{3}\\)",
+        "D": "\\(4\\)"
+      },
       "correct": "A",
       "source_screenshot": "Problems/EXAM_A/AM49.png",
       "solution": {
         "letter": "A",
-        "exhibit_text": "(A) [DOE solution not captured — computed below]\n\nTotal servings: \\(0(5) + 1(7) + 2(3) + 3(4) + 4(0) + 5(1) = 0 + 7 + 6 + 12 + 0 + 5 = 30\\).\n\nTotal students: \\(20\\).\n\nMean = \\(\\dfrac{30}{20} = 1\\tfrac{1}{2}\\)."
+        "exhibit_text": "(A) [DOE solution not captured \u2014 computed below]\n\nTotal servings: \\(0(5) + 1(7) + 2(3) + 3(4) + 4(0) + 5(1) = 0 + 7 + 6 + 12 + 0 + 5 = 30\\).\n\nTotal students: \\(20\\).\n\nMean = \\(\\dfrac{30}{20} = 1\\tfrac{1}{2}\\)."
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SERVINGS OF FRUITS AND VEGETABLES</caption><thead><tr><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Servings of<br>Fruits and Vegetables</th><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Students</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>7</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr></tbody></table>"
     },
     {
       "id": "AM50",
       "origin": "DOE_EXAM_A",
       "q_number": 50,
       "question_type": "grid_in",
-      "question": "Let \\(b = 3\\), \\(c = 4\\), and \\(d = 5\\). Determine the value of \\(\\dfrac{c/d}{c/b} + \\dfrac{c}{d}\\).\n\nEnter your fractional answer in the space provided. Enter only your fraction.",
+      "question": "Let \\(b = 3\\), \\(c = 4\\), and \\(d = 5\\). Determine the value of the expression below.\n\n\\[ \\dfrac{\\;\\dfrac{c}{d}\\;}{\\;\\dfrac{c}{b}\\;} + \\dfrac{c}{d} \\]\n\nEnter your fractional answer in the space provided. Enter only your fraction.",
       "grid_answer": "7/5",
       "source_screenshot": "Problems/EXAM_A/AM50.png",
       "solution": {
         "letter": null,
-        "exhibit_text": "\\(\\left(\\tfrac{7}{5}\\right)\\) [DOE solution not captured — computed below]\n\n\\[\\dfrac{c/d}{c/b} = \\dfrac{c}{d} \\cdot \\dfrac{b}{c} = \\dfrac{b}{d}\\]\n\nSo the expression becomes:\n\n\\[\\dfrac{b}{d} + \\dfrac{c}{d} = \\dfrac{b + c}{d} = \\dfrac{3 + 4}{5} = \\dfrac{7}{5}\\]"
+        "exhibit_text": "\\(\\left(\\tfrac{7}{5}\\right)\\) [DOE solution not captured \u2014 computed below]\n\n\\[\\dfrac{c/d}{c/b} = \\dfrac{c}{d} \\cdot \\dfrac{b}{c} = \\dfrac{b}{d}\\]\n\nSo the expression becomes:\n\n\\[\\dfrac{b}{d} + \\dfrac{c}{d} = \\dfrac{b + c}{d} = \\dfrac{3 + 4}{5} = \\dfrac{7}{5}\\]"
       },
       "transcription_status": "transcribed_needs_doe_solution"
     },
@@ -819,7 +1065,12 @@
       "q_number": 26,
       "question_type": "mc",
       "question": "Today, Tien's age is \\(\\dfrac{1}{4}\\) of Jordan's age. In \\(2\\) years, Tien's age will be \\(\\dfrac{1}{3}\\) of Jordan's age. How old is Jordan today?",
-      "options": { "A": "\\(4\\) years old", "B": "\\(6\\) years old", "C": "\\(12\\) years old", "D": "\\(16\\) years old" },
+      "options": {
+        "A": "\\(4\\) years old",
+        "B": "\\(6\\) years old",
+        "C": "\\(12\\) years old",
+        "D": "\\(16\\) years old"
+      },
       "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM26.png",
       "solution": {
