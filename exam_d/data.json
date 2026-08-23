@@ -688,6 +688,94 @@
         "exhibit_text": "(C) An organized list can be used to determine the number of groups of \\(3\\) people that include **only** \\(1\\) male.\n\nLet the letters A, B, C, and D represent the females, and let the numbers \\(1\\) and \\(2\\) represent the males.\n\nThen, create a list of all possible combinations of \\(3\\) people with **only** \\(1\\) male.\n\nAB1, AB2, AC1, AC2, AD1, AD2\n\nBC1, BC2, BD1, BD2\n\nCD1, CD2\n\nThere are \\(12\\) possible groups with **only** \\(1\\) male."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM36",
+      "origin": "DOE_EXAM_D",
+      "q_number": 36,
+      "question_type": "grid_in",
+      "question": "Leah has set a goal to read a total of \\(500\\) pages of a textbook. The table shows the book page numbers for the reading she did during three days.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>DAILY READING LOG</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Pages Read</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 45\u201390, inclusive</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 100\u2013135, inclusive</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 145\u2013190, inclusive</td></tr>\n</tbody></table>\n\nWhat percentage of her \\(500\\)-page goal did Leah read on these three days? Round your answer to the nearest tenth.\n\nEnter your answer in the space.",
+      "grid_answer": "25.6",
+      "source_screenshot": "Problems/EXAM_D/DM36.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(25.6\\%\\)) First, determine the number of pages read each day. Since the pages per assignment are inclusive, subtract the first page from the last page assigned and then add \\(1\\) to determine the pages read for each day.\n\nDay 1: \\((90 - 45) + 1 = 46\\) pages\n\nDay 2: \\((135 - 100) + 1 = 36\\) pages\n\nDay 3: \\((190 - 145) + 1 = 46\\) pages\n\nLeah read a total of \\(128\\) pages, since \\(46 + 36 + 46 = 128\\).\n\nTo determine the percent, express \\(128\\) pages out of \\(500\\) pages as a fraction.\n\n\\[\\dfrac{128}{500} = \\dfrac{128 \\div 4}{500 \\div 4} = \\dfrac{32}{125}\\]\n\n\\[32 \\div 125 = 0.256 = 25.6\\%\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM37",
+      "origin": "DOE_EXAM_D",
+      "q_number": 37,
+      "question_type": "grid_in",
+      "question": "What \\(3\\)-digit number between \\(630\\) and \\(650\\) is divisible by both \\(5\\) and \\(8\\)?\n\nEnter your answer in the space.",
+      "grid_answer": "640",
+      "source_screenshot": "Problems/EXAM_D/DM37.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(640\\))\n\nThe final digit of the three-digit number is \\(0\\). Each of the digits \\(0\\) through \\(9\\), inclusive, must be considered.\n\nTo narrow the choices, first consider that the number between \\(630\\) and \\(650\\) must be divisible by both \\(5\\) and \\(8\\).\n\nA number divisible by \\(5\\) must end in \\(0\\) or \\(5\\). Therefore, the only possibilities are \\(0\\) and \\(5\\).\n\n- If the number ended in \\(0\\), the whole number \\(640\\) must also be divisible by \\(8\\):\n\n\\[640 \\div 8 = 80 \\text{ and } 640 \\div 5 = 128\\]\n\nBoth result in a remainder of \\(0\\).\n\n- If the number ended in \\(5\\), the whole numbers \\(635\\) and \\(645\\) must also be divisible by \\(8\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM38",
+      "origin": "DOE_EXAM_D",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "Melissa has a bag of marbles that are all the same size. The bag contains three red (R) marbles, three green (G) marbles, and two white (W) marbles. For an experiment, she will take two marbles out of the bag without looking. Which list shows the sample space for Melissa's experiment?",
+      "options": {
+        "A": "R, G, W",
+        "B": "RG, RW, GW",
+        "C": "R, R, R, G, G, G, W, W",
+        "D": "RR, RG, RW, GG, GW, WW"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_D/DM38.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) The sample space of a random experiment is the collection of all possible outcomes. For this experiment, R represents a red marble, G represents a green marble, and W represents a white marble.\n\nSince two marbles are being drawn, the possible outcomes for the first marble drawn are R, G, W.\n\nList the possible results for each initial outcome combined with the second choice of marble. For example, if the first marble and second marble are both red, the sample space will include RR (red, red).\n\nRR, RG, RW\n\nGR, GG, GW\n\nWR, WG, WW"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM39",
+      "origin": "DOE_EXAM_D",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "The table shows the probabilities of a hockey team scoring different numbers of goals in a game.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>HOCKEY GOAL PROBABILITIES</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Goals</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Probability</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.16</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.21</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.29</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.21</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>4</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.09</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>5</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.04</td></tr>\n</tbody></table>\n\nWhat is the probability that the team will score three or more goals in the next game?",
+      "options": {
+        "A": "\\(0.13\\)",
+        "B": "\\(0.21\\)",
+        "C": "\\(0.34\\)",
+        "D": "\\(0.50\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM39.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) To find the probability that any one of several mutually exclusive events occurs, use the addition rule, and add the probabilities of each event:\n\n\\[P(A \\text{ or } B) = P(A) + P(B)\\]\n\nUsing the data in the table, the probability that the team will score \\(3\\) or more goals in the next game is represented by\n\n\\[P(3) + P(4) + P(5) =\\]\n\\[0.21 + 0.09 + 0.04 = 0.34\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM40",
+      "origin": "DOE_EXAM_D",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "A team is participating in a contest to collect canned goods for a food drive. The team has \\(53\\) points and must have a total of at least \\(100\\) points to win a prize. The team earns \\(5\\) points for each can of food a member collects. Which inequality can be used to find \\(x\\), the number of cans of food the team needs to collect to win a prize?",
+      "options": {
+        "A": "\\(5 + 53x \\le 100\\)",
+        "B": "\\(5 + 53x \\ge 100\\)",
+        "C": "\\(53 + 5x \\le 100\\)",
+        "D": "\\(53 + 5x \\ge 100\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_D/DM40.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Since each can is worth \\(5\\) points, the total number of points earned from all the cans, \\(x\\), is \\(5x\\). The team started with \\(53\\) points. That is a constant value and doesn't change. So the total number of points the team will earn is \\(53 + 5x\\). The team wants to earn at least (\\(\\ge\\)) \\(100\\) points, so they need \\(53 + 5x \\ge 100\\) total points."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
