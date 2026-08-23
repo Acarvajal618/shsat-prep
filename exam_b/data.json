@@ -152,6 +152,81 @@
       "transcription_status": "transcribed"
     },
     {
+      "id": "BM11",
+      "origin": "DOE_EXAM_B",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "A bag contains \\(75\\) marbles that are red, blue, or green. The ratio of red to blue marbles is \\(15{:}7\\), and the ratio of blue to green marbles is \\(7{:}3\\). If \\(2\\) blue marbles are removed and replaced with \\(2\\) green marbles, what will be the new ratio of red to green marbles?",
+      "options": { "A": "\\(3{:}1\\)", "B": "\\(5{:}1\\)", "C": "\\(15{:}3\\)", "D": "\\(45{:}11\\)" },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_B/BM11.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) The ratio of red to blue to green is \\(15{:}7{:}3\\). Find the proportion of blue marbles: add the numbers of the ratio and use the total sum as the denominator: \\(\\dfrac{7}{15+7+3} = \\dfrac{7}{25}\\). The proportion of green marbles is \\(\\dfrac{3}{25}\\).\n\nSince there are \\(75\\) marbles total, the number of blue marbles is \\(\\dfrac{7}{25} \\times 75 = 21\\). The number of green marbles is \\(\\dfrac{3}{25} \\times 75 = 9\\).\n\nThe number of red marbles is \\(75 - 21 - 9 = 45\\). If \\(2\\) blue marbles are removed and replaced with \\(2\\) green marbles, the number of blue marbles will be \\(19\\) and the number of green marbles will be \\(11\\). The ratio of red to green will be \\(45{:}11\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM12",
+      "origin": "DOE_EXAM_B",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "The table above shows the number of times that different desserts were ordered at a restaurant. Based on this information, what is the probability of a customer ordering ice cream as a dessert?\n\n(DESSERT CHOICES — Cookies: \\(42\\), Pie: \\(23\\), Cake: \\(47\\), Ice Cream: \\(48\\).)",
+      "options": { "A": "\\(25\\%\\)", "B": "\\(30\\%\\)", "C": "\\(40\\%\\)", "D": "\\(48\\%\\)" },
+      "correct": "B",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>DESSERT CHOICES</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Dessert</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Number of Times Ordered</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cookies</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>42</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Pie</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>23</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cake</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>47</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Ice Cream</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>48</td></tr></tbody></table>",
+      "source_screenshot": "Problems/EXAM_B/BM12.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) The total number of desserts ordered is \\(42 + 23 + 47 + 48 = 160\\).\n\nThe probability that ice cream was chosen is \\(\\dfrac{48}{160} = \\dfrac{3}{10} = 30\\%\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM13",
+      "origin": "DOE_EXAM_B",
+      "q_number": 13,
+      "question_type": "grid_in",
+      "question": "A basket contains \\(3\\) apples, \\(4\\) oranges, \\(5\\) bananas, and \\(8\\) pears.\n\nIf one piece of fruit is randomly pulled from the basket, what is the probability that it will be a pear?\n\nEnter the decimal value (between \\(0\\) and \\(1\\)) corresponding to the point on the number line.",
+      "grid_answer": "0.4",
+      "source_screenshot": "Problems/EXAM_B/BM13.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "The total number of fruits is \\(3 + 4 + 5 + 8 = 20\\) fruits.\n\nThe probability of picking a pear is \\(\\dfrac{8}{20} = \\dfrac{8}{20} = 0.4\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM14",
+      "origin": "DOE_EXAM_B",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "A cooler contains three types of beverages: \\(5\\) bottles of apple juice, \\(3\\) bottles of grape juice, and \\(6\\) bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is **not** apple juice?",
+      "options": { "A": "\\(\\dfrac{1}{9}\\)", "B": "\\(\\dfrac{5}{14}\\)", "C": "\\(\\dfrac{9}{14}\\)", "D": "\\(\\dfrac{2}{3}\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_B/BM14.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) The total number of bottles of juice in the cooler is \\(5 + 3 + 6 = 14\\).\n\nThe number of bottles of juice that are **not** apple juice (grape juice and orange juice) is \\(3 + 6 = 9\\).\n\nSo the probability is \\(\\dfrac{9}{14}\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM15",
+      "origin": "DOE_EXAM_B",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "A large circular dinner plate has a radius of \\(20\\) centimeters. A smaller circular plate with a circumference of \\(20\\pi\\) centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is **not** covered by the smaller plate?",
+      "options": { "A": "\\(20\\pi\\) sq cm", "B": "\\(100\\pi\\) sq cm", "C": "\\(200\\pi\\) sq cm", "D": "\\(300\\pi\\) sq cm" },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_B/BM15.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) The radius of the large plate is \\(20\\) cm. Use \\(20\\) cm to find the area of the large plate:\n\n\\[A = \\pi r^2 = \\pi (20^2) = 400\\pi \\text{ sq cm}\\]\n\nThe circumference of the smaller plate is \\(20\\pi\\) cm. Use that to find the radius, and then the area, of the smaller plate:\n\n\\[C = 2\\pi r\\]\n\\[20\\pi = 2\\pi r\\]\n\\[r = 10\\]\n\\[A = \\pi r^2 = \\pi(10^2) = 100\\pi \\text{ sq cm}\\]\n\nSubtract the area of the small plate from the area of the large plate:\n\n\\[400\\pi - 100\\pi = 300\\pi \\text{ sq cm}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
       "id": "BM10",
       "origin": "DOE_EXAM_B",
       "q_number": 10,
