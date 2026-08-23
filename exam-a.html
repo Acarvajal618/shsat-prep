@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SHSAT Practice Test A — Math</title>
+  <!-- KaTeX for LaTeX-style math typesetting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
   <style>
     :root {
       --tn-bg: #ffffff;
@@ -447,10 +451,25 @@
     function openExhibit() {
       const q = currentQ();
       if (!q || !q.solution || !q.solution.exhibit_text) return;
-      document.getElementById('tn-exhibit-body').textContent = q.solution.exhibit_text;
+      const body = document.getElementById('tn-exhibit-body');
+      body.innerHTML = esc(q.solution.exhibit_text);
+      typesetMath(body);
       const panel = document.getElementById('tn-exhibit-panel');
       panel.classList.add('open');
       panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function typesetMath(root) {
+      if (window.renderMathInElement) {
+        window.renderMathInElement(root, {
+          delimiters: [
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '$$', right: '$$', display: true}
+          ],
+          throwOnError: false
+        });
+      }
     }
     function closeExhibit() {
       document.getElementById('tn-exhibit-panel').classList.remove('open');
@@ -519,6 +538,8 @@
       document.getElementById('tn-show-solution').disabled = !hasSolution;
 
       wireInputs(q);
+      // Typeset any LaTeX-marked math in the question and options
+      typesetMath(document.getElementById('tn-card'));
     }
 
     function renderMc(q) {
