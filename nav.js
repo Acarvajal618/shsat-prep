@@ -19,6 +19,7 @@
     { label: 'Exam',        href: 'index.html#exam',      match: [] },
     { label: 'Prep',        href: 'prep.html',            match: ['prep.html', 'homework.html'] },
     { label: 'Exam A',      href: 'exam-a.html',          match: ['exam-a.html'] },
+    { label: 'Exam B',      href: 'exam-b.html',          match: ['exam-b.html'] },
     { label: 'Trainers',    href: 'trainers.html',        match: ['trainers.html', 'trainer.html', 'percentage-trainer.html', 'ratio-trainer.html', 'word-equation-trainer.html', 'equation-cheatsheet.html'] },
     { label: 'My Progress', href: 'progress.html',        match: ['progress.html'] },
   ];

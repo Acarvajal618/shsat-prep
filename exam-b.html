@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHSAT Practice Test B — Math</title>
+  <!-- KaTeX for LaTeX-style math typesetting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --tn-bg: #ffffff;
+      --tn-toolbar-bg: #ffffff;
+      --tn-toolbar-border: #cccccc;
+      --tn-infobar-bg: #6d6d6d;
+      --tn-infobar-text: #ffffff;
+      --tn-accent: #1a73e8;
+      --tn-accent-blue-btn: #4a90e2;
+      --tn-progress: #62a3ea;
+      --tn-card-border: #e0e0e0;
+      --tn-text: #222;
+      --tn-muted: #888;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--tn-bg);
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--tn-text);
+      min-height: 100vh;
+    }
+
+    /* ── Top toolbar (nav arrows + tools + guest) ── */
+    .tn-toolbar {
+      background: #f4f4f4;
+      display: flex; align-items: center;
+      padding: 10px 20px;
+      gap: 10px;
+      border-bottom: 1px solid #dcdcdc;
+    }
+    .tn-nav-arrows { display: flex; gap: 2px; }
+    .tn-btn {
+      background: #ffffff;
+      border: 1px solid #b3b3b3;
+      border-radius: 4px;
+      width: 46px; height: 36px;
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 16px; padding: 0;
+      color: #333;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+      transition: background 0.08s, border-color 0.08s;
+    }
+    .tn-btn:hover:not(:disabled) { background: #f0f0f0; border-color: #909090; }
+    .tn-btn.next {
+      background: #4a90d9;
+      color: #fff;
+      border-color: #3878be;
+    }
+    .tn-btn.next:hover { background: #3878be; border-color: #2f6aa8; }
+    .tn-btn:disabled { opacity: 0.4; cursor: default; background: #fff; }
+    .tn-btn.active {
+      background: #d0d0d0;
+      border-color: #666;
+      color: #111;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+    }
+
+    .tn-tools { display: flex; gap: 4px; margin-left: 6px; padding-left: 10px; border-left: 1px solid #d5d5d5; }
+
+    .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #333; font-size: 13px; }
+    .tn-user .tn-avatar {
+      width: 22px; height: 22px; border-radius: 2px;
+      background: #d8d8d8;
+      display: inline-flex; align-items: center; justify-content: center;
+      color: #555; font-size: 13px;
+    }
+
+    /* ── Progress line + info bar ── */
+    .tn-progress-line { height: 3px; background: var(--tn-progress); }
+    .tn-infobar {
+      background: var(--tn-infobar-bg);
+      color: var(--tn-infobar-text);
+      padding: 6px 22px;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+    }
+    .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
+
+    /* (Exhibits vertical tab on right edge removed per user request) */
+
+    /* ── Main question area ── */
+    .tn-main {
+      max-width: 1000px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+    .tn-card {
+      background: #fff;
+      border: 1px solid var(--tn-card-border);
+      border-radius: 0;
+      padding: 30px 34px;
+      min-height: 260px;
+    }
+    .tn-question {
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--tn-text);
+      white-space: pre-line;
+    }
+    .tn-question strong { font-weight: 700; }
+    .tn-figure {
+      margin: 8px 0 16px;
+      display: flex; justify-content: center;
+    }
+    .tn-figure img { max-width: 100%; height: auto; }
+    .tn-figure svg { width: 100%; max-width: 520px; height: auto; }
+
+    /* Options — multiple choice */
+    .tn-options { margin-top: 22px; display: flex; flex-direction: column; gap: 4px; }
+    .tn-option {
+      display: flex; align-items: flex-start; gap: 12px;
+      padding: 10px 12px;
+      cursor: pointer;
+      border-radius: 2px;
+      user-select: none;
+      transition: background 0.08s;
+    }
+    .tn-option:hover { background: #f6f6f6; }
+    .tn-option.crossed { cursor: not-allowed; }
+    .tn-option.crossed:hover { background: transparent; }
+
+    .tn-radio {
+      width: 16px; height: 16px; border-radius: 50%;
+      border: 1.5px solid #888;
+      flex-shrink: 0; margin-top: 2px;
+      position: relative;
+      background: #fff;
+    }
+    .tn-option.selected .tn-radio {
+      border-color: var(--tn-accent);
+    }
+    .tn-option.selected .tn-radio::after {
+      content: ''; position: absolute;
+      top: 2.5px; left: 2.5px; width: 8px; height: 8px;
+      border-radius: 50%; background: var(--tn-accent);
+    }
+    .tn-checkbox {
+      width: 15px; height: 15px; border-radius: 2px;
+      border: 1.5px solid #888;
+      flex-shrink: 0; margin-top: 3px;
+      position: relative;
+      background: #fff;
+    }
+    .tn-option.selected .tn-checkbox {
+      border-color: var(--tn-accent);
+      background: var(--tn-accent);
+    }
+    .tn-option.selected .tn-checkbox::after {
+      content: '✓'; position: absolute;
+      color: #fff; font-size: 11px; font-weight: bold;
+      top: -4px; left: 1.5px;
+    }
+    .tn-letter { font-weight: 500; min-width: 20px; }
+    .tn-option-text { flex: 1; }
+
+    /* Cross-out state — strike through options and disable interaction */
+    .tn-option.crossed .tn-letter,
+    .tn-option.crossed .tn-option-text {
+      text-decoration: line-through;
+      text-decoration-color: #d33;
+      text-decoration-thickness: 2px;
+      color: #999;
+    }
+    .tn-option.crossed .tn-radio,
+    .tn-option.crossed .tn-checkbox {
+      opacity: 0.4;
+    }
+
+    /* Grid-in numeric input */
+    .tn-grid-input {
+      margin-top: 16px;
+      padding: 8px 12px;
+      border: 1.5px solid #7a7a7a;
+      border-radius: 2px;
+      width: 140px;
+      font-size: 16px;
+      font-family: inherit;
+      outline: none;
+    }
+    .tn-grid-input:focus { border-color: var(--tn-accent); }
+    .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
+
+    /* Dropdown blanks inside prose */
+    .tn-dropdown {
+      display: inline-block;
+      padding: 3px 22px 3px 10px;
+      border: 1.5px solid #888;
+      border-radius: 2px;
+      background: #fff;
+      font-family: inherit; font-size: 14px;
+      cursor: pointer;
+      margin: 0 4px;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0 L5 6 L10 0 Z' fill='%23555'/></svg>");
+      background-repeat: no-repeat;
+      background-position: right 6px center;
+      min-width: 90px;
+      color: #333;
+    }
+    .tn-dropdown:disabled { color: #999; background-color: #f6f6f6; cursor: not-allowed; }
+    .tn-dropdown-note { color: var(--tn-muted); font-size: 12px; margin-top: 10px; font-style: italic; }
+
+    /* Solution button below card */
+    .tn-card-actions {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+      display: flex; gap: 10px;
+    }
+    .tn-btn-solution {
+      background: #fff;
+      border: 1px solid #b8b8b8;
+      border-radius: 2px;
+      padding: 8px 18px;
+      font-size: 13px;
+      color: #333;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .tn-btn-solution:hover { background: #ebebeb; }
+    .tn-btn-solution:disabled { opacity: 0.5; cursor: default; }
+
+    /* Inline exhibit panel (opens below the card, mimics TestNav Exhibits) */
+    .tn-exhibit-panel {
+      margin-top: 18px;
+      background: #ffffff;
+      border: 1px solid #cfcfcf;
+      border-radius: 3px;
+      display: none;
+      max-width: 100%;
+    }
+    .tn-exhibit-panel.open { display: block; }
+    .tn-exhibit-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 14px;
+      background: #eaeaea;
+      border-bottom: 1px solid #cfcfcf;
+      font-size: 14px; color: #333;
+    }
+    .tn-exhibit-close {
+      background: transparent; border: none; cursor: pointer;
+      font-size: 15px; color: #333; padding: 2px 8px;
+      font-weight: 600;
+    }
+    .tn-exhibit-close:hover { color: #000; }
+    .tn-exhibit-tabs {
+      display: flex; padding: 0 14px;
+      background: #fff;
+      border-bottom: 1px solid #cfcfcf;
+    }
+    .tn-exhibit-tab {
+      padding: 8px 14px;
+      font-size: 13px;
+      color: #333;
+      cursor: default;
+      border: 1px solid transparent;
+      border-bottom: none;
+      margin-bottom: -1px;
+    }
+    .tn-exhibit-tab.active {
+      border-color: #cfcfcf;
+      background: #fff;
+    }
+    .tn-exhibit-body {
+      padding: 18px 22px;
+      font-size: 14px;
+      line-height: 1.35;
+      color: #222;
+      white-space: pre-line;
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+    /* ── Fraction keypad (grid_keypad question type) ────────────────── */
+    .tn-keypad {
+      margin-top: 10px; border: 1px solid #999; border-radius: 4px;
+      padding: 8px; max-width: 340px; background: #fff;
+    }
+    .tn-keypad-nav {
+      display: flex; gap: 4px; margin-bottom: 6px;
+      padding-bottom: 6px; border-bottom: 1px solid #ddd;
+      justify-content: flex-start;
+    }
+    .tn-keypad-nav button {
+      width: 32px; height: 28px; border-radius: 50%;
+      border: 1px solid #bbb; background: #fff; cursor: pointer;
+      font-size: 12px; color: #333; padding: 0;
+    }
+    .tn-keypad-nav button:hover { background: #eee; }
+    .tn-keypad-row { display: flex; gap: 4px; margin-bottom: 4px; }
+    .tn-keypad-btn {
+      flex: 1; height: 42px; background: #fff; border: 1px solid #bbb;
+      border-radius: 3px; font-family: Georgia, serif; font-size: 17px;
+      cursor: pointer;
+    }
+    .tn-keypad-btn:hover { background: #eee; }
+    .tn-keypad-btn.icon svg { display: block; margin: 0 auto; }
+    .tn-keypad-input {
+      display: inline-block; padding: 8px 14px;
+      border: 1.5px solid #7a7a7a; border-radius: 3px;
+      min-height: 30px; min-width: 240px;
+      font-family: Georgia, serif; font-size: 18px;
+      vertical-align: middle; background: #fff;
+    }
+
+    /* ── Drag-and-drop chips ────────────────────────────────────────── */
+    .tn-chips-row {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 12px 0; padding: 8px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 3px;
+    }
+    .tn-chip {
+      background: #4a90d9; color: #fff;
+      padding: 4px 12px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 15px;
+      border: 1px solid #3878be;
+    }
+    .tn-chip:active { cursor: grabbing; }
+    .tn-chip.used { opacity: 0.45; }
+    .tn-dropbox {
+      display: inline-block; min-width: 60px; padding: 3px 12px;
+      border: 1.5px dashed #7a7a7a; border-radius: 2px;
+      margin: 0 4px; text-align: center;
+      background: #f9f9f9; color: #333;
+      font-family: Georgia, serif; font-size: 15px;
+      vertical-align: middle;
+    }
+    .tn-dropbox.filled {
+      border-style: solid; background: #dbe9ff; border-color: #4a90d9;
+    }
+    .tn-dropbox.drag-over { background: #ffeeaa; }
+
+    /* ── Graph-select clickable points ──────────────────────────────── */
+    .tn-graph-select-svg { display: block; margin: 12px auto; max-width: 340px; }
+    .tn-graph-dot {
+      fill: #333; stroke: #333; cursor: pointer;
+      transition: fill 0.12s, stroke 0.12s;
+    }
+    .tn-graph-dot:hover { fill: #4a90d9; stroke: #4a90d9; }
+    .tn-graph-dot.selected { fill: #d93025; stroke: #d93025; }
+
+    /* ── Ray placement (AM43) ───────────────────────────────────────── */
+    .tn-ray-options {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+      max-width: 200px; margin: 14px auto; padding: 6px;
+      border: 1px solid #111;
+    }
+    .tn-ray-choice {
+      background: #fff; border: 1px solid #bbb; padding: 8px;
+      cursor: pointer; text-align: center; height: 40px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .tn-ray-choice:hover { background: #eee; }
+    .tn-ray-choice.selected { background: #dbe9ff; border-color: #4a90d9; border-width: 2px; padding: 7px; }
+    .tn-ray-choice svg { display: block; }
+    .tn-numberline-clickable {
+      display: block; margin: 12px auto; max-width: 460px; cursor: crosshair;
+    }
+    .tn-numberline-tick.clicked { fill: #d93025; }
+    .tn-numberline-selected {
+      stroke: #d93025; stroke-width: 3;
+    }
+
+    /* Tighten spacing around KaTeX display equations inside the solution */
+    .tn-exhibit-body .katex-display {
+      margin: 0.25em 0 !important;
+    }
+    .tn-exhibit-body .katex-display > .katex {
+      display: inline-block;
+    }
+
+    @media (max-width: 700px) {
+      .tn-toolbar { padding: 8px 12px; gap: 6px; flex-wrap: wrap; }
+      .tn-user { font-size: 12px; }
+      .tn-main { margin: 16px auto; padding: 0 12px; }
+      .tn-card { padding: 20px 16px; }
+      .tn-question { font-size: 14px; }
+      .tn-exhibits-tab { top: 150px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Top toolbar with nav arrows and tool palette -->
+  <div class="tn-toolbar">
+    <div class="tn-nav-arrows">
+      <button class="tn-btn" id="tn-prev" title="Previous question">←</button>
+      <button class="tn-btn next" id="tn-next" title="Next question">→</button>
+    </div>
+    <div class="tn-tools">
+      <button class="tn-btn" id="tn-cursor" title="Pointer">↖</button>
+      <button class="tn-btn" id="tn-crossout" title="Cross out answer choices">✕</button>
+      <button class="tn-btn" id="tn-notes" title="Notes (disabled)" disabled>📝</button>
+      <button class="tn-btn" id="tn-pencil" title="Highlighter (disabled)" disabled>✏️</button>
+    </div>
+    <div class="tn-user">
+      <span>Guest</span>
+      <span class="tn-avatar">👤</span>
+    </div>
+  </div>
+
+  <div class="tn-progress-line"></div>
+  <div class="tn-infobar">
+    <span>SHSAT PRACTICE TEST B</span>
+    <span class="sep">/</span>
+    <span>MATH</span>
+    <span class="sep">/</span>
+    <span id="tn-counter">1 OF 50</span>
+  </div>
+
+  <div class="tn-main">
+    <div class="tn-card" id="tn-card">
+      <div class="tn-question" id="tn-question">Loading…</div>
+      <div id="tn-body"></div>
+      <div class="tn-card-actions">
+        <button class="tn-btn-solution" id="tn-show-solution" disabled>Solution</button>
+      </div>
+    </div>
+
+    <!-- Inline solution panel (opens below the card) -->
+    <div class="tn-exhibit-panel" id="tn-exhibit-panel">
+      <div class="tn-exhibit-header">
+        <span>Solutions</span>
+        <button class="tn-exhibit-close" id="tn-close-exhibit">X</button>
+      </div>
+      <div class="tn-exhibit-tabs">
+        <div class="tn-exhibit-tab active">Solution</div>
+      </div>
+      <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = 'exam_b/data.json?v=' + Date.now();
+    const state = {
+      questions: [],
+      cur: 0,
+      answers: {},
+      crossedOut: {},
+      crossoutMode: false,
+    };
+
+    async function boot() {
+      const r = await fetch(DATA_URL);
+      const data = await r.json();
+      state.questions = (data.questions || []).sort((a, b) => a.q_number - b.q_number);
+      routeFromHash();
+      render();
+      wireControls();
+    }
+
+    function parseHash() {
+      const m = (location.hash || '').match(/#Q(\d+)/);
+      if (!m) return null;
+      return Math.max(1, Math.min(50, parseInt(m[1], 10)));
+    }
+
+    function routeFromHash() {
+      const q = parseHash();
+      if (q) {
+        // Find index for that q_number (may be less than 50 if we haven't transcribed them all)
+        const idx = state.questions.findIndex(x => x.q_number === q);
+        state.cur = idx >= 0 ? idx : 0;
+      } else {
+        state.cur = 0;
+        location.hash = state.questions.length ? 'Q' + state.questions[0].q_number : 'Q1';
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      routeFromHash();
+      render();
+      closeExhibit();
+    });
+
+    function currentQ() { return state.questions[state.cur] || null; }
+
+    function updateCounter() {
+      const q = currentQ();
+      const n = q ? q.q_number : (state.cur + 1);
+      document.getElementById('tn-counter').textContent = n + ' OF 50';
+    }
+
+    function wireControls() {
+      document.getElementById('tn-prev').onclick = () => go(-1);
+      document.getElementById('tn-next').onclick = () => go(+1);
+      document.getElementById('tn-cursor').onclick = () => setCrossout(false);
+      document.getElementById('tn-crossout').onclick = () => setCrossout(!state.crossoutMode);
+      document.getElementById('tn-show-solution').onclick = toggleExhibit;
+      document.getElementById('tn-close-exhibit').onclick = closeExhibit;
+      document.addEventListener('keydown', (e) => {
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+        if (e.key === 'ArrowRight') go(+1);
+        if (e.key === 'ArrowLeft') go(-1);
+        if (e.key === 'Escape') closeExhibit();
+      });
+      setCrossout(false);
+    }
+
+    function setCrossout(on) {
+      state.crossoutMode = !!on;
+      document.getElementById('tn-crossout').classList.toggle('active', state.crossoutMode);
+      document.getElementById('tn-cursor').classList.toggle('active', !state.crossoutMode);
+    }
+
+    function go(delta) {
+      const next = state.cur + delta;
+      if (next < 0 || next >= state.questions.length) return;
+      state.cur = next;
+      location.hash = 'Q' + state.questions[next].q_number;
+    }
+
+    function toggleExhibit() {
+      const panel = document.getElementById('tn-exhibit-panel');
+      if (panel.classList.contains('open')) {
+        closeExhibit();
+      } else {
+        openExhibit();
+      }
+    }
+    function openExhibit() {
+      const q = currentQ();
+      if (!q || !q.solution || !q.solution.exhibit_text) return;
+      const body = document.getElementById('tn-exhibit-body');
+      body.innerHTML = esc(q.solution.exhibit_text);
+      typesetMath(body);
+      const panel = document.getElementById('tn-exhibit-panel');
+      panel.classList.add('open');
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function typesetMath(root) {
+      if (window.renderMathInElement) {
+        window.renderMathInElement(root, {
+          delimiters: [
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '$$', right: '$$', display: true}
+          ],
+          throwOnError: false
+        });
+      }
+    }
+    function closeExhibit() {
+      document.getElementById('tn-exhibit-panel').classList.remove('open');
+    }
+
+    function esc(s) {
+      return (s || '').replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+    }
+
+    function renderQuestionText(text) {
+      const lines = (text || '').split('\n');
+      const html = [];
+      let inList = false;
+      for (const line of lines) {
+        if (line.trim().startsWith('• ')) {
+          if (!inList) { html.push('<ul style="margin:8px 0 0 20px;">'); inList = true; }
+          html.push('<li>' + esc(line.trim().slice(2)) + '</li>');
+        } else {
+          if (inList) { html.push('</ul>'); inList = false; }
+          const bolded = esc(line).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+          html.push('<div>' + bolded + '</div>');
+        }
+      }
+      if (inList) html.push('</ul>');
+      return html.join('');
+    }
+
+    function render() {
+      updateCounter();
+      const q = currentQ();
+      document.getElementById('tn-prev').disabled = state.cur === 0;
+      document.getElementById('tn-next').disabled = state.cur === state.questions.length - 1;
+
+      if (!q) {
+        document.getElementById('tn-question').textContent = 'No question found.';
+        document.getElementById('tn-body').innerHTML = '';
+        document.getElementById('tn-show-solution').disabled = true;
+        return;
+      }
+
+      let questionHtml;
+      if (q.question_type === 'dropdown') {
+        questionHtml = renderDropdownProse(q);
+      } else if (q.question_type === 'drag_drop') {
+        questionHtml = renderDragDropProse(q);
+      } else {
+        questionHtml = renderQuestionText(q.question);
+      }
+      document.getElementById('tn-question').innerHTML = questionHtml;
+
+      let bodyHtml = '';
+      if (q.figure_svg) {
+        bodyHtml += `<div class="tn-figure">${q.figure_svg}</div>`;
+      } else if (q.exhibit_image_path) {
+        bodyHtml += `<div class="tn-figure"><img src="${q.exhibit_image_path}" alt="figure"></div>`;
+      }
+
+      if (q.question_type === 'mc') {
+        bodyHtml += renderMc(q);
+      } else if (q.question_type === 'mc_multi') {
+        bodyHtml += renderMcMulti(q);
+      } else if (q.question_type === 'grid_in') {
+        bodyHtml += renderGridIn(q);
+      } else if (q.question_type === 'grid_keypad') {
+        bodyHtml += renderGridKeypad(q);
+      } else if (q.question_type === 'drag_drop') {
+        // drag_drop question renders its chips inline (question text was rewritten in renderQuestionText path above)
+        bodyHtml += renderDragDropChips(q);
+      } else if (q.question_type === 'graph_select') {
+        bodyHtml += renderGraphSelect(q);
+      } else if (q.question_type === 'ray_place') {
+        bodyHtml += renderRayPlace(q);
+      } else if (q.question_type === 'dropdown') {
+        const hasChoices = (q.dropdowns || []).some(d => d.choices && d.choices.length);
+        if (!hasChoices) {
+          bodyHtml += `<div class="tn-dropdown-note">Dropdown choices not captured yet — placeholders shown. Use the Solution button for the DOE walkthrough.</div>`;
+        }
+      }
+      document.getElementById('tn-body').innerHTML = bodyHtml;
+
+      const hasSolution = !!(q.solution && q.solution.exhibit_text);
+      document.getElementById('tn-show-solution').disabled = !hasSolution;
+
+      wireInputs(q);
+      // Typeset any LaTeX-marked math in the question and options
+      typesetMath(document.getElementById('tn-card'));
+    }
+
+    function renderOptionContent(v) {
+      // Pass through raw HTML/SVG (starts with '<'); otherwise escape then let KaTeX process
+      const s = (v || '').trim();
+      if (s.startsWith('<')) return s;
+      return esc(v);
+    }
+
+    function renderMc(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = state.answers[q.q_number] || null;
+      const crossed = state.crossedOut[q.q_number] || {};
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel === L ? ' selected' : '') + (crossed[L] ? ' crossed' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-radio"></span>
+          <span class="tn-letter">${L}.</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc">${opts}</div>`;
+    }
+
+    function renderMcMulti(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = new Set(state.answers[q.q_number] || []);
+      const crossed = state.crossedOut[q.q_number] || {};
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel.has(L) ? ' selected' : '') + (crossed[L] ? ' crossed' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-checkbox"></span>
+          <span class="tn-letter">${L}</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc_multi">${opts}</div>`;
+    }
+
+    function renderGridIn(q) {
+      const val = state.answers[q.q_number] || '';
+      return `
+        <div class="tn-grid-label">Enter your answer in the space.</div>
+        <input type="text" class="tn-grid-input" id="tn-grid" value="${esc(val)}" autocomplete="off">
+      `;
+    }
+
+    function renderDropdownProse(q) {
+      let html = renderQuestionText(q.question);
+      (q.dropdowns || []).forEach((d) => {
+        const marker = '[' + d.label + ']';
+        const choices = d.choices || [];
+        let selectHtml;
+        if (choices.length) {
+          const opts = ['<option>Choose...</option>'].concat(
+            choices.map((c, i) => `<option value="${i}">${esc(c)}</option>`)
+          ).join('');
+          selectHtml = `<select class="tn-dropdown" data-label="${d.label}">${opts}</select>`;
+        } else {
+          selectHtml = `<select class="tn-dropdown" data-label="${d.label}" disabled><option>Choose...</option></select>`;
+        }
+        html = html.split(marker).join(selectHtml);
+      });
+      return html;
+    }
+
+    // ── Fraction keypad (AM32, AM50) ─────────────────────────────────
+    function renderGridKeypad(q) {
+      const val = state.answers[q.q_number] || '';
+      const prefix = q.grid_prefix || '';
+      const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      return `
+        <div class="tn-grid-label">${esc(label)}</div>
+        <div style="margin-top: 10px;">
+          ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;margin-right:8px;">${esc(prefix)}</span>` : ''}
+          <span class="tn-keypad-input" id="tn-grid-display">${esc(val)}</span>
+        </div>
+        <div class="tn-keypad" data-role="keypad">
+          <div class="tn-keypad-nav">
+            <button data-kp="ARR_L" title="Left">←</button>
+            <button data-kp="ARR_R" title="Right">→</button>
+            <button data-kp="UNDO"  title="Undo">↺</button>
+            <button data-kp="REDO"  title="Redo">↻</button>
+            <button data-kp="BKSP"  title="Backspace">⌫</button>
+            <button data-kp="CLEAR" title="Clear">🗑</button>
+          </div>
+          <div class="tn-keypad-row">
+            ${['1','2','3','4','5'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            ${['6','7','8','9','0'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            <button class="tn-keypad-btn" data-kp="%">%</button>
+            <button class="tn-keypad-btn" data-kp="-">−</button>
+            <button class="tn-keypad-btn" data-kp=".">.</button>
+            <button class="tn-keypad-btn icon" data-kp="FRAC" title="Fraction">
+              <svg viewBox="0 0 20 22" width="20" height="22"><rect x="2" y="1" width="16" height="8" fill="none" stroke="#333"/><rect x="2" y="13" width="16" height="8" fill="none" stroke="#333"/></svg>
+            </button>
+            <button class="tn-keypad-btn icon" data-kp="MIXED" title="Mixed number">
+              <svg viewBox="0 0 32 22" width="32" height="22"><rect x="2" y="6" width="10" height="10" fill="none" stroke="#333"/><rect x="16" y="1" width="14" height="8" fill="none" stroke="#333"/><rect x="16" y="13" width="14" height="8" fill="none" stroke="#333"/></svg>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    // ── Drag-drop (AM27) ─────────────────────────────────────────────
+    function renderDragDropChips(q) {
+      const placed = state.answers[q.q_number] || {};
+      const usedValues = new Set(Object.values(placed));
+      const chips = (q.drop_values || []).map(v => {
+        const usedCls = usedValues.has(v) && !q.drop_allow_reuse ? ' used' : '';
+        return `<div class="tn-chip${usedCls}" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
+      }).join('');
+      return `<div class="tn-chips-row" data-role="chips">${chips}</div>`;
+    }
+    function renderDragDropProse(q) {
+      let html = renderQuestionText(q.question);
+      const placed = state.answers[q.q_number] || {};
+      (q.boxes || []).forEach(b => {
+        const marker = '[' + b.label + ']';
+        const val = placed[b.label] || '';
+        const cls = val ? 'tn-dropbox filled' : 'tn-dropbox';
+        html = html.split(marker).join(
+          `<span class="${cls}" data-box="${b.label}">${val ? esc(val) : '____'}</span>`);
+      });
+      return html;
+    }
+
+    // ── Graph select (AM37): clickable points on a coordinate grid ───
+    function renderGraphSelect(q) {
+      const selected = new Set(state.answers[q.q_number] || []);
+      const pts = q.points || [];
+      const dots = pts.map(p => {
+        const cls = 'tn-graph-dot' + (selected.has(p.id) ? ' selected' : '');
+        return `<circle class="${cls}" cx="${p.cx}" cy="${p.cy}" r="6" data-id="${p.id}"/>`;
+      }).join('');
+      const title = q.graph_title || '';
+      const xLabel = q.graph_x_label || 'x';
+      const yLabel = q.graph_y_label || 'y';
+      // Grid: x from 0-6, y from 0-15 (based on AM37)
+      const ORIGIN_X = 60;
+      const ORIGIN_Y = 260;
+      const DX = 40, DY = 15;
+      const yTicks = [1,3,5,7,9,11,13,15].map(v =>
+        `<text x="${ORIGIN_X-8}" y="${ORIGIN_Y-v*DY+4}" text-anchor="end" font-size="10" font-family="Georgia,serif">${v}</text>`
+      ).join('');
+      const xTicks = [1,2,3,4,5,6].map(v =>
+        `<text x="${ORIGIN_X+v*DX}" y="${ORIGIN_Y+16}" text-anchor="middle" font-size="10" font-family="Georgia,serif">${v}</text>`
+      ).join('');
+      const gridLinesV = [1,2,3,4,5,6].map(v => `<line x1="${ORIGIN_X+v*DX}" y1="${ORIGIN_Y}" x2="${ORIGIN_X+v*DX}" y2="${ORIGIN_Y-15*DY}" stroke="#e0e0e0" stroke-width="0.5"/>`).join('');
+      const gridLinesH = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].map(v => `<line x1="${ORIGIN_X}" y1="${ORIGIN_Y-v*DY}" x2="${ORIGIN_X+6*DX}" y2="${ORIGIN_Y-v*DY}" stroke="#e0e0e0" stroke-width="0.5"/>`).join('');
+      return `
+        <svg class="tn-graph-select-svg" viewBox="0 0 320 290" xmlns="http://www.w3.org/2000/svg">
+          <text x="160" y="14" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold">${esc(title)}</text>
+          ${gridLinesV}${gridLinesH}
+          <line x1="${ORIGIN_X}" y1="${ORIGIN_Y-15*DY-5}" x2="${ORIGIN_X}" y2="${ORIGIN_Y}" stroke="#111" stroke-width="1"/>
+          <line x1="${ORIGIN_X}" y1="${ORIGIN_Y}" x2="${ORIGIN_X+6*DX+10}" y2="${ORIGIN_Y}" stroke="#111" stroke-width="1"/>
+          <path d="M ${ORIGIN_X-4} ${ORIGIN_Y-15*DY+5} L ${ORIGIN_X} ${ORIGIN_Y-15*DY-5} L ${ORIGIN_X+4} ${ORIGIN_Y-15*DY+5}" fill="#111"/>
+          <path d="M ${ORIGIN_X+6*DX+5} ${ORIGIN_Y-4} L ${ORIGIN_X+6*DX+15} ${ORIGIN_Y} L ${ORIGIN_X+6*DX+5} ${ORIGIN_Y+4}" fill="#111"/>
+          <text x="${ORIGIN_X+6*DX+22}" y="${ORIGIN_Y+4}" font-family="Georgia,serif" font-style="italic" font-size="14">${esc(xLabel)}</text>
+          <text x="${ORIGIN_X-4}" y="${ORIGIN_Y-15*DY-12}" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="14">${esc(yLabel)}</text>
+          <text x="${ORIGIN_X-14}" y="${ORIGIN_Y+14}" font-family="Georgia,serif" font-style="italic" font-size="12">O</text>
+          ${yTicks}${xTicks}
+          ${dots}
+          <text x="160" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="11">Number of Notebooks</text>
+        </svg>
+      `;
+    }
+
+    // ── Ray placement (AM43): pick a ray shape + click a position ───
+    function renderRayPlace(q) {
+      const ans = state.answers[q.q_number] || { rayType: null, position: null };
+      // 4 ray icons: closed-left, open-left, open-right, closed-right
+      const rayIcons = [
+        { id: 'CL', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M55 10 l-6 -3 l0 6z" fill="#111"/><circle cx="8" cy="10" r="4" fill="#111"/></svg>', desc: 'closed-left (ray goes right)' },
+        { id: 'OL', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M55 10 l-6 -3 l0 6z" fill="#111"/><circle cx="8" cy="10" r="4" fill="#fff" stroke="#111" stroke-width="1.6"/></svg>', desc: 'open-left (ray goes right)' },
+        { id: 'OR', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M8 10 l6 -3 l0 6z" fill="#111"/><circle cx="55" cy="10" r="4" fill="#fff" stroke="#111" stroke-width="1.6"/></svg>', desc: 'open-right (ray goes left)' },
+        { id: 'CR', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M8 10 l6 -3 l0 6z" fill="#111"/><circle cx="55" cy="10" r="4" fill="#111"/></svg>', desc: 'closed-right (ray goes left)' },
+      ];
+      const rayChoices = rayIcons.map(r => {
+        const cls = 'tn-ray-choice' + (ans.rayType === r.id ? ' selected' : '');
+        return `<div class="${cls}" data-ray="${r.id}" title="${r.desc}">${r.svg}</div>`;
+      }).join('');
+      // Number line clickable from -5 to 5
+      const LEFT = 40, RIGHT = 420, Y = 30;
+      const step = (RIGHT - LEFT) / 10;
+      const ticks = [];
+      for (let v = -5; v <= 5; v++) {
+        const x = LEFT + (v + 5) * step;
+        ticks.push(`<line x1="${x}" y1="${Y-6}" x2="${x}" y2="${Y+6}" stroke="#111" stroke-width="1.2"/>`);
+        ticks.push(`<text x="${x}" y="${Y-12}" text-anchor="middle" font-family="Georgia,serif" font-size="12">${v}</text>`);
+      }
+      // Render the placed ray
+      let overlay = '';
+      if (ans.rayType && ans.position !== null && ans.position !== undefined) {
+        const px = LEFT + (ans.position + 5) * step;
+        const goesRight = ans.rayType === 'CL' || ans.rayType === 'OL';
+        const rayEnd = goesRight ? RIGHT + 10 : LEFT - 10;
+        const closed = ans.rayType === 'CL' || ans.rayType === 'CR';
+        const arrowAt = goesRight ? rayEnd : rayEnd;
+        overlay = `
+          <line x1="${px}" y1="${Y}" x2="${goesRight ? RIGHT - 5 : LEFT + 5}" y2="${Y}" stroke="#d93025" stroke-width="3"/>
+          <path d="${goesRight ? `M ${RIGHT-5} ${Y} l -6 -4 l 0 8 z` : `M ${LEFT+5} ${Y} l 6 -4 l 0 8 z`}" fill="#d93025"/>
+          <circle cx="${px}" cy="${Y}" r="6" fill="${closed ? '#d93025' : '#fff'}" stroke="#d93025" stroke-width="2"/>
+        `;
+      }
+      return `
+        <div style="margin-top:14px;">
+          <div class="tn-ray-options">${rayChoices}</div>
+          <svg class="tn-numberline-clickable" viewBox="0 0 460 60" xmlns="http://www.w3.org/2000/svg" data-role="numberline" data-left="${LEFT}" data-step="${step}">
+            <line x1="${LEFT-15}" y1="${Y}" x2="${RIGHT+15}" y2="${Y}" stroke="#111" stroke-width="1.4"/>
+            <path d="M ${LEFT-20} ${Y} l 12 -4 l 0 8 z" fill="#111"/>
+            <path d="M ${RIGHT+20} ${Y} l -12 -4 l 0 8 z" fill="#111"/>
+            ${ticks.join('')}
+            <rect x="${LEFT-5}" y="${Y-15}" width="${RIGHT-LEFT+10}" height="30" fill="transparent" style="cursor:crosshair"/>
+            ${overlay}
+          </svg>
+        </div>
+      `;
+    }
+
+    function wireInputs(q) {
+      document.querySelectorAll('.tn-option').forEach((el) => {
+        el.addEventListener('click', () => {
+          const letter = el.dataset.letter;
+          if (state.crossoutMode) {
+            state.crossedOut[q.q_number] = state.crossedOut[q.q_number] || {};
+            state.crossedOut[q.q_number][letter] = !state.crossedOut[q.q_number][letter];
+            render();
+            return;
+          }
+          // Cursor mode: crossed-out options are unclickable
+          const crossed = state.crossedOut[q.q_number] || {};
+          if (crossed[letter]) return;
+
+          if (q.question_type === 'mc') {
+            state.answers[q.q_number] = (state.answers[q.q_number] === letter) ? null : letter;
+          } else if (q.question_type === 'mc_multi') {
+            const arr = state.answers[q.q_number] || [];
+            const idx = arr.indexOf(letter);
+            if (idx >= 0) arr.splice(idx, 1);
+            else arr.push(letter);
+            state.answers[q.q_number] = arr;
+          }
+          render();
+        });
+      });
+      const grid = document.getElementById('tn-grid');
+      if (grid) {
+        grid.addEventListener('input', (e) => {
+          state.answers[q.q_number] = e.target.value;
+        });
+      }
+
+      // ── Keypad (grid_keypad) ─────────────────────────────
+      document.querySelectorAll('[data-role="keypad"] button[data-kp]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.kp;
+          let cur = state.answers[q.q_number] || '';
+          if (key === 'BKSP')       cur = cur.slice(0, -1);
+          else if (key === 'CLEAR') cur = '';
+          else if (key === 'FRAC')  cur += '/';
+          else if (key === 'MIXED') cur += ' ';
+          else if (['ARR_L','ARR_R','UNDO','REDO'].includes(key)) return; // decorative
+          else cur += key;
+          state.answers[q.q_number] = cur;
+          document.getElementById('tn-grid-display').textContent = cur;
+        });
+      });
+
+      // ── Drag-drop (drag_drop) ────────────────────────────
+      if (q.question_type === 'drag_drop') {
+        document.querySelectorAll('.tn-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.value);
+            e.dataTransfer.effectAllowed = 'copy';
+          });
+          // Also support click-to-select for touch/pen; user clicks a chip then clicks a box
+          chip.addEventListener('click', () => {
+            state._selectedChip = chip.dataset.value;
+            document.querySelectorAll('.tn-chip').forEach(c => c.style.outline = '');
+            chip.style.outline = '2px solid #ff9900';
+          });
+        });
+        document.querySelectorAll('.tn-dropbox').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const v = e.dataTransfer.getData('text/plain');
+            const lbl = box.dataset.box;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = v;
+            render();
+          });
+          box.addEventListener('click', () => {
+            if (state._selectedChip) {
+              const lbl = box.dataset.box;
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][lbl] = state._selectedChip;
+              state._selectedChip = null;
+              render();
+            } else {
+              // clear on click if no chip selected
+              const lbl = box.dataset.box;
+              if (state.answers[q.q_number] && state.answers[q.q_number][lbl]) {
+                delete state.answers[q.q_number][lbl];
+                render();
+              }
+            }
+          });
+        });
+      }
+
+      // ── Graph select (graph_select) ──────────────────────
+      if (q.question_type === 'graph_select') {
+        document.querySelectorAll('.tn-graph-dot').forEach(dot => {
+          dot.addEventListener('click', () => {
+            const id = dot.getAttribute('data-id');
+            const arr = state.answers[q.q_number] || [];
+            const idx = arr.indexOf(id);
+            if (idx >= 0) arr.splice(idx, 1);
+            else arr.push(id);
+            state.answers[q.q_number] = arr;
+            render();
+          });
+        });
+      }
+
+      // ── Ray placement (ray_place) ────────────────────────
+      if (q.question_type === 'ray_place') {
+        document.querySelectorAll('.tn-ray-choice').forEach(rc => {
+          rc.addEventListener('click', () => {
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number].rayType = rc.dataset.ray;
+            render();
+          });
+        });
+        const nl = document.querySelector('[data-role="numberline"]');
+        if (nl) {
+          nl.addEventListener('click', (e) => {
+            if (!state.answers[q.q_number] || !state.answers[q.q_number].rayType) return;
+            const rect = nl.getBoundingClientRect();
+            const viewBox = nl.viewBox.baseVal;
+            const scaleX = viewBox.width / rect.width;
+            const svgX = (e.clientX - rect.left) * scaleX;
+            const LEFT = parseFloat(nl.dataset.left);
+            const step = parseFloat(nl.dataset.step);
+            const pos = Math.round((svgX - LEFT) / step) - 5;
+            const clamped = Math.max(-5, Math.min(5, pos));
+            state.answers[q.q_number].position = clamped;
+            render();
+          });
+        }
+      }
+    }
+
+    boot();
+  </script>
+</body>
+</html>

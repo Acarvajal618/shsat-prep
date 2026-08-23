@@ -1,0 +1,33 @@
+{
+  "_schema": {
+    "description": "NYC DOE SHSAT Practice Test B — Math section (50 questions). Kept fully separate from the type_X_Y bank. Mirrors the Exam A schema.",
+    "id_format": "BM<NN>  (variants later: BM<NN>.1, BM<NN>.2, ...)",
+    "math_notation": "LaTeX math in \\( ... \\) inline and \\[ ... \\] display; KaTeX renders it in the browser.",
+    "question_types": {
+      "mc":            "Multiple choice A-D, one answer",
+      "mc_multi":      "Multiple choice A-F, N correct answers",
+      "grid_in":       "Numeric text input",
+      "grid_keypad":   "Numeric text input with visual keypad + fraction/mixed buttons",
+      "dropdown":      "Inline dropdowns embedded in a walkthrough",
+      "drag_drop":     "Chips dragged into boxes embedded in the prose",
+      "graph_select":  "Clickable points on a coordinate grid",
+      "ray_place":     "Pick a ray shape and click a number-line position"
+    },
+    "fields": {
+      "id":                 "BM01..BM50",
+      "origin":             "DOE_EXAM_B",
+      "q_number":           "1..50",
+      "question_type":      "one of the types above",
+      "question":           "prompt text (LaTeX math in \\(...\\))",
+      "options":            "for mc/mc_multi",
+      "correct":            "letter or array",
+      "grid_answer":        "for grid_in / grid_keypad",
+      "figure_svg":         "optional inline SVG",
+      "exhibit_image_path": "optional path to a figure image",
+      "source_screenshot":  "BM<NN>.png in Problems/EXAM_B/",
+      "solution":           "{ letter, exhibit_text }",
+      "transcription_status": "empty | transcribed | verified"
+    }
+  },
+  "questions": []
+}
