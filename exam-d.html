@@ -574,9 +574,13 @@
       const html = [];
       let inList = false;
       for (const line of lines) {
-        if (line.trim().startsWith('• ')) {
+        const trimmed = line.trim();
+        if (trimmed.startsWith('<')) {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push(line);
+        } else if (trimmed.startsWith('• ') || trimmed.startsWith('- ')) {
           if (!inList) { html.push('<ul style="margin:8px 0 0 20px;">'); inList = true; }
-          html.push('<li>' + esc(line.trim().slice(2)) + '</li>');
+          html.push('<li>' + esc(trimmed.slice(2)).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>') + '</li>');
         } else {
           if (inList) { html.push('</ul>'); inList = false; }
           const bolded = esc(line).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
