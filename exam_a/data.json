@@ -655,6 +655,165 @@
       "transcription_status": "transcribed_needs_doe_solution"
     },
     {
+      "id": "AM41",
+      "origin": "DOE_EXAM_A",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "The bar graph above shows the number of schools per city for five small cities. Cities \\(M\\) and \\(N\\) each have \\(500\\) students per school. City \\(P\\) has \\(400\\) students per school. Cities \\(Q\\) and \\(R\\) each have \\(700\\) students per school. Which of the five cities has the **greatest** number of students?\n\n(Bar graph: M=8 schools, N=5, P=9, Q=6, R=4.)",
+      "options": { "A": "City \\(M\\)", "B": "City \\(P\\)", "C": "City \\(Q\\)", "D": "City \\(R\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_A/AM41.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\nStudents per city:\n\n\\(M\\): \\(8 \\times 500 = 4{,}000\\)\n\\(N\\): \\(5 \\times 500 = 2{,}500\\)\n\\(P\\): \\(9 \\times 400 = 3{,}600\\)\n\\(Q\\): \\(6 \\times 700 = 4{,}200\\)\n\\(R\\): \\(4 \\times 700 = 2{,}800\\)\n\nCity \\(Q\\) has the greatest number of students."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM42",
+      "origin": "DOE_EXAM_A",
+      "q_number": 42,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{10}{13} = 0.\\overline{769230}\\]\n\nIn the infinitely repeating decimal above, \\(7\\) is the first digit in the repeating pattern. What is the \\(391\\)st digit?",
+      "options": { "A": "\\(0\\)", "B": "\\(3\\)", "C": "\\(6\\)", "D": "\\(7\\)" },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_A/AM42.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nThe repeating pattern has \\(6\\) digits: \\(7, 6, 9, 2, 3, 0\\).\n\nCompute \\(391 \\bmod 6\\): \\(391 = 65 \\times 6 + 1\\), so \\(391 \\bmod 6 = 1\\).\n\nThe \\(391\\)st digit corresponds to the \\(1\\)st digit of the pattern, which is \\(7\\)."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM43",
+      "origin": "DOE_EXAM_A",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "Graph the solution set for the inequality \\(-3 \\le 2x - 5\\).\n\nSelect a ray. Then move the endpoint of the ray to the correct position on the number line.",
+      "options": {
+        "A": "Closed dot at \\(1\\), ray going **left**",
+        "B": "Open dot at \\(1\\), ray going **left**",
+        "C": "Open dot at \\(1\\), ray going **right**",
+        "D": "Closed dot at \\(1\\), ray going **right**"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_A/AM43.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nSolve the inequality:\n\n\\[-3 \\le 2x - 5\\]\n\\[2 \\le 2x\\]\n\\[1 \\le x\\]\n\nSo \\(x \\ge 1\\): closed dot at \\(1\\) (including \\(1\\)) with the ray extending to the right."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM44",
+      "origin": "DOE_EXAM_A",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "A sports store has a container of handballs: \\(4\\) blue, \\(5\\) red, \\(8\\) yellow, \\(9\\) white, and \\(11\\) green. If one ball is picked from the container at random, what is the probability that it will be yellow?",
+      "options": { "A": "\\(\\dfrac{1}{37}\\)", "B": "\\(\\dfrac{1}{8}\\)", "C": "\\(\\dfrac{8}{37}\\)", "D": "\\(\\dfrac{8}{29}\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_A/AM44.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\nTotal balls: \\(4 + 5 + 8 + 9 + 11 = 37\\).\n\nYellow balls: \\(8\\).\n\nProbability: \\(\\dfrac{8}{37}\\)."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM45",
+      "origin": "DOE_EXAM_A",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "Each week, Leon has fixed expenses of \\$\\(1{,}250\\) at his furniture shop. It costs him \\$\\(150\\) to make a chair in his shop, and he sells each chair for \\$\\(275\\). What is Leon's **profit** if he makes and sells \\(25\\) chairs in \\(1\\) week?",
+      "options": { "A": "\\$\\(1{,}875\\)", "B": "\\$\\(2{,}500\\)", "C": "\\$\\(3{,}125\\)", "D": "\\$\\(4{,}375\\)" },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_A/AM45.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) [DOE solution not captured — computed below]\n\nRevenue: \\(25 \\times \\$275 = \\$6{,}875\\).\nVariable cost: \\(25 \\times \\$150 = \\$3{,}750\\).\nFixed cost: \\$\\(1{,}250\\).\n\nProfit = Revenue − Variable − Fixed = \\(\\$6{,}875 − \\$3{,}750 − \\$1{,}250 = \\$1{,}875\\)."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM46",
+      "origin": "DOE_EXAM_A",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "Using the approximation \\(2.54\\) centimeters \\(= 1\\) inch, how many centimeters are in \\(4\\) feet \\(7\\) inches?",
+      "options": { "A": "\\(21.65\\)", "B": "\\(119.38\\)", "C": "\\(121.92\\)", "D": "\\(139.70\\)" },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_A/AM46.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) [DOE solution not captured — computed below]\n\nConvert \\(4\\) feet \\(7\\) inches to inches:\n\n\\(4 \\times 12 + 7 = 55\\) inches.\n\nConvert to centimeters:\n\n\\(55 \\times 2.54 = 139.70\\) cm."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM47",
+      "origin": "DOE_EXAM_A",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "On the number line above, \\(JK = 3\\tfrac{1}{2}\\), \\(JM = 9\\tfrac{3}{4}\\), and \\(LM = 1\\tfrac{1}{8}\\). What is the position of point \\(L\\)?\n\n(Point \\(K\\) is at position \\(\\tfrac{3}{8}\\) on the number line.)",
+      "options": { "A": "\\(5\\tfrac{1}{8}\\)", "B": "\\(5\\tfrac{1}{4}\\)", "C": "\\(5\\tfrac{1}{2}\\)", "D": "\\(6\\tfrac{1}{4}\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_A/AM47.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\n\\(K = \\tfrac{3}{8} = 0.375\\).\n\n\\(J = K - JK = 0.375 - 3.5 = -3.125\\).\n\n\\(M = J + JM = -3.125 + 9.75 = 6.625\\).\n\n\\(L = M - LM = 6.625 - 1.125 = 5.5 = 5\\tfrac{1}{2}\\)."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM48",
+      "origin": "DOE_EXAM_A",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "If \\(4x - 3y = 12\\), what is \\(x\\) in terms of \\(y\\)?",
+      "options": {
+        "A": "\\(x = \\tfrac{3}{4}y + 12\\)",
+        "B": "\\(x = -\\tfrac{3}{4}y + 12\\)",
+        "C": "\\(x = \\tfrac{3}{4}y + 3\\)",
+        "D": "\\(x = -\\tfrac{3}{4}y + 3\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_A/AM48.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) [DOE solution not captured — computed below]\n\n\\[4x - 3y = 12\\]\n\\[4x = 3y + 12\\]\n\\[x = \\dfrac{3y + 12}{4} = \\dfrac{3}{4}y + 3\\]"
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM49",
+      "origin": "DOE_EXAM_A",
+      "q_number": 49,
+      "question_type": "mc",
+      "question": "There are \\(20\\) students in a class. The frequency table above shows the number of students in this class who ate \\(0, 1, 2, 3, 4,\\) or \\(5\\) servings of fruits and vegetables yesterday. What is the **mean** number of servings of fruits and vegetables eaten yesterday per student in this class?\n\n(Frequencies: \\(0\\) servings → \\(5\\) students, \\(1\\) → \\(7\\), \\(2\\) → \\(3\\), \\(3\\) → \\(4\\), \\(4\\) → \\(0\\), \\(5\\) → \\(1\\).)",
+      "options": { "A": "\\(1\\tfrac{1}{2}\\)", "B": "\\(3\\)", "C": "\\(3\\tfrac{1}{3}\\)", "D": "\\(4\\)" },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_A/AM49.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) [DOE solution not captured — computed below]\n\nTotal servings: \\(0(5) + 1(7) + 2(3) + 3(4) + 4(0) + 5(1) = 0 + 7 + 6 + 12 + 0 + 5 = 30\\).\n\nTotal students: \\(20\\).\n\nMean = \\(\\dfrac{30}{20} = 1\\tfrac{1}{2}\\)."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM50",
+      "origin": "DOE_EXAM_A",
+      "q_number": 50,
+      "question_type": "grid_in",
+      "question": "Let \\(b = 3\\), \\(c = 4\\), and \\(d = 5\\). Determine the value of \\(\\dfrac{c/d}{c/b} + \\dfrac{c}{d}\\).\n\nEnter your fractional answer in the space provided. Enter only your fraction.",
+      "grid_answer": "7/5",
+      "source_screenshot": "Problems/EXAM_A/AM50.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(\\left(\\tfrac{7}{5}\\right)\\) [DOE solution not captured — computed below]\n\n\\[\\dfrac{c/d}{c/b} = \\dfrac{c}{d} \\cdot \\dfrac{b}{c} = \\dfrac{b}{d}\\]\n\nSo the expression becomes:\n\n\\[\\dfrac{b}{d} + \\dfrac{c}{d} = \\dfrac{b + c}{d} = \\dfrac{3 + 4}{5} = \\dfrac{7}{5}\\]"
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
       "id": "AM26",
       "origin": "DOE_EXAM_A",
       "q_number": 26,
