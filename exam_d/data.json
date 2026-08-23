@@ -776,6 +776,122 @@
         "exhibit_text": "(D) Since each can is worth \\(5\\) points, the total number of points earned from all the cans, \\(x\\), is \\(5x\\). The team started with \\(53\\) points. That is a constant value and doesn't change. So the total number of points the team will earn is \\(53 + 5x\\). The team wants to earn at least (\\(\\ge\\)) \\(100\\) points, so they need \\(53 + 5x \\ge 100\\) total points."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM41",
+      "origin": "DOE_EXAM_D",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "The distance an eagle flies is proportional to the time the eagle spends flying. An eagle flies \\(90\\) miles in \\(3\\) hours. What is the constant of proportionality for this relationship?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(30\\)",
+        "C": "\\(60\\)",
+        "D": "\\(90\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM41.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) The constant of proportionality is the ratio of \\(y\\) (\\(90\\)) to \\(x\\) (\\(3\\)). \\(90 \\div 3 = 30\\). So the constant of proportionality is \\(30\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM42",
+      "origin": "DOE_EXAM_D",
+      "q_number": 42,
+      "question_type": "mc",
+      "question": "A student reads \\(\\dfrac{1}{12}\\) of a book in \\(\\dfrac{1}{3}\\) hour. What fraction of the book can the student read in \\(1\\) hour?",
+      "options": {
+        "A": "\\(\\dfrac{1}{36}\\)",
+        "B": "\\(\\dfrac{1}{4}\\)",
+        "C": "\\(\\dfrac{5}{12}\\)",
+        "D": "\\(\\dfrac{12}{3}\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM42.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) To find the fraction of the book the student can read in \\(1\\) hour, find the unit rate per hour. First, set up the ratio.\n\n\\[\\dfrac{\\dfrac{1}{12} \\text{ book}}{\\dfrac{1}{3} \\text{ hour}}\\]\n\nThen use division to find the unit rate.\n\n\\[\\dfrac{\\dfrac{1}{12}}{\\dfrac{1}{3}} = \\dfrac{1}{12} \\div \\dfrac{1}{3} = \\dfrac{1}{12} \\times \\dfrac{3}{1} = \\dfrac{3}{12} = \\dfrac{1}{4}\\]\n\nAnother way to solve the problem is to set up the ratio and then multiply both the numerator and denominator by \\(3\\), since \\(\\dfrac{1}{3}\\) hour times \\(3\\) equals \\(1\\) hour.\n\n\\[\\dfrac{3 \\times \\dfrac{1}{12} \\text{ book}}{3 \\times \\dfrac{1}{3} \\text{ hour}} = \\dfrac{\\dfrac{1}{4} \\text{ book}}{1 \\text{ hour}}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM43",
+      "origin": "DOE_EXAM_D",
+      "q_number": 43,
+      "question_type": "dropdown",
+      "question": "Two student clubs are selling snacks as part of a fundraiser. The Art Club sells a \\(24\\)-pack of granola bars for $\\(12.00\\). The Science Club sells a \\(10\\)-pack of granola bars for $\\(6.50\\). To the nearest cent, what is the difference in cost per bar between the two clubs?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nThe cost for the Art Club's bar is [[dd1]] per bar.\n\nThe cost for the Science Club's bar is [[dd2]] per bar.\n\nThe difference between the cost of the bars is [[dd3]].",
+      "dropdowns": {
+        "dd1": {
+          "options": [
+            "$0.50",
+            "$0.65",
+            "$1.00",
+            "$2.00"
+          ],
+          "correct": "$0.50"
+        },
+        "dd2": {
+          "options": [
+            "$0.50",
+            "$0.65",
+            "$1.30",
+            "$1.50"
+          ],
+          "correct": "$0.65"
+        },
+        "dd3": {
+          "options": [
+            "$0.05",
+            "$0.15",
+            "$0.20",
+            "$0.50"
+          ],
+          "correct": "$0.15"
+        }
+      },
+      "source_screenshot": "Problems/EXAM_D/DM43.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "($\\(0.65\\); $\\(0.50\\); $\\(0.15\\))\n\nTo determine the cost per bar from the Art Club, divide the total cost by the total number of bars:\n\n\\[\\dfrac{\\$12.00}{24} = \\$0.50 \\text{ per bar}\\]\n\nTo determine the cost per bar from the Science Club, divide the total cost by the total number of bars:\n\n\\[\\dfrac{\\$6.50}{10} = \\$0.65 \\text{ per bar}\\]\n\nTo find the difference in price per bar, subtract the cost per bar for the Art Club from the cost per bar for the Science Club:\n\n\\[\\$0.65 \\text{ per bar} - \\$0.50 \\text{ per bar} = \\$0.15 \\text{ per bar}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM44",
+      "origin": "DOE_EXAM_D",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "A bakery charges $\\(1.25\\) for each cupcake and $\\(2.50\\) for a serving tray. The equation describes \\(p\\), the price of \\(c\\) cupcakes and a serving tray, **not** including tax.\n\n\\[p = 2.50 + 1.25c\\]\n\nIf Samantha bought some cupcakes and a serving tray for a total of $\\(22.50\\), **not** including tax, how many cupcakes did she buy?",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(9\\)",
+        "C": "\\(16\\)",
+        "D": "\\(18\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM44.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Using the specified equation \\(p = 2.50 + 1.25c\\), determine the number of cupcakes Samantha bought by substituting the total paid ($\\(22.50\\)) for \\(p\\), and solve the equation for the value of \\(c\\), the number of cupcakes bought.\n\n\\[22.50 = 2.50 + 1.25c\\]\n\\[22.50 - 2.50 = 1.25c\\]\n\\[20.00 \\div 1.25 = c\\]\n\\[16 = c\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM45",
+      "origin": "DOE_EXAM_D",
+      "q_number": 45,
+      "question_type": "grid_in",
+      "question": "Marcus and Isla are saving money to buy concert tickets.\n\n- They decide to save the same amount each week.\n- They already have $\\(8\\) saved.\n- After \\(3\\) weeks, the two have $\\(26\\) saved in total.\n\nHow much money, in dollars, is being saved by Marcus and Isla each week?\n\nEnter your answer in the space.",
+      "grid_answer": "6",
+      "source_screenshot": "Problems/EXAM_D/DM45.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(6\\))\n\nDefine the variable:\n\nLet \\(w\\) represent the amount of money Marcus and Isla save per week.\n\nConstruct an equation:\n\nStart with $\\(8\\).\n\nMarcus and Isla save \\(w\\) each week for \\(3\\) weeks, which can be expressed as \\(3 \\cdot w\\) or \\(3w\\).\n\nThe total amount saved can be represented by the expression \\(8 + 3w\\).\n\nAfter \\(3\\) weeks, Marcus and Isla have $\\(26\\). This can be represented by the equation \\(8 + 3w = 26\\).\n\nSolve for \\(w\\):\n\n\\[8 + 3w = 26\\]\n\\[3w = 18\\]\n\\[w = 6\\]"
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
