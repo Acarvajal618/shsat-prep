@@ -38,32 +38,31 @@
     .tn-nav-arrows { display: flex; gap: 2px; }
     .tn-btn {
       background: #ffffff;
-      border: 1px solid #b8b8b8;
-      border-radius: 2px;
-      width: 42px; height: 32px;
+      border: 1px solid #b3b3b3;
+      border-radius: 4px;
+      width: 46px; height: 36px;
       display: inline-flex; align-items: center; justify-content: center;
-      cursor: pointer; font-size: 15px; padding: 0;
+      cursor: pointer; font-size: 16px; padding: 0;
       color: #333;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.04);
       transition: background 0.08s, border-color 0.08s;
     }
-    .tn-btn:hover:not(:disabled) { background: #ebebeb; }
+    .tn-btn:hover:not(:disabled) { background: #f0f0f0; border-color: #909090; }
     .tn-btn.next {
-      background: var(--tn-accent-blue-btn);
+      background: #4a90d9;
       color: #fff;
-      border-color: var(--tn-accent-blue-btn);
+      border-color: #3878be;
     }
-    .tn-btn.next:hover { background: #3d7fc7; }
-    .tn-btn:disabled { opacity: 0.35; cursor: default; background: #fff; }
+    .tn-btn.next:hover { background: #3878be; border-color: #2f6aa8; }
+    .tn-btn:disabled { opacity: 0.4; cursor: default; background: #fff; }
     .tn-btn.active {
-      background: #d6d6d6;
+      background: #d0d0d0;
       border-color: #666;
       color: #111;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
     }
 
-    .tn-tools { display: flex; gap: 0; margin-left: 8px; }
-    .tn-tools .tn-btn { border-radius: 0; margin-left: -1px; }
-    .tn-tools .tn-btn:first-child { border-radius: 2px 0 0 2px; margin-left: 0; }
-    .tn-tools .tn-btn:last-child { border-radius: 0 2px 2px 0; }
+    .tn-tools { display: flex; gap: 4px; margin-left: 6px; padding-left: 10px; border-left: 1px solid #d5d5d5; }
 
     .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #333; font-size: 13px; }
     .tn-user .tn-avatar {
@@ -245,43 +244,35 @@
     .tn-btn-solution:hover { background: #ebebeb; }
     .tn-btn-solution:disabled { opacity: 0.5; cursor: default; }
 
-    /* Solution modal (mimics TestNav Exhibits panel) */
-    .tn-modal-backdrop {
-      position: fixed; inset: 0;
-      background: rgba(0,0,0,0.35);
-      z-index: 1000;
-      display: none;
-      align-items: flex-start; justify-content: center;
-      padding-top: 60px;
-    }
-    .tn-modal-backdrop.open { display: flex; }
-    .tn-modal {
-      background: #fff;
+    /* Inline exhibit panel (opens below the card, mimics TestNav Exhibits) */
+    .tn-exhibit-panel {
+      margin-top: 18px;
+      background: #ffffff;
       border: 1px solid #cfcfcf;
       border-radius: 3px;
-      width: min(720px, 92%);
-      max-height: 80vh;
-      display: flex; flex-direction: column;
-      box-shadow: 0 6px 24px rgba(0,0,0,0.16);
+      display: none;
+      max-width: 100%;
     }
-    .tn-modal-header {
+    .tn-exhibit-panel.open { display: block; }
+    .tn-exhibit-header {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 10px 14px;
-      background: #ececec;
+      padding: 8px 14px;
+      background: #eaeaea;
       border-bottom: 1px solid #cfcfcf;
       font-size: 14px; color: #333;
     }
-    .tn-modal-close {
+    .tn-exhibit-close {
       background: transparent; border: none; cursor: pointer;
-      font-size: 14px; color: #333; padding: 4px 8px;
+      font-size: 15px; color: #333; padding: 2px 8px;
+      font-weight: 600;
     }
-    .tn-modal-close:hover { color: #000; }
-    .tn-modal-tabs {
+    .tn-exhibit-close:hover { color: #000; }
+    .tn-exhibit-tabs {
       display: flex; padding: 0 14px;
       background: #fff;
       border-bottom: 1px solid #cfcfcf;
     }
-    .tn-modal-tab {
+    .tn-exhibit-tab {
       padding: 8px 14px;
       font-size: 13px;
       color: #333;
@@ -290,17 +281,17 @@
       border-bottom: none;
       margin-bottom: -1px;
     }
-    .tn-modal-tab.active {
+    .tn-exhibit-tab.active {
       border-color: #cfcfcf;
       background: #fff;
     }
-    .tn-modal-body {
-      padding: 20px 22px;
+    .tn-exhibit-body {
+      padding: 22px 24px;
       font-size: 14px;
-      line-height: 1.55;
+      line-height: 1.6;
       color: #222;
-      overflow-y: auto;
       white-space: pre-line;
+      font-family: Georgia, 'Times New Roman', serif;
     }
 
     @media (max-width: 700px) {
@@ -351,19 +342,17 @@
         <button class="tn-btn-solution" id="tn-show-solution" disabled>Solution</button>
       </div>
     </div>
-  </div>
 
-  <!-- Solution modal (TestNav Exhibits lookalike) -->
-  <div class="tn-modal-backdrop" id="tn-solution-modal">
-    <div class="tn-modal">
-      <div class="tn-modal-header">
+    <!-- Inline exhibit/solution panel (opens below the card) -->
+    <div class="tn-exhibit-panel" id="tn-exhibit-panel">
+      <div class="tn-exhibit-header">
         <span>Exhibits</span>
-        <button class="tn-modal-close" id="tn-close-modal">X</button>
+        <button class="tn-exhibit-close" id="tn-close-exhibit">X</button>
       </div>
-      <div class="tn-modal-tabs">
-        <div class="tn-modal-tab active">Exhibit 1</div>
+      <div class="tn-exhibit-tabs">
+        <div class="tn-exhibit-tab active">Exhibit 1</div>
       </div>
-      <div class="tn-modal-body" id="tn-modal-body"></div>
+      <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
     </div>
   </div>
 
@@ -407,7 +396,7 @@
     window.addEventListener('hashchange', () => {
       routeFromHash();
       render();
-      closeModal();
+      closeExhibit();
     });
 
     function currentQ() { return state.questions[state.cur] || null; }
@@ -423,16 +412,13 @@
       document.getElementById('tn-next').onclick = () => go(+1);
       document.getElementById('tn-cursor').onclick = () => setCrossout(false);
       document.getElementById('tn-crossout').onclick = () => setCrossout(!state.crossoutMode);
-      document.getElementById('tn-show-solution').onclick = openModal;
-      document.getElementById('tn-close-modal').onclick = closeModal;
-      document.getElementById('tn-solution-modal').addEventListener('click', (e) => {
-        if (e.target.id === 'tn-solution-modal') closeModal();
-      });
+      document.getElementById('tn-show-solution').onclick = toggleExhibit;
+      document.getElementById('tn-close-exhibit').onclick = closeExhibit;
       document.addEventListener('keydown', (e) => {
         if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
         if (e.key === 'ArrowRight') go(+1);
         if (e.key === 'ArrowLeft') go(-1);
-        if (e.key === 'Escape') closeModal();
+        if (e.key === 'Escape') closeExhibit();
       });
       setCrossout(false);
     }
@@ -450,14 +436,24 @@
       location.hash = 'Q' + state.questions[next].q_number;
     }
 
-    function openModal() {
+    function toggleExhibit() {
+      const panel = document.getElementById('tn-exhibit-panel');
+      if (panel.classList.contains('open')) {
+        closeExhibit();
+      } else {
+        openExhibit();
+      }
+    }
+    function openExhibit() {
       const q = currentQ();
       if (!q || !q.solution || !q.solution.exhibit_text) return;
-      document.getElementById('tn-modal-body').textContent = q.solution.exhibit_text;
-      document.getElementById('tn-solution-modal').classList.add('open');
+      document.getElementById('tn-exhibit-body').textContent = q.solution.exhibit_text;
+      const panel = document.getElementById('tn-exhibit-panel');
+      panel.classList.add('open');
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
-    function closeModal() {
-      document.getElementById('tn-solution-modal').classList.remove('open');
+    function closeExhibit() {
+      document.getElementById('tn-exhibit-panel').classList.remove('open');
     }
 
     function esc(s) {
