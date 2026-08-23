@@ -427,6 +427,104 @@
       "transcription_status": "transcribed"
     },
     {
+      "id": "AM27",
+      "origin": "DOE_EXAM_A",
+      "q_number": 27,
+      "question_type": "dropdown",
+      "question": "Complete the steps to show one way to solve the equation \\(24 = -0.5(x + 8)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used. (Choices: \\(-56\\), \\(-40\\), \\(-4\\), \\(4\\), \\(20\\), \\(28\\), \\(40\\), \\(56\\).)\n\n\\(24 = -0.5(x + 8)\\)\n\\(24 = -0.5x +\\) [DROPDOWN_1]\n[DROPDOWN_2] \\( = -0.5x\\)\n[DROPDOWN_3] \\( = x\\)",
+      "dropdowns": [
+        { "label": "DROPDOWN_1", "choices": ["-56","-40","-4","4","20","28","40","56"], "answer_index": 2 },
+        { "label": "DROPDOWN_2", "choices": ["-56","-40","-4","4","20","28","40","56"], "answer_index": 5 },
+        { "label": "DROPDOWN_3", "choices": ["-56","-40","-4","4","20","28","40","56"], "answer_index": 0 }
+      ],
+      "source_screenshot": "Problems/EXAM_A/AM27.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "Solution:\n\nAnswer for second equation: \\(-4\\)\nAnswer for third equation: \\(28\\)\nAnswer for fourth equation: \\(-56\\)\n\n\\(24 = -0.5(x + 8)\\)\n\nDistribute the \\(-0.5\\) on the right side of the equation: \\(24 = -0.5x - 4\\).\n\nAdd \\(4\\) to both sides of the equation to eliminate the \\(-4\\) on the right side: \\(28 = -0.5x\\).\n\nDivide both sides by \\(-0.5\\): \\(-56 = x\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM28",
+      "origin": "DOE_EXAM_A",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "\\[2\\tfrac{1}{5} + 3\\tfrac{3}{10} + 4\\tfrac{2}{5} + 5\\tfrac{1}{2}\\]\n\nWhat is the value of the expression shown above?",
+      "options": {
+        "A": "\\(14\\tfrac{7}{20}\\)",
+        "B": "\\(14\\tfrac{2}{5}\\)",
+        "C": "\\(15\\tfrac{7}{20}\\)",
+        "D": "\\(15\\tfrac{2}{5}\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_A/AM28.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) \\(2\\tfrac{1}{5} + 3\\tfrac{3}{10} + 4\\tfrac{2}{5} + 5\\tfrac{1}{2}\\)\n\nConvert all the fractions to a common denominator (\\(10\\)):\n\n\\[2\\tfrac{2}{10} + 3\\tfrac{3}{10} + 4\\tfrac{4}{10} + 5\\tfrac{5}{10}\\]\n\n\\[= (2 + 3 + 4 + 5) + \\left(\\dfrac{2+3+4+5}{10}\\right)\\]\n\n\\[= 14 + 1\\tfrac{4}{10} = 15\\tfrac{2}{5}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM29",
+      "origin": "DOE_EXAM_A",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "There are \\(6\\) different cookies on a plate. Aiden will choose \\(2\\) of these cookies to pack in his lunch. How many different pairs of \\(2\\) cookies can he choose from the \\(6\\)?",
+      "options": { "A": "\\(12\\)", "B": "\\(15\\)", "C": "\\(30\\)", "D": "\\(36\\)" },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_A/AM29.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Create a list of the possible pairs. Let the cookies be named \\(A\\), \\(B\\), \\(C\\), \\(D\\), \\(E\\), and \\(F\\).\n\nAB, AC, AD, AE, AF\nBC, BD, BE, BF\nCD, CE, CF\nDE, DF\nEF\n\nThere are a total of \\(15\\) possible pairs of cookies that Aiden can choose."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM30",
+      "origin": "DOE_EXAM_A",
+      "q_number": 30,
+      "question_type": "mc",
+      "question": "For a presentation, Deion can create \\(5\\) slides in \\(20\\) minutes, working at a constant rate. Kyra can create \\(3\\) slides in \\(10\\) minutes, working at her own constant rate. What is the total number of slides the two of them can create in one hour?",
+      "options": { "A": "\\(16\\)", "B": "\\(30\\)", "C": "\\(33\\)", "D": "\\(55\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_A/AM30.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Set up proportions to figure out how many slides Deion and Kyra can create in \\(1\\) hour:\n\n**Deion:**\n\\[\\dfrac{5}{20} = \\dfrac{x}{60}\\]\n\\[20x = 300\\]\n\\[x = 15\\]\n\nDeion can create \\(15\\) slides in \\(1\\) hour.\n\n**Kyra:**\n\\[\\dfrac{3}{10} = \\dfrac{x}{60}\\]\n\\[10x = 180\\]\n\\[x = 18\\]\n\nKyra can create \\(18\\) slides in \\(1\\) hour.\n\nTotal: \\(15 + 18 = 33\\) slides."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM31",
+      "origin": "DOE_EXAM_A",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "On the number line above (with point \\(L\\) at \\(4\\tfrac{5}{16}\\) and point \\(N\\) somewhere to the right of \\(L\\)), \\(LN = \\dfrac{1}{8}\\). Point \\(M\\) (**not** shown) is located between point \\(L\\) and point \\(N\\). Which value below is a possible value for \\(M\\)?",
+      "options": { "A": "\\(4.26\\)", "B": "\\(4.31\\)", "C": "\\(4.35\\)", "D": "\\(4.58\\)" },
+      "correct": "C",
+      "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='40' x2='430' y2='40' stroke='#111' stroke-width='1.4'/><path d='M 30 40 L 20 36 L 20 44 Z' fill='#111'/><path d='M 430 40 L 440 36 L 440 44 Z' fill='#111'/><line x1='130' y1='34' x2='130' y2='46' stroke='#111' stroke-width='1.4'/><line x1='300' y1='34' x2='300' y2='46' stroke='#111' stroke-width='1.4'/><text x='128' y='27' font-family='Georgia,serif' font-style='italic' font-size='16'>L</text><text x='298' y='27' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text><text x='130' y='68' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4 5/16</text></svg>",
+      "source_screenshot": "Problems/EXAM_A/AM31.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Since \\(LN = \\dfrac{1}{8}\\), point \\(N\\) is located at \\(4\\tfrac{5}{16} + \\tfrac{1}{8} = 4\\tfrac{7}{16}\\).\n\nSo \\(M\\) must be between point \\(L\\), \\(4\\tfrac{5}{16}\\), and point \\(N\\), \\(4\\tfrac{7}{16}\\).\n\nPoint \\(L\\) can also be written as \\(4.3125\\), and point \\(N\\) can be written as \\(4.4375\\).\n\nThe **only** option given that lies between those two points is \\(4.35\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM32",
+      "origin": "DOE_EXAM_A",
+      "q_number": 32,
+      "question_type": "grid_in",
+      "question": "What is the value of \\(x\\) in the equation \\(6x = 9x + 13\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "grid_answer": "-13/3",
+      "source_screenshot": "Problems/EXAM_A/AM32.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((-\\tfrac{13}{3})\\)\n\n\\[6x = 9x + 13\\]\n\\[6x - 9x = 13\\]\n\\[-3x = 13\\]\n\\[x = -\\dfrac{13}{3}\\]"
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
       "id": "AM26",
       "origin": "DOE_EXAM_A",
       "q_number": 26,
