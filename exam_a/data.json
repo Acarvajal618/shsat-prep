@@ -192,6 +192,160 @@
         "exhibit_text": "Add the three expressions: \\(5 - n + 3(2n + 7) + (-2)(2.5n + 4)\\).\n\nDistribute \\(3\\) and \\(-2\\):\n\n\\[5 - n + 6n + 21 - 5n - 8\\]\n\nCombine the variable terms and combine the constants:\n\n\\[(-n + 6n - 5n) + (5 + 21 - 8) = 18\\]"
       },
       "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM11",
+      "origin": "DOE_EXAM_A",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "In the pyramid above, each triangular face has the same area, and the base \\(MNPQ\\) is a square that measures \\(8\\) centimeters on each side. If the length of \\(\\overline{RS} = 6\\) centimeters, what is the surface area of the pyramid **excluding** the base?",
+      "options": { "A": "\\(48\\) sq cm", "B": "\\(96\\) sq cm", "C": "\\(128\\) sq cm", "D": "\\(160\\) sq cm" },
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 700 480' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='400' y1='60' x2='400' y2='180' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='200' y2='320' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='600' y2='300' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='60' x2='200' y2='320' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='200' y1='320' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='400' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='500' y2='350' stroke='#111' stroke-width='1.6'/><path d='M 494 340 L 505 346 L 512 336' fill='none' stroke='#111' stroke-width='1.2'/><text x='393' y='52' font-family='Georgia,serif' font-size='22'>R</text><text x='383' y='178' font-family='Georgia,serif' font-size='22'>N</text><text x='178' y='325' font-family='Georgia,serif' font-size='22'>M</text><text x='608' y='300' font-family='Georgia,serif' font-size='22'>P</text><text x='393' y='425' font-family='Georgia,serif' font-size='22'>Q</text><text x='510' y='360' font-family='Georgia,serif' font-size='22'>S</text></svg>",
+      "source_screenshot": "Problems/EXAM_A/AM11.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Line segment \\(\\overline{RS}\\) is the altitude, or height, of **triangle** \\(QRP\\). The length of \\(\\overline{QP}\\) is \\(8\\) cm.\n\nUse the information to find the area of **triangle** \\(QRP\\):\n\n\\[A = \\tfrac{1}{2}bh = \\tfrac{1}{2}(8)(6) = 24 \\text{ sq cm.}\\]\n\nThere are \\(4\\) congruent triangles in the pyramid, so the surface area of the pyramid **excluding** the base is \\(4 \\times 24 = 96\\) sq cm."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM12",
+      "origin": "DOE_EXAM_A",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "The perimeter of a rectangle is \\(510\\) centimeters. The ratio of the length to the width is \\(3{:}2\\). What are the dimensions of this rectangle?",
+      "options": { "A": "\\(150\\) cm by \\(105\\) cm", "B": "\\(153\\) cm by \\(102\\) cm", "C": "\\(158\\) cm by \\(97\\) cm", "D": "\\(165\\) cm by \\(90\\) cm" },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_A/AM12.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) [DOE solution not captured — computed below]\n\nLet the length be \\(3k\\) and width be \\(2k\\). The perimeter is \\(2(3k) + 2(2k) = 10k = 510\\), so \\(k = 51\\).\n\n\\[\\text{Length} = 3(51) = 153 \\text{ cm}\\]\n\\[\\text{Width} = 2(51) = 102 \\text{ cm}\\]"
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM13",
+      "origin": "DOE_EXAM_A",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "Which number line below shows the solution to the inequality \\(-4 < \\dfrac{x}{2} < 2\\)?\n\n(Refer to the four number-line diagrams above, labeled A–D.)",
+      "options": { "A": "(number line A above)", "B": "(number line B above)", "C": "(number line C above)", "D": "(number line D above)" },
+      "correct": "D",
+      "exhibit_image_path": "images/exam_a/AM13.png",
+      "source_screenshot": "Problems/EXAM_A/AM13.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) Multiply each term by \\(2\\) to eliminate the fraction, and isolate \\(x\\):\n\n\\[-4(2) < \\left(\\dfrac{x}{2}\\right)(2) < 2(2)\\]\n\\[-8 < x < 4\\]\n\nTherefore, \\(x\\) must be between \\(-8\\) and \\(4\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM14",
+      "origin": "DOE_EXAM_A",
+      "q_number": 14,
+      "question_type": "grid_in",
+      "question": "The sum of two consecutive integers is \\(-15\\). If \\(1\\) is added to the smaller integer and \\(2\\) is subtracted from the larger integer, what is the **product** of the two resulting integers?",
+      "grid_answer": "63",
+      "source_screenshot": "Problems/EXAM_A/AM14.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((63)\\) [DOE solution not captured — computed below]\n\nLet the two consecutive integers be \\(n\\) and \\(n+1\\):\n\n\\[n + (n+1) = -15\\]\n\\[2n + 1 = -15\\]\n\\[n = -8\\]\n\nSo the smaller is \\(-8\\) and the larger is \\(-7\\). Add \\(1\\) to the smaller: \\(-8 + 1 = -7\\). Subtract \\(2\\) from the larger: \\(-7 - 2 = -9\\).\n\nProduct: \\(-7 \\times -9 = 63\\)."
+      },
+      "transcription_status": "transcribed_needs_doe_solution"
+    },
+    {
+      "id": "AM15",
+      "origin": "DOE_EXAM_A",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "A box of colored pencils contains exactly \\(6\\) red pencils. The probability of choosing a red pencil from the box is \\(\\dfrac{2}{7}\\). How many of the pencils in the box are **not** red?",
+      "options": { "A": "\\(5\\)", "B": "\\(15\\)", "C": "\\(21\\)", "D": "\\(30\\)" },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_A/AM15.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Let \\(x\\) be the total number of colored pencils in the box.\n\nSet up a proportion to find \\(x\\):\n\n\\[\\dfrac{2}{7} = \\dfrac{6}{x}\\]\n\\[2x = 42\\]\n\\[x = 21\\]\n\nIf there are \\(6\\) red pencils, then the number of pencils that are **not** red is \\(21 - 6 = 15\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM16",
+      "origin": "DOE_EXAM_A",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "What is the area of the shaded region in the graph above?",
+      "options": { "A": "\\(0.25\\) square unit", "B": "\\(0.5\\) square unit", "C": "\\(1\\) square unit", "D": "\\(1.5\\) square units" },
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:260px; margin: 0 auto; display: block;'><line x1='60' y1='230' x2='60' y2='30' stroke='#111' stroke-width='1.5'/><path d='M 55 40 L 60 25 L 65 40' fill='none' stroke='#111' stroke-width='1.5'/><text x='50' y='20' font-style='italic' font-family='Georgia,serif' font-size='16'>y</text><line x1='30' y1='200' x2='285' y2='200' stroke='#111' stroke-width='1.5'/><path d='M 275 195 L 290 200 L 275 205' fill='none' stroke='#111' stroke-width='1.5'/><text x='293' y='205' font-style='italic' font-family='Georgia,serif' font-size='16'>x</text><text x='42' y='218' font-style='italic' font-family='Georgia,serif' font-size='16'>O</text><line x1='120' y1='196' x2='120' y2='204' stroke='#111'/><text x='115' y='218' font-family='Georgia,serif' font-size='13'>1</text><line x1='180' y1='196' x2='180' y2='204' stroke='#111'/><text x='175' y='218' font-family='Georgia,serif' font-size='13'>2</text><line x1='56' y1='140' x2='64' y2='140' stroke='#111'/><text x='42' y='145' font-family='Georgia,serif' font-size='13'>1</text><line x1='56' y1='80' x2='64' y2='80' stroke='#111'/><text x='42' y='85' font-family='Georgia,serif' font-size='13'>2</text><line x1='120' y1='200' x2='120' y2='80' stroke='#ddd' stroke-width='1'/><line x1='180' y1='200' x2='180' y2='80' stroke='#ddd' stroke-width='1'/><line x1='60' y1='140' x2='180' y2='140' stroke='#ddd' stroke-width='1'/><line x1='60' y1='80' x2='180' y2='80' stroke='#ddd' stroke-width='1'/><polygon points='60,200 120,200 120,140' fill='#c8c8c8' stroke='#111' stroke-width='1.2'/><line x1='60' y1='200' x2='240' y2='30' stroke='#111' stroke-width='1.6'/><path d='M 230 25 L 245 25 L 240 40' fill='none' stroke='#111' stroke-width='1.5'/></svg>",
+      "source_screenshot": "Problems/EXAM_A/AM16.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) The shaded region is a right triangle. Each leg is \\(1\\) unit in length.\n\nSo the area is \\(A = \\tfrac{1}{2}bh = \\tfrac{1}{2}(1)(1) = \\tfrac{1}{2}\\) or \\(0.5\\) square units."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM17",
+      "origin": "DOE_EXAM_A",
+      "q_number": 17,
+      "question_type": "dropdown",
+      "question": "Consider this expression:\n\n\\[|(-8) - (-3) + 6| - |6 - 11|\\]\n\nCreate an equivalent expression.\n\nMove the correct answer to each box. Not all answers will be used. (Choices: \\(1\\), \\(17\\), \\(-5\\), \\(11\\), \\(-8\\).)\n\nEquivalent expression: \\(|\\) [DROPDOWN_1] \\(|\\) \\(-\\) \\(|\\) [DROPDOWN_2] \\(|\\)",
+      "dropdowns": [
+        { "label": "DROPDOWN_1", "choices": ["1", "17", "-5", "11", "-8"], "answer_index": 0 },
+        { "label": "DROPDOWN_2", "choices": ["1", "17", "-5", "11", "-8"], "answer_index": 2 }
+      ],
+      "source_screenshot": "Problems/EXAM_A/AM17.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "To create an expression equivalent to \\(|(-8) - (-3) + 6| - |6 - 11|\\):\n\nStep 1: Simplify the first absolute value term.\n\\[(-8) - (-3) = -8 + 3 = -5\\]\n\\[-5 + 6 = 1\\]\n\nSimplify the second absolute value term.\n\\[6 - 11 = -5\\]\n\nTherefore the equivalent expression is \\(|1| - |-5|\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM18",
+      "origin": "DOE_EXAM_A",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "Mrs. Cranston bought five bottles of water for \\$\\(0.90\\) each and \\(8\\) pounds of meat. She paid a total of \\$\\(26.90\\) for these items, **not** including tax. What was the price per pound of the meat?",
+      "options": { "A": "\\$\\(2.80\\)", "B": "\\$\\(3.25\\)", "C": "\\$\\(14.40\\)", "D": "\\$\\(22.40\\)" },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_A/AM18.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) Let \\(x\\) be the price per pound of the meat. Set up an equation to show what Mrs. Cranston spent:\n\n\\[5(0.90) + 8x = 26.90\\]\n\\[4.50 + 8x = 26.90\\]\n\\[8x = 22.40\\]\n\\[x = 2.80\\]\n\nThe price per pound of the meat was \\$\\(2.80\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM19",
+      "origin": "DOE_EXAM_A",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "In a sample of \\(10\\) cards, \\(4\\) are red and \\(6\\) are blue. If \\(2\\) cards are selected at random from the sample, one at a time without replacement, what is the probability that both cards are **not** blue?",
+      "options": { "A": "\\(\\dfrac{2}{15}\\)", "B": "\\(\\dfrac{4}{25}\\)", "C": "\\(\\dfrac{3}{10}\\)", "D": "\\(\\dfrac{1}{3}\\)" },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_A/AM19.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) The probability that both cards are **not** blue is the same as the probability that both cards **are** red.\n\nThere are \\(4\\) red cards out of the \\(10\\), so the probability of the first card being red is \\(\\dfrac{4}{10}\\).\n\nNow there are \\(9\\) cards left, and \\(3\\) of those are red, so the probability of the second card being red is \\(\\dfrac{3}{9}\\).\n\nMultiply the two probabilities to find the probability that both cards are red (**not** blue):\n\n\\[\\dfrac{4}{10} \\times \\dfrac{3}{9} = \\dfrac{12}{90} = \\dfrac{2}{15}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "AM20",
+      "origin": "DOE_EXAM_A",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "\\(1\\) sind \\(= 4\\) lorgs\n\\(2\\) plunks \\(= 5\\) dalts\n\\(5\\) sinds \\(= 2\\) harps\n\\(1\\) plunk \\(= 3\\) harps\n\nA nation has five types of coins: sinds, dalts, lorgs, harps, and plunks. The relationship between the coins is shown above. Which coin is most valuable?",
+      "options": { "A": "sind", "B": "dalt", "C": "harp", "D": "plunk" },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_A/AM20.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "(D) \\(1\\) sind \\(= 4\\) lorgs, so \\(1\\) sind \\(> 1\\) lorg.\n\n\\(2\\) harps \\(= 5\\) sinds, so \\(1\\) harp \\(> 1\\) sind.\n\n\\(1\\) plunk \\(= 3\\) harps, so \\(1\\) plunk \\(> 1\\) harp, meaning that \\(1\\) plunk \\(> 1\\) sind and \\(1\\) lorg.\n\n\\(2\\) plunks \\(= 5\\) dalts, so \\(1\\) plunk \\(> 1\\) dalt.\n\nTherefore, the plunk is the most valuable."
+      },
+      "transcription_status": "transcribed"
     }
   ]
 }
