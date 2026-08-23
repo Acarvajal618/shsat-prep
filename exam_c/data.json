@@ -788,6 +788,247 @@
         "exhibit_text": "(C) Determine the fraction of undamaged boxes in the sample, given \\(8\\) of the \\(20\\) boxes are damaged.\n\n\\[\\dfrac{20 - 8}{20} = \\dfrac{12}{20} = \\dfrac{3}{5} \\text{ or } 0.6\\]\n\nSubtract the number of boxes in the sample from \\(170\\).\n\n\\[170 - 20 = 150\\]\n\nBasing the prediction of undamaged boxes on the sample, multiply the number of boxes **not** in the sample by the fraction of undamaged boxes in the sample.\n\n\\[150 \\times 0.6 = 90\\]"
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM40",
+      "origin": "DOE_EXAM_C",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "In basketball, a player can earn \\(1\\) point for making a free throw and \\(2\\) points for making another basket. Marcus makes a mean of \\(8\\) free throws per game, and he scores a total of at least \\(25\\) points per game. The inequality below shows this relationship, where \\(b\\) represents the number of \\(2\\)-point baskets Marcus makes.\n\n\\[2b + 8 \\ge 25\\]\n\nWhat is the number of \\(2\\)-point baskets Marcus needs to make if he wants to score at **least** his minimum total points for a game and make his mean number of free throws?",
+      "options": {
+        "A": "\\(b \\le 8\\)",
+        "B": "\\(b \\ge 9\\)",
+        "C": "\\(b \\ge 16\\)",
+        "D": "\\(b \\le 25\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_C/CM41.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Solve the inequality \\(2b + 8 \\ge 25\\).\n\n\\[2b + 8 - 8 \\ge 25 - 8\\]\n\\[2b \\ge 17\\]\n\\[\\dfrac{2b}{2} \\ge \\dfrac{17}{2}\\]\n\\[b \\ge 8.5\\]\n\nSince the number of baskets made must be a whole number, the fewest \\(2\\)-point baskets, \\(b\\), he must make is \\(9\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM41",
+      "origin": "DOE_EXAM_C",
+      "q_number": 41,
+      "question_type": "grid_keypad",
+      "question": "Elijah is at the school bookstore. He wants to buy a water bottle for $\\(12.50\\) and some notebooks that cost $\\(4.75\\) each. He has at most $\\(35.00\\) to spend. Write an inequality that represents the number of notebooks, \\(n\\), Elijah can purchase.\n\nEnter your answer in the space provided. Enter only your answer.",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_answer": "12.50 + 4.75n \\le 35.00",
+      "source_screenshot": "Problems/EXAM_C/CM42.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((12.50 + 4.75n \\le 35.00)\\)\n\nThe question uses the phrase \"at most,\" which means \"less than or equal to\" (\\(\\le\\)).\n\nSince notebooks cost $\\(4.75\\) each and Elijah will buy \\(n\\) notebooks, the total cost just for the notebooks is found by multiplying $\\(4.75\\) by \\(n\\), or \\(4.75n\\).\n\nCombining the cost of a water bottle ($\\(12.50\\)) with the cost of \\(n\\) notebooks, the inequality is \\(12.50 + 4.75n \\le 35.00\\).\n\nThis may also be written as \\(4.75n + 12.50 \\le 35.00\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM42",
+      "origin": "DOE_EXAM_C",
+      "q_number": 42,
+      "question_type": "grid_in",
+      "question": "Tariq is making a clay block in the shape of a cube with a side length of \\(20\\) cm. He hollows out the center by removing clay to form a rectangular prism-shaped hole with a base of \\(5\\) cm \u00d7 \\(5\\) cm and a height of \\(20\\) cm.\n\nWhat is the volume, in cubic centimeters, of the block after the clay is removed from the center?\n\nEnter your answer in the space.",
+      "grid_answer": "7500",
+      "exhibit_image_path": "images/exam_c/CM43.png",
+      "source_screenshot": "Problems/EXAM_C/CM43.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(7{,}500\\) cm\u00b3) First, find the volume of the cube using the formula \\(V = lwh\\).\n\nThe length, width, and height of the cube are each equal to \\(20\\) cm.\n\n\\[V_c = 20 \\text{ cm} \\times 20 \\text{ cm} \\times 20 \\text{ cm} = 8{,}000 \\text{ cm}^3\\]\n\nNext, find the volume of the cut-out square prism, with equal length and width of \\(5\\) cm and height of \\(20\\) cm.\n\n\\[V_p = 5 \\text{ cm} \\times 5 \\text{ cm} \\times 20 \\text{ cm} = 500 \\text{ cm}^3\\]\n\nFinally, subtract the volume of the prism from the volume of the cube.\n\n\\[8{,}000 \\text{ cm}^3 - 500 \\text{ cm}^3 = 7{,}500 \\text{ cm}^3\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM43",
+      "origin": "DOE_EXAM_C",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "A softball player bought bottles of water for her team to have at practice. The total number of bottles she bought, \\(b\\), is proportional to \\(n\\), the number of players at practice. Which equation represents the relationship between \\(b\\) and \\(n\\)? The constant of proportionality is \\(p\\).",
+      "options": {
+        "A": "\\(b = pn\\)",
+        "B": "\\(b = p + n\\)",
+        "C": "\\(b + n = p\\)",
+        "D": "\\(b + n + p = 1\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_C/CM44.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) In this context, the constant of proportionality, \\(p\\), represents the relationship between \\(b\\), the number of bottles of water, and \\(n\\), the number of players on the team.\n\nThe number of bottles of water is the product of the constant of proportionality and the number of players.\n\nThe equation that represents this relationship is \\(b = pn\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM44",
+      "origin": "DOE_EXAM_C",
+      "q_number": 44,
+      "question_type": "dropdown",
+      "question": "A smartphone screen is designed to be \\(72\\) millimeters wide. The quality control team allows for a variation of \\(\\pm 4\\%\\) in the width. Select the minimum and maximum screen widths that fall within the acceptable range of screen widths, in millimeters.\n\nSelect the correct answer from each drop-down to complete the sentence.\n\nThe acceptable screen width is from [DROPDOWN_1] to [DROPDOWN_2] millimeters.",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "68.00",
+            "69.12",
+            "70.56",
+            "71.28"
+          ],
+          "answer_index": 1
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "72.72",
+            "73.44",
+            "74.88",
+            "75.60"
+          ],
+          "answer_index": 2
+        }
+      ],
+      "source_screenshot": "Problems/EXAM_C/CM45.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(\\(69.12\\) mm; \\(74.88\\) mm) A variation of \\(\\pm 4\\%\\) in the width means that the width of the smartphone can be from \\(4\\%\\) less than the standard of \\(72\\) mm to \\(4\\%\\) greater than \\(72\\) mm.\n\nThe least allowed measure is\n\n\\[72 - 0.04(72) = 72 - 2.88 = 69.12 \\text{ mm}\\]\n\nThe greatest allowed measure is\n\n\\[72 + 0.04(72) = 72 + 2.88 = 74.88 \\text{ mm}\\]\n\nTherefore, the allowable range is from \\(69.12\\) mm to \\(74.88\\) mm in width."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM45",
+      "origin": "DOE_EXAM_C",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "Malik earns $\\(10\\) per hour at his job. He wants to change to a job that will pay $\\(12\\) per hour. What will be the percent increase in Malik's hourly pay if he makes this job change?",
+      "options": {
+        "A": "\\(2\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(83\\%\\)",
+        "D": "\\(120\\%\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_C/CM46.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Subtract to determine the amount of increase in Malik's hourly pay if he changes jobs.\n\n\\[12 - 10 = 2\\]\n\nDivide the increase amount by the original hourly pay rate.\n\n\\[2 \\div 10 = 0.2\\]\n\nMultiply the quotient by \\(100\\) to express the decimal amount as a percentage.\n\n\\[0.2 \\times 100 = 20\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM46",
+      "origin": "DOE_EXAM_C",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "A rain gauge shows that \\(10\\) centimeters of rain fell yesterday. If \\(1\\) inch is equal to approximately \\(2.5\\) centimeters, about how many inches of rain fell yesterday?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(2.5\\)",
+        "C": "\\(4\\)",
+        "D": "\\(10\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_C/CM47.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Set up a proportion to solve:\n\n\\[\\dfrac{1 \\text{ in.}}{2.5 \\text{ cm}} = \\dfrac{x \\text{ in.}}{10 \\text{ cm}}\\]\n\\[2.5x = 10\\]\n\\[x = 10 \\div 2.5\\]\n\\[x = 4\\]\n\n\\(10\\) centimeters is approximately \\(4\\) inches."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM47",
+      "origin": "DOE_EXAM_C",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "The height of a plant, in millimeters, is proportional to the number of days the plant has grown. The plant has grown \\(20\\) millimeters in \\(8\\) days. What is the constant of proportionality, in millimeters per day?",
+      "options": {
+        "A": "\\(0.4\\)",
+        "B": "\\(2.5\\)",
+        "C": "\\(12\\)",
+        "D": "\\(20\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_C/CM48.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) The constant of proportionality is determined by dividing the number of millimeters by the number of days:\n\n\\[\\dfrac{20 \\text{ mm}}{8 \\text{ days}} = \\dfrac{20}{8} = 2.5 \\text{ mm/day}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM48",
+      "origin": "DOE_EXAM_C",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "Which table shows a proportional relationship?\n\n(A) x/y: 0/0, 4/(3/2), 8/3.\n(B) x/y: 0/1, 4/(7/2), 8/6.\n(C) x/y: 0/-1, 4/-(1/2), 8/0.\n(D) x/y: 0/0, 4/12, 8/16.",
+      "options": {
+        "A": "Table A",
+        "B": "Table B",
+        "C": "Table C",
+        "D": "Table D"
+      },
+      "correct": "A",
+      "exhibit_image_path": "images/exam_c/CM49.png",
+      "source_screenshot": "Problems/EXAM_C/CM49.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) The first table is the only one with a constant of proportionality, \\(\\dfrac{3}{8}\\).\n\nIn each ordered pair, \\(\\dfrac{3}{8}x = y\\).\n\n\\[\\dfrac{3}{8}(0) = 0\\]\n\\[\\dfrac{3}{8}(4) = \\dfrac{12}{8} = \\dfrac{3}{2}\\]\n\\[\\dfrac{3}{8}(8) = \\dfrac{24}{8} = 3\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM49",
+      "origin": "DOE_EXAM_C",
+      "q_number": 49,
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours eighth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "drop_values": [
+        "5",
+        "7",
+        "8",
+        "15"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "15"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "8"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "7"
+        }
+      ],
+      "exhibit_image_path": "images/exam_c/CM50.png",
+      "source_screenshot": "Problems/EXAM_C/CM50.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((15; 7; 8)\\)\n\nDetermine the range by subtracting the minimum value on the box plot from the maximum value on the box plot:\n\nMaximum value \\(= 20\\) hr; Minimum value \\(= 5\\) hr\n\n\\[20 \\text{ hr} - 5 \\text{ hr} = 15 \\text{ hr}\\]\n\nDetermine the interquartile range by subtracting the lower quartile value on the box plot from the upper quartile value on the box plot:\n\nUpper Quartile Value \\(= 15\\) hr, Lower Quartile Value \\(= 8\\) hr\n\n\\[15 \\text{ hr} - 8 \\text{ hr} = 7 \\text{ hr}\\]\n\nDetermine the difference between the range (\\(15\\) hr) and the interquartile range (\\(7\\) hr):\n\n\\[15 \\text{ hr} - 7 \\text{ hr} = 8 \\text{ hr}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM50",
+      "origin": "DOE_EXAM_C",
+      "q_number": 50,
+      "question_type": "mc",
+      "question": "Terry wants to pour cement around the edge of the circular patio in her backyard. The patio has a radius of \\(5\\) feet. What is the distance, in feet, around the edge of the patio? Use \\(3.14\\) for \\(\\pi\\).",
+      "options": {
+        "A": "\\(15.7\\)",
+        "B": "\\(31.4\\)",
+        "C": "\\(49.3\\)",
+        "D": "\\(78.5\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_C/CM_extra_01.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) To find the distance around a circle if the radius is known, use the formula for circumference, \\(C = 2\\pi r\\).\n\n\\[C = 2(3.14)(5) = 31.4\\]"
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
