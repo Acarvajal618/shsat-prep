@@ -281,6 +281,97 @@
       white-space: pre-line;
       font-family: Georgia, 'Times New Roman', serif;
     }
+    /* ── Fraction keypad (grid_keypad question type) ────────────────── */
+    .tn-keypad {
+      margin-top: 10px; border: 1px solid #999; border-radius: 4px;
+      padding: 8px; max-width: 340px; background: #fff;
+    }
+    .tn-keypad-nav {
+      display: flex; gap: 4px; margin-bottom: 6px;
+      padding-bottom: 6px; border-bottom: 1px solid #ddd;
+      justify-content: flex-start;
+    }
+    .tn-keypad-nav button {
+      width: 32px; height: 28px; border-radius: 50%;
+      border: 1px solid #bbb; background: #fff; cursor: pointer;
+      font-size: 12px; color: #333; padding: 0;
+    }
+    .tn-keypad-nav button:hover { background: #eee; }
+    .tn-keypad-row { display: flex; gap: 4px; margin-bottom: 4px; }
+    .tn-keypad-btn {
+      flex: 1; height: 42px; background: #fff; border: 1px solid #bbb;
+      border-radius: 3px; font-family: Georgia, serif; font-size: 17px;
+      cursor: pointer;
+    }
+    .tn-keypad-btn:hover { background: #eee; }
+    .tn-keypad-btn.icon svg { display: block; margin: 0 auto; }
+    .tn-keypad-input {
+      display: inline-block; padding: 8px 14px;
+      border: 1.5px solid #7a7a7a; border-radius: 3px;
+      min-height: 30px; min-width: 240px;
+      font-family: Georgia, serif; font-size: 18px;
+      vertical-align: middle; background: #fff;
+    }
+
+    /* ── Drag-and-drop chips ────────────────────────────────────────── */
+    .tn-chips-row {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 12px 0; padding: 8px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 3px;
+    }
+    .tn-chip {
+      background: #4a90d9; color: #fff;
+      padding: 4px 12px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 15px;
+      border: 1px solid #3878be;
+    }
+    .tn-chip:active { cursor: grabbing; }
+    .tn-chip.used { opacity: 0.45; }
+    .tn-dropbox {
+      display: inline-block; min-width: 60px; padding: 3px 12px;
+      border: 1.5px dashed #7a7a7a; border-radius: 2px;
+      margin: 0 4px; text-align: center;
+      background: #f9f9f9; color: #333;
+      font-family: Georgia, serif; font-size: 15px;
+      vertical-align: middle;
+    }
+    .tn-dropbox.filled {
+      border-style: solid; background: #dbe9ff; border-color: #4a90d9;
+    }
+    .tn-dropbox.drag-over { background: #ffeeaa; }
+
+    /* ── Graph-select clickable points ──────────────────────────────── */
+    .tn-graph-select-svg { display: block; margin: 12px auto; max-width: 340px; }
+    .tn-graph-dot {
+      fill: #333; stroke: #333; cursor: pointer;
+      transition: fill 0.12s, stroke 0.12s;
+    }
+    .tn-graph-dot:hover { fill: #4a90d9; stroke: #4a90d9; }
+    .tn-graph-dot.selected { fill: #d93025; stroke: #d93025; }
+
+    /* ── Ray placement (AM43) ───────────────────────────────────────── */
+    .tn-ray-options {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+      max-width: 200px; margin: 14px auto; padding: 6px;
+      border: 1px solid #111;
+    }
+    .tn-ray-choice {
+      background: #fff; border: 1px solid #bbb; padding: 8px;
+      cursor: pointer; text-align: center; height: 40px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .tn-ray-choice:hover { background: #eee; }
+    .tn-ray-choice.selected { background: #dbe9ff; border-color: #4a90d9; border-width: 2px; padding: 7px; }
+    .tn-ray-choice svg { display: block; }
+    .tn-numberline-clickable {
+      display: block; margin: 12px auto; max-width: 460px; cursor: crosshair;
+    }
+    .tn-numberline-tick.clicked { fill: #d93025; }
+    .tn-numberline-selected {
+      stroke: #d93025; stroke-width: 3;
+    }
+
     /* Tighten spacing around KaTeX display equations inside the solution */
     .tn-exhibit-body .katex-display {
       margin: 0.25em 0 !important;
@@ -499,7 +590,14 @@
         return;
       }
 
-      const questionHtml = (q.question_type === 'dropdown') ? renderDropdownProse(q) : renderQuestionText(q.question);
+      let questionHtml;
+      if (q.question_type === 'dropdown') {
+        questionHtml = renderDropdownProse(q);
+      } else if (q.question_type === 'drag_drop') {
+        questionHtml = renderDragDropProse(q);
+      } else {
+        questionHtml = renderQuestionText(q.question);
+      }
       document.getElementById('tn-question').innerHTML = questionHtml;
 
       let bodyHtml = '';
@@ -515,6 +613,15 @@
         bodyHtml += renderMcMulti(q);
       } else if (q.question_type === 'grid_in') {
         bodyHtml += renderGridIn(q);
+      } else if (q.question_type === 'grid_keypad') {
+        bodyHtml += renderGridKeypad(q);
+      } else if (q.question_type === 'drag_drop') {
+        // drag_drop question renders its chips inline (question text was rewritten in renderQuestionText path above)
+        bodyHtml += renderDragDropChips(q);
+      } else if (q.question_type === 'graph_select') {
+        bodyHtml += renderGraphSelect(q);
+      } else if (q.question_type === 'ray_place') {
+        bodyHtml += renderRayPlace(q);
       } else if (q.question_type === 'dropdown') {
         const hasChoices = (q.dropdowns || []).some(d => d.choices && d.choices.length);
         if (!hasChoices) {
@@ -595,6 +702,163 @@
       return html;
     }
 
+    // ── Fraction keypad (AM32, AM50) ─────────────────────────────────
+    function renderGridKeypad(q) {
+      const val = state.answers[q.q_number] || '';
+      const prefix = q.grid_prefix || '';
+      const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      return `
+        <div class="tn-grid-label">${esc(label)}</div>
+        <div style="margin-top: 10px;">
+          ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;margin-right:8px;">${esc(prefix)}</span>` : ''}
+          <span class="tn-keypad-input" id="tn-grid-display">${esc(val)}</span>
+        </div>
+        <div class="tn-keypad" data-role="keypad">
+          <div class="tn-keypad-nav">
+            <button data-kp="ARR_L" title="Left">←</button>
+            <button data-kp="ARR_R" title="Right">→</button>
+            <button data-kp="UNDO"  title="Undo">↺</button>
+            <button data-kp="REDO"  title="Redo">↻</button>
+            <button data-kp="BKSP"  title="Backspace">⌫</button>
+            <button data-kp="CLEAR" title="Clear">🗑</button>
+          </div>
+          <div class="tn-keypad-row">
+            ${['1','2','3','4','5'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            ${['6','7','8','9','0'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            <button class="tn-keypad-btn" data-kp="%">%</button>
+            <button class="tn-keypad-btn" data-kp="-">−</button>
+            <button class="tn-keypad-btn" data-kp=".">.</button>
+            <button class="tn-keypad-btn icon" data-kp="FRAC" title="Fraction">
+              <svg viewBox="0 0 20 22" width="20" height="22"><rect x="2" y="1" width="16" height="8" fill="none" stroke="#333"/><rect x="2" y="13" width="16" height="8" fill="none" stroke="#333"/></svg>
+            </button>
+            <button class="tn-keypad-btn icon" data-kp="MIXED" title="Mixed number">
+              <svg viewBox="0 0 32 22" width="32" height="22"><rect x="2" y="6" width="10" height="10" fill="none" stroke="#333"/><rect x="16" y="1" width="14" height="8" fill="none" stroke="#333"/><rect x="16" y="13" width="14" height="8" fill="none" stroke="#333"/></svg>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    // ── Drag-drop (AM27) ─────────────────────────────────────────────
+    function renderDragDropChips(q) {
+      const placed = state.answers[q.q_number] || {};
+      const usedValues = new Set(Object.values(placed));
+      const chips = (q.drop_values || []).map(v => {
+        const usedCls = usedValues.has(v) && !q.drop_allow_reuse ? ' used' : '';
+        return `<div class="tn-chip${usedCls}" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
+      }).join('');
+      return `<div class="tn-chips-row" data-role="chips">${chips}</div>`;
+    }
+    function renderDragDropProse(q) {
+      let html = renderQuestionText(q.question);
+      const placed = state.answers[q.q_number] || {};
+      (q.boxes || []).forEach(b => {
+        const marker = '[' + b.label + ']';
+        const val = placed[b.label] || '';
+        const cls = val ? 'tn-dropbox filled' : 'tn-dropbox';
+        html = html.split(marker).join(
+          `<span class="${cls}" data-box="${b.label}">${val ? esc(val) : '____'}</span>`);
+      });
+      return html;
+    }
+
+    // ── Graph select (AM37): clickable points on a coordinate grid ───
+    function renderGraphSelect(q) {
+      const selected = new Set(state.answers[q.q_number] || []);
+      const pts = q.points || [];
+      const dots = pts.map(p => {
+        const cls = 'tn-graph-dot' + (selected.has(p.id) ? ' selected' : '');
+        return `<circle class="${cls}" cx="${p.cx}" cy="${p.cy}" r="6" data-id="${p.id}"/>`;
+      }).join('');
+      const title = q.graph_title || '';
+      const xLabel = q.graph_x_label || 'x';
+      const yLabel = q.graph_y_label || 'y';
+      // Grid: x from 0-6, y from 0-15 (based on AM37)
+      const ORIGIN_X = 60;
+      const ORIGIN_Y = 260;
+      const DX = 40, DY = 15;
+      const yTicks = [1,3,5,7,9,11,13,15].map(v =>
+        `<text x="${ORIGIN_X-8}" y="${ORIGIN_Y-v*DY+4}" text-anchor="end" font-size="10" font-family="Georgia,serif">${v}</text>`
+      ).join('');
+      const xTicks = [1,2,3,4,5,6].map(v =>
+        `<text x="${ORIGIN_X+v*DX}" y="${ORIGIN_Y+16}" text-anchor="middle" font-size="10" font-family="Georgia,serif">${v}</text>`
+      ).join('');
+      const gridLinesV = [1,2,3,4,5,6].map(v => `<line x1="${ORIGIN_X+v*DX}" y1="${ORIGIN_Y}" x2="${ORIGIN_X+v*DX}" y2="${ORIGIN_Y-15*DY}" stroke="#e0e0e0" stroke-width="0.5"/>`).join('');
+      const gridLinesH = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].map(v => `<line x1="${ORIGIN_X}" y1="${ORIGIN_Y-v*DY}" x2="${ORIGIN_X+6*DX}" y2="${ORIGIN_Y-v*DY}" stroke="#e0e0e0" stroke-width="0.5"/>`).join('');
+      return `
+        <svg class="tn-graph-select-svg" viewBox="0 0 320 290" xmlns="http://www.w3.org/2000/svg">
+          <text x="160" y="14" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold">${esc(title)}</text>
+          ${gridLinesV}${gridLinesH}
+          <line x1="${ORIGIN_X}" y1="${ORIGIN_Y-15*DY-5}" x2="${ORIGIN_X}" y2="${ORIGIN_Y}" stroke="#111" stroke-width="1"/>
+          <line x1="${ORIGIN_X}" y1="${ORIGIN_Y}" x2="${ORIGIN_X+6*DX+10}" y2="${ORIGIN_Y}" stroke="#111" stroke-width="1"/>
+          <path d="M ${ORIGIN_X-4} ${ORIGIN_Y-15*DY+5} L ${ORIGIN_X} ${ORIGIN_Y-15*DY-5} L ${ORIGIN_X+4} ${ORIGIN_Y-15*DY+5}" fill="#111"/>
+          <path d="M ${ORIGIN_X+6*DX+5} ${ORIGIN_Y-4} L ${ORIGIN_X+6*DX+15} ${ORIGIN_Y} L ${ORIGIN_X+6*DX+5} ${ORIGIN_Y+4}" fill="#111"/>
+          <text x="${ORIGIN_X+6*DX+22}" y="${ORIGIN_Y+4}" font-family="Georgia,serif" font-style="italic" font-size="14">${esc(xLabel)}</text>
+          <text x="${ORIGIN_X-4}" y="${ORIGIN_Y-15*DY-12}" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="14">${esc(yLabel)}</text>
+          <text x="${ORIGIN_X-14}" y="${ORIGIN_Y+14}" font-family="Georgia,serif" font-style="italic" font-size="12">O</text>
+          ${yTicks}${xTicks}
+          ${dots}
+          <text x="160" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="11">Number of Notebooks</text>
+        </svg>
+      `;
+    }
+
+    // ── Ray placement (AM43): pick a ray shape + click a position ───
+    function renderRayPlace(q) {
+      const ans = state.answers[q.q_number] || { rayType: null, position: null };
+      // 4 ray icons: closed-left, open-left, open-right, closed-right
+      const rayIcons = [
+        { id: 'CL', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M55 10 l-6 -3 l0 6z" fill="#111"/><circle cx="8" cy="10" r="4" fill="#111"/></svg>', desc: 'closed-left (ray goes right)' },
+        { id: 'OL', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M55 10 l-6 -3 l0 6z" fill="#111"/><circle cx="8" cy="10" r="4" fill="#fff" stroke="#111" stroke-width="1.6"/></svg>', desc: 'open-left (ray goes right)' },
+        { id: 'OR', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M8 10 l6 -3 l0 6z" fill="#111"/><circle cx="55" cy="10" r="4" fill="#fff" stroke="#111" stroke-width="1.6"/></svg>', desc: 'open-right (ray goes left)' },
+        { id: 'CR', svg: '<svg viewBox="0 0 60 20" width="60" height="20"><line x1="8" y1="10" x2="55" y2="10" stroke="#111" stroke-width="1.6"/><path d="M8 10 l6 -3 l0 6z" fill="#111"/><circle cx="55" cy="10" r="4" fill="#111"/></svg>', desc: 'closed-right (ray goes left)' },
+      ];
+      const rayChoices = rayIcons.map(r => {
+        const cls = 'tn-ray-choice' + (ans.rayType === r.id ? ' selected' : '');
+        return `<div class="${cls}" data-ray="${r.id}" title="${r.desc}">${r.svg}</div>`;
+      }).join('');
+      // Number line clickable from -5 to 5
+      const LEFT = 40, RIGHT = 420, Y = 30;
+      const step = (RIGHT - LEFT) / 10;
+      const ticks = [];
+      for (let v = -5; v <= 5; v++) {
+        const x = LEFT + (v + 5) * step;
+        ticks.push(`<line x1="${x}" y1="${Y-6}" x2="${x}" y2="${Y+6}" stroke="#111" stroke-width="1.2"/>`);
+        ticks.push(`<text x="${x}" y="${Y-12}" text-anchor="middle" font-family="Georgia,serif" font-size="12">${v}</text>`);
+      }
+      // Render the placed ray
+      let overlay = '';
+      if (ans.rayType && ans.position !== null && ans.position !== undefined) {
+        const px = LEFT + (ans.position + 5) * step;
+        const goesRight = ans.rayType === 'CL' || ans.rayType === 'OL';
+        const rayEnd = goesRight ? RIGHT + 10 : LEFT - 10;
+        const closed = ans.rayType === 'CL' || ans.rayType === 'CR';
+        const arrowAt = goesRight ? rayEnd : rayEnd;
+        overlay = `
+          <line x1="${px}" y1="${Y}" x2="${goesRight ? RIGHT - 5 : LEFT + 5}" y2="${Y}" stroke="#d93025" stroke-width="3"/>
+          <path d="${goesRight ? `M ${RIGHT-5} ${Y} l -6 -4 l 0 8 z` : `M ${LEFT+5} ${Y} l 6 -4 l 0 8 z`}" fill="#d93025"/>
+          <circle cx="${px}" cy="${Y}" r="6" fill="${closed ? '#d93025' : '#fff'}" stroke="#d93025" stroke-width="2"/>
+        `;
+      }
+      return `
+        <div style="margin-top:14px;">
+          <div class="tn-ray-options">${rayChoices}</div>
+          <svg class="tn-numberline-clickable" viewBox="0 0 460 60" xmlns="http://www.w3.org/2000/svg" data-role="numberline" data-left="${LEFT}" data-step="${step}">
+            <line x1="${LEFT-15}" y1="${Y}" x2="${RIGHT+15}" y2="${Y}" stroke="#111" stroke-width="1.4"/>
+            <path d="M ${LEFT-20} ${Y} l 12 -4 l 0 8 z" fill="#111"/>
+            <path d="M ${RIGHT+20} ${Y} l -12 -4 l 0 8 z" fill="#111"/>
+            ${ticks.join('')}
+            <rect x="${LEFT-5}" y="${Y-15}" width="${RIGHT-LEFT+10}" height="30" fill="transparent" style="cursor:crosshair"/>
+            ${overlay}
+          </svg>
+        </div>
+      `;
+    }
+
     function wireInputs(q) {
       document.querySelectorAll('.tn-option').forEach((el) => {
         el.addEventListener('click', () => {
@@ -626,6 +890,108 @@
         grid.addEventListener('input', (e) => {
           state.answers[q.q_number] = e.target.value;
         });
+      }
+
+      // ── Keypad (grid_keypad) ─────────────────────────────
+      document.querySelectorAll('[data-role="keypad"] button[data-kp]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.kp;
+          let cur = state.answers[q.q_number] || '';
+          if (key === 'BKSP')       cur = cur.slice(0, -1);
+          else if (key === 'CLEAR') cur = '';
+          else if (key === 'FRAC')  cur += '/';
+          else if (key === 'MIXED') cur += ' ';
+          else if (['ARR_L','ARR_R','UNDO','REDO'].includes(key)) return; // decorative
+          else cur += key;
+          state.answers[q.q_number] = cur;
+          document.getElementById('tn-grid-display').textContent = cur;
+        });
+      });
+
+      // ── Drag-drop (drag_drop) ────────────────────────────
+      if (q.question_type === 'drag_drop') {
+        document.querySelectorAll('.tn-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.value);
+            e.dataTransfer.effectAllowed = 'copy';
+          });
+          // Also support click-to-select for touch/pen; user clicks a chip then clicks a box
+          chip.addEventListener('click', () => {
+            state._selectedChip = chip.dataset.value;
+            document.querySelectorAll('.tn-chip').forEach(c => c.style.outline = '');
+            chip.style.outline = '2px solid #ff9900';
+          });
+        });
+        document.querySelectorAll('.tn-dropbox').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const v = e.dataTransfer.getData('text/plain');
+            const lbl = box.dataset.box;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = v;
+            render();
+          });
+          box.addEventListener('click', () => {
+            if (state._selectedChip) {
+              const lbl = box.dataset.box;
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][lbl] = state._selectedChip;
+              state._selectedChip = null;
+              render();
+            } else {
+              // clear on click if no chip selected
+              const lbl = box.dataset.box;
+              if (state.answers[q.q_number] && state.answers[q.q_number][lbl]) {
+                delete state.answers[q.q_number][lbl];
+                render();
+              }
+            }
+          });
+        });
+      }
+
+      // ── Graph select (graph_select) ──────────────────────
+      if (q.question_type === 'graph_select') {
+        document.querySelectorAll('.tn-graph-dot').forEach(dot => {
+          dot.addEventListener('click', () => {
+            const id = dot.getAttribute('data-id');
+            const arr = state.answers[q.q_number] || [];
+            const idx = arr.indexOf(id);
+            if (idx >= 0) arr.splice(idx, 1);
+            else arr.push(id);
+            state.answers[q.q_number] = arr;
+            render();
+          });
+        });
+      }
+
+      // ── Ray placement (ray_place) ────────────────────────
+      if (q.question_type === 'ray_place') {
+        document.querySelectorAll('.tn-ray-choice').forEach(rc => {
+          rc.addEventListener('click', () => {
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number].rayType = rc.dataset.ray;
+            render();
+          });
+        });
+        const nl = document.querySelector('[data-role="numberline"]');
+        if (nl) {
+          nl.addEventListener('click', (e) => {
+            if (!state.answers[q.q_number] || !state.answers[q.q_number].rayType) return;
+            const rect = nl.getBoundingClientRect();
+            const viewBox = nl.viewBox.baseVal;
+            const scaleX = viewBox.width / rect.width;
+            const svgX = (e.clientX - rect.left) * scaleX;
+            const LEFT = parseFloat(nl.dataset.left);
+            const step = parseFloat(nl.dataset.step);
+            const pos = Math.round((svgX - LEFT) / step) - 5;
+            const clamped = Math.max(-5, Math.min(5, pos));
+            state.answers[q.q_number].position = clamped;
+            render();
+          });
+        }
       }
     }
 

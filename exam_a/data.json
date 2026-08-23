@@ -541,58 +541,39 @@
       "id": "AM27",
       "origin": "DOE_EXAM_A",
       "q_number": 27,
-      "question_type": "dropdown",
-      "question": "Complete the steps to show one way to solve the equation \\(24 = -0.5(x + 8)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used. (Choices: \\(-56\\), \\(-40\\), \\(-4\\), \\(4\\), \\(20\\), \\(28\\), \\(40\\), \\(56\\).)\n\n\\(24 = -0.5(x + 8)\\)\n\\(24 = -0.5x +\\) [DROPDOWN_1]\n[DROPDOWN_2] \\( = -0.5x\\)\n[DROPDOWN_3] \\( = x\\)",
-      "dropdowns": [
-        {
-          "label": "DROPDOWN_1",
-          "choices": [
-            "-56",
-            "-40",
-            "-4",
-            "4",
-            "20",
-            "28",
-            "40",
-            "56"
-          ],
-          "answer_index": 2
-        },
-        {
-          "label": "DROPDOWN_2",
-          "choices": [
-            "-56",
-            "-40",
-            "-4",
-            "4",
-            "20",
-            "28",
-            "40",
-            "56"
-          ],
-          "answer_index": 5
-        },
-        {
-          "label": "DROPDOWN_3",
-          "choices": [
-            "-56",
-            "-40",
-            "-4",
-            "4",
-            "20",
-            "28",
-            "40",
-            "56"
-          ],
-          "answer_index": 0
-        }
-      ],
+      "question_type": "drag_drop",
+      "question": "Complete the steps to show one way to solve the equation \\(24 = -0.5(x + 8)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used.\n\n\\(24 = -0.5(x + 8)\\)\n\\(24 = -0.5x +\\) [BOX_1]\n[BOX_2] \\(= -0.5x\\)\n[BOX_3] \\(= x\\)",
       "source_screenshot": "Problems/EXAM_A/AM27.png",
       "solution": {
         "letter": null,
         "exhibit_text": "Solution:\n\nAnswer for second equation: \\(-4\\)\nAnswer for third equation: \\(28\\)\nAnswer for fourth equation: \\(-56\\)\n\n\\(24 = -0.5(x + 8)\\)\n\nDistribute the \\(-0.5\\) on the right side of the equation: \\(24 = -0.5x - 4\\).\n\nAdd \\(4\\) to both sides of the equation to eliminate the \\(-4\\) on the right side: \\(28 = -0.5x\\).\n\nDivide both sides by \\(-0.5\\): \\(-56 = x\\)."
       },
-      "transcription_status": "transcribed"
+      "transcription_status": "transcribed",
+      "drop_values": [
+        "-56",
+        "-40",
+        "-4",
+        "4",
+        "20",
+        "28",
+        "40",
+        "56"
+      ],
+      "drop_allow_reuse": true,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "-4"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "28"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "-56"
+        }
+      ]
     },
     {
       "id": "AM28",
@@ -759,30 +740,96 @@
       "id": "AM37",
       "origin": "DOE_EXAM_A",
       "q_number": 37,
-      "question_type": "mc_multi",
-      "question": "When a student buys \\(4\\) notebooks, the total cost is $\\(12\\). Each notebook costs the same amount. Select each point on the graph that best represents \\(y\\), the total cost of \\(x\\) notebooks.\n\nSelect **all** the correct answers.\n\n(Refer to the graph above showing several plotted points.)",
-      "options": {
-        "A": "\\((1, 3)\\)",
-        "B": "\\((2, 6)\\)",
-        "C": "\\((3, 9)\\)",
-        "D": "\\((4, 12)\\)",
-        "E": "\\((2, 5)\\)",
-        "F": "\\((3, 7)\\)"
-      },
+      "question_type": "graph_select",
+      "question": "When a student buys \\(4\\) notebooks, the total cost is $\\(12\\). Each notebook costs the same amount. Select each point on the graph that best represents \\(y\\), the total cost of \\(x\\) notebooks.\n\nSelect **all** the correct answers.",
       "n_correct": 4,
       "correct": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "1,3",
+        "2,6",
+        "3,9",
+        "4,12"
       ],
-      "exhibit_image_path": "images/exam_a/AM37.png",
       "source_screenshot": "Problems/EXAM_A/AM37.png",
       "solution": {
         "letter": null,
         "exhibit_text": "[DOE solution not captured \u2014 computed below]\n\nEach notebook costs $\\(12 \\div 4 = $3\\), so \\(y = 3x\\).\n\nValid points: \\((1, 3), (2, 6), (3, 9), (4, 12), (5, 15), \\ldots\\)\n\nOn the graph, the plotted points that satisfy \\(y = 3x\\) are the correct answers."
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "graph_title": "BUYING NOTEBOOKS",
+      "graph_x_label": "x",
+      "graph_y_label": "y",
+      "points": [
+        {
+          "cx": 100,
+          "cy": 245,
+          "x_val": 1,
+          "y_val": 1,
+          "id": "1,1"
+        },
+        {
+          "cx": 100,
+          "cy": 215,
+          "x_val": 1,
+          "y_val": 3,
+          "id": "1,3"
+        },
+        {
+          "cx": 140,
+          "cy": 185,
+          "x_val": 2,
+          "y_val": 5,
+          "id": "2,5"
+        },
+        {
+          "cx": 140,
+          "cy": 170,
+          "x_val": 2,
+          "y_val": 6,
+          "id": "2,6"
+        },
+        {
+          "cx": 140,
+          "cy": 125,
+          "x_val": 2,
+          "y_val": 9,
+          "id": "2,9"
+        },
+        {
+          "cx": 180,
+          "cy": 155,
+          "x_val": 3,
+          "y_val": 7,
+          "id": "3,7"
+        },
+        {
+          "cx": 180,
+          "cy": 125,
+          "x_val": 3,
+          "y_val": 9,
+          "id": "3,9"
+        },
+        {
+          "cx": 220,
+          "cy": 80,
+          "x_val": 4,
+          "y_val": 12,
+          "id": "4,12"
+        },
+        {
+          "cx": 220,
+          "cy": 50,
+          "x_val": 4,
+          "y_val": 14,
+          "id": "4,14"
+        },
+        {
+          "cx": 260,
+          "cy": 35,
+          "x_val": 5,
+          "y_val": 15,
+          "id": "5,15"
+        }
+      ]
     },
     {
       "id": "AM38",
@@ -851,7 +898,7 @@
       "id": "AM32",
       "origin": "DOE_EXAM_A",
       "q_number": 32,
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "What is the value of \\(x\\) in the equation \\(6x = 9x + 13\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
       "grid_answer": "-13/3",
       "source_screenshot": "Problems/EXAM_A/AM32.png",
@@ -859,7 +906,9 @@
         "letter": null,
         "exhibit_text": "\\((-\\tfrac{13}{3})\\)\n\n\\[6x = 9x + 13\\]\n\\[6x - 9x = 13\\]\n\\[-3x = 13\\]\n\\[x = -\\dfrac{13}{3}\\]"
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "grid_prefix": "x =",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer."
     },
     {
       "id": "AM41",
@@ -907,15 +956,12 @@
       "id": "AM43",
       "origin": "DOE_EXAM_A",
       "q_number": 43,
-      "question_type": "mc",
-      "question": "Graph the solution set for the inequality \\(-3 \\le 2x - 5\\).\n\nSelect a ray. Then move the endpoint of the ray to the correct position on the number line.",
-      "options": {
-        "A": "Closed dot at \\(1\\), ray going **left**",
-        "B": "Open dot at \\(1\\), ray going **left**",
-        "C": "Open dot at \\(1\\), ray going **right**",
-        "D": "Closed dot at \\(1\\), ray going **right**"
+      "question_type": "ray_place",
+      "question": "Graph the solution set for the inequality \\(-3 \\le 2x - 5\\).\n\nSelect a ray. Then click on the number line to position the endpoint.",
+      "correct": {
+        "rayType": "CL",
+        "position": 1
       },
-      "correct": "D",
       "source_screenshot": "Problems/EXAM_A/AM43.png",
       "solution": {
         "letter": "D",
@@ -1049,7 +1095,7 @@
       "id": "AM50",
       "origin": "DOE_EXAM_A",
       "q_number": 50,
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "Let \\(b = 3\\), \\(c = 4\\), and \\(d = 5\\). Determine the value of the expression below.\n\n\\[ \\dfrac{\\;\\dfrac{c}{d}\\;}{\\;\\dfrac{c}{b}\\;} + \\dfrac{c}{d} \\]\n\nEnter your fractional answer in the space provided. Enter only your fraction.",
       "grid_answer": "7/5",
       "source_screenshot": "Problems/EXAM_A/AM50.png",
@@ -1057,7 +1103,9 @@
         "letter": null,
         "exhibit_text": "\\(\\left(\\tfrac{7}{5}\\right)\\) [DOE solution not captured \u2014 computed below]\n\n\\[\\dfrac{c/d}{c/b} = \\dfrac{c}{d} \\cdot \\dfrac{b}{c} = \\dfrac{b}{d}\\]\n\nSo the expression becomes:\n\n\\[\\dfrac{b}{d} + \\dfrac{c}{d} = \\dfrac{b + c}{d} = \\dfrac{3 + 4}{5} = \\dfrac{7}{5}\\]"
       },
-      "transcription_status": "transcribed_needs_doe_solution"
+      "transcription_status": "transcribed_needs_doe_solution",
+      "grid_prefix": "",
+      "grid_label": "Enter your fractional answer in the space provided. Enter only your fraction."
     },
     {
       "id": "AM26",
