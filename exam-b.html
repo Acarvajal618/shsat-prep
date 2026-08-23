@@ -598,14 +598,16 @@
       } else {
         questionHtml = renderQuestionText(q.question);
       }
-      document.getElementById('tn-question').innerHTML = questionHtml;
+      // Figure/table/chart is rendered ABOVE the question text
+      let figureHtml = '';
+      if (q.figure_svg) {
+        figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
+      } else if (q.exhibit_image_path) {
+        figureHtml = `<div class="tn-figure"><img src="${q.exhibit_image_path}" alt="figure"></div>`;
+      }
+      document.getElementById('tn-question').innerHTML = figureHtml + questionHtml;
 
       let bodyHtml = '';
-      if (q.figure_svg) {
-        bodyHtml += `<div class="tn-figure">${q.figure_svg}</div>`;
-      } else if (q.exhibit_image_path) {
-        bodyHtml += `<div class="tn-figure"><img src="${q.exhibit_image_path}" alt="figure"></div>`;
-      }
 
       if (q.question_type === 'mc') {
         bodyHtml += renderMc(q);
@@ -743,15 +745,24 @@
       `;
     }
 
-    // ── Drag-drop (AM27) ─────────────────────────────────────────────
+    // ── Drag-drop (AM27, BM02, …) ───────────────────────────────────
     function renderDragDropChips(q) {
       const placed = state.answers[q.q_number] || {};
-      const usedValues = new Set(Object.values(placed));
+      const placedCounts = {};
+      for (const v of Object.values(placed)) {
+        placedCounts[v] = (placedCounts[v] || 0) + 1;
+      }
       const chips = (q.drop_values || []).map(v => {
-        const usedCls = usedValues.has(v) && !q.drop_allow_reuse ? ' used' : '';
-        return `<div class="tn-chip${usedCls}" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
-      }).join('');
-      return `<div class="tn-chips-row" data-role="chips">${chips}</div>`;
+        if (!q.drop_allow_reuse && placedCounts[v]) {
+          placedCounts[v] -= 1;
+          return '';
+        }
+        return `<div class="tn-chip" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
+      }).filter(Boolean).join('');
+      const empty = chips.length === 0
+        ? `<span style="color:#888; font-style:italic; font-size:13px;">All values placed — click a box to return one.</span>`
+        : chips;
+      return `<div class="tn-chips-row" data-role="chips">${empty}</div>`;
     }
     function renderDragDropProse(q) {
       let html = renderQuestionText(q.question);
