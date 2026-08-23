@@ -308,6 +308,82 @@
       "transcription_status": "transcribed"
     },
     {
+      "id": "BM21",
+      "origin": "DOE_EXAM_B",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "On the number line above, \\(\\overline{MN} = 5\\tfrac{5}{6}\\). What is the position of point \\(M\\)?",
+      "options": { "A": "\\(-7\\tfrac{1}{6}\\)", "B": "\\(-4\\tfrac{1}{2}\\)", "C": "\\(4\\tfrac{1}{2}\\)", "D": "\\(7\\tfrac{1}{6}\\)" },
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>1</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>3</text></svg>",
+      "source_screenshot": "Problems/EXAM_B/BM21.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) To find \\(M\\), subtract \\(N - M\\) and set it equal to the length:\n\n\\[1\\tfrac{1}{3} - M = 5\\tfrac{5}{6}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{1}{3}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{2}{6}\\]\n\\[-M = 4\\tfrac{3}{6}\\]\n\\[M = -4\\tfrac{1}{2}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM22",
+      "origin": "DOE_EXAM_B",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
+      "options": { "A": "\\(0.28\\) gram", "B": "\\(0.48\\) gram", "C": "\\(0.96\\) gram", "D": "\\(48\\) grams" },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_B/BM22.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Add the four values in the ratio (\\(177 + 12 + 7 + 4 = 200\\)) and use the sum as the denominator. Use that to find the fraction of zinc in one of the coins. Then reduce the fraction:\n\n\\[\\dfrac{12}{200} = \\dfrac{3}{50}\\]\n\nMultiply this fraction by \\(8\\) to find the number of grams of zinc in decimal form:\n\n\\[\\dfrac{3}{50} \\times 8 = \\dfrac{24}{50} = 0.48 \\text{ g}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM23",
+      "origin": "DOE_EXAM_B",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "Nicole's age now is three times Carmen's age. If Carmen will be \\(17\\) in \\(2\\) years, how old was Nicole \\(5\\) years ago?",
+      "options": { "A": "\\(38\\) yr", "B": "\\(40\\) yr", "C": "\\(45\\) yr", "D": "\\(50\\) yr" },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_B/BM23.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) To find out how old Nicole was \\(5\\) years ago, find out how old Nicole and Carmen are now.\n\nLet \\(N\\) = Nicole's age now.\nLet \\(C\\) = Carmen's age now.\n\n\\[C + 2 = 17, \\text{ so } C = 15\\]\n\\[N = 3C\\]\n\\[N = 3(15) = 45 \\text{ (Nicole's age now)}\\]\n\\[N - 5 = 45 - 5 = 40 \\text{ (Nicole's age 5 years ago)}\\]"
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM24",
+      "origin": "DOE_EXAM_B",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "A chemical decays in such a way that the amount left at the end of each week is \\(20\\%\\) less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
+      "options": { "A": "\\(40\\%\\)", "B": "\\(60\\%\\)", "C": "\\(64\\%\\)", "D": "\\(80\\%\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_B/BM24.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Let \\(x\\) be the original amount of the chemical. It loses \\(20\\%\\) after each week, which means \\(80\\%\\) of the chemical remains at the end of each week. End of first week: \\(0.80x\\).\n\nAt the end of the second week, \\(80\\%\\) of the amount left at the end of the first week remains.\n\nEnd of second week: \\(0.80(0.80x) = 0.64x\\) or \\(64\\%\\)."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
+      "id": "BM25",
+      "origin": "DOE_EXAM_B",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "If \\(w - 1\\) is an odd integer, which one of the following **must** be an even integer?",
+      "options": { "A": "\\(w + 1\\)", "B": "\\(2w - 1\\)", "C": "\\(2w - 2\\)", "D": "\\(2w + 1\\)" },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_B/BM25.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) One more than an odd integer must be even.\n\nOne more than \\(w - 1\\) is \\(w\\), therefore \\(w\\) must be even. Two times an even integer must be even, therefore \\(2w\\) is even. An even integer decreased by \\(2\\) must be even.\n\nTherefore, \\(2w - 2\\) must be even."
+      },
+      "transcription_status": "transcribed"
+    },
+    {
       "id": "BM10",
       "origin": "DOE_EXAM_B",
       "q_number": 10,
