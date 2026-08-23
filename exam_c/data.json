@@ -426,6 +426,101 @@
         "exhibit_text": "\\(A = 25\\pi\\): Circle A\n\\(C = 5\\pi\\): Circle C\n\nAs shown in the illustration, \\(AB\\) (the radius of Circle A) is \\(5\\) units in length. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), we know it is also \\(5\\) units in length.\n\nCircle A:\n\\[A = \\pi r^2\\]\n\\[A = 25\\pi\\]\n\\[r = 5\\]\nWe know the radius of Circle A is \\(5\\) so the answer to row 1 is A.\n\nCircle C:\n\\[C = \\pi \\cdot d\\]\n\\[C = 5\\pi\\]\nSince the diameter of Circle C is \\(5\\), the circumference is \\(5\\pi\\)."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM21",
+      "origin": "DOE_EXAM_C",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "In a fruit basket, the ratio of apples to oranges is the same as the ratio of cherries to walnuts. If there are \\(6\\) oranges, \\(16\\) cherries, and \\(48\\) walnuts, how many apples are there?",
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(3\\)",
+        "C": "\\(18\\)",
+        "D": "\\(38\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_C/CM21.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) The ratios of the items are equal, so they can be expressed using a proportion.\n\nLet \\(a\\) represent the number of apples, \\(o\\) the number of oranges, \\(c\\) the number of cherries, and \\(w\\) the number of walnuts. Write a proportion showing apples:oranges is equal to cherries:walnuts:\n\n\\[\\dfrac{a}{o} = \\dfrac{c}{w}\\]\n\nSubstitute the given values for oranges (\\(6\\)), cherries (\\(16\\)), and walnuts (\\(48\\)):\n\n\\[\\dfrac{a}{6} = \\dfrac{16}{48}\\]\n\nCross multiply to form an equation to solve for the number of apples (\\(a\\)):\n\n\\[(a \\times 48) = (16 \\times 6)\\]\n\\[48a = 96\\]\n\\[a = 2\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM22",
+      "origin": "DOE_EXAM_C",
+      "q_number": 22,
+      "question_type": "grid_in",
+      "question": "During a hiking trip, a group of students recorded the elevation (in feet) at several points along the trail:\n\n\\[-120 \\text{ ft}, \\; -80 \\text{ ft}, \\; 0 \\text{ ft}, \\; 45 \\text{ ft}, \\; -30 \\text{ ft}, \\; 90 \\text{ ft}\\]\n\nWhat is the difference between the highest and lowest elevations recorded on the trail?\n\nEnter your answer in the space.",
+      "grid_answer": "210",
+      "source_screenshot": "Problems/EXAM_C/CM22.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(210) Determine the difference between the highest and lowest elevations:\n\nDetermine the highest elevation:\n\nOf \\(-120, -80, 0, 45, -30\\), and \\(90\\), the greatest value is \\(90\\) because its location is farthest to the right on a number line.\n\nHighest elevation \\(= 90\\) ft\n\nDetermine the lowest elevation:\n\nOf \\(-120, -80, 0, 45, -30\\), and \\(90\\), the lowest value is \\(-120\\) because its location is farthest to the left on a number line.\n\nLowest elevation \\(= -120\\) ft\n\nSubtract the lowest elevation from the highest elevation:\n\n\\[90 - (-120) = 90 + 120 = 210 \\text{ ft}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM23",
+      "origin": "DOE_EXAM_C",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "On parallelogram \\(PQRS\\) above, the length of \\(\\overline{QT}\\) is \\(18\\) centimeters. What is the area of the parallelogram?",
+      "options": {
+        "A": "\\(112\\) sq cm",
+        "B": "\\(396\\) sq cm",
+        "C": "\\(612\\) sq cm",
+        "D": "\\(748\\) sq cm"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='183' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='310' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>18 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>22 cm</text><text x='250' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='14'>|\u2190\u2014 34 cm \u2014\u2192|</text></svg>",
+      "source_screenshot": "Problems/EXAM_C/CM23.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) \\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(34\\) cm in length, and the height is the length of the altitude, so the height is \\(18\\) cm.\n\nTo determine the area of a parallelogram, multiply the base \\(\\times\\) the height:\n\n\\[34 \\text{ cm} \\times 18 \\text{ cm} = 612 \\text{ cm}^2\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM24",
+      "origin": "DOE_EXAM_C",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and photographs shown is \\(3{:}5{:}4\\), respectively. If the number of drawings shown was \\(45\\), what is the total number of photographs and paintings that were shown?",
+      "options": {
+        "A": "\\(36\\)",
+        "B": "\\(63\\)",
+        "C": "\\(84\\)",
+        "D": "\\(108\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_C/CM24.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) The ratio of paintings to drawings to photographs is \\(3 : 5 : 4\\).\n\nFirst, determine the number of actual paintings and photographs.\n\nSince the number of actual drawings is \\(45\\), each ratio is multiplied by \\(9\\), since \\(5 \\times 9 = 45\\).\n\n| Type | Ratio | Actual Number |\n| --- | --- | --- |\n| Paintings | \\(3\\) | \\(27\\) |\n| Drawings | \\(5\\) | \\(45\\) |\n| Photographs | \\(4\\) | \\(36\\) |\n\nAdd the number of paintings (\\(27\\)) and the number of photographs (\\(36\\)):\n\n\\[27 + 36 = 63\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "CM25",
+      "origin": "DOE_EXAM_C",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "For each \\(\\dfrac{3}{8}\\) foot of curtain width, \\(\\dfrac{5}{6}\\) yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width?",
+      "options": {
+        "A": "\\(\\dfrac{5}{16}\\) yd",
+        "B": "\\(\\dfrac{29}{24}\\) yd",
+        "C": "\\(\\dfrac{20}{9}\\) yd",
+        "D": "\\(\\dfrac{7}{2}\\) yd"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_C/CM25.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) It takes \\(\\dfrac{5}{6}\\) yard of fabric to make \\(\\dfrac{3}{8}\\) foot of curtain width.\n\nTo find the ratio of \\(1\\) foot of curtain width to \\(\\dfrac{3}{8}\\) foot of curtain width \\(\\left(1{:}\\dfrac{3}{8}\\right)\\), divide.\n\n\\[1 \\div \\dfrac{3}{8} = 1 \\times \\dfrac{8}{3} = \\dfrac{8}{3}\\]\n\nSo the amount of fabric needed for \\(1\\) foot of curtain width is \\(\\dfrac{8}{3}\\) times the amount needed for \\(\\dfrac{3}{8}\\) foot of curtain width.\n\n\\[\\dfrac{8}{3} \\times \\dfrac{5}{6} = \\dfrac{40}{18}\\]\n\\[\\dfrac{40 \\div 2}{18 \\div 2} = \\dfrac{20}{9}\\]\n\nThe amount of fabric needed for \\(1\\) foot of curtain width is \\(\\dfrac{20}{9}\\) yd."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
