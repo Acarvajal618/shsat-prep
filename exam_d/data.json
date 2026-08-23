@@ -228,7 +228,7 @@
         "D": "\\(19\\)"
       },
       "correct": "D",
-      "figure_svg": "<svg viewBox='0 0 380 260' xmlns='http://www.w3.org/2000/svg' style='max-width:340px; margin: 0 auto; display: block;'><circle cx='190' cy='140' r='95' fill='none' stroke='#111' stroke-width='1.4'/><line x1='95' y1='140' x2='285' y2='140' stroke='#111' stroke-width='1.4'/><line x1='190' y1='140' x2='247' y2='64' stroke='#111' stroke-width='1.4'/><line x1='247' y1='64' x2='247' y2='140' stroke='#111' stroke-width='1.4'/><polyline points='240,140 240,133 247,133' fill='none' stroke='#111' stroke-width='1'/><circle cx='95' cy='140' r='2.6' fill='#111'/><circle cx='190' cy='140' r='2.6' fill='#111'/><circle cx='285' cy='140' r='2.6' fill='#111'/><circle cx='247' cy='64' r='2.6' fill='#111'/><text x='85' y='137' font-family='Georgia,serif' font-size='14' text-anchor='end'>R</text><text x='188' y='158' font-family='Georgia,serif' font-size='14' text-anchor='end'>P</text><text x='295' y='137' font-family='Georgia,serif' font-size='14'>T</text><text x='252' y='60' font-family='Georgia,serif' font-size='14'>S</text><text x='215' y='104' font-family='Georgia,serif' font-size='13' font-style='italic'>12</text><text x='162' y='158' font-family='Georgia,serif' font-size='13' font-style='italic'>x</text><text x='265' y='158' font-family='Georgia,serif' font-size='13' font-style='italic'>5</text></svg>",
+      "figure_svg": "<svg viewBox='0 0 400 280' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><circle cx='190' cy='140' r='95' fill='none' stroke='#111' stroke-width='1.4'/><line x1='95' y1='140' x2='285' y2='140' stroke='#111' stroke-width='1.4'/><line x1='190' y1='140' x2='247' y2='64' stroke='#111' stroke-width='1.4'/><line x1='247' y1='64' x2='247' y2='140' stroke='#111' stroke-width='1.4'/><polyline points='240,140 240,133 247,133' fill='none' stroke='#111' stroke-width='1'/><circle cx='95' cy='140' r='2.8' fill='#111'/><circle cx='190' cy='140' r='2.8' fill='#111'/><circle cx='285' cy='140' r='2.8' fill='#111'/><circle cx='247' cy='64' r='2.8' fill='#111'/><circle cx='247' cy='140' r='2.5' fill='#111'/><text x='84' y='137' font-family='Georgia,serif' font-size='15' text-anchor='end'>R</text><text x='187' y='158' font-family='Georgia,serif' font-size='15' text-anchor='end'>P</text><text x='295' y='137' font-family='Georgia,serif' font-size='15'>T</text><text x='253' y='60' font-family='Georgia,serif' font-size='15'>S</text><text x='213' y='102' font-family='Georgia,serif' font-size='19' font-weight='bold' font-style='italic'>12</text><line x1='95' y1='180' x2='247' y2='180' stroke='#111' stroke-width='1'/><line x1='95' y1='176' x2='95' y2='184' stroke='#111' stroke-width='1'/><line x1='247' y1='176' x2='247' y2='184' stroke='#111' stroke-width='1'/><text x='171' y='196' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>x</text><line x1='247' y1='210' x2='285' y2='210' stroke='#111' stroke-width='1'/><line x1='247' y1='206' x2='247' y2='214' stroke='#111' stroke-width='1'/><line x1='285' y1='206' x2='285' y2='214' stroke='#111' stroke-width='1'/><text x='266' y='226' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>5</text></svg>",
       "source_screenshot": "Problems/EXAM_D/DM12.png",
       "solution": {
         "letter": "D",
@@ -249,7 +249,7 @@
         "D": "\\(47\u00b0\\)"
       },
       "correct": "A",
-      "figure_svg": "<svg viewBox='0 0 360 280' xmlns='http://www.w3.org/2000/svg' style='max-width:340px; margin: 0 auto; display: block;'><polygon points='80,50 80,220 300,220' fill='none' stroke='#111' stroke-width='1.4'/><polyline points='96,220 96,204 80,204' fill='none' stroke='#111' stroke-width='1'/><text x='95' y='72' font-family='Georgia,serif' font-size='13'>(2x + 9)\u00b0</text><text x='250' y='210' font-family='Georgia,serif' font-size='13'>(3x \u2212 14)\u00b0</text></svg>",
+      "figure_svg": "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><polygon points='80,50 80,240 300,240' fill='none' stroke='#111' stroke-width='1.4'/><polyline points='96,240 96,224 80,224' fill='none' stroke='#111' stroke-width='1'/><line x1='95' y1='72' x2='150' y2='38' stroke='#666' stroke-width='0.8'/><text x='153' y='36' font-family='Georgia,serif' font-size='13'>(2x + 9)\u00b0</text><text x='245' y='232' font-family='Georgia,serif' font-size='13'>(3x \u2212 14)\u00b0</text></svg>",
       "source_screenshot": "Problems/EXAM_D/DM13.png",
       "solution": {
         "letter": "A",
@@ -898,9 +898,14 @@
       "origin": "DOE_EXAM_D",
       "q_number": 46,
       "question_type": "drag_drop",
-      "question": "A company charges $\\(3.00\\) to ship a \\(4\\)-pound package. The cost includes a base fee of $\\(1.50\\) plus $\\(0.50\\) for each pound over the first pound. The table below illustrates how the cost depends on the total weight of the package. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.",
-      "dd_variant": "table",
-      "chips": [
+      "question": "A company charges $\\(3.00\\) to ship a \\(4\\)-pound package. The cost includes a base fee of $\\(1.50\\) plus $\\(0.50\\) for each pound over the first pound. The table below illustrates how the cost depends on the total weight of the package. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.\n\n<div style='text-align:center; font-weight:600; margin: 0.5rem 0 0.35rem;'>SHIPPING COSTS</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Weight (pounds)</th><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Cost to Ship (dollars)</th></tr></thead>\n<tbody><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_1]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_2]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2.50</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>6</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_3]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_4]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>5.50</td></tr></tbody></table>",
+      "source_screenshot": "Problems/EXAM_D/DM46.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "The completed **SHIPPING COSTS** table:\n\n| Total Weight (pounds) | Total Cost to Ship (dollars) |\n|---|---|\n| 2 | 2 |\n| 3 | 2.50 |\n| 6 | 4 |\n| 9 | 5.50 |\n\nLet \\(x\\) represent the weight of the package in pounds. The first pound is included in the base fee of $\\(1.50\\), so \\((x - 1)\\) represents the number of pounds that cost $\\(0.50\\) each.\n\nThe cost equation can be written as \\(\\text{Cost} = \\$1.50 + \\$0.50(x - 1)\\).\n\n- The cost for a \\(2\\)-pound package is \\(\\$1.50 + \\$0.50(2 - 1) = \\$1.50 + \\$0.50(1) = \\$2.00\\).\n- The cost for a \\(6\\)-pound package is \\(\\$1.50 + \\$0.50(6 - 1) = \\$1.50 + \\$0.50(5) = \\$1.50 + \\$2.50 = \\$4.00\\).\n- The weight of a package that costs $\\(2.50\\) to ship can be found by solving\n\n\\[\\$2.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$1.00 = \\$0.50(x - 1)\\]\n\\[2 = x - 1\\]\n\\[x = 3 \\text{ pounds}\\]\n\n- The weight of a package that costs $\\(5.50\\) to ship can be found by solving\n\n\\[\\$5.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$4.00 = \\$0.50(x - 1)\\]\n\\[8 = x - 1\\]\n\\[x = 9 \\text{ pounds}\\]"
+      },
+      "transcription_status": "verbatim_verified",
+      "drop_values": [
         "2",
         "3",
         "6",
@@ -910,34 +915,25 @@
         "9",
         "4"
       ],
-      "slots": [
+      "drop_allow_reuse": false,
+      "boxes": [
         {
-          "id": "s1",
-          "label": "Cost when Weight = 2 lb ($)",
-          "correct": "2"
+          "label": "BOX_1",
+          "correct_value": "2"
         },
         {
-          "id": "s2",
-          "label": "Weight when Cost = $2.50 (lb)",
-          "correct": "3"
+          "label": "BOX_2",
+          "correct_value": "3"
         },
         {
-          "id": "s3",
-          "label": "Cost when Weight = 6 lb ($)",
-          "correct": "4"
+          "label": "BOX_3",
+          "correct_value": "4"
         },
         {
-          "id": "s4",
-          "label": "Weight when Cost = $5.50 (lb)",
-          "correct": "9"
+          "label": "BOX_4",
+          "correct_value": "9"
         }
-      ],
-      "source_screenshot": "Problems/EXAM_D/DM46.png",
-      "solution": {
-        "letter": null,
-        "exhibit_text": "The completed **SHIPPING COSTS** table:\n\n| Total Weight (pounds) | Total Cost to Ship (dollars) |\n|---|---|\n| 2 | 2 |\n| 3 | 2.50 |\n| 6 | 4 |\n| 9 | 5.50 |\n\nLet \\(x\\) represent the weight of the package in pounds. The first pound is included in the base fee of $\\(1.50\\), so \\((x - 1)\\) represents the number of pounds that cost $\\(0.50\\) each.\n\nThe cost equation can be written as \\(\\text{Cost} = \\$1.50 + \\$0.50(x - 1)\\).\n\n- The cost for a \\(2\\)-pound package is \\(\\$1.50 + \\$0.50(2 - 1) = \\$1.50 + \\$0.50(1) = \\$2.00\\).\n- The cost for a \\(6\\)-pound package is \\(\\$1.50 + \\$0.50(6 - 1) = \\$1.50 + \\$0.50(5) = \\$1.50 + \\$2.50 = \\$4.00\\).\n- The weight of a package that costs $\\(2.50\\) to ship can be found by solving\n\n\\[\\$2.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$1.00 = \\$0.50(x - 1)\\]\n\\[2 = x - 1\\]\n\\[x = 3 \\text{ pounds}\\]\n\n- The weight of a package that costs $\\(5.50\\) to ship can be found by solving\n\n\\[\\$5.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$4.00 = \\$0.50(x - 1)\\]\n\\[8 = x - 1\\]\n\\[x = 9 \\text{ pounds}\\]"
-      },
-      "transcription_status": "verbatim_verified"
+      ]
     },
     {
       "id": "DM47",
