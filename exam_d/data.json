@@ -99,6 +99,101 @@
         "exhibit_text": "\\(\\left(\\dfrac{1}{25} \\cdot \\dfrac{1}{100}\\right)\\)\n\nTo calculate the joint probability, first determine the probability of each independent event.\n\nThe probability that a randomly selected student wins the prize is \\(\\dfrac{1}{25}\\).\n\nThe probability that a randomly selected student will receive Card C17 is \\(\\dfrac{1}{100}\\), because Card C17 is \\(1\\) card out of \\(100\\) labeled cards.\n\nThe probability that a student wins the prize and receives Card C17 is the product of those two probabilities, \\(\\dfrac{1}{25} \\cdot \\dfrac{1}{100}\\)."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM06",
+      "origin": "DOE_EXAM_D",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "The cost of shipping a package is $\\(12\\), plus $\\(2\\) for each additional pound over \\(3\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 3\\).",
+      "options": {
+        "A": "\\(12 + 2(p + 3)\\)",
+        "B": "\\(12 + 2(p - 3)\\)",
+        "C": "\\(14p + 3\\)",
+        "D": "\\(14p - 3\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM06.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) Since the additional cost per pound is **not** added until the package weighs more than \\(3\\) pounds, the total cost for \\(1\\), \\(2\\), or \\(3\\) pounds is $\\(12\\).\n\n\u2022 \\(1\\) pound is $\\(12\\)\n\u2022 \\(2\\) pounds is $\\(12\\)\n\u2022 \\(3\\) pounds is $\\(12\\)\n\nSince \\(p\\) is greater than or equal to \\(3\\) pounds, the total cost for:\n\n\u2022 \\(4\\) pounds is\n\\[12 + (4 - 3)(2) = 14\\]\n\u2022 \\(5\\) pounds is\n\\[12 + (5 - 3)(2) = 16\\]\n\u2022 \\(p\\) pounds is\n\\[12 + (p - 3)(2)\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM07",
+      "origin": "DOE_EXAM_D",
+      "q_number": 7,
+      "question_type": "grid_in",
+      "question": "A middle school library has a shelf with \\(40\\) books, each labeled with a different number from \\(201\\) to \\(240\\). One book is selected at random. What is the probability, as a **percentage**, of selecting book number \\(223\\)?\n\nEnter your answer in the space provided.",
+      "grid_answer": "2.5",
+      "source_screenshot": "Problems/EXAM_D/DM07.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(2.5%) The probability that book number \\(223\\) will be selected at random from \\(40\\) books is \\(1\\) out of \\(40\\). To find the probability as a percentage, convert the fraction to a decimal.\n\nThe chance of selecting one specific book is \\(\\dfrac{1}{40} = 0.025\\).\n\nConvert the decimal to a percentage: \\(0.025 \\times 100 = 2.5\\%\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM08",
+      "origin": "DOE_EXAM_D",
+      "q_number": 8,
+      "question_type": "grid_in",
+      "question": "A square metal plate has a side length of \\(3\\) inches. A circular hole with a diameter of \\(2\\) inches is cut out from the center of the plate.\n\nWhat is the area of the shaded region, to the nearest hundredth of a square inch?\n\nEnter your answer in the space.",
+      "grid_answer": "5.86",
+      "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:280px; margin: 0 auto; display: block;'><rect x='60' y='40' width='200' height='200' fill='#c8c8c8' stroke='#111' stroke-width='1.4'/><circle cx='160' cy='140' r='66' fill='#ffffff' stroke='#111' stroke-width='1.4'/><line x1='94' y1='140' x2='226' y2='140' stroke='#111' stroke-width='0.8'/><path d='M 100 140 L 94 136 L 94 144 Z' fill='#111'/><path d='M 220 140 L 226 136 L 226 144 Z' fill='#111'/><text x='160' y='134' text-anchor='middle' font-family='Georgia,serif' font-size='13'>2 in.</text><line x1='60' y1='250' x2='260' y2='250' stroke='#111' stroke-width='0.8'/><path d='M 66 250 L 60 246 L 60 254 Z' fill='#111'/><path d='M 254 250 L 260 246 L 260 254 Z' fill='#111'/><text x='160' y='268' text-anchor='middle' font-family='Georgia,serif' font-size='13'>3 in.</text></svg>",
+      "source_screenshot": "Problems/EXAM_D/DM08.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(5.86) To determine the area of a square, use \\(A = s^2\\).\n\nBegin by finding the length of the side of the square, which is \\(3\\) inches. The area of the square is\n\n\\[(3 \\text{ in})^2 = 9 \\text{ square inches.}\\]\n\nTo determine the area of the circle, use \\(A = \\pi r^2\\).\n\nThe radius of the circle (the hole) is one-half the diameter or \\(2 \\text{ in.} \\div 2 = 1 \\text{ in.}\\), so the area of the entire circle is\n\n\\[\\pi(1 \\text{ in.})^2 \\cong 3.14 \\text{ sq in.}\\]\n\nTo determine the area of the shaded region, subtract the area of the hole in the square from the area of the square:\n\n\\[9 \\text{ sq in.} - \\pi \\text{ sq in.} =\\]\n\\[9 \\text{ sq in.} - (3.14) \\text{ sq in.} = 5.86 \\text{ sq in.}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM09",
+      "origin": "DOE_EXAM_D",
+      "q_number": 9,
+      "question_type": "mc_multi",
+      "question": "Let \\(m\\) be a negative integer and \\(k\\) be a positive integer.\n\nWhich of the expressions below must result in a **positive** value?\n\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(-m + k\\)",
+        "B": "\\(-m \\cdot k\\)",
+        "C": "\\(m - k\\)",
+        "D": "\\(-k \\cdot m\\)",
+        "E": "\\(\\dfrac{m}{k}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source_screenshot": "Problems/EXAM_D/DM09.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "(A, B, D) Each of the expressions must be considered:\n\n\\(-m + k\\), where \\(m\\) is a negative integer and \\(k\\) is a positive integer: **Correct**\n\nThe \"\\(-\\)\" in front of \\(m\\) acts like a \\(-1\\) multiplier that flips the sign of \\(m\\), so \\(-m + k\\) is positive when \\(m\\) is negative and \\(k\\) is positive.\n\n\\(-m \\cdot k\\), where \\(m\\) is a negative integer and \\(k\\) is a positive integer: **Correct**\n\nThe \"\\(-\\)\" in front of \\(m\\) acts like a \\(-1\\) multiplier that flips the sign of \\(m\\), so \\(-m \\cdot k\\) is positive when \\(m\\) is negative and \\(k\\) is positive.\n\n\\(-k \\cdot m\\), where \\(m\\) is a negative integer and \\(k\\) is a positive integer: **Correct**\n\nThe \"\\(-\\)\" in front of \\(k\\) makes it negative; multiplied by a negative \\(m\\) yields a positive product."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM10",
+      "origin": "DOE_EXAM_D",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "\\[2x + 11 > 3x + 9\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x < 2\\)",
+        "B": "\\(x > 2\\)",
+        "C": "\\(x < 20\\)",
+        "D": "\\(x > 20\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_D/DM10.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "(A) Use inverse operations to isolate the variable \\(x\\) by first getting the \\(x\\) variable on one side.\n\n\\[2x + 11 > 3x + 9\\]\n\\[2x - 3x + 11 > 3x - 3x + 9\\]\n\\[-x + 11 > 9\\]\n\\[-x + 11 - 11 > 9 - 11\\]\n\\[-x > -2\\]\n\nNow, when dividing by \\(-1\\), the direction of the inequality sign changes.\n\n\\[-x > -2\\]\n\\[x < 2\\]\n\nAnother way to solve is to keep the coefficient of \\(x\\) positive and then recognizing that \\(2 > x\\) is the same as \\(x < 2\\)."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
