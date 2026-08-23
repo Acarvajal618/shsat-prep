@@ -892,6 +892,132 @@
         "exhibit_text": "(\\(6\\))\n\nDefine the variable:\n\nLet \\(w\\) represent the amount of money Marcus and Isla save per week.\n\nConstruct an equation:\n\nStart with $\\(8\\).\n\nMarcus and Isla save \\(w\\) each week for \\(3\\) weeks, which can be expressed as \\(3 \\cdot w\\) or \\(3w\\).\n\nThe total amount saved can be represented by the expression \\(8 + 3w\\).\n\nAfter \\(3\\) weeks, Marcus and Isla have $\\(26\\). This can be represented by the equation \\(8 + 3w = 26\\).\n\nSolve for \\(w\\):\n\n\\[8 + 3w = 26\\]\n\\[3w = 18\\]\n\\[w = 6\\]"
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM46",
+      "origin": "DOE_EXAM_D",
+      "q_number": 46,
+      "question_type": "drag_drop",
+      "question": "A company charges $\\(3.00\\) to ship a \\(4\\)-pound package. The cost includes a base fee of $\\(1.50\\) plus $\\(0.50\\) for each pound over the first pound. The table below illustrates how the cost depends on the total weight of the package. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.",
+      "dd_variant": "table",
+      "chips": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "9"
+      ],
+      "slots": [
+        {
+          "id": "s1",
+          "label": "Cost when Weight = 2 lb ($)",
+          "correct": "2"
+        },
+        {
+          "id": "s2",
+          "label": "Weight when Cost = $2.50 (lb)",
+          "correct": "3"
+        },
+        {
+          "id": "s3",
+          "label": "Cost when Weight = 6 lb ($)",
+          "correct": "4"
+        },
+        {
+          "id": "s4",
+          "label": "Weight when Cost = $5.50 (lb)",
+          "correct": "9"
+        }
+      ],
+      "source_screenshot": "Problems/EXAM_D/DM46.png",
+      "solution": {
+        "letter": null,
+        "exhibit_text": "The completed **SHIPPING COSTS** table:\n\n| Total Weight (pounds) | Total Cost to Ship (dollars) |\n|---|---|\n| 2 | 2 |\n| 3 | 2.50 |\n| 6 | 4 |\n| 9 | 5.50 |\n\nLet \\(x\\) represent the weight of the package in pounds. The first pound is included in the base fee of $\\(1.50\\), so \\((x - 1)\\) represents the number of pounds that cost $\\(0.50\\) each.\n\nThe cost equation can be written as \\(\\text{Cost} = \\$1.50 + \\$0.50(x - 1)\\).\n\n- The cost for a \\(2\\)-pound package is \\(\\$1.50 + \\$0.50(2 - 1) = \\$1.50 + \\$0.50(1) = \\$2.00\\).\n- The cost for a \\(6\\)-pound package is \\(\\$1.50 + \\$0.50(6 - 1) = \\$1.50 + \\$0.50(5) = \\$1.50 + \\$2.50 = \\$4.00\\).\n- The weight of a package that costs $\\(2.50\\) to ship can be found by solving\n\n\\[\\$2.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$1.00 = \\$0.50(x - 1)\\]\n\\[2 = x - 1\\]\n\\[x = 3 \\text{ pounds}\\]\n\n- The weight of a package that costs $\\(5.50\\) to ship can be found by solving\n\n\\[\\$5.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$4.00 = \\$0.50(x - 1)\\]\n\\[8 = x - 1\\]\n\\[x = 9 \\text{ pounds}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM47",
+      "origin": "DOE_EXAM_D",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "What shape will result from a horizontal slice of the figure above?",
+      "options": {
+        "A": "a square that has \\(2\\)-inch sides",
+        "B": "a triangle that has \\(2\\)-inch sides",
+        "C": "a rectangle that has a \\(2\\)-inch side and a \\(6\\)-inch side",
+        "D": "a triangle that has one \\(2\\)-inch side and two \\(6\\)-inch sides"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox='0 0 220 320' xmlns='http://www.w3.org/2000/svg' style='max-width:200px; margin: 0 auto; display: block;'><polygon points='60,80 140,50 140,290 60,320' fill='#fdfdfd' stroke='#111' stroke-width='1.4'/><polyline points='60,80 100,50 180,20' fill='none' stroke='#111' stroke-width='1.4'/><line x1='180' y1='20' x2='180' y2='260' stroke='#111' stroke-width='1.4'/><line x1='180' y1='260' x2='140' y2='290' stroke='#111' stroke-width='1.4'/><polyline points='100,50 100,74' fill='none' stroke='#111' stroke-width='1' stroke-dasharray='3 3'/><polyline points='68,73 76,73 76,81' fill='none' stroke='#111' stroke-width='0.8'/><polyline points='68,313 76,313 76,321' fill='none' stroke='#111' stroke-width='0.8'/><text x='190' y='150' font-family='Georgia,serif' font-size='13'>6 in.</text><text x='155' y='320' font-family='Georgia,serif' font-size='12'>2 in.</text><text x='95' y='340' font-family='Georgia,serif' font-size='12'>2 in.</text></svg>",
+      "source_screenshot": "Problems/EXAM_D/DM47.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_svg": "<svg viewBox='0 0 260 340' xmlns='http://www.w3.org/2000/svg' style='max-width:240px; margin: 0 auto; display: block;'><polygon points='80,80 160,50 160,290 80,320' fill='#fdfdfd' stroke='#111' stroke-width='1.4' stroke-dasharray='4 4'/><polyline points='80,80 120,50 200,20' fill='none' stroke='#111' stroke-width='1.4' stroke-dasharray='4 4'/><line x1='200' y1='20' x2='200' y2='260' stroke='#111' stroke-width='1.4' stroke-dasharray='4 4'/><line x1='200' y1='260' x2='160' y2='290' stroke='#111' stroke-width='1.4' stroke-dasharray='4 4'/><polygon points='80,200 160,170 200,140 120,170' fill='rgba(120,120,160,0.15)' stroke='#111' stroke-width='1.5'/><text x='215' y='150' font-family='Georgia,serif' font-size='13'>6 in.</text><text x='170' y='320' font-family='Georgia,serif' font-size='12'>2 in.</text><text x='115' y='340' font-family='Georgia,serif' font-size='12'>2 in.</text></svg>",
+        "exhibit_text": "(A) Based on the diagram, the figure shown is a right rectangular prism with a square base. A horizontal slice of the figure will be a plane parallel to the square base, as in the example.\n\nThe slice is a square with \\(2\\)-inch sides."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM48",
+      "origin": "DOE_EXAM_D",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "The perimeter of square \\(W\\) is twice the perimeter of equilateral triangle \\(X\\). What is the ratio of the length of one side of square \\(W\\) to the length of one side of equilateral triangle \\(X\\)?",
+      "options": {
+        "A": "\\(3:8\\)",
+        "B": "\\(2:3\\)",
+        "C": "\\(3:2\\)",
+        "D": "\\(2:1\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM48.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) First, set up the ratio of the perimeter of the square to the triangle as \\(2:1\\) because the question states that the perimeter of the square is twice the perimeter of the triangle.\n\nRecognizing that the square has \\(4\\) equal sides and that an equilateral triangle has \\(3\\) sides, use division to find the ratio of the sides.\n\nPerimeter: \\(2 : 1 = \\dfrac{2}{1}\\)\n\nSides: \\(\\dfrac{\\dfrac{2}{4}}{\\dfrac{1}{3}} = \\dfrac{2}{4} \\div \\dfrac{1}{3} = \\dfrac{2}{4} \\times \\dfrac{3}{1} = \\dfrac{6}{4} = \\dfrac{3}{2}\\)\n\nThe ratio of the length of one side of the square to the length of one side of the equilateral triangle is \\(3 : 2\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM49",
+      "origin": "DOE_EXAM_D",
+      "q_number": 49,
+      "question_type": "mc",
+      "question": "Anise has a piece of cloth measuring \\(45\\) inches by \\(75\\) inches. She wants to cut it into squares of equal size, without any cloth left over. What is the **greatest** possible side length, in inches, of one of those squares?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(5\\)",
+        "C": "\\(15\\)",
+        "D": "\\(45\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_D/DM49.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "(C) Given that each piece will be a square, the length and width will be the same. The greatest possible length can be determined by finding the greatest common factor of the length and width of the original piece of cloth.\n\nBegin by finding the prime factorization of the length (\\(75\\) in.) and width (\\(45\\) in.).\n\n\\[45 = 3 \\times 3 \\times 5\\]\n\\[75 = 3 \\times 5 \\times 5\\]\n\nThe common factors can be seen as \\(3 \\times 5\\).\n\nThe greatest possible side length, in inches, will be \\(3 \\times 5 = 15\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "DM50",
+      "origin": "DOE_EXAM_D",
+      "q_number": 50,
+      "question_type": "mc",
+      "question": "This table shows the number of birds that came to a bird feeder on Monday and Tuesday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BIRDS AT BIRD FEEDER</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Birds</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Monday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>30</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Tuesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>24</td></tr>\n</tbody></table>\n\nWhat was the percent decrease in the number of birds from Monday to Tuesday?",
+      "options": {
+        "A": "\\(6\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(24\\%\\)",
+        "D": "\\(25\\%\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_D/DM50.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "(B) To determine the percent decrease from Monday to Tuesday, first calculate the decrease in the number of birds at the feeder.\n\n\\[30 - 24 = 6\\]\n\nThe difference in the number of birds at the feeder divided by the number of birds on Monday will yield the percent decrease from Monday to Tuesday.\n\n\\[\\dfrac{6}{30} = 0.20\\]\n\n\\(0.20\\) represents \\(20\\%\\).\n\nThere was a \\(20\\%\\) decrease from Monday to Tuesday."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
