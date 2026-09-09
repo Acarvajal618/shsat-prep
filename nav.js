@@ -18,7 +18,7 @@
     { label: 'Practice',    href: 'index.html#practice',  match: [] },  // hash-only nav stays on index
     { label: 'Exam',        href: 'index.html#exam',      match: [] },
     { label: 'Prep',        href: 'prep.html',            match: ['prep.html', 'homework.html'] },
-    { label: 'Exams',       href: 'exams.html',           match: ['exams.html', 'exam-a.html', 'exam-b.html', 'exam-c.html', 'exam-d.html'] },
+    { label: 'Exams',       href: 'exams.html',           match: ['exams.html', 'exam-a.html', 'exam-b.html', 'exam-c.html', 'exam-d.html', 'exam-e.html', 'exam-f.html', 'exam-g.html', 'mastery-grid.html'] },
     { label: 'Trainers',    href: 'trainers.html',        match: ['trainers.html', 'trainer.html', 'percentage-trainer.html', 'ratio-trainer.html', 'word-equation-trainer.html', 'equation-cheatsheet.html'] },
     { label: 'My Progress', href: 'progress.html',        match: ['progress.html'] },
   ];

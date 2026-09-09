@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>📈 Mastery Grid</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .mg-page { max-width: 1100px; margin: 2rem auto; padding: 1rem; }
+    .mg-hero {
+      background: linear-gradient(135deg, #4c1d63 0%, var(--primary) 100%);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.75rem;
+      color: #fff;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 4px 16px rgba(192,38,211,0.18);
+    }
+    .mg-hero h1 { font-size: 1.4rem; margin: 0 0 0.3rem; font-weight: 800; }
+    .mg-hero p { margin: 0; opacity: 0.85; font-size: 0.9rem; }
+
+    .mg-controls {
+      display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+    .mg-chip {
+      font-size: 0.82rem; font-weight: 700; padding: 0.35rem 0.85rem;
+      border-radius: 999px; border: 1px solid var(--border); background: var(--surface);
+      color: var(--text-muted); cursor: pointer; user-select: none;
+    }
+    .mg-chip.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .mg-spacer { flex: 1; }
+    .mg-sort-btn {
+      font-size: 0.82rem; font-weight: 600; padding: 0.35rem 0.85rem;
+      border-radius: 999px; border: 1px solid var(--border); background: var(--surface);
+      color: var(--text); cursor: pointer;
+    }
+
+    .mg-summary {
+      font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.9rem;
+    }
+    .mg-summary strong { color: var(--primary); }
+
+    .mg-table-wrap {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      box-shadow: var(--shadow); overflow: auto; max-height: 75vh;
+    }
+    table.mg-table { border-collapse: separate; border-spacing: 0; font-size: 0.85rem; white-space: nowrap; }
+    .mg-table th, .mg-table td { padding: 0.45rem 0.7rem; border-bottom: 1px solid var(--border); text-align: center; }
+    .mg-table thead th {
+      position: sticky; top: 0; background: var(--surface); z-index: 2;
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+      color: var(--text-muted); border-bottom: 2px solid var(--border);
+    }
+    .mg-table th.mg-id-col, .mg-table td.mg-id-col {
+      position: sticky; left: 0; background: var(--surface); z-index: 1;
+      text-align: left; font-weight: 700; color: var(--text); border-right: 1px solid var(--border);
+    }
+    .mg-table thead th.mg-id-col { z-index: 3; }
+    .mg-table th.mg-streak-col, .mg-table td.mg-streak-col {
+      position: sticky; left: 90px; background: inherit; z-index: 1; border-right: 1px solid var(--border);
+    }
+    .mg-table thead th.mg-streak-col { background: var(--surface); z-index: 3; }
+
+    tr.mg-streak-0 td.mg-id-col, tr.mg-streak-0 td.mg-streak-col { background: var(--surface); }
+    tr.mg-streak-1 td.mg-id-col, tr.mg-streak-1 td.mg-streak-col { background: #eafbea; }
+    tr.mg-streak-2 td.mg-id-col, tr.mg-streak-2 td.mg-streak-col { background: #a8dab5; }
+    tr.mg-streak-3 td.mg-id-col, tr.mg-streak-3 td.mg-streak-col { background: var(--correct); color: #fff; }
+
+    .mg-pass { color: var(--correct); font-weight: 800; }
+    .mg-fail { color: var(--incorrect); font-weight: 800; }
+    .mg-blank { color: #d8cfe0; }
+    .mg-badge { font-size: 0.75rem; margin-left: 0.25rem; }
+
+    .mg-empty { padding: 2.5rem 1rem; text-align: center; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <div class="mg-page">
+    <div class="mg-hero">
+      <h1>📈 Mastery Grid</h1>
+      <p>Per-question proficiency across every exam. Streak of 3 in a row = mastered; one miss resets it.</p>
+    </div>
+
+    <div class="mg-controls" id="mg-chips"></div>
+    <div class="mg-summary" id="mg-summary"></div>
+    <div class="mg-table-wrap" id="mg-table-wrap">
+      <div class="mg-empty">Loading…</div>
+    </div>
+  </div>
+
+  <script>
+  (async function () {
+    const EXAM_LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+    const STREAK_TARGET = 3;
+
+    const wrap = document.getElementById('mg-table-wrap');
+    const chipsEl = document.getElementById('mg-chips');
+    const summaryEl = document.getElementById('mg-summary');
+
+    let proficiency = {};
+    let rows = []; // { id, exam }
+    let sortMode = 'streak'; // 'streak' | 'id'
+    let activeExam = 'all';
+
+    try {
+      const profRes = await fetch('data/proficiency.json?v=' + Date.now());
+      proficiency = await profRes.json();
+    } catch (e) {
+      console.error('failed to load proficiency.json', e);
+    }
+
+    const examResults = await Promise.allSettled(
+      EXAM_LETTERS.map(l => fetch(`exam_${l}/data.json?v=` + Date.now()).then(r => r.json()))
+    );
+
+    examResults.forEach((res, i) => {
+      if (res.status !== 'fulfilled') return;
+      const letter = EXAM_LETTERS[i];
+      const questions = (res.value && res.value.questions) || [];
+      questions.forEach(q => rows.push({ id: q.id, exam: letter }));
+    });
+
+    if (!rows.length) {
+      wrap.innerHTML = '<div class="mg-empty">No exam questions found.</div>';
+      return;
+    }
+
+    function streakFor(id) {
+      const entries = proficiency[id] || [];
+      let streak = 0;
+      for (let i = entries.length - 1; i >= 0; i--) {
+        if (entries[i].result === 'pass') streak++;
+        else break;
+      }
+      return Math.min(streak, STREAK_TARGET);
+    }
+
+    function allDates() {
+      const set = new Set();
+      Object.values(proficiency).forEach(entries => {
+        (entries || []).forEach(e => set.add(e.date));
+      });
+      return Array.from(set).sort();
+    }
+
+    function renderChips() {
+      const present = Array.from(new Set(rows.map(r => r.exam))).sort();
+      const chips = ['all', ...present];
+      chipsEl.innerHTML = chips.map(c => {
+        const label = c === 'all' ? 'All' : c.toUpperCase();
+        return `<span class="mg-chip${c === activeExam ? ' active' : ''}" data-exam="${c}">${label}</span>`;
+      }).join('') +
+        `<span class="mg-spacer"></span>` +
+        `<span class="mg-sort-btn" id="mg-sort-btn">Sort: ${sortMode === 'streak' ? 'Pain points first' : 'ID order'}</span>`;
+
+      chipsEl.querySelectorAll('.mg-chip').forEach(el => {
+        el.addEventListener('click', () => { activeExam = el.dataset.exam; render(); });
+      });
+      document.getElementById('mg-sort-btn').addEventListener('click', () => {
+        sortMode = sortMode === 'streak' ? 'id' : 'streak';
+        render();
+      });
+    }
+
+    function render() {
+      renderChips();
+      const dates = allDates();
+
+      let visible = activeExam === 'all' ? rows.slice() : rows.filter(r => r.exam === activeExam);
+      const withStreak = visible.map(r => ({ ...r, streak: streakFor(r.id) }));
+
+      withStreak.sort((a, b) => {
+        if (sortMode === 'streak') {
+          if (a.streak !== b.streak) return a.streak - b.streak;
+          return a.id.localeCompare(b.id);
+        }
+        return a.id.localeCompare(b.id);
+      });
+
+      const painPoints = withStreak.filter(r => r.streak === 0).length;
+      summaryEl.innerHTML = `<strong>${withStreak.length}</strong> questions shown &middot; ` +
+        `<strong>${painPoints}</strong> at streak 0 (never graded or last attempt missed)`;
+
+      const head = `<tr>
+          <th class="mg-id-col">ID</th>
+          <th class="mg-streak-col">Streak</th>
+          ${dates.map(d => `<th>${d.slice(5)}</th>`).join('')}
+        </tr>`;
+
+      const body = withStreak.map(r => {
+        const entries = proficiency[r.id] || [];
+        const byDate = {};
+        entries.forEach(e => { byDate[e.date] = e.result; });
+        const badge = r.streak >= STREAK_TARGET ? ' <span class="mg-badge">⭐</span>' : '';
+        const cells = dates.map(d => {
+          const res = byDate[d];
+          if (res === 'pass') return '<td class="mg-pass">✓</td>';
+          if (res === 'fail') return '<td class="mg-fail">✗</td>';
+          return '<td class="mg-blank">·</td>';
+        }).join('');
+        return `<tr class="mg-streak-${r.streak}">
+            <td class="mg-id-col">${r.id}${badge}</td>
+            <td class="mg-streak-col">${r.streak}/${STREAK_TARGET}</td>
+            ${cells}
+          </tr>`;
+      }).join('');
+
+      wrap.innerHTML = `<table class="mg-table"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+    }
+
+    render();
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+{
+  "_schema": {
+    "description": "Practice Test E — Math section (in progress). Sourced from the Kaplan “Learn with Atom” online practice-test simulator, not the NYC DOE exam booklets used for A–D.",
+    "id_format": "EM<NN>",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "EM01",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "If 5,000 children were surveyed, how many have bedtimes that are 10:30 p.m. or earlier, according to the circle graph above?",
+      "options": {
+        "A": "53",
+        "B": "1,350",
+        "C": "2,650",
+        "D": "3,600"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 220 245\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"110\" y=\"16\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#222\">WEEKNIGHT BEDTIMES, AGE 11</text><g transform=\"translate(0,20)\"><path d=\"M110,110 L110.0,15.0 A95,95 0 0 1 204.8,116.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L204.8,116.0 A95,95 0 0 1 170.6,183.2 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L170.6,183.2 A95,95 0 0 1 92.2,203.3 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L92.2,203.3 A95,95 0 0 1 16.7,127.8 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L16.7,127.8 A95,95 0 0 1 110.0,15.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"152.9\" y=\"69.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"152.9\" dy=\"0\" font-weight=\"700\">26%</tspan><tspan x=\"152.9\" dy=\"12\">10:30 p.m.</tspan></text><text x=\"162.5\" y=\"136.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"162.5\" dy=\"0\" font-weight=\"700\">13%</tspan><tspan x=\"162.5\" dy=\"12\">10 p.m.</tspan></text><text x=\"124.6\" y=\"167.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"124.6\" dy=\"0\" font-weight=\"700\">14%</tspan><tspan x=\"124.6\" dy=\"12\">Earlier than</tspan><tspan x=\"124.6\" dy=\"12\">10 p.m.</tspan></text><text x=\"68.4\" y=\"151.6\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"68.4\" dy=\"0\" font-weight=\"700\">19%</tspan><tspan x=\"68.4\" dy=\"12\">No bedtime</tspan></text><text x=\"64.6\" y=\"72.5\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"64.6\" dy=\"0\" font-weight=\"700\">28%</tspan><tspan x=\"64.6\" dy=\"12\">11 p.m. or later</tspan></text></g></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM01.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Read the question carefully—\"10:30 p.m. or earlier\" includes 10:30 p.m., 10 p.m., and earlier than 10 p.m. Refer to the circle graph to find the percentages: 26% + 13% + 14% = 53% of the children surveyed have bedtimes that are 10:30 p.m. or earlier. Finally, find 53% of 5,000.\n\n\\[\\dfrac{53}{100} \\times 5{,}000 = \\dfrac{265{,}000}{100} = 2{,}650\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM02",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "What is the circumference of the circle inscribed in the square above?",
+      "options": {
+        "A": "\\(2\\pi\\)",
+        "B": "\\(3\\pi\\)",
+        "C": "\\(6\\pi\\)",
+        "D": "\\(9\\pi\\)"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 140 120\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><circle cx=\"60\" cy=\"60\" r=\"50\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"122\" y=\"64\" font-size=\"13\" fill=\"#222\">6</text></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM02.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Recall that the circumference of a circle is \\(\\pi\\) times its diameter. If the circle is inscribed in a square with a side length of 6, it must have a diameter of 6. Therefore, the circle has a circumference of \\(6\\pi\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM03",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 3,
+      "question_type": "grid_in",
+      "question": "For what value of \\(s\\) is \\(\\dfrac{249-s}{14} = 17\\)?",
+      "grid_answer": "11",
+      "source_screenshot": "Problems/EXAM_E/EM03.png",
+      "solution": {
+        "letter": "11",
+        "exhibit_text": "Isolate the variable, paying careful attention to signs.\n\n\\[\\dfrac{249-s}{14} = 17\\]\n\\[249 - s = 238\\]\n\\[-s = -11\\]\n\\[s = 11\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM04",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "In the figure described above, ABCD is a rectangle with length 12 cm and width 8 cm. Points W, X, Y, and Z are the midpoints of the sides. What is the area of the shaded quadrilateral?",
+      "options": {
+        "A": "24 sq cm",
+        "B": "32 sq cm",
+        "C": "48 sq cm",
+        "D": "60 sq cm"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 175 135\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"80\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><polygon points=\"80,20 140,60 80,100 20,60\" fill=\"#ccc\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"14\" y=\"16\" font-size=\"11\">A</text><text x=\"80\" y=\"16\" font-size=\"11\" text-anchor=\"middle\">W</text><text x=\"144\" y=\"16\" font-size=\"11\">B</text><text x=\"144\" y=\"56\" font-size=\"11\">X</text><text x=\"144\" y=\"112\" font-size=\"11\">C</text><text x=\"80\" y=\"114\" font-size=\"11\" text-anchor=\"middle\">Y</text><text x=\"10\" y=\"112\" font-size=\"11\">D</text><text x=\"6\" y=\"56\" font-size=\"11\">Z</text><text x=\"80\" y=\"128\" font-size=\"11\" text-anchor=\"middle\">12 cm</text><text x=\"146\" y=\"75\" font-size=\"11\">8 cm</text></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM04.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Since W, X, Y, and Z are the midpoints of the rectangle's sides, drawing a vertical line connecting the top and bottom midpoints and a horizontal line connecting the side midpoints creates 4 congruent rectangles. Each rectangle consists of 2 identical triangles with a base of \\(12 \\div 2 = 6\\) cm and a height of \\(8 \\div 2 = 4\\) cm.\n\nBecause there are 8 identical triangles and exactly 4 of them are shaded, the area of the shaded area is half the area of the rectangle. The area of the rectangle is the length times the width, which is \\(12 \\text{ cm} \\times 8 \\text{ cm} = 96\\) sq cm. Therefore, the area of the shaded quadrilateral is \\(\\dfrac{1}{2} \\times 96 = 48\\) sq cm."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM05",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "What is the distance from the midpoint of \\(PQ\\) to the midpoint of \\(RS\\) on the number line above?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 370 65\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"25\" y1=\"38\" x2=\"345\" y2=\"38\" stroke=\"#222\" stroke-width=\"1.5\" marker-end=\"url(#arrE5)\" marker-start=\"url(#arrS5)\"/><defs><marker id=\"arrE5\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#222\"/></marker><marker id=\"arrS5\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8 Z\" fill=\"#222\"/></marker></defs><line x1=\"30.0\" y1=\"34\" x2=\"30.0\" y2=\"42\" stroke=\"#222\"/><text x=\"30.0\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-12</text><line x1=\"58.2\" y1=\"34\" x2=\"58.2\" y2=\"42\" stroke=\"#222\"/><text x=\"58.2\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-10</text><line x1=\"86.4\" y1=\"34\" x2=\"86.4\" y2=\"42\" stroke=\"#222\"/><text x=\"86.4\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-8</text><line x1=\"114.5\" y1=\"34\" x2=\"114.5\" y2=\"42\" stroke=\"#222\"/><text x=\"114.5\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-6</text><line x1=\"142.7\" y1=\"34\" x2=\"142.7\" y2=\"42\" stroke=\"#222\"/><text x=\"142.7\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-4</text><line x1=\"170.9\" y1=\"34\" x2=\"170.9\" y2=\"42\" stroke=\"#222\"/><text x=\"170.9\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-2</text><line x1=\"199.1\" y1=\"34\" x2=\"199.1\" y2=\"42\" stroke=\"#222\"/><text x=\"199.1\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">0</text><line x1=\"227.3\" y1=\"34\" x2=\"227.3\" y2=\"42\" stroke=\"#222\"/><text x=\"227.3\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">2</text><line x1=\"255.5\" y1=\"34\" x2=\"255.5\" y2=\"42\" stroke=\"#222\"/><text x=\"255.5\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">4</text><line x1=\"283.6\" y1=\"34\" x2=\"283.6\" y2=\"42\" stroke=\"#222\"/><text x=\"283.6\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">6</text><line x1=\"311.8\" y1=\"34\" x2=\"311.8\" y2=\"42\" stroke=\"#222\"/><text x=\"311.8\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">8</text><line x1=\"340.0\" y1=\"34\" x2=\"340.0\" y2=\"42\" stroke=\"#222\"/><text x=\"340.0\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">10</text><text x=\"30.0\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">P</text><line x1=\"30.0\" y1=\"24\" x2=\"30.0\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/><text x=\"170.9\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">Q</text><line x1=\"170.9\" y1=\"24\" x2=\"170.9\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/><text x=\"213.2\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">R</text><line x1=\"213.2\" y1=\"24\" x2=\"213.2\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/><text x=\"325.9\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">S</text><line x1=\"325.9\" y1=\"24\" x2=\"325.9\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM05.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To find the midpoint of a segment on the number line, add the coordinates of the two endpoints and then divide the sum by 2. So, the midpoint of \\(PQ\\) is \\(\\dfrac{(-12)+(-2)}{2} = \\dfrac{-14}{2} = -7\\). The midpoint of \\(RS\\) is \\(\\dfrac{1+9}{2} = \\dfrac{10}{2} = 5\\). The distance between the two points is the positive difference between their coordinates, or \\(5 - (-7) = 12\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM06",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "What is the value of the expression shown below?\n\\[200(1-0.4)^2+28=\\]",
+      "options": {
+        "A": "100",
+        "B": "196",
+        "C": "5,672",
+        "D": "14,428"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM06.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Evaluate the expression using PEMDAS. First, perform the subtraction inside the parentheses: \\(1 - 0.4 = 0.6\\). Square the result: \\((0.6)^2 = 0.36\\). Multiply the result by 200: \\(200(0.36) = 72\\). Finally, add 28: \\(72 + 28 = 100\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM07",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are **not** from New York?",
+      "options": {
+        "A": "\\(\\dfrac{12}{35}\\)",
+        "B": "\\(\\dfrac{7}{13}\\)",
+        "C": "\\(\\dfrac{4}{7}\\)",
+        "D": "\\(\\dfrac{6}{7}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM07.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Since Erin does not replace the coins, you must pay careful attention to the number of coins each time she chooses a coin. The total number of quarters in the box to start is \\(6+4+2+3=15\\). The number of quarters that are not from New York is \\(4+2+3=9\\).\n\nThe probability that the first quarter is not from New York is \\(\\dfrac{9}{15}\\), or \\(\\dfrac{3}{5}\\). Now, out of the 14 remaining quarters, there are 8 quarters left that are not from New York. The probability that the second quarter is not from New York is \\(\\dfrac{8}{14}\\), or \\(\\dfrac{4}{7}\\).\n\nMultiply these two probabilities to find the probability that both coins are not from New York:\n\n\\[\\dfrac{3}{5} \\times \\dfrac{4}{7} = \\dfrac{12}{35}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM08",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 8,
+      "question_type": "mc_multi",
+      "question": "At a coffee shop, 24 pastries were served yesterday to 200 breakfast customers. Today, 18 pastries were served to breakfast customers. Assuming that the pastry sale rate is the same for both days, which proportions can be used to determine how many breakfast customers were served today?\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{24}{x} = \\dfrac{200}{18}\\)",
+        "B": "\\(\\dfrac{200}{24} = \\dfrac{x}{18}\\)",
+        "C": "\\(\\dfrac{24}{200} = \\dfrac{18}{x}\\)",
+        "D": "\\(\\dfrac{24}{18} = \\dfrac{200}{x}\\)",
+        "E": "\\(\\dfrac{x}{24} = \\dfrac{18}{200}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source_screenshot": "Problems/EXAM_E/EM08.png",
+      "solution": {
+        "letter": "B, C, D",
+        "exhibit_text": "Let \\(x\\) be the number of breakfast customers served today. The ratio \\(\\dfrac{24 \\text{ pastries}}{200 \\text{ customers}}\\) reflects the rate of 24 pastries for 200 customers yesterday. Set up a proportion to solve for \\(x\\), keeping pastries in the numerators and customers in the denominators: \\(\\dfrac{24 \\text{ pastries}}{200 \\text{ customers}} = \\dfrac{18 \\text{ pastries}}{x \\text{ customers}}\\). This proportion matches (C). Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((24)(x) = (200)(18)\\).\n\n(A): \\((24)(18) = (x)(200)\\) is not equivalent to \\((24)(x)=(200)(18)\\); eliminate.\n(B): \\((200)(18) = (24)(x)\\) is equivalent to \\((24)(x)=(200)(18)\\); correct.\n(D): \\((24)(x) = (18)(200)\\) is equivalent to \\((24)(x)=(200)(18)\\); correct.\n(E): \\((x)(200) = (24)(18)\\) is not equivalent to \\((24)(x)=(200)(18)\\); eliminate."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM09",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "In the set of consecutive integers from 10 to 40, inclusive, how many integers are multiples of neither 3 nor 4?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM09.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "There are \\(40 - 10 + 1 = 31\\) integers between 10 and 40, inclusive. You must add 1 because simply subtracting \\(40-10\\) gives the numbers *between* the two endpoints of 10 and 40. Here, you are told that the endpoints are included. To determine the number of integers that are multiples of neither 3 nor 4, determine the number of integers that *are* multiples of 3, 4, or both, and subtract this from the total of 31.\n\nA number is a multiple of 3 if it is divisible by 3, so the multiples of 3 between 10 and 40, inclusive, are 12, 15, 18, 21, 24, 27, 30, 33, 36, and 39. There are 10 numbers in this list. Using similar logic, the multiples of 4 between 10 and 40, inclusive, are 12, 16, 20, 24, 28, 32, 36, and 40. There are 8 numbers in this list. However, observe that the numbers 12, 24, and 36 appear on both lists. Therefore, there are \\(10+8-3=15\\) numbers that are multiples of 3, 4, or both.\n\nThus, there are \\(31-15=16\\) integers between 10 and 40 inclusive that are multiples of neither 3 nor 4."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM10",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "In pentagon ABCDE shown above, each side is 1 centimeter. If a particle starts at point A and travels clockwise 723 centimeters along ABCDE, at which point will the particle stop?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "D",
+      "figure_svg": "<svg viewBox=\"0 0 170 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"27.9,76.5 85.0,35.0 142.1,76.5 120.3,143.5 49.7,143.5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"13.9\" y=\"74.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">A</text><text x=\"85.0\" y=\"21.0\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">B</text><text x=\"156.1\" y=\"74.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">C</text><text x=\"134.3\" y=\"159.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">D</text><text x=\"33.7\" y=\"159.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">E</text></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM10.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "If the particle travels from A to B to C to D to E and then back to A, it has traveled 5 centimeters, since each side of the pentagon measures 1 centimeter. If it goes all the way around the pentagon again, it has traveled another 5 centimeters, for a total of 10 centimeters. In fact, every time the particle makes a complete revolution around the pentagon (from point A back to point A again), it travels an additional 5 centimeters. So, if the number of centimeters the particle has traveled is a multiple of 5, the particle must be at point A. The number 723 is 3 more than a multiple of 5. If the particle had gone 720 centimeters it would be at point A; since it has gone 3 more centimeters, it must be at point D."
+      },
+      "transcription_status": "verbatim_verified"
+    }
+  ]
+}
