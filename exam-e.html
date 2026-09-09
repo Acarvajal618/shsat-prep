@@ -539,7 +539,7 @@
       const body = document.getElementById('tn-exhibit-body');
       let html = '';
       if (q.solution.exhibit_svg) {
-        html += `<div style="margin-bottom:12px;">${q.solution.exhibit_svg}</div>`;
+        html += `<div style="margin-bottom:12px;max-width:320px;"><style>.tn-exhibit-svg-wrap svg{width:100%;height:auto;}</style><div class="tn-exhibit-svg-wrap">${q.solution.exhibit_svg}</div></div>`;
       }
       html += esc(q.solution.exhibit_text);
       body.innerHTML = html;

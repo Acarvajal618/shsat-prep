@@ -404,6 +404,214 @@
         "exhibit_text": "Because it's easiest to compare these quantities if you have numbers instead of variables, pick a simple number to substitute for \\(Q\\), like 2. Take each piece of the equation at a time and solve for each of the answer choices:\n\n\\[Q=\\dfrac{R}{3} \\Rightarrow 2=\\dfrac{R}{3} \\Rightarrow R=6\\]\n\\[Q=S-6 \\Rightarrow 2=S-6 \\Rightarrow S=8\\]\n\\[Q=7T \\Rightarrow 2=7T \\Rightarrow T=\\dfrac{2}{7}\\]\n\\[Q=\\dfrac{U}{10} \\Rightarrow 2=\\dfrac{U}{10} \\Rightarrow U=20\\]\n\nThe only fraction and thus the smallest number is \\(T\\)."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM21",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "At summer camp, campers are randomly assigned to one of 25 cabins and one of 4 cafeterias. Josef likes 8 of the cabins and 2 of the cafeterias. What is the probability that he is assigned to both a cabin and a cafeteria that he likes?",
+      "options": {
+        "A": "16%",
+        "B": "20%",
+        "C": "34%",
+        "D": "82%"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM21.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To find the probability that Josef likes *both* the cabin and the cafeteria he is assigned, find the probability of each and multiply the results. The probability that he will be assigned one of the 8 out of 25 cabins that he likes is \\(\\dfrac{8}{25}\\), and the probability that he will be assigned one of the 2 out of 4 cafeterias that he likes is \\(\\dfrac{2}{4}\\). The product is \\(\\dfrac{8}{25} \\times \\dfrac{2}{4} = \\dfrac{16}{100}\\), or 16%."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM22",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "Over a one-month period, a software team is assigned a total of 250 tasks for a new application. The table above shows the first three phases of tasks within the larger project. What percentage of the 250 tasks is the **total** number of tasks in these first three phases?",
+      "options": {
+        "A": "18.0%",
+        "B": "18.4%",
+        "C": "20.4%",
+        "D": "24.0%"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox=\"0 0 260 110\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"8\" y=\"16\" font-size=\"12\" font-weight=\"700\">PROJECT MILESTONES</text><g transform=\"translate(8,26)\" font-size=\"11\"><rect x=\"0\" y=\"0\" width=\"244\" height=\"72\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"72\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"18\" x2=\"244\" y2=\"18\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"36\" x2=\"244\" y2=\"36\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"54\" x2=\"244\" y2=\"54\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"6\" y=\"13\" font-weight=\"700\">Phase</text><text x=\"58\" y=\"13\" font-weight=\"700\">Tasks Assigned</text><text x=\"6\" y=\"31\">I</text><text x=\"58\" y=\"31\">1-12, inclusive</text><text x=\"6\" y=\"49\">II</text><text x=\"58\" y=\"49\">20-34, inclusive</text><text x=\"6\" y=\"67\">III</text><text x=\"58\" y=\"67\">42-60, inclusive</text></g></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM22.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find the percentage, you must first calculate the total number of tasks in the three phases and then divide by the total project size. Because the ranges are inclusive, use the formula End − Start + 1.\n\nPhase I: \\((12-1)+1=12\\)\nPhase II: \\((34-20)+1=15\\)\nPhase III: \\((60-42)+1=19\\)\n\nThus, the total number of tasks for these three phases is \\(12+15+19=46\\). Use \\(\\text{Percent}=\\dfrac{\\text{Part}}{\\text{Whole}}\\times 100\\%\\) to calculate the percentage:\n\n\\[\\dfrac{46}{250}\\times 100\\% = \\dfrac{46}{250}\\times\\dfrac{4}{4}\\times 100\\%\\]\n\\[=\\dfrac{184}{1{,}000}\\times 100\\%\\]\n\\[=\\dfrac{184}{10}\\%\\]\n\\[=18.4\\%\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM23",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "How many negative **odd** numbers satisfy the inequality \\(4x+100 \\ge 20\\)?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "19",
+        "D": "20"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM23.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Solve the inequality for \\(x\\). To do this, subtract 100 from both sides of the inequality and then divide both sides by 4.\n\n\\[4x+100 \\ge 20\\]\n\\[4x \\ge -80\\]\n\\[x \\ge -20\\]\n\nDon't answer too quickly—the answer isn't 19 or 20. List the negative **odd** numbers that are greater than or equal to \\(-20\\). The set includes \\(-19, -17, -15, -13, -11, -9, -7, -5, -3\\), and \\(-1\\). There are 10 of them."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM24",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "The perimeter of a square A is three times the perimeter of an equilateral triangle B. What is the ratio of the length of one side of square A to the length of one side of equilateral triangle B?",
+      "options": {
+        "A": "3 : 4",
+        "B": "4 : 1",
+        "C": "4 : 9",
+        "D": "9 : 4"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM24.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To find the ratio of the side lengths, set up an algebraic relationship based on the perimeters. The perimeter of a square with side \\(s_A\\) is \\(4s_A\\), and the perimeter of an equilateral triangle with side \\(s_B\\) is \\(3s_B\\). Translating \"the perimeter of the square is three times the perimeter of the triangle\" into math gives \\(4s_A = 3(3s_B)\\), which simplifies to \\(4s_A = 9s_B\\). Obtain the ratio of the side lengths \\(\\dfrac{s_A}{s_B}\\) by dividing both sides by 4 and then by \\(s_B\\):\n\n\\[\\dfrac{s_A}{s_B} = \\dfrac{9s_B}{4} \\Big/ s_B\\]\n\\[\\dfrac{s_A}{s_B} = \\dfrac{9}{4}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM25",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "Point P is **not** on line \\(m\\). How many lines can be drawn through P that form a \\(90\\degree\\) angle with line \\(m\\)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Cannot be determined from the information given."
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM25.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Draw a picture to better visualize the situation.\n\nAs you can see, a line drawn from P perpendicular to line \\(m\\) will create two \\(90\\degree\\) angles. However, a line drawn anywhere else will no longer be perpendicular and therefore will not create any \\(90\\degree\\) angles, so only one line meets the conditions of the question.",
+        "exhibit_svg": "<svg viewBox=\"0 0 150 80\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"10\" y1=\"60\" x2=\"140\" y2=\"60\" stroke=\"#222\" stroke-width=\"1.5\" marker-end=\"url(#a25)\"/><defs><marker id=\"a25\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#222\"/></marker></defs><line x1=\"60\" y1=\"15\" x2=\"60\" y2=\"60\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"55\" y=\"52\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#222\"/><text x=\"55\" y=\"12\" font-size=\"12\" font-weight=\"700\">P</text><text x=\"144\" y=\"64\" font-size=\"12\">m</text></svg>"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM26",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 26,
+      "question_type": "mc",
+      "question": "If Morgan drove 247 miles between 9:15 a.m. and 12:30 p.m. on the same day, what was her average speed in miles per hour?",
+      "options": {
+        "A": "60",
+        "B": "63",
+        "C": "67",
+        "D": "76"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM26.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Start by finding out how long Morgan drove by counting the number of hours and quarter hours. Going from 9:15 a.m. to 12:15 p.m. is 3 hours, and from 12:15 to 12:30 is one quarter of an hour. Thus, Morgan's total driving time was 3.25 hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(247 \\div 3.25 = 76\\). To make the division easier, you may want to divide 24,700 by 325.\n\nAlternatively, you can use Backsolving. Start with (C). You are looking for a number that will get you to 247 when multiplied by 3.25: \\(3.25 \\times 67 = 217.75\\). This is too small, and since (A) and (B) are smaller, you can also eliminate them, leaving only choice (D)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM27",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "A particular brand of asphalt used to pave driveways is made by mixing the following ingredients: 1 part asphalt cement, 12 parts sand, 4 parts gravel, and 3 parts porous stone. Covering one driveway requires 200 cubic feet of this asphalt. How many total cubic feet of sand are required to cover 6 identical driveways?",
+      "options": {
+        "A": "100",
+        "B": "120",
+        "C": "360",
+        "D": "720"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM27.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Start by finding the total number of parts represented by the mixture. The ratio is 1:12:4:3, so the total number of parts is 20. Since there are 12 parts sand, the fraction of sand is:\n\n\\[\\dfrac{12}{20} = \\dfrac{3}{5}\\]\n\nThus, the amount of sand in 200 cubic feet of asphalt (for 1 driveway) is:\n\n\\[\\dfrac{3}{5} \\times 200 = 120 \\text{ cubic feet}\\]\n\nTo cover 6 identical driveways, that would be \\(120 \\times 6 = 720\\) cubic feet."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM28",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "Which graph represents the solution to \\(|x-2| \\le 3\\)?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "D",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><g transform=\"translate(0,0)\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"20.0\" y1=\"22\" x2=\"320.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"18\" x2=\"20.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"20.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-6</text><line x1=\"45.0\" y1=\"18\" x2=\"45.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"70.0\" y1=\"18\" x2=\"70.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"70.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"95.0\" y1=\"18\" x2=\"95.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"145.0\" y1=\"18\" x2=\"145.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"18\" x2=\"170.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"170.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"195.0\" y1=\"18\" x2=\"195.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"220.0\" y1=\"18\" x2=\"220.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"220.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"245.0\" y1=\"18\" x2=\"245.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"18\" x2=\"270.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"295.0\" y1=\"18\" x2=\"295.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"18\" x2=\"320.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"320.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">6</text><path d=\"M18.0,18 L11.0,22 L18.0,26 Z\" fill=\"#999\"/><path d=\"M322.0,18 L329.0,22 L322.0,26 Z\" fill=\"#999\"/><line x1=\"11.0\" y1=\"22\" x2=\"45.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M18.0,17 L10.0,22 L18.0,27 Z\" fill=\"#222\"/><line x1=\"195.0\" y1=\"22\" x2=\"329.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M322.0,17 L330.0,22 L322.0,27 Z\" fill=\"#222\"/><circle cx=\"45.0\" cy=\"22\" r=\"4\" fill=\"#222\"/><circle cx=\"195.0\" cy=\"22\" r=\"4\" fill=\"#222\"/></g><g transform=\"translate(0,0)\"><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"20.0\" y1=\"67\" x2=\"320.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"63\" x2=\"20.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"20.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-6</text><line x1=\"45.0\" y1=\"63\" x2=\"45.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"70.0\" y1=\"63\" x2=\"70.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"70.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"95.0\" y1=\"63\" x2=\"95.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"63\" x2=\"120.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"145.0\" y1=\"63\" x2=\"145.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"63\" x2=\"170.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"170.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"195.0\" y1=\"63\" x2=\"195.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"220.0\" y1=\"63\" x2=\"220.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"220.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"245.0\" y1=\"63\" x2=\"245.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"63\" x2=\"270.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"295.0\" y1=\"63\" x2=\"295.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"63\" x2=\"320.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"320.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">6</text><path d=\"M18.0,63 L11.0,67 L18.0,71 Z\" fill=\"#999\"/><path d=\"M322.0,63 L329.0,67 L322.0,71 Z\" fill=\"#999\"/><line x1=\"11.0\" y1=\"67\" x2=\"145.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M18.0,62 L10.0,67 L18.0,72 Z\" fill=\"#222\"/><line x1=\"295.0\" y1=\"67\" x2=\"329.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M322.0,62 L330.0,67 L322.0,72 Z\" fill=\"#222\"/><circle cx=\"145.0\" cy=\"67\" r=\"4\" fill=\"#222\"/><circle cx=\"295.0\" cy=\"67\" r=\"4\" fill=\"#222\"/></g><g transform=\"translate(0,0)\"><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"20.0\" y1=\"112\" x2=\"320.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"108\" x2=\"20.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"20.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-6</text><line x1=\"45.0\" y1=\"108\" x2=\"45.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"70.0\" y1=\"108\" x2=\"70.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"70.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"95.0\" y1=\"108\" x2=\"95.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"108\" x2=\"120.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"145.0\" y1=\"108\" x2=\"145.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"108\" x2=\"170.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"170.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"195.0\" y1=\"108\" x2=\"195.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"220.0\" y1=\"108\" x2=\"220.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"220.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"245.0\" y1=\"108\" x2=\"245.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"108\" x2=\"270.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"295.0\" y1=\"108\" x2=\"295.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"108\" x2=\"320.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"320.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">6</text><path d=\"M18.0,108 L11.0,112 L18.0,116 Z\" fill=\"#999\"/><path d=\"M322.0,108 L329.0,112 L322.0,116 Z\" fill=\"#999\"/><line x1=\"45.0\" y1=\"112\" x2=\"195.0\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"45.0\" cy=\"112\" r=\"4\" fill=\"#222\"/><circle cx=\"195.0\" cy=\"112\" r=\"4\" fill=\"#222\"/></g><g transform=\"translate(0,0)\"><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"20.0\" y1=\"157\" x2=\"320.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"153\" x2=\"20.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"20.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-6</text><line x1=\"45.0\" y1=\"153\" x2=\"45.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"70.0\" y1=\"153\" x2=\"70.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"70.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"95.0\" y1=\"153\" x2=\"95.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"153\" x2=\"120.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"145.0\" y1=\"153\" x2=\"145.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"153\" x2=\"170.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"170.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"195.0\" y1=\"153\" x2=\"195.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"220.0\" y1=\"153\" x2=\"220.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"220.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"245.0\" y1=\"153\" x2=\"245.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"153\" x2=\"270.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"295.0\" y1=\"153\" x2=\"295.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"153\" x2=\"320.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"320.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">6</text><path d=\"M18.0,153 L11.0,157 L18.0,161 Z\" fill=\"#999\"/><path d=\"M322.0,153 L329.0,157 L322.0,161 Z\" fill=\"#999\"/><line x1=\"145.0\" y1=\"157\" x2=\"295.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"145.0\" cy=\"157\" r=\"4\" fill=\"#222\"/><circle cx=\"295.0\" cy=\"157\" r=\"4\" fill=\"#222\"/></g></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM28.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Absolute value makes the output positive by ignoring the sign of the number. This means that the input can be either positive or negative. Thus, \\(|x-2| \\le 3\\) implies both \\(x-2 \\le 3\\) and \\(-(x-2) \\le 3\\).\n\nRewriting the second inequality gives \\(x-2 \\ge -3\\). Remember that the inequality sign flips when dividing or multiplying by a negative. Solve the first inequality for \\(x\\):\n\n\\[x-2 \\le 3\\]\n\\[x \\le 3+2\\]\n\\[x \\le 5\\]\n\nSolve the second inequality for \\(x\\):\n\n\\[x-2 \\ge -3\\]\n\\[x \\ge -3+2\\]\n\\[x \\ge -1\\]\n\nThus, \\(-1 \\le x \\le 5\\). Since the symbol is \\(\\le\\) (inclusive), use solid (closed) circles at \\(-1\\) and \\(5\\). The variable \\(x\\) is between \\(-1\\) and \\(5\\), so the line segment connecting these two points should be shaded.\n\nAlternatively, use Backsolving. Since 0 is a solution for (C) and (D) but not in (A) and (B), let \\(x=0\\). When \\(x\\) is 0, \\(|-2|\\le 3\\) is true. Thus, eliminate (A) and (B). Now, let \\(x=4\\). When \\(x\\) is 4, \\(|4-2|\\le 3\\) is true. Thus, (D) is correct."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM29",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "A cafe sells 1-gallon jugs of iced tea for $4.50. The cafe also sells lemonade in a 4-pack of 12-fluid-ounce bottles for $3.30.\nSuppose the cafe wants to sell its lemonade in gallon containers instead. To the nearest dollar, how much more would a gallon of lemonade cost than a gallon of iced tea? (Note: 1 gallon = 128 fluid ounces).",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_E/EM29.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Find how much more a gallon of lemonade would cost than a gallon of iced tea. A gallon of iced tea costs $4.50, and a 4-pack of 12-fluid-ounce bottles of lemonade costs $3.30.\n\nLemonade comes in a 4-pack of 12-fluid-ounce bottles. This means that \\(4 \\times 12 = 48\\) fluid ounces cost $3.30. A gallon contains 128 fluid ounces. Let \\(x\\) represent the price of 128 fluid ounces. Set up a proportion and cross-multiply to solve for \\(x\\):\n\n\\[\\dfrac{48 \\text{ ounces}}{\\$3.30} = \\dfrac{128 \\text{ ounces}}{\\$x}\\]\n\\[48x = 128 \\times 3.30\\]\n\\[x = \\dfrac{128 \\times 3.30}{48} = \\$8.80\\]\n\nFinally, subtract the two prices: \\(\\$8.80 - \\$4.50 = \\$4.30\\). This is closest to 4, so (C) is correct."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM30",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 30,
+      "question_type": "mc_multi",
+      "question": "Which of the following numbers has factors that include the smallest factor (other than 1) of 119?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "19",
+        "B": "27",
+        "C": "35",
+        "D": "40",
+        "E": "63"
+      },
+      "n_correct": 2,
+      "correct": [
+        "C",
+        "E"
+      ],
+      "source_screenshot": "Problems/EXAM_E/EM30.png",
+      "solution": {
+        "letter": "C, E",
+        "exhibit_text": "Begin by listing the factors of 119: 1, 7, 17, and 119. The smallest factor (other than 1) is 7. Of the options listed (19, 27, 35, 40, and 63), only 35 \\((5\\times7)\\) and 63 \\((9\\times7)\\) have a factor of 7."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
