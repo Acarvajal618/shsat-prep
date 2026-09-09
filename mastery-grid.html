@@ -68,7 +68,7 @@
 
     .mg-pass { color: var(--correct); font-weight: 800; }
     .mg-fail { color: var(--incorrect); font-weight: 800; }
-    .mg-blank { color: #d8cfe0; }
+    .mg-null { background: #e3e3e8; color: #8a8a94; font-size: 0.72rem; font-weight: 600; }
     .mg-badge { font-size: 0.75rem; margin-left: 0.25rem; }
 
     .mg-empty { padding: 2.5rem 1rem; text-align: center; color: var(--text-muted); }
@@ -199,7 +199,7 @@
           const res = byDate[d];
           if (res === 'pass') return '<td class="mg-pass">✓</td>';
           if (res === 'fail') return '<td class="mg-fail">✗</td>';
-          return '<td class="mg-blank">·</td>';
+          return '<td class="mg-null">Null</td>';
         }).join('');
         return `<tr class="mg-streak-${r.streak}">
             <td class="mg-id-col">${r.id}${badge}</td>

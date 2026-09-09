@@ -209,6 +209,201 @@
         "exhibit_text": "If the particle travels from A to B to C to D to E and then back to A, it has traveled 5 centimeters, since each side of the pentagon measures 1 centimeter. If it goes all the way around the pentagon again, it has traveled another 5 centimeters, for a total of 10 centimeters. In fact, every time the particle makes a complete revolution around the pentagon (from point A back to point A again), it travels an additional 5 centimeters. So, if the number of centimeters the particle has traveled is a multiple of 5, the particle must be at point A. The number 723 is 3 more than a multiple of 5. If the particle had gone 720 centimeters it would be at point A; since it has gone 3 more centimeters, it must be at point D."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM11",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "The spare change on a dresser is composed of pennies, nickels, and dimes. If the ratio of pennies to nickels is 2:3 and the ratio of pennies to dimes is 3:4, what is the ratio of nickels to dimes?",
+      "options": {
+        "A": "9:8",
+        "B": "5:7",
+        "C": "4:5",
+        "D": "3:4"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM11.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Don't fall into the \"obvious answer\" trap of just taking the numbers of nickels and dimes from the two ratios to come up with 3:4. To find the ratio of nickels to dimes, you need to get the two ratios in proportion to one another by getting the same number of pennies in each. Multiplying the first ratio (pennies to nickels) by 3 gives you 6:9; multiplying the second ratio (pennies to dimes) by 2 gives you 6:8. Since the number corresponding to pennies is now the same in each ratio (6), the ratio of nickels to dimes can now be found. The ratio of nickels to dimes is 9:8."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM12",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 12,
+      "question_type": "grid_in",
+      "question": "How many positive integers satisfy the inequality \\(19-2x>4\\)?",
+      "grid_answer": "7",
+      "source_screenshot": "Problems/EXAM_E/EM12.png",
+      "solution": {
+        "letter": "7",
+        "exhibit_text": "Isolate \\(x\\), remembering that you must flip the inequality when multiplying or dividing by a negative number.\n\n\\[19-2x>4\\]\n\\[-2x>-15\\]\n\\[x<\\dfrac{15}{2}\\]\n\nThe improper fraction \\(\\dfrac{15}{2}\\) is equivalent to 7.5. The question is asking how many positive integers are less than 7.5. The integers that satisfy this are 1, 2, 3, 4, 5, 6, and 7. This is a total of 7 integers, so enter **7**."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM13",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "Margo bowled a mean of 110 points per game in her first 4 games. In her 5th game, she bowled 160 points. What is her mean score for the first 5 games?",
+      "options": {
+        "A": "120",
+        "B": "132",
+        "C": "135",
+        "D": "142"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM13.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Margo bowled a mean of 110 points per game in each of the first 4 games, so she earned a total of \\(110 \\times 4 = 440\\) points for the first 4 games. Use this information to calculate the mean over the first 5 games:\n\n\\[\\dfrac{440+160}{5} = \\dfrac{600}{5} = 120\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM14",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "A water storage tank currently contains 2,400 liters of water. If this amount fills the tank to exactly \\(\\dfrac{3}{5}\\) of its total capacity, how many **kiloliters** of water must be added to fill the tank completely?",
+      "options": {
+        "A": "1.6",
+        "B": "4.0",
+        "C": "16",
+        "D": "1,600"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM14.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let the total capacity of the water tank be \\(x\\). The question says that 2,400 liters of water fill the tank to \\(\\dfrac{3}{5}\\) of its capacity. Therefore, \\(2{,}400 = \\dfrac{3}{5}x\\). Solve for \\(x\\) to determine the total capacity of the tank: \\(2{,}400 \\times 5 = 3x\\) and \\(x = \\dfrac{2{,}400 \\times 5}{3} = 800 \\times 5 = 4{,}000\\) liters. The question asks how many kiloliters of water must be added to fill the tank completely. The tank needs an additional \\(4{,}000-2{,}400=1{,}600\\) liters. There are 1,000 liters in 1 kiloliter. Therefore:\n\n\\[1{,}600 \\text{ liters} \\times \\left(\\dfrac{1 \\text{ kiloliter}}{1{,}000 \\text{ liters}}\\right) = 1.6 \\text{ kiloliters}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM15",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "In a certain tourism destination, 28% of the city's residents work in the hospitality industry. 55% of residents are age 40 or younger, and 15% of residents are people age 40 or younger who work in the hospitality industry. What percentage of the employed population are people older than 40 who do **not** work in the hospitality industry?",
+      "options": {
+        "A": "13%",
+        "B": "17%",
+        "C": "32%",
+        "D": "45%"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_E/EM15.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Read word problems carefully to sort through the information they give you. Here, the question asks for residents older than 40 who do *not* work in hospitality. First, find the percent of residents older than 40: the problem tells you the percent of residents age 40 or younger (55%), so you can subtract from 100 to get 45% of the population is older than 40. To find how many of these residents *don't* work in hospitality, you need to know how many *do*, which the problem doesn't tell you. However, it does tell you how many total residents work in hospitality (28%) and how many of those are 40 or younger (15%), so you can subtract to find residents over 40 who work in hospitality: \\(28\\%-15\\%=13\\%\\). Finally, subtract over-40 residents in hospitality from all over-40 residents: \\(45\\%-13\\%=32\\%\\) of residents are older than 40 and *don't* work in hospitality."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM16",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "Which inequality is equivalent to \\(-2(x+4) \\le 10\\)?",
+      "options": {
+        "A": "\\(x \\ge -9\\)",
+        "B": "\\(x \\ge -5\\)",
+        "C": "\\(x \\le -9\\)",
+        "D": "\\(x \\le -5\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM16.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "First, distribute the \\(-2\\): \\(-2x-8 \\le 10\\). Then add 8 to both sides: \\(-2x \\le 18\\). Now isolate \\(x\\) by dividing both sides by \\(-2\\). Remember that you must flip the inequality sign when you divide by a negative. \\(18 \\div -2 = -9\\), so \\(x \\ge -9\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM17",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "The average of five consecutive multiples of 5 is 20. What is the **largest** of these numbers?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "50"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM17.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The average of a set of evenly-spaced numbers is equal to the median (middle number) of the set. Since the average of five consecutive multiples of 5 is 20, the median equals 20: __, __, 20, __, __. Adding 5 twice to 20 will give you the largest of these numbers, which is 30."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM18",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "In the triangle above, if the measure of \\(\\angle ABC\\) is \\(60\\degree\\), then what is the value of \\(y\\)?",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"20,110 115,22 290,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"10\" y=\"122\" font-size=\"12\" font-weight=\"700\">A</text><text x=\"112\" y=\"16\" font-size=\"12\" font-weight=\"700\">B</text><text x=\"292\" y=\"122\" font-size=\"12\" font-weight=\"700\">C</text><text x=\"118\" y=\"42\" font-size=\"11\">(2x-4)&#176;</text><text x=\"34\" y=\"100\" font-size=\"11\">(3y)&#176;</text><text x=\"255\" y=\"100\" font-size=\"11\">y&#176;</text></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM18.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "In the figure, \\(\\angle ABC\\) is labeled \\((2x-4)\\degree\\), and in the question stem, you're told that \\(\\angle ABC\\) measures \\(60\\degree\\). So, \\(2x-4=60\\), which leads to \\(2x=64\\) and \\(x=32\\). That means that \\(\\angle BAC\\), which is labeled \\((3x)\\degree\\), must measure \\(3 \\times 32\\), or \\(96\\degree\\). Since the measures of the angles of a triangle must add up to \\(180\\degree\\), \\(60\\degree+96\\degree+y\\degree=180\\degree\\), and \\(y=24\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM19",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "A rectangular quilt is 9 feet long and 6 feet wide. It is constructed entirely of square fabric patches measuring 0.75 foot on each side. How many fabric patches are needed to make the quilt?",
+      "options": {
+        "A": "54",
+        "B": "72",
+        "C": "96",
+        "D": "120"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_E/EM19.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "This question can be solved by dividing the area of the quilt by the area of a patch. First, determine the area of the quilt: \\(6 \\times 9 = 54\\) square feet. Next, find the area of one patch. It is helpful to rewrite 0.75 as a fraction: \\(\\dfrac{75}{100} = \\dfrac{3}{4}\\). The area of one patch is \\(\\dfrac{3}{4} \\times \\dfrac{3}{4} = \\dfrac{9}{16}\\) square feet.\n\nNow, divide the two to get the number of patches needed (remembering that dividing by a fraction is the same as multiplying by its reciprocal):\n\n\\[54 \\div \\dfrac{9}{16} = 54 \\times \\dfrac{16}{9} = \\dfrac{54}{9} \\times 16 = 6 \\times 16 = 96\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM20",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "\\[Q=\\dfrac{R}{3}=S-6=7T=\\dfrac{U}{10}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+      "options": {
+        "A": "\\(R\\)",
+        "B": "\\(S\\)",
+        "C": "\\(T\\)",
+        "D": "\\(U\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_E/EM20.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Because it's easiest to compare these quantities if you have numbers instead of variables, pick a simple number to substitute for \\(Q\\), like 2. Take each piece of the equation at a time and solve for each of the answer choices:\n\n\\[Q=\\dfrac{R}{3} \\Rightarrow 2=\\dfrac{R}{3} \\Rightarrow R=6\\]\n\\[Q=S-6 \\Rightarrow 2=S-6 \\Rightarrow S=8\\]\n\\[Q=7T \\Rightarrow 2=7T \\Rightarrow T=\\dfrac{2}{7}\\]\n\\[Q=\\dfrac{U}{10} \\Rightarrow 2=\\dfrac{U}{10} \\Rightarrow U=20\\]\n\nThe only fraction and thus the smallest number is \\(T\\)."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
