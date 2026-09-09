@@ -612,6 +612,400 @@
         "exhibit_text": "Begin by listing the factors of 119: 1, 7, 17, and 119. The smallest factor (other than 1) is 7. Of the options listed (19, 27, 35, 40, and 63), only 35 \\((5\\times7)\\) and 63 \\((9\\times7)\\) have a factor of 7."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM31",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "The Lions soccer team tabulated the number of goals they scored in their last 19 games in the table above. Tomorrow is their last game of the season. How many goals do they have to score tomorrow to have a mean of **at least** 2 goals per game over the whole season?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "D",
+      "figure_svg": "<svg viewBox=\"0 0 244 124\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><g transform=\"translate(2,2)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"120\" fill=\"none\" stroke=\"#222\"/><line x1=\"150\" y1=\"0\" x2=\"150\" y2=\"120\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"240\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"20\" x2=\"240\" y2=\"20\" stroke=\"#222\"/><line x1=\"0\" y1=\"40\" x2=\"240\" y2=\"40\" stroke=\"#222\"/><line x1=\"0\" y1=\"60\" x2=\"240\" y2=\"60\" stroke=\"#222\"/><line x1=\"0\" y1=\"80\" x2=\"240\" y2=\"80\" stroke=\"#222\"/><line x1=\"0\" y1=\"100\" x2=\"240\" y2=\"100\" stroke=\"#222\"/><text x=\"6\" y=\"14\" font-weight=\"700\">Number of Soccer Games</text><text x=\"156\" y=\"14\" font-weight=\"700\">Goals Scored</text><text x=\"6\" y=\"34\">4</text><text x=\"156\" y=\"34\">0</text><text x=\"6\" y=\"54\">3</text><text x=\"156\" y=\"54\">1</text><text x=\"6\" y=\"74\">5</text><text x=\"156\" y=\"74\">2</text><text x=\"6\" y=\"94\">5</text><text x=\"156\" y=\"94\">3</text><text x=\"6\" y=\"114\">2</text><text x=\"156\" y=\"114\">4</text></g></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM31.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, recall that the mean (average) is the total number of the goals over all the games divided by the total number of games. Since there will be a total of 20 games played and the mean must be at least 2 goals per game, the total number of goals must be 40 because \\(40 \\text{ total goals} \\div 20 \\text{ total games} = 2\\) goals per game.\n\nAdding lots of numbers is time-consuming, so to be most efficient, multiply the number of games by the number of goals for each row to get the total number of goals scored: \\(4(0)+3(1)+5(2)+5(3)+2(4)=36\\) total goals for the first 19 games.\n\nThe Lions need \\(40-36=4\\) goals in the last game to get an average of at least 2 goals per game."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM32",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 32,
+      "question_type": "mc",
+      "question": "\\[-2[(-18.75) \\div 6.25] - 5[8.46 \\div (-4.23)] =\\]",
+      "options": {
+        "A": "\\(-4\\)",
+        "B": "4",
+        "C": "12",
+        "D": "16"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM32.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Remember PEMDAS to answer this question correctly. Operations inside parentheses come first, so \\(-2[(-18.75)\\div 6.25]\\) becomes \\(-2(-3)\\), and \\(5[8.46\\div(-4.23)]\\) becomes \\(5(-2)\\). The full expression now reads \\(-2(-3)-5(-2)\\), or \\(6-(-10)\\), which is \\(6+10\\), or 16."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM33",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 33,
+      "question_type": "mc",
+      "question": "A school's robotics club has 8 members: 5 are eighth graders, and 3 are seventh graders. The club needs to choose a President, a Vice President, and a Treasurer. If no member can hold more than one office, how many different ways can the positions be filled, given that the President must be an eighth grader?",
+      "options": {
+        "A": "18",
+        "B": "210",
+        "C": "336",
+        "D": "360"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM33.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "You are told that the President must be an eighth grader. There are 5 eighth graders, so there are 5 choices for the President.\n\nThere are no constraints on the remaining positions. Since one eighth grader has already been chosen, there are now a total of \\(8-1=7\\) students left. There are thus 7 choices for the Vice President. Once this position is assigned, there are only 6 choices for the Treasurer. Putting everything together gives \\(5\\times7\\times6=210\\) total ways the positions can be filled."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM34",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 34,
+      "question_type": "mc",
+      "question": "Annette took 6 quizzes and earned a mean score of 85 points. If the mean score for the first 5 quizzes was 82 points, how many points did Annette score on the 6th quiz?",
+      "options": {
+        "A": "85",
+        "B": "88",
+        "C": "97",
+        "D": "100"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM34.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Recall that \\(\\text{Average}=\\dfrac{\\text{Sum of Values}}{\\text{Number of Values}}\\). Let \\(x\\) represent the sum of the first five quizzes. You are told that Annette's mean score on the first five quizzes was 82, so \\(82=\\dfrac{x}{5}\\) and \\(x=410\\); Annette scores 410 total points on her first 5 quizzes. You also know that the mean score of six quizzes is 85. Let \\(y\\) represent the score on the 6th quiz. Therefore, \\(85=\\dfrac{410+y}{6}\\). Multiply both sides by 6 to get \\(510=410+y\\) and \\(y=100\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM35",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 35,
+      "question_type": "mc",
+      "question": "An oatmeal raisin protein bar recipe calls for 2 cups of raisins per batch of dough, and 1 batch of dough makes 5 dozen bars. If 1 cup = 48 teaspoons, which of the following calculations would give the number of teaspoons of raisins per bar in 1 batch?",
+      "options": {
+        "A": "\\(\\dfrac{2\\times48}{60}\\)",
+        "B": "\\(\\dfrac{2\\times48}{5}\\)",
+        "C": "\\(\\dfrac{2\\times5}{60}\\)",
+        "D": "\\(\\dfrac{2\\times60}{48}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM35.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The question asks for the amount of raisins per bar, so divide the amount of raisins by the total number of bars. Multiply \\(2\\) cups \\(\\times 48\\) teaspoons to get the total amount of raisins. Eliminate (C) and (D), because the numerator does not match that calculation. The number of bars in 1 batch of dough is \\(5\\times12=60\\) bars, so eliminate (B) and choose (A)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM36",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 36,
+      "question_type": "grid_in",
+      "question": "Simplify:\n\\[4-6\\div|-2|+(-3)^3\\times2\\tfrac{1}{3}\\]",
+      "grid_answer": "-62",
+      "source_screenshot": "Problems/EXAM_E/EM36.png",
+      "solution": {
+        "letter": "-62",
+        "exhibit_text": "Follow the order of operations: PEMDAS. Remember that absolute value bars act like parentheses, so evaluate that part first.\n\n\\[4-6\\div|-2|+(-3)^3\\times2\\tfrac{1}{3}\\]\n\\[=4-6\\div2+(-3)^3\\times2\\tfrac{1}{3}\\]\n\\[=4-(6\\div2)+(-27)\\times2\\tfrac{1}{3}\\]\n\\[=4-3+(-27)\\times2\\tfrac{1}{3}\\]\n\\[=4-3+\\left(-27\\times\\tfrac{7}{3}\\right)\\]\n\\[=4-3+(-63)\\]\n\\[=-62\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM37",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 37,
+      "question_type": "mc",
+      "question": "Three friends are preparing to run a 5K together. They all use the same route for practice. The table above shows each friend's fastest time on the practice route and her range of times across all practice runs. What is the **overall** range for all three girls?",
+      "options": {
+        "A": "4:38",
+        "B": "5:43",
+        "C": "6:05",
+        "D": "7:51"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 224 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"12\" font-weight=\"700\" font-size=\"12\">PRACTICE 5K TIMES</text><g transform=\"translate(2,18)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"80\" fill=\"none\" stroke=\"#222\"/><line x1=\"70\" y1=\"0\" x2=\"70\" y2=\"80\" stroke=\"#222\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"80\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"220\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"20\" x2=\"220\" y2=\"20\" stroke=\"#222\"/><line x1=\"0\" y1=\"40\" x2=\"220\" y2=\"40\" stroke=\"#222\"/><line x1=\"0\" y1=\"60\" x2=\"220\" y2=\"60\" stroke=\"#222\"/><text x=\"6\" y=\"14\" font-weight=\"700\">Name</text><text x=\"76\" y=\"14\" font-weight=\"700\">Fastest Time</text><text x=\"166\" y=\"14\" font-weight=\"700\">Range</text><text x=\"6\" y=\"34\">Krisanta</text><text x=\"76\" y=\"34\">31:16</text><text x=\"166\" y=\"34\">4:37</text><text x=\"6\" y=\"54\">Lindsey</text><text x=\"76\" y=\"54\">33:02</text><text x=\"166\" y=\"54\">2:29</text><text x=\"6\" y=\"74\">Tara</text><text x=\"76\" y=\"74\">29:48</text><text x=\"166\" y=\"74\">3:35</text></g></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM37.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "This question asks for the *overall* range for the friends, meaning the difference between the slowest time and fastest time among all three of them. The fastest time is Tara's, at 29:48. Next, find the slowest time among the three girls. Krisanta's is \\(31{:}16+4{:}37=35{:}53\\), and Lindsey's is \\(33{:}02+2{:}29=35{:}31\\). Since Tara's range is smaller than Krisanta's and her best time is faster, she cannot have the slowest time, so there's no need to calculate hers. The slowest time is Krisanta's (35:53), so subtract Tara's fastest time: \\(35{:}53-29{:}48=6{:}05\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM38",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "If \\(x=4(3-y)(2^2-1)\\), what is the value of \\(y\\) in terms of \\(x\\)?",
+      "options": {
+        "A": "\\(\\dfrac{x-6}{4}\\)",
+        "B": "\\(\\dfrac{x}{4}-3\\)",
+        "C": "\\(4-\\dfrac{x}{3}\\)",
+        "D": "\\(3-\\dfrac{x}{12}\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM38.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Finding the value of one variable *in terms of* another variable just means to solve for the first variable, \\(y\\). You won't get a numerical answer, but rather an answer that still has the other variable in it, \\(x\\). Start by simplifying the right-hand side of the equation. Then, solve for \\(y\\). You may have to manipulate the result to make it match one of the answer choices.\n\n\\[x=4(3-y)(2^2-1)\\]\n\\[x=(12-4y)(4-1)\\]\n\\[x=(12-4y)(3)\\]\n\\[x=36-12y\\]\n\\[x-36=-12y\\]\n\\[\\dfrac{x-36}{-12}=y\\]\n\\[\\dfrac{x}{-12}-\\dfrac{36}{-12}=y\\]\n\\[\\dfrac{-x}{12}+3=y\\]\n\\[3-\\dfrac{x}{12}=y\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM39",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "Six numbered cards are placed on two tables as shown in the figure above. Ryana randomly picks one card from Table A and places it on Table B. Then, Vera picks a card from Table B at random. What is the probability that both cards picked will be a card with an even number on it?",
+      "options": {
+        "A": "\\(\\dfrac{1}{5}\\)",
+        "B": "\\(\\dfrac{1}{4}\\)",
+        "C": "\\(\\dfrac{2}{7}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 150 155\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><g transform=\"translate(0,0)\"><rect x=\"0\" y=\"0\" width=\"60\" height=\"30\" fill=\"#1a1a1a\" stroke=\"#fff\" stroke-width=\"1\"/><rect x=\"36\" y=\"8\" width=\"20\" height=\"16\" fill=\"#fff\"/><text x=\"46\" y=\"20\" font-size=\"11\" text-anchor=\"middle\" fill=\"#000\">13</text><rect x=\"0\" y=\"30\" width=\"60\" height=\"30\" fill=\"#1a1a1a\" stroke=\"#fff\" stroke-width=\"1\"/><rect x=\"36\" y=\"38\" width=\"20\" height=\"16\" fill=\"#fff\"/><text x=\"46\" y=\"50\" font-size=\"11\" text-anchor=\"middle\" fill=\"#000\">12</text><text x=\"30.0\" y=\"76\" font-size=\"11\" text-anchor=\"middle\">Table A</text></g><g transform=\"translate(80,0)\"><rect x=\"0\" y=\"0\" width=\"60\" height=\"30\" fill=\"#1a1a1a\" stroke=\"#fff\" stroke-width=\"1\"/><rect x=\"36\" y=\"8\" width=\"20\" height=\"16\" fill=\"#fff\"/><text x=\"46\" y=\"20\" font-size=\"11\" text-anchor=\"middle\" fill=\"#000\">17</text><rect x=\"0\" y=\"30\" width=\"60\" height=\"30\" fill=\"#1a1a1a\" stroke=\"#fff\" stroke-width=\"1\"/><rect x=\"36\" y=\"38\" width=\"20\" height=\"16\" fill=\"#fff\"/><text x=\"46\" y=\"50\" font-size=\"11\" text-anchor=\"middle\" fill=\"#000\">15</text><rect x=\"0\" y=\"60\" width=\"60\" height=\"30\" fill=\"#1a1a1a\" stroke=\"#fff\" stroke-width=\"1\"/><rect x=\"36\" y=\"68\" width=\"20\" height=\"16\" fill=\"#fff\"/><text x=\"46\" y=\"80\" font-size=\"11\" text-anchor=\"middle\" fill=\"#000\">11</text><rect x=\"0\" y=\"90\" width=\"60\" height=\"30\" fill=\"#1a1a1a\" stroke=\"#fff\" stroke-width=\"1\"/><rect x=\"36\" y=\"98\" width=\"20\" height=\"16\" fill=\"#fff\"/><text x=\"46\" y=\"110\" font-size=\"11\" text-anchor=\"middle\" fill=\"#000\">18</text><text x=\"30.0\" y=\"136\" font-size=\"11\" text-anchor=\"middle\">Table B</text></g></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM39.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To calculate the probability of an event happening, use the following formula:\n\n\\[\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\]\n\nSince there are two independent events in this question, calculate the probability of each one individually and then multiply their probabilities together.\n\nThe probability that Ryana will pick an even-numbered card from Table A is \\(\\dfrac{1}{2}\\).\n\nKeep in mind that if Ryana picks an even-numbered card, there will be 1 more even card on table B for Vera to choose from. Thus, there are now 2 desired outcomes and 5 possible outcomes: \\(\\dfrac{2}{5}\\).\n\nFinally, multiply these probabilities together: \\(\\dfrac{1}{2}\\times\\dfrac{2}{5}=\\dfrac{2}{10}=\\dfrac{1}{5}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM40",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{A}{3}=5B=C+8=D-2>5\\]\nBased on the statement above, which variable has the **greatest** value?",
+      "options": {
+        "A": "\\(A\\)",
+        "B": "\\(B\\)",
+        "C": "\\(C\\)",
+        "D": "\\(D\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM40.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Since all expressions are equal to a value greater than 5, pick a number greater than 5 that is easy to work with (ideally, a multiple of 3 and 5). The number 15 fits the bill. Set each part equal to 15 and solve for the variable. Thus,\n\n\\[\\dfrac{A}{3}=15\\]\n\\[5B=15\\]\n\\[C+8=15\\]\n\\[D-2=15\\]\n\nNow, solve each equation:\n\n\\[A=45\\]\n\\[B=\\dfrac{15}{5}=3\\]\n\\[C=15-8=7\\]\n\\[D=15+2=17\\]\n\nThe greatest value is \\(A\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM41",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "At 5:00 a.m., the temperature at a weather station was \\(-12\\) degrees Fahrenheit. By 9:00 a.m., the temperature had risen to \\(-3\\) degrees Fahrenheit. By 12:00 p.m., the temperature was equal to the absolute value of the 5:00 a.m. temperature.\nWhat was the increase in temperature per hour, in degrees Fahrenheit, between 9:00 a.m. and 12:00 p.m.?",
+      "options": {
+        "A": "5 °F",
+        "B": "9 °F",
+        "C": "15 °F",
+        "D": "18 °F"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_E/EM41.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The absolute value of the 5:00 a.m. temperature is \\(|-12|=12\\). Therefore, the temperature at 12:00 p.m. was \\(12\\degree\\)F. The temperature at 9:00 a.m. was \\(-3\\degree\\)F. The total increase in temperature between 9:00 a.m. and 12:00 p.m. is thus \\(12-(-3)=15\\degree\\)F. This occurred over the course of 3 hours, so the increase in temperature per hour is \\(\\dfrac{15\\degree F}{3}=\\dfrac{5\\degree F}{\\text{hour}}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM42",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 42,
+      "question_type": "grid_in",
+      "question": "If \\(\\dfrac{2}{3}(x-6)+\\dfrac{1}{2}x=10\\), what is the value of \\(x\\)?",
+      "grid_answer": "12",
+      "source_screenshot": "Problems/EXAM_E/EM42.png",
+      "solution": {
+        "letter": "12",
+        "exhibit_text": "Clear the fractions by multiplying by the least common multiple of 3 and 2, which is 6.\n\n\\[6\\left[\\dfrac{2}{3}(x-6)+\\dfrac{1}{2}x=10\\right]\\]\n\\[4(x-6)+3x=60\\]\n\nNow distribute, combine like terms, and solve for \\(x\\).\n\n\\[4x-24+3x=60\\]\n\\[7x-24=60\\]\n\\[7x=84\\]\n\\[x=12\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM43",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "On a number line, \\(\\overline{JL} = \\dfrac{9}{20}\\). Point K (not shown) is located between Point J and Point L. Which value below is a possible value for Point K?",
+      "options": {
+        "A": "7.55",
+        "B": "7.70",
+        "C": "7.85",
+        "D": "7.90"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 200 60\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12\" y1=\"30\" x2=\"188\" y2=\"30\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M10,26 L4,30 L10,34 Z\" fill=\"#222\"/><path d=\"M190,26 L196,30 L190,34 Z\" fill=\"#222\"/><circle cx=\"30\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"30\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">J</text><text x=\"30\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">77 1/4</text><circle cx=\"150\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"150\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">L</text></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM43.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Before doing a lot of calculating, think strategically. Point J, \\(7\\tfrac{1}{4}\\), is 7.25 when written as a decimal. Point J is the left end-point of the segment \\(\\overline{JL}\\), so the smallest answer choice greater than 7.25 *must* be within segment \\(\\overline{JL}\\). Choice (A) is correct.\n\nWith more traditional math, since Point K is located between Point J and Point L, the value for Point K must be greater than the value for Point J and less than the value for Point L. Point J is located at \\(7\\tfrac{1}{4}\\), and the distance of \\(\\overline{JL}\\) is \\(\\dfrac{9}{20}\\), so the location of Point L is \\(7\\tfrac{1}{4}+\\dfrac{9}{20}\\). Convert these values to decimals to determine the possible value for Point K. \\(7\\tfrac{1}{4}=7.25\\). The distance \\(\\dfrac{9}{20}\\) is equal to \\(\\dfrac{45}{100}\\) or 0.45. Therefore, Point L is at \\(7.25+0.45=7.70\\). Of the answer choices, only 7.55 is greater than 7.25 and less than 7.70."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM44",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "The sum of two consecutive integers is \\(-9\\). If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
+      "options": {
+        "A": "-14",
+        "B": "-11",
+        "C": "-10",
+        "D": "-9"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM44.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "When a question involves two consecutive integers, let the smaller integer be \\(x\\) and the larger be \\(x+1\\). Here, start by using the given sum \\((-9)\\) to find the two integers, then worry about all the other details.\n\n\\[x+(x+1)=-9\\]\n\\[2x+1=-9\\]\n\\[2x=-10\\]\n\\[x=-5\\]\n\nRemember, the variable \\(x\\) represents the smaller integer, so the two integers are \\(-5\\) and \\(-4\\). Now, work out the rest of the information.\n\nIf the smaller integer \\((-5)\\) is doubled, then that integer becomes \\(2(-5)=-10\\). If 3 is added to the larger integer \\((-4)\\), then that integer becomes \\(-4+3=-1\\). The sum of the two new integers is \\(-10+(-1)=-11\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM45",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "On the number line above, \\(\\overline{AB}=3\\tfrac{1}{5}\\), \\(\\overline{AD}=8\\tfrac{1}{2}\\), and \\(\\overline{CD}=2\\tfrac{3}{4}\\). What is the position of Point C?",
+      "options": {
+        "A": "\\(1\\tfrac{4}{5}\\)",
+        "B": "\\(2\\tfrac{11}{20}\\)",
+        "C": "\\(3\\tfrac{3}{10}\\)",
+        "D": "\\(4\\tfrac{1}{4}\\)"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 280 60\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12\" y1=\"30\" x2=\"268\" y2=\"30\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M10,26 L4,30 L10,34 Z\" fill=\"#222\"/><path d=\"M270,26 L276,30 L270,34 Z\" fill=\"#222\"/><circle cx=\"20\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"20\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">A</text><circle cx=\"90\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"90\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">B</text><text x=\"90\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">-3/4</text><circle cx=\"180\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"180\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">C</text><circle cx=\"250\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"250\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">D</text><line x1=\"130\" y1=\"26\" x2=\"130\" y2=\"34\" stroke=\"#222\"/><text x=\"130\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">0</text></svg>",
+      "source_screenshot": "Problems/EXAM_E/EM45.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The total distance from A to D is the sum of the segments \\(\\overline{AB}\\), \\(\\overline{BC}\\), and \\(\\overline{CD}\\): \\(\\overline{AD}=\\overline{AB}+\\overline{BC}+\\overline{CD}\\). Find the middle segment \\(\\overline{BC}\\) by subtracting the known segments (\\(\\overline{AB}\\) and \\(\\overline{CD}\\)) from the total length (\\(\\overline{AD}\\)): \\(8\\tfrac{1}{2}=3\\tfrac{1}{5}+\\overline{BC}+2\\tfrac{3}{4}\\).\n\nConvert all fractions to a common denominator (20):\n\n\\[8\\tfrac{10}{20}=3\\tfrac{4}{20}+\\overline{BC}+2\\tfrac{15}{20}\\]\n\\[8\\tfrac{10}{20}-3\\tfrac{4}{20}-2\\tfrac{15}{20}=\\overline{BC}\\]\n\nTo simplify, group the whole numbers together and the fractions together:\n\n\\[(8-3-2)+\\left(\\tfrac{10}{20}-\\tfrac{4}{20}-\\tfrac{15}{20}\\right)=\\overline{BC}\\]\n\\[3+\\left(-\\tfrac{9}{20}\\right)=\\overline{BC}\\]\n\\[\\tfrac{60}{20}-\\tfrac{9}{20}=\\overline{BC}\\]\n\\[\\tfrac{51}{20}=\\overline{BC}\\]\n\nSince Point C is located to the right of Point B, add the length of segment \\(\\overline{BC}\\) to the position of B.\n\n\\[\\text{Position } C=-\\tfrac{3}{4}+\\tfrac{51}{20}\\]\n\\[=-\\tfrac{15}{20}+\\tfrac{51}{20}\\]\n\\[=\\tfrac{36}{20}\\]\n\\[=\\tfrac{9}{5}\\]\n\\[=1\\tfrac{4}{5}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM46",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "The figure above shows a triangle inscribed in a rectangle. The base of the triangle has a length of 2 centimeters. What is the ratio of the shaded part of the figure to the unshaded part?",
+      "options": {
+        "A": "5:1",
+        "B": "7:1",
+        "C": "9:1",
+        "D": "10:1"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 170 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\">\n<g transform=\"translate(35,30)\">\n<rect x=\"0\" y=\"0\" width=\"100\" height=\"140\" fill=\"#bdbdbd\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<polygon points=\"50,0 40,140 60,140\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<line x1=\"0\" y1=\"-10\" x2=\"100\" y2=\"-10\" stroke=\"#222\" stroke-width=\"1\"/>\n<line x1=\"0\" y1=\"-14\" x2=\"0\" y2=\"-6\" stroke=\"#222\" stroke-width=\"1\"/>\n<line x1=\"100\" y1=\"-14\" x2=\"100\" y2=\"-6\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"50.0\" y=\"-14\" text-anchor=\"middle\">10 cm</text>\n<line x1=\"-10\" y1=\"0\" x2=\"-10\" y2=\"140\" stroke=\"#222\" stroke-width=\"1\"/>\n<line x1=\"-14\" y1=\"0\" x2=\"-6\" y2=\"0\" stroke=\"#222\" stroke-width=\"1\"/>\n<line x1=\"-14\" y1=\"140\" x2=\"-6\" y2=\"140\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"-16\" y=\"70.0\" text-anchor=\"middle\" transform=\"rotate(-90,-16,70.0)\">14 cm</text>\n<line x1=\"40\" y1=\"150\" x2=\"60\" y2=\"150\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"50\" y=\"162\" text-anchor=\"middle\">2 cm</text>\n</g>\n</svg>",
+      "source_screenshot": "Problems/EXAM_E/EM46.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "First, find the area of the rectangle, in square centimeters, using the formula \\(A=\\ell\\times w\\): \\(A=14\\times10=140\\) square cm.\n\nNext, find the area of the triangle using the formula \\(A=\\tfrac{1}{2}bh\\). This is the unshaded part of the figure. Notice that the height of the triangle is the same as the side length of the rectangle, 14 cm.\n\n\\[A=\\tfrac{1}{2}bh\\]\n\\[=\\tfrac{1}{2}(2)(14)\\]\n\\[=1(14)=14\\]\n\nTo find the area of the shaded part of the figure, subtract the area of the triangle from the area of the rectangle to arrive at \\(140-14=126\\) square centimeters. Thus, the ratio of the shaded part of the figure to the unshaded part is 126:14, which simplifies to 9:1."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM47",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "Frank has \\(x\\) shells, and Darnell has 8 more than 7 times the number of shells Frank has. In terms of \\(x\\), how many shells do Frank and Darnell have in total?",
+      "options": {
+        "A": "\\(8x\\)",
+        "B": "\\(7x+8\\)",
+        "C": "\\(8x+7\\)",
+        "D": "\\(8x+8\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM47.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Translate English into math. If Frank has \\(x\\) shells, then \"8 more than 7 times \\(x\\)\" translates to \\(8+7x\\). Since the question asks how many shells Frank and Darnell have in total, add \\(x\\) to \\(8+7x\\). Combine like terms to get \\(8x+8\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM48",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "A flat circular metal washer has an outer radius of 9 millimeters. The circular hole in the center of the washer has a circumference of \\(6\\pi\\) millimeters. What is the area of the metal face of the washer?",
+      "options": {
+        "A": "\\(12\\pi\\) sq mm",
+        "B": "\\(36\\pi\\) sq mm",
+        "C": "\\(45\\pi\\) sq mm",
+        "D": "\\(72\\pi\\) sq mm"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_E/EM48.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "The area of the metal face of the washer is the area of the circular metal disc minus the area of the circular hole. The formula for the area of a circle is \\(\\pi r^2\\). Since the outer radius is 9 mm, the area of the disc is \\(\\pi(9^2)=81\\pi\\) sq mm. To calculate the area of the circular hole, find the radius from the given circumference. The formula for circumference is \\(2\\pi r\\). Since the circumference of the circular hole is \\(6\\pi\\) mm, \\(2\\pi r=6\\pi\\) and \\(r=3\\) mm. Thus, the area of the circular hole is \\(\\pi(3^2)\\) sq mm. Putting everything together, the area of the metal face of the washer is \\(81\\pi-9\\pi=72\\pi\\) sq mm."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM49",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 49,
+      "question_type": "mc",
+      "question": "The list shows the results of a survey. The survey was conducted to determine whether students preferred role-playing or platformer video games, both or neither. These were the results:\n• 26 like role-playing.\n• 17 like platformer.\n• 9 like both.\n• 5 like neither.\n\nHow many students like only role-playing video games?",
+      "options": {
+        "A": "11",
+        "B": "17",
+        "C": "19",
+        "D": "26"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM49.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To determine how many students prefer only role-playing games, we need to separate the students who like both types of games from the total number of role-playing fans.\n\nThe total number who liked role-playing: 26. (This includes people who also like platformer games.)\nThe number who liked both: 9.\n\nSince the 9 who liked both are already included in the 26 who liked role-playing, we subtract them to find the group that likes role-playing games exclusively: \\(26-9=17\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "EM50",
+      "origin": "KAPLAN_ATOM_PRACTICE_B",
+      "q_number": 50,
+      "question_type": "mc",
+      "question": "A standard deck of playing cards contains 4 different aces (the ace of hearts, the ace of diamonds, the ace of clubs, and the ace of spades). If a magician asks you to randomly pick any 2 aces from the 4, how many different pairs of aces can you choose?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_E/EM50.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "There are 4 ways to pick the first ace. Once the first ace is picked, there are 3 ways to pick the remaining ace. This yields \\(4\\times3=12\\) possible combinations. But be careful! This method of calculation does not model the fact that the order in which you choose the cards does not matter. For example, this procedure counts an ace of hearts and then an ace of diamonds draw as something different than an ace of diamonds then an ace of hearts draw. However, you know that if you are holding two cards in your hand, their order does not matter. To fix this, simply divide by the number of ways to arrange 2 objects, or 2: \\(12\\div2=6\\).\n\nAlternatively, you could simply list out all of the possible different pairs of aces: hearts & diamonds; hearts & clubs; hearts & spades; diamonds & clubs; diamonds & spades; and clubs & spades. These are the 6 pairs, so this method also leads to the correct answer, (B). Keep in mind that this approach will become increasingly tedious as the numbers get larger."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
