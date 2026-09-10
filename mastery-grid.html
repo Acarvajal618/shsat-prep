@@ -28,12 +28,6 @@
       color: var(--text-muted); cursor: pointer; user-select: none;
     }
     .mg-chip.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .mg-spacer { flex: 1; }
-    .mg-sort-btn {
-      font-size: 0.82rem; font-weight: 600; padding: 0.35rem 0.85rem;
-      border-radius: 999px; border: 1px solid var(--border); background: var(--surface);
-      color: var(--text); cursor: pointer;
-    }
 
     .mg-summary {
       font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.9rem;
@@ -98,7 +92,6 @@
 
     let proficiency = {};
     let rows = []; // { id, exam }
-    let sortMode = 'streak'; // 'streak' | 'id'
     let activeExam = 'all';
 
     try {
@@ -148,16 +141,10 @@
       chipsEl.innerHTML = chips.map(c => {
         const label = c === 'all' ? 'All' : c.toUpperCase();
         return `<span class="mg-chip${c === activeExam ? ' active' : ''}" data-exam="${c}">${label}</span>`;
-      }).join('') +
-        `<span class="mg-spacer"></span>` +
-        `<span class="mg-sort-btn" id="mg-sort-btn">Sort: ${sortMode === 'streak' ? 'Pain points first' : 'ID order'}</span>`;
+      }).join('');
 
       chipsEl.querySelectorAll('.mg-chip').forEach(el => {
         el.addEventListener('click', () => { activeExam = el.dataset.exam; render(); });
-      });
-      document.getElementById('mg-sort-btn').addEventListener('click', () => {
-        sortMode = sortMode === 'streak' ? 'id' : 'streak';
-        render();
       });
     }
 
@@ -168,13 +155,7 @@
       let visible = activeExam === 'all' ? rows.slice() : rows.filter(r => r.exam === activeExam);
       const withStreak = visible.map(r => ({ ...r, streak: streakFor(r.id) }));
 
-      withStreak.sort((a, b) => {
-        if (sortMode === 'streak') {
-          if (a.streak !== b.streak) return a.streak - b.streak;
-          return a.id.localeCompare(b.id);
-        }
-        return a.id.localeCompare(b.id);
-      });
+      withStreak.sort((a, b) => a.id.localeCompare(b.id));
 
       const painPoints = withStreak.filter(r => r.streak === 0).length;
       summaryEl.innerHTML = `<strong>${withStreak.length}</strong> questions shown &middot; ` +
