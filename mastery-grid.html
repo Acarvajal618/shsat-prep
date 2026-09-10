@@ -56,15 +56,11 @@
       text-align: left; font-weight: 700; color: var(--text); border-right: 1px solid var(--border);
     }
     .mg-table thead th.mg-id-col { z-index: 3; }
-    .mg-table th.mg-streak-col, .mg-table td.mg-streak-col {
-      position: sticky; left: 90px; background: inherit; z-index: 1; border-right: 1px solid var(--border);
-    }
-    .mg-table thead th.mg-streak-col { background: var(--surface); z-index: 3; }
 
-    tr.mg-streak-0 td.mg-id-col, tr.mg-streak-0 td.mg-streak-col { background: var(--surface); }
-    tr.mg-streak-1 td.mg-id-col, tr.mg-streak-1 td.mg-streak-col { background: #eafbea; }
-    tr.mg-streak-2 td.mg-id-col, tr.mg-streak-2 td.mg-streak-col { background: #a8dab5; }
-    tr.mg-streak-3 td.mg-id-col, tr.mg-streak-3 td.mg-streak-col { background: var(--correct); color: #fff; }
+    tr.mg-streak-0 td.mg-id-col { background: var(--surface); }
+    tr.mg-streak-1 td.mg-id-col { background: #eafbea; }
+    tr.mg-streak-2 td.mg-id-col { background: #a8dab5; }
+    tr.mg-streak-3 td.mg-id-col { background: var(--correct); color: #fff; }
 
     .mg-pass { color: var(--correct); font-weight: 800; }
     .mg-fail { color: var(--incorrect); font-weight: 800; }
@@ -186,7 +182,6 @@
 
       const head = `<tr>
           <th class="mg-id-col">ID</th>
-          <th class="mg-streak-col">Streak</th>
           ${dates.map(d => `<th>${d.slice(5)}</th>`).join('')}
         </tr>`;
 
@@ -203,7 +198,6 @@
         }).join('');
         return `<tr class="mg-streak-${r.streak}">
             <td class="mg-id-col">${r.id}${badge}</td>
-            <td class="mg-streak-col">${r.streak}/${STREAK_TARGET}</td>
             ${cells}
           </tr>`;
       }).join('');
