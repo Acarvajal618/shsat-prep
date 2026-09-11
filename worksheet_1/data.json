@@ -1,6 +1,6 @@
 {
   "_schema": {
-    "description": "Practice Set 1 (9/11) — new problems targeting the same skills as her Exam A pain-point questions (AM01, AM05, AM08, AM09, AM12, AM26, AM29, AM30, AM36). Not an official exam.",
+    "description": "Practice Set 1 (9/11) — 3 new variants each for the 6 skills she still had wrong after the 2026-09-10 Exam A retest (AM08, AM09, AM26, AM29, AM30, AM36). Not an official exam.",
     "id_format": "PS1-<NN>",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
   },
@@ -9,172 +9,345 @@
       "id": "PS1-01",
       "origin": "PRACTICE_SET_1",
       "q_number": 1,
-      "skill_ref": "AM01 (scale-diagram ratio)",
+      "skill_ref": "AM08 v1",
       "question_type": "mc",
-      "question": "In a scale diagram, \\(0.25\\) inch represents \\(100\\) feet. How many inches represent \\(1\\) foot?",
+      "question": "Ava has \\(4\\) times as many stickers as Ben. Ava gives \\(9\\) of her stickers to Ben. Ava now has \\(15\\) more stickers than Ben. How many stickers did Ava start with?",
       "options": {
-        "A": "\\(0.0025\\)",
-        "B": "\\(0.025\\)",
-        "C": "\\(0.25\\)",
-        "D": "\\(2.5\\)"
+        "A": "\\(33\\)",
+        "B": "\\(40\\)",
+        "C": "\\(44\\)",
+        "D": "\\(48\\)"
       },
-      "correct": "A",
+      "correct": "C",
       "solution": {
-        "letter": "A",
-        "exhibit_text": "Set up a proportion and solve for \\(x\\), the number of inches representing 1 foot:\n\n\\[\\dfrac{x}{1}=\\dfrac{0.25}{100}\\]\n\\[x=0.0025\\text{ in.}\\]"
+        "letter": "C",
+        "exhibit_text": "Let \\(x\\) be Ben's starting stickers, so Ava starts with \\(4x\\). After Ava gives away 9, Ava has \\(4x-9\\) and Ben has \\(x+9\\). Ava now has 15 more than Ben:\n\n\\[(4x-9)-(x+9)=15\\]\n\\[3x-18=15\\]\n\\[3x=33\\]\n\\[x=11\\]\n\nAva started with \\(4x=44\\) stickers."
       }
     },
     {
       "id": "PS1-02",
       "origin": "PRACTICE_SET_1",
       "q_number": 2,
-      "skill_ref": "AM05 (three-part ratio chain)",
+      "skill_ref": "AM08 v2",
       "question_type": "mc",
-      "question": "The sum of the numbers \\(a\\), \\(b\\), and \\(c\\) is \\(66\\). The ratio of \\(a\\) to \\(b\\) is \\(1{:}2\\), and the ratio of \\(b\\) to \\(c\\) is \\(2{:}3\\). What is the value of \\(b\\)?",
+      "question": "Owen has twice as many trading cards as Maddie. Owen gives \\(5\\) of his cards to Maddie. Owen now has \\(3\\) more cards than Maddie. How many cards did Owen start with?",
       "options": {
-        "A": "\\(11\\)",
+        "A": "\\(20\\)",
         "B": "\\(22\\)",
-        "C": "\\(33\\)",
-        "D": "\\(44\\)"
+        "C": "\\(24\\)",
+        "D": "\\(26\\)"
       },
-      "correct": "B",
+      "correct": "D",
       "solution": {
-        "letter": "B",
-        "exhibit_text": "Since \\(a:b=1:2\\) and \\(b:c=2:3\\) already share the same value of \\(b\\) (2), combine them directly into one three-part ratio: \\(a:b:c=1:2:3\\). Let the parts be \\(k\\), \\(2k\\), and \\(3k\\). Their sum is \\(66\\):\n\n\\[k+2k+3k=66\\]\n\\[6k=66\\]\n\\[k=11\\]\n\nSo \\(b=2k=22\\)."
+        "letter": "D",
+        "exhibit_text": "Let \\(x\\) be Maddie's starting cards, so Owen starts with \\(2x\\). After Owen gives away 5, Owen has \\(2x-5\\) and Maddie has \\(x+5\\). Owen now has 3 more than Maddie:\n\n\\[(2x-5)-(x+5)=3\\]\n\\[x-10=3\\]\n\\[x=13\\]\n\nOwen started with \\(2x=26\\) cards."
       }
     },
     {
       "id": "PS1-03",
       "origin": "PRACTICE_SET_1",
       "q_number": 3,
-      "skill_ref": "AM08 (give-away linear equation word problem)",
+      "skill_ref": "AM08 v3",
       "question_type": "mc",
-      "question": "Mia has three times as many marbles as Jake. Mia gives \\(6\\) of her marbles to Jake. Mia now has \\(10\\) more marbles than Jake. How many marbles did Mia start with?",
+      "question": "Lena has five times as many buttons as Theo. Lena gives \\(12\\) of her buttons to Theo. Lena now has \\(8\\) more buttons than Theo. How many buttons did Lena start with?",
       "options": {
-        "A": "\\(22\\)",
-        "B": "\\(27\\)",
-        "C": "\\(30\\)",
-        "D": "\\(33\\)"
+        "A": "\\(36\\)",
+        "B": "\\(40\\)",
+        "C": "\\(44\\)",
+        "D": "\\(32\\)"
       },
-      "correct": "D",
+      "correct": "B",
       "solution": {
-        "letter": "D",
-        "exhibit_text": "Let \\(x\\) be the number of marbles Jake starts with, so Mia starts with \\(3x\\). After Mia gives away 6 marbles, Mia has \\(3x-6\\) and Jake has \\(x+6\\). Mia now has 10 more than Jake:\n\n\\[3x-6=(x+6)+10\\]\n\\[3x-6=x+16\\]\n\\[2x=22\\]\n\\[x=11\\]\n\nMia started with \\(3x=33\\) marbles."
+        "letter": "B",
+        "exhibit_text": "Let \\(x\\) be Theo's starting buttons, so Lena starts with \\(5x\\). After Lena gives away 12, Lena has \\(5x-12\\) and Theo has \\(x+12\\). Lena now has 8 more than Theo:\n\n\\[(5x-12)-(x+12)=8\\]\n\\[4x-24=8\\]\n\\[4x=32\\]\n\\[x=8\\]\n\nLena started with \\(5x=40\\) buttons."
       }
     },
     {
       "id": "PS1-04",
       "origin": "PRACTICE_SET_1",
       "q_number": 4,
-      "skill_ref": "AM09 (parallelogram angle properties)",
+      "skill_ref": "AM09 v1",
       "question_type": "mc",
       "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "options": {
-        "A": "\\(30\\)",
-        "B": "\\(34\\)",
-        "C": "\\(36\\)",
-        "D": "\\(40\\)"
+        "A": "\\(25\\)",
+        "B": "\\(20\\)",
+        "C": "\\(22\\)",
+        "D": "\\(28\\)"
       },
-      "correct": "C",
-      "figure_svg": "<svg viewBox=\"0 0 220 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,20 190,20 160,110 10,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<text x=\"30\" y=\"14\" font-size=\"12\" font-weight=\"700\">P</text>\n<text x=\"194\" y=\"14\" font-size=\"12\" font-weight=\"700\">Q</text>\n<text x=\"164\" y=\"124\" font-size=\"12\" font-weight=\"700\">R</text>\n<text x=\"0\" y=\"124\" font-size=\"12\" font-weight=\"700\">S</text>\n<text x=\"58\" y=\"36\" font-size=\"11\">(2x+10)&#176;</text>\n<text x=\"140\" y=\"36\" font-size=\"11\">(3x-10)&#176;</text>\n</svg>",
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 220 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,20 190,20 160,110 10,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<text x=\"30\" y=\"14\" font-size=\"12\" font-weight=\"700\">P</text>\n<text x=\"194\" y=\"14\" font-size=\"12\" font-weight=\"700\">Q</text>\n<text x=\"164\" y=\"124\" font-size=\"12\" font-weight=\"700\">R</text>\n<text x=\"0\" y=\"124\" font-size=\"12\" font-weight=\"700\">S</text>\n<text x=\"52\" y=\"36\" font-size=\"11\">(4x+8)&#176;</text>\n<text x=\"132\" y=\"36\" font-size=\"11\">(2x+22)&#176;</text>\n</svg>",
       "solution": {
-        "letter": "C",
-        "exhibit_text": "In a parallelogram, consecutive angles are supplementary (they add up to \\(180\\degree\\)). Angles \\(P\\) and \\(Q\\) are consecutive angles, so:\n\n\\[(2x+10)+(3x-10)=180\\]\n\\[5x=180\\]\n\\[x=36\\]"
+        "letter": "A",
+        "exhibit_text": "In a parallelogram, consecutive angles are supplementary. Angles \\(P\\) and \\(Q\\) are consecutive:\n\n\\[(4x+8)+(2x+22)=180\\]\n\\[6x+30=180\\]\n\\[6x=150\\]\n\\[x=25\\]"
       }
     },
     {
       "id": "PS1-05",
       "origin": "PRACTICE_SET_1",
       "q_number": 5,
-      "skill_ref": "AM12 (perimeter with side ratio)",
+      "skill_ref": "AM09 v2",
       "question_type": "mc",
-      "question": "The perimeter of a rectangle is \\(280\\) centimeters. The ratio of the length to the width is \\(4{:}3\\). What are the dimensions of this rectangle?",
+      "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "options": {
-        "A": "\\(70\\) cm by \\(70\\) cm",
-        "B": "\\(84\\) cm by \\(56\\) cm",
-        "C": "\\(80\\) cm by \\(60\\) cm",
-        "D": "\\(90\\) cm by \\(50\\) cm"
+        "A": "\\(15\\)",
+        "B": "\\(18\\)",
+        "C": "\\(22\\)",
+        "D": "\\(20\\)"
       },
-      "correct": "C",
+      "correct": "D",
+      "figure_svg": "<svg viewBox=\"0 0 220 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,20 190,20 160,110 10,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<text x=\"30\" y=\"14\" font-size=\"12\" font-weight=\"700\">P</text>\n<text x=\"194\" y=\"14\" font-size=\"12\" font-weight=\"700\">Q</text>\n<text x=\"164\" y=\"124\" font-size=\"12\" font-weight=\"700\">R</text>\n<text x=\"0\" y=\"124\" font-size=\"12\" font-weight=\"700\">S</text>\n<text x=\"52\" y=\"36\" font-size=\"11\">(5x-15)&#176;</text>\n<text x=\"132\" y=\"36\" font-size=\"11\">(3x+35)&#176;</text>\n</svg>",
       "solution": {
-        "letter": "C",
-        "exhibit_text": "The perimeter formula is \\(P=2(\\ell+w)\\), so \\(\\ell+w=140\\). Since the ratio of length to width is \\(4:3\\), let \\(\\ell=4k\\) and \\(w=3k\\):\n\n\\[4k+3k=140\\]\n\\[7k=140\\]\n\\[k=20\\]\n\nSo \\(\\ell=80\\) cm and \\(w=60\\) cm."
+        "letter": "D",
+        "exhibit_text": "In a parallelogram, consecutive angles are supplementary. Angles \\(P\\) and \\(Q\\) are consecutive:\n\n\\[(5x-15)+(3x+35)=180\\]\n\\[8x+20=180\\]\n\\[8x=160\\]\n\\[x=20\\]"
       }
     },
     {
       "id": "PS1-06",
       "origin": "PRACTICE_SET_1",
       "q_number": 6,
-      "skill_ref": "AM26 (age ratio changing over time)",
+      "skill_ref": "AM09 v3",
       "question_type": "mc",
-      "question": "Today, Maya's age is \\(\\dfrac{1}{5}\\) of Noah's age. In \\(4\\) years, Maya's age will be \\(\\dfrac{1}{3}\\) of Noah's age. How old is Noah today?",
+      "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "options": {
-        "A": "\\(10\\) years old",
-        "B": "\\(15\\) years old",
-        "C": "\\(20\\) years old",
-        "D": "\\(25\\) years old"
+        "A": "\\(12\\)",
+        "B": "\\(16\\)",
+        "C": "\\(14\\)",
+        "D": "\\(18\\)"
       },
-      "correct": "C",
+      "correct": "B",
+      "figure_svg": "<svg viewBox=\"0 0 220 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,20 190,20 160,110 10,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<text x=\"30\" y=\"14\" font-size=\"12\" font-weight=\"700\">P</text>\n<text x=\"194\" y=\"14\" font-size=\"12\" font-weight=\"700\">Q</text>\n<text x=\"164\" y=\"124\" font-size=\"12\" font-weight=\"700\">R</text>\n<text x=\"0\" y=\"124\" font-size=\"12\" font-weight=\"700\">S</text>\n<text x=\"52\" y=\"36\" font-size=\"11\">(6x+12)&#176;</text>\n<text x=\"132\" y=\"36\" font-size=\"11\">(4x+8)&#176;</text>\n</svg>",
       "solution": {
-        "letter": "C",
-        "exhibit_text": "Let \\(m\\) be Maya's age today and \\(n\\) be Noah's age today, so \\(m=\\dfrac{n}{5}\\). In 4 years, \\(m+4=\\dfrac{n+4}{3}\\). Substitute \\(m=\\dfrac{n}{5}\\):\n\n\\[\\dfrac{n}{5}+4=\\dfrac{n+4}{3}\\]\n\\[3n+60=5n+20\\]\n\\[40=2n\\]\n\\[n=20\\]\n\nNoah is 20 years old today."
+        "letter": "B",
+        "exhibit_text": "In a parallelogram, consecutive angles are supplementary. Angles \\(P\\) and \\(Q\\) are consecutive:\n\n\\[(6x+12)+(4x+8)=180\\]\n\\[10x+20=180\\]\n\\[10x=160\\]\n\\[x=16\\]"
       }
     },
     {
       "id": "PS1-07",
       "origin": "PRACTICE_SET_1",
       "q_number": 7,
-      "skill_ref": "AM29 (combinations)",
+      "skill_ref": "AM26 v1",
       "question_type": "mc",
-      "question": "There are \\(8\\) different books on a shelf. Sophie will choose \\(2\\) of these books to bring on a trip. How many different pairs of \\(2\\) books can she choose from the \\(8\\)?",
+      "question": "Today, Ravi's age is \\(\\dfrac{1}{6}\\) of Grace's age. In \\(2\\) years, Ravi's age will be \\(\\dfrac{1}{4}\\) of Grace's age. How old is Grace today?",
       "options": {
-        "A": "\\(16\\)",
-        "B": "\\(24\\)",
-        "C": "\\(28\\)",
-        "D": "\\(56\\)"
+        "A": "\\(15\\)",
+        "B": "\\(18\\)",
+        "C": "\\(12\\)",
+        "D": "\\(21\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "letter": "C",
-        "exhibit_text": "There are 8 ways to pick the first book and 7 ways to pick the second, giving \\(8\\times7=56\\) ordered picks. Since order doesn't matter for a pair, divide by the number of ways to arrange 2 objects (2):\n\n\\[56\\div2=28\\]"
+        "letter": "B",
+        "exhibit_text": "Let \\(r\\) be Ravi's age today and \\(g\\) be Grace's age today, so \\(r=\\dfrac{g}{6}\\). In 2 years, \\(r+2=\\dfrac{g+2}{4}\\). Substitute:\n\n\\[\\dfrac{g}{6}+2=\\dfrac{g+2}{4}\\]\n\\[2g+24=3g+6\\]\n\\[18=g\\]\n\nGrace is 18 today."
       }
     },
     {
       "id": "PS1-08",
       "origin": "PRACTICE_SET_1",
       "q_number": 8,
-      "skill_ref": "AM30 (combined work rate)",
+      "skill_ref": "AM26 v2",
       "question_type": "mc",
-      "question": "Working at a constant rate, Priya can wrap \\(4\\) gifts in \\(12\\) minutes. Working at his own constant rate, Sam can wrap \\(6\\) gifts in \\(15\\) minutes. What is the total number of gifts the two of them can wrap in one hour?",
+      "question": "Today, Priya's age is \\(\\dfrac{1}{4}\\) of her brother's age. In \\(6\\) years, Priya's age will be \\(\\dfrac{1}{2}\\) of her brother's age. How old is her brother today?",
       "options": {
-        "A": "\\(20\\)",
-        "B": "\\(24\\)",
-        "C": "\\(40\\)",
-        "D": "\\(44\\)"
+        "A": "\\(12\\)",
+        "B": "\\(14\\)",
+        "C": "\\(10\\)",
+        "D": "\\(8\\)"
       },
-      "correct": "D",
+      "correct": "A",
       "solution": {
-        "letter": "D",
-        "exhibit_text": "Find each person's rate in gifts per hour (60 minutes). Priya wraps \\(4\\) gifts every \\(12\\) minutes, which is \\(\\dfrac{4}{12}\\times60=20\\) gifts per hour. Sam wraps \\(6\\) gifts every \\(15\\) minutes, which is \\(\\dfrac{6}{15}\\times60=24\\) gifts per hour. Together: \\(20+24=44\\) gifts in one hour."
+        "letter": "A",
+        "exhibit_text": "Let \\(p\\) be Priya's age today and \\(b\\) be her brother's age today, so \\(p=\\dfrac{b}{4}\\). In 6 years, \\(p+6=\\dfrac{b+6}{2}\\). Substitute:\n\n\\[\\dfrac{b}{4}+6=\\dfrac{b+6}{2}\\]\n\\[b+24=2b+12\\]\n\\[12=b\\]\n\nHer brother is 12 today."
       }
     },
     {
       "id": "PS1-09",
       "origin": "PRACTICE_SET_1",
       "q_number": 9,
-      "skill_ref": "AM36 (odd/even counting in a range)",
+      "skill_ref": "AM26 v3",
       "question_type": "mc",
-      "question": "If \\(5n\\) is a positive even number, how many **odd** numbers are in the range from \\(5n\\) up to and including \\(5n+7\\)?",
+      "question": "Today, Diego's age is \\(\\dfrac{1}{3}\\) of his sister's age. In \\(5\\) years, Diego's age will be \\(\\dfrac{1}{2}\\) of his sister's age. How old is his sister today?",
+      "options": {
+        "A": "\\(9\\)",
+        "B": "\\(12\\)",
+        "C": "\\(18\\)",
+        "D": "\\(15\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Let \\(d\\) be Diego's age today and \\(s\\) be his sister's age today, so \\(d=\\dfrac{s}{3}\\). In 5 years, \\(d+5=\\dfrac{s+5}{2}\\). Substitute:\n\n\\[\\dfrac{s}{3}+5=\\dfrac{s+5}{2}\\]\n\\[2s+30=3s+15\\]\n\\[15=s\\]\n\nHis sister is 15 today."
+      }
+    },
+    {
+      "id": "PS1-10",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 10,
+      "skill_ref": "AM29 v1",
+      "question_type": "mc",
+      "question": "There are \\(7\\) different puzzles on a shelf. Nora will choose \\(2\\) of these puzzles to bring to a friend's house. How many different pairs of \\(2\\) puzzles can she choose from the \\(7\\)?",
+      "options": {
+        "A": "\\(14\\)",
+        "B": "\\(21\\)",
+        "C": "\\(35\\)",
+        "D": "\\(42\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "There are 7 ways to pick the first puzzle and 6 ways to pick the second, giving \\(7\\times6=42\\) ordered picks. Since order doesn't matter for a pair, divide by 2:\n\n\\[42\\div2=21\\]"
+      }
+    },
+    {
+      "id": "PS1-11",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 11,
+      "skill_ref": "AM29 v2",
+      "question_type": "mc",
+      "question": "There are \\(9\\) different flavors of ice cream at a shop. Malik will choose \\(2\\) flavors to mix into one cup. How many different pairs of \\(2\\) flavors can he choose from the \\(9\\)?",
+      "options": {
+        "A": "\\(17\\)",
+        "B": "\\(72\\)",
+        "C": "\\(81\\)",
+        "D": "\\(36\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "There are 9 ways to pick the first flavor and 8 ways to pick the second, giving \\(9\\times8=72\\) ordered picks. Since order doesn't matter, divide by 2:\n\n\\[72\\div2=36\\]"
+      }
+    },
+    {
+      "id": "PS1-12",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 12,
+      "skill_ref": "AM29 v3",
+      "question_type": "mc",
+      "question": "There are \\(5\\) different board games in a closet. Zoe will choose \\(2\\) games to bring to game night. How many different pairs of \\(2\\) games can she choose from the \\(5\\)?",
+      "options": {
+        "A": "\\(9\\)",
+        "B": "\\(10\\)",
+        "C": "\\(20\\)",
+        "D": "\\(25\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "There are 5 ways to pick the first game and 4 ways to pick the second, giving \\(5\\times4=20\\) ordered picks. Since order doesn't matter, divide by 2:\n\n\\[20\\div2=10\\]"
+      }
+    },
+    {
+      "id": "PS1-13",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 13,
+      "skill_ref": "AM30 v1",
+      "question_type": "mc",
+      "question": "Working at a constant rate, Emma can fold \\(6\\) shirts in \\(15\\) minutes. Working at his own constant rate, Noah can fold \\(4\\) shirts in \\(8\\) minutes. What is the total number of shirts the two of them can fold in one hour?",
+      "options": {
+        "A": "\\(54\\)",
+        "B": "\\(48\\)",
+        "C": "\\(50\\)",
+        "D": "\\(60\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Emma folds \\(6\\) shirts every \\(15\\) minutes, which is \\(\\dfrac{6}{15}\\times60=24\\) shirts per hour. Noah folds \\(4\\) shirts every \\(8\\) minutes, which is \\(\\dfrac{4}{8}\\times60=30\\) shirts per hour. Together: \\(24+30=54\\) shirts in one hour."
+      }
+    },
+    {
+      "id": "PS1-14",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 14,
+      "skill_ref": "AM30 v2",
+      "question_type": "mc",
+      "question": "Working at a constant rate, Jade can assemble \\(8\\) boxes in \\(20\\) minutes. Working at his own constant rate, Marcus can assemble \\(9\\) boxes in \\(30\\) minutes. What is the total number of boxes the two of them can assemble in one hour?",
+      "options": {
+        "A": "\\(36\\)",
+        "B": "\\(39\\)",
+        "C": "\\(45\\)",
+        "D": "\\(42\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Jade assembles \\(8\\) boxes every \\(20\\) minutes, which is \\(\\dfrac{8}{20}\\times60=24\\) boxes per hour. Marcus assembles \\(9\\) boxes every \\(30\\) minutes, which is \\(\\dfrac{9}{30}\\times60=18\\) boxes per hour. Together: \\(24+18=42\\) boxes in one hour."
+      }
+    },
+    {
+      "id": "PS1-15",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 15,
+      "skill_ref": "AM30 v3",
+      "question_type": "mc",
+      "question": "Working at a constant rate, Devon can pack \\(10\\) boxes in \\(25\\) minutes. Working at her own constant rate, Sara can pack \\(7\\) boxes in \\(10\\) minutes. What is the total number of boxes the two of them can pack in one hour?",
+      "options": {
+        "A": "\\(54\\)",
+        "B": "\\(66\\)",
+        "C": "\\(60\\)",
+        "D": "\\(72\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Devon packs \\(10\\) boxes every \\(25\\) minutes, which is \\(\\dfrac{10}{25}\\times60=24\\) boxes per hour. Sara packs \\(7\\) boxes every \\(10\\) minutes, which is \\(\\dfrac{7}{10}\\times60=42\\) boxes per hour. Together: \\(24+42=66\\) boxes in one hour."
+      }
+    },
+    {
+      "id": "PS1-16",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 16,
+      "skill_ref": "AM36 v1",
+      "question_type": "mc",
+      "question": "If \\(7n\\) is a positive even number, how many **odd** numbers are in the range from \\(7n\\) up to and including \\(7n+9\\)?",
       "options": {
         "A": "\\(3\\)",
         "B": "\\(4\\)",
         "C": "\\(5\\)",
         "D": "\\(6\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "letter": "B",
-        "exhibit_text": "The range from \\(5n\\) to \\(5n+7\\), inclusive, contains 8 consecutive integers: \\(5n, 5n+1, 5n+2, \\dots, 5n+7\\). Since \\(5n\\) is even, the integers alternate even, odd, even, odd, ... Out of 8 consecutive integers starting on an even number, exactly half — 4 — are odd: \\(5n+1, 5n+3, 5n+5, 5n+7\\)."
+        "letter": "C",
+        "exhibit_text": "The range from \\(7n\\) to \\(7n+9\\), inclusive, contains 10 consecutive integers. Since \\(7n\\) is even, the integers alternate even, odd, even, odd, .... Out of 10 consecutive integers starting on an even number, exactly half — 5 — are odd."
+      }
+    },
+    {
+      "id": "PS1-17",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 17,
+      "skill_ref": "AM36 v2",
+      "question_type": "mc",
+      "question": "If \\(9n\\) is a positive even number, how many **odd** numbers are in the range from \\(9n\\) up to and including \\(9n+7\\)?",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(3\\)",
+        "C": "\\(5\\)",
+        "D": "\\(6\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The range from \\(9n\\) to \\(9n+7\\), inclusive, contains 8 consecutive integers. Since \\(9n\\) is even, the integers alternate even, odd, even, odd, .... Out of 8 consecutive integers starting on an even number, exactly half — 4 — are odd."
+      }
+    },
+    {
+      "id": "PS1-18",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 18,
+      "skill_ref": "AM36 v3",
+      "question_type": "mc",
+      "question": "If \\(11n\\) is a positive even number, how many **odd** numbers are in the range from \\(11n\\) up to and including \\(11n+11\\)?",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(7\\)",
+        "C": "\\(8\\)",
+        "D": "\\(6\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "The range from \\(11n\\) to \\(11n+11\\), inclusive, contains 12 consecutive integers. Since \\(11n\\) is even, the integers alternate even, odd, even, odd, .... Out of 12 consecutive integers starting on an even number, exactly half — 6 — are odd."
       }
     }
   ]

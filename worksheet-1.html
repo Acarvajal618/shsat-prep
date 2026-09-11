@@ -415,7 +415,7 @@
     <span class="sep">/</span>
     <span>MATH</span>
     <span class="sep">/</span>
-    <span id="tn-counter">1 OF 9</span>
+    <span id="tn-counter">1 OF 18</span>
   </div>
 
   <div class="tn-main">
@@ -467,7 +467,7 @@
     function parseHash() {
       const m = (location.hash || '').match(/#Q(\d+)/);
       if (!m) return null;
-      return Math.max(1, Math.min(9, parseInt(m[1], 10)));
+      return Math.max(1, Math.min(18, parseInt(m[1], 10)));
     }
 
     function routeFromHash() {
@@ -493,7 +493,7 @@
     function updateCounter() {
       const q = currentQ();
       const n = q ? q.q_number : (state.cur + 1);
-      document.getElementById('tn-counter').textContent = n + ' OF 9';
+      document.getElementById('tn-counter').textContent = n + ' OF 18';
     }
 
     function wireControls() {
