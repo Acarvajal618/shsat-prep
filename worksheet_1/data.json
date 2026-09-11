@@ -1,0 +1,181 @@
+{
+  "_schema": {
+    "description": "Practice Set 1 (9/11) — new problems targeting the same skills as her Exam A pain-point questions (AM01, AM05, AM08, AM09, AM12, AM26, AM29, AM30, AM36). Not an official exam.",
+    "id_format": "PS1-<NN>",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "PS1-01",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 1,
+      "skill_ref": "AM01 (scale-diagram ratio)",
+      "question_type": "mc",
+      "question": "In a scale diagram, \\(0.25\\) inch represents \\(100\\) feet. How many inches represent \\(1\\) foot?",
+      "options": {
+        "A": "\\(0.0025\\)",
+        "B": "\\(0.025\\)",
+        "C": "\\(0.25\\)",
+        "D": "\\(2.5\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Set up a proportion and solve for \\(x\\), the number of inches representing 1 foot:\n\n\\[\\dfrac{x}{1}=\\dfrac{0.25}{100}\\]\n\\[x=0.0025\\text{ in.}\\]"
+      }
+    },
+    {
+      "id": "PS1-02",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 2,
+      "skill_ref": "AM05 (three-part ratio chain)",
+      "question_type": "mc",
+      "question": "The sum of the numbers \\(a\\), \\(b\\), and \\(c\\) is \\(66\\). The ratio of \\(a\\) to \\(b\\) is \\(1{:}2\\), and the ratio of \\(b\\) to \\(c\\) is \\(2{:}3\\). What is the value of \\(b\\)?",
+      "options": {
+        "A": "\\(11\\)",
+        "B": "\\(22\\)",
+        "C": "\\(33\\)",
+        "D": "\\(44\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Since \\(a:b=1:2\\) and \\(b:c=2:3\\) already share the same value of \\(b\\) (2), combine them directly into one three-part ratio: \\(a:b:c=1:2:3\\). Let the parts be \\(k\\), \\(2k\\), and \\(3k\\). Their sum is \\(66\\):\n\n\\[k+2k+3k=66\\]\n\\[6k=66\\]\n\\[k=11\\]\n\nSo \\(b=2k=22\\)."
+      }
+    },
+    {
+      "id": "PS1-03",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 3,
+      "skill_ref": "AM08 (give-away linear equation word problem)",
+      "question_type": "mc",
+      "question": "Mia has three times as many marbles as Jake. Mia gives \\(6\\) of her marbles to Jake. Mia now has \\(10\\) more marbles than Jake. How many marbles did Mia start with?",
+      "options": {
+        "A": "\\(22\\)",
+        "B": "\\(27\\)",
+        "C": "\\(30\\)",
+        "D": "\\(33\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Let \\(x\\) be the number of marbles Jake starts with, so Mia starts with \\(3x\\). After Mia gives away 6 marbles, Mia has \\(3x-6\\) and Jake has \\(x+6\\). Mia now has 10 more than Jake:\n\n\\[3x-6=(x+6)+10\\]\n\\[3x-6=x+16\\]\n\\[2x=22\\]\n\\[x=11\\]\n\nMia started with \\(3x=33\\) marbles."
+      }
+    },
+    {
+      "id": "PS1-04",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 4,
+      "skill_ref": "AM09 (parallelogram angle properties)",
+      "question_type": "mc",
+      "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(34\\)",
+        "C": "\\(36\\)",
+        "D": "\\(40\\)"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 220 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,20 190,20 160,110 10,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<text x=\"30\" y=\"14\" font-size=\"12\" font-weight=\"700\">P</text>\n<text x=\"194\" y=\"14\" font-size=\"12\" font-weight=\"700\">Q</text>\n<text x=\"164\" y=\"124\" font-size=\"12\" font-weight=\"700\">R</text>\n<text x=\"0\" y=\"124\" font-size=\"12\" font-weight=\"700\">S</text>\n<text x=\"58\" y=\"36\" font-size=\"11\">(2x+10)&#176;</text>\n<text x=\"140\" y=\"36\" font-size=\"11\">(3x-10)&#176;</text>\n</svg>",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "In a parallelogram, consecutive angles are supplementary (they add up to \\(180\\degree\\)). Angles \\(P\\) and \\(Q\\) are consecutive angles, so:\n\n\\[(2x+10)+(3x-10)=180\\]\n\\[5x=180\\]\n\\[x=36\\]"
+      }
+    },
+    {
+      "id": "PS1-05",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 5,
+      "skill_ref": "AM12 (perimeter with side ratio)",
+      "question_type": "mc",
+      "question": "The perimeter of a rectangle is \\(280\\) centimeters. The ratio of the length to the width is \\(4{:}3\\). What are the dimensions of this rectangle?",
+      "options": {
+        "A": "\\(70\\) cm by \\(70\\) cm",
+        "B": "\\(84\\) cm by \\(56\\) cm",
+        "C": "\\(80\\) cm by \\(60\\) cm",
+        "D": "\\(90\\) cm by \\(50\\) cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The perimeter formula is \\(P=2(\\ell+w)\\), so \\(\\ell+w=140\\). Since the ratio of length to width is \\(4:3\\), let \\(\\ell=4k\\) and \\(w=3k\\):\n\n\\[4k+3k=140\\]\n\\[7k=140\\]\n\\[k=20\\]\n\nSo \\(\\ell=80\\) cm and \\(w=60\\) cm."
+      }
+    },
+    {
+      "id": "PS1-06",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 6,
+      "skill_ref": "AM26 (age ratio changing over time)",
+      "question_type": "mc",
+      "question": "Today, Maya's age is \\(\\dfrac{1}{5}\\) of Noah's age. In \\(4\\) years, Maya's age will be \\(\\dfrac{1}{3}\\) of Noah's age. How old is Noah today?",
+      "options": {
+        "A": "\\(10\\) years old",
+        "B": "\\(15\\) years old",
+        "C": "\\(20\\) years old",
+        "D": "\\(25\\) years old"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Let \\(m\\) be Maya's age today and \\(n\\) be Noah's age today, so \\(m=\\dfrac{n}{5}\\). In 4 years, \\(m+4=\\dfrac{n+4}{3}\\). Substitute \\(m=\\dfrac{n}{5}\\):\n\n\\[\\dfrac{n}{5}+4=\\dfrac{n+4}{3}\\]\n\\[3n+60=5n+20\\]\n\\[40=2n\\]\n\\[n=20\\]\n\nNoah is 20 years old today."
+      }
+    },
+    {
+      "id": "PS1-07",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 7,
+      "skill_ref": "AM29 (combinations)",
+      "question_type": "mc",
+      "question": "There are \\(8\\) different books on a shelf. Sophie will choose \\(2\\) of these books to bring on a trip. How many different pairs of \\(2\\) books can she choose from the \\(8\\)?",
+      "options": {
+        "A": "\\(16\\)",
+        "B": "\\(24\\)",
+        "C": "\\(28\\)",
+        "D": "\\(56\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There are 8 ways to pick the first book and 7 ways to pick the second, giving \\(8\\times7=56\\) ordered picks. Since order doesn't matter for a pair, divide by the number of ways to arrange 2 objects (2):\n\n\\[56\\div2=28\\]"
+      }
+    },
+    {
+      "id": "PS1-08",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 8,
+      "skill_ref": "AM30 (combined work rate)",
+      "question_type": "mc",
+      "question": "Working at a constant rate, Priya can wrap \\(4\\) gifts in \\(12\\) minutes. Working at his own constant rate, Sam can wrap \\(6\\) gifts in \\(15\\) minutes. What is the total number of gifts the two of them can wrap in one hour?",
+      "options": {
+        "A": "\\(20\\)",
+        "B": "\\(24\\)",
+        "C": "\\(40\\)",
+        "D": "\\(44\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Find each person's rate in gifts per hour (60 minutes). Priya wraps \\(4\\) gifts every \\(12\\) minutes, which is \\(\\dfrac{4}{12}\\times60=20\\) gifts per hour. Sam wraps \\(6\\) gifts every \\(15\\) minutes, which is \\(\\dfrac{6}{15}\\times60=24\\) gifts per hour. Together: \\(20+24=44\\) gifts in one hour."
+      }
+    },
+    {
+      "id": "PS1-09",
+      "origin": "PRACTICE_SET_1",
+      "q_number": 9,
+      "skill_ref": "AM36 (odd/even counting in a range)",
+      "question_type": "mc",
+      "question": "If \\(5n\\) is a positive even number, how many **odd** numbers are in the range from \\(5n\\) up to and including \\(5n+7\\)?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(4\\)",
+        "C": "\\(5\\)",
+        "D": "\\(6\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The range from \\(5n\\) to \\(5n+7\\), inclusive, contains 8 consecutive integers: \\(5n, 5n+1, 5n+2, \\dots, 5n+7\\). Since \\(5n\\) is even, the integers alternate even, odd, even, odd, ... Out of 8 consecutive integers starting on an even number, exactly half — 4 — are odd: \\(5n+1, 5n+3, 5n+5, 5n+7\\)."
+      }
+    }
+  ]
+}
