@@ -1,15 +1,14 @@
 {
   "_schema": {
-    "description": "Practice Set 1 (9/11) — 3 new variants each for the 6 skills she still had wrong after the 2026-09-10 Exam A retest (AM08, AM09, AM26, AM29, AM30, AM36). Not an official exam.",
-    "id_format": "PS1-<NN>",
+    "description": "Practice Set 1 (9/11) — 3 new variants each for the 6 skills she still had wrong after the 2026-09-10 Exam A retest. Not an official exam.",
+    "id_format": "AM<NN>.<variant> — points back to the original Exam A question it's a variant of (e.g. AM30.1, AM30.2, AM30.3 are three new variants of AM30).",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
   },
   "questions": [
     {
-      "id": "PS1-01",
+      "id": "AM08.1",
       "origin": "PRACTICE_SET_1",
       "q_number": 1,
-      "skill_ref": "AM08 v1",
       "question_type": "mc",
       "question": "Ava has \\(4\\) times as many stickers as Ben. Ava gives \\(9\\) of her stickers to Ben. Ava now has \\(15\\) more stickers than Ben. How many stickers did Ava start with?",
       "options": {
@@ -25,10 +24,9 @@
       }
     },
     {
-      "id": "PS1-02",
+      "id": "AM08.2",
       "origin": "PRACTICE_SET_1",
       "q_number": 2,
-      "skill_ref": "AM08 v2",
       "question_type": "mc",
       "question": "Owen has twice as many trading cards as Maddie. Owen gives \\(5\\) of his cards to Maddie. Owen now has \\(3\\) more cards than Maddie. How many cards did Owen start with?",
       "options": {
@@ -44,10 +42,9 @@
       }
     },
     {
-      "id": "PS1-03",
+      "id": "AM08.3",
       "origin": "PRACTICE_SET_1",
       "q_number": 3,
-      "skill_ref": "AM08 v3",
       "question_type": "mc",
       "question": "Lena has five times as many buttons as Theo. Lena gives \\(12\\) of her buttons to Theo. Lena now has \\(8\\) more buttons than Theo. How many buttons did Lena start with?",
       "options": {
@@ -63,10 +60,9 @@
       }
     },
     {
-      "id": "PS1-04",
+      "id": "AM09.1",
       "origin": "PRACTICE_SET_1",
       "q_number": 4,
-      "skill_ref": "AM09 v1",
       "question_type": "mc",
       "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "options": {
@@ -83,10 +79,9 @@
       }
     },
     {
-      "id": "PS1-05",
+      "id": "AM09.2",
       "origin": "PRACTICE_SET_1",
       "q_number": 5,
-      "skill_ref": "AM09 v2",
       "question_type": "mc",
       "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "options": {
@@ -103,10 +98,9 @@
       }
     },
     {
-      "id": "PS1-06",
+      "id": "AM09.3",
       "origin": "PRACTICE_SET_1",
       "q_number": 6,
-      "skill_ref": "AM09 v3",
       "question_type": "mc",
       "question": "In the figure above, \\(PQRS\\) is a parallelogram. What is the value of \\(x\\)?",
       "options": {
@@ -123,10 +117,9 @@
       }
     },
     {
-      "id": "PS1-07",
+      "id": "AM26.1",
       "origin": "PRACTICE_SET_1",
       "q_number": 7,
-      "skill_ref": "AM26 v1",
       "question_type": "mc",
       "question": "Today, Ravi's age is \\(\\dfrac{1}{6}\\) of Grace's age. In \\(2\\) years, Ravi's age will be \\(\\dfrac{1}{4}\\) of Grace's age. How old is Grace today?",
       "options": {
@@ -142,10 +135,9 @@
       }
     },
     {
-      "id": "PS1-08",
+      "id": "AM26.2",
       "origin": "PRACTICE_SET_1",
       "q_number": 8,
-      "skill_ref": "AM26 v2",
       "question_type": "mc",
       "question": "Today, Priya's age is \\(\\dfrac{1}{4}\\) of her brother's age. In \\(6\\) years, Priya's age will be \\(\\dfrac{1}{2}\\) of her brother's age. How old is her brother today?",
       "options": {
@@ -161,10 +153,9 @@
       }
     },
     {
-      "id": "PS1-09",
+      "id": "AM26.3",
       "origin": "PRACTICE_SET_1",
       "q_number": 9,
-      "skill_ref": "AM26 v3",
       "question_type": "mc",
       "question": "Today, Diego's age is \\(\\dfrac{1}{3}\\) of his sister's age. In \\(5\\) years, Diego's age will be \\(\\dfrac{1}{2}\\) of his sister's age. How old is his sister today?",
       "options": {
@@ -180,10 +171,9 @@
       }
     },
     {
-      "id": "PS1-10",
+      "id": "AM29.1",
       "origin": "PRACTICE_SET_1",
       "q_number": 10,
-      "skill_ref": "AM29 v1",
       "question_type": "mc",
       "question": "There are \\(7\\) different puzzles on a shelf. Nora will choose \\(2\\) of these puzzles to bring to a friend's house. How many different pairs of \\(2\\) puzzles can she choose from the \\(7\\)?",
       "options": {
@@ -199,10 +189,9 @@
       }
     },
     {
-      "id": "PS1-11",
+      "id": "AM29.2",
       "origin": "PRACTICE_SET_1",
       "q_number": 11,
-      "skill_ref": "AM29 v2",
       "question_type": "mc",
       "question": "There are \\(9\\) different flavors of ice cream at a shop. Malik will choose \\(2\\) flavors to mix into one cup. How many different pairs of \\(2\\) flavors can he choose from the \\(9\\)?",
       "options": {
@@ -218,10 +207,9 @@
       }
     },
     {
-      "id": "PS1-12",
+      "id": "AM29.3",
       "origin": "PRACTICE_SET_1",
       "q_number": 12,
-      "skill_ref": "AM29 v3",
       "question_type": "mc",
       "question": "There are \\(5\\) different board games in a closet. Zoe will choose \\(2\\) games to bring to game night. How many different pairs of \\(2\\) games can she choose from the \\(5\\)?",
       "options": {
@@ -237,10 +225,9 @@
       }
     },
     {
-      "id": "PS1-13",
+      "id": "AM30.1",
       "origin": "PRACTICE_SET_1",
       "q_number": 13,
-      "skill_ref": "AM30 v1",
       "question_type": "mc",
       "question": "Working at a constant rate, Emma can fold \\(6\\) shirts in \\(15\\) minutes. Working at his own constant rate, Noah can fold \\(4\\) shirts in \\(8\\) minutes. What is the total number of shirts the two of them can fold in one hour?",
       "options": {
@@ -256,10 +243,9 @@
       }
     },
     {
-      "id": "PS1-14",
+      "id": "AM30.2",
       "origin": "PRACTICE_SET_1",
       "q_number": 14,
-      "skill_ref": "AM30 v2",
       "question_type": "mc",
       "question": "Working at a constant rate, Jade can assemble \\(8\\) boxes in \\(20\\) minutes. Working at his own constant rate, Marcus can assemble \\(9\\) boxes in \\(30\\) minutes. What is the total number of boxes the two of them can assemble in one hour?",
       "options": {
@@ -275,10 +261,9 @@
       }
     },
     {
-      "id": "PS1-15",
+      "id": "AM30.3",
       "origin": "PRACTICE_SET_1",
       "q_number": 15,
-      "skill_ref": "AM30 v3",
       "question_type": "mc",
       "question": "Working at a constant rate, Devon can pack \\(10\\) boxes in \\(25\\) minutes. Working at her own constant rate, Sara can pack \\(7\\) boxes in \\(10\\) minutes. What is the total number of boxes the two of them can pack in one hour?",
       "options": {
@@ -294,10 +279,9 @@
       }
     },
     {
-      "id": "PS1-16",
+      "id": "AM36.1",
       "origin": "PRACTICE_SET_1",
       "q_number": 16,
-      "skill_ref": "AM36 v1",
       "question_type": "mc",
       "question": "If \\(7n\\) is a positive even number, how many **odd** numbers are in the range from \\(7n\\) up to and including \\(7n+9\\)?",
       "options": {
@@ -313,10 +297,9 @@
       }
     },
     {
-      "id": "PS1-17",
+      "id": "AM36.2",
       "origin": "PRACTICE_SET_1",
       "q_number": 17,
-      "skill_ref": "AM36 v2",
       "question_type": "mc",
       "question": "If \\(9n\\) is a positive even number, how many **odd** numbers are in the range from \\(9n\\) up to and including \\(9n+7\\)?",
       "options": {
@@ -332,10 +315,9 @@
       }
     },
     {
-      "id": "PS1-18",
+      "id": "AM36.3",
       "origin": "PRACTICE_SET_1",
       "q_number": 18,
-      "skill_ref": "AM36 v3",
       "question_type": "mc",
       "question": "If \\(11n\\) is a positive even number, how many **odd** numbers are in the range from \\(11n\\) up to and including \\(11n+11\\)?",
       "options": {
