@@ -441,6 +441,13 @@
   </div>
 
   <script>
+    // Opt-in big-text mode: append ?big=1 to the URL.
+    if (window.location.search.indexOf('big=1') !== -1) {
+      const bigScript = document.createElement('script');
+      bigScript.src = 'big.js?v=1';
+      document.head.appendChild(bigScript);
+    }
+
     const DATA_URL = 'worksheet_1/data.json?v=' + Date.now();
     const state = {
       questions: [],
