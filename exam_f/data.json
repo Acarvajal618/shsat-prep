@@ -806,6 +806,232 @@
         "exhibit_text": "Separate the compound inequality into two pieces: \\(-(a+5)<\\dfrac{b}{-2}\\) and \\(\\dfrac{b}{-2}\\le-3-a\\). Then plug in 4 for \\(b\\) and solve each inequality for \\(a\\). Be careful to flip the sign when multiplying or dividing both sides by a negative.\n\nFirst piece: \\(-(a+5)<\\dfrac{4}{-2}\\)\n\\[-a-5<-2\\]\n\\[-a<3\\]\n\\[a>-3\\]\n\nSecond piece: \\(\\dfrac{4}{-2}\\le-3-a\\)\n\\[-2\\le-3-a\\]\n\\[a\\le-1\\]\n\nCombining both pieces gives \\(-3<a\\le-1\\), so choose the number line with an open circle at \\(-3\\), a closed circle at \\(-1\\), and shading in between, (B)."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM41",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "Points A, B, C, D, E, F, G, and H are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points A and H is 56, what is the distance between points B and E?",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "21",
+        "D": "24"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM41.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Because the distance between each pair of adjacent points is the same, each of the 7 segments \\(\\overline{AB},\\overline{BC},\\overline{CD},\\overline{DE},\\overline{EF},\\overline{FG}\\), and \\(\\overline{GH}\\) has the same length. These 7 segments make up segment \\(\\overline{AH}\\). Since the length of \\(\\overline{AH}\\) is 56, the length of each of the 7 small segments is \\(56\\div7\\), or 8. The distance between points B and E is the sum of the lengths of the 3 equal segments \\(\\overline{BC}\\), \\(\\overline{CD}\\), and \\(\\overline{DE}\\), so the distance between points B and E is \\(3\\times8\\), or 24."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM42",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 42,
+      "question_type": "mc_multi",
+      "question": "If \\(q\\) and \\(r\\) are integers, in which of the following equations **must** \\(q\\) be positive?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "\\(qr^2=1\\)",
+        "B": "\\(q-r=1\\)",
+        "C": "\\(qr=1\\)",
+        "D": "\\(q^2r=1\\)",
+        "E": "\\(q^3r^2=1\\)"
+      },
+      "n_correct": 2,
+      "correct": [
+        "A",
+        "E"
+      ],
+      "source_screenshot": "Problems/EXAM_F/FM42.png",
+      "solution": {
+        "letter": "A, E",
+        "exhibit_text": "When you see variables in the answer choices, Picking Numbers may be a helpful strategy. Try each answer choice and see if the statement can be true with a negative \\(q\\). Pick a simple number for \\(q\\); since all of the answer choices equal 1, \\(q=-1\\) will work well.\n\n(A): \\((-1)\\times r^2=1\\). Therefore, \\(r^2\\) would have to equal \\(-1\\), which is impossible. Keep.\n(B): \\(-1-r=1\\). Therefore, \\(r=-2\\). Eliminate.\n(C): \\(-1r=1\\). Therefore, \\(r=-1\\). Eliminate.\n(D): \\((-1)^2r=1\\). Therefore, \\(r=1\\). Eliminate.\n(E): \\((-1)^3\\times r^2=1\\). This equals \\(-r^2=1\\). Therefore, \\(r^2\\) would have to equal \\(-1\\), which is impossible. Keep.\n\nAll of the answer choices can work with a negative \\(q\\) except for (A) and (E), which are correct."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM43",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "If \\(x\\) and \\(y\\) are non-zero integers and \\(x^2y<0\\), which statement **must** be true?",
+      "options": {
+        "A": "\\(y<0\\)",
+        "B": "\\(x\\) and \\(y\\) have the same sign",
+        "C": "\\(x<0\\)",
+        "D": "\\(x>y\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM43.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Since \\(x\\) and \\(y\\) are non-zero integers and the square of any non-zero integer is positive, the expression \\(x^2\\) must be positive. You are told that \\(x^2y<0\\), or that \\(x^2y\\) is negative. Since the product of a positive and a negative is negative, this means that \\(y\\) must be negative."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM44",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "In a recent survey, 80% of the people polled were registered voters and 75% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{1}{10}\\)",
+        "B": "\\(\\dfrac{1}{5}\\)",
+        "C": "\\(\\dfrac{1}{4}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM44.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Whenever you have a percent problem that doesn't give you a definite amount and asks a question like \"What fraction of the total...?\" you should pick a number for the total. Since you're dealing with percents here and will be converting the percents to fractions, a good number for the total is 100. So, say that 100 people were polled. 80% of the 100 people were registered voters, so 80 people were registered voters. 75% of the registered voters voted in the last election, so \\(75\\%\\times80\\), or 60 people, voted in the last election. If 60 of the 80 registered voters actually voted in the last election, then \\(80-60=20\\) of the registered voters did **not** vote in the last election. The fraction of the people surveyed who were registered but did not vote is \\(\\dfrac{20}{100}\\), or \\(\\dfrac{1}{5}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM45",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point K?",
+      "options": {
+        "A": "\\(\\dfrac{1}{30}\\)",
+        "B": "\\(\\dfrac{4}{15}\\)",
+        "C": "\\(\\dfrac{3}{10}\\)",
+        "D": "\\(\\dfrac{7}{30}\\)"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox=\"0 0 340 90\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<line x1=\"3.0\" y1=\"40\" x2=\"327.0\" y2=\"40\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<path d=\"M5.0,36 L-3.0,40 L5.0,44 Z\" fill=\"#222\"/>\n<path d=\"M325.0,36 L333.0,40 L325.0,44 Z\" fill=\"#222\"/>\n<circle cx=\"30.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<circle cx=\"210.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<circle cx=\"300.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<line x1=\"120.0\" y1=\"35\" x2=\"120.0\" y2=\"45\" stroke=\"#222\" stroke-width=\"1.2\"/>\n<text x=\"30.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">J</text>\n<text x=\"210.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">K</text>\n<text x=\"300.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">L</text>\n<text x=\"30.0\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">-1</text>\n<line x1=\"24.0\" y1=\"62\" x2=\"36.0\" y2=\"62\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"30.0\" y=\"74\" font-size=\"12\" text-anchor=\"middle\">5</text>\n<text x=\"300.0\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">1</text>\n<line x1=\"294.0\" y1=\"62\" x2=\"306.0\" y2=\"62\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"300.0\" y=\"74\" font-size=\"12\" text-anchor=\"middle\">2</text>\n</svg>",
+      "source_screenshot": "Problems/EXAM_F/FM45.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "First, determine the total distance between the two endpoints J and L:\n\n\\[\\dfrac{1}{2}-\\left(-\\dfrac{1}{5}\\right)=\\dfrac{5}{10}+\\dfrac{2}{10}=\\dfrac{7}{10}\\]\n\nThere are three intervals between J and L, so each interval is \\(\\dfrac{7}{10}\\div3=\\dfrac{7}{10}\\times\\dfrac{1}{3}=\\dfrac{7}{30}\\). Since there is only one interval between K and L, subtract the interval from the coordinate of point L to determine the coordinate of point K:\n\n\\[\\dfrac{1}{2}-\\dfrac{7}{30}=\\dfrac{15}{30}-\\dfrac{7}{30}=\\dfrac{8}{30}=\\dfrac{4}{15}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM46",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "What is the area of triangle DEF above?",
+      "options": {
+        "A": "\\(4x\\)",
+        "B": "\\(4y\\)",
+        "C": "\\(\\dfrac{1}{2}x+8\\)",
+        "D": "\\(4(x+y)\\)"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,270 150,40 270,270\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"109.3\" y1=\"125.1\" x2=\"270\" y2=\"270\" stroke=\"#222\" stroke-width=\"1.4\"/><polyline points=\"113.6,116.1 121.0,122.8 116.7,131.8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><line x1=\"23.8\" y1=\"262.2\" x2=\"133.8\" y2=\"32.2\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M23.8,262.2 L23.2,256.3 L28.8,258.9 Z\" fill=\"#222\"/><path d=\"M133.8,32.2 L134.3,38.2 L128.8,35.5 Z\" fill=\"#222\"/><text x=\"26\" y=\"286\" font-size=\"13\" font-family=\"system-ui,sans-serif\">D</text><text x=\"146\" y=\"32\" font-size=\"13\" font-family=\"system-ui,sans-serif\">E</text><text x=\"278\" y=\"278\" font-size=\"13\" font-family=\"system-ui,sans-serif\">F</text><text x=\"64.8\" y=\"147.2\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">x</text><text x=\"185.7\" y=\"189.6\" font-size=\"13\" font-family=\"system-ui,sans-serif\">8</text><text x=\"218.0\" y=\"155.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">8.5</text><text x=\"151.0\" y=\"288.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">y</text></svg>",
+      "source_screenshot": "Problems/EXAM_F/FM46.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The area of a triangle is given by the formula \\(A=\\tfrac{1}{2}bh\\). According to the figure, \\(b=x\\) and \\(h=8\\) (the height is perpendicular to the base), so \\(A=\\tfrac{1}{2}(x)(8)=4x\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM47",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a+1}{b+1}\\), and \\(a\\) and \\(b\\) do not equal \\(-1\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
+      "options": {
+        "A": "\\(\\dfrac{2a+b}{2b+b}\\)",
+        "B": "\\(\\dfrac{2a+1}{2b+1}\\)",
+        "C": "1",
+        "D": "\\(\\dfrac{ab+a}{ab+b}\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM47.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Substitute the values of \\(R\\) and \\(S\\) into the fraction \\(\\dfrac{R}{S}\\) and simplify:\n\n\\[\\dfrac{R}{S}=\\dfrac{\\tfrac{a}{b}}{\\tfrac{a+1}{b+1}}\\]\n\\[=\\dfrac{a}{b}\\div\\dfrac{a+1}{b+1}\\]\n\\[=\\dfrac{a}{b}\\times\\dfrac{b+1}{a+1}\\]\n\\[=\\dfrac{a(b+1)}{b(a+1)}\\]\n\nDistribute \\(a\\) and \\(b\\) to get \\(\\dfrac{ab+a}{ab+b}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM48",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 48,
+      "question_type": "grid_in",
+      "question": "A rectangular concrete patio is 20 feet long, 12 feet wide, and 4 inches thick. What is the volume, in cubic feet, of the concrete?",
+      "grid_answer": "80",
+      "source_screenshot": "Problems/EXAM_F/FM48.png",
+      "solution": {
+        "letter": "80",
+        "exhibit_text": "First convert 4 inches to \\(\\tfrac{1}{3}\\) foot. Then, multiply the length times the width times the depth to calculate the volume, in cubic feet:\n\n\\[20\\times12\\times\\dfrac{1}{3}=20\\times4=80\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM49",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 49,
+      "question_type": "dropdown",
+      "question": "A local community center surveyed its members to determine whether they take Yoga classes, Pilates classes, both, or neither. The results were as follows:\n• 42 members take Yoga.\n• 36 members take Pilates.\n• 14 members take both Yoga and Pilates.\n• 9 members take neither class.\n\nUse the information provided to determine how many members were surveyed and how many take only Pilates.\n\nThere were [blank1] members surveyed, and [blank2] members take only Pilates.",
+      "dropdowns": [
+        {
+          "label": "blank1",
+          "choices": [
+            "101",
+            "87",
+            "73",
+            "42",
+            "36"
+          ],
+          "answer_display": "73"
+        },
+        {
+          "label": "blank2",
+          "choices": [
+            "101",
+            "87",
+            "73",
+            "42",
+            "36",
+            "22"
+          ],
+          "answer_display": "22"
+        }
+      ],
+      "source_screenshot": "Problems/EXAM_F/FM49.png",
+      "solution": {
+        "letter": "73, 22",
+        "exhibit_text": "To find the number of members who take only Yoga, subtract those who take both classes from the total number of Yoga participants: \\(42-14=28\\). Similarly, the number of members who take only Pilates is \\(36-14=22\\). The total number of members surveyed is the sum of those who take only Yoga, only Pilates, both classes, and neither: \\(28+22+14+9=73\\). There were **73** members surveyed, and **22** members take only Pilates."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM50",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 50,
+      "question_type": "mc_multi",
+      "question": "Two expressions are given:\n\\(10-x\\)\n\\(5(3x-4)\\)\n\nWhich of these are equivalent to the difference of these expressions, if the first expression is subtracted from the second expression?\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(-10+x+15x-20\\)",
+        "B": "\\(-10-x+15x-20\\)",
+        "C": "\\(-x+15x-20-10\\)",
+        "D": "\\(x+15x-20-10\\)",
+        "E": "\\(16x-30\\)",
+        "F": "\\(-30+14x\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "D",
+        "E"
+      ],
+      "source_screenshot": "Problems/EXAM_F/FM50.png",
+      "solution": {
+        "letter": "A, D, E",
+        "exhibit_text": "Set up an expression that subtracts the first expression from the second expression, using parentheses to make sure you don't lose any of the signs: \\(5(3x-4)-(10-x)\\). Distribute the 5: \\(15x-20-(10-x)\\). Rewrite the terms that are in parentheses, making sure to distribute the subtraction sign before the parentheses: \\(15x-20-10+x\\). Then combine like terms: \\(15x+x-20-10=16x-30\\). This matches (E). Rearranging the terms before adding them also yields (A) and (D)."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
