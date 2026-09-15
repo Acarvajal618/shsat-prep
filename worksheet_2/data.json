@@ -1,0 +1,174 @@
+{
+  "_schema": {
+    "description": "Practice Set 2 (9/13) — 3 new variants each for the 3 skills she got wrong when reviewing AM40-50 on 2026-09-13 (AM45, AM46, AM47). Not an official exam.",
+    "id_format": "AM<NN>.<variant> — points back to the original Exam A question it's a variant of.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "AM45.1",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "Each week, Priya has fixed expenses of $\\(900\\) at her candle shop. It costs her $\\(80\\) to make a candle in her shop, and she sells each candle for $\\(150\\). What is Priya's **profit** if she makes and sells \\(30\\) candles in \\(1\\) week?",
+      "options": {
+        "A": "$\\(900\\)",
+        "B": "$\\(1{,}200\\)",
+        "C": "$\\(2{,}100\\)",
+        "D": "$\\(3{,}000\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Profit is total revenue minus total cost (fixed expenses plus variable cost per item). Revenue from selling 30 candles: \\(30\\times150=4{,}500\\). Variable cost of making 30 candles: \\(30\\times80=2{,}400\\). Total cost: \\(2{,}400+900=3{,}300\\). Profit: \\(4{,}500-3{,}300=1{,}200\\)."
+      }
+    },
+    {
+      "id": "AM45.2",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "Each week, Marcus has fixed expenses of $\\(2{,}000\\) at his pottery studio. It costs him $\\(200\\) to make a vase in his studio, and he sells each vase for $\\(350\\). What is Marcus's **profit** if he makes and sells \\(40\\) vases in \\(1\\) week?",
+      "options": {
+        "A": "$\\(4{,}000\\)",
+        "B": "$\\(6{,}000\\)",
+        "C": "$\\(2{,}000\\)",
+        "D": "$\\(8{,}000\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Revenue from selling 40 vases: \\(40\\times350=14{,}000\\). Variable cost of making 40 vases: \\(40\\times200=8{,}000\\). Total cost: \\(8{,}000+2{,}000=10{,}000\\). Profit: \\(14{,}000-10{,}000=4{,}000\\)."
+      }
+    },
+    {
+      "id": "AM45.3",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "Each week, Diane has fixed expenses of $\\(500\\) at her bakery. It costs her $\\(60\\) to make a cake in her bakery, and she sells each cake for $\\(110\\). What is Diane's **profit** if she makes and sells \\(20\\) cakes in \\(1\\) week?",
+      "options": {
+        "A": "$\\(500\\)",
+        "B": "$\\(1{,}000\\)",
+        "C": "$\\(1{,}500\\)",
+        "D": "$\\(2{,}000\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Revenue from selling 20 cakes: \\(20\\times110=2{,}200\\). Variable cost of making 20 cakes: \\(20\\times60=1{,}200\\). Total cost: \\(1{,}200+500=1{,}700\\). Profit: \\(2{,}200-1{,}700=500\\)."
+      }
+    },
+    {
+      "id": "AM46.1",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "Using the approximation \\(2.54\\) centimeters \\(= 1\\) inch, how many centimeters are in \\(5\\) feet \\(3\\) inches?",
+      "options": {
+        "A": "\\(157.48\\)",
+        "B": "\\(160.02\\)",
+        "C": "\\(162.56\\)",
+        "D": "\\(165.10\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "First convert 5 feet 3 inches entirely to inches: \\(5\\times12+3=63\\) inches. Then convert to centimeters: \\(63\\times2.54=160.02\\) cm."
+      }
+    },
+    {
+      "id": "AM46.2",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "Using the approximation \\(2.54\\) centimeters \\(= 1\\) inch, how many centimeters are in \\(3\\) feet \\(10\\) inches?",
+      "options": {
+        "A": "\\(114.30\\)",
+        "B": "\\(116.84\\)",
+        "C": "\\(119.38\\)",
+        "D": "\\(121.92\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "First convert 3 feet 10 inches entirely to inches: \\(3\\times12+10=46\\) inches. Then convert to centimeters: \\(46\\times2.54=116.84\\) cm."
+      }
+    },
+    {
+      "id": "AM46.3",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "Using the approximation \\(2.54\\) centimeters \\(= 1\\) inch, how many centimeters are in \\(6\\) feet \\(2\\) inches?",
+      "options": {
+        "A": "\\(185.42\\)",
+        "B": "\\(187.96\\)",
+        "C": "\\(190.50\\)",
+        "D": "\\(193.04\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "First convert 6 feet 2 inches entirely to inches: \\(6\\times12+2=74\\) inches. Then convert to centimeters: \\(74\\times2.54=187.96\\) cm."
+      }
+    },
+    {
+      "id": "AM47.1",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "On the number line above, \\(JK = 4\\tfrac{1}{2}\\), \\(JM = 10\\tfrac{1}{4}\\), and \\(LM = 2\\tfrac{1}{8}\\). What is the position of point \\(L\\)?",
+      "options": {
+        "A": "\\(3\\tfrac{3}{4}\\)",
+        "B": "\\(3\\tfrac{7}{8}\\)",
+        "C": "\\(4\\tfrac{1}{8}\\)",
+        "D": "\\(4\\tfrac{1}{4}\\)"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='290' y1='40' x2='290' y2='50' stroke='#111' stroke-width='1.4'/><line x1='370' y1='40' x2='370' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>J</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>K</text><text x='288' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='207' y='69' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='196' y1='73' x2='218' y2='73' stroke='#111' stroke-width='1.2'/><text x='207' y='87' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text></svg>",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Find the location of \\(J\\) by using \\(JK=4\\tfrac{1}{2}\\):\n\n\\[\\tfrac{1}{4}-J=4\\tfrac{1}{2}\\]\n\\[J=\\tfrac{1}{4}-4\\tfrac{1}{2}=-4\\tfrac{1}{4}\\]\n\nFind the location of \\(M\\) by using \\(JM=10\\tfrac{1}{4}\\):\n\n\\[M-\\left(-4\\tfrac{1}{4}\\right)=10\\tfrac{1}{4}\\]\n\\[M=10\\tfrac{1}{4}-4\\tfrac{1}{4}=6\\]\n\nFind the location of \\(L\\) by using \\(LM=2\\tfrac{1}{8}\\):\n\n\\[M-L=2\\tfrac{1}{8}\\]\n\\[L=6-2\\tfrac{1}{8}=3\\tfrac{7}{8}\\]"
+      }
+    },
+    {
+      "id": "AM47.2",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "On the number line above, \\(JK = 5\\tfrac{1}{4}\\), \\(JM = 11\\tfrac{1}{2}\\), and \\(LM = 3\\tfrac{3}{8}\\). What is the position of point \\(L\\)?",
+      "options": {
+        "A": "\\(3\\tfrac{1}{4}\\)",
+        "B": "\\(3\\tfrac{1}{2}\\)",
+        "C": "\\(3\\tfrac{3}{4}\\)",
+        "D": "\\(4\\)"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='290' y1='40' x2='290' y2='50' stroke='#111' stroke-width='1.4'/><line x1='370' y1='40' x2='370' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>J</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>K</text><text x='288' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='207' y='69' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='196' y1='73' x2='218' y2='73' stroke='#111' stroke-width='1.2'/><text x='207' y='87' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text></svg>",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Find the location of \\(J\\) by using \\(JK=5\\tfrac{1}{4}\\):\n\n\\[\\tfrac{5}{8}-J=5\\tfrac{1}{4}\\]\n\\[J=\\tfrac{5}{8}-5\\tfrac{1}{4}=-4\\tfrac{5}{8}\\]\n\nFind the location of \\(M\\) by using \\(JM=11\\tfrac{1}{2}\\):\n\n\\[M-\\left(-4\\tfrac{5}{8}\\right)=11\\tfrac{1}{2}\\]\n\\[M=11\\tfrac{1}{2}-4\\tfrac{5}{8}=6\\tfrac{7}{8}\\]\n\nFind the location of \\(L\\) by using \\(LM=3\\tfrac{3}{8}\\):\n\n\\[M-L=3\\tfrac{3}{8}\\]\n\\[L=6\\tfrac{7}{8}-3\\tfrac{3}{8}=3\\tfrac{1}{2}\\]"
+      }
+    },
+    {
+      "id": "AM47.3",
+      "origin": "PRACTICE_SET_2",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "On the number line above, \\(JK = 6\\tfrac{1}{4}\\), \\(JM = 12\\), and \\(LM = 4\\tfrac{1}{4}\\). What is the position of point \\(L\\)?",
+      "options": {
+        "A": "\\(1\\tfrac{3}{4}\\)",
+        "B": "\\(2\\)",
+        "C": "\\(2\\tfrac{1}{4}\\)",
+        "D": "\\(2\\tfrac{1}{2}\\)"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='290' y1='40' x2='290' y2='50' stroke='#111' stroke-width='1.4'/><line x1='370' y1='40' x2='370' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>J</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>K</text><text x='288' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='207' y='69' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='196' y1='73' x2='218' y2='73' stroke='#111' stroke-width='1.2'/><text x='207' y='87' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text></svg>",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Find the location of \\(J\\) by using \\(JK=6\\tfrac{1}{4}\\):\n\n\\[\\tfrac{1}{2}-J=6\\tfrac{1}{4}\\]\n\\[J=\\tfrac{1}{2}-6\\tfrac{1}{4}=-5\\tfrac{3}{4}\\]\n\nFind the location of \\(M\\) by using \\(JM=12\\):\n\n\\[M-\\left(-5\\tfrac{3}{4}\\right)=12\\]\n\\[M=12-5\\tfrac{3}{4}=6\\tfrac{1}{4}\\]\n\nFind the location of \\(L\\) by using \\(LM=4\\tfrac{1}{4}\\):\n\n\\[M-L=4\\tfrac{1}{4}\\]\n\\[L=6\\tfrac{1}{4}-4\\tfrac{1}{4}=2\\]"
+      }
+    }
+  ]
+}
