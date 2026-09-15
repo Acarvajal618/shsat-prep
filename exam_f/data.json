@@ -515,6 +515,297 @@
         "exhibit_text": "\\(\\angle PNM\\) is supplementary to \\(\\angle PNQ\\), so \\(m\\angle PNM+105\\degree=180\\degree\\), and \\(m\\angle PNM=75\\degree\\). Since \\(\\overline{PM}=\\overline{PN}\\), triangle MPN is isosceles and \\(m\\angle PMN=m\\angle PNM=75\\degree\\). The interior angles of a triangle sum to \\(180\\degree\\), so \\(75+75+x=180\\), and \\(x=30\\)."
       },
       "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM26",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 26,
+      "question_type": "mc",
+      "question": "A man is walking 3 miles per hour toward point B from point A. At the same time, a woman is running 6 miles per hour toward point A from point B. If point A and point B are 15 miles apart, how far from point B will they meet?",
+      "options": {
+        "A": "5 miles",
+        "B": "6 miles",
+        "C": "9 miles",
+        "D": "10 miles"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM26.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Try to visualize this problem as two people moving toward each other on a number line. Each hour, these two people move 9 miles closer to each other, so if you divide the total distance of 15 miles by 9, you get the time it takes for them to meet: \\(\\dfrac{15}{9}=\\dfrac{5}{3}=1\\tfrac{2}{3}\\) hours. To determine the distance from point B, see how far the person beginning at point B travels in that time: \\(6\\left(1\\tfrac{2}{3}\\right)=10\\) miles.\n\nYou could also Backsolve this problem. To do so, choose an answer and determine how long it would take the woman beginning at point B to travel that distance. Then, find how far the man beginning at point A could travel in that same time. If the two distances add up to 15, then the answer is correct."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM27",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "A granola recipe requires \\(\\dfrac{3}{5}\\) of an ounce of vanilla extract. How many batches of granola can be made using a package containing 60 ounces of vanilla extract?",
+      "options": {
+        "A": "36",
+        "B": "48",
+        "C": "80",
+        "D": "100"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM27.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To answer this question, you have to figure out how many times \\(\\dfrac{3}{5}\\) goes into 60. Since you're dividing by a number smaller than 1, the result must be more than 60, so eliminate (A) and (B). The equation is \\(60\\div\\dfrac{3}{5}=\\dfrac{60}{1}\\times\\dfrac{5}{3}\\). Canceling will make the multiplication easier: \\(\\dfrac{60}{1}\\times\\dfrac{5}{3}=\\dfrac{20}{1}\\times\\dfrac{5}{1}\\), which equals \\(20\\times5\\), or 100."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM28",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{y}{w}=z(w+x)\\]\nIn the equation above, the value of \\(w\\) is \\(-1\\) and \\(x\\), \\(y\\), and \\(z\\) are greater than 0. What is the value of \\(x\\) in terms of \\(y\\) and \\(z\\)?",
+      "options": {
+        "A": "\\(\\dfrac{-y-z}{z}\\)",
+        "B": "\\(\\dfrac{1-y}{z}\\)",
+        "C": "\\(\\dfrac{y-z}{z}\\)",
+        "D": "\\(\\dfrac{z-y}{z}\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM28.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Plug in \\(-1\\) for \\(w\\) and then isolate \\(x\\). Beware of careless errors with the negatives.\n\n\\[\\dfrac{y}{-1}=z(-1+x)\\]\n\\[\\dfrac{1}{z}(-y)=z(-1+x)\\left(\\dfrac{1}{z}\\right)\\]\n\\[-\\dfrac{y}{z}=-1+x\\]\n\\[-\\dfrac{y}{z}+1=x\\]\n\nNow that \\(x\\) is isolated, manipulate the expression until you have matched an answer choice:\n\n\\[-\\dfrac{y}{z}+\\dfrac{z}{z}=\\dfrac{-y+z}{z}=\\dfrac{z-y}{z}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM29",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "A commercial printer feeds paper through the rollers at a rate of 10 sheets every 4 seconds. If each sheet is \\(x\\) inches long, what must \\(x\\) be in order for the press to process exactly 1,650 inches of paper per minute?",
+      "options": {
+        "A": "11",
+        "B": "15",
+        "C": "110",
+        "D": "150"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM29.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To find the value of \\(x\\), first determine how many sheets are processed in one minute. The press moves 10 sheets every 4 seconds. Since there are 60 seconds in a minute, the printer moves \\(\\dfrac{10\\text{ sheets}}{4\\text{ seconds}}\\times\\dfrac{60\\text{ seconds}}{1\\text{ minute}}=150\\dfrac{\\text{sheets}}{\\text{minute}}\\). Next, relate the number of sheets to the total distance per minute. The press must process 1,650 inches per minute. Set up the equation: \\(150\\dfrac{\\text{sheets}}{\\text{minute}}\\left(x\\dfrac{\\text{inches}}{\\text{sheet}}\\right)=1{,}650\\dfrac{\\text{inches}}{\\text{minute}}\\), or \\(150x=1{,}650\\). Divide both sides by 150 to solve for \\(x\\): \\(x=\\dfrac{1{,}650}{150}=\\dfrac{165}{15}=\\dfrac{33}{3}=11\\) inches. The length of each sheet must be 11 inches."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM30",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 30,
+      "question_type": "grid_in",
+      "question": "The sum of two consecutive integers is \\(-25\\). If 3 is subtracted from the smaller integer and 2 is added to the larger integer, what is the product of the two resulting integers?",
+      "grid_answer": "160",
+      "source_screenshot": "Problems/EXAM_F/FM30.png",
+      "solution": {
+        "letter": "160",
+        "exhibit_text": "Let \\(x\\) represent the smaller integer. The next consecutive integer is \\(x+1\\). Their sum is \\(-25\\).\n\n\\[x+(x+1)=-25\\]\n\\[2x+1=-25\\]\n\\[2x=-26\\]\n\\[x=-13\\]\n\nThe smaller integer is \\(-13\\), and the larger is \\(-13+1=-12\\).\n\nNext, subtract 3 from the smaller integer to get \\(-13-3=-16\\) and add 2 to the larger integer to get \\(-12+2=-10\\).\n\nFinally, find the product of the two new integers: \\((-16)\\times(-10)=160\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM31",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "What is the probability of rolling a number greater than 3 twice in a row on a fair six-sided die, with each of the numbers 1–6 on each side?",
+      "options": {
+        "A": "\\(\\dfrac{1}{8}\\)",
+        "B": "\\(\\dfrac{1}{4}\\)",
+        "C": "\\(\\dfrac{1}{2}\\)",
+        "D": "\\(\\dfrac{3}{4}\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM31.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find the probability of two independent events, find the probability of each individual event and then multiply those probabilities together. Remember that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). You need to find the probability of rolling a 4, 5, or 6 on the die and then multiply that number by itself. In this scenario, there are 3 desired outcomes out of a total of 6, so the probability of rolling a 4, 5, or 6 is \\(\\dfrac{3}{6}=\\dfrac{1}{2}\\). Multiply this number by itself to obtain \\(\\dfrac{1}{2}\\times\\dfrac{1}{2}=\\dfrac{1}{4}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM32",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 32,
+      "question_type": "mc",
+      "question": "The table above shows the number of dogs per family in 120 households in a certain neighborhood. By what **percentage** is the number of families with 2 dogs less than the number of families with no dogs?",
+      "options": {
+        "A": "15%",
+        "B": "18%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct": "D",
+      "figure_svg": "<svg viewBox=\"0 0 284 132\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"13\" font-weight=\"700\" font-size=\"12\">SURVEY OF DOG OWNERSHIP</text><g transform=\"translate(2,20)\"><rect x=\"0\" y=\"0\" width=\"280\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"280\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"280\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"280\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"280\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"280\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\">Number of Dogs</text><text x=\"146\" y=\"15\" font-weight=\"700\">Number of Families</text><text x=\"6\" y=\"37\">0</text><text x=\"146\" y=\"37\">45</text><text x=\"6\" y=\"59\">1</text><text x=\"146\" y=\"59\">38</text><text x=\"6\" y=\"81\">2</text><text x=\"146\" y=\"81\">27</text><text x=\"6\" y=\"103\">3 or more</text><text x=\"146\" y=\"103\">10</text></g></svg>",
+      "source_screenshot": "Problems/EXAM_F/FM32.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Read carefully to identify the \"whole\" value for this problem. In this case, the question asks for the difference *from* families with no dogs, so that value represents the whole. There are 45 families with no dogs, and \\(45-27=18\\) fewer families with 2 dogs. Plug these values into the percent formula: \\(\\dfrac{18}{45}\\times100=40\\%\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM33",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 33,
+      "question_type": "mc",
+      "question": "A committee of 3 people is to be chosen from a group of five 9th graders and four 10th graders. If the committee must consist of two 9th graders and one 10th grader, how many different committees can be formed?",
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "84",
+        "D": "120"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM33.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "There are five 9th graders, and two must be chosen to be part of the committee. There are 5 ways to select the first 9th grader. After he has been chosen, only 4 remain. It appears that there are \\(5\\times4=20\\) selections possible. However, the order in which these 9th graders appear on the committee does not matter. Therefore, you must divide by the number of ways to arrange 2 objects, or \\(2\\times1\\). The final result is \\(\\dfrac{20}{2\\times1}=10\\).\n\nThere are 4 ways to choose one 10th grader out of a group of four 10th graders.\n\nEach of the 10 ways to choose the 9th graders can be paired with each of the 4 ways to choose the 10th graders. Therefore, a total of \\(10\\times4=40\\) committees are possible."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM34",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 34,
+      "question_type": "mc",
+      "question": "In a sample of 60 ties at a local clothing store, there are 8 purple ties and 32 striped ties. Of the 8 purple ties, 5 have stripes. If a tie is selected at random from the given sample, what is the probability that **both** of the following are true: the tie is **not** purple and does **not** have stripes?",
+      "options": {
+        "A": "\\(\\dfrac{1}{12}\\)",
+        "B": "\\(\\dfrac{1}{3}\\)",
+        "C": "\\(\\dfrac{5}{12}\\)",
+        "D": "\\(\\dfrac{9}{20}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_F/FM34.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of non-purple unstriped ties. Find the number of purple or striped ties and subtract from 60. \\(8\\text{ purple}+32\\text{ striped}=40\\) ties. You might be tempted to go ahead and subtract from 60 now (which would give a probability of \\(\\dfrac{20}{60}\\), or \\(\\dfrac{1}{3}\\)), but remember that 5 ties are *both* purple and striped. You don't want to count those twice, so subtract them: \\(40-5=35\\). Now you can subtract from 60 to get 25 ties that are neither purple nor striped. The probability of selecting one of these is \\(\\dfrac{25}{60}\\), or \\(\\dfrac{5}{12}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM35",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 35,
+      "question_type": "mc",
+      "question": "Lucia speed walks 3 kilometers in \\(\\dfrac{2}{3}\\) of an hour. At that rate, how many **meters** does she speed walk per minute? (Note: 1 km = 1,000 m)",
+      "options": {
+        "A": "0.75",
+        "B": "75",
+        "C": "750",
+        "D": "7,500"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM35.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Pay careful attention to the units. You are asked for the rate in meters per minute, so convert kilometers to meters and hours to minutes.\n\n\\[3\\text{ km}=3\\times1{,}000=3{,}000\\text{ m}\\]\n\\[\\dfrac{2}{3}\\text{ hr}=\\dfrac{2}{3}\\times60=40\\text{ minutes}\\]\n\nThus, Lucia speed walks 3,000 meters in 40 minutes, or \\(3{,}000\\div40=75\\) meters per minute."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM36",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 36,
+      "question_type": "grid_in",
+      "question": "Liz is training on a circular track. She has already run 800 meters. Each lap around the track is exactly 150 meters. If her goal is to run at least 3,400 meters in total, what is the minimum number of full laps she still needs to complete?",
+      "grid_answer": "18",
+      "source_screenshot": "Problems/EXAM_F/FM36.png",
+      "solution": {
+        "letter": "18",
+        "exhibit_text": "Liz's goal is to run 3,400 meters, and she has already run 800 meters. Therefore, she has \\(3{,}400-800=2{,}600\\) meters left. Each lap is exactly 150 meters, so she has \\(\\dfrac{2{,}600}{150}=\\dfrac{260}{15}=\\dfrac{52}{3}=17\\tfrac{1}{3}\\) laps left.\n\nThe question asks how many full laps she needs to complete, so round up. 17 is too small; she must run 18."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM37",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 37,
+      "question_type": "mc",
+      "question": "The mean weight of a group of 6 people is 150 pounds. If a 7th person weighing 185 pounds joins the group, what is the new mean weight of the 7 people?",
+      "options": {
+        "A": "155",
+        "B": "156",
+        "C": "157",
+        "D": "158"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM37.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Recall that \\(\\text{Average}=\\dfrac{\\text{Sum of Values}}{\\text{Number of Values}}\\). If the mean weight of a group of 6 people is 150 pounds, then \\(150=\\dfrac{\\text{Sum}}{6}\\). Therefore, \\(\\text{Sum}=150\\times6=900\\). To find the new average when the 7th person is included, add the 185 pounds to this sum and divide by 7: \\(\\dfrac{900+185}{7}=\\dfrac{1{,}085}{7}=155\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM38",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "\\[-2<\\dfrac{x}{3}<1\\]\nWhich number line shows the solution to the inequality above?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"18\" x2=\"48.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"18\" x2=\"67.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"18\" x2=\"86.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"18\" x2=\"105.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"18\" x2=\"123.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"18\" x2=\"142.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"18\" x2=\"161.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"18\" x2=\"198.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"18\" x2=\"217.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"18\" x2=\"236.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"18\" x2=\"255.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"18\" x2=\"273.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"18\" x2=\"292.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"18\" x2=\"311.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"161.2\" y1=\"22\" x2=\"198.8\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"161.2\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"198.8\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"63\" x2=\"48.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"63\" x2=\"67.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"63\" x2=\"86.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"63\" x2=\"105.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"63\" x2=\"123.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"63\" x2=\"142.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"63\" x2=\"161.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"63\" x2=\"198.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"63\" x2=\"217.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"63\" x2=\"236.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"63\" x2=\"255.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"63\" x2=\"273.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"63\" x2=\"292.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"63\" x2=\"311.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"67.5\" y1=\"67\" x2=\"236.2\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"67.5\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"236.2\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"108\" x2=\"48.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"108\" x2=\"67.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"108\" x2=\"86.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"108\" x2=\"105.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"108\" x2=\"123.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"108\" x2=\"142.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"108\" x2=\"161.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"108\" x2=\"198.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"108\" x2=\"217.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"108\" x2=\"236.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"108\" x2=\"255.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"108\" x2=\"273.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"108\" x2=\"292.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"108\" x2=\"311.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"86.2\" y1=\"112\" x2=\"217.5\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"86.2\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"217.5\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"153\" x2=\"48.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"153\" x2=\"67.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"153\" x2=\"86.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"153\" x2=\"105.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"153\" x2=\"123.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"153\" x2=\"142.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"153\" x2=\"161.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"153\" x2=\"198.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"153\" x2=\"217.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"153\" x2=\"236.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"153\" x2=\"255.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"153\" x2=\"273.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"153\" x2=\"292.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"153\" x2=\"311.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"67.5\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,152 L20.0,157 L28.0,162 Z\" fill=\"#222\"/><line x1=\"236.2\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,152 L340.0,157 L332.0,162 Z\" fill=\"#222\"/><circle cx=\"67.5\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"236.2\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+      "source_screenshot": "Problems/EXAM_F/FM38.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Multiply each term in the equation by 3 to clear the fraction. This will isolate the \\(x\\).\n\n\\[-2(3)<\\left(\\dfrac{x}{3}\\right)(3)<1(3)\\]\n\\[-6<x<3\\]\n\nSince \\(x\\) is between \\(-6\\) and 3, choose the number line that is shaded between \\(-6\\) and 3, with open circles at both endpoints since the inequality is strict, (B)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM39",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "The mean of a set of 10 numbers is 16. Two of the numbers (7 and 13) are removed. What is the mean of the 8 remaining numbers?",
+      "options": {
+        "A": "6",
+        "B": "13.5",
+        "C": "17.5",
+        "D": "18"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_F/FM39.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The mean of a set of values is the sum of the values divided by the number of values. In this question, you already know the mean (16) of the original 10 values, so you can find the sum of those values by multiplying.\n\n\\[\\text{mean}=\\text{sum}\\div\\text{number of values}\\]\n\\[\\text{sum}=\\text{mean}\\times\\text{number of values}\\]\n\\[\\text{sum}=16\\times10\\]\n\\[\\text{sum}=160\\]\n\nIf 7 and 13 are removed from the set of numbers, the new sum is \\(160-20=140\\). Find the mean of the remaining 8 numbers by dividing:\n\n\\[140\\div8=17.5\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM40",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "Which number line below shows the range of values that satisfy the inequality \\(-(a+5)<\\dfrac{b}{-2}\\le-3-a\\) when \\(b=4\\)?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"18\" x2=\"60.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"18\" x2=\"90.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"18\" x2=\"150.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"18\" x2=\"240.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"18\" x2=\"270.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"18\" x2=\"300.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"150.0\" y1=\"22\" x2=\"339.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,17 L340.0,22 L332.0,27 Z\" fill=\"#222\"/><circle cx=\"150.0\" cy=\"22\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"63\" x2=\"60.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"63\" x2=\"90.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"63\" x2=\"120.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"63\" x2=\"150.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"63\" x2=\"210.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"63\" x2=\"240.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"63\" x2=\"270.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"63\" x2=\"300.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"90.0\" y1=\"67\" x2=\"150.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"90.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"150.0\" cy=\"67\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"108\" x2=\"60.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"108\" x2=\"90.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"108\" x2=\"120.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"108\" x2=\"150.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"108\" x2=\"210.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"108\" x2=\"240.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"108\" x2=\"270.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"108\" x2=\"300.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"112\" x2=\"90.0\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,107 L20.0,112 L28.0,117 Z\" fill=\"#222\"/><circle cx=\"90.0\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"153\" x2=\"60.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"153\" x2=\"90.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"153\" x2=\"120.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"153\" x2=\"150.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"153\" x2=\"210.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"153\" x2=\"240.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"153\" x2=\"270.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"153\" x2=\"300.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"90.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,152 L20.0,157 L28.0,162 Z\" fill=\"#222\"/><line x1=\"150.0\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,152 L340.0,157 L332.0,162 Z\" fill=\"#222\"/><circle cx=\"90.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"150.0\" cy=\"157\" r=\"4\" fill=\"#222\"/></svg>",
+      "source_screenshot": "Problems/EXAM_F/FM40.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Separate the compound inequality into two pieces: \\(-(a+5)<\\dfrac{b}{-2}\\) and \\(\\dfrac{b}{-2}\\le-3-a\\). Then plug in 4 for \\(b\\) and solve each inequality for \\(a\\). Be careful to flip the sign when multiplying or dividing both sides by a negative.\n\nFirst piece: \\(-(a+5)<\\dfrac{4}{-2}\\)\n\\[-a-5<-2\\]\n\\[-a<3\\]\n\\[a>-3\\]\n\nSecond piece: \\(\\dfrac{4}{-2}\\le-3-a\\)\n\\[-2\\le-3-a\\]\n\\[a\\le-1\\]\n\nCombining both pieces gives \\(-3<a\\le-1\\), so choose the number line with an open circle at \\(-3\\), a closed circle at \\(-1\\), and shading in between, (B)."
+      },
+      "transcription_status": "verbatim_verified"
     }
   ]
 }
