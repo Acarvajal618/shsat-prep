@@ -51,14 +51,14 @@
     }
     .mg-table thead th.mg-id-col { z-index: 3; }
 
-    tr.mg-streak-0 td.mg-id-col { background: var(--surface); }
-    tr.mg-streak-1 td.mg-id-col { background: #eafbea; }
-    tr.mg-streak-2 td.mg-id-col { background: #a8dab5; }
-    tr.mg-streak-3 td.mg-id-col { background: var(--correct); color: #fff; }
+    tr.mg-row-pass { background: #eafbea; }
+    tr.mg-row-fail { background: #fdeaea; }
+    tr.mg-row-pass td.mg-id-col { background: #eafbea; }
+    tr.mg-row-fail td.mg-id-col { background: #fdeaea; }
 
     .mg-pass { color: var(--correct); font-weight: 800; }
     .mg-fail { color: var(--incorrect); font-weight: 800; }
-    .mg-null { background: #e3e3e8; color: #8a8a94; font-size: 0.72rem; font-weight: 600; }
+    .mg-null { background: #e3e3e8 !important; color: #8a8a94; font-size: 0.72rem; font-weight: 600; }
     .mg-badge { font-size: 0.75rem; margin-left: 0.25rem; }
 
     .mg-empty { padding: 2.5rem 1rem; text-align: center; color: var(--text-muted); }
@@ -166,18 +166,22 @@
           ${dates.map(d => `<th>${d.slice(5)}</th>`).join('')}
         </tr>`;
 
+      const lastDate = dates.length ? dates[dates.length - 1] : null;
+
       const body = withStreak.map(r => {
         const entries = proficiency[r.id] || [];
         const byDate = {};
         entries.forEach(e => { byDate[e.date] = e.result; });
         const badge = r.streak >= STREAK_TARGET ? ' <span class="mg-badge">⭐</span>' : '';
+        const lastResult = lastDate ? byDate[lastDate] : undefined;
+        const rowClass = lastResult === 'fail' ? 'mg-row-fail' : 'mg-row-pass';
         const cells = dates.map(d => {
           const res = byDate[d];
           if (res === 'pass') return '<td class="mg-pass">✓</td>';
           if (res === 'fail') return '<td class="mg-fail">✗</td>';
           return '<td class="mg-null">Null</td>';
         }).join('');
-        return `<tr class="mg-streak-${r.streak}">
+        return `<tr class="${rowClass}">
             <td class="mg-id-col">${r.id}${badge}</td>
             ${cells}
           </tr>`;
