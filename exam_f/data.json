@@ -1,8 +1,520 @@
 {
   "_schema": {
-    "description": "Practice Test F \u2014 Math section (50 questions planned).",
+    "description": "Practice Test F — Math section (in progress). Sourced from the Kaplan “Learn with Atom” online practice-test simulator (“Your Practice Test C”), similar to Exam E.",
     "id_format": "FM<NN>",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "FM01",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "If \\(N\\) is an odd integer, which of the following **must** be even?",
+      "options": {
+        "A": "\\(2N-1\\)",
+        "B": "\\(3N+2\\)",
+        "C": "\\(4N\\)",
+        "D": "\\(N^2+2N\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_F/FM01.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "This is a perfect problem for Picking Numbers. Pick a simple number for \\(N\\), like 3. Then plug it into the answer choices and see which one is correct.\n\n(A) \\(2(3)+1=6-1=5\\). Eliminate.\n(B) \\(3(3)+2=9+2=11\\). Eliminate.\n(C) \\(4(3)=12\\). Keep.\n(D) \\((3)^2+2(3)=9+6=15\\). Eliminate.\n\nOnly (C) works."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM02",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "The perimeter of a rectangle is \\(208\\) inches. The ratio of its length to its width is \\(5{:}3\\). What are the dimensions of this rectangle?",
+      "options": {
+        "A": "\\(60\\) in. by \\(44\\) in.",
+        "B": "\\(65\\) in. by \\(39\\) in.",
+        "C": "\\(68\\) in. by \\(36\\) in.",
+        "D": "\\(72\\) in. by \\(32\\) in."
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM02.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Since you know that the rectangle's perimeter is 208, you can use the ratio of length to width and the perimeter formula to set up a proportion. \\(P=2(\\ell+w)\\), so proportionate to the length and width, the perimeter is \\(2(5+3)=16\\). Set up a proportion using the length and the perimeter, then cross multiply and divide to solve:\n\n\\[\\dfrac{5}{16}=\\dfrac{\\ell}{208}\\]\n\\[16\\ell=1{,}040\\]\n\\[\\ell=65\\]\n\nNote that the lengths and widths in the answer choices are all different, so you only need to find one of them to find the answer. (B) is correct."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM03",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 3,
+      "question_type": "grid_in",
+      "question": "In the equation \\(3y+10=5y-25\\), what is the value of \\(y\\)?",
+      "grid_answer": "17.5",
+      "source_screenshot": "Problems/EXAM_F/FM03.png",
+      "solution": {
+        "letter": "17.5",
+        "exhibit_text": "To solve the given equation for \\(y\\), start by adding 25 to both sides, then subtract \\(3y\\) from both sides. Finally, divide by the coefficient of \\(y\\).\n\n\\[3y+10=5y-25\\]\n\\[3y+35=5y\\]\n\\[35=2y\\]\n\\[17.5=y\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM04",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "In the figure above, if lines \\(m\\) and \\(n\\) are parallel, all of the following statements are true **except**",
+      "options": {
+        "A": "\\(t=130\\)",
+        "B": "\\(q+u=100\\)",
+        "C": "\\(v+50=180\\)",
+        "D": "\\(s=150\\)"
+      },
+      "correct": "D",
+      "figure_svg": "<svg viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"60\" y1=\"100\" x2=\"480\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"60\" y1=\"220\" x2=\"480\" y2=\"220\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"150\" y1=\"35\" x2=\"340\" y2=\"300\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"490\" y=\"105\" font-style=\"italic\" font-size=\"15\">m</text>\n<text x=\"490\" y=\"225\" font-style=\"italic\" font-size=\"15\">n</text>\n<text x=\"138.60377358490567\" y=\"72\" font-size=\"14\">50&#176;</text>\n<text x=\"206.60377358490567\" y=\"86\" font-style=\"italic\" font-size=\"14\">p&#176;</text>\n<text x=\"164.60377358490567\" y=\"126\" font-style=\"italic\" font-size=\"14\">r&#176;</text>\n<text x=\"214.60377358490567\" y=\"126\" font-style=\"italic\" font-size=\"14\">q&#176;</text>\n<text x=\"248.64150943396226\" y=\"208\" font-style=\"italic\" font-size=\"14\">s&#176;</text>\n<text x=\"294.64150943396226\" y=\"208\" font-style=\"italic\" font-size=\"14\">t&#176;</text>\n<text x=\"262.64150943396226\" y=\"248\" font-style=\"italic\" font-size=\"14\">v&#176;</text>\n<text x=\"304.64150943396226\" y=\"248\" font-style=\"italic\" font-size=\"14\">u&#176;</text>\n</svg>",
+      "source_screenshot": "Problems/EXAM_F/FM04.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "For parallel lines cut by a transversal, all acute angles are equal and all obtuse angles are equal.\n\nThus, \\(50\\degree=q\\degree=s\\degree=u\\degree\\) and \\(p\\degree=r\\degree=t\\degree=v\\degree\\). Since \\(50\\degree\\) and \\(p\\degree\\) are supplementary, \\(p\\degree=180\\degree-50\\degree=130\\degree\\). Check each answer choice:\n\n(A) is true since \\(t=p=130\\).\n(B) is true since \\(q=u=50\\) and \\(50+50=100\\).\n(C) is true since \\(v=p=130\\) and \\(130+50=180\\).\n(D) is not true since \\(s=q=50\\ne150\\).\n\nThus, the correct answer is (D)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM05",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "Nick and Alex worked on a paper together. If Nick wrote \\(\\dfrac{2}{7}\\) of the paper and Alex wrote \\(20\\) pages, then what was the total length of the paper?",
+      "options": {
+        "A": "7 pages",
+        "B": "21 pages",
+        "C": "28 pages",
+        "D": "35 pages"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_F/FM05.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "If Nick wrote \\(\\dfrac{2}{7}\\) of the paper, then Alex must have written the other \\(\\dfrac{5}{7}\\) of the paper. This means \\(\\dfrac{5}{7}\\) of the paper is equal to 20 pages.\n\n\\[\\dfrac{5}{7}P=20\\]\n\nTo solve for \\(P\\), multiply both sides of the equation by the reciprocal of \\(\\dfrac{5}{7}\\), which is \\(\\dfrac{7}{5}\\).\n\n\\[P=\\dfrac{7}{5}\\times20\\]\n\\[P=28\\]\n\nThe paper is 28 pages long."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM06",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "A chemist is preparing a solution by combining the contents of several containers:\n• Three 1.5-liter flasks\n• Five 250-milliliter beakers\n• Two 75-milliliter test tubes\n\nIf the chemist pours all of these into one large vat, what is the total volume of the solution, in liters?",
+      "options": {
+        "A": "1.825",
+        "B": "4.5",
+        "C": "5.75",
+        "D": "5.9"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM06.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To determine the total volume, add up all of the chemist's containers. Three 1.5 liter flasks give \\(3\\times1.5\\) liters \\(=4.5\\) liters. Five 250-milliliter beakers total \\(5\\times250=1{,}250\\) milliliters. Since there are 1,000 milliliters in 1 liter, this is equivalent to \\(\\dfrac{1{,}250}{1{,}000}=1.250\\) liters.\n\nSo far, \\(4.5+1.25=5.75\\), but there's one more container to add. Choice (D) is the only larger choice and must be correct.\n\nOn test day, choose (D) with confidence and move to the next question. For more practice, use similar logic to evaluate the last container. Two 75-milliliter test tubes are \\(2\\times75=150\\) milliliters, or \\(\\dfrac{150}{1{,}000}=0.150\\) liters. Summing these three components gives \\(4.5+1.250+0.150=5.9\\) liters."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM07",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "There are 50 cards of varying colors in a stack. The probability of drawing a yellow card is 0.4. If 10 yellow cards are removed from the stack, what is the probability of drawing a yellow card from the remaining stack?",
+      "options": {
+        "A": "0.20",
+        "B": "0.25",
+        "C": "0.30",
+        "D": "0.40"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM07.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). There are 50 total cards, and the probability of drawing a yellow card is 0.4. If \\(y\\) represents the number of yellow cards, the probability of drawing a yellow card is \\(0.4=\\dfrac{y}{50}\\). This yields \\(y=50\\times0.4=20\\). Thus, there are 20 yellow cards in the stack. The question asks for the probability of drawing a yellow card after 10 yellow cards are removed. This leaves \\(20-10=10\\) yellow cards out of a total of \\(50-10=40\\) remaining cards. The probability is thus \\(\\dfrac{10}{40}=0.25\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM08",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 8,
+      "question_type": "mc_multi",
+      "question": "A certain wind turbine completed 32 full rotations in 5 minutes and generated 324 megajoules of electricity. Assuming that the wind speed and electricity generation rate remain constant, which proportions can be used to determine how many rotations it will take the turbine to generate 1,200 megajoules of electricity?\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{324}{32}=\\dfrac{1{,}200}{x}\\)",
+        "B": "\\(\\dfrac{1{,}200}{324}=\\dfrac{x}{32}\\)",
+        "C": "\\(\\dfrac{32}{324}=\\dfrac{x}{1{,}200}\\)",
+        "D": "\\(\\dfrac{324}{x}=\\dfrac{1{,}200}{32}\\)",
+        "E": "\\(\\dfrac{1{,}200}{32}=\\dfrac{324}{x}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_screenshot": "Problems/EXAM_F/FM08.png",
+      "solution": {
+        "letter": "A, B, C",
+        "exhibit_text": "Let \\(x\\) be the number of rotations needed to generate 1,200 megajoules of electricity. The ratio \\(\\dfrac{324\\text{ megajoules}}{32\\text{ rotations}}\\) reflects the rate of 324 megajoules generated in 32 rotations. Set up a proportion to solve for \\(x\\), keeping megajoules in the numerators and rotations in the denominators: \\(\\dfrac{324\\text{ megajoules}}{32\\text{ rotations}}=\\dfrac{1{,}200\\text{ megajoules}}{x\\text{ rotations}}\\). This proportion matches (A). (Note that the detail of 5 minutes was not needed to solve the question.) Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((324)(x)=(32)(1{,}200)\\).\n\n(B): \\((32)(1{,}200)=(324)(x)\\) is equivalent to \\((324)(x)=(32)(1{,}200)\\); correct\n(C): \\((1{,}200)(32)=(324)(x)\\) is equivalent to \\((324)(x)=(32)(1{,}200)\\); correct\n(D): \\((324)(32)=(x)(1{,}200)\\) is not equivalent to \\((324)(x)=(32)(1{,}200)\\); eliminate\n(E): \\((1{,}200)(x)=(32)(324)\\) is not equivalent to \\((324)(x)=(32)(1{,}200)\\); eliminate"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM09",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "A student is choosing 3 books to read over the summer from a list of 7 different recommended novels. How many different sets of 3 books can the student choose?",
+      "options": {
+        "A": "21",
+        "B": "35",
+        "C": "105",
+        "D": "210"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM09.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The student must choose 3 books to read. Since there are 7 available books, there are 7 options for the first book. After the first book has been selected, there are only 6 left to choose from. Similarly, after the second has been selected, there are only 5 left. Therefore, there are \\(7\\times6\\times5=210\\) total ways to choose the three books.\n\nHowever, this method imposes an order on the way the books are chosen. In reality, choosing 3 books from a group of 7 can be done in any order you want. To account for this, you must divide by the total number of ways to arrange 3 books, which is \\(3\\times2\\times1=6\\). Therefore, the final result is \\(\\dfrac{210}{6}=35\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM10",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by 10%. Then, to determine the final selling price, the manager applies an additional 45% markup to that new total. Which expression represents the final selling price of each dining table?",
+      "options": {
+        "A": "\\(1.55w\\)",
+        "B": "\\(1.595w\\)",
+        "C": "\\(w+0.55\\)",
+        "D": "\\(1.10w+0.45\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM10.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find the expression for the final selling price, you must apply each percentage increase sequentially rather than adding the percentages together. A 10% increase on the wholesale cost \\(w\\) is \\(w+0.1w=1.10w\\). Apply the second increase to the new value. A 45% increase on \\(1.10w\\) is:\n\n\\[1.10w+(0.45)(1.10w)=1.10w(1+0.45)\\]\n\\[=1.10w\\times1.45\\]\n\\[=(1+0.10)\\times1.45w\\]\n\\[=1.45w+0.145w\\]\n\\[=1.595w\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM11",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "Students in Ms. Bonn's class drew a scale drawing, pictured above, of the new school garden that they want to install. In the drawing, the length is represented by \\(l\\), the width is represented by \\(w\\), and all angles are right angles. The actual space available is a square of ground that is 25.5 feet on a side. What is the **maximum** width of the actual garden?",
+      "options": {
+        "A": "7 feet",
+        "B": "12 feet",
+        "C": "21 feet",
+        "D": "25.5 feet"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 280 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,30 227,30 227,184 172,184 172,118 40,118\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<text x=\"133\" y=\"20\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">l</text>\n<text x=\"14\" y=\"78\" font-size=\"12\" text-anchor=\"middle\">4 in.</text>\n<text x=\"106\" y=\"132\" font-size=\"12\" text-anchor=\"middle\">6 in.</text>\n<text x=\"150\" y=\"155\" font-size=\"12\" text-anchor=\"middle\">3 in.</text>\n<text x=\"199\" y=\"198\" font-size=\"12\" text-anchor=\"middle\">2.5 in.</text>\n<text x=\"240\" y=\"111\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">w</text>\n</svg>",
+      "source_screenshot": "Problems/EXAM_F/FM11.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "First, compute the length \\(l\\) and width \\(w\\) of the drawing by using the measurements of the parallel sides in the drawing: \\(l=6+2.5=8.5\\) in. and \\(w=4+3=7\\) in. If the actual space available is a square, then the longest side (the length) can be no greater than 25.5 ft, and the width, which is shorter, must be less than 25.5 ft. Remember that you have to find the actual width, not the length; however, use the information about the actual length to set up a proportion:\n\n\\[\\dfrac{8.5}{7}=\\dfrac{25.5}{w}\\]\n\nSolve for \\(w\\) by cross multiplying, or by noticing that since \\(25.5=8.5\\times3\\), then \\(w\\) must equal \\(7\\times3=21\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM12",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 12,
+      "question_type": "mc_multi",
+      "question": "Two expressions are given:\n\\(11-x\\)\n\\(-5(1.5x+2)\\)\n\nWhich of these are equivalent to the difference of these expressions, if the second expression is subtracted from the first expression?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "\\(11-x+7.5x-10\\)",
+        "B": "\\(11-x-7.5x+10\\)",
+        "C": "\\(11-x+7.5x+10\\)",
+        "D": "\\(6.5x+21\\)",
+        "E": "\\(6.5x+1\\)",
+        "F": "\\(-8.5x+1\\)"
+      },
+      "n_correct": 2,
+      "correct": [
+        "C",
+        "D"
+      ],
+      "source_screenshot": "Problems/EXAM_F/FM12.png",
+      "solution": {
+        "letter": "C, D",
+        "exhibit_text": "Set up an expression that subtracts the second expression from the first expression, using parentheses to make sure you don't lose any of the signs: \\(11-x-[-5(1.5x+2)]\\). Distribute the \\(-5\\): \\(11-x-(-7.5x-10)\\). Rewrite the terms that are in parentheses, making sure to distribute the subtraction sign before the parentheses: \\(11-x+7.5x+10\\). Then combine like terms: \\(11+10-x+7.5x=21+6.5x\\). This matches (D). (C) is also correct, since it shows the step before adding like terms."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM13",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "A drawer contains 8 black socks and 4 blue socks. If 2 socks are pulled out at random without replacement, what is the probability that they are a matching pair of blue socks?",
+      "options": {
+        "A": "\\(\\dfrac{1}{11}\\)",
+        "B": "\\(\\dfrac{1}{9}\\)",
+        "C": "\\(\\dfrac{1}{3}\\)",
+        "D": "\\(\\dfrac{14}{33}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM13.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). There are 4 blue socks and \\(8+4=12\\) total socks. Therefore, the probability of picking a blue sock on the first pull is \\(\\dfrac{4}{12}=\\dfrac{1}{3}\\). After this blue sock has been picked, there are 3 blue socks and 11 total socks remaining. The probability of picking out another blue sock is thus \\(\\dfrac{3}{11}\\). To find the probability of picking out two blue socks, multiply these respective probabilities: \\(\\dfrac{1}{3}\\times\\dfrac{3}{11}=\\dfrac{1}{11}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM14",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "The sum of the numbers \\(m\\), \\(n\\), and \\(p\\) is 24. The ratio of \\(m\\) to \\(n\\) is 2:5, and the ratio of \\(n\\) to \\(p\\) is 5:3. What is the value of \\(n\\)?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "14"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_F/FM14.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Since the two ratios have \\(n\\) in common, you can write two equations using the ratios and solve each equation for \\(n\\). Start by writing the given ratios as fractions:\n\n\\[\\dfrac{m}{n}=\\dfrac{2}{5}\\rightarrow m=\\dfrac{2}{5}n\\]\n\\[\\dfrac{n}{p}=\\dfrac{5}{3}\\rightarrow p=\\dfrac{3}{5}n\\]\n\nThe question states that \\(m+n+p=24\\). Substitute in the two equations above and solve for \\(n\\).\n\n\\[m+n+p=24\\]\n\\[\\dfrac{2}{5}n+n+\\dfrac{3}{5}n=24\\]\n\\[\\dfrac{2}{5}n+\\dfrac{5}{5}n+\\dfrac{3}{5}n=24\\]\n\\[\\dfrac{10}{5}n=24\\]\n\\[2n=24\\]\n\\[n=12\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM15",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "A school debate committee must be formed, consisting of exactly 1 teacher and 2 students. If there are 4 teachers and 6 students available to join the committee, how many different ways are there to form the committee?",
+      "options": {
+        "A": "24",
+        "B": "60",
+        "C": "90",
+        "D": "120"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_F/FM15.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The committee contains exactly 1 teacher. There are 4 possible teachers to choose from, so there are 4 options for this position. The remaining 2 positions must be filled from the 6 available students. There are thus 6 choices for one position. Once this person is assigned, there are only 5 left to choose from. This appears to yield \\(6\\times5=30\\) options for the students. However, this method counts Student A and Student B as a different group than Student B and Student A. In reality, they should be the same because order does not matter in a committee. To correct for this, divide 30 by the number of different ways of arranging 2 students, which is 2. This yields \\(30\\div2=15\\) groups of 2 students. Multiply this by the number of options for the teacher to arrive at the total number of ways of selecting the committee: \\(4\\times15=60\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM16",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{x}{y}+\\dfrac{3}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+      "options": {
+        "A": "\\(x+3y\\)",
+        "B": "\\(3x+y\\)",
+        "C": "\\(x^2+3\\)",
+        "D": "\\(x^2+3y\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM16.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To add fractions, you need a common denominator. The common denominator of \\(x\\) and \\(y\\) is \\(xy\\). Multiply the first fraction by \\(\\dfrac{x}{x}\\) and the second by \\(\\dfrac{y}{y}\\) to obtain this common denominator. Then add the numerators.\n\n\\[\\dfrac{x}{y}+\\dfrac{3}{x}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x}{y}\\left(\\dfrac{x}{x}\\right)+\\dfrac{3}{x}\\left(\\dfrac{y}{y}\\right)=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2}{xy}+\\dfrac{3y}{xy}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2+3y}{xy}=\\dfrac{\\square}{xy}\\]\n\nSince the denominator on both sides is the same, \\(\\square=x^2+3y\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM17",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "A line whose slope is \\(-\\dfrac{1}{2}\\) passes through the points \\((4,2)\\) and \\((x,1)\\). What is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(-6\\)",
+        "B": "\\(-3\\)",
+        "C": "3",
+        "D": "6"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM17.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "The formula for slope is \\(\\text{Slope}=\\dfrac{y_2-y_1}{x_2-x_1}\\). Plug in the given information and solve for the missing variable.\n\n\\[-\\dfrac{1}{2}=\\dfrac{1-2}{x-4}\\]\n\\[-\\dfrac{1}{2}=\\dfrac{-1}{x-4}\\]\n\nSince both sides are negative, you can simplify:\n\n\\[\\dfrac{1}{2}=\\dfrac{1}{x-4}\\]\n\nNext, cross multiply:\n\n\\[x-4=2\\]\n\\[x=6\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM18",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "In the figure above, lines \\(m\\) and \\(n\\) intersect at point \\(P(6,4)\\). What is the area, in square units, of the shaded region?",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "14"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 400 330\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"55.0,260.0 115.0,260.0 235.0,140.0 55.0,200.0\" fill=\"#ccc\" stroke=\"none\"/><line x1=\"40.0\" y1=\"260.0\" x2=\"304.0\" y2=\"260.0\" stroke=\"#222\" stroke-width=\"1.4\"/><path d=\"M302.0,255.0 L312.0,260.0 L302.0,265.0 Z\" fill=\"#222\"/><line x1=\"55.0\" y1=\"275.0\" x2=\"55.0\" y2=\"56.0\" stroke=\"#222\" stroke-width=\"1.4\"/><path d=\"M50.0,58.0 L55.0,48.0 L60.0,58.0 Z\" fill=\"#222\"/><line x1=\"85.0\" y1=\"256.0\" x2=\"85.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"115.0\" y1=\"256.0\" x2=\"115.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"145.0\" y1=\"256.0\" x2=\"145.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"175.0\" y1=\"256.0\" x2=\"175.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"205.0\" y1=\"256.0\" x2=\"205.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"256.0\" x2=\"235.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"256.0\" x2=\"265.0\" y2=\"264.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"51.0\" y1=\"230.0\" x2=\"59.0\" y2=\"230.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"51.0\" y1=\"200.0\" x2=\"59.0\" y2=\"200.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"51.0\" y1=\"170.0\" x2=\"59.0\" y2=\"170.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"51.0\" y1=\"140.0\" x2=\"59.0\" y2=\"140.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"51.0\" y1=\"110.0\" x2=\"59.0\" y2=\"110.0\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"51.0\" y1=\"80.0\" x2=\"59.0\" y2=\"80.0\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"265.0\" y=\"278.0\" font-size=\"13\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">7</text><text x=\"41.0\" y=\"84.0\" font-size=\"13\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">6</text><text x=\"320.0\" y=\"265.0\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">x</text><text x=\"55.0\" y=\"42.0\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">y</text><text x=\"43.0\" y=\"276.0\" font-size=\"13\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">O</text><line x1=\"55.0\" y1=\"140.0\" x2=\"235.0\" y2=\"140.0\" stroke=\"#222\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"235.0\" y1=\"260.0\" x2=\"235.0\" y2=\"140.0\" stroke=\"#222\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"1.0\" y1=\"218.0\" x2=\"289.0\" y2=\"122.0\" stroke=\"#222\" stroke-width=\"1.4\"/><path d=\"M289.0,122.0 L284.5,127.3 L282.2,120.5 Z\" fill=\"#222\"/><path d=\"M1.0,218.0 L5.5,212.7 L7.8,219.5 Z\" fill=\"#222\"/><text x=\"303.0\" y=\"124.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">n</text><line x1=\"73.0\" y1=\"302.0\" x2=\"277.0\" y2=\"98.0\" stroke=\"#222\" stroke-width=\"1.4\"/><path d=\"M277.0,98.0 L275.3,104.8 L270.2,99.7 Z\" fill=\"#222\"/><path d=\"M73.0,302.0 L74.7,295.2 L79.8,300.3 Z\" fill=\"#222\"/><text x=\"285.0\" y=\"94.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">m</text><circle cx=\"115.0\" cy=\"260.0\" r=\"3\" fill=\"#222\"/><circle cx=\"235.0\" cy=\"140.0\" r=\"3\" fill=\"#222\"/><circle cx=\"55.0\" cy=\"200.0\" r=\"3\" fill=\"#222\"/><text x=\"245.0\" y=\"158.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">P(6, 4)</text></svg>",
+      "source_screenshot": "Problems/EXAM_F/FM18.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "When finding the area of a shaded region, think about whether you can subtract something from a larger region whose area is easier to calculate.\n\nFirst, find the area of the rectangle in the graph: \\(4\\times6=24\\).\n\nThen, find the area of each of the two right triangles that are not shaded by multiplying \\(\\tfrac{1}{2}\\) times the base times the height.\n\nUpper triangle (between line \\(n\\) and the top of the rectangle): \\(\\tfrac{1}{2}\\times2\\times6=6\\).\n\nLower-right triangle (between line \\(m\\) and the right side of the rectangle): \\(\\tfrac{1}{2}\\times4\\times4=8\\).\n\nSubtract both unshaded triangles from the rectangle to get the shaded area: \\(24-6-8=10\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM19",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "Alex is building a large solid cube with an edge length of 4 feet. He constructs it using smaller solid cubes, each with an edge length of 0.5 feet. How many small cubes will Alex need to build the large cube?",
+      "options": {
+        "A": "8",
+        "B": "64",
+        "C": "256",
+        "D": "512"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM19.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Find how many small cubes fit along one edge by dividing the large cube edge by the small cube edge. First, rewrite 0.5 feet as \\(\\tfrac{1}{2}\\) feet. Then divide 4 feet by \\(\\tfrac{1}{2}\\) feet. Remember that dividing by a fraction is the same as multiplying by its reciprocal, so \\(4\\div\\tfrac{1}{2}=4\\times2=8\\). This means 8 small cubes stacked in a row make up one edge of the large cube. Since Alex is building a solid cube and the volume of a cube is length × width × height, that number will be: \\(8\\times8\\times8=512\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM20",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "The CEO of Kool Clothing, Inc. is analyzing the salaries that employees are paid in Kool Clothing stores. The table above shows both the highest salary for each position and the range of salaries for each position. Which of the following expresses the correct **overall** range (\\(r\\)) of all salaries for all four positions, in thousands?",
+      "options": {
+        "A": "\\(15\\le r\\le40\\)",
+        "B": "\\(17\\le r\\le35\\)",
+        "C": "\\(17\\le r\\le40\\)",
+        "D": "\\(15\\le r\\le35\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_F/FM20.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "An overall range is the difference between the lowest and highest salaries. Notice that the highest salary according to the table is that of managers, which is 35. Eliminate (A) and (C). To find the lowest salary, subtract the range from each of the highest salaries:\n\nManagers: \\(35-5=30\\)\nAssistant Managers: \\(28-4=24\\)\nSales Associates: \\(23-8=15\\)\nCashiers: \\(20-3=17\\)\n\nThe lowest salary among all positions is 15 (Sales Associates). So the overall range of all salaries is \\(15\\le r\\le35\\)."
+      },
+      "transcription_status": "verbatim_verified",
+      "figure_svg": "<svg viewBox=\"0 0 444 114\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><g transform=\"translate(2,2)\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"295\" y1=\"0\" x2=\"295\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"440\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"440\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"440\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"440\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"440\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\" font-size=\"10.5\">Position</text><text x=\"146\" y=\"15\" font-weight=\"700\" font-size=\"10.5\">Highest Salary ($1000s)</text><text x=\"301\" y=\"15\" font-weight=\"700\" font-size=\"10.5\">Salary Range ($1000s)</text><text x=\"6\" y=\"37\">Managers</text><text x=\"146\" y=\"37\">35</text><text x=\"301\" y=\"37\">5</text><text x=\"6\" y=\"59\">Assistant Managers</text><text x=\"146\" y=\"59\">28</text><text x=\"301\" y=\"59\">4</text><text x=\"6\" y=\"81\">Sales Associates</text><text x=\"146\" y=\"81\">23</text><text x=\"301\" y=\"81\">8</text><text x=\"6\" y=\"103\">Cashiers</text><text x=\"146\" y=\"103\">20</text><text x=\"301\" y=\"103\">3</text></g></svg>"
+    },
+    {
+      "id": "FM21",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "In James and Sarah's class, extra credit quiz scores range from 0 to 50. Sarah took 6 quizzes, and her mean score was 40. James took 8 quizzes. If both students have the same total score for their quizzes, what was James's mean score?",
+      "options": {
+        "A": "30",
+        "B": "32",
+        "C": "35",
+        "D": "40"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM21.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Recall that \\(\\text{Average}=\\dfrac{\\text{Sum of Values}}{\\text{Number of Values}}\\). Sarah took 6 quizzes, and her mean was 40, so \\(40=\\dfrac{\\text{Sum of Values}}{6}\\). Multiply both sides by 6 to obtain \\(240=\\text{Sum of Values}\\), or total score for the quizzes. James took 8 quizzes, and the sum of his quizzes was the same as Sarah's sum. Therefore, James' average is \\(\\dfrac{240}{8}=30\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM22",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "Sally started her summer job making $12 an hour. After three weeks, her wages increased by 20%. Two weeks later, she received an additional 15% increase. What was the total percentage increase in wages that Sally received?",
+      "options": {
+        "A": "20%",
+        "B": "35%",
+        "C": "38%",
+        "D": "71%"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_F/FM22.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The formula for calculating percent increase is \\(\\text{Percent Change}=\\dfrac{\\text{Change}}{\\text{Original}}\\times100\\%\\). The question gives you the original amount ($12), but you need to calculate Sally's final wage before you can use the formula.\n\nHer first increase was by 20%: \\(\\$12\\times1.20=\\$12(1+0.20)=\\$12+\\$2.40=\\$14.40\\). The final increase was by 15%, so:\n\n\\[\\$14.40\\times1.15=\\$14.40(1+0.10+0.05)\\]\n\\[=\\$14.40+\\$1.44+\\$0.72\\]\n\\[=\\$16.56\\]\n\n(Note: adding a 1 before the percentage includes the original whole in the new total wage and saves you the need to add the increase to the original amount.)\n\nNext, put the starting and ending wages into the percent change formula:\n\n\\[\\text{Percent Change}=\\dfrac{16.56-12}{12}\\times100\\%\\]\n\\[=\\dfrac{4.56}{12}\\times100\\%\\]\n\\[=38\\%\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM23",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "The least of a set of 4 consecutive multiples of 3 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+      "options": {
+        "A": "\\(G-3\\)",
+        "B": "\\(3-2G\\)",
+        "C": "\\(\\dfrac{2}{3}G+\\dfrac{4}{3}\\)",
+        "D": "\\(\\dfrac{3}{2}G+1\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM23.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-3\\), then \\(G-6\\), and fourth and last, \\(G-9\\). Thus, \\(G-9\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-9\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-9)}{3}\\]\n\\[\\dfrac{3G-9}{3}\\]\n\\[\\dfrac{3(G-3)}{3}\\]\n\\[G-3\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 3, such as 3, 6, 9, and 12. Plug in 3 for \\(L\\) and 12 for \\(G\\) in the original expression such that \\(\\dfrac{2(12)+3}{3}=\\dfrac{27}{3}=9\\). The correct choice will result in 9 when 12 is plugged in for \\(G\\), and the only choice to do so is (A)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM24",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "Michael drove from point A to point B at 15 miles per hour and immediately returned by the same route at 30 miles per hour. What was his average speed, in miles per hour, for the entire trip?",
+      "options": {
+        "A": "20",
+        "B": "22.5",
+        "C": "24",
+        "D": "25"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_F/FM24.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Pick a number for the distance between A and B. To keep the calculations simple, choose a number that both 15 and 30 divide into evenly, such as 60 miles. The total distance then is \\(60(2)=120\\).\n\nDistance equals rate times time, so you can use \\(T=\\dfrac{D}{R}\\) to find the total time: \\(T_1=\\dfrac{D}{R_1}\\) and \\(T_2=\\dfrac{D}{R_2}\\), \\(R_1=15\\) mph and \\(R_2=30\\) mph.\n\n\\[T_1+T_2=\\dfrac{60}{15}+\\dfrac{60}{30}=4+2=6\\]\n\nNow, use the average speed formula: \\(\\text{Average Speed}=\\dfrac{\\text{Total Distance}}{\\text{Total Time}}\\)\n\nThus, the average speed is \\(\\dfrac{120}{6}=20\\) miles per hour."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "FM25",
+      "origin": "KAPLAN_ATOM_PRACTICE_C",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "In the figure above, \\(\\overline{MQ}\\) is a straight line segment. If \\(\\overline{PM}=\\overline{PN}\\), what is the value of \\(x\\)?",
+      "options": {
+        "A": "30",
+        "B": "45",
+        "C": "60",
+        "D": "75"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"90,30 30,140 170,140\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<line x1=\"170\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<text x=\"85\" y=\"20\" font-size=\"14\" font-style=\"italic\">P</text>\n<text x=\"14\" y=\"150\" font-size=\"14\" font-style=\"italic\">M</text>\n<text x=\"168\" y=\"156\" font-size=\"14\" font-style=\"italic\">N</text>\n<text x=\"222\" y=\"150\" font-size=\"14\" font-style=\"italic\">Q</text>\n<text x=\"88\" y=\"52\" font-size=\"12\" font-style=\"italic\">x&#176;</text>\n<text x=\"176\" y=\"132\" font-size=\"12\">105&#176;</text>\n</svg>",
+      "source_screenshot": "Problems/EXAM_F/FM25.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "\\(\\angle PNM\\) is supplementary to \\(\\angle PNQ\\), so \\(m\\angle PNM+105\\degree=180\\degree\\), and \\(m\\angle PNM=75\\degree\\). Since \\(\\overline{PM}=\\overline{PN}\\), triangle MPN is isosceles and \\(m\\angle PMN=m\\angle PNM=75\\degree\\). The interior angles of a triangle sum to \\(180\\degree\\), so \\(75+75+x=180\\), and \\(x=30\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    }
+  ]
 }
