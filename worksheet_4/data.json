@@ -1,0 +1,1137 @@
+{
+  "_schema": {
+    "description": "Practice Set 4 (9/21) — Exam C reinforcement: 3 new variants each for CM01 through CM20. Not an official exam.",
+    "id_format": "CM<NN>.<variant> — points back to the original Exam C question it's a variant of.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "CM01.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "What is the prime factorization of \\(360\\)?",
+      "options": {
+        "A": "\\(2^2\\cdot3^2\\cdot5\\)",
+        "B": "\\(2^3\\cdot3\\cdot5\\)",
+        "C": "\\(2^3\\cdot3^2\\cdot5\\)",
+        "D": "\\(2^2\\cdot9\\cdot5\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Break \\(360\\) into prime factors: \\(360=2\\times180=2\\times2\\times90=2\\times2\\times2\\times45=2\\times2\\times2\\times3\\times15=2\\times2\\times2\\times3\\times3\\times5\\).\n\nThe prime factors are \\(2,2,2,3,3,\\) and \\(5\\), which can be expressed using exponents as \\(2^3\\cdot3^2\\cdot5\\)."
+      }
+    },
+    {
+      "id": "CM01.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "What is the prime factorization of \\(504\\)?",
+      "options": {
+        "A": "\\(2^3\\cdot3^2\\cdot7\\)",
+        "B": "\\(2^2\\cdot3^3\\cdot7\\)",
+        "C": "\\(2^3\\cdot3\\cdot7^2\\)",
+        "D": "\\(2^2\\cdot63\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Break \\(504\\) into prime factors: \\(504=2\\times252=2\\times2\\times126=2\\times2\\times2\\times63=2\\times2\\times2\\times3\\times21=2\\times2\\times2\\times3\\times3\\times7\\).\n\nThe prime factors are \\(2,2,2,3,3,\\) and \\(7\\), which can be expressed using exponents as \\(2^3\\cdot3^2\\cdot7\\)."
+      }
+    },
+    {
+      "id": "CM01.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "What is the prime factorization of \\(882\\)?",
+      "options": {
+        "A": "\\(2\\cdot3^2\\cdot7^2\\)",
+        "B": "\\(2^2\\cdot3\\cdot7^2\\)",
+        "C": "\\(2\\cdot3^3\\cdot7\\)",
+        "D": "\\(2\\cdot21^2\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Break \\(882\\) into prime factors: \\(882=2\\times441=2\\times3\\times147=2\\times3\\times3\\times49=2\\times3\\times3\\times7\\times7\\).\n\nThe prime factors are \\(2,3,3,7,\\) and \\(7\\), which can be expressed using exponents as \\(2\\cdot3^2\\cdot7^2\\)."
+      }
+    },
+    {
+      "id": "CM02.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "If \\((12\\div m)+3=15\\), what is the value of \\(m\\)?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(2\\)",
+        "D": "\\(4\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Rewrite \\((12\\div m)\\) as \\(\\dfrac{12}{m}\\):\n\n\\[\\dfrac{12}{m}+3=15\\]\n\nSubtract \\(3\\) from both sides:\n\n\\[\\dfrac{12}{m}=12\\]\n\nMultiply both sides by \\(m\\):\n\n\\[12=12m\\]\n\nSolve for \\(m\\):\n\n\\[m=1\\]"
+      }
+    },
+    {
+      "id": "CM02.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "If \\((10\\div m)+2=22\\), what is the value of \\(m\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{2}\\)",
+        "B": "\\(1\\)",
+        "C": "\\(2\\)",
+        "D": "\\(5\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Rewrite \\((10\\div m)\\) as \\(\\dfrac{10}{m}\\):\n\n\\[\\dfrac{10}{m}+2=22\\]\n\nSubtract \\(2\\) from both sides:\n\n\\[\\dfrac{10}{m}=20\\]\n\nMultiply both sides by \\(m\\):\n\n\\[10=20m\\]\n\nSolve for \\(m\\):\n\n\\[m=\\dfrac{10}{20}=\\dfrac{1}{2}\\]"
+      }
+    },
+    {
+      "id": "CM02.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "If \\((6\\div m)+5=17\\), what is the value of \\(m\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{2}\\)",
+        "B": "\\(1\\)",
+        "C": "\\(2\\)",
+        "D": "\\(6\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Rewrite \\((6\\div m)\\) as \\(\\dfrac{6}{m}\\):\n\n\\[\\dfrac{6}{m}+5=17\\]\n\nSubtract \\(5\\) from both sides:\n\n\\[\\dfrac{6}{m}=12\\]\n\nMultiply both sides by \\(m\\):\n\n\\[6=12m\\]\n\nSolve for \\(m\\):\n\n\\[m=\\dfrac{6}{12}=\\dfrac{1}{2}\\]"
+      }
+    },
+    {
+      "id": "CM03.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "\\[8x=x-2{,}100\\]\nWhat is the value of \\(x\\) in the equation shown above?",
+      "options": {
+        "A": "\\(300\\)",
+        "B": "\\(-300\\)",
+        "C": "\\(350\\)",
+        "D": "\\(-350\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Subtract \\(x\\) from both sides of \\(8x=x-2{,}100\\):\n\n\\[7x=-2{,}100\\]\n\nDivide both sides by \\(7\\):\n\n\\[x=-300\\]"
+      }
+    },
+    {
+      "id": "CM03.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "\\[5x=x-960\\]\nWhat is the value of \\(x\\) in the equation shown above?",
+      "options": {
+        "A": "\\(240\\)",
+        "B": "\\(-240\\)",
+        "C": "\\(320\\)",
+        "D": "\\(-320\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Subtract \\(x\\) from both sides of \\(5x=x-960\\):\n\n\\[4x=-960\\]\n\nDivide both sides by \\(4\\):\n\n\\[x=-240\\]"
+      }
+    },
+    {
+      "id": "CM03.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "\\[9x=x-1{,}280\\]\nWhat is the value of \\(x\\) in the equation shown above?",
+      "options": {
+        "A": "\\(160\\)",
+        "B": "\\(-160\\)",
+        "C": "\\(180\\)",
+        "D": "\\(-180\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Subtract \\(x\\) from both sides of \\(9x=x-1{,}280\\):\n\n\\[8x=-1{,}280\\]\n\nDivide both sides by \\(8\\):\n\n\\[x=-160\\]"
+      }
+    },
+    {
+      "id": "CM04.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "A person buys a used truck with a down payment of $\\(1{,}500\\) and makes monthly payments of $\\(320\\) for \\(2\\) years. What is the total amount the person pays for the truck?",
+      "options": {
+        "A": "$\\(3{,}840\\)",
+        "B": "$\\(6{,}840\\)",
+        "C": "$\\(9{,}180\\)",
+        "D": "$\\(9{,}340\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There are \\(12\\) months in a year, so \\(2\\) years is \\(24\\) months. Determine the total monthly payments:\n\n\\[320\\times24=7{,}680\\]\n\nAdd the down payment:\n\n\\[7{,}680+1{,}500=9{,}180\\]\n\nThe total cost of the truck is \\(\\$9{,}180\\)."
+      }
+    },
+    {
+      "id": "CM04.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "A person buys a used motorcycle with a down payment of $\\(800\\) and makes monthly payments of $\\(150\\) for \\(4\\) years. What is the total amount the person pays for the motorcycle?",
+      "options": {
+        "A": "$\\(7{,}200\\)",
+        "B": "$\\(8{,}000\\)",
+        "C": "$\\(7{,}800\\)",
+        "D": "$\\(6{,}400\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "There are \\(12\\) months in a year, so \\(4\\) years is \\(48\\) months. Determine the total monthly payments:\n\n\\[150\\times48=7{,}200\\]\n\nAdd the down payment:\n\n\\[7{,}200+800=8{,}000\\]\n\nThe total cost of the motorcycle is \\(\\$8{,}000\\)."
+      }
+    },
+    {
+      "id": "CM04.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "A person buys a used boat with a down payment of $\\(2{,}000\\) and makes monthly payments of $\\(410\\) for \\(3\\) years. What is the total amount the person pays for the boat?",
+      "options": {
+        "A": "$\\(14{,}760\\)",
+        "B": "$\\(12{,}760\\)",
+        "C": "$\\(16{,}760\\)",
+        "D": "$\\(4{,}920\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There are \\(12\\) months in a year, so \\(3\\) years is \\(36\\) months. Determine the total monthly payments:\n\n\\[410\\times36=14{,}760\\]\n\nAdd the down payment:\n\n\\[14{,}760+2{,}000=16{,}760\\]\n\nThe total cost of the boat is \\(\\$16{,}760\\)."
+      }
+    },
+    {
+      "id": "CM05.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "Jake read \\(n\\) pages for his science homework. Mia read twice as many pages as Jake. Together, Jake and Mia read \\(8\\) more pages than Sam read. Which expression shows how many pages Sam read, in terms of \\(n\\)?",
+      "options": {
+        "A": "\\(3n-8\\)",
+        "B": "\\(3n+8\\)",
+        "C": "\\(2n-8\\)",
+        "D": "\\(n-8\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let \\(n\\) represent the number of pages Jake read. Mia read twice as many: \\(2n\\). Together, Jake and Mia read \\(n+2n=3n\\) pages.\n\nSam read \\(8\\) fewer pages than their combined total, so subtract \\(8\\):\n\nSam's pages \\(=3n-8\\)."
+      }
+    },
+    {
+      "id": "CM05.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "Liam read \\(n\\) pages for his history homework. Noah read four times as many pages as Liam. Together, Liam and Noah read \\(15\\) more pages than Zoe read. Which expression shows how many pages Zoe read, in terms of \\(n\\)?",
+      "options": {
+        "A": "\\(5n-15\\)",
+        "B": "\\(5n+15\\)",
+        "C": "\\(4n-15\\)",
+        "D": "\\(n-15\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let \\(n\\) represent the number of pages Liam read. Noah read four times as many: \\(4n\\). Together, Liam and Noah read \\(n+4n=5n\\) pages.\n\nZoe read \\(15\\) fewer pages than their combined total, so subtract \\(15\\):\n\nZoe's pages \\(=5n-15\\)."
+      }
+    },
+    {
+      "id": "CM05.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "Ivy read \\(n\\) pages for her math homework. Owen read twice as many pages as Ivy. Together, Ivy and Owen read \\(20\\) more pages than Ruth read. Which expression shows how many pages Ruth read, in terms of \\(n\\)?",
+      "options": {
+        "A": "\\(3n-20\\)",
+        "B": "\\(3n+20\\)",
+        "C": "\\(2n-20\\)",
+        "D": "\\(n-20\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let \\(n\\) represent the number of pages Ivy read. Owen read twice as many: \\(2n\\). Together, Ivy and Owen read \\(n+2n=3n\\) pages.\n\nRuth read \\(20\\) fewer pages than their combined total, so subtract \\(20\\):\n\nRuth's pages \\(=3n-20\\)."
+      }
+    },
+    {
+      "id": "CM06.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "In the parallelogram above, what is the value of \\(x\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 360' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><polygon points='180,60 440,60 360,300 100,300' fill='none' stroke='#111' stroke-width='1.8'/><path d='M 202 60 A 22 22 0 0 1 173.05 80.87' fill='none' stroke='#111' stroke-width='1.3'/><path d='M 122 300 A 22 22 0 0 0 106.95 279.13' fill='none' stroke='#111' stroke-width='1.3'/><text x='195' y='100' font-family='Georgia,serif' font-style='italic' font-size='22'>4x°</text><text x='130' y='280' font-family='Georgia,serif' font-style='italic' font-size='22'>2x°</text></svg>",
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(20\\)",
+        "C": "\\(15\\)",
+        "D": "\\(6\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "In a parallelogram, adjacent angles are supplementary, so the two given angles sum to \\(180°\\):\n\n\\[4x+2x=180\\]\n\\[6x=180\\]\n\\[x=30\\]"
+      }
+    },
+    {
+      "id": "CM06.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "In the parallelogram above, what is the value of \\(x\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 360' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><polygon points='180,60 440,60 360,300 100,300' fill='none' stroke='#111' stroke-width='1.8'/><path d='M 202 60 A 22 22 0 0 1 173.05 80.87' fill='none' stroke='#111' stroke-width='1.3'/><path d='M 122 300 A 22 22 0 0 0 106.95 279.13' fill='none' stroke='#111' stroke-width='1.3'/><text x='195' y='100' font-family='Georgia,serif' font-style='italic' font-size='22'>7x°</text><text x='130' y='280' font-family='Georgia,serif' font-style='italic' font-size='22'>3x°</text></svg>",
+      "options": {
+        "A": "\\(18\\)",
+        "B": "\\(20\\)",
+        "C": "\\(24\\)",
+        "D": "\\(36\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "In a parallelogram, adjacent angles are supplementary, so the two given angles sum to \\(180°\\):\n\n\\[7x+3x=180\\]\n\\[10x=180\\]\n\\[x=18\\]"
+      }
+    },
+    {
+      "id": "CM06.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "In the parallelogram above, what is the value of \\(x\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 360' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><polygon points='180,60 440,60 360,300 100,300' fill='none' stroke='#111' stroke-width='1.8'/><path d='M 202 60 A 22 22 0 0 1 173.05 80.87' fill='none' stroke='#111' stroke-width='1.3'/><path d='M 122 300 A 22 22 0 0 0 106.95 279.13' fill='none' stroke='#111' stroke-width='1.3'/><text x='195' y='100' font-family='Georgia,serif' font-style='italic' font-size='22'>9x°</text><text x='130' y='280' font-family='Georgia,serif' font-style='italic' font-size='22'>3x°</text></svg>",
+      "options": {
+        "A": "\\(15\\)",
+        "B": "\\(18\\)",
+        "C": "\\(20\\)",
+        "D": "\\(30\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "In a parallelogram, adjacent angles are supplementary, so the two given angles sum to \\(180°\\):\n\n\\[9x+3x=180\\]\n\\[12x=180\\]\n\\[x=15\\]"
+      }
+    },
+    {
+      "id": "CM07.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "\\[-20>4x\\]\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x>-5\\)",
+        "B": "\\(x<-5\\)",
+        "C": "\\(x<-4\\)",
+        "D": "\\(x>-4\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Divide both sides by \\(4\\):\n\n\\[\\dfrac{-20}{4}>\\dfrac{4x}{4}\\]\n\\[-5>x\\]\n\nRewriting with \\(x\\) first: \\(x<-5\\)."
+      }
+    },
+    {
+      "id": "CM07.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "\\[-18>3x\\]\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x>-6\\)",
+        "B": "\\(x<-6\\)",
+        "C": "\\(x<-3\\)",
+        "D": "\\(x>-3\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Divide both sides by \\(3\\):\n\n\\[\\dfrac{-18}{3}>\\dfrac{3x}{3}\\]\n\\[-6>x\\]\n\nRewriting with \\(x\\) first: \\(x<-6\\)."
+      }
+    },
+    {
+      "id": "CM07.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "\\[-24>8x\\]\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x>-3\\)",
+        "B": "\\(x<-3\\)",
+        "C": "\\(x<-8\\)",
+        "D": "\\(x>-8\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Divide both sides by \\(8\\):\n\n\\[\\dfrac{-24}{8}>\\dfrac{8x}{8}\\]\n\\[-3>x\\]\n\nRewriting with \\(x\\) first: \\(x<-3\\)."
+      }
+    },
+    {
+      "id": "CM08.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 22,
+      "question_type": "mc_multi",
+      "question": "A survey found that \\(0.6\\) of the students prefer indoor recess. Which fractions are equivalent to the decimal \\(0.6\\)?\nSelect the **four** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{3}{5}\\)",
+        "B": "\\(\\dfrac{6}{10}\\)",
+        "C": "\\(\\dfrac{60}{100}\\)",
+        "D": "\\(\\dfrac{2}{3}\\)",
+        "E": "\\(\\dfrac{9}{15}\\)",
+        "F": "\\(\\dfrac{5}{8}\\)"
+      },
+      "n_correct": 4,
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "solution": {
+        "letter": "A, B, C, E",
+        "exhibit_text": "Check each fraction against \\(0.6\\).\n\n\\(\\dfrac{3}{5}\\to3\\div5=0.6\\) — matches.\n\\(\\dfrac{6}{10}\\to6\\div10=0.6\\) — matches.\n\\(\\dfrac{60}{100}\\to60\\div100=0.6\\) — matches.\n\\(\\dfrac{2}{3}\\to2\\div3\\approx0.667\\) — does not match.\n\\(\\dfrac{9}{15}\\to9\\div15=0.6\\) — matches.\n\\(\\dfrac{5}{8}\\to5\\div8=0.625\\) — does not match."
+      }
+    },
+    {
+      "id": "CM08.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 23,
+      "question_type": "mc_multi",
+      "question": "A survey found that \\(0.4\\) of the students prefer the window seat on a bus. Which fractions are equivalent to the decimal \\(0.4\\)?\nSelect the **four** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{2}{5}\\)",
+        "B": "\\(\\dfrac{4}{10}\\)",
+        "C": "\\(\\dfrac{40}{100}\\)",
+        "D": "\\(\\dfrac{3}{8}\\)",
+        "E": "\\(\\dfrac{6}{15}\\)",
+        "F": "\\(\\dfrac{5}{9}\\)"
+      },
+      "n_correct": 4,
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "solution": {
+        "letter": "A, B, C, E",
+        "exhibit_text": "Check each fraction against \\(0.4\\).\n\n\\(\\dfrac{2}{5}\\to2\\div5=0.4\\) — matches.\n\\(\\dfrac{4}{10}\\to4\\div10=0.4\\) — matches.\n\\(\\dfrac{40}{100}\\to40\\div100=0.4\\) — matches.\n\\(\\dfrac{3}{8}\\to3\\div8=0.375\\) — does not match.\n\\(\\dfrac{6}{15}\\to6\\div15=0.4\\) — matches.\n\\(\\dfrac{5}{9}\\to5\\div9\\approx0.556\\) — does not match."
+      }
+    },
+    {
+      "id": "CM08.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 24,
+      "question_type": "mc_multi",
+      "question": "A survey found that \\(0.8\\) of the students prefer a hot lunch. Which fractions are equivalent to the decimal \\(0.8\\)?\nSelect the **four** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{4}{5}\\)",
+        "B": "\\(\\dfrac{8}{10}\\)",
+        "C": "\\(\\dfrac{80}{100}\\)",
+        "D": "\\(\\dfrac{5}{6}\\)",
+        "E": "\\(\\dfrac{12}{15}\\)",
+        "F": "\\(\\dfrac{7}{9}\\)"
+      },
+      "n_correct": 4,
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "solution": {
+        "letter": "A, B, C, E",
+        "exhibit_text": "Check each fraction against \\(0.8\\).\n\n\\(\\dfrac{4}{5}\\to4\\div5=0.8\\) — matches.\n\\(\\dfrac{8}{10}\\to8\\div10=0.8\\) — matches.\n\\(\\dfrac{80}{100}\\to80\\div100=0.8\\) — matches.\n\\(\\dfrac{5}{6}\\to5\\div6\\approx0.833\\) — does not match.\n\\(\\dfrac{12}{15}\\to12\\div15=0.8\\) — matches.\n\\(\\dfrac{7}{9}\\to7\\div9\\approx0.778\\) — does not match."
+      }
+    },
+    {
+      "id": "CM09.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "Devon rides his skateboard to the park at a constant speed of \\(20\\) miles per hour. If the distance to the park is \\(5\\) miles, how many **minutes** will it take Devon to get there?",
+      "options": {
+        "A": "\\(10\\)",
+        "B": "\\(15\\)",
+        "C": "\\(20\\)",
+        "D": "\\(25\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Devon's rate is \\(20\\) miles per hour, or \\(\\dfrac{20\\text{ miles}}{60\\text{ minutes}}=\\dfrac{1\\text{ mile}}{3\\text{ minutes}}\\).\n\nSo it takes \\(3\\) minutes per mile. For \\(5\\) miles: \\(5\\times3=15\\) minutes."
+      }
+    },
+    {
+      "id": "CM09.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 26,
+      "question_type": "mc",
+      "question": "Priya walks to the library at a constant speed of \\(10\\) miles per hour. If the distance to the library is \\(4\\) miles, how many **minutes** will it take Priya to get there?",
+      "options": {
+        "A": "\\(20\\)",
+        "B": "\\(22\\)",
+        "C": "\\(24\\)",
+        "D": "\\(28\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Priya's rate is \\(10\\) miles per hour, or \\(\\dfrac{10\\text{ miles}}{60\\text{ minutes}}=\\dfrac{1\\text{ mile}}{6\\text{ minutes}}\\).\n\nSo it takes \\(6\\) minutes per mile. For \\(4\\) miles: \\(4\\times6=24\\) minutes."
+      }
+    },
+    {
+      "id": "CM09.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "Carlos jogs to the gym at a constant speed of \\(18\\) miles per hour. If the distance to the gym is \\(6\\) miles, how many **minutes** will it take Carlos to get there?",
+      "options": {
+        "A": "\\(15\\)",
+        "B": "\\(18\\)",
+        "C": "\\(20\\)",
+        "D": "\\(24\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Carlos's rate is \\(18\\) miles per hour, or \\(\\dfrac{18\\text{ miles}}{60\\text{ minutes}}=\\dfrac{3\\text{ miles}}{10\\text{ minutes}}\\), or \\(\\dfrac{1\\text{ mile}}{10/3\\text{ minutes}}\\).\n\nFor \\(6\\) miles: \\(6\\div\\dfrac{18}{60}=6\\times\\dfrac{60}{18}=20\\) minutes."
+      }
+    },
+    {
+      "id": "CM10.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "In the figure above, \\(n\\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='348' y='140' font-family='Georgia,serif' font-size='16'>52°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>",
+      "options": {
+        "A": "\\(38\\)",
+        "B": "\\(132\\)",
+        "C": "\\(142\\)",
+        "D": "\\(152\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The right triangle formed contains a \\(52°\\) angle, a right angle (\\(90°\\)), and a missing angle \\(x°\\). Since the interior angles of a triangle sum to \\(180°\\):\n\n\\[180=52+90+x\\]\n\\[x=38\\]\n\nThe \\(38°\\) angle and its adjacent angle on line \\(m\\) are supplementary: \\(180-38=142\\). Since \\(n\\parallel p\\), that adjacent angle corresponds to \\(r\\), so \\(r=142\\)."
+      }
+    },
+    {
+      "id": "CM10.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "In the figure above, \\(n\\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='348' y='140' font-family='Georgia,serif' font-size='16'>35°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>",
+      "options": {
+        "A": "\\(55\\)",
+        "B": "\\(115\\)",
+        "C": "\\(125\\)",
+        "D": "\\(145\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The right triangle formed contains a \\(35°\\) angle, a right angle (\\(90°\\)), and a missing angle \\(x°\\). Since the interior angles of a triangle sum to \\(180°\\):\n\n\\[180=35+90+x\\]\n\\[x=55\\]\n\nThe \\(55°\\) angle and its adjacent angle on line \\(m\\) are supplementary: \\(180-55=125\\). Since \\(n\\parallel p\\), that adjacent angle corresponds to \\(r\\), so \\(r=125\\)."
+      }
+    },
+    {
+      "id": "CM10.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 30,
+      "question_type": "mc",
+      "question": "In the figure above, \\(n\\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='348' y='140' font-family='Georgia,serif' font-size='16'>61°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>",
+      "options": {
+        "A": "\\(29\\)",
+        "B": "\\(139\\)",
+        "C": "\\(151\\)",
+        "D": "\\(161\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The right triangle formed contains a \\(61°\\) angle, a right angle (\\(90°\\)), and a missing angle \\(x°\\). Since the interior angles of a triangle sum to \\(180°\\):\n\n\\[180=61+90+x\\]\n\\[x=29\\]\n\nThe \\(29°\\) angle and its adjacent angle on line \\(m\\) are supplementary: \\(180-29=151\\). Since \\(n\\parallel p\\), that adjacent angle corresponds to \\(r\\), so \\(r=151\\)."
+      }
+    },
+    {
+      "id": "CM11.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "Marcus has \\(4\\) stamp albums with \\(432\\) stamps in each album. If he transfers his stamp collection to \\(5\\) albums, each holding \\(288\\) stamps, how many stamps will be left over?",
+      "options": {
+        "A": "\\(144\\)",
+        "B": "\\(288\\)",
+        "C": "\\(432\\)",
+        "D": "\\(576\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Total stamps in \\(4\\) albums of \\(432\\): \\(4\\times432=1{,}728\\).\n\nTotal capacity of \\(5\\) albums of \\(288\\): \\(5\\times288=1{,}440\\).\n\nStamps left over: \\(1{,}728-1{,}440=288\\)."
+      }
+    },
+    {
+      "id": "CM11.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 32,
+      "question_type": "mc",
+      "question": "Sophie has \\(6\\) coin albums with \\(504\\) coins in each album. If she transfers her coin collection to \\(7\\) albums, each holding \\(378\\) coins, how many coins will be left over?",
+      "options": {
+        "A": "\\(126\\)",
+        "B": "\\(252\\)",
+        "C": "\\(378\\)",
+        "D": "\\(504\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Total coins in \\(6\\) albums of \\(504\\): \\(6\\times504=3{,}024\\).\n\nTotal capacity of \\(7\\) albums of \\(378\\): \\(7\\times378=2{,}646\\).\n\nCoins left over: \\(3{,}024-2{,}646=378\\)."
+      }
+    },
+    {
+      "id": "CM11.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 33,
+      "question_type": "mc",
+      "question": "Diego has \\(3\\) card albums with \\(660\\) cards in each album. If he transfers his card collection to \\(4\\) albums, each holding \\(450\\) cards, how many cards will be left over?",
+      "options": {
+        "A": "\\(90\\)",
+        "B": "\\(180\\)",
+        "C": "\\(270\\)",
+        "D": "\\(360\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Total cards in \\(3\\) albums of \\(660\\): \\(3\\times660=1{,}980\\).\n\nTotal capacity of \\(4\\) albums of \\(450\\): \\(4\\times450=1{,}800\\).\n\nCards left over: \\(1{,}980-1{,}800=180\\)."
+      }
+    },
+    {
+      "id": "CM12.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 34,
+      "question_type": "numberline_click",
+      "question": "A spinner is divided into \\(5\\) equal sections: \\(3\\) sections are labeled \\(2\\) and \\(2\\) sections are labeled \\(7\\). One side of a fair coin is heads, and the other side is tails. The spinner is spun one time, and the coin is flipped. What is the probability that the spinner lands on \\(2\\) and the coin lands on tails?\n\nSelect the place on the number line that represents the probability.",
+      "nl_min": 0,
+      "nl_max": 1,
+      "nl_step": 0.1,
+      "correct": 0.3,
+      "solution": {
+        "letter": "0.3",
+        "exhibit_text": "The probability the spinner lands on \\(2\\) is \\(\\dfrac{3}{5}\\) (3 of the 5 sections). The probability the coin lands on tails is \\(\\dfrac{1}{2}\\).\n\nMultiply the two probabilities:\n\n\\[\\dfrac{3}{5}\\times\\dfrac{1}{2}=\\dfrac{3}{10}=0.3\\]"
+      }
+    },
+    {
+      "id": "CM12.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 35,
+      "question_type": "numberline_click",
+      "question": "A spinner is divided into \\(5\\) equal sections: \\(1\\) section is labeled \\(4\\) and \\(4\\) sections are labeled \\(9\\). One side of a fair coin is heads, and the other side is tails. The spinner is spun one time, and the coin is flipped. What is the probability that the spinner lands on \\(4\\) and the coin lands on heads?\n\nSelect the place on the number line that represents the probability.",
+      "nl_min": 0,
+      "nl_max": 1,
+      "nl_step": 0.1,
+      "correct": 0.1,
+      "solution": {
+        "letter": "0.1",
+        "exhibit_text": "The probability the spinner lands on \\(4\\) is \\(\\dfrac{1}{5}\\) (1 of the 5 sections). The probability the coin lands on heads is \\(\\dfrac{1}{2}\\).\n\nMultiply the two probabilities:\n\n\\[\\dfrac{1}{5}\\times\\dfrac{1}{2}=\\dfrac{1}{10}=0.1\\]"
+      }
+    },
+    {
+      "id": "CM12.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 36,
+      "question_type": "numberline_click",
+      "question": "A spinner is divided into \\(10\\) equal sections: \\(4\\) sections are labeled \\(1\\) and \\(6\\) sections are labeled \\(6\\). One side of a fair coin is heads, and the other side is tails. The spinner is spun one time, and the coin is flipped. What is the probability that the spinner lands on \\(1\\) and the coin lands on tails?\n\nSelect the place on the number line that represents the probability.",
+      "nl_min": 0,
+      "nl_max": 1,
+      "nl_step": 0.1,
+      "correct": 0.2,
+      "solution": {
+        "letter": "0.2",
+        "exhibit_text": "The probability the spinner lands on \\(1\\) is \\(\\dfrac{4}{10}=\\dfrac{2}{5}\\) (4 of the 10 sections). The probability the coin lands on tails is \\(\\dfrac{1}{2}\\).\n\nMultiply the two probabilities:\n\n\\[\\dfrac{2}{5}\\times\\dfrac{1}{2}=\\dfrac{2}{10}=0.2\\]"
+      }
+    },
+    {
+      "id": "CM13.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 37,
+      "question_type": "mc",
+      "question": "Start with the number \\(246.37\\) and perform the following steps in order:\n\n• Step 1: Multiply by \\(10\\).\n• Step 2: Add \\(0.5\\) to the result of Step 1.\n• Step 3: Drop the digits after the decimal point.\n• Step 4: Divide by \\(10\\).\n\nWhat is the result?",
+      "options": {
+        "A": "\\(24.6\\)",
+        "B": "\\(246\\)",
+        "C": "\\(246.3\\)",
+        "D": "\\(246.4\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Multiply \\(246.37\\) by \\(10\\): \\(2{,}463.7\\).\n\nAdd \\(0.5\\): \\(2{,}464.2\\).\n\nDrop the digits after the decimal point: \\(2{,}464\\).\n\nDivide by \\(10\\): \\(246.4\\)."
+      }
+    },
+    {
+      "id": "CM13.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "Start with the number \\(89.46\\) and perform the following steps in order:\n\n• Step 1: Multiply by \\(10\\).\n• Step 2: Add \\(0.5\\) to the result of Step 1.\n• Step 3: Drop the digits after the decimal point.\n• Step 4: Divide by \\(10\\).\n\nWhat is the result?",
+      "options": {
+        "A": "\\(8.9\\)",
+        "B": "\\(89\\)",
+        "C": "\\(89.4\\)",
+        "D": "\\(89.5\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Multiply \\(89.46\\) by \\(10\\): \\(894.6\\).\n\nAdd \\(0.5\\): \\(895.1\\).\n\nDrop the digits after the decimal point: \\(895\\).\n\nDivide by \\(10\\): \\(89.5\\)."
+      }
+    },
+    {
+      "id": "CM13.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "Start with the number \\(512.94\\) and perform the following steps in order:\n\n• Step 1: Multiply by \\(10\\).\n• Step 2: Add \\(0.5\\) to the result of Step 1.\n• Step 3: Drop the digits after the decimal point.\n• Step 4: Divide by \\(10\\).\n\nWhat is the result?",
+      "options": {
+        "A": "\\(51.2\\)",
+        "B": "\\(512.8\\)",
+        "C": "\\(512.9\\)",
+        "D": "\\(513\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Multiply \\(512.94\\) by \\(10\\): \\(5{,}129.4\\).\n\nAdd \\(0.5\\): \\(5{,}129.9\\).\n\nDrop the digits after the decimal point: \\(5{,}129\\).\n\nDivide by \\(10\\): \\(512.9\\)."
+      }
+    },
+    {
+      "id": "CM14.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "If \\(x=-3\\), what is the value of \\(|x+x^2+x^3|-|x+2x+3x|\\)?",
+      "options": {
+        "A": "\\(-3\\)",
+        "B": "\\(3\\)",
+        "C": "\\(-39\\)",
+        "D": "\\(39\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Substitute \\(-3\\) for \\(x\\):\n\n\\[|(-3)+(-3)^2+(-3)^3|-|(-3)+2(-3)+3(-3)|\\]\n\\[=|-3+9-27|-|-3-6-9|\\]\n\\[=|-21|-|-18|\\]\n\\[=21-18=3\\]"
+      }
+    },
+    {
+      "id": "CM14.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "If \\(x=-4\\), what is the value of \\(|x+x^2+x^3|-|x+2x+3x|\\)?",
+      "options": {
+        "A": "\\(28\\)",
+        "B": "\\(-28\\)",
+        "C": "\\(76\\)",
+        "D": "\\(-76\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Substitute \\(-4\\) for \\(x\\):\n\n\\[|(-4)+(-4)^2+(-4)^3|-|(-4)+2(-4)+3(-4)|\\]\n\\[=|-4+16-64|-|-4-8-12|\\]\n\\[=|-52|-|-24|\\]\n\\[=52-24=28\\]"
+      }
+    },
+    {
+      "id": "CM14.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 42,
+      "question_type": "mc",
+      "question": "If \\(x=-5\\), what is the value of \\(|x+x^2+x^3|-|x+2x+3x|\\)?",
+      "options": {
+        "A": "\\(75\\)",
+        "B": "\\(-75\\)",
+        "C": "\\(135\\)",
+        "D": "\\(-135\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Substitute \\(-5\\) for \\(x\\):\n\n\\[|(-5)+(-5)^2+(-5)^3|-|(-5)+2(-5)+3(-5)|\\]\n\\[=|-5+25-125|-|-5-10-15|\\]\n\\[=|-105|-|-30|\\]\n\\[=105-30=75\\]"
+      }
+    },
+    {
+      "id": "CM15.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 43,
+      "question_type": "grid_in",
+      "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(4.49\\). The store also sells orange juice in an \\(8\\)-pack of \\(6\\)-fluid-ounce bottles for $\\(2.39\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space.",
+      "grid_answer": "2",
+      "solution": {
+        "letter": "2",
+        "exhibit_text": "Find the total ounces in the 8-pack: \\(6\\times8=48\\) oz for \\(\\$2.39\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion:\n\n\\[\\dfrac{48\\text{ oz}}{\\$2.39}=\\dfrac{128\\text{ oz}}{x}\\]\n\\[48x=\\$2.39\\times128=\\$305.92\\]\n\\[x=\\$6.37\\text{ per gallon}\\]\n\nSubtract the cost of milk: \\(\\$6.37-\\$4.49=\\$1.88\\), which rounds to \\(\\$2\\)."
+      }
+    },
+    {
+      "id": "CM15.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 44,
+      "question_type": "grid_in",
+      "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(3.49\\). The store also sells orange juice in a \\(4\\)-pack of \\(8\\)-fluid-ounce bottles for $\\(2.99\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space.",
+      "grid_answer": "8",
+      "solution": {
+        "letter": "8",
+        "exhibit_text": "Find the total ounces in the 4-pack: \\(8\\times4=32\\) oz for \\(\\$2.99\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion:\n\n\\[\\dfrac{32\\text{ oz}}{\\$2.99}=\\dfrac{128\\text{ oz}}{x}\\]\n\\[32x=\\$2.99\\times128=\\$382.72\\]\n\\[x=\\$11.96\\text{ per gallon}\\]\n\nSubtract the cost of milk: \\(\\$11.96-\\$3.49=\\$8.47\\), which rounds to \\(\\$8\\)."
+      }
+    },
+    {
+      "id": "CM15.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 45,
+      "question_type": "grid_in",
+      "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(4.99\\). The store also sells orange juice in a \\(6\\)-pack of \\(4\\)-fluid-ounce bottles for $\\(1.49\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space.",
+      "grid_answer": "3",
+      "solution": {
+        "letter": "3",
+        "exhibit_text": "Find the total ounces in the 6-pack: \\(4\\times6=24\\) oz for \\(\\$1.49\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion:\n\n\\[\\dfrac{24\\text{ oz}}{\\$1.49}=\\dfrac{128\\text{ oz}}{x}\\]\n\\[24x=\\$1.49\\times128=\\$190.72\\]\n\\[x=\\$7.95\\text{ per gallon}\\]\n\nSubtract the cost of milk: \\(\\$7.95-\\$4.99=\\$2.96\\), which rounds to \\(\\$3\\)."
+      }
+    },
+    {
+      "id": "CM16.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{4+(-6)}{4-(-6)}=\\]",
+      "options": {
+        "A": "\\(-\\dfrac{1}{5}\\)",
+        "B": "\\(-\\dfrac{1}{10}\\)",
+        "C": "\\(\\dfrac{1}{5}\\)",
+        "D": "\\(1\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Simplify the numerator and denominator separately.\n\n\\(4+(-6)=-2\\)\n\\(4-(-6)=4+6=10\\)\n\nSo the expression equals \\(\\dfrac{-2}{10}=-\\dfrac{1}{5}\\)."
+      }
+    },
+    {
+      "id": "CM16.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{5+(-2)}{5-(-2)}=\\]",
+      "options": {
+        "A": "\\(-\\dfrac{3}{7}\\)",
+        "B": "\\(\\dfrac{3}{7}\\)",
+        "C": "\\(\\dfrac{3}{10}\\)",
+        "D": "\\(1\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Simplify the numerator and denominator separately.\n\n\\(5+(-2)=3\\)\n\\(5-(-2)=5+2=7\\)\n\nSo the expression equals \\(\\dfrac{3}{7}\\)."
+      }
+    },
+    {
+      "id": "CM16.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "\\[\\dfrac{-8+3}{-8-3}=\\]",
+      "options": {
+        "A": "\\(-\\dfrac{5}{11}\\)",
+        "B": "\\(\\dfrac{5}{11}\\)",
+        "C": "\\(-1\\)",
+        "D": "\\(1\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Simplify the numerator and denominator separately.\n\n\\(-8+3=-5\\)\n\\(-8-3=-11\\)\n\nSo the expression equals \\(\\dfrac{-5}{-11}=\\dfrac{5}{11}\\)."
+      }
+    },
+    {
+      "id": "CM17.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 49,
+      "question_type": "mc",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?",
+      "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='30.0' y1='40' x2='30.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='30.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='80.0' y1='40' x2='80.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='80.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='130.0' y1='40' x2='130.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='130.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='180.0' y1='40' x2='180.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='180.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='230.0' y1='40' x2='230.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='230.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280.0' y1='40' x2='280.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='280.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='330.0' y1='40' x2='330.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='330.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='380.0' y1='40' x2='380.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='380.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='430.0' y1='40' x2='430.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='430.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><text x='30.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='80.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='180.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='430.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>",
+      "options": {
+        "A": "\\(1\\) unit",
+        "B": "\\(1\\dfrac{1}{2}\\) units",
+        "C": "\\(2\\) units",
+        "D": "\\(2\\dfrac{1}{2}\\) units"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "\\(\\overline{MN}\\) runs from \\(0\\) to \\(8\\), so its midpoint is \\(\\dfrac{0+8}{2}=4\\).\n\n\\(\\overline{RS}\\) runs from \\(1\\) to \\(3\\), so its midpoint is \\(\\dfrac{1+3}{2}=2\\).\n\nThe distance between the midpoints \\(4\\) and \\(2\\) is \\(2\\) units."
+      }
+    },
+    {
+      "id": "CM17.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 50,
+      "question_type": "mc",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?",
+      "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='30.0' y1='40' x2='30.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='30.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='74.4' y1='40' x2='74.4' y2='50' stroke='#111' stroke-width='1.3'/><text x='74.4' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='118.9' y1='40' x2='118.9' y2='50' stroke='#111' stroke-width='1.3'/><text x='118.9' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='163.3' y1='40' x2='163.3' y2='50' stroke='#111' stroke-width='1.3'/><text x='163.3' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='207.8' y1='40' x2='207.8' y2='50' stroke='#111' stroke-width='1.3'/><text x='207.8' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='252.2' y1='40' x2='252.2' y2='50' stroke='#111' stroke-width='1.3'/><text x='252.2' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='296.7' y1='40' x2='296.7' y2='50' stroke='#111' stroke-width='1.3'/><text x='296.7' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='341.1' y1='40' x2='341.1' y2='50' stroke='#111' stroke-width='1.3'/><text x='341.1' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='385.6' y1='40' x2='385.6' y2='50' stroke='#111' stroke-width='1.3'/><text x='385.6' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><line x1='430.0' y1='40' x2='430.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='430.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>9</text><text x='74.4' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='163.3' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='207.8' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='430.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>",
+      "options": {
+        "A": "\\(1\\) unit",
+        "B": "\\(1\\dfrac{1}{2}\\) units",
+        "C": "\\(2\\) units",
+        "D": "\\(2\\dfrac{1}{2}\\) units"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "\\(\\overline{MN}\\) runs from \\(1\\) to \\(9\\), so its midpoint is \\(\\dfrac{1+9}{2}=5\\).\n\n\\(\\overline{RS}\\) runs from \\(3\\) to \\(4\\), so its midpoint is \\(\\dfrac{3+4}{2}=3.5\\).\n\nThe distance between the midpoints \\(5\\) and \\(3.5\\) is \\(1\\dfrac{1}{2}\\) units."
+      }
+    },
+    {
+      "id": "CM17.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 51,
+      "question_type": "mc",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?",
+      "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='30.0' y1='40' x2='30.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='30.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='70.0' y1='40' x2='70.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='70.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='110.0' y1='40' x2='110.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='110.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='150.0' y1='40' x2='150.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='150.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='190.0' y1='40' x2='190.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='190.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='230.0' y1='40' x2='230.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='230.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='270.0' y1='40' x2='270.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='270.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='310.0' y1='40' x2='310.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='310.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='350.0' y1='40' x2='350.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='350.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><line x1='390.0' y1='40' x2='390.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='390.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>9</text><line x1='430.0' y1='40' x2='430.0' y2='50' stroke='#111' stroke-width='1.3'/><text x='430.0' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>10</text><text x='30.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='110.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='150.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='430.0' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>",
+      "options": {
+        "A": "\\(1\\dfrac{1}{2}\\) units",
+        "B": "\\(2\\) units",
+        "C": "\\(2\\dfrac{1}{2}\\) units",
+        "D": "\\(3\\) units"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "\\(\\overline{MN}\\) runs from \\(0\\) to \\(10\\), so its midpoint is \\(\\dfrac{0+10}{2}=5\\).\n\n\\(\\overline{RS}\\) runs from \\(2\\) to \\(3\\), so its midpoint is \\(\\dfrac{2+3}{2}=2.5\\).\n\nThe distance between the midpoints \\(5\\) and \\(2.5\\) is \\(2\\dfrac{1}{2}\\) units."
+      }
+    },
+    {
+      "id": "CM18.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 52,
+      "question_type": "mc",
+      "question": "I. \\(p-q\\)\nII. \\(pq^2\\)\nIII. \\(p^q\\)\n\nIf \\(p\\) is a positive integer and \\(q\\) is a negative integer, which of the above expressions **must** be a positive number?",
+      "options": {
+        "A": "II only",
+        "B": "I and II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "I. \\(p-q\\): subtracting a negative is the same as adding a positive, so \\(p-q=p+|q|\\), which is always positive.\n\nII. \\(pq^2\\): squaring the negative \\(q\\) gives a positive number, and a positive times a positive is positive.\n\nIII. \\(p^q\\): a positive base raised to a negative power gives \\(\\dfrac{1}{p^{|q|}}\\), which is still positive.\n\nAll three expressions must be positive."
+      }
+    },
+    {
+      "id": "CM18.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 53,
+      "question_type": "mc",
+      "question": "I. \\(a-b\\)\nII. \\(ab^2\\)\nIII. \\(a^b\\)\n\nIf \\(a\\) is a positive integer and \\(b\\) is a negative integer, which of the above expressions **must** be a positive number?",
+      "options": {
+        "A": "II only",
+        "B": "I and II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "I. \\(a-b\\): subtracting a negative is the same as adding a positive, so \\(a-b=a+|b|\\), which is always positive.\n\nII. \\(ab^2\\): squaring the negative \\(b\\) gives a positive number, and a positive times a positive is positive.\n\nIII. \\(a^b\\): a positive base raised to a negative power gives \\(\\dfrac{1}{a^{|b|}}\\), which is still positive.\n\nAll three expressions must be positive."
+      }
+    },
+    {
+      "id": "CM18.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 54,
+      "question_type": "mc",
+      "question": "I. \\(u-v\\)\nII. \\(uv^2\\)\nIII. \\(u^v\\)\n\nIf \\(u\\) is a positive integer and \\(v\\) is a negative integer, which of the above expressions **must** be a positive number?",
+      "options": {
+        "A": "II only",
+        "B": "I and II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "I. \\(u-v\\): subtracting a negative is the same as adding a positive, so \\(u-v=u+|v|\\), which is always positive.\n\nII. \\(uv^2\\): squaring the negative \\(v\\) gives a positive number, and a positive times a positive is positive.\n\nIII. \\(u^v\\): a positive base raised to a negative power gives \\(\\dfrac{1}{u^{|v|}}\\), which is still positive.\n\nAll three expressions must be positive."
+      }
+    },
+    {
+      "id": "CM19.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 55,
+      "question_type": "mc",
+      "question": "What is the value of \\(\\left(-\\dfrac{2}{3}\\right)\\left(-\\dfrac{3}{7}\\right)\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{5}{10}\\)",
+        "B": "\\(-\\dfrac{2}{7}\\)",
+        "C": "\\(\\dfrac{2}{7}\\)",
+        "D": "\\(\\dfrac{5}{10}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The product of two negative values is positive:\n\n\\[\\dfrac{(-2)\\times(-3)}{3\\times7}=\\dfrac{6}{21}\\]\n\nSimplify: \\(\\dfrac{6\\div3}{21\\div3}=\\dfrac{2}{7}\\)."
+      }
+    },
+    {
+      "id": "CM19.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 56,
+      "question_type": "mc",
+      "question": "What is the value of \\(\\left(-\\dfrac{5}{6}\\right)\\left(-\\dfrac{1}{4}\\right)\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{5}{24}\\)",
+        "B": "\\(-\\dfrac{6}{10}\\)",
+        "C": "\\(\\dfrac{5}{24}\\)",
+        "D": "\\(\\dfrac{6}{10}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The product of two negative values is positive:\n\n\\[\\dfrac{(-5)\\times(-1)}{6\\times4}=\\dfrac{5}{24}\\]\n\nThis fraction cannot be simplified further, so the answer is \\(\\dfrac{5}{24}\\)."
+      }
+    },
+    {
+      "id": "CM19.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 57,
+      "question_type": "mc",
+      "question": "What is the value of \\(\\left(-\\dfrac{4}{9}\\right)\\left(-\\dfrac{3}{5}\\right)\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{4}{15}\\)",
+        "B": "\\(-\\dfrac{7}{14}\\)",
+        "C": "\\(\\dfrac{4}{15}\\)",
+        "D": "\\(\\dfrac{7}{14}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The product of two negative values is positive:\n\n\\[\\dfrac{(-4)\\times(-3)}{9\\times5}=\\dfrac{12}{45}\\]\n\nSimplify: \\(\\dfrac{12\\div3}{45\\div3}=\\dfrac{4}{15}\\)."
+      }
+    },
+    {
+      "id": "CM20.1",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 58,
+      "question_type": "dropdown",
+      "question": "Two circles, with centers at \\(A\\) and \\(C\\), are shown. Line segment \\(\\overline{AB}\\) is congruent to line segment \\(\\overline{DE}\\).\n\nDetermine the area, \\(A\\), and the circumference, \\(C\\), of each circle to complete the table.\n\nSelect one answer in each row.\n\nFor \\(A=16\\pi\\): [DROPDOWN_1]\nFor \\(C=4\\pi\\): [DROPDOWN_2]",
+      "figure_svg": "<svg viewBox='0 0 500 240' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><circle cx='130' cy='120' r='90' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='130' cy='120' r='2.5' fill='#111'/><circle cx='220' cy='120' r='2.5' fill='#111'/><line x1='130' y1='120' x2='220' y2='120' stroke='#111' stroke-width='1.4'/><text x='125' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>A</text><text x='226' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>B</text><text x='163' y='113' font-family='Georgia,serif' font-size='13'>4</text><circle cx='390' cy='120' r='45' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='390' cy='120' r='2.5' fill='#111'/><circle cx='345' cy='120' r='2.5' fill='#111'/><circle cx='435' cy='120' r='2.5' fill='#111'/><line x1='345' y1='120' x2='435' y2='120' stroke='#111' stroke-width='1.4'/><text x='386' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>C</text><text x='334' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>D</text><text x='440' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>E</text><text x='378' y='113' font-family='Georgia,serif' font-size='13'>4</text></svg>",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(A=16\\pi\\): Circle A\n\\(C=4\\pi\\): Circle C\n\n\\(AB\\) (the radius of Circle A) is \\(4\\) units. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), it is also \\(4\\) units.\n\nCircle A: \\(A=\\pi r^2=\\pi(4^2)=16\\pi\\), so radius \\(4\\) matches row 1: Circle A.\n\nCircle C: \\(C=\\pi d=\\pi(4)=4\\pi\\), so diameter \\(4\\) matches row 2: Circle C."
+      }
+    },
+    {
+      "id": "CM20.2",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 59,
+      "question_type": "dropdown",
+      "question": "Two circles, with centers at \\(A\\) and \\(C\\), are shown. Line segment \\(\\overline{AB}\\) is congruent to line segment \\(\\overline{DE}\\).\n\nDetermine the area, \\(A\\), and the circumference, \\(C\\), of each circle to complete the table.\n\nSelect one answer in each row.\n\nFor \\(A=36\\pi\\): [DROPDOWN_1]\nFor \\(C=6\\pi\\): [DROPDOWN_2]",
+      "figure_svg": "<svg viewBox='0 0 500 240' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><circle cx='130' cy='120' r='90' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='130' cy='120' r='2.5' fill='#111'/><circle cx='220' cy='120' r='2.5' fill='#111'/><line x1='130' y1='120' x2='220' y2='120' stroke='#111' stroke-width='1.4'/><text x='125' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>A</text><text x='226' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>B</text><text x='163' y='113' font-family='Georgia,serif' font-size='13'>6</text><circle cx='390' cy='120' r='45' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='390' cy='120' r='2.5' fill='#111'/><circle cx='345' cy='120' r='2.5' fill='#111'/><circle cx='435' cy='120' r='2.5' fill='#111'/><line x1='345' y1='120' x2='435' y2='120' stroke='#111' stroke-width='1.4'/><text x='386' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>C</text><text x='334' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>D</text><text x='440' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>E</text><text x='378' y='113' font-family='Georgia,serif' font-size='13'>6</text></svg>",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(A=36\\pi\\): Circle A\n\\(C=6\\pi\\): Circle C\n\n\\(AB\\) (the radius of Circle A) is \\(6\\) units. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), it is also \\(6\\) units.\n\nCircle A: \\(A=\\pi r^2=\\pi(6^2)=36\\pi\\), so radius \\(6\\) matches row 1: Circle A.\n\nCircle C: \\(C=\\pi d=\\pi(6)=6\\pi\\), so diameter \\(6\\) matches row 2: Circle C."
+      }
+    },
+    {
+      "id": "CM20.3",
+      "origin": "PRACTICE_SET_4",
+      "q_number": 60,
+      "question_type": "dropdown",
+      "question": "Two circles, with centers at \\(A\\) and \\(C\\), are shown. Line segment \\(\\overline{AB}\\) is congruent to line segment \\(\\overline{DE}\\).\n\nDetermine the area, \\(A\\), and the circumference, \\(C\\), of each circle to complete the table.\n\nSelect one answer in each row.\n\nFor \\(A=9\\pi\\): [DROPDOWN_1]\nFor \\(C=3\\pi\\): [DROPDOWN_2]",
+      "figure_svg": "<svg viewBox='0 0 500 240' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><circle cx='130' cy='120' r='90' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='130' cy='120' r='2.5' fill='#111'/><circle cx='220' cy='120' r='2.5' fill='#111'/><line x1='130' y1='120' x2='220' y2='120' stroke='#111' stroke-width='1.4'/><text x='125' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>A</text><text x='226' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>B</text><text x='163' y='113' font-family='Georgia,serif' font-size='13'>3</text><circle cx='390' cy='120' r='45' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='390' cy='120' r='2.5' fill='#111'/><circle cx='345' cy='120' r='2.5' fill='#111'/><circle cx='435' cy='120' r='2.5' fill='#111'/><line x1='345' y1='120' x2='435' y2='120' stroke='#111' stroke-width='1.4'/><text x='386' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>C</text><text x='334' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>D</text><text x='440' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>E</text><text x='378' y='113' font-family='Georgia,serif' font-size='13'>3</text></svg>",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(A=9\\pi\\): Circle A\n\\(C=3\\pi\\): Circle C\n\n\\(AB\\) (the radius of Circle A) is \\(3\\) units. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), it is also \\(3\\) units.\n\nCircle A: \\(A=\\pi r^2=\\pi(3^2)=9\\pi\\), so radius \\(3\\) matches row 1: Circle A.\n\nCircle C: \\(C=\\pi d=\\pi(3)=3\\pi\\), so diameter \\(3\\) matches row 2: Circle C."
+      }
+    }
+  ]
+}
