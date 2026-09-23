@@ -109,6 +109,14 @@
       color: var(--tn-text);
       white-space: pre-line;
     }
+    .tn-base-tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      color: var(--tn-muted);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
     .tn-question strong { font-weight: 700; }
     .tn-figure {
       margin: 8px 0 16px;
@@ -421,6 +429,7 @@
 
   <div class="tn-main">
     <div class="tn-card" id="tn-card">
+      <div class="tn-base-tag" id="tn-base-tag"></div>
       <div class="tn-question" id="tn-question">Loading…</div>
       <div id="tn-body"></div>
       <div class="tn-card-actions">
@@ -627,6 +636,8 @@
       } else if (q.exhibit_image_path) {
         figureHtml = `<div class="tn-figure"><img src="${q.exhibit_image_path}" alt="figure"></div>`;
       }
+      const baseMatch = (q.id || '').match(/^(.*?)\.(\d+)$/);
+      document.getElementById('tn-base-tag').textContent = baseMatch ? ('Based on ' + baseMatch[1]) : '';
       document.getElementById('tn-question').innerHTML = figureHtml + questionHtml;
 
       let bodyHtml = '';
