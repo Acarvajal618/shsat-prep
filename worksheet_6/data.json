@@ -1,0 +1,1185 @@
+{
+  "_schema": {
+    "description": "Practice Set 6 (9/23) — the 2nd and 3rd variant of each of the 31 pain-point skills from Practice Set 5 (9/22), repackaged into a smaller set. Same exact questions, not regenerated.",
+    "id_format": "Same IDs as Practice Set 5 (e.g. CM21.2, CM21.3) — points back to the original question each is a variant of.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "CM21.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "In a fruit basket, the ratio of pears to peaches is the same as the ratio of grapes to berries. If there are 18 peaches, 8 grapes, and 24 berries, how many pears are there?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(6\\)",
+        "C": "\\(8\\)",
+        "D": "\\(11\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The ratios are equal, so set up a proportion:\n\n\\[\\dfrac{a}{18}=\\dfrac{8}{24}\\]\n\nCross multiply:\n\n\\[a\\times24=8\\times18\\]\n\\[24a=144\\]\n\\[a=6\\]"
+      }
+    },
+    {
+      "id": "CM21.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "In a fruit basket, the ratio of plums to apricots is the same as the ratio of figs to dates. If there are 28 apricots, 6 figs, and 24 dates, how many plums are there?",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(7\\)",
+        "C": "\\(9\\)",
+        "D": "\\(12\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The ratios are equal, so set up a proportion:\n\n\\[\\dfrac{a}{28}=\\dfrac{6}{24}\\]\n\nCross multiply:\n\n\\[a\\times24=6\\times28\\]\n\\[24a=168\\]\n\\[a=7\\]"
+      }
+    },
+    {
+      "id": "CM22.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 3,
+      "question_type": "grid_in",
+      "question": "During a hiking trip, a group of students recorded the elevation (in feet) at several points along the trail:\n\n\\[-150 \\text{ ft}, 20 \\text{ ft}, -60 \\text{ ft}, 100 \\text{ ft}, -10 \\text{ ft}, 55 \\text{ ft}\\]\n\nWhat is the difference between the highest and lowest elevations recorded on the trail?\n\nEnter your answer in the space.",
+      "grid_answer": "250",
+      "solution": {
+        "letter": "250",
+        "exhibit_text": "The highest elevation is \\(100\\) ft (farthest right on a number line). The lowest elevation is \\(-150\\) ft (farthest left).\n\nSubtract the lowest from the highest:\n\n\\[100-(-150)=100+150=250\\text{ ft}\\]"
+      }
+    },
+    {
+      "id": "CM22.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 4,
+      "question_type": "grid_in",
+      "question": "During a hiking trip, a group of students recorded the elevation (in feet) at several points along the trail:\n\n\\[-70 \\text{ ft}, 35 \\text{ ft}, -100 \\text{ ft}, 80 \\text{ ft}, -25 \\text{ ft}, 15 \\text{ ft}\\]\n\nWhat is the difference between the highest and lowest elevations recorded on the trail?\n\nEnter your answer in the space.",
+      "grid_answer": "180",
+      "solution": {
+        "letter": "180",
+        "exhibit_text": "The highest elevation is \\(80\\) ft (farthest right on a number line). The lowest elevation is \\(-100\\) ft (farthest left).\n\nSubtract the lowest from the highest:\n\n\\[80-(-100)=80+100=180\\text{ ft}\\]"
+      }
+    },
+    {
+      "id": "CM23.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "In the parallelogram above, the length of \\(\\overline{QT}\\) is \\(12\\) centimeters. What is the area of the parallelogram?",
+      "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='187' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='313' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>12 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>16 cm</text><line x1='95' y1='250' x2='305' y2='250' stroke='#111' stroke-width='1'/><path d='M 95 250 L 105 246 L 105 254 Z' fill='#111'/><path d='M 305 250 L 295 246 L 295 254 Z' fill='#111'/><text x='200' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='13'>25 cm</text></svg>",
+      "options": {
+        "A": "\\(200\\) sq cm",
+        "B": "\\(250\\) sq cm",
+        "C": "\\(300\\) sq cm",
+        "D": "\\(380\\) sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "\\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(25\\) cm and the height is \\(12\\) cm.\n\nArea \\(=\\) base \\(\\times\\) height:\n\n\\[25\\times12=300\\text{ cm}^2\\]"
+      }
+    },
+    {
+      "id": "CM23.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "In the parallelogram above, the length of \\(\\overline{QT}\\) is \\(20\\) centimeters. What is the area of the parallelogram?",
+      "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='187' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='313' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>20 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>24 cm</text><line x1='95' y1='250' x2='305' y2='250' stroke='#111' stroke-width='1'/><path d='M 95 250 L 105 246 L 105 254 Z' fill='#111'/><path d='M 305 250 L 295 246 L 295 254 Z' fill='#111'/><text x='200' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='13'>30 cm</text></svg>",
+      "options": {
+        "A": "\\(500\\) sq cm",
+        "B": "\\(550\\) sq cm",
+        "C": "\\(600\\) sq cm",
+        "D": "\\(680\\) sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "\\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(30\\) cm and the height is \\(20\\) cm.\n\nArea \\(=\\) base \\(\\times\\) height:\n\n\\[30\\times20=600\\text{ cm}^2\\]"
+      }
+    },
+    {
+      "id": "CM24.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of murals, collages, and prints shown is \\(3{:}5{:}4\\), respectively. If the number of collages shown was 30, what is the total number of prints and murals that were shown?",
+      "options": {
+        "A": "\\(21\\)",
+        "B": "\\(36\\)",
+        "C": "\\(42\\)",
+        "D": "\\(87\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The ratio of murals to collages to prints is \\(3:5:4\\). Since the number of collages is 30, each ratio unit is multiplied by \\(30\\div5=6\\).\n\nMurals: \\(3\\times6=18\\)\nPrints: \\(4\\times6=24\\)\n\nAdd them: \\(18+24=42\\)."
+      }
+    },
+    {
+      "id": "CM24.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of posters, portraits, and mosaics shown is \\(3{:}5{:}4\\), respectively. If the number of portraits shown was 75, what is the total number of mosaics and posters that were shown?",
+      "options": {
+        "A": "\\(84\\)",
+        "B": "\\(99\\)",
+        "C": "\\(105\\)",
+        "D": "\\(150\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The ratio of posters to portraits to mosaics is \\(3:5:4\\). Since the number of portraits is 75, each ratio unit is multiplied by \\(75\\div5=15\\).\n\nPosters: \\(3\\times15=45\\)\nMosaics: \\(4\\times15=60\\)\n\nAdd them: \\(45+60=105\\)."
+      }
+    },
+    {
+      "id": "CM25.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "For each \\(\\dfrac{5}{8}\\) foot of curtain width, \\(\\dfrac{7}{10}\\) yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width?",
+      "options": {
+        "A": "\\(\\dfrac{28}{50}\\) yd",
+        "B": "\\(\\dfrac{7}{10}\\) yd",
+        "C": "\\(\\dfrac{28}{25}\\) yd",
+        "D": "\\(\\dfrac{53}{25}\\) yd"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "It takes \\(\\dfrac{7}{10}\\) yard of fabric for \\(\\dfrac{5}{8}\\) foot of curtain width.\n\nFind the ratio of 1 foot to \\(\\dfrac{5}{8}\\) foot:\n\n\\[1\\div\\dfrac{5}{8}=\\dfrac{8}{5}\\]\n\nMultiply by the fabric amount:\n\n\\[\\dfrac{8}{5}\\times\\dfrac{7}{10}=\\dfrac{28}{25}\\text{ yd}\\]"
+      }
+    },
+    {
+      "id": "CM25.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "For each \\(\\dfrac{1}{4}\\) foot of curtain width, \\(\\dfrac{2}{3}\\) yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width?",
+      "options": {
+        "A": "\\(\\dfrac{8}{6}\\) yd",
+        "B": "\\(\\dfrac{2}{3}\\) yd",
+        "C": "\\(\\dfrac{8}{3}\\) yd",
+        "D": "\\(\\dfrac{11}{3}\\) yd"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "It takes \\(\\dfrac{2}{3}\\) yard of fabric for \\(\\dfrac{1}{4}\\) foot of curtain width.\n\nFind the ratio of 1 foot to \\(\\dfrac{1}{4}\\) foot:\n\n\\[1\\div\\dfrac{1}{4}=\\dfrac{4}{1}\\]\n\nMultiply by the fabric amount:\n\n\\[\\dfrac{4}{1}\\times\\dfrac{2}{3}=\\dfrac{8}{3}\\text{ yd}\\]"
+      }
+    },
+    {
+      "id": "CM26.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "Which straight line is the graph of a proportional relationship?",
+      "figure_svg": "<svg viewBox='0 0 400 290' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><line x1='50' y1='10' x2='50' y2='270' stroke='#111' stroke-width='1.3'/><line x1='40' y1='260' x2='400' y2='260' stroke='#111' stroke-width='1.3'/><line x1='50.0' y1='257' x2='50.0' y2='263' stroke='#111'/><line x1='80.0' y1='257' x2='80.0' y2='263' stroke='#111'/><text x='80.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>1</text><line x1='110.0' y1='257' x2='110.0' y2='263' stroke='#111'/><text x='110.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>2</text><line x1='140.0' y1='257' x2='140.0' y2='263' stroke='#111'/><text x='140.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>3</text><line x1='170.0' y1='257' x2='170.0' y2='263' stroke='#111'/><text x='170.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>4</text><line x1='200.0' y1='257' x2='200.0' y2='263' stroke='#111'/><text x='200.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>5</text><line x1='230.0' y1='257' x2='230.0' y2='263' stroke='#111'/><text x='230.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>6</text><line x1='260.0' y1='257' x2='260.0' y2='263' stroke='#111'/><text x='260.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>7</text><line x1='290.0' y1='257' x2='290.0' y2='263' stroke='#111'/><text x='290.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>8</text><line x1='47' y1='260.0' x2='53' y2='260.0' stroke='#111'/><line x1='47' y1='230.0' x2='53' y2='230.0' stroke='#111'/><text x='38' y='234.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>1</text><line x1='47' y1='200.0' x2='53' y2='200.0' stroke='#111'/><text x='38' y='204.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>2</text><line x1='47' y1='170.0' x2='53' y2='170.0' stroke='#111'/><text x='38' y='174.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>3</text><line x1='47' y1='140.0' x2='53' y2='140.0' stroke='#111'/><text x='38' y='144.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>4</text><line x1='47' y1='110.0' x2='53' y2='110.0' stroke='#111'/><text x='38' y='114.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>5</text><line x1='47' y1='80.0' x2='53' y2='80.0' stroke='#111'/><text x='38' y='84.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>6</text><line x1='47' y1='50.0' x2='53' y2='50.0' stroke='#111'/><text x='38' y='54.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>7</text><line x1='47' y1='20.0' x2='53' y2='20.0' stroke='#111'/><text x='38' y='24.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>8</text><circle cx='110.0' cy='170.0' r='3.2' fill='#111'/><text x='117.0' y='164.0' font-size='13' font-family='Georgia,serif' font-style='italic'>A</text><circle cx='170.0' cy='80.0' r='3.2' fill='#111'/><text x='177.0' y='74.0' font-size='13' font-family='Georgia,serif' font-style='italic'>B</text><circle cx='80.0' cy='110.0' r='3.2' fill='#111'/><text x='87.0' y='104.0' font-size='13' font-family='Georgia,serif' font-style='italic'>C</text><circle cx='200.0' cy='230.0' r='3.2' fill='#111'/><text x='207.0' y='224.0' font-size='13' font-family='Georgia,serif' font-style='italic'>D</text><circle cx='110.0' cy='80.0' r='3.2' fill='#111'/><text x='117.0' y='74.0' font-size='13' font-family='Georgia,serif' font-style='italic'>E</text><circle cx='200.0' cy='170.0' r='3.2' fill='#111'/><text x='207.0' y='164.0' font-size='13' font-family='Georgia,serif' font-style='italic'>F</text><circle cx='80.0' cy='200.0' r='3.2' fill='#111'/><text x='87.0' y='194.0' font-size='13' font-family='Georgia,serif' font-style='italic'>G</text><circle cx='140.0' cy='50.0' r='3.2' fill='#111'/><text x='147.0' y='44.0' font-size='13' font-family='Georgia,serif' font-style='italic'>H</text></svg>",
+      "options": {
+        "A": "\\(\\overleftrightarrow{AB}\\)",
+        "B": "\\(\\overleftrightarrow{CD}\\)",
+        "C": "\\(\\overleftrightarrow{EF}\\)",
+        "D": "\\(\\overleftrightarrow{GH}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The graph of any proportional line must pass through the origin, \\((0,0)\\). Of the labeled points, only line \\(\\overleftrightarrow{AB}\\) passes through the origin — checking the other pairs shows none of them line up with \\((0,0)\\)."
+      }
+    },
+    {
+      "id": "CM26.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "Which straight line is the graph of a proportional relationship?",
+      "figure_svg": "<svg viewBox='0 0 400 290' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><line x1='50' y1='10' x2='50' y2='270' stroke='#111' stroke-width='1.3'/><line x1='40' y1='260' x2='400' y2='260' stroke='#111' stroke-width='1.3'/><line x1='50.0' y1='257' x2='50.0' y2='263' stroke='#111'/><line x1='86.92307692307692' y1='257' x2='86.92307692307692' y2='263' stroke='#111'/><text x='86.92307692307692' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>2</text><line x1='123.84615384615384' y1='257' x2='123.84615384615384' y2='263' stroke='#111'/><text x='123.84615384615384' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>4</text><line x1='160.76923076923077' y1='257' x2='160.76923076923077' y2='263' stroke='#111'/><text x='160.76923076923077' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>6</text><line x1='197.69230769230768' y1='257' x2='197.69230769230768' y2='263' stroke='#111'/><text x='197.69230769230768' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>8</text><line x1='234.61538461538458' y1='257' x2='234.61538461538458' y2='263' stroke='#111'/><text x='234.61538461538458' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>10</text><line x1='271.53846153846155' y1='257' x2='271.53846153846155' y2='263' stroke='#111'/><text x='271.53846153846155' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>12</text><line x1='47' y1='260.0' x2='53' y2='260.0' stroke='#111'/><line x1='47' y1='223.0769230769231' x2='53' y2='223.0769230769231' stroke='#111'/><text x='38' y='227.0769230769231' font-size='11' text-anchor='end' font-family='Georgia,serif'>2</text><line x1='47' y1='186.15384615384616' x2='53' y2='186.15384615384616' stroke='#111'/><text x='38' y='190.15384615384616' font-size='11' text-anchor='end' font-family='Georgia,serif'>4</text><line x1='47' y1='149.23076923076923' x2='53' y2='149.23076923076923' stroke='#111'/><text x='38' y='153.23076923076923' font-size='11' text-anchor='end' font-family='Georgia,serif'>6</text><line x1='47' y1='112.30769230769232' x2='53' y2='112.30769230769232' stroke='#111'/><text x='38' y='116.30769230769232' font-size='11' text-anchor='end' font-family='Georgia,serif'>8</text><line x1='47' y1='75.38461538461542' x2='53' y2='75.38461538461542' stroke='#111'/><text x='38' y='79.38461538461542' font-size='11' text-anchor='end' font-family='Georgia,serif'>10</text><line x1='47' y1='38.46153846153848' x2='53' y2='38.46153846153848' stroke='#111'/><text x='38' y='42.46153846153848' font-size='11' text-anchor='end' font-family='Georgia,serif'>12</text><circle cx='68.5' cy='186.2' r='3.2' fill='#111'/><text x='75.5' y='180.2' font-size='13' font-family='Georgia,serif' font-style='italic'>A</text><circle cx='105.4' cy='38.5' r='3.2' fill='#111'/><text x='112.4' y='32.5' font-size='13' font-family='Georgia,serif' font-style='italic'>B</text><circle cx='86.9' cy='130.8' r='3.2' fill='#111'/><text x='93.9' y='124.8' font-size='13' font-family='Georgia,serif' font-style='italic'>C</text><circle cx='160.8' cy='204.6' r='3.2' fill='#111'/><text x='167.8' y='198.6' font-size='13' font-family='Georgia,serif' font-style='italic'>D</text><circle cx='68.5' cy='130.8' r='3.2' fill='#111'/><text x='75.5' y='124.8' font-size='13' font-family='Georgia,serif' font-style='italic'>E</text><circle cx='105.4' cy='241.5' r='3.2' fill='#111'/><text x='112.4' y='235.5' font-size='13' font-family='Georgia,serif' font-style='italic'>F</text><circle cx='86.9' cy='204.6' r='3.2' fill='#111'/><text x='93.9' y='198.6' font-size='13' font-family='Georgia,serif' font-style='italic'>G</text><circle cx='123.8' cy='93.8' r='3.2' fill='#111'/><text x='130.8' y='87.8' font-size='13' font-family='Georgia,serif' font-style='italic'>H</text></svg>",
+      "options": {
+        "A": "\\(\\overleftrightarrow{CD}\\)",
+        "B": "\\(\\overleftrightarrow{AB}\\)",
+        "C": "\\(\\overleftrightarrow{EF}\\)",
+        "D": "\\(\\overleftrightarrow{GH}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The graph of any proportional line must pass through the origin, \\((0,0)\\). Of the labeled points, only line \\(\\overleftrightarrow{AB}\\) passes through the origin — checking the other pairs shows none of them line up with \\((0,0)\\)."
+      }
+    },
+    {
+      "id": "CM27.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "Some friends are buying bags of mulch for a garden project. The graph shows the cost of the mulch, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?",
+      "figure_svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><text x='170' y='16' font-size='13' font-weight='700' text-anchor='middle' font-family='Georgia,serif'>MULCH COSTS</text><line x1='50' y1='30' x2='50' y2='230' stroke='#111' stroke-width='1.3'/><line x1='40' y1='220' x2='370' y2='220' stroke='#111' stroke-width='1.3'/><line x1='50.0' y1='220.0' x2='350.0' y2='70.0' stroke='#1a73e8' stroke-width='2'/><circle cx='200.0' cy='145.0' r='3' fill='#1a73e8'/><text x='206.0' y='139.0' font-size='11' font-family='Georgia,serif'>(10, 2.5)</text><circle cx='350.0' cy='70.0' r='3' fill='#1a73e8'/><text x='356.0' y='64.0' font-size='11' font-family='Georgia,serif'>(20, 5.0)</text><text x='210' y='258' font-size='12' text-anchor='middle' font-family='Georgia,serif'>Weight of Ice (lb)</text><text x='14' y='160' font-size='12' text-anchor='middle' font-family='Georgia,serif' transform='rotate(-90,14,160)'>Cost (dollars)</text><text x='50.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>0</text><text x='125.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>5</text><text x='200.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>10</text><text x='275.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>15</text><text x='350.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>20</text><text x='36' y='224.0' font-size='10' text-anchor='end' font-family='Georgia,serif'>0</text><text x='36' y='149.0' font-size='10' text-anchor='end' font-family='Georgia,serif'>2.5</text><text x='36' y='74.0' font-size='10' text-anchor='end' font-family='Georgia,serif'>5.0</text></svg>",
+      "options": {
+        "A": "The point \\((20, 5)\\) means that \\(5\\) lbs of mulch costs $\\(20.00\\).",
+        "B": "The point \\((1, 0.25)\\) means that \\(1\\) bag of mulch costs $\\(0.25\\).",
+        "C": "The point \\((10, 2.5)\\) means that \\(10\\) lbs of mulch costs $\\(2.50\\).",
+        "D": "The point \\((0, 0)\\) means that \\(0\\) lbs will be needed if \\(0\\) people go to the picnic."
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The \\(x\\)-axis represents the weight, in pounds, of mulch purchased, and the \\(y\\)-axis represents the cost, in dollars.\n\nThe point \\((10, 2.5)\\) means \\(10\\) lbs of mulch costs $\\(2.50\\)."
+      }
+    },
+    {
+      "id": "CM27.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "Some friends are buying bags of gravel for a garden project. The graph shows the cost of the gravel, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?",
+      "figure_svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><text x='170' y='16' font-size='13' font-weight='700' text-anchor='middle' font-family='Georgia,serif'>GRAVEL COSTS</text><line x1='50' y1='30' x2='50' y2='230' stroke='#111' stroke-width='1.3'/><line x1='40' y1='220' x2='370' y2='220' stroke='#111' stroke-width='1.3'/><line x1='50.0' y1='220.0' x2='350.0' y2='70.0' stroke='#1a73e8' stroke-width='2'/><circle cx='200.0' cy='145.0' r='3' fill='#1a73e8'/><text x='206.0' y='139.0' font-size='11' font-family='Georgia,serif'>(8, 2.0)</text><circle cx='350.0' cy='70.0' r='3' fill='#1a73e8'/><text x='356.0' y='64.0' font-size='11' font-family='Georgia,serif'>(16, 4.0)</text><text x='210' y='258' font-size='12' text-anchor='middle' font-family='Georgia,serif'>Weight of Ice (lb)</text><text x='14' y='160' font-size='12' text-anchor='middle' font-family='Georgia,serif' transform='rotate(-90,14,160)'>Cost (dollars)</text><text x='50.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>0</text><text x='125.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>4</text><text x='200.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>8</text><text x='275.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>12</text><text x='350.0' y='236' font-size='10' text-anchor='middle' font-family='Georgia,serif'>16</text><text x='36' y='224.0' font-size='10' text-anchor='end' font-family='Georgia,serif'>0</text><text x='36' y='149.0' font-size='10' text-anchor='end' font-family='Georgia,serif'>2.0</text><text x='36' y='74.0' font-size='10' text-anchor='end' font-family='Georgia,serif'>4.0</text></svg>",
+      "options": {
+        "A": "The point \\((16, 4)\\) means that \\(4\\) lbs of gravel costs $\\(16.00\\).",
+        "B": "The point \\((1, 0.25)\\) means that \\(1\\) bag of gravel costs $\\(0.25\\).",
+        "C": "The point \\((8, 2)\\) means that \\(8\\) lbs of gravel costs $\\(2.00\\).",
+        "D": "The point \\((0, 0)\\) means that \\(0\\) lbs will be needed if \\(0\\) people go to the picnic."
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The \\(x\\)-axis represents the weight, in pounds, of gravel purchased, and the \\(y\\)-axis represents the cost, in dollars.\n\nThe point \\((8, 2)\\) means \\(8\\) lbs of gravel costs $\\(2.00\\)."
+      }
+    },
+    {
+      "id": "CM28.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{z+4w}{4}=7w\\), what is the value of \\(z\\) in terms of \\(w\\)?",
+      "options": {
+        "A": "\\(20w\\)",
+        "B": "\\(24w\\)",
+        "C": "\\(27w\\)",
+        "D": "\\(28w\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Multiply both sides by \\(4\\):\n\n\\[z+4w=28w\\]\n\nSubtract \\(4w\\) from both sides:\n\n\\[z=28w-4w=24w\\]"
+      }
+    },
+    {
+      "id": "CM28.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{z+1w}{4}=8w\\), what is the value of \\(z\\) in terms of \\(w\\)?",
+      "options": {
+        "A": "\\(27w\\)",
+        "B": "\\(31w\\)",
+        "C": "\\(34w\\)",
+        "D": "\\(32w\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Multiply both sides by \\(4\\):\n\n\\[z+1w=32w\\]\n\nSubtract \\(1w\\) from both sides:\n\n\\[z=32w-1w=31w\\]"
+      }
+    },
+    {
+      "id": "CM29.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 17,
+      "question_type": "grid_in",
+      "question": "A recipe shop uses a consistent ratio in its batches. The table shows the proportional relationship between minutes x and miles y in different batches.\n\nWhat is the constant of proportionality of miles y to minutes x?\n\nEnter your answer in the space.",
+      "figure_svg": "<svg viewBox='0 0 224 66' xmlns='http://www.w3.org/2000/svg' font-family='Georgia,serif' font-size='11'><text x='2' y='13' font-weight='700' font-size='12'>RUNNING PACE</text><g transform='translate(2,20)'><rect x='0' y='0' width='220' height='44' fill='none' stroke='#111'/><line x1='110' y1='0' x2='110' y2='44' stroke='#111'/><line x1='0' y1='0' x2='220' y2='0' stroke='#111'/><line x1='0' y1='22' x2='220' y2='22' stroke='#111'/><text x='6' y='15' font-weight='700'>Minutes x</text><text x='116' y='15' font-weight='700'>Miles y</text><text x='6' y='37'>10</text><text x='116' y='37'>4</text></g></svg>",
+      "grid_answer": "0.4",
+      "solution": {
+        "letter": "0.4",
+        "exhibit_text": "Use \\(y=px\\) where \\(p\\) is the constant of proportionality.\n\nThe table shows \\(y=4\\) when \\(x=10\\):\n\n\\[4=10p\\]\n\\[p=\\dfrac{4}{10}=0.4\\]"
+      }
+    },
+    {
+      "id": "CM29.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 18,
+      "question_type": "grid_in",
+      "question": "A recipe shop uses a consistent ratio in its batches. The table shows the proportional relationship between cups of flour x and cups of sugar y in different batches.\n\nWhat is the constant of proportionality of cups of sugar y to cups of flour x?\n\nEnter your answer in the space.",
+      "figure_svg": "<svg viewBox='0 0 284 66' xmlns='http://www.w3.org/2000/svg' font-family='Georgia,serif' font-size='11'><text x='2' y='13' font-weight='700' font-size='12'>COOKIE RECIPE</text><g transform='translate(2,20)'><rect x='0' y='0' width='280' height='44' fill='none' stroke='#111'/><line x1='140' y1='0' x2='140' y2='44' stroke='#111'/><line x1='0' y1='0' x2='280' y2='0' stroke='#111'/><line x1='0' y1='22' x2='280' y2='22' stroke='#111'/><text x='6' y='15' font-weight='700'>Cups of Flour x</text><text x='146' y='15' font-weight='700'>Cups of Sugar y</text><text x='6' y='37'>10</text><text x='146' y='37'>6</text></g></svg>",
+      "grid_answer": "0.6",
+      "solution": {
+        "letter": "0.6",
+        "exhibit_text": "Use \\(y=px\\) where \\(p\\) is the constant of proportionality.\n\nThe table shows \\(y=6\\) when \\(x=10\\):\n\n\\[6=10p\\]\n\\[p=\\dfrac{6}{10}=0.6\\]"
+      }
+    },
+    {
+      "id": "CM20.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 19,
+      "question_type": "dropdown",
+      "question": "Two circles, with centers at \\(A\\) and \\(C\\), are shown. Line segment \\(\\overline{AB}\\) is congruent to line segment \\(\\overline{DE}\\).\n\nDetermine the area, \\(A\\), and the circumference, \\(C\\), of each circle to complete the table.\n\nSelect one answer in each row.\n\nFor \\(A=64\\pi\\): [DROPDOWN_1]\nFor \\(C=8\\pi\\): [DROPDOWN_2]",
+      "figure_svg": "<svg viewBox='0 0 500 240' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><circle cx='130' cy='120' r='90' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='130' cy='120' r='2.5' fill='#111'/><circle cx='220' cy='120' r='2.5' fill='#111'/><line x1='130' y1='120' x2='220' y2='120' stroke='#111' stroke-width='1.4'/><text x='125' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>A</text><text x='226' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>B</text><text x='163' y='113' font-family='Georgia,serif' font-size='13'>8</text><circle cx='390' cy='120' r='45' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='390' cy='120' r='2.5' fill='#111'/><circle cx='345' cy='120' r='2.5' fill='#111'/><circle cx='435' cy='120' r='2.5' fill='#111'/><line x1='345' y1='120' x2='435' y2='120' stroke='#111' stroke-width='1.4'/><text x='386' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>C</text><text x='334' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>D</text><text x='440' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>E</text><text x='378' y='113' font-family='Georgia,serif' font-size='13'>8</text></svg>",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(A=64\\pi\\): Circle A\n\\(C=8\\pi\\): Circle C\n\n\\(AB\\) (the radius of Circle A) is \\(8\\) units. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), it is also \\(8\\) units.\n\nCircle A: \\(A=\\pi r^2=\\pi(8^2)=64\\pi\\), so radius \\(8\\) matches row 1: Circle A.\n\nCircle C: \\(C=\\pi d=\\pi(8)=8\\pi\\), so diameter \\(8\\) matches row 2: Circle C."
+      }
+    },
+    {
+      "id": "CM20.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 20,
+      "question_type": "dropdown",
+      "question": "Two circles, with centers at \\(A\\) and \\(C\\), are shown. Line segment \\(\\overline{AB}\\) is congruent to line segment \\(\\overline{DE}\\).\n\nDetermine the area, \\(A\\), and the circumference, \\(C\\), of each circle to complete the table.\n\nSelect one answer in each row.\n\nFor \\(A=81\\pi\\): [DROPDOWN_1]\nFor \\(C=9\\pi\\): [DROPDOWN_2]",
+      "figure_svg": "<svg viewBox='0 0 500 240' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><circle cx='130' cy='120' r='90' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='130' cy='120' r='2.5' fill='#111'/><circle cx='220' cy='120' r='2.5' fill='#111'/><line x1='130' y1='120' x2='220' y2='120' stroke='#111' stroke-width='1.4'/><text x='125' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>A</text><text x='226' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>B</text><text x='163' y='113' font-family='Georgia,serif' font-size='13'>9</text><circle cx='390' cy='120' r='45' fill='none' stroke='#111' stroke-width='1.5'/><circle cx='390' cy='120' r='2.5' fill='#111'/><circle cx='345' cy='120' r='2.5' fill='#111'/><circle cx='435' cy='120' r='2.5' fill='#111'/><line x1='345' y1='120' x2='435' y2='120' stroke='#111' stroke-width='1.4'/><text x='386' y='137' font-family='Georgia,serif' font-style='italic' font-size='15'>C</text><text x='334' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>D</text><text x='440' y='115' font-family='Georgia,serif' font-style='italic' font-size='15'>E</text><text x='378' y='113' font-family='Georgia,serif' font-size='13'>9</text></svg>",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "Circle A",
+            "Circle C",
+            "Neither"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\(A=81\\pi\\): Circle A\n\\(C=9\\pi\\): Circle C\n\n\\(AB\\) (the radius of Circle A) is \\(9\\) units. Since \\(DE\\) (the diameter of Circle C) is congruent to \\(AB\\), it is also \\(9\\) units.\n\nCircle A: \\(A=\\pi r^2=\\pi(9^2)=81\\pi\\), so radius \\(9\\) matches row 1: Circle A.\n\nCircle C: \\(C=\\pi d=\\pi(9)=9\\pi\\), so diameter \\(9\\) matches row 2: Circle C."
+      }
+    },
+    {
+      "id": "CM39.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "A shipment contains \\(150\\) small boxes of electronics parts. In a random sample of \\(25\\) of these boxes, \\(10\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
+      "options": {
+        "A": "\\(45\\)",
+        "B": "\\(65\\)",
+        "C": "\\(75\\)",
+        "D": "\\(93\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Fraction of undamaged boxes in the sample: \\(\\dfrac{15}{25}\\).\n\nBoxes not in the sample: \\(150-25=125\\).\n\nPredicted undamaged: \\(125\\times\\dfrac{15}{25}=75\\)."
+      }
+    },
+    {
+      "id": "CM39.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "A shipment contains \\(300\\) small boxes of electronics parts. In a random sample of \\(40\\) of these boxes, \\(12\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
+      "options": {
+        "A": "\\(152\\)",
+        "B": "\\(172\\)",
+        "C": "\\(182\\)",
+        "D": "\\(200\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Fraction of undamaged boxes in the sample: \\(\\dfrac{28}{40}\\).\n\nBoxes not in the sample: \\(300-40=260\\).\n\nPredicted undamaged: \\(260\\times\\dfrac{28}{40}=182\\)."
+      }
+    },
+    {
+      "id": "CM40.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "In basketball, a player can earn \\(1\\) point for making a free throw and \\(2\\) points for making another basket. Devon makes a mean of \\(9\\) free throws per game, and he scores a total of at least \\(50\\) points per game. The inequality below shows this relationship, where \\(b\\) represents the number of \\(2\\)-point baskets Devon makes.\n\n\\[2b+9\\ge50\\]\n\nWhat is the least number of \\(2\\)-point baskets Devon must make?",
+      "options": {
+        "A": "\\(b\\le20\\)",
+        "B": "\\(b\\ge21\\)",
+        "C": "\\(b\\ge25\\)",
+        "D": "\\(b\\le50\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Solve the inequality:\n\n\\[2b+9\\ge50\\]\n\\[2b\\ge41\\]\n\\[b\\ge20.5\\]\n\nSince the number of baskets must be a whole number, the fewest \\(2\\)-point baskets is \\(21\\)."
+      }
+    },
+    {
+      "id": "CM40.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "In basketball, a player can earn \\(1\\) point for making a free throw and \\(2\\) points for making another basket. Devon makes a mean of \\(5\\) free throws per game, and he scores a total of at least \\(36\\) points per game. The inequality below shows this relationship, where \\(b\\) represents the number of \\(2\\)-point baskets Devon makes.\n\n\\[2b+5\\ge36\\]\n\nWhat is the least number of \\(2\\)-point baskets Devon must make?",
+      "options": {
+        "A": "\\(b\\le15\\)",
+        "B": "\\(b\\ge16\\)",
+        "C": "\\(b\\ge20\\)",
+        "D": "\\(b\\le36\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Solve the inequality:\n\n\\[2b+5\\ge36\\]\n\\[2b\\ge31\\]\n\\[b\\ge15.5\\]\n\nSince the number of baskets must be a whole number, the fewest \\(2\\)-point baskets is \\(16\\)."
+      }
+    },
+    {
+      "id": "CM42.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 25,
+      "question_type": "grid_in",
+      "question": "Priya is making a clay block in the shape of a cube with a side length of \\(24\\) cm. She hollows out the center by removing clay to form a rectangular prism-shaped hole with a base of \\(6\\) cm \\(\\times\\) \\(6\\) cm and a height of \\(24\\) cm.\n\nWhat is the volume, in cubic centimeters, of the block after the clay is removed from the center?\n\nEnter your answer in the space.",
+      "grid_answer": "12960",
+      "solution": {
+        "letter": "12960",
+        "exhibit_text": "Volume of the cube: \\(V_c=24\\times24\\times24=13824\\text{ cm}^3\\).\n\nVolume of the cut-out prism: \\(V_p=6\\times6\\times24=864\\text{ cm}^3\\).\n\nSubtract: \\(13824-864=12960\\text{ cm}^3\\)."
+      }
+    },
+    {
+      "id": "CM42.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 26,
+      "question_type": "grid_in",
+      "question": "Priya is making a clay block in the shape of a cube with a side length of \\(18\\) cm. She hollows out the center by removing clay to form a rectangular prism-shaped hole with a base of \\(4\\) cm \\(\\times\\) \\(4\\) cm and a height of \\(18\\) cm.\n\nWhat is the volume, in cubic centimeters, of the block after the clay is removed from the center?\n\nEnter your answer in the space.",
+      "grid_answer": "5544",
+      "solution": {
+        "letter": "5544",
+        "exhibit_text": "Volume of the cube: \\(V_c=18\\times18\\times18=5832\\text{ cm}^3\\).\n\nVolume of the cut-out prism: \\(V_p=4\\times4\\times18=288\\text{ cm}^3\\).\n\nSubtract: \\(5832-288=5544\\text{ cm}^3\\)."
+      }
+    },
+    {
+      "id": "CM44.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 27,
+      "question_type": "dropdown",
+      "question": "A tablet screen is designed to be \\(60\\) millimeters wide. The quality control team allows for a variation of \\(\\pm10\\%\\) in the width. Select the minimum and maximum screen widths that fall within the acceptable range of screen widths, in millimeters.\n\nSelect the correct answer from each drop-down to complete the sentence.\n\nThe acceptable screen width is from [DROPDOWN_1] to [DROPDOWN_2] millimeters.",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "54",
+            "60",
+            "66"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "60",
+            "66",
+            "54"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": "54 mm; 66 mm",
+        "exhibit_text": "A variation of \\(\\pm10\\%\\) means the width can range from \\(10\\%\\) less than 60 mm to \\(10\\%\\) more.\n\nLeast: \\(60-1/10(60)=54\\) mm.\n\nGreatest: \\(60+1/10(60)=66\\) mm.\n\nThe range is from \\(54\\) mm to \\(66\\) mm."
+      }
+    },
+    {
+      "id": "CM44.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 28,
+      "question_type": "dropdown",
+      "question": "A tablet screen is designed to be \\(150\\) millimeters wide. The quality control team allows for a variation of \\(\\pm2\\%\\) in the width. Select the minimum and maximum screen widths that fall within the acceptable range of screen widths, in millimeters.\n\nSelect the correct answer from each drop-down to complete the sentence.\n\nThe acceptable screen width is from [DROPDOWN_1] to [DROPDOWN_2] millimeters.",
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "147",
+            "150",
+            "153"
+          ],
+          "answer_index": 0
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "150",
+            "153",
+            "147"
+          ],
+          "answer_index": 1
+        }
+      ],
+      "solution": {
+        "letter": "147 mm; 153 mm",
+        "exhibit_text": "A variation of \\(\\pm2\\%\\) means the width can range from \\(2\\%\\) less than 150 mm to \\(2\\%\\) more.\n\nLeast: \\(150-1/50(150)=147\\) mm.\n\nGreatest: \\(150+1/50(150)=153\\) mm.\n\nThe range is from \\(147\\) mm to \\(153\\) mm."
+      }
+    },
+    {
+      "id": "CM45.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "Jasmine earns $\\(8\\) per hour at her job. She wants to change to a job that will pay $\\(10\\) per hour. What will be the percent increase in Jasmine's hourly pay if she makes this job change?",
+      "options": {
+        "A": "\\(15\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(55\\%\\)",
+        "D": "\\(75\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Subtract to find the increase: \\(10-8=2\\).\n\nDivide by the original rate: \\(2\\div8=1/4\\).\n\nMultiply by \\(100\\) to get a percent: \\(25\\%\\)."
+      }
+    },
+    {
+      "id": "CM45.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 30,
+      "question_type": "mc",
+      "question": "Jasmine earns $\\(20\\) per hour at her job. She wants to change to a job that will pay $\\(23\\) per hour. What will be the percent increase in Jasmine's hourly pay if she makes this job change?",
+      "options": {
+        "A": "\\(5\\%\\)",
+        "B": "\\(15\\%\\)",
+        "C": "\\(45\\%\\)",
+        "D": "\\(85\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Subtract to find the increase: \\(23-20=3\\).\n\nDivide by the original rate: \\(3\\div20=3/20\\).\n\nMultiply by \\(100\\) to get a percent: \\(15\\%\\)."
+      }
+    },
+    {
+      "id": "CM47.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "The height of a plant, in millimeters, is proportional to the number of days the plant has grown. The plant has grown \\(16\\) millimeters in \\(4\\) days. What is the constant of proportionality, in millimeters per day?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(4\\)",
+        "C": "\\(6\\)",
+        "D": "\\(16\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Divide millimeters by days:\n\n\\[\\dfrac{16\\text{ mm}}{4\\text{ days}}=4\\text{ mm/day}\\]"
+      }
+    },
+    {
+      "id": "CM47.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 32,
+      "question_type": "mc",
+      "question": "The height of a plant, in millimeters, is proportional to the number of days the plant has grown. The plant has grown \\(18\\) millimeters in \\(4\\) days. What is the constant of proportionality, in millimeters per day?",
+      "options": {
+        "A": "\\(3.5\\)",
+        "B": "\\(4.5\\)",
+        "C": "\\(6.5\\)",
+        "D": "\\(18\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Divide millimeters by days:\n\n\\[\\dfrac{18\\text{ mm}}{4\\text{ days}}=4.5\\text{ mm/day}\\]"
+      }
+    },
+    {
+      "id": "CM49.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 33,
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours ninth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "figure_svg": "<svg viewBox='0 0 400 90' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><line x1='72.38095238095238' y1='40' x2='120.95238095238095' y2='40' stroke='#111' stroke-width='1.4'/><line x1='250.47619047619048' y1='40' x2='347.6190476190476' y2='40' stroke='#111' stroke-width='1.4'/><rect x='120.95238095238095' y='26' width='129.52380952380952' height='28' fill='none' stroke='#111' stroke-width='1.4'/><line x1='185.71428571428572' y1='26' x2='185.71428571428572' y2='54' stroke='#111' stroke-width='1.6'/><line x1='72.38095238095238' y1='31' x2='72.38095238095238' y2='49' stroke='#111' stroke-width='1.4'/><line x1='347.6190476190476' y1='31' x2='347.6190476190476' y2='49' stroke='#111' stroke-width='1.4'/><line x1='40.0' y1='62' x2='40.0' y2='68' stroke='#999' stroke-width='1'/><text x='40.0' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>0</text><line x1='72.38095238095238' y1='62' x2='72.38095238095238' y2='68' stroke='#999' stroke-width='1'/><text x='72.38095238095238' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>2</text><line x1='104.76190476190476' y1='62' x2='104.76190476190476' y2='68' stroke='#999' stroke-width='1'/><text x='104.76190476190476' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>4</text><line x1='137.14285714285714' y1='62' x2='137.14285714285714' y2='68' stroke='#999' stroke-width='1'/><text x='137.14285714285714' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>6</text><line x1='169.52380952380952' y1='62' x2='169.52380952380952' y2='68' stroke='#999' stroke-width='1'/><text x='169.52380952380952' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>8</text><line x1='201.9047619047619' y1='62' x2='201.9047619047619' y2='68' stroke='#999' stroke-width='1'/><text x='201.9047619047619' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>10</text><line x1='234.28571428571428' y1='62' x2='234.28571428571428' y2='68' stroke='#999' stroke-width='1'/><text x='234.28571428571428' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>12</text><line x1='266.66666666666663' y1='62' x2='266.66666666666663' y2='68' stroke='#999' stroke-width='1'/><text x='266.66666666666663' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>14</text><line x1='299.04761904761904' y1='62' x2='299.04761904761904' y2='68' stroke='#999' stroke-width='1'/><text x='299.04761904761904' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>16</text><line x1='331.42857142857144' y1='62' x2='331.42857142857144' y2='68' stroke='#999' stroke-width='1'/><text x='331.42857142857144' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>18</text><line x1='363.8095238095238' y1='62' x2='363.8095238095238' y2='68' stroke='#999' stroke-width='1'/><text x='363.8095238095238' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>20</text><line x1='40' y1='62' x2='380.0' y2='62' stroke='#999' stroke-width='1'/></svg>",
+      "drop_values": [
+        "2",
+        "8",
+        "9",
+        "17",
+        "19"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "17"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "8"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "9"
+        }
+      ],
+      "solution": {
+        "letter": "(17; 8; 9)",
+        "exhibit_text": "Range: maximum \\(-\\) minimum \\(=19-2=17\\) hr.\n\nIQR: upper quartile \\(-\\) lower quartile \\(=13-5=8\\) hr.\n\nDifference: \\(17-8=9\\) hr."
+      }
+    },
+    {
+      "id": "CM49.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 34,
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours ninth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "figure_svg": "<svg viewBox='0 0 400 90' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><line x1='92.3076923076923' y1='40' x2='144.6153846153846' y2='40' stroke='#111' stroke-width='1.4'/><line x1='249.23076923076923' y1='40' x2='353.8461538461538' y2='40' stroke='#111' stroke-width='1.4'/><rect x='144.6153846153846' y='26' width='104.61538461538461' height='28' fill='none' stroke='#111' stroke-width='1.4'/><line x1='196.9230769230769' y1='26' x2='196.9230769230769' y2='54' stroke='#111' stroke-width='1.6'/><line x1='92.3076923076923' y1='31' x2='92.3076923076923' y2='49' stroke='#111' stroke-width='1.4'/><line x1='353.8461538461538' y1='31' x2='353.8461538461538' y2='49' stroke='#111' stroke-width='1.4'/><line x1='40.0' y1='62' x2='40.0' y2='68' stroke='#999' stroke-width='1'/><text x='40.0' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>0</text><line x1='66.15384615384616' y1='62' x2='66.15384615384616' y2='68' stroke='#999' stroke-width='1'/><text x='66.15384615384616' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>2</text><line x1='92.3076923076923' y1='62' x2='92.3076923076923' y2='68' stroke='#999' stroke-width='1'/><text x='92.3076923076923' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>4</text><line x1='118.46153846153845' y1='62' x2='118.46153846153845' y2='68' stroke='#999' stroke-width='1'/><text x='118.46153846153845' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>6</text><line x1='144.6153846153846' y1='62' x2='144.6153846153846' y2='68' stroke='#999' stroke-width='1'/><text x='144.6153846153846' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>8</text><line x1='170.76923076923077' y1='62' x2='170.76923076923077' y2='68' stroke='#999' stroke-width='1'/><text x='170.76923076923077' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>10</text><line x1='196.9230769230769' y1='62' x2='196.9230769230769' y2='68' stroke='#999' stroke-width='1'/><text x='196.9230769230769' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>12</text><line x1='223.07692307692307' y1='62' x2='223.07692307692307' y2='68' stroke='#999' stroke-width='1'/><text x='223.07692307692307' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>14</text><line x1='249.23076923076923' y1='62' x2='249.23076923076923' y2='68' stroke='#999' stroke-width='1'/><text x='249.23076923076923' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>16</text><line x1='275.38461538461536' y1='62' x2='275.38461538461536' y2='68' stroke='#999' stroke-width='1'/><text x='275.38461538461536' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>18</text><line x1='301.53846153846155' y1='62' x2='301.53846153846155' y2='68' stroke='#999' stroke-width='1'/><text x='301.53846153846155' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>20</text><line x1='327.6923076923077' y1='62' x2='327.6923076923077' y2='68' stroke='#999' stroke-width='1'/><text x='327.6923076923077' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>22</text><line x1='353.8461538461538' y1='62' x2='353.8461538461538' y2='68' stroke='#999' stroke-width='1'/><text x='353.8461538461538' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>24</text><line x1='380.0' y1='62' x2='380.0' y2='68' stroke='#999' stroke-width='1'/><text x='380.0' y='82' font-size='10' text-anchor='middle' font-family='Georgia,serif'>26</text><line x1='40' y1='62' x2='380.0' y2='62' stroke='#999' stroke-width='1'/></svg>",
+      "drop_values": [
+        "4",
+        "8",
+        "12",
+        "20",
+        "24"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "20"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "8"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "12"
+        }
+      ],
+      "solution": {
+        "letter": "(20; 8; 12)",
+        "exhibit_text": "Range: maximum \\(-\\) minimum \\(=24-4=20\\) hr.\n\nIQR: upper quartile \\(-\\) lower quartile \\(=16-8=8\\) hr.\n\nDifference: \\(20-8=12\\) hr."
+      }
+    },
+    {
+      "id": "CM50.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 35,
+      "question_type": "mc",
+      "question": "Devon wants to pour cement around the edge of the circular patio in his backyard. The patio has a radius of \\(10\\) feet. What is the distance, in feet, around the edge of the patio? Use \\(3.14\\) for \\(\\pi\\).",
+      "options": {
+        "A": "\\(31.4\\)",
+        "B": "\\(62.8\\)",
+        "C": "\\(314\\)",
+        "D": "\\(628\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Use the circumference formula \\(C=2\\pi r\\):\n\n\\[C=2(3.14)(10)=62.8\\]"
+      }
+    },
+    {
+      "id": "CM50.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 36,
+      "question_type": "mc",
+      "question": "Devon wants to pour cement around the edge of the circular patio in his backyard. The patio has a radius of \\(4\\) feet. What is the distance, in feet, around the edge of the patio? Use \\(3.14\\) for \\(\\pi\\).",
+      "options": {
+        "A": "\\(12.56\\)",
+        "B": "\\(25.12\\)",
+        "C": "\\(50.24\\)",
+        "D": "\\(100.48\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Use the circumference formula \\(C=2\\pi r\\):\n\n\\[C=2(3.14)(4)=25.12\\]"
+      }
+    },
+    {
+      "id": "DM03.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 37,
+      "question_type": "mc",
+      "question": "Two sets, \\(R\\) and \\(S\\), are described below. The sum of the elements in set \\(R\\) equals the sum of the elements in set \\(S\\).\n\n\\[R=\\{2, x, 9, 5\\}\\]\n\\[S=\\{8, y, 1, 10\\}\\]\n\nWhat is the value of \\(x-y\\)?",
+      "options": {
+        "A": "\\(-1\\)",
+        "B": "\\(3\\)",
+        "C": "\\(-3\\)",
+        "D": "\\(7\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Sum of \\(R\\): \\(2+x+9+5=x+16\\).\n\nSum of \\(S\\): \\(8+y+1+10=y+19\\).\n\nSet them equal and solve:\n\n\\[x+16=y+19\\]\n\\[x-y=19-16=3\\]"
+      }
+    },
+    {
+      "id": "DM03.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "Two sets, \\(R\\) and \\(S\\), are described below. The sum of the elements in set \\(R\\) equals the sum of the elements in set \\(S\\).\n\n\\[R=\\{6, x, 1, 8\\}\\]\n\\[S=\\{3, y, 9, 4\\}\\]\n\nWhat is the value of \\(x-y\\)?",
+      "options": {
+        "A": "\\(-3\\)",
+        "B": "\\(1\\)",
+        "C": "\\(-1\\)",
+        "D": "\\(5\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Sum of \\(R\\): \\(6+x+1+8=x+15\\).\n\nSum of \\(S\\): \\(3+y+9+4=y+16\\).\n\nSet them equal and solve:\n\n\\[x+15=y+16\\]\n\\[x-y=16-15=1\\]"
+      }
+    },
+    {
+      "id": "DM05.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "In a school raffle, \\(1\\) out of every \\(20\\) students wins a prize. Each prize includes a randomly selected trading card from a set of \\(60\\) different cards, labeled C1 through C60, with each card equally likely to be chosen. If one student is selected at random, what is the probability that the student both wins a prize and receives Card C1?",
+      "options": {
+        "A": "\\(\\dfrac{1}{20}+\\dfrac{1}{60}\\)",
+        "B": "\\(\\dfrac{1}{20}\\cdot\\dfrac{1}{60}\\)",
+        "C": "\\(\\dfrac{1}{80}\\)",
+        "D": "\\(\\dfrac{20}{60}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The probability of winning a prize is \\(\\dfrac{1}{20}\\). The probability of receiving Card C1 is \\(\\dfrac{1}{60}\\).\n\nThese are independent events, so multiply: \\(\\dfrac{1}{20}\\cdot\\dfrac{1}{60}\\)."
+      }
+    },
+    {
+      "id": "DM05.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "In a school raffle, \\(1\\) out of every \\(40\\) students wins a prize. Each prize includes a randomly selected trading card from a set of \\(120\\) different cards, labeled C1 through C120, with each card equally likely to be chosen. If one student is selected at random, what is the probability that the student both wins a prize and receives Card C1?",
+      "options": {
+        "A": "\\(\\dfrac{1}{40}+\\dfrac{1}{120}\\)",
+        "B": "\\(\\dfrac{1}{40}\\cdot\\dfrac{1}{120}\\)",
+        "C": "\\(\\dfrac{1}{160}\\)",
+        "D": "\\(\\dfrac{40}{120}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The probability of winning a prize is \\(\\dfrac{1}{40}\\). The probability of receiving Card C1 is \\(\\dfrac{1}{120}\\).\n\nThese are independent events, so multiply: \\(\\dfrac{1}{40}\\cdot\\dfrac{1}{120}\\)."
+      }
+    },
+    {
+      "id": "DM11.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "In a scale drawing of a triangular garden, the sides measure \\(6\\) inches, \\(8\\) inches, and \\(10\\) inches. The perimeter of the actual garden is \\(36\\) miles. What is the actual length of the shortest side of the garden?",
+      "options": {
+        "A": "\\(7\\) mi",
+        "B": "\\(9\\) mi",
+        "C": "\\(12\\) mi",
+        "D": "\\(36\\) mi"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The perimeter of the scale drawing is \\(6+8+10=24\\) inches.\n\nThe scale factor is \\(24\\) inches to \\(36\\) miles.\n\nThe shortest side on the drawing is \\(6\\) inches, so its actual length is:\n\n\\[6\\times\\dfrac{36}{24}=9\\text{ mi}\\]"
+      }
+    },
+    {
+      "id": "DM11.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 42,
+      "question_type": "mc",
+      "question": "In a scale drawing of a triangular garden, the sides measure \\(3\\) inches, \\(5\\) inches, and \\(7\\) inches. The perimeter of the actual garden is \\(60\\) miles. What is the actual length of the shortest side of the garden?",
+      "options": {
+        "A": "\\(10\\) mi",
+        "B": "\\(12\\) mi",
+        "C": "\\(15\\) mi",
+        "D": "\\(60\\) mi"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The perimeter of the scale drawing is \\(3+5+7=15\\) inches.\n\nThe scale factor is \\(15\\) inches to \\(60\\) miles.\n\nThe shortest side on the drawing is \\(3\\) inches, so its actual length is:\n\n\\[3\\times\\dfrac{60}{15}=12\\text{ mi}\\]"
+      }
+    },
+    {
+      "id": "DM12.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "\\(P\\) is the center of the circle above, and \\(R\\), \\(S\\), and \\(T\\) are points on the circle. What is the value of \\(x\\)?",
+      "figure_svg": "<svg viewBox='0 0 400 280' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><circle cx='190' cy='140' r='95' fill='none' stroke='#111' stroke-width='1.4'/><line x1='95' y1='140' x2='285' y2='140' stroke='#111' stroke-width='1.4'/><line x1='190' y1='140' x2='247' y2='64' stroke='#111' stroke-width='1.4'/><line x1='247' y1='64' x2='247' y2='140' stroke='#111' stroke-width='1.4'/><polyline points='240,140 240,133 247,133' fill='none' stroke='#111' stroke-width='1'/><circle cx='95' cy='140' r='2.8' fill='#111'/><circle cx='190' cy='140' r='2.8' fill='#111'/><circle cx='285' cy='140' r='2.8' fill='#111'/><circle cx='247' cy='64' r='2.8' fill='#111'/><circle cx='247' cy='140' r='2.5' fill='#111'/><text x='84' y='137' font-family='Georgia,serif' font-size='15' text-anchor='end'>R</text><text x='187' y='158' font-family='Georgia,serif' font-size='15' text-anchor='end'>P</text><text x='295' y='137' font-family='Georgia,serif' font-size='15'>T</text><text x='253' y='60' font-family='Georgia,serif' font-size='15'>S</text><text x='213' y='102' font-family='Georgia,serif' font-size='19' font-weight='bold' font-style='italic'>15</text><line x1='95' y1='180' x2='247' y2='180' stroke='#111' stroke-width='1'/><line x1='95' y1='176' x2='95' y2='184' stroke='#111' stroke-width='1'/><line x1='247' y1='176' x2='247' y2='184' stroke='#111' stroke-width='1'/><text x='171' y='196' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>x</text><line x1='247' y1='210' x2='285' y2='210' stroke='#111' stroke-width='1'/><line x1='247' y1='206' x2='247' y2='214' stroke='#111' stroke-width='1'/><line x1='285' y1='206' x2='285' y2='214' stroke='#111' stroke-width='1'/><text x='266' y='226' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>6</text></svg>",
+      "options": {
+        "A": "\\(18\\)",
+        "B": "\\(22\\)",
+        "C": "\\(25\\)",
+        "D": "\\(24\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "\\(\\overline{SP}\\) is a radius with length \\(15\\). \\(\\overline{RP}\\) and \\(\\overline{PT}\\) are also radii of length \\(15\\).\n\nSo \\(\\overline{RT}\\), a diameter, has length \\(2\\times15=30\\), and is also represented by \\(x+6\\).\n\n\\[x+6=30\\]\n\\[x=24\\]"
+      }
+    },
+    {
+      "id": "DM12.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "\\(P\\) is the center of the circle above, and \\(R\\), \\(S\\), and \\(T\\) are points on the circle. What is the value of \\(x\\)?",
+      "figure_svg": "<svg viewBox='0 0 400 280' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><circle cx='190' cy='140' r='95' fill='none' stroke='#111' stroke-width='1.4'/><line x1='95' y1='140' x2='285' y2='140' stroke='#111' stroke-width='1.4'/><line x1='190' y1='140' x2='247' y2='64' stroke='#111' stroke-width='1.4'/><line x1='247' y1='64' x2='247' y2='140' stroke='#111' stroke-width='1.4'/><polyline points='240,140 240,133 247,133' fill='none' stroke='#111' stroke-width='1'/><circle cx='95' cy='140' r='2.8' fill='#111'/><circle cx='190' cy='140' r='2.8' fill='#111'/><circle cx='285' cy='140' r='2.8' fill='#111'/><circle cx='247' cy='64' r='2.8' fill='#111'/><circle cx='247' cy='140' r='2.5' fill='#111'/><text x='84' y='137' font-family='Georgia,serif' font-size='15' text-anchor='end'>R</text><text x='187' y='158' font-family='Georgia,serif' font-size='15' text-anchor='end'>P</text><text x='295' y='137' font-family='Georgia,serif' font-size='15'>T</text><text x='253' y='60' font-family='Georgia,serif' font-size='15'>S</text><text x='213' y='102' font-family='Georgia,serif' font-size='19' font-weight='bold' font-style='italic'>7</text><line x1='95' y1='180' x2='247' y2='180' stroke='#111' stroke-width='1'/><line x1='95' y1='176' x2='95' y2='184' stroke='#111' stroke-width='1'/><line x1='247' y1='176' x2='247' y2='184' stroke='#111' stroke-width='1'/><text x='171' y='196' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>x</text><line x1='247' y1='210' x2='285' y2='210' stroke='#111' stroke-width='1'/><line x1='247' y1='206' x2='247' y2='214' stroke='#111' stroke-width='1'/><line x1='285' y1='206' x2='285' y2='214' stroke='#111' stroke-width='1'/><text x='266' y='226' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>3</text></svg>",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(9\\)",
+        "C": "\\(12\\)",
+        "D": "\\(11\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "\\(\\overline{SP}\\) is a radius with length \\(7\\). \\(\\overline{RP}\\) and \\(\\overline{PT}\\) are also radii of length \\(7\\).\n\nSo \\(\\overline{RT}\\), a diameter, has length \\(2\\times7=14\\), and is also represented by \\(x+3\\).\n\n\\[x+3=14\\]\n\\[x=11\\]"
+      }
+    },
+    {
+      "id": "DM19.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "A store manager purchases a piece of furniture for $\\(280.00\\). To determine the selling price, the manager increases the purchase cost by \\(100\\%\\). A customer buys the furniture and pays an additional \\(10\\%\\) sales tax. How much does the customer pay for the furniture?",
+      "options": {
+        "A": "$\\(560.00\\)",
+        "B": "$\\(308.00\\)",
+        "C": "$\\(616.00\\)",
+        "D": "$\\(840.00\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The 100% increase in price:\n\n\\[280\\times2=560\\]\n\nThe selling price is $\\(560.00\\).\n\nThe sales tax on the selling price:\n\n\\[560\\times10\\%=56.00\\]\n\nThe customer pays:\n\n\\[560+56.00=616.00\\]"
+      }
+    },
+    {
+      "id": "DM19.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "A store manager purchases a piece of furniture for $\\(500.00\\). To determine the selling price, the manager increases the purchase cost by \\(80\\%\\). A customer buys the furniture and pays an additional \\(5\\%\\) sales tax. How much does the customer pay for the furniture?",
+      "options": {
+        "A": "$\\(900.00\\)",
+        "B": "$\\(525.00\\)",
+        "C": "$\\(945.00\\)",
+        "D": "$\\(1400.00\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The 80% increase in price:\n\n\\[500\\times9/5=900\\]\n\nThe selling price is $\\(900.00\\).\n\nThe sales tax on the selling price:\n\n\\[900\\times5\\%=45.00\\]\n\nThe customer pays:\n\n\\[900+45.00=945.00\\]"
+      }
+    },
+    {
+      "id": "DM21.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "Priya borrowed $\\(9.00\\) from her mother, $\\(6.25\\) from her father, $\\(2.75\\) from her brother to purchase a video game. Her grandmother gave her $\\(22.00\\) as a gift. How much money will Priya have left or still owe if she uses the money her grandmother gave her to pay back the money she borrowed?",
+      "options": {
+        "A": "Priya will still owe $\\(4.50\\).",
+        "B": "Priya will still owe $\\(4.00\\).",
+        "C": "Priya will have $\\(4.00\\) left.",
+        "D": "Priya will have $\\(4.50\\) left."
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Total borrowed: \\(9.00+6.25+2.75=18.00\\).\n\nSubtract from the gift: \\(22.00-18.00=4.00\\).\n\nThis is positive, so Priya will have $\\(4.00\\) left."
+      }
+    },
+    {
+      "id": "DM21.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "Priya borrowed $\\(12.00\\) from her mother, $\\(4.50\\) from her father, $\\(6.00\\) from her brother to purchase a video game. Her grandmother gave her $\\(20.00\\) as a gift. How much money will Priya have left or still owe if she uses the money her grandmother gave her to pay back the money she borrowed?",
+      "options": {
+        "A": "Priya will still owe $\\(2.50\\).",
+        "B": "Priya will still owe $\\(3.00\\).",
+        "C": "Priya will have $\\(2.50\\) left.",
+        "D": "Priya will have $\\(3.00\\) left."
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Total borrowed: \\(12.00+4.50+6.00=22.50\\).\n\nSubtract from the gift: \\(20.00-22.50=-2.50\\).\n\nThis is negative, so Priya will still owe $\\(2.50.\\)"
+      }
+    },
+    {
+      "id": "DM26.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 49,
+      "question_type": "mc",
+      "question": "Kayla has a budget of $\\(100\\) to rent a bounce house. The rental company charges $\\(15\\) per hour to rent the bounce house, plus a one-time setup fee of $\\(20\\).\n\nWhich inequality represents this situation, where \\(x\\) is the number of hours Kayla can rent the bounce house?",
+      "options": {
+        "A": "\\(20+15x\\le100\\)",
+        "B": "\\(20+15x\\ge100\\)",
+        "C": "\\(15+20x\\le100\\)",
+        "D": "\\(20x+15\\le100\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let \\(x\\) represent the number of hours. The hourly cost is \\(15x\\), and the one-time setup fee of $\\(20\\) is added to it.\n\nSince Kayla has $\\(100\\) to spend, the total cost must be less than or equal to $\\(100\\):\n\n\\[20+15x\\le100\\]"
+      }
+    },
+    {
+      "id": "DM26.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 50,
+      "question_type": "mc",
+      "question": "Kayla has a budget of $\\(200\\) to rent a bounce house. The rental company charges $\\(25\\) per hour to rent the bounce house, plus a one-time setup fee of $\\(40\\).\n\nWhich inequality represents this situation, where \\(x\\) is the number of hours Kayla can rent the bounce house?",
+      "options": {
+        "A": "\\(40+25x\\le200\\)",
+        "B": "\\(40+25x\\ge200\\)",
+        "C": "\\(25+40x\\le200\\)",
+        "D": "\\(40x+25\\le200\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let \\(x\\) represent the number of hours. The hourly cost is \\(25x\\), and the one-time setup fee of $\\(40\\) is added to it.\n\nSince Kayla has $\\(200\\) to spend, the total cost must be less than or equal to $\\(200\\):\n\n\\[40+25x\\le200\\]"
+      }
+    },
+    {
+      "id": "DM27.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 51,
+      "question_type": "mc",
+      "question": "A trail mix is \\(\\dfrac{1}{4}\\) peanuts. The cost of the peanuts is $\\(0.12\\) per ounce. At this rate, what is the cost of the peanuts in \\(40\\) pounds of this trail mix? (Note: \\(1\\) lb \\(=16\\) oz.)",
+      "options": {
+        "A": "$\\(9.60\\)",
+        "B": "$\\(19.20\\)",
+        "C": "$\\(28.80\\)",
+        "D": "$\\(1.92\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Amount of peanuts in 40 lb: \\(\\dfrac{1}{4}\\times40=10\\) lb.\n\nCost per pound: $\\(0.12\\)\\(\\times16=\\)$\\(1.92\\) per lb.\n\nTotal cost: $\\(1.92\\)\\(\\times10=\\)$\\(19.20\\)."
+      }
+    },
+    {
+      "id": "DM27.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 52,
+      "question_type": "mc",
+      "question": "A trail mix is \\(\\dfrac{5}{8}\\) peanuts. The cost of the peanuts is $\\(0.05\\) per ounce. At this rate, what is the cost of the peanuts in \\(24\\) pounds of this trail mix? (Note: \\(1\\) lb \\(=16\\) oz.)",
+      "options": {
+        "A": "$\\(6.00\\)",
+        "B": "$\\(12.00\\)",
+        "C": "$\\(18.00\\)",
+        "D": "$\\(0.80\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Amount of peanuts in 24 lb: \\(\\dfrac{5}{8}\\times24=15\\) lb.\n\nCost per pound: $\\(0.05\\)\\(\\times16=\\)$\\(0.80\\) per lb.\n\nTotal cost: $\\(0.80\\)\\(\\times15=\\)$\\(12.00\\)."
+      }
+    },
+    {
+      "id": "DM32.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 53,
+      "question_type": "mc",
+      "question": "There were \\(24\\) people at Sofia's party. If each person at the party drank \\(2\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(=4\\) quarts; \\(1\\) quart \\(=4\\) cups.",
+      "options": {
+        "A": "\\(1\\dfrac{1}{2}\\)",
+        "B": "\\(3\\)",
+        "C": "\\(12\\)",
+        "D": "\\(48\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "3",
+        "exhibit_text": "Total cups: \\(24\\times2=48\\).\n\nConvert to gallons (\\(16\\) cups \\(=1\\) gallon):\n\n\\[48\\div16=3\\text{ gallons}\\]"
+      }
+    },
+    {
+      "id": "DM32.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 54,
+      "question_type": "mc",
+      "question": "There were \\(40\\) people at Sofia's party. If each person at the party drank \\(4\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(=4\\) quarts; \\(1\\) quart \\(=4\\) cups.",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(10\\)",
+        "C": "\\(40\\)",
+        "D": "\\(160\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "10",
+        "exhibit_text": "Total cups: \\(40\\times4=160\\).\n\nConvert to gallons (\\(16\\) cups \\(=1\\) gallon):\n\n\\[160\\div16=10\\text{ gallons}\\]"
+      }
+    },
+    {
+      "id": "DM33.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 55,
+      "question_type": "mc",
+      "question": "A car costing $\\(30{,}000\\) is subject to a sales tax of \\(6\\%\\). If Marcus made a $\\(12{,}000\\) down payment on this car, what is the total amount he has left to pay?",
+      "options": {
+        "A": "$\\(18{,}000\\)",
+        "B": "$\\(16{,}800\\)",
+        "C": "$\\(19{,}800\\)",
+        "D": "$\\(31{,}800\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "$\\(19{,}800\\)",
+        "exhibit_text": "Sales tax: \\(3/50\\times\\)$\\(30{,}000\\)\\(=\\)$\\(1{,}800\\).\n\nTotal cost: $\\(30{,}000\\)\\(+\\)$\\(1{,}800\\)\\(=\\)$\\(31{,}800\\).\n\nSubtract the down payment: $\\(31{,}800\\)\\(-\\)$\\(12{,}000\\)\\(=\\)$\\(19{,}800\\)."
+      }
+    },
+    {
+      "id": "DM33.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 56,
+      "question_type": "mc",
+      "question": "A car costing $\\(20{,}000\\) is subject to a sales tax of \\(9\\%\\). If Marcus made a $\\(7{,}000\\) down payment on this car, what is the total amount he has left to pay?",
+      "options": {
+        "A": "$\\(13{,}000\\)",
+        "B": "$\\(11{,}800\\)",
+        "C": "$\\(14{,}800\\)",
+        "D": "$\\(21{,}800\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "$\\(14{,}800\\)",
+        "exhibit_text": "Sales tax: \\(9/100\\times\\)$\\(20{,}000\\)\\(=\\)$\\(1{,}800\\).\n\nTotal cost: $\\(20{,}000\\)\\(+\\)$\\(1{,}800\\)\\(=\\)$\\(21{,}800\\).\n\nSubtract the down payment: $\\(21{,}800\\)\\(-\\)$\\(7{,}000\\)\\(=\\)$\\(14{,}800\\)."
+      }
+    },
+    {
+      "id": "DM39.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 57,
+      "question_type": "mc",
+      "question": "The table shows the probabilities of a team scoring different numbers of goals in a game.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BASEBALL RUN PROBABILITIES</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Goals</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Probability</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.18</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.25</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.24</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.17</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>4</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.1</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>5</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.06</td></tr></tbody></table>\n\nWhat is the probability that the team will score three or more goals in the next game?",
+      "options": {
+        "A": "\\(0.18\\)",
+        "B": "\\(0.24\\)",
+        "C": "\\(0.33\\)",
+        "D": "\\(0.82\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "0.33",
+        "exhibit_text": "Add the probabilities for \\(3\\), \\(4\\), and \\(5\\) goals:\n\n\\[P(3)+P(4)+P(5)=0.17+0.1+0.06=0.33\\]"
+      }
+    },
+    {
+      "id": "DM39.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 58,
+      "question_type": "mc",
+      "question": "The table shows the probabilities of a team scoring different numbers of goals in a game.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>VOLLEYBALL ACE PROBABILITIES</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Goals</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Probability</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.2</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.23</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.26</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.16</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>4</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.09</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>5</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.06</td></tr></tbody></table>\n\nWhat is the probability that the team will score three or more goals in the next game?",
+      "options": {
+        "A": "\\(0.2\\)",
+        "B": "\\(0.26\\)",
+        "C": "\\(0.31\\)",
+        "D": "\\(0.8\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "0.31",
+        "exhibit_text": "Add the probabilities for \\(3\\), \\(4\\), and \\(5\\) goals:\n\n\\[P(3)+P(4)+P(5)=0.16+0.09+0.06=0.31\\]"
+      }
+    },
+    {
+      "id": "DM48.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 59,
+      "question_type": "mc",
+      "question": "The perimeter of square \\(W\\) is \\dfrac{5}{2} times the perimeter of equilateral triangle \\(X\\). What is the ratio of the length of one side of square \\(W\\) to the length of one side of equilateral triangle \\(X\\)?",
+      "options": {
+        "A": "\\(8:15\\)",
+        "B": "\\(15:10\\)",
+        "C": "\\(15:8\\)",
+        "D": "\\(4:3\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "15:8",
+        "exhibit_text": "The perimeter ratio of square to triangle is \\dfrac{5}{2}\\(:1\\).\n\nA square has \\(4\\) equal sides; a triangle has \\(3\\).\n\nSide ratio: \\(\\dfrac{5}{2\\times4}\\Big/\\dfrac{1}{3}=\\dfrac{5}{8}\\times3=15:8\\)."
+      }
+    },
+    {
+      "id": "DM48.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 60,
+      "question_type": "mc",
+      "question": "The perimeter of square \\(W\\) is \\dfrac{4}{3} times the perimeter of equilateral triangle \\(X\\). What is the ratio of the length of one side of square \\(W\\) to the length of one side of equilateral triangle \\(X\\)?",
+      "options": {
+        "A": "\\(2:1\\)",
+        "B": "\\(3:4\\)",
+        "C": "\\(1:1\\)",
+        "D": "\\(4:3\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "1:1",
+        "exhibit_text": "The perimeter ratio of square to triangle is \\dfrac{4}{3}\\(:1\\).\n\nA square has \\(4\\) equal sides; a triangle has \\(3\\).\n\nSide ratio: \\(\\dfrac{4}{3\\times4}\\Big/\\dfrac{1}{3}=\\dfrac{4}{12}\\times3=1:1\\)."
+      }
+    },
+    {
+      "id": "DM50.2",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 61,
+      "question_type": "mc",
+      "question": "This table shows the number of animals seen at a nature reserve on Monday and Tuesday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>SQUIRRELS IN THE PARK</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number Seen</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Monday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>50</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Tuesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>44</td></tr></tbody></table>\n\nWhat was the percent decrease in the number seen from Monday to Tuesday?",
+      "options": {
+        "A": "\\(4\\%\\)",
+        "B": "\\(12\\%\\)",
+        "C": "\\(16\\%\\)",
+        "D": "\\(17\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "12%",
+        "exhibit_text": "Decrease: \\(50-44=6\\).\n\nDivide by the original count: \\(\\dfrac{6}{50}=3/25=12\\%\\)."
+      }
+    },
+    {
+      "id": "DM50.3",
+      "origin": "PRACTICE_SET_6",
+      "q_number": 62,
+      "question_type": "mc",
+      "question": "This table shows the number of animals seen at a nature reserve on Monday and Tuesday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BUTTERFLIES IN THE GARDEN</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number Seen</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Monday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>60</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Tuesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>45</td></tr></tbody></table>\n\nWhat was the percent decrease in the number seen from Monday to Tuesday?",
+      "options": {
+        "A": "\\(17\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(29\\%\\)",
+        "D": "\\(30\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "25%",
+        "exhibit_text": "Decrease: \\(60-45=15\\).\n\nDivide by the original count: \\(\\dfrac{15}{60}=1/4=25\\%\\)."
+      }
+    }
+  ]
+}
