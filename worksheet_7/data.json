@@ -1,0 +1,377 @@
+{
+  "_schema": {
+    "description": "Practice Set 7 (10/1) — reinforcement for 5 randomly selected pain-point skills from Exam E (EM04, EM06, EM17, EM34, EM43). 4 new variants each. Not an official exam.",
+    "id_format": "EM<NN>.<variant> — points back to the original Exam E question it's a variant of.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "EM04.1",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "In the figure above, ABCD is a rectangle with length 10 cm and width 6 cm. Points W, X, Y, and Z are the midpoints of the sides. What is the area of the shaded quadrilateral?",
+      "figure_svg": "<svg viewBox='0 0 144 112' xmlns='http://www.w3.org/2000/svg' font-family='system-ui,sans-serif'><rect x='24' y='22' width='70' height='42' fill='none' stroke='#222' stroke-width='1.5'/><polygon points='59.0,22 94,43.0 59.0,64 24,43.0' fill='#ccc' stroke='#222' stroke-width='1.5'/><text x='18' y='16' font-size='11'>A</text><text x='59.0' y='16' font-size='11' text-anchor='middle'>W</text><text x='98' y='16' font-size='11'>B</text><text x='98' y='47.0' font-size='11'>X</text><text x='98' y='76' font-size='11'>C</text><text x='59.0' y='88' font-size='11' text-anchor='middle'>Y</text><text x='14' y='76' font-size='11'>D</text><text x='6' y='47.0' font-size='11'>Z</text><text x='59.0' y='104' font-size='11' text-anchor='middle'>10 cm</text><text x='100' y='63.0' font-size='11'>6 cm</text></svg>",
+      "options": {
+        "A": "20 sq cm",
+        "B": "26 sq cm",
+        "C": "30 sq cm",
+        "D": "42 sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Since W, X, Y, and Z are the midpoints of the rectangle's sides, the shaded quadrilateral's area is always half the area of the rectangle.\n\nArea of rectangle: \\(10\\text{ cm}\\times6\\text{ cm}=60\\text{ sq cm}\\).\n\nShaded area: \\(\\dfrac{1}{2}\\times60=30\\text{ sq cm}\\)."
+      }
+    },
+    {
+      "id": "EM04.2",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "In the figure above, ABCD is a rectangle with length 14 cm and width 10 cm. Points W, X, Y, and Z are the midpoints of the sides. What is the area of the shaded quadrilateral?",
+      "figure_svg": "<svg viewBox='0 0 172 140' xmlns='http://www.w3.org/2000/svg' font-family='system-ui,sans-serif'><rect x='24' y='22' width='98' height='70' fill='none' stroke='#222' stroke-width='1.5'/><polygon points='73.0,22 122,57.0 73.0,92 24,57.0' fill='#ccc' stroke='#222' stroke-width='1.5'/><text x='18' y='16' font-size='11'>A</text><text x='73.0' y='16' font-size='11' text-anchor='middle'>W</text><text x='126' y='16' font-size='11'>B</text><text x='126' y='61.0' font-size='11'>X</text><text x='126' y='104' font-size='11'>C</text><text x='73.0' y='116' font-size='11' text-anchor='middle'>Y</text><text x='14' y='104' font-size='11'>D</text><text x='6' y='61.0' font-size='11'>Z</text><text x='73.0' y='132' font-size='11' text-anchor='middle'>14 cm</text><text x='128' y='77.0' font-size='11'>10 cm</text></svg>",
+      "options": {
+        "A": "60 sq cm",
+        "B": "66 sq cm",
+        "C": "70 sq cm",
+        "D": "82 sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Since W, X, Y, and Z are the midpoints of the rectangle's sides, the shaded quadrilateral's area is always half the area of the rectangle.\n\nArea of rectangle: \\(14\\text{ cm}\\times10\\text{ cm}=140\\text{ sq cm}\\).\n\nShaded area: \\(\\dfrac{1}{2}\\times140=70\\text{ sq cm}\\)."
+      }
+    },
+    {
+      "id": "EM04.3",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "In the figure above, ABCD is a rectangle with length 16 cm and width 9 cm. Points W, X, Y, and Z are the midpoints of the sides. What is the area of the shaded quadrilateral?",
+      "figure_svg": "<svg viewBox='0 0 186 133' xmlns='http://www.w3.org/2000/svg' font-family='system-ui,sans-serif'><rect x='24' y='22' width='112' height='63' fill='none' stroke='#222' stroke-width='1.5'/><polygon points='80.0,22 136,53.5 80.0,85 24,53.5' fill='#ccc' stroke='#222' stroke-width='1.5'/><text x='18' y='16' font-size='11'>A</text><text x='80.0' y='16' font-size='11' text-anchor='middle'>W</text><text x='140' y='16' font-size='11'>B</text><text x='140' y='57.5' font-size='11'>X</text><text x='140' y='97' font-size='11'>C</text><text x='80.0' y='109' font-size='11' text-anchor='middle'>Y</text><text x='14' y='97' font-size='11'>D</text><text x='6' y='57.5' font-size='11'>Z</text><text x='80.0' y='125' font-size='11' text-anchor='middle'>16 cm</text><text x='142' y='73.5' font-size='11'>9 cm</text></svg>",
+      "options": {
+        "A": "62 sq cm",
+        "B": "68 sq cm",
+        "C": "72 sq cm",
+        "D": "84 sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Since W, X, Y, and Z are the midpoints of the rectangle's sides, the shaded quadrilateral's area is always half the area of the rectangle.\n\nArea of rectangle: \\(16\\text{ cm}\\times9\\text{ cm}=144\\text{ sq cm}\\).\n\nShaded area: \\(\\dfrac{1}{2}\\times144=72\\text{ sq cm}\\)."
+      }
+    },
+    {
+      "id": "EM04.4",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "In the figure above, ABCD is a rectangle with length 20 cm and width 8 cm. Points W, X, Y, and Z are the midpoints of the sides. What is the area of the shaded quadrilateral?",
+      "figure_svg": "<svg viewBox='0 0 214 126' xmlns='http://www.w3.org/2000/svg' font-family='system-ui,sans-serif'><rect x='24' y='22' width='140' height='56' fill='none' stroke='#222' stroke-width='1.5'/><polygon points='94.0,22 164,50.0 94.0,78 24,50.0' fill='#ccc' stroke='#222' stroke-width='1.5'/><text x='18' y='16' font-size='11'>A</text><text x='94.0' y='16' font-size='11' text-anchor='middle'>W</text><text x='168' y='16' font-size='11'>B</text><text x='168' y='54.0' font-size='11'>X</text><text x='168' y='90' font-size='11'>C</text><text x='94.0' y='102' font-size='11' text-anchor='middle'>Y</text><text x='14' y='90' font-size='11'>D</text><text x='6' y='54.0' font-size='11'>Z</text><text x='94.0' y='118' font-size='11' text-anchor='middle'>20 cm</text><text x='170' y='70.0' font-size='11'>8 cm</text></svg>",
+      "options": {
+        "A": "70 sq cm",
+        "B": "76 sq cm",
+        "C": "80 sq cm",
+        "D": "92 sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Since W, X, Y, and Z are the midpoints of the rectangle's sides, the shaded quadrilateral's area is always half the area of the rectangle.\n\nArea of rectangle: \\(20\\text{ cm}\\times8\\text{ cm}=160\\text{ sq cm}\\).\n\nShaded area: \\(\\dfrac{1}{2}\\times160=80\\text{ sq cm}\\)."
+      }
+    },
+    {
+      "id": "EM06.1",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "What is the value of the expression shown below?\n\\[150\\left(1-\\dfrac{1}{5}\\right)^2+14=\\]",
+      "options": {
+        "A": "74",
+        "B": "110",
+        "C": "170",
+        "D": "330"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Evaluate using PEMDAS. First, subtract inside the parentheses: \\(1-\\dfrac{1}{5}=4/5\\). Square the result: \\(\\left(4/5\\right)^2=16/25\\). Multiply by 150: \\(150\\times16/25=96\\). Finally, add 14: \\(96+14=110\\)."
+      }
+    },
+    {
+      "id": "EM06.2",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "What is the value of the expression shown below?\n\\[160\\left(1-\\dfrac{1}{2}\\right)^2+10=\\]",
+      "options": {
+        "A": "34",
+        "B": "50",
+        "C": "80",
+        "D": "150"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Evaluate using PEMDAS. First, subtract inside the parentheses: \\(1-\\dfrac{1}{2}=1/2\\). Square the result: \\(\\left(1/2\\right)^2=1/4\\). Multiply by 160: \\(160\\times1/4=40\\). Finally, add 10: \\(40+10=50\\)."
+      }
+    },
+    {
+      "id": "EM06.3",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "What is the value of the expression shown below?\n\\[250\\left(1-\\dfrac{3}{5}\\right)^2+35=\\]",
+      "options": {
+        "A": "50",
+        "B": "75",
+        "C": "117",
+        "D": "225"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Evaluate using PEMDAS. First, subtract inside the parentheses: \\(1-\\dfrac{3}{5}=2/5\\). Square the result: \\(\\left(2/5\\right)^2=4/25\\). Multiply by 250: \\(250\\times4/25=40\\). Finally, add 35: \\(40+35=75\\)."
+      }
+    },
+    {
+      "id": "EM06.4",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "What is the value of the expression shown below?\n\\[100\\left(1-\\dfrac{1}{10}\\right)^2+25=\\]",
+      "options": {
+        "A": "71",
+        "B": "106",
+        "C": "164",
+        "D": "318"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Evaluate using PEMDAS. First, subtract inside the parentheses: \\(1-\\dfrac{1}{10}=9/10\\). Square the result: \\(\\left(9/10\\right)^2=81/100\\). Multiply by 100: \\(100\\times81/100=81\\). Finally, add 25: \\(81+25=106\\)."
+      }
+    },
+    {
+      "id": "EM17.1",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "The average of five consecutive multiples of 4 is 24. What is the **largest** of these numbers?",
+      "options": {
+        "A": "24",
+        "B": "28",
+        "C": "32",
+        "D": "36"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The average of a set of evenly-spaced numbers equals the median. Since the average of five consecutive multiples of 4 is 24, the median is 24: __, __, 24, __, __.\n\nAdding 4 twice to 24 gives the largest number: \\(24+2(4)=32\\)."
+      }
+    },
+    {
+      "id": "EM17.2",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "The average of five consecutive multiples of 6 is 30. What is the **largest** of these numbers?",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "42",
+        "D": "48"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The average of a set of evenly-spaced numbers equals the median. Since the average of five consecutive multiples of 6 is 30, the median is 30: __, __, 30, __, __.\n\nAdding 6 twice to 30 gives the largest number: \\(30+2(6)=42\\)."
+      }
+    },
+    {
+      "id": "EM17.3",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "The average of five consecutive multiples of 3 is 18. What is the **largest** of these numbers?",
+      "options": {
+        "A": "18",
+        "B": "21",
+        "C": "24",
+        "D": "27"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The average of a set of evenly-spaced numbers equals the median. Since the average of five consecutive multiples of 3 is 18, the median is 18: __, __, 18, __, __.\n\nAdding 3 twice to 18 gives the largest number: \\(18+2(3)=24\\)."
+      }
+    },
+    {
+      "id": "EM17.4",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "The average of five consecutive multiples of 7 is 35. What is the **largest** of these numbers?",
+      "options": {
+        "A": "35",
+        "B": "42",
+        "C": "49",
+        "D": "56"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The average of a set of evenly-spaced numbers equals the median. Since the average of five consecutive multiples of 7 is 35, the median is 35: __, __, 35, __, __.\n\nAdding 7 twice to 35 gives the largest number: \\(35+2(7)=49\\)."
+      }
+    },
+    {
+      "id": "EM34.1",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "Diego took 5 quizzes and earned a mean score of 82 points. If the mean score for the first 4 quizzes was 78 points, how many points did Diego score on the last quiz?",
+      "options": {
+        "A": "83",
+        "B": "95",
+        "C": "98",
+        "D": "90"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Let \\(x\\) represent the sum of the first 4 quizzes. Since the mean was 78: \\(78=\\dfrac{x}{4}\\), so \\(x=312\\).\n\nThe mean of all 5 quizzes is 82, so if \\(y\\) is the score on the last quiz:\n\n\\[82=\\dfrac{312+y}{5}\\]\n\\[410=312+y\\]\n\\[y=98\\]"
+      }
+    },
+    {
+      "id": "EM34.2",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "Diego took 8 quizzes and earned a mean score of 83 points. If the mean score for the first 7 quizzes was 80 points, how many points did Diego score on the last quiz?",
+      "options": {
+        "A": "89",
+        "B": "101",
+        "C": "104",
+        "D": "93"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Let \\(x\\) represent the sum of the first 7 quizzes. Since the mean was 80: \\(80=\\dfrac{x}{7}\\), so \\(x=560\\).\n\nThe mean of all 8 quizzes is 83, so if \\(y\\) is the score on the last quiz:\n\n\\[83=\\dfrac{560+y}{8}\\]\n\\[664=560+y\\]\n\\[y=104\\]"
+      }
+    },
+    {
+      "id": "EM34.3",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "Diego took 4 quizzes and earned a mean score of 80 points. If the mean score for the first 3 quizzes was 75 points, how many points did Diego score on the last quiz?",
+      "options": {
+        "A": "80",
+        "B": "92",
+        "C": "95",
+        "D": "87"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Let \\(x\\) represent the sum of the first 3 quizzes. Since the mean was 75: \\(75=\\dfrac{x}{3}\\), so \\(x=225\\).\n\nThe mean of all 4 quizzes is 80, so if \\(y\\) is the score on the last quiz:\n\n\\[80=\\dfrac{225+y}{4}\\]\n\\[320=225+y\\]\n\\[y=95\\]"
+      }
+    },
+    {
+      "id": "EM34.4",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "Diego took 10 quizzes and earned a mean score of 93 points. If the mean score for the first 9 quizzes was 91 points, how many points did Diego score on the last quiz?",
+      "options": {
+        "A": "96",
+        "B": "108",
+        "C": "111",
+        "D": "102"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Let \\(x\\) represent the sum of the first 9 quizzes. Since the mean was 91: \\(91=\\dfrac{x}{9}\\), so \\(x=819\\).\n\nThe mean of all 10 quizzes is 93, so if \\(y\\) is the score on the last quiz:\n\n\\[93=\\dfrac{819+y}{10}\\]\n\\[930=819+y\\]\n\\[y=111\\]"
+      }
+    },
+    {
+      "id": "EM43.1",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "On a number line, \\(\\overline{JL}=\\dfrac{3}{10}\\). Point K (not shown) is located between Point J and Point L. Which value below is a possible value for Point K?",
+      "figure_svg": "<svg viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><line x1='12' y1='30' x2='188' y2='30' stroke='#222' stroke-width='1.5'/><path d='M10,26 L4,30 L10,34 Z' fill='#222'/><path d='M190,26 L196,30 L190,34 Z' fill='#222'/><circle cx='30' cy='30' r='3.5' fill='#222'/><text x='30' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>J</text><text x='30' y='52' font-size='11' text-anchor='middle' font-family='system-ui,sans-serif'>5 1/2</text><circle cx='150' cy='30' r='3.5' fill='#222'/><text x='150' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>L</text></svg>",
+      "options": {
+        "A": "5.35",
+        "B": "5.65",
+        "C": "5.95",
+        "D": "6.1"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Point J is at \\(5\\tfrac{1}{2}=5.5\\). The distance \\(\\overline{JL}=\\dfrac{3}{10}=0.3\\), so point L is at \\(5.5+0.3=5.8\\).\n\nPoint K must be between J and L, so \\(5.5<K<5.8\\). Of the choices, only \\(5.65\\) falls strictly in that range."
+      }
+    },
+    {
+      "id": "EM43.2",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "On a number line, \\(\\overline{JL}=\\dfrac{7}{20}\\). Point K (not shown) is located between Point J and Point L. Which value below is a possible value for Point K?",
+      "figure_svg": "<svg viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><line x1='12' y1='30' x2='188' y2='30' stroke='#222' stroke-width='1.5'/><path d='M10,26 L4,30 L10,34 Z' fill='#222'/><path d='M190,26 L196,30 L190,34 Z' fill='#222'/><circle cx='30' cy='30' r='3.5' fill='#222'/><text x='30' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>J</text><text x='30' y='52' font-size='11' text-anchor='middle' font-family='system-ui,sans-serif'>3 3/4</text><circle cx='150' cy='30' r='3.5' fill='#222'/><text x='150' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>L</text></svg>",
+      "options": {
+        "A": "3.6",
+        "B": "3.92",
+        "C": "4.25",
+        "D": "4.4"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Point J is at \\(3\\tfrac{3}{4}=3.75\\). The distance \\(\\overline{JL}=\\dfrac{7}{20}=0.35\\), so point L is at \\(3.75+0.35=4.1\\).\n\nPoint K must be between J and L, so \\(3.75<K<4.1\\). Of the choices, only \\(3.92\\) falls strictly in that range."
+      }
+    },
+    {
+      "id": "EM43.3",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "On a number line, \\(\\overline{JL}=\\dfrac{11}{20}\\). Point K (not shown) is located between Point J and Point L. Which value below is a possible value for Point K?",
+      "figure_svg": "<svg viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><line x1='12' y1='30' x2='188' y2='30' stroke='#222' stroke-width='1.5'/><path d='M10,26 L4,30 L10,34 Z' fill='#222'/><path d='M190,26 L196,30 L190,34 Z' fill='#222'/><circle cx='30' cy='30' r='3.5' fill='#222'/><text x='30' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>J</text><text x='30' y='52' font-size='11' text-anchor='middle' font-family='system-ui,sans-serif'>9 1/2</text><circle cx='150' cy='30' r='3.5' fill='#222'/><text x='150' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>L</text></svg>",
+      "options": {
+        "A": "9.35",
+        "B": "9.78",
+        "C": "10.2",
+        "D": "10.35"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Point J is at \\(9\\tfrac{1}{2}=9.5\\). The distance \\(\\overline{JL}=\\dfrac{11}{20}=0.55\\), so point L is at \\(9.5+0.55=10.05\\).\n\nPoint K must be between J and L, so \\(9.5<K<10.05\\). Of the choices, only \\(9.78\\) falls strictly in that range."
+      }
+    },
+    {
+      "id": "EM43.4",
+      "origin": "PRACTICE_SET_7",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "On a number line, \\(\\overline{JL}=\\dfrac{1}{4}\\). Point K (not shown) is located between Point J and Point L. Which value below is a possible value for Point K?",
+      "figure_svg": "<svg viewBox='0 0 200 60' xmlns='http://www.w3.org/2000/svg'><line x1='12' y1='30' x2='188' y2='30' stroke='#222' stroke-width='1.5'/><path d='M10,26 L4,30 L10,34 Z' fill='#222'/><path d='M190,26 L196,30 L190,34 Z' fill='#222'/><circle cx='30' cy='30' r='3.5' fill='#222'/><text x='30' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>J</text><text x='30' y='52' font-size='11' text-anchor='middle' font-family='system-ui,sans-serif'>2 1/4</text><circle cx='150' cy='30' r='3.5' fill='#222'/><text x='150' y='16' font-size='12' text-anchor='middle' font-family='system-ui,sans-serif'>L</text></svg>",
+      "options": {
+        "A": "2.1",
+        "B": "2.38",
+        "C": "2.65",
+        "D": "2.8"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Point J is at \\(2\\tfrac{1}{4}=2.25\\). The distance \\(\\overline{JL}=\\dfrac{1}{4}=0.25\\), so point L is at \\(2.25+0.25=2.5\\).\n\nPoint K must be between J and L, so \\(2.25<K<2.5\\). Of the choices, only \\(2.38\\) falls strictly in that range."
+      }
+    }
+  ]
+}
