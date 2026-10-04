@@ -1,8 +1,1020 @@
 {
   "_schema": {
-    "description": "Practice Test G \u2014 Math section (50 questions planned).",
+    "description": "Practice Test G — Math section (50 questions planned).",
     "id_format": "GM<NN>",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "GM01",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "A census-taker recorded the number of people living in each household in a certain town and reported the percent distribution in the table above. If the town has \\(540\\) households, how many of them hold **at least** \\(4\\) people?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>HOUSEHOLD POPULATIONS IN CENSUS</caption><thead><tr><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Number of People in Household</th><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Percent of Households</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>18%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>26%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>31%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>19%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>5 or more</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>6%</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(103\\)",
+        "B": "\\(135\\)",
+        "C": "\\(180\\)",
+        "D": "\\(196\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_G/GM01.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "When a problem gives you a graph or table with a lot of information, read the question to find out what to focus on. Here, the question asks how many households have at least 4 people, so you don't need to pay attention to any of the smaller households. \\(19\\%\\) have \\(4\\) people and \\(6\\%\\) have \\(5\\) or more people, so \\(25\\%\\) have at least \\(4\\). Since \\(25\\%\\) is the same as \\(\\dfrac{1}{4}\\), you can simply divide: \\(540\\div4=135\\) households."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM02",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "A gardener has a plot of land that is \\(10\\) feet by \\(20\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
+      "options": {
+        "A": "\\(20\\)",
+        "B": "\\(35\\)",
+        "C": "\\(88\\)",
+        "D": "\\(180\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM02.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Start by finding the total area of the plot before it increases. Plug the original dimensions into the area equation, \\(\\text{Area}=\\text{length}\\times\\text{width}\\), to find that \\(\\text{Area}=10\\times20=200\\).\n\nNext, find the new lengths for the plot. To make the math easier, find \\(10\\%\\) and double it to get to \\(20\\%\\). Start with the side length that is \\(10\\) feet. \\(10\\%\\) of \\(10\\) is \\(1\\), so \\(20\\%\\) of \\(10\\) is \\(2\\). The new length is \\(10+2=12\\). Do the same for the other side length. \\(10\\%\\) of \\(20\\) is \\(2\\), so \\(20\\%\\) of \\(20\\) is \\(4\\). The new length is \\(20+4=24\\).\n\nThe new area is \\(12\\times24=288\\). Finally, subtract the starting area from the new area to find how many square feet the plot increased by: \\(288-200=88\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM03",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 3,
+      "question_type": "grid_in",
+      "question": "If \\(x\\) is a positive, even integer and \\(2x+8<22\\), how many possible values of \\(x\\) are there?",
+      "grid_answer": "3",
+      "source_screenshot": "Problems/EXAM_G/GM03.png",
+      "solution": {
+        "letter": "3",
+        "exhibit_text": "Start by simplifying the inequality. First, subtract \\(8\\) from both sides, then divide by \\(2\\):\n\n\\[2x+8<22\\]\n\\[2x<14\\]\n\\[x<7\\]\n\nThe problem says that \\(x\\) is a positive, even integer, which means that \\(x\\) can be \\(2\\), \\(4\\), or \\(6\\). There are three possible values, so enter \\(3\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM04",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "Each square in the grid above has a side length of \\(4\\). What is the area of the shaded triangle?",
+      "figure_svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"20\" x2=\"170\" y2=\"20\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"140\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"50,20 50,80 140,80\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(24\\)",
+        "C": "\\(48\\)",
+        "D": "\\(96\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM04.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "This triangle has a height of \\(8\\) (each box counts as \\(4\\)) and a base of \\(12\\). The area of a triangle is\n\n\\[\\dfrac{1}{2}(\\text{Base})(\\text{Height})=\\dfrac{1}{2}(12)(8)=48.\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM05",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "In March, the electricity used in New York was \\(5{,}000{,}000\\) watts. In April, the number of watts used was \\(4{,}000{,}000\\). By what percentage did the electricity usage decrease from March to April?",
+      "options": {
+        "A": "\\(20\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(50\\%\\)",
+        "D": "\\(75\\%\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM05.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To find a percent change, find the amount of *change* and divide by the *original* amount.\n\n\\(5{,}000{,}000-4{,}000{,}000=1{,}000{,}000\\). This is the amount of change. Now divide by the original amount.\n\n\\[\\dfrac{1{,}000{,}000}{5{,}000{,}000}=\\dfrac{1}{5}=\\dfrac{20}{100}=20\\%\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM06",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "Points \\(C\\) and \\(D\\) are on a number line (not shown). The coordinate of point \\(C\\) is \\(-16\\) and the coordinate of point \\(D\\) is \\(14\\). Point \\(E\\) is a point on line segment \\(CD\\). If the distance from point \\(E\\) to point \\(C\\) is \\(\\dfrac{1}{4}\\) the distance from point \\(E\\) to point \\(D\\), what is the coordinate of point \\(E\\)?",
+      "options": {
+        "A": "\\(-10\\)",
+        "B": "\\(-6\\)",
+        "C": "\\(-3\\)",
+        "D": "\\(5\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM06.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Draw a number line diagram to visualize the distances: \\(C\\) at \\(-16\\), then \\(E\\), then \\(D\\) at \\(14\\).\n\nThe total distance between \\(C\\) and \\(D\\) is \\(14-(-16)=30\\). Let \\(x\\) be the distance from point \\(E\\) to point \\(D\\). Then, the distance from point \\(E\\) to point \\(C\\) is \\(\\dfrac{1}{4}x\\), and the total distance is:\n\n\\[30=\\dfrac{1}{4}x+x\\]\n\\[30=\\dfrac{5}{4}x\\]\n\nNow, solve for \\(x\\) by multiplying both sides of the equation by the reciprocal of \\(\\dfrac{5}{4}\\):\n\n\\[30\\left(\\dfrac{4}{5}\\right)=\\left(\\dfrac{4}{5}\\right)\\left(\\dfrac{5}{4}x\\right)\\]\n\\[6(4)=x\\]\n\\[24=x\\]\n\nSubtract \\(24\\) from the coordinate of point \\(D\\), \\(14\\), to get the coordinate of point \\(E\\): \\(14-24=-10\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM07",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "A bag has \\(6\\) white socks and \\(4\\) black socks. If two socks are picked at random **without** replacing the first sock back into the bag, what is the probability that the first sock is white and the second sock is black?",
+      "options": {
+        "A": "\\(\\dfrac{6}{25}\\)",
+        "B": "\\(\\dfrac{4}{15}\\)",
+        "C": "\\(\\dfrac{2}{5}\\)",
+        "D": "\\(\\dfrac{1}{2}\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_G/GM07.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Total Number of Outcomes}}\\). Therefore, the probability of picking a white sock is \\(\\dfrac{\\text{White}}{\\text{Total}}=\\dfrac{6}{6+4}=\\dfrac{6}{10}=\\dfrac{3}{5}\\). The question says that the sock is not replaced. Thus, there are only \\(9\\) socks remaining in the bag. The probability of picking a black sock under these new conditions is \\(\\dfrac{\\text{Black}}{\\text{Total}}=\\dfrac{4}{9}\\).\n\nTo find the probability of both of these events occurring, multiply their individual probabilities: \\(\\dfrac{3}{5}\\times\\dfrac{4}{9}=\\dfrac{12}{45}=\\dfrac{4}{15}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM08",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 8,
+      "question_type": "mc_multi",
+      "question": "Jackson burned \\(140\\) calories doing a \\(4\\)-mile run on Tuesday. On Wednesday, he completed another run and burned \\(200\\) calories. Assuming that his calorie burn rate was the same for both days, which proportions could be used to determine how many miles he ran on Wednesday?\n\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{140}{4}=\\dfrac{200}{x}\\)",
+        "B": "\\(\\dfrac{x}{140}=\\dfrac{4}{200}\\)",
+        "C": "\\(\\dfrac{4}{200}=\\dfrac{x}{140}\\)",
+        "D": "\\(\\dfrac{x}{200}=\\dfrac{4}{140}\\)",
+        "E": "\\(\\dfrac{x}{4}=\\dfrac{200}{140}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "D",
+        "E"
+      ],
+      "source_screenshot": "Problems/EXAM_G/GM08.png",
+      "solution": {
+        "letter": "A, D, E",
+        "exhibit_text": "Let \\(x\\) be the number of miles Jackson ran on Wednesday. The ratio \\(\\dfrac{140\\text{ calories}}{4\\text{ miles}}\\) reflects the rate of \\(140\\) calories burned by running \\(4\\) miles on Tuesday. Set up a proportion to solve for \\(x\\), keeping calories in the numerators and miles in the denominators: \\(\\dfrac{140\\text{ calories}}{4\\text{ miles}}=\\dfrac{200\\text{ calories}}{x}\\). This proportion matches (A). Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((140)(x)=(4)(200)\\).\n\n(B) \\((x)(200)=(140)(4)\\) is not equivalent to \\((140)(x)=(4)(200)\\); eliminate\n(C) \\((4)(140)=(200)(x)\\) is not equivalent to \\((140)(x)=(4)(200)\\); eliminate\n(D) \\((x)(140)=(200)(4)\\) is equivalent to \\((140)(x)=(4)(200)\\); **correct**\n(E) \\((x)(140)=(4)(200)\\) is equivalent to \\((140)(x)=(4)(200)\\); **correct**"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM09",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "On the number line above, points \\(J\\), \\(K\\), \\(L\\), and \\(M\\) are integers, and \\(JK{:}KL{:}LM=2{:}1{:}3\\). What is the value of \\(KM\\)?",
+      "figure_svg": "<svg viewBox=\"0 0 400 90\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"50\" x2=\"380\" y2=\"50\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"20,50 28,45 28,55\" fill=\"#333\"/>\n<polygon points=\"380,50 372,45 372,55\" fill=\"#333\"/>\n<line x1=\"40\" y1=\"43\" x2=\"40\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"40\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">J</text>\n<text x=\"40\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">–19</text>\n<line x1=\"120\" y1=\"43\" x2=\"120\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"120\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">K</text>\n<line x1=\"160\" y1=\"43\" x2=\"160\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"160\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">L</text>\n<line x1=\"280\" y1=\"45\" x2=\"280\" y2=\"55\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"280\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">0</text>\n<line x1=\"320\" y1=\"43\" x2=\"320\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"320\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">M</text>\n<text x=\"320\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">5</text>\n</svg>",
+      "options": {
+        "A": "\\(8\\)",
+        "B": "\\(12\\)",
+        "C": "\\(16\\)",
+        "D": "\\(24\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM09.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "In ratio problems, be clear on whether you have a part-to-part or part-to-whole ratio. In this problem, you are given a part-to-part ratio and a number line that allows you to find the length of the whole line segment. Find the whole of the ratio by adding the parts together: \\(2+1+3=6\\). The problem asks for the value of \\(KM\\), which includes both \\(KL\\) and \\(LM\\), so make a new part-to-whole ratio with those two parts: \\((1+3){:}6\\), or \\(4{:}6\\), which simplifies to \\(2{:}3\\). Next, use the number line to find the length of the whole line segment. \\(5-(-19)=5+19=24\\). Finally, set up a proportion using your part-to-whole ratio and cross multiply to solve.\n\n\\[\\dfrac{2}{3}=\\dfrac{x}{24}\\]\n\\[3x=48\\]\n\\[x=16\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM10",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.4,\\ 0.5,\\ 1.1,\\ 2.0,\\ 3.5\\}\\). If \\(\\dfrac{4.9N}{1.4}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(0.4\\)",
+        "B": "\\(0.5\\)",
+        "C": "\\(1.1\\)",
+        "D": "\\(2.0\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM10.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{4.9N}{1.4}=\\dfrac{49N}{14}=\\dfrac{7N}{2}\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be an integer that is divisible by \\(2\\) in order for the entire fraction to be equal to an integer. The only integer divisible by \\(2\\) in the given set of numbers is \\(2.0\\), so (D) must be the answer."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM11",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "The table shows the cups of ingredients used to make \\(5\\) servings of trail mix. What is the unit rate for cups of peanuts per cup of raisins?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>INGREDIENTS FOR 5 SERVINGS OF TRAIL MIX</caption><thead><tr><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Ingredient</th><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Cups</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>Peanuts</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>\\(\\dfrac{3}{4}\\)</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>Raisins</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>\\(2\\dfrac{1}{2}\\)</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(\\dfrac{3}{10}\\)",
+        "B": "\\(\\dfrac{8}{15}\\)",
+        "C": "\\(\\dfrac{15}{8}\\)",
+        "D": "\\(\\dfrac{10}{3}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM11.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The word \"per\" means \"divide.\" To find the unit rate for cups of peanuts per cup of raisins, divide the amount of peanuts by the amount of raisins:\n\n\\[\\dfrac{\\text{cups of peanuts}}{\\text{cups of raisins}}=\\dfrac{\\frac{3}{4}}{2\\frac{1}{2}}\\]\n\nFirst, convert the mixed number \\(2\\dfrac{1}{2}\\) into an improper fraction: \\(2\\dfrac{1}{2}=\\dfrac{5}{2}\\).\n\nNext, divide the fractions. To divide by a fraction, multiply by its reciprocal:\n\n\\[\\dfrac{\\text{cups of peanuts}}{\\text{cups of raisins}}=\\dfrac{3}{4}\\div\\dfrac{5}{2}=\\dfrac{3}{4}\\times\\dfrac{2}{5}=\\dfrac{6}{20}=\\dfrac{3}{10}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM12",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 12,
+      "question_type": "grid_in",
+      "question": "\\[15-3x\\le42\\]\n\nWhat is the minimum value of \\(x\\) that makes the inequality shown above true?",
+      "grid_answer": "-9",
+      "source_screenshot": "Problems/EXAM_G/GM12.png",
+      "solution": {
+        "letter": "-9",
+        "exhibit_text": "Begin by subtracting \\(15\\) from both sides to obtain \\(-3x\\le27\\). To isolate \\(x\\), divide both sides by \\(-3\\). Remember that you must flip the direction of the inequality sign when you multiply or divide by a negative: \\(x\\ge-9\\).\n\nSince \\(x\\) is greater than or equal to \\(-9\\), its minimum value is \\(-9\\) itself. Enter \\(-9\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM13",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "A can contains \\(40\\) chips: \\(10\\) each of red and blue, \\(12\\) white, and the remaining black. If Susan were to remove \\(3\\) black and \\(2\\) red chips, what is the probability that the next one she removes is black?",
+      "options": {
+        "A": "\\(\\dfrac{3}{35}\\)",
+        "B": "\\(\\dfrac{1}{8}\\)",
+        "C": "\\(\\dfrac{1}{7}\\)",
+        "D": "\\(\\dfrac{1}{5}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM13.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "First, you need to figure out how many black chips there are to start:\n\n\\(40\\text{ total}-10\\text{ red}-10\\text{ blue}-12\\text{ white}=8\\text{ black chips}\\)\n\nNext, figure out how many total chips there will be once Susan removes the \\(2\\) red and \\(3\\) black:\n\n\\(40\\text{ total}-2\\text{ red}-3\\text{ black}=35\\text{ new total}\\)\n\nFinally, figure out how many black chips there are before Susan chooses the final chip:\n\n\\(8\\text{ black}-3\\text{ black removed}=5\\text{ black}\\)\n\nPlug this into the probability formula: \\(\\text{probability}=\\dfrac{\\text{desired}}{\\text{total}}\\), to obtain (C): \\(\\dfrac{5}{35}=\\dfrac{1}{7}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM14",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "Using the table of equivalent currencies above, how many euros must be exchanged for \\(43\\) dinars and \\(10\\) U.S. dollars?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES (MAY 2019)</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Euro</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.9</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Botswana Pula</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>10.75</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Kuwaiti Dinar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.3</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(138\\)",
+        "B": "\\(129\\)",
+        "C": "\\(53\\)",
+        "D": "\\(22.9\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM14.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Proportions are the key to conversion questions like this. First, set up a proportion of euros to dinars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{0.3}{43}\\). You could cross multiply to get \\(0.3e=38.7\\) and solve for \\(e\\). However, it is faster to notice that \\(0.9\\div3\\) would result in \\(0.3\\), so \\(e\\div3\\) would have to result in \\(43\\). So \\(129\\) euros are needed to exchange for \\(43\\) dinars.\n\nDon't forget that you also need to convert dollars! Set up a proportion of euros to dollars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{1}{10}\\). Cross multiplying here is fastest, resulting in \\(e=9\\). Add \\(129+9=138\\) euros."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM15",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "On a number line, \\(\\overline{AB}=\\dfrac{1}{4}\\). Point \\(C\\) (not shown) is located between Point \\(B\\) and Point \\(A\\). Which value below is a possible value for Point \\(C\\)?",
+      "figure_svg": "<svg viewBox=\"0 0 300 70\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"35\" x2=\"280\" y2=\"35\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"20,35 28,30 28,40\" fill=\"#333\"/>\n<polygon points=\"280,35 272,30 272,40\" fill=\"#333\"/>\n<line x1=\"90\" y1=\"29\" x2=\"90\" y2=\"41\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"90\" y=\"20\" font-size=\"14\" text-anchor=\"middle\">B</text>\n<line x1=\"180\" y1=\"29\" x2=\"180\" y2=\"41\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"180\" y=\"20\" font-size=\"14\" text-anchor=\"middle\">A</text>\n<text x=\"180\" y=\"56\" font-size=\"13\" text-anchor=\"middle\">7 1/5</text>\n</svg>",
+      "options": {
+        "A": "\\(6.85\\)",
+        "B": "\\(7.15\\)",
+        "C": "\\(7.25\\)",
+        "D": "\\(7.40\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_G/GM15.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Since Point \\(C\\) is located between Point \\(B\\) and Point \\(A\\), the value for Point \\(C\\) must be greater than the value for Point \\(B\\) and less than the value for Point \\(A\\). Point \\(A\\) is located at \\(7\\dfrac{1}{5}\\), and Point \\(B\\) is to the left of Point \\(A\\). Since the distance \\(\\overline{AB}\\) is \\(\\dfrac{1}{4}\\), the location of Point \\(B\\) is \\(7\\dfrac{1}{5}-\\dfrac{1}{4}\\). Convert the fractions to decimals to find the coordinate of Point B: \\(7\\dfrac{1}{5}=7.2\\) and \\(\\dfrac{1}{4}=0.25\\). Subtracting the distance from Point A gives \\(7.2-0.25=6.95\\). Therefore, Point \\(C\\) must be between \\(6.95\\) and \\(7.2\\). Of the answer choices, only \\(7.15\\) is greater than \\(6.95\\) and less than \\(7.2\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM16",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "Marcus had three times as much money as José. Marcus gives José \\(\\$5.30\\), but he still has \\(\\$10\\) more than José. How much money do the two boys have in all?",
+      "options": {
+        "A": "\\(\\$10.30\\)",
+        "B": "\\(\\$30.90\\)",
+        "C": "\\(\\$33.60\\)",
+        "D": "\\(\\$41.20\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM16.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, set up an equation to represent the initial situation. Marcus (\\(M\\)) has three times as much money as José (\\(J\\)): \\(M=3J\\). Next, set up an equation for the new situation. Marcus gives José \\(\\$5.30\\), so \\(M-5.30\\) and \\(J+5.30\\). Marcus still has \\(\\$10\\) more than José, so \\(M-5.30=(J+5.30)+10\\). Simplify to get \\(M=J+20.6\\). From the first equation, you know \\(M\\) is equal to \\(3J\\), so set \\(3J\\) equal to \\(J+20.60\\) and solve for \\(J\\).\n\n\\[3J=J+20.6\\]\n\\[2J=20.6\\]\n\\[J=10.3\\]\n\nJosé started out with \\(\\$10.30\\), which means Marcus started out with \\(3\\times10.60=30.90\\). Be careful! The question asks how much the boys have in sum, so add \\(10.60+30.90=41.20\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM17",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "Which of the following numbers has a factor that includes the smallest factor (other than \\(1\\)) of \\(95\\)?",
+      "options": {
+        "A": "\\(19\\)",
+        "B": "\\(21\\)",
+        "C": "\\(25\\)",
+        "D": "\\(31\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM17.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Numbers that end with \\(0\\) or \\(5\\) are divisible by \\(5\\). The number \\(95\\) is a good candidate for prime factorization: \\(95=19\\times5\\). These are both prime numbers, the smallest being \\(5\\).\n\nOnly one of the answer choices ends with a \\(0\\) or \\(5\\), so choice (C) is the only one that shares the smallest factor of \\(5\\). For practice with prime factorization though:\n\n(A) \\(19\\) is a prime number; its only factors are \\(1\\) and itself.\n(B) \\(21\\) factors to the prime numbers \\(3\\) and \\(7\\).\n(D) \\(31\\) is also a prime number; its only factors are \\(1\\) and itself."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM18",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 18,
+      "question_type": "grid_in",
+      "question": "Two pizzas are being prepared for a party, as shown. The medium pizza has a diameter of \\(12\\) inches, and the large pizza has a diameter of \\(16\\) inches. What is the difference between the areas of the two pizzas in terms of \\(\\pi\\), in square inches?\n\nUse \\(\\pi\\) to express your answer.",
+      "figure_svg": "<svg viewBox=\"0 0 300 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<circle cx=\"60\" cy=\"65\" r=\"45\" fill=\"#ddd\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"15\" y1=\"65\" x2=\"105\" y2=\"65\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"15,65 22,61 22,69\" fill=\"#333\"/>\n<polygon points=\"105,65 98,61 98,69\" fill=\"#333\"/>\n<text x=\"60\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">12 in</text>\n<text x=\"60\" y=\"128\" font-size=\"13\" text-anchor=\"middle\">Medium Pizza</text>\n<circle cx=\"215\" cy=\"75\" r=\"60\" fill=\"#ddd\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"155\" y1=\"75\" x2=\"275\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"155,75 162,71 162,79\" fill=\"#333\"/>\n<polygon points=\"275,75 268,71 268,79\" fill=\"#333\"/>\n<text x=\"215\" y=\"68\" font-size=\"12\" text-anchor=\"middle\">16 in</text>\n<text x=\"215\" y=\"150\" font-size=\"13\" text-anchor=\"middle\">Large Pizza</text>\n</svg>",
+      "grid_answer": "28π",
+      "source_screenshot": "Problems/EXAM_G/GM18.png",
+      "solution": {
+        "letter": "28π",
+        "exhibit_text": "The formula for the area of a circle is \\(A=\\pi r^2\\), where \\(r\\) is the radius. Since the radius is half the diameter, the radius of the medium pizza is \\(12\\div2=6\\) inches, and the radius of the large pizza is \\(16\\div2=8\\) inches.\n\nCalculate the area of each pizza. The area of the medium pizza is \\(A=\\pi(6)^2=36\\pi\\) square inches, and the area of the large pizza is \\(A=\\pi(8)^2=64\\pi\\) square inches. Thus, the difference between the areas is \\(64\\pi-36\\pi=28\\pi\\) square inches. Enter \\(28\\pi\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM19",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "\\(P\\) is the center of the circle shown above. \\(\\overline{AB}\\) is a diameter. The perimeter of rectangle \\(ABCD\\) is \\(72\\) cm. \\(\\overline{PQ}\\) is a radius, and \\(Q\\) is on \\(\\overline{CD}\\). What is the circumference of the circle?",
+      "figure_svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<rect x=\"20\" y=\"100\" width=\"160\" height=\"60\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"160\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<rect x=\"100\" y=\"100\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"12\" y=\"98\" font-size=\"14\" text-anchor=\"middle\">A</text>\n<text x=\"188\" y=\"98\" font-size=\"14\" text-anchor=\"middle\">B</text>\n<text x=\"12\" y=\"172\" font-size=\"14\" text-anchor=\"middle\">D</text>\n<text x=\"188\" y=\"172\" font-size=\"14\" text-anchor=\"middle\">C</text>\n<text x=\"92\" y=\"96\" font-size=\"13\" text-anchor=\"middle\">P</text>\n<text x=\"108\" y=\"172\" font-size=\"13\" text-anchor=\"middle\">Q</text>\n</svg>",
+      "options": {
+        "A": "\\(12\\pi\\)",
+        "B": "\\(18\\pi\\)",
+        "C": "\\(24\\pi\\)",
+        "D": "\\(144\\pi\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM19.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "From the information given, you know that \\(\\overline{AB}\\) is one side of the rectangle and also the diameter of the circle. You also know that \\(\\overline{PQ}\\) is the radius of the circle and equal to \\(\\overline{AD}\\), which is another side of the rectangle.\n\nSince the diameter is twice the radius, you can designate the short and long sides of the rectangle as \\(x\\) and \\(2x\\), respectively. Find the perimeter of the rectangle by adding up all the sides:\n\n\\[72\\text{ cm}=x+x+2x+2x\\]\n\\[72\\text{ cm}=6x\\]\n\\[12\\text{ cm}=x\\]\n\nThe radius of the circle is thus \\(12\\) cm. Therefore, the circumference \\(=2\\pi r=2\\pi(12)=24\\pi\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM20",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "A shipping company uses the formula \\(C=\\dfrac{w}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(w\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. If the company wants to determine the weight of a package based on the total cost, which of the following represents the formula solved for \\(w\\)?",
+      "options": {
+        "A": "\\(w=k(C-b)\\)",
+        "B": "\\(w=kC-b\\)",
+        "C": "\\(w=\\dfrac{C-b}{k}\\)",
+        "D": "\\(w=\\dfrac{C+b}{k}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM20.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To solve this question, rearrange the equation so that \\(w\\) is alone on one side and everything else is on the other. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{w}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=w\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM21",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "A meteorologist recorded the temperatures for three different cities on the same day. The table above shows the highest temperature and the range of temperatures for each city. What is the **overall** range of temperatures for all three cities combined?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><thead><tr><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>City</th><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>Highest Temperature (°F)</th><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>Range (°F)</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>A</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>80</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>15</td></tr><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>B</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>91</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>21</td></tr><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>C</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>85</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>30</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(15\\)",
+        "B": "\\(33\\)",
+        "C": "\\(36\\)",
+        "D": "\\(66\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM21.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The overall range is the highest temperature minus the lowest temperature. The highest overall temperature is given in the table and is \\(91\\degree F\\). To find the lowest overall temperature, subtract the range from the highest temperature for each city.\n\nCity A: \\(80\\degree F-15\\degree F=65\\degree F\\)\nCity B: \\(91\\degree F-21\\degree F=70\\degree F\\)\nCity C: \\(85\\degree F-30\\degree F=55\\degree F\\)\n\nThe lowest temperature is \\(55\\degree F\\), so the overall range is \\(91-55=36\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM22",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "If \\(n\\) is a positive integer such that \\(n\\) and \\(n+1\\) are both factors of \\(42\\), what is the sum of all possible values of \\(n\\)?",
+      "options": {
+        "A": "\\(9\\)",
+        "B": "\\(10\\)",
+        "C": "\\(13\\)",
+        "D": "\\(15\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM22.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "List out all of the factors of, or numbers that divide into, \\(42\\): \\(1,2,3,6,7,14,26,42\\). You are told that \\(n\\) and \\(n+1\\) are factors of \\(42\\). In other words, these two factors are consecutive integers, or integers that occur right next to each other. There are several pairs of consecutive integer factors in this list: \\(1\\) and \\(2\\), \\(2\\) and \\(3\\), and \\(6\\) and \\(7\\). The variable \\(n\\) represents the smaller one in each pair. Therefore, \\(n=1\\) for the first pair, \\(n=2\\) for the second pair, and \\(n=6\\) for the third pair. The question asks for the sum of all possible values of \\(n\\), which is \\(1+2+6=9\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM23",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "Which of the following is equivalent to the inequality \\(7>2x-5>-7\\)?",
+      "options": {
+        "A": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"101.0\" y1=\"23\" x2=\"164.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"101.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+        "B": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"14\" y1=\"23\" x2=\"101.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"164.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"101.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+        "C": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"56.0\" y1=\"23\" x2=\"164.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"56.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+        "D": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"14\" y1=\"23\" x2=\"56.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"164.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"56.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM23.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Remember that for three-part inequalities, whenever you make a change to one part, you must make it to all three parts. So, to solve for \\(x\\), first add \\(5\\) to all three parts of the inequality, then divide all three parts by \\(2\\):\n\n\\[7>2x-5>-7\\]\n\\[12>2x>-2\\]\n\\[6>x>-1\\]\n\nFind the number line in the answer choices in which \\(x\\) is less than \\(6\\) and greater than \\(-1\\): (A)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM24",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "A specialized industrial alloy is created by mixing iron, copper, carbon, and chromium with weights in the ratio of \\(44{:}1{:}3{:}2\\), respectively. If a block of this alloy weighs \\(25\\) kilograms, how many kilograms of carbon does it contain?",
+      "options": {
+        "A": "\\(1\\text{ kg}\\)",
+        "B": "\\(1.5\\text{ kg}\\)",
+        "C": "\\(2.25\\text{ kg}\\)",
+        "D": "\\(5.625\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_G/GM24.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The alloy is created out of \\(44\\) parts iron, \\(1\\) part copper, \\(3\\) parts carbon, and \\(2\\) parts chromium. The alloy therefore contains a total of \\(44+1+3+2=50\\) parts. \\(3\\) out of these \\(50\\) parts are carbon. To determine how many kilograms of carbon (\\(x\\)) are contained in a \\(25\\) kg alloy, set up a proportion: \\(\\dfrac{3}{50}=\\dfrac{x}{25}\\). Cross multiply to solve for \\(x\\): \\(50x=3(25)\\), so \\(x=\\dfrac{75}{50}=1.5\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM25",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "What is the area of the shaded parallelogram shown above?",
+      "figure_svg": "<svg viewBox=\"0 0 170 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"35\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"160,140 152,136 152,144\" fill=\"#333\"/>\n<text x=\"166\" y=\"144\" font-size=\"13\" font-style=\"italic\">x</text>\n<line x1=\"35\" y1=\"140\" x2=\"35\" y2=\"20\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"35,20 31,28 39,28\" fill=\"#333\"/>\n<text x=\"35\" y=\"14\" font-size=\"13\" font-style=\"italic\">y</text>\n<text x=\"24\" y=\"144\" font-size=\"12\">O</text>\n<line x1=\"35\" y1=\"60\" x2=\"55\" y2=\"60\" stroke=\"#333\" stroke-width=\"0.8\" stroke-dasharray=\"2,2\"/>\n<text x=\"25\" y=\"64\" font-size=\"12\">5</text>\n<polygon points=\"65,140 110,140 130,60 85,60\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"65\" y=\"153\" font-size=\"12\" font-style=\"italic\">a</text>\n<text x=\"110\" y=\"153\" font-size=\"12\" font-style=\"italic\">b</text>\n</svg>",
+      "options": {
+        "A": "\\(b-a\\)",
+        "B": "\\(\\dfrac{5}{2}(b-a)\\)",
+        "C": "\\(5(b-a)\\)",
+        "D": "\\(5(b+a)\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM25.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "To find the area of a parallelogram, multiply the length of its base by its height (\\(A=bh\\)). Look at the coordinates on the \\(x\\)-axis to find the length of the base. The base spans from \\(a\\) to \\(b\\), so its length is the difference between the two points: \\(b-a\\). Next, look at the \\(y\\)-axis to find the height. The dashed line indicates that the top edge of the parallelogram is at a constant \\(y\\)-value of \\(5\\), meaning the height is \\(5\\) units. Multiplying the base and the height together gives an area of \\(5(b-a)\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM26",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 26,
+      "question_type": "mc",
+      "question": "Vincent ate \\(\\dfrac{1}{5}\\) of a protein bar. Austin ate \\(3\\) times as much of the same protein bar as Vincent ate. What is the ratio of the amount of the protein bar both of them ate to the amount of the protein bar remaining?",
+      "options": {
+        "A": "\\(1{:}1\\)",
+        "B": "\\(1{:}4\\)",
+        "C": "\\(4{:}5\\)",
+        "D": "\\(4{:}1\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM26.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Identify the type of ratio you are looking for. In this case, it is part:part. You need to decide which parts you have. First, figure out how much Austin ate: \\(\\dfrac{1}{5}\\times3=\\dfrac{3}{5}\\). Now find how much they ate together: \\(\\dfrac{1}{5}+\\dfrac{3}{5}=\\dfrac{4}{5}\\). Figure out how much is left: \\(1-\\dfrac{4}{5}=\\dfrac{5}{5}-\\dfrac{4}{5}=\\dfrac{1}{5}\\).\n\nLast, take the two parts you need:\n\n[what they both ate]:[what is left]\n\n\\(\\dfrac{4}{5}{:}\\dfrac{1}{5}=4{:}1\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM27",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "The speed \\(5\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.3\\) meter.)",
+      "options": {
+        "A": "\\(1.5\\)",
+        "B": "\\(16.67\\)",
+        "C": "\\(5{,}400\\)",
+        "D": "\\(60{,}000\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM27.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Convert the units by setting up ratios of known measures. Start with the given speed, \\(5\\) feet per second, and the given conversion, \\(1\\) foot \\(=0.3\\) meters. Then fill in the ratios needed to convert seconds to hours.\n\n\\[\\dfrac{5\\text{ ft}}{1\\text{ sec}}\\times\\dfrac{0.3\\text{ meters}}{1\\text{ ft}}\\times\\dfrac{60\\text{ sec}}{1\\text{ min}}\\times\\dfrac{60\\text{ min}}{1\\text{ hr}}\\]\n\\[=\\dfrac{5{,}400\\text{ meters}}{1\\text{ hr}}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM28",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "If \\(2b=10a\\), what is the value of \\(\\dfrac{1}{2}b+6(2b+7)-a\\) in terms of \\(a\\)?",
+      "options": {
+        "A": "\\(51.5a+21\\)",
+        "B": "\\(61.5a+21\\)",
+        "C": "\\(51.5a+42\\)",
+        "D": "\\(61.5a+42\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM28.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "You are given an equation and are tasked with rewriting it in terms of \\(a\\) (in other words, getting rid of \\(b\\) and simplifying).\n\nSince you are asked to find the answer \"in terms of \\(a\\),\" figure out what \\(b\\) is in terms of \\(a\\) by solving \\(2b=10a\\) for \\(b\\) and then plug that value into \\(\\dfrac{1}{2}b+6(2b+7)-a\\):\n\n\\[2b=10a\\]\n\\[b=\\dfrac{10a}{2}\\]\n\\[b=5a\\]\n\nNow that you have a value for \\(b\\), substitute it into the expression.\n\n\\[\\dfrac{1}{2}b+6(2b+7)-a=\\left(\\dfrac{1}{2}\\right)(5a)+6[2(5a)+7]-a\\]\n\nSimplify the expression piece by piece.\n\nThe first term becomes \\(\\dfrac{1}{2}\\times5a=\\dfrac{5}{2}a=2.5a\\)\n\nExpand the parentheses in the second term: \\(6(10a+7)=60a+42\\)\n\nThe third term remains \\(-a\\)\n\nYou can confidently eliminate (A) and (B) since they have the wrong value for the constant \\(42\\).\n\nFinally, combine like terms: \\(2.5a+60a+42-a=(2.5+60-1)a+42=61.5a+42\\), which matches choice (D)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM29",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "The faculty of a certain four-year university consists of \\(140\\) professors. There are \\(560\\) second-year students. The student-to-faculty ratio for the entire university is \\(16\\) to \\(1\\). What is the total number of first-, third-, and fourth-year students?",
+      "options": {
+        "A": "\\(1{,}680\\)",
+        "B": "\\(2{,}240\\)",
+        "C": "\\(2{,}380\\)",
+        "D": "\\(2{,}800\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM29.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "There are \\(560\\) second-year students. Let the number of first-, third-, and fourth-year students be \\(x\\). Therefore, there are \\(560+x\\) total students. You also know that there are \\(140\\) professors. The ratio of students to faculty is \\(16\\) to \\(1\\). Set up a proportion and cross multiply to solve for \\(x\\).\n\n\\[\\dfrac{16}{1}=\\dfrac{560+x}{140}\\]\n\\[560+x=140(16)\\]\n\\[560+x=2{,}240\\]\n\\[x=1{,}680\\]\n\nAlternatively, you could Backsolve. Start with (B).\n\n\\[\\dfrac{16}{1}=\\dfrac{560+2{,}240}{140}\\]\n\\[\\dfrac{16}{1}=\\dfrac{2{,}800}{140}\\]\n\nThis is false, since \\(\\dfrac{2{,}800}{140}=20\\). Since (B) produces a result that is too large, \\(20>16\\), (A), the only smaller answer, must be correct. On test day, you would stop here. But for the record, backsolving with (A) results in a true math statement:\n\n\\[\\dfrac{16}{1}=\\dfrac{560+1{,}680}{140}\\]\n\\[\\dfrac{16}{1}=\\dfrac{2{,}240}{140}\\]\n\\[\\dfrac{16}{1}=\\dfrac{16}{1}\\]\n\\[16=16\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM30",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 30,
+      "question_type": "grid_in",
+      "question": "The sum of two consecutive odd integers is \\(44\\). If the larger integer is multiplied by \\(3\\) and the smaller integer is divided by \\(3\\), what is the **difference** of the two resulting integers?",
+      "grid_answer": "62",
+      "source_screenshot": "Problems/EXAM_G/GM30.png",
+      "solution": {
+        "letter": "62",
+        "exhibit_text": "Because the integers are unknown, let \\(x\\) be the smaller integer and \\(x+2\\) be the larger integer. Their sum can then be represented as \\(x+(x+2)=44\\). Solve for \\(x\\):\n\n\\[x+(x+2)=44\\]\n\\[2x+2=44\\]\n\\[2x=42\\]\n\\[x=21\\]\n\nIf the smaller integer is \\(21\\), then the larger integer must be \\(23\\). Next, transform the integers as the problem instructs: multiply the larger integer by \\(3\\) to get \\(69\\) and divide the smaller integer by \\(3\\) to get \\(7\\). Finally, the question asks for the difference, so subtract \\(69-7=62\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM31",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "A utility drawer contains \\(4\\) red rubber bands and \\(6\\) white rubber bands. If two rubber bands are picked at random without putting the first one back, what is the probability that both rubber bands are white?",
+      "options": {
+        "A": "\\(\\dfrac{11}{90}\\)",
+        "B": "\\(\\dfrac{1}{3}\\)",
+        "C": "\\(\\dfrac{9}{25}\\)",
+        "D": "\\(\\dfrac{5}{9}\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_G/GM31.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). First, find the probability that the first rubber band is white. There are \\(6\\) white rubber bands and \\(4+6=10\\) total rubber bands, so the probability is \\(\\dfrac{6}{10}=\\dfrac{3}{5}\\). Now find the probability that the second rubber band is white. After the first white rubber band is picked, there are only \\(9\\) rubber bands left, and only \\(5\\) of them are white. Therefore, the probability that the second rubber band picked is white is \\(\\dfrac{5}{9}\\). To find the probability of both rubber bands being white, multiply their respective probabilities:\n\n\\[\\dfrac{3}{5}\\times\\dfrac{5}{9}=\\dfrac{3}{9}=\\dfrac{1}{3}\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM32",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 32,
+      "question_type": "mc",
+      "question": "Suppose that \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are non-zero integers. Under which set of conditions would the expression \\(a^3b|c|d^2\\) always be negative?",
+      "options": {
+        "A": "\\(a\\) is negative and \\(b\\) is positive.",
+        "B": "\\(c\\) is negative and \\(d\\) is positive.",
+        "C": "\\(c\\) is positive and \\(d\\) is negative.",
+        "D": "\\(a\\) and \\(b\\) are positive, and \\(c\\) and \\(d\\) are negative."
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM32.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The expression \\(a^3b|c|d^2\\) is the product of four terms: \\(a^3\\), \\(b\\), \\(|c|\\), and \\(d^2\\). Two of the terms, \\(|c|\\) (the absolute value of \\(c\\)) and \\(d^2\\), will always be positive. The other two terms, \\(a^3\\) and \\(b\\), can be either positive or negative. In order for the product of all four terms to be negative, either \\(a^3\\) is negative and \\(b\\) is positive, or \\(a^3\\) is positive and \\(b\\) is negative. In other words, \\(a^3\\) and \\(b\\) must have different signs. Of the choices, only (A) has a set of conditions that would cause \\(a^3\\) (a negative number cubed is a negative number) and \\(b\\) to have different signs."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM33",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 33,
+      "question_type": "mc",
+      "question": "If \\(n\\) is an even integer that is greater than \\(-3.75\\), what is the least possible value of \\(n\\)?",
+      "options": {
+        "A": "\\(-5\\)",
+        "B": "\\(-4\\)",
+        "C": "\\(-3\\)",
+        "D": "\\(-2\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM33.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "When comparing numbers, especially negative numbers, it is helpful to draw a number line. Here, mark a couple of numbers on each side of \\(-3.75\\).\n\nNumbers that are greater than \\(-3.75\\) are to the right of \\(-3.75\\) on the number line. The smallest of these numbers that is *even* is \\(-2\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM34",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 34,
+      "question_type": "mc",
+      "question": "A box contains \\(6\\) red index cards, \\(3\\) yellow index cards, and \\(4\\) green index cards. If Gabriella pulls out \\(2\\) cards at random from this box, without replacement, what is the probability that both cards are **not** green?",
+      "options": {
+        "A": "\\(\\dfrac{16}{169}\\)",
+        "B": "\\(\\dfrac{4}{39}\\)",
+        "C": "\\(\\dfrac{6}{13}\\)",
+        "D": "\\(\\dfrac{81}{169}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM34.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Remember that \"without replacement\" means Gabriella will not put the first card she drew back before she pulls out a second one, so the probabilities will be different for each draw. At first, there are \\(13\\) index cards, and \\(9\\) are not green. After one card is drawn, there are \\(12\\) cards, and \\(8\\) are not green. You need to multiply to find the probability of both events occurring: \\(\\dfrac{9}{13}\\times\\dfrac{8}{12}\\). Cross canceling simplifies this to \\(\\dfrac{3}{13}\\times\\dfrac{2}{1}=\\dfrac{6}{13}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM35",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 35,
+      "question_type": "mc",
+      "question": "If \\(1\\) zork is equivalent to \\(0.64\\) blip, how many zorks are equivalent to \\(12\\) blips, rounded to the nearest hundredth?",
+      "options": {
+        "A": "\\(7.75\\)",
+        "B": "\\(15.75\\)",
+        "C": "\\(18.25\\)",
+        "D": "\\(18.75\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM35.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Set up a proportion. Since \\(1\\) zork is equivalent to \\(0.64\\) blips, the ratio of zorks to blips is constant. Let \\(x\\) be the number of zorks equivalent to \\(12\\) blips. Set the ratios equal to each other to obtain \\(\\dfrac{1\\text{ zork}}{0.64\\text{ blips}}=\\dfrac{x\\text{ zorks}}{12\\text{ blips}}\\).\n\nCross multiply to solve for \\(x\\).\n\n\\[0.64x=12\\]\n\\[64x=1{,}200\\]\n\\[16x=300\\]\n\\[4x=75\\]\n\\[x=\\dfrac{75}{4}=18.75\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM36",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 36,
+      "question_type": "mc_multi",
+      "question": "The product of two positive integers is \\(48\\). Which **three** numbers could be the sum of the two integers?\n\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(10\\)",
+        "B": "\\(14\\)",
+        "C": "\\(24\\)",
+        "D": "\\(26\\)",
+        "E": "\\(48\\)",
+        "F": "\\(49\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "B",
+        "D",
+        "F"
+      ],
+      "source_screenshot": "Problems/EXAM_G/GM36.png",
+      "solution": {
+        "letter": "B, D, F",
+        "exhibit_text": "First, find all the pairs of positive integers that multiply to get \\(48\\). Then, find each sum.\n\n\\(1\\times48\\rightarrow1+48=49\\)\n\\(2\\times24\\rightarrow2+24=26\\)\n\\(3\\times16\\rightarrow3+16=19\\)\n\\(4\\times12\\rightarrow4+12=16\\)\n\\(6\\times8\\rightarrow6+8=14\\)\n\n(B), (D), and (F) could be the sum of the two integers."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM37",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 37,
+      "question_type": "mc",
+      "question": "At a middle school, a survey was conducted among \\(500\\) students regarding what subjects they enjoy. \\(350\\) students stated they like math, and \\(400\\) students stated they like science. Every student surveyed chose math, science, or both. What is the minimum number of students who must like both math and science?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><thead><tr><th style='border:1px solid #111; padding:6px 14px; background:#f3f3f3;'></th><th style='border:1px solid #111; padding:6px 14px; background:#f3f3f3;'>Math</th><th style='border:1px solid #111; padding:6px 14px; background:#f3f3f3;'>Not Math</th><th style='border:1px solid #111; padding:6px 14px; background:#f3f3f3;'>Total</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:6px 14px; font-weight:bold;'>Science</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>250</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>150</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>400</td></tr><tr><td style='border:1px solid #111; padding:6px 14px; font-weight:bold;'>Not Science</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'></td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'></td></tr><tr><td style='border:1px solid #111; padding:6px 14px; font-weight:bold;'>Total</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>350</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>150</td><td style='border:1px solid #111; padding:6px 14px; text-align:center;'>500</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(50\\)",
+        "B": "\\(100\\)",
+        "C": "\\(150\\)",
+        "D": "\\(250\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM37.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Start by adding the number of students who like math to the number of students who like science: \\(350+400=750\\). There are a total of \\(500\\) students and no students liked neither, so find the number of students who were counted twice, because they liked both subjects, by setting up the following equation:\n\n\\(750-x=500\\). Solve the equation to find that \\(250\\) students liked both math and science.\n\nAlternatively, create a table to visualize the situation. Note that the intersection of Not Math and Not Science is \\(0\\) because every student chose Math, Science, or both.\n\nSince the number of students who like Math is \\(350\\) and there are \\(500\\) total students, \\(500-350=150\\) do not like Math. This means that there are \\(400-150=250\\) students who like both Math and Science."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM38",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "For what values of \\(x\\) is the inequality true?\n\n\\[-4<\\dfrac{3x-1}{2}<7\\]",
+      "options": {
+        "A": "\\(-7<x<15\\)",
+        "B": "\\(-3<x<5\\)",
+        "C": "\\(-\\dfrac{7}{3}<x<5\\)",
+        "D": "\\(-\\dfrac{3}{7}<x<10\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM38.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Begin by multiplying every component of the inequality by \\(2\\): \\(-8<3x-1<14\\). Then add \\(1\\) to each component of the inequality: \\(-7<3x<15\\). Finally, divide every component by \\(3\\) to isolate \\(x\\): \\(-\\dfrac{7}{3}<x<5\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM39",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "If an integer is randomly chosen from the first \\(50\\) positive integers, what is the probability that the integer selected has at least one digit that is a \\(3\\)?",
+      "options": {
+        "A": "\\(\\dfrac{7}{25}\\)",
+        "B": "\\(\\dfrac{3}{10}\\)",
+        "C": "\\(\\dfrac{4}{25}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM39.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "If an integer is chosen randomly from the first \\(50\\) integers, the probability of choosing any particular number is \\(1\\) divided by \\(50\\), and the probability of choosing an integer with at least one digit of \\(3\\) is the number of integers with at least one digit of \\(3\\), divided by \\(50\\). The integers \\(3,13,23,30,31,32,33,34,35,36,37,38,39\\), and \\(43\\) are the only integers with a \\(3\\) in them, for a total of \\(14\\) different integers, so the probability is \\(\\dfrac{14}{50}=\\dfrac{7}{25}\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM40",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 40,
+      "question_type": "mc",
+      "question": "Which graph represents the solution to \\(|x-1|>2\\)?",
+      "options": {
+        "A": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"14\" y1=\"23\" x2=\"95.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"155.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"95.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"155.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+        "B": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"14\" y1=\"23\" x2=\"65.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"125.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"65.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"125.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+        "C": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"95.0\" y1=\"23\" x2=\"155.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"95.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"155.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+        "D": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"65.0\" y1=\"23\" x2=\"125.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"65.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"125.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM40.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Absolute value makes the output positive by ignoring the sign of the number inside the absolute value bars. This means that the input can be either positive or negative. Thus, \\(|x-1|>2\\) implies that both \\(x-1>2\\) and \\(-(x-1)>2\\). Rewriting the second inequality gives \\(x-1<-2\\), since the inequality sign flips when dividing or multiplying by a negative. Solve the first inequality for \\(x\\):\n\n\\[x-1>2\\]\n\\[x>3\\]\n\nSolve the second inequality for \\(x\\):\n\n\\[x-1<-2\\]\n\\[x<-1\\]\n\nThus, \\(x<-1\\) or \\(x>3\\). Since the symbol is < (exclusive), use open circles at \\(-1\\) and \\(3\\). The variable \\(x\\) is either less than \\(-1\\) or greater than \\(3\\), so (A) is correct.\n\nAlternatively, use Backsolving. Since \\(0\\) is a solution for (C) and (D) but not in (A) and (B), let \\(x=0\\). When \\(x\\) is \\(0\\), \\(|-1|>2\\), which is not true. Thus, eliminate (C) and (D). Now, let \\(x=2\\). When \\(x\\) is \\(2\\), \\(|2-1|>2\\) is not true. Again, (A) is correct."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM41",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 41,
+      "question_type": "mc",
+      "question": "Based on the graph above, if the percent decrease from the \\(2018\\) population to the \\(2020\\) population of City \\(X\\) is the same as the percent decrease from the \\(2016\\) population to the \\(2018\\) population, what should the \\(2020\\) population in City \\(X\\) be?",
+      "figure_svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<text x=\"130\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Population of City X, 2014–2018</text>\n<text x=\"130\" y=\"30\" font-size=\"11\" text-anchor=\"middle\">(in Hundred Thousands)</text>\n<line x1=\"40\" y1=\"45\" x2=\"40\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"40\" y1=\"175\" x2=\"230\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"32\" y=\"179.0\" font-size=\"10\" text-anchor=\"end\">0</text><line x1=\"37\" y1=\"175.0\" x2=\"40\" y2=\"175.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"157.5\" font-size=\"10\" text-anchor=\"end\">1</text><line x1=\"37\" y1=\"153.5\" x2=\"40\" y2=\"153.5\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"136.0\" font-size=\"10\" text-anchor=\"end\">2</text><line x1=\"37\" y1=\"132.0\" x2=\"40\" y2=\"132.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"114.5\" font-size=\"10\" text-anchor=\"end\">3</text><line x1=\"37\" y1=\"110.5\" x2=\"40\" y2=\"110.5\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"93.0\" font-size=\"10\" text-anchor=\"end\">4</text><line x1=\"37\" y1=\"89.0\" x2=\"40\" y2=\"89.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"71.5\" font-size=\"10\" text-anchor=\"end\">5</text><line x1=\"37\" y1=\"67.5\" x2=\"40\" y2=\"67.5\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"50.0\" font-size=\"10\" text-anchor=\"end\">6</text><line x1=\"37\" y1=\"46.0\" x2=\"40\" y2=\"46.0\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"70\" y1=\"175\" x2=\"70\" y2=\"46.9\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"70\" y=\"40\" font-size=\"11\" text-anchor=\"middle\">6</text>\n<text x=\"70\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2014</text>\n<line x1=\"130\" y1=\"175\" x2=\"130\" y2=\"68.4\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"130\" y=\"61\" font-size=\"11\" text-anchor=\"middle\">5</text>\n<text x=\"130\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2016</text>\n<line x1=\"190\" y1=\"175\" x2=\"190\" y2=\"89.9\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"190\" y=\"83\" font-size=\"11\" text-anchor=\"middle\">4</text>\n<text x=\"190\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2018</text>\n</svg>",
+      "options": {
+        "A": "\\(280{,}000\\)",
+        "B": "\\(300{,}000\\)",
+        "C": "\\(320{,}000\\)",
+        "D": "\\(350{,}000\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM41.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "For this question, you have to know not only how to read graphs, but also how to find a percent decrease. The bar above \\(2016\\) reaches to \\(5\\) on the graph, and the graph is in units of \\(100{,}000\\), so the population in \\(2016\\) was \\(500{,}000\\). The population in \\(2018\\) was \\(400{,}000\\). To find the percent decrease in population, divide the amount of decrease by the original amount and then multiply by \\(100\\%\\).\n\n\\[\\left(\\dfrac{500{,}000-400{,}000}{500{,}000}\\right)\\times100\\%=\\dfrac{100{,}000}{500{,}000}\\times100\\%\\]\n\\[=\\dfrac{1}{5}\\times100\\%=20\\%\\]\n\nIf the percent decrease in population from \\(2018\\) to \\(2020\\) is the same as the percent decrease from \\(2016\\) to \\(2018\\), then from \\(2018\\) to \\(2020\\), the population should also decrease by \\(20\\%\\). \\(20\\%\\) of the \\(2018\\) population is \\(20\\%\\) of \\(400{,}000\\), or \\(80{,}000\\), so the \\(2020\\) population should be \\(400{,}000-80{,}000=320{,}000\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM42",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 42,
+      "question_type": "grid_in",
+      "question": "Graph the solution set for the inequality: \\(7-5x\\ge22\\).\n\nEnter the solution set (e.g. \\(x\\le-3\\)).",
+      "grid_answer": "x≤-3",
+      "source_screenshot": "Problems/EXAM_G/GM42.png",
+      "solution": {
+        "letter": "x≤-3",
+        "exhibit_text": "Solve the inequality as you would solve an equation. Subtract \\(7\\) from both sides to isolate the \\(x\\) term:\n\n\\[7-5x\\ge22\\]\n\\[-5x\\ge15\\]\n\nNow, divide both sides by \\(-5\\). Because you divide by a negative number, flip the inequality sign: \\(x\\le-3\\).\n\nSince \\(x\\) is less than or equal to \\(-3\\), select the ray that points to the left. Place the closed circle at \\(-3\\) because the inequality is \\(\\le\\) (inclusive) rather than \\(<\\) (which would not include the \\(-3\\))."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM43",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "Each month, Maya incurs fixed operating expenses of \\(\\$2{,}400\\) at her boutique. It costs her \\(\\$60\\) to produce a specific designer dress, and she sells each dress for \\(\\$140\\). What is Maya's profit if she produces and sells \\(40\\) dresses in \\(1\\) month?",
+      "options": {
+        "A": "\\(\\$800\\)",
+        "B": "\\(\\$2{,}400\\)",
+        "C": "\\(\\$3{,}200\\)",
+        "D": "\\(\\$5{,}600\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM43.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Profit is sales minus expenses. Maya sells each dress for \\(\\$140\\), and each dress costs her \\(\\$60\\) to produce. Therefore, her profit is \\(\\$140-\\$60=\\$80\\) on each dress. She produces \\(40\\) dresses in \\(1\\) month, so her profit on her dresses is \\(40(\\$80)=\\$3{,}200\\). Her fixed expenses each month are \\(\\$2{,}400\\). Therefore, her total profit is\n\n\\[\\$3{,}200-\\$2{,}400=\\$800\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM44",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "At basketball practice, Keira has attempted \\(25\\) free throws so far, and \\(36\\%\\) of her shots made it in. If she attempts \\(125\\) **more** free throws, with the same amount of accuracy, by the end of practice, how many free throws will she have made in total?",
+      "options": {
+        "A": "\\(9\\)",
+        "B": "\\(36\\)",
+        "C": "\\(45\\)",
+        "D": "\\(54\\)"
+      },
+      "correct": "D",
+      "source_screenshot": "Problems/EXAM_G/GM44.png",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "The question asks for her *total* number of successful free throws, so first find her total number of shots: \\(25+125=150\\) shots. \\(36\\%\\) of \\(150\\) is \\(0.36\\times150\\), or \\(54\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM45",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "Bucket \\(A\\) and Bucket \\(B\\) each contain \\(\\dfrac{3}{4}\\) liters of chicken feed. If \\(\\dfrac{1}{3}\\) of the chicken feed in Bucket \\(A\\) is poured into Bucket \\(B\\), how much chicken feed is now in Bucket \\(B\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{2}\\text{ liters}\\)",
+        "B": "\\(\\dfrac{5}{6}\\text{ liters}\\)",
+        "C": "\\(1\\text{ liter}\\)",
+        "D": "\\(1\\dfrac{1}{12}\\text{ liters}\\)"
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/EXAM_G/GM45.png",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Bucket B currently contains \\(\\dfrac{3}{4}\\) liters of chicken feed. The question says that \\(\\dfrac{1}{3}\\) of the chicken feed in Bucket A is poured into Bucket B. Since Bucket A also contains \\(\\dfrac{3}{4}\\) liters of chicken feed, \\(\\dfrac{3}{4}\\times\\dfrac{1}{3}=\\dfrac{1}{4}\\) liters are poured into Bucket B. Bucket B now contains \\(\\dfrac{3}{4}+\\dfrac{1}{4}=1\\) liter of chicken feed."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM46",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "The figure above shows a closed rectangular storage bin. What is the total surface area, in square centimeters, of the closed storage bin?",
+      "figure_svg": "<svg viewBox=\"0 0 220 140\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<polygon points=\"40,100 40,60 90,60 90,100\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"40,60 65,35 115,35 90,60\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"90,60 115,35 115,75 90,100\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"32\" y=\"82\" font-size=\"11\" text-anchor=\"end\">10 cm</text>\n<text x=\"65\" y=\"112\" font-size=\"11\" text-anchor=\"middle\">20 cm</text>\n<text x=\"108\" y=\"68\" font-size=\"11\" text-anchor=\"start\">15 cm</text>\n</svg>",
+      "options": {
+        "A": "\\(650\\)",
+        "B": "\\(1{,}300\\)",
+        "C": "\\(1{,}800\\)",
+        "D": "\\(3{,}000\\)"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/EXAM_G/GM46.png",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "The total surface area is the sum of the areas of all six faces (top, bottom, front, back, left side, right side). The area of the top (and bottom) is length \\(\\times\\) width, the area of the front (and back) is length \\(\\times\\) height, and the area of the left side (and right side) is width \\(\\times\\) height. Thus, the formula for the total surface area is \\(2(lw+lh+wh)\\). Plug in \\(20\\) cm for \\(l\\), \\(15\\) cm for \\(w\\), and \\(10\\) cm for \\(h\\):\n\n\\[SA=2[(20)(15)+(20)(10)+(15)(10)]\\]\n\\[=2(300+200+150)\\]\n\\[=2(650)\\]\n\\[=1{,}300\\text{ cm}^2\\]"
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM47",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "What is the area of the shaded triangle shown above?",
+      "figure_svg": "<svg viewBox=\"0 0 170 180\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"30\" y1=\"160\" x2=\"150\" y2=\"160\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"150,160 142,156 142,164\" fill=\"#333\"/>\n<text x=\"156\" y=\"164\" font-size=\"13\" font-style=\"italic\">x</text>\n<line x1=\"30\" y1=\"160\" x2=\"30\" y2=\"20\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"30,20 26,28 34,28\" fill=\"#333\"/>\n<text x=\"30\" y=\"14\" font-size=\"13\" font-style=\"italic\">y</text>\n<text x=\"18\" y=\"164\" font-size=\"12\">O</text>\n<text x=\"18\" y=\"100\" font-size=\"12\" font-style=\"italic\">d</text>\n<text x=\"18\" y=\"150\" font-size=\"12\" font-style=\"italic\">c</text>\n<line x1=\"100\" y1=\"160\" x2=\"100\" y2=\"150\" stroke=\"#333\" stroke-width=\"0.8\" stroke-dasharray=\"2,2\"/>\n<text x=\"100\" y=\"175\" font-size=\"11\">5</text>\n<polygon points=\"30,38 30,150 100,94\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>",
+      "options": {
+        "A": "\\(2.5(d-c)\\)",
+        "B": "\\(5(d-c)\\)",
+        "C": "\\(2.5(d+c)\\)",
+        "D": "\\(5(d+c)\\)"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/EXAM_G/GM47.png",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The formula for the area of a triangle is \\(\\dfrac{1}{2}bh\\), where \\(b\\) is the base and \\(h\\) is the height. The base of the triangle lies on the \\(y\\)-axis and is the difference between the \\(y\\)-coordinates: \\(d-c\\). The height of the triangle is the perpendicular distance from the base to the vertex, which is the difference in the \\(x\\)-coordinates: \\(5-0=5\\). Thus, the area of the triangle is \\(\\dfrac{1}{2}(d-c)(5)=\\dfrac{5}{2}(d-c)\\). The fraction \\(\\dfrac{5}{2}\\) is equivalent to \\(2.5\\), so the area is \\(2.5(d-c)\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM48",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 48,
+      "question_type": "grid_in",
+      "question": "In the quadrilateral above, \\(\\overline{AB}\\) is parallel to \\(\\overline{CD}\\) and \\(\\overline{AD}\\) is parallel to \\(\\overline{BC}\\). What is the value of \\(x\\)?",
+      "figure_svg": "<svg viewBox=\"0 0 200 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<polygon points=\"30,105 160,105 185,25 55,25\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"20\" y=\"112\" font-size=\"13\" font-style=\"italic\">A</text>\n<text x=\"168\" y=\"112\" font-size=\"13\" font-style=\"italic\">D</text>\n<text x=\"45\" y=\"22\" font-size=\"13\" font-style=\"italic\">B</text>\n<text x=\"190\" y=\"22\" font-size=\"13\" font-style=\"italic\">C</text>\n<text x=\"35\" y=\"20\" font-size=\"12\" font-style=\"italic\">x°</text>\n<rect x=\"55\" y=\"25\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"170\" y=\"100\" font-size=\"12\">68°</text>\n</svg>",
+      "grid_answer": "158",
+      "source_screenshot": "Problems/EXAM_G/GM48.png",
+      "solution": {
+        "letter": "158",
+        "exhibit_text": "Because the sum of the angles around a single point must equal \\(360\\), \\(x=360-90-m\\angle B\\). Notice \\(ABCD\\) is a parallelogram, which means that \\(\\angle B\\cong\\angle D\\). To find the measure of \\(\\angle D\\) (and thus \\(\\angle B\\)), subtract its supplementary angle of \\(68\\) from \\(180\\), which results in \\(112\\). Plugging \\(112\\) into the original expression gives \\(x=360-90-112=158\\)."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM49",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 49,
+      "question_type": "dropdown",
+      "question": "Tank \\(B\\) holds one-fourth as much water as Tank \\(A\\). If a farmer drains \\(40\\) gallons of water from Tank \\(A\\) and a rainstorm adds \\(20\\) gallons to Tank \\(B\\), Tank \\(B\\) will have \\(30\\) fewer gallons than Tank \\(A\\).\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of gallons originally in Tank A (\\(A\\)) and Tank B (\\(B\\)) is \\(B=\\)[blank1]\\(A\\).\n\nAfter \\(40\\) gallons are drained from Tank A and \\(20\\) gallons are added to Tank B, the equation becomes \\(B+20=\\)[blank2].\n\nBy solving the equation, it can be determined that Tank A started with [blank3] gallons.",
+      "dropdowns": [
+        {
+          "label": "blank1",
+          "choices": [
+            "1/4",
+            "1/2",
+            "2",
+            "4"
+          ],
+          "answer_display": "1/4"
+        },
+        {
+          "label": "blank2",
+          "choices": [
+            "A - 70",
+            "A - 40",
+            "A + 20",
+            "A - 20"
+          ],
+          "answer_display": "A - 70"
+        },
+        {
+          "label": "blank3",
+          "choices": [
+            "30",
+            "90",
+            "120",
+            "160"
+          ],
+          "answer_display": "120"
+        }
+      ],
+      "source_screenshot": "Problems/EXAM_G/GM49.png",
+      "solution": {
+        "letter": "1/4, A - 70, 120",
+        "exhibit_text": "Let \\(A\\) represent the number of gallons Tank A starts with, and \\(B\\) represent the number of gallons Tank B starts with. So, \"Tank B holds one-fourth as much water as Tank A\" translates to \\(B=\\dfrac{1}{4}A\\); this is the answer to the first blank. When \\(40\\) gallons are drained from Tank A and \\(20\\) gallons are added to Tank B, Tank A's new total is \\(A-40\\), and Tank B's new total is \\(B+20\\). The problem states that Tank B now has \\(30\\) fewer gallons than Tank A. This translates to:\n\nTank B's New Total \\(=\\) Tank A's New Total \\(-30\\)\n\\[B+20=(A-40)-30\\]\n\\[B+20=A-70\\]\n\nThis is the answer to the second blank.\n\nNow, substitute \\(\\dfrac{1}{4}A\\) for \\(B\\) in the equation to solve for \\(A\\):\n\n\\[\\dfrac{1}{4}A+20=A-70\\]\n\nSubtract \\(\\dfrac{1}{4}A\\) from both sides: \\(20=\\dfrac{3}{4}A-70\\). Add \\(70\\) to both sides: \\(90=\\dfrac{3}{4}A\\). Divide both sides by \\(\\dfrac{3}{4}\\) (or multiply both sides by \\(\\dfrac{4}{3}\\)):\n\n\\[\\dfrac{4}{3}(90)=A\\]\n\\[120=A\\]\n\nTank A started with **120** gallons, which is the answer to the third blank."
+      },
+      "transcription_status": "verbatim_verified"
+    },
+    {
+      "id": "GM50",
+      "origin": "KAPLAN_ATOM_PRACTICE_D",
+      "q_number": 50,
+      "question_type": "grid_in",
+      "question": "A taxi company charges an initial fee of \\(\\$3\\), plus a constant rate of \\(\\$2.50\\) per mile driven.\n\nWrite an equation that can be used to determine the cost, \\(y\\), of a taxi ride for a trip of \\(x\\) miles.\n\nEnter your equation in the space provided. Enter only your equation.",
+      "grid_answer": "y=2.5x+3",
+      "source_screenshot": "Problems/EXAM_G/GM50.png",
+      "solution": {
+        "letter": "y=2.5x+3",
+        "exhibit_text": "If the company charges an initial fee plus a constant rate per mile driven, then its cost can be modeled by a linear equation \\(y=mx+b\\). You are told that the initial fee is \\(\\$3\\), so \\(b=3\\). You also know that the company charges a constant rate of \\(\\$2.50\\) per mile driven, so \\(m=2.5\\). The complete equation is therefore \\(y=2.5x+3\\).\n\n(Other equivalent forms, such as \\(y=3+2.5x\\) or \\(2.5x+3=y\\), are also correct.)"
+      },
+      "transcription_status": "verbatim_verified"
+    }
+  ]
 }
