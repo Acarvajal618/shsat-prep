@@ -1,0 +1,1182 @@
+{
+  "_schema": {
+    "description": "Practice Set 8 (10/14) \u2014 reinforcement for 20 randomly selected pain-point skills across Exams C, D, E, F, G (CM24, CM49, DM27, EM14, EM26, FM04, FM08, FM10, FM16, FM32, FM33, FM34, FM38, FM42, FM44, FM46, GM10, GM20, GM38, GM45). 3 new variants each. Not an official exam.",
+    "id_format": "<SourceID>.<variant> \u2014 points back to the original exam question it's a variant of.",
+    "math_notation": "LaTeX in \\\\(...\\\\) inline and \\\\[...\\\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "CM24.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of sculptures, drawings, and photographs shown is \\(2{:}7{:}5\\), respectively. If the number of drawings shown was \\(35\\), what is the total number of photographs and sculptures that were shown?",
+      "options": {
+        "A": "\\(10\\)",
+        "B": "\\(25\\)",
+        "C": "\\(35\\)",
+        "D": "\\(60\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The ratio of sculptures to drawings to photographs is \\(2{:}7{:}5\\).\n\nSince the number of actual drawings is \\(35\\), each ratio is multiplied by \\(5\\), since \\(7 \\times 5 = 35\\).\n\n| Type | Ratio | Actual Number |\n| --- | --- | --- |\n| sculptures | \\(2\\) | \\(10\\) |\n| drawings | \\(7\\) | \\(35\\) |\n| photographs | \\(5\\) | \\(25\\) |\n\nAdd the number of sculptures (\\(10\\)) and the number of photographs (\\(25\\)):\n\n\\[10 + 25 = 35\\]"
+      }
+    },
+    {
+      "id": "CM24.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of paintings, sketches, and prints shown is \\(4{:}6{:}5\\), respectively. If the number of sketches shown was \\(36\\), what is the total number of prints and paintings that were shown?",
+      "options": {
+        "A": "\\(24\\)",
+        "B": "\\(30\\)",
+        "C": "\\(54\\)",
+        "D": "\\(66\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The ratio of paintings to sketches to prints is \\(4{:}6{:}5\\).\n\nSince the number of actual sketches is \\(36\\), each ratio is multiplied by \\(6\\), since \\(6 \\times 6 = 36\\).\n\n| Type | Ratio | Actual Number |\n| --- | --- | --- |\n| paintings | \\(4\\) | \\(24\\) |\n| sketches | \\(6\\) | \\(36\\) |\n| prints | \\(5\\) | \\(30\\) |\n\nAdd the number of paintings (\\(24\\)) and the number of prints (\\(30\\)):\n\n\\[24 + 30 = 54\\]"
+      }
+    },
+    {
+      "id": "CM24.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and collages shown is \\(3{:}8{:}6\\), respectively. If the number of drawings shown was \\(40\\), what is the total number of collages and paintings that were shown?",
+      "options": {
+        "A": "\\(15\\)",
+        "B": "\\(30\\)",
+        "C": "\\(45\\)",
+        "D": "\\(70\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "The ratio of paintings to drawings to collages is \\(3{:}8{:}6\\).\n\nSince the number of actual drawings is \\(40\\), each ratio is multiplied by \\(5\\), since \\(8 \\times 5 = 40\\).\n\n| Type | Ratio | Actual Number |\n| --- | --- | --- |\n| paintings | \\(3\\) | \\(15\\) |\n| drawings | \\(8\\) | \\(40\\) |\n| collages | \\(6\\) | \\(30\\) |\n\nAdd the number of paintings (\\(15\\)) and the number of collages (\\(30\\)):\n\n\\[15 + 30 = 45\\]"
+      }
+    },
+    {
+      "id": "CM49.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 4,
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours sixth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "figure_svg": "<svg viewBox=\"0 0 500 140\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:500px; margin:0 auto; display:block;\"><line x1=\"111.66666666666667\" y1=\"76\" x2=\"183.33333333333334\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"350.55555555555554\" y1=\"76\" x2=\"470.0\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"111.66666666666667\" y1=\"64\" x2=\"111.66666666666667\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"470.0\" y1=\"64\" x2=\"470.0\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"183.33333333333334\" y=\"60\" width=\"167.2222222222222\" height=\"32\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"278.8888888888889\" y1=\"60\" x2=\"278.8888888888889\" y2=\"92\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"40\" y1=\"100\" x2=\"470\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40.0\" y1=\"96\" x2=\"40.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"40.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">0</text><line x1=\"87.77777777777777\" y1=\"96\" x2=\"87.77777777777777\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"87.77777777777777\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">2</text><line x1=\"135.55555555555554\" y1=\"96\" x2=\"135.55555555555554\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"135.55555555555554\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">4</text><line x1=\"183.33333333333334\" y1=\"96\" x2=\"183.33333333333334\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"183.33333333333334\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">6</text><line x1=\"231.11111111111111\" y1=\"96\" x2=\"231.11111111111111\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"231.11111111111111\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">8</text><line x1=\"278.8888888888889\" y1=\"96\" x2=\"278.8888888888889\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"278.8888888888889\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">10</text><line x1=\"326.6666666666667\" y1=\"96\" x2=\"326.6666666666667\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"326.6666666666667\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">12</text><line x1=\"374.44444444444446\" y1=\"96\" x2=\"374.44444444444446\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"374.44444444444446\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">14</text><line x1=\"422.22222222222223\" y1=\"96\" x2=\"422.22222222222223\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"422.22222222222223\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">16</text><line x1=\"470.0\" y1=\"96\" x2=\"470.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"470.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">18</text><text x=\"255.0\" y=\"134\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"12\">hours</text></svg>",
+      "drop_values": [
+        "15",
+        "18",
+        "7",
+        "8"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "15"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "7"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "8"
+        }
+      ],
+      "exhibit_image_path": null,
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((15; 8; 7)\\)\n\nDetermine the range by subtracting the minimum value on the box plot from the maximum value on the box plot:\n\nMaximum value \\(= 18\\) hr; Minimum value \\(= 3\\) hr\n\n\\[18 \\text{ hr} - 3 \\text{ hr} = 15 \\text{ hr}\\]\n\nDetermine the interquartile range by subtracting the lower quartile value on the box plot from the upper quartile value on the box plot:\n\nUpper Quartile Value \\(= 13\\) hr, Lower Quartile Value \\(= 6\\) hr\n\n\\[13 \\text{ hr} - 6 \\text{ hr} = 7 \\text{ hr}\\]\n\nDetermine the difference between the range (\\(15\\) hr) and the interquartile range (\\(7\\) hr):\n\n\\[15 \\text{ hr} - 7 \\text{ hr} = 8 \\text{ hr}\\]"
+      }
+    },
+    {
+      "id": "CM49.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 5,
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours seventh-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "figure_svg": "<svg viewBox=\"0 0 500 140\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:500px; margin:0 auto; display:block;\"><line x1=\"93.75\" y1=\"76\" x2=\"174.375\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"335.625\" y1=\"76\" x2=\"470.0\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"93.75\" y1=\"64\" x2=\"93.75\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"470.0\" y1=\"64\" x2=\"470.0\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"174.375\" y=\"60\" width=\"161.25\" height=\"32\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"255.0\" y1=\"60\" x2=\"255.0\" y2=\"92\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"40\" y1=\"100\" x2=\"470\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40.0\" y1=\"96\" x2=\"40.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"40.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">0</text><line x1=\"93.75\" y1=\"96\" x2=\"93.75\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"93.75\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">2</text><line x1=\"147.5\" y1=\"96\" x2=\"147.5\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"147.5\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">4</text><line x1=\"201.25\" y1=\"96\" x2=\"201.25\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"201.25\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">6</text><line x1=\"255.0\" y1=\"96\" x2=\"255.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"255.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">8</text><line x1=\"308.75\" y1=\"96\" x2=\"308.75\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"308.75\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">10</text><line x1=\"362.5\" y1=\"96\" x2=\"362.5\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"362.5\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">12</text><line x1=\"416.25\" y1=\"96\" x2=\"416.25\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"416.25\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">14</text><line x1=\"470.0\" y1=\"96\" x2=\"470.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"470.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">16</text><text x=\"255.0\" y=\"134\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"12\">hours</text></svg>",
+      "drop_values": [
+        "14",
+        "16",
+        "6",
+        "8"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "14"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "6"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "8"
+        }
+      ],
+      "exhibit_image_path": null,
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((14; 8; 6)\\)\n\nDetermine the range by subtracting the minimum value on the box plot from the maximum value on the box plot:\n\nMaximum value \\(= 16\\) hr; Minimum value \\(= 2\\) hr\n\n\\[16 \\text{ hr} - 2 \\text{ hr} = 14 \\text{ hr}\\]\n\nDetermine the interquartile range by subtracting the lower quartile value on the box plot from the upper quartile value on the box plot:\n\nUpper Quartile Value \\(= 11\\) hr, Lower Quartile Value \\(= 5\\) hr\n\n\\[11 \\text{ hr} - 5 \\text{ hr} = 6 \\text{ hr}\\]\n\nDetermine the difference between the range (\\(14\\) hr) and the interquartile range (\\(6\\) hr):\n\n\\[14 \\text{ hr} - 6 \\text{ hr} = 8 \\text{ hr}\\]"
+      }
+    },
+    {
+      "id": "CM49.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 6,
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours ninth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "figure_svg": "<svg viewBox=\"0 0 500 140\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:500px; margin:0 auto; display:block;\"><line x1=\"126.0\" y1=\"76\" x2=\"233.5\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"362.5\" y1=\"76\" x2=\"470.0\" y2=\"76\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"126.0\" y1=\"64\" x2=\"126.0\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"470.0\" y1=\"64\" x2=\"470.0\" y2=\"88\" stroke=\"#111\" stroke-width=\"1.4\"/><rect x=\"233.5\" y=\"60\" width=\"129.0\" height=\"32\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.4\"/><line x1=\"298.0\" y1=\"60\" x2=\"298.0\" y2=\"92\" stroke=\"#111\" stroke-width=\"1.6\"/><line x1=\"40\" y1=\"100\" x2=\"470\" y2=\"100\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"40.0\" y1=\"96\" x2=\"40.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"40.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">0</text><line x1=\"83.0\" y1=\"96\" x2=\"83.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"83.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">2</text><line x1=\"126.0\" y1=\"96\" x2=\"126.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"126.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">4</text><line x1=\"169.0\" y1=\"96\" x2=\"169.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"169.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">6</text><line x1=\"212.0\" y1=\"96\" x2=\"212.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"212.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">8</text><line x1=\"255.0\" y1=\"96\" x2=\"255.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"255.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">10</text><line x1=\"298.0\" y1=\"96\" x2=\"298.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"298.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">12</text><line x1=\"341.0\" y1=\"96\" x2=\"341.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"341.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">14</text><line x1=\"384.0\" y1=\"96\" x2=\"384.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"384.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">16</text><line x1=\"427.0\" y1=\"96\" x2=\"427.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"427.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">18</text><line x1=\"470.0\" y1=\"96\" x2=\"470.0\" y2=\"104\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"470.0\" y=\"118\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\">20</text><text x=\"255.0\" y=\"134\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"12\">hours</text></svg>",
+      "drop_values": [
+        "10",
+        "16",
+        "20",
+        "6"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "16"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "6"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "10"
+        }
+      ],
+      "exhibit_image_path": null,
+      "solution": {
+        "letter": null,
+        "exhibit_text": "\\((16; 10; 6)\\)\n\nDetermine the range by subtracting the minimum value on the box plot from the maximum value on the box plot:\n\nMaximum value \\(= 20\\) hr; Minimum value \\(= 4\\) hr\n\n\\[20 \\text{ hr} - 4 \\text{ hr} = 16 \\text{ hr}\\]\n\nDetermine the interquartile range by subtracting the lower quartile value on the box plot from the upper quartile value on the box plot:\n\nUpper Quartile Value \\(= 15\\) hr, Lower Quartile Value \\(= 9\\) hr\n\n\\[15 \\text{ hr} - 9 \\text{ hr} = 6 \\text{ hr}\\]\n\nDetermine the difference between the range (\\(16\\) hr) and the interquartile range (\\(6\\) hr):\n\n\\[16 \\text{ hr} - 6 \\text{ hr} = 10 \\text{ hr}\\]"
+      }
+    },
+    {
+      "id": "DM27.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "A birdseed mixture is \\(\\dfrac{3}{10}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.05\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(40\\) pounds of this birdseed mixture? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+      "options": {
+        "A": "$\\(0.80\\)",
+        "B": "$\\(4.80\\)",
+        "C": "$\\(9.60\\)",
+        "D": "$\\(19.20\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "First, calculate the amount of sunflower seeds in \\(40\\) pounds of this birdseed mixture by using ratio reasoning to find that there are \\(12\\) pounds of sunflower seeds in the birdseed mixture.\n\n\\[\\dfrac{3}{10} = \\dfrac{12}{40}\\]\n\nThen, use ratio reasoning to find the cost of the sunflower seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.05}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$0.80\\]\n\nThe cost of the sunflower seeds is $\\(0.80\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(12\\) pounds.\n\n\\[\\dfrac{\\$0.80}{1 \\text{ pound}} \\times \\dfrac{12 \\text{ pounds}}{1} = \\$9.60\\]"
+      }
+    },
+    {
+      "id": "DM27.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "A birdseed mixture is \\(\\dfrac{1}{4}\\) millet seeds. The cost of the millet seeds is $\\(0.08\\) per ounce. At this rate, what is the cost of the millet seeds in \\(32\\) pounds of this birdseed mixture? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+      "options": {
+        "A": "$\\(1.28\\)",
+        "B": "$\\(5.12\\)",
+        "C": "$\\(10.24\\)",
+        "D": "$\\(20.48\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "First, calculate the amount of millet seeds in \\(32\\) pounds of this birdseed mixture by using ratio reasoning to find that there are \\(8\\) pounds of millet seeds in the birdseed mixture.\n\n\\[\\dfrac{1}{4} = \\dfrac{8}{32}\\]\n\nThen, use ratio reasoning to find the cost of the millet seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.08}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$1.28\\]\n\nThe cost of the millet seeds is $\\(1.28\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(8\\) pounds.\n\n\\[\\dfrac{\\$1.28}{1 \\text{ pound}} \\times \\dfrac{8 \\text{ pounds}}{1} = \\$10.24\\]"
+      }
+    },
+    {
+      "id": "DM27.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "A trail mix is \\(\\dfrac{2}{5}\\) peanuts. The cost of the peanuts is $\\(0.15\\) per ounce. At this rate, what is the cost of the peanuts in \\(20\\) pounds of this trail mix? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+      "options": {
+        "A": "$\\(2.40\\)",
+        "B": "$\\(9.60\\)",
+        "C": "$\\(19.20\\)",
+        "D": "$\\(38.40\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "First, calculate the amount of peanuts in \\(20\\) pounds of this trail mix by using ratio reasoning to find that there are \\(8\\) pounds of peanuts in the trail mix.\n\n\\[\\dfrac{2}{5} = \\dfrac{8}{20}\\]\n\nThen, use ratio reasoning to find the cost of the peanuts per pound.\n\n\\[\\left(\\dfrac{\\$0.15}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$2.40\\]\n\nThe cost of the peanuts is $\\(2.40\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(8\\) pounds.\n\n\\[\\dfrac{\\$2.40}{1 \\text{ pound}} \\times \\dfrac{8 \\text{ pounds}}{1} = \\$19.20\\]"
+      }
+    },
+    {
+      "id": "EM14.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "A water storage tank currently contains 3,000 liters of water. If this amount fills the tank to exactly \\(\\dfrac{5}{8}\\) of its total capacity, how many **kiloliters** of water must be added to fill the tank completely?",
+      "options": {
+        "A": "1.8",
+        "B": "4.8",
+        "C": "18",
+        "D": "1800"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let the total capacity of the water tank be \\(x\\). The question says that 3,000 liters of water fill the tank to \\(\\dfrac{5}{8}\\) of its capacity. Therefore, \\(3,000 = \\dfrac{5}{8}x\\). Solve for \\(x\\) to determine the total capacity of the tank: \\(x = 4,800\\) liters. The question asks how many kiloliters of water must be added to fill the tank completely. The tank needs an additional \\(4,800-3,000=1,800\\) liters. There are 1,000 liters in 1 kiloliter. Therefore:\n\n\\[1,800 \\text{ liters} \\times \\left(\\dfrac{1 \\text{ kiloliter}}{1{,}000 \\text{ liters}}\\right) = 1.8 \\text{ kiloliters}\\]"
+      }
+    },
+    {
+      "id": "EM14.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "A water storage tank currently contains 1,800 liters of water. If this amount fills the tank to exactly \\(\\dfrac{3}{4}\\) of its total capacity, how many **kiloliters** of water must be added to fill the tank completely?",
+      "options": {
+        "A": "0.6",
+        "B": "3.6",
+        "C": "6",
+        "D": "600"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let the total capacity of the water tank be \\(x\\). The question says that 1,800 liters of water fill the tank to \\(\\dfrac{3}{4}\\) of its capacity. Therefore, \\(1,800 = \\dfrac{3}{4}x\\). Solve for \\(x\\) to determine the total capacity of the tank: \\(x = 2,400\\) liters. The question asks how many kiloliters of water must be added to fill the tank completely. The tank needs an additional \\(2,400-1,800=600\\) liters. There are 1,000 liters in 1 kiloliter. Therefore:\n\n\\[600 \\text{ liters} \\times \\left(\\dfrac{1 \\text{ kiloliter}}{1{,}000 \\text{ liters}}\\right) = 0.6 \\text{ kiloliters}\\]"
+      }
+    },
+    {
+      "id": "EM14.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "A water storage tank currently contains 2,100 liters of water. If this amount fills the tank to exactly \\(\\dfrac{7}{10}\\) of its total capacity, how many **kiloliters** of water must be added to fill the tank completely?",
+      "options": {
+        "A": "0.9",
+        "B": "3.9",
+        "C": "9",
+        "D": "900"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Let the total capacity of the water tank be \\(x\\). The question says that 2,100 liters of water fill the tank to \\(\\dfrac{7}{10}\\) of its capacity. Therefore, \\(2,100 = \\dfrac{7}{10}x\\). Solve for \\(x\\) to determine the total capacity of the tank: \\(x = 3,000\\) liters. The question asks how many kiloliters of water must be added to fill the tank completely. The tank needs an additional \\(3,000-2,100=900\\) liters. There are 1,000 liters in 1 kiloliter. Therefore:\n\n\\[900 \\text{ liters} \\times \\left(\\dfrac{1 \\text{ kiloliter}}{1{,}000 \\text{ liters}}\\right) = 0.9 \\text{ kiloliters}\\]"
+      }
+    },
+    {
+      "id": "EM26.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "If Priya drove 189 miles between 9:00 a.m. and 11:15 a.m. on the same day, what was her average speed in miles per hour?",
+      "options": {
+        "A": "75",
+        "B": "80",
+        "C": "84",
+        "D": "93"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Start by finding out how long Priya drove by counting the number of hours and minutes between 9:00 a.m. and 11:15 a.m.. That is a total of 135 minutes, or \\(9/4\\) hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(189 \\div 9/4 = 84\\)."
+      }
+    },
+    {
+      "id": "EM26.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "If Jada drove 231 miles between 8:30 a.m. and 12:00 p.m. on the same day, what was her average speed in miles per hour?",
+      "options": {
+        "A": "57",
+        "B": "62",
+        "C": "66",
+        "D": "75"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Start by finding out how long Jada drove by counting the number of hours and minutes between 8:30 a.m. and 12:00 p.m.. That is a total of 210 minutes, or \\(7/2\\) hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(231 \\div 7/2 = 66\\)."
+      }
+    },
+    {
+      "id": "EM26.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "If Tom\u00e1s drove 161 miles between 10:15 a.m. and 12:45 p.m. on the same day, what was her average speed in miles per hour?",
+      "options": {
+        "A": "55.4",
+        "B": "60.4",
+        "C": "64.4",
+        "D": "73.4"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Start by finding out how long Tom\u00e1s drove by counting the number of hours and minutes between 10:15 a.m. and 12:45 p.m.. That is a total of 150 minutes, or \\(5/2\\) hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(161 \\div 5/2 = 64.4\\)."
+      }
+    },
+    {
+      "id": "FM04.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "In the figure above, if lines \\(m\\) and \\(n\\) are parallel, all of the following statements are true **except**",
+      "figure_svg": "<svg viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"60\" y1=\"100\" x2=\"480\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"60\" y1=\"220\" x2=\"480\" y2=\"220\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"150\" y1=\"35\" x2=\"340\" y2=\"300\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"490\" y=\"105\" font-style=\"italic\" font-size=\"15\">m</text>\n<text x=\"490\" y=\"225\" font-style=\"italic\" font-size=\"15\">n</text>\n<text x=\"138.6\" y=\"72\" font-size=\"14\">40&#176;</text>\n<text x=\"206.6\" y=\"86\" font-style=\"italic\" font-size=\"14\">p&#176;</text>\n<text x=\"164.6\" y=\"126\" font-style=\"italic\" font-size=\"14\">r&#176;</text>\n<text x=\"214.6\" y=\"126\" font-style=\"italic\" font-size=\"14\">q&#176;</text>\n<text x=\"248.6\" y=\"208\" font-style=\"italic\" font-size=\"14\">s&#176;</text>\n<text x=\"294.6\" y=\"208\" font-style=\"italic\" font-size=\"14\">t&#176;</text>\n<text x=\"262.6\" y=\"248\" font-style=\"italic\" font-size=\"14\">v&#176;</text>\n<text x=\"304.6\" y=\"248\" font-style=\"italic\" font-size=\"14\">u&#176;</text>\n</svg>",
+      "options": {
+        "A": "\\(t=140\\)",
+        "B": "\\(q+u=80\\)",
+        "C": "\\(v+40=180\\)",
+        "D": "\\(s=140\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "For parallel lines cut by a transversal, all acute angles are equal and all obtuse angles are equal.\n\nThus, \\(40\\degree=q\\degree=s\\degree=u\\degree\\) and \\(p\\degree=r\\degree=t\\degree=v\\degree\\). Since \\(40\\degree\\) and \\(p\\degree\\) are supplementary, \\(p\\degree=180\\degree-40\\degree=140\\degree\\). Check each answer choice:\n\n(A) is true since \\(t=p=140\\).\n(B) is true since \\(q=u=40\\) and \\(40+40=80\\).\n(C) is true since \\(v=p=140\\) and \\(140+40=180\\).\n(D) is not true since \\(s=q=40\\ne140\\).\n\nThus, the correct answer is (D)."
+      }
+    },
+    {
+      "id": "FM04.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "In the figure above, if lines \\(m\\) and \\(n\\) are parallel, all of the following statements are true **except**",
+      "figure_svg": "<svg viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"60\" y1=\"100\" x2=\"480\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"60\" y1=\"220\" x2=\"480\" y2=\"220\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"150\" y1=\"35\" x2=\"340\" y2=\"300\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"490\" y=\"105\" font-style=\"italic\" font-size=\"15\">m</text>\n<text x=\"490\" y=\"225\" font-style=\"italic\" font-size=\"15\">n</text>\n<text x=\"138.6\" y=\"72\" font-size=\"14\">65&#176;</text>\n<text x=\"206.6\" y=\"86\" font-style=\"italic\" font-size=\"14\">p&#176;</text>\n<text x=\"164.6\" y=\"126\" font-style=\"italic\" font-size=\"14\">r&#176;</text>\n<text x=\"214.6\" y=\"126\" font-style=\"italic\" font-size=\"14\">q&#176;</text>\n<text x=\"248.6\" y=\"208\" font-style=\"italic\" font-size=\"14\">s&#176;</text>\n<text x=\"294.6\" y=\"208\" font-style=\"italic\" font-size=\"14\">t&#176;</text>\n<text x=\"262.6\" y=\"248\" font-style=\"italic\" font-size=\"14\">v&#176;</text>\n<text x=\"304.6\" y=\"248\" font-style=\"italic\" font-size=\"14\">u&#176;</text>\n</svg>",
+      "options": {
+        "A": "\\(t=115\\)",
+        "B": "\\(q+u=130\\)",
+        "C": "\\(v+65=180\\)",
+        "D": "\\(s=115\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "For parallel lines cut by a transversal, all acute angles are equal and all obtuse angles are equal.\n\nThus, \\(65\\degree=q\\degree=s\\degree=u\\degree\\) and \\(p\\degree=r\\degree=t\\degree=v\\degree\\). Since \\(65\\degree\\) and \\(p\\degree\\) are supplementary, \\(p\\degree=180\\degree-65\\degree=115\\degree\\). Check each answer choice:\n\n(A) is true since \\(t=p=115\\).\n(B) is true since \\(q=u=65\\) and \\(65+65=130\\).\n(C) is true since \\(v=p=115\\) and \\(115+65=180\\).\n(D) is not true since \\(s=q=65\\ne115\\).\n\nThus, the correct answer is (D)."
+      }
+    },
+    {
+      "id": "FM04.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "In the figure above, if lines \\(m\\) and \\(n\\) are parallel, all of the following statements are true **except**",
+      "figure_svg": "<svg viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"60\" y1=\"100\" x2=\"480\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"60\" y1=\"220\" x2=\"480\" y2=\"220\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"150\" y1=\"35\" x2=\"340\" y2=\"300\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"490\" y=\"105\" font-style=\"italic\" font-size=\"15\">m</text>\n<text x=\"490\" y=\"225\" font-style=\"italic\" font-size=\"15\">n</text>\n<text x=\"138.6\" y=\"72\" font-size=\"14\">35&#176;</text>\n<text x=\"206.6\" y=\"86\" font-style=\"italic\" font-size=\"14\">p&#176;</text>\n<text x=\"164.6\" y=\"126\" font-style=\"italic\" font-size=\"14\">r&#176;</text>\n<text x=\"214.6\" y=\"126\" font-style=\"italic\" font-size=\"14\">q&#176;</text>\n<text x=\"248.6\" y=\"208\" font-style=\"italic\" font-size=\"14\">s&#176;</text>\n<text x=\"294.6\" y=\"208\" font-style=\"italic\" font-size=\"14\">t&#176;</text>\n<text x=\"262.6\" y=\"248\" font-style=\"italic\" font-size=\"14\">v&#176;</text>\n<text x=\"304.6\" y=\"248\" font-style=\"italic\" font-size=\"14\">u&#176;</text>\n</svg>",
+      "options": {
+        "A": "\\(t=145\\)",
+        "B": "\\(q+u=70\\)",
+        "C": "\\(v+35=180\\)",
+        "D": "\\(s=145\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "For parallel lines cut by a transversal, all acute angles are equal and all obtuse angles are equal.\n\nThus, \\(35\\degree=q\\degree=s\\degree=u\\degree\\) and \\(p\\degree=r\\degree=t\\degree=v\\degree\\). Since \\(35\\degree\\) and \\(p\\degree\\) are supplementary, \\(p\\degree=180\\degree-35\\degree=145\\degree\\). Check each answer choice:\n\n(A) is true since \\(t=p=145\\).\n(B) is true since \\(q=u=35\\) and \\(35+35=70\\).\n(C) is true since \\(v=p=145\\) and \\(145+35=180\\).\n(D) is not true since \\(s=q=35\\ne145\\).\n\nThus, the correct answer is (D)."
+      }
+    },
+    {
+      "id": "FM08.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 19,
+      "question_type": "mc_multi",
+      "question": "A certain wind turbine completed 24 full rotations in 4 minutes and generated 288 megajoules of electricity. Assuming that the wind speed and electricity generation rate remain constant, which proportions can be used to determine how many rotations it will take the turbine to generate 960 megajoules of electricity?\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{288}{24}=\\dfrac{960}{x}\\)",
+        "B": "\\(\\dfrac{960}{288}=\\dfrac{x}{24}\\)",
+        "C": "\\(\\dfrac{24}{288}=\\dfrac{x}{960}\\)",
+        "D": "\\(\\dfrac{288}{x}=\\dfrac{960}{24}\\)",
+        "E": "\\(\\dfrac{960}{24}=\\dfrac{288}{x}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solution": {
+        "letter": "A, B, C",
+        "exhibit_text": "Let \\(x\\) be the number of rotations needed to generate 960 megajoules of electricity. The ratio \\(\\dfrac{288\\text{ megajoules}}{24\\text{ rotations}}\\) reflects the rate of 288 megajoules generated in 24 rotations. Set up a proportion to solve for \\(x\\), keeping megajoules in the numerators and rotations in the denominators: \\(\\dfrac{288\\text{ megajoules}}{24\\text{ rotations}}=\\dfrac{960\\text{ megajoules}}{x\\text{ rotations}}\\). This proportion matches (A). (Note that the detail of 4 minutes was not needed to solve the question.) Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((288)(x)=(24)(960)\\).\n\n(B): \\((24)(960)=(288)(x)\\) is equivalent to \\((288)(x)=(24)(960)\\); correct\n(C): \\((960)(24)=(288)(x)\\) is equivalent to \\((288)(x)=(24)(960)\\); correct\n(D): \\((288)(24)=(x)(960)\\) is not equivalent to \\((288)(x)=(24)(960)\\); eliminate\n(E): \\((960)(x)=(24)(288)\\) is not equivalent to \\((288)(x)=(24)(960)\\); eliminate"
+      }
+    },
+    {
+      "id": "FM08.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 20,
+      "question_type": "mc_multi",
+      "question": "A certain wind turbine completed 18 full rotations in 3 minutes and generated 216 megajoules of electricity. Assuming that the wind speed and electricity generation rate remain constant, which proportions can be used to determine how many rotations it will take the turbine to generate 720 megajoules of electricity?\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{216}{18}=\\dfrac{720}{x}\\)",
+        "B": "\\(\\dfrac{720}{216}=\\dfrac{x}{18}\\)",
+        "C": "\\(\\dfrac{18}{216}=\\dfrac{x}{720}\\)",
+        "D": "\\(\\dfrac{216}{x}=\\dfrac{720}{18}\\)",
+        "E": "\\(\\dfrac{720}{18}=\\dfrac{216}{x}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solution": {
+        "letter": "A, B, C",
+        "exhibit_text": "Let \\(x\\) be the number of rotations needed to generate 720 megajoules of electricity. The ratio \\(\\dfrac{216\\text{ megajoules}}{18\\text{ rotations}}\\) reflects the rate of 216 megajoules generated in 18 rotations. Set up a proportion to solve for \\(x\\), keeping megajoules in the numerators and rotations in the denominators: \\(\\dfrac{216\\text{ megajoules}}{18\\text{ rotations}}=\\dfrac{720\\text{ megajoules}}{x\\text{ rotations}}\\). This proportion matches (A). (Note that the detail of 3 minutes was not needed to solve the question.) Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((216)(x)=(18)(720)\\).\n\n(B): \\((18)(720)=(216)(x)\\) is equivalent to \\((216)(x)=(18)(720)\\); correct\n(C): \\((720)(18)=(216)(x)\\) is equivalent to \\((216)(x)=(18)(720)\\); correct\n(D): \\((216)(18)=(x)(720)\\) is not equivalent to \\((216)(x)=(18)(720)\\); eliminate\n(E): \\((720)(x)=(18)(216)\\) is not equivalent to \\((216)(x)=(18)(720)\\); eliminate"
+      }
+    },
+    {
+      "id": "FM08.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 21,
+      "question_type": "mc_multi",
+      "question": "A certain wind turbine completed 40 full rotations in 5 minutes and generated 450 megajoules of electricity. Assuming that the wind speed and electricity generation rate remain constant, which proportions can be used to determine how many rotations it will take the turbine to generate 1350 megajoules of electricity?\nSelect the **three** correct answers.",
+      "options": {
+        "A": "\\(\\dfrac{450}{40}=\\dfrac{1350}{x}\\)",
+        "B": "\\(\\dfrac{1350}{450}=\\dfrac{x}{40}\\)",
+        "C": "\\(\\dfrac{40}{450}=\\dfrac{x}{1350}\\)",
+        "D": "\\(\\dfrac{450}{x}=\\dfrac{1350}{40}\\)",
+        "E": "\\(\\dfrac{1350}{40}=\\dfrac{450}{x}\\)"
+      },
+      "n_correct": 3,
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "solution": {
+        "letter": "A, B, C",
+        "exhibit_text": "Let \\(x\\) be the number of rotations needed to generate 1350 megajoules of electricity. The ratio \\(\\dfrac{450\\text{ megajoules}}{40\\text{ rotations}}\\) reflects the rate of 450 megajoules generated in 40 rotations. Set up a proportion to solve for \\(x\\), keeping megajoules in the numerators and rotations in the denominators: \\(\\dfrac{450\\text{ megajoules}}{40\\text{ rotations}}=\\dfrac{1350\\text{ megajoules}}{x\\text{ rotations}}\\). This proportion matches (A). (Note that the detail of 5 minutes was not needed to solve the question.) Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((450)(x)=(40)(1350)\\).\n\n(B): \\((40)(1350)=(450)(x)\\) is equivalent to \\((450)(x)=(40)(1350)\\); correct\n(C): \\((1350)(40)=(450)(x)\\) is equivalent to \\((450)(x)=(40)(1350)\\); correct\n(D): \\((450)(40)=(x)(1350)\\) is not equivalent to \\((450)(x)=(40)(1350)\\); eliminate\n(E): \\((1350)(x)=(40)(450)\\) is not equivalent to \\((450)(x)=(40)(1350)\\); eliminate"
+      }
+    },
+    {
+      "id": "FM10.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by 20%. Then, to determine the final selling price, the manager applies an additional 25% markup to that new total. Which expression represents the final selling price of each dining table?",
+      "options": {
+        "A": "\\(1.45w\\)",
+        "B": "\\(1.5w\\)",
+        "C": "\\(w+0.45\\)",
+        "D": "\\(1.2w+0.25\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find the expression for the final selling price, you must apply each percentage increase sequentially rather than adding the percentages together. A 20% increase on the wholesale cost \\(w\\) is \\(w+1/5w=1.2w\\). Apply the second increase to the new value. A 25% increase on \\(1.2w\\) is:\n\n\\[1.2w+(1/4)(1.2w)=1.2w(1+1/4)\\]\n\\[=1.2w\\times1.25\\]\n\\[=1.5w\\]"
+      }
+    },
+    {
+      "id": "FM10.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by 15%. Then, to determine the final selling price, the manager applies an additional 30% markup to that new total. Which expression represents the final selling price of each dining table?",
+      "options": {
+        "A": "\\(1.45w\\)",
+        "B": "\\(1.495w\\)",
+        "C": "\\(w+0.45\\)",
+        "D": "\\(1.15w+0.3\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find the expression for the final selling price, you must apply each percentage increase sequentially rather than adding the percentages together. A 15% increase on the wholesale cost \\(w\\) is \\(w+3/20w=1.15w\\). Apply the second increase to the new value. A 30% increase on \\(1.15w\\) is:\n\n\\[1.15w+(3/10)(1.15w)=1.15w(1+3/10)\\]\n\\[=1.15w\\times1.3\\]\n\\[=1.495w\\]"
+      }
+    },
+    {
+      "id": "FM10.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by 5%. Then, to determine the final selling price, the manager applies an additional 50% markup to that new total. Which expression represents the final selling price of each dining table?",
+      "options": {
+        "A": "\\(1.55w\\)",
+        "B": "\\(1.575w\\)",
+        "C": "\\(w+0.55\\)",
+        "D": "\\(1.05w+0.5\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find the expression for the final selling price, you must apply each percentage increase sequentially rather than adding the percentages together. A 5% increase on the wholesale cost \\(w\\) is \\(w+1/20w=1.05w\\). Apply the second increase to the new value. A 50% increase on \\(1.05w\\) is:\n\n\\[1.05w+(1/2)(1.05w)=1.05w(1+1/2)\\]\n\\[=1.05w\\times1.5\\]\n\\[=1.575w\\]"
+      }
+    },
+    {
+      "id": "FM16.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{x}{y}+\\dfrac{5}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+      "options": {
+        "A": "\\(x+5y\\)",
+        "B": "\\(5x+y\\)",
+        "C": "\\(x^2+5\\)",
+        "D": "\\(x^2+5y\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To add fractions, you need a common denominator. The common denominator of \\(x\\) and \\(y\\) is \\(xy\\). Multiply the first fraction by \\(\\dfrac{x}{x}\\) and the second by \\(\\dfrac{y}{y}\\) to obtain this common denominator. Then add the numerators.\n\n\\[\\dfrac{x}{y}+\\dfrac{5}{x}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x}{y}\\left(\\dfrac{x}{x}\\right)+\\dfrac{5}{x}\\left(\\dfrac{y}{y}\\right)=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2}{xy}+\\dfrac{5y}{xy}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2+5y}{xy}=\\dfrac{\\square}{xy}\\]\n\nSince the denominator on both sides is the same, \\(\\square=x^2+5y\\)."
+      }
+    },
+    {
+      "id": "FM16.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 26,
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{x}{y}+\\dfrac{2}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+      "options": {
+        "A": "\\(x+2y\\)",
+        "B": "\\(2x+y\\)",
+        "C": "\\(x^2+2\\)",
+        "D": "\\(x^2+2y\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To add fractions, you need a common denominator. The common denominator of \\(x\\) and \\(y\\) is \\(xy\\). Multiply the first fraction by \\(\\dfrac{x}{x}\\) and the second by \\(\\dfrac{y}{y}\\) to obtain this common denominator. Then add the numerators.\n\n\\[\\dfrac{x}{y}+\\dfrac{2}{x}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x}{y}\\left(\\dfrac{x}{x}\\right)+\\dfrac{2}{x}\\left(\\dfrac{y}{y}\\right)=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2}{xy}+\\dfrac{2y}{xy}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2+2y}{xy}=\\dfrac{\\square}{xy}\\]\n\nSince the denominator on both sides is the same, \\(\\square=x^2+2y\\)."
+      }
+    },
+    {
+      "id": "FM16.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{x}{y}+\\dfrac{7}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+      "options": {
+        "A": "\\(x+7y\\)",
+        "B": "\\(7x+y\\)",
+        "C": "\\(x^2+7\\)",
+        "D": "\\(x^2+7y\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "To add fractions, you need a common denominator. The common denominator of \\(x\\) and \\(y\\) is \\(xy\\). Multiply the first fraction by \\(\\dfrac{x}{x}\\) and the second by \\(\\dfrac{y}{y}\\) to obtain this common denominator. Then add the numerators.\n\n\\[\\dfrac{x}{y}+\\dfrac{7}{x}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x}{y}\\left(\\dfrac{x}{x}\\right)+\\dfrac{7}{x}\\left(\\dfrac{y}{y}\\right)=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2}{xy}+\\dfrac{7y}{xy}=\\dfrac{\\square}{xy}\\]\n\\[\\dfrac{x^2+7y}{xy}=\\dfrac{\\square}{xy}\\]\n\nSince the denominator on both sides is the same, \\(\\square=x^2+7y\\)."
+      }
+    },
+    {
+      "id": "FM32.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "The table above shows the number of dogs per family in 120 households in a certain neighborhood. By what **percentage** is the number of families with 2 cats less than the number of families with 0 cats?",
+      "figure_svg": "<svg viewBox=\"0 0 284 132\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"13\" font-weight=\"700\" font-size=\"12\">SURVEY OF CAT OWNERSHIP</text><g transform=\"translate(2,20)\"><rect x=\"0\" y=\"0\" width=\"280\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"280\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"280\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"280\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"280\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"280\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\">Category</text><text x=\"146\" y=\"15\" font-weight=\"700\">Number of Families</text><text x=\"6\" y=\"37\">0 cats</text><text x=\"146\" y=\"37\">50</text><text x=\"6\" y=\"59\">1 cat</text><text x=\"146\" y=\"59\">34</text><text x=\"6\" y=\"81\">2 cats</text><text x=\"146\" y=\"81\">25</text><text x=\"6\" y=\"103\">3 or more</text><text x=\"146\" y=\"103\">11</text></g></svg>",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "80%",
+        "D": "100%"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Read carefully to identify the \"whole\" value for this problem. In this case, the question asks for the difference *from* families with 0 cats, so that value represents the whole. There are 50 families with 0 cats, and \\(50-25=25\\) fewer families with 2 cats. Plug these values into the percent formula: \\(\\dfrac{25}{50}\\times100=50%\\)."
+      }
+    },
+    {
+      "id": "FM32.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "The table above shows the number of dogs per family in 150 households in a certain neighborhood. By what **percentage** is the number of families with 2 pets less than the number of families with 0 pets?",
+      "figure_svg": "<svg viewBox=\"0 0 284 132\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"13\" font-weight=\"700\" font-size=\"12\">SURVEY OF PET OWNERSHIP</text><g transform=\"translate(2,20)\"><rect x=\"0\" y=\"0\" width=\"280\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"280\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"280\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"280\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"280\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"280\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\">Category</text><text x=\"146\" y=\"15\" font-weight=\"700\">Number of Families</text><text x=\"6\" y=\"37\">0 pets</text><text x=\"146\" y=\"37\">60</text><text x=\"6\" y=\"59\">1 pet</text><text x=\"146\" y=\"59\">42</text><text x=\"6\" y=\"81\">2 pets</text><text x=\"146\" y=\"81\">36</text><text x=\"6\" y=\"103\">3 or more</text><text x=\"146\" y=\"103\">12</text></g></svg>",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "60%",
+        "D": "66.7%"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Read carefully to identify the \"whole\" value for this problem. In this case, the question asks for the difference *from* families with 0 pets, so that value represents the whole. There are 60 families with 0 pets, and \\(60-36=24\\) fewer families with 2 pets. Plug these values into the percent formula: \\(\\dfrac{24}{60}\\times100=40%\\)."
+      }
+    },
+    {
+      "id": "FM32.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 30,
+      "question_type": "mc",
+      "question": "The table above shows the number of dogs per family in 210 households in a certain neighborhood. By what **percentage** is the number of families with 1 bird less than the number of families with 0 birds?",
+      "figure_svg": "<svg viewBox=\"0 0 284 132\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"13\" font-weight=\"700\" font-size=\"12\">SURVEY OF BIRD OWNERSHIP</text><g transform=\"translate(2,20)\"><rect x=\"0\" y=\"0\" width=\"280\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"280\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"280\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"280\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"280\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"280\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\">Category</text><text x=\"146\" y=\"15\" font-weight=\"700\">Number of Families</text><text x=\"6\" y=\"37\">0 birds</text><text x=\"146\" y=\"37\">80</text><text x=\"6\" y=\"59\">1 bird</text><text x=\"146\" y=\"59\">56</text><text x=\"6\" y=\"81\">2 birds</text><text x=\"146\" y=\"81\">60</text><text x=\"6\" y=\"103\">3 or more</text><text x=\"146\" y=\"103\">14</text></g></svg>",
+      "options": {
+        "A": "15%",
+        "B": "30%",
+        "C": "42.9%",
+        "D": "70%"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Read carefully to identify the \"whole\" value for this problem. In this case, the question asks for the difference *from* families with 0 birds, so that value represents the whole. There are 80 families with 0 birds, and \\(80-56=24\\) fewer families with 1 bird. Plug these values into the percent formula: \\(\\dfrac{24}{80}\\times100=30%\\)."
+      }
+    },
+    {
+      "id": "FM33.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 31,
+      "question_type": "mc",
+      "question": "A committee of 3 people is to be chosen from a group of 6 9th graders and 5 10th graders. If the committee must consist of 2 9th graders and 1 10th graders, how many different committees can be formed?",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "75",
+        "D": "150"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There are 6 9th graders, and 2 must be chosen to be part of the committee. There are \\(\\binom{6}{2}=15\\) ways to choose them.\n\nThere are \\(\\binom{5}{1}=5\\) ways to choose the 1 10th graders out of a group of 5.\n\nEach of the 15 ways to choose the 9th graders can be paired with each of the 5 ways to choose the 10th graders. Therefore, a total of \\(15\\times5=75\\) committees are possible."
+      }
+    },
+    {
+      "id": "FM33.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 32,
+      "question_type": "mc",
+      "question": "A committee of 3 people is to be chosen from a group of 4 freshmen and 6 sophomores. If the committee must consist of 2 freshmen and 1 sophomores, how many different committees can be formed?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "36",
+        "D": "72"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There are 4 freshmen, and 2 must be chosen to be part of the committee. There are \\(\\binom{4}{2}=6\\) ways to choose them.\n\nThere are \\(\\binom{6}{1}=6\\) ways to choose the 1 sophomores out of a group of 6.\n\nEach of the 6 ways to choose the freshmen can be paired with each of the 6 ways to choose the sophomores. Therefore, a total of \\(6\\times6=36\\) committees are possible."
+      }
+    },
+    {
+      "id": "FM33.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 33,
+      "question_type": "mc",
+      "question": "A committee of 3 people is to be chosen from a group of 7 juniors and 3 seniors. If the committee must consist of 2 juniors and 1 seniors, how many different committees can be formed?",
+      "options": {
+        "A": "21",
+        "B": "24",
+        "C": "63",
+        "D": "126"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "There are 7 juniors, and 2 must be chosen to be part of the committee. There are \\(\\binom{7}{2}=21\\) ways to choose them.\n\nThere are \\(\\binom{3}{1}=3\\) ways to choose the 1 seniors out of a group of 3.\n\nEach of the 21 ways to choose the juniors can be paired with each of the 3 ways to choose the seniors. Therefore, a total of \\(21\\times3=63\\) committees are possible."
+      }
+    },
+    {
+      "id": "FM34.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 34,
+      "question_type": "mc",
+      "question": "In a sample of 80 ties at a local clothing store, there are 10 red ties and 40 striped ties. Of the 10 red ties, 6 are also striped. If a tie is selected at random from the given sample, what is the probability that **both** of the following are true: it is **not** red and does **not** have striped?",
+      "options": {
+        "A": "\\(\\dfrac{9}{20}\\)",
+        "B": "\\(\\dfrac{11}{20}\\)",
+        "C": "\\(\\dfrac{1}{20}\\)",
+        "D": "\\(\\dfrac{17}{40}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of ties that are neither red nor striped. Find the number of ties that are red or striped and subtract from 80. \\(10\\text{ red}+40\\text{ striped}=50\\) ties. You might be tempted to go ahead and subtract from 80 now, but remember that 6 ties are *both* red and striped. You don't want to count those twice, so subtract them: \\(50-6=44\\). Now you can subtract from 80 to get 36 ties that are neither red nor striped. The probability of selecting one of these is \\(\\dfrac{36}{80}\\), or \\(\\dfrac{9}{20}\\)."
+      }
+    },
+    {
+      "id": "FM34.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 35,
+      "question_type": "mc",
+      "question": "In a sample of 50 scarves at a local clothing store, there are 6 blue scarves and 20 patterned scarves. Of the 6 blue scarves, 3 are also patterned. If a scarve is selected at random from the given sample, what is the probability that **both** of the following are true: it is **not** blue and does **not** have patterned?",
+      "options": {
+        "A": "\\(\\dfrac{27}{50}\\)",
+        "B": "\\(\\dfrac{23}{50}\\)",
+        "C": "\\(\\dfrac{3}{50}\\)",
+        "D": "\\(\\dfrac{17}{50}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of scarves that are neither blue nor patterned. Find the number of scarves that are blue or patterned and subtract from 50. \\(6\\text{ blue}+20\\text{ patterned}=26\\) scarves. You might be tempted to go ahead and subtract from 50 now, but remember that 3 scarves are *both* blue and patterned. You don't want to count those twice, so subtract them: \\(26-3=23\\). Now you can subtract from 50 to get 27 scarves that are neither blue nor patterned. The probability of selecting one of these is \\(\\dfrac{27}{50}\\), or \\(\\dfrac{27}{50}\\)."
+      }
+    },
+    {
+      "id": "FM34.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 36,
+      "question_type": "mc",
+      "question": "In a sample of 90 hats at a local clothing store, there are 12 green hats and 45 checkered hats. Of the 12 green hats, 7 are also checkered. If a hat is selected at random from the given sample, what is the probability that **both** of the following are true: it is **not** green and does **not** have checkered?",
+      "options": {
+        "A": "\\(\\dfrac{4}{9}\\)",
+        "B": "\\(\\dfrac{5}{9}\\)",
+        "C": "\\(\\dfrac{1}{18}\\)",
+        "D": "\\(\\dfrac{19}{45}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of hats that are neither green nor checkered. Find the number of hats that are green or checkered and subtract from 90. \\(12\\text{ green}+45\\text{ checkered}=57\\) hats. You might be tempted to go ahead and subtract from 90 now, but remember that 7 hats are *both* green and checkered. You don't want to count those twice, so subtract them: \\(57-7=50\\). Now you can subtract from 90 to get 40 hats that are neither green nor checkered. The probability of selecting one of these is \\(\\dfrac{40}{90}\\), or \\(\\dfrac{4}{9}\\)."
+      }
+    },
+    {
+      "id": "FM38.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 37,
+      "question_type": "mc",
+      "question": "\\[-1<\\dfrac{x}{3}<2\\]\nWhich number line shows the solution to the inequality above?",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"18\" x2=\"48.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"18\" x2=\"67.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"18\" x2=\"86.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"18\" x2=\"105.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"18\" x2=\"123.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"18\" x2=\"142.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"18\" x2=\"161.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"18\" x2=\"198.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"18\" x2=\"217.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"18\" x2=\"236.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"18\" x2=\"255.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"18\" x2=\"273.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"18\" x2=\"292.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"18\" x2=\"311.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"123.75\" y1=\"22\" x2=\"292.5\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"123.75\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"292.5\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"63\" x2=\"48.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"63\" x2=\"67.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"63\" x2=\"86.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"63\" x2=\"105.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"63\" x2=\"123.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"63\" x2=\"142.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"63\" x2=\"161.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"63\" x2=\"198.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"63\" x2=\"217.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"63\" x2=\"236.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"63\" x2=\"255.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"63\" x2=\"273.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"63\" x2=\"292.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"63\" x2=\"311.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"180.0\" y1=\"67\" x2=\"348.75\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"180.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"348.75\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"108\" x2=\"48.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"108\" x2=\"67.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"108\" x2=\"86.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"108\" x2=\"105.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"108\" x2=\"123.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"108\" x2=\"142.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"108\" x2=\"161.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"108\" x2=\"198.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"108\" x2=\"217.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"108\" x2=\"236.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"108\" x2=\"255.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"108\" x2=\"273.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"108\" x2=\"292.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"108\" x2=\"311.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"123.75\" y1=\"112\" x2=\"292.5\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"123.75\" cy=\"112\" r=\"4\" fill=\"#222\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"292.5\" cy=\"112\" r=\"4\" fill=\"#222\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"153\" x2=\"48.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"153\" x2=\"67.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"153\" x2=\"86.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"153\" x2=\"105.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"153\" x2=\"123.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"153\" x2=\"142.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"153\" x2=\"161.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"153\" x2=\"198.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"153\" x2=\"217.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"153\" x2=\"236.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"153\" x2=\"255.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"153\" x2=\"273.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"153\" x2=\"292.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"153\" x2=\"311.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"67.5\" y1=\"157\" x2=\"236.25\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"67.5\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"236.25\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Multiply each term in the equation by 3 to clear the fraction. This will isolate the \\(x\\).\n\n\\[-1(3)<\\left(\\dfrac{x}{3}\\right)(3)<2(3)\\]\n\\[-3<x<6\\]\n\nSince \\(x\\) is between -3 and 6, choose the number line that is shaded between -3 and 6, with open circles at both endpoints since the inequality is strict, (A)."
+      }
+    },
+    {
+      "id": "FM38.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 38,
+      "question_type": "mc",
+      "question": "\\[-2<\\dfrac{x}{2}<1\\]\nWhich number line shows the solution to the inequality above?",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"18\" x2=\"48.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"18\" x2=\"67.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"18\" x2=\"86.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"18\" x2=\"105.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"18\" x2=\"123.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"18\" x2=\"142.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"18\" x2=\"161.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"18\" x2=\"198.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"18\" x2=\"217.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"18\" x2=\"236.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"18\" x2=\"255.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"18\" x2=\"273.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"18\" x2=\"292.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"18\" x2=\"311.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"105.0\" y1=\"22\" x2=\"217.5\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"105.0\" cy=\"22\" r=\"4\" fill=\"#222\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"217.5\" cy=\"22\" r=\"4\" fill=\"#222\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"63\" x2=\"48.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"63\" x2=\"67.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"63\" x2=\"86.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"63\" x2=\"105.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"63\" x2=\"123.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"63\" x2=\"142.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"63\" x2=\"161.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"63\" x2=\"198.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"63\" x2=\"217.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"63\" x2=\"236.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"63\" x2=\"255.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"63\" x2=\"273.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"63\" x2=\"292.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"63\" x2=\"311.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"142.5\" y1=\"67\" x2=\"255.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"142.5\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"255.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"108\" x2=\"48.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"108\" x2=\"67.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"108\" x2=\"86.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"108\" x2=\"105.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"108\" x2=\"123.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"108\" x2=\"142.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"108\" x2=\"161.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"108\" x2=\"198.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"108\" x2=\"217.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"108\" x2=\"236.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"108\" x2=\"255.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"108\" x2=\"273.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"108\" x2=\"292.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"108\" x2=\"311.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"105.0\" y1=\"112\" x2=\"217.5\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"105.0\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"217.5\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"153\" x2=\"48.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"153\" x2=\"67.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"153\" x2=\"86.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"153\" x2=\"105.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"153\" x2=\"123.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"153\" x2=\"142.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"153\" x2=\"161.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"153\" x2=\"198.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"153\" x2=\"217.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"153\" x2=\"236.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"153\" x2=\"255.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"153\" x2=\"273.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"153\" x2=\"292.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"153\" x2=\"311.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"67.5\" y1=\"157\" x2=\"180.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"67.5\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"180.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Multiply each term in the equation by 2 to clear the fraction. This will isolate the \\(x\\).\n\n\\[-2(2)<\\left(\\dfrac{x}{2}\\right)(2)<1(2)\\]\n\\[-4<x<2\\]\n\nSince \\(x\\) is between -4 and 2, choose the number line that is shaded between -4 and 2, with open circles at both endpoints since the inequality is strict, (C)."
+      }
+    },
+    {
+      "id": "FM38.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 39,
+      "question_type": "mc",
+      "question": "\\[-1<\\dfrac{x}{4}<1\\]\nWhich number line shows the solution to the inequality above?",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"18\" x2=\"48.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"18\" x2=\"67.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"18\" x2=\"86.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"18\" x2=\"105.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"18\" x2=\"123.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"18\" x2=\"142.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"18\" x2=\"161.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"18\" x2=\"198.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"18\" x2=\"217.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"18\" x2=\"236.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"18\" x2=\"255.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"18\" x2=\"273.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"18\" x2=\"292.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"18\" x2=\"311.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"105.0\" y1=\"22\" x2=\"255.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"105.0\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"255.0\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"63\" x2=\"48.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"63\" x2=\"67.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"63\" x2=\"86.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"63\" x2=\"105.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"63\" x2=\"123.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"63\" x2=\"142.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"63\" x2=\"161.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"63\" x2=\"198.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"63\" x2=\"217.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"63\" x2=\"236.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"63\" x2=\"255.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"63\" x2=\"273.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"63\" x2=\"292.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"63\" x2=\"311.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"30.0\" y1=\"67\" x2=\"180.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"30.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"180.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"108\" x2=\"48.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"108\" x2=\"67.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"108\" x2=\"86.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"108\" x2=\"105.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"108\" x2=\"123.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"108\" x2=\"142.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"108\" x2=\"161.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"108\" x2=\"198.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"108\" x2=\"217.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"108\" x2=\"236.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"108\" x2=\"255.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"108\" x2=\"273.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"108\" x2=\"292.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"108\" x2=\"311.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"105.0\" y1=\"112\" x2=\"255.0\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"105.0\" cy=\"112\" r=\"4\" fill=\"#222\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"255.0\" cy=\"112\" r=\"4\" fill=\"#222\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"48.75\" y1=\"153\" x2=\"48.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"153\" x2=\"67.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"153\" x2=\"86.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"153\" x2=\"105.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"123.75\" y1=\"153\" x2=\"123.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"153\" x2=\"142.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"153\" x2=\"161.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"198.75\" y1=\"153\" x2=\"198.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"153\" x2=\"217.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"153\" x2=\"236.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"153\" x2=\"255.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"273.75\" y1=\"153\" x2=\"273.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"153\" x2=\"292.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"153\" x2=\"311.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><text x=\"105.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><text x=\"255.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"180.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"180.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"330.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Multiply each term in the equation by 4 to clear the fraction. This will isolate the \\(x\\).\n\n\\[-1(4)<\\left(\\dfrac{x}{4}\\right)(4)<1(4)\\]\n\\[-4<x<4\\]\n\nSince \\(x\\) is between -4 and 4, choose the number line that is shaded between -4 and 4, with open circles at both endpoints since the inequality is strict, (A)."
+      }
+    },
+    {
+      "id": "FM42.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 40,
+      "question_type": "mc_multi",
+      "question": "If \\(q\\) and \\(r\\) are integers, in which of the following equations **must** \\(q\\) be positive?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "\\(qr^2=1\\)",
+        "B": "\\(q-r=1\\)",
+        "C": "\\(qr=1\\)",
+        "D": "\\(q^2r=1\\)",
+        "E": "\\(q^3r^2=1\\)"
+      },
+      "n_correct": 2,
+      "correct": [
+        "A",
+        "E"
+      ],
+      "solution": {
+        "letter": "A, E",
+        "exhibit_text": "When you see variables in the answer choices, Picking Numbers may be a helpful strategy. Try each answer choice and see if the statement can be true with a negative \\(q\\). Pick a simple number for \\(q\\); since all of the answer choices equal 1, \\(q=-1\\) will work well.\n\n(A): \\((-1)\\times r^2=1\\). Therefore, \\(r^2\\) would have to equal \\(-1\\), which is impossible if negative. Keep.\n(B): \\(-1-r=1\\). Therefore, \\(r=-2\\). Eliminate.\n(C): \\(-1r=1\\). Therefore, \\(r=-1\\). Eliminate.\n(D): \\((-1)^2r=1\\). Therefore, \\(r=1\\). Eliminate.\n(E): \\((-1)^3\\times r^2=1\\). This equals \\(-1r^2=1\\). Therefore, \\(r^2\\) would have to be negative, which is impossible. Keep.\n\nAll of the answer choices can work with a negative \\(q\\) except for (A) and (E), which are correct."
+      }
+    },
+    {
+      "id": "FM42.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 41,
+      "question_type": "mc_multi",
+      "question": "If \\(q\\) and \\(r\\) are integers, in which of the following equations **must** \\(q\\) be positive?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "\\(qr^2=1\\)",
+        "B": "\\(q-r=1\\)",
+        "C": "\\(qr=1\\)",
+        "D": "\\(q^2r=1\\)",
+        "E": "\\(q^3r^2=1\\)"
+      },
+      "n_correct": 2,
+      "correct": [
+        "A",
+        "E"
+      ],
+      "solution": {
+        "letter": "A, E",
+        "exhibit_text": "When you see variables in the answer choices, Picking Numbers may be a helpful strategy. Try each answer choice and see if the statement can be true with a negative \\(q\\). Pick a simple number for \\(q\\); since all of the answer choices equal 1, \\(q=-2\\) will work well.\n\n(A): \\((-2)\\times r^2=1\\). Therefore, \\(r^2\\) would have to equal \\(-1/2\\), which is impossible if negative. Keep.\n(B): \\(-2-r=1\\). Therefore, \\(r=-3\\). Eliminate.\n(C): \\(-2r=1\\). Therefore, \\(r=-1/2\\). Eliminate.\n(D): \\((-2)^2r=1\\). Therefore, \\(r=1/4\\). Eliminate.\n(E): \\((-2)^3\\times r^2=1\\). This equals \\(-8r^2=1\\). Therefore, \\(r^2\\) would have to be negative, which is impossible. Keep.\n\nAll of the answer choices can work with a negative \\(q\\) except for (A) and (E), which are correct."
+      }
+    },
+    {
+      "id": "FM42.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 42,
+      "question_type": "mc_multi",
+      "question": "If \\(q\\) and \\(r\\) are integers, in which of the following equations **must** \\(q\\) be positive?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "\\(qr^2=1\\)",
+        "B": "\\(q-r=1\\)",
+        "C": "\\(qr=1\\)",
+        "D": "\\(q^2r=1\\)",
+        "E": "\\(q^3r^2=1\\)"
+      },
+      "n_correct": 2,
+      "correct": [
+        "A",
+        "E"
+      ],
+      "solution": {
+        "letter": "A, E",
+        "exhibit_text": "When you see variables in the answer choices, Picking Numbers may be a helpful strategy. Try each answer choice and see if the statement can be true with a negative \\(q\\). Pick a simple number for \\(q\\); since all of the answer choices equal 1, \\(q=-3\\) will work well.\n\n(A): \\((-3)\\times r^2=1\\). Therefore, \\(r^2\\) would have to equal \\(-1/3\\), which is impossible if negative. Keep.\n(B): \\(-3-r=1\\). Therefore, \\(r=-4\\). Eliminate.\n(C): \\(-3r=1\\). Therefore, \\(r=-1/3\\). Eliminate.\n(D): \\((-3)^2r=1\\). Therefore, \\(r=1/9\\). Eliminate.\n(E): \\((-3)^3\\times r^2=1\\). This equals \\(-27r^2=1\\). Therefore, \\(r^2\\) would have to be negative, which is impossible. Keep.\n\nAll of the answer choices can work with a negative \\(q\\) except for (A) and (E), which are correct."
+      }
+    },
+    {
+      "id": "FM44.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 43,
+      "question_type": "mc",
+      "question": "In a recent survey, 60% of the people polled were registered voters and 50% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{3}{10}\\)",
+        "B": "\\(\\dfrac{3}{5}\\)",
+        "C": "\\(\\dfrac{2}{5}\\)",
+        "D": "\\(\\dfrac{33}{100}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Whenever you have a percent problem that doesn't give you a definite amount and asks a question like \"What fraction of the total...?\" you should pick a number for the total. Since you're dealing with percents here and will be converting the percents to fractions, a good number for the total is 100. So, say that 100 people were polled. 60% of the 100 people were registered voters, so 60 people were registered voters. 50% of the registered voters voted in the last election, so \\(50\\%\\times60\\), or 30 people, voted in the last election. If 30 of the 60 registered voters actually voted in the last election, then \\(60-30=30\\) of the registered voters did **not** vote in the last election. The fraction of the people surveyed who were registered but did not vote is \\(\\dfrac{30}{100}\\), or \\(\\dfrac{3}{10}\\)."
+      }
+    },
+    {
+      "id": "FM44.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 44,
+      "question_type": "mc",
+      "question": "In a recent survey, 90% of the people polled were registered voters and 80% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{9}{50}\\)",
+        "B": "\\(\\dfrac{9}{10}\\)",
+        "C": "\\(\\dfrac{18}{25}\\)",
+        "D": "\\(\\dfrac{1}{10}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Whenever you have a percent problem that doesn't give you a definite amount and asks a question like \"What fraction of the total...?\" you should pick a number for the total. Since you're dealing with percents here and will be converting the percents to fractions, a good number for the total is 100. So, say that 100 people were polled. 90% of the 100 people were registered voters, so 90 people were registered voters. 80% of the registered voters voted in the last election, so \\(80\\%\\times90\\), or 72 people, voted in the last election. If 72 of the 90 registered voters actually voted in the last election, then \\(90-72=18\\) of the registered voters did **not** vote in the last election. The fraction of the people surveyed who were registered but did not vote is \\(\\dfrac{18}{100}\\), or \\(\\dfrac{9}{50}\\)."
+      }
+    },
+    {
+      "id": "FM44.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 45,
+      "question_type": "mc",
+      "question": "In a recent survey, 50% of the people polled were registered voters and 70% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{3}{20}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{7}{20}\\)",
+        "D": "\\(\\dfrac{18}{100}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Whenever you have a percent problem that doesn't give you a definite amount and asks a question like \"What fraction of the total...?\" you should pick a number for the total. Since you're dealing with percents here and will be converting the percents to fractions, a good number for the total is 100. So, say that 100 people were polled. 50% of the 100 people were registered voters, so 50 people were registered voters. 70% of the registered voters voted in the last election, so \\(70\\%\\times50\\), or 35 people, voted in the last election. If 35 of the 50 registered voters actually voted in the last election, then \\(50-35=15\\) of the registered voters did **not** vote in the last election. The fraction of the people surveyed who were registered but did not vote is \\(\\dfrac{15}{100}\\), or \\(\\dfrac{3}{20}\\)."
+      }
+    },
+    {
+      "id": "FM46.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 46,
+      "question_type": "mc",
+      "question": "What is the area of triangle DEF above?",
+      "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,270 150,40 270,270\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"109.3\" y1=\"125.1\" x2=\"270\" y2=\"270\" stroke=\"#222\" stroke-width=\"1.4\"/><polyline points=\"113.6,116.1 121.0,122.8 116.7,131.8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><line x1=\"23.8\" y1=\"262.2\" x2=\"133.8\" y2=\"32.2\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M23.8,262.2 L23.2,256.3 L28.8,258.9 Z\" fill=\"#222\"/><path d=\"M133.8,32.2 L134.3,38.2 L128.8,35.5 Z\" fill=\"#222\"/><text x=\"26\" y=\"286\" font-size=\"13\" font-family=\"system-ui,sans-serif\">D</text><text x=\"146\" y=\"32\" font-size=\"13\" font-family=\"system-ui,sans-serif\">E</text><text x=\"278\" y=\"278\" font-size=\"13\" font-family=\"system-ui,sans-serif\">F</text><text x=\"64.8\" y=\"147.2\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">x</text><text x=\"185.7\" y=\"189.6\" font-size=\"13\" font-family=\"system-ui,sans-serif\">6</text><text x=\"218.0\" y=\"155.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">6.5</text><text x=\"151.0\" y=\"288.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">y</text></svg>",
+      "options": {
+        "A": "\\(6x\\)",
+        "B": "\\(6y\\)",
+        "C": "\\(\\dfrac{1}{2}x+6\\)",
+        "D": "\\(6(x+y)\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The area of a triangle is given by the formula \\(A=\\tfrac{1}{2}bh\\). According to the figure, \\(b=x\\) and \\(h=6\\) (the height is perpendicular to the base), so \\(A=\\tfrac{1}{2}(x)(6)=6x\\)."
+      }
+    },
+    {
+      "id": "FM46.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 47,
+      "question_type": "mc",
+      "question": "What is the area of triangle DEF above?",
+      "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,270 150,40 270,270\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"109.3\" y1=\"125.1\" x2=\"270\" y2=\"270\" stroke=\"#222\" stroke-width=\"1.4\"/><polyline points=\"113.6,116.1 121.0,122.8 116.7,131.8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><line x1=\"23.8\" y1=\"262.2\" x2=\"133.8\" y2=\"32.2\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M23.8,262.2 L23.2,256.3 L28.8,258.9 Z\" fill=\"#222\"/><path d=\"M133.8,32.2 L134.3,38.2 L128.8,35.5 Z\" fill=\"#222\"/><text x=\"26\" y=\"286\" font-size=\"13\" font-family=\"system-ui,sans-serif\">D</text><text x=\"146\" y=\"32\" font-size=\"13\" font-family=\"system-ui,sans-serif\">E</text><text x=\"278\" y=\"278\" font-size=\"13\" font-family=\"system-ui,sans-serif\">F</text><text x=\"64.8\" y=\"147.2\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">x</text><text x=\"185.7\" y=\"189.6\" font-size=\"13\" font-family=\"system-ui,sans-serif\">10</text><text x=\"218.0\" y=\"155.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">10.8</text><text x=\"151.0\" y=\"288.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">y</text></svg>",
+      "options": {
+        "A": "\\(10x\\)",
+        "B": "\\(10y\\)",
+        "C": "\\(\\dfrac{1}{2}x+10\\)",
+        "D": "\\(10(x+y)\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The area of a triangle is given by the formula \\(A=\\tfrac{1}{2}bh\\). According to the figure, \\(b=x\\) and \\(h=10\\) (the height is perpendicular to the base), so \\(A=\\tfrac{1}{2}(x)(10)=10x\\)."
+      }
+    },
+    {
+      "id": "FM46.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 48,
+      "question_type": "mc",
+      "question": "What is the area of triangle DEF above?",
+      "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,270 150,40 270,270\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"109.3\" y1=\"125.1\" x2=\"270\" y2=\"270\" stroke=\"#222\" stroke-width=\"1.4\"/><polyline points=\"113.6,116.1 121.0,122.8 116.7,131.8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><line x1=\"23.8\" y1=\"262.2\" x2=\"133.8\" y2=\"32.2\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M23.8,262.2 L23.2,256.3 L28.8,258.9 Z\" fill=\"#222\"/><path d=\"M133.8,32.2 L134.3,38.2 L128.8,35.5 Z\" fill=\"#222\"/><text x=\"26\" y=\"286\" font-size=\"13\" font-family=\"system-ui,sans-serif\">D</text><text x=\"146\" y=\"32\" font-size=\"13\" font-family=\"system-ui,sans-serif\">E</text><text x=\"278\" y=\"278\" font-size=\"13\" font-family=\"system-ui,sans-serif\">F</text><text x=\"64.8\" y=\"147.2\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">x</text><text x=\"185.7\" y=\"189.6\" font-size=\"13\" font-family=\"system-ui,sans-serif\">12</text><text x=\"218.0\" y=\"155.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">12.3</text><text x=\"151.0\" y=\"288.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">y</text></svg>",
+      "options": {
+        "A": "\\(12x\\)",
+        "B": "\\(12y\\)",
+        "C": "\\(\\dfrac{1}{2}x+12\\)",
+        "D": "\\(12(x+y)\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "The area of a triangle is given by the formula \\(A=\\tfrac{1}{2}bh\\). According to the figure, \\(b=x\\) and \\(h=12\\) (the height is perpendicular to the base), so \\(A=\\tfrac{1}{2}(x)(12)=12x\\)."
+      }
+    },
+    {
+      "id": "GM10.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 49,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.3,\\ 0.7,\\ 1.5,\\ 2.0\\}\\). If \\(\\dfrac{6.3N}{1.8}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(0.3\\)",
+        "B": "\\(0.7\\)",
+        "C": "\\(1.5\\)",
+        "D": "\\(2.0\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{6.3N}{1.8}=\\dfrac{63N}{18}=\\dfrac{7N}{2}\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be an integer that is divisible by \\(2\\) in order for the entire fraction to be equal to an integer. The only integer divisible by \\(2\\) in the given set of numbers is \\(2.0\\), so (D) must be the answer."
+      }
+    },
+    {
+      "id": "GM10.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 50,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.6,\\ 1.5,\\ 2.0,\\ 4.0\\}\\). If \\(\\dfrac{8.1N}{3.6}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(0.6\\)",
+        "B": "\\(1.5\\)",
+        "C": "\\(2.0\\)",
+        "D": "\\(4.0\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{8.1N}{3.6}=\\dfrac{81N}{36}=\\dfrac{9N}{4}\\]\n\nLook carefully at this fraction. Since there is a \\(4\\) in the denominator, \\(N\\) must be an integer that is divisible by \\(4\\) in order for the entire fraction to be equal to an integer. The only integer divisible by \\(4\\) in the given set of numbers is \\(4.0\\), so (D) must be the answer."
+      }
+    },
+    {
+      "id": "GM10.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 51,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.3,\\ 0.9,\\ 1.4,\\ 2.0\\}\\). If \\(\\dfrac{5.5N}{2.2}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(0.3\\)",
+        "B": "\\(0.9\\)",
+        "C": "\\(1.4\\)",
+        "D": "\\(2.0\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{5.5N}{2.2}=\\dfrac{55N}{22}=\\dfrac{5N}{2}\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be an integer that is divisible by \\(2\\) in order for the entire fraction to be equal to an integer. The only integer divisible by \\(2\\) in the given set of numbers is \\(2.0\\), so (D) must be the answer."
+      }
+    },
+    {
+      "id": "GM20.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 52,
+      "question_type": "mc",
+      "question": "A shipping company uses the formula \\(C=\\dfrac{w}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(w\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. If the company wants to determine the weight of a package based on the total cost, which of the following represents the formula solved for \\(w\\)?",
+      "options": {
+        "A": "\\(w=k(C-b)\\)",
+        "B": "\\(w=kC-b\\)",
+        "C": "\\(w=\\dfrac{C-b}{k}\\)",
+        "D": "\\(w=\\dfrac{C+b}{k}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To solve this question, rearrange the equation so that \\(w\\) is alone on one side and everything else is on the other. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{w}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=w\\)."
+      }
+    },
+    {
+      "id": "GM20.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 53,
+      "question_type": "mc",
+      "question": "A shipping company uses the formula \\(C=\\dfrac{p}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(p\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. If the company wants to determine the weight of a package based on the total cost, which of the following represents the formula solved for \\(p\\)?",
+      "options": {
+        "A": "\\(p=k(C-b)\\)",
+        "B": "\\(p=kC-b\\)",
+        "C": "\\(p=\\dfrac{C-b}{k}\\)",
+        "D": "\\(p=\\dfrac{C+b}{k}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To solve this question, rearrange the equation so that \\(p\\) is alone on one side and everything else is on the other. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{p}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=p\\)."
+      }
+    },
+    {
+      "id": "GM20.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 54,
+      "question_type": "mc",
+      "question": "A shipping company uses the formula \\(C=\\dfrac{m}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(m\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. If the company wants to determine the weight of a package based on the total cost, which of the following represents the formula solved for \\(m\\)?",
+      "options": {
+        "A": "\\(m=k(C-b)\\)",
+        "B": "\\(m=kC-b\\)",
+        "C": "\\(m=\\dfrac{C-b}{k}\\)",
+        "D": "\\(m=\\dfrac{C+b}{k}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "To solve this question, rearrange the equation so that \\(m\\) is alone on one side and everything else is on the other. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{m}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=m\\)."
+      }
+    },
+    {
+      "id": "GM38.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 55,
+      "question_type": "mc",
+      "question": "For what values of \\(x\\) is the inequality true?\n\n\\[-3<\\dfrac{2x-1}{2}<5\\]",
+      "options": {
+        "A": "\\(\\dfrac{-5}{2}<x<\\dfrac{11}{2}\\)",
+        "B": "\\(-5<x<11\\)",
+        "C": "\\(\\dfrac{11}{2}<x<\\dfrac{-5}{2}\\)",
+        "D": "\\(-3<x<5\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Begin by multiplying every component of the inequality by \\(2\\): \\(-6<2x-1<10\\). Then add \\(1\\) to each component of the inequality: \\(-5<2x<11\\). Finally, divide every component by \\(2\\) to isolate \\(x\\): \\(\\dfrac{-5}{2}<x<\\dfrac{11}{2}\\)."
+      }
+    },
+    {
+      "id": "GM38.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 56,
+      "question_type": "mc",
+      "question": "For what values of \\(x\\) is the inequality true?\n\n\\[-5<\\dfrac{4x-3}{2}<6\\]",
+      "options": {
+        "A": "\\(\\dfrac{-7}{4}<x<\\dfrac{15}{4}\\)",
+        "B": "\\(-7<x<15\\)",
+        "C": "\\(\\dfrac{15}{4}<x<\\dfrac{-7}{4}\\)",
+        "D": "\\(\\dfrac{-5}{2}<x<3\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Begin by multiplying every component of the inequality by \\(2\\): \\(-10<4x-3<12\\). Then add \\(3\\) to each component of the inequality: \\(-7<4x<15\\). Finally, divide every component by \\(4\\) to isolate \\(x\\): \\(\\dfrac{-7}{4}<x<\\dfrac{15}{4}\\)."
+      }
+    },
+    {
+      "id": "GM38.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 57,
+      "question_type": "mc",
+      "question": "For what values of \\(x\\) is the inequality true?\n\n\\[-2<\\dfrac{3x-2}{2}<8\\]",
+      "options": {
+        "A": "\\(\\dfrac{-2}{3}<x<6\\)",
+        "B": "\\(-2<x<18\\)",
+        "C": "\\(6<x<\\dfrac{-2}{3}\\)",
+        "D": "\\(\\dfrac{-4}{3}<x<\\dfrac{16}{3}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Begin by multiplying every component of the inequality by \\(2\\): \\(-4<3x-2<16\\). Then add \\(2\\) to each component of the inequality: \\(-2<3x<18\\). Finally, divide every component by \\(3\\) to isolate \\(x\\): \\(\\dfrac{-2}{3}<x<6\\)."
+      }
+    },
+    {
+      "id": "GM45.1",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 58,
+      "question_type": "mc",
+      "question": "Bucket \\(A\\) and Bucket \\(B\\) each contain \\(\\dfrac{2}{3}\\) liters of chicken feed. If \\(\\dfrac{1}{4}\\) of the chicken feed in Bucket \\(A\\) is poured into Bucket \\(B\\), how much chicken feed is now in Bucket \\(B\\)?",
+      "options": {
+        "A": "\\(\\dfrac{5}{6}\\text{ liters}\\)",
+        "B": "\\(\\dfrac{2}{3}\\text{ liters}\\)",
+        "C": "\\(\\dfrac{1}{6}\\text{ liters}\\)",
+        "D": "\\(1\\text{ liter}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Bucket B currently contains \\(\\dfrac{2}{3}\\) liters of chicken feed. The question says that \\(\\dfrac{1}{4}\\) of the chicken feed in Bucket A is poured into Bucket B. Since Bucket A also contains \\(\\dfrac{2}{3}\\) liters of chicken feed, \\(\\dfrac{2}{3}\\times\\dfrac{1}{4}=\\dfrac{1}{6}\\) liters are poured into Bucket B. Bucket B now contains \\(\\dfrac{2}{3}+\\dfrac{1}{6}=\\dfrac{5}{6}\\) liters of chicken feed."
+      }
+    },
+    {
+      "id": "GM45.2",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 59,
+      "question_type": "mc",
+      "question": "Bucket \\(A\\) and Bucket \\(B\\) each contain \\(\\dfrac{5}{6}\\) liters of chicken feed. If \\(\\dfrac{2}{5}\\) of the chicken feed in Bucket \\(A\\) is poured into Bucket \\(B\\), how much chicken feed is now in Bucket \\(B\\)?",
+      "options": {
+        "A": "\\(1\\dfrac{1}{6}\\text{ liters}\\)",
+        "B": "\\(\\dfrac{5}{6}\\text{ liters}\\)",
+        "C": "\\(\\dfrac{1}{3}\\text{ liters}\\)",
+        "D": "\\(1\\dfrac{1}{4}\\text{ liters}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Bucket B currently contains \\(\\dfrac{5}{6}\\) liters of chicken feed. The question says that \\(\\dfrac{2}{5}\\) of the chicken feed in Bucket A is poured into Bucket B. Since Bucket A also contains \\(\\dfrac{5}{6}\\) liters of chicken feed, \\(\\dfrac{5}{6}\\times\\dfrac{2}{5}=\\dfrac{1}{3}\\) liters are poured into Bucket B. Bucket B now contains \\(\\dfrac{5}{6}+\\dfrac{1}{3}=1\\dfrac{1}{6}\\) liters of chicken feed."
+      }
+    },
+    {
+      "id": "GM45.3",
+      "origin": "PRACTICE_SET_8",
+      "q_number": 60,
+      "question_type": "mc",
+      "question": "Bucket \\(A\\) and Bucket \\(B\\) each contain \\(\\dfrac{4}{5}\\) liters of chicken feed. If \\(\\dfrac{1}{2}\\) of the chicken feed in Bucket \\(A\\) is poured into Bucket \\(B\\), how much chicken feed is now in Bucket \\(B\\)?",
+      "options": {
+        "A": "\\(1\\dfrac{1}{5}\\text{ liters}\\)",
+        "B": "\\(\\dfrac{4}{5}\\text{ liters}\\)",
+        "C": "\\(\\dfrac{2}{5}\\text{ liters}\\)",
+        "D": "\\(1\\dfrac{7}{10}\\text{ liters}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Bucket B currently contains \\(\\dfrac{4}{5}\\) liters of chicken feed. The question says that \\(\\dfrac{1}{2}\\) of the chicken feed in Bucket A is poured into Bucket B. Since Bucket A also contains \\(\\dfrac{4}{5}\\) liters of chicken feed, \\(\\dfrac{4}{5}\\times\\dfrac{1}{2}=\\dfrac{2}{5}\\) liters are poured into Bucket B. Bucket B now contains \\(\\dfrac{4}{5}+\\dfrac{2}{5}=1\\dfrac{1}{5}\\) liters of chicken feed."
+      }
+    }
+  ]
+}
