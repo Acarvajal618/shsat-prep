@@ -1,0 +1,161 @@
+{
+  "_schema": {
+    "description": "Practice Test A — ELA section. Reading passages with associated questions, sourced from Kaplan \"Learn with Atom\" screenshots. Each passage has its own question set.",
+    "id_format": "AR<NN> — Exam A, Reading, question number (continuous across passages).",
+    "answer_key_status": "PENDING — Kaplan's capture for this section did not include an answer-key/explanation view like the math captures did. Correct answers and solutions are not yet filled in; the user is tracking down the key separately.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency)."
+  },
+  "passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Snowy Mountains",
+      "author": "John Gould Fletcher",
+      "citation": "“Snowy Mountains” by John Gould Fletcher—Public Domain",
+      "lines": [
+        {"num": null, "text": "Higher and still more high,"},
+        {"num": null, "text": "Palaces made for cloud,"},
+        {"num": null, "text": "Above the dingy city-roofs"},
+        {"num": null, "text": "Blue-white like angels with broad wings,"},
+        {"num": 5, "text": "Pillars of the sky at rest"},
+        {"num": null, "text": "The mountains from the great plateau"},
+        {"num": null, "text": "Uprise."},
+        {"num": null, "text": ""},
+        {"num": null, "text": "But the world heeds them not;"},
+        {"num": null, "text": "They have been here now for too long a time."},
+        {"num": 10, "text": "The world makes war on them,"},
+        {"num": null, "text": "Tunnels their granite cliffs,"},
+        {"num": null, "text": "Splits down their shining sides,"},
+        {"num": null, "text": "Plasters their cliffs with soap-advertisements,"},
+        {"num": null, "text": "Destroys the lonely fragments of their peace."},
+        {"num": null, "text": ""},
+        {"num": 15, "text": "Vaster and still more vast,"},
+        {"num": null, "text": "Peak after peak, pile after pile,"},
+        {"num": null, "text": "Wilderness still untamed,"},
+        {"num": null, "text": "To which the future is as was the past,"},
+        {"num": null, "text": "Barrier spread by Gods,"},
+        {"num": 20, "text": "Sunning their shining foreheads,"},
+        {"num": null, "text": "Barrier broken down by those who do not need"},
+        {"num": null, "text": "The joy of time-resisting storm-worn stone,"},
+        {"num": null, "text": "The mountains swing along"},
+        {"num": null, "text": "The south horizon of the sky;"},
+        {"num": 25, "text": "Welcoming with wide floors of blue-green ice"},
+        {"num": null, "text": "The mists that dance and drive before the sun."}
+      ],
+      "questions": [
+        {
+          "id": "AR01",
+          "q_number": 1,
+          "question_type": "mc",
+          "question": "The description in the first stanza (lines 1–7) helps establish a central idea of the poem by",
+          "options": {
+            "A": "comparing the length of time the mountains have existed with the length of time the city has existed.",
+            "B": "contrasting the grandeur of the mountains with the structures in the city below them.",
+            "C": "implying that the mountains are a source of inspiration to the people in the city below.",
+            "D": "suggesting that the mountains are larger than the people in the city realize."
+          },
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR01.png",
+          "solution": null
+        },
+        {
+          "id": "AR02",
+          "q_number": 2,
+          "question_type": "mc",
+          "question": "Which detail from the poem reflects the speaker’s view that people often fail to appreciate what is familiar?",
+          "options": {
+            "A": "“The mountains from the great plateau” (line 6)",
+            "B": "“They have been here now for too long a time.” (line 9)",
+            "C": "“Splits down their shining sides,” (line 12)",
+            "D": "“To which the future is as was the past,” (line 18)"
+          },
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR02.png",
+          "solution": null
+        },
+        {
+          "id": "AR03",
+          "q_number": 3,
+          "question_type": "mc",
+          "question": "How does isolating the word “Uprise” in line 7 affect the meaning of the poem?",
+          "options": {
+            "A": "It creates a contrast between the great plateau and the city buildings.",
+            "B": "It reveals the similarity between the tall buildings in the city and the tall mountains on the horizon.",
+            "C": "It creates a vision of the region before people developed the land.",
+            "D": "It emphasizes that the mountains dominate the landscape."
+          },
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR03.png",
+          "solution": null
+        },
+        {
+          "id": "AR04",
+          "q_number": 4,
+          "question_type": "mc_multi",
+          "question": "In which **two** ways does the poet develop the speaker's point of view in the second stanza (lines 8–14)?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "by describing the mountains' awe-inspiring size and strength",
+            "B": "by comparing the various methods humans use to control nature",
+            "C": "by criticizing the careless actions of humans that harm the natural environment",
+            "D": "by demonstrating how the mountains and the people are able to benefit from each other",
+            "E": "by depicting the unfortunate plight of the mountains with vivid details"
+          },
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR04.png",
+          "solution": null
+        },
+        {
+          "id": "AR05",
+          "q_number": 5,
+          "question_type": "mc",
+          "question": "Read lines 21–22 from the poem.\n\n**Barrier broken down by those who do not need**\n**The joy of time-resisting storm-worn stone,**\n\nHow do the lines help convey the speaker's point of view?",
+          "options": {
+            "A": "They suggest that the speaker wants to remove the obstacles that prevent others from experiencing the wonders of nature.",
+            "B": "They reveal the speaker's opinion that some people are too busy to appreciate natural beauty.",
+            "C": "They reflect the speaker's dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
+            "D": "They explain that the speaker is confident that nature will never be fully destroyed by people."
+          },
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR05.png",
+          "solution": null
+        },
+        {
+          "id": "AR06",
+          "q_number": 6,
+          "question_type": "mc",
+          "question": "Read lines 23–26 from the poem.\n\n**The mountains swing along**\n**The south horizon of the sky;**\n**Welcoming with wide floors of blue-green ice**\n**The mists that dance and drive before the sun.**\n\nThe personification in these concluding lines of the poem suggests that the mountains are",
+          "options": {
+            "A": "gracious hosts who are untroubled by the actions of people.",
+            "B": "unaware of their coming destruction.",
+            "C": "lively entertainers who are amused by the everyday concerns of people.",
+            "D": "too proud to reveal their pain."
+          },
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR06.png",
+          "solution": null
+        },
+        {
+          "id": "AR07",
+          "q_number": 7,
+          "question_type": "sort_categories",
+          "question": "Which quotations from the poem support the theme that nature's unspoiled beauty is splendid, and which quotations support the theme that human creations detract from natural wonder?\n\nMove each answer to the correct box.",
+          "sort_items": [
+            {"id": "i1", "text": "“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4)"},
+            {"id": "i2", "text": "“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7)"},
+            {"id": "i3", "text": "“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12)"},
+            {"id": "i4", "text": "“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18)"},
+            {"id": "i5", "text": "“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25)"}
+          ],
+          "sort_categories": [
+            {"id": "c1", "label": "Nature's Unspoiled Beauty is Splendid"},
+            {"id": "c2", "label": "Human Creations Detract from Natural Wonder"}
+          ],
+          "correct": null,
+          "source_screenshot": "Problems/ELA_A/AR07.png",
+          "solution": null
+        }
+      ]
+    }
+  ]
+}
