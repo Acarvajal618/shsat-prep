@@ -87,6 +87,14 @@
     .tn-passage-linenum { flex: 0 0 24px; color: #888; font-size: 12px; text-align: right; padding-top: 2px; }
     .tn-passage-text { flex: 1; white-space: pre-wrap; }
     .tn-passage-citation { margin-top: 16px; font-size: 12px; color: #777; font-style: italic; }
+    .tn-passage-para { display: flex; gap: 10px; margin-bottom: 14px; }
+    .tn-passage-paranum {
+      flex: 0 0 20px; width: 20px; height: 20px; border-radius: 50%;
+      background: #333; color: #fff; font-size: 11px; font-weight: 700;
+      display: inline-flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .tn-passage-para .tn-passage-text { flex: 1; }
 
     .tn-question-pane { flex: 1; min-width: 0; }
     .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
@@ -326,12 +334,21 @@
       if (!p) { pane.innerHTML = ''; return; }
       let html = `<div class="tn-passage-title">${esc(p.title)}</div>`;
       if (p.author) html += `<div class="tn-passage-author">by ${esc(p.author)}</div>`;
-      (p.lines || []).forEach(line => {
-        html += `<div class="tn-passage-line">
-          <span class="tn-passage-linenum">${line.num ? line.num : ''}</span>
-          <span class="tn-passage-text">${esc(line.text) || '&nbsp;'}</span>
-        </div>`;
-      });
+      if (p.paragraphs) {
+        p.paragraphs.forEach(para => {
+          html += `<div class="tn-passage-para">
+            <span class="tn-passage-paranum">${para.num}</span>
+            <span class="tn-passage-text">${esc(para.text)}</span>
+          </div>`;
+        });
+      } else {
+        (p.lines || []).forEach(line => {
+          html += `<div class="tn-passage-line">
+            <span class="tn-passage-linenum">${line.num ? line.num : ''}</span>
+            <span class="tn-passage-text">${esc(line.text) || '&nbsp;'}</span>
+          </div>`;
+        });
+      }
       if (p.citation) html += `<div class="tn-passage-citation">${esc(p.citation)}</div>`;
       pane.innerHTML = html;
     }

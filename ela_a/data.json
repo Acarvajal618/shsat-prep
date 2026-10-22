@@ -2,7 +2,7 @@
   "_schema": {
     "description": "Practice Test A — ELA section. Reading passages with associated questions, sourced from Kaplan \"Learn with Atom\" screenshots. Each passage has its own question set.",
     "id_format": "AR<NN> — Exam A, Reading, question number (continuous across passages).",
-    "answer_key_status": "PENDING — Kaplan's capture for this section did not include an answer-key/explanation view like the math captures did. Correct answers and solutions are not yet filled in; the user is tracking down the key separately.",
+    "answer_key_status": "COMPLETE for Passage 1 (AR01-AR07) and Passage 2 (AR08-AR13), sourced from the Kaplan Exhibits answer-key panel.",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency)."
   },
   "passages": [
@@ -14,34 +14,118 @@
       "author": "John Gould Fletcher",
       "citation": "“Snowy Mountains” by John Gould Fletcher—Public Domain",
       "lines": [
-        {"num": null, "text": "Higher and still more high,"},
-        {"num": null, "text": "Palaces made for cloud,"},
-        {"num": null, "text": "Above the dingy city-roofs"},
-        {"num": null, "text": "Blue-white like angels with broad wings,"},
-        {"num": 5, "text": "Pillars of the sky at rest"},
-        {"num": null, "text": "The mountains from the great plateau"},
-        {"num": null, "text": "Uprise."},
-        {"num": null, "text": ""},
-        {"num": null, "text": "But the world heeds them not;"},
-        {"num": null, "text": "They have been here now for too long a time."},
-        {"num": 10, "text": "The world makes war on them,"},
-        {"num": null, "text": "Tunnels their granite cliffs,"},
-        {"num": null, "text": "Splits down their shining sides,"},
-        {"num": null, "text": "Plasters their cliffs with soap-advertisements,"},
-        {"num": null, "text": "Destroys the lonely fragments of their peace."},
-        {"num": null, "text": ""},
-        {"num": 15, "text": "Vaster and still more vast,"},
-        {"num": null, "text": "Peak after peak, pile after pile,"},
-        {"num": null, "text": "Wilderness still untamed,"},
-        {"num": null, "text": "To which the future is as was the past,"},
-        {"num": null, "text": "Barrier spread by Gods,"},
-        {"num": 20, "text": "Sunning their shining foreheads,"},
-        {"num": null, "text": "Barrier broken down by those who do not need"},
-        {"num": null, "text": "The joy of time-resisting storm-worn stone,"},
-        {"num": null, "text": "The mountains swing along"},
-        {"num": null, "text": "The south horizon of the sky;"},
-        {"num": 25, "text": "Welcoming with wide floors of blue-green ice"},
-        {"num": null, "text": "The mists that dance and drive before the sun."}
+        {
+          "num": null,
+          "text": "Higher and still more high,"
+        },
+        {
+          "num": null,
+          "text": "Palaces made for cloud,"
+        },
+        {
+          "num": null,
+          "text": "Above the dingy city-roofs"
+        },
+        {
+          "num": null,
+          "text": "Blue-white like angels with broad wings,"
+        },
+        {
+          "num": 5,
+          "text": "Pillars of the sky at rest"
+        },
+        {
+          "num": null,
+          "text": "The mountains from the great plateau"
+        },
+        {
+          "num": null,
+          "text": "Uprise."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "But the world heeds them not;"
+        },
+        {
+          "num": null,
+          "text": "They have been here now for too long a time."
+        },
+        {
+          "num": 10,
+          "text": "The world makes war on them,"
+        },
+        {
+          "num": null,
+          "text": "Tunnels their granite cliffs,"
+        },
+        {
+          "num": null,
+          "text": "Splits down their shining sides,"
+        },
+        {
+          "num": null,
+          "text": "Plasters their cliffs with soap-advertisements,"
+        },
+        {
+          "num": null,
+          "text": "Destroys the lonely fragments of their peace."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 15,
+          "text": "Vaster and still more vast,"
+        },
+        {
+          "num": null,
+          "text": "Peak after peak, pile after pile,"
+        },
+        {
+          "num": null,
+          "text": "Wilderness still untamed,"
+        },
+        {
+          "num": null,
+          "text": "To which the future is as was the past,"
+        },
+        {
+          "num": null,
+          "text": "Barrier spread by Gods,"
+        },
+        {
+          "num": 20,
+          "text": "Sunning their shining foreheads,"
+        },
+        {
+          "num": null,
+          "text": "Barrier broken down by those who do not need"
+        },
+        {
+          "num": null,
+          "text": "The joy of time-resisting storm-worn stone,"
+        },
+        {
+          "num": null,
+          "text": "The mountains swing along"
+        },
+        {
+          "num": null,
+          "text": "The south horizon of the sky;"
+        },
+        {
+          "num": 25,
+          "text": "Welcoming with wide floors of blue-green ice"
+        },
+        {
+          "num": null,
+          "text": "The mists that dance and drive before the sun."
+        }
       ],
       "questions": [
         {
@@ -55,9 +139,11 @@
             "C": "implying that the mountains are a source of inspiration to the people in the city below.",
             "D": "suggesting that the mountains are larger than the people in the city realize."
           },
-          "correct": null,
+          "correct": "B",
           "source_screenshot": "Problems/ELA_A/AR01.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question asks how the description in the first stanza (lines 1–7) helps establish a central idea of the poem.\n\nA. Incorrect. Details comparing the length of time the mountains have existed with the length of time the city has existed are referenced later in the poem.\n\nB. CORRECT. The poem is mostly about the grandeur of the mountains in spite of the spread of civilization. The first stanza contrasts these two elements.\n\nC. Incorrect. The poem actually communicates the message that people do not recognize the greatness of the mountains. This message is conveyed in the second stanza rather than in the first stanza.\n\nD. Incorrect. Although the first stanza mentions the size of the mountains, it does not imply that people cannot see how large the mountains are."
+          }
         },
         {
           "id": "AR02",
@@ -70,9 +156,11 @@
             "C": "“Splits down their shining sides,” (line 12)",
             "D": "“To which the future is as was the past,” (line 18)"
           },
-          "correct": null,
+          "correct": "B",
           "source_screenshot": "Problems/ELA_A/AR02.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question asks for the detail from the poem that reflects the speaker's view that people often fail to appreciate that which is familiar.\n\nA. Incorrect. Line 6 describes the mountains' location, rather than their long existence or their familiarity.\n\nB. CORRECT. Line 9 most directly supports this idea by implying that the mountains have been there for so long that people are accustomed to seeing them and no longer appreciate their beauty and value.\n\nC. Incorrect. In line 12, the mention of harm that has been done to the mountains does not connect to a sense of familiarity.\n\nD. Incorrect. Although line 18 alludes to the long existence of the mountains, it does not connect this long existence with a sense of familiarity or the failure of people to appreciate the mountains' worth."
+          }
         },
         {
           "id": "AR03",
@@ -85,9 +173,11 @@
             "C": "It creates a vision of the region before people developed the land.",
             "D": "It emphasizes that the mountains dominate the landscape."
           },
-          "correct": null,
+          "correct": "D",
           "source_screenshot": "Problems/ELA_A/AR03.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question asks how the isolation of the word “Uprise” in line 7 affects the meaning of the poem.\n\nA. Incorrect. The word “Uprise” describes the mountains and, therefore, does not create a contrast between the plateau and the city buildings; rather, it creates a contrast between the mountains and the plateau.\n\nB. Incorrect. The word “Uprise” contrasts the mountains with the plateau; it does not compare the mountains to the buildings in the city.\n\nC. Incorrect. The word “Uprise” does not create a vision of the region before people developed the land because the first stanza, which line 7 concludes, reveals that the land has already been developed. Line 3 establishes that the mountains rise “above the dingy city-roofs.”\n\nD. CORRECT. The isolation of the word “Uprise” powerfully emphasizes the first stanza's description of the magnificent mountains standing tall above the land below."
+          }
         },
         {
           "id": "AR04",
@@ -101,9 +191,14 @@
             "D": "by demonstrating how the mountains and the people are able to benefit from each other",
             "E": "by depicting the unfortunate plight of the mountains with vivid details"
           },
-          "correct": null,
+          "correct": [
+            "C",
+            "E"
+          ],
           "source_screenshot": "Problems/ELA_A/AR04.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question asks for the two ways in which the poet develops the speaker's point of view in the second stanza (lines 8–14).\n\nA. Incorrect. The speaker's descriptions of the mountains' awe-inspiring size and strength mainly occur in the first and third stanzas, while in the second stanza, the speaker focuses on humanity and its negative effect on the mountains.\n\nB. Incorrect. The wording of the second stanza—“makes war” (line 10), “Splits down their shining sides” (line 12), and “Destroys the lonely fragments” (line 14)—communicates the speaker's position that people's main impact on the mountains is destructive, but the stanza does not compare the various methods people use to control nature.\n\nC. CORRECT. In the second stanza, the speaker criticizes the careless and destructive actions of people that harm the mountains. The speaker cites the harm done to the mountains when people “[tunnel] their granite cliffs” (line 11) and “[split] down their shining sides” (line 12), thus “[destroying] the lonely fragments of their peace” (line 14).\n\nD. Incorrect. In the second stanza, the speaker does not describe a mutually beneficial relationship between the mountains and the people. Although people clearly derive benefits from the mountains by plastering “their cliffs with soap-advertisements” (line 13), the stanza does not demonstrate that the mountains receive any benefit from the harmful actions of the people.\n\nE. CORRECT. In the second stanza, the speaker depicts the unfortunate plight of the mountains with vivid details. Lines 11–14 feature expressive wording that sharply illustrates the mountains' misfortune: “Tunnels their granite cliffs, / Splits down their shining sides, / Plasters their cliffs with soap-advertisements.”"
+          }
         },
         {
           "id": "AR05",
@@ -116,9 +211,11 @@
             "C": "They reflect the speaker's dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
             "D": "They explain that the speaker is confident that nature will never be fully destroyed by people."
           },
-          "correct": null,
+          "correct": "C",
           "source_screenshot": "Problems/ELA_A/AR05.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question asks how lines 21–22 help convey the speaker's point of view.\n\nA. Incorrect. The word “barrier” (line 21) refers to the speaker's opinion that the mountains were “spread by Gods” (line 19) and not to an obstacle that the speaker thinks should be removed.\n\nB. Incorrect. While the lines indicate that people have lost the need to connect with nature, they do not reveal that the speaker thinks that the cause of this loss is busyness.\n\nC. CORRECT. The words “those who do not need / The joy” in lines 21–22 reflect the speaker's sadness that people do not realize that they are destroying something wonderful and irreplaceable.\n\nD. Incorrect. Although the speaker does say that the stone is “time-resisting” (line 22), this belief is only a small detail of the speaker's point of view."
+          }
         },
         {
           "id": "AR06",
@@ -131,9 +228,11 @@
             "C": "lively entertainers who are amused by the everyday concerns of people.",
             "D": "too proud to reveal their pain."
           },
-          "correct": null,
+          "correct": "A",
           "source_screenshot": "Problems/ELA_A/AR06.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question asks what the personification in the concluding lines of the poem suggests about the mountains.\n\nA. CORRECT. Line 25's use of the word “Welcoming” suggests that the mountains are kind hosts. Lines 23 and 26, with language such as “The mountains swing along” and “The mists that dance and drive before the sun,” imply the carefree nature of the mountains as they resist the destructive work of humanity.\n\nB. Incorrect. The personification in the lines conveys a sense of optimism and endurance, with no language to suggest coming destruction.\n\nC. Incorrect. Although the lines mention that “the mountains swing along” (line 23) and “the mists . . . dance” (line 26), the personification is used to describe the mountains' perseverance, rather than to suggest that the mountains are amused by the concerns of others.\n\nD. Incorrect. Although the second stanza develops the idea that the mountains have been mistreated by humans, which might be a source of pain, the concluding lines emphasize the joy and perseverance of the mountains as they “swing along” (line 23) despite significant adversity."
+          }
         },
         {
           "id": "AR07",
@@ -141,19 +240,174 @@
           "question_type": "sort_categories",
           "question": "Which quotations from the poem support the theme that nature's unspoiled beauty is splendid, and which quotations support the theme that human creations detract from natural wonder?\n\nMove each answer to the correct box.",
           "sort_items": [
-            {"id": "i1", "text": "“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4)"},
-            {"id": "i2", "text": "“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7)"},
-            {"id": "i3", "text": "“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12)"},
-            {"id": "i4", "text": "“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18)"},
-            {"id": "i5", "text": "“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25)"}
+            {
+              "id": "i1",
+              "text": "“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4)"
+            },
+            {
+              "id": "i2",
+              "text": "“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7)"
+            },
+            {
+              "id": "i3",
+              "text": "“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12)"
+            },
+            {
+              "id": "i4",
+              "text": "“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18)"
+            },
+            {
+              "id": "i5",
+              "text": "“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25)"
+            }
           ],
           "sort_categories": [
-            {"id": "c1", "label": "Nature's Unspoiled Beauty is Splendid"},
-            {"id": "c2", "label": "Human Creations Detract from Natural Wonder"}
+            {
+              "id": "c1",
+              "label": "Nature's Unspoiled Beauty is Splendid"
+            },
+            {
+              "id": "c2",
+              "label": "Human Creations Detract from Natural Wonder"
+            }
           ],
-          "correct": null,
+          "correct": {
+            "i1": "c2",
+            "i2": "c1",
+            "i3": "c2",
+            "i4": "c1",
+            "i5": "c1"
+          },
           "source_screenshot": "Problems/ELA_A/AR07.png",
-          "solution": null
+          "solution": {
+            "exhibit_text": "The question identifies two themes and asks which quotations from the poem support each theme.\n\n“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4) — Human Creations Detract from Natural Wonder. The lines describe the city-roofs as “dingy,” suggesting that they mar the lovely background of the blue-white mountains, which are compared to angels. The description primarily serves to contrast the city's unsightly appearance with the beauty of the mountains.\n\n“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7) — Nature's Unspoiled Beauty is Splendid. By describing the mountains as “pillars of the sky” that “uprise” dramatically from a large plateau, the lines convey a sense of the mountains' dramatic and impressive size, a powerful image of an unspoiled, natural landscape.\n\n“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12) — Human Creations Detract from Natural Wonder. The words “tunnels” and “splits” emphasize that human intervention in nature is destructive, breaking apart the “shining sides” of the mountain, diminishing its beauty and serenity.\n\n“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18) — Nature's Unspoiled Beauty is Splendid. The phrase indicates that the natural mountainous landscape is both splendid and unspoiled (“wilderness still untamed”), and that this unspoiled state is timeless or eternal.\n\n“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25) — Nature's Unspoiled Beauty is Splendid. The reference to the “wide floors of blue-green ice” emphasizes that the landscape is beautiful, majestically “welcoming” one's eye and inviting appreciation of its unspoiled beauty."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Best Laid Plans of Ravens",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "In Edgar Allan Poe’s poem “The Raven,” a raven visits a lonely man’s home and responds to the man’s pleading questions with only the word “nevermore.” The poem’s narrator interprets the word as a prediction of doom for his future. A talking, prophetic raven may seem to be the wild imaginings of the poet, but a new study published in the journal Science hints that one particular idea behind the poem might not be as far-fetched as it seems. For most of human history, people assumed that animals do not understand the passage of time in the same way people do. Some people believed that animals might remember events from the past and that instinct might drive them to make preparations in order to guarantee survival, but most people did not think that animals had the ability to plan. At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future."
+        },
+        {
+          "num": 2,
+          "text": "It can be difficult to test an animal’s ability to plan because human observers must be certain they are not mistaking instinctual behavior for intentional planning. For example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual. Cognitive scientists argue that in order for an animal’s behavior to qualify as preparing for the future, the animal must use specific decision-making skills to solve a problem."
+        },
+        {
+          "num": 3,
+          "text": "To avoid mistaking instinctual behavior for evidence of decision-making, the Lund University researchers designed two experiments to test ravens’ ability to plan. Ravens belong to the corvid family, a group of birds known for their intelligence. A study in 2007 showed that corvids have the tendency to save only certain types of food, which suggests that they are planning for the future rather than acting on instinct. In order to investigate that theory, the researchers had to design experiments that would achieve results that could not be explained by an instinctual behavior of food hoarding. Therefore, the ravens were taught two behaviors that they do not normally perform in the wild."
+        },
+        {
+          "num": 4,
+          "text": "For the first experiment, the researchers showed the birds how to use a small stone to open a box and get treats. Once the ravens learned the behavior, the researchers presented the birds with four stones. Only one stone was the right size to open the box. The birds learned to select that stone and set it aside until the researchers presented the box. The second experiment involved bartering. A researcher would trade the ravens a large treat for a bottle cap. Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap. The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats. In both experiments, the ravens waited patiently for up to seventeen hours for the researcher to return."
+        },
+        {
+          "num": 5,
+          "text": "The results of these experiments are exciting, but more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future. Some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead. Regardless, like other recent advances in animal science, these experiments show that ravens could be much smarter than first believed, and scientists now believe that ravens do actually think about their own future."
+        }
+      ],
+      "questions": [
+        {
+          "id": "AR08",
+          "q_number": 8,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 1.\n\n**At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future.**\n\nWhich sentence from paragraph 4 provides support for this argument?",
+          "options": {
+            "A": "“Once the ravens learned the behavior, the researchers presented the birds with four stones.”",
+            "B": "“A researcher would trade the ravens a large treat for a bottle cap.”",
+            "C": "“Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap.”",
+            "D": "“The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats.”"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks which sentence from paragraph 4 supports the argument presented in the sentence from paragraph 1.\n\nA. Incorrect. This sentence from paragraph 4 refers to the ravens’ ability to adapt and learn but not to plan and think ahead.\n\nB. Incorrect. This sentence from paragraph 4 relates the actions of the researcher rather than the actions of the ravens and does not provide evidence in support of the argument that ravens have the ability to think and plan ahead.\n\nC. Incorrect. This sentence from paragraph 4 does not describe a behavior of the ravens that would support the argument in the sentence from paragraph 1; instead it relates the actions of the researchers without giving any information about the ravens’ responses.\n\nD. CORRECT. This sentence from paragraph 4 shows that the ravens seem to make a decision, which involves a thought process. The ravens chose to wait for the researcher rather than take the treats, suggesting that the ravens understood that the researcher would trade a larger treat for the bottle cap."
+          }
+        },
+        {
+          "id": "AR09",
+          "q_number": 9,
+          "question_type": "mc",
+          "question": "Read these sentences from paragraph 2.\n\n**For example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual.**\n\nWhich statement describes the effect of the phrase “merely instinctual” in the passage?",
+          "options": {
+            "A": "It implies that animals are skilled at finding and saving food for later consumption.",
+            "B": "It conveys that many animals will usually prioritize gathering food over other activities.",
+            "C": "It suggests that animals often store more food than they will be able to consume.",
+            "D": "It emphasizes that many animals collect food automatically rather than with true intention."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks which statement describes the effect in the passage of the phrase “merely instinctual” from paragraph 2.\n\nA. Incorrect. The passage does not question animals’ ability to find and save food but rather whether this or other behavior involves thought and planning for the future.\n\nB. Incorrect. While the sentence states that “many animals hoard food,” the passage does not suggest that they give priority of thought to this activity; they hoard food out of instinct.\n\nC. Incorrect. Although the passage discusses animals’ tendency to store a great deal of food, it does not suggest that their hoarding goes beyond their needs.\n\nD. CORRECT. The passage suggests that in order for an animal’s actions to qualify as planning for the future, “the animal must use specific decision-making skills to solve a problem” (paragraph 2). The behavior of hoarding food is based on instinct and done automatically without real thought."
+          }
+        },
+        {
+          "id": "AR10",
+          "q_number": 10,
+          "question_type": "mc",
+          "question": "In the first experiment described in paragraph 4, which of the ravens’ behaviors provides the strongest evidence for the claim that the birds are capable of planning?",
+          "options": {
+            "A": "They accepted treats from the box.",
+            "B": "They set aside the stone that would open the box.",
+            "C": "They learned which stone could open the box.",
+            "D": "They waited for researchers to bring the box."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks which of the ravens’ behaviors in the first experiment described in paragraph 4 most strongly supports the claim that the birds are capable of planning.\n\nA. Incorrect. While “the researchers showed the birds how to use a small stone to open a box and get treats” (paragraph 4), the acceptance of the treats does not demonstrate planning.\n\nB. CORRECT. Once the ravens learned which stone would open the box, they consistently selected only that stone.\n\nC. Incorrect. Although the birds learned which stone opened the box, this behavior demonstrates not their ability to plan but rather their intelligence.\n\nD. Incorrect. The birds’ patience shows their anticipation for and understanding of the future gain of a treat but does not provide the strongest evidence of their ability to plan."
+          }
+        },
+        {
+          "id": "AR11",
+          "q_number": 11,
+          "question_type": "mc",
+          "question": "How does paragraph 5 fit into the overall structure of the passage and contribute to the development of ideas?",
+          "options": {
+            "A": "It introduces a problem with the results of the study at Lund University, suggesting that some scientists believe that further research will not lead to a clear answer.",
+            "B": "It summarizes the final steps of the study at Lund University, emphasizing the difficulties researchers had in differentiating between true planning and practiced actions.",
+            "C": "It provides a conclusion to the information about the Lund University study, indicating that some scientists think further research is needed in order to prove the idea.",
+            "D": "It lists the effects of the study at Lund University, implying that researchers should have designed experiments that better differentiated between planning and instinct."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks how paragraph 5 fits into the overall structure of the passage and contributes to the development of ideas.\n\nA. Incorrect. While paragraph 5 states that “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future,” this statement suggests that more research is needed, not that the results of the Lund University study are problematic.\n\nB. Incorrect. Paragraph 5 does not discuss steps of the study or emphasize difficulties in determining whether the behaviors shown in the study were planned or practiced; instead it simply suggests that more study is required to make such a determination.\n\nC. CORRECT. Paragraph 5 notes that some doubt remains (“Some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead”) and that more experimentation is needed; the author concludes that there is reason to believe the originally stated theory that ravens are quite smart and can give thought to how future events may affect them.\n\nD. Incorrect. Paragraph 5 does not list the effects of the study or criticize the experiment for not differentiating between planning and instinct. The paragraph explains why the results of the experiments are not conclusive and emphasizes that more research is needed."
+          }
+        },
+        {
+          "id": "AR12",
+          "q_number": 12,
+          "question_type": "mc",
+          "question": "The author conveys a point of view on the study of animal intelligence **mainly** by",
+          "options": {
+            "A": "sharing details about experiments that tested the ability of an animal to plan for the future.",
+            "B": "comparing the results of different experiments that were designed to test animal intelligence.",
+            "C": "critiquing experiments that aimed to demonstrate that certain animals are capable of planning for the future.",
+            "D": "explaining how modern experiments show that previously held beliefs about animal intelligence are inaccurate."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how the author conveys a point of view on the study of animal intelligence.\n\nA. CORRECT. Paragraphs 3 and 4 focus on the process and details of the experiments that scientists conducted. This detailed information from the author provides a sense of how the ravens demonstrated planning abilities beyond natural instinct. The author supports the claims from the experiments, calling the findings “exciting” and stating in the conclusion that “these experiments show that ravens could be much smarter than first believed” (paragraph 5).\n\nB. Incorrect. Although two experiments are described in the passage, the description presents the experiments as building on each other and does not compare their results. The passage states that “these experiments show that ravens could be much smarter than first believed, and scientists now believe that ravens do actually think about their own future” (paragraph 5).\n\nC. Incorrect. The author presents information from the experiments and the results that were gathered from them; while there is an admission that “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future” (paragraph 5), the author does not criticize the experiments that are presented.\n\nD. Incorrect. While the author does discuss some previously held beliefs about animal intelligence in paragraph 1, the focus of the passage is that experiments indicate that there is reason to question these beliefs, since “these experiments show that ravens could be much smarter than first believed” (paragraph 5). The previously held beliefs are not considered inaccurate by the discussion in the passage because only one example—the raven—is provided. The passage does not state that beliefs about animal intelligence as a whole are inaccurate."
+          }
+        },
+        {
+          "id": "AR13",
+          "q_number": 13,
+          "question_type": "mc",
+          "question": "With which statement would the author of the passage **most likely** agree?",
+          "options": {
+            "A": "Scientists are unlikely to be able to conduct an experiment that can genuinely distinguish between instinctual and learned behaviors in animals.",
+            "B": "Scientists should continue researching to determine whether or not animals can demonstrate advanced intelligence.",
+            "C": "Scientists should be careful about making conclusions about animal intelligence based on experiments that rely on training animals.",
+            "D": "Scientists can confirm data on whether animals have the ability to plan by performing experiments on additional species known for their intelligence."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks the reader to choose the statement with which the author of the passage would most likely agree.\n\nA. Incorrect. It is very likely that additional experiments or changes to the experiments presented can help scientists tell the difference between the types of behavior that the animals are showing. The current research supports “other recent advances in animal science” and also shows that ravens are “much smarter” (paragraph 5) than previously believed, making them excellent candidates for further research.\n\nB. CORRECT. As paragraph 5 notes, “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future.” The evidence is not yet considered definitive because “some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead” (paragraph 5). Therefore, more research is needed in order to draw a complete conclusion as to whether or not the animals are demonstrating advanced intelligence or simply the results of training.\n\nC. Incorrect. The passage shows that the scientists did not draw conclusions based on one experiment alone. The passage also states in paragraph 5 that additional research and experiments are necessary in order to obtain conclusive evidence of ravens’ abilities to think and plan ahead.\n\nD. Incorrect. The passage claims that more evidence must be gathered in order to make a claim that animals can definitely plan for the future. The evidence presented helps scientists “believe that ravens do actually think about their own future” (paragraph 5), but more confirmation is needed. The passage does not discuss performing experiments on additional species."
+          }
         }
       ]
     }
