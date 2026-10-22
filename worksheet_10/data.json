@@ -1,0 +1,267 @@
+{
+  "_schema": {
+    "description": "Practice Set 10 (10/22) \u2014 reinforcement for the 5 skills still missed after reviewing the 10/17 set (GM05, GM10, GM14, FM44, FM47). 3 new variants each. Not an official exam.",
+    "id_format": "<SourceID>.<variant> \u2014 points back to the original exam question it's a variant of.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "questions": [
+    {
+      "id": "GM05.1",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "In a certain city, electricity usage in one month was \\(8,000,000\\) watts. The following month, usage was \\(6,000,000\\) watts. By what percentage did the electricity usage decrease?",
+      "options": {
+        "A": "\\(15\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(20\\%\\)",
+        "D": "\\(30\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find percent change, divide the amount of change by the original amount.\n\n\\(8,000,000-6,000,000=2,000,000\\). This is the amount of change.\n\n\\[\\dfrac{2,000,000}{8,000,000}=1/4=25\\%\\]"
+      }
+    },
+    {
+      "id": "GM05.2",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "In a certain city, electricity usage in one month was \\(20,000,000\\) watts. The following month, usage was \\(18,000,000\\) watts. By what percentage did the electricity usage decrease?",
+      "options": {
+        "A": "\\(8\\%\\)",
+        "B": "\\(10\\%\\)",
+        "C": "\\(20\\%\\)",
+        "D": "\\(12.5\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find percent change, divide the amount of change by the original amount.\n\n\\(20,000,000-18,000,000=2,000,000\\). This is the amount of change.\n\n\\[\\dfrac{2,000,000}{20,000,000}=1/10=10\\%\\]"
+      }
+    },
+    {
+      "id": "GM05.3",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "In a certain city, electricity usage in one month was \\(10,000,000\\) watts. The following month, usage was \\(4,000,000\\) watts. By what percentage did the electricity usage decrease?",
+      "options": {
+        "A": "\\(50\\%\\)",
+        "B": "\\(60\\%\\)",
+        "C": "\\(40\\%\\)",
+        "D": "\\(67\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "To find percent change, divide the amount of change by the original amount.\n\n\\(10,000,000-4,000,000=6,000,000\\). This is the amount of change.\n\n\\[\\dfrac{6,000,000}{10,000,000}=3/5=60\\%\\]"
+      }
+    },
+    {
+      "id": "GM10.1",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.6,\\ 1.4,\\ 2.2,\\ 4.0\\}\\). If \\(\\dfrac{6.3N}{1.8}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(0.6\\)",
+        "B": "\\(1.4\\)",
+        "C": "\\(2.2\\)",
+        "D": "\\(4.0\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{6.3N}{1.8}=7/2N\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be a value that makes \\(7N\\) a multiple of \\(2\\) for the entire expression to equal an integer. Testing the given values, only \\(4.0\\) works: \\(7/2\\times4.0=14\\), an integer. So (D) is correct."
+      }
+    },
+    {
+      "id": "GM10.2",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.9,\\ 1.7,\\ 2.5,\\ 6.0\\}\\). If \\(\\dfrac{10.5N}{3.0}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(0.9\\)",
+        "B": "\\(1.7\\)",
+        "C": "\\(2.5\\)",
+        "D": "\\(6.0\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{10.5N}{3.0}=7/2N\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be a value that makes \\(7N\\) a multiple of \\(2\\) for the entire expression to equal an integer. Testing the given values, only \\(6.0\\) works: \\(7/2\\times6.0=21\\), an integer. So (D) is correct."
+      }
+    },
+    {
+      "id": "GM10.3",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{1.3,\\ 2.9,\\ 4.5,\\ 10.0\\}\\). If \\(\\dfrac{17.5N}{5.0}\\) is an integer, what is \\(N\\)?",
+      "options": {
+        "A": "\\(1.3\\)",
+        "B": "\\(2.9\\)",
+        "C": "\\(4.5\\)",
+        "D": "\\(10.0\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{17.5N}{5.0}=7/2N\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be a value that makes \\(7N\\) a multiple of \\(2\\) for the entire expression to equal an integer. Testing the given values, only \\(10.0\\) works: \\(7/2\\times10.0=35\\), an integer. So (D) is correct."
+      }
+    },
+    {
+      "id": "GM14.1",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "Using the table of equivalent currencies above, how many euros must be exchanged for \\(36\\) rupees and \\(20\\) U.S. dollars?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Euro</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.75</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Franc</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1.25</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Rupee</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.25</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(123\\)",
+        "B": "\\(216\\)",
+        "C": "\\(133\\)",
+        "D": "\\(15\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Proportions are the key to conversion questions like this. The Euro rate is \\(0.75\\) and the Rupee rate is \\(0.25\\), so \\(0.75\\div0.25=3\\). This means \\(3\\) euros are needed for every \\(1\\) rupee, so \\(36\\times3=108\\) euros are needed for \\(36\\) rupees.\n\nDon't forget to convert the dollars too! Since \\(1\\) U.S. dollar \\(=0.75\\) euros, \\(20\\) U.S. dollars \\(=20\\times0.75=15\\) euros.\n\nAdd \\(108+15=123\\) euros."
+      }
+    },
+    {
+      "id": "GM14.2",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "Using the table of equivalent currencies above, how many pesos must be exchanged for \\(7\\) francs and \\(3\\) U.S. dollars?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Peso</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>20</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Rand</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Franc</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>2</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(130\\)",
+        "B": "\\(145\\)",
+        "C": "\\(140\\)",
+        "D": "\\(60\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Proportions are the key to conversion questions like this. The Peso rate is \\(20\\) and the Franc rate is \\(2\\), so \\(20\\div2=10\\). This means \\(10\\) pesos are needed for every \\(1\\) franc, so \\(7\\times10=70\\) pesos are needed for \\(7\\) francs.\n\nDon't forget to convert the dollars too! Since \\(1\\) U.S. dollar \\(=20\\) pesos, \\(3\\) U.S. dollars \\(=3\\times20=60\\) pesos.\n\nAdd \\(70+60=130\\) pesos."
+      }
+    },
+    {
+      "id": "GM14.3",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "Using the table of equivalent currencies above, how many kronas must be exchanged for \\(15\\) dirhams and \\(6\\) U.S. dollars?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Krona</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>8</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Baht</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>30</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Dirham</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>4</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(48\\)",
+        "B": "\\(78\\)",
+        "C": "\\(60\\)",
+        "D": "\\(88\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "letter": "B",
+        "exhibit_text": "Proportions are the key to conversion questions like this. The Krona rate is \\(8\\) and the Dirham rate is \\(4\\), so \\(8\\div4=2\\). This means \\(2\\) kronas are needed for every \\(1\\) dirham, so \\(15\\times2=30\\) kronas are needed for \\(15\\) dirhams.\n\nDon't forget to convert the dollars too! Since \\(1\\) U.S. dollar \\(=8\\) kronas, \\(6\\) U.S. dollars \\(=6\\times8=48\\) kronas.\n\nAdd \\(30+48=78\\) kronas."
+      }
+    },
+    {
+      "id": "FM47.1",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a+2}{b+2}\\), and \\(a\\) and \\(b\\) do not equal \\(-2\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
+      "options": {
+        "A": "\\(\\dfrac{2a+2b}{2b+2}\\)",
+        "B": "\\(\\dfrac{2a+2}{2b+2}\\)",
+        "C": "\\(\\dfrac{ab+2a}{ab+2b}\\)",
+        "D": "1"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Substitute the values of \\(R\\) and \\(S\\) into \\(\\dfrac{R}{S}\\) and simplify:\n\n\\[\\dfrac{R}{S}=\\dfrac{a}{b}\\div\\dfrac{a+2}{b+2}=\\dfrac{a}{b}\\times\\dfrac{b+2}{a+2}=\\dfrac{a(b+2)}{b(a+2)}\\]\n\nDistributing gives \\(\\dfrac{ab+2a}{ab+2b}\\)."
+      }
+    },
+    {
+      "id": "FM47.2",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a+3}{b+3}\\), and \\(a\\) and \\(b\\) do not equal \\(-3\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
+      "options": {
+        "A": "\\(\\dfrac{2a+3b}{2b+3}\\)",
+        "B": "\\(\\dfrac{2a+3}{2b+3}\\)",
+        "C": "\\(\\dfrac{ab+3a}{ab+3b}\\)",
+        "D": "1"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Substitute the values of \\(R\\) and \\(S\\) into \\(\\dfrac{R}{S}\\) and simplify:\n\n\\[\\dfrac{R}{S}=\\dfrac{a}{b}\\div\\dfrac{a+3}{b+3}=\\dfrac{a}{b}\\times\\dfrac{b+3}{a+3}=\\dfrac{a(b+3)}{b(a+3)}\\]\n\nDistributing gives \\(\\dfrac{ab+3a}{ab+3b}\\)."
+      }
+    },
+    {
+      "id": "FM47.3",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a-1}{b-1}\\), and \\(a\\) and \\(b\\) do not equal \\(1\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
+      "options": {
+        "A": "\\(\\dfrac{2a-b}{2b-1}\\)",
+        "B": "\\(\\dfrac{2a-1}{2b-1}\\)",
+        "C": "\\(\\dfrac{ab-a}{ab-b}\\)",
+        "D": "1"
+      },
+      "correct": "C",
+      "solution": {
+        "letter": "C",
+        "exhibit_text": "Substitute the values of \\(R\\) and \\(S\\) into \\(\\dfrac{R}{S}\\) and simplify:\n\n\\[\\dfrac{R}{S}=\\dfrac{a}{b}\\div\\dfrac{a-1}{b-1}=\\dfrac{a}{b}\\times\\dfrac{b-1}{a-1}=\\dfrac{a(b-1)}{b(a-1)}\\]\n\nDistributing gives \\(\\dfrac{ab-a}{ab-b}\\)."
+      }
+    },
+    {
+      "id": "FM44.1",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "In a recent survey, 70% of the people polled were registered voters and 60% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{3}{10}\\)",
+        "B": "\\(\\dfrac{21}{50}\\)",
+        "C": "\\(\\dfrac{7}{10}\\)",
+        "D": "\\(\\dfrac{7}{25}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Pick \\(100\\) as the total number of people surveyed. \\(70\\%\\) of \\(100\\) is \\(70\\), so \\(70\\) people were registered voters. \\(60\\%\\) of those \\(70\\) registered voters voted, which is \\(60\\%\\times70=42\\) people. So \\(70-42=28\\) registered voters did **not** vote. The fraction of the total who were registered but did not vote is \\(\\dfrac{28}{100}\\)=\\(\\dfrac{7}{25}\\)."
+      }
+    },
+    {
+      "id": "FM44.2",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "In a recent survey, 90% of the people polled were registered voters and 80% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{9}{50}\\)",
+        "B": "\\(\\dfrac{18}{25}\\)",
+        "C": "\\(\\dfrac{9}{10}\\)",
+        "D": "\\(\\dfrac{1}{10}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "letter": "A",
+        "exhibit_text": "Pick \\(100\\) as the total number of people surveyed. \\(90\\%\\) of \\(100\\) is \\(90\\), so \\(90\\) people were registered voters. \\(80\\%\\) of those \\(90\\) registered voters voted, which is \\(80\\%\\times90=72\\) people. So \\(90-72=18\\) registered voters did **not** vote. The fraction of the total who were registered but did not vote is \\(\\dfrac{18}{100}\\)=\\(\\dfrac{9}{50}\\)."
+      }
+    },
+    {
+      "id": "FM44.3",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "In a recent survey, 75% of the people polled were registered voters and 60% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{3}{4}\\)",
+        "B": "\\(\\dfrac{9}{20}\\)",
+        "C": "\\(\\dfrac{1}{4}\\)",
+        "D": "\\(\\dfrac{3}{10}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "letter": "D",
+        "exhibit_text": "Pick \\(100\\) as the total number of people surveyed. \\(75\\%\\) of \\(100\\) is \\(75\\), so \\(75\\) people were registered voters. \\(60\\%\\) of those \\(75\\) registered voters voted, which is \\(60\\%\\times75=45\\) people. So \\(75-45=30\\) registered voters did **not** vote. The fraction of the total who were registered but did not vote is \\(\\dfrac{30}{100}\\)=\\(\\dfrac{3}{10}\\)."
+      }
+    }
+  ]
+}
