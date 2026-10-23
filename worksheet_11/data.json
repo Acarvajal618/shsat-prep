@@ -1,10 +1,10 @@
 {
   "_schema": {
-    "description": "Practice Set 11 (10/23) — mixed set: 20 math variants (1 new question each, from 20 randomly selected already-tested skills), ELA Passage 2 (“The Best Laid Plans of Ravens”) reused verbatim from ela_a/data.json, and 5 newly generated pronoun grammar questions. Not an official exam.",
+    "description": "Practice Set 11 (10/23) — mixed set: 20 math variants (1 new question each, from 20 randomly selected already-tested skills), ELA Passage 2 (“The Best Laid Plans of Ravens”) reused verbatim from ela_a/data.json, and 10 newly generated pronoun grammar questions, scoped to the two pronoun error types actually tested in Exam A (vague/ambiguous reference and singular/plural agreement). Not an official exam.",
     "sections": {
       "math": "q_number 1-20, id_format <SourceID>.1 pointing back to the original exam question",
       "ela": "q_number 21-26, Passage 2 reused verbatim (same AR08-AR13 ids/content as ela_a/data.json)",
-      "grammar": "q_number 27-31, id_format GR<NN>, newly generated pronoun-skill questions in the Stand Alone Items style"
+      "grammar": "q_number 27-36, id_format GR<NN>, newly generated pronoun-skill questions (vague reference + agreement only, matching Exam A's actual error types) in the Stand Alone Items style"
     },
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
   },
@@ -459,7 +459,92 @@
       "id": "GR01",
       "q_number": 27,
       "question_type": "mc",
-      "stimulus": "(1) The museum recently added a new wing. (2) Every visitor must leave their coat and bag in a locker before entering. (3) Lockers are available near the main entrance. (4) Staff members can help visitors use the lockers if needed.",
+      "stimulus": "(1) Jamal and his younger brother Darius spent all afternoon at the skate park. (2) Several older skaters practiced tricks near the ramps. (3) When he fell off his board near the top of the ramp, the other skaters stopped to make sure everyone was okay. (4) Both brothers thanked the group before heading home.",
+      "question": "Which sentence contains a vague pronoun reference?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. Incorrect. Sentence 1 names both “Jamal” and “Darius” directly, so there is no ambiguity.\n\nB. Incorrect. Sentence 2 does not contain a pronoun that could refer to more than one person.\n\nC. CORRECT. The pronoun “he” could refer to either “Jamal” or “Darius,” since both are mentioned earlier in the paragraph. It is unclear which brother fell off his board.\n\nD. Incorrect. Sentence 4 uses “Both brothers” directly, so there is no ambiguity about who is being discussed."
+      }
+    },
+    {
+      "id": "GR02",
+      "q_number": 28,
+      "question_type": "mc",
+      "stimulus": "(1) Mrs. Alvarez and her daughter Teresa planted a vegetable garden behind their house. (2) They chose tomatoes, peppers, and herbs for the first growing season. (3) Every morning before work, she checks the soil and waters the plants. (4) By midsummer, the garden was full of ripe vegetables.",
+      "question": "Which sentence contains a vague pronoun reference?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. Incorrect. Sentence 1 names both “Mrs. Alvarez” and “Teresa,” so there is no ambiguity.\n\nB. Incorrect. The pronoun “They” in sentence 2 clearly refers to both Mrs. Alvarez and Teresa together, which is not ambiguous.\n\nC. CORRECT. The pronoun “she” could refer to either “Mrs. Alvarez” or “Teresa,” since both are mentioned earlier in the paragraph. It is unclear which person checks the soil and waters the plants each morning.\n\nD. Incorrect. Sentence 4 does not contain a pronoun that could refer to more than one person."
+      }
+    },
+    {
+      "id": "GR03",
+      "q_number": 29,
+      "question_type": "mc",
+      "stimulus": "(1) Mr. Brooks met with Oscar after school to review the science project. (2) The two had been working on a volcano model for almost two weeks. (3) He explained that the eruption needed more baking soda to work properly. (4) Oscar promised to fix the model before the science fair.",
+      "question": "Which sentence contains a vague pronoun reference?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. Incorrect. Sentence 1 names both “Mr. Brooks” and “Oscar,” so there is no ambiguity.\n\nB. Incorrect. Sentence 2 does not contain a pronoun that could refer to more than one person.\n\nC. CORRECT. The pronoun “He” could refer to either “Mr. Brooks” or “Oscar,” since both are mentioned earlier in the paragraph. It is unclear which person explained that the eruption needed more baking soda.\n\nD. Incorrect. Sentence 4 names “Oscar” directly, so there is no ambiguity."
+      }
+    },
+    {
+      "id": "GR04",
+      "q_number": 30,
+      "question_type": "mc",
+      "stimulus": "(1) Workers repaired the old bridge after years of damage from the river below. (2) Heavy storms that year had worn down both structures badly. (3) Engineers said it would need regular maintenance to prevent further erosion. (4) The town celebrated when the repairs were finally finished.",
+      "question": "Which sentence contains a vague pronoun reference?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. Incorrect. Sentence 1 names both “the old bridge” and “the river,” so there is no ambiguity yet.\n\nB. Incorrect. Sentence 2 refers to “both structures” together, which is not ambiguous.\n\nC. CORRECT. The pronoun “it” could refer to either “the bridge” or “the river,” since both are mentioned earlier in the paragraph. It is unclear which one would need regular maintenance.\n\nD. Incorrect. Sentence 4 does not contain a pronoun that could refer to more than one thing."
+      }
+    },
+    {
+      "id": "GR05",
+      "q_number": 31,
+      "question_type": "mc",
+      "stimulus": "(1) Priya and her older sister Anjali both tried out for the school play. (2) The director posted the final cast list outside the auditorium on Friday. (3) Everyone cheered when they saw that her name was at the very top of the list. (4) The sisters hugged each other when they found out.",
+      "question": "Which sentence contains a vague pronoun reference?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. Incorrect. Sentence 1 names both “Priya” and “Anjali,” so there is no ambiguity.\n\nB. Incorrect. Sentence 2 does not contain a pronoun that could refer to more than one person.\n\nC. CORRECT. The pronoun “her” could refer to either “Priya” or “Anjali,” since both are mentioned earlier in the paragraph. It is unclear whose name was at the top of the list.\n\nD. Incorrect. Sentence 4 uses “The sisters” directly, so there is no ambiguity."
+      }
+    },
+    {
+      "id": "GR06",
+      "q_number": 32,
+      "question_type": "mc",
+      "stimulus": "(1) The coach set out a box of equipment before practice started. (2) Each player on the team grabbed their helmet from the box. (3) The players lined up along the fence to stretch. (4) Practice began a few minutes later than usual.",
       "question": "Which sentence contains an error in pronoun-antecedent agreement?",
       "options": {
         "A": "sentence 1",
@@ -469,15 +554,15 @@
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. CORRECT. The antecedent “Every visitor” is singular, but the pronoun “their” is plural. The sentence should use a singular pronoun, such as “his or her,” to agree with “Every visitor” (e.g., “Every visitor must leave his or her coat and bag...”).\n\nC. Incorrect. Sentence 3 does not contain a pronoun that needs to agree with an antecedent.\n\nD. Incorrect. The pronoun “visitors” in sentence 4 is a noun, not a pronoun, and the sentence does not contain a pronoun-antecedent agreement error."
+        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. CORRECT. The antecedent “Each player” is singular, but the pronoun “their” is plural. The sentence should use a singular pronoun, such as “his or her,” to agree with “Each player” (e.g., “Each player on the team grabbed his or her helmet...”).\n\nC. Incorrect. Sentence 3 does not contain a pronoun that needs to agree with an antecedent.\n\nD. Incorrect. Sentence 4 does not contain a pronoun."
       }
     },
     {
-      "id": "GR02",
-      "q_number": 28,
+      "id": "GR07",
+      "q_number": 33,
       "question_type": "mc",
-      "stimulus": "(1) The two scientists collaborated for months on the experiment. (2) They carefully recorded each measurement in a shared notebook. (3) The university gave an award to her and he for their discovery. (4) Both researchers plan to publish their findings next year.",
-      "question": "Which sentence contains an error in pronoun case?",
+      "stimulus": "(1) The committee met on Tuesday to discuss the new attendance policy. (2) Several members raised concerns about the proposed schedule. (3) The committee announced their final decision later that afternoon. (4) Most employees were satisfied with the outcome.",
+      "question": "Which sentence contains an error in pronoun-antecedent agreement?",
       "options": {
         "A": "sentence 1",
         "B": "sentence 2",
@@ -486,49 +571,15 @@
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "The question asks which sentence contains an error in pronoun case.\n\nA. Incorrect. Sentence 1 does not contain a pronoun.\n\nB. Incorrect. The pronoun “They” is correctly used in the subjective case as the subject of the sentence.\n\nC. CORRECT. The pronoun “he” is used incorrectly. Because both pronouns are objects of the preposition “to,” the objective case is required, so the sentence should read “The university gave an award to her and him.”\n\nD. Incorrect. The pronoun “their” is correctly used in the possessive case to show that the findings belong to the researchers."
+        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. Incorrect. Sentence 2 does not contain a pronoun that needs to agree with an antecedent.\n\nC. CORRECT. The antecedent “The committee” is a singular collective noun acting as one unit, but the pronoun “their” is plural. The sentence should use a singular pronoun, such as “its,” to agree with “The committee” (e.g., “The committee announced its final decision...”).\n\nD. Incorrect. Sentence 4 does not contain a pronoun that needs to agree with an antecedent."
       }
     },
     {
-      "id": "GR03",
-      "q_number": 29,
+      "id": "GR08",
+      "q_number": 34,
       "question_type": "mc",
-      "stimulus": "(1) When Maria called her aunt, she was getting ready to leave for the airport. (2) The flight was scheduled to depart in just two hours. (3) Traffic on the highway was heavier than usual that morning. (4) Maria offered to drive her aunt to the gate if there was time.",
-      "question": "Which sentence contains a vague pronoun reference?",
-      "options": {
-        "A": "sentence 1",
-        "B": "sentence 2",
-        "C": "sentence 3",
-        "D": "sentence 4"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. CORRECT. The pronoun “she” could refer to either “Maria” or “her aunt,” since both are mentioned earlier in the sentence. It is unclear which person was getting ready to leave for the airport.\n\nB. Incorrect. Sentence 2 does not contain a pronoun.\n\nC. Incorrect. Sentence 3 does not contain a pronoun.\n\nD. Incorrect. Sentence 4 uses “her” to refer clearly to “Maria's aunt,” since “Maria” is named directly before “her aunt” in the same sentence, leaving no ambiguity about which person is meant."
-      }
-    },
-    {
-      "id": "GR04",
-      "q_number": 30,
-      "question_type": "mc",
-      "stimulus": "(1) The teacher divided the class into small groups for the project. (2) Each group chose a topic related to local history. (3) Our group decided to research the town's old train station. (4) The teacher thanked Priya and myself for organizing our group's presentation.",
-      "question": "Which sentence contains a misused reflexive pronoun?",
-      "options": {
-        "A": "sentence 1",
-        "B": "sentence 2",
-        "C": "sentence 3",
-        "D": "sentence 4"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "The question asks which sentence contains a misused reflexive pronoun.\n\nA. Incorrect. Sentence 1 does not contain a reflexive pronoun.\n\nB. Incorrect. Sentence 2 does not contain a reflexive pronoun.\n\nC. Incorrect. Sentence 3 does not contain a reflexive pronoun.\n\nD. CORRECT. The reflexive pronoun “myself” is used incorrectly as the object of the verb “thanked.” A reflexive pronoun must refer back to the subject of the same sentence, but the subject of sentence 4 is “The teacher,” not the speaker. The sentence should instead use the objective pronoun “me,” as in “The teacher thanked Priya and me.”"
-      }
-    },
-    {
-      "id": "GR05",
-      "q_number": 31,
-      "question_type": "mc",
-      "stimulus": "(1) The band needed a new drummer before the spring concert. (2) They chose a student whom they felt had the strongest sense of rhythm. (3) Rehearsals began the following Monday. (4) The concert received positive reviews from the audience.",
-      "question": "Which sentence contains an error in the use of who or whom?",
+      "stimulus": "(1) The teacher handed back the graded essays at the end of class. (2) Every student checked their score before leaving the room. (3) A few students asked questions about the grading rubric. (4) The teacher promised to review the essays again next week.",
+      "question": "Which sentence contains an error in pronoun-antecedent agreement?",
       "options": {
         "A": "sentence 1",
         "B": "sentence 2",
@@ -537,7 +588,41 @@
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "The question asks which sentence contains an error in the use of who or whom.\n\nA. Incorrect. Sentence 1 does not contain the pronoun who or whom.\n\nB. CORRECT. The pronoun “whom” is used incorrectly. Setting aside the inserted clause “they felt,” the pronoun functions as the subject of the verb “had,” so the subjective pronoun “who” is required: “They chose a student who they felt had the strongest sense of rhythm.”\n\nC. Incorrect. Sentence 3 does not contain the pronoun who or whom.\n\nD. Incorrect. Sentence 4 does not contain the pronoun who or whom."
+        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. CORRECT. The antecedent “Every student” is singular, but the pronoun “their” is plural. The sentence should use a singular pronoun, such as “his or her,” to agree with “Every student” (e.g., “Every student checked his or her score...”).\n\nC. Incorrect. Sentence 3 does not contain a pronoun that needs to agree with an antecedent.\n\nD. Incorrect. Sentence 4 does not contain a pronoun that needs to agree with an antecedent."
+      }
+    },
+    {
+      "id": "GR09",
+      "q_number": 35,
+      "question_type": "mc",
+      "stimulus": "(1) The city's new stadium opened last spring after two years of construction. (2) Fans filled every seat for the very first game played there. (3) The stadium's large screens, bright lights, and comfortable seating helped make them one of the most popular venues in the state. (4) Thousands of visitors have returned for games ever since.",
+      "question": "Which sentence contains an error in pronoun-antecedent agreement?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. Incorrect. Sentence 2 does not contain a pronoun that needs to agree with an antecedent.\n\nC. CORRECT. The pronoun “them” incorrectly refers to the three listed features (“screens,” “lights,” and “seating”) rather than to “the stadium,” which is singular. The sentence should use a singular pronoun, such as “it,” to agree with “the stadium” (e.g., “...helped make it one of the most popular venues...”).\n\nD. Incorrect. Sentence 4 does not contain a pronoun that needs to agree with an antecedent."
+      }
+    },
+    {
+      "id": "GR10",
+      "q_number": 36,
+      "question_type": "mc",
+      "stimulus": "(1) Runners from six schools gathered for the citywide relay race. (2) Everyone trained for months to prepare for the event. (3) Whoever finishes the race first should bring their ID to claim the trophy. (4) The ceremony will take place right after the race ends.",
+      "question": "Which sentence contains an error in pronoun-antecedent agreement?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. Incorrect. Sentence 2 does not contain a pronoun that needs to agree with an antecedent in this context.\n\nC. CORRECT. The antecedent “Whoever finishes the race first” is singular, but the pronoun “their” is plural. The sentence should use a singular pronoun, such as “his or her,” to agree with “Whoever” (e.g., “...should bring his or her ID...”).\n\nD. Incorrect. Sentence 4 does not contain a pronoun that needs to agree with an antecedent."
       }
     }
   ]
