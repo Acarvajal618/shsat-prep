@@ -1,0 +1,544 @@
+{
+  "_schema": {
+    "description": "Practice Set 11 (10/23) — mixed set: 20 math variants (1 new question each, from 20 randomly selected already-tested skills), ELA Passage 2 (“The Best Laid Plans of Ravens”) reused verbatim from ela_a/data.json, and 5 newly generated pronoun grammar questions. Not an official exam.",
+    "sections": {
+      "math": "q_number 1-20, id_format <SourceID>.1 pointing back to the original exam question",
+      "ela": "q_number 21-26, Passage 2 reused verbatim (same AR08-AR13 ids/content as ela_a/data.json)",
+      "grammar": "q_number 27-31, id_format GR<NN>, newly generated pronoun-skill questions in the Stand Alone Items style"
+    },
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it."
+  },
+  "math_questions": [
+    {
+      "id": "AM12.1",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "The perimeter of a rectangle is \\(320\\) centimeters. The ratio of the length to the width is \\(5{:}3\\). What are the dimensions of this rectangle?",
+      "options": {
+        "A": "\\(96\\) cm by \\(64\\) cm",
+        "B": "\\(100\\) cm by \\(60\\) cm",
+        "C": "\\(104\\) cm by \\(56\\) cm",
+        "D": "\\(110\\) cm by \\(50\\) cm"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Let \\(5x\\) equal the length and \\(3x\\) equal the width. Set up the perimeter equation:\n\n\\[P = 2(\\text{length}) + 2(\\text{width})\\]\n\\[320 = 2(5x) + 2(3x)\\]\n\\[320 = 10x + 6x\\]\n\\[320 = 16x\\]\n\\[x = 20\\]\n\nSo the length is \\(5(20) = 100\\) cm and the width is \\(3(20) = 60\\) cm."
+      }
+    },
+    {
+      "id": "AM40.1",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "Mr. Ortiz's chemistry class is divided into three sections. The same test was given to each section. The table above shows both the lowest score and the range of scores on this test for each section. What is the **overall** range of all scores in all three sections?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SCORES ON CHEMISTRY TEST</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Section</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Lowest Score</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Range</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>I</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>58</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>31</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>II</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>60</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>24</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>III</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>55</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>35</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(32\\)",
+        "C": "\\(35\\)",
+        "D": "\\(38\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Calculate the highest score for each section by adding the lowest score to the range:\n\nSection I: \\(58 + 31 = 89\\)\nSection II: \\(60 + 24 = 84\\)\nSection III: \\(55 + 35 = 90\\)\n\nThe overall highest score is \\(90\\), and the overall lowest score is \\(55\\).\n\nSubtract the lowest score from the highest score to find the overall range:\n\\[90 - 55 = 35\\]"
+      }
+    },
+    {
+      "id": "CM04.1",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "A person buys a used car with a down payment of $\\(1{,}500\\) and makes monthly payments of $\\(320\\) for \\(4\\) years. What is the total amount the person pays for the car?",
+      "options": {
+        "A": "$\\(15{,}360\\)",
+        "B": "$\\(16{,}860\\)",
+        "C": "$\\(17{,}220\\)",
+        "D": "$\\(19{,}740\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Determine the total cost of the car by adding the down payment to the total monthly payments over \\(4\\) years.\n\nThere are \\(12\\) months in a year, so multiply (\\(12\\) months/year \\(\\times\\) \\(4\\) years) to get a total of \\(48\\) months. Determine the total monthly payments by multiplying the monthly payment ($\\(320\\)) \\(\\times\\) the total number of months (\\(48\\)):\n\n\\[320 \\times 48 = 15{,}360\\]\n\nDetermine the total cost of the car by adding the down payment ($\\(1{,}500\\)) to the total monthly payments ($\\(15{,}360\\)):\n\n\\[15{,}360 + 1{,}500 = 16{,}860\\]\n\nThe total cost of the car is $\\(16{,}860\\)."
+      }
+    },
+    {
+      "id": "CM05.1",
+      "q_number": 4,
+      "question_type": "grid_keypad",
+      "question": "Maya read \\(n\\) pages for her English homework. Trevor read four times as many pages as Maya. Together, Maya and Trevor read \\(20\\) more pages than Ali read. Write an expression that shows how many pages Ali read, in terms of \\(n\\).\n\nEnter your answer in the space provided. Enter only your answer.",
+      "grid_answer": "5n - 20",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "solution": {
+        "exhibit_text": "Let \\(n\\) represent the number of pages that Maya read.\n\nTrevor read four times as many pages as Maya: Trevor's pages \\(= 4n\\).\n\nTo find how many pages they read together, add Maya's and Trevor's pages: \\(n + 4n = 5n\\).\n\nThis means that together, they read \\(5n\\) pages.\n\nAli read \\(20\\) fewer pages than Maya and Trevor read together. So \\(20\\) should be subtracted from the total:\n\nAli's pages \\(= 5n - 20\\)."
+      }
+    },
+    {
+      "id": "CM24.1",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and photographs shown is \\(2{:}7{:}6\\), respectively. If the number of drawings shown was \\(56\\), what is the total number of photographs and paintings that were shown?",
+      "options": {
+        "A": "\\(48\\)",
+        "B": "\\(56\\)",
+        "C": "\\(64\\)",
+        "D": "\\(72\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The ratio of paintings to drawings to photographs is \\(2 : 7 : 6\\).\n\nSince the number of actual drawings is \\(56\\), each ratio is multiplied by \\(8\\), since \\(7 \\times 8 = 56\\).\n\n| Type | Ratio | Actual Number |\n| --- | --- | --- |\n| Paintings | \\(2\\) | \\(16\\) |\n| Drawings | \\(7\\) | \\(56\\) |\n| Photographs | \\(6\\) | \\(48\\) |\n\nAdd the number of paintings (\\(16\\)) and the number of photographs (\\(48\\)):\n\n\\[16 + 48 = 64\\]"
+      }
+    },
+    {
+      "id": "CM30.1",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "Out of \\(2{,}500\\) high school seniors, \\(215\\) were enrolled in the Honor Society. What percentage of the entire group of \\(2{,}500\\) seniors were in the Honor Society?",
+      "options": {
+        "A": "\\(0.86\\%\\)",
+        "B": "\\(2.15\\%\\)",
+        "C": "\\(8.6\\%\\)",
+        "D": "\\(21.5\\%\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The fraction \\(\\dfrac{215}{2500}\\) represents the \\(215\\) high school seniors out of \\(2{,}500\\) enrolled in the Honor Society.\n\nTo determine the percentage, convert the fraction to a decimal. Then, rewrite the decimal as a percentage.\n\n\\[\\dfrac{215}{2500} = 0.086 = 8.6\\%\\]"
+      }
+    },
+    {
+      "id": "CM33.1",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "A bag contains \\(60\\) tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out \\(100\\) times, and \\(20\\) of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag?",
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(15\\)",
+        "C": "\\(20\\)",
+        "D": "\\(30\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "First, determine what fraction of the sample were red tiles, given \\(20\\) of the \\(100\\) tiles drawn were red.\n\n\\[\\dfrac{20}{100} = \\dfrac{1}{5}\\]\n\nTo predict how many of the actual \\(60\\) tiles in the bag are red, multiply \\(60\\) by the fraction of red tiles in the sample.\n\n\\[\\dfrac{1}{5}(60) = 12\\]"
+      }
+    },
+    {
+      "id": "CM36.1",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "A deck of \\(52\\) playing cards contains \\(13\\) hearts. Sara has \\(16\\) cards from this deck in her hand, \\(1\\) of which is a heart. The other cards remain in the deck. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
+      "options": {
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{1}{3}\\)",
+        "C": "\\(\\dfrac{3}{8}\\)",
+        "D": "\\(\\dfrac{4}{9}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "First, determine the number of cards in the remaining deck:\n\n\\[52 - 16 = 36\\]\n\nNext, determine the number of hearts left in the remaining deck:\n\n\\[13 - 1 = 12\\]\n\nLast, determine the probability of drawing a heart from the remaining deck:\n\n\\[\\dfrac{12 \\text{ hearts remaining}}{36 \\text{ total cards remaining}} = \\dfrac{12}{36} = \\dfrac{1}{3}\\]"
+      }
+    },
+    {
+      "id": "DM02.1",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "What is the value of \\(z\\) in \\(\\dfrac{x}{8} + \\dfrac{y - x}{4} = \\dfrac{z}{8}\\)?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(5\\)",
+        "C": "\\(y\\)",
+        "D": "\\(2y - x\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "First, multiply both sides of the equation by \\(8\\) to eliminate the fractions.\n\n\\[\\dfrac{x}{8} + \\dfrac{y - x}{4} = \\dfrac{z}{8}\\]\n\\[8\\left(\\dfrac{x}{8} + \\dfrac{y - x}{4}\\right) = 8\\left(\\dfrac{z}{8}\\right)\\]\n\\[\\dfrac{8x}{8} + \\dfrac{8(y - x)}{4} = \\dfrac{8z}{8}\\]\n\\[x + 2(y - x) = z\\]\n\nThen, distribute and combine like terms to find the value for \\(z\\).\n\n\\[x + 2(y - x) = z\\]\n\\[x + 2y - 2x = z\\]\n\\[2y - x = z\\]"
+      }
+    },
+    {
+      "id": "DM10.1",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "\\[3x + 14 > 5x + 6\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x < 4\\)",
+        "B": "\\(x > 4\\)",
+        "C": "\\(x < 40\\)",
+        "D": "\\(x > 40\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Use inverse operations to isolate the variable \\(x\\) by first getting the \\(x\\) variable on one side.\n\n\\[3x + 14 > 5x + 6\\]\n\\[3x - 5x + 14 > 5x - 5x + 6\\]\n\\[-2x + 14 > 6\\]\n\\[-2x + 14 - 14 > 6 - 14\\]\n\\[-2x > -8\\]\n\nNow, when dividing by \\(-2\\), the direction of the inequality sign changes.\n\n\\[-2x > -8\\]\n\\[x < 4\\]"
+      }
+    },
+    {
+      "id": "DM28.1",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "A graph shows the relationship between the number of gallons of water, \\(y\\), that has been added to a tank and the number of hours, \\(x\\), that water has been added to the tank at a constant rate. What does the ordered pair \\((4, 32)\\) represent?",
+      "options": {
+        "A": "Four gallons of water was added in \\(32\\) hours.",
+        "B": "Four gallons of water was added per hour.",
+        "C": "Thirty-two gallons of water was added in \\(4\\) hours.",
+        "D": "Thirty-two gallons of water was added per hour."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "It is given that \\(x\\)-values on the graph represent the numbers of hours for which water was added to the tank, and the \\(y\\)-values represent the numbers of gallons of water added in \\(x\\) hours. In the ordered pair \\((4, 32)\\), \\(4\\) represents an \\(x\\)-value and \\(32\\) represents a \\(y\\)-value.\n\nTherefore, \\((4, 32)\\) represents a data point for \\(32\\) gallons of water being added to the tank in a \\(4\\)-hour period."
+      }
+    },
+    {
+      "id": "DM31.1",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "A box contains an unknown number of green marbles. An experimenter adds \\(150\\) red marbles to the box, mixes the marbles thoroughly, and then draws out \\(12\\) marbles at random. Assume that this sample is representative of the proportion in the box. If there are \\(3\\) red marbles and \\(9\\) green marbles in this sample, approximately how many green marbles are in the box?",
+      "options": {
+        "A": "\\(150\\)",
+        "B": "\\(300\\)",
+        "C": "\\(450\\)",
+        "D": "\\(600\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Use the ratio of \\(3\\) red marbles to \\(9\\) green marbles (the sample) to set up a proportion and solve, where \\(x\\) represents the number of green marbles in the box.\n\n\\[\\dfrac{3}{9} = \\dfrac{150}{x}\\]\n\\[3x = 1{,}350\\]\n\\[x = 450\\]"
+      }
+    },
+    {
+      "id": "DM32.1",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "There were \\(48\\) people at Carlos's party. If each person at the party drank \\(3\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(= 4\\) quarts; \\(1\\) quart \\(= 4\\) cups.",
+      "options": {
+        "A": "\\(6\\)",
+        "B": "\\(7\\dfrac{1}{2}\\)",
+        "C": "\\(9\\)",
+        "D": "\\(12\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Since \\(48\\) people each drank \\(3\\) cups of juice, the total amount of juice they drank was \\(48 \\times 3 = 144\\) cups.\n\nConvert \\(144\\) cups to gallons:\n\n\\[144 \\text{ cups} \\times \\dfrac{1 \\text{ quart}}{4 \\text{ cups}} \\times \\dfrac{1 \\text{ gallon}}{4 \\text{ quarts}} = \\dfrac{144}{16} \\text{ gallons} = 9 \\text{ gallons}\\]"
+      }
+    },
+    {
+      "id": "DM38.1",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "Deshawn has a bag of marbles that are all the same size. The bag contains four red (R) marbles, two green (G) marbles, and three white (W) marbles. For an experiment, he will take two marbles out of the bag without looking. Which list shows the sample space for Deshawn's experiment?",
+      "options": {
+        "A": "R, G, W",
+        "B": "RG, RW, GW",
+        "C": "R, R, R, R, G, G, W, W, W",
+        "D": "RR, RG, RW, GG, GW, WW"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "The sample space of a random experiment is the collection of all possible outcomes. For this experiment, R represents a red marble, G represents a green marble, and W represents a white marble.\n\nSince two marbles are being drawn, the possible outcomes for the first marble drawn are R, G, W.\n\nList the possible results for each initial outcome combined with the second choice of marble.\n\nRR, RG, RW\n\nGR, GG, GW\n\nWR, WG, WW"
+      }
+    },
+    {
+      "id": "EM05.1",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "What is the distance from the midpoint of \\(PQ\\) to the midpoint of \\(RS\\) on the number line above?",
+      "figure_svg": "<svg viewBox=\"0 0 370 65\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"25\" y1=\"38\" x2=\"345\" y2=\"38\" stroke=\"#222\" stroke-width=\"1.5\" marker-end=\"url(#arrE5b)\" marker-start=\"url(#arrS5b)\"/><defs><marker id=\"arrE5b\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#222\"/></marker><marker id=\"arrS5b\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8 Z\" fill=\"#222\"/></marker></defs><line x1=\"25.0\" y1=\"34\" x2=\"25.0\" y2=\"42\" stroke=\"#222\"/><text x=\"25.0\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-16</text><line x1=\"47.9\" y1=\"34\" x2=\"47.9\" y2=\"42\" stroke=\"#222\"/><text x=\"47.9\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-14</text><line x1=\"70.7\" y1=\"34\" x2=\"70.7\" y2=\"42\" stroke=\"#222\"/><text x=\"70.7\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-12</text><line x1=\"93.6\" y1=\"34\" x2=\"93.6\" y2=\"42\" stroke=\"#222\"/><text x=\"93.6\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-10</text><line x1=\"116.4\" y1=\"34\" x2=\"116.4\" y2=\"42\" stroke=\"#222\"/><text x=\"116.4\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-8</text><line x1=\"139.3\" y1=\"34\" x2=\"139.3\" y2=\"42\" stroke=\"#222\"/><text x=\"139.3\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-6</text><line x1=\"162.1\" y1=\"34\" x2=\"162.1\" y2=\"42\" stroke=\"#222\"/><text x=\"162.1\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-4</text><line x1=\"185.0\" y1=\"34\" x2=\"185.0\" y2=\"42\" stroke=\"#222\"/><text x=\"185.0\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">-2</text><line x1=\"207.9\" y1=\"34\" x2=\"207.9\" y2=\"42\" stroke=\"#222\"/><text x=\"207.9\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">0</text><line x1=\"230.7\" y1=\"34\" x2=\"230.7\" y2=\"42\" stroke=\"#222\"/><text x=\"230.7\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">2</text><line x1=\"253.6\" y1=\"34\" x2=\"253.6\" y2=\"42\" stroke=\"#222\"/><text x=\"253.6\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">4</text><line x1=\"276.4\" y1=\"34\" x2=\"276.4\" y2=\"42\" stroke=\"#222\"/><text x=\"276.4\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">6</text><line x1=\"299.3\" y1=\"34\" x2=\"299.3\" y2=\"42\" stroke=\"#222\"/><text x=\"299.3\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">8</text><line x1=\"322.1\" y1=\"34\" x2=\"322.1\" y2=\"42\" stroke=\"#222\"/><text x=\"322.1\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">10</text><line x1=\"345.0\" y1=\"34\" x2=\"345.0\" y2=\"42\" stroke=\"#222\"/><text x=\"345.0\" y=\"55\" font-size=\"10\" text-anchor=\"middle\">12</text><text x=\"47.9\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">P</text><line x1=\"47.9\" y1=\"24\" x2=\"47.9\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/><text x=\"162.1\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">Q</text><line x1=\"162.1\" y1=\"24\" x2=\"162.1\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/><text x=\"207.9\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">R</text><line x1=\"207.9\" y1=\"24\" x2=\"207.9\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/><text x=\"345.0\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"700\">S</text><line x1=\"345.0\" y1=\"24\" x2=\"345.0\" y2=\"38\" stroke=\"#222\" stroke-dasharray=\"2,2\"/></svg>",
+      "options": {
+        "A": "13",
+        "B": "15",
+        "C": "17",
+        "D": "19"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "To find the midpoint of a segment on the number line, add the coordinates of the two endpoints and then divide the sum by 2. So, the midpoint of \\(PQ\\) is \\(\\dfrac{(-14)+(-4)}{2} = \\dfrac{-18}{2} = -9\\). The midpoint of \\(RS\\) is \\(\\dfrac{0+12}{2} = \\dfrac{12}{2} = 6\\). The distance between the two points is the positive difference between their coordinates, or \\(6 - (-9) = 15\\)."
+      }
+    },
+    {
+      "id": "EM09.1",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "In the set of consecutive integers from 15 to 55, inclusive, how many integers are multiples of neither 3 nor 4?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "21",
+        "D": "23"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "There are \\(55 - 15 + 1 = 41\\) integers between 15 and 55, inclusive. To determine the number of integers that are multiples of neither 3 nor 4, determine the number of integers that *are* multiples of 3, 4, or both, and subtract this from the total of 41.\n\nThe multiples of 3 between 15 and 55, inclusive, are 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54 — 14 numbers. The multiples of 4 between 15 and 55, inclusive, are 16, 20, 24, 28, 32, 36, 40, 44, 48, 52 — 10 numbers. The numbers 24, 36, and 48 appear on both lists. Therefore, there are \\(14+10-3=21\\) numbers that are multiples of 3, 4, or both.\n\nThus, there are \\(41-21=20\\) integers between 15 and 55 inclusive that are multiples of neither 3 nor 4."
+      }
+    },
+    {
+      "id": "FM24.1",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "Danielle drove from point A to point B at 20 miles per hour and immediately returned by the same route at 60 miles per hour. What was her average speed, in miles per hour, for the entire trip?",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "45",
+        "D": "50"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Pick a number for the distance between A and B. Choose a number that both 20 and 60 divide into evenly, such as 60 miles. The total distance then is \\(60(2)=120\\).\n\nUse \\(T=\\dfrac{D}{R}\\) to find the total time: \\(T_1=\\dfrac{60}{20}=3\\) and \\(T_2=\\dfrac{60}{60}=1\\), so \\(T_1+T_2=4\\).\n\nNow, use the average speed formula: \\(\\text{Average Speed}=\\dfrac{\\text{Total Distance}}{\\text{Total Time}}\\)\n\nThus, the average speed is \\(\\dfrac{120}{4}=30\\) miles per hour."
+      }
+    },
+    {
+      "id": "FM44.1",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "In a recent survey, 85% of the people polled were registered voters and 40% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{3}{20}\\)",
+        "B": "\\(\\dfrac{17}{50}\\)",
+        "C": "\\(\\dfrac{51}{100}\\)",
+        "D": "\\(\\dfrac{17}{20}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Pick \\(100\\) as the total number of people surveyed. \\(85\\%\\) of \\(100\\) is \\(85\\), so \\(85\\) people were registered voters. \\(40\\%\\) of those \\(85\\) registered voters voted, which is \\(40\\%\\times85=34\\) people. So \\(85-34=51\\) registered voters did **not** vote. The fraction of the total who were registered but did not vote is \\(\\dfrac{51}{100}\\)."
+      }
+    },
+    {
+      "id": "FM46.1",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "What is the area of triangle DEF above?",
+      "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,270 150,40 270,270\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"109.3\" y1=\"125.1\" x2=\"270\" y2=\"270\" stroke=\"#222\" stroke-width=\"1.4\"/><polyline points=\"113.6,116.1 121.0,122.8 116.7,131.8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><line x1=\"23.8\" y1=\"262.2\" x2=\"133.8\" y2=\"32.2\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M23.8,262.2 L23.2,256.3 L28.8,258.9 Z\" fill=\"#222\"/><path d=\"M133.8,32.2 L134.3,38.2 L128.8,35.5 Z\" fill=\"#222\"/><text x=\"26\" y=\"286\" font-size=\"13\" font-family=\"system-ui,sans-serif\">D</text><text x=\"146\" y=\"32\" font-size=\"13\" font-family=\"system-ui,sans-serif\">E</text><text x=\"278\" y=\"278\" font-size=\"13\" font-family=\"system-ui,sans-serif\">F</text><text x=\"64.8\" y=\"147.2\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">x</text><text x=\"185.7\" y=\"189.6\" font-size=\"13\" font-family=\"system-ui,sans-serif\">10</text><text x=\"218.0\" y=\"155.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">10.5</text><text x=\"151.0\" y=\"288.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">y</text></svg>",
+      "options": {
+        "A": "\\(5x\\)",
+        "B": "\\(5y\\)",
+        "C": "\\(\\dfrac{1}{2}x+10\\)",
+        "D": "\\(5(x+y)\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The area of a triangle is given by the formula \\(A=\\tfrac{1}{2}bh\\). According to the figure, \\(b=x\\) and \\(h=10\\) (the height is perpendicular to the base), so \\(A=\\tfrac{1}{2}(x)(10)=5x\\)."
+      }
+    },
+    {
+      "id": "GM02.1",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "A gardener has a plot of land that is \\(12\\) feet by \\(25\\) feet. If both sides of the plot are increased by \\(10\\%\\), how many square feet will be added to the plot?",
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(50\\)",
+        "C": "\\(63\\)",
+        "D": "\\(75\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Start by finding the total area of the plot before it increases: \\(\\text{Area}=12\\times25=300\\).\n\nNext, find the new lengths. \\(10\\%\\) of \\(12\\) is \\(1.2\\), so the new length is \\(12+1.2=13.2\\). \\(10\\%\\) of \\(25\\) is \\(2.5\\), so the new length is \\(25+2.5=27.5\\).\n\nThe new area is \\(13.2\\times27.5=363\\). Finally, subtract the starting area from the new area to find how many square feet the plot increased by: \\(363-300=63\\)."
+      }
+    }
+  ],
+  "ela_passage": {
+    "passage_number": 2,
+    "total_passages": 7,
+    "genre": "informational",
+    "title": "The Best Laid Plans of Ravens",
+    "paragraphs": [
+      {
+        "num": 1,
+        "text": "In Edgar Allan Poe’s poem “The Raven,” a raven visits a lonely man’s home and responds to the man’s pleading questions with only the word “nevermore.” The poem’s narrator interprets the word as a prediction of doom for his future. A talking, prophetic raven may seem to be the wild imaginings of the poet, but a new study published in the journal Science hints that one particular idea behind the poem might not be as far-fetched as it seems. For most of human history, people assumed that animals do not understand the passage of time in the same way people do. Some people believed that animals might remember events from the past and that instinct might drive them to make preparations in order to guarantee survival, but most people did not think that animals had the ability to plan. At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future."
+      },
+      {
+        "num": 2,
+        "text": "It can be difficult to test an animal’s ability to plan because human observers must be certain they are not mistaking instinctual behavior for intentional planning. For example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual. Cognitive scientists argue that in order for an animal’s behavior to qualify as preparing for the future, the animal must use specific decision-making skills to solve a problem."
+      },
+      {
+        "num": 3,
+        "text": "To avoid mistaking instinctual behavior for evidence of decision-making, the Lund University researchers designed two experiments to test ravens’ ability to plan. Ravens belong to the corvid family, a group of birds known for their intelligence. A study in 2007 showed that corvids have the tendency to save only certain types of food, which suggests that they are planning for the future rather than acting on instinct. In order to investigate that theory, the researchers had to design experiments that would achieve results that could not be explained by an instinctual behavior of food hoarding. Therefore, the ravens were taught two behaviors that they do not normally perform in the wild."
+      },
+      {
+        "num": 4,
+        "text": "For the first experiment, the researchers showed the birds how to use a small stone to open a box and get treats. Once the ravens learned the behavior, the researchers presented the birds with four stones. Only one stone was the right size to open the box. The birds learned to select that stone and set it aside until the researchers presented the box. The second experiment involved bartering. A researcher would trade the ravens a large treat for a bottle cap. Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap. The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats. In both experiments, the ravens waited patiently for up to seventeen hours for the researcher to return."
+      },
+      {
+        "num": 5,
+        "text": "The results of these experiments are exciting, but more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future. Some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead. Regardless, like other recent advances in animal science, these experiments show that ravens could be much smarter than first believed, and scientists now believe that ravens do actually think about their own future."
+      }
+    ],
+    "questions": [
+      {
+        "id": "AR08",
+        "q_number": 21,
+        "question_type": "mc",
+        "question": "Read this sentence from paragraph 1.\n\n**At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future.**\n\nWhich sentence from paragraph 4 provides support for this argument?",
+        "options": {
+          "A": "“Once the ravens learned the behavior, the researchers presented the birds with four stones.”",
+          "B": "“A researcher would trade the ravens a large treat for a bottle cap.”",
+          "C": "“Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap.”",
+          "D": "“The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats.”"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "The question asks which sentence from paragraph 4 supports the argument presented in the sentence from paragraph 1.\n\nA. Incorrect. This sentence from paragraph 4 refers to the ravens’ ability to adapt and learn but not to plan and think ahead.\n\nB. Incorrect. This sentence from paragraph 4 relates the actions of the researcher rather than the actions of the ravens and does not provide evidence in support of the argument that ravens have the ability to think and plan ahead.\n\nC. Incorrect. This sentence from paragraph 4 does not describe a behavior of the ravens that would support the argument in the sentence from paragraph 1; instead it relates the actions of the researchers without giving any information about the ravens’ responses.\n\nD. CORRECT. This sentence from paragraph 4 shows that the ravens seem to make a decision, which involves a thought process. The ravens chose to wait for the researcher rather than take the treats, suggesting that the ravens understood that the researcher would trade a larger treat for the bottle cap."
+        }
+      },
+      {
+        "id": "AR09",
+        "q_number": 22,
+        "question_type": "mc",
+        "question": "Read these sentences from paragraph 2.\n\n**For example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual.**\n\nWhich statement describes the effect of the phrase “merely instinctual” in the passage?",
+        "options": {
+          "A": "It implies that animals are skilled at finding and saving food for later consumption.",
+          "B": "It conveys that many animals will usually prioritize gathering food over other activities.",
+          "C": "It suggests that animals often store more food than they will be able to consume.",
+          "D": "It emphasizes that many animals collect food automatically rather than with true intention."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "The question asks which statement describes the effect in the passage of the phrase “merely instinctual” from paragraph 2.\n\nA. Incorrect. The passage does not question animals’ ability to find and save food but rather whether this or other behavior involves thought and planning for the future.\n\nB. Incorrect. While the sentence states that “many animals hoard food,” the passage does not suggest that they give priority of thought to this activity; they hoard food out of instinct.\n\nC. Incorrect. Although the passage discusses animals’ tendency to store a great deal of food, it does not suggest that their hoarding goes beyond their needs.\n\nD. CORRECT. The passage suggests that in order for an animal’s actions to qualify as planning for the future, “the animal must use specific decision-making skills to solve a problem” (paragraph 2). The behavior of hoarding food is based on instinct and done automatically without real thought."
+        }
+      },
+      {
+        "id": "AR10",
+        "q_number": 23,
+        "question_type": "mc",
+        "question": "In the first experiment described in paragraph 4, which of the ravens’ behaviors provides the strongest evidence for the claim that the birds are capable of planning?",
+        "options": {
+          "A": "They accepted treats from the box.",
+          "B": "They set aside the stone that would open the box.",
+          "C": "They learned which stone could open the box.",
+          "D": "They waited for researchers to bring the box."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "The question asks which of the ravens’ behaviors in the first experiment described in paragraph 4 most strongly supports the claim that the birds are capable of planning.\n\nA. Incorrect. While “the researchers showed the birds how to use a small stone to open a box and get treats” (paragraph 4), the acceptance of the treats does not demonstrate planning.\n\nB. CORRECT. Once the ravens learned which stone would open the box, they consistently selected only that stone.\n\nC. Incorrect. Although the birds learned which stone opened the box, this behavior demonstrates not their ability to plan but rather their intelligence.\n\nD. Incorrect. The birds’ patience shows their anticipation for and understanding of the future gain of a treat but does not provide the strongest evidence of their ability to plan."
+        }
+      },
+      {
+        "id": "AR11",
+        "q_number": 24,
+        "question_type": "mc",
+        "question": "How does paragraph 5 fit into the overall structure of the passage and contribute to the development of ideas?",
+        "options": {
+          "A": "It introduces a problem with the results of the study at Lund University, suggesting that some scientists believe that further research will not lead to a clear answer.",
+          "B": "It summarizes the final steps of the study at Lund University, emphasizing the difficulties researchers had in differentiating between true planning and practiced actions.",
+          "C": "It provides a conclusion to the information about the Lund University study, indicating that some scientists think further research is needed in order to prove the idea.",
+          "D": "It lists the effects of the study at Lund University, implying that researchers should have designed experiments that better differentiated between planning and instinct."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "The question asks how paragraph 5 fits into the overall structure of the passage and contributes to the development of ideas.\n\nA. Incorrect. While paragraph 5 states that “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future,” this statement suggests that more research is needed, not that the results of the Lund University study are problematic.\n\nB. Incorrect. Paragraph 5 does not discuss steps of the study or emphasize difficulties in determining whether the behaviors shown in the study were planned or practiced; instead it simply suggests that more study is required to make such a determination.\n\nC. CORRECT. Paragraph 5 notes that some doubt remains (“Some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead”) and that more experimentation is needed; the author concludes that there is reason to believe the originally stated theory that ravens are quite smart and can give thought to how future events may affect them.\n\nD. Incorrect. Paragraph 5 does not list the effects of the study or criticize the experiment for not differentiating between planning and instinct. The paragraph explains why the results of the experiments are not conclusive and emphasizes that more research is needed."
+        }
+      },
+      {
+        "id": "AR12",
+        "q_number": 25,
+        "question_type": "mc",
+        "question": "The author conveys a point of view on the study of animal intelligence **mainly** by",
+        "options": {
+          "A": "sharing details about experiments that tested the ability of an animal to plan for the future.",
+          "B": "comparing the results of different experiments that were designed to test animal intelligence.",
+          "C": "critiquing experiments that aimed to demonstrate that certain animals are capable of planning for the future.",
+          "D": "explaining how modern experiments show that previously held beliefs about animal intelligence are inaccurate."
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "The question asks how the author conveys a point of view on the study of animal intelligence.\n\nA. CORRECT. Paragraphs 3 and 4 focus on the process and details of the experiments that scientists conducted. This detailed information from the author provides a sense of how the ravens demonstrated planning abilities beyond natural instinct. The author supports the claims from the experiments, calling the findings “exciting” and stating in the conclusion that “these experiments show that ravens could be much smarter than first believed” (paragraph 5).\n\nB. Incorrect. Although two experiments are described in the passage, the description presents the experiments as building on each other and does not compare their results. The passage states that “these experiments show that ravens could be much smarter than first believed, and scientists now believe that ravens do actually think about their own future” (paragraph 5).\n\nC. Incorrect. The author presents information from the experiments and the results that were gathered from them; while there is an admission that “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future” (paragraph 5), the author does not criticize the experiments that are presented.\n\nD. Incorrect. While the author does discuss some previously held beliefs about animal intelligence in paragraph 1, the focus of the passage is that experiments indicate that there is reason to question these beliefs, since “these experiments show that ravens could be much smarter than first believed” (paragraph 5). The previously held beliefs are not considered inaccurate by the discussion in the passage because only one example—the raven—is provided. The passage does not state that beliefs about animal intelligence as a whole are inaccurate."
+        }
+      },
+      {
+        "id": "AR13",
+        "q_number": 26,
+        "question_type": "mc",
+        "question": "With which statement would the author of the passage **most likely** agree?",
+        "options": {
+          "A": "Scientists are unlikely to be able to conduct an experiment that can genuinely distinguish between instinctual and learned behaviors in animals.",
+          "B": "Scientists should continue researching to determine whether or not animals can demonstrate advanced intelligence.",
+          "C": "Scientists should be careful about making conclusions about animal intelligence based on experiments that rely on training animals.",
+          "D": "Scientists can confirm data on whether animals have the ability to plan by performing experiments on additional species known for their intelligence."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "The question asks the reader to choose the statement with which the author of the passage would most likely agree.\n\nA. Incorrect. It is very likely that additional experiments or changes to the experiments presented can help scientists tell the difference between the types of behavior that the animals are showing. The current research supports “other recent advances in animal science” and also shows that ravens are “much smarter” (paragraph 5) than previously believed, making them excellent candidates for further research.\n\nB. CORRECT. As paragraph 5 notes, “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future.” The evidence is not yet considered definitive because “some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead” (paragraph 5). Therefore, more research is needed in order to draw a complete conclusion as to whether or not the animals are demonstrating advanced intelligence or simply the results of training.\n\nC. Incorrect. The passage shows that the scientists did not draw conclusions based on one experiment alone. The passage also states in paragraph 5 that additional research and experiments are necessary in order to obtain conclusive evidence of ravens’ abilities to think and plan ahead.\n\nD. Incorrect. The passage claims that more evidence must be gathered in order to make a claim that animals can definitely plan for the future. The evidence presented helps scientists “believe that ravens do actually think about their own future” (paragraph 5), but more confirmation is needed. The passage does not discuss performing experiments on additional species."
+        }
+      }
+    ]
+  },
+  "grammar_questions": [
+    {
+      "id": "GR01",
+      "q_number": 27,
+      "question_type": "mc",
+      "stimulus": "(1) The museum recently added a new wing. (2) Every visitor must leave their coat and bag in a locker before entering. (3) Lockers are available near the main entrance. (4) Staff members can help visitors use the lockers if needed.",
+      "question": "Which sentence contains an error in pronoun-antecedent agreement?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains an error in pronoun-antecedent agreement.\n\nA. Incorrect. Sentence 1 does not contain a pronoun that needs to agree with an antecedent.\n\nB. CORRECT. The antecedent “Every visitor” is singular, but the pronoun “their” is plural. The sentence should use a singular pronoun, such as “his or her,” to agree with “Every visitor” (e.g., “Every visitor must leave his or her coat and bag...”).\n\nC. Incorrect. Sentence 3 does not contain a pronoun that needs to agree with an antecedent.\n\nD. Incorrect. The pronoun “visitors” in sentence 4 is a noun, not a pronoun, and the sentence does not contain a pronoun-antecedent agreement error."
+      }
+    },
+    {
+      "id": "GR02",
+      "q_number": 28,
+      "question_type": "mc",
+      "stimulus": "(1) The two scientists collaborated for months on the experiment. (2) They carefully recorded each measurement in a shared notebook. (3) The university gave an award to her and he for their discovery. (4) Both researchers plan to publish their findings next year.",
+      "question": "Which sentence contains an error in pronoun case?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains an error in pronoun case.\n\nA. Incorrect. Sentence 1 does not contain a pronoun.\n\nB. Incorrect. The pronoun “They” is correctly used in the subjective case as the subject of the sentence.\n\nC. CORRECT. The pronoun “he” is used incorrectly. Because both pronouns are objects of the preposition “to,” the objective case is required, so the sentence should read “The university gave an award to her and him.”\n\nD. Incorrect. The pronoun “their” is correctly used in the possessive case to show that the findings belong to the researchers."
+      }
+    },
+    {
+      "id": "GR03",
+      "q_number": 29,
+      "question_type": "mc",
+      "stimulus": "(1) When Maria called her aunt, she was getting ready to leave for the airport. (2) The flight was scheduled to depart in just two hours. (3) Traffic on the highway was heavier than usual that morning. (4) Maria offered to drive her aunt to the gate if there was time.",
+      "question": "Which sentence contains a vague pronoun reference?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a vague pronoun reference.\n\nA. CORRECT. The pronoun “she” could refer to either “Maria” or “her aunt,” since both are mentioned earlier in the sentence. It is unclear which person was getting ready to leave for the airport.\n\nB. Incorrect. Sentence 2 does not contain a pronoun.\n\nC. Incorrect. Sentence 3 does not contain a pronoun.\n\nD. Incorrect. Sentence 4 uses “her” to refer clearly to “Maria's aunt,” since “Maria” is named directly before “her aunt” in the same sentence, leaving no ambiguity about which person is meant."
+      }
+    },
+    {
+      "id": "GR04",
+      "q_number": 30,
+      "question_type": "mc",
+      "stimulus": "(1) The teacher divided the class into small groups for the project. (2) Each group chose a topic related to local history. (3) Our group decided to research the town's old train station. (4) The teacher thanked Priya and myself for organizing our group's presentation.",
+      "question": "Which sentence contains a misused reflexive pronoun?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains a misused reflexive pronoun.\n\nA. Incorrect. Sentence 1 does not contain a reflexive pronoun.\n\nB. Incorrect. Sentence 2 does not contain a reflexive pronoun.\n\nC. Incorrect. Sentence 3 does not contain a reflexive pronoun.\n\nD. CORRECT. The reflexive pronoun “myself” is used incorrectly as the object of the verb “thanked.” A reflexive pronoun must refer back to the subject of the same sentence, but the subject of sentence 4 is “The teacher,” not the speaker. The sentence should instead use the objective pronoun “me,” as in “The teacher thanked Priya and me.”"
+      }
+    },
+    {
+      "id": "GR05",
+      "q_number": 31,
+      "question_type": "mc",
+      "stimulus": "(1) The band needed a new drummer before the spring concert. (2) They chose a student whom they felt had the strongest sense of rhythm. (3) Rehearsals began the following Monday. (4) The concert received positive reviews from the audience.",
+      "question": "Which sentence contains an error in the use of who or whom?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The question asks which sentence contains an error in the use of who or whom.\n\nA. Incorrect. Sentence 1 does not contain the pronoun who or whom.\n\nB. CORRECT. The pronoun “whom” is used incorrectly. Setting aside the inserted clause “they felt,” the pronoun functions as the subject of the verb “had,” so the subjective pronoun “who” is required: “They chose a student who they felt had the strongest sense of rhythm.”\n\nC. Incorrect. Sentence 3 does not contain the pronoun who or whom.\n\nD. Incorrect. Sentence 4 does not contain the pronoun who or whom."
+      }
+    }
+  ]
+}
