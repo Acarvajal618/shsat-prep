@@ -95,6 +95,19 @@
       margin-top: 2px;
     }
     .tn-passage-para .tn-passage-text { flex: 1; }
+    .tn-passage-intro { font-style: italic; color: #444; margin-bottom: 16px; font-size: 14px; }
+    .tn-passage-sentpara { margin-bottom: 14px; }
+    .tn-passage-sentnum { color: #888; font-size: 11px; font-weight: 700; margin-right: 2px; }
+    .tn-passage-sentence { }
+    .tn-sentence-highlight { background: #fff3b0; }
+
+    /* ── Standalone items: no passage pane, full-width question card ── */
+    .tn-main.standalone .tn-passage-pane { display: none; }
+    .tn-main.standalone .tn-question-pane { flex: 1 1 100%; max-width: 760px; margin: 0 auto; }
+    .tn-stimulus-box {
+      border: 1px solid var(--tn-card-border); background: #fafafa;
+      padding: 16px 20px; margin-bottom: 18px; font-size: 14px; line-height: 1.6;
+    }
 
     .tn-question-pane { flex: 1; min-width: 0; }
     .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
@@ -216,6 +229,9 @@
             state.questions.push(Object.assign({ passageIdx: pIdx }, q));
           });
         });
+        (data.standalone_items || []).forEach(q => {
+          state.questions.push(Object.assign({ passageIdx: null, isStandalone: true }, q));
+        });
         state.questions.sort((a, b) => a.q_number - b.q_number);
       } catch (e) {
         console.error('boot fetch failed:', e);
@@ -253,7 +269,7 @@
     function currentQ() { return state.questions[state.cur] || null; }
     function currentPassage() {
       const q = currentQ();
-      return q ? state.passages[q.passageIdx] : null;
+      return (q && q.passageIdx !== null && q.passageIdx !== undefined) ? state.passages[q.passageIdx] : null;
     }
 
     function updateInfobar() {
@@ -262,6 +278,7 @@
       document.getElementById('tn-counter').textContent =
         (q ? q.q_number : state.cur + 1) + ' OF ' + totalQ();
       document.getElementById('tn-passage-label').textContent =
+        q && q.isStandalone ? 'ELA - STAND ALONE ITEMS' :
         p ? `ELA - PASSAGE SET ${p.passage_number} OF ${p.total_passages}` : 'ELA';
     }
 
@@ -328,13 +345,33 @@
       return lines.map(l => `<div>${renderBoldText(l)}</div>`).join('');
     }
 
-    function renderPassage() {
+    function renderSentenceSpans(sentences, highlightNum) {
+      return sentences.map(s => {
+        const cls = (highlightNum && s.num === highlightNum) ? ' tn-sentence-highlight' : '';
+        return `<span class="tn-passage-sentnum">(${s.num})</span><span class="tn-passage-sentence${cls}" data-sentnum="${s.num}">${esc(s.text)}</span> `;
+      }).join('');
+    }
+
+    function renderPassage(highlightSentNum) {
+      const q = currentQ();
       const p = currentPassage();
+      const main = document.querySelector('.tn-main');
       const pane = document.getElementById('tn-passage-pane');
+      if (q && q.isStandalone) {
+        main.classList.add('standalone');
+        pane.innerHTML = '';
+        return;
+      }
+      main.classList.remove('standalone');
       if (!p) { pane.innerHTML = ''; return; }
       let html = `<div class="tn-passage-title">${esc(p.title)}</div>`;
       if (p.author) html += `<div class="tn-passage-author">by ${esc(p.author)}</div>`;
-      if (p.paragraphs) {
+      if (p.intro_note) html += `<div class="tn-passage-intro">${esc(p.intro_note)}</div>`;
+      if (p.sentence_paragraphs) {
+        p.sentence_paragraphs.forEach(para => {
+          html += `<div class="tn-passage-sentpara">${renderSentenceSpans(para, highlightSentNum)}</div>`;
+        });
+      } else if (p.paragraphs) {
         p.paragraphs.forEach(para => {
           html += `<div class="tn-passage-para">
             <span class="tn-passage-paranum">${para.num}</span>
@@ -349,6 +386,7 @@
           </div>`;
         });
       }
+      if (p.passage_figure_html) html += `<div style="margin-top:16px;">${p.passage_figure_html}</div>`;
       if (p.citation) html += `<div class="tn-passage-citation">${esc(p.citation)}</div>`;
       pane.innerHTML = html;
     }
@@ -366,8 +404,13 @@
         return;
       }
 
-      renderPassage();
-      document.getElementById('tn-question').innerHTML = renderQuestionText(q.question);
+      renderPassage(q.blank_target_sentence_num);
+
+      let stimulusHtml = '';
+      if (q.isStandalone && q.stimulus) {
+        stimulusHtml = `<div class="tn-stimulus-box">${q.stimulus}</div>`;
+      }
+      document.getElementById('tn-question').innerHTML = stimulusHtml + renderQuestionText(q.question);
 
       let bodyHtml = '';
       if (q.question_type === 'mc') {
@@ -376,6 +419,8 @@
         bodyHtml = renderMcMulti(q);
       } else if (q.question_type === 'sort_categories') {
         bodyHtml = renderSortCategories(q);
+      } else if (q.question_type === 'fill_blank' || q.question_type === 'single_drop') {
+        bodyHtml = renderSingleDrop(q);
       }
       document.getElementById('tn-body').innerHTML = bodyHtml;
 
@@ -399,7 +444,7 @@
         return `<div class="${cls}" data-letter="${L}">
           <span class="tn-radio"></span>
           <span class="tn-letter">${L}.</span>
-          <span class="tn-option-text">${esc(q.options[L])}</span>
+          <span class="tn-option-text">${renderBoldText(q.options[L])}</span>
         </div>`;
       }).join('');
       return `<div class="tn-options" data-mode="mc">${opts}</div>`;
@@ -413,7 +458,7 @@
         return `<div class="${cls}" data-letter="${L}">
           <span class="tn-checkbox"></span>
           <span class="tn-letter">${L}</span>
-          <span class="tn-option-text">${esc(q.options[L])}</span>
+          <span class="tn-option-text">${renderBoldText(q.options[L])}</span>
         </div>`;
       }).join('');
       return `<div class="tn-options" data-mode="mc_multi">${opts}</div>`;
@@ -445,6 +490,26 @@
         <div class="tn-sort-note">Move each answer to the correct box.</div>
         <div class="tn-sort-bank" data-role="sort-bank">${bank}</div>
         <div class="tn-sort-categories">${catsHtml}</div>
+      `;
+    }
+
+    // ── Single-target drag (AR44 fill-blank, AR50 single-answer drop) ──
+    function renderSingleDrop(q) {
+      const placed = state.answers[q.q_number] || null; // the placed choice string, or null
+      const choices = q.drop_choices || q.blank_choices || [];
+      const bankItems = choices.filter(c => c !== placed);
+      const bankHtml = bankItems.map(c =>
+        `<div class="tn-sort-chip" draggable="true" data-item="${esc(c)}">${esc(c)}</div>`
+      ).join('');
+      const bank = bankHtml || '<span style="color:#888; font-style:italic; font-size:13px;">Click the box to return the answer.</span>';
+      const boxLabel = q.drop_box_label || (q.blank_target_sentence_num ? `Sentence ${q.blank_target_sentence_num}` : 'Your answer');
+      const placedChip = placed ? `<div class="tn-sort-chip" data-item="${esc(placed)}" data-placed="1">${esc(placed)}</div>` : '';
+      return `
+        <div class="tn-sort-bank" data-role="sort-bank">${bank}</div>
+        <div class="tn-sort-category tn-single-drop" data-cat="single">
+          <div class="tn-sort-category-label">${esc(boxLabel)}</div>
+          ${placedChip}
+        </div>
       `;
     }
 
@@ -506,6 +571,35 @@
             render();
           });
         });
+      }
+
+      if (q.question_type === 'fill_blank' || q.question_type === 'single_drop') {
+        document.querySelectorAll('.tn-sort-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.item);
+            e.dataTransfer.effectAllowed = 'move';
+          });
+          chip.addEventListener('click', () => {
+            if (chip.dataset.placed) {
+              state.answers[q.q_number] = null;
+              render();
+              return;
+            }
+            state.answers[q.q_number] = chip.dataset.item;
+            render();
+          });
+        });
+        const box = document.querySelector('.tn-single-drop');
+        if (box) {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            box.classList.remove('drag-over');
+            state.answers[q.q_number] = e.dataTransfer.getData('text/plain');
+            render();
+          });
+        }
       }
     }
 
