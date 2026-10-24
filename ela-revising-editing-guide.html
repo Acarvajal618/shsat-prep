@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revising &amp; Editing Study Guide — SHSAT Prep</title>
+  <style>
+    :root {
+      --navy:#4c1d63; --blue:#c026d3; --blue-light:#fae8ff;
+      --green:#1e8e3e; --green-light:#e6f4ea;
+      --amber:#f9ab00; --amber-light:#fef7e0;
+      --red:#d93025; --red-light:#fce8e6;
+      --text:#1c2333; --muted:#6b7280; --border:#dde3ec;
+      --bg:#f0f4f8; --surface:#fff; --radius:10px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui,-apple-system,sans-serif; background: var(--bg); color: var(--text); line-height: 1.55; padding: 1.5rem 1rem 4rem; }
+    .page { max-width: 880px; margin: 0 auto; }
+    .back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--blue); text-decoration: none; font-size: 0.88rem; margin-bottom: 1rem; }
+    h1 { font-size: 1.6rem; font-weight: 900; margin-bottom: 0.3rem; color: var(--navy); }
+    .subtitle { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.5rem; }
+
+    /* ── Quick-ID strip ── */
+    .quickid { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 2rem; }
+    .quickid h2 { font-size: 0.95rem; font-weight: 800; color: var(--navy); margin-bottom: 0.6rem; }
+    .qrow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; padding: 0.35rem 0; font-size: 0.85rem; border-top: 1px solid var(--border); }
+    .qrow:first-of-type { border-top: none; }
+    .qphrase { font-style: italic; color: var(--text); flex: 1 1 280px; }
+    .qarrow { color: var(--muted); }
+    .qtag { background: var(--blue-light); color: var(--blue); font-weight: 700; border-radius: 99px; padding: 0.15em 0.75em; font-size: 0.78rem; white-space: nowrap; }
+
+    /* ── Category sections ── */
+    .cat { margin-bottom: 2.25rem; }
+    .cat-head { display: flex; align-items: baseline; gap: 0.6rem; margin-bottom: 0.3rem; flex-wrap: wrap; }
+    .cat-num { background: var(--navy); color: #fff; font-weight: 800; font-size: 0.78rem; border-radius: 99px; width: 1.6rem; height: 1.6rem; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .cat-title { font-size: 1.15rem; font-weight: 800; color: var(--navy); }
+    .cat-count { font-size: 0.76rem; color: var(--muted); font-weight: 600; }
+    .cat-what { color: var(--muted); font-size: 0.88rem; margin: 0.3rem 0 0.75rem; }
+    .strategy { background: var(--amber-light); border-left: 3px solid var(--amber); border-radius: 6px; padding: 0.65rem 0.9rem; font-size: 0.84rem; margin-bottom: 1rem; }
+    .strategy b { color: #9a3412; }
+
+    /* ── Example card ── */
+    .ex-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1rem; font-size: 0.85rem; margin-bottom: 0.75rem; }
+    .ex-source { font-size: 0.72rem; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.35rem; }
+    .ex-sentence { color: var(--text); margin-bottom: 0.4rem; }
+    .ex-why { color: var(--muted); font-size: 0.8rem; }
+    .ex-why b { color: var(--green); margin-right: 0.3rem; }
+    del { color: var(--red); text-decoration-color: var(--red); background: var(--red-light); border-radius: 3px; padding: 0 2px; }
+    ins { color: var(--green); text-decoration: none; background: var(--green-light); border-radius: 3px; padding: 0 2px; font-weight: 700; }
+
+    .footnote { margin-top: 1rem; font-size: 0.78rem; color: var(--muted); text-align: center; }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+  <div class="page">
+    <a href="exams.html" class="back">← Back to Exams</a>
+    <h1>Revising &amp; Editing Study Guide</h1>
+    <p class="subtitle">Every standalone (non-passage) Revising/Editing item transcribed so far from Practice Tests A–D — 14 real questions, grouped by the skill each one is actually testing. There aren't enough yet for a full practice set, but they already span the 6 error types that show up again and again on this part of the exam.</p>
+
+    <div class="quickid">
+      <h2>Spot the question type fast</h2>
+      <div class="qrow"><span class="qphrase">"...contains a vague pronoun"</span><span class="qarrow">→</span><span class="qtag">Vague Pronoun</span></div>
+      <div class="qrow"><span class="qphrase">"...error in construction" / "...error in sentence structure"</span><span class="qarrow">→</span><span class="qtag">Sentence Construction</span></div>
+      <div class="qrow"><span class="qphrase">"Best way to combine the sentences..."</span><span class="qarrow">→</span><span class="qtag">Combining Sentences</span></div>
+      <div class="qrow"><span class="qphrase">"Pair of revisions" / "How should the paragraph be revised" / "Select the two..."</span><span class="qarrow">→</span><span class="qtag">Paragraph Editing (Agreement + Punctuation)</span></div>
+      <div class="qrow"><span class="qphrase">"Most precise language" / drag-a-phrase questions</span><span class="qarrow">→</span><span class="qtag">Precise Language</span></div>
+    </div>
+
+    <!-- 1 -->
+    <div class="cat">
+      <div class="cat-head"><span class="cat-num">1</span><span class="cat-title">Vague Pronoun Reference</span><span class="cat-count">1 example · AR48</span></div>
+      <p class="cat-what">A pronoun (he, she, it, they, this) has to clearly point back to one specific noun. If it could reasonably refer to two different people or things mentioned earlier, it's vague.</p>
+      <div class="strategy"><b>How to solve it:</b> For every pronoun in the suspect sentence, ask "which exact noun does this replace?" If you can name two candidates, or if the real antecedent was never stated, that's your answer. The fix is always to swap the pronoun for the actual name/noun.</div>
+      <div class="ex-card">
+        <div class="ex-source">Exam A · AR48</div>
+        <div class="ex-sentence">"Eliza and Brianna have been singing... Outside of school, <del>she</del> also sings in a choir..."</div>
+        <div class="ex-why"><b>Why:</b> "She" could mean Eliza or Brianna — the sentence never says which. Fix: name her directly (<ins>Eliza</ins> or <ins>Brianna</ins>).</div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="cat">
+      <div class="cat-head"><span class="cat-num">2</span><span class="cat-title">Subject–Verb &amp; Tense Agreement</span><span class="cat-count">2 examples · AR49, BR09</span></div>
+      <p class="cat-what">The verb has to match its subject in number (singular subject → singular verb), and every verb in a paragraph has to stay in the same tense unless there's a real reason to shift.</p>
+      <div class="strategy"><b>How to solve it:</b> Find the <i>actual</i> subject of the verb — ignore any phrase sitting between them. Then check what tense the rest of the paragraph is written in (read a sentence before and after) and make sure the verb in question matches it.</div>
+      <div class="ex-card">
+        <div class="ex-source">Exam A · AR49</div>
+        <div class="ex-sentence">"Granddad turns each pancake when <del>they start</del> to bubble..." → "...when <ins>it starts</ins> to bubble..."</div>
+        <div class="ex-why"><b>Why:</b> The subject is singular ("each pancake"), so it needs the singular pronoun/verb "it starts," not "they start."</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-source">Exam B · BR09</div>
+        <div class="ex-sentence">"First she did vocal exercises... Then she <del>studies</del> the text..." → "Then she <ins>studied</ins> the text..."</div>
+        <div class="ex-why"><b>Why:</b> Every other verb in the paragraph is past tense ("did," "spent"). A present-tense verb ("studies") breaks that consistency.</div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="cat">
+      <div class="cat-head"><span class="cat-num">3</span><span class="cat-title">Sentence Construction (run-ons &amp; dangling modifiers)</span><span class="cat-count">5 examples · AR50, BR06, BR08, CR05, DR13</span></div>
+      <p class="cat-what">The most common error type on this part of the exam. Two flavors show up over and over: (a) a <b>run-on/comma splice</b> — two complete sentences jammed together with just a comma — and (b) a <b>dangling/misplaced modifier</b> — an opening descriptive phrase that ends up describing the wrong noun.</p>
+      <div class="strategy"><b>How to solve it:</b> For run-ons — check whether the words on both sides of a comma could each stand alone as a full sentence. If yes, a comma alone isn't strong enough; it needs a period, semicolon, or conjunction. For dangling modifiers — look at the noun immediately after the opening phrase and ask "does THIS actually do the action described?" If not, it's dangling.</div>
+      <div class="ex-card">
+        <div class="ex-source">Exam B · BR06 — comma splice</div>
+        <div class="ex-sentence">"...opened as part of the Smithsonian <del>Institution, the</del> museum is already the Smithsonian's third most popular site."</div>
+        <div class="ex-why"><b>Why:</b> Both halves are full sentences on their own, so a comma can't join them — needs a period or a conjunction.</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-source">Exam B · BR08 — dangling modifier</div>
+        <div class="ex-sentence">"<del>Leaving approximately 73,000 residents without electricity</del>, lights did not function, refrigerators did not stay cold..."</div>
+        <div class="ex-why"><b>Why:</b> The phrase describes the power outage "leaving" residents without power — but the noun right after the comma is "lights," which can't "leave" anyone without electricity.</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-source">Exam D · DR13 — dangling modifier</div>
+        <div class="ex-sentence">"<del>Walking dogs, cleaning kennels, hand-feeding newborn kittens</del>, the animal shelter is looking for volunteers..."</div>
+        <div class="ex-why"><b>Why:</b> A shelter (a place) can't walk dogs or feed kittens — the list of tasks needs to modify a person ("volunteers"), not "the animal shelter."</div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="cat">
+      <div class="cat-head"><span class="cat-num">4</span><span class="cat-title">Combining Sentences to Show Relationship</span><span class="cat-count">3 examples · BR07, CR06, DR16</span></div>
+      <p class="cat-what">You're given 2–3 short separate sentences and asked which combined version best shows how the ideas relate — cause/effect, contrast, or one idea being extra detail about another.</p>
+      <div class="strategy"><b>How to solve it:</b> First decide the real-world relationship in plain English ("this caused that," "these are just two facts," "this is an extra detail about that"). Then eliminate any answer whose connector word (although, but, while, so, because) implies the <i>wrong</i> relationship — even if the sentence reads smoothly. The most important idea should end up as the main clause, not buried in a subordinate phrase.</div>
+      <div class="ex-card">
+        <div class="ex-source">Exam C · CR06</div>
+        <div class="ex-sentence">"Jordan rehearsed for weeks. He delivered his lines with ease. His performance got applause." → <ins>"Because Jordan had rehearsed his role for weeks, he delivered his lines with ease, and his performance was met with applause."</ins></div>
+        <div class="ex-why"><b>Why:</b> "Because" correctly shows rehearsing <i>caused</i> the easy delivery — other options used "though"/"yet," which wrongly imply the opposite (success <i>despite</i> rehearsing).</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-source">Exam B · BR07</div>
+        <div class="ex-sentence">"Flyby missions near Jupiter have happened since 1973. They let scientists collect data." → <ins>"Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973."</ins></div>
+        <div class="ex-why"><b>Why:</b> The data-collecting detail is background info about the missions, not an equally important separate fact — so it belongs in a "which" clause, not its own independent clause.</div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="cat">
+      <div class="cat-head"><span class="cat-num">5</span><span class="cat-title">Punctuation Rules (commas &amp; adjective order)</span><span class="cat-count">2 examples · CR07, DR15</span></div>
+      <p class="cat-what">Mostly comma rules: whether two adjectives before a noun need a comma between them ("coordinate" adjectives) and whether a descriptive clause is essential (no commas) or extra/nonessential (needs commas).</p>
+      <div class="strategy"><b>How to solve it — the "AND test" for adjective commas:</b> Try putting "and" between the two adjectives, or swapping their order. If it still sounds natural ("official and first selfie"), they're coordinate and need a comma. If it sounds wrong, no comma — they're not independently describing the noun.</div>
+      <div class="ex-card">
+        <div class="ex-source">Exam D · DR15</div>
+        <div class="ex-sentence">"...taking the <del>first,</del> official selfie..." → "...taking the <ins>first</ins> official selfie..."</div>
+        <div class="ex-why"><b>Why:</b> "First official selfie" isn't "first AND official" selfie — he didn't take two separate things. The adjectives build on each other, so no comma.</div>
+      </div>
+      <div class="ex-card">
+        <div class="ex-source">Exam C · CR07</div>
+        <div class="ex-sentence">Paragraph-editing item: pick the sentence needing BOTH a comma fix <i>and</i> an agreement fix in the same pass (delete comma after "gelato" AND change "allow" → "allows").</div>
+        <div class="ex-why"><b>Why:</b> "Pair of revisions" questions often bundle a punctuation fix with an agreement fix in the same sentence — check both, not just one.</div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="cat">
+      <div class="cat-head"><span class="cat-num">6</span><span class="cat-title">Precise / Effective Language</span><span class="cat-count">1 example · DR14</span></div>
+      <p class="cat-what">You're asked to replace a vague phrase with the most precise option. The trap answers just use different generic words that are still vague — the correct one adds concrete, specific detail.</p>
+      <div class="strategy"><b>How to solve it:</b> Cross out any option that merely rephrases the vague idea with another vague word ("a specific direction," "through the space"). The right answer explains the actual mechanism — what specifically happens, and how.</div>
+      <div class="ex-card">
+        <div class="ex-source">Exam D · DR14</div>
+        <div class="ex-sentence">"...the tiled archways <del>send the sound through the environment</del>." → "...the tiled archways <ins>direct the sound waves to move along the curves of the arches</ins>."</div>
+        <div class="ex-why"><b>Why:</b> The fix names the actual physical cause (sound waves following curved tile) instead of a vague restatement of "send it somewhere."</div>
+      </div>
+    </div>
+
+    <p class="footnote">Strategy, top to bottom: read the sentence(s) once for meaning before touching the error. Identify which of the 6 skills above is being tested from the question phrasing. Then check only for that error — don't go hunting for unrelated problems. As more standalone items get transcribed from Exams A–D, this guide will grow with them.</p>
+  </div>
+</body>
+</html>
