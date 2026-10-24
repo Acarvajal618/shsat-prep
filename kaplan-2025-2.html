@@ -113,6 +113,12 @@
     .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
     .tn-question { font-size: 15px; line-height: 1.55; color: var(--tn-text); white-space: pre-line; }
     .tn-question strong { font-weight: 700; }
+    .tn-figure { margin: 8px 0 16px; display: flex; justify-content: center; }
+    .tn-figure img { max-width: 100%; height: auto; }
+    .tn-figure svg { width: 100%; max-width: 520px; height: auto; }
+    .tn-grid-input { margin-top: 16px; padding: 8px 12px; border: 1.5px solid #7a7a7a; border-radius: 2px; width: 140px; font-size: 16px; font-family: inherit; outline: none; }
+    .tn-grid-input:focus { border-color: var(--tn-accent); }
+    .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
 
     .tn-options { margin-top: 22px; display: flex; flex-direction: column; gap: 4px; }
     .tn-option { display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; cursor: pointer; border-radius: 2px; user-select: none; transition: background 0.08s; }
@@ -246,7 +252,7 @@
     function parseHash() {
       const m = (location.hash || '').match(/#Q(\d+)/);
       if (!m) return null;
-      return Math.max(1, Math.min(totalQ() || 1, parseInt(m[1], 10)));
+      return Math.max(1, parseInt(m[1], 10));
     }
 
     function routeFromHash() {
@@ -276,8 +282,9 @@
       const q = currentQ();
       const p = currentPassage();
       document.getElementById('tn-counter').textContent =
-        (q ? q.q_number : state.cur + 1) + ' OF ' + totalQ();
+        (state.cur + 1) + ' OF ' + totalQ() + (q ? ' (Q' + q.q_number + ')' : '');
       document.getElementById('tn-passage-label').textContent =
+        q && q.section_label ? `PRACTICE TEST 2 - ${q.section_label}` :
         q && q.isStandalone ? 'PRACTICE TEST 2 - REVISING/EDITING PART A' :
         p ? `PRACTICE TEST 2 - ${p.title.toUpperCase()}` : 'PRACTICE TEST 2';
     }
@@ -414,13 +421,19 @@
       if (q.isStandalone && q.stimulus) {
         stimulusHtml = `<div class="tn-stimulus-box">${q.stimulus}</div>`;
       }
-      document.getElementById('tn-question').innerHTML = stimulusHtml + renderQuestionText(q.question);
+      let figureHtml = '';
+      if (q.figure_svg) {
+        figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
+      }
+      document.getElementById('tn-question').innerHTML = stimulusHtml + figureHtml + renderQuestionText(q.question);
 
       let bodyHtml = '';
       if (q.question_type === 'mc') {
         bodyHtml = renderMc(q);
       } else if (q.question_type === 'mc_multi') {
         bodyHtml = renderMcMulti(q);
+      } else if (q.question_type === 'grid_in') {
+        bodyHtml = renderGridIn(q);
       } else if (q.question_type === 'sort_categories') {
         bodyHtml = renderSortCategories(q);
       } else if (q.question_type === 'fill_blank' || q.question_type === 'single_drop') {
@@ -438,6 +451,14 @@
 
       wireInputs(q);
       typesetMath(document.getElementById('tn-card'));
+    }
+
+    function renderGridIn(q) {
+      const val = state.answers[q.q_number] || '';
+      return `
+        <div class="tn-grid-label">Enter your answer in the space.</div>
+        <input type="text" class="tn-grid-input" id="tn-grid" value="${esc(val)}" autocomplete="off">
+      `;
     }
 
     function renderMc(q) {

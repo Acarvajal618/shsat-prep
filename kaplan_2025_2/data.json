@@ -2,7 +2,7 @@
   "_schema": {
     "description": "Kaplan 2025 'SHSAT Practice Tests and Explanations' book, Practice Test 2, Part 1 ELA, questions 1-10 (Revising/Editing Part A, standalone items 1-5; Revising/Editing Part B, passage-based items 6-10). Questions/options transcribed verbatim from the book. Explanations are NOT transcribed as text per the user's instruction — each question's 'Solution' button shows a cropped photo of the book's 'Getting to the Answer' explanation instead.",
     "source": "Kaplan SHSAT Practice Tests and Explanations, Practice Test 2, pages 404-409 (questions) and 443-444 (answers/explanations)",
-    "status": "Questions 1-10 of 57 ELA questions in Part 1. More to come in later batches.",
+    "status": "Questions 1-10 and 58-67 transcribed so far (of 114 total: 57 ELA + 57 math). More to come in later batches.",
     "option_letters": "The book alternates A-D and E-H per question (standard test-booklet convention to avoid bubble-sheet confusion) — preserved exactly as printed rather than normalized."
   },
   "standalone_items": [
@@ -12,9 +12,16 @@
       "question_type": "mc",
       "stimulus": "(1) A talented geographer, the professor, who teaches college students, is an expert at locating cities and countries on maps. (2) In his lectures, he explains cartography, or map-making, which involves surveying the Earth's surface to represent its physical structures. (3) Geographers use maps with different projections that can display the Earth's various features, including mountains, the magnetic poles, and oceans. (4) Studying the field of geography provides knowledge about its connections to biology, sociology, and history, among other subjects.",
       "question": "Which sentence should be revised to correct a wordiness issue?",
-      "options": {"A": "sentence 1", "B": "sentence 2", "C": "sentence 3", "D": "sentence 4"},
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
       "correct": "A",
-      "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q01.jpg"}
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q01.jpg"
+      }
     },
     {
       "id": "KM2_Q02",
@@ -22,9 +29,16 @@
       "question_type": "mc",
       "stimulus": "(1) After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree in computer science. (2) The coursework revolves around programming, which is the preparation of instructions that tell the computer which operations it needs to perform. (3) Students learn formulas as well as programs that translate complex computer languages. (4) With new advancements every day, the computer science field requires professionals to constantly learn about applying the latest technology.",
       "question": "Which sentence contains an error in its construction and should be revised?",
-      "options": {"E": "sentence 1", "F": "sentence 2", "G": "sentence 3", "H": "sentence 4"},
+      "options": {
+        "E": "sentence 1",
+        "F": "sentence 2",
+        "G": "sentence 3",
+        "H": "sentence 4"
+      },
       "correct": "E",
-      "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q02.jpg"}
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q02.jpg"
+      }
     },
     {
       "id": "KM2_Q03",
@@ -39,7 +53,9 @@
         "D": "Change **begin to** to **begin with**."
       },
       "correct": "C",
-      "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q03.jpg"}
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q03.jpg"
+      }
     },
     {
       "id": "KM2_Q04",
@@ -54,7 +70,9 @@
         "H": "Change **allowing** to **allows**."
       },
       "correct": "H",
-      "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q04.jpg"}
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q04.jpg"
+      }
     },
     {
       "id": "KM2_Q05",
@@ -69,7 +87,151 @@
         "D": "New York state has more than 70,000 miles of rivers and streams, including the Hudson River, which is home to dozens of rare birds and more than a hundred rare plants."
       },
       "correct": "D",
-      "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q05.jpg"}
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q05.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q58",
+      "q_number": 58,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "Alicia can choose 2 of her 5 best friends to go with her to the amusement park. Her best friends are Connie, Dale, Eric, Finley, and Georgette. How many different pairs of 2 friends can she choose from the 5?",
+      "grid_answer": "10",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q58.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q59",
+      "q_number": 59,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "What value of \\(m\\) makes the proportion \\(\\dfrac{3m}{5}=\\dfrac{12}{4}\\) true?",
+      "grid_answer": "5",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q59.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q60",
+      "q_number": 60,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "Sidney is eating lunch at a salad bar where you create your own salad. An 8-ounce salad costs $2.49. Each additional ounce of salad costs $0.25. How much does Sidney's salad cost if it weighs 1 pound, 8 ounces?",
+      "grid_answer": "6.49",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q60.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q61",
+      "q_number": 61,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "If \\(2x+3y=194\\) and \\(x=28\\), what is the value of \\(y\\)?",
+      "grid_answer": "46",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q61.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q62",
+      "q_number": 62,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "In a scale drawing of a triangular stained-glass window, the base measures 12 inches and the other two sides each measure 8 inches. On the actual window, the two congruent sides each measure 6 feet. What is the length in feet of the base of the actual window?",
+      "grid_answer": "9",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q62.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q63",
+      "q_number": 63,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "\\[\\left\\{\\dfrac{2}{11},\\dfrac{3}{11},\\dfrac{4}{11},\\dfrac{5}{11},\\dfrac{6}{11},\\dfrac{7}{11}\\right\\}\\]\nIf Deena chooses a number at random from the set above, what is the probability that the number she chooses is less than \\(\\dfrac{1}{2}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{5}{11}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{2}{3}\\)",
+        "D": "\\(\\dfrac{5}{6}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q63.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q64",
+      "q_number": 64,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "figure_svg": "<svg viewBox=\"0 0 300 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"150\" cy=\"150\" r=\"110\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L150.0,40.0 A110,110 0 0 1 225.3,69.8 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L225.3,69.8 A110,110 0 0 1 214.7,239.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L214.7,239.0 A110,110 0 0 1 74.7,230.2 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L74.7,230.2 A110,110 0 0 1 150.0,40.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"175.1\" y=\"76.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"175.1\" dy=\"0\">12%</tspan><tspan x=\"175.1\" dy=\"13\">Workforce</tspan></text><text x=\"218.1\" y=\"144.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"218.1\" dy=\"0\">28%</tspan><tspan x=\"218.1\" dy=\"13\">2-year</tspan><tspan x=\"218.1\" dy=\"13\">College</tspan></text><text x=\"145.7\" y=\"208.1\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"145.7\" dy=\"0\">22%</tspan><tspan x=\"145.7\" dy=\"13\">Vocational</tspan><tspan x=\"145.7\" dy=\"13\">School</tspan></text><text x=\"86.6\" y=\"114.9\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"86.6\" dy=\"0\">38%</tspan><tspan x=\"86.6\" dy=\"13\">4-year</tspan><tspan x=\"86.6\" dy=\"13\">College</tspan></text><text x=\"150\" y=\"285\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">Education/Career Plans for</text><text x=\"150\" y=\"300\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">Centerville High School Graduates</text><text x=\"150\" y=\"320\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555\">2019</text><text x=\"150\" y=\"335\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555\">Total Number of Graduates: 600</text></svg>",
+      "question": "In 2019, how many graduates from Centerville High School chose either to enter the workforce or to continue their education at a vocational school?",
+      "options": {
+        "E": "72",
+        "F": "132",
+        "G": "168",
+        "H": "204"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q64.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q65",
+      "q_number": 65,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(2(x+y)=8+2y\\), then what is \\(x\\)?",
+      "options": {
+        "A": "-1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q65.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q66",
+      "q_number": 66,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "figure_svg": "<svg viewBox=\"0 0 760 70\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><line x1=\"10\" y1=\"40\" x2=\"750\" y2=\"40\" stroke=\"#333\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\" marker-start=\"url(#arrowL)\"/><defs><marker id=\"arrow\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#333\"/></marker><marker id=\"arrowL\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto-start-reverse\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#333\"/></marker></defs><line x1=\"40.0\" y1=\"34\" x2=\"40.0\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"40.0\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">-2</text><line x1=\"96.7\" y1=\"34\" x2=\"96.7\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"96.7\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">-1</text><line x1=\"153.3\" y1=\"34\" x2=\"153.3\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"153.3\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">0</text><line x1=\"210.0\" y1=\"34\" x2=\"210.0\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">1</text><line x1=\"266.7\" y1=\"34\" x2=\"266.7\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"266.7\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">2</text><line x1=\"323.3\" y1=\"34\" x2=\"323.3\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"323.3\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">3</text><line x1=\"380.0\" y1=\"34\" x2=\"380.0\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"380.0\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">4</text><line x1=\"436.7\" y1=\"34\" x2=\"436.7\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"436.7\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">5</text><line x1=\"493.3\" y1=\"34\" x2=\"493.3\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"493.3\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">6</text><line x1=\"550.0\" y1=\"34\" x2=\"550.0\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"550.0\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">7</text><line x1=\"606.7\" y1=\"34\" x2=\"606.7\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"606.7\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">8</text><line x1=\"663.3\" y1=\"34\" x2=\"663.3\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"663.3\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">9</text><line x1=\"720.0\" y1=\"34\" x2=\"720.0\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"720.0\" y=\"62\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">10</text><circle cx=\"210.0\" cy=\"40\" r=\"4\" fill=\"#222\"/><text x=\"210.0\" y=\"26\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#222\">A</text><circle cx=\"323.3\" cy=\"40\" r=\"4\" fill=\"#222\"/><text x=\"323.3\" y=\"26\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#222\">B</text><circle cx=\"550.0\" cy=\"40\" r=\"4\" fill=\"#222\"/><text x=\"550.0\" y=\"26\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#222\">C</text></svg>",
+      "question": "On the number line above, how many units is point B from the midpoint of AC?",
+      "options": {
+        "E": "1",
+        "F": "2",
+        "G": "3",
+        "H": "4"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q66.jpg"
+      }
+    },
+    {
+      "id": "KM2_Q67",
+      "q_number": 67,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A certain machine caps 5 bottles every 2 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+      "options": {
+        "A": "120",
+        "B": "150",
+        "C": "240",
+        "D": "300"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_2/solutions/Q67.jpg"
+      }
     }
   ],
   "passages": [
@@ -80,34 +242,94 @@
       "title": "States of Consciousness",
       "sentence_paragraphs": [
         [
-          {"num": 1, "text": "Consciousness is a topic that has captivated psychologists since the beginning of experimental psychology in the late 1800s."},
-          {"num": 2, "text": "Wilhelm Wundt and William James, both notable founders of psychology, were fascinated with studying consciousness, both from the perspective of how it was organized and how it worked."}
+          {
+            "num": 1,
+            "text": "Consciousness is a topic that has captivated psychologists since the beginning of experimental psychology in the late 1800s."
+          },
+          {
+            "num": 2,
+            "text": "Wilhelm Wundt and William James, both notable founders of psychology, were fascinated with studying consciousness, both from the perspective of how it was organized and how it worked."
+          }
         ],
         [
-          {"num": 3, "text": "Consciousness refers to the active processing of information in the brain."},
-          {"num": 4, "text": "It is your awareness of yourself and your environment, and the features of your consciousness at any given point in time are referred to as your state of consciousness."},
-          {"num": 5, "text": "While in a normal state of consciousness, you are awake and alert."},
-          {"num": 6, "text": "In an altered state of consciousness, however, you experience a disruption to your normal state—such as falling asleep or drifting off into a daydream."},
-          {"num": 7, "text": "You may not realize that you experience different states of consciousness throughout each day."},
-          {"num": 8, "text": "You are likely not actively aware of your breathing, heartbeat, and other biological functions, for instance."},
-          {"num": 9, "text": "These body processes, which are being controlled by your brain, are happening on a nonconscious level."}
+          {
+            "num": 3,
+            "text": "Consciousness refers to the active processing of information in the brain."
+          },
+          {
+            "num": 4,
+            "text": "It is your awareness of yourself and your environment, and the features of your consciousness at any given point in time are referred to as your state of consciousness."
+          },
+          {
+            "num": 5,
+            "text": "While in a normal state of consciousness, you are awake and alert."
+          },
+          {
+            "num": 6,
+            "text": "In an altered state of consciousness, however, you experience a disruption to your normal state—such as falling asleep or drifting off into a daydream."
+          },
+          {
+            "num": 7,
+            "text": "You may not realize that you experience different states of consciousness throughout each day."
+          },
+          {
+            "num": 8,
+            "text": "You are likely not actively aware of your breathing, heartbeat, and other biological functions, for instance."
+          },
+          {
+            "num": 9,
+            "text": "These body processes, which are being controlled by your brain, are happening on a nonconscious level."
+          }
         ],
         [
-          {"num": 10, "text": "According to psychoanalytic theory, all of the memories that you have stored and could actively start thinking about, if prompted, represent the preconscious level."},
-          {"num": 11, "text": "For example, what did you have for breakfast this morning?"}
+          {
+            "num": 10,
+            "text": "According to psychoanalytic theory, all of the memories that you have stored and could actively start thinking about, if prompted, represent the preconscious level."
+          },
+          {
+            "num": 11,
+            "text": "For example, what did you have for breakfast this morning?"
+          }
         ],
         [
-          {"num": 12, "text": "Psychologists have found that people are affected by information that they are not aware of consciously."},
-          {"num": 13, "text": "This information is acting on a subconscious level."},
-          {"num": 14, "text": "According to Austrian psychologist Sigmund Freud, people possess subconscious longings that are often socially unacceptable."},
-          {"num": 15, "text": "Two examples that illustrate subconscious processing are priming and the mere-exposure effect."},
-          {"num": 16, "text": "Priming refers to the processing of information from stimuli that are outside of conscious awareness."},
-          {"num": 17, "text": "In fact, studies show that people can correctly answer questions that they have seen previously—even when they do not remember seeing the questions."},
-          {"num": 18, "text": "The mere-exposure effect happens when people prefer stimuli they have seen previously over new stimuli—even when they do not remember the old stimuli."}
+          {
+            "num": 12,
+            "text": "Psychologists have found that people are affected by information that they are not aware of consciously."
+          },
+          {
+            "num": 13,
+            "text": "This information is acting on a subconscious level."
+          },
+          {
+            "num": 14,
+            "text": "According to Austrian psychologist Sigmund Freud, people possess subconscious longings that are often socially unacceptable."
+          },
+          {
+            "num": 15,
+            "text": "Two examples that illustrate subconscious processing are priming and the mere-exposure effect."
+          },
+          {
+            "num": 16,
+            "text": "Priming refers to the processing of information from stimuli that are outside of conscious awareness."
+          },
+          {
+            "num": 17,
+            "text": "In fact, studies show that people can correctly answer questions that they have seen previously—even when they do not remember seeing the questions."
+          },
+          {
+            "num": 18,
+            "text": "The mere-exposure effect happens when people prefer stimuli they have seen previously over new stimuli—even when they do not remember the old stimuli."
+          }
         ],
         [
-          {"num": 19, "text": "Psychologists design and conduct experiments that explore different states of consciousness to better understand how the brain processes information."},
-          {"num": 20, "text": "These experiments probe the inner workings of normal conscious, nonconscious, preconscious, and subconscious levels of being."}
+          {
+            "num": 19,
+            "text": "Psychologists design and conduct experiments that explore different states of consciousness to better understand how the brain processes information."
+          },
+          {
+            "num": 20,
+            "text": "These experiments probe the inner workings of normal conscious, nonconscious, preconscious, and subconscious levels of being."
+          }
         ]
       ],
       "questions": [
@@ -124,7 +346,9 @@
             "H": "Based on their studies of consciousness, these fathers of psychology founded the field's first two great “schools”: voluntarism and functionalism."
           },
           "correct": "F",
-          "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q06.jpg"}
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q06.jpg"
+          }
         },
         {
           "id": "KM2_Q07",
@@ -139,16 +363,25 @@
             "D": "If you were prompted to think about what you had for breakfast, you would think about exactly what you ate, such as cereal and milk or yogurt and fruit."
           },
           "correct": "A",
-          "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q07.jpg"}
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q07.jpg"
+          }
         },
         {
           "id": "KM2_Q08",
           "q_number": 8,
           "question_type": "mc",
           "question": "Which sentence presents ideas irrelevant to the topic of paragraph 4 and should be deleted?",
-          "options": {"E": "sentence 14", "F": "sentence 15", "G": "sentence 16", "H": "sentence 17"},
+          "options": {
+            "E": "sentence 14",
+            "F": "sentence 15",
+            "G": "sentence 16",
+            "H": "sentence 17"
+          },
           "correct": "E",
-          "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q08.jpg"}
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q08.jpg"
+          }
         },
         {
           "id": "KM2_Q09",
@@ -163,7 +396,9 @@
             "D": "Hypnosis involves a change in the way a person senses, thinks, feels, perceives, or behaves while following the suggestions of a hypnotist; a state of altered consciousness appears to take over while normal conscious control is seemingly suspended."
           },
           "correct": "C",
-          "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q09.jpg"}
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q09.jpg"
+          }
         }
       ]
     },
@@ -174,31 +409,88 @@
       "title": "Weaving",
       "sentence_paragraphs": [
         [
-          {"num": 1, "text": "Handweaving, traditionally the province of home spinners and weavers, has been practiced throughout recorded history."},
-          {"num": 2, "text": "Silk weaving has been known in China since 3500 B.C.E and in Egypt since 3600 B.C.E."},
-          {"num": 3, "text": "By 700 C.E., looms were common in Africa, Asia, and Europe."},
-          {"num": 4, "text": "In particular, they were found throughout the Islamic world."}
+          {
+            "num": 1,
+            "text": "Handweaving, traditionally the province of home spinners and weavers, has been practiced throughout recorded history."
+          },
+          {
+            "num": 2,
+            "text": "Silk weaving has been known in China since 3500 B.C.E and in Egypt since 3600 B.C.E."
+          },
+          {
+            "num": 3,
+            "text": "By 700 C.E., looms were common in Africa, Asia, and Europe."
+          },
+          {
+            "num": 4,
+            "text": "In particular, they were found throughout the Islamic world."
+          }
         ],
         [
-          {"num": 5, "text": "In mythology, weaving is typically the province of women."},
-          {"num": 6, "text": "In Pre-Dynastic Egypt, Neith was the goddess of weaving; in Greece, it was the goddess Athena; in Scandinavia, it was the goddess Frigg, the wife of chief god Odin."},
-          {"num": 7, "text": "These goddesses and other protectors of weavers show the importance of the craft to ancient peoples: each was not only prominent in her pantheon but also associated with other crucial domains, such as childbirth, wisdom, the creation of the stars, and fate itself."}
+          {
+            "num": 5,
+            "text": "In mythology, weaving is typically the province of women."
+          },
+          {
+            "num": 6,
+            "text": "In Pre-Dynastic Egypt, Neith was the goddess of weaving; in Greece, it was the goddess Athena; in Scandinavia, it was the goddess Frigg, the wife of chief god Odin."
+          },
+          {
+            "num": 7,
+            "text": "These goddesses and other protectors of weavers show the importance of the craft to ancient peoples: each was not only prominent in her pantheon but also associated with other crucial domains, such as childbirth, wisdom, the creation of the stars, and fate itself."
+          }
         ],
         [
-          {"num": 8, "text": "Tales about weaving are numerous as well."},
-          {"num": 9, "text": "Theseus emerges from the maze of the Minotaur by following Ariadne's woven thread."},
-          {"num": 10, "text": "A crane weaves a gorgeous cloth of her own feathers as a gift for those who rescued her."},
-          {"num": 11, "text": "In the fable “The Old Man and Death,” Aesop warns of being careful of what you wish for."},
-          {"num": 12, "text": "Sleeping Beauty pricks her finger on a spindle and is cursed."},
-          {"num": 13, "text": "Indeed, the English word text derives from the Latin word textare—weaving, as in “weaving a story.”"}
+          {
+            "num": 8,
+            "text": "Tales about weaving are numerous as well."
+          },
+          {
+            "num": 9,
+            "text": "Theseus emerges from the maze of the Minotaur by following Ariadne's woven thread."
+          },
+          {
+            "num": 10,
+            "text": "A crane weaves a gorgeous cloth of her own feathers as a gift for those who rescued her."
+          },
+          {
+            "num": 11,
+            "text": "In the fable “The Old Man and Death,” Aesop warns of being careful of what you wish for."
+          },
+          {
+            "num": 12,
+            "text": "Sleeping Beauty pricks her finger on a spindle and is cursed."
+          },
+          {
+            "num": 13,
+            "text": "Indeed, the English word text derives from the Latin word textare—weaving, as in “weaving a story.”"
+          }
         ],
         [
-          {"num": 14, "text": "Weaving continues to be an important part of many modern cultures as well."},
-          {"num": 15, "text": "In Ukraine, the rushnyk, a ritual cloth, accompanies people throughout their lives; a newborn is placed immediately upon it and the dead are covered with it."},
-          {"num": 16, "text": "Without question, the importance of weaving goes far beyond the practical into cultural meanings that still resonate today."},
-          {"num": 17, "text": "Navajo weaving often features the symbol of Spider Woman, who gave the art of weaving to Navajo women."},
-          {"num": 18, "text": "Andean peoples, living in close connection with nature, incorporate symbols for the sun and rivers."},
-          {"num": 19, "text": "A pattern or motif may be specific to the weaver herself and can convey piety, cultural or family traditions, daily life, folklore characters, and even humor."}
+          {
+            "num": 14,
+            "text": "Weaving continues to be an important part of many modern cultures as well."
+          },
+          {
+            "num": 15,
+            "text": "In Ukraine, the rushnyk, a ritual cloth, accompanies people throughout their lives; a newborn is placed immediately upon it and the dead are covered with it."
+          },
+          {
+            "num": 16,
+            "text": "Without question, the importance of weaving goes far beyond the practical into cultural meanings that still resonate today."
+          },
+          {
+            "num": 17,
+            "text": "Navajo weaving often features the symbol of Spider Woman, who gave the art of weaving to Navajo women."
+          },
+          {
+            "num": 18,
+            "text": "Andean peoples, living in close connection with nature, incorporate symbols for the sun and rivers."
+          },
+          {
+            "num": 19,
+            "text": "A pattern or motif may be specific to the weaver herself and can convey piety, cultural or family traditions, daily life, folklore characters, and even humor."
+          }
         ]
       ],
       "questions": [
@@ -208,9 +500,16 @@
           "question_type": "mc",
           "blank_target_sentence_num": 2,
           "question": "Which transition should be added to the beginning of sentence 2?",
-          "options": {"E": "However,", "F": "Indeed,", "G": "As a result,", "H": "Even so,"},
+          "options": {
+            "E": "However,",
+            "F": "Indeed,",
+            "G": "As a result,",
+            "H": "Even so,"
+          },
           "correct": "F",
-          "solution": {"exhibit_image": "kaplan_2025_2/solutions/Q10.jpg"}
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q10.jpg"
+          }
         }
       ]
     }
