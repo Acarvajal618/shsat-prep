@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kaplan 2025 Practice Test 3</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script defer src="solution-lock.js?v=1"></script>
+  <style>
+    :root {
+      --tn-bg: #ffffff;
+      --tn-infobar-bg: #6d6d6d;
+      --tn-infobar-text: #ffffff;
+      --tn-accent: #1a73e8;
+      --tn-progress: #62a3ea;
+      --tn-card-border: #e0e0e0;
+      --tn-text: #222;
+      --tn-muted: #888;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--tn-bg);
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--tn-text);
+      min-height: 100vh;
+    }
+    .tn-toolbar {
+      background: #f4f4f4;
+      display: flex; align-items: center;
+      padding: 10px 20px;
+      gap: 10px;
+      border-bottom: 1px solid #dcdcdc;
+    }
+    .tn-nav-arrows { display: flex; gap: 2px; }
+    .tn-btn {
+      background: #ffffff;
+      border: 1px solid #b3b3b3;
+      border-radius: 4px;
+      width: 46px; height: 36px;
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 16px; padding: 0;
+      color: #333;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+      transition: background 0.08s, border-color 0.08s;
+    }
+    .tn-btn:hover:not(:disabled) { background: #f0f0f0; border-color: #909090; }
+    .tn-btn.next { background: #4a90d9; color: #fff; border-color: #3878be; }
+    .tn-btn.next:hover { background: #3878be; border-color: #2f6aa8; }
+    .tn-btn:disabled { opacity: 0.4; cursor: default; background: #fff; }
+    .tn-btn.active { background: #d0d0d0; border-color: #666; color: #111; box-shadow: inset 0 1px 3px rgba(0,0,0,0.15); }
+    .tn-tools { display: flex; gap: 4px; margin-left: 6px; padding-left: 10px; border-left: 1px solid #d5d5d5; }
+    .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #333; font-size: 13px; }
+    .tn-user .tn-avatar { width: 22px; height: 22px; border-radius: 2px; background: #d8d8d8; display: inline-flex; align-items: center; justify-content: center; color: #555; font-size: 13px; }
+
+    .tn-progress-line { height: 3px; background: var(--tn-progress); }
+    .tn-infobar { background: var(--tn-infobar-bg); color: var(--tn-infobar-text); padding: 6px 22px; font-size: 12px; letter-spacing: 0.05em; }
+    .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
+
+    /* ── Split layout: passage pane + question pane ── */
+    .tn-main {
+      max-width: 1400px;
+      margin: 32px auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 22px;
+      align-items: flex-start;
+    }
+    .tn-passage-pane {
+      flex: 0 0 46%;
+      border: 1px solid var(--tn-card-border);
+      background: #fff;
+      max-height: 640px;
+      overflow-y: auto;
+      padding: 22px 26px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 15px;
+      line-height: 1.7;
+      position: sticky;
+      top: 20px;
+    }
+    .tn-passage-title { text-align: center; font-weight: bold; margin-bottom: 4px; }
+    .tn-passage-author { text-align: center; color: #555; margin-bottom: 18px; }
+    .tn-passage-line { display: flex; gap: 14px; }
+    .tn-passage-linenum { flex: 0 0 24px; color: #888; font-size: 12px; text-align: right; padding-top: 2px; }
+    .tn-passage-text { flex: 1; white-space: pre-wrap; }
+    .tn-passage-citation { margin-top: 16px; font-size: 12px; color: #777; font-style: italic; }
+    .tn-passage-para { display: flex; gap: 10px; margin-bottom: 14px; }
+    .tn-passage-paranum {
+      flex: 0 0 20px; width: 20px; height: 20px; border-radius: 50%;
+      background: #333; color: #fff; font-size: 11px; font-weight: 700;
+      display: inline-flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .tn-passage-para .tn-passage-text { flex: 1; }
+    .tn-passage-intro { font-style: italic; color: #444; margin-bottom: 16px; font-size: 14px; }
+    .tn-passage-sentpara { margin-bottom: 14px; }
+    .tn-passage-sentnum { color: #888; font-size: 11px; font-weight: 700; margin-right: 2px; }
+    .tn-passage-sentence { }
+    .tn-sentence-highlight { background: #fff3b0; }
+
+    /* ── Standalone items: no passage pane, full-width question card ── */
+    .tn-main.standalone .tn-passage-pane { display: none; }
+    .tn-main.standalone .tn-question-pane { flex: 1 1 100%; max-width: 760px; margin: 0 auto; }
+    .tn-stimulus-box {
+      border: 1px solid var(--tn-card-border); background: #fafafa;
+      padding: 16px 20px; margin-bottom: 18px; font-size: 14px; line-height: 1.6;
+    }
+
+    .tn-question-pane { flex: 1; min-width: 0; }
+    .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
+    .tn-question { font-size: 15px; line-height: 1.55; color: var(--tn-text); white-space: pre-line; }
+    .tn-question strong { font-weight: 700; }
+    .tn-figure { margin: 8px 0 16px; display: flex; justify-content: center; }
+    .tn-figure img { max-width: 100%; height: auto; }
+    .tn-figure svg { width: 100%; max-width: 520px; height: auto; }
+    .tn-grid-input { margin-top: 16px; padding: 8px 12px; border: 1.5px solid #7a7a7a; border-radius: 2px; width: 140px; font-size: 16px; font-family: inherit; outline: none; }
+    .tn-grid-input:focus { border-color: var(--tn-accent); }
+    .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
+
+    .tn-options { margin-top: 22px; display: flex; flex-direction: column; gap: 4px; }
+    .tn-option { display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; cursor: pointer; border-radius: 2px; user-select: none; transition: background 0.08s; }
+    .tn-option:hover { background: #f6f6f6; }
+    .tn-radio { width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid #888; flex-shrink: 0; margin-top: 2px; position: relative; background: #fff; }
+    .tn-option.selected .tn-radio { border-color: var(--tn-accent); }
+    .tn-option.selected .tn-radio::after { content: ''; position: absolute; top: 2.5px; left: 2.5px; width: 8px; height: 8px; border-radius: 50%; background: var(--tn-accent); }
+    .tn-checkbox { width: 15px; height: 15px; border-radius: 2px; border: 1.5px solid #888; flex-shrink: 0; margin-top: 3px; position: relative; background: #fff; }
+    .tn-option.selected .tn-checkbox { border-color: var(--tn-accent); background: var(--tn-accent); }
+    .tn-option.selected .tn-checkbox::after { content: '✓'; position: absolute; color: #fff; font-size: 11px; font-weight: bold; top: -4px; left: 1.5px; }
+    .tn-letter { font-weight: 500; min-width: 20px; }
+    .tn-option-text { flex: 1; }
+
+    .tn-sort-note { color: var(--tn-muted); font-size: 12px; margin: 10px 0 4px; font-style: italic; }
+    .tn-sort-bank { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; padding: 10px; border: 1px solid #ccc; background: #f9f9f9; border-radius: 3px; min-height: 40px; }
+    .tn-sort-chip { background: #4a90d9; color: #fff; padding: 6px 12px; border-radius: 3px; cursor: grab; user-select: none; font-family: Georgia, serif; font-size: 14px; border: 1px solid #3878be; max-width: 100%; }
+    .tn-sort-chip:active { cursor: grabbing; }
+    .tn-sort-chip.outlined { outline: 2px solid #ff9900; }
+    .tn-sort-categories { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .tn-sort-category { border: 1.5px dashed #999; border-radius: 3px; min-height: 90px; padding: 10px; background: #fcfcfc; }
+    .tn-sort-category.drag-over { background: #ffeeaa; }
+    .tn-sort-category-label { font-weight: 600; font-size: 13px; margin-bottom: 8px; text-align: center; color: #444; }
+    .tn-sort-category .tn-sort-chip { display: block; margin-bottom: 6px; cursor: pointer; }
+    @media (max-width: 700px) { .tn-sort-categories { grid-template-columns: 1fr; } }
+
+    .tn-card-actions { margin-top: 20px; padding-top: 16px; border-top: 1px solid #eee; display: flex; gap: 10px; }
+    .tn-btn-solution { background: #fff; border: 1px solid #b8b8b8; border-radius: 2px; padding: 8px 18px; font-size: 13px; color: #333; cursor: pointer; font-family: inherit; }
+    .tn-btn-solution:hover { background: #ebebeb; }
+    .tn-btn-solution:disabled { opacity: 0.5; cursor: default; }
+    .tn-answer-pending { color: var(--tn-muted); font-size: 12px; margin-top: 10px; font-style: italic; }
+
+    .tn-exhibit-panel { margin-top: 18px; background: #ffffff; border: 1px solid #cfcfcf; border-radius: 3px; display: none; }
+    .tn-exhibit-panel.open { display: block; }
+    .tn-exhibit-header { display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #eaeaea; border-bottom: 1px solid #cfcfcf; font-size: 14px; color: #333; }
+    .tn-exhibit-close { background: transparent; border: none; cursor: pointer; font-size: 15px; color: #333; padding: 2px 8px; font-weight: 600; }
+    .tn-exhibit-body { padding: 18px 22px; font-size: 14px; line-height: 1.5; color: #222; white-space: pre-line; }
+
+    @media (max-width: 900px) {
+      .tn-main { flex-direction: column; }
+      .tn-passage-pane { flex: 1 1 auto; position: static; max-height: 360px; width: 100%; }
+    }
+    @media (max-width: 700px) {
+      .tn-toolbar { padding: 8px 12px; gap: 6px; flex-wrap: wrap; }
+      .tn-main { margin: 16px auto; padding: 0 12px; }
+      .tn-card { padding: 20px 16px; }
+      .tn-question { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <div class="tn-toolbar">
+    <div class="tn-nav-arrows">
+      <button class="tn-btn" id="tn-prev" title="Previous question">←</button>
+      <button class="tn-btn next" id="tn-next" title="Next question">→</button>
+    </div>
+    <div class="tn-user">
+      <span>Guest</span>
+      <span class="tn-avatar">👤</span>
+    </div>
+  </div>
+
+  <div class="tn-progress-line"></div>
+  <div class="tn-infobar">
+    <span>KAPLAN PRACTICE TEST 3</span>
+    <span class="sep">/</span>
+    <span id="tn-passage-label">ELA - PASSAGE SET 1 OF 1</span>
+    <span class="sep">/</span>
+    <span id="tn-counter">1 OF 1</span>
+  </div>
+
+  <div class="tn-main">
+    <div class="tn-passage-pane" id="tn-passage-pane"></div>
+
+    <div class="tn-question-pane">
+      <div class="tn-card" id="tn-card">
+        <div class="tn-question" id="tn-question">Loading…</div>
+        <div id="tn-body"></div>
+        <div class="tn-card-actions">
+          <button class="tn-btn-solution" id="tn-show-solution" disabled>Solution</button>
+        </div>
+      </div>
+
+      <div class="tn-exhibit-panel" id="tn-exhibit-panel">
+        <div class="tn-exhibit-header">
+          <span>Solutions</span>
+          <button class="tn-exhibit-close" id="tn-close-exhibit">X</button>
+        </div>
+        <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = 'kaplan_2025_3/data.json?v=' + Date.now();
+    const state = {
+      passages: [],
+      questions: [],   // flattened, each annotated with .passageIdx
+      cur: 0,
+      answers: {},
+    };
+
+    async function boot() {
+      wireControls();
+      try {
+        const r = await fetch(DATA_URL);
+        const data = await r.json();
+        state.passages = data.passages || [];
+        state.questions = [];
+        state.passages.forEach((p, pIdx) => {
+          (p.questions || []).forEach(q => {
+            state.questions.push(Object.assign({ passageIdx: pIdx }, q));
+          });
+        });
+        (data.standalone_items || []).forEach(q => {
+          state.questions.push(Object.assign({ passageIdx: null, isStandalone: true }, q));
+        });
+        state.questions.sort((a, b) => a.q_number - b.q_number);
+      } catch (e) {
+        console.error('boot fetch failed:', e);
+        state.questions = [];
+      }
+      routeFromHash();
+      render();
+    }
+
+    function totalQ() { return state.questions.length; }
+
+    function parseHash() {
+      const m = (location.hash || '').match(/#Q(\d+)/);
+      if (!m) return null;
+      return Math.max(1, parseInt(m[1], 10));
+    }
+
+    function routeFromHash() {
+      const q = parseHash();
+      if (q) {
+        const idx = state.questions.findIndex(x => x.q_number === q);
+        state.cur = idx >= 0 ? idx : 0;
+      } else {
+        state.cur = 0;
+        location.hash = state.questions.length ? 'Q' + state.questions[0].q_number : 'Q1';
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      routeFromHash();
+      render();
+      closeExhibit();
+    });
+
+    function currentQ() { return state.questions[state.cur] || null; }
+    function currentPassage() {
+      const q = currentQ();
+      return (q && q.passageIdx !== null && q.passageIdx !== undefined) ? state.passages[q.passageIdx] : null;
+    }
+
+    function updateInfobar() {
+      const q = currentQ();
+      const p = currentPassage();
+      document.getElementById('tn-counter').textContent =
+        (state.cur + 1) + ' OF ' + totalQ() + (q ? ' (Q' + q.q_number + ')' : '');
+      document.getElementById('tn-passage-label').textContent =
+        q && q.section_label ? `PRACTICE TEST 3 - ${q.section_label}` :
+        q && q.isStandalone ? 'PRACTICE TEST 3 - REVISING/EDITING PART A' :
+        p ? `PRACTICE TEST 3 - ${p.title.toUpperCase()}` : 'PRACTICE TEST 3';
+    }
+
+    function wireControls() {
+      document.getElementById('tn-prev').onclick = () => go(-1);
+      document.getElementById('tn-next').onclick = () => go(+1);
+      document.getElementById('tn-show-solution').onclick = toggleExhibit;
+      document.getElementById('tn-close-exhibit').onclick = closeExhibit;
+      document.addEventListener('keydown', (e) => {
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+        if (e.key === 'ArrowRight') go(+1);
+        if (e.key === 'ArrowLeft') go(-1);
+        if (e.key === 'Escape') closeExhibit();
+      });
+    }
+
+    function go(delta) {
+      const next = state.cur + delta;
+      if (next < 0 || next >= state.questions.length) return;
+      state.cur = next;
+      location.hash = 'Q' + state.questions[next].q_number;
+    }
+
+    function toggleExhibit() {
+      const panel = document.getElementById('tn-exhibit-panel');
+      panel.classList.contains('open') ? closeExhibit() : openExhibit();
+    }
+    function openExhibit() {
+      const q = currentQ();
+      if (!q || !q.solution || (!q.solution.exhibit_text && !q.solution.exhibit_image)) return;
+      const body = document.getElementById('tn-exhibit-body');
+      if (q.solution.exhibit_image) {
+        body.innerHTML = `<img src="${q.solution.exhibit_image}" alt="Answer explanation" style="max-width:100%;display:block;border-radius:4px;">`;
+      } else {
+        body.innerHTML = esc(q.solution.exhibit_text);
+        typesetMath(body);
+      }
+      const panel = document.getElementById('tn-exhibit-panel');
+      panel.classList.add('open');
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    function closeExhibit() {
+      document.getElementById('tn-exhibit-panel').classList.remove('open');
+    }
+
+    function typesetMath(root) {
+      if (window.renderMathInElement) {
+        window.renderMathInElement(root, {
+          delimiters: [
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError: false
+        });
+      }
+    }
+
+    function esc(s) {
+      return (s || '').replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+    }
+
+    function renderBoldText(s) {
+      return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    }
+
+    function renderQuestionText(text) {
+      const lines = (text || '').split('\n');
+      return lines.map(l => `<div>${renderBoldText(l)}</div>`).join('');
+    }
+
+    function renderSentenceSpans(sentences, highlightNum) {
+      return sentences.map(s => {
+        const cls = (highlightNum && s.num === highlightNum) ? ' tn-sentence-highlight' : '';
+        return `<span class="tn-passage-sentnum">(${s.num})</span><span class="tn-passage-sentence${cls}" data-sentnum="${s.num}">${esc(s.text)}</span> `;
+      }).join('');
+    }
+
+    function renderPassage(highlightSentNum) {
+      const q = currentQ();
+      const p = currentPassage();
+      const main = document.querySelector('.tn-main');
+      const pane = document.getElementById('tn-passage-pane');
+      if (q && q.isStandalone) {
+        main.classList.add('standalone');
+        pane.innerHTML = '';
+        return;
+      }
+      main.classList.remove('standalone');
+      if (!p) { pane.innerHTML = ''; return; }
+      let html = `<div class="tn-passage-title">${esc(p.title)}</div>`;
+      if (p.author) html += `<div class="tn-passage-author">by ${esc(p.author)}</div>`;
+      if (p.intro_note) html += `<div class="tn-passage-intro">${esc(p.intro_note)}</div>`;
+      if (p.sentence_paragraphs) {
+        p.sentence_paragraphs.forEach(para => {
+          html += `<div class="tn-passage-sentpara">${renderSentenceSpans(para, highlightSentNum)}</div>`;
+        });
+      } else if (p.paragraphs) {
+        p.paragraphs.forEach(para => {
+          html += `<div class="tn-passage-para">
+            <span class="tn-passage-paranum">${para.num}</span>
+            <span class="tn-passage-text">${esc(para.text)}</span>
+          </div>`;
+        });
+      } else {
+        (p.lines || []).forEach(line => {
+          html += `<div class="tn-passage-line">
+            <span class="tn-passage-linenum">${line.num ? line.num : ''}</span>
+            <span class="tn-passage-text">${esc(line.text) || '&nbsp;'}</span>
+          </div>`;
+        });
+      }
+      if (p.passage_figure_html) html += `<div style="margin-top:16px;">${p.passage_figure_html}</div>`;
+      if (p.citation) html += `<div class="tn-passage-citation">${esc(p.citation)}</div>`;
+      pane.innerHTML = html;
+    }
+
+    function render() {
+      updateInfobar();
+      const q = currentQ();
+      document.getElementById('tn-prev').disabled = state.cur === 0;
+      document.getElementById('tn-next').disabled = state.cur === state.questions.length - 1;
+
+      if (!q) {
+        document.getElementById('tn-question').textContent = 'No question found.';
+        document.getElementById('tn-body').innerHTML = '';
+        document.getElementById('tn-show-solution').disabled = true;
+        return;
+      }
+
+      renderPassage(q.blank_target_sentence_num);
+
+      let stimulusHtml = '';
+      if (q.isStandalone && q.stimulus) {
+        stimulusHtml = `<div class="tn-stimulus-box">${q.stimulus}</div>`;
+      }
+      let figureHtml = '';
+      if (q.figure_svg) {
+        figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
+      }
+      document.getElementById('tn-question').innerHTML = stimulusHtml + figureHtml + renderQuestionText(q.question);
+
+      let bodyHtml = '';
+      if (q.question_type === 'mc') {
+        bodyHtml = renderMc(q);
+      } else if (q.question_type === 'mc_multi') {
+        bodyHtml = renderMcMulti(q);
+      } else if (q.question_type === 'grid_in') {
+        bodyHtml = renderGridIn(q);
+      } else if (q.question_type === 'sort_categories') {
+        bodyHtml = renderSortCategories(q);
+      } else if (q.question_type === 'fill_blank' || q.question_type === 'single_drop') {
+        bodyHtml = renderSingleDrop(q);
+      }
+      document.getElementById('tn-body').innerHTML = bodyHtml;
+
+      const hasSolution = !!(q.solution && (q.solution.exhibit_text || q.solution.exhibit_image));
+      const solBtn = document.getElementById('tn-show-solution');
+      solBtn.disabled = !hasSolution;
+      solBtn.nextElementSibling && solBtn.nextElementSibling.remove();
+      if (!hasSolution) {
+        solBtn.insertAdjacentHTML('afterend', '<span class="tn-answer-pending">Answer key pending</span>');
+      }
+
+      wireInputs(q);
+      typesetMath(document.getElementById('tn-card'));
+    }
+
+    function renderGridIn(q) {
+      const val = state.answers[q.q_number] || '';
+      return `
+        <div class="tn-grid-label">Enter your answer in the space.</div>
+        <input type="text" class="tn-grid-input" id="tn-grid" value="${esc(val)}" autocomplete="off">
+      `;
+    }
+
+    function renderMc(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = state.answers[q.q_number] || null;
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel === L ? ' selected' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-radio"></span>
+          <span class="tn-letter">${L}.</span>
+          <span class="tn-option-text">${renderBoldText(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc">${opts}</div>`;
+    }
+
+    function renderMcMulti(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = new Set(state.answers[q.q_number] || []);
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel.has(L) ? ' selected' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-checkbox"></span>
+          <span class="tn-letter">${L}</span>
+          <span class="tn-option-text">${renderBoldText(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc_multi">${opts}</div>`;
+    }
+
+    // ── Sort into category boxes (AR07-style: many items → labeled buckets) ──
+    function renderSortCategories(q) {
+      const placed = state.answers[q.q_number] || {}; // itemId -> categoryId
+      const items = q.sort_items || [];
+      const cats = q.sort_categories || [];
+      const bankItems = items.filter(it => !placed[it.id]);
+      const bankHtml = bankItems.map(it =>
+        `<div class="tn-sort-chip" draggable="true" data-item="${it.id}">${esc(it.text)}</div>`
+      ).join('');
+      const bank = bankHtml || '<span style="color:#888; font-style:italic; font-size:13px;">All items placed — click one in a box to return it.</span>';
+
+      const catsHtml = cats.map(c => {
+        const inCat = items.filter(it => placed[it.id] === c.id);
+        const chips = inCat.map(it =>
+          `<div class="tn-sort-chip" data-item="${it.id}" data-placed="1">${esc(it.text)}</div>`
+        ).join('');
+        return `<div class="tn-sort-category" data-cat="${c.id}">
+          <div class="tn-sort-category-label">${esc(c.label)}</div>
+          ${chips}
+        </div>`;
+      }).join('');
+
+      return `
+        <div class="tn-sort-note">Move each answer to the correct box.</div>
+        <div class="tn-sort-bank" data-role="sort-bank">${bank}</div>
+        <div class="tn-sort-categories">${catsHtml}</div>
+      `;
+    }
+
+    // ── Single-target drag (AR44 fill-blank, AR50 single-answer drop) ──
+    function renderSingleDrop(q) {
+      const placed = state.answers[q.q_number] || null; // the placed choice string, or null
+      const choices = q.drop_choices || q.blank_choices || [];
+      const bankItems = choices.filter(c => c !== placed);
+      const bankHtml = bankItems.map(c =>
+        `<div class="tn-sort-chip" draggable="true" data-item="${esc(c)}">${esc(c)}</div>`
+      ).join('');
+      const bank = bankHtml || '<span style="color:#888; font-style:italic; font-size:13px;">Click the box to return the answer.</span>';
+      const boxLabel = q.drop_box_label || (q.blank_target_sentence_num ? `Sentence ${q.blank_target_sentence_num}` : 'Your answer');
+      const placedChip = placed ? `<div class="tn-sort-chip" data-item="${esc(placed)}" data-placed="1">${esc(placed)}</div>` : '';
+      return `
+        <div class="tn-sort-bank" data-role="sort-bank">${bank}</div>
+        <div class="tn-sort-category tn-single-drop" data-cat="single">
+          <div class="tn-sort-category-label">${esc(boxLabel)}</div>
+          ${placedChip}
+        </div>
+      `;
+    }
+
+    function wireInputs(q) {
+      document.querySelectorAll('.tn-option').forEach((el) => {
+        el.addEventListener('click', () => {
+          const letter = el.dataset.letter;
+          if (q.question_type === 'mc') {
+            state.answers[q.q_number] = (state.answers[q.q_number] === letter) ? null : letter;
+          } else if (q.question_type === 'mc_multi') {
+            const arr = state.answers[q.q_number] || [];
+            const idx = arr.indexOf(letter);
+            if (idx >= 0) arr.splice(idx, 1); else arr.push(letter);
+            state.answers[q.q_number] = arr;
+          }
+          render();
+        });
+      });
+
+      if (q.question_type === 'sort_categories') {
+        document.querySelectorAll('.tn-sort-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.item);
+            e.dataTransfer.effectAllowed = 'move';
+          });
+          chip.addEventListener('click', () => {
+            if (chip.dataset.placed) {
+              // click a placed chip to return it to the bank
+              const placed = state.answers[q.q_number] || {};
+              delete placed[chip.dataset.item];
+              state.answers[q.q_number] = placed;
+              render();
+              return;
+            }
+            state._selectedItem = chip.dataset.item;
+            document.querySelectorAll('.tn-sort-chip').forEach(c => c.classList.remove('outlined'));
+            chip.classList.add('outlined');
+          });
+        });
+        document.querySelectorAll('.tn-sort-category').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            box.classList.remove('drag-over');
+            const itemId = e.dataTransfer.getData('text/plain');
+            const placed = state.answers[q.q_number] || {};
+            placed[itemId] = box.dataset.cat;
+            state.answers[q.q_number] = placed;
+            render();
+          });
+          box.addEventListener('click', (e) => {
+            if (e.target.closest('.tn-sort-chip')) return;
+            if (!state._selectedItem) return;
+            const placed = state.answers[q.q_number] || {};
+            placed[state._selectedItem] = box.dataset.cat;
+            state.answers[q.q_number] = placed;
+            state._selectedItem = null;
+            render();
+          });
+        });
+      }
+
+      if (q.question_type === 'fill_blank' || q.question_type === 'single_drop') {
+        document.querySelectorAll('.tn-sort-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.item);
+            e.dataTransfer.effectAllowed = 'move';
+          });
+          chip.addEventListener('click', () => {
+            if (chip.dataset.placed) {
+              state.answers[q.q_number] = null;
+              render();
+              return;
+            }
+            state.answers[q.q_number] = chip.dataset.item;
+            render();
+          });
+        });
+        const box = document.querySelector('.tn-single-drop');
+        if (box) {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            box.classList.remove('drag-over');
+            state.answers[q.q_number] = e.dataTransfer.getData('text/plain');
+            render();
+          });
+        }
+      }
+    }
+
+    boot();
+  </script>
+</body>
+</html>
