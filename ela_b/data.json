@@ -1,0 +1,211 @@
+{
+  "_schema": {
+    "description": "Practice Test B — ELA section. Reading passages with associated questions, sourced from TestNav screenshots. Each passage has its own question set.",
+    "id_format": "BR<NN> — Exam B, Reading, question number (continuous across passages).",
+    "answer_key_status": "PARTIAL. This batch of screenshots (30 total) only covers Passage 7 of 7 (\"The End of an Era\") and all 4 Stand Alone Items (BR01-BR09). Passages 1-6 are NOT present in this screenshot batch and are not included here. All 9 questions that ARE present have complete answer keys sourced from the Exhibits panel.",
+    "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency).",
+    "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph) displayed above the question. BR06 and BR08 use a 'select the one error' TestNav interaction (click an underlined span / pick a labeled sentence) that isn't a native template widget; they are represented as standard mc questions whose option text is the underlined phrase or sentence label, with the full paragraph (including <u> tags for BR06) shown as the stimulus."
+  },
+  "passages": [
+    {
+      "passage_number": 7,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The End of an Era",
+      "sentence_paragraphs": [
+        [
+          { "num": 1, "text": "In 2004, the National Aeronautics and Space Administration (NASA) landed a rover, or robotic vehicle, named Opportunity on the surface of Mars." },
+          { "num": 2, "text": "The rover’s mission was to search for evidence of water and life on the planet." },
+          { "num": 3, "text": "The rover was designed to gather data on Mars for about 90 days, but Opportunity’s assignment did not come to an end until nearly 15 years later in 2019." }
+        ],
+        [
+          { "num": 4, "text": "During the rover’s mission, a high-resolution camera on the rover’s robotic arm took magnified photographs of the surface of Mars." },
+          { "num": 5, "text": "The photographs revealed small round rocks scattered across the surface of the planet." },
+          { "num": 6, "text": "The scientists nicknamed these rocks “blueberries” based on the rocks’ resemblance to the fruit." },
+          { "num": 7, "text": "These rocks were important because their spherical shape suggested that liquid water may have flowed over them for a substantial amount of time." }
+        ],
+        [
+          { "num": 8, "text": "Opportunity continued to provide valuable data about craters and other surface features." },
+          { "num": 9, "text": "Throughout the mission, the rover traveled a total of 28.06 miles across Mars’ surface." },
+          { "num": 10, "text": "When Opportunity had traveled nearly the length of a marathon, scientists celebrated the accomplishment by naming the valley that the rover was in Marathon Valley." },
+          { "num": 11, "text": "However, in 2018, a dust storm spread all over the planet, putting the rover’s progress on hold." }
+        ],
+        [
+          { "num": 12, "text": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover." },
+          { "num": 13, "text": "These prevented it from charging its batteries." },
+          { "num": 14, "text": "Scientists then had to rely on the passing winds and dust devils to clean off the solar panels." },
+          { "num": 15, "text": "After the massive 2018 dust storm subsided, scientists expected to be able to reestablish communication with Opportunity." },
+          { "num": 16, "text": "They made repeated attempts but to no avail." },
+          { "num": 17, "text": "In 2019, NASA finally declared Opportunity’s mission complete." }
+        ],
+        [
+          { "num": 18, "text": "Opportunity was an important asset in scientists’ study of Mars; it returned valuable data about our neighbor planet and survived powerful dust storms." },
+          { "num": 19, "text": "NASA described the mission of Opportunity as “one of the most successful and enduring feats of interplanetary exploration.”" },
+          { "num": 20, "text": "Even though this rover’s journey ended, other rovers still roam the surface of Mars." }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "BR01",
+          "q_number": 1,
+          "question_type": "mc",
+          "question": "Which sentence should follow sentence 3 to **best** introduce the topic of the passage?",
+          "options": {
+            "A": "Despite the challenges of operating on the surface of another planet, the Opportunity rover made many valuable contributions to the field of space research.",
+            "B": "The Opportunity rover mission was a success because it informed NASA scientists about how water might have existed on Mars.",
+            "C": "Throughout the historic mission of the Opportunity rover, NASA scientists had to overcome challenges created by the flaws in the rover’s design.",
+            "D": "The Opportunity rover mission surpassed the original timeline of the assignment and allowed scientists to collect additional data about the planet Mars."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_B/b01-b08.png",
+          "solution": {
+            "exhibit_text": "The question asks for the sentence that should follow sentence 3 to best introduce the topic of the passage.\n\nA. CORRECT. This sentence best introduces the passage’s topic: the Opportunity rover had many accomplishments on its mission, despite numerous challenges. Some of those accomplishments include providing high-resolution photographs (paragraph 2), traveling long distances (paragraph 3), and providing data about craters and other surface features (paragraph 3).\n\nB. Incorrect. Although paragraph 2 discusses how photographs taken by the rover showed rocks that may have been shaped by water, this idea alone is not the topic of the entire passage.\n\nC. Incorrect. While this sentence incorporates ideas about difficulties the scientists encountered because of the Opportunity rover’s design (paragraph 4), the main topic of the passage is not the design flaws and obstacles scientists encountered throughout the mission. The passage primarily focuses on the achievements of the mission.\n\nD. Incorrect. While it is true that the Opportunity rover mission lasted much longer than planned (sentence 3), this fact is a supporting detail of the passage, not the main topic of the passage; surpassing the original timeline is only one of the rover’s many achievements mentioned in the passage."
+          }
+        },
+        {
+          "id": "BR02",
+          "q_number": 2,
+          "question_type": "fill_blank",
+          "question": "Which word should be added to the beginning of sentence 8 to provide a better transition to the third paragraph (sentences 8–11)?\n\nMove the correct answer to the box.",
+          "blank_target_sentence_num": 8,
+          "blank_choices": [
+            "Overall,",
+            "Furthermore,",
+            "Meanwhile,",
+            "Consequently,"
+          ],
+          "correct": "Meanwhile,",
+          "source_screenshot": "Problems/ELA_B/b09-b12.png",
+          "solution": {
+            "exhibit_text": "The question asks for the word that should be added to the beginning of sentence 8 to provide a better transition to the third paragraph (sentences 8–11).\n\n“Overall,” is incorrect and should not be added. While sentence 8 is a more general statement than sentence 7, the word “Overall” would imply that all of the third paragraph features general information about the Opportunity rover. Instead, paragraphs 2 and 3 both describe specific accomplishments of the Opportunity rover (the discovery of possible water on Mars and the distance the rover traveled), so these paragraphs require a word between them that does not transition from the specific to the general.\n\n“Furthermore,” is incorrect and should not be added. The word “Furthermore” would suggest that the author is making an argument in paragraph 2 that is further developed by the statement in sentence 8 and the rest of paragraph 3. Because this is not the case, the word “Furthermore” is not a suitable transition from one paragraph to the next.\n\n“Meanwhile,” is correct and should be added. The word “Meanwhile” is an appropriate transition to add to the beginning of sentence 8, since the actions of the Opportunity rover in paragraph 2 (taking photographs) and in paragraph 3 (traveling long distances) happened at the same time and both served critical functions to the overall mission.\n\n“Consequently,” is incorrect and should not be added. The word “Consequently” would create a cause-and-effect relationship that does not exist between the paragraphs. The passage gives no indication that the rover’s actions in the third paragraph (traveling a far distance) resulted from the actions in the second paragraph (taking photographs)."
+          }
+        },
+        {
+          "id": "BR03",
+          "q_number": 3,
+          "question_type": "mc",
+          "question": "Which revision of sentence 11 **best** maintains the formal style established in the passage?",
+          "options": {
+            "A": "However, in 2018, a dust storm covered the planet, bringing the rover’s progress to a standstill.",
+            "B": "However, in 2018, a dust storm shrouded the planet, impermanently halting the rover’s progress.",
+            "C": "However, in 2018, a dust storm enveloped the whole of the planet, arresting the rover’s progress for a time.",
+            "D": "However, in 2018, a dust storm covered up the whole planet, which quickly brought a stop to the progress of the rover."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_B/b13-b14.png",
+          "solution": {
+            "exhibit_text": "The question asks for the revision of sentence 11 that best maintains the formal style established in the passage.\n\nA. CORRECT. This sentence uses clear and formal writing throughout. The phrase “covered the planet” is accurate and formal without being overly poetic, and “standstill” is a precise word for putting something “on hold,” as expressed by the original sentence, while maintaining the formal style of the passage.\n\nB. Incorrect. Although the sentence is formal in style, the word “shrouded” is overly poetic, and the phrase “impermanently halting” is too stilted and formal for the style and tone of the passage.\n\nC. Incorrect. Although the sentence is formal in style, the words “enveloped” and “arresting” are overly poetic, especially when used in the same sentence, and the phrases “the whole of the planet” and “for a time” are needlessly wordy and imprecise, compared with the formal scientific language of the passage.\n\nD. Incorrect. The phrases “covered up the whole planet” and “quickly brought a stop to the progress of the rover” are less formal and unnecessarily wordy, compared with the formal style established by the rest of the passage."
+          }
+        },
+        {
+          "id": "BR04",
+          "q_number": 4,
+          "question_type": "mc",
+          "question": "Read this sentence.\n\n**One of Opportunity’s major contributions was finding possible evidence of the presence of water on Mars.**\n\nWhere should the sentence be added to the passage?",
+          "options": {
+            "A": "between sentences 2 and 3",
+            "B": "at the beginning of the second paragraph (before sentence 4)",
+            "C": "at the end of the second paragraph (after sentence 7)",
+            "D": "between sentences 8 and 9"
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_B/b15-b16.png",
+          "solution": {
+            "exhibit_text": "The question asks where the sentence should be added to the passage.\n\nA. Incorrect. While sentence 2 refers to Opportunity’s mission to search for evidence of water, sentence 3 mentions the rover lasting much longer than anticipated. Placing the sentence between these two ideas, rather than at the start of the second paragraph, where it introduces the topic of the paragraph, would create a disjointed and confusing experience for the reader.\n\nB. CORRECT. The sentence introduces the idea of finding possible evidence of water on Mars, which is the main topic of the second paragraph.\n\nC. Incorrect. The sentence sets up the main idea of paragraph 2, which is the possibility of water on Mars. As a concluding sentence, it would be repetitive and confusing.\n\nD. Incorrect. The sentence introduces the possibility of water on Mars, while sentences 8 and 9 discuss other surface features and the distance traveled by the rover. Adding the sentence here would create a disorganized paragraph."
+          }
+        },
+        {
+          "id": "BR05",
+          "q_number": 5,
+          "question_type": "mc",
+          "question": "What is the **best** way to combine sentences 12 and 13?",
+          "options": {
+            "A": "Preventing the rover from charging its batteries, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover prior to this planet-wide dust storm.",
+            "B": "Periodically depositing a layer of dust onto the solar panels of the rover prior to this planet-wide dust storm, minor dust storms had prevented it from charging its batteries.",
+            "C": "Minor dust storms, prior to this planet-wide dust storm, prevented the rover from charging its batteries because they had periodically deposited a layer of dust onto the solar panels of the rover.",
+            "D": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover, preventing it from charging its batteries."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_B/b17-b19.png",
+          "solution": {
+            "exhibit_text": "The question asks for the best way to combine sentences 12 and 13.\n\nA. Incorrect. The phrase “this planet-wide dust storm” in the original sentence 12 makes a direct reference to sentence 11 and therefore acts as a transition that should be kept at the beginning. In this sentence, the transition phrase is placed at the end of the sentence, making the phrase confusing. In addition, the sentence is unnecessarily repetitive and wordy.\n\nB. Incorrect. This combination unnecessarily turns sentence 12 into an overly long dependent clause, making the connection between “it” and its antecedent, “the rover,” unclear and distracting from the subject of the sentence, “minor dust storms.”\n\nC. Incorrect. Not only does this combination move the reference to “this planet-wide dust storm” farther from sentence 11, but it is also unnecessarily wordy, adding “because” and repeating “the rover.”\n\nD. CORRECT. This sentence efficiently and accurately adds sentence 13 to sentence 12 as a dependent clause by changing “These prevented” to “preventing,” while also retaining the meanings of the original sentences 12 and 13."
+          }
+        }
+      ]
+    }
+  ],
+  "standalone_items": [
+    {
+      "id": "BR06",
+      "q_number": 6,
+      "question_type": "mc",
+      "stimulus": "In September 2016 the National Museum of African American History and Culture opened as part of the Smithsonian <u>Institution, the</u> museum is already the Smithsonian’s third most popular site. Experts say that they expect this newest Smithsonian facility to welcome nearly 4 million visitors a <u>year. The</u> museum features more than 30,000 <u>objects, including</u> Muhammad Ali’s boxing gloves and a dress sewn by Rosa Parks. A commemorative copy of the Emancipation <u>Proclamation, written</u> in 1863 during the presidency of Abraham Lincoln, is also on display at the museum.",
+      "question": "Which part of the paragraph contains an error in sentence structure?\n\nSelect the one error.",
+      "options": {
+        "A": "Institution, the",
+        "B": "year. The",
+        "C": "objects, including",
+        "D": "Proclamation, written"
+      },
+      "correct": "A",
+      "source_screenshot": "Problems/ELA_B/b20-b24.png",
+      "solution": {
+        "exhibit_text": "The question asks which part of the paragraph contains an error in sentence structure.\n\nChoice 1: “Institution, the” contains an error in sentence structure. The comma between these two words creates a type of run-on sentence known as a comma splice because both clauses—“In September 2016 the National Museum of African American History and Culture opened as part of the Smithsonian Institution” and “the museum is already the Smithsonian’s third most popular site”—are independent clauses, and must be separated with either a period or semicolon. If a comma is used to join the clauses together, a conjunction such as and would need to be added after the comma [converting the comma splice into a correct compound sentence].\n\nChoice 2: “year. The” is correctly constructed, with independent clauses on both sides of the period (“Experts say that they expect this newest Smithsonian facility to welcome nearly 4 million visitors a year” and “The museum features more than 30,000 objects, including Muhammad Ali’s boxing gloves and a dress sewn by Rosa Parks”).\n\nChoice 3: “objects, including” is correctly constructed. The sentence is correct as written with the nonrestrictive appositive phrase (“including Muhammad Ali’s boxing gloves and a dress sewn by Rosa Parks”) properly preceded by a comma.\n\nChoice 4: “Proclamation, written” is correctly constructed. The sentence is correct, with the nonrestrictive clause (“written in 1863 during the presidency of Abraham Lincoln”) properly offset by a comma on either side."
+      }
+    },
+    {
+      "id": "BR07",
+      "q_number": 7,
+      "question_type": "mc",
+      "stimulus": "(1) Flyby missions near Jupiter have been happening since 1973.<br>(2) Flyby missions allow scientists to collect data about Jupiter and its moons.",
+      "question": "Read these sentences.\n\nWhat is the **best** way to combine the sentences to clarify the relationship between the ideas?",
+      "options": {
+        "A": "While flyby missions near Jupiter have been happening since 1973, scientists collect data about the planet and its moons.",
+        "B": "Although there have been flyby missions near Jupiter since 1973, they have allowed scientists to collect data about the planet and its moons.",
+        "C": "Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973.",
+        "D": "Flyby missions have been happening near Jupiter, but scientists have been collecting data about the planet and its moons since 1973."
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/ELA_B/b25-b26.png",
+      "solution": {
+        "exhibit_text": "The question asks for the best way to combine the sentences to clarify the relationship between the ideas.\n\nA. Incorrect. Even though the two ideas from the original sentences are incorporated into the combined sentence, the use of the conjunction “while” in the first part of the sentence suggests that there is a simultaneous but unrelated relationship between the two ideas, which is incorrect.\n\nB. Incorrect. The combined sentence incorporates the ideas from both sentences, but the conjunction “although” suggests that scientists were allowed to collect data even though there were flyby missions, which is an inaccurate way to express the relationship between the ideas.\n\nC. CORRECT. This sentence is the best way to combine the sentences because it accurately reflects the relationship between the ideas by using the nonrestrictive clause “which allow scientists to collect data about the planet and its moons” to describe the purpose of the flyby missions. (Nonrestrictive clauses are adjective clauses that give additional information about a word or phrase. They sometimes begin with the relative pronoun “which” and are set off by commas.) The idea that the missions “have been happening since 1973” follows the nonrestrictive clause.\n\nD. Incorrect. The combined sentence uses the conjunction “but” to connect the ideas in the two original sentences. This suggests an adverse relationship between ideas, which is an inaccurate way to connect the ideas expressed in the original sentences."
+      }
+    },
+    {
+      "id": "BR08",
+      "q_number": 8,
+      "question_type": "mc",
+      "stimulus": "(1) On the evening of July 13, 2019, a major power outage affected the Upper West Side of Manhattan in New York City.  (2) Leaving approximately 73,000 residents without electricity for three long hours, lights did not function, refrigerators did not stay cold, and air conditioners did not work.  (3) Longtime city residents were particularly confused because an eerily similar event had occurred years earlier—on the exact same day!  (4) The famous New York City Blackout of 1977, which lasted for 25 hours, also happened on July 13, an odd coincidence to say the least.",
+      "question": "Which sentence in the paragraph contains an error in construction and should be revised?\n\nThere is only one error in construction.",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "B",
+      "source_screenshot": "Problems/ELA_B/b27-b28.png",
+      "solution": {
+        "exhibit_text": "The question asks which sentence in the paragraph contains an error in construction.\n\nSentence 1: Construction is correct. An introductory prepositional phrase is correctly punctuated in sentence 1 and describes when the power outage occurred. Similarly, the direct object, “the Upper West Side of Manhattan in New York City,” is presented clearly in terms of what area was “affected” by the power outage.\n\nSentence 2: Contains an error in construction. In sentence 2, the phrase “Leaving approximately 73,000 residents without electricity for three long hours” is a dangling modifier because it is not clearly modifying any word or words in the sentence. It actually further describes the “power outage” in sentence 1. In clear and correct construction, all modifiers should be in the same sentence as and near the words they describe in order to avoid confusion.\n\nSentence 3: Construction is correct. A dash is used appropriately in sentence 3 to show a break in thought and to introduce the phrase “on the exact same day.”\n\nSentence 4: Construction is correct. Two commas are used correctly in sentence 4 to set off the nonessential clause “which lasted for 25 hours” from the rest of the sentence. Similarly, one comma is used to set off the nonessential appositive “an odd coincidence to say the least.” Both of these elements are nonessential to the sentence’s overall meaning and are thus correctly separated from the sentence by the use of commas."
+      }
+    },
+    {
+      "id": "BR09",
+      "q_number": 9,
+      "question_type": "mc",
+      "stimulus": "(1) Danielle <u>spent</u> several hours preparing for an upcoming audition for a <u>play</u> at the community theater.  (2) First she <u>did</u> vocal exercises to practice her diction and <u>projection</u> so that her words would carry clearly throughout the large auditorium.  (3) Then she <u>studies</u> the text of the monologue to better understand the <u>emotions,</u> and motivations of the character she plans to portray.  (4) Finally she <u>recited</u> her monologue in front of a mirror many <u>times,</u> making slight adjustments and improvements to her performance each time.",
+      "question": "How should the paragraph be revised?",
+      "options": {
+        "A": "Sentence 1: Change **spent** to **had spent**, AND insert a comma after **play**.",
+        "B": "Sentence 2: Change **did** to **does**, AND insert a comma after **projection**.",
+        "C": "Sentence 3: Change **studies** to **studied**, AND delete the comma after **emotions**.",
+        "D": "Sentence 4: Change **recited** to **recites**, AND delete the comma after **times**."
+      },
+      "correct": "C",
+      "source_screenshot": "Problems/ELA_B/b29-b30.png",
+      "solution": {
+        "exhibit_text": "The question asks how the paragraph should be revised.\n\nA. Incorrect. The revisions in this option introduce new errors. The word “spent” is correct in the simple past tense because it encompasses the actions described throughout the rest of the paragraph, all of which happened during those “several hours.” Additionally, adding a comma after the word “play” would be incorrect because it would unnecessarily separate the prepositional phrase “at the community theater” from the rest of the sentence.\n\nB. Incorrect. The revisions in this option introduce new errors. The word “did” is correct as written in the past tense because the past tense is used throughout the paragraph. There is no comma needed after the word “projection” because “so” is functioning not as a conjunction but rather as part of the conjunction phrase “so that,” which does not take a comma.\n\nC. CORRECT. Changing the word “studies” from the present tense to the past tense “studied” is necessary to match the past tense established in the paragraph (“spent,” “recited”). Additionally, the comma after the word “emotions” needs to be removed because the words “emotions and motivations” are part of a group (series) of two elements, and when there are only two elements in a series, a comma is not used.\n\nD. Incorrect. The revisions in this option introduce new errors. The word “recited” is correct as written in the past tense because the past tense is used throughout the paragraph. Also, removing the comma after “times” is incorrect because the comma is needed in order to separate the modifying phrase “making slight adjustments and improvements to her performance each time” from the main clause."
+      }
+    }
+  ]
+}
