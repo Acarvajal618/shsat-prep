@@ -114,15 +114,17 @@
       questions.forEach(q => rows.push({ id: q.id, exam: letter }));
     });
 
-    // Kaplan 2025 Practice Test 2 — math section (Q58-114). Different data
-    // shape (standalone_items, not a flat questions array), so pulled separately.
-    try {
-      const kaplan2 = await fetch('kaplan_2025_2/data.json?v=' + Date.now()).then(r => r.json());
-      (kaplan2.standalone_items || []).forEach(q => {
-        if (q.q_number >= 58) rows.push({ id: q.id, exam: 'k2' });
-      });
-    } catch (e) {
-      console.error('failed to load kaplan_2025_2/data.json', e);
+    // Kaplan 2025 Practice Tests 2 & 3 — math sections. Different data shape
+    // (standalone_items, not a flat questions array), so pulled separately.
+    for (const kNum of ['2', '3']) {
+      try {
+        const kaplan = await fetch(`kaplan_2025_${kNum}/data.json?v=` + Date.now()).then(r => r.json());
+        (kaplan.standalone_items || []).forEach(q => {
+          if (q.q_number >= 58) rows.push({ id: q.id, exam: 'k' + kNum });
+        });
+      } catch (e) {
+        console.error(`failed to load kaplan_2025_${kNum}/data.json`, e);
+      }
     }
 
     if (!rows.length) {
