@@ -26,7 +26,8 @@
       "verb_tense": 1,
       "agreement_punctuation_pair": 1
     },
-    "usage_tracking_note": "Questions carry a used_in array once selected into a practice set, so future sets can skip already-used fodder. Check this field before picking new ones."
+    "usage_tracking_note": "Questions carry a used_in array once selected into a practice set, so future sets can skip already-used fodder. Check this field before picking new ones.",
+    "underline_review_note": "Partial re-review completed (2026-10-26): confirmed via direct image inspection that word-level \"Which edit should be made to correct the sentence?\" and \"Which revision corrects the error in sentence structure?\" (word-pair-location) questions underline the specific words referenced in their answer options — marked with __double underscores__ in the question text, rendered as <u> by the template. Paragraph-numbered \"Which sentence contains an error in construction?\" (whole-sentence-number) questions do NOT use underlining and were confirmed correctly bare. 25 questions were directly verified and updated against their source photos in this pass. The remaining ~147 questions (mostly whole-paragraph \"which sentence\" format, already correctly unmarked, plus a handful of individual precise_language/agreement/vague_pronoun/_pair-category questions not yet individually re-verified) were not exhaustively re-checked due to session scope — a future pass should spot-check remaining punctuation/grammar_mechanics/agreement/precise_language/_pair-category questions using this same rule."
   },
   "questions_by_category": {
     "sentence_construction": [
@@ -353,7 +354,7 @@
         "id": "GRF115",
         "img": "IMG_8606",
         "category": "sentence_construction",
-        "question": "Rosalind Franklin paragraph. (1) Rosalind Franklin used the technique of X-ray crystallography to depict the structure of DNA by mapping the basic structure of the tiny molecules. (2) Because she has been celebrated by today's genetic researchers, Franklin was never recognized during her lifetime for her groundbreaking work. (3) Her valuable photos of a hydrated form of DNA greatly helped Watson and Crick portray the full structure of DNA. (4) As a result, these men received the Nobel Prize for their work. Which sentence contains an error in its construction and should be revised?",
+        "question": "Samuel Barber composed numerous symphonies, operas, and __quartets, all__ of which express personal emotion. Encouraged by his musical family, he took __piano and vocal__ lessons and began composing the first piece of his musical career at age seven. Although the orchestral arrangement is more __famous Samuel__ Barber's Adagio was originally written for string quartet. For an __American, Barber__ had impressive command of operatic tradition, which helped him earn two Pulitzer Prizes. Which revision corrects the error in sentence structure in the paragraph?",
         "options": {
           "A": "sentence 1",
           "B": "sentence 2",
@@ -423,7 +424,7 @@
         "id": "GRF139",
         "img": "IMG_8620",
         "category": "sentence_construction",
-        "question": "The successful fundraising campaign for the school's field trip continued for a week teachers counted the money every morning with growing amazement. Which edit should be made to correct the sentence?",
+        "question": "The __successful__ fundraising campaign for the school's field trip continued for a __week__ teachers counted the __money__ every morning with growing amazement. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a comma after successful.",
           "B": "Insert a comma after week.",
@@ -437,7 +438,7 @@
         "id": "GRF141",
         "img": "IMG_8621",
         "category": "sentence_construction",
-        "question": "Winter weather provides us with the opportunity to do so many outdoor activities, we can ski down mountains, skate on ice, make snowmen, and glide downhill on a snowboard. Which revision corrects the error in sentence structure in the sentence?",
+        "question": "Winter weather provides us with the opportunity to do so many outdoor __activities, we__ can ski down __mountains, skate__ on __ice, make__ snowmen, and glide downhill on a snowboard. Which revision corrects the error in sentence structure in the sentence?",
         "options": {
           "A": "activities; we",
           "B": "mountains; skate",
@@ -451,7 +452,7 @@
         "id": "GRF144",
         "img": "IMG_8622",
         "category": "sentence_construction",
-        "question": "The electric fan was an ingenious invention for keeping people cool during the summer it was popular only briefly, however, until the air conditioner was invented. Which edit should be made to correct the sentence?",
+        "question": "The electric fan was an ingenious __invention__ for keeping people cool during the __summer__ it was popular only __briefly,__ __however,__ until the air conditioner was invented. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a semicolon after invention.",
           "B": "Insert a semicolon after summer.",
@@ -510,7 +511,7 @@
         "id": "GRF002",
         "img": "IMG_8551",
         "category": "punctuation",
-        "question": "Read this sentence. White roses represent unity, yellow roses show friendship, and red roses signify love however, many people believe red roses are the most cherished within the genus Rosa. Which edit should be made to correct the sentence?",
+        "question": "Read this sentence. White roses represent __unity__, yellow roses show friendship, and red roses signify __love however__, many people __believe__ red roses are the most cherished within the genus Rosa. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Delete the comma after unity.",
           "B": "Insert a semicolon after love.",
@@ -527,7 +528,7 @@
         "id": "GRF004",
         "img": "IMG_8553",
         "category": "punctuation",
-        "question": "Read this sentence. In constant demand as a piano teacher my brother David has never been busier than he is now. How should the sentence be revised?",
+        "question": "Read this sentence. In __constant__ demand as a piano __teacher__ my __brother__ David has never been __busier__ than he is now. How should the sentence be revised?",
         "options": {
           "A": "Insert a comma after constant.",
           "B": "Insert a comma after teacher.",
@@ -544,7 +545,7 @@
         "id": "GRF024",
         "img": "IMG_8561",
         "category": "punctuation",
-        "question": "Unable to decide between a career in law and one in medicine Jemma combined her two interests and studied forensic medicine. Which edit should be made to correct the sentence?",
+        "question": "Unable to decide between a career in __law__ and one in __medicine__ Jemma combined her two __interests__ and studied __forensic__ medicine. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a comma after law.",
           "B": "Insert a comma after medicine.",
@@ -572,7 +573,7 @@
         "id": "GRF028",
         "img": "IMG_8567",
         "category": "punctuation",
-        "question": "The newly constructed athletic complex features a myriad of amenities multipurpose gymnasiums, an elevated jogging track, squash courts, and exercise studios. Which edit should be made to correct the sentence?",
+        "question": "The newly __constructed__ athletic __complex__ features a myriad of __amenities__ __multipurpose__ gymnasiums, an elevated jogging track, squash courts, and exercise studios. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a colon after constructed.",
           "B": "Insert a colon after complex.",
@@ -586,7 +587,7 @@
         "id": "GRF029",
         "img": "IMG_8567",
         "category": "punctuation",
-        "question": "Violet Palmer-professional basketball referee and one of the first women to officiate a National Basketball Association (NBA) game started her journey to forging her name in basketball's history in a typical way: she played the sport. Which edit should be made to correct the sentence?",
+        "question": "Violet Palmer—professional basketball __referee and__ one of the first women to officiate a National Basketball Association (NBA) __game__ started her __journey__ to forging her name in basketball's history in a typical way: she played the sport. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a dash after referee.",
           "B": "Insert a dash after and.",
@@ -600,7 +601,7 @@
         "id": "GRF031",
         "img": "IMG_8568",
         "category": "punctuation",
-        "question": "The summer intern job description listed a number of requirements including interest in community development, strong communication skills, and familiarity with social networking sites. Which edit should be made to correct the sentence?",
+        "question": "The __summer__ intern job description listed a number of __requirements__ __including__ interest in community development, strong communication skills, and familiarity with __social__ networking sites. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a comma after summer.",
           "B": "Insert a comma after requirements.",
@@ -614,7 +615,7 @@
         "id": "GRF032",
         "img": "IMG_8568",
         "category": "punctuation",
-        "question": "One of the most notorious pieces in the Yale University Library is the Vinland Map; though valued at $1 million when donated in the 1950s the map's authenticity has been hotly debated for years. Which edit should be made to correct the sentence?",
+        "question": "One of the most notorious pieces in the Yale University __Library__ is the Vinland Map; __though__ valued at $1 million when donated in the __1950s__ the map's authenticity has been __hotly__ debated for years. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a comma after Library.",
           "B": "Insert a comma after though.",
@@ -628,7 +629,7 @@
         "id": "GRF037",
         "img": "IMG_8569",
         "category": "punctuation",
-        "question": "Diamond-one of the hardest substances on Earth as well as a tremendous heat insulator would be an ideal material for countless industrial and commercial uses were it not for its immense cost. Which edit should be made to correct the sentence?",
+        "question": "Diamond—one of the hardest __substances__ on Earth as well as a tremendous heat __insulator__ would be an ideal __material__ for countless industrial and __commercial__ uses were it not for its immense cost. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a dash after substances.",
           "B": "Insert a dash after insulator.",
@@ -642,7 +643,7 @@
         "id": "GRF073",
         "img": "IMG_8587",
         "category": "punctuation",
-        "question": "Inca paragraph (underlined-phrase format). The Inca ruled a well-developed empire in South America... For example, this highly advanced culture had carefully designed suspension bridges which linked the network of roads. In addition, locations like Machu Picchu had impressive architecture... To maintain their agriculture, the Inca used irrigation systems and terraces along the hillsides. Which revision corrects the error in sentence structure in the paragraph?",
+        "question": "The Inca ruled a well-developed __empire in__ South America that covered large areas of what are now Peru, Ecuador, Argentina, Chile, and Bolivia. For example, this highly advanced culture had carefully designed suspension __bridges which__ linked the network of roads. __In addition,__ locations like Machu Picchu had impressive architecture with complex and elaborate stone __structures. To__ maintain their agriculture, the Inca used irrigation systems and terraces along the hillsides. Which revision corrects the error in sentence structure in the paragraph?",
         "options": {
           "A": "empire. In",
           "B": "bridges, which",
@@ -684,7 +685,7 @@
         "id": "GRF132",
         "img": "IMG_8613",
         "category": "punctuation",
-        "question": "My science fair project, which took weeks for me to complete included information about how volcanoes are formed, how scientists predict eruptions, and how lava and magma differ. Which edit should be made to correct the sentence?",
+        "question": "My science fair __project,__ which took weeks for me to __complete__ included information about how volcanoes are __formed,__ how scientists predict eruptions, and how __lava__ and magma differ. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Delete the comma after project.",
           "B": "Insert a comma after complete.",
@@ -698,7 +699,7 @@
         "id": "GRF140",
         "img": "IMG_8620",
         "category": "punctuation",
-        "question": "The student council officers agreed to meet in two weeks in the schools library to discuss a number of issues affecting the community. Which edit should be made to correct the sentence?",
+        "question": "The student council __officers__ agreed to meet in two __weeks__ in the __schools__ library to discuss a number of issues affecting the community. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Change officers to officers'.",
           "B": "Change weeks to weeks'.",
@@ -726,7 +727,7 @@
         "id": "GRF143",
         "img": "IMG_8621",
         "category": "punctuation",
-        "question": "My favorite restaurant has servers who sing as they serve the food. Because customers enjoy the entertainment that comes with their meals these servers earn tips that are much higher than those of servers at other restaurants. Which revision corrects the error in sentence structure in the paragraph?",
+        "question": "My favorite restaurant has __servers who__ sing as they serve the __food. Because__ customers enjoy the entertainment that comes with their __meals these__ servers earn tips that are much higher __than those__ of servers at other restaurants. Which revision corrects the error in sentence structure in the paragraph?",
         "options": {
           "A": "servers, who",
           "B": "food, because",
@@ -740,7 +741,7 @@
         "id": "GRF145",
         "img": "IMG_8622",
         "category": "punctuation",
-        "question": "Miss Adams, our swim team coach chose Sarah to swim the final lap of the three-person relay race at last week's competition in Brooklyn. Which edit should be made to correct the sentence?",
+        "question": "__Miss Adams,__ our swim team __coach__ chose Sarah to swim the final __lap__ of the three-person relay race at last week's __competition__ in Brooklyn. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Delete the comma after Miss Adams.",
           "B": "Insert a comma after coach.",
@@ -754,7 +755,7 @@
         "id": "GRF146",
         "img": "IMG_8622",
         "category": "punctuation",
-        "question": "My classmate Jacob said that yesterday's basketball practice involved several sets of long intense drills. Which edit should be made to correct the sentence?",
+        "question": "My __classmate__ Jacob __said__ that yesterday's __basketball__ practice involved several sets of __long__ intense drills. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a comma after classmate.",
           "B": "Insert a comma after said.",
@@ -782,7 +783,7 @@
         "id": "GRF149",
         "img": "IMG_8623",
         "category": "punctuation",
-        "question": "The amount of water used by Americans can be reduced by turning off faucets when not in use, decreasing the time spent in showers and running washing machines less frequently. Which edit should be made to correct the sentence?",
+        "question": "The amount of water used by __Americans__ can be reduced by turning off faucets when not in __use,__ decreasing the time spent in __showers__ and running washing __machines__ less frequently. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Insert a comma after Americans.",
           "B": "Delete the comma after use.",
@@ -796,7 +797,7 @@
         "id": "GRF150",
         "img": "IMG_8624",
         "category": "punctuation",
-        "question": "Our principal who met with students at the start of the school year, announced that the field trips this year would be more enjoyable than those we took last year. Which revision corrects the error in sentence structure?",
+        "question": "Our __principal who__ met with __students at__ the start of the school year, announced that the field trips this __year would__ be more enjoyable __than those__ we took last year. Which revision corrects the error in sentence structure?",
         "options": {
           "A": "principal, who",
           "B": "students, at",
@@ -1624,7 +1625,7 @@
         "id": "GRF027",
         "img": "IMG_8566",
         "category": "grammar_mechanics",
-        "question": "Although the statue was intended, in ancient times, to tower above the landscape, it's presence is now dominated by the enormous skyscrapers that came with the city's modernization. Which edit should be made to correct the sentence?",
+        "question": "Although the statue was intended, in ancient times, to tower above the landscape, __it's presence__ is now dominated by the enormous __skyscrapers__ that came with the __city's__ modernization. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Change it's to its.",
           "B": "Insert a comma after presence.",
@@ -1683,7 +1684,7 @@
         "id": "GRF049",
         "img": "IMG_8577",
         "category": "grammar_mechanics",
-        "question": "Between Hugo and Kai, Hugo is the best sprinter; however, Kai is better at the long jump. Which edit should be made to correct the sentence?",
+        "question": "Between Hugo and Kai, Hugo is the __best sprinter;__ however, Kai is __better__ at the __long jump.__ Which edit should be made to correct the sentence?",
         "options": {
           "A": "Change best to better.",
           "B": "Change sprinter to at sprinting.",
@@ -1828,7 +1829,7 @@
         "id": "GRF048",
         "img": "IMG_8576",
         "category": "agreement",
-        "question": "The wolf spider, with its large fuzzy body and hairy legs, is known for their agile hunting skills. Which edit should be made to correct the sentence?",
+        "question": "The wolf __spider__, with __its__ large fuzzy body and hairy legs, is known for __their__ agile hunting __skills__. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Change spider to spiders.",
           "B": "Change its to their.",
@@ -2197,7 +2198,7 @@
         "id": "GRF087",
         "img": "IMG_8593",
         "category": "precise_language",
-        "question": "My sister and I spent nearly all of Saturday evening playing tennis at the park, but we had to stop when it became too difficult and challenging to see the ball. Which edit should be made to correct the sentence?",
+        "question": "My sister and I spent __nearly__ all of Saturday evening playing tennis at the park, but __we__ had to stop when it became too difficult __and challenging to see the ball__. Which edit should be made to correct the sentence?",
         "options": {
           "A": "Delete nearly.",
           "B": "Delete we.",
