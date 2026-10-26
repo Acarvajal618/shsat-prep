@@ -25,7 +25,8 @@
       "punctuation_agreement_pair": 1,
       "verb_tense": 1,
       "agreement_punctuation_pair": 1
-    }
+    },
+    "usage_tracking_note": "Questions carry a used_in array once selected into a practice set, so future sets can skip already-used fodder. Check this field before picking new ones."
   },
   "questions_by_category": {
     "sentence_construction": [
@@ -41,7 +42,10 @@
           "D": "sentence 4"
         },
         "correct": "C",
-        "reasoning": "Sentence 3 is a fragment missing a subject - 'Resulted in...' has no subject performing the action."
+        "reasoning": "Sentence 3 is a fragment missing a subject - 'Resulted in...' has no subject performing the action.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF003",
@@ -514,7 +518,10 @@
           "D": "Insert a semicolon after believe."
         },
         "correct": "B",
-        "reasoning": "Two independent clauses joined by conjunctive adverb 'however' need a semicolon before it: '...signify love; however, many people believe...'"
+        "reasoning": "Two independent clauses joined by conjunctive adverb 'however' need a semicolon before it: '...signify love; however, many people believe...'",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF004",
@@ -896,7 +903,10 @@
           "D": "The Treaty of Paris, in 1898, brought Cuba, and therefore Havana, under the control of the United States; the United States recognized Cuban independence in 1902."
         },
         "correct": "A",
-        "reasoning": "A smoothly combines both facts with a clear 'which' reference to the United States. B adds irrelevant detail and has an ambiguous pronoun; C incorrectly implies both events happened in 1898 (independence was actually 1902); D is correct but redundantly repeats 'the United States' rather than using a pronoun/relative clause."
+        "reasoning": "A smoothly combines both facts with a clear 'which' reference to the United States. B adds irrelevant detail and has an ambiguous pronoun; C incorrectly implies both events happened in 1898 (independence was actually 1902); D is correct but redundantly repeats 'the United States' rather than using a pronoun/relative clause.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF103",
@@ -1094,7 +1104,10 @@
           "However,": ""
         },
         "correct": "However,",
-        "reasoning": "Sentence 8 describes brisk, established trade through Havana; sentence 9 is a negative turn (Spain losing control) - a contrast best signaled by 'However,'."
+        "reasoning": "Sentence 8 describes brisk, established trade through Havana; sentence 9 is a negative turn (Spain losing control) - a contrast best signaled by 'However,'.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF086",
@@ -1108,7 +1121,10 @@
           "D": "Today, due to its diverse history,"
         },
         "correct": "D",
-        "reasoning": "The distinct areas described (old town, Vedado, residential district) were shaped BY Havana's different historical eras of control - a causal, not contrastive, relationship, and 'Today' correctly signals the shift from past history to present-day description."
+        "reasoning": "The distinct areas described (old town, Vedado, residential district) were shaped BY Havana's different historical eras of control - a causal, not contrastive, relationship, and 'Today' correctly signals the shift from past history to present-day description.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF100",
@@ -1237,7 +1253,10 @@
           "D": "The British were super quick in opening trade with their colonies in North America and the Caribbean."
         },
         "correct": "A",
-        "reasoning": "A is concise and formal, correctly preserving the original meaning ('did not take their time' = acted quickly) and subject (British). B reverses the meaning ('slowly'); C changes the subject to the wrong country; D uses casual language ('super quick') inconsistent with the passage's formal historical tone."
+        "reasoning": "A is concise and formal, correctly preserving the original meaning ('did not take their time' = acted quickly) and subject (British). B reverses the meaning ('slowly'); C changes the subject to the wrong country; D uses casual language ('super quick') inconsistent with the passage's formal historical tone.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF092",
@@ -1376,7 +1395,7 @@
           "A": "If changing weather and climate patterns on Earth stop, fewer NLCs will be seen by the scientists who study them.",
           "B": "Scientists do not have any theories about the relationship between the more NLCs and changing weather and climate patterns on Earth.",
           "C": "Though many scientists think that there is a connection between the increased appearance of NLCs and changing weather and climate patterns, this possible connection remains very controversial.",
-          "D": "In the next ten years, NLCs may become more common south of 50\u00b0 latitude, suggesting changing weather and climate patterns."
+          "D": "In the next ten years, NLCs may become more common south of 50° latitude, suggesting changing weather and climate patterns."
         },
         "correct": "C",
         "reasoning": "C accurately summarizes the paragraph's content (multiple competing theories exist, no consensus) as a fitting conclusion. B directly contradicts the theories just presented; A and D are speculative rather than concluding."
@@ -1437,7 +1456,10 @@
           "D": "sentence 16"
         },
         "correct": "D",
-        "reasoning": "Sentence 16 shifts to a biographical detail about Che Guevara specifically, off-topic from the paragraph's focus on the political transitions of control over Havana/Cuba."
+        "reasoning": "Sentence 16 shifts to a biographical detail about Che Guevara specifically, off-topic from the paragraph's focus on the political transitions of control over Havana/Cuba.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF104",
@@ -1521,7 +1543,7 @@
           "D": "sentence 17"
         },
         "correct": "B",
-        "reasoning": "Sentences 14, 16, 17, and 18 form a clean argument chain (topic \u2192 improvements \u2192 problems \u2192 conclusion that both occurred). Sentence 15's specific historical detail (Irish immigrants, potato famine) is interesting but doesn't advance the 'improvements vs. problems' argument."
+        "reasoning": "Sentences 14, 16, 17, and 18 form a clean argument chain (topic → improvements → problems → conclusion that both occurred). Sentence 15's specific historical detail (Irish immigrants, potato famine) is interesting but doesn't advance the 'improvements vs. problems' argument."
       },
       {
         "id": "GRF158",
@@ -1777,7 +1799,10 @@
           "Sentence 4": ""
         },
         "correct": "Sentence 2",
-        "reasoning": "Subject-verb agreement error: plural subject 'Aborigines' with singular verb 'has lived' - should be 'have lived'."
+        "reasoning": "Subject-verb agreement error: plural subject 'Aborigines' with singular verb 'has lived' - should be 'have lived'.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF045",
@@ -2051,7 +2076,10 @@
           "D": "between sentences 4 and 5"
         },
         "correct": "A",
-        "reasoning": "Sentence 1 opens with 'This lively center...' which needs 'Havana' already named as an antecedent; sentence 6 names 'Havana' explicitly and reads as a natural topic-introducing thesis statement, so moving it to the very beginning properly introduces the subject before 'This' is used to refer back to it."
+        "reasoning": "Sentence 1 opens with 'This lively center...' which needs 'Havana' already named as an antecedent; sentence 6 names 'Havana' explicitly and reads as a natural topic-introducing thesis statement, so moving it to the very beginning properly introduces the subject before 'This' is used to refer back to it.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF101",
@@ -2168,7 +2196,10 @@
           "D": "Delete to see the ball."
         },
         "correct": "C",
-        "reasoning": "'difficult and challenging' is redundant (near-synonyms) - 'and challenging' should be deleted."
+        "reasoning": "'difficult and challenging' is redundant (near-synonyms) - 'and challenging' should be deleted.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF088",
@@ -2280,7 +2311,7 @@
           "D": "To compensate for this, young fish hunt in small groups to increase the odds that at least one archerfish will be able to catch prey."
         },
         "correct": "D",
-        "reasoning": "D replaces every vague term: 'make it better'\u2192'compensate for this' (ties to the refraction problem), 'clumps'\u2192'groups', 'up the odds'\u2192'increase the odds', 'do a good job'\u2192'catch prey'. A, B, and C each leave at least one vague term unfixed."
+        "reasoning": "D replaces every vague term: 'make it better'→'compensate for this' (ties to the refraction problem), 'clumps'→'groups', 'up the odds'→'increase the odds', 'do a good job'→'catch prey'. A, B, and C each leave at least one vague term unfixed."
       },
       {
         "id": "GRF160",
@@ -2338,7 +2369,10 @@
           "D": "The two concessions the union agreed to were increasing wages and giving them more vacation time"
         },
         "correct": "B",
-        "reasoning": "'them' has no stated antecedent (no noun for who receives vacation time). Only B replaces the vague pronoun with a specific noun ('full-time workers'); A, C, and D all keep the unresolved 'them'."
+        "reasoning": "'them' has no stated antecedent (no noun for who receives vacation time). Only B replaces the vague pronoun with a specific noun ('full-time workers'); A, C, and D all keep the unresolved 'them'.",
+        "used_in": [
+          "worksheet_12"
+        ]
       },
       {
         "id": "GRF093",
