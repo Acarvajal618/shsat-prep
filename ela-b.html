@@ -320,7 +320,8 @@
       document.getElementById('tn-exhibit-panel').classList.remove('open');
     }
 
-    function typesetMath(root) {
+    function typesetMath(root, attempt) {
+      attempt = attempt || 0;
       if (window.renderMathInElement) {
         window.renderMathInElement(root, {
           delimiters: [
@@ -329,6 +330,8 @@
           ],
           throwOnError: false
         });
+      } else if (attempt < 20) {
+        setTimeout(function(){ typesetMath(root, attempt + 1); }, 100);
       }
     }
 
