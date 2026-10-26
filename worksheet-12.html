@@ -354,7 +354,7 @@
     }
 
     function renderBoldText(s) {
-      return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/__([^_]+)__/g, '<u>$1</u>');
     }
 
     function renderQuestionText(text) {
@@ -391,7 +391,7 @@
       (p.paragraphs || []).forEach(para => {
         html += `<div class="tn-passage-para">
           <span class="tn-passage-paranum">${para.num}</span>
-          <span class="tn-passage-text">${esc(para.text)}</span>
+          <span class="tn-passage-text">${renderBoldText(para.text)}</span>
         </div>`;
       });
       if (p.citation) html += `<div class="tn-passage-citation">${esc(p.citation)}</div>`;
