@@ -276,7 +276,7 @@
       const q = currentQ();
       const p = currentPassage();
       document.getElementById('tn-counter').textContent =
-        (q ? q.q_number : state.cur + 1) + ' OF ' + totalQ();
+        (state.cur + 1) + ' OF ' + totalQ() + (q ? ' (Q' + q.q_number + ')' : '');
       document.getElementById('tn-passage-label').textContent =
         q && q.isStandalone ? 'ELA - STAND ALONE ITEMS' :
         p ? `ELA - PASSAGE SET ${p.passage_number} OF ${p.total_passages}` : 'ELA';
