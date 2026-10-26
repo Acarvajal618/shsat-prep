@@ -2,12 +2,164 @@
   "_schema": {
     "description": "Practice Test B — ELA section. Reading passages with associated questions, sourced from TestNav screenshots. Each passage has its own question set.",
     "id_format": "BR<NN> — Exam B, Reading, question number (continuous across passages).",
-    "answer_key_status": "3 of 6 Reading Comprehension passages now complete (Passage Set 2 ‘A Miracle Mile’, Passage Set 4 ‘Looking for the Smallest Spark of Everything’, Passage Set 6 ‘Letter from Brooklyn’ — 18 new questions, BR10-27), each with full verbatim passage text and complete exhibit answer keys from TestNav screenshots. Passage Sets 1, 3, and 5 were also screenshotted but have INCOMPLETE passage text (the screenshot sequence never scrolled past the first few paragraphs while working through that passage's questions, and Passage Set 5 also references a diagram that was never screenshotted) — their question/answer content is fully verified but excluded here pending new screenshots of the complete passage text. Passage Set 7 (‘The End of an Era’, BR01-05) and all 4 Stand Alone Items (BR06-09) remain as before. Full Exam-A-style renumbering (RC passages first in strict order, editing passage and standalone items last) is deferred until Passage Sets 1, 3, and 5 are resolved, to avoid renumbering IDs twice.",
+    "answer_key_status": "4 of 6 Reading Comprehension passages now complete (Passage Set 1 ‘The Past and the Future of the Earth's Oldest Trees’ by Alex Ross, Passage Set 2 ‘A Miracle Mile’, Passage Set 4 ‘Looking for the Smallest Spark of Everything’, Passage Set 6 ‘Letter from Brooklyn’ — 25 new questions total, BR10-34), each with full verbatim passage text and complete exhibit answer keys from TestNav screenshots, rigorously re-verified page-by-page after an earlier incorrect claim that Passage Set 1 was missing text (it was not — the text was present in the screenshots the whole time; the earlier miss was a transcription-notes error, not a missing-source-material issue). Passage Sets 3 and 5 were re-walked screenshot-by-screenshot in full (33 and 27 images respectively, every single one read) and their passage text IS genuinely incomplete: the screenshot sequence never scrolled past the first 2-3 paragraphs while working through either passage's questions. Passage Set 3 (‘In Search of the Unknown’ by Robert W. Chambers, 9 questions) is missing paragraphs 4-34 of the narrative. Passage Set 5 (‘Using Fire to Keep a Prairie Healthy’, 7 questions) is missing paragraphs 4 onward plus a referenced diagram that was never screenshotted at all. Their question/answer content is fully verified and ready to merge the moment new screenshots of the complete passage text (and, for Set 5, the diagram) are available. Passage Set 7 (‘The End of an Era’, BR01-05) and all 4 Stand Alone Items (BR06-09) remain as before.",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency).",
     "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph) displayed above the question. BR06 and BR08 use a 'select the one error' TestNav interaction (click an underlined span / pick a labeled sentence) that isn't a native template widget; they are represented as standard mc questions whose option text is the underlined phrase or sentence label, with the full paragraph (including <u> tags for BR06) shown as the stimulus.",
     "q_number_note": "q_numbers 1-27 are contiguous by design (the template sorts/navigates by q_number, and its parseHash() hash-routing clamps to total question count the same way kaplan-2025-2.html's did before that bug was fixed earlier this session — ela-b.html has the identical unfixed pattern, so q_numbers here were kept gap-free to avoid triggering it; a real fix to parseHash() itself was out of scope for this task)."
   },
   "passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Past and the Future of the Earth's Oldest Trees",
+      "author": "Alex Ross",
+      "citation": "From “The Past and the Future of the Earth's Oldest Trees” by Alex Ross from THE NEW YORKER, January 20, 2020. Copyright © 2020 by Condé Nast. All rights reserved.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On a moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground—a stubby one-inch stem with a tuft of bright-green shoots."
+        },
+        {
+          "num": 2,
+          "text": "Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered with fragments of dead trees—trunks, limbs, roots, and smaller chunks. Pinus longaeva grows exclusively in subalpine regions of the Great Basin, which stretches from the eastern slopes of the Sierra Nevada to the Wasatch Range, in Utah. Conditions are generally too arid for the dead wood to rot; instead, it erodes, sanded down like rock. The remnants may harbor nutrients and fungi that help new trees grow. Bristlecones rise from the bones of their ancestors—a city within a cemetery."
+        },
+        {
+          "num": 3,
+          "text": "Coast redwoods and giant sequoias, California's gargantuan world-record-holding trees, can grow fifty feet or more in their first twenty years. Bristlecones rise agonizingly slowly. After four or five years, the seedling on the steep slope would have been just a few inches higher, sprouting needles in place of the embryonic shoots. The needles are a deep green, tough, resinous, and closely bunched in groups of five. On a mature tree, they live for fifty years or more. Decades may have passed before the tree was human height, and decades more before it resembled a conventional pine. Bristlecone saplings grow straight up, with relatively sparse foliage, looking like undernourished Christmas trees. After a few hundred years—by which time the Old Kingdom of Egypt had fallen—it was probably forty or fifty feet in height."
+        },
+        {
+          "num": 4,
+          "text": "Many tree species live for hundreds of years. A smaller but not inconsiderable number, including the sequoias and certain yews, oaks, cypresses, and junipers, survive for thousands. Once a bristlecone has established itself in the unforgiving conditions of the White Mountains, it can last almost indefinitely. The trees tend to grow some distance from one another, so fires almost never destroy an entire stand. Because only a few other plant species can handle the dry, cold climate, the bristlecones face little competition. Unlike most plants, they tolerate dolomite soil, which is composed of a chalky type of limestone that is heavily alkaline and low in nutrients. As for insect threats, bristlecone wood is so dense that mountain-pine beetles and other pests can rarely burrow their way into it."
+        },
+        {
+          "num": 5,
+          "text": "Empires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year. Minute changes in the tree-ring record make bristlecones an exceptionally useful source of data about changing conditions on Earth. When rains are heavier than normal, the rings widen. When volcanic eruptions cause global cooling, frost rings make the anomaly visible. . . ."
+        },
+        {
+          "num": 6,
+          "text": "As the millennia go by, bristlecones become contorted and wraithlike. The main stem, or leader, dies back. Entire branches, even the trunk itself, become fossils. At first glance, the tree may look dead. Such is the case of the forty-five-hundred-year-old tree that clings to life near the tourist path that now runs through the Ancient Bristlecone Pine Forest. Spears of dead wood jut into the air. The trunk is a marbled hulk stripped of bark, like driftwood thrown from a vanished ocean. A ribbon of live bark runs up one side, funneling water and nutrients to clumps of green needles high above. All told, the tree is an unprepossessing specimen; most people march past it without giving it a second glance. . . ."
+        },
+        {
+          "num": 7,
+          "text": ". . . No two super-elderly trees look alike, to the point where they have acquired the characteristics of individuals. Trees are prone to anthropomorphism; we project our dreams and our anxieties onto them. Bristlecones have been called elders, sentinels, sages. The possibility that climate change will cause their extinction has inspired a spate of alarmed news stories, although tree scientists tend to discount the idea that the bristlecones are in immediate danger. They have survived any number of catastrophes in the past; they may survive humanity."
+        }
+      ],
+      "questions": [
+        {
+          "id": "BR28",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "What is the effect of comparing groups of bristlecone pines to “a city within a cemetery” (paragraph 2)?",
+          "options": {
+            "A": "It illustrates that the new tree's appearance is markedly different from that of mature bristlecone pines.",
+            "B": "It emphasizes the new tree's ability to use resources left by prior generations of bristlecone pines.",
+            "C": "It highlights the tree's capacity for a long life if it is able to survive to maturity.",
+            "D": "It reveals that the tree's dense growth patterns are unusual in arid conditions."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The reference to “a city within a cemetery” describes how new trees use the remnants of their “ancestors” (paragraph 2) and makes no comment on the appearance of young versus mature trees. B. CORRECT. The “cemetery” contains “the bones of their ancestors” (paragraph 2)—“ancestors” being earlier generations of bristlecone pines—which provide some of the nutrients that the new trees need. C. Incorrect. The reference to “a cemetery” is not a comment on how long bristlecone pines can live; rather, it illustrates that the new pines are using remnants of their “ancestors” (paragraph 2) to grow. D. Incorrect. Although the climate is mentioned in paragraph 2, it is not the reason for the comparison to “a city within a cemetery.” The comment is intended to illustrate how the new trees use nutrients left behind by the old ones."
+          }
+        },
+        {
+          "id": "BR29",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through",
+          "options": {
+            "A": "a comparison of the bristlecone pine with similar trees that are known for their long lives.",
+            "B": "a description of specific qualities of the bristlecone pine that make it suited to its environment.",
+            "C": "an explanation of why the White Mountains are the best place for the bristlecone pine to grow.",
+            "D": "an examination of why the bristlecone pine has few competitors in the White Mountains."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While paragraph 4 does mention the bristlecone pine in conjunction with other long-living trees, this does not explain in any way how the bristlecone pine can survive difficult conditions. B. CORRECT. Paragraph 4 mentions several qualities that help the bristlecone pine survive a difficult environment: it can survive in a “dry, cold climate” as few plants can, it tolerates a soil that is heavily alkaline and low in nutrients, and the density of its wood protects it from insects. C. Incorrect. Paragraph 4 focuses on the qualities of the bristlecone pine that make it well suited to the White Mountains rather than on why the White Mountains are well suited to bristlecone pines. D. Incorrect. While paragraph 4 does acknowledge that the bristlecone pine has few competitors because the pine can stand conditions few other plants can stand, it is the examination of the pine's unique qualities that explains how the pine survives those conditions."
+          }
+        },
+        {
+          "id": "BR30",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 5. “Empires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year.” The sentence contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "emphasizing the bristlecone pine's precise growth pattern.",
+            "B": "suggesting that things that seem well established face threats.",
+            "C": "describing the pace of the life cycle of the bristlecone pine.",
+            "D": "explaining the reason for the bristlecone pine's longevity."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While “two-hundredths of an inch” is a reference to the bristlecone pine's growth pattern, the point of the reference—and of the entire sentence—is to emphasize the incredibly slow pace of the pine's life cycle. B. Incorrect. While “wars raged” is a threat that empires face, the point of mentioning wars and the rise and fall of empires is to emphasize the bristlecone pine's slow-paced life cycle by contrasting its slowness with the big, dramatic changes taking place in human history during that life cycle. C. CORRECT. Making reference to huge changes in human history such as the rise and fall of empires and the raging of wars provides a sharp contrast to the incredibly slow growth of the bristlecone pine. D. Incorrect. This sentence describes how slowly the bristlecone pine grows in contrast to how dramatically human history changes in the same time span but never explains the reasons for the pine's longevity."
+          }
+        },
+        {
+          "id": "BR31",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "Which claim is best supported by the details in paragraph 5 about the bristlecone pine's tree-ring record?",
+          "options": {
+            "A": "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions.",
+            "B": "The structure of the bristlecone pine allows scientists to predict changing Earth conditions over time.",
+            "C": "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
+            "D": "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 5, the author explains that the bristlecone pine is “an exceptionally useful source of data about changing conditions on Earth,” and this suggests that the information presented by the trees is particularly valuable and important. However, while the paragraph explains that the data provided by the trees are important, it does not address the need to protect the trees from any threat of extinction. The only reference to the trees' extinction is in paragraph 7, when the author addresses the “possibility that climate change will cause their extinction” but then explains that “scientists tend to discount the idea that the bristlecones are in immediate danger.” B. Incorrect. Paragraph 5 describes “minute changes in the tree-ring record” that make bristlecone pines “an exceptionally useful source of data about changing conditions on Earth,” and examples of those changing conditions are described in the present tense: “When rains are heavier than normal, the rings widen.” However, the term “record” indicates that the tree rings are already formed by the time scientists study them. The trees provide information about the past, which is emphasized by the description at the beginning of paragraph 5 of historic events one tree lived through. The excerpt contains no information about whether scientists can use the climate patterns of the past as evidenced by tree rings to make predictions about the future. C. Incorrect. Paragraph 5 describes the “slow-motion existence” of the bristlecone pine and provides examples of the record of “changing conditions on Earth” reflected in the rings of the trees. However, although the paragraph makes it clear that the trees have been able to survive these changing conditions, the paragraph does not indicate that the slow growth of the trees, each of which adds only “about two-hundredths of an inch to the diameter of its trunk each year,” is the key to their survival. Instead, paragraph 4 lists other reasons why an established bristlecone pine “can last almost indefinitely,” including distance between individual trees; tolerance for cold, dry conditions and dolomite soil; and bark that is resistant to insects. D. CORRECT. Paragraph 5 emphasizes the longevity of the bristlecone pine by discussing its “implacable slow-motion existence” and how this makes the trees a valuable source of information for scientists. The author explains that “minute changes in the tree-ring record make bristlecone pines an exceptionally useful source of data about changing conditions on Earth.” A tree that has been alive since 2500 B.C., like the one in paragraph 5, can provide a long record of the changing climate."
+          }
+        },
+        {
+          "id": "BR32",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "The phrases “clings to life” and “stripped of bark” in paragraph 6 are used to highlight",
+          "options": {
+            "A": "that the tree is fragile and needs help to avoid becoming extinct.",
+            "B": "how the tree can be misunderstood because of its appearance.",
+            "C": "how the tree interests observers with its unusual appearance.",
+            "D": "that the tree manages to survive even when partially fossilized."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While these two phrases are suggestive of the tree's fragility, nothing in this paragraph suggests that the tree needs help to avoid extinction. B. Incorrect. While the tree may be misunderstood to be dead because it is “stripped of bark,” the phrase “clings to life” emphasizes the fact that the tree is not dead but manages to survive. C. Incorrect. The paragraph says that far from being interested in the tree's unusual appearance, “most people march past it without giving it a second glance” (paragraph 6). D. CORRECT. The phrase “clings to life” emphasizes that the tree is still surviving even though it is partially fossilized, as shown by its “marbled hulk stripped of bark” (paragraph 6)."
+          }
+        },
+        {
+          "id": "BR33",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "What is the best summary of the bristlecone pine's life cycle?",
+          "options": {
+            "A": "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees.",
+            "B": "The bristlecone pine grows up slowly from the fragments of its dead ancestors. Over time, it begins to become contorted in appearance but continues to funnel water and nutrients to its stem.",
+            "C": "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
+            "D": "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect—covers minor details and leaves out the fossilization stage of the life cycle described in paragraph 6. B. Incorrect—does not address the fossilization phase accurately and incorrectly states the tree continues to funnel nutrients to its stem rather than to living needles. C. CORRECT—describes the key phases of the life cycle (slow growth in a hostile environment, followed by fossilization of the trunk and some branches while other parts remain alive) without focusing on minor details, and in chronological order. D. Incorrect—focuses on location and appearance more than on the phases of the life cycle."
+          }
+        },
+        {
+          "id": "BR34",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Throughout the excerpt, the author conveys his point of view mainly by",
+          "options": {
+            "A": "sharing details about the qualities of the bristlecone pine that make it an unusual tree.",
+            "B": "comparing the bristlecone pine to global empires that lasted thousands of years before falling.",
+            "C": "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
+            "D": "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The author shares many details throughout the excerpt showing how unusual the tree is: it uses remnants from previous generations (paragraph 2), it grows “agonizingly” slowly (paragraph 3), and it survives difficult growing conditions (paragraph 4). B. Incorrect. The author briefly compares the tree to empires (paragraphs 1, 3, 5), but mainly offers many details about what makes the tree unusual. C. Incorrect. Paragraph 6 focuses on the sickly appearance versus survival contrast, but that is just one detail among many. D. Incorrect. Paragraph 7's statement that the trees “may survive humanity” is just one detail among many, not the main way the author conveys his point of view."
+          }
+        }
+      ]
+    },
     {
       "passage_number": 2,
       "total_passages": 7,
