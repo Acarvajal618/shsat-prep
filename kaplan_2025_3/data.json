@@ -2,10 +2,129 @@
   "_schema": {
     "description": "Kaplan 2025 'SHSAT Practice Tests and Explanations' book, Practice Test 3, Part 2 Math, questions 58-67 (grid-in 58-62, multiple-choice 63-67). Questions/options transcribed verbatim from the book. Explanations are NOT transcribed as text per the user's instruction — each question's 'Solution' button shows a cropped photo of the book's 'Getting to the Answer' explanation instead.",
     "source": "Kaplan SHSAT Practice Tests and Explanations, Practice Test 3, pages 468-495 (ELA + math questions) and 516-525 (math answers/explanations)",
-    "status": "Questions 58-112 transcribed (of 114 total: 57 ELA + 57 math) — that's the complete math section except Q113-114. Q113-114's question text is known but their answer-key pages were not among the 24 photos uploaded (answer key photos run out at Q112, page 525); ELA (Q1-57) is entirely unstarted — question-page photos for the full Revising/Editing + Reading Comprehension sections exist in the upload (pages 468-493ish) but haven't been transcribed yet.",
+    "status": "Questions 1-7 and 58-112 transcribed (of 114 total: 57 ELA + 57 math) — that's the complete Revising/Editing Part A standalone items (1-7) plus the complete math section except Q113-114. Blocked: Q113-114 math answer-key pages were not among the 24 photos uploaded (answer key photos run out at Q112, page 525). ELA Q8-57 (Revising/Editing Part B passage items + all Reading Comprehension passages) are blocked — the question-page photos only run from page 468 to 470 (covering Q1-7), then skip straight to page 494 (math); pages 471-493 were never photographed.",
     "option_letters": "The book alternates A-D and E-H per question (standard test-booklet convention to avoid bubble-sheet confusion) — preserved exactly as printed rather than normalized."
   },
   "standalone_items": [
+    {
+      "id": "KM3_Q01",
+      "q_number": 1,
+      "question_type": "mc",
+      "stimulus": "(1) John Updike wrote many novels, including the Pulitzer Prize-winning Rabbit Is Rich. (2) This famous American author studied at Harvard and Oxford before beginning his career in literature and eventually earning more than one Pulitzer Prize. (3) His novels exploring contemporary human relationships in the United States. (4) In addition to creating novels, Updike wrote poems and collections of short stories.",
+      "question": "Which sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q1.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q02",
+      "q_number": 2,
+      "question_type": "mc",
+      "stimulus": "During the intense exchange between the basketball coaches and the referees about a pivotal decision that could change the outcome of the playoff game, the sports journalist calmly and clearly explained to all of the people who were viewing channel KXTV on their televisions what was happening.",
+      "question": "Which revision uses the most precise language for the words **explained to all of the people who were viewing channel KXTV on their televisions what was happening**?",
+      "options": {
+        "E": "told the people about the events",
+        "F": "reported on the disagreement for KXTV",
+        "G": "explained the dialogue for the people at home watching KXTV",
+        "H": "discussed the issue on live television"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q2.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q03",
+      "q_number": 3,
+      "question_type": "mc",
+      "stimulus": "Point Pleasant needed increased revenue, from tourism, and consequently the town built a new park, a large hotel, and a fine restaurant in the main square.",
+      "question": "How should the sentence be revised?",
+      "options": {
+        "A": "Insert a comma after **Point Pleasant**, AND delete the comma after **hotel**.",
+        "B": "Delete the comma after **revenue**, AND insert a comma after **consequently**.",
+        "C": "Insert a comma after **town**, AND delete the comma after **park**.",
+        "D": "Insert a comma after **restaurant**, AND insert a comma after **main**."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q3.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q04",
+      "q_number": 4,
+      "question_type": "mc",
+      "stimulus": "(1) The reason for the continued interest in Olympic athletes is that their struggle to win draws on experiences with which people can identify. (2) Highlighting legendary feats and memorable occasions, many competitors have participated in Olympic games over the years. (3) Dedicated athletes from all countries have made history and have inspired their fans to pursue their goals. (4) The Olympic games have become a social event and a shared experience among various cultures.",
+      "question": "Which sentence contains an error in its construction and should be revised?",
+      "options": {
+        "E": "sentence 1",
+        "F": "sentence 2",
+        "G": "sentence 3",
+        "H": "sentence 4"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q4.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q05",
+      "q_number": 5,
+      "question_type": "mc",
+      "stimulus": "While the learning behavior of many mammals is dictated by instinct, it is also influenced by experience. Complex behaviors can be learned through individual trial-and-error or practice, as long as that practice is motivated by natural instincts. For example, predatory cats aren't born knowing how to hunt, but their instincts prompt them to stalk, pounce on, and bite things they perceive as prey, and they gradually become more skilled and effective hunters. Wolves aren't born knowing how to get along with other wolves, the experience of living in the pack results in their eventual ability to find their place in the hierarchy.",
+      "question": "Which revision corrects the error in sentence structure in the paragraph?",
+      "options": {
+        "A": "instinct, and it",
+        "B": "instincts, for example, predatory",
+        "C": "hunters; wolves",
+        "D": "wolves, but the"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q5.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q06",
+      "q_number": 6,
+      "question_type": "mc",
+      "stimulus": "The swift nimble Florence Griffith Joyner set a world record in 1988 when she beat the old record for the 100-meter sprint by 0.27 seconds and improved her previous best by more than half a second.",
+      "question": "Which edit should be made to correct this sentence?",
+      "options": {
+        "E": "Insert a comma after **swift**.",
+        "F": "Insert a comma after **seconds**.",
+        "G": "Insert a comma after **previous**.",
+        "H": "Insert a comma after **best**."
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q6.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q07",
+      "q_number": 7,
+      "question_type": "mc",
+      "stimulus": "(1) Known for his curiosity, Swiss engineer Georges de Mestral wondered if the burrs that clung to his pants and his dog's fur when they went walking in the woods could be turned into something useful. (2) After nearly eight years of research, de Mestral successfully reproduced the effect with two strips of fabric, one with thousands of tiny hooks and another with thousands of tiny loops. (3) He named the invention Velcro a combination of the words \"velvet\" and \"crochet,\" and formally patented it in 1955. (4) Early news reports, such as one that appeared in TIME magazine in 1958, describe the product as a zipperless zipper.",
+      "question": "Which pair of revisions need to be made in this paragraph?",
+      "options": {
+        "A": "Sentence 1: Delete the comma after **curiosity**.\nSentence 4: Change **describe** to **described**.",
+        "B": "Sentence 1: Delete the comma after **curiosity**.\nSentence 2: Change **reproduced** to **reproduces**.",
+        "C": "Sentence 3: Insert a comma after **Velcro**.\nSentence 2: Change **reproduced** to **reproduces**.",
+        "D": "Sentence 3: Insert a comma after **Velcro**.\nSentence 4: Change **describe** to **described**."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q7.jpg"
+      }
+    },
     {
       "id": "KM3_Q58",
       "q_number": 58,
