@@ -114,6 +114,17 @@
       questions.forEach(q => rows.push({ id: q.id, exam: letter }));
     });
 
+    // Kaplan 2025 Practice Test 2 — math section (Q58-114). Different data
+    // shape (standalone_items, not a flat questions array), so pulled separately.
+    try {
+      const kaplan2 = await fetch('kaplan_2025_2/data.json?v=' + Date.now()).then(r => r.json());
+      (kaplan2.standalone_items || []).forEach(q => {
+        if (q.q_number >= 58) rows.push({ id: q.id, exam: 'k2' });
+      });
+    } catch (e) {
+      console.error('failed to load kaplan_2025_2/data.json', e);
+    }
+
     if (!rows.length) {
       wrap.innerHTML = '<div class="mg-empty">No exam questions found.</div>';
       return;
@@ -157,7 +168,14 @@
       let visible = activeExam === 'all' ? rows.slice() : rows.filter(r => r.exam === activeExam);
       const withStreak = visible.map(r => ({ ...r, streak: streakFor(r.id) }));
 
-      withStreak.sort((a, b) => a.id.localeCompare(b.id));
+      withStreak.sort((a, b) => {
+        const an = a.id.match(/\d+$/), bn = b.id.match(/\d+$/);
+        const aPrefix = an ? a.id.slice(0, an.index) : a.id;
+        const bPrefix = bn ? b.id.slice(0, bn.index) : b.id;
+        if (aPrefix !== bPrefix) return aPrefix.localeCompare(bPrefix);
+        if (an && bn) return parseInt(an[0], 10) - parseInt(bn[0], 10);
+        return a.id.localeCompare(b.id);
+      });
 
       const painPoints = withStreak.filter(r => r.streak === 0).length;
       summaryEl.innerHTML = `<strong>${withStreak.length}</strong> questions shown &middot; ` +
