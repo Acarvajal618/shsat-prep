@@ -3,7 +3,6 @@
     "description": "Exam G — ELA section. Sourced from the Kaplan \"Learn with Atom\" online practice-test simulator (kna.learnwithatom.com), not the NYC DOE exam booklets used for A-D. Full passage text and fully typed 'Getting to the Answer' explanations were visible on screen, so explanations are transcribed as exhibit_text rather than image crops.",
     "id_format": "GR<NN> for all questions (passage-grouped and standalone)",
     "origin": "KAPLAN_ATOM_PRACTICE_D",
-    "known_gap": "Q14 (Passage 3, 'The Importance of Crop Rotation') has no corresponding screenshot anywhere in the 56-image upload — the sequence jumps from Q13 (final question of Passage 2) directly to Q15. Question text/options/answer for Q14 are genuinely missing from the source material. Passage 3's full text (all 4 paragraphs) IS present and transcribed.",
     "render_notes": "Two questions (GR23, GR28) use a drag-to-match interaction in the source (matching quotes/paragraph-ranges to categories) that doesn't map cleanly to the existing mc/mc_multi renderer — represented here with question_type 'match' and a 'pairs' array (each pair: category label + correct quote/answer, plus a 'distractors' list of unused options from the shared pool). The template will need a small renderer addition to display these two as intended; until then they may not render. Passage 1 also has a 'code_comparison_table' field (not yet a standard schema field) for its FLOW-MATIC vs Python comparison — needs the same kind of renderer support, or can be converted to a cropped image if preferred."
   },
   "passages": [
@@ -385,6 +384,22 @@
         }
       ],
       "questions": [
+        {
+          "id": "GR14",
+          "q_number": 14,
+          "question_type": "mc",
+          "question": "How does paragraph 1 fit into the overall structure of the passage?",
+          "options": {
+            "A": "It introduces the idea that phosphorus is the most important nutrient for a successful backyard garden.",
+            "B": "It presents crop rotation as a vital practice that preserves soil nutrients and manages pests.",
+            "C": "It emphasizes that legumes are the only plants capable of improving the chemical quality of soil.",
+            "D": "It shows how backyard gardens are more susceptible to disease than are large-scale industrial farms."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: Review the passage structure in your Roadmap. The first paragraph introduces the author's argument that crop rotation is important, and the remaining paragraphs provide reasons to support this argument. Choice (B) is correct because it reflects the author's argument and accurately identifies the reasons why crop rotation is important that are mentioned in the last sentence of paragraph 1 (\"maintain soil health and disrupt the life cycles of pests\"). Choice (A) is Extreme; phosphorus is certainly important, but nitrogen and potassium are as well. Further, these nutrients are mentioned in paragraph 2 rather than paragraph 1. Choice (C) is also Extreme; while legumes improve the quality of the soil, they may not be the \"only\" plants capable of doing so. Further, legumes are mentioned in paragraphs 3 and 4. Choice (D) is Out of Scope; large-scale industrial farms are never discussed."
+          }
+        },
         {
           "id": "GR15",
           "q_number": 15,
