@@ -1,0 +1,456 @@
+{
+  "_schema": {
+    "description": "Practice Set 12 (10/26) — math-only so far (grammar and revision sections pending: grammar/revision fodder bank still processing, and 2 passages for the revision section are pending upload). 10 math pain-point questions pulled from Kaplan Practice Test 2's Proficiency Table (currently at streak 0), each followed by 2 freshly generated practice questions testing the identical skill. Intended workflow: parent walks through the original (pulling up its full Kaplan solution image) first, then the student solves the two new ones independently.",
+    "sections": {
+      "math": "q_number 1-30, grouped in triples (original + 2 new) per skill. Originals use id format KM2_Q<n>.0 and reuse the exhibit_image already on disk from kaplan_2025_2/solutions/. New questions use id format KM2_Q<n>.1 / KM2_Q<n>.2 and have hand-verified exhibit_text solutions (no external answer key — these are original questions, answers derived and double-checked directly, not guessed)."
+    }
+  },
+  "math_questions": [
+    {
+      "id": "KM2_Q60.0",
+      "q_number": 1,
+      "question_type": "grid_keypad",
+      "grid_label": "ORIGINAL (missed on Kaplan 2) — solve together first.",
+      "question": "Sidney is eating lunch at a salad bar where you create your own salad. An 8-ounce salad costs $2.49. Each additional ounce of salad costs $0.25. How much does Sidney's salad cost if it weighs 1 pound, 8 ounces?",
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q60.jpg" }
+    },
+    {
+      "id": "KM2_Q60.1",
+      "q_number": 2,
+      "question_type": "grid_keypad",
+      "grid_prefix": "$",
+      "grid_label": "NEW (same skill) — try it on your own.",
+      "question": "Marcus is buying trail mix at a bulk food store. A 6-ounce bag costs $3.20. Each additional ounce costs $0.40. How much does Marcus's bag cost if it weighs 1 pound exactly?",
+      "solution": {
+        "exhibit_text": "1 pound = 16 ounces. The bag already includes the first 6 ounces, so the extra ounces are 16 − 6 = 10.\n\nExtra cost: 10 × $0.40 = $4.00\n\nTotal cost: $3.20 + $4.00 = $7.20\n\nAnswer: $7.20"
+      }
+    },
+    {
+      "id": "KM2_Q60.2",
+      "q_number": 3,
+      "question_type": "grid_keypad",
+      "grid_prefix": "$",
+      "grid_label": "NEW (same skill) — try it on your own.",
+      "question": "Priya is buying granola at a market. A 10-ounce container costs $4.75. Each additional ounce costs $0.30. How much does Priya's container cost if it weighs 1 pound, 4 ounces?",
+      "solution": {
+        "exhibit_text": "1 pound, 4 ounces = 16 + 4 = 20 ounces. The container already includes the first 10 ounces, so the extra ounces are 20 − 10 = 10.\n\nExtra cost: 10 × $0.30 = $3.00\n\nTotal cost: $4.75 + $3.00 = $7.75\n\nAnswer: $7.75"
+      }
+    },
+
+    {
+      "id": "KM2_Q63.0",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\n\\[\\left\\{\\dfrac{2}{11},\\dfrac{3}{11},\\dfrac{4}{11},\\dfrac{5}{11},\\dfrac{6}{11},\\dfrac{7}{11}\\right\\}\\]\nIf Deena chooses a number at random from the set above, what is the probability that the number she chooses is less than \\(\\dfrac{1}{2}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{5}{11}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{2}{3}\\)",
+        "D": "\\(\\dfrac{5}{6}\\)"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q63.jpg" }
+    },
+    {
+      "id": "KM2_Q63.1",
+      "q_number": 5,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf a number is chosen at random from the set \\(\\left\\{\\dfrac{3}{13},\\dfrac{4}{13},\\dfrac{5}{13},\\dfrac{6}{13},\\dfrac{7}{13},\\dfrac{8}{13},\\dfrac{9}{13}\\right\\}\\), what is the probability that the number chosen is greater than \\(\\dfrac{1}{2}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{3}{7}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{4}{7}\\)",
+        "D": "\\(\\dfrac{5}{7}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Rewrite \\(\\dfrac{1}{2}\\) with a denominator of 13: \\(\\dfrac{1}{2}=\\dfrac{6.5}{13}\\).\n\nThere are 7 numbers total in the set. The ones greater than \\(\\dfrac{6.5}{13}\\) are \\(\\dfrac{7}{13},\\dfrac{8}{13},\\dfrac{9}{13}\\) — 3 of them.\n\nProbability = \\(\\dfrac{3}{7}\\). Answer: (A)"
+      }
+    },
+    {
+      "id": "KM2_Q63.2",
+      "q_number": 6,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf a number is chosen at random from the set \\(\\left\\{\\dfrac{1}{9},\\dfrac{2}{9},\\dfrac{3}{9},\\dfrac{4}{9},\\dfrac{5}{9},\\dfrac{6}{9}\\right\\}\\), what is the probability that the number chosen is less than \\(\\dfrac{2}{3}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{3}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{2}{3}\\)",
+        "D": "\\(\\dfrac{5}{6}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Rewrite \\(\\dfrac{2}{3}\\) with a denominator of 9: \\(\\dfrac{2}{3}=\\dfrac{6}{9}\\).\n\nThere are 6 numbers total in the set. The ones less than \\(\\dfrac{6}{9}\\) are \\(\\dfrac{1}{9},\\dfrac{2}{9},\\dfrac{3}{9},\\dfrac{4}{9},\\dfrac{5}{9}\\) — 5 of them.\n\nProbability = \\(\\dfrac{5}{6}\\). Answer: (D)"
+      }
+    },
+
+    {
+      "id": "KM2_Q67.0",
+      "q_number": 7,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nA certain machine caps 5 bottles every 2 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+      "options": {
+        "A": "120",
+        "B": "150",
+        "C": "240",
+        "D": "300"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q67.jpg" }
+    },
+    {
+      "id": "KM2_Q67.1",
+      "q_number": 8,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nA printer prints 8 pages every 3 seconds. At this rate, how many pages can the printer print in 2 minutes?",
+      "options": {
+        "A": "240",
+        "B": "280",
+        "C": "320",
+        "D": "360"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "2 minutes = 120 seconds.\n\nRate: \\(\\dfrac{8\\text{ pages}}{3\\text{ sec}}\\)\n\nTotal pages: \\(120 \\times \\dfrac{8}{3} = \\dfrac{960}{3} = 320\\)\n\nAnswer: (C) 320"
+      }
+    },
+    {
+      "id": "KM2_Q67.2",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nA conveyor belt moves 12 boxes every 5 seconds. At this rate, how many boxes can the belt move in 3 minutes?",
+      "options": {
+        "E": "360",
+        "F": "396",
+        "G": "420",
+        "H": "432"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_text": "3 minutes = 180 seconds.\n\nRate: \\(\\dfrac{12\\text{ boxes}}{5\\text{ sec}}\\)\n\nTotal boxes: \\(180 \\times \\dfrac{12}{5} = \\dfrac{2160}{5} = 432\\)\n\nAnswer: (H) 432"
+      }
+    },
+
+    {
+      "id": "KM2_Q69.0",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nIf \\(a+b<5\\), and \\(a-b>6\\), which of the following pairs could be the values of \\(a\\) and \\(b\\)?",
+      "options": {
+        "A": "(4, -3)",
+        "B": "(4, -2)",
+        "C": "(3, -2)",
+        "D": "(1, 3)"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q69.jpg" }
+    },
+    {
+      "id": "KM2_Q69.1",
+      "q_number": 11,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf \\(x+y<4\\), and \\(x-y>5\\), which of the following pairs could be the values of \\(x\\) and \\(y\\)?",
+      "options": {
+        "A": "(5, -2)",
+        "B": "(3, -2)",
+        "C": "(5, 0)",
+        "D": "(2, 3)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Check each pair against BOTH conditions.\n\n(A) (5, −2): sum = 3 < 4 ✓, difference = 5−(−2) = 7 > 5 ✓. Both true — this works.\n\n(B) (3, −2): sum = 1 < 4 ✓, but difference = 3−(−2) = 5, and 5 is NOT greater than 5. Fails.\n\n(C) (5, 0): sum = 5, and 5 is NOT less than 4. Fails.\n\n(D) (2, 3): sum = 5, not less than 4. Fails.\n\nAnswer: (A)"
+      }
+    },
+    {
+      "id": "KM2_Q69.2",
+      "q_number": 12,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf \\(x+y>6\\), and \\(x-y<-1\\), which of the following pairs could be the values of \\(x\\) and \\(y\\)?",
+      "options": {
+        "E": "(2, 5)",
+        "F": "(4, 3)",
+        "G": "(6, 2)",
+        "H": "(0, 5)"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_text": "Check each pair against BOTH conditions.\n\n(E) (2, 5): sum = 7 > 6 ✓, difference = 2−5 = −3, and −3 < −1 ✓. Both true — this works.\n\n(F) (4, 3): sum = 7 > 6 ✓, but difference = 4−3 = 1, and 1 is NOT less than −1. Fails.\n\n(G) (6, 2): sum = 8 > 6 ✓, but difference = 6−2 = 4, not less than −1. Fails.\n\n(H) (0, 5): sum = 5, not greater than 6. Fails.\n\nAnswer: (E)"
+      }
+    },
+
+    {
+      "id": "KM2_Q73.0",
+      "q_number": 13,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nIf 4% of \\(r\\) is 6.2, then what is 20% of \\(r\\)?",
+      "options": {
+        "A": "25",
+        "B": "26",
+        "C": "30",
+        "D": "31"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q73.jpg" }
+    },
+    {
+      "id": "KM2_Q73.1",
+      "q_number": 14,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf 5% of \\(p\\) is 8.5, then what is 15% of \\(p\\)?",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "25.5",
+        "D": "26"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "5% of \\(p\\) = 8.5, so \\(p = \\dfrac{8.5}{0.05} = 170\\).\n\n15% of 170 = \\(0.15 \\times 170 = 25.5\\)\n\nAnswer: (C) 25.5"
+      }
+    },
+    {
+      "id": "KM2_Q73.2",
+      "q_number": 15,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf 8% of \\(m\\) is 14.4, then what is 25% of \\(m\\)?",
+      "options": {
+        "E": "40",
+        "F": "42",
+        "G": "45",
+        "H": "48"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "8% of \\(m\\) = 14.4, so \\(m = \\dfrac{14.4}{0.08} = 180\\).\n\n25% of 180 = \\(0.25 \\times 180 = 45\\)\n\nAnswer: (G) 45"
+      }
+    },
+
+    {
+      "id": "KM2_Q74.0",
+      "q_number": 16,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nAt a certain school, the ratio of teachers to students is 1:10. Which of the following could be the total number of teachers and students?",
+      "options": {
+        "E": "100",
+        "F": "121",
+        "G": "144",
+        "H": "222"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q74.jpg" }
+    },
+    {
+      "id": "KM2_Q74.1",
+      "q_number": 17,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nAt a company, the ratio of managers to employees is 2:9. Which of the following could be the total number of managers and employees?",
+      "options": {
+        "A": "100",
+        "B": "110",
+        "C": "120",
+        "D": "130"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The ratio parts add up to 2 + 9 = 11, so the total must be a multiple of 11.\n\nCheck each option: 100 ÷ 11 is not whole; 110 ÷ 11 = 10 ✓; 120 ÷ 11 is not whole; 130 ÷ 11 is not whole.\n\nOnly 110 works (10 managers, 90 employees).\n\nAnswer: (B) 110"
+      }
+    },
+    {
+      "id": "KM2_Q74.2",
+      "q_number": 18,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIn a garden, the ratio of rose bushes to tulip bushes is 3:7. Which of the following could be the total number of rose and tulip bushes?",
+      "options": {
+        "E": "45",
+        "F": "52",
+        "G": "60",
+        "H": "67"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "The ratio parts add up to 3 + 7 = 10, so the total must be a multiple of 10.\n\nOnly 60 is a multiple of 10 (18 rose bushes, 42 tulip bushes).\n\nAnswer: (G) 60"
+      }
+    },
+
+    {
+      "id": "KM2_Q79.0",
+      "q_number": 19,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nIf \\(k=15\\), what is \\((4k+30)-(2k+15)\\)?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "45",
+        "D": "60"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q79.jpg" }
+    },
+    {
+      "id": "KM2_Q79.1",
+      "q_number": 20,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf \\(n=12\\), what is \\((5n+20)-(3n+8)\\)?",
+      "options": {
+        "A": "32",
+        "B": "34",
+        "C": "36",
+        "D": "38"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Simplify first: \\((5n+20)-(3n+8) = 5n+20-3n-8 = 2n+12\\)\n\nSubstitute \\(n=12\\): \\(2(12)+12 = 24+12 = 36\\)\n\nAnswer: (C) 36"
+      }
+    },
+    {
+      "id": "KM2_Q79.2",
+      "q_number": 21,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nIf \\(t=9\\), what is \\((6t+40)-(2t+10)\\)?",
+      "options": {
+        "E": "60",
+        "F": "63",
+        "G": "66",
+        "H": "69"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "Simplify first: \\((6t+40)-(2t+10) = 6t+40-2t-10 = 4t+30\\)\n\nSubstitute \\(t=9\\): \\(4(9)+30 = 36+30 = 66\\)\n\nAnswer: (G) 66"
+      }
+    },
+
+    {
+      "id": "KM2_Q81.0",
+      "q_number": 22,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nOn a town map, 3 inches represents 5 miles. The points on this map that represent the library and the water tower are 7 inches apart. How many miles apart are the library and the water tower, to the nearest mile?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "13",
+        "D": "15"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q81.jpg" }
+    },
+    {
+      "id": "KM2_Q81.1",
+      "q_number": 23,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nOn a blueprint, 4 inches represents 15 miles. Two points on the blueprint are 7 inches apart. How many miles apart are the two points, to the nearest mile?",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "26",
+        "D": "27"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Set up the scale: \\(\\dfrac{4\\text{ in}}{15\\text{ mi}} = \\dfrac{7\\text{ in}}{x\\text{ mi}}\\)\n\n\\(x = 7 \\times \\dfrac{15}{4} = \\dfrac{105}{4} = 26.25\\)\n\nRounded to the nearest mile: 26\n\nAnswer: (C) 26"
+      }
+    },
+    {
+      "id": "KM2_Q81.2",
+      "q_number": 24,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nOn a map, 5 centimeters represents 12 kilometers. Two cities on the map are 8 centimeters apart. How many kilometers apart are the cities, to the nearest kilometer?",
+      "options": {
+        "E": "17",
+        "F": "18",
+        "G": "19",
+        "H": "20"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "Set up the scale: \\(\\dfrac{5\\text{ cm}}{12\\text{ km}} = \\dfrac{8\\text{ cm}}{x\\text{ km}}\\)\n\n\\(x = 8 \\times \\dfrac{12}{5} = \\dfrac{96}{5} = 19.2\\)\n\nRounded to the nearest kilometer: 19\n\nAnswer: (G) 19"
+      }
+    },
+
+    {
+      "id": "KM2_Q84.0",
+      "q_number": 25,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nJung's average (arithmetic mean) on 2 biology quizzes is 70. What must Jung's score on the next quiz be in order to have an average of 80 for the three quizzes?",
+      "options": {
+        "E": "80",
+        "F": "85",
+        "G": "90",
+        "H": "100"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q84.jpg" }
+    },
+    {
+      "id": "KM2_Q84.1",
+      "q_number": 26,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nCarlos's average (arithmetic mean) on 3 math tests is 78. What must Carlos's score be on the next test in order to have an average of 82 for the four tests?",
+      "options": {
+        "A": "86",
+        "B": "90",
+        "C": "94",
+        "D": "98"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Sum of the first 3 tests: \\(78 \\times 3 = 234\\)\n\nSum needed for 4 tests averaging 82: \\(82 \\times 4 = 328\\)\n\n4th test score: \\(328 - 234 = 94\\)\n\nAnswer: (C) 94"
+      }
+    },
+    {
+      "id": "KM2_Q84.2",
+      "q_number": 27,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\nInés's average (arithmetic mean) on 4 quizzes is 75. What must Inés's score be on the next quiz in order to have an average of 80 for the five quizzes?",
+      "options": {
+        "E": "90",
+        "F": "95",
+        "G": "98",
+        "H": "100"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_text": "Sum of the first 4 quizzes: \\(75 \\times 4 = 300\\)\n\nSum needed for 5 quizzes averaging 80: \\(80 \\times 5 = 400\\)\n\n5th quiz score: \\(400 - 300 = 100\\)\n\nAnswer: (H) 100"
+      }
+    },
+
+    {
+      "id": "KM2_Q95.0",
+      "q_number": 28,
+      "question_type": "mc",
+      "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\n\\[\\{1,2,3,4,\\ldots,297,298,299,300\\}\\]\nHow many members of the set shown above are multiples of 10 but not multiples of 15?",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "25",
+        "D": "30"
+      },
+      "solution": { "exhibit_image": "kaplan_2025_2/solutions/Q95.jpg" }
+    },
+    {
+      "id": "KM2_Q95.1",
+      "q_number": 29,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\n\\[\\{1,2,3,\\ldots,359,360\\}\\]\nHow many members of the set shown above are multiples of 8 but not multiples of 12?",
+      "options": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Multiples of 8 from 1 to 360: \\(360 \\div 8 = 45\\)\n\nA number that's a multiple of both 8 and 12 is a multiple of their LCM, 24. Multiples of 24 from 1 to 360: \\(360 \\div 24 = 15\\)\n\nMultiples of 8 but NOT 12: \\(45 - 15 = 30\\)\n\nAnswer: (B) 30"
+      }
+    },
+    {
+      "id": "KM2_Q95.2",
+      "q_number": 30,
+      "question_type": "mc",
+      "question": "NEW (same skill) — try it on your own.\n\n\\[\\{1,2,3,\\ldots,179,180\\}\\]\nHow many members of the set shown above are multiples of 6 but not multiples of 9?",
+      "options": {
+        "E": "16",
+        "F": "18",
+        "G": "20",
+        "H": "22"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "Multiples of 6 from 1 to 180: \\(180 \\div 6 = 30\\)\n\nA number that's a multiple of both 6 and 9 is a multiple of their LCM, 18. Multiples of 18 from 1 to 180: \\(180 \\div 18 = 10\\)\n\nMultiples of 6 but NOT 9: \\(30 - 10 = 20\\)\n\nAnswer: (G) 20"
+      }
+    }
+  ],
+  "ela_passage": null,
+  "grammar_questions": []
+}
