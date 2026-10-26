@@ -2,11 +2,657 @@
   "_schema": {
     "description": "Practice Test B — ELA section. Reading passages with associated questions, sourced from TestNav screenshots. Each passage has its own question set.",
     "id_format": "BR<NN> — Exam B, Reading, question number (continuous across passages).",
-    "answer_key_status": "PARTIAL. This batch of screenshots (30 total) only covers Passage 7 of 7 (\"The End of an Era\") and all 4 Stand Alone Items (BR01-BR09). Passages 1-6 are NOT present in this screenshot batch and are not included here. All 9 questions that ARE present have complete answer keys sourced from the Exhibits panel.",
+    "answer_key_status": "3 of 6 Reading Comprehension passages now complete (Passage Set 2 ‘A Miracle Mile’, Passage Set 4 ‘Looking for the Smallest Spark of Everything’, Passage Set 6 ‘Letter from Brooklyn’ — 18 new questions, BR10-27), each with full verbatim passage text and complete exhibit answer keys from TestNav screenshots. Passage Sets 1, 3, and 5 were also screenshotted but have INCOMPLETE passage text (the screenshot sequence never scrolled past the first few paragraphs while working through that passage's questions, and Passage Set 5 also references a diagram that was never screenshotted) — their question/answer content is fully verified but excluded here pending new screenshots of the complete passage text. Passage Set 7 (‘The End of an Era’, BR01-05) and all 4 Stand Alone Items (BR06-09) remain as before. Full Exam-A-style renumbering (RC passages first in strict order, editing passage and standalone items last) is deferred until Passage Sets 1, 3, and 5 are resolved, to avoid renumbering IDs twice.",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency).",
-    "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph) displayed above the question. BR06 and BR08 use a 'select the one error' TestNav interaction (click an underlined span / pick a labeled sentence) that isn't a native template widget; they are represented as standard mc questions whose option text is the underlined phrase or sentence label, with the full paragraph (including <u> tags for BR06) shown as the stimulus."
+    "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph) displayed above the question. BR06 and BR08 use a 'select the one error' TestNav interaction (click an underlined span / pick a labeled sentence) that isn't a native template widget; they are represented as standard mc questions whose option text is the underlined phrase or sentence label, with the full paragraph (including <u> tags for BR06) shown as the stimulus.",
+    "q_number_note": "q_numbers 1-27 are contiguous by design (the template sorts/navigates by q_number, and its parseHash() hash-routing clamps to total question count the same way kaplan-2025-2.html's did before that bug was fixed earlier this session — ela-b.html has the identical unfixed pattern, so q_numbers here were kept gap-free to avoid triggering it; a real fix to parseHash() itself was out of scope for this task)."
   },
   "passages": [
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "A Miracle Mile",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a “dream mile.” Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister."
+        },
+        {
+          "num": 2,
+          "text": "Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize—breaking the four-minute-mile barrier."
+        },
+        {
+          "num": 3,
+          "text": "Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister ran an interval of ten consecutive laps on a quarter-mile track, aiming for sixty seconds each lap. In between intervals, he let his body recover for two minutes."
+        },
+        {
+          "num": 4,
+          "text": "By early 1954, Bannister had succeeded in lowering his quarter-mile pace to sixty-one seconds, but he had to shave off at least one more second in order to reach his target. Frustrated by the plateau he had reached, Bannister took a break from training and went mountain climbing for three days. The rest from running permitted his muscles to recuperate and left him feeling refreshed. When Bannister returned to the track, he completed ten quarter-mile-long intervals at fifty-nine seconds each. He finally felt prepared to attempt to break the world record."
+        },
+        {
+          "num": 5,
+          "text": "As a member of the Amateur Athletic Association (AAA), Bannister joined the AAA team for a track meet against Oxford University. The event took place on a cinder track in Oxford on May 6, 1954. Bannister and his two AAA teammates, Chris Chataway and Chris Brasher, were close friends and frequent running partners. Chataway and Brasher agreed to help Bannister accomplish his goal by being his “rabbits.”"
+        },
+        {
+          "num": 6,
+          "text": "In track and field, rabbits are runners who enter the race solely to pace a teammate for a segment of the course. Typically, a runner settles in behind the rabbit and allows the rabbit to set an appropriate tempo. Additionally, by running behind the rabbit, the runner conserves about 15 percent of his or her effort. When the starting pistol fired, Brasher pounced into the lead, and Bannister followed behind his first rabbit."
+        },
+        {
+          "num": 7,
+          "text": "Propelled by the excitement, Bannister lost his instinctive feel for his pace and shouted “Faster!” at Brasher. Brasher, however, remained composed and maintained his current steady but grueling pace, completing the first two laps in a desirable one minute and fifty-eight seconds. Then Chataway surged forward, leading Bannister at this same punishing rate for another lap and a half. At the beginning of the back straightaway of the track, Bannister bolted past Chataway. Bannister said, “I felt that the moment of a lifetime had come. There was no pain, only a great unity of movement and aim.” Bannister crossed the finish line in 3 minutes 59.4 seconds. The ecstatic crowd erupted the moment the timekeeper announced the word “three.”"
+        },
+        {
+          "num": 8,
+          "text": "Soon after Bannister's achievement, four other athletes matched his performance. A new mindset had taken root among runners. Over the years, the record continued to fall. However, the current record, 3 minutes 43.13 seconds, has stood unbroken since 1999. Some question whether this record represents the limits of human ability. But perhaps there is another Bannister, an athlete who, with willpower and dedication, will accomplish the miraculous."
+        }
+      ],
+      "questions": [
+        {
+          "id": "BR10",
+          "q_number": 10,
+          "question_type": "mc",
+          "question": "The words “feat,” “humanly impossible,” and “impenetrable barrier” in paragraph 1 affect the tone of the paragraph because they",
+          "options": {
+            "A": "highlight the idea that only the most skilled runners would be able to run a four-minute mile.",
+            "B": "emphasize the idea that running a mile in less than four minutes was a seemingly unattainable goal.",
+            "C": "convey the competitiveness among elite runners to consistently set and break speed records.",
+            "D": "show the intensity of the training programs athletes endure in order to achieve their goals."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. These words suggest the feat was unattainable even for the most skilled runners, which overstates the point. B. CORRECT. No one had ever run a sub-four-minute mile; these words imply the goal seemed unattainable, reinforcing the comparison to “scaling Mount Everest.” C. Incorrect. The paragraph focuses on Bannister specifically, not competitiveness among elite runners in general. D. Incorrect. The training program is described in paragraphs 3-4; these words relate to the magnitude of the goal itself, not the intensity of training."
+          }
+        },
+        {
+          "id": "BR11",
+          "q_number": 11,
+          "question_type": "mc",
+          "question": "Read these sentences from paragraph 7. “Bannister said, ‘I felt that the moment of a lifetime had come. There was no pain, only a great unity of movement and aim.’” The sentences contribute to the development of ideas in the passage by showing that Bannister",
+          "options": {
+            "A": "knew that he was about to achieve the goal he had worked toward.",
+            "B": "was no longer experiencing personal disappointment from his past failure in the Olympics.",
+            "C": "felt grateful to his teammates for helping him take the lead.",
+            "D": "was satisfied that his training had helped him perfect his running technique."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Bannister's sense that “the moment of a lifetime had come” and the feeling of “unity of movement and aim” reveal his awareness that he was on the verge of achieving his long-sought goal. B,C,D. Incorrect — the lines focus on Bannister's realization that his goal was within reach, not on resolving past disappointment, gratitude toward teammates, or technique."
+          }
+        },
+        {
+          "id": "BR12",
+          "q_number": 12,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that Bannister needed an alternative to “logical planning” (paragraph 3) in order to accomplish his goal?",
+          "options": {
+            "A": "“Bannister's performance was a disappointment for him and his country, Great Britain.” (paragraph 2)",
+            "B": "“The amateur athlete decided to use intensive interval training to develop endurance and speed.” (paragraph 3)",
+            "C": "“For these workouts, Bannister ran an interval of ten consecutive laps on a quarter-mile track, aiming for sixty seconds each lap.” (paragraph 3)",
+            "D": "“Frustrated by the plateau he had reached, Bannister took a break from training and went mountain climbing for three days.” (paragraph 4)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the 1952 Olympics outcome prompted a new goal, not an alternative training method. B. Incorrect — describes his training plan itself, not an alternative to it. C. Incorrect — details of the interval training plan, not an alternative form of preparation. D. CORRECT — explains Bannister reached a point where he couldn't improve despite his strict plan; the mountain-climbing break “permitted his muscles to recuperate and left him feeling refreshed” (paragraph 4) — this is the alternative to logical planning."
+          }
+        },
+        {
+          "id": "BR13",
+          "q_number": 13,
+          "question_type": "mc",
+          "question": "Which sentence from the passage indicates that Bannister nearly made a mistake that would have cost him the world record?",
+          "options": {
+            "A": "“By early 1954, Bannister had succeeded in lowering his quarter-mile pace to sixty-one seconds, but he had to shave off at least one more second in order to reach his target.” (paragraph 4)",
+            "B": "“When the starting pistol fired, Brasher pounced into the lead, and Bannister followed behind his first rabbit.” (paragraph 6)",
+            "C": "“Propelled by the excitement, Bannister lost his instinctive feel for his pace and shouted ‘Faster!’ at Brasher.” (paragraph 7)",
+            "D": "“At the beginning of the back straightaway of the track, Bannister bolted past Chataway.” (paragraph 7)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect — describes a training challenge, not a race mistake. B. Incorrect — describes the start of the race going to plan. C. CORRECT — if Bannister had run faster than the rabbit's pace he'd have lacked the energy to finish; he “lost his instinctive feel for his pace” in excitement, a near mistake. D. Incorrect — describes Bannister moving ahead of the second rabbit at the appropriate, planned time, not a mistake."
+          }
+        },
+        {
+          "id": "BR14",
+          "q_number": 14,
+          "question_type": "mc",
+          "question": "Bannister's loss in the 1952 Olympics influenced his decision to pursue breaking the four-minute-mile barrier by",
+          "options": {
+            "A": "allowing him to recognize his weaknesses and improve his running ability.",
+            "B": "prompting him to take a different approach to his regular training.",
+            "C": "motivating him to prove to himself that he could set and achieve a goal.",
+            "D": "giving him the opportunity to reach a goal no runner had ever accomplished."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the loss made him “determined to redeem himself” and focus specifically on the four-minute mile, not just general improvement. B. Incorrect — the different training approach came later (the 1954 plateau), not directly from the Olympics loss. C. CORRECT — he sought redemption after his “dismal fourth place,” responding by setting a goal to conquer the “ultimate prize” (the four-minute mile). D. Incorrect — the loss motivated a change in focus, not an “opportunity” itself."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Looking for the Smallest Spark of Everything",
+      "author": null,
+      "citation": null,
+      "intro_text": "Located underground near Geneva, Switzerland, the Large Hadron Collider (LHC) helps scientists study and understand how the smallest particles of matter interact with one another. The LHC propels atomic particle beams along a 17-mile-long ring.",
+      "lines": [
+        {
+          "num": null,
+          "text": "There are the things the world is made of,"
+        },
+        {
+          "num": null,
+          "text": "things we can see and feel, and then"
+        },
+        {
+          "num": null,
+          "text": "there are the things even smaller, things that seem"
+        },
+        {
+          "num": null,
+          "text": "to exist only when we are looking right at them."
+        },
+        {
+          "num": 5,
+          "text": "So beneath the level of molecules are atoms,"
+        },
+        {
+          "num": null,
+          "text": "and beneath the level of atoms, we find"
+        },
+        {
+          "num": null,
+          "text": "protons, electrons, neutrons; and beneath that—"
+        },
+        {
+          "num": null,
+          "text": "what, exactly? Because we are talking about"
+        },
+        {
+          "num": null,
+          "text": "everything here: your fingernail,"
+        },
+        {
+          "num": 10,
+          "text": "the candy at the back of your mouth,"
+        },
+        {
+          "num": null,
+          "text": "the coffee your teacher drank this morning,"
+        },
+        {
+          "num": null,
+          "text": "your little sister, and the stuffed dog"
+        },
+        {
+          "num": null,
+          "text": "she used to carry around with her everywhere."
+        },
+        {
+          "num": null,
+          "text": "And everywhere."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 15,
+          "text": "Everything and everywhere"
+        },
+        {
+          "num": null,
+          "text": "are made up of the same stuff, whatever"
+        },
+        {
+          "num": null,
+          "text": "it is. How do we find it? We can listen for it"
+        },
+        {
+          "num": null,
+          "text": "in the wavelengths from deep space,"
+        },
+        {
+          "num": null,
+          "text": "talking back to us from unimaginable"
+        },
+        {
+          "num": 20,
+          "text": "distances. Or we can build long,"
+        },
+        {
+          "num": null,
+          "text": "deep circular tunnels beneath the surface"
+        },
+        {
+          "num": null,
+          "text": "of this Earth and race particles"
+        },
+        {
+          "num": null,
+          "text": "(like racing cars, only very tiny cars"
+        },
+        {
+          "num": null,
+          "text": "flashing along at close to the speed of light)"
+        },
+        {
+          "num": 25,
+          "text": "until everything we think we know"
+        },
+        {
+          "num": null,
+          "text": "bangs against everything else we know."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "And there, in the explosion, in the darkness,"
+        },
+        {
+          "num": null,
+          "text": "briefly incandescent, they appear:"
+        },
+        {
+          "num": null,
+          "text": "the quarks, the leptons, and the bosons;"
+        },
+        {
+          "num": 30,
+          "text": "the baryons and the mesons. Their names"
+        },
+        {
+          "num": null,
+          "text": "sound like dinosaurs or maybe bands"
+        },
+        {
+          "num": null,
+          "text": "playing terrible music in someone's garage."
+        },
+        {
+          "num": null,
+          "text": "The one thing we know for sure"
+        },
+        {
+          "num": null,
+          "text": "is that they spin. This is how gravity"
+        },
+        {
+          "num": 35,
+          "text": "enters our world, how our world is held"
+        },
+        {
+          "num": null,
+          "text": "both together and apart, what keeps"
+        },
+        {
+          "num": null,
+          "text": "together the pencil in your hand right now"
+        },
+        {
+          "num": null,
+          "text": "as well as separate from, say,"
+        },
+        {
+          "num": null,
+          "text": "Jupiter. They spin, and it is only down there"
+        },
+        {
+          "num": 40,
+          "text": "in the darkness—in the vast garage"
+        },
+        {
+          "num": null,
+          "text": "where physicists jot down"
+        },
+        {
+          "num": null,
+          "text": "what they can, whatever seems most real—"
+        },
+        {
+          "num": null,
+          "text": "that they let us perceive their wild dancing,"
+        },
+        {
+          "num": null,
+          "text": "combusting to the music they make."
+        }
+      ],
+      "questions": [
+        {
+          "id": "BR15",
+          "q_number": 15,
+          "question_type": "mc",
+          "question": "Read lines 5-8 from the poem. The lines help develop a central idea of the poem by revealing the speaker's",
+          "options": {
+            "A": "interest in determining how the parts of matter work together.",
+            "B": "curiosity about what makes up matter.",
+            "C": "desire to prove that particles make up matter.",
+            "D": "questions about what tools are needed to study matter."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — lines 5-8 demonstrate knowledge about the structure of matter, not interest in how parts work together. B. CORRECT — lines 5-8 show connection between particles using “beneath the level” repeatedly; the progression from atoms to subatomic particles ends with the question “what, exactly?” (line 8), showing the speaker's curiosity about mysteries still unsolved about the nature of matter — a central idea. C. Incorrect — speaker expresses curiosity, not a desire to prove a point; no conflict is shown. D. Incorrect — the poem is about the LHC (a tool) per the intro text, but lines 5-8 specifically are about the particles themselves, not tools."
+          }
+        },
+        {
+          "id": "BR16",
+          "q_number": 16,
+          "question_type": "mc",
+          "question": "The main purpose of the comparison in lines 23-24 of the poem is to show",
+          "options": {
+            "A": "that the particles' size makes them difficult to see.",
+            "B": "how the particles move within the tunnel.",
+            "C": "that the particles have a familiar shape.",
+            "D": "how the particles can be seen only in darkness."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the comparison focuses on movement, not visibility. B. CORRECT — lines 23-24 describe “tiny cars / flashing along at close to the speed of light,” describing how the particles move. C. Incorrect — the lines describe movement, not shape. D. Incorrect — “flashing” refers to speed, not brightness in darkness; “light” is a reference to the measurement of speed."
+          }
+        },
+        {
+          "id": "BR17",
+          "q_number": 17,
+          "question_type": "mc",
+          "question": "Read lines 27-28 from the poem. The imagery in the lines reveals that the speaker",
+          "options": {
+            "A": "envies the physicists who research colliding particles.",
+            "B": "has personally observed colliding particles.",
+            "C": "admires the powerful reactions that occur when particles collide.",
+            "D": "has a simplistic understanding of how particles collide."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the physicists in stanza 5 are mere observers; the speaker in lines 27-28 is focused on the reaction, not the physicists. B. Incorrect — the speaker's understanding is based on physicists' observations, not personal witness. C. CORRECT — “explosion” and “briefly incandescent” create a picture of rapid change and bright light, revealing how powerful the new particles are; the positive language shows admiration/awe. D. Incorrect — the poem reveals the speaker's deep knowledge (naming particles, using precise imagery for a complex process), not a simplistic understanding."
+          }
+        },
+        {
+          "id": "BR18",
+          "q_number": 18,
+          "question_type": "mc",
+          "question": "Read lines 30-32 from the poem. The speaker refers to familiar objects and events in the lines most likely to",
+          "options": {
+            "A": "explain confusing information in simple terms to help the reader understand more about the topic.",
+            "B": "demonstrate how scientific ideas can be explained by describing situations that many people are familiar with.",
+            "C": "emphasize that the process being used to research particles is still in the early stages of development.",
+            "D": "suggest that the scientific language used to describe particles seems silly by making a humorous comparison."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the speaker only gives an opinion about the names, not a simplification of confusing information about how particles function. B. Incorrect — only describes what the names sound like, doesn't explain scientific ideas. C. Incorrect — doesn't explain the research process. D. CORRECT — “their names” (line 30) refers to scientific names (quarks, leptons, bosons, baryons, mesons); the speaker opines these sound nonsensical, like dinosaur names or silly band names — a humorous comparison."
+          }
+        },
+        {
+          "id": "BR19",
+          "q_number": 19,
+          "question_type": "mc",
+          "question": "Read lines 36-39 from the poem. The poet includes these lines most likely to emphasize that",
+          "options": {
+            "A": "it is important for physicists to continue their research about particles.",
+            "B": "these particles have a powerful effect on everything.",
+            "C": "the discoveries about particles provide little information.",
+            "D": "the study of particles and the study of objects in space are similar."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the lines explain the power of particles, not the need for more research. B. CORRECT — particles that are “everything and everywhere” (line 15) make up objects in lines 36-39 (a pencil, Jupiter); though different and far apart, both are made of and affected by these particles; the “powerful effect” keeps objects “both together and apart” (line 36). C. Incorrect — discoveries are ongoing and informative, not providing little information. D. Incorrect — the speaker is not comparing the study of particles with the study of space objects; Jupiter is just used as an example object."
+          }
+        },
+        {
+          "id": "BR20",
+          "q_number": 20,
+          "question_type": "mc",
+          "question": "The imagery in the final stanza of the poem mainly conveys the speaker's",
+          "options": {
+            "A": "frustration with the limitations of particle research.",
+            "B": "concern about the dangerous nature of particle collisions.",
+            "C": "interest in physicists and their study of particles.",
+            "D": "doubt about the accuracy of information gathered about particles."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the imagery conveys a positive tone (“perceive their wild dancing,” “combusting to the music they make”), not frustration. B. Incorrect — imagery of energetic movement describes the particles, not danger. C. CORRECT — phrases like “only down there” (line 40), “physicists jot down . . . whatever seems most real” (lines 41-42), and “they let us perceive” (line 43) convey that physicists have a rare role studying the mysteries of the universe; the speaker appreciates and is interested in their work. D. Incorrect — darkness refers to the mysteries of subatomic particles, not secretive physicist work processes."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Letter from Brooklyn",
+      "author": "Jacob Scheier",
+      "citation": "“Letter from Brooklyn” from LETTER FROM BROOKLYN: POEMS by Jacob Scheier, published by ECW Press. Copyright © 2013 by Jacob Scheier. All rights reserved.",
+      "lines": [
+        {
+          "num": null,
+          "text": "I can already see how this will end."
+        },
+        {
+          "num": null,
+          "text": "How I will grow tired of the bridge's"
+        },
+        {
+          "num": null,
+          "text": "steep incline, and the absent-minded tourists"
+        },
+        {
+          "num": null,
+          "text": "wandering into the bicycle path."
+        },
+        {
+          "num": 5,
+          "text": "The weather will turn cold."
+        },
+        {
+          "num": null,
+          "text": "But that all happens later."
+        },
+        {
+          "num": null,
+          "text": "For now it is the early edge of fall,"
+        },
+        {
+          "num": null,
+          "text": "leaves green still while the air narrows,"
+        },
+        {
+          "num": null,
+          "text": "is slightly crisp, almost grazing"
+        },
+        {
+          "num": 10,
+          "text": "the hair of my arm like a passing stranger,"
+        },
+        {
+          "num": null,
+          "text": "as though the air has been forced into intimacy"
+        },
+        {
+          "num": null,
+          "text": "by the brevity of daylight."
+        },
+        {
+          "num": null,
+          "text": "But when it starts darkening at 4,"
+        },
+        {
+          "num": null,
+          "text": "this closeness, I know, will be a felt distance,"
+        },
+        {
+          "num": 15,
+          "text": "like someone drawing your attention"
+        },
+        {
+          "num": null,
+          "text": "to their lack of intimacy."
+        },
+        {
+          "num": null,
+          "text": "These days I am still walking at a cathedral pace"
+        },
+        {
+          "num": null,
+          "text": "beneath the branches bending across avenues,"
+        },
+        {
+          "num": null,
+          "text": "brownstones like rows of lived-in chapels,"
+        },
+        {
+          "num": 20,
+          "text": "like a pop-up picture book I could have had as a child,"
+        },
+        {
+          "num": null,
+          "text": "but didn't. How Brooklyn makes me nostalgic"
+        },
+        {
+          "num": null,
+          "text": "for the moment I am walking inside of."
+        },
+        {
+          "num": null,
+          "text": "These late afternoons filled"
+        },
+        {
+          "num": null,
+          "text": "with a loneliness that makes me feel"
+        },
+        {
+          "num": 25,
+          "text": "distinctly myself, and an awareness"
+        },
+        {
+          "num": null,
+          "text": "of how rare that is."
+        }
+      ],
+      "questions": [
+        {
+          "id": "BR21",
+          "q_number": 21,
+          "question_type": "mc",
+          "question": "How does the structure of the poem affect the poem's meaning?",
+          "options": {
+            "A": "The lack of a rhyming pattern suggests that the beauty of each passing day is unique.",
+            "B": "The lengths of the sentences represent the complexity of the thoughts being represented.",
+            "C": "The use of complete sentences implies the speaker's appreciation for the clear beginning and ending of each season.",
+            "D": "The single long stanza reflects the continuous flow of the speaker's thoughts."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the poem's lack of rhyme is not related to the uniqueness of passing days; the poem is primarily concerned with broad seasonal shifts. B. Incorrect — the poem includes both long sentences (lines 7-12) and short sentences (lines 5-6), but sentence lengths aren't connected to the complexity of ideas expressed. C. Incorrect — a complete sentence presents the beginning and end of a single thought, but the poem isn't primarily concerned with the speaker's thoughts on the clear beginning/ending of each season. D. CORRECT — unlike poems broken into stanzas reflecting unified groups of thoughts, this poem is one long stanza, emphasizing the uninterrupted flow of the speaker's thoughts from time to time and experience to experience without a clear break between any specific thoughts."
+          }
+        },
+        {
+          "id": "BR22",
+          "q_number": 22,
+          "question_type": "mc",
+          "question": "Which lines support the idea that a change in the weather will lessen the speaker's appreciation for the city?",
+          "options": {
+            "A": "“as though the air has been forced into intimacy / by the brevity of daylight.” (lines 11-12)",
+            "B": "“But when it starts darkening at 4, / this closeness, I know, will be a felt distance,” (lines 13-14)",
+            "C": "“like someone drawing your attention / to their lack of intimacy.” (lines 15-16)",
+            "D": "“These days I am still walking . . . / beneath the branches bending across avenues,” (lines 17-18)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — these lines focus on the positive way the air feels during “the early edge of fall” (line 7); they suggest the speaker appreciates this experience currently, while being aware the feeling might not last. B. CORRECT — these lines describe the shift in the “closeness” of the air as the weather changes and “it starts darkening at 4.” The speaker clearly indicates that the positive emotions surrounding this closeness, with “leaves green still” and the air “slightly crisp” (lines 8-9), will soon be “a felt distance,” suggesting the turn in weather will make the city less appealing. C. Incorrect — although these lines compare the darkening weather to a person revealing a “lack of intimacy,” that specific comparison doesn't focus on a diminishing appreciation for the city. D. Incorrect — these lines describe the “cathedral pace” (line 17) at which the speaker walks, emphasizing a meditative or thoughtful experience; such a description suggests the speaker still appreciates the city, not that the speaker's appreciation will lessen."
+          }
+        },
+        {
+          "id": "BR23",
+          "q_number": 23,
+          "question_type": "mc",
+          "question": "Read lines 5-6 from the poem. “The weather will turn cold. / But that all happens later.” How do the lines develop a central theme of the poem?",
+          "options": {
+            "A": "They highlight a contrast between the different seasons.",
+            "B": "They show the sequence of the changes that are expected to occur.",
+            "C": "They warn about a problem that requires thoughtful preparation.",
+            "D": "They emphasize the importance of valuing the present."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the poem describes impressions of one day in one season (“For now it is the early edge of fall, / leaves green still while the air narrows, / is slightly crisp” [lines 7-9]); despite the reference in line 5 to the eventual arrival of cold weather, lines 5-6 primarily emphasize the speaker's wish to stay focused on the present moment. A contrast between seasons is not a central theme of the poem. B. Incorrect — “The weather will turn cold” (line 5) refers to one change that is expected to occur, but lines 5-6 do not show a sequence of changes; the line that follows returns to the present: “For now . . .” (line 7). C. Incorrect — although the statement that the weather “will turn cold” in line 5 could be construed as a warning, there is no support in lines 5-6 for the idea that some problems require thoughtful preparation; the speaker is reflecting on a fleeting experience, not preparing to solve a problem. D. CORRECT — immediately after the line “The weather will turn cold” (line 5), the speaker returns to the current moment: “But that all happens later” (line 6). These lines help develop a central theme by emphasizing the speaker's choice to value and focus on the present moment. The “But” at the start of line 6 shows the speaker pulling back from the future and refocusing on the present, thus emphasizing the importance of savoring “the moment I am walking inside of” (line 22)."
+          }
+        },
+        {
+          "id": "BR24",
+          "q_number": 24,
+          "question_type": "mc",
+          "question": "Read lines 7-9 from the poem. “For now it is the early edge of fall, / leaves green still while the air narrows, / is slightly crisp,” The word choice in the lines helps convey the speaker's belief that",
+          "options": {
+            "A": "the beauty of the current season should still be appreciated.",
+            "B": "the changes in the weather signify the end of the most pleasant season.",
+            "C": "the transition from one season to another happens swiftly and without warning.",
+            "D": "the change in the weather is so subtle that people rarely observe or feel it."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT — words and phrases in these lines, such as “leaves green still” and “slightly crisp,” have a positive connotation, indicating the speaker believes in appreciating this season while it still lasts. B. Incorrect — although imagery such as “leaves green still” and “slightly crisp” in these lines suggests the speaker enjoys the season, the speaker never indicates the present season is the most pleasant of all seasons. C. Incorrect — the phrases “the early edge of fall” and “the air narrows” in these lines imply the season is just beginning to change, but there is no indication from these phrases that the changes will be swift and without warning. In fact, the narrowing of the air could be a warning of a greater, more gradual change in weather. D. Incorrect — the speaker experiences the change in weather as subtle (“the air narrows, / is slightly crisp”), but the speaker does not refer to the viewpoints of others. The entire viewpoint in the poem is personal and introspective, as represented by the use of the pronoun “I” throughout."
+          }
+        },
+        {
+          "id": "BR25",
+          "q_number": 25,
+          "question_type": "mc",
+          "question": "Which idea does the comparison of the brownstone houses to “a pop-up picture book I could have had as a child, / but didn't” in lines 20-21 convey?",
+          "options": {
+            "A": "It reveals that some people are still influenced by powerful images from childhood.",
+            "B": "It indicates that the neighborhood the speaker is walking through is charming and appealing.",
+            "C": "It suggests that the speaker has wanted to live in the neighborhood since childhood.",
+            "D": "It suggests that people often experience lingering regret from their past."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — while the lines explain that the neighborhood reminds the speaker of images from childhood pop-up books, those images are not described as very powerful or influential. B. CORRECT — pop-up picture books are likely to delight a child with their unique, often beautiful representations of buildings that pop up out of the page. The comparison in these lines helps explain how the speaker views these brownstones with a childlike wonder and appreciation. C. Incorrect — though in these lines the speaker compares this neighborhood to scenes in children's pop-up picture books, there is no clear evidence the speaker wants to live there, only that the speaker appreciates its appeal. D. Incorrect — the lines state that the speaker did not have a “pop-up picture book” of the neighborhood's brownstones as a child, but not in a way that emphasizes regret. Rather, the speaker compares the neighborhood to images from pop-up books in general to suggest that the neighborhood looks whimsical/delightful."
+          }
+        },
+        {
+          "id": "BR26",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "Read these lines from the poem. “I can already see how this will end.” (line 1) “How Brooklyn makes me nostalgic / for the moment I am walking inside of.” (lines 21-22) The lines develop a central idea of the poem by",
+          "options": {
+            "A": "suggesting the speaker's desire to find a way to break free from the repetitive pattern of daily life.",
+            "B": "revealing the speaker's feelings of disappointment over the predictable change in season.",
+            "C": "emphasizing the speaker's awareness of the future significance of the present moment in the setting.",
+            "D": "showing the speaker's anticipation of specific emotions caused by an intimate knowledge of the setting."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect — these lines suggest life is governed by repetitive patterns, such as the change of seasons, but do not suggest the speaker wishes to break free from these natural cycles; a desire for freedom is not a central idea of the poem. B. Incorrect — although the speaker acknowledges that colder weather will inevitably bring disappointment, the speaker does not suggest the predictability of changing weather is itself disappointing. Rather, the speaker recognizes the value of enjoying the present moment. C. CORRECT — these lines connect the present warmer weather with the future colder weather and develop the central idea that the present “moment I am walking inside of” must be embraced because the speaker will be “nostalgic” for it in the future. D. Incorrect — in these lines, the speaker is aware that specific emotions will occur in the future, during cold weather, but this awareness is only part of the more complex central idea of the poem, which is that current emotions and feelings must be recognized, experienced, and appreciated."
+          }
+        },
+        {
+          "id": "BR27",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "The speaker's thoughts throughout the poem develop a theme by showing that",
+          "options": {
+            "A": "although people may hold expectations for the future, some people long for present experiences while they are still happening.",
+            "B": "though people come from different places, most people feel drawn to the special charm a city holds.",
+            "C": "although people can make decisions about their life, there will always be some things beyond their control.",
+            "D": "though general expectations exist, people have no way of knowing what a given day will actually bring."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT — the speaker's thoughts develop some tension because seasonal change will inevitably come: “The weather will turn cold” (line 5). However, the speaker is still able to enjoy the present experience because “that all happens later” (line 6). In lines 21-22, the speaker begins to describe experiences that create a longing for the present, even while it is still happening (“How Brooklyn makes me nostalgic / for the moment I am walking inside of”), developing a theme of the poem. B. Incorrect — the speaker's thoughts reveal an appreciation for the city, but this appreciation is highly personal and individual; these thoughts do not indicate that most people will feel drawn to cities. C. Incorrect — some things, such as seasons, are beyond human control, as the speaker concedes: “I can already see how this will end” (line 1). However, the theme of the poem is not that certain things are inevitable, but that one can live in the present moment and enjoy that experience before change occurs. D. Incorrect — the speaker's thoughts are not showing that people are surprised by what the days bring; the thoughts of the speaker suggest that people experience many seasons in Brooklyn and have an opportunity to enjoy each one before it changes."
+          }
+        }
+      ]
+    },
     {
       "passage_number": 7,
       "total_passages": 7,
@@ -14,34 +660,94 @@
       "title": "The End of an Era",
       "sentence_paragraphs": [
         [
-          { "num": 1, "text": "In 2004, the National Aeronautics and Space Administration (NASA) landed a rover, or robotic vehicle, named Opportunity on the surface of Mars." },
-          { "num": 2, "text": "The rover’s mission was to search for evidence of water and life on the planet." },
-          { "num": 3, "text": "The rover was designed to gather data on Mars for about 90 days, but Opportunity’s assignment did not come to an end until nearly 15 years later in 2019." }
+          {
+            "num": 1,
+            "text": "In 2004, the National Aeronautics and Space Administration (NASA) landed a rover, or robotic vehicle, named Opportunity on the surface of Mars."
+          },
+          {
+            "num": 2,
+            "text": "The rover’s mission was to search for evidence of water and life on the planet."
+          },
+          {
+            "num": 3,
+            "text": "The rover was designed to gather data on Mars for about 90 days, but Opportunity’s assignment did not come to an end until nearly 15 years later in 2019."
+          }
         ],
         [
-          { "num": 4, "text": "During the rover’s mission, a high-resolution camera on the rover’s robotic arm took magnified photographs of the surface of Mars." },
-          { "num": 5, "text": "The photographs revealed small round rocks scattered across the surface of the planet." },
-          { "num": 6, "text": "The scientists nicknamed these rocks “blueberries” based on the rocks’ resemblance to the fruit." },
-          { "num": 7, "text": "These rocks were important because their spherical shape suggested that liquid water may have flowed over them for a substantial amount of time." }
+          {
+            "num": 4,
+            "text": "During the rover’s mission, a high-resolution camera on the rover’s robotic arm took magnified photographs of the surface of Mars."
+          },
+          {
+            "num": 5,
+            "text": "The photographs revealed small round rocks scattered across the surface of the planet."
+          },
+          {
+            "num": 6,
+            "text": "The scientists nicknamed these rocks “blueberries” based on the rocks’ resemblance to the fruit."
+          },
+          {
+            "num": 7,
+            "text": "These rocks were important because their spherical shape suggested that liquid water may have flowed over them for a substantial amount of time."
+          }
         ],
         [
-          { "num": 8, "text": "Opportunity continued to provide valuable data about craters and other surface features." },
-          { "num": 9, "text": "Throughout the mission, the rover traveled a total of 28.06 miles across Mars’ surface." },
-          { "num": 10, "text": "When Opportunity had traveled nearly the length of a marathon, scientists celebrated the accomplishment by naming the valley that the rover was in Marathon Valley." },
-          { "num": 11, "text": "However, in 2018, a dust storm spread all over the planet, putting the rover’s progress on hold." }
+          {
+            "num": 8,
+            "text": "Opportunity continued to provide valuable data about craters and other surface features."
+          },
+          {
+            "num": 9,
+            "text": "Throughout the mission, the rover traveled a total of 28.06 miles across Mars’ surface."
+          },
+          {
+            "num": 10,
+            "text": "When Opportunity had traveled nearly the length of a marathon, scientists celebrated the accomplishment by naming the valley that the rover was in Marathon Valley."
+          },
+          {
+            "num": 11,
+            "text": "However, in 2018, a dust storm spread all over the planet, putting the rover’s progress on hold."
+          }
         ],
         [
-          { "num": 12, "text": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover." },
-          { "num": 13, "text": "These prevented it from charging its batteries." },
-          { "num": 14, "text": "Scientists then had to rely on the passing winds and dust devils to clean off the solar panels." },
-          { "num": 15, "text": "After the massive 2018 dust storm subsided, scientists expected to be able to reestablish communication with Opportunity." },
-          { "num": 16, "text": "They made repeated attempts but to no avail." },
-          { "num": 17, "text": "In 2019, NASA finally declared Opportunity’s mission complete." }
+          {
+            "num": 12,
+            "text": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover."
+          },
+          {
+            "num": 13,
+            "text": "These prevented it from charging its batteries."
+          },
+          {
+            "num": 14,
+            "text": "Scientists then had to rely on the passing winds and dust devils to clean off the solar panels."
+          },
+          {
+            "num": 15,
+            "text": "After the massive 2018 dust storm subsided, scientists expected to be able to reestablish communication with Opportunity."
+          },
+          {
+            "num": 16,
+            "text": "They made repeated attempts but to no avail."
+          },
+          {
+            "num": 17,
+            "text": "In 2019, NASA finally declared Opportunity’s mission complete."
+          }
         ],
         [
-          { "num": 18, "text": "Opportunity was an important asset in scientists’ study of Mars; it returned valuable data about our neighbor planet and survived powerful dust storms." },
-          { "num": 19, "text": "NASA described the mission of Opportunity as “one of the most successful and enduring feats of interplanetary exploration.”" },
-          { "num": 20, "text": "Even though this rover’s journey ended, other rovers still roam the surface of Mars." }
+          {
+            "num": 18,
+            "text": "Opportunity was an important asset in scientists’ study of Mars; it returned valuable data about our neighbor planet and survived powerful dust storms."
+          },
+          {
+            "num": 19,
+            "text": "NASA described the mission of Opportunity as “one of the most successful and enduring feats of interplanetary exploration.”"
+          },
+          {
+            "num": 20,
+            "text": "Even though this rover’s journey ended, other rovers still roam the surface of Mars."
+          }
         ]
       ],
       "questions": [
