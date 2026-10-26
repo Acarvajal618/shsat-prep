@@ -1,8 +1,8 @@
 {
   "_schema": {
     "description": "Kaplan 2025 'SHSAT Practice Tests and Explanations' book, Practice Test 3, Part 2 Math, questions 58-67 (grid-in 58-62, multiple-choice 63-67). Questions/options transcribed verbatim from the book. Explanations are NOT transcribed as text per the user's instruction — each question's 'Solution' button shows a cropped photo of the book's 'Getting to the Answer' explanation instead.",
-    "source": "Kaplan SHSAT Practice Tests and Explanations, Practice Test 3, pages 494-495 (questions) and 516-519 (answers/explanations)",
-    "status": "Questions 58-67 transcribed so far (of 114 total: 57 ELA + 57 math). More to come in later batches.",
+    "source": "Kaplan SHSAT Practice Tests and Explanations, Practice Test 3, pages 468-495 (ELA + math questions) and 516-525 (math answers/explanations)",
+    "status": "Questions 58-112 transcribed (of 114 total: 57 ELA + 57 math) — that's the complete math section except Q113-114. Q113-114's question text is known but their answer-key pages were not among the 24 photos uploaded (answer key photos run out at Q112, page 525); ELA (Q1-57) is entirely unstarted — question-page photos for the full Revising/Editing + Reading Comprehension sections exist in the upload (pages 468-493ish) but haven't been transcribed yet.",
     "option_letters": "The book alternates A-D and E-H per question (standard test-booklet convention to avoid bubble-sheet confusion) — preserved exactly as printed rather than normalized."
   },
   "standalone_items": [
@@ -145,6 +145,778 @@
       "correct": "D",
       "solution": {
         "exhibit_image": "kaplan_2025_3/solutions/Q67.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q68",
+      "q_number": 68,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A pizza place manager recorded the number of pizza toppings that customers ordered when they bought a large pizza. The table above shows the percent distribution for the 120 large pizzas that were sold at the pizza place yesterday. For these 120 large pizzas, how many customers ordered at least 3 toppings?",
+      "options": {
+        "E": "18",
+        "F": "20",
+        "G": "24",
+        "H": "96"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q68.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">PIZZA TOPPINGS ORDERED ON</text><text x=\"160.0\" y=\"32\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">LARGE PIZZAS</text><rect x=\"0.0\" y=\"52\" width=\"320\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"85.0\" y=\"70.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number of Toppings Ordered</text><text x=\"245.0\" y=\"70.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Percent of Customers</text><line x1=\"0.0\" y1=\"52\" x2=\"0.0\" y2=\"192\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"52\" x2=\"170.0\" y2=\"192\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"52\" x2=\"320.0\" y2=\"192\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"80\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"85.0\" y=\"98.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1</text><text x=\"245.0\" y=\"98.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">25%</text><rect x=\"0.0\" y=\"108\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"85.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">2</text><text x=\"245.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">55%</text><rect x=\"0.0\" y=\"136\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"85.0\" y=\"154.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">3</text><text x=\"245.0\" y=\"154.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">15%</text><rect x=\"0.0\" y=\"164\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"85.0\" y=\"182.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">4 or more</text><text x=\"245.0\" y=\"182.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">5%</text></svg>"
+    },
+    {
+      "id": "KM3_Q69",
+      "q_number": 69,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In the parallelogram above, what is the value of \\(x\\)?",
+      "options": {
+        "A": "11",
+        "B": "33",
+        "C": "41",
+        "D": "123"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q69.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<polygon points=\"110,50 300,50 250,170 60,170\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/>\n<text x=\"95\" y=\"42\" font-size=\"15\" text-anchor=\"middle\">F</text>\n<text x=\"312\" y=\"42\" font-size=\"15\" text-anchor=\"middle\">G</text>\n<text x=\"265\" y=\"188\" font-size=\"15\" text-anchor=\"middle\">H</text>\n<text x=\"45\" y=\"188\" font-size=\"15\" text-anchor=\"middle\">E</text>\n<text x=\"138\" y=\"76\" font-size=\"13\" text-anchor=\"middle\">3x&#176;</text>\n<text x=\"90\" y=\"160\" font-size=\"13\" text-anchor=\"middle\">57&#176;</text>\n</svg>"
+    },
+    {
+      "id": "KM3_Q70",
+      "q_number": 70,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Which of the following values of \\(s\\) would yield the smallest value for \\(4+\\dfrac{1}{s}\\)?",
+      "options": {
+        "E": "\\(\\dfrac{1}{4}\\)",
+        "F": "\\(\\dfrac{1}{2}\\)",
+        "G": "1",
+        "H": "4"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q70.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q71",
+      "q_number": 71,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "\\[\\dfrac{49}{9}=\\dfrac{7}{x}\\]\nWhat value of \\(x\\) makes the equation above true?",
+      "options": {
+        "A": "\\(\\dfrac{7}{9}\\)",
+        "B": "\\(1\\dfrac{2}{7}\\)",
+        "C": "5",
+        "D": "\\(5\\dfrac{1}{9}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q71.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q72",
+      "q_number": 72,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(4x+2=26\\), then \\(4x+8=\\)",
+      "options": {
+        "E": "32",
+        "F": "34",
+        "G": "36",
+        "H": "38"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q72.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q73",
+      "q_number": 73,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If a certain train fare costs $5.00 for the first 10 miles of service, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile, what would the train fare be to travel a total distance of 100 miles?",
+      "options": {
+        "A": "$15.00",
+        "B": "$17.50",
+        "C": "$20.00",
+        "D": "$25.00"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q73.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q74",
+      "q_number": 74,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Mrs. Whitby has a pencil box containing 7 blue pencils, 10 green pencils, and 8 orange pencils. If she removes one pencil at random, what is the probability that it will **not** be green?",
+      "options": {
+        "E": "\\(\\dfrac{2}{3}\\)",
+        "F": "\\(\\dfrac{3}{5}\\)",
+        "G": "\\(\\dfrac{1}{2}\\)",
+        "H": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q74.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q75",
+      "q_number": 75,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In a scale drawing of a cruise ship, 0.2 inches represents 200 feet. How many inches represent 10 feet?",
+      "options": {
+        "A": "0.001",
+        "B": "0.002",
+        "C": "0.01",
+        "D": "0.02"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q75.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q76",
+      "q_number": 76,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Tariq has $10 and wants to buy 21 oranges at $0.30 each and 12 apples at $0.50 each. If there is no sales tax, how much more money does he need?",
+      "options": {
+        "E": "$2.00",
+        "F": "$2.30",
+        "G": "$2.60",
+        "H": "$12.00"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q76.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q77",
+      "q_number": 77,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If Thomas went shopping with $15, bought two items that cost the same amount, and ended up with a debt of $5, how much did each of the two items cost?",
+      "options": {
+        "A": "$5",
+        "B": "$10",
+        "C": "$15",
+        "D": "$20"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q77.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q78",
+      "q_number": 78,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(2x+2x+14=2x+2x+2x+6\\), then what is the value of \\(x\\)?",
+      "options": {
+        "E": "3",
+        "F": "4",
+        "G": "5",
+        "H": "7"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q78.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q79",
+      "q_number": 79,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Darias bought 5 school binders that cost $8.00 per binder. If a back-to-school discount of 40% was applied to his purchase, and then a 6% sales tax was added, what was the total cost of the binders?",
+      "options": {
+        "A": "$17.12",
+        "B": "$25.44",
+        "C": "$26.40",
+        "D": "$30.40"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q79.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q80",
+      "q_number": 80,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A town's little league program has 108 baseballs, 54 bats, and 72 cases of sunflower seeds left over from last year. The items will be distributed to each team in the league. If each team receives an equal number of each item and there are no items remaining, what is the greatest possible number of teams in the little league program?",
+      "options": {
+        "E": "6",
+        "F": "9",
+        "G": "12",
+        "H": "18"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q80.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q81",
+      "q_number": 81,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In rectangle WXYZ in the figure above, the length of WZ is 6 units and triangle TYZ has an area of 48 square units. Point T is the midpoint of WX. What is the length of WT?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "16"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q81.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<polygon points=\"60,40 300,40 300,160 60,160\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"180.0\" y1=\"40\" x2=\"60\" y2=\"160\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<line x1=\"180.0\" y1=\"40\" x2=\"300\" y2=\"160\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<circle cx=\"180.0\" cy=\"40\" r=\"2.5\" fill=\"#222\"/>\n<text x=\"45\" y=\"34\" font-size=\"15\" text-anchor=\"middle\">W</text>\n<text x=\"180.0\" y=\"30\" font-size=\"15\" text-anchor=\"middle\">T</text>\n<text x=\"315\" y=\"34\" font-size=\"15\" text-anchor=\"middle\">X</text>\n<text x=\"45\" y=\"178\" font-size=\"15\" text-anchor=\"middle\">Z</text>\n<text x=\"315\" y=\"178\" font-size=\"15\" text-anchor=\"middle\">Y</text>\n</svg>"
+    },
+    {
+      "id": "KM3_Q82",
+      "q_number": 82,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Two boxes can hold the same amount of sand. Box 1 is \\(\\dfrac{1}{4}\\) filled, and Box 2 is \\(\\dfrac{2}{3}\\) filled. If the sand in Box 2 is poured into Box 1, what fraction of Box 1 is still **not** filled?",
+      "options": {
+        "E": "\\(\\dfrac{1}{12}\\)",
+        "F": "\\(\\dfrac{3}{7}\\)",
+        "G": "\\(\\dfrac{4}{7}\\)",
+        "H": "\\(\\dfrac{11}{12}\\)"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q82.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q83",
+      "q_number": 83,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In a room of 33 students, 12 are taking geography, 14 are taking history, and 5 are taking both geography and history. How many of these students are not taking either geography or history?",
+      "options": {
+        "A": "7",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q83.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q84",
+      "q_number": 84,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The table above shows the number of each color of T-shirt sold at a particular store last year. If 240 T-shirts were sold in June, and the store only sells white, red, or blue T-shirts, what is the best estimate (based on last year's sales) of the number of blue T-shirts sold in June?",
+      "options": {
+        "E": "60",
+        "F": "80",
+        "G": "92",
+        "H": "108"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q84.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">LAST YEAR'S T-SHIRT SALES</text><rect x=\"20.0\" y=\"38\" width=\"280\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Color</text><text x=\"230.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number Sold</text><line x1=\"20.0\" y1=\"38\" x2=\"20.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"38\" x2=\"160.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"38\" x2=\"300.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"20.0\" y=\"66\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">White</text><text x=\"230.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1,650</text><rect x=\"20.0\" y=\"94\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Red</text><text x=\"230.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">600</text><rect x=\"20.0\" y=\"122\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Blue</text><text x=\"230.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">750</text><rect x=\"20.0\" y=\"150\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Total</text><text x=\"230.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">3,000</text></svg>"
+    },
+    {
+      "id": "KM3_Q85",
+      "q_number": 85,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "How can \\(\\dfrac{1}{3y}-\\dfrac{1}{6y}\\) be rewritten as a single fraction? (Assume \\(y \\ne 0\\).)",
+      "options": {
+        "A": "\\(-\\dfrac{1}{3y}\\)",
+        "B": "\\(-\\dfrac{1}{6y}\\)",
+        "C": "\\(\\dfrac{1}{3y}\\)",
+        "D": "\\(\\dfrac{1}{6y}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q85.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q86",
+      "q_number": 86,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A recipe calls for \\(\\dfrac{1}{6}\\) teaspoon of oregano and \\(1\\dfrac{1}{4}\\) teaspoons of pepper. What is the ratio of oregano to pepper in this recipe?",
+      "options": {
+        "E": "1:12",
+        "F": "2:15",
+        "G": "1:3",
+        "H": "2:3"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q86.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q87",
+      "q_number": 87,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "There are a total of 256 people at a party. If half of the people present leave every 5 minutes, how many people will still remain after 20 minutes?",
+      "options": {
+        "A": "80",
+        "B": "64",
+        "C": "32",
+        "D": "16"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q87.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 460 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<polygon points=\"250,100 150,250 370,230\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"250\" y1=\"100\" x2=\"300\" y2=\"25\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<line x1=\"370\" y1=\"230\" x2=\"430\" y2=\"295\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<text x=\"272\" y=\"40\" font-size=\"14\" text-anchor=\"middle\">54&#176;</text>\n<text x=\"420\" y=\"290\" font-size=\"14\" text-anchor=\"middle\">98&#176;</text>\n<text x=\"142\" y=\"236\" font-size=\"14\" text-anchor=\"middle\">x&#176;</text>\n</svg>"
+    },
+    {
+      "id": "KM3_Q88",
+      "q_number": 88,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In the figure above, what is the value of \\(x\\)?",
+      "options": {
+        "E": "24",
+        "F": "28",
+        "G": "36",
+        "H": "44"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q88.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q89",
+      "q_number": 89,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(x-\\dfrac{7}{10}=y\\), and \\(y=2\\), what is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{3}{10}\\)",
+        "B": "\\(\\dfrac{9}{10}\\)",
+        "C": "\\(\\dfrac{13}{10}\\)",
+        "D": "\\(\\dfrac{27}{10}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q89.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q90",
+      "q_number": 90,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "One box contains 3 balls, one of which is red. A second box contains 4 balls, one of which is red. If Pilar draws one ball at random from each box, what is the probability that both balls are red?",
+      "options": {
+        "E": "\\(\\dfrac{1}{14}\\)",
+        "F": "\\(\\dfrac{1}{12}\\)",
+        "G": "\\(\\dfrac{1}{7}\\)",
+        "H": "\\(\\dfrac{2}{7}\\)"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q90.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q91",
+      "q_number": 91,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(a\\) is a positive number, and the product of \\(b\\) and \\(c\\) is positive, which of the following **must** be true?",
+      "options": {
+        "A": "\\(\\dfrac{a}{c}\\) is negative",
+        "B": "\\(\\dfrac{a}{c}\\) is positive",
+        "C": "\\(\\dfrac{b}{c}\\) is negative",
+        "D": "\\(\\dfrac{b}{c}\\) is positive"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q91.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q92",
+      "q_number": 92,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The spare change on a dresser is composed of pennies, nickels, and dimes. If the ratio of pennies to nickels is 2:3 and the ratio of pennies to dimes is 3:4, what is the ratio of nickels to dimes?",
+      "options": {
+        "E": "9:8",
+        "F": "5:7",
+        "G": "4:5",
+        "H": "3:4"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q92.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q93",
+      "q_number": 93,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The table above shows the number of times that different types of park passes were purchased at a theme park. Based on this information, what is the probability of a customer purchasing a 3-Day, 3-Parks pass?",
+      "options": {
+        "A": "22%",
+        "B": "37%",
+        "C": "50%",
+        "D": "66%"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q93.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 320 218\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">PARK PASS CHOICES</text><rect x=\"0.0\" y=\"38\" width=\"320\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Pass Type</text><text x=\"240.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number Purchased</text><line x1=\"0.0\" y1=\"38\" x2=\"0.0\" y2=\"206\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"38\" x2=\"160.0\" y2=\"206\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"38\" x2=\"320.0\" y2=\"206\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"66\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1-Day, 1-Park</text><text x=\"240.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">84</text><rect x=\"0.0\" y=\"94\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1-Day, 2-Parks</text><text x=\"240.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">56</text><rect x=\"0.0\" y=\"122\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1-Day, 3-Parks</text><text x=\"240.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">45</text><rect x=\"0.0\" y=\"150\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">2-Day, 2-Parks</text><text x=\"240.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">49</text><rect x=\"0.0\" y=\"178\" width=\"320\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"80.0\" y=\"196.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">3-Day, 3-Parks</text><text x=\"240.0\" y=\"196.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">66</text></svg>"
+    },
+    {
+      "id": "KM3_Q94",
+      "q_number": 94,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If an integer is randomly chosen from the first 50 positive integers, what is the probability that the integer selected has at least one digit that is a 3?",
+      "options": {
+        "E": "\\(\\dfrac{7}{25}\\)",
+        "F": "\\(\\dfrac{3}{10}\\)",
+        "G": "\\(\\dfrac{8}{25}\\)",
+        "H": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q94.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q95",
+      "q_number": 95,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(-1 < y < 0\\), which of the following has the greatest value?",
+      "options": {
+        "A": "\\(y^2\\)",
+        "B": "\\(1-y\\)",
+        "C": "\\(1+y\\)",
+        "D": "\\(2y\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q95.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q96",
+      "q_number": 96,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "An automobile dealership has only cars, trucks, SUVs, and vans on its lot, of which 179 are vans. The total vehicle-to-van ratio for the entire lot is 15:1. What is the total number of cars, trucks, and SUVs on the lot?",
+      "options": {
+        "E": "2,415",
+        "F": "2,506",
+        "G": "2,685",
+        "H": "2,864"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q96.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q97",
+      "q_number": 97,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "On Friday, Marvin sold 4 suits that had a mean sale price of $125. On Saturday, he sold 6 suits that had a mean sale price of $140. What was the mean sale price, to the nearest dollar, for all 10 of the suits he sold on Friday and Saturday?",
+      "options": {
+        "A": "$130",
+        "B": "$132",
+        "C": "$133",
+        "D": "$134"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q97.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q98",
+      "q_number": 98,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Angle K and angle L are supplementary. If the measure of angle L is one-fourth the measure of angle K, how many degrees greater is angle K than angle L?",
+      "options": {
+        "E": "36°",
+        "F": "54°",
+        "G": "108°",
+        "H": "144°"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q98.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q99",
+      "q_number": 99,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Andre buys two cedar trees to plant in his back yard. One tree is 4 feet, 9 inches tall and the other is 5 feet, 6.5 inches tall. What is the difference in height, in inches, between the two trees?",
+      "options": {
+        "A": "8.5",
+        "B": "9.5",
+        "C": "10.5",
+        "D": "11.5"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q99.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q100",
+      "q_number": 100,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(\\dfrac{1}{y}=\\dfrac{x}{3}\\), and \\(y=\\dfrac{1}{5}\\), what is the value of \\(x\\)?",
+      "options": {
+        "E": "\\(\\dfrac{1}{15}\\)",
+        "F": "\\(\\dfrac{3}{5}\\)",
+        "G": "\\(\\dfrac{5}{3}\\)",
+        "H": "15"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q100.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q101",
+      "q_number": 101,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The average (arithmetic mean) of 16 numbers is 3. The average of these 16 numbers and a seventeenth number is 4. What is the seventeenth number?",
+      "options": {
+        "A": "12",
+        "B": "17",
+        "C": "18",
+        "D": "20"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q101.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q102",
+      "q_number": 102,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Given that \\(20-(y-x)=30-(x-y)\\), and \\(x=4\\), what is the value of \\(y\\)?",
+      "options": {
+        "E": "−9",
+        "F": "−1",
+        "G": "1",
+        "H": "Cannot be determined from the information given."
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q102.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q103",
+      "q_number": 103,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "To get ready for a craft show, Eric and Agnes are painting magnets. Eric can paint 4 magnets in 10 minutes, working at a constant rate. Agnes can paint 6 magnets in 15 minutes, working at her own constant rate. What is the total number of magnets the two of them can paint in one hour?",
+      "options": {
+        "A": "10",
+        "B": "30",
+        "C": "42",
+        "D": "48"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q103.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q104",
+      "q_number": 104,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Martin draws a rectangle that is 4.5 inches by 6 inches to represent his deck. If he used a scale of 1:80, what is the perimeter of his actual deck in feet?",
+      "options": {
+        "E": "70 feet",
+        "F": "120 feet",
+        "G": "140 feet",
+        "H": "360 feet"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q104.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q105",
+      "q_number": 105,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "\\[\\{2,3,4,5,6\\}\\]\nAgnes made a list of all possible products of two **different** numbers from the set above. What is the ratio of odd products to even products?",
+      "options": {
+        "A": "1:9",
+        "B": "1:4",
+        "C": "1:2",
+        "D": "2:3"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q105.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q106",
+      "q_number": 106,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In the figure above, triangle ACD has an area of 24 square units, and the lengths of AB and BC are \\(x\\) and \\(x+2\\), respectively. If the length of BD is 6 units, what is the value of \\(x\\)?",
+      "options": {
+        "E": "1",
+        "F": "2",
+        "G": "3",
+        "H": "4"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q106.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 480 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<polygon points=\"60,220 440,220 220,80\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"220\" y1=\"220\" x2=\"220\" y2=\"80\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<rect x=\"212\" y=\"212\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"220\" y=\"70\" font-size=\"15\" text-anchor=\"middle\">D</text>\n<text x=\"45\" y=\"226\" font-size=\"15\" text-anchor=\"middle\">A</text>\n<text x=\"220\" y=\"242\" font-size=\"15\" text-anchor=\"middle\">B</text>\n<text x=\"455\" y=\"226\" font-size=\"15\" text-anchor=\"middle\">C</text>\n<text x=\"234.0\" y=\"150.0\" font-size=\"13\" text-anchor=\"middle\">6</text>\n<text x=\"140.0\" y=\"242\" font-size=\"13\" text-anchor=\"middle\">x</text>\n<text x=\"330.0\" y=\"242\" font-size=\"13\" text-anchor=\"middle\">x + 2</text>\n</svg>"
+    },
+    {
+      "id": "KM3_Q107",
+      "q_number": 107,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "For how many positive integers \\(x\\) is \\(\\dfrac{130}{x}\\) an integer?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "5"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q107.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q108",
+      "q_number": 108,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(x=3y(2-|-4|)+y(3-|-2|)\\), what is the value of \\(y\\) in terms of \\(x\\)?",
+      "options": {
+        "E": "\\(-\\dfrac{x}{5}\\)",
+        "F": "\\(-5x\\)",
+        "G": "\\(-x\\)",
+        "H": "\\(\\dfrac{x}{23}\\)"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q108.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q109",
+      "q_number": 109,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Two farmers each have a watermelon patch of equal size. Farmer A's patch is divided into 20 equal rows, and Farmer B's patch is divided into 16 equal rows. If Farmer A harvests 14 rows of his watermelon patch, what is the greatest number of whole rows that Farmer B can harvest from his patch without harvesting a greater percentage of a patch than Farmer A harvested?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q109.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q110",
+      "q_number": 110,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Which statement must be true if \\(x\\) is a whole number such that \\(1 < x < 3\\)?",
+      "options": {
+        "E": "\\(\\dfrac{1}{x-1} < \\dfrac{1}{x+1}\\)",
+        "F": "\\(\\dfrac{1}{x-1} > \\dfrac{1}{x+1}-1\\)",
+        "G": "\\(\\dfrac{1}{x-1}+\\dfrac{1}{x+1} < 1\\)",
+        "H": "\\(\\dfrac{1}{x-1}+\\dfrac{1}{x+1} < -\\dfrac{1}{x}\\)"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q110.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q111",
+      "q_number": 111,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(x=4(3-y)(2^2-1)\\), what is the value of \\(y\\) in terms of \\(x\\)?",
+      "options": {
+        "A": "\\(\\dfrac{x-6}{4}\\)",
+        "B": "\\(\\dfrac{x}{4}-3\\)",
+        "C": "\\(4-\\dfrac{x}{3}\\)",
+        "D": "\\(3-\\dfrac{x}{12}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q111.jpg"
+      }
+    },
+    {
+      "id": "KM3_Q112",
+      "q_number": 112,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The amount of water in a bucket evaporates in such a way that the amount left at the end of each day is 10% less than the amount at the beginning of that same day. Approximately what percent of the original amount of water is left after three days?",
+      "options": {
+        "E": "30%",
+        "F": "67%",
+        "G": "70%",
+        "H": "73%"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_3/solutions/Q112.jpg"
       }
     }
   ],
