@@ -6,9 +6,17 @@
   <title>SHSAT Practice Exams</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .exams-page { max-width: 900px; margin: 2rem auto; padding: 1.25rem; }
+    .exams-page { max-width: 1100px; margin: 2rem auto; padding: 1.25rem; }
     .exams-page h1 { font-size: 1.6rem; font-weight: 800; margin: 0 0 0.35rem; letter-spacing: -0.01em; }
     .exams-lede { color: var(--text-muted, #7e6b87); margin: 0 0 1.5rem; font-size: 0.95rem; }
+    .exam-section { margin-bottom: 1.75rem; }
+    .exam-section h2 {
+      font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--text-muted, #7e6b87); margin: 0 0 0.6rem; padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border, #ead5f1);
+    }
+    .exam-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .exam-row .exam-card { flex: 1 1 220px; max-width: 280px; }
     .exams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
     .exam-card {
       background: var(--surface, #fff);
@@ -55,152 +63,209 @@
     <h1>SHSAT Practice Exams</h1>
     <p class="exams-lede">Official NYC DOE practice tests, reconstructed with the TestNav look. Every question has the DOE-supplied solution embedded.</p>
 
-    <div class="exams-grid">
-      <a class="exam-card" href="exam-a.html">
-        <span class="letter">A</span>
-        <div class="title">Practice Test A — Math</div>
-        <div class="meta">50 questions · verbatim solutions</div>
-      </a>
-      <a class="exam-card" href="ela-a.html">
-        <span class="letter">A</span>
-        <div class="title">Practice Test A — ELA</div>
-        <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
-      </a>
-      <a class="exam-card" href="exam-b.html">
-        <span class="letter">B</span>
-        <div class="title">Practice Test B — Math</div>
-        <div class="meta">50 questions · verbatim solutions</div>
-      </a>
-      <a class="exam-card" href="ela-b.html">
-        <span class="letter">B</span>
-        <div class="title">Practice Test B — ELA</div>
-        <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
-      </a>
-      <a class="exam-card" href="exam-c.html">
-        <span class="letter">C</span>
-        <div class="title">Practice Test C — Math</div>
-        <div class="meta">50 questions · verbatim solutions</div>
-      </a>
-      <a class="exam-card" href="ela-c.html">
-        <span class="letter">C</span>
-        <div class="title">Practice Test C — ELA</div>
-        <div class="meta">50 questions · 7 passages + stand-alone items · complete (1 answer key pending)</div>
-      </a>
-      <a class="exam-card" href="exam-d.html">
-        <span class="letter">D</span>
-        <div class="title">Practice Test D — Math</div>
-        <div class="meta">50 questions · verbatim solutions</div>
-      </a>
-      <a class="exam-card" href="ela-d.html">
-        <span class="letter">D</span>
-        <div class="title">Practice Test D — ELA</div>
-        <div class="meta">47 questions · 7 of 7 passages + stand-alone items · partial (2 questions skipped, no clean screenshot)</div>
-      </a>
-      <a class="exam-card" href="exam-e.html">
-        <span class="letter">E</span>
-        <div class="title">Practice Test E — Math</div>
-        <div class="meta">In progress</div>
-      </a>
-      <a class="exam-card" href="ela-e.html">
-        <span class="letter">E</span>
-        <div class="title">Practice Test E — ELA</div>
-        <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
-      </a>
-      <a class="exam-card" href="exam-f.html">
-        <span class="letter">F</span>
-        <div class="title">Practice Test F — Math</div>
-        <div class="meta">50 questions · verbatim solutions</div>
-      </a>
-      <a class="exam-card" href="ela-f.html">
-        <span class="letter">F</span>
-        <div class="title">Practice Test F — ELA</div>
-        <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
-      </a>
-      <a class="exam-card" href="exam-g.html">
-        <span class="letter">G</span>
-        <div class="title">Practice Test G — Math</div>
-        <div class="meta">50 questions · verbatim solutions</div>
-      </a>
-      <a class="exam-card" href="ela-g.html">
-        <span class="letter">G</span>
-        <div class="title">Practice Test G — ELA</div>
-        <div class="meta">49 of 50 questions · 7 passages + stand-alone items · Q14 missing from source</div>
-      </a>
-      <a class="exam-card" href="mastery-grid.html">
-        <span class="letter">📈</span>
-        <div class="title">Proficiency Table</div>
-        <div class="meta">Per-question mastery tracker</div>
-      </a>
-      <a class="exam-card" href="kaplan-2025-1.html">
-        <span class="letter">K1</span>
-        <div class="title">Kaplan 2025 — Practice Test 1</div>
-        <div class="meta">114 questions · complete</div>
-      </a>
-      <a class="exam-card" href="kaplan-2025-2.html">
-        <span class="letter">K2</span>
-        <div class="title">Kaplan 2025 — Practice Test 2</div>
-        <div class="meta">Complete · 114 of 114 questions · solutions shown as book scans</div>
-      </a>
-      <a class="exam-card" href="kaplan-2025-3.html">
-        <span class="letter">K3</span>
-        <div class="title">Kaplan 2025 — Practice Test 3</div>
-        <div class="meta">In progress · 112 of 114 questions · just Q113-114 need the missing answer-key photos</div>
-      </a>
-      <a class="exam-card" href="worksheet-1.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 9/11</div>
-        <div class="meta">18 questions · pain-point practice</div>
-      </a>
-      <a class="exam-card" href="worksheet-2.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 9/13</div>
-        <div class="meta">9 questions · pain-point practice</div>
-      </a>
-      <a class="exam-card" href="worksheet-3.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 9/16</div>
-        <div class="meta">30 questions · Exam B reinforcement</div>
-      </a>
-      <a class="exam-card" href="worksheet-4.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 9/21</div>
-        <div class="meta">60 questions · Exam C reinforcement</div>
-      </a>
-      <a class="exam-card" href="worksheet-5.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 9/22</div>
-        <div class="meta">124 questions · Exams C &amp; D reinforcement</div>
-      </a>
-      <a class="exam-card" href="worksheet-6.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 9/23</div>
-        <div class="meta">62 questions · shorter version of 9/22</div>
-      </a>
-      <a class="exam-card" href="worksheet-7.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 10/1</div>
-        <div class="meta">20 questions · Exam E reinforcement</div>
-      </a>
-      <a class="exam-card" href="worksheet-8.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 10/14</div>
-        <div class="meta">60 questions · 20 pain-point skills (C/D/E/F/G)</div>
-      </a>
-      <a class="exam-card" href="worksheet-9.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 10/17</div>
-        <div class="meta">252 questions · all current pain points (A/C/D/E/F/G)</div>
-      </a>
-      <a class="exam-card" href="worksheet-10.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 10/22</div>
-        <div class="meta">15 questions · GM05/10/14, FM44/47 reinforcement</div>
-      </a>
-      <a class="exam-card" href="worksheet-11.html">
-        <span class="letter">📝</span>
-        <div class="title">Practice Set — 10/23</div>
-        <div class="meta">36 questions · 20 math + ELA passage + 10 grammar (mixed)</div>
-      </a>
+    <div class="exam-section">
+      <h2>Exam A</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-a.html">
+          <span class="letter">A</span>
+          <div class="title">Practice Test A — Math</div>
+          <div class="meta">50 questions · verbatim solutions</div>
+        </a>
+        <a class="exam-card" href="ela-a.html">
+          <span class="letter">A</span>
+          <div class="title">Practice Test A — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Exam B</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-b.html">
+          <span class="letter">B</span>
+          <div class="title">Practice Test B — Math</div>
+          <div class="meta">50 questions · verbatim solutions</div>
+        </a>
+        <a class="exam-card" href="ela-b.html">
+          <span class="letter">B</span>
+          <div class="title">Practice Test B — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Exam C</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-c.html">
+          <span class="letter">C</span>
+          <div class="title">Practice Test C — Math</div>
+          <div class="meta">50 questions · verbatim solutions</div>
+        </a>
+        <a class="exam-card" href="ela-c.html">
+          <span class="letter">C</span>
+          <div class="title">Practice Test C — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Exam D</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-d.html">
+          <span class="letter">D</span>
+          <div class="title">Practice Test D — Math</div>
+          <div class="meta">50 questions · verbatim solutions</div>
+        </a>
+        <a class="exam-card" href="ela-d.html">
+          <span class="letter">D</span>
+          <div class="title">Practice Test D — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Exam E</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-e.html">
+          <span class="letter">E</span>
+          <div class="title">Practice Test E — Math</div>
+          <div class="meta">In progress</div>
+        </a>
+        <a class="exam-card" href="ela-e.html">
+          <span class="letter">E</span>
+          <div class="title">Practice Test E — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Exam F</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-f.html">
+          <span class="letter">F</span>
+          <div class="title">Practice Test F — Math</div>
+          <div class="meta">50 questions · verbatim solutions</div>
+        </a>
+        <a class="exam-card" href="ela-f.html">
+          <span class="letter">F</span>
+          <div class="title">Practice Test F — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Exam G</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="exam-g.html">
+          <span class="letter">G</span>
+          <div class="title">Practice Test G — Math</div>
+          <div class="meta">50 questions · verbatim solutions</div>
+        </a>
+        <a class="exam-card" href="ela-g.html">
+          <span class="letter">G</span>
+          <div class="title">Practice Test G — ELA</div>
+          <div class="meta">50 questions · 7 passages + stand-alone items · complete</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Kaplan 2025</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="kaplan-2025-1.html">
+          <span class="letter">K1</span>
+          <div class="title">Kaplan 2025 — Practice Test 1</div>
+          <div class="meta">114 questions · complete</div>
+        </a>
+        <a class="exam-card" href="kaplan-2025-2.html">
+          <span class="letter">K2</span>
+          <div class="title">Kaplan 2025 — Practice Test 2</div>
+          <div class="meta">114 questions · complete · solutions shown as book scans</div>
+        </a>
+        <a class="exam-card" href="kaplan-2025-3.html">
+          <span class="letter">K3</span>
+          <div class="title">Kaplan 2025 — Practice Test 3</div>
+          <div class="meta">112 of 114 questions · Q113-114 need photos we're not chasing down</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Tools</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="mastery-grid.html">
+          <span class="letter">📈</span>
+          <div class="title">Proficiency Table</div>
+          <div class="meta">Per-question mastery tracker</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="exam-section">
+      <h2>Practice Sets</h2>
+      <div class="exam-row">
+        <a class="exam-card" href="worksheet-1.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 9/11</div>
+          <div class="meta">18 questions · pain-point practice</div>
+        </a>
+        <a class="exam-card" href="worksheet-2.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 9/13</div>
+          <div class="meta">9 questions · pain-point practice</div>
+        </a>
+        <a class="exam-card" href="worksheet-3.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 9/16</div>
+          <div class="meta">30 questions · Exam B reinforcement</div>
+        </a>
+        <a class="exam-card" href="worksheet-4.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 9/21</div>
+          <div class="meta">60 questions · Exam C reinforcement</div>
+        </a>
+        <a class="exam-card" href="worksheet-5.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 9/22</div>
+          <div class="meta">124 questions · Exams C &amp; D reinforcement</div>
+        </a>
+        <a class="exam-card" href="worksheet-6.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 9/23</div>
+          <div class="meta">62 questions · shorter version of 9/22</div>
+        </a>
+        <a class="exam-card" href="worksheet-7.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 10/1</div>
+          <div class="meta">20 questions · Exam E reinforcement</div>
+        </a>
+        <a class="exam-card" href="worksheet-8.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 10/14</div>
+          <div class="meta">60 questions · 20 pain-point skills (C/D/E/F/G)</div>
+        </a>
+        <a class="exam-card" href="worksheet-9.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 10/17</div>
+          <div class="meta">252 questions · all current pain points (A/C/D/E/F/G)</div>
+        </a>
+        <a class="exam-card" href="worksheet-10.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 10/22</div>
+          <div class="meta">15 questions · GM05/10/14, FM44/47 reinforcement</div>
+        </a>
+        <a class="exam-card" href="worksheet-11.html">
+          <span class="letter">📝</span>
+          <div class="title">Practice Set — 10/23</div>
+          <div class="meta">36 questions · 20 math + ELA passage + 10 grammar (mixed)</div>
+        </a>
+      </div>
     </div>
   </main>
 </body>
