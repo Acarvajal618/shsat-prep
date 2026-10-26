@@ -104,7 +104,7 @@
 
     .tn-question-pane { flex: 1; min-width: 0; }
     .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
-    .tn-question { font-size: 15px; line-height: 1.55; color: var(--tn-text); white-space: pre-line; }
+    .tn-question { font-size: 15px; line-height: 1.55; color: var(--tn-text); white-space: pre-wrap; }
     .tn-base-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.03em; color: var(--tn-muted); text-transform: uppercase; margin-bottom: 6px; }
     .tn-question strong { font-weight: 700; }
     .tn-figure { margin: 8px 0 16px; display: flex; justify-content: center; }
@@ -369,6 +369,9 @@
         } else if (trimmed.startsWith('• ') || trimmed.startsWith('- ')) {
           if (!inList) { html.push('<ul style="margin:8px 0 0 20px;">'); inList = true; }
           html.push('<li>' + renderBoldText(trimmed.slice(2)) + '</li>');
+        } else if (trimmed === '') {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push('<div style="height:0.9em;"></div>');
         } else {
           if (inList) { html.push('</ul>'); inList = false; }
           html.push('<div>' + renderBoldText(line) + '</div>');
