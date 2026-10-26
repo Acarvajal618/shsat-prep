@@ -1,0 +1,1439 @@
+{
+  "_schema": {
+    "description": "Exam G — ELA section. Sourced from the Kaplan \"Learn with Atom\" online practice-test simulator (kna.learnwithatom.com), not the NYC DOE exam booklets used for A-D. Full passage text and fully typed 'Getting to the Answer' explanations were visible on screen, so explanations are transcribed as exhibit_text rather than image crops.",
+    "id_format": "GR<NN> for all questions (passage-grouped and standalone)",
+    "origin": "KAPLAN_ATOM_PRACTICE_D",
+    "known_gap": "Q14 (Passage 3, 'The Importance of Crop Rotation') has no corresponding screenshot anywhere in the 56-image upload — the sequence jumps from Q13 (final question of Passage 2) directly to Q15. Question text/options/answer for Q14 are genuinely missing from the source material. Passage 3's full text (all 4 paragraphs) IS present and transcribed.",
+    "render_notes": "Two questions (GR23, GR28) use a drag-to-match interaction in the source (matching quotes/paragraph-ranges to categories) that doesn't map cleanly to the existing mc/mc_multi renderer — represented here with question_type 'match' and a 'pairs' array (each pair: category label + correct quote/answer, plus a 'distractors' list of unused options from the shared pool). The template will need a small renderer addition to display these two as intended; until then they may not render. Passage 1 also has a 'code_comparison_table' field (not yet a standard schema field) for its FLOW-MATIC vs Python comparison — needs the same kind of renderer support, or can be converted to a cropped image if preferred."
+  },
+  "passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Grace Hopper: Computer Pioneer",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Grace Murray Hopper was 37 when she enlisted in the Navy in 1944 in response to the outbreak of the Second World War. Her extensive career spanned the transition from the very first electromechanical computers to the birth of modern high-level programming. While many of her contemporaries focused on the hardware—the vacuum tubes and switches—Hopper focused on the human side of computing. An advanced mathematician herself, she believed that computers should be accessible to people who weren't mathematicians."
+        },
+        {
+          "num": null,
+          "text": "The Harvard Mark I: Where It All Began"
+        },
+        {
+          "num": 2,
+          "text": "After joining the U.S. Naval Reserve, Hopper was assigned to the Bureau of Ships Computation Project at Harvard University. There, she became the third person to program the Harvard Mark I, a 50-foot-long behemoth of switches and relays."
+        },
+        {
+          "num": 3,
+          "text": "Working on the Mark I was grueling. Programs were fed into the machine via punched paper tape. There was no operating system; you had to understand the physical architecture of the machine to make it do anything. It was during this time that Hopper famously helped popularize the term \"debugging.\" When a moth flew into a relay of the Mark II and caused a system failure, she taped the insect into the logbook, noting that they were \"debugging\" the machine."
+        },
+        {
+          "num": 4,
+          "text": "However, her most significant contribution at Harvard wasn't just fixing errors; it was her realization that mathematical code was too difficult for most people to master. She began thinking about ways to make programming more intuitive."
+        },
+        {
+          "num": null,
+          "text": "The Invention of the Compiler"
+        },
+        {
+          "num": 5,
+          "text": "In 1949, Hopper joined the Eckert-Mauchly Computer Corporation (which later became part of Remington Rand) to work on the UNIVAC I, the first large-scale commercial computer. It was here that she did her most revolutionary work: the invention of the compiler. The compiler translates code words that humans can understand into the electrical pulses that control the computer's machinery. Before Hopper's breakthrough, if you wanted a computer to perform a task, you had to physically flip switches or re-wire parts of the computer. Because of her work, we can simply change a word in a text file, called the source code, and let the compiler do the hard work of translating it for the hardware."
+        },
+        {
+          "num": 6,
+          "text": "Hopper believed that a computer could be programmed to translate human words into computer commands. In 1952, she developed the A-0 System, the first compiler. It allowed a programmer to use words instead of mathematical codes. Her work was ignored at the time because, as she said, \"I had a running compiler and nobody would touch it because, they told me, computers could only do arithmetic; they could not write programs.\" Engineers argued that a machine could never write code as efficiently as a human. They believed automated code would be slow and wasteful of the very limited memory available in early computers. Hopper also faced the prejudice of early programmers who were mathematicians. They felt that if you couldn't handle the complex arithmetic of machine code, you shouldn't be allowed to touch a computer at all."
+        },
+        {
+          "num": 7,
+          "text": "Hopper realized she couldn't win the argument with theory; she had to win it with utility. She knew that processing all the data needed to run a business, such as payroll, billing, and taxes, was the future of computers. Businesses didn't want to hire a team of highly trained experts to run a payroll. They wanted their accountants to be able to talk to a machine that could do it."
+        },
+        {
+          "num": 8,
+          "text": "In 1956, she released FLOW-MATIC, the first programming language to use English-word commands such as GET, COMPARE, and MOVE. To prove it worked, she didn't just show the code—she showed the results. She demonstrated that a program written in English-like commands could run on the UNIVAC and produce accurate business reports. Her experiment proved that even if the compiled code was slightly less efficient than hand-written code, the time saved in writing the program made up for that. A person could write a FLOW-MATIC program in a day that would take a machine-code expert a week."
+        },
+        {
+          "num": null,
+          "text": "The Birth of COBOL"
+        },
+        {
+          "num": 9,
+          "text": "Hopper's innovation changed the way computers were programmed. By 1959, every computer manufacturer had their own specific compiler and language. The computing world was a mess of different languages. A program written for one machine wouldn't work on another. If a company bought a new machine, it had to throw away all its old programs and start over. Hopper championed the idea of machine-independent languages."
+        },
+        {
+          "num": 10,
+          "text": "In 1959, she served as a technical consultant to the committee that created COBOL (Common Business-Oriented Language). COBOL was heavily based on her FLOW-MATIC philosophy. Its goal was to allow businesses to process data using a language that managers could actually read."
+        },
+        {
+          "num": 11,
+          "text": "COBOL became the most widely used business language in the world. Even today, decades later, a massive percentage of the world's financial transactions are still processed by COBOL code. Hopper's insistence on a standardized, English-based language is why modern writing instructions rather than wiring a circuit board."
+        },
+        {
+          "num": null,
+          "text": "Legacy"
+        },
+        {
+          "num": 12,
+          "text": "Grace Hopper retired from the Navy multiple times, only to be called back because her expertise was indispensable. When she finally retired for the last time at age 79, she was a Rear Admiral and the oldest active-duty officer in the U.S. Navy."
+        },
+        {
+          "num": 13,
+          "text": "Every time you write a line of code in Python, Java, or C++, you are using concepts that Grace Hopper fought to prove were possible. By breaking down the barriers between human language and machine code, Hopper ensured that the power of computing would belong to everyone, not just a select group of experts."
+        },
+        {
+          "num": null,
+          "text": "A Comparison of FLOW-MATIC and Python Computer Instructions"
+        },
+        {
+          "num": null,
+          "text": "(In this scenario, the computer is to check the number of an item in stock and print a message if the number is too low.)"
+        },
+        {
+          "num": null,
+          "text": "Philosophy — FLOW-MATIC: \"Tell the computer in English sentences.\" | Python: \"Clean, readable, and minimal.\""
+        },
+        {
+          "num": null,
+          "text": "The Code — FLOW-MATIC: (1) COMPARE ON-HAND-STOCK TO MINIMUM-STOCK ; IF GREATER GO TO OPERATION 10 ; IF LESS GO TO OPERATION 5 . | Python: if on_hand < minimum:"
+        },
+        {
+          "num": null,
+          "text": "The Action — FLOW-MATIC: (5) MOVE \"REORDER NOW\" TO PRINTER ; WRITE-ITEM PRINTER ; GO TO OPERATION 10 . | Python: print(\"Reorder now\")"
+        },
+        {
+          "num": null,
+          "text": "Logic Flow — FLOW-MATIC: Relied on GO TO jumps (rigid). | Python: Uses indentation and blocks (structured)."
+        }
+      ],
+      "questions": [
+        {
+          "id": "GR01",
+          "q_number": 1,
+          "question_type": "mc",
+          "question": "How do the details in paragraphs 5 and 6 help convey a central idea of the passage?",
+          "options": {
+            "A": "They document how Hopper's background as an advanced mathematician allowed her to master complex machine code.",
+            "B": "They provide a justification for why the A-0 System was slower and more memory-intensive than manual machine coding.",
+            "C": "They suggest that the development of modern programming was driven by the needs of the U.S. Naval Reserve.",
+            "D": "They emphasize how Hopper's innovations were designed to prioritize human access to computers over computer efficiency."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: Review the Main Idea. The passage has a strong positive tone and describes several of Hopper's important discoveries that changed computing. Now review paragraphs 5 and 6: they describe Hopper's compiler as her most important (\"revolutionary\") work, despite the resistance to its acceptance. Match this prediction to (D), the correct answer. These paragraphs show how Hopper's compiler \"prioritized human access\" by using \"code words that humans can understand\" instead of prioritizing \"computer efficiency,\" as other engineers thought computers couldn't write code \"efficiently.\"\n(A) is a Misused Detail. The text explicitly states she was an \"advanced mathematician\" (paragraph 1), but the point of these paragraphs is that Hopper wanted to move away from math-heavy code to make computers easier for others. (B) is also a Misused Detail. The paragraph mentions that the A-0 System was slower, but this is not a central idea of the passage. (C) is Out of Scope. Although paragraph 12 mentions that her \"expertise was indispensable\" to the Navy, paragraphs 5 and 6 do not address this idea."
+          }
+        },
+        {
+          "id": "GR02",
+          "q_number": 2,
+          "question_type": "mc",
+          "question": "What does Hopper's comment in paragraph 6 reveal about the challenges she faced?",
+          "options": {
+            "A": "Because others viewed computers as only mathematical tools, Hopper faced obstacles in her career.",
+            "B": "The limited memory of the computers of Hopper's time meant that creating a compiler was very difficult.",
+            "C": "Despite Hopper's advanced degrees in mathematics, other mathematicians believed she lacked sufficient training to develop a compiler.",
+            "D": "The early computer companies preferred to keep programming difficult in order to maintain control over their products."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Locate Hopper's comment in paragraph 6 and read around it to understand the context. The third sentence tells you that \"Her work was ignored,\" and the last part of her quotation says \"because, they told me, computers could only do arithmetic; they could not write programs.\" Match this idea to (A), the correct answer.\n(B) is a Misused Detail. Although the memory of the computers of the time was very limited, Hopper had a \"running compiler,\" so she had overcome that obstacle and is not referencing it in the quote. (C) and (D) are Out of Scope. The passage never mentions Hopper being criticized for lacking training (C) or the intentions of computer companies (D)."
+          }
+        },
+        {
+          "id": "GR03",
+          "q_number": 3,
+          "question_type": "mc",
+          "question": "Read these sentences from paragraph 6.\n\nEngineers argued that a machine could never write code as efficiently as a human. They believed automated code would be slow and wasteful of the very limited memory available in early computers.\n\nThe words \"slow\" and \"wasteful\" in the sentences convey the idea that",
+          "options": {
+            "A": "the compiler was viewed as a threat to the precision and craftsmanship required for machine-level programming.",
+            "B": "Hopper's critics misunderstood how the A-0 System translated mathematical codes into electrical pulses.",
+            "C": "the use of English-word commands was seen as a distraction from the mathematical rigor necessary to maintain computers.",
+            "D": "many computer engineers prioritized the conservation of resources over the ease of the programmer."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: Start by establishing the context for the words in the question. Your Roadmap should indicate that paragraph 6 discusses the resistance to Hopper's compiler. In the context of early computing, \"slow\" refers to processing time and \"wasteful\" refers to the use of the \"very limited memory.\" These are both concerns about the resources of the computer, reflecting the engineers' argument that Hopper's use of more user-friendly coding would make computers less efficient. Match this prediction to (D), the correct answer. All the other choices are Out of Scope. The passage does not describe the compiler as a \"threat\" (A) or mention any \"misunderstandings\" (B) or \"distractions\" from the math (C)."
+          }
+        },
+        {
+          "id": "GR04",
+          "q_number": 4,
+          "question_type": "mc",
+          "question": "Which statement describes how the author's use of a problem-and-solution structure in paragraphs 9 and 10 contributes to the development of ideas in the passage?",
+          "options": {
+            "A": "Highlighting the competitive nature of the 1950s technology boom explains why early computer manufacturers were reluctant to collaborate.",
+            "B": "Establishing the necessity for a standardized language like COBOL emphasizes the inefficiency of having multiple programming languages.",
+            "C": "Detailing the technical limitations of 1950s hardware shows why Hopper's FLOW-MATIC was eventually replaced.",
+            "D": "Suggesting that Hopper's primary motivation was to increase corporate profits illustrates the financial burden on businesses."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: Use your Roadmap to help you identify the problem-and-solution. In paragraph 9, the problem was that \"every computer manufacturer had their own specific compiler and language,\" so that \"a program written for one machine wouldn't work on another.\" This created a \"mess\" in which companies had to \"throw away\" existing programs when buying a new computer. The paragraph transitions to the solution by stating that Hopper \"championed the idea of machine-independent languages,\" which leads directly into the discussion of the COBOL language in paragraph 10. Match this summary to (B), the correct answer.\n(A) is incorrect because it is Out of Scope. Competition among computer manufacturers is not discussed. (C) is Opposite. The passage uses the limitations of computers to illustrate why it was important to apply Hopper's FLOW-MATIC philosophy to COBOL. (D) is a Distortion. Hopper's motivation was to improve access to computers, not to increase profits."
+          }
+        },
+        {
+          "id": "GR05",
+          "q_number": 5,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "The initial resistance to the compiler was a necessary phase that ultimately made COBOL the most efficient language for global commerce.",
+            "B": "The complexity of modern coding languages such as Python and Java makes them fundamentally different from the English-based philosophy of FLOW-MATIC.",
+            "C": "Hopper's most enduring legacy is her successful challenge to the belief that computing should be reserved for mathematical experts.",
+            "D": "Although English-based computer languages are easier to use, the loss of the \"physical architecture\" knowledge has made modern programmers less capable than their predecessors."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Inference\nGetting to the Answer: Broad questions about the author's view are difficult to predict. Keep the Main Idea and the tone of the passage in mind. Evaluate each choice by comparing it strictly to the passage. Eliminate (A) as Out of Scope. The passage never connects COBOL's success to resistance to the first compiler. Eliminate (B) as Opposite. Paragraph 13 indicates that writing code in Python and Java uses Hopper's concepts, which included FLOW-MATIC philosophy. The languages are thus part of the same lineage, not fundamentally different. (C) is correct. Throughout the passage, the author emphasizes the \"human side of computing\" (paragraph 1), the \"prejudice\" of mathematicians (paragraph 6), and computing being for \"everyone\" (paragraph 13). This choice captures the author's primary argument: that Hopper transformed access to computing. She broke down the math-only barrier, making technology \"accessible to people who weren't mathematicians\" (paragraph 1). (D) is Out of Scope. The passage never implies modern programmers are \"less capable\" than past programmers."
+          }
+        },
+        {
+          "id": "GR06",
+          "q_number": 6,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt provides evidence that Hopper prioritized practical application over scientific debate?",
+          "options": {
+            "A": "\"Hopper believed that a computer could be programmed to translate human words into computer commands.\" (paragraph 6)",
+            "B": "\"In 1952, she developed the A-0 System, the first compiler.\" (paragraph 6)",
+            "C": "\"Hopper realized she couldn't win the argument with theory; she had to win it with utility.\" (paragraph 7)",
+            "D": "\"She shifted her focus from scientific computing to business computing.\" (paragraph 7)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Read the question carefully and put what you're looking for into your own words. You need evidence that Hopper was more interested in usefulness than in discussions. Now work through the choices. Eliminate (A). This choice describes a belief of Hopper that would make computers more practical, but it does not contrast this practicality with \"scientific debate.\" Eliminate (B). This detail alone does not compare usefulness with theories and debate. (C) is correct. This sentence clearly states that Hopper didn't try to convince her critics with words (\"debate\"), but rather showed them that her invention was useful (\"practical application\"). (D) is incorrect because, although business computing is a practical application, this specific sentence only mentions the \"shift\" without explaining the underlying reason for her change in focus."
+          }
+        },
+        {
+          "id": "GR07",
+          "q_number": 7,
+          "question_type": "mc",
+          "question": "The diagram after paragraph 13 best provides additional support for the topic of the passage by",
+          "options": {
+            "A": "illustrating that Hopper's focus on making computers easier for most people to use has continued to the present day.",
+            "B": "comparing the length of FLOW-MATIC programs to Python programs.",
+            "C": "indicating how much clearer FLOW-MATIC programming is compared to programming that uses English words.",
+            "D": "depicting the reduction in computer memory needed for Python programs compared to that needed for FLOW-MATIC programs."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Infographic\nGetting to the Answer: Quickly review the title and contents of the diagram. The diagram compares some key features of FLOW-MATIC, one of the early compiler languages developed by Hopper (paragraph 8), and Python, a modern computer language (paragraph 13). The samples that depict the instructions for a stock-counting task show that the Python instructions are much shorter. Now refresh your memory of the Main Idea: Hopper and her inventions changed computing. Predict that the changes that Hopper began have continued to today. This matches (A), the correct answer.\n(B) is a Misused Detail. The diagram shows that the Python programs are shorter, but this in itself is not the topic of the passage. (C) is a Distortion. According to paragraph 8, FLOW-MATIC uses English words. (D) is Out of Scope. The diagram does not compare the memory needed for the two programs."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Evolution of Airships",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Today, airships are seen mostly as advertisements hovering in the sky over sporting events. Such companies as Goodyear®, Metropolitan Life®, and Fuji Film® have all made use of \"blimps\" in this way to the delight of spectators. But there was a time, before World War II, that blimps—as well as other lighter-than-air vehicles—were not just a charming diversion but actually used as a mode of transportation. One in particular, the German ship Hindenburg, was an incredible example of a commercial passenger aircraft capable of crossing the Atlantic Ocean. Tragically, on one fateful day, the path of airships was changed forever when, in spectacular fashion, the Hindenburg revealed the downside of the use of airships as transportation."
+        },
+        {
+          "num": 2,
+          "text": "Airships enjoyed many advantages in the early twentieth century, and the Hindenburg was considered a one-of-a-kind example. When the 804-foot Hindenburg was launched in 1936, it was the largest airship in the world. Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas—in this case, hydrogen. The Hindenburg was a product of some of the newest technology of its time with a frame constructed of an early aluminum alloy called duralumin, while its gas cells were reinforced with a new material known as latex. In an age when airplanes could not carry more than 10 passengers at a time, the Hindenburg could hold an astounding 1,002 passengers, twice as many as a modern jetliner. Thus, in many ways, it was an incredible specimen of modern advancements."
+        },
+        {
+          "num": 3,
+          "text": "Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships. Tickets to fly in the Hindenburg were not affordable for most people, so the customer base was extremely limited. This was due in part to the massive amount of fuel needed not only to fill the balloon but also to power its propellers, making this airship very expensive to operate. Even with all of that fuel, the Hindenburg flew at a mere 78 miles per hour—a snail's pace considering that it was used for transatlantic passenger service. Because any airship is essentially a balloon with an engine, it is extremely vulnerable to air currents and stormy weather, and the Hindenburg, despite its massive size, was no different."
+        },
+        {
+          "num": 4,
+          "text": "The Hindenburg's fate, however, rested on its most dangerous characteristic and one it shared with other airships: the use of highly flammable hydrogen gas. Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened. On May 6, 1937, as the Hindenburg was landing in Lakehurst, New Jersey, it suddenly burst into flames, killing 36 of the 97 passengers on board. This explosion destroyed the ship quickly; in a matter of just 34 seconds, the entire ship was engulfed in flames. Although the exact cause is still unknown, it is believed to have been caused by a discharge of static electricity in the air that reacted to gas that had escaped from a small leak in the balloon. Though there had been other airship mishaps before this date, something about this particular disaster captured the public imagination—maybe the fact that it was famously witnessed and reported live by radio reporter Herbert Morrison, who gave a dramatic account of the event as it unfolded, or maybe it was just a final symbolic end to a mode of travel that had become passé."
+        },
+        {
+          "num": 5,
+          "text": "At the time of the Hindenburg disaster, the airship was already obsolete as a mode of transportation. By the 1940s, commercial airplanes had advanced in development far beyond the airship's capacity. Now, modern airplanes cost much less to operate and fly at more than seven times the speed of the Hindenburg. Meanwhile, airline tickets are also far more affordable than airship travel ever was. The airship thus sank into permanently outdated status as a passenger service and acquired its modern-day role as a quirky advertising platform."
+        }
+      ],
+      "questions": [
+        {
+          "id": "GR08",
+          "q_number": 8,
+          "question_type": "mc_multi",
+          "question": "Which two phrases from paragraph 1 most affect the tone of the passage?\n\nMove the two correct answers to the box.",
+          "options": {
+            "A": "\"before World War II\"",
+            "B": "\"One in particular\"",
+            "C": "\"Tragically, on one fateful day\"",
+            "D": "\"spectacular fashion\"",
+            "E": "\"the use of airships\""
+          },
+          "correct": [
+            "C",
+            "D"
+          ],
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The tone of the essay goes back and forth between celebrating the impressive features of the Hindenburg and describing the airship's limitations and disastrous final accident. Expect that the correct answers will be phrases that reflect either the positive or negative elements of the passage's tone. The phrases \"Tragically, on one fateful day\" and \"spectacular fashion\" both address the dramatic explosion of the Hindenburg, so these choices are correct. The other phrases are incorrect because they are neutral in tone and thus do not reflect either the positive or negative aspects of the passage's tone."
+          }
+        },
+        {
+          "id": "GR09",
+          "q_number": 9,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 1.\n\nBut there was a time, before World War II, that blimps—as well as other lighter-than-air vehicles—were not just a charming diversion but actually used as a mode of transportation.\n\nHow does this sentence contribute to the development of a central idea in the passage?",
+          "options": {
+            "A": "by confirming that blimps were developed in Germany",
+            "B": "by introducing the idea that in the past, airships had different uses than they do today",
+            "C": "by showing why airships, including blimps, are dangerous",
+            "D": "by indicating why airships continue to be used for transportation"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: Since the question asks about \"a central idea,\" keep the main focus of the passage in mind: the Hindenburg, why it was distinctive, how it was destroyed, and the effects of its destruction. The sentence quoted in the question marks a transition from the current uses of airships to their historical uses, making (B) the correct answer.\n(A) is incorrect because it is a Distortion. Though the Hindenburg was a German blimp, it cannot be inferred that blimps were developed there. (C) is incorrect because it is a Misused Detail. The Hindenburg was dangerous, but this idea is not addressed in the sentence quoted in the question. (D) is Opposite of the information in the passage. Airships are no longer used for passenger transportation."
+          }
+        },
+        {
+          "id": "GR10",
+          "q_number": 10,
+          "question_type": "mc_multi",
+          "question": "In which two ways is the modern usage of airships best illustrated in the passage?\n\nSelect the two correct answers.",
+          "options": {
+            "A": "by providing examples of companies that use airships to advertise at sporting events",
+            "B": "by detailing the versatile nature of airships, including vast passenger capacities",
+            "C": "by showing that the Hindenburg had limitations similar to those of other airships",
+            "D": "by identifying a common reaction of those who view airships",
+            "E": "by discussing the cost of airline tickets versus airship tickets"
+          },
+          "correct": [
+            "A",
+            "D"
+          ],
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Predict an answer to this question by identifying how airships are used today. According to the first and last paragraphs, they are used for advertising at sporting events. (A) is correct. (D) is also correct, since the first paragraph mentions that the advertising airships are \"charming diversion[s]\" that \"delight\" spectators.\nThe other choices are Misused Details. (B) is incorrect because airships were used to transport large numbers of passengers before World War II, not today. (C) is incorrect because the limitations of the Hindenburg do not describe the modern use of airships. (E) is incorrect because the price comparison between airline and airship tickets serves to illustrate why airships became obsolete, but it says nothing about how airships are used today."
+          }
+        },
+        {
+          "id": "GR11",
+          "q_number": 11,
+          "question_type": "mc",
+          "question": "The details about hydrogen in paragraph 4 suggest that",
+          "options": {
+            "A": "it was not surprising the Hindenburg burst into flames.",
+            "B": "the customer base for airship tickets was very limited.",
+            "C": "by the end of the 1930s, airships had become obsolete.",
+            "D": "the exact cause of the Hindenburg disaster is still unknown."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Inference\nGetting to the Answer: Use your Roadmap to review that paragraph 4 discusses the Hindenburg's flaw and its tragic explosion. The question asks about the details about hydrogen, which is described in the paragraph as \"highly flammable\" and capable of causing a \"horrific explosion,\" which, the author states, is \"exactly what happened\" to the Hindenburg. Predict that the author gives details about hydrogen to explain why the airship exploded. (A) is correct.\n(B) is a Misused Detail. The customer base was limited because the tickets were expensive because so much fuel was required (paragraph 3), not due to the use of hydrogen. (C) is a Distortion; airships did become obsolete, and the problems with hydrogen may have been part of the reason, but that is not why the author mentions hydrogen. Similarly, (D) is a Distortion. The exact cause of the Hindenburg disaster is still unknown, but again, that is not why the author mentions the details about hydrogen."
+          }
+        },
+        {
+          "id": "GR12",
+          "q_number": 12,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that the Hindenburg had a dangerous flaw?",
+          "options": {
+            "A": "\"Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas—in this case, hydrogen.\" (paragraph 2)",
+            "B": "\"Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships.\" (paragraph 3)",
+            "C": "\"Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened.\" (paragraph 4)",
+            "D": "\"At the time of the Hindenburg disaster, the airship was already obsolete as a mode of transportation.\" (paragraph 5)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Use your Roadmap to review that paragraph 4 discusses the Hindenburg's flaw: flammable hydrogen gas that caused the ship to explode. See which of the answer choices best fits this. (C) is correct.\n(A) is incorrect because, although it mentions hydrogen, this sentence does not present hydrogen as a problem. (B) states that the \"drawbacks\" of the Hindenburg were shared with other airships, but this quote is incorrect because it doesn't establish that these drawbacks were dangerous. (D) is incorrect because it addresses the idea that the Hindenburg was outdated, not that it was dangerously flawed."
+          }
+        },
+        {
+          "id": "GR13",
+          "q_number": 13,
+          "question_type": "mc",
+          "question": "THIS IS THE FINAL QUESTION FOR THIS PASSAGE.\n\nAccording to the passage, why are airships used primarily as advertisements today?",
+          "options": {
+            "A": "Their huge capacity makes airships ideal for large advertisements.",
+            "B": "They are susceptible to wind currents.",
+            "C": "They are not as effective as airplanes in modern transportation.",
+            "D": "They are too expensive for use as advertisements."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: The question asks why airships are used only for advertisements, or why they are not used for other things today. Use your Roadmap to find that paragraph 5 discusses the idea that airships are obsolete. Paragraph 5 shows that advances in airplanes have made airships ineffective for transportation, leading to (C), the correct answer.\n(A) is a Distortion; their huge capacity allowed airships to carry many passengers, not advertisements. (B) is incorrect because, while paragraph 3 mentions that airships are susceptible to wind currents, this is not a reason why airships are used in advertisements. (D) is incorrect because it is a Distortion. Paragraph 3 indicates that passenger tickets for the Hindenburg, not advertising on airships, were expensive."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Importance of Crop Rotation",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Many novice gardeners believe that once they find the \"perfect spot\" for their tomatoes or peppers, they should return to that same patch of earth year after year. However, successful long-term gardening relies on a practice known as crop rotation. This systematic approach involves changing the location of specific plant families each season to maintain soil health and disrupt the life cycles of pests."
+        },
+        {
+          "num": 2,
+          "text": "To understand why rotation is necessary, one must look beneath the surface at the chemical composition of the soil. Different plants have varying \"appetites\" for primary macronutrients: nitrogen (N), phosphorus (P), and potassium (K). Leafy greens, such as spinach and kale, are heavy nitrogen feeders, using the element to fuel rapid vegetative growth. Conversely, fruiting plants such as tomatoes require more phosphorus for bloom production and potassium for overall disease resistance and water regulation. If a gardener plants nitrogen-hungry kale in the same spot three years in a row, the soil becomes depleted of its nitrogen, leading to stunted, yellowing crops regardless of how much water they receive."
+        },
+        {
+          "num": 3,
+          "text": "Beyond preventing nutrient depletion, crop rotation serves as a natural form of pest control. Many soil-borne pathogens and insect larvae are host-specific. For example, the spores of Phytophthora infestans (late blight) can linger in the soil where potatoes or tomatoes were grown. By moving these plants, which belong to the \"nightshade\" family of crops, to a different bed the following year and replacing them with a different family, such as legumes (beans and peas), the gardener effectively starves the remaining pathogens."
+        },
+        {
+          "num": 4,
+          "text": "Furthermore, legumes offer a unique chemical advantage: they are \"nitrogen fixers.\" Through a symbiotic relationship with Rhizobium bacteria in their root nodules, they convert atmospheric nitrogen into a form that stays in the ground. When these plants die and decompose, they leave behind a store of nitrogen for the next heavy-feeding crop. By understanding these subterranean chemical exchanges, a backyard gardener transforms from a mere planter into a steward of a complex, living ecosystem."
+        }
+      ],
+      "questions": [
+        {
+          "id": "GR15",
+          "q_number": 15,
+          "question_type": "mc",
+          "question": "According to the passage, what is the specific role of nitrogen (N) in plant development?",
+          "options": {
+            "A": "It assists in the regulation of water throughout the plant.",
+            "B": "It is primarily responsible for the production of flowers and fruit.",
+            "C": "It encourages the quick growth of leaves and vegetative structures.",
+            "D": "It helps the plant develop resistance against soil-borne pathogens."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Check your Roadmap to help you find where nitrogen is mentioned. Different \"macronutrients\" are discussed in paragraph 2. The third sentence states that \"Leafy greens\" feed on nitrogen to \"fuel rapid vegetative growth.\" Choice (C) matches this detail and is correct. Choices (A) and (D) are Misused Details; potassium, not nitrogen, is responsible for water regulation and disease resistance. Choice (B) is also a Misused Detail; phosphorus is responsible for \"bloom production.\""
+          }
+        },
+        {
+          "id": "GR16",
+          "q_number": 16,
+          "question_type": "mc",
+          "question": "Paragraph 2 shows that the author's perspective about how to improve a tomato plot with very low phosphorus levels is to",
+          "options": {
+            "A": "plant more kale and spinach to restore the vegetative balance.",
+            "B": "plant the tomatoes in a new location to prevent further depletion.",
+            "C": "increase the amount of water provided to the root nodules.",
+            "D": "focus on the nightshade family to increase disease resistance."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Inference\nGetting to the Answer: According to paragraph 2, phosphorus is responsible for bloom production in plants such as tomatoes. Recall that the author's overall perspective is that crop rotation is important. Choice (B) is correct because it reflects the author's view about why tomatoes should be rotated: they need a new source of phosphorus in a new location. (A) is incorrect because the passage does not indicate that kale and spinach replenish phosphorus. (C) is incorrect because increasing the amount of water would not fix a nutrient deficiency. (D) is the Opposite; according to paragraph 3, tomatoes are nightshades, and the whole point of the passage is that crops must be rotated to prevent disease and soil depletion."
+          }
+        },
+        {
+          "id": "GR17",
+          "q_number": 17,
+          "question_type": "mc",
+          "question": "How does the author's use of the example in paragraph 3 contribute to the development of ideas in the passage?",
+          "options": {
+            "A": "It explains the chemical formula of common garden fertilizers.",
+            "B": "It describes the symbiotic relationship between bacteria and legumes.",
+            "C": "It argues that potatoes are more difficult to grow than beans.",
+            "D": "It illustrates how crop rotation functions as a non-chemical method of pest management."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: According to your Roadmap, paragraph 3 is about pest control. The example describes a specific instance of crop rotation eliminating (\"starv[ing]\") pests. Choice (D) is the only choice that mentions pest management, so it must be correct. Choice (A) is Out of Scope; the chemical formulas of garden fertilizers are never mentioned. Choice (B) is a Misused Detail; this question is focused on paragraph 3, yet the symbiotic relationship between bacteria and legumes is mentioned in paragraph 4 only. Choice (C) is Out of Scope; the relative difficulties of growing potatoes and beans are never discussed."
+          }
+        },
+        {
+          "id": "GR18",
+          "q_number": 18,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that crop rotation benefits plant growth?",
+          "options": {
+            "A": "\"To understand why rotation is necessary, one must look beneath the surface at the chemical composition of the soil.\" (paragraph 2)",
+            "B": "\"Different plants have varying 'appetites' for primary macronutrients: nitrogen (N), phosphorus (P), and potassium (K).\" (paragraph 2)",
+            "C": "\"If a gardener plants nitrogen-hungry kale in the same spot three years in a row, the soil becomes depleted of its nitrogen, leading to stunted, yellowing crops regardless of how much water they receive.\" (paragraph 2)",
+            "D": "\"Furthermore, legumes offer a unique chemical advantage: they are 'nitrogen fixers.'\" (paragraph 4)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: You need to find an answer choice that supports the idea that crop rotation is good for plant growth. Choice (C) is correct. This sentence states that if kale is planted in the same spot year after year, it will not thrive. Thus, this sentence demonstrates that crop rotation (which means not planting in the same spot year after year) must avoid \"stunted\" growth. Choice (A) is a Distortion; it explains that crop rotation is based on soil chemistry, but it does not specify the actual benefits for rotation for plant growth. Choice (B) merely lists some of the nutrients plants need to survive. Choice (D) is a Misused Detail; paragraph 4 describes nitrogen fixing, which is another benefit of rotation, but the question is asking for the clearest support that rotation encourages plant growth."
+          }
+        },
+        {
+          "id": "GR19",
+          "q_number": 19,
+          "question_type": "mc",
+          "question": "Which detail provides the most relevant support for the claim that \"legumes offer a unique chemical advantage\" (paragraph 4)?",
+          "options": {
+            "A": "the explanation in paragraph 3 of why it can be beneficial to rotate nightshade and legume crops",
+            "B": "the acknowledgement in paragraph 3 that blight spores can remain in the soil for prolonged periods of time",
+            "C": "the description in paragraph 4 of how legumes convert atmospheric nitrogen into a soil-bound form",
+            "D": "the identification in paragraph 4 of what type of bacteria is present in the root nodules of legumes"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Research the detail in paragraph 4 about legumes offering a \"unique chemical advantage.\" Legumes are described as \"nitrogen fixers,\" actively adding to the soil's store of nitrogen. This matches (C). The other choices are incorrect because they are Misused Details. (A) and (B) are details that refer to why crop rotation can prevent pathogens, not why legumes specifically have a \"unique chemical advantage.\" (D) is a detail related to legumes as \"nitrogen fixers,\" but this detail itself does not indicate the \"unique chemical advantage\" of legumes."
+          }
+        },
+        {
+          "id": "GR20",
+          "q_number": 20,
+          "question_type": "mc",
+          "question": "THIS IS THE FINAL QUESTION FOR THIS PASSAGE.\n\nWhich quotation from the passage indicates the primary source of nitrogen that legumes \"fix\" into the soil?",
+          "options": {
+            "A": "\"For example, the spores of Phytophthora infestans (late blight) can linger in the soil where potatoes or tomatoes were grown.\" (paragraph 3)",
+            "B": "\"By moving these plants, which belong to the 'nightshade' family of crops, to a different bed the following year and replacing them with a different family, such as legumes (beans and peas), the gardener effectively starves the remaining pathogens.\" (paragraph 3)",
+            "C": "\"Through a symbiotic relationship with Rhizobium bacteria in their root nodules, they convert atmospheric nitrogen into a form that stays in the ground.\" (paragraph 4)",
+            "D": "\"When these plants die and decompose, they leave behind a store of nitrogen for the next heavy-feeding crop.\" (paragraph 4)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Check your Roadmap to find that nitrogen fixing is discussed in paragraph 4. The question asks which quotation identifies the source of the nitrogen that legumes \"fix.\" Choice (C) is correct because it indicates that legumes have the ability to convert nitrogen in the atmosphere into a form that stays in the ground. Choice (A) is Out of Scope; late blight has nothing to do with nitrogen fixing. Choice (B) is a Distortion; it discusses the beneficial effects of legumes on pathogens, not on nitrogen. Choice (D) is another Distortion; it says that when legumes die and decompose, they leave behind some nitrogen. However, it never says where this nitrogen actually comes from."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 7,
+      "genre": "narrative",
+      "title": "Excerpt from \"My Reflections of Summer\"",
+      "author": null,
+      "citation": null,
+      "intro_note": "Marek, the narrator, is completing his last day of volunteering at the local animal shelter for a high school volunteer project.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Charlie, a chocolate lab mix with oversized paws and a lolling tongue, is one of my favorites at the Animal Shelter. She's been here since a kind-hearted soul brought her and her four siblings in after the mother had been found in an alley. A rescuer had taken the litter and mother until they could eat on their own, then returned the puppies for adoption. One by one, her siblings found homes, but Charlie's energetic behavior seemed to deter even the most fearless of children and patient of adopters. In the eight months that I had been walking the dogs at the shelter, only Charlie still pulled ahead or turned the leash into a chew toy."
+        },
+        {
+          "num": 2,
+          "text": "The volunteer coordinator, Ireland, smiled as I returned. Charlie appeared to have gained energy from the walk rather than expending any. When Ireland directed another volunteer to take Charlie for another walk, the volunteer sighed audibly before dragging his feet and Charlie back out to the field. I watched the enthusiastic puppy and the decidedly unenthusiastic walker. I wondered how many other volunteers just tolerated Charlie, who was easily the best dog in the place."
+        },
+        {
+          "num": 3,
+          "text": "\"We're all going to miss you, but I think Charlie is gonna miss you most of all,\" Ireland said, seeing my focus on the retreating figures."
+        },
+        {
+          "num": 4,
+          "text": "\"I wish I could stay, but I need to start working. I'm gonna need a car for college, and my parents can't afford it,\" I responded, turning back to Ireland."
+        },
+        {
+          "num": 5,
+          "text": "\"And I wish we could afford to pay you to walk her, but that's the downside of being a non-profit,\" Ireland responded."
+        },
+        {
+          "num": 6,
+          "text": "\"I know. That's why we only get paid with dog kisses and cat scratches,\" I said, shrugging off a little sadness that I couldn't afford to just adopt Charlie. But getting a dog only a year before leaving for college wasn't a good idea."
+        },
+        {
+          "num": 7,
+          "text": "She smiled at me kindly, as if she could hear my thoughts, and turned back to organizing a box of newly donated chew toys."
+        },
+        {
+          "num": 8,
+          "text": "I left the storage area, intending to head to the kitten corner before clocking out for the day, when I passed a family walking through the outdoor kennels. I overheard the child exclaim about the rather distinct smell of so many animals in one space. It reminded me of when I first started volunteering to complete the community service hours required by my high school. I was not happy that my only option—due to my schedule and reliance on the bus route—was volunteering at my local animal shelter. A few of my friends, with their own cars or more flexible schedules, had scored gigs at offices or for local events. Both were probably a lot cleaner and cooler than this would be."
+        },
+        {
+          "num": 9,
+          "text": "After my mom had dropped me off at the shelter, I signed in and proceeded to the small multipurpose room. There were about a dozen others with varying degrees of interest in being there. I sat at the back, prepared to listen to a boring speech about unwanted animals, sad surrender stories, and a task list we'd be expected to do every day. Instead, Ireland, a short, gray-haired woman with the energy of a border collie, opened with a video of the funny antics the shelter had caught on tape. She shared heartwarming stories of successful adoptions, statistics about their rescues, and the most optimistic view of the future."
+        },
+        {
+          "num": 10,
+          "text": "\"The job may stink—because all animals poop—and, yes, there's some tragedy in this line of work. But you'll learn more about humanity, and your own connection to it, working here than you will anywhere else. And if dog kisses and cat scratches were dimes, you'd be a millionaire by August,\" Ireland said, concluding her presentation."
+        },
+        {
+          "num": 11,
+          "text": "She took us on a tour of the shelter. The good feelings made by the presentation were quickly wiped away by the stench of the outdoor kennels."
+        },
+        {
+          "num": 12,
+          "text": "\"Ugh! Why does it smell like this?\" A young girl exclaimed, covering her nose and mouth with the collar of her shirt."
+        },
+        {
+          "num": 13,
+          "text": "\"Scared and lonely dogs who have undiagnosed nutritional needs,\" Ireland said, losing a bit of the humor she had been showing."
+        },
+        {
+          "num": 14,
+          "text": "\"Why do you treat them like this?\" the girl asked."
+        },
+        {
+          "num": 15,
+          "text": "\"We don't treat them like this. Most of these dogs have been abandoned or anonymously surrendered, so we can't ask if they have certain food needs. They're scared because it's new, it's loud, and their family isn't here anymore, and they don't understand,\" Ireland answered."
+        },
+        {
+          "num": 16,
+          "text": "That made me feel worse than the smell did. A crash against the chain link fence and a loud bark made a few of us jump. It was a large, dark brown puppy, whose feet seemed to be growing faster than the rest of her. She jumped against the fence again, seeming to say, \"Hi Friends! Play? Run? Play?\" If dogs could smile optimistically, that's exactly what you'd say she was doing."
+        },
+        {
+          "num": 17,
+          "text": "\"Charlie!\" an old volunteer called, \"Down!\""
+        },
+        {
+          "num": 18,
+          "text": "Charlie dropped paws to the ground with her tail wagging like an engine revving, which caused her whole body to vibrate. Her two kennel mates, also brown dogs, lay quietly on the concrete, clearly unable to keep up with Charlie."
+        },
+        {
+          "num": 19,
+          "text": "I had to laugh because Charlie reminded me so much of my little sister Andra, who always had time for fun. Crouching down, I scratched her ears through the fence."
+        },
+        {
+          "num": 20,
+          "text": "\"Some won't ever understand why their siblings keep leaving, but they stay here.\" Ireland continued, unaffected by Charlie's exuberance."
+        },
+        {
+          "num": 21,
+          "text": "We continued on, following Ireland through the many different and essential areas of the shelter."
+        },
+        {
+          "num": 22,
+          "text": "Looking back now, I realize how much this experience has changed my life. I never knew how much I'd enjoy getting to know the animals and people here or that it'd lead me to the perfect job—dogwalking in my neighborhood. The experience gave me so much more than I had anticipated, and I worried I would never be able to return the favor."
+        },
+        {
+          "num": 23,
+          "text": "I worried that I would also be one more person to leave Charlie behind. Would she miss me as much as I would miss her?"
+        },
+        {
+          "num": 24,
+          "text": "I said goodbye to the staff and other volunteers on my way out and headed to my bus stop. The walk was harder than I expected, but I hoped that it was one I would be able to walk again."
+        }
+      ],
+      "questions": [
+        {
+          "id": "GR21",
+          "q_number": 21,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 2.\n\nWhen Ireland directed another volunteer to take Charlie for another walk, the volunteer sighed audibly before dragging his feet and Charlie back out to the field.\n\nHow does the phrase \"dragging his feet\" contribute to the meaning of the excerpt?",
+          "options": {
+            "A": "It implies that the volunteer was struggling to walk the dog.",
+            "B": "It shows how dog-walking can be a difficult task for new volunteers.",
+            "C": "It reveals that the volunteer was wearing heavier shoes than Marek was wearing.",
+            "D": "It suggests that the volunteer was resistant to walking Charlie."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The phrase \"dragging his feet\" is used figuratively to describe reluctance. The volunteer \"sighed audibly\" before reluctantly taking Charlie out, showing his resistance to the task. (D) is correct.\n(A) and (B) are Distortions; the phrase is not describing literal physical difficulty walking the dog. (C) is Out of Scope; shoes are never discussed."
+          }
+        },
+        {
+          "id": "GR22",
+          "q_number": 22,
+          "question_type": "mc",
+          "question": "The words \"heartwarming\" and \"optimistic\" affect the tone in paragraph 9 by",
+          "options": {
+            "A": "highlighting the feeling of joy that Ireland experiences when working at the shelter.",
+            "B": "illustrating the feeling of unease Marek directs toward the shelter's staff.",
+            "C": "emphasizing the feelings of excitement that Marek has for dog-walking.",
+            "D": "exaggerating the feeling of disinterest that new volunteers feel during orientation."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: Paragraph 9 begins with Marek's disinterest and expectations of boredom. The contrasting transition word \"Instead\" signals a shift to an energetic woman, Ireland, with funny videos. This shift is continued with Ireland sharing more positive and engaging content. Predict that the correct answer will emphasize that lightheartedness. (A) is correct. Both (B) and (D) are Opposite; the words indicate a positive tone, which is the opposite of \"unease\" and \"disinterest.\" (C) is a Misused Detail; Marek is not excited about dog-walking in the flashback."
+          }
+        },
+        {
+          "id": "GR23",
+          "q_number": 23,
+          "question_type": "sort_categories",
+          "question": "Which quotation from the excerpt supports the idea that Marek understands that Charlie has been left behind before, and which quotation supports the idea that Marek is concerned about not seeing Charlie in the future?\n\nMove the correct answer to each box.",
+          "correct": {
+            "q1": "catA",
+            "q3": "catB"
+          },
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: The question requires quotations that support two different ideas: 1) Marek's understanding of Charlie's abandonment and 2) Marek's worry about not seeing Charlie again. Elimination could be a good strategy here. The first quote (\"One by one...\") is correct because it indicates that Marek understands Charlie has been left behind before, as Charlie remained while her siblings were each chosen. The second quote (\"We're all going to miss you, ...\") is incorrect because it is Ireland's point of view referencing how Charlie will feel, not Marek's view. The third quote (\"The experience gave me...\") focuses on Marek's worry about giving back what he got out of the experience, which was predominantly focused on his bond with Charlie. This supports the idea that Marek is concerned about not seeing Charlie in the future. The last quote (\"I worried that...\") is incorrect because it focuses on Marek saying goodbye to the volunteers; it does not address his leaving Charlie.\nNote: the live exam's drag targets did not line up with this exhibit text exactly (the exhibit explanation marks the 3rd listed option, \"The experience gave me...\" paragraph 22, as supporting the 'concerned about not seeing Charlie in the future' idea) — the 'answer' field above reflects the on-screen checked state captured in the screenshot, and the exhibit text's own reasoning is preserved verbatim for reference."
+          },
+          "sort_items": [
+            {
+              "id": "q1",
+              "text": "\"One by one, her siblings found homes, but Charlie's energetic behavior seemed to deter even the most fearless of children and patient of adopters.\" (paragraph 1)"
+            },
+            {
+              "id": "q2",
+              "text": "\"We're all going to miss you, but I think Charlie is gonna miss you most of all,\" (paragraph 3)"
+            },
+            {
+              "id": "q3",
+              "text": "\"The experience gave me so much more than I had anticipated, and I worried I would never be able to return the favor.\" (paragraph 22)"
+            },
+            {
+              "id": "q4",
+              "text": "\"I said goodbye to the staff and other volunteers on my way out and headed to my bus stop.\" (paragraph 24)"
+            }
+          ],
+          "sort_categories": [
+            {
+              "id": "catA",
+              "label": "Supports the idea that Marek understands that Charlie has been left behind before"
+            },
+            {
+              "id": "catB",
+              "label": "Supports the idea that Marek is concerned about not seeing Charlie in the future"
+            }
+          ]
+        },
+        {
+          "id": "GR24",
+          "q_number": 24,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 20.\n\n\"Some won't ever understand why their siblings keep leaving, but they stay here.\" Ireland continued, unaffected by Charlie's exuberance.\n\nThis remark contributes to the conflict in the excerpt by",
+          "options": {
+            "A": "explaining the source of Charlie's distress.",
+            "B": "causing Marek to feel unprepared to care for Charlie.",
+            "C": "showing how frequently animals are abandoned.",
+            "D": "providing insight into Marek's concern about leaving."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The conflict centers around Marek feeling guilty about leaving Charlie behind at the end of his volunteering. In paragraph 4, Marek states, \"I wish I could stay, but I need to start working.\" In the final paragraphs, he repeatedly expresses his sadness and concern about leaving Charlie behind. Likewise, in these sentences from paragraph 20, Ireland mentions dogs not understanding when they are left behind. (D) is correct. Eliminate (A) because it is a Misused Detail. Charlie is not distressed in this scene; rather she looks like she is \"smil[ing] optimistically\". (B) is Out of Scope. Marek never implies he's unprepared to care for Charlie. (C) is a Misused Detail: the conflict is how Marek feels about leaving Charlie, not the frequency with which animals are abandoned."
+          }
+        },
+        {
+          "id": "GR25",
+          "q_number": 25,
+          "question_type": "mc",
+          "question": "Read these sentences from the excerpt.\n\nI was not happy that my only option—due to my schedule and reliance on the bus route—was volunteering at my local animal shelter. (paragraph 8)\n\nI never knew how much I'd enjoy getting to know the animals and people here or that it'd lead me to the perfect job—dogwalking in my neighborhood. (paragraph 22)\n\nThe sentences help develop a central idea of the excerpt by",
+          "options": {
+            "A": "showing that no students want to volunteer at an animal shelter.",
+            "B": "revealing that the perfect job is often found close to home.",
+            "C": "emphasizing that acting on an impulse can be misguided.",
+            "D": "showing that undesired situations can bring unexpected benefits."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: Identify how these two sentences function both separately and together. The first sentence explains why Marek was not happy about volunteering at the animal shelter. The second sentence explains why it turned out to be an excellent experience for him. Predict that the correct answer will reflect that contrast. (D) is correct. (A) is Extreme; nothing in these sentences or the excerpt shows that \"no\" students want this opportunity. (B) misuses details; only the second sentence references the \"perfect job.\" (C) is Out of Scope, as the passage does not address acting on impulse; rather Marek thinks carefully about his decision to leave the shelter."
+          }
+        },
+        {
+          "id": "GR26",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "The flashback in paragraphs 9-21 affects the plot by",
+          "options": {
+            "A": "showing how Marek first began enjoying his time at the shelter.",
+            "B": "revealing that volunteers are needed at the shelter to help with the animals.",
+            "C": "explaining why the high school requires its students to volunteer.",
+            "D": "illustrating the long history Marek's family has had with the animal shelter."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: If the flashback were not included, what would the reader not know? The paragraphs before the flashback introduce Marek's sadness about leaving, and that he initially wasn't happy about needing to volunteer. The paragraphs after the flashback include Marek reflecting on what he's gained from the experience, his worry about Charlie, and his hope to return. Without the flashback, the reader wouldn't know about the moments when Marek began feeling attached to the shelter and Charlie: when Ireland gave her presentation and when Charlie reminded him of his sister. Predict that the correct answer will mention that the flashback affects the plot by helping the reader understand why Marek developed an appreciation for volunteering at the shelter. This most closely matches (A), the correct answer. (B) is incorrect because the shelter's need is implied before the flashback. (C) and (D) are Out of Scope."
+          }
+        },
+        {
+          "id": "GR27",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 24.\n\nI said goodbye to the staff and other volunteers on my way out and headed to my bus stop. The walk was harder than I expected, but I hoped that it was one I would be able to walk again.\n\nThe sentences help develop a theme of the excerpt by",
+          "options": {
+            "A": "implying that an unappealing task can become a welcome one.",
+            "B": "suggesting that volunteering is a critical step in developing empathy for animals.",
+            "C": "illustrating how walking alone is more tiresome than walking with an animal.",
+            "D": "explaining why repetition can complicate a familiar task."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: This question directs you to connect specific sentences to a theme of the excerpt. The sentences show that the speaker finds an action hard, and that he hopes to do it again. (A) is correct because both the sentence and the excerpt share the theme of an undesirable task becoming an important and enjoyable one. Initially, Marek does not want to volunteer, but he becomes invested in the work, even creating a new job with the skills he learned. He has to leave his favorite dog, who is frequently referred to as being hard to work with. This duality is further developed by these sentences. Though saying goodbye and leaving is difficult, he hopes to return and walk away another time. (B) is incorrect because nothing in these sentences references empathy, though the excerpt itself may have that theme. (C) is incorrect because the sentences are not about walking with a dog. (D) is incorrect because nothing in these sentences or the excerpt discusses complicating a familiar task."
+          }
+        },
+        {
+          "id": "GR28",
+          "q_number": 28,
+          "question_type": "sort_categories",
+          "question": "THIS IS THE FINAL QUESTION FOR THIS PASSAGE.\n\nWhat is Marek's primary mood at key points in the excerpt?\n\nMove the correct answer to each box in the table.",
+          "correct": {
+            "m1": "catP1",
+            "m2": "catP2",
+            "m3": "catP3"
+          },
+          "solution": {
+            "exhibit_text": "Category: Inference\nGetting to the Answer: In paragraphs 6-7, Marek is sad that he couldn't afford Charlie. However, he also knows that even if he could afford her, it would still be irresponsible to adopt her because he was leaving for college. He feels Disappointment about the situation. In paragraphs 15-16, Marek is given some insight into the difficult situation that the animals find themselves in, and he feels 'worse' hearing about it. He's presented with the harsh reality and then faced with a dog who's still hopeful that she will find friends. The mood that fits this is Sympathetic, which means feeling another's misfortune. In paragraphs 22-23, Marek is thinking about all that he's learned and been given, but he is also worried about how Charlie will be affected. He is thoughtful and contemplating the past and future, or Reflective."
+          },
+          "sort_items": [
+            {
+              "id": "m1",
+              "text": "Disappointment"
+            },
+            {
+              "id": "m2",
+              "text": "Sympathetic"
+            },
+            {
+              "id": "m3",
+              "text": "Reflective"
+            },
+            {
+              "id": "m4",
+              "text": "Optimistic"
+            },
+            {
+              "id": "m5",
+              "text": "Hopeful"
+            }
+          ],
+          "sort_categories": [
+            {
+              "id": "catP1",
+              "label": "Paragraphs 6-7"
+            },
+            {
+              "id": "catP2",
+              "label": "Paragraphs 15-16"
+            },
+            {
+              "id": "catP3",
+              "label": "Paragraphs 22-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "New Hampshire's Old Man",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "On May 3, 2003, the state of New Hampshire lost its most beloved old man. The Old Man of the Mountain, a rock outcropping that had jutted from the side of Cannon Mountain—in New Hampshire's White Mountains region—collapsed. This remarkable and prominent feature had graced the cliff face for thousands of years, long attracting the attention of residents, naturalists, and hikers, but its vulnerability was well understood long before the fateful collapse. In fact, since 1915, steel cables and turnbuckles had been used to shore up the ledges that formed the profile. The forces of erosion couldn't be kept at bay forever, and, after the unusually harsh spring of 2003 proved to be too much, portions of the rock profile crumbled and fell to the valley below."
+        },
+        {
+          "num": 2,
+          "text": "Composed of a series of five Conway red granite ledges stacked one on top of the other, the Old Man of the Mountain was about 40 feet high and 25 feet across. Before the rockfall, the granite ledges had jutted out from the rock face of the cliff in striking formation, suggesting the features of a face in profile. Although the natural cliff remains, the distinctive profile is now gone, probably forever. Plans to restore the face have been suggested but have been deemed impractical, and the government of New Hampshire has chosen instead to honor the Old Man of the Mountain with a museum. Though the famous rock face is no more, its history is far from forgotten."
+        },
+        {
+          "num": 3,
+          "text": "The discovery of the Old Man of the Mountain in 1805 has been credited to surveyors Luke Brooks and Francis Whitcomb. However, Native Americans stated long before that time that they had seen a stone face in the White Mountains. As more and more people settled in New Hampshire, the fame of the rocky profile grew. Statesman Daniel Webster, a famed U.S. congressman in the 1800s who was originally from New Hampshire, is credited with having said, \"Men hang out their signs indicative of their respective trades: shoemakers hang out a gigantic shoe, jewelers a monster watch, and the dentist hangs out a gold tooth, but in the mountains of New Hampshire, God Almighty has hung out a sign to show that there, He makes men.\" In 1945, the Old Man of the Mountain became the state symbol of New Hampshire and has appeared on highway road signs and license plates, as well as the state quarter."
+        },
+        {
+          "num": 4,
+          "text": "Although the remarkable history of the Old Man of the Mountain is as old as the United States, its geologic history is much older. According to geologists, the stone face was the result of processes that began millions of years ago. The White Mountains were created from magma intrusions that, more than 100 million years ago, created the foundational granite that comprises the feature. However, it probably wasn't until the Ice Age, when glaciers descended from the arctic and sculpted the White Mountains, that the surface materials were scrubbed away leaving behind the prominent granite ledges. When the Ice Age ended approximately 10,000 years ago, the glaciers receded and the ice melted. Part of the Old Man's profile was formed by the melting and falling of large chunks of ice from Cannon Mountain during this thawing period. The profile was completed through the eroding process of water collecting and freezing in crevices of the rock face."
+        },
+        {
+          "num": 5,
+          "text": "Erosion moves steadily forward, relentlessly, regardless of human interests. Ironically, the same erosion that formed the Old Man of the Mountain ultimately removed it, and the erosion will continue to shape and reshape the cliffs of New Hampshire for eternity. In time, another \"Old Man\" could form. In fact, other distinctive rock formations appear all over the world, including Der große Kurfürst (said to look like a nobleman) in Germany, the Heathen Maiden in Slovenia, or the Sleeping Giant in Connecticut. However, few formations possess such a clear, distinctive image, and none hold the special place in the hearts of the citizens of New Hampshire as does that of the Old Man of the Mountain."
+        }
+      ],
+      "questions": [
+        {
+          "id": "GR29",
+          "q_number": 29,
+          "question_type": "mc_multi",
+          "question": "Which two phrases from paragraph 1 most affect the tone of the passage?\n\nMove the two correct answers to the box.",
+          "options": {
+            "A": "\"shore up the ledges\"",
+            "B": "\"most beloved\"",
+            "C": "\"jutted from the side of Cannon Mountain\"",
+            "D": "\"remarkable and prominent\"",
+            "E": "\"fell to the valley below\""
+          },
+          "correct": [
+            "B",
+            "D"
+          ],
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: Although the passage is primarily an objective description of the history and collapse of the Old Man rock feature, the author includes some words and phrases that indicate both locals' and the author's own admiration of the Old Man. In paragraph 1, the phrases \"most beloved\" and \"remarkable and prominent\" reflect this admiring tone. The other phrases are neutral in tone and are incorrect."
+          }
+        },
+        {
+          "id": "GR30",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "Read the sentence from paragraph 1.\n\nThe forces of erosion couldn't be kept at bay forever and, after the unusually harsh spring of 2003 proved to be too much, portions of the rock profile crumbled and fell to the valley below.\n\nHow does the phrase \"proved to be too much\" contribute to the meaning of the passage?",
+          "options": {
+            "A": "It foreshadows the disastrous effects of ice falling from Cannon Mountain.",
+            "B": "It indicates the immediate cause of the collapse of the Old Man of the Mountain.",
+            "C": "It establishes why the cables and turnbuckles holding the Old Man of the Mountain in place broke.",
+            "D": "It explains why water was collecting and freezing in crevices of the mountain."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The sentence in the question refers to the collapse of the Old Man of the Mountain, stating that \"the unusually harsh spring of 2003 proved to be too much.\" The phrase signals the event that immediately led to the collapse, so (B) is the correct answer. (A) is a Distortion. Ice falling from the mountain face is cited as a cause for the Old Man's formation in paragraph 4, not its collapse. (C) is also a Distortion. The passage mentions that cables and turnbuckles held the face in place since 1915, but the text does not state that they broke. (D) is also a Distortion. Freezing water is mentioned as a reason for the rocky profile's formation, not its collapse."
+          }
+        },
+        {
+          "id": "GR31",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "The idea that people have known about the Old Man of the Mountain for a long time is best illustrated in the passage through the",
+          "options": {
+            "A": "information about how Brooks and Whitcomb discovered the Old Man of the Mountain.",
+            "B": "description of the controversy surrounding the proposed efforts at reconstructing this famous landmark.",
+            "C": "discussion of the construction of the memorial museum for the Old Man of the Mountain.",
+            "D": "detail highlighting that Native Americans knew of a face in the White Mountains."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: When a question asks for a detail from the passage, paraphrase the question in your mind, then use your Roadmap or paragraph notes to locate the information in the passage. Here, you're asked how the author illustrates that people have known about the Old Man of the Mountain for a long time. Return to paragraph 3, where the discovery of the formation is mentioned. Although the formation was first documented in 1805, the author follows that information with the contrast keyword \"However\" to indicate that the Native Americans knew of the formation much earlier. (D) is correct.\n(A) is a Misused Detail from the passage; although Brooks's and Whitcomb's discovery of the Old Man of the Mountain did take place a long time ago, the author emphasizes that the Native Americans knew of it much longer. (B) is Extreme and doesn't relate to the question. The proposed efforts to restore the formation were called \"impractical\" by the state government, but no \"controversy\" is described in the passage. In addition, the preservation efforts were recent and do not indicate that people have known of the formation for a long time. Similarly, the construction of the museum does not indicate that people have known of the formation for a long time; (C) is a Misused Detail."
+          }
+        },
+        {
+          "id": "GR32",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "How does paragraph 4 fit into the overall structure of the passage?",
+          "options": {
+            "A": "It explains in geological terms how the Old Man of the Mountain collapsed.",
+            "B": "It explains how the Old Man of the Mountain rock formation existed long before the state of New Hampshire.",
+            "C": "It illustrates how well-formed the profile of the Old Man of the Mountain was prior to its collapse.",
+            "D": "It emphasizes how old New Hampshire is compared to other states."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: When a question asks how a paragraph fits into a passage, recall the Main Idea of the entire passage. Here, the purpose of the passage is to discuss the formation, history, importance, and loss of the Old Man of the Mountain. Use your Roadmap to review that paragraph 4 discusses the geological processes that created the formation. The topic sentence of the paragraph emphasizes that, even though people have known about the Old Man of the Mountain for a long time, its history is much older. (B) is correct.\n(A) is a subtle Distortion; the paragraph discusses the formation of the Old Man of the Mountain, not its collapse. (C) is a Misused Detail. Since it was so distinctive, the profile of the Old Man of the Mountain was well-formed, but that is not mentioned in paragraph 4. (D) is Out of Scope. There is no comparison in the text between New Hampshire and any other state."
+          }
+        },
+        {
+          "id": "GR33",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "Which sentence best demonstrates the cultural importance of the Old Man of the Mountain in the present day?",
+          "options": {
+            "A": "\"Before the rockfall, the granite ledges had jutted out from the rock face of the cliff in striking formation, suggesting the features of a face in profile.\" (paragraph 2)",
+            "B": "\"Plans to restore the face have been suggested but have been deemed impractical, and the government of New Hampshire has chosen instead to honor the Old Man of the Mountain with a museum.\" (paragraph 2)",
+            "C": "\"'Men hang out their signs indicative of their respective trades: shoemakers hang out a gigantic shoe, jewelers a monster watch, and the dentist hangs out a gold tooth, but in the mountains of New Hampshire, God Almighty has hung out a sign to show that there, He makes men.'\" (paragraph 3)",
+            "D": "\"In fact, other distinctive rock formations appear all over the world, including Der große Kurfürst (said to look like a nobleman) in Germany, the Heathen Maiden in Slovenia, or the Sleeping Giant in Connecticut.\" (paragraph 5)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Evaluate the answer choices to find the one that shows that the Old Man of the Mountain is important today. Eliminate (A) because it describes the formation before its collapse. (B) states that the people of New Hampshire chose to \"honor\" the Old Man by constructing a museum; this demonstrates the Old Man's present-day cultural importance, so (B) is correct. (C) is incorrect because the words of Daniel Webster are in a paragraph about the history of the Old Man. (D), describing other rock formations around the world, does not indicate the importance of the Old Man of the Mountain specifically and is also incorrect."
+          }
+        },
+        {
+          "id": "GR34",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "THIS IS THE FINAL QUESTION FOR THIS PASSAGE.\n\nWhich sentence from the passage best explains the origin of the Old Man of the Mountain's name?",
+          "options": {
+            "A": "\"The Old Man of the Mountain, a rock outcropping that had jutted from the side of Cannon Mountain—in New Hampshire's White Mountains region—collapsed.\" (paragraph 1)",
+            "B": "\"Composed of a series of five Conway red granite ledges stacked one on top of the other, the Old Man of the Mountain was about 40 feet high and 25 feet across.\" (paragraph 2)",
+            "C": "\"However, Native Americans stated long before that time that they had seen a stone face in the White Mountains.\" (paragraph 3)",
+            "D": "\"Ironically, the same erosion that formed the Old Man of the Mountain ultimately removed it, and the erosion will continue to shape and reshape the cliffs of New Hampshire for eternity.\" (paragraph 5)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Paragraph 2 describes the Old Man of the Mountain as \"suggesting the features of a face in profile,\" which is the likely reason for its name. Identify the choice that discusses the appearance of the rock formation as a face. (C) is correct. The other choices do not describe the formation's appearance and are therefore incorrect."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Practicing Goodbye",
+      "author": "Harvey Lamar",
+      "citation": null,
+      "lines": [
+        {
+          "num": 1,
+          "text": "Life was once a constant rhythm set in time"
+        },
+        {
+          "num": null,
+          "text": "A beat that kept us moving forward and"
+        },
+        {
+          "num": null,
+          "text": "Together in a home, a neighborhood just"
+        },
+        {
+          "num": null,
+          "text": "A sidewalk away from everyone we loved."
+        },
+        {
+          "num": 5,
+          "text": "Laughter and loudness is now replaced by"
+        },
+        {
+          "num": null,
+          "text": "Boxes, the sounds of stretching packing tape,"
+        },
+        {
+          "num": null,
+          "text": "And silence echoing in the new emptiness."
+        },
+        {
+          "num": null,
+          "text": "Sidewalks to be replaced by state lines, and"
+        },
+        {
+          "num": null,
+          "text": "Short car rides replaced by hours in flight."
+        },
+        {
+          "num": 10,
+          "text": "New house, new school, but family irreplaceable."
+        },
+        {
+          "num": null,
+          "text": "While we pack, my grandfather feigns cheerfulness"
+        },
+        {
+          "num": null,
+          "text": "False joyfulness he keeps for me and Mom,"
+        },
+        {
+          "num": null,
+          "text": "I keep practicing my goodbye—not good—"
+        },
+        {
+          "num": null,
+          "text": "the closing of a final chapter in a series"
+        },
+        {
+          "num": 15,
+          "text": "Of great ones. The man who showed up"
+        },
+        {
+          "num": null,
+          "text": "To every game and performance. The man who"
+        },
+        {
+          "num": null,
+          "text": "Taught me to ride a bike, throw a ball. Skills"
+        },
+        {
+          "num": null,
+          "text": "He dedicated to and provided the time"
+        },
+        {
+          "num": null,
+          "text": "For each of his children, still living close."
+        },
+        {
+          "num": 20,
+          "text": "Nine grandchildren, all still living close, taught"
+        },
+        {
+          "num": null,
+          "text": "How to fish in the streams, hike through the hills"
+        },
+        {
+          "num": null,
+          "text": "Whittle away worries, and carve birds with"
+        },
+        {
+          "num": null,
+          "text": "A pocket knife and a branch from an oak"
+        },
+        {
+          "num": null,
+          "text": "That has grown to accommodate each new"
+        },
+        {
+          "num": 25,
+          "text": "Addition to the family's annual picnics."
+        },
+        {
+          "num": null,
+          "text": "An oak that each generation has climbed."
+        },
+        {
+          "num": null,
+          "text": "And now, with these final days, he teaches"
+        },
+        {
+          "num": null,
+          "text": "Mom and me to say the hardest goodbyes when"
+        },
+        {
+          "num": null,
+          "text": "I'd rather keep fishing, hiking, and whittling."
+        },
+        {
+          "num": 30,
+          "text": "Climbing our tree and picnicking with family."
+        },
+        {
+          "num": null,
+          "text": "The hours can pass with new chapters added,"
+        },
+        {
+          "num": null,
+          "text": "But the days frozen, kept here in our town"
+        },
+        {
+          "num": null,
+          "text": "A sidewalk away, the goodbyes temporary."
+        },
+        {
+          "num": null,
+          "text": "And this last goodbye would never come."
+        }
+      ],
+      "questions": [
+        {
+          "id": "GR35",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "How does the setting affect the events of the poem?",
+          "options": {
+            "A": "It provides a sense of comfort that helps the speaker ignore the reality of moving away.",
+            "B": "It explains why the speaker is thinking about past adventures with his grandfather.",
+            "C": "It forces the speaker to confront the changing nature of this relationship with his grandfather.",
+            "D": "It demonstrates how moving out of state can only be done with help from family."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: When questions ask about the \"affect\" of something, they are Function questions. This one asks about how the setting adds to or influences activities in the poem. The first stanza establishes that this poem is set in a house that had its laughter and loudness replaced by packing sounds and emptiness. Without this setting, it would be unclear that the speaker's move out of state was actively happening and thus unclear why the speaker is \"practicing\" saying goodbye (line 13). Match this to (C), the correct answer. (A) is incorrect because it is Opposite. The \"silence echoing in the new emptiness\" (line 7) is not comforting; it makes it impossible for the speaker to ignore the move. (B) is incorrect because it is the act of moving that inspires the reminiscing, not the setting. (D) is Extreme; the poem does not indicate that moving can only be done with the help of family."
+          }
+        },
+        {
+          "id": "GR36",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "Which idea does the phrase \"Sidewalks to be replaced by state lines\" in line 8 convey?",
+          "options": {
+            "A": "It shows that the geography of the speaker's hometown is shifting as time passes.",
+            "B": "It reveals that the physical distance between the speaker and his grandfather will be increasing.",
+            "C": "It suggests that the speaker feels an emotional distance between himself and his grandfather.",
+            "D": "It reveals that the speaker's family moved because the father is a pilot who moved to a different state."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The correct answer to this Function question will explain the meaning or purpose behind the referenced phrase. Review your Roadmap: stanza 1 is about the speaker and his mother moving out of a house that is only \"A sidewalk away from everyone we loved\" (line 4). Since the speaker asserts in the phrase in the question that sidewalks will be replaced by state lines, predict that the correct answer will reference the speaker now living states away from his loved ones. Match this to (B), the correct answer.\n(A) is Out of Scope; the speaker's hometown's geography is never referenced, only his home's relative location to that of his extended family. (C) is a Distortion; the phrase reflects physical (\"state lines\"), not emotional, distance. (D) is Out of Scope; the poem never mentions the reason that the family is moving."
+          }
+        },
+        {
+          "id": "GR37",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "The isolation of the words \"—not good—\" in line 13 contributes to the meaning of the poem mainly by",
+          "options": {
+            "A": "demonstrating how an expression's meaning depends on the context in which it is used.",
+            "B": "comparing saying goodbye to a loved one with the action of closing a book.",
+            "C": "emphasizing how phrases can only be understood when paired with an analogy.",
+            "D": "illustrating that the best part of a new adventure is the ending of a previous one."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: For Function questions that ask about how the meaning of the poem is impacted by the use of a writing device, ask yourself what the specific feature adds to the poem. The parenthetical phrase \"—not good—\" emphasizes that although the phrase is \"goodbye\" the speaker does not think of it as being \"good\" in this context. It further adds to the theme of having a difficult time saying goodbye. (A) is correct. The isolation of the phrase emphasizes that the term \"goodbye,\" though often used casually when parting, can have an ironic, decidedly not good meaning when used in more extreme contexts, such as the long-distance move described in the poem.\n(B) is incorrect because it is a Misused Detail. While the poem does use a book analogy in the very next line (\"the closing of a final chapter\"), the specific isolation of the words \"not good\" is about the emotional weight of the word \"good,\" not the book metaphor itself. (C) is Extreme. Just because the poem contains an analogy does not mean it is suggesting phrases can only be understood through analogies. (D) is Opposite. The speaker is lamenting the move away from his grandfather; he does not consider the ending of their previous relationship as a positive (\"best\") thing."
+          }
+        },
+        {
+          "id": "GR38",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "The details in lines 23–26 about the oak convey a central idea of the poem by",
+          "options": {
+            "A": "showing how the speaker experienced the world adjusting to better fit the needs of the family.",
+            "B": "revealing the speaker's understanding of how his leaving will affect the family's traditions.",
+            "C": "suggesting the speaker's family has not experienced many partings during the speaker's life.",
+            "D": "emphasizing the grandfather's continued efforts to guide and protect his family from discomfort."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: When a question references \"a central idea,\" it is a Global question that will connect to the poem as a whole. Review the Paraphrase in your Roadmap: the poem is centered around the speaker's struggle with saying goodbye and wishing time would stop so that his goodbye to his grandfather could remain temporary. The given lines are in a stanza that starts with stating there are nine grandchildren. The lines assert that the oak tree has grown (allowing grandchildren to whittle and climb its branches) to match the family's continued expansion. The lines suggest that the family has steadily grown, with few or no losses mentioned or implied in the poem. (C) correctly reflects the central idea of the speaker's discomfort and lack of experience with saying \"goodbye.\"\n(A) is incorrect because the world adjusting is not a central idea. (B) is a Misused Detail; the annual picnic is the only tradition mentioned, and the speaker does not reflect on how his moving will impact that tradition. (D) is incorrect because, though it mentions a central idea, this idea is not developed by the given lines."
+          }
+        },
+        {
+          "id": "GR39",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "Which detail from the poem provides evidence for the longevity of the family's shared history of experiences?",
+          "options": {
+            "A": "\"Together in a home, a neighborhood\" (line 3)",
+            "B": "\"New house, new school, but family irreplaceable.\" (line 10)",
+            "C": "\"The man who / Taught me to ride a bike, throw a ball.\" (lines 16-17)",
+            "D": "\"An oak that each generation has climbed.\" (line 26)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: The correct answer will reference experiences that the family has shared over time. (A) describes simply being \"Together,\" but it doesn't reference any actual experiences; eliminate. (B) is incorrect because, while it emphasizes the importance of family (as \"irreplaceable\"), it focuses on the current move rather than the family's history over time. (C) is incorrect because, although it shows experiences between the grandfather and the speaker, it does not reflect the family's long (\"longevity\") history of shared experiences. (D) correctly references the extended passing down (\"each generation\") of an experience (climbing the oak)."
+          }
+        },
+        {
+          "id": "GR40",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "The details in lines 27–30 convey a central idea of the poem by",
+          "options": {
+            "A": "suggesting that the speaker prefers outdoor activities over spending time inside.",
+            "B": "contrasting the joy that the speaker currently feels with the sadness that he typically feels with his grandfather.",
+            "C": "implying that the thought of the speaker's moving upsets his grandfather more than it upsets his cousins.",
+            "D": "showing that his grandfather is able to both actively and passively impart life skills to the speaker."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: Reference your Paraphrase from your Roadmap when thinking about a central idea for the poem: the speaker wishes to keep learning from his grandfather and not say goodbye. The poem opens and closes on the same idea: the sadness and impending move away from the speaker's family, most specifically the grandfather with whom the speaker is very close. In the lines from the question, the speaker expresses that his grandfather is teaching how to do the hard thing (saying a long goodbye) instead of fun things (such as fishing). (D) is correct. The teaching about saying goodbye is imparted without intention though the grandfather's help and \"cheerfulness\" (line 11), while the fun activities were intentionally taught.\n(A) is incorrect because, though it could be true, the speaker's activity preferences are not a idea of the poem. (B) is Opposite. The speaker is currently feeling sad about leaving, not joyful. (C) is incorrect because nothing in the poem suggests a comparison between the grandfather and his cousins."
+          }
+        },
+        {
+          "id": "GR41",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "Read lines 32-34 from the poem.\n\nBut the days frozen, kept here in our town\nA sidewalk away, the goodbyes temporary.\nAnd this last goodbye would never come.\n\nThe word choice in the lines helps convey the speaker's belief that",
+          "options": {
+            "A": "the colder weather makes it easier to have difficult conversations.",
+            "B": "it has been a difficult time of decision-making for his entire family regarding whether to move to a new state.",
+            "C": "it would be preferable for his current life with his family to be permanent and unaffected by time.",
+            "D": "the emotions of the grandfather represent the emotions of the family as a whole."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: Since this question is asking about what is conveyed by the author's word choice, this is a Function question. What is added by the words chosen by the poet in this stanza? The words \"frozen\" and \"kept\" suggest the speaker's wish to preserve his childhood and relationship with his grandfather exactly as it is. Likewise, the words \"goodbyes temporary\" and \"last goodbye would never come\" indicate the speaker's desire to keep goodbyes short-term rather than long-term. Match these ideas to (C), the correct answer.\n(A) is incorrect because it is a Distortion; \"frozen\" doesn't refer to the weather but to the stopping (freezing) of time. (B) and (D) are incorrect because they are Extreme; the poem does not indicate that the decision to move has been difficult for the entire family or discuss the whole family's emotions."
+          }
+        },
+        {
+          "id": "GR42",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "THIS IS THE FINAL QUESTION FOR THIS PASSAGE.\n\nWhich detail from the poem reflects the speaker's acceptance that he is moving away?",
+          "options": {
+            "A": "\"A sidewalk away from everyone we loved.\" (line 4)",
+            "B": "\"New house, new school, but family irreplaceable.\" (line 10)",
+            "C": "\"Nine grandchildren, all still living close, taught\" (line 20)",
+            "D": "\"And this last goodbye would never come.\" (line 34)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: The correct line for this Detail question will reference that the speaker has accepted that his family is moving, even if he is still sad about it. The correct quote will signal that change has happened or that the move cannot be undone. This matches (B), which is correct. If the speaker is explicitly mentioning the \"new house\" and \"new school,\" it shows that he recognizes these things are part of his immediate future.\n(A) is simply a reference to how close the speaker's current house is to their family. (C) signals that, currently, all the grandchildren still live close together, which is not related to the speaker's acceptance. (D) is Opposite: this quote shows the speaker wishing to deny that the move is going to happen."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 7,
+      "total_passages": 7,
+      "genre": "editing",
+      "title": "The Great Depression",
+      "author": null,
+      "citation": null,
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "The United States experienced economic crises, usually labeled \"panics,\" approximately every 20 years from 1819 to 1907."
+          },
+          {
+            "num": 2,
+            "text": "Most of these panics were short-lived and corresponded with the natural business cycle."
+          },
+          {
+            "num": 3,
+            "text": "The New York Stock Exchange had reached an all-time high by 1929, with many stocks selling for more than their actual worth."
+          },
+          {
+            "num": 4,
+            "text": "Until late September 1929, this seemed to be a worthwhile risk."
+          },
+          {
+            "num": 5,
+            "text": "However, the financial bubble finally burst on October 29, 1929, and the stock market collapsed."
+          },
+          {
+            "num": 6,
+            "text": "It was a day that would be known for a long time to come."
+          }
+        ],
+        [
+          {
+            "num": 7,
+            "text": "In the days before the crash, stock prices had plunged to desperate levels."
+          },
+          {
+            "num": 8,
+            "text": "The drop in stock prices led to a selling frenzy on Wall Street."
+          },
+          {
+            "num": 9,
+            "text": "Investors were willing to sell their stocks for a very small percentage of their original worth."
+          },
+          {
+            "num": 10,
+            "text": "The signals of impending doom were clear well before the crash."
+          },
+          {
+            "num": 11,
+            "text": "Americans had spent themselves far into debt by purchasing stocks with loans."
+          },
+          {
+            "num": 12,
+            "text": "Investors also artificially drove stock prices sky-high with over-speculation—gambling that the value of the stocks would continue to rise."
+          },
+          {
+            "num": 13,
+            "text": "An overproduction of manufactured goods, both consumer and industrial, flooded the American marketplace."
+          }
+        ],
+        [
+          {
+            "num": 14,
+            "text": "When it became apparent to manufacturers that consumer spending was slowing down, they laid off workers or cut wages to maintain their profit levels."
+          },
+          {
+            "num": 15,
+            "text": "Farmers also suffered, as the demand for agricultural goods never rose back to World War I levels."
+          },
+          {
+            "num": 16,
+            "text": "To keep up with technological innovations in agriculture, farmers had to purchase new equipment, such as tractors, on credit."
+          },
+          {
+            "num": 17,
+            "text": "In addition, this new equipment created another problem: improved methods led to overproduction, which decreased their profits."
+          }
+        ],
+        [
+          {
+            "num": 18,
+            "text": "The American banking system suffered as a result of its own risky practices."
+          },
+          {
+            "num": 19,
+            "text": "Overestimating the value of property and issuing unsecured personal loans led to numerous defaults and foreclosures."
+          },
+          {
+            "num": 20,
+            "text": "Bank customers' deposits were not protected from poor banking practices; as the stock market failed, many of these people lost the money they had deposited."
+          }
+        ],
+        [
+          {
+            "num": 21,
+            "text": "Globally, economic depression was soon to come."
+          },
+          {
+            "num": 22,
+            "text": "Heavy debt burdens, war reparations, and the suspension of loan programs to assist the rebuilding of Europe drove countries such as Germany and Britain deeper into recession."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "GR43",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "Which sentence should replace sentence 6 to best state the topic of the passage?",
+          "options": {
+            "A": "At that time in history, some of the nation's largest banks had failed to maintain adequate reserves and made risky loans, which directly contributed to the crash.",
+            "B": "The results of the Great Depression were profound and widespread: unemployment rose to 25%, housing prices plummeted by over 50%, and deflation soared above 10%.",
+            "C": "During the 1920s, an average of 70 U.S. banks failed each year; during the first 10 months of 1930, 744 banks failed, more than 10 times as many.",
+            "D": "Commonly known as Black Tuesday, it was the worst stock market crash in U.S. history and was caused by a variety of factors."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Topic Development\nGetting to the Answer: When selecting a sentence to best state the topic of the passage, first identify the passage's overall topic and purpose and then match those ideas to the correct answer. The passage is about the Great Depression. Paragraphs 2-4 outline the causes of the catastrophic event, and paragraph 5 explains how the depression reached a global scale. (D) is the best match. This choice clarifies the idea from the previous sentence by giving the name of the day the market collapsed (\"Black Tuesday\") and introduces the passage's description of the \"factors\" that led to the crash.\n(A) is incorrect because it is too specific; banking practices are discussed only in paragraph 4, not throughout the passage. (B) is incorrect because it focuses on the effects of the Great Depression rather than introducing its causes. (C) is incorrect because it supports the idea that the Great Depression was severe rather than introducing the topic of causes."
+          }
+        },
+        {
+          "id": "GR44",
+          "q_number": 44,
+          "question_type": "mc",
+          "question": "Read this sentence.\n\nPurchasing expensive farm equipment without the cash to pay for it upfront put them further into debt.\n\nWhere should the sentence be added to best support the ideas in the third paragraph (sentences 14-17)?",
+          "options": {
+            "A": "at the beginning of the paragraph (before sentence 14)",
+            "B": "between sentences 14 and 15",
+            "C": "between sentences 16 and 17",
+            "D": "at the end of the paragraph (after sentence 17)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Organization\nGetting to the Answer: When deciding where to add a sentence, determine what information it is providing before assessing where to put it. The sentence provides information about how purchasing expensive farm equipment put farmers further into debt, so placing it after sentence 16, which explains why farmers had to buy new equipment using credit, makes the most sense; (C) is correct. (A) and (B) place the sentence too early, before the idea of purchasing farm equipment is introduced. (D) places the sentence too late in the paragraph. The new sentence is part of the discussion of purchasing farm equipment and should be placed with sentence 16; sentence 17 introduces an additional problem created by the new farm equipment."
+          }
+        },
+        {
+          "id": "GR45",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "Which transition word or phrase should be added to the beginning of sentence 19 to emphasize the relationship between sentences 18 and 19?\n\nMove the correct answer to the box.",
+          "options": {
+            "A": "However,",
+            "B": "Despite this,",
+            "C": "For example,",
+            "D": "In all,"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Organization\nGetting to the Answer: When a question asks about adding a transition, think about the sentence's relationship to the sentence before it. Sentence 19 provides two instances (\"Overestimating the value of property\" and \"issuing unsecured personal loans\") of the \"risky practices\" mentioned in sentence 18, so an example transition is needed; \"For example\" is correct. \"However\" and \"Despite this\" incorrectly indicate a contrast from the previous sentence, and \"In all\" incorrectly implies a conclusion."
+          }
+        },
+        {
+          "id": "GR46",
+          "q_number": 46,
+          "question_type": "mc",
+          "question": "THIS IS THE FINAL QUESTION FOR THIS PASSAGE.\n\nWhat is the best way to combine sentences 7 through 9?",
+          "options": {
+            "A": "Stock prices had plunged to desperate levels in the days before the crash, but they led to a selling frenzy on Wall Street, and investors were willing to sell their stocks for a very small percentage of their original worth.",
+            "B": "In the days before the crash, stock market prices had plunged to desperate levels, causing a selling frenzy on Wall Street as investors were willing to sell their stocks for a very small percentage of their original worth.",
+            "C": "In the days before the crash, stock prices had plunged to desperate levels, yet this led to a selling frenzy on Wall Street, although investors were willing to sell their stocks for a small percentage of their original worth.",
+            "D": "Stock prices had plunged to desperately low levels in the days before the crash, and this plunge in the prices of stocks caused a selling frenzy on Wall Street, even though a very small percentage of their original worth was what investors were willing to sell their stocks for."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Multiple\nGetting to the Answer: The task is to combine three sentences into a single logical statement that clearly shows the cause-and-effect relationship: (1) prices dropped, (2) this caused a selling frenzy, and (3) in the frenzy, investors sold for very little. (B) is correct because it uses the cause-and-effect word \"causing\" and the conjunction \"as\" to logically indicate the relationship between the ideas.\n(A) and (C) are incorrect because they illogically use the contrast transitions \"but\" and \"yet.\" The drop in stock prices and the selling frenzy have a cause-and-effect, not a contrast, relationship. (C) also adds an illogical contrast (\"although\") between the idea of the selling frenzy due to low stock prices and the idea that investors sold stocks for less than they were worth originally. Likewise, (D) also uses \"even though\" to create this illogical contrast. Further, (D) is incorrect because it is wordy and repeats words unnecessarily (\"plunged\" and \"low,\" \"Stock prices had plunged\" and \"this plunge in the prices\")."
+          }
+        }
+      ]
+    }
+  ],
+  "standalone_items": [
+    {
+      "id": "GR47",
+      "q_number": 47,
+      "question_type": "mc",
+      "stimulus": "(1) Both Salvadoran and Mexican tamales are delicious staples of Mesoamerican cuisine, but they differ in preparation, wrapping, and texture. (2) Salvadoran tamales are often prepared by pre-cooking the masa, a ground corn dough, into a thick, smooth roux before steaming it, resulting in a silky, custard-like texture that is much softer and wetter than that of typical Mexican tamales. (3) The preparation of Mexican tamales involves a fat, and broth, which is mixed into the masa before steaming. (4) Mexican tamales are traditionally wrapped in dried corn husks; Salvadoran tamales, however, are wrapped in banana leaves, which give them an earthy flavor and tint them slightly green.",
+      "question": "Which pair of revisions need to be made in this paragraph?",
+      "options": {
+        "A": "Sentence 1: Delete the comma after cuisine AND change they differ to it differs.",
+        "B": "Sentence 2: Delete the comma after dough AND change is to are.",
+        "C": "Sentence 3: Delete the comma after fat AND change is to are.",
+        "D": "Sentence 4: Delete the semicolon after husks AND change tint to tints."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Category: Multiple\nGetting to the Answer: The question is directing you to determine which proposed revisions are correct. Briskly work through each sentence to identify if it contains any errors with punctuation, verb agreement, or modifiers. For Sentence 1, the comma after \"cuisine\" correctly separates the two complete thoughts using the FANBOYS conjunction \"but.\" Additionally, it uses the plural \"they differ\" to refer to the plural antecedent \"tamales.\" Eliminate (A). For Sentence 2, the comma after \"dough\" is correct because it offsets the parenthetical information \"a ground corn dough.\" Furthermore, the singular \"is\" correctly agrees with the singular \"texture.\" Eliminate (B). For Sentence 3, the comma after \"fat\" is incorrect because it separates the second ingredient (\"broth\") from the first (\"a fat\"). Additionally, \"is\" should be the plural verb \"are\" to match the two subjects (\"a fat and broth\"). (C) is the correct revision to make. On test day, select this answer choice and move on. But, for reference, in Sentence 4, the semicolon after \"husks\" correctly separates two independent clauses, and the plural verb \"tint\" correctly matches the other plural verb (\"give\") in the compound predicate \"give... and tint...\" of the subject \"which,\" which is plural because it refers to the \"banana leaves.\" (D) is incorrect."
+      }
+    },
+    {
+      "id": "GR48",
+      "q_number": 48,
+      "question_type": "single_drop",
+      "stimulus": "(1) Benito and Chris have been playing football since they were in the third grade. (2) His father played college football and works as an assistant coach for their high school team. (3) The boys always practice together in the off-season, and they take turns throwing and catching the ball. (4) Both boys plan to play football throughout their high school and college years.",
+      "question": "Which sentence in the paragraph contains an error in construction?\n\nMove the answer to the box. There is only one error in construction.",
+      "options": null,
+      "correct": "Sentence 2",
+      "solution": {
+        "exhibit_text": "Category: Usage\nGetting to the Answer: Read each sentence carefully. As you read, identify the pronouns and check that each has a clear antecedent, meaning it's clear which noun is being replaced. In Sentence 2, \"His\" is vague because it could refer to either boy's father. All the other sentences have correct and clear pronouns."
+      },
+      "drop_choices": [
+        "Sentence 1",
+        "Sentence 2",
+        "Sentence 3",
+        "Sentence 4"
+      ],
+      "drop_box_label": "Contains an error in construction"
+    },
+    {
+      "id": "GR49",
+      "q_number": 49,
+      "question_type": "single_drop",
+      "stimulus": "(1) On the morning of February 10, 2022, the world was captivated as Nathan Chen took to the ice at the Winter Olympics in Beijing, China. (2) Executing five flawless quadruple jumps during his \"Rocket Man\" free skate, the stadium erupted in applause, and his gold medal was secured. (3) Longtime figure skating fans were particularly moved because he was the first U.S. men's skater to win gold since Evan Lysacek in 2010. (4) Another American skater, Dick Button, won the first gold medal for the U.S. men's figure skating in 1948 by adding jumps to his program that no one else had attempted in international competition.",
+      "question": "Which sentence in the paragraph contains an error in construction?\n\nMove the answer to the box. There is only one error in construction.",
+      "options": null,
+      "correct": "Sentence 2",
+      "solution": {
+        "exhibit_text": "Category: Sentence Structure\nGetting to the Answer: Read each sentence carefully. As you read, identify the subject and verb of each sentence. Identify independent and dependent clauses. Check the punctuation between clauses, and, if there are modifiers, confirm that they are as close as possible to what is being modified. Sentence 2 has a modifier error. It begins with a descriptive phrase \"Executing five flawless quadruple jumps during his 'Rocket Man' free skate,\" and the noun that follows it is the \"stadium.\" The stadium didn't execute the jumps; Nathan Chen did. All of the other sentences have no errors."
+      },
+      "drop_choices": [
+        "Sentence 1",
+        "Sentence 2",
+        "Sentence 3",
+        "Sentence 4"
+      ],
+      "drop_box_label": "Contains an error in construction"
+    },
+    {
+      "id": "GR50",
+      "q_number": 50,
+      "question_type": "mc",
+      "stimulus": "The dedicated skilled engineer Ellen Ochoa became the first Hispanic American woman to go to space when she participated in a nine-day NASA mission focused on studying the Sun and its interaction with Earth's atmosphere in 1993.",
+      "question": "Which edit should be made to correct the sentence?",
+      "options": {
+        "A": "Insert a comma after dedicated.",
+        "B": "Insert a comma after Hispanic.",
+        "C": "Insert a comma after nine-day.",
+        "D": "Insert a comma after Sun."
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Category: Punctuation\nGetting to the Answer: The answer choices indicate that the sentence is missing a comma; look for specific situations in which commas are needed, such as to punctuate parenthetical phrases or coordinate adjectives. Coordinate adjectives describe characteristics of the same noun and must be connected with either a comma or the word \"and.\" (A) is correct because it places a comma between the coordinate adjectives \"dedicated\" and \"skilled.\" (B), (C), and (D) are incorrect because they include unnecessary commas that create grammatical errors. (B) and (C) incorrectly place commas between cumulative adjectives, which are adjectives that work together in a specific order to modify a noun. The rule is that if the words cannot be reversed without altering the original meaning, a comma should not be used. (D) places a comma after \"Sun,\" which is incorrect because the combination of a comma and a FANBOYS conjunction (\"and\") is used to separate two independent clauses, but \"its interaction with Earth's atmosphere\" is a phrase and cannot stand alone as an independent clause."
+      }
+    }
+  ]
+}

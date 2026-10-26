@@ -1,0 +1,905 @@
+{
+  "_schema": {
+    "description": "Exam F — ELA section. Sourced from Kaplan's 'Learn with Atom' online exam review platform (kna.learnwithatom.com), same source as Exam F's math section. Each screenshot showed the full passage plus one question, its selected/correct answers, and a fully typed explanation (Category + Getting to the Answer) — transcribed verbatim as exhibit_text.",
+    "id_format": "FR<NN> — Exam F, Reading, question number (continuous across passages, standalone items at the end).",
+    "answer_key_status": "COMPLETE. All 7 passages (6 Reading Comprehension + 1 standalone section) transcribed: Passage 1 'Deep-Sea Mining: Not the Solution We Need' by Deborah Osborn (incl. a 'Global Sales of EVs' line chart, cropped as a figure image, and a claim-vs-evidence classification question), Passage 2 'Orwell: Overcoming Adversity', Passage 3 'O Captain! My Captain!' by Walt Whitman (poem), Passage 4 excerpt adapted from Lord Jim by Joseph Conrad (incl. a sort-into-two-bins question), Passage 5 'The Influence of Immigrant Family Groups', Passage 6 excerpt adapted from 'In the Metropolis' by Benjamin Rosenblatt, Passage 7 'Vaccines' (a numbered-sentence Revising/Editing-style passage despite being labeled a reading passage), plus 4 standalone Revising/Editing items (Q47-50) at the very end. 50/50 questions total.",
+    "question_type_note": "mc = standard single-answer. mc_multi = select-two, 'correct' is an array of 2 letters. classify_table = sort 4 quoted sentences into 2 categories ('rows' array, each {text, correct: category label}). sort_bins = sort 5 quoted lines into 2 themed bins ('items' array, each {text, correct: bin label}, plus 'bins': [label1, label2])."
+  },
+  "passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Deep-Sea Mining: Not the Solution We Need",
+      "author": "Deborah Osborn",
+      "citation": null,
+      "passage_figure_html": "<img src=\"ela_f/figures/ev_sales_chart.jpg\" alt=\"Global Sales of EVs line chart: Units in thousands on the y-axis (500 to 25500), Year on the x-axis (2015 to 2025); the line rises slowly from about 500 in 2015 to about 2500 in 2020, then rises steeply to about 20500 by 2025.\" style=\"max-width:100%;border:1px solid #ccc;border-radius:4px;\">",
+      "paragraphs": [
+        { "num": 1, "text": "Current Deep-Sea Mining" },
+        { "num": 2, "text": "As the world races to adopt green technologies, the demand for critical minerals like cobalt, nickel, and rare-earth elements has skyrocketed. These minerals are essential for manufacturing electric vehicle (EV) batteries and other components of the renewable energy transition. However, mining these minerals on land is proving difficult: existing terrestrial mines are reaching their limits, and opening new sites is costly and slow." },
+        { "num": 3, "text": "In response to this growing need, some mining companies propose extracting the needed minerals from the ocean floor. The deep sea contains vast fields of polymetallic nodules, potato-sized rocks rich in cobalt, nickel, and manganese, scattered across the seabed. Proponents argue that deep-sea mining could meet rising mineral demand without the environmental damage associated with terrestrial mining, such as deforestation and habitat destruction." },
+        { "num": 4, "text": "Risks of Harvesting Deep-Sea Minerals" },
+        { "num": 5, "text": "Despite the appeal of deep-sea mining, many scientists and environmental groups also warned that we don't fully understand the deep-sea ecosystem well enough to mine it safely. A 2022 study by the International Seabed Authority (ISA), the organization responsible for regulating mining in international waters, found that less than one percent of the deep seafloor has been scientifically surveyed." },
+        { "num": 6, "text": "Allowing deep-sea mining without knowing how it will affect the ocean seems irresponsible. Countries disagree about how to proceed: some, such as Norway, have approved limited exploratory mining contracts, while others, such as France and Germany, have called for a moratorium on deep-sea mining until more research is conducted." },
+        { "num": 7, "text": "One of the primary concerns is the destruction of unique deep-sea habitats. The nodules themselves often serve as the only hard surface in an otherwise sedimentary environment, providing an anchor point for sponges, corals, and other slow-growing organisms. Removing these nodules could eliminate habitats that took millions of years to form and that may never recover." },
+        { "num": 8, "text": "Noise pollution is another significant concern. Mining operations create continuous underwater noise from machinery, which could disrupt the communication and navigation systems of marine mammals like whales, who rely on sound to find food, locate mates, and avoid predators." },
+        { "num": 9, "text": "Research suggests that these sounds could travel more than 500 kilometers through the ocean, potentially affecting ecosystems far beyond the immediate mining site." },
+        { "num": 10, "text": "A More Urgent Reason for Caution" },
+        { "num": 11, "text": "Moving too quickly to large-scale commercial mining carries significant risks. Beyond the immediate destruction of seafloor habitats, scientists worry about sediment plumes. When mining equipment disturbs the ocean floor, it stirs up fine sediment that can drift for miles, smothering filter-feeding organisms and blocking the sunlight that some deep-sea organisms rely on." },
+        { "num": 12, "text": "Perhaps the most compelling reason for caution involves a discovery that surprised even the scientists who made it." },
+        { "num": 13, "text": "Researchers had long assumed that oxygen in the deep sea comes only from sunlit surface waters, where photosynthesis occurs, and slowly sinks to the ocean floor over time." },
+        { "num": 14, "text": "However, in 2013, scientists noticed that oxygen levels were actually higher near the sea floor, in complete darkness, four kilometers below the surface, far from any photosynthetic activity." },
+        { "num": 15, "text": "Later research confirmed that the polymetallic nodules themselves appear to generate small electrical charges capable of splitting seawater molecules into hydrogen and oxygen, a process called seawater electrolysis, without any light at all." },
+        { "num": 16, "text": "Such findings make it clear that there is no such thing as \"safe\" deep-sea mining. We must stop interfering with the sea floor until our understanding catches up to our technologies." }
+      ],
+      "questions": [
+        {
+          "id": "FR01",
+          "q_number": 1,
+          "question_type": "mc",
+          "question": "According to the passage, which action do mining companies propose to help meet rising mineral demand?",
+          "options": {
+            "A": "developing new terrestrial mining sites more quickly",
+            "B": "extracting polymetallic nodules from the ocean floor",
+            "C": "reducing the use of minerals in EV battery manufacturing",
+            "D": "increasing regulations on terrestrial mining operations"
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: In paragraph 3, the passage states that mining companies \"propose extracting the needed minerals from the ocean floor,\" specifically the polymetallic nodules scattered across the seabed. (B) is correct." }
+        },
+        {
+          "id": "FR02",
+          "q_number": 2,
+          "question_type": "mc",
+          "question": "In paragraph 5, the phrases \"also warned\" and \"don't fully understand\" affect the paragraph by",
+          "options": {
+            "A": "creating a sense of urgency to find more rare minerals for supply chains.",
+            "B": "proving that the World Economic Forum has already approved the deep-sea mining process.",
+            "C": "establishing a sense of caution regarding the expansion of deep-sea mining.",
+            "D": "suggesting that the environmental impact of deep-sea mining is less important than the high demand for rare minerals."
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Use your Roadmap to refresh your memory of paragraph 5 and how it fits into the Main Idea. Paragraph 5 discusses the studies about whether countries should mine the ocean floor. The paragraph also notes the results of a specific study: mining the deep sea could help meet the higher demand, but the environmental impact is unknown. Choice (C) matches this.\n(A) is incorrect because it is Opposite; the phrases in paragraph 5 actually serve to balance the urgency for minerals with a need for environmental safety. (B) is a Distortion; the ISA, not the World Economic Forum, has approved some contracts. (D) is Opposite. The phrases emphasize the importance of considering the environmental impact of deep-sea mining; they don't suggest the demand for minerals is more important than the impact." }
+        },
+        {
+          "id": "FR03",
+          "q_number": 3,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "The environmental risks of any mineral extraction process are acceptable if it leads to the faster adoption of renewable energy.",
+            "B": "International regulatory bodies have established sufficient guidelines to ensure the protection of all marine ecosystems.",
+            "C": "The discovery of oxygen production on the sea floor proves that deep-sea mining will not harm marine life.",
+            "D": "Scientists should be cautious about utilizing mining processes until the ecological consequences of the processes are understood."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Inference\nGetting to the Answer: This question doesn't include any specific clues, but keep the Main Idea of your Roadmap in mind: we should stop deep-sea mining until we know more about it. Eliminate any answer choices that the author would not agree with. Choice (A) is Opposite; the author argues that we should be cautious about deep-sea mineral extraction due to its risks; the author does not identify when such risks would be acceptable. Choice (B) is also Opposite; paragraph 8 indicates that countries disagree about the rules of deep-sea mining, and the author claims in paragraph 10 that such mining \"carries significant risks.\" Choice (C) is also Opposite; the author considers the discovery of oxygen production on the sea floor to be an additional reason to be cautious about deep-sea mining. Choice (D) is correct because it is a paraphrase of the author's Main Idea." }
+        },
+        {
+          "id": "FR04",
+          "q_number": 4,
+          "question_type": "mc",
+          "question": "Which choice best describes the overall structure of the passage?",
+          "options": {
+            "A": "The author presents a proposed solution to a problem, then outlines why that solution carries its own risks that are not yet fully understood.",
+            "B": "The author describes a scientific discovery, then explains how that discovery disproves the need for deep-sea mining entirely.",
+            "C": "The author compares two competing mining methods, then argues that one method is superior to the other in all circumstances.",
+            "D": "The author summarizes the history of deep-sea mining regulations, then predicts how those regulations will change in the future."
+          },
+          "correct": "A",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: Review the Main Idea and Roadmap of the passage: the author introduces the mineral demand problem, the proposed deep-sea mining solution, and then spends the rest of the passage detailing the risks and unknowns of that solution. (A) matches this structure.\n(B) is a Distortion; the oxygen discovery is one risk among several, not a disproof of the need for mining. (C) is Out of Scope; the passage never compares deep-sea mining to a second mining method. (D) is Out of Scope; the passage does not summarize a regulatory history or make predictions about future regulations." }
+        },
+        {
+          "id": "FR05",
+          "q_number": 5,
+          "question_type": "mc",
+          "question": "Based on paragraphs 12-15, the discovery about oxygen production on the sea floor contributes to the development of the author's argument by",
+          "options": {
+            "A": "revealing a previously unknown process that shows how much remains unknown about deep-sea ecosystems.",
+            "B": "proving that polymetallic nodules are not a useful source of minerals for renewable energy technology.",
+            "C": "demonstrating that sunlight is not necessary for any form of life to exist on Earth.",
+            "D": "suggesting that seawater electrolysis could be used as an alternative energy source for mining equipment."
+          },
+          "correct": "A",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Paragraphs 12-15 describe how scientists were surprised to discover that oxygen is produced near the sea floor through a process unrelated to photosynthesis. This supports the author's broader point that our understanding of the deep sea is incomplete. (A) is correct.\n(B) is Out of Scope; the passage never claims the nodules are not useful as a mineral source. (C) is a Distortion/overstatement; the passage only discusses oxygen production near deep-sea nodules, not all life on Earth. (D) is Out of Scope; the passage never proposes electrolysis as an energy source for equipment." }
+        },
+        {
+          "id": "FR06",
+          "q_number": 6,
+          "question_type": "sort_categories",
+          "question": "Determine whether each sentence from the passage presents a claim or presents evidence to support a claim.\n\nSelect all the correct answers.",
+          "sort_items": [
+            { "id": "i1", "text": "\"Allowing deep-sea mining without knowing how it will affect the ocean seems irresponsible.\" (paragraph 6)" },
+            { "id": "i2", "text": "\"Moving too quickly to large-scale commercial mining carries significant risks.\" (paragraph 10)" },
+            { "id": "i3", "text": "\"Research suggests that these sounds could travel more than 500 kilometers through the ocean...\" (paragraph 9)" },
+            { "id": "i4", "text": "\"However, in 2013, scientists noticed that oxygen levels were actually higher near the sea floor.\" (paragraph 14)" }
+          ],
+          "sort_categories": [
+            { "id": "c1", "label": "Presents a Claim" },
+            { "id": "c2", "label": "Presents Evidence" }
+          ],
+          "correct": { "i1": "c1", "i2": "c1", "i3": "c2", "i4": "c2" },
+          "solution": { "exhibit_text": "The quote from paragraph 6 presents a claim: the author's opinion that proceeding with mining would be irresponsible. The quote from paragraph 10 also presents the author's claim that moving too quickly carries risks. The quote from paragraph 9 (about sound traveling 500km) is one piece of evidence supporting the noise-pollution risk claim. The quote from paragraph 14 (about 2013 oxygen discovery) is evidence supporting the claim that the deep sea is not fully understood." }
+        },
+        {
+          "id": "FR07",
+          "q_number": 7,
+          "question_type": "mc",
+          "question": "Which choice best describes the function of the \"Global Sales of EVs\" chart in relation to the passage?",
+          "options": {
+            "A": "It shows that EV sales have declined since 2020, undermining the need for more critical minerals.",
+            "B": "It illustrates the rapidly growing demand for EVs, which helps explain the urgency driving interest in deep-sea mining.",
+            "C": "It proves that deep-sea mining has already met the global demand for EV battery minerals.",
+            "D": "It demonstrates that EV sales are unrelated to the demand for cobalt, nickel, and rare-earth elements."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: The chart shows EV sales rising sharply from 2015 to 2025, which supports paragraph 2's claim that \"the demand for critical minerals...has skyrocketed\" as EV adoption grows. (B) is correct.\n(A) is Opposite; the chart shows sales rising, not declining. (C) is Out of Scope; the chart says nothing about whether mining has met demand. (D) is Opposite; the chart's placement supports a direct link between EV sales and mineral demand." }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Orwell: Overcoming Adversity",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        { "num": 1, "text": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved fame, he had already been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, Orwell struggled to make ends meet as a writer. He managed to scrape by, subsisting on writing assignments that paid his bills but lacked creative possibilities. In fact, right up to his final, bedridden days, much of Orwell's life was marked by a struggle of one kind or another." },
+        { "num": 2, "text": "Born in 1903 to a lower-middle-class father who was a British civil servant in India, Orwell moved to England with his parents when he was just eight years old. He was sent away to boarding school and then educated at Eton College, where he first began to write. He was distinguished among his classmates by his brilliance and his relative poverty, both of which affected his life and his choices. Orwell's talent won him recognition and the opportunity to publish his essays in school periodicals. But feeling that he did not fit in, Orwell ultimately returned to India—following in his father's footsteps—rather than study further in England." },
+        { "num": 3, "text": "In India, he became an administrator for the Indian Imperial Police. Again, Orwell struggled, this time with the clash between his responsibilities as a bureaucrat of the British government and his growing disillusionment with the concept of imperialism. In fact, it was during these years that Orwell first began to feel the intense disenchantment with large state bureaucracies that fills the pages of his later, and most popular, literary works." },
+        { "num": 4, "text": "Upon his return to England in 1928, Orwell wrote a series of essays exploring this discontent. Then, in 1930, he began his literary career in earnest. Immersing himself in the slums of London, Orwell attempted to fully experience the everyday adversity of poverty. This research resulted in the acclaimed 1933 book Down and Out in Paris and London. In late 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once there, however, he quickly abandoned his responsibilities as a journalist and joined the Republican Army in its struggle against the Nationalists. After more than 100 days on the front lines, Orwell was promoted to second lieutenant, given command of more than 30 men—and wounded by a sniper. During this time, thrust into violent clashes, Orwell again found his political identity changing." },
+        { "num": 5, "text": "By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers. Nevertheless, the ideological shift inspired his crowning literary achievement, the wholly pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Unfortunately, Orwell would not live to experience the tremendous impact of this final work, as one last struggle—this time with tuberculosis—claimed his life just months after the novel's release in 1949." }
+      ],
+      "questions": [
+        {
+          "id": "FR08",
+          "q_number": 8,
+          "question_type": "mc",
+          "question": "How does the author's use of chronological structure contribute to the ideas of the passage?",
+          "options": {
+            "A": "It explains why Orwell struggled during his experiences abroad in India and Spain.",
+            "B": "It shows the process by which Orwell finally became an enormously successful writer.",
+            "C": "It illustrates the reasons why Orwell found little success as a writer early in his career.",
+            "D": "It shows how the events in Orwell's life contributed to the themes of his literature."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: First, review the Main Idea from your Roadmap: the passage summarizes Orwell's struggles and how those difficulties impacted his political ideas and writing. Predict that the chronological structure shows how these struggles shaped his writing over the course of his life. (D) is correct.\n(A) is a Distortion. The passage describes Orwell's struggles in India and Spain, but the chronological structure itself does not \"explain\" these struggles. His struggles arose from a moral conflict with imperialism and bureaucracy and the difficulties of war, not from the passage of time. (B) is also a Distortion. The chronological structure depicts the changes in Orwell's ideas over time, not a step-by-step process he followed in order to become successful. (C) is Out of Scope; the passage never explores why Orwell's early literary efforts failed to establish a successful career for him." }
+        },
+        {
+          "id": "FR09",
+          "q_number": 9,
+          "question_type": "mc",
+          "question": "In paragraph 1, the idea that George Orwell was not immediately successful as a writer is illustrated mainly through",
+          "options": {
+            "A": "a description of his early writings as providing an opportunity for him to express his creativity.",
+            "B": "a detail about the struggles at the end of his life.",
+            "C": "a statement that Orwell was not well paid for his writing assignments.",
+            "D": "an assertion that Animal Farm established his reputation as a shrewd political commentator."
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: Look back at paragraph 1 and identify how the author conveys the idea that Orwell was not immediately successful. Towards the middle of the paragraph, the author states that \"Orwell struggled to make ends meet as a writer\" and that he \"managed to scrape by\" on \"writing assignments that paid his bills but lacked creative possibilities.\" This means Orwell had trouble living on the money he was paid for writing, so (C) is correct.\n(A) is incorrect because it is Opposite. The paragraph indicates that Orwell's writing assignments \"lacked creative possibilities.\" (B) is a Misused Detail from the end of paragraph 1. Orwell's \"final, bedridden days\" do not illustrate his lack of early success as a writer. (D) is another Misused Detail. Animal Farm reflects Orwell's later success after he had been \"writing seriously for nearly fifteen years,\" not his early writing struggles." }
+        },
+        {
+          "id": "FR10",
+          "q_number": 10,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\n\"After more than 100 days on the front lines, Orwell was promoted to second lieutenant, given command of more than 30 men—and wounded by a sniper.\"\n\nHow does the author's use of the dash at the end of the sentence contribute to the development of ideas in the passage?",
+          "options": {
+            "A": "It provides another example of the struggles in Orwell's life that were introduced in the first paragraph.",
+            "B": "It emphasizes the rapid progress Orwell made during this time of his life.",
+            "C": "It describes an event that reinforced the ideas that were guiding Orwell's life.",
+            "D": "It suggests a contributing factor to the shift in Orwell's thinking mentioned in the next sentence."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Analyze how the dash is used in the sentence. Before the dash, the sentence lists positive aspects of Orwell's military service (his promotion and being assigned command of other soldiers). After the dash, the sentence identifies a negative event (his being wounded). The dash thus indicates a sharp, negative transition point for Orwell. Use the context around the sentence for additional information. In this case, the sentence that follows the cited one states that \"Orwell found his political identity changing\" as he faced \"violent clashes.\" Predict that the dash introduces the negative event that shifted Orwell's thinking. (D) is correct.\n(A) is incorrect because it focuses on the content of the phrase rather than the function of the punctuation. While being shot is undeniably another example of a struggle in Orwell's life, the author uses a dramatic dash to create a sharp narrative transition. The function of this punctuation is to isolate the injury as a critical turning point that directly sets up the shift in his thinking mentioned in the next sentence. (B) is a Misused Detail; Orwell did make rapid progress during his short military career, but the point of the phrase is to indicate his changed thinking. (C) is Opposite. The dash and the phrase indicate that Orwell's ideas are shifting, not being \"reinforced.\"" }
+        },
+        {
+          "id": "FR11",
+          "q_number": 11,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that Orwell's books reflect his personal beliefs?",
+          "options": {
+            "A": "\"He was distinguished among his classmates by his brilliance and his relative poverty, both of which affected his life and his choices.\" (paragraph 2)",
+            "B": "\"Again, Orwell struggled, this time with the clash between his responsibilities as a bureaucrat of the British government and his growing disillusionment with the concept of imperialism.\" (paragraph 3)",
+            "C": "\"Once there, however, he quickly abandoned his responsibilities as a journalist and joined the Republican Army in its struggle against the Nationalists.\" (paragraph 4)",
+            "D": "\"Nevertheless, the ideological shift inspired his crowning literary achievement, the wholly pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future.\" (paragraph 5)"
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: Look for a choice that clearly connects Orwell's beliefs with his writings; (D) is correct because it describes Orwell's changed thinking, an \"ideological shift,\" as the inspiration for Nineteen Eighty-Four. (A), (B), and (C) are incorrect because, although these are examples that indicate Orwell's beliefs, they are not directly connected to his literature." }
+        },
+        {
+          "id": "FR12",
+          "q_number": 12,
+          "question_type": "mc",
+          "question": "How do the details of the decade of Orwell's life described in paragraph 4 convey a central idea of the passage?",
+          "options": {
+            "A": "by suggesting that if Orwell had continued as a journalist, he would have succeeded",
+            "B": "by connecting Orwell's experiences to the themes he presents in his literary works",
+            "C": "by outlining the steps Orwell took to reach the pinnacle of his success as an author",
+            "D": "by showing how Orwell's time as a soldier in the army in Spain confirmed his beliefs"
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: First, refresh your memory of the Main Idea from your Roadmap: Orwell's struggles throughout his life shaped his literature. Use your notes and the passage itself to review that paragraph 4 opens with accounts of Orwell writing \"essays exploring this discontent\" from his days in India, continues with his \"research\" living in the slums of London leading to his 1933 book, and concludes with his military experience in Spain that causes another change in his beliefs. (B) is correct.\n(A) is Out of Scope; the text never guesses what might have happened if Orwell had continued as a journalist. (C) is incorrect because the paragraph describes his experiences in life, not steps Orwell took to become successful. (D) is Opposite; the last sentence of the paragraph indicates that Orwell's time in the army changed his political beliefs." }
+        },
+        {
+          "id": "FR13",
+          "q_number": 13,
+          "question_type": "mc_multi",
+          "question": "In which **two** ways does the author develop their point of view about Orwell?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "by depicting Orwell's experience in the Indian Imperial Police as a mental conflict over political ideals",
+            "B": "by identifying the titles of several of Orwell's most important works",
+            "C": "by contrasting Orwell's early education experiences with those of other famous British writers",
+            "D": "by criticizing the British government's imperialistic policies concerning India",
+            "E": "by arguing that Orwell's service in the civil war in Spain caused him to question his political beliefs"
+          },
+          "correct": ["A", "E"],
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Look back at your Roadmap and keep the author's Main Idea—Orwell's struggles shaped his literature—in mind. Predict that the correct answers will likely reflect the examples that the author provides about Orwell's struggles. (A) and (E) are correct because they identify two examples of the author interpreting Orwell's experiences as \"struggles\" that impacted his beliefs, which in turn impacted his writings.\n(B) is incorrect because the titles of the books themselves do not reflect the author's view about Orwell's struggles. (C) and (D) are incorrect because they are Out of Scope. The author describes Orwell's early education and mentions imperialism, but the author never contrasts Orwell with other authors or criticizes imperialism." }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "citation": null,
+      "lines": [
+        { "num": null, "text": "O Captain! my Captain! our fearful trip is done," },
+        { "num": null, "text": "The ship has weather'd every rack, the prize we sought is won," },
+        { "num": null, "text": "The port is near, the bells I hear, the people all exulting," },
+        { "num": null, "text": "While follow eyes the steady keel, the vessel grim and daring;" },
+        { "num": 5, "text": "But O heart! heart! heart!" },
+        { "num": null, "text": "O the bleeding drops of red," },
+        { "num": null, "text": "Where on the deck my Captain lies," },
+        { "num": null, "text": "Fallen cold and dead." },
+        { "num": null, "text": "" },
+        { "num": null, "text": "O Captain! my Captain! rise up and hear the bells;" },
+        { "num": 10, "text": "Rise up—for you the flag is flung—for you the bugle trills," },
+        { "num": null, "text": "For you bouquets and ribbon'd wreaths—for you the shores a-crowding," },
+        { "num": null, "text": "For you they call, the swaying mass, their eager faces turning;" },
+        { "num": null, "text": "Here Captain! dear father!" },
+        { "num": null, "text": "This arm beneath your head!" },
+        { "num": 15, "text": "It is some dream that on the deck," },
+        { "num": null, "text": "You've fallen cold and dead." },
+        { "num": null, "text": "" },
+        { "num": null, "text": "My Captain does not answer, his lips are pale and still," },
+        { "num": null, "text": "My father does not feel my arm, he has no pulse nor will," },
+        { "num": 20, "text": "The ship is anchor'd safe and sound, its voyage closed and done," },
+        { "num": null, "text": "From fearful trip the victor ship comes in with object won;" },
+        { "num": null, "text": "Exult O shores, and ring O bells!" },
+        { "num": null, "text": "But I with mournful tread," },
+        { "num": null, "text": "Walk the deck my Captain lies," },
+        { "num": null, "text": "Fallen cold and dead." }
+      ],
+      "questions": [
+        {
+          "id": "FR14",
+          "q_number": 14,
+          "question_type": "mc",
+          "question": "How does the first stanza (lines 1-8) contribute to the development of the theme of the poem?",
+          "options": {
+            "A": "by explaining the circumstances under which the captain has died",
+            "B": "by describing the length and difficulty of the journey the ship had just completed",
+            "C": "by illustrating that the captain is merely asleep",
+            "D": "by establishing that the captain has died while winning the battle"
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: In your Roadmap, review your note for stanza 1 and your Paraphrase of the poem. The poem centers on the speaker's grief that, in spite of winning a difficult battle, the captain responsible for that victory has died. The first stanza contributes to that theme by describing the ship's return to home and the speaker's discovery of the dead captain on the deck. The poem goes on to further describe and develop the speaker's grief. Thus, (D) is correct.\n(A) is incorrect because it is Out of Scope. There is no explanation of how the captain died. While it may be tempting, (B) is incorrect because, although the difficulty of the journey is an important idea in the poem, the central theme is the speaker's grief in the face of the tragedy, not the difficulty of the journey. (C) is incorrect because it is Opposite. The speaker has already recognized in line 8 that the captain is \"cold and dead.\"" }
+        },
+        {
+          "id": "FR15",
+          "q_number": 15,
+          "question_type": "mc",
+          "question": "The author's use of exclamation points and repetition in line 5 contributes to the development of ideas in the poem by showing that the speaker is",
+          "options": {
+            "A": "surprised the captain is on the deck.",
+            "B": "shocked and profoundly distressed by his discovery.",
+            "C": "excited that the voyage is almost complete.",
+            "D": "eager to be reunited with loved ones."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: The speaker cries, \"O heart! heart! heart!\" immediately upon seeing the beloved captain lying dead on the deck. (B) is correct because the use of exclamation marks and the speaker's reference to his \"heart\" show that he is deeply affected by the discovery that the captain is dead.\nThe speaker is not surprised that the captain is on the deck (A), but rather that he has died. (C) and (D) are Out of Scope; although those could be normal reactions from a sailor returning home after a difficult journey, they are not mentioned in the poem." }
+        },
+        {
+          "id": "FR16",
+          "q_number": 16,
+          "question_type": "mc",
+          "question": "Which detail from the poem reflects the speaker's view that \"It is some dream that on the deck, / You've fallen cold and dead\" (lines 15-16)?",
+          "options": {
+            "A": "\"The port is near, the bells I hear, the people all exulting,\" (line 3)",
+            "B": "\"O Captain! my Captain! rise up and hear the bells; / Rise up—for you the flag is flung—for you the bugle trills,\" (lines 9-10)",
+            "C": "\"My Captain does not answer, his lips are pale and still,\" (line 17)",
+            "D": "\"Exult O shores, and ring O bells!\" (line 21)"
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: In lines 15-16, the speaker likens the distressing event of the captain's death to a \"dream.\" In other words, the speaker struggles to accept the reality of the captain's death. Previously, in lines 9-10, the speaker tries to revive or awaken the captain, repeating the phrase \"rise up.\" (B) is correct.\n(A) and (D) both contrast the joyous reception on the shore to the sad reality on the ship, but they do not explicitly reflect the speaker's feeling that the death is a \"dream.\" Similarly, (C) is incorrect because this line emphasizes that the captain is dead but does not support the speaker's view of it feeling like a \"dream.\"" }
+        },
+        {
+          "id": "FR17",
+          "q_number": 17,
+          "question_type": "mc",
+          "question": "Read line 11 from the poem.\n\n\"For you bouquets and ribbon'd wreaths—for you the shores a-crowding,\"\n\nThe phrases \"bouquets and ribbon'd wreaths\" and \"shores a-crowding\" affect the poem by",
+          "options": {
+            "A": "illustrating the traditional funeral practices common in that time.",
+            "B": "showing how the townspeople were eager to welcome home the sailors.",
+            "C": "highlighting the community's gratitude for the ship undertaking its journey.",
+            "D": "indicating that the captain was an important and beloved figure."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: In this line, the speaker addresses the captain and says the bouquets, wreaths, and crowds are \"for you.\" (D) is correct. These are signs that the captain is held in high regard by the crowd on shore. While these elements may also be part of a funeral, as in (A), the author's intention is to show the captain's importance, not to describe traditional funeral practices. The speaker directs the honors to the captain, not to the sailors, as in (B), nor to the successful outcome of the journey, as in (C)." }
+        },
+        {
+          "id": "FR18",
+          "q_number": 18,
+          "question_type": "mc_multi",
+          "question": "In which **two** ways does the poet develop the speaker's point of view in the third stanza (lines 17-24)?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "by comparing the death of the captain to the loss of the battle",
+            "B": "by contrasting the triumphant voyage with the tragedy of the captain's death",
+            "C": "by repeatedly reminding the reader of the success of the voyage",
+            "D": "by explaining the many difficulties the captain faced and overcame during the voyage",
+            "E": "by employing familial language to express a close relationship with the captain"
+          },
+          "correct": ["B", "E"],
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: In the third stanza, the poet contrasts the victory won by the ship with the loss of the captain, so (B) is correct. Additionally, in line 18, the speaker uses the term \"father.\" The captain is not actually the speaker's father; rather, this term reflects that the speaker sees the captain as a father figure. Thus, (E) is also correct.\n(A) is Opposite; the speaker repeatedly tells us the battle was won, not lost. (C) is incorrect because it does not mention the author's grief, the main theme of both the third stanza and the poem generally. (D) is incorrect because the third stanza does not explain or describe the difficulties the captain faced." }
+        },
+        {
+          "id": "FR19",
+          "q_number": 19,
+          "question_type": "mc",
+          "question": "Read lines 21-22 from the poem.\n\n\"Exult O shores, and ring O bells!\nBut I with mournful tread,\"\n\nHow do the lines help convey the speaker's point of view?",
+          "options": {
+            "A": "They introduce clearly the speaker's grief for the first time.",
+            "B": "They uplift the reader through the use of cheerful imagery.",
+            "C": "They change the poem's direction to focus on the future.",
+            "D": "They continue the pattern of opposition introduced earlier in the poem."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: This poem is full of opposing images. The first stanza contrasts the ship's victory with the captain's death. The second stanza contrasts the celebrations prepared to honor the captain with the captain's death. The final stanza begins with the dead captain and then contrasts this tragedy with the safe, victorious arrival of the ship. The cited lines continue this pattern of contrast, making (D) the correct answer.\n(A) is incorrect because it is Opposite. The speaker's grief is first introduced early in the first stanza. (B) is incorrect because it is Opposite. The cheerful image of the exultant bells is immediately followed by the speaker's \"mournful tread.\" The overall effect is neither cheerful nor optimistic. (C) is incorrect because it is Out of Scope. The entire poem is focused in the present. There is no shift to focus on the future." }
+        },
+        {
+          "id": "FR20",
+          "q_number": 20,
+          "question_type": "mc",
+          "question": "Which line from the poem best supports the idea that the captain successfully led the ship through a perilous journey?",
+          "options": {
+            "A": "\"For you they call, the swaying mass, their eager faces turning;\" (line 12)",
+            "B": "\"The ship is anchor'd safe and sound, its voyage closed and done,\" (line 19)",
+            "C": "\"From fearful trip the victor ship comes in with object won;\" (line 20)",
+            "D": "\"Exult O shores, and ring O bells!\" (line 21)"
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: Check each of the answer choices to see which quote reflects the idea that the ship succeeded through a \"perilous\" (dangerous) journey. (A) is incorrect because the line only states that the crowd is eager to see the captain; it does not mention the dangerous journey. (B) is incorrect because the line mentions that the ship is anchored and its journey finished but doesn't indicate that the journey was dangerous. In line 20, the ship is described as a \"victor\" that has achieved its goal (\"object won\") despite great difficulties (\"fearful trip\"), so (C) is correct. (D) is incorrect because, although it includes the idea of the captain's success and the ship's safe return, again, it makes no reference to the difficulty of the mission." }
+        }
+      ]
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 7,
+      "genre": "fiction",
+      "title": "Lord Jim",
+      "author": "Joseph Conrad",
+      "citation": "Excerpt adapted from Lord Jim by Joseph Conrad",
+      "paragraphs": [
+        { "num": 1, "text": "He was an inch, perhaps two, under six feet, powerfully built, and he advanced straight at you with a slight stoop of the shoulders, head forward, and a fixed from-under stare which made you think of a charging bull. His voice was deep, loud, and his manner displayed a kind of dogged self-assertion which had nothing aggressive in it. It seemed a necessity, and it was directed apparently as much at himself as at anybody else. He was spotlessly neat, dressed in immaculate white from shoes to hat, and in the various Eastern ports where he got his living as ship-chandler's water-clerk he was very popular." },
+        { "num": 2, "text": "A water-clerk need not pass an examination in anything under the sun, but he must have Ability in the abstract and demonstrate it practically. His work consists in racing under sail, steam, or oars against other water-clerks for any ship about to anchor, greeting her captain cheerily, forcing upon him a card—the business card of the ship-chandler—and on his first visit on shore piloting him firmly but without ostentation to a vast, cavern-like shop which is full of things that are eaten and drunk on board ship; where you can get everything to make her seaworthy and beautiful, from a set of chain-hooks for her cable to a book of gold-leaf for the carvings of her stern; and where her commander is received like a brother by a ship-chandler he has never seen before." },
+        { "num": 3, "text": "There is a cool parlor, easy-chairs, bottles, cigars, writing implements, a copy of harbor regulations, and a warmth of welcome that melts the salt of a three months' passage out of a seaman's heart. The connection thus begun is kept up, as long as the ship remains in harbor, by the daily visits of the water-clerk. To the captain he is faithful like a friend and attentive like a son, with the patience of Job, the unselfish devotion of a woman, and the jollity of a boon companion. Later on the bill is sent in. It is a beautiful and humane occupation. Therefore good water-clerks are scarce." },
+        { "num": 4, "text": "When a water-clerk who possesses Ability in the abstract has also the advantage of having been brought up to the sea, he is worth to his employer a lot of money and some humoring. Jim had always good wages and as much humoring as would have bought the fidelity of a fiend. Nevertheless, with ingratitude he would throw up the job suddenly and depart. To his employers the reasons he gave were obviously inadequate. They said \"Confounded fool!\" as soon as his back was turned. This was their criticism on his exquisite sensibility." },
+        { "num": 5, "text": "To the men in the waterside business and to the captains of ships he was just Jim—nothing more. He had, of course, another name, but he was anxious that it should not be pronounced. His incognito, which had as many holes as a sieve, was not meant to hide a personality but a fact. When the fact broke through the incognito he would leave suddenly the seaport where he happened to be at the time and go to another—generally farther east. He kept to seaports because he was a seaman in exile from the sea, and had Ability in the abstract, which is good for no other work but that of a water-clerk. He retreated in good order towards the rising sun, and the fact followed him casually but inevitably." },
+        { "num": 6, "text": "Thus in the course of years he was known successively in Bombay, in Calcutta, in Rangoon, in Penang, in Batavia—and in each of these halting-places was just Jim the water-clerk. Afterwards, when his keen perception of the Intolerable drove him away for good from seaports and men, even into the exotic forest, the Malays of the jungle village, where he had elected to conceal his terrible fact, added a word to the monosyllable of his incognito. They called him Tuan Jim: as one might say—Lord Jim." }
+      ],
+      "questions": [
+        {
+          "id": "FR21",
+          "q_number": 21,
+          "question_type": "mc",
+          "question": "How do paragraphs 2 and 3 affect the plot of the excerpt?",
+          "options": {
+            "A": "They establish the competitive nature of Jim's work and the specific social skills required to succeed in it.",
+            "B": "They provide an account of a conflict between Jim and a ship captain that led to Jim's departure.",
+            "C": "They shift the focus from Jim's internal struggles to the physical dangers of his job.",
+            "D": "They introduce the ship-chandler as the main reason Jim flees to the next port."
+          },
+          "correct": "A",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: When a question asks for how certain paragraphs \"affect\" the excerpt, use your Roadmap to predict the function of those paragraphs. Paragraphs 2 and 3 describe Jim's work and set up how impressively Jim succeeds at his difficult jobs, which makes it all the more shocking that he would walk away from them. Match this prediction to (A), the correct answer.\n(B) and (D) are incorrect because they are Out of Scope. Jim leaves when someone discovers his secret, but the excerpt never identifies the person responsible as a ship captain (B) or a ship-chandler (D). (C) is incorrect because it is a Distortion. Although \"racing under sail\" is mentioned, the focus of the paragraphs is on the social skills required for the job rather than on any physical dangers." }
+        },
+        {
+          "id": "FR22",
+          "q_number": 22,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 3.\n\n\"Later on the bill is sent in.\"\n\nThis sentence suggests that",
+          "options": {
+            "A": "the ship-chandler eventually regrets the generous hospitality shown to the captains and then desires to be paid.",
+            "B": "the kindness and friendship offered by ship-chandlers and water-clerks are part of a business transaction.",
+            "C": "collecting debts from the captains he befriends is part of the \"Ability\" water-clerks need.",
+            "D": "the captains are often surprised by the high cost of the ship-chandler's services."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Inference\nGetting to the Answer: Use your Roadmap to review that paragraph 3 describes the business of a ship-chandler and the role of a water-clerk. Quickly review the paragraph and identify what the phrase means. In the paragraph, the narrator describes the relationship between the clerk and the captain in sentimental terms: \"faithful like a friend,\" \"attentive like a son,\" and \"unselfish devotion.\" The sudden mention that the \"bill is sent in\" acts as a humorous or ironic reminder that this \"devotion\" is ultimately an act that is all about making a profitable sale for the ship-chandler. Match this prediction to (B). All the incorrect choices are Out of Scope. The excerpt never mentions \"regrets\" (A), \"collecting debts\" (C), or \"the high cost\" charged by ship-chandlers (D)." }
+        },
+        {
+          "id": "FR23",
+          "q_number": 23,
+          "question_type": "mc",
+          "question": "The capitalization of the word \"Ability\" in paragraphs 2, 4, and 5 contributes to the development of ideas in the excerpt **mainly** by",
+          "options": {
+            "A": "highlighting the contrast between Jim's physical strength and his intellectual capacity for business.",
+            "B": "suggesting that Jim's true identity is defined more by his career than by the \"fact\" he is trying to hide.",
+            "C": "indicating that the ship-chandlers overvalue a job that requires no formal education or examinations.",
+            "D": "emphasizing that Jim's professional success depends on a specific, rare quality that cannot be formally taught."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: The question asks how a feature of the passage contributes to the development of ideas. Use your Roadmap to review the paragraphs from the question stem. These paragraphs describe Jim's job and how well-suited he is for it, until he decides to leave. \"Ability\" is something that is needed to do Jim's job well. This prediction matches (D), the correct answer.\n(A) is Out of Scope because the passage does not present Jim's physical strength and his business \"Ability\" as opposing forces. (B) is Opposite. Paragraph 5 states that Jim's \"incognito\" (his hidden identity) was meant to hide a \"fact.\" Despite his \"Ability\" as a clerk, he is ultimately defined by the \"Intolerable\" (paragraph 6) part of his past that forces him to keep moving. (C) is incorrect because paragraph 4 says that a \"water-clerk who possesses Ability\" could be worth a \"lot of money\" to his employer. The capitalization implies the high value of a good water-clerk, not that the employer \"overvalue[s]\" him." }
+        },
+        {
+          "id": "FR24",
+          "q_number": 24,
+          "question_type": "sort_categories",
+          "question": "Which quotations from the excerpt support the theme that Jim fits into the community well and which quotations support the theme that Jim does not fit into the community?\n\nMove each answer to the correct box.",
+          "sort_items": [
+            { "id": "i1", "text": "\"He was spotlessly neat, dressed in immaculate white from shoes to hat, and in the various Eastern ports where he got his living as ship-chandler's water-clerk he was very popular.\" (paragraph 1)" },
+            { "id": "i2", "text": "\"Jim had always good wages and as much humoring as would have bought the fidelity of a fiend.\" (paragraph 4)" },
+            { "id": "i3", "text": "\"They called him Tuan Jim: as one might say—Lord Jim.\" (paragraph 6)" },
+            { "id": "i4", "text": "\"This was their criticism on his exquisite sensibility.\" (paragraph 4)" },
+            { "id": "i5", "text": "\"He retreated in good order towards the rising sun, and the fact followed him casually but inevitably.\" (paragraph 5)" }
+          ],
+          "sort_categories": [
+            { "id": "c1", "label": "Jim fits into the community well" },
+            { "id": "c2", "label": "Jim does not fit into the community" }
+          ],
+          "correct": { "i1": "c1", "i2": "c1", "i3": "c1", "i4": "c2", "i5": "c2" },
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: Each quotation needs to be dropped into one of the two options: Jim fits into his community well or Jim does not fit into the community. Read each choice in context and decide which theme it supports.\n\"He was spotlessly...\", \"Jim had always...\", and \"They called him...\" support the theme that Jim fits into the community well. In the quote \"He was spotlessly...\", the phrase \"he was very popular\" clearly indicates that people in the port liked him. The quote \"Jim had always...\" shows his employers valued him well and \"humored\" him to keep him. In the quote \"They called him...\", the use of \"Lord,\" a term of honor, indicates that the people in the jungle also respected him.\nThe remaining choices all support the theme that Jim does not fit well into the community. The intention of the quotation \"This was their criticism...\" is to question Jim's decision to leave a good-paying job for reasons that seemed \"obviously inadequate\" and \"fool[ish]\" to his employers. The phrase \"exquisite sensibility\" means they think he was being too sensitive and was a fool to leave his job. The quote \"He retreated...\" describes how Jim leaves town quickly once his secret is discovered, supporting the idea that he is not really a part of the community." }
+        },
+        {
+          "id": "FR25",
+          "q_number": 25,
+          "question_type": "mc",
+          "question": "How do paragraphs 5 and 6 convey a central idea of the excerpt?",
+          "options": {
+            "A": "by describing Jim's frequent moves, which shows that his physical strength is his most valuable professional asset",
+            "B": "by explaining the skills required of a water-clerk, which proves that Jim is well-qualified for his work in various Eastern ports",
+            "C": "by detailing Jim's secrecy and his repeated departures, which show that his shame outweighs his success",
+            "D": "by revealing that the Malays called him \"Tuan Jim,\" which shows that Jim's goal is to achieve a title of nobility"
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: The question asks how two paragraphs contribute to the central idea, so this is a Global question. Begin by refreshing your memory of the Theme of the entire excerpt: Jim is skilled and well-respected, but he keeps moving once his secret is discovered. Next, consult your Roadmap and predict how paragraph 5 and 6 contribute to this Theme. Jim's habit of making sudden departures is introduced in paragraph 4. Paragraphs 5 and 6 expand on this idea by describing when and why he leaves and some of the places where he went. Match this prediction to (C), the correct answer. Jim's \"shame\" is the \"Intolerable\" secret that drives him to keep moving to new locations where he is unknown.\nAll the incorrect choices are Distortions of the central idea of the excerpt that is reflected in these paragraphs. Though the passage mentions Jim's \"physical strength\" (A) and his qualifications (B), these are not the focus of paragraphs 5 and 6. (D) is incorrect because Jim's goal is to keep his secret, not to gain a title." }
+        },
+        {
+          "id": "FR26",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt **best** reveals why Jim feels he must abandon his various job positions despite his success?",
+          "options": {
+            "A": "\"Therefore good water-clerks are scarce.\" (paragraph 3)",
+            "B": "\"Nevertheless, with ingratitude he would throw up the job suddenly and depart.\" (paragraph 4)",
+            "C": "\"He had, of course, another name, but he was anxious that it should not be pronounced.\" (paragraph 5)",
+            "D": "\"When the fact broke through the incognito he would leave suddenly the seaport where he happened to be at the time and go to another—generally farther east.\" (paragraph 5)"
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: Read the question carefully and put the goal into your own words. The correct answer will say why Jim leaves his good jobs. Keep this in mind as you evaluate the choices. Eliminate (A). In context, this choice describes Jim's job, not the reason why he leaves. Eliminate (B). This choice indicates that Jim leaves, but it does not provide the reason why he does so. Eliminate (C). This choice shows that Jim does not want his full name to be known, but it does not specifically indicate that Jim would leave jobs because of it. (D) is correct. This choice clearly states that once his secret (\"the fact\") becomes known despite his secrecy (\"the incognito\"), Jim immediately leaves." }
+        },
+        {
+          "id": "FR27",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "The job of the water-clerk was important to the ship-chandler because",
+          "options": {
+            "A": "the water-clerk was able to make a variety of repairs to the ships, using materials sold by the ship-chandler.",
+            "B": "the water-clerk not only obtained the ship captains' business but also maintained personal relationships with the captains.",
+            "C": "the ship-chandler relied on the water-clerk to pass various examinations regarding harbor regulations.",
+            "D": "the ship-chandler depended on the water-clerk to make recommendations to the captains for additional items for the captains to purchase."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: Read the question carefully and put it into your own words. Here, you need the reason the water-clerk was important to the ship-chandler. Use your Roadmap to locate the discussion of the water-clerk's job in paragraphs 2 and 3, then re-read those paragraphs to look for the answer. Paragraph 2 describes how the water-clerks competed to be the first to contact a ship's captain and bring him to their ship-chandler's shop. Paragraph 3 mentions that the water-clerk's job continued as long as the ship was in port by making daily visits to the captain. Match this prediction to (B), the correct answer.\n(A) is incorrect because it is a Distortion. Repair materials were sold by the ship-chandler, but the water-clerk did not make repairs. (C) is Opposite. Paragraph 2 indicates that the \"water-clerk need not pass an examination in anything under the sun.\" (D) is Out of Scope. The water-clerk making recommendations to the captains is never mentioned. Rather, the water-clerk socializes with the captains and gets them to the shop." }
+        },
+        {
+          "id": "FR28",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "The author develops Jim's point of view by",
+          "options": {
+            "A": "using a series of first-person anecdotes to show Jim's personal pride in his ability as a water-clerk.",
+            "B": "contrasting Jim's popularity and excellence at his work with his reaction whenever his secret is revealed.",
+            "C": "documenting the specific dialogue between Jim and the ship-chandlers to show his frustration with his wages.",
+            "D": "describing Jim's physical movement through various Eastern ports to illustrate his search for a better life."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Refresh your memory of the Theme of the excerpt to help you determine how the author develops Jim's point of view: Jim is good at his job, but he has a secret. As soon as his secret is revealed, he leaves town. Now, review your Roadmap and identify how you know that. Predict that the author describes Jim's success at his job in the first half of the passage, then describes his habit of leaving jobs in the second half of the passage. Match this prediction to (B), the correct answer.\n(A) is incorrect because the passage is written in the third-person (\"he\"), not the first-person (\"I\"). There are no anecdotes told directly by Jim himself. (C) is incorrect because it's Out of Scope. There's no dialogue between Jim and the ship-chandlers. The only dialogue is the ship-chandlers' criticism of Jim (\"Confounded fool!\") after he has turned away in paragraph 4. (D) is a Distortion. The reason Jim travels to different ports is to escape from those who've discovered his secret. He is an \"exile\" in \"retreat\" (paragraph 5), not someone searching for \"a better life.\"" }
+        }
+      ]
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Influence of Immigrant Family Groups",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        { "num": 1, "text": "Immigrants to the United States during the nineteenth century faced many changes when they reached the New World. Coming from all over Europe and practicing vastly different cultural traditions, they found themselves in a large collective surrounded by others of different backgrounds. Interestingly, most of the immigrant groups at this time were able to remain within the confines of their own small communities even under tremendous external forces. It is notable that while groups of immigrants were sometimes bound together through the bonds of friendship, village, or region, mostly it was blood ties—kinship groups—that formed the basis for the smaller, stable immigrant populations. This coping mechanism of staying with one's own people surely assisted with the transition to the New World, but it assisted with another transition as well: from a rural lifestyle to an urban one. However, the dynamics of these smaller immigrant kinship communities have not always been well understood." },
+        { "num": 2, "text": "Until recently, many historians believed that the immigrant family group broke down upon the transition from a rural to an urban economy. But this argument rested upon two assumptions that have proven to be untrue. The first was that families became less important in urban-industrial society. The second assumption was that families operated in isolation from the larger economy of industrial capitalism that surrounded them upon their arrival in the United States. In fact, the family structure continued to thrive during the transition to an urban economy. Further, modern historical scholarship has made it quite clear that the family dynamic not only fit well with but also supported the underpinnings of American capitalism. In short, the family played an essential role in shaping the urban economy." },
+        { "num": 3, "text": "The immigrant family survived the transition from subsistence agriculture in the home world to an industrial-capitalist economy in the New World through its central and enduring attachment to the value of cooperation. What it means to be a \"family\" is at the root of this. Family members are continually instructed in the necessity of sharing, while notions of reciprocity are constantly reinforced. Thus, in the New World, families—parents, children, boarders, or others who shared particular households—were ready to share resources and workload. All household members were assigned a series of duties and obligations. By working together, pooling limited resources, and muting individual inclinations, families attempted to assemble the resources sufficient for economic survival and, occasionally, for an improvement in their standard of living." },
+        { "num": 4, "text": "The features of this collaborative interest that helped families thrive served the family's economic interests in this new industrial urban landscape. But immigrant kinship associations didn't just help the immigrants themselves, they supported the larger machinery of the industrial city. For instance, such groups were able to help organize the movement of workers to different places, facilitate communication, and even anticipate and meet the demands of the workplace. At times, the relationship between the industrial economy and immigrant families could almost be described as symbiotic, as kinship groups proved very responsive to demands of the workplace, the city, and the individual." }
+      ],
+      "questions": [
+        {
+          "id": "FR29",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "According to paragraph 1, immigrant groups in the nineteenth century were most often bound together by",
+          "options": {
+            "A": "shared friendships formed on the voyage to the New World.",
+            "B": "blood ties, or kinship groups.",
+            "C": "a shared village or regional origin.",
+            "D": "a common rural lifestyle."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: Paragraph 1 states that \"while groups of immigrants were sometimes bound together through the bonds of friendship, village, or region, mostly it was blood ties—kinship groups—\" that formed the basis for these communities. (B) is correct." }
+        },
+        {
+          "id": "FR30",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "The author includes the two assumptions described in paragraph 2 mainly to",
+          "options": {
+            "A": "support the claim that immigrant families broke down in urban-industrial society.",
+            "B": "show that historians have always agreed about the role of the immigrant family.",
+            "C": "establish beliefs that the passage will go on to refute with modern scholarship.",
+            "D": "prove that immigrant families operated in isolation from industrial capitalism."
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Paragraph 2 presents two historical assumptions and then states \"that have proven to be untrue,\" going on to explain that \"modern historical scholarship has made it quite clear\" the opposite is true. (C) is correct." }
+        },
+        {
+          "id": "FR31",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "As used in paragraph 3, the word \"reciprocity\" most nearly means",
+          "options": {
+            "A": "mutual exchange and obligation.",
+            "B": "strict obedience to elders.",
+            "C": "financial independence.",
+            "D": "competition among relatives."
+          },
+          "correct": "A",
+          "solution": { "exhibit_text": "Category: Vocab-in-Context\nGetting to the Answer: Paragraph 3 explains that family members were \"instructed in the necessity of sharing, while notions of reciprocity are constantly reinforced,\" and goes on to describe a household where members share resources and workload. This context supports \"mutual exchange and obligation.\" (A) is correct." }
+        },
+        {
+          "id": "FR32",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that immigrant families benefited the broader industrial economy, not just themselves?",
+          "options": {
+            "A": "\"It is notable that while groups of immigrants were sometimes bound together through the bonds of friendship, village, or region, mostly it was blood ties—kinship groups—that formed the basis for the smaller, stable immigrant populations.\" (paragraph 1)",
+            "B": "\"But immigrant kinship associations didn't just help the immigrants themselves, they supported the larger machinery of the industrial city.\" (paragraph 4)",
+            "C": "\"The immigrant family survived the transition from subsistence agriculture in the home world to an industrial-capitalist economy in the New World through its central and enduring attachment to the value of cooperation.\" (paragraph 3)",
+            "D": "\"All household members were assigned a series of duties and obligations.\" (paragraph 3)"
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: (B) is correct because it directly states that kinship associations \"didn't just help the immigrants themselves\" but \"supported the larger machinery of the industrial city.\" The other choices describe the family's internal structure or origins, not its broader economic impact." }
+        },
+        {
+          "id": "FR33",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "In paragraph 3, the phrase \"muting individual inclinations\" conveys the idea that immigrant families had to",
+          "options": {
+            "A": "weather economic declines in the United States.",
+            "B": "endure economic hardships after their arrival.",
+            "C": "sacrifice their personal wishes to prosper.",
+            "D": "resolve their individual disputes to work together."
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: The sentence in which \"muting individual inclinations\" appears details how the immigrant families survived in the New World. To \"mute,\" or to quiet, \"individual inclinations\" means to put what is good for the group ahead of what any one person may want. The best match is (C). If you weren't sure of the meaning of the phrase, the focus of paragraph 3 was on cooperation within family groups. Cooperation implies that people sometimes put aside their own plans in working with others. (A) and (B) are Out of Scope; the passage never mentions economic declines or hardships. (D) is a subtle Distortion of information in the text. Although everyday life cooperation may involve resolving individual disputes, the text doesn't mention quarrels, so this choice is also incorrect." }
+        },
+        {
+          "id": "FR34",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Which choice best describes the overall structure of the passage?",
+          "options": {
+            "A": "The author presents an outdated historical assumption, then uses evidence to explain why modern scholarship disproves it.",
+            "B": "The author compares two competing modern theories about immigrant families and argues that one is clearly superior.",
+            "C": "The author describes a single immigrant family's experience in chronological order from arrival to assimilation.",
+            "D": "The author lists several disadvantages immigrant families faced and proposes solutions to each one."
+          },
+          "correct": "A",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: The passage opens by describing how immigrant kinship groups functioned, then in paragraph 2 presents the outdated assumption that families broke down in urban society, and spends paragraphs 3-4 explaining, with modern scholarship, how families actually thrived and supported the broader economy. (A) matches this structure." }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "fiction",
+      "title": "In the Metropolis",
+      "author": "Benjamin Rosenblatt",
+      "citation": "Excerpt adapted from \"In the Metropolis\" by Benjamin Rosenblatt",
+      "paragraphs": [
+        { "num": 1, "text": "The young woman sat in a show window of a large department store." },
+        { "num": 2, "text": "\"A prize to those who make her laugh,\" read a conspicuous sign over her head. An American flag was wrapped around her figure; a sword which she clutched with both hands rested on her lap with its point towards a placard announcing a bargain sale." },
+        { "num": 3, "text": "She sat motionless, her eyes wide open, her face hardly betraying a trace of life." },
+        { "num": 4, "text": "All day long she sat there, while multitudes passing on the sidewalk turned their heads towards her and wondered: \"Is it a living woman or a wax figure?\" It was this puzzle which held the pedestrian and caused the manager of the store to chuckle at his own cleverness. When he saw in the morning this bashful country girl shuffling into the store and asking inaudibly for a job, he caught at the chance for novelty in the advertising of his sale. Her features were so immobile; she appeared, on the whole, so lifeless that his agile mind had promptly pictured her in her present setting." },
+        { "num": 5, "text": "Unceasingly the crowd surged before the window. Newsboys with bundles under their arms, messengers in uniform, girls with lunch boxes in their hands, even trim-looking business men—all forgot their errands for a few minutes, and directed their mingled breath towards that window. Some of the boys stood for hours, sticking out their tongues, puffing up their cheeks, grinning and grimacing in a vain effort to get a smile from that grim apparition." },
+        { "num": 6, "text": "Though she was alone inside the window, still it seemed to her as if she were thrown into that seething mass before her, as if jostled and mercilessly kicked about. How strange everything! How confusing to her!" },
+        { "num": 7, "text": "In the morning, when she learned there was work for her at the store, she was so happy that she thought of writing home at once about her good luck. But in the evening, after her first day's work, she was so exhausted that the girls of the establishment who took her to their boarding house had to lead her under her arms. She walked and wondered: the manager had said there was absolutely no work attached to her job." },
+        { "num": 8, "text": "At the supper-table, the girls, good naturedly, poked fun at her; and she grew livelier. Later, some of them had a romp, and they decided that the feet of the uncouth lass were surely more used to follow the cows to pasture, than to dance." },
+        { "num": 9, "text": "The next morning the girls hurried feverishly. They paid little attention to the \"rustic\" clown. Some had slept too late; they looked anxious and careworn. Last evening's warmth had all evaporated, and the \"wax figure\" felt a strange chill and a sinking at the heart." },
+        { "num": 10, "text": "Again she took her seat in the show window. She was faint, not having been in the mood for breakfast, and before long dizziness overtook her. She felt as if she looked into some deep water from which a wave suddenly emerged—a huge wave that roared, groaned, moved towards her, striving to engulf her, to carry her away." },
+        { "num": 11, "text": "Still, she appeared on that second day conscious of things she had not observed at first. The cars that thundered back and forth seemed new, and she noted the elevated overhead. The crowds were again as large and again as busy making faces, which frightened her into immobility, so that it became harder for the people to get her attention, and most of them wondered: \"Will she ever smile?\"" },
+        { "num": 12, "text": "In the afternoon it rained. The electric lights began to twinkle early, and a sea of umbrellas moved, moved endlessly before the motionless figure in the window." },
+        { "num": 13, "text": "She stared at the rumbling taxis that splashed hither and thither; at the zig-zag drizzle, the steady downpour, and her eyes suddenly filled. Thoughts of home were awakened within her by the rain. Her brain and heart, hitherto as if congealed by the terror of the strange world before her, now thawed and filled her with a gnawing sadness and self-pity. How is it at home now? her thoughts ran. How is it at home? It rains. There is the muddy road, the ruts and the pools. Father is indoors now, back from the field. The gray dusk falls. Mother sits with folded arms by the window and gazes longingly out into the dark." },
+        { "num": 14, "text": "\"Are you looking for me?\" the figure in the window, forgetting herself, suddenly wailed. \"Mother, mother dear, take me to you. I ain't used to this; I'm so lonely and afraid.\"" },
+        { "num": 15, "text": "Her lips trembled visibly. A spasm shot across her face and contracted it—and many of the crowd outside who made mouths at her, burst into a triumphant hurrah. \"She laughed!\" roared a man so loud that it reached the manager. \"I made her laugh! I made her laugh!\"" }
+      ],
+      "questions": [
+        {
+          "id": "FR35",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best explains why the young woman draws such a large crowd?",
+          "options": {
+            "A": "\"The young woman sat in a show window of a large department store.\" (paragraph 1)",
+            "B": "\"Her features were so immobile; she appeared, on the whole, so lifeless that his agile mind had promptly pictured her in her present setting.\" (paragraph 4)",
+            "C": "\"In the morning, when she learned there was work for her at the store, she was so happy that she thought of writing home at once about her good luck.\" (paragraph 7)",
+            "D": "\"Later, some of them had a romp, and they decided that the feet of the uncouth lass were surely more used to follow the cows to pasture, than to dance.\" (paragraph 8)"
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: This question asks you to find the sentence that best explains why this specific young woman draws a crowd. Referring to your Roadmap, note that paragraphs 2 through 4 explain the manager's reason for hiring her to sit in a window; predict that the answer can be found there. (B) is correct because it shows the traits (\"immobile,\" \"so lifeless\") that the manager noticed. He thought she would be a \"novelty in the advertising of his sale\" and offers a \"prize\" to anyone who could make her laugh. He knew she would attract attention as people wondered if she were a \"living woman or a wax figure,\" given her lifeless features.\n(A) is incorrect because it shows what setting the young woman is in, but not why people come to look at her. (C) shows her being happy, which is the Opposite of what draws a crowd to her. (D) shows the other workers' view that she is more suited to the country than to dancing, but the crowd doesn't know about this, so this answer is incorrect." }
+        },
+        {
+          "id": "FR36",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "How do the details in paragraph 5 most contribute to the development of a theme of the excerpt?",
+          "options": {
+            "A": "by revealing the difficulty of remaining in one place for hours",
+            "B": "by showing how being stared at can feel punishing",
+            "C": "by highlighting how city dwellers have nothing better to do than look at the young woman",
+            "D": "by emphasizing the diversity of the crowd"
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Global\nGetting to the Answer: Recall the Theme of the story in your Roadmap: the passage is about a woman who feels lonely as the crowds look at her. Throughout the passage, the author emphasizes how the city and the crowd feel oppressive to this young woman. Check paragraph 5 to see if it deals with this central Theme. It does: the crowd is described as \"Unceasingly,\" and it \"surge[s]\" in an oppressive manner. Boys stick out their tongues and make faces at her for hours. Predict that the correct answer deals with this feeling. (B) captures this feeling and is correct.\n(A) is incorrect because it is a Distortion; the paragraph specifically deals with the oppression of the crowd, not the general experience of staying in one place. (C) is a Misused Detail; although the boys seem to have nothing better to do than stare at the young woman, others look for only \"a few minutes.\" Further, this issue is not a theme of the passage. (D) is incorrect because, although the paragraph does describe a variety of people in the crowd, this diversity is not a recurring theme. In addition, the difference from one member of the crowd to the next does not make a real difference to the young woman, who feels generally oppressed by the crowd as a whole." }
+        },
+        {
+          "id": "FR37",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "The phrase \"the manager had said there was absolutely no work attached to her job\" in paragraph 7 suggests that",
+          "options": {
+            "A": "the other employees must help her with her job.",
+            "B": "the manager has given her more tasks than he originally promised.",
+            "C": "emotional challenges are a kind of work.",
+            "D": "she isn't a hard enough worker for the city."
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Inference\nGetting to the Answer: Review your Roadmap for paragraph 7: it is about the young woman's feeling of exhaustion after her first day of work. Check the context to get a sense of what the specific phrase in the question might suggest. Although the young woman has been sitting all day, she is so tired by the end of the day that she needs help walking. She \"wonder[s]\" at the manager's statement that the job entailed \"absolutely no work.\" Predict that even if what she's doing isn't traditional \"work\" entailing physical labor, her job is still difficult because being stared at all day takes an emotional toll. (C) is correct.\nThe other answer choices are Distortions. (A) is incorrect because she gets no help with her job; the other employees only help her get to the boarding house afterwards. (B) is incorrect because the manager has not given her any extra tasks. Rather, the one task she has is exhausting. Finally, there is no suggestion of her being lazy, so (D) is incorrect as well." }
+        },
+        {
+          "id": "FR38",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "How does the interaction between the young woman and the other employees in paragraphs 8-9 contribute to the development of the characters?",
+          "options": {
+            "A": "It establishes a conflict between the young woman, who wants help, and the other employees, who won't give it to her.",
+            "B": "It demonstrates the characters' traits by contrasting the dullness of the young woman with the joy of the other employees.",
+            "C": "It shows that the other employees secretly wish the young woman would live somewhere else.",
+            "D": "It reveals that both the young woman and the other employees have cheerful sides that they do not always express."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Review your Roadmap for paragraphs 8 and 9. In this part of the passage, the other employees have fun and get the young woman to act \"livelier.\" However, the next morning, they ignore her and consider her a \"clown,\" while she feels a \"sinking at the heart.\" Predict that the correct answer will incorporate both the positive and negative sides of these characters. (D) is correct. At night, the young woman and the other employees have fun, but when morning comes, the girls all feel stressed (\"anxious and careworn\") and the young woman feels alone.\n(A) is incorrect because it is a Distortion. Although the other employees stop paying attention to the young woman in the morning, they are not shown refusing to help her. (B) is Opposite. These paragraphs show that the young woman is not \"dull.\" In fact, she can be lively. Further, the other employees do not always show \"joy\"; in the morning, they are \"anxious.\" (C) is incorrect because it is Extreme. The other employees look down on the young woman in some ways, but they are never shown wishing her to leave." }
+        },
+        {
+          "id": "FR39",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "How does the author develop the contrast between the young woman's point of view and the crowd's point of view?",
+          "options": {
+            "A": "by including dialogue between them that shows why they have trouble relating to each other",
+            "B": "by describing the crowd's efforts to get the young woman to express herself fully",
+            "C": "by showing private thoughts that the young woman and the crowd have about each other",
+            "D": "by providing the young woman's and the crowd's different impressions of the weather and city"
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Throughout the passage, the author shows the thoughts of both the young woman and the crowd. Both points of view are even shown in the same sentence: \"The crowds were again as large and again as busy making faces, which frightened her into immobility, so that it became harder for the people to get her attention, and most of them wondered: 'Will she ever smile?'\" (paragraph 11). While the crowd wonders if she is a \"wax figure\" (paragraph 4), she privately views the crowd as a \"huge wave\" (paragraph 10) that is trying to engulf her. Predict that the correct answer will deal with the private thoughts of both parties. (C) is correct.\n(A) is incorrect because it is Out of Scope. The young woman and the crowd never speak back and forth. (B) is incorrect because the crowd is trying to get the woman to laugh in order to win a prize; they do not care about her \"expressing herself fully.\" (D) is Out of Scope. The passage doesn't show what the crowd thinks of the weather or the city." }
+        },
+        {
+          "id": "FR40",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that a person's body responds to and reflects its environment?",
+          "options": {
+            "A": "\"Though she was alone inside the window, still it seemed to her as if she were thrown into that seething mass before her, as if jostled and mercilessly kicked about.\" (paragraph 6)",
+            "B": "\"She felt as if she looked into some deep water from which a wave suddenly emerged—a huge wave that roared, groaned, moved towards her, striving to engulf her, to carry her away.\" (paragraph 10)",
+            "C": "\"She stared at the rumbling taxis that splashed hither and thither; at the zig-zag drizzle, the steady downpour, and her eyes suddenly filled.\" (paragraph 13)",
+            "D": "\"Mother sits with folded arms by the window and gazes longingly out into the dark.\" (paragraph 13)"
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Detail\nGetting to the Answer: It may be difficult to make a specific prediction for this question, so use process of elimination, checking how well each choice shows someone's body responding to and reflecting its environment. (A) and (B) both show feelings that the young woman has in response to her environment, but they do not show her body directly responding to or reflecting it. (C) shows a link between the \"steady downpour\" outside and her eyes filling with tears. Her body is literally mirroring the moisture and gloom of the city weather. This is an example of her body responding to and reflecting the environment, so (C) is correct. (D) shows the young woman's mother in a sad environment, but it doesn't support the idea of a body reflecting its environment." }
+        },
+        {
+          "id": "FR41",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "How does paragraph 13 help develop the plot of the excerpt?",
+          "options": {
+            "A": "It establishes that the young woman's parents never wanted her to leave home for the city.",
+            "B": "It demonstrates that the rain is unlikely to stop soon.",
+            "C": "It emphasizes that the young woman's home would be more pleasant than the store.",
+            "D": "It shows that the young woman is finding it harder to control her homesickness."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: Consult your Roadmap and note that this is the paragraph in which the young woman becomes overcome by thoughts of home. This leads to her calling out for her mother in the next paragraph. Predict that paragraph 13 advances the plot by showing her homesickness getting worse. (D) is correct.\n(A) is incorrect because it is Out of Scope. Although the paragraph shows the young woman's mother \"gaz[ing] longingly out into the dark,\" this is the young woman's imagination, and there is no evidence that her family never wanted her to leave at all. (B) is a Distortion. While the rain is described as a \"steady downpour,\" the author includes this detail to set a somber mood and trigger the girl's homesickness, not to provide a literal weather forecast or suggest how long the storm will last. (C) may be tempting, because the young woman hates working at the store, but the images of home, including the \"grey dusk\" and \"muddy road,\" are not obviously pleasant, so this choice is incorrect." }
+        },
+        {
+          "id": "FR42",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "The phrase \"burst into a triumphant hurrah\" affects the tone in paragraph 15 by",
+          "options": {
+            "A": "highlighting the insensitivity of the crowd to the young woman's feelings.",
+            "B": "emphasizing the affection and goodwill that the crowd has for the young woman.",
+            "C": "demonstrating the aggression of the crowd in wanting to see the young woman humiliated.",
+            "D": "showing the humor that the crowd and young woman are finally able to share."
+          },
+          "correct": "A",
+          "solution": { "exhibit_text": "Category: Function\nGetting to the Answer: In paragraph 15, the young woman's face \"spasm[s]\" after she cries for her mother. The crowd wrongly interprets this reaction as laughter. So, predict that the \"triumphant hurrah\" has an ironic effect: the crowd may feel happy to have made her laugh, but in reality, she feels sad and more alone than ever. (A) reflects the crowd's total lack of awareness regarding her actual emotional state and is correct.\n(B) is incorrect because it is Opposite. The crowd is never shown to truly care about the young woman. (C) is Extreme. While the crowd is insensitive, there is no evidence in the text that they are motivated by a desire to see her \"humiliated.\" They want to make her laugh due to the posted sign. (D) is incorrect because it is Opposite. The crowd and young woman are not sharing a feeling of \"humor\"—the crowd feels triumphant and happy, while she feels sad and lonely." }
+        }
+      ]
+    },
+    {
+      "passage_number": 7,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Vaccines",
+      "author": null,
+      "citation": null,
+      "sentence_paragraphs": [
+        [
+          { "num": 1, "text": "Vaccination has become one of the most important and most widely used tools of modern medicine." },
+          { "num": 2, "text": "However, very few people know the history of vaccines and how they were developed." },
+          { "num": 3, "text": "The idea of immunization goes back more than 500 years—a time when doctors still scoffed at the practice of washing their hands between patients—and found its inspiration in both traditional medicine and folklore." },
+          { "num": 4, "text": "Today, a wide variety of dangerous diseases can be prevented using vaccines." },
+          { "num": 5, "text": "Smallpox was among the first diseases people sought to immunize against." },
+          { "num": 6, "text": "The earliest recorded success came in China in the fifteenth century." },
+          { "num": 7, "text": "There, medical practitioners employed what is now called \"variolation,\" a process by which uninfected patients were exposed to smallpox to infect them with a mild form of the disease." },
+          { "num": 8, "text": "Variolation, however, still posed a risk of a potentially fatal, full-blown smallpox infection." },
+          { "num": 9, "text": "Much later, in the eighteenth century, the English doctor Edward Jenner began to examine a local legend that held that milkmaids who were exposed to cowpox became immune to the more dangerous smallpox." },
+          { "num": 10, "text": "Experimentation soon proved folklore correct: the relatively safe, related virus could protect patients from the deadlier illness." },
+          { "num": 11, "text": "Administering a cowpox vaccine became the standard method of inoculating against smallpox." }
+        ],
+        [
+          { "num": 12, "text": "The cowpox vaccine developed from Jenner's work set the standard for vaccines—to find a \"safe\" virus that confers immunity without the risks of full-blown infection." },
+          { "num": 13, "text": "Later, the French scientist Louis Pasteur discovered that ineffective, outdated disease cultures could still confer immunity and could do so without causing infection." },
+          { "num": 14, "text": "The technique of using \"dead\" viruses soon became an important method for developing new vaccines." },
+          { "num": 15, "text": "Vaccines using dead viruses include diphtheria, flu, and the injected polio vaccine." },
+          { "num": 16, "text": "Polio has been almost completely eliminated throughout the world by use of the Salk vaccine, an injection using a dead virus, as well as by the live but weakened Sabin vaccine given by mouth." },
+          { "num": 17, "text": "Between the two, the World Health Organization reports that the worldwide incidence of polio went from 350,000 cases in 1988 to 74 in 2015." }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "FR43",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "Which sentence should replace sentence 4 to best introduce the topic of the passage?",
+          "options": {
+            "A": "From there, medical understanding of immunization expanded through both experimentation and accident.",
+            "B": "The first vaccine was important both in its own right and because it provided the foundation for many others to follow.",
+            "C": "Many doctors and scientists contributed to the development of better vaccines and better methods for creating vaccines.",
+            "D": "The effectiveness of vaccines in preventing viral illnesses has been proven repeatedly in the centuries since they were invented."
+          },
+          "correct": "B",
+          "solution": { "exhibit_text": "Category: Topic Development\nGetting to the Answer: Think about the main topic of the passage. It discusses the historical development of vaccines; paragraph 2 is about the development of the smallpox vaccine, which was the first vaccine, and paragraph 3 is about later vaccines that were developed using the first one as a standard. This fits with (B). (A) is incorrect because the passage rarely discusses how understanding was expanded, except in the case of Edward Jenner. (C) is incorrect because, although the passage does talk about several people who contributed to developing vaccines, that is not the main topic of the passage. Likewise, (D) is incorrect because the effectiveness of vaccines is not the passage's main focus." }
+        },
+        {
+          "id": "FR44",
+          "q_number": 44,
+          "question_type": "mc",
+          "question": "Which transition word or phrase should be added to the beginning of sentence 11 to emphasize the relationship between sentences 10 and 11?\n\nMove the correct answer to the box.",
+          "options": {
+            "A": "However,",
+            "B": "Furthermore,",
+            "C": "Thus,",
+            "D": "For example,"
+          },
+          "correct": "C",
+          "solution": { "exhibit_text": "Category: Organization\nGetting to the Answer: When a question asks you to add a transition, read the two sentences being connected and determine the relationship between ideas. Sentence 10 says that the relatively safe cowpox could protect people from the deadlier smallpox, and sentence 11 says this method of inoculation became standard. A cause-and-effect transition would make sense here, so \"Thus\" is correct. \"However\" is incorrect because it indicates a contrast between ideas that is not present. \"Furthermore\" treats sentence 11 as if it were an addition to the information of sentence 10 rather than a result. \"For example\" incorrectly identifies the sentence as an illustration." }
+        },
+        {
+          "id": "FR45",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "What is the best way to combine sentences 14 and 15 to clarify the relationship between ideas?",
+          "options": {
+            "A": "While the technique of using \"dead\" viruses soon became an important method for developing new vaccines, diphtheria, flu, and the injected polio vaccine were just a few of those created using dead viruses.",
+            "B": "Thus, scientists invented an important method for developing new vaccines by using \"dead\" viruses, including diphtheria, flu, and the injected polio vaccine.",
+            "C": "By using \"dead\" viruses, the technique that became important for developing new vaccines included diphtheria, flu, and the injected polio vaccine.",
+            "D": "The technique of using \"dead\" viruses soon became an important method for developing new vaccines, including diphtheria, flu, and the injected polio vaccine."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Multiple\nGetting to the Answer: For a question like this, first determine the relationship between ideas. Sentence 15 provides examples of vaccines developed using the technique described in sentence 14. (D) clearly shows this relationship and is correct. (A) is incorrect because \"While\" introduces a contrast between the sentences. (B) is incorrect because the sentence structure suggests that \"diphtheria, flu, and the injected polio vaccine\" were examples of dead viruses, not vaccines created from them. (C) is incorrect because (in addition to being awkward) it suggests that the \"technique\" included diphtheria, flu, etc." }
+        },
+        {
+          "id": "FR46",
+          "q_number": 46,
+          "question_type": "mc",
+          "question": "Which concluding sentence should be added after sentence 17 to support the topic presented in the passage?",
+          "options": {
+            "A": "The World Health Organization hopes that with more work, this disease will be completely eradicated, just as smallpox was decades ago.",
+            "B": "Because of the efforts of many dedicated professionals, people around the world are now healthier than they have ever been before.",
+            "C": "Scientists are still developing new vaccines, working to immunize people against diseases from malaria to HIV.",
+            "D": "Vaccines have made once-feared diseases nearly unheard of today and continue to improve the lives and health of people around the world."
+          },
+          "correct": "D",
+          "solution": { "exhibit_text": "Category: Topic Development\nGetting to the Answer: Keep the intention of the passage in mind and recall the characteristics of a good conclusion. A concluding sentence should sum up the entire passage and not introduce any new ideas. The passage as a whole is about the development and importance of vaccines. (D) incorporates both ideas and is correct. (A) connects well to the previous sentence but is too narrowly focused on outcomes for two specific diseases to be a good concluding sentence. On the other hand, (B) is too broad and vague; making people \"healthier than they have ever been\" could be describing many topics besides the impact of vaccines. (C) is about developing vaccines, but doesn't address the main idea, the importance of vaccines." }
+        }
+      ]
+    }
+  ],
+  "standalone_items": [
+    {
+      "id": "FR47",
+      "q_number": 47,
+      "question_type": "mc",
+      "stimulus": "Lucia explored the flea market looking for some cheap things for her kitchen. After searching through a bin of mismatched ceramics, she finally discovered a set of hand-carved cherry wood bowls that possessed exactly the rustic charm she had imagined. With a few polished silver spoons tucked into her bag alongside them, she headed home, satisfied that she had found the perfect additions to her kitchen without exceeding her budget.",
+      "question": "What is the most precise revision for the words *some cheap things for her kitchen*?",
+      "options": {
+        "A": "some inexpensive things for her kitchen",
+        "B": "some low-cost kitchen items",
+        "C": "two types of kitchen tools",
+        "D": "affordable salad bowls and serving spoons"
+      },
+      "correct": "D",
+      "solution": { "exhibit_text": "Category: Knowledge of Language\nGetting to the Answer: The original sentence says Lucia was looking for \"some cheap things for her kitchen.\" To make it more precise, the answer choice should give more specific information about the \"things.\" (D) gives the most precise description of what Lucia was looking for: affordable salad bowls and serving spoons. These specific items are then further described in the remaining sentences in the paragraph. The remaining choices are incorrect because they use the vague \"things,\" \"items,\" and \"tools\" without specifying the exact items Lucia was shopping for." }
+    },
+    {
+      "id": "FR48",
+      "q_number": 48,
+      "question_type": "mc",
+      "stimulus": "(1) Large meteors are massive space rocks that create brilliant streaks of light, known as fireballs, when they crash into Earth's atmosphere. (2) Their incredible speed causes so much friction and heat that the air around them glows brighter than a flashlight in a dark room. (3) The largest meteors can strike the Earth's surface and create deep, wide craters. (4) Because these meteors can cause major changes to the Earth's environment, scientists used powerful telescopes to track these objects and keep our planet safe.",
+      "question": "Which sentence in the paragraph contains an error in construction and should be revised?\n\nMove the answer to the box. There is only one error in construction.",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "D",
+      "solution": { "exhibit_text": "Category: Usage\nGetting to the Answer: Read each sentence carefully. As you read, check for the subject and verb for each sentence. If there are pronouns, check that they have clear antecedents. If there are modifiers, confirm that they are as close as possible to what they are intended to modify. Sentence 4 has a verb error. The verb \"used\" is past tense, while the other verbs in the paragraph and sentence are present tense (\"can cause,\" \"keep\"). There is no context clue that \"used\" should be past tense. The other three sentences do not have any errors." }
+    },
+    {
+      "id": "FR49",
+      "q_number": 49,
+      "question_type": "mc",
+      "stimulus": "(1) NASA's Artemis program plans to establish a base camp on the Moon. (2) The base camp established by NASA's Artemis program will serve as a critical staging point for future missions to Mars.",
+      "question": "Read these sentences.\n\nWhat is the best way to combine the sentences to clarify the relationship between the ideas?",
+      "options": {
+        "A": "NASA's Artemis program plans to establish a base camp on the Moon, but this lunar presence will serve as a critical staging point for future missions to Mars.",
+        "B": "NASA's Artemis program plans to establish a base camp on the Moon; afterwards, this lunar presence will serve as a critical staging point for future missions to Mars.",
+        "C": "Intending to serve as a critical staging point for future missions to Mars, the Moon will be used to establish a base camp by NASA's Artemis program.",
+        "D": "Although NASA's Artemis program plans to establish a base camp on the Moon, this lunar presence will serve as a critical staging point for future missions to Mars."
+      },
+      "correct": "B",
+      "solution": { "exhibit_text": "Category: Multiple\nGetting to the Answer: The best way to join these sentences will be to make them structurally correct without any words that would change their meaning. (B) does this, adding the correct punctuation (a semicolon) to join two independent clauses and the logical transition word \"afterwards.\" (B) is correct.\n(A) combines the sentences using the conjunction \"but.\" This suggests a contrast relationship between ideas, but the ideas are in the same direction, not a different direction. (C) contains a misplaced modifier. The introductory descriptive phrase, \"Intending to serve as a critical staging point...,\" is meant to modify the \"base camp,\" as indicated in the original sentence 2. The placement of the phrase in (C) causes it to incorrectly modify the subject immediately following the comma: \"the Moon.\" This structural error suggests the Moon itself, rather than the base camp, is intended to serve as a staging point. In (D), \"Although\" suggests that the NASA program will establish a base camp even though it will be a staging area. This is an inaccurate way to express the relationship between the ideas." }
+    },
+    {
+      "id": "FR50",
+      "q_number": 50,
+      "question_type": "mc",
+      "stimulus": "(1) Primates include animals such as apes, monkeys, and lemurs, and they communicate to satisfy their biological and social needs. (2) They use sounds and body language cues to avoid predators, interact with other primates, and maintain unity when traveling as a group.",
+      "question": "Read these sentences.\n\nWhat is the best way to combine the sentences to clarify the relationship between the ideas?",
+      "options": {
+        "A": "Primates, which include animals such as apes, monkeys, and lemurs, use sounds and body language cues to avoid predators, interact with other primates, and maintain unity when traveling as a group, and they communicate to satisfy their biological and social needs.",
+        "B": "Primates, which include animals such as apes, monkeys, and lemurs, communicate to satisfy their biological and social needs, use sounds and body language cues to avoid predators, interact with other primates, and maintain unity when traveling as a group.",
+        "C": "Primates, such as apes, monkeys, and lemurs, communicate to satisfy their biological and social needs, using sounds and body language cues to avoid predators, interact with other primates, and maintain unity when traveling as a group.",
+        "D": "Primates, such as apes, monkeys, and lemurs, communicate to satisfy their biological and social needs, use sounds and body language cues to avoid predators, interact with other primates, and maintain unity when traveling as a group."
+      },
+      "correct": "C",
+      "solution": { "exhibit_text": "Category: Multiple\nGetting to the Answer: Read through each answer, looking for a complex sentence that presents ideas clearly and precisely while logically connecting the ideas in the two sentences. (C) is correct because it shows the relationship between the key ideas: primates communicating to satisfy their needs and practical examples of their sounds and body language cues. (A) suggests an incorrect relationship between ideas; because sentence 2 provides examples of the key idea presented in sentence 1, these examples should follow the text in sentence 1, not appear in front of it. (B) and (D) are incorrect because they change the intended meaning of the two original sentences, lumping all of the verb phrases (including \"communicate\") together in a list instead of clarifying that the verb phrases in the second part are ways that primates communicate." }
+    }
+  ]
+}
