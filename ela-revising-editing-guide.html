@@ -15,7 +15,7 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: system-ui,-apple-system,sans-serif; background: var(--bg); color: var(--text); line-height: 1.55; padding: 1.5rem 1rem 4rem; }
-    .page { max-width: 880px; margin: 0 auto; }
+    .page { max-width: 900px; margin: 0 auto; }
     .back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--blue); text-decoration: none; font-size: 0.88rem; margin-bottom: 1rem; }
     h1 { font-size: 1.6rem; font-weight: 900; margin-bottom: 0.3rem; color: var(--navy); }
     .subtitle { color: var(--muted); font-size: 0.92rem; margin-bottom: 1rem; }
@@ -47,10 +47,11 @@
     .strategy b { color: #9a3412; }
 
     /* ── Example card ── */
-    .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0.6rem; }
-    .ex-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 0.9rem; font-size: 0.84rem; }
-    .ex-source { font-size: 0.7rem; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.3rem; }
-    .ex-sentence { color: var(--text); margin-bottom: 0.35rem; }
+    .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 0.6rem; align-items: start; }
+    .ex-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.8rem 0.95rem; font-size: 0.84rem; }
+    .ex-source { font-size: 0.7rem; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.35rem; }
+    .ex-sentence { color: var(--text); margin-bottom: 0.4rem; }
+    .ex-sentence .dim { color: var(--muted); }
     .ex-why { color: var(--muted); font-size: 0.78rem; }
     .ex-why b { color: var(--green); margin-right: 0.3rem; }
     del { color: var(--red); text-decoration-color: var(--red); background: var(--red-light); border-radius: 3px; padding: 0 2px; }
@@ -65,7 +66,7 @@
   <div class="page">
     <a href="exams.html" class="back">← Back to Exams</a>
     <h1>Revising &amp; Editing Study Guide</h1>
-    <p class="subtitle">Every standalone (non-passage) Revising/Editing item transcribed so far from Practice Tests A–D, plus a full Kaplan drill workbook not tied to any specific exam — 58 real examples across 12 categories, grouped by the skill each one is actually testing.</p>
+    <p class="subtitle">Every standalone (non-passage) Revising/Editing item transcribed so far from Practice Tests A–D, plus a full Kaplan drill workbook not tied to any specific exam — 59 real examples across 12 categories. Every example shows the complete original sentence or paragraph, not a trimmed fragment, so you can see the error sitting in its real context the way it'll actually appear on the test.</p>
     <div class="howto"><b>How to use this page:</b> don't try to memorize the rules first. Read a category's strategy box once, then go straight through all of its examples back to back — sentence, error, fix, one-line reason. The goal is to start <i>recognizing the shape</i> of each error type on sight, the same way you'd recognize a friend's face before you could describe their features in words. If an example makes sense on its own without you re-reading the strategy box, that's the pattern sinking in.</div>
 
     <div class="quickid">
@@ -98,28 +99,28 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A · AR48</div>
-          <div class="ex-sentence">"Eliza and Brianna have been singing... Outside of school, <del>she</del> also sings in a choir..."</div>
-          <div class="ex-why"><b>Why:</b> "She" could mean Eliza or Brianna — the sentence never says which.</div>
+          <div class="ex-sentence"><span class="dim">(1) Eliza and Brianna have been singing in their school chorus since they were in fourth grade. (2) The girls always sing a duet at the school talent show, and they take turns singing the national anthem before school sporting events.</span> (3) <del>Outside of school, she also sings in a choir made up of young and old members of her community.</del> <span class="dim">(4) Both girls hope that they will be able to continue singing for many more years.</span></div>
+          <div class="ex-why"><b>Why:</b> "She" in sentence 3 could mean Eliza or Brianna — nothing in the paragraph says which one sings in the community choir.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Babe Ruth paragraph</div>
-          <div class="ex-sentence">"...hitting 20 home runs... was considered extraordinary, but <del>that</del> was drastically changed by Babe Ruth..."</div>
-          <div class="ex-why"><b>Why:</b> "That" has no single noun to point to — only a vague, unstated idea ("the perception that 20 HRs was a lot").</div>
+          <div class="ex-sentence"><span class="dim">(1) Babe Ruth started his career as a pitcher for the Boston Red Sox and then joined the New York Yankees.</span> (2) <del>In baseball's early days, hitting 20 home runs in a season was considered extraordinary, but that was drastically changed by Babe Ruth when he hit 54 home runs in 1920.</del> <span class="dim">(3) When he retired in 1935, he had made a total of 714 home runs. (4) Two movies about Babe Ruth feature his accomplishments...</span></div>
+          <div class="ex-why"><b>Why:</b> "That" in sentence 2 has no single noun to point to — only a vague, unstated idea ("the perception that 20 home runs was extraordinary").</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Noctilucent Clouds passage</div>
-          <div class="ex-sentence">"Seeing <del>these things</del> in Europe has also happened more..." → "<ins>Sightings</ins> in Europe have also become more frequent..."</div>
+          <div class="ex-sentence">"<del>Seeing these things in Europe</del> has also happened more and more in the past 50 years, for reasons that remain unsure." → "<ins>Sightings in Europe</ins> have also become more frequent in the past 50 years, for reasons that remain unclear."</div>
           <div class="ex-why"><b>Why:</b> "These things" is a lazy placeholder — swap it for the actual noun ("sightings") the sentence is really about.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Icebreakers passage</div>
-          <div class="ex-sentence">"This process is time-consuming because <del>it</del> can be up to 16 feet thick." → "...because <ins>the ice</ins> can be up to 16 feet thick."</div>
+          <div class="ex-sentence">"This process is time-consuming because <del>it</del> can be up to 16 feet thick." → "This process is time-consuming because <ins>the ice</ins> can be up to 16 feet thick."</div>
           <div class="ex-why"><b>Why:</b> "It" grammatically points back to "process" — but a process can't be "16 feet thick," only ice can. The pronoun is pointing at the wrong noun entirely.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Elephant paragraph</div>
-          <div class="ex-sentence">"...both species live in herds... At 6.5 tons, <del>this creature</del> cannot easily escape..."</div>
-          <div class="ex-why"><b>Why:</b> The sentence right before talks about "both species" (plural) — "this creature" (singular) has no single elephant to refer back to.</div>
+          <div class="ex-sentence"><span class="dim">(1) The African elephant, having much larger ears, is slightly heavier than the Indian elephant. (2) In their respective regions, both species live in herds and have a vegetarian diet.</span> (3) <del>At 6.5 tons, this creature cannot easily escape from people, who have tamed elephants for various reasons.</del> <span class="dim">(4) The African elephant was long considered one of the most endangered creatures...</span></div>
+          <div class="ex-why"><b>Why:</b> Sentence 2 just said "both species" (plural) — "this creature" (singular) in sentence 3 has no single elephant to refer back to.</div>
         </div>
       </div>
     </div>
@@ -132,33 +133,33 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A · AR49</div>
-          <div class="ex-sentence">"Granddad turns each pancake when <del>they start</del> to bubble..." → "...when <ins>it starts</ins> to bubble..."</div>
+          <div class="ex-sentence">"Granddad turns each pancake when <del>they start</del> to bubble, while all three siblings get the table ready for a sweet delicious breakfast." → "...when <ins>it starts</ins> to bubble..."</div>
           <div class="ex-why"><b>Why:</b> The subject is singular ("each pancake"), so it needs "it starts," not "they start."</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam B · BR09</div>
-          <div class="ex-sentence">"First she did vocal exercises... Then she <del>studies</del> the text..." → "Then she <ins>studied</ins> the text..."</div>
-          <div class="ex-why"><b>Why:</b> Every other verb in the paragraph is past tense. A present-tense verb breaks that consistency.</div>
+          <div class="ex-sentence">"(1) Danielle spent several hours preparing for an upcoming audition... (2) First she did vocal exercises... (3) Then she <del>studies</del> the text of the monologue... (4) Finally she recited her monologue..."</div>
+          <div class="ex-why"><b>Why:</b> Every other verb in the paragraph is past tense ("spent," "did," "recited"). Sentence 3's present-tense "studies" breaks that consistency — should be "studied."</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook</div>
-          <div class="ex-sentence">"The most successful scientists, spanning fields from physics to geology, <del>sees</del> beyond the facts..." → "...<ins>see</ins> beyond the facts..."</div>
+          <div class="ex-sentence">"The most successful scientists, spanning fields from physics to geology, <del>sees</del> beyond the facts and speculate about the general principles that provide a foundation for new ideas." → "...<ins>see</ins> beyond the facts..."</div>
           <div class="ex-why"><b>Why:</b> The subject is "scientists" (plural) — "spanning fields from physics to geology" is just a descriptive phrase sitting in between, not the real subject.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook</div>
-          <div class="ex-sentence">"<del>The Yankees is</del> my favorite team because <del>it</del> always has amazing players..." → "<ins>The Yankees are</ins> my favorite team because <ins>they</ins> always have amazing players..."</div>
+          <div class="ex-sentence">"<del>The Yankees is</del> my favorite team because <del>it</del> always has amazing players and has an impressive history." → "<ins>The Yankees are</ins> my favorite team because <ins>they</ins> always have amazing players and have an impressive history."</div>
           <div class="ex-why"><b>Why:</b> "The Yankees" (a team name ending in -s) is treated as plural throughout English, even though it names one team — every verb/pronoun referring to it needs to be plural too.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Marie Curie paragraph</div>
-          <div class="ex-sentence">"Marie Curie, Pierre Curie, and Henri Becquerel were awarded... for work... that <del>he</del> had previously discovered."</div>
-          <div class="ex-why"><b>Why:</b> The subject is three people — "he" should be "they." Easy to miss because the pronoun is far from the list of names.</div>
+          <div class="ex-sentence">(1) <del>Marie Curie, Pierre Curie, and Henri Becquerel were awarded the 1903 Nobel Prize in Physics for work studying radiation phenomena that he had previously discovered.</del> <span class="dim">(2) After her husband, Pierre, passed away, Marie studied the medical applications of radium... (3) The Curie family included many scientists... (4) In fact, their daughter, Irene, followed in her parents' footsteps...</span></div>
+          <div class="ex-why"><b>Why:</b> The subject of sentence 1 is three people — "he" should be "they." Easy to miss because the pronoun is far from the list of names.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Homeschooling paragraph</div>
-          <div class="ex-sentence">"Children of all ages <del>enjoys</del> the unlimited opportunities..." → "...<ins>enjoy</ins> the unlimited opportunities..."</div>
-          <div class="ex-why"><b>Why:</b> Plain plural subject, plain singular-verb mistake — the most basic version of this error, and still shows up.</div>
+          <div class="ex-sentence"><span class="dim">(1) Homeschooling programs, nearly unheard of 20 years ago, are now available through many public school systems.</span> (2) <del>Children of all ages enjoys the unlimited opportunities and a variety of tailored options.</del> <span class="dim">(3) Many homeschool families choose an eclectic approach... (4) High school students receive a transcript, which most universities accept.</span></div>
+          <div class="ex-why"><b>Why:</b> Plain plural subject ("Children"), plain singular-verb mistake ("enjoys") — the most basic version of this error, and it still shows up.</div>
         </div>
       </div>
     </div>
@@ -171,32 +172,32 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam B · BR06 — run-on</div>
-          <div class="ex-sentence">"...opened as part of the Smithsonian <del>Institution, the</del> museum is already the Smithsonian's third most popular site."</div>
+          <div class="ex-sentence">"In September 2016 the National Museum of African American History and Culture opened as part of the Smithsonian <del>Institution, the</del> museum is already the Smithsonian's third most popular site."</div>
           <div class="ex-why"><b>Why:</b> Both halves are full sentences on their own — a comma can't join them.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam D · DR13 — dangling modifier</div>
-          <div class="ex-sentence">"<del>Walking dogs, cleaning kennels, hand-feeding newborn kittens</del>, the animal shelter is looking for volunteers..."</div>
+          <div class="ex-sentence">(1) <del>Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers to help with a variety of tasks.</del> <span class="dim">(2) Working at the animal shelter is a great way for young people... (3) In addition to hands-on training... (4) Caring for animals can also help volunteers develop empathy...</span></div>
           <div class="ex-why"><b>Why:</b> A shelter (a place) can't walk dogs — the task list needs to modify a person ("volunteers"), not "the animal shelter."</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Title IX paragraph</div>
-          <div class="ex-sentence">"<del>Resulted in more money in athletic departments allocated for women's sports...</del>" (no subject at all)</div>
-          <div class="ex-why"><b>Why:</b> Fragment — "Resulted in..." never says WHAT resulted. There's no subject performing the action.</div>
+          <div class="ex-sentence"><span class="dim">(1) Colleges could give greater support to men's sports teams than to women's teams prior to 1972; today, women's and men's teams must receive equal funding. (2) Title IX of the Education Amendments prohibits gender discrimination at colleges and other federally funded institutions.</span> (3) <del>Resulted in more money in athletic departments allocated for women's sports, greater competition among teams, and improvements in the quality of athletics for women.</del> <span class="dim">(4) Title IX has led to more interest in women's sports.</span></div>
+          <div class="ex-why"><b>Why:</b> Fragment — sentence 3 never says WHAT resulted in that money. There's no subject performing the action.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — California condor paragraph</div>
-          <div class="ex-sentence">"...this vulture can glide as far as 10 miles <del>without flapping its wings, it conserves</del> energy this way."</div>
-          <div class="ex-why"><b>Why:</b> Comma splice — two complete, independent ideas glued together with only a comma.</div>
+          <div class="ex-sentence"><span class="dim">(1) Since only 17 of them were living in 1986, the California condor faced extinction, but the population has since flourished and increased to more than 350 in the wild. (2) Despite weighing at least 25 pounds, this vulture can glide as far as 10 miles without ever flapping its wings.</span> (3) <del>It feeds on large carcasses, the bird does not attack any living creatures.</del> <span class="dim">(4) To successfully protect them from extinction, concerned groups took the California condors...</span></div>
+          <div class="ex-why"><b>Why:</b> Comma splice — "It feeds on large carcasses" and "the bird does not attack any living creatures" are both complete, independent ideas glued together with only a comma.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Car wash sentence</div>
-          <div class="ex-sentence">"To raise money for uniforms, <del>a car wash will be held by</del> members of the volleyball team..." → "To raise money for uniforms, <ins>members of the volleyball team will hold a car wash</ins>..."</div>
+          <div class="ex-sentence">"To raise money for uniforms, <del>a car wash will be held by members of the volleyball team</del> on Saturday." → "To raise money for uniforms, <ins>members of the volleyball team will hold a car wash</ins> on Saturday."</div>
           <div class="ex-why"><b>Why:</b> "To raise money" needs to be followed by who's raising it — not "a car wash," which can't have a purpose of its own.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Cathedral windows paragraph</div>
-          <div class="ex-sentence">"Light changes throughout the day and with the seasons<del>,</del> the windows' brightness can vary as a result."</div>
+          <div class="ex-sentence"><span class="dim">(1) Cathedral windows are often intricate, composed of thousands of pieces of luminous stained glass.</span> (2) <del>Light changes throughout the day and with the seasons, the windows' brightness can vary as a result.</del> <span class="dim">(3) Starting in the twelfth century, European churches installed beautiful stained glass windows. (4) In the nineteenth-century, interest in this glass renewed...</span></div>
           <div class="ex-why"><b>Why:</b> Another comma splice — two full sentences, one comma. Needs a period, semicolon, or a word like "so."</div>
         </div>
       </div>
@@ -210,28 +211,28 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam C · CR06</div>
-          <div class="ex-sentence">"Jordan rehearsed for weeks. He delivered his lines with ease." → <ins>"Because Jordan had rehearsed his role for weeks, he delivered his lines with ease..."</ins></div>
+          <div class="ex-sentence">"Jordan rehearsed his role for weeks. He delivered his lines with ease. His performance was met with a burst of applause from the audience." → <ins>"Because Jordan had rehearsed his role for weeks, he delivered his lines with ease, and his performance was met with a burst of applause from the audience."</ins></div>
           <div class="ex-why"><b>Why:</b> "Because" correctly shows rehearsing <i>caused</i> the easy delivery — other options used "though"/"yet," wrongly implying the opposite.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam B · BR07</div>
-          <div class="ex-sentence">"Flyby missions... have happened since 1973. They let scientists collect data." → <ins>"Flyby missions..., which allow scientists to collect data..., have been happening since 1973."</ins></div>
+          <div class="ex-sentence">"(1) Flyby missions near Jupiter have been happening since 1973. (2) Flyby missions allow scientists to collect data about Jupiter and its moons." → <ins>"Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973."</ins></div>
           <div class="ex-why"><b>Why:</b> The data-collecting detail is background info, not an equally important separate fact — so it belongs in a "which" clause.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Jean Piaget passage</div>
-          <div class="ex-sentence">"Piaget was born in Switzerland in 1896. He studied at the University of Neuchatel. He eventually received a doctorate..." → <ins>"Born in Switzerland in 1896, Piaget studied at the University of Neuchatel, where he eventually received a doctorate..."</ins></div>
+          <div class="ex-sentence">"(2) Piaget was born in Switzerland in 1896. (3) He studied at the University of Neuchatel. (4) He eventually received a doctorate in the natural sciences." → <ins>"Born in Switzerland in 1896, Piaget studied at the University of Neuchatel, where he eventually received a doctorate in the natural sciences."</ins></div>
           <div class="ex-why"><b>Why:</b> One clean sentence beats three choppy ones — "where" logically links the university to the doctorate earned there.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Restaurant sentences</div>
-          <div class="ex-sentence">"The restaurant has had good business over the past two years. An increase in business has allowed the restaurant to expand." → <ins>"Because it has had good business over the past two years, the restaurant expanded."</ins></div>
+          <div class="ex-sentence">"(1) The restaurant has had good business over the past two years. (2) An increase in business has allowed the restaurant to expand." → <ins>"Because it has had good business over the past two years, the restaurant expanded."</ins></div>
           <div class="ex-why"><b>Why:</b> Good business <i>caused</i> the expansion — a trap answer reversed the cause and effect ("the restaurant expanded, increasing...business").</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Social Psychology passage</div>
-          <div class="ex-sentence">"The debate... is not new. The question was discussed as far back as ancient Greece." → <ins>"...is not new; the question was discussed as far back as ancient Greece."</ins></div>
-          <div class="ex-why"><b>Why:</b> The second sentence just supports/elaborates the first — no contrast word needed, a plain semicolon is correct. Trap answers added "however" or "on the other hand," implying a contrast that isn't there.</div>
+          <div class="ex-sentence">"(7) The debate about the relationship between instinctive responses and those produced by environmental influences, reflective of learned behavior, is not new. (8) The question was discussed as far back as ancient Greece." → <ins>"...is not new; the question was discussed as far back as ancient Greece."</ins></div>
+          <div class="ex-why"><b>Why:</b> Sentence 8 just supports/elaborates sentence 7 — no contrast word needed, a plain semicolon is correct. Trap answers added "however" or "on the other hand," implying a contrast that isn't there.</div>
         </div>
       </div>
     </div>
@@ -243,33 +244,33 @@
       <div class="strategy"><b>How to solve it:</b> Introductory phrase → comma right where the main sentence starts. Nonessential/appositive phrase (extra info you could delete and still have a complete sentence) → comma on <i>both</i> sides, not just one. Two complete sentences with no conjunction → semicolon, not a comma. A list after a complete sentence → colon.</div>
       <div class="ex-grid">
         <div class="ex-card">
-          <div class="ex-source">Exam C · CR07</div>
-          <div class="ex-sentence">...delete the comma after "gelato" AND change "allow" to "allows" — a comma and an agreement fix bundled in one question.</div>
-          <div class="ex-why"><b>Why:</b> "Pair of revisions" questions often combine a punctuation fix with an agreement fix — check for both.</div>
+          <div class="ex-source">Workbook — Roses sentence</div>
+          <div class="ex-sentence">"White roses represent unity, yellow roses show friendship, and red roses signify love <del>however</del>, many people believe red roses are the most cherished within the genus Rosa." → "...signify love<ins>;</ins> however, many people believe..."</div>
+          <div class="ex-why"><b>Why:</b> Two complete sentences joined by "however" need a semicolon right before it, not nothing at all.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Piano teacher sentence</div>
-          <div class="ex-sentence">"In constant demand as a piano teacher<ins>,</ins> my brother David has never been busier..."</div>
+          <div class="ex-sentence">"In constant demand as a piano teacher<ins>,</ins> my brother David has never been busier than he is now."</div>
           <div class="ex-why"><b>Why:</b> Introductory descriptive phrase — needs a comma right before the main subject ("my brother David") begins.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Jemma sentence</div>
-          <div class="ex-sentence">"Unable to decide between a career in law and one in medicine<ins>,</ins> Jemma combined her two interests..."</div>
+          <div class="ex-sentence">"Unable to decide between a career in law and one in medicine<ins>,</ins> Jemma combined her two interests and studied forensic medicine."</div>
           <div class="ex-why"><b>Why:</b> Same rule, longer introductory phrase — still just needs one comma where the main clause starts.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Athletic complex sentence</div>
-          <div class="ex-sentence">"...features a myriad of amenities<ins>:</ins> multipurpose gymnasiums, an elevated jogging track..."</div>
+          <div class="ex-sentence">"The newly constructed athletic complex features a myriad of amenities<ins>:</ins> multipurpose gymnasiums, an elevated jogging track, squash courts, and exercise studios."</div>
           <div class="ex-why"><b>Why:</b> A complete sentence followed by a list needs a colon to introduce it, not just a space or comma.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Principal sentence</div>
-          <div class="ex-sentence">"Our principal<ins>,</ins> who met with students at the start of the school year, announced..."</div>
+          <div class="ex-sentence">"Our principal<ins>,</ins> who met with students at the start of the school year, announced that the field trips this year would be more enjoyable than those we took last year."</div>
           <div class="ex-why"><b>Why:</b> "Who met with students..." is nonessential extra info — it needs an opening comma to match the closing comma already there after "year."</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Miss Adams sentence</div>
-          <div class="ex-sentence">"Miss Adams, our swim team coach<ins>,</ins> chose Sarah to swim the final lap..."</div>
+          <div class="ex-sentence">"Miss Adams, our swim team coach<ins>,</ins> chose Sarah to swim the final lap of the three-person relay race at last week's competition in Brooklyn."</div>
           <div class="ex-why"><b>Why:</b> "Our swim team coach" is an appositive renaming "Miss Adams" — it opened with a comma but was missing its closing one.</div>
         </div>
       </div>
@@ -283,27 +284,27 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam D · DR14</div>
-          <div class="ex-sentence">"...the tiled archways <del>send the sound through the environment</del>." → "...<ins>direct the sound waves to move along the curves of the arches</ins>."</div>
+          <div class="ex-sentence">"In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways <del>send the sound through the environment</del>." → "...<ins>direct the sound waves to move along the curves of the arches</ins>."</div>
           <div class="ex-why"><b>Why:</b> The fix names the actual physical cause instead of a vague restatement.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Tennis sentence</div>
-          <div class="ex-sentence">"...too <del>difficult and challenging</del> to see the ball." → "...too <ins>difficult</ins> to see the ball."</div>
+          <div class="ex-sentence">"My sister and I spent nearly all of Saturday evening playing tennis at the park, but we had to stop when it became too <del>difficult and challenging</del> to see the ball." → "...too <ins>difficult</ins> to see the ball."</div>
           <div class="ex-why"><b>Why:</b> "Difficult" and "challenging" are near-synonyms — saying both is redundant.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Sunscreen paragraph</div>
-          <div class="ex-sentence">"...80 percent of Americans <del>buy or purchase</del> sunscreen..." → "...80 percent of Americans <ins>buy</ins> sunscreen..."</div>
-          <div class="ex-why"><b>Why:</b> Same pattern — "buy" and "purchase" mean the same thing.</div>
+          <div class="ex-sentence"><span class="dim">(1) Recent experiments seem to indicate that the most effective defense against skin cancer is using sunscreen properly and consistently.</span> (2) <del>Today, 80 percent of Americans buy or purchase sunscreen, but they might need reminders to reapply it every two hours.</del> <span class="dim">(3) Melanoma and other types of skin cancer remain a problem... (4) In addition, people might consider switching to a more natural sunscreen...</span></div>
+          <div class="ex-why"><b>Why:</b> "Buy or purchase" means the same thing twice.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Kaylee sentence</div>
-          <div class="ex-sentence">"...<del>the plan Kaylee has is to attend</del> college in Vermont..." → "...<ins>Kaylee plans to attend</ins> college in Vermont..."</div>
+          <div class="ex-sentence">"After graduating from high school, <del>the plan Kaylee has is to attend</del> college in Vermont and to study American literature." → "After graduating from high school, <ins>Kaylee plans to attend</ins> college in Vermont and to study American literature."</div>
           <div class="ex-why"><b>Why:</b> "The plan ___ has is to ___" is wordy and roundabout — a direct verb ("plans to") says the same thing more precisely.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Democracy sentence</div>
-          <div class="ex-sentence">"...democracy's <del>present-day and current</del> principles..." → "...democracy's <ins>current</ins> principles..."</div>
+          <div class="ex-sentence">"The development of democracy's <del>present-day and current</del> principles has required the hard work of many generations of freedom-seeking individuals." → "...democracy's <ins>current</ins> principles..."</div>
           <div class="ex-why"><b>Why:</b> "Present-day" and "current" are redundant synonyms — keep one.</div>
         </div>
       </div>
@@ -311,28 +312,33 @@
 
     <!-- 7 -->
     <div class="cat" id="c7">
-      <div class="cat-head"><span class="cat-num">7</span><span class="cat-title">Transitions</span><span class="cat-count">4 examples</span></div>
+      <div class="cat-head"><span class="cat-num">7</span><span class="cat-title">Transitions</span><span class="cat-count">5 examples</span></div>
       <p class="cat-what">You're given a blank at the start of a sentence and a word bank (e.g. "However," "For example," "Thus," "Moreover"). Pick the one that correctly signals how the new sentence relates to the one before it.</p>
       <div class="strategy"><b>How to solve it:</b> Name the relationship in plain English first — is the new sentence a <i>contrast</i> (however, nevertheless), a <i>result</i> (thus, consequently, therefore), a <i>specific example</i> (for example), or <i>more of the same idea</i> (moreover, in addition)? Only then look at the options.</div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Workbook — Social Psychology passage</div>
-          <div class="ex-sentence">"There is no question that humans have certain inborn behaviors... <ins>For example,</ins> infants instinctively grasp an object placed in their hands."</div>
-          <div class="ex-why"><b>Why:</b> The second sentence gives one specific instance of the general claim — a textbook example relationship.</div>
+          <div class="ex-sentence">"(9) There is no question that humans have certain inborn behaviors, or instincts. (10) <ins>For example,</ins> infants instinctively grasp an object placed in their hands."</div>
+          <div class="ex-why"><b>Why:</b> Sentence 10 gives one specific instance of the general claim in sentence 9 — a textbook example relationship, not a contrast ("however," "nevertheless") or a summary ("overall").</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Social Psychology passage</div>
-          <div class="ex-sentence">Paragraph 1 describes an instinct-focused theory; paragraph 2 opens: <ins>"However,</ins> later scholars... attributed a significant percentage of human behavior to environmental influences."</div>
+          <div class="ex-sentence">Paragraph 1 describes an instinct-focused theory; paragraph 2 opens with sentence 4: "<ins>However,</ins> later scholars in the field attributed a significant percentage of human behavior to environmental influences."</div>
           <div class="ex-why"><b>Why:</b> Two competing explanations for the same thing is a contrast — even without an obvious "opposite" word, infer it from the shift in whose theory is being described.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Havana passage</div>
-          <div class="ex-sentence">"Trade from Havana was brisk... <ins>However,</ins> Spain lost control of Cuba in 1762..."</div>
+          <div class="ex-sentence">"(8) Ships from all over the New World unloaded cargo in Havana harbor, from there to be sent on to Spain. (9) <ins>However,</ins> Spain lost control of Cuba in 1762, when the British captured it during the Seven Years' War."</div>
           <div class="ex-why"><b>Why:</b> A positive/established fact, then a negative turn — contrast, not a result ("therefore") or continuation ("consequently").</div>
         </div>
         <div class="ex-card">
+          <div class="ex-source">Workbook — Havana passage</div>
+          <div class="ex-sentence">Paragraph 3 (sentences 12–16) covers Havana's history of changing political control. Paragraph 4 opens: "<ins>Today, due to its diverse history,</ins> Havana has a landscape that can be considered as three distinct areas..."</div>
+          <div class="ex-why"><b>Why:</b> The landscape described exists BECAUSE of that history — a causal link, not a contrast ("despite," "regardless of"), and "Today" correctly marks the shift from past to present.</div>
+        </div>
+        <div class="ex-card">
           <div class="ex-source">Workbook — Music Education paragraph</div>
-          <div class="ex-sentence">"We hoped our actions would make the school change its policy... <ins>However,</ins> we hoped in vain."</div>
+          <div class="ex-sentence">"(5) We hoped our actions would make the school change its policy and reinstate music programs in the curriculum. (6) <ins>However,</ins> we hoped in vain."</div>
           <div class="ex-why"><b>Why:</b> "Hoped in vain" means the hope failed — a contrast with the hopeful tone just stated, not a result word like "thus" or "therefore."</div>
         </div>
       </div>
@@ -346,22 +352,22 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Workbook — Havana passage</div>
-          <div class="ex-sentence">Sentence 1 opens with "<b>This</b> lively center of all things Cuban..." before the city's name has been given. Sentence 6 names "<b>Havana</b>" explicitly.</div>
-          <div class="ex-why"><b>Why:</b> Sentence 6 should move to the very beginning — it's the only sentence that actually names Havana, so "This" has nothing to point back to until it moves there.</div>
+          <div class="ex-sentence">Sentence 1 opens the paragraph: "This lively center of all things Cuban looks today much as it did when it was built more than 100 years ago." Sentence 6, at the <i>end</i> of the same paragraph: "The city of Havana stands today as a testament to its turbulent yet glorious history."</div>
+          <div class="ex-why"><b>Why:</b> Sentence 6 should move to the very beginning — it's the only sentence that actually names Havana, so sentence 1's "This" has nothing to point back to until it moves there.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Icebreakers passage</div>
-          <div class="ex-sentence">"The ice is <b>instead</b> crushed under the weight of the ship's bow..." needed to sit right after the sentence correcting the myth that icebreakers "push" the ice.</div>
+          <div class="ex-sentence">Sentence 10: "The ice is instead crushed under the weight of the ship's bow, which is pushed through by powerful engines." It needed to sit right after the sentence correcting the myth that icebreakers "push" the ice.</div>
           <div class="ex-why"><b>Why:</b> "Instead" only makes sense immediately after the myth it's correcting.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Jean Piaget passage</div>
-          <div class="ex-sentence">"<b>There</b>, Piaget applied his knowledge of the environment's effect on biological change" needed to sit right after the sentence naming "the Sorbonne in Paris."</div>
+          <div class="ex-sentence">Sentence 11: "There, Piaget applied his knowledge of the environment's effect on biological change." It needed to move between sentences 9 and 10, right after the sentence naming "the Sorbonne in Paris."</div>
           <div class="ex-why"><b>Why:</b> "There" is a placeholder for a location — it has to immediately follow the sentence that actually names the place.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Nizhny Novgorod passage</div>
-          <div class="ex-sentence">"It was the art, however, that generated a storm of controversy..." was misplaced relative to the sentence describing the two competing art styles being contrasted.</div>
+          <div class="ex-sentence">Sentence 10: "It was the art, however, that generated a storm of controversy in Russian newspapers." It needed to move between sentences 12 and 13, next to the sentences describing the two competing art styles being contrasted.</div>
           <div class="ex-why"><b>Why:</b> "However" signals a contrast with something specific just said — the sentence has to sit right after that specific thing.</div>
         </div>
       </div>
@@ -375,22 +381,22 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Workbook — Havana passage</div>
-          <div class="ex-sentence">A paragraph about shifts in <i>political control</i> over Havana/Cuba includes a sentence about Che Guevara's personal background (doctor, writer).</div>
+          <div class="ex-sentence">Paragraph 3 (sentences 12–16) traces who controlled Havana/Cuba over time — Spain, Britain, the U.S., Cuban independence. Sentence 16 instead says: "Castro's foremost comrade-in-arms was Che Guevara, who was also a doctor and writer."</div>
           <div class="ex-why"><b>Why:</b> Related to the same time period, but a biographical tangent, not part of the "who controlled Havana" throughline.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Jean Piaget passage</div>
-          <div class="ex-sentence">A paragraph about <i>Piaget's own career</i> includes "B. F. Skinner and Albert Bandura also studied child development."</div>
+          <div class="ex-sentence">Paragraph 2 (sentences 6–11) is about Piaget's own career. Sentence 10 instead says: "B. F. Skinner and Albert Bandura also studied child development."</div>
           <div class="ex-why"><b>Why:</b> True and related to psychology in general, but it shifts focus to other researchers, off the paragraph's actual topic (Piaget specifically).</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Icebreakers passage</div>
-          <div class="ex-sentence">A paragraph about <i>early ship designs adapting to ice</i> includes "The winter of 1880–1881 also froze the Elbe river in Germany."</div>
+          <div class="ex-sentence">Paragraph 2 (sentences 3–9) is about early ship designs adapting to ice. Sentence 6 instead says: "The winter of 1880–1881 also froze the Elbe river in Germany."</div>
           <div class="ex-why"><b>Why:</b> A standalone fact about weather, with no connection to ship-design technology — unlike every other sentence in that paragraph.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Crisis Management passage</div>
-          <div class="ex-sentence">A paragraph about Odwalla's <i>crisis response</i> includes "<del>Odwalla also makes fruit and cereal bars.</del>"</div>
+          <div class="ex-sentence">Paragraph 3 (sentences 11–16) is about Odwalla's response to its E. coli crisis specifically. One sentence instead says: "Odwalla also makes fruit and cereal bars."</div>
           <div class="ex-why"><b>Why:</b> True and about Odwalla, but the paragraph is specifically about their crisis response — what else they manufacture doesn't belong.</div>
         </div>
       </div>
@@ -404,23 +410,23 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Workbook — Winter essay</div>
-          <div class="ex-sentence">After three paragraphs each giving one reason winter is the writer's favorite season: <ins>"For all of these reasons, winter is the season of the year that I enjoy the most."</ins></div>
-          <div class="ex-why"><b>Why:</b> It explicitly ties together "all of these reasons" — directly restating the passage's thesis.</div>
+          <div class="ex-sentence">After three paragraphs each giving one reason winter is the writer's favorite season, the best sentence to end the passage: <ins>"For all of these reasons, winter is the season of the year that I enjoy the most."</ins> (Trap options included smaller single details, like "Watching the snow fall together gives us time to share the events of the day.")</div>
+          <div class="ex-why"><b>Why:</b> It explicitly ties together "all of these reasons" — directly restating the passage's thesis — instead of adding one more narrow detail.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Crisis Management passage</div>
-          <div class="ex-sentence">"A company can easily make a good decision once an emergency is over." → best next sentence: <ins>"The real challenge is making them in times of anxiety and panic."</ins></div>
+          <div class="ex-sentence">"(17) A company can easily make a good decision once an emergency is over." → best next sentence: <ins>"The real challenge is making them in times of anxiety and panic."</ins></div>
           <div class="ex-why"><b>Why:</b> Supplies the missing contrast (easy in hindsight vs. hard in the moment) that logically sets up the next sentence.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Icebreakers passage</div>
-          <div class="ex-sentence">"Rather, their ability to break through thick ice is due to several unique design features..." → best sentence to come <i>before</i> it: <ins>"Icebreakers do not have an immense weight that breaks the ice."</ins></div>
+          <div class="ex-sentence">"(15) Rather, their ability to break through thick ice is due to several unique design features: the bow, the hull, and the propulsion system." → best sentence to come <i>before</i> it: <ins>"Icebreakers do not have an immense weight that breaks the ice."</ins></div>
           <div class="ex-why"><b>Why:</b> "Rather" signals a correction of a prior claim — the supporting sentence has to set up exactly that misconception for it to correct.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Social Psychology passage</div>
-          <div class="ex-sentence">Final sentence after a paragraph covering case histories, surveys, and experiments as research methods: <ins>"Social psychologists use case histories, surveys, and experiments to study human behavior."</ins></div>
-          <div class="ex-why"><b>Why:</b> It's a clean summary of exactly what the paragraph just covered — not a new tangent and not just restating the sentence right before it.</div>
+          <div class="ex-sentence">After sentence 19 (examples of city overcrowding as an environmental influence on behavior), best concluding sentence: <ins>"Since the human experience is never static, the study of social psychology will likely continue to evolve."</ins></div>
+          <div class="ex-why"><b>Why:</b> It draws the passage's actual conclusion (the field keeps evolving) rather than just restating one example, or — like a trap option — introducing an unsupported claim that some scientists reject the field entirely.</div>
         </div>
       </div>
     </div>
@@ -433,22 +439,22 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Workbook — Noctilucent Clouds passage</div>
-          <div class="ex-sentence">"<del>We</del> generally agree that a change in atmospheric phenomena..." → "<ins>Scientists</ins> generally agree that a change in atmospheric phenomena..."</div>
-          <div class="ex-why"><b>Why:</b> Swaps the vague "We" for the objective, specific "Scientists" — matching the rest of the passage's factual register.</div>
+          <div class="ex-sentence">"<del>We</del> generally agree that a change in atmospheric phenomena may signal pending changes to Earth's climate." → "<ins>Scientists</ins> generally agree that a change in atmospheric phenomena may signal pending changes to Earth's climate." (A trap option kept "Scientists" but swapped in "a sensational transformation" and "presage imminent changes" — overcorrecting into flowery language.)</div>
+          <div class="ex-why"><b>Why:</b> Swaps the vague "We" for the objective, specific "Scientists" — matching the rest of the passage's factual register, without over-writing it.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Cotton gin / Eli Whitney passage</div>
-          <div class="ex-sentence">"...took the fibers <del>people actually wanted</del>..." → "...<ins>efficiently caught the desired fibers</ins>..."</div>
-          <div class="ex-why"><b>Why:</b> The casual aside doesn't fit a passage otherwise written in a historical/technical register.</div>
+          <div class="ex-sentence">"The new gadget had a rotating drum with wire spikes that took the fibers <del>people actually wanted</del> and tossed out seeds, which weren't useful anyway." → "The cotton gin consisted of a rotating drum with wire spikes that <ins>efficiently caught the desired fibers</ins> and left behind the unwanted seeds."</div>
+          <div class="ex-why"><b>Why:</b> The casual aside "people actually wanted" doesn't fit a passage otherwise written in a historical/technical register.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Social Psychology passage</div>
-          <div class="ex-sentence">"<del>The field should expand even further.</del>" → "<ins>In recent years, the field of social psychology has expanded even further.</ins>"</div>
-          <div class="ex-why"><b>Why:</b> The next sentences describe what social psychologists "today also study" — an already-expanded current practice, not a future hope. Match the verb tense to the content, not just the formality.</div>
+          <div class="ex-sentence">"(17) <del>The field should expand even further.</del>" → "(17) <ins>In recent years, the field of social psychology has expanded even further.</ins>"</div>
+          <div class="ex-why"><b>Why:</b> The sentences right after describe what social psychologists "today also study" — an already-expanded current practice, not a future hope. Match the verb tense to the content, not just the formality.</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Music Education paragraph</div>
-          <div class="ex-sentence">"Those comments made <del>them</del> feel that we were really <del>effecting</del> our school atmosphere." → "...made <ins>us</ins> feel that we were really <ins>affecting</ins> our school atmosphere."</div>
+          <div class="ex-sentence">"(4) Those comments made <del>them</del> feel that we were really <del>effecting</del> our school atmosphere." → "(4) Those comments made <ins>us</ins> feel that we were really <ins>affecting</ins> our school atmosphere."</div>
           <div class="ex-why"><b>Why:</b> The passage is first-person throughout ("My friends and I") so "us" is correct, not "them" — and "affecting" (influencing) is the right word, not "effecting" (bringing about). Style matching isn't just about formality — it includes point of view and word choice consistency too.</div>
         </div>
       </div>
@@ -462,28 +468,28 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Workbook — Statue sentence</div>
-          <div class="ex-sentence">"...<del>it's</del> presence is now dominated by the enormous skyscrapers..." → "...<ins>its</ins> presence is now dominated..."</div>
+          <div class="ex-sentence">"Although the statue was intended, in ancient times, to tower above the landscape, <del>it's presence</del> is now dominated by the enormous skyscrapers that came with the city's modernization." → "...<ins>its presence</ins> is now dominated..."</div>
           <div class="ex-why"><b>Why:</b> Try the substitution: "it is presence" doesn't make sense, so it needs the possessive "its" (no apostrophe).</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Sprinter sentence</div>
-          <div class="ex-sentence">"Between Hugo and Kai, Hugo is the <del>best</del> sprinter..." → "...the <ins>better</ins> sprinter..."</div>
+          <div class="ex-sentence">"Between Hugo and Kai, Hugo is the <del>best sprinter;</del> however, Kai is better at the long jump." → "...the <ins>better sprinter;</ins> however, Kai is better at the long jump."</div>
           <div class="ex-why"><b>Why:</b> Only two people are being compared ("Between Hugo and Kai") — that calls for the comparative "better," not the superlative "best" (reserved for 3+).</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Dog show paragraph</div>
-          <div class="ex-sentence">"...offers scholarships to the <del>brighter</del> veterinary students." → "...to the <ins>brightest</ins> veterinary students."</div>
-          <div class="ex-why"><b>Why:</b> The opposite mistake — selecting among many students (3+) needs the superlative "brightest," not the comparative "brighter."</div>
+          <div class="ex-sentence"><span class="dim">(1) The winners of the "Best of Breed" cup... are selected by a panel of breeders from the American Kennel Club. (2) Since 1884, this organization has promoted responsible dog ownership... (3) Each year, it hosts tens of thousands of events, including dog shows.</span> (4) <del>The American Kennel Club even reunites lost pets with their owners and offers scholarships to the brighter veterinary students.</del></div>
+          <div class="ex-why"><b>Why:</b> The opposite mistake from the sprinter example — selecting among many students (3+) needs the superlative "brightest," not the comparative "brighter."</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Liberty Bell paragraph</div>
-          <div class="ex-sentence">"...an enormous instrument that was eventually <del>rang</del> during the American Revolution..." → "...was eventually <ins>rung</ins>..."</div>
-          <div class="ex-why"><b>Why:</b> After "was/were" (passive voice), irregular verbs need their participle form — "rung," not the simple past "rang" (you'd say "it rang" but "it was rung").</div>
+          <div class="ex-sentence">(1) <del>The Liberty Bell, an enormous instrument that was eventually rang during the American Revolution, received its first small crack as it was being tested.</del> <span class="dim">(2) When the Declaration of Independence had its first public proclamation, the people of Philadelphia heard this bell ring out. (3) The Liberty Bell's crack grew much larger when it was rung on Washington's birthday in 1846...</span></div>
+          <div class="ex-why"><b>Why:</b> After "was/were" (passive voice), irregular verbs need their participle form — "rung," not the simple past "rang" (you'd say "it rang" but "it was rung" — notice sentence 3 already gets this right).</div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Workbook — Women's equality paragraph</div>
-          <div class="ex-sentence">"...young women <del>that</del> did not previously consider a career in business..." → "...young women <ins>who</ins> did not previously consider..."</div>
-          <div class="ex-why"><b>Why:</b> "Women" are people — use "who," not "that" (which is for things/objects/ideas).</div>
+          <div class="ex-sentence"><span class="dim">(1) Women have seen improved conditions regarding social and political equality over the years. (2) For example, some companies offer a "Take Your Daughter to Work Day"...</span> (3) <del>While visiting workplaces, young women that did not previously consider particular careers may observe female professionals, which often provides important validation that leads to future opportunities.</del></div>
+          <div class="ex-why"><b>Why:</b> "Women" are people — sentence 3 should use "who," not "that" (which is for things/objects/ideas).</div>
         </div>
       </div>
     </div>
