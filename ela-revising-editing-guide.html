@@ -45,6 +45,9 @@
     .cat-what { color: var(--muted); font-size: 0.88rem; margin: 0.3rem 0 0.75rem; }
     .strategy { background: var(--amber-light); border-left: 3px solid var(--amber); border-radius: 6px; padding: 0.65rem 0.9rem; font-size: 0.84rem; margin-bottom: 1rem; }
     .strategy b { color: #9a3412; }
+    .strategy ul { margin: 0.4rem 0 0 1.15rem; padding: 0; }
+    .strategy li { margin-bottom: 0.3rem; }
+    .strategy li:last-child { margin-bottom: 0; }
 
     /* ── Example card ── */
     .ex-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 0.85rem; align-items: start; }
@@ -62,6 +65,10 @@
     .ex-opt b { color: var(--navy); margin-right: 0.35rem; }
     .ex-card.revealed .ex-opt.correct { background: var(--green-light); border-color: var(--green); font-weight: 700; }
     .ex-nolettered { font-size: 0.78rem; color: var(--muted); font-style: italic; margin-top: 0.5rem; }
+    .ex-dragnote { font-size: 0.74rem; color: var(--muted); font-style: italic; margin: 0.55rem 0 0.3rem; }
+    .ex-dragbank { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; padding: 0; list-style: none; }
+    .ex-drag { background: var(--bg); border: 1px solid var(--border); border-radius: 99px; padding: 0.25rem 0.8rem; font-size: 0.78rem; }
+    .ex-card.revealed .ex-drag.correct { background: var(--green-light); border-color: var(--green); font-weight: 700; }
     .ex-answer { display: none; margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px dashed var(--border); }
     .ex-card.revealed .ex-answer { display: block; }
     .ex-sentence { color: var(--text); margin-bottom: 0.4rem; }
@@ -108,7 +115,13 @@
     <div class="cat" id="c1">
       <div class="cat-head"><span class="cat-num">1</span><span class="cat-title">Vague Pronoun</span><span class="cat-count">1 example</span></div>
       <p class="cat-what">A pronoun ("she," "he," "it," "they") that could refer to more than one noun earlier in the sentence/paragraph, so the reader can't tell who or what is meant.</p>
-      <div class="strategy"><b>How to solve it:</b> Find the pronoun, then look back for every noun it could possibly point to. If there's more than one candidate (especially two people of the same gender), it's vague — the fix is to name the specific person/thing instead of using the pronoun.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Find the pronoun, then look back for every noun it could possibly point to.</li>
+          <li>If there's more than one candidate (especially two people of the same gender), it's vague.</li>
+          <li>Fix: name the specific person/thing instead of using the pronoun.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — Standalone (AR48)</div>
@@ -134,7 +147,13 @@
     <div class="cat" id="c2">
       <div class="cat-head"><span class="cat-num">2</span><span class="cat-title">Agreement</span><span class="cat-count">3 examples</span></div>
       <p class="cat-what">A verb, pronoun, or tense that doesn't match its subject/antecedent in number or time: a singular subject with a plural verb, a plural pronoun pointing at a singular noun, or a verb tense that drifts away from the rest of the paragraph.</p>
-      <div class="strategy"><b>How to solve it:</b> For every underlined verb, find its actual subject (ignore the words in between) and ask "singular or plural?" For every underlined pronoun, find its antecedent the same way. For tense, ask whether the paragraph is telling the story in one consistent timeframe — a single verb that jumps tense sticks out once you're looking for it.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>For every underlined verb, find its actual subject (ignore the words in between) and ask "singular or plural?"</li>
+          <li>For every underlined pronoun, find its antecedent the same way.</li>
+          <li>For tense, ask whether the paragraph is telling the story in one consistent timeframe — a single verb that jumps tense sticks out once you're looking for it.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — Standalone (AR49), "pair of revisions" format</div>
@@ -194,7 +213,13 @@
     <div class="cat" id="c3">
       <div class="cat-head"><span class="cat-num">3</span><span class="cat-title">Sentence Construction</span><span class="cat-count">4 examples</span></div>
       <p class="cat-what">Fragments (missing a real main verb), dangling modifiers (an opening phrase that describes something other than the subject right after the comma), and run-ons — the question usually just asks you to spot which sentence has the problem, not how to fix it.</p>
-      <div class="strategy"><b>How to solve it:</b> For every sentence, find the subject and find a verb that actually goes with it (not a participle like "-ing" or "-ing" phrase pretending to be the verb). If a sentence opens with an "-ing" or "-ed" phrase followed by a comma, check that the very next noun is the thing actually doing that action — if it isn't, that's a dangling modifier.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>For every sentence, find the subject and find a verb that actually goes with it (not a participle like "-ing" pretending to be the verb).</li>
+          <li>If a sentence opens with an "-ing" or "-ed" phrase followed by a comma, check that the very next noun is the thing actually doing that action.</li>
+          <li>If it isn't, that's a dangling modifier.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam D — Standalone (DR13)</div>
@@ -218,7 +243,13 @@
           <div class="ex-prompt">(1) On the morning of February 10, 2022, the world was captivated as Nathan Chen took to the ice at the Winter Olympics in Beijing, China. (2) Executing five flawless quadruple jumps during his "Rocket Man" free skate, the stadium erupted in applause, and his gold medal was secured. (3) Longtime figure skating fans were particularly moved because he was the first U.S. men's skater to win gold since Evan Lysacek in 2010. (4) Another American skater, Dick Button, won the first gold medal for the U.S. men's figure skating in 1948 by adding jumps to his program that no one else had attempted in international competition.
             <div class="ex-ask">Which sentence in the paragraph contains an error in construction? Move the answer to the box. There is only one error in construction.</div>
           </div>
-          <p class="ex-nolettered">This question is a "move the sentence number to the box" format — there are no lettered answer choices, just sentences 1–4 to choose from directly.</p>
+          <p class="ex-dragnote">"Move the answer to the box" format — drag one of these into the box:</p>
+          <ul class="ex-dragbank">
+            <li class="ex-drag">Sentence 1</li>
+            <li class="ex-drag correct">Sentence 2</li>
+            <li class="ex-drag">Sentence 3</li>
+            <li class="ex-drag">Sentence 4</li>
+          </ul>
           <button class="ex-reveal-btn">Show the answer</button>
           <div class="ex-answer">
             <div class="ex-sentence">Correct: <b>Sentence 2</b> — <u>Executing five flawless quadruple jumps during his "Rocket Man" free skate, the stadium erupted in applause,</u> and his gold medal was secured.</div>
@@ -266,7 +297,13 @@
     <div class="cat" id="c4">
       <div class="cat-head"><span class="cat-num">4</span><span class="cat-title">Combining Sentences</span><span class="cat-count">4 examples</span></div>
       <p class="cat-what">Two short, related sentences need to become one sentence that makes the relationship between the ideas (cause/effect, contrast, extra detail) clear — not just stapled together with "and."</p>
-      <div class="strategy"><b>How to solve it:</b> Before looking at the answers, decide in your own words how the two ideas relate: Is one a cause of the other? A contrast? Just extra description of the same noun? Then pick the choice whose connecting word (because, although, which, but) matches that relationship — wrong answers usually connect the ideas with the wrong logic, even though the grammar is fine.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Before looking at the answers, decide in your own words how the two ideas relate: cause/effect? contrast? just extra description of the same noun?</li>
+          <li>Pick the choice whose connecting word (because, although, which, but) matches that relationship.</li>
+          <li>Wrong answers usually connect the ideas with the wrong logic, even though the grammar is fine.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam B — Standalone (BR07)</div>
@@ -343,7 +380,13 @@
     <div class="cat" id="c5">
       <div class="cat-head"><span class="cat-num">5</span><span class="cat-title">Punctuation</span><span class="cat-count">5 examples</span></div>
       <p class="cat-what">Missing, extra, or wrong punctuation — mainly comma splices (two complete sentences joined only by a comma, which needs a semicolon or period instead), and missing commas between two adjectives that each independently describe the same noun.</p>
-      <div class="strategy"><b>How to solve it:</b> Comma splice check: cover everything before the comma — is what's left a complete sentence on its own? Now cover everything after — is THAT a complete sentence too? If both halves stand alone, a comma alone can't join them; it needs a semicolon or period. Two-adjective check: if you could say "and" between the two describing words and it still makes sense (swift AND nimble), they need a comma between them.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Comma splice check: cover everything before the comma — is what's left a complete sentence on its own? Now cover everything after — is THAT a complete sentence too?</li>
+          <li>If both halves stand alone, a comma alone can't join them; it needs a semicolon or period.</li>
+          <li>Two-adjective check: if you could say "and" between the two describing words and it still makes sense (swift AND nimble), they need a comma between them.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam B — Standalone (BR06)</div>
@@ -437,14 +480,26 @@
     <div class="cat" id="c6">
       <div class="cat-head"><span class="cat-num">6</span><span class="cat-title">Precise Language</span><span class="cat-count">4 examples</span></div>
       <p class="cat-what">A vague, wordy, or generic phrase that could be replaced with a more specific, concrete one that still fits the facts already given in the passage.</p>
-      <div class="strategy"><b>How to solve it:</b> Reread the sentence/passage for concrete details (numbers, names, specific nouns) near the vague phrase. The correct answer always uses details that were already established — it never invents new facts. Wrong answers are usually either still vague, or precise-sounding but about the wrong detail/invented information.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Reread the sentence/passage for concrete details (numbers, names, specific nouns) near the vague phrase.</li>
+          <li>The correct answer always uses details that were already established — it never invents new facts.</li>
+          <li>Wrong answers are usually either still vague, or precise-sounding but about the wrong detail/invented information.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam D — Standalone (DR14)</div>
           <div class="ex-prompt">In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways <u>send the sound through the environment</u>.
             <div class="ex-ask">Which revision to the words "send the sound through the environment" uses the most precise language? Drag the correct phrase into the box.</div>
           </div>
-          <p class="ex-nolettered">This is a drag-the-phrase format — there's no lettered multiple choice, just one correct phrase to drag in.</p>
+          <p class="ex-dragnote">Drag-the-phrase format — drag one of these into the box:</p>
+          <ul class="ex-dragbank">
+            <li class="ex-drag">guide the sound waves in a specific direction</li>
+            <li class="ex-drag">focus the sound waves to travel through the space</li>
+            <li class="ex-drag correct">direct the sound waves to move along the curves of the arches</li>
+            <li class="ex-drag">transfer the sound waves to a variety of different locations</li>
+          </ul>
           <button class="ex-reveal-btn">Show the answer</button>
           <div class="ex-answer">
             <div class="ex-sentence">"...because the tiled archways <u>send the sound through the environment</u>." → "...because the tiled archways <ins>direct the sound waves to move along the curves of the arches</ins>."</div>
@@ -509,14 +564,26 @@
     <div class="cat" id="c7">
       <div class="cat-head"><span class="cat-num">7</span><span class="cat-title">Transitions</span><span class="cat-count">4 examples</span></div>
       <p class="cat-what">Choosing the right connecting word/phrase (however, meanwhile, as a result, for example...) to open a sentence, based on exactly how it relates logically to the sentence right before it.</p>
-      <div class="strategy"><b>How to solve it:</b> Read only the sentence before and the sentence in question. Name the relationship in plain words first: is it a contrast, a cause/effect, a new example, a shift in time/place, or an extra matching point? Then match that to the transition category (however/but = contrast; therefore/as a result = effect; for example/indeed = example or reinforcement; meanwhile = same time, different place).</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Read only the sentence before and the sentence in question.</li>
+          <li>Name the relationship in plain words first: a contrast, a cause/effect, a new example, a shift in time/place, or an extra matching point?</li>
+          <li>Match that to the transition category — however/but = contrast; therefore/as a result = effect; for example/indeed = example or reinforcement; meanwhile = same time, different place.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — "The Benefits of Indoor Plants" (AR44)</div>
           <div class="ex-prompt">(4) The NASA Clean Air Study found a simple way to remove a significant number of VOCs within a 24-hour period: add plants to indoor spaces. (5) ___ spending prolonged periods of time indoors, away from plants, deprives people of these benefits.
             <div class="ex-ask">Which transition word or phrase should be added to the beginning of sentence 5? Move the correct answer to the box.</div>
           </div>
-          <p class="ex-nolettered">Drag-the-word format — no lettered choices to show.</p>
+          <p class="ex-dragnote">Drag-the-word format — drag one of these into the box:</p>
+          <ul class="ex-dragbank">
+            <li class="ex-drag">As a result,</li>
+            <li class="ex-drag">Primarily,</li>
+            <li class="ex-drag">In contrast,</li>
+            <li class="ex-drag correct">Unfortunately,</li>
+          </ul>
           <button class="ex-reveal-btn">Show the answer</button>
           <div class="ex-answer">
             <div class="ex-sentence">Correct: <ins>Unfortunately,</ins></div>
@@ -528,7 +595,13 @@
           <div class="ex-prompt">Paragraph 2 (sentences 4–7) describes the rover's cameras discovering "blueberry" rocks on Mars. (8) ___ Opportunity continued to provide valuable data about craters and other surface features, traveling a total of 28.06 miles across Mars' surface.
             <div class="ex-ask">Which word should be added to the beginning of sentence 8? Move the correct answer to the box.</div>
           </div>
-          <p class="ex-nolettered">Drag-the-word format — no lettered choices to show.</p>
+          <p class="ex-dragnote">Drag-the-word format — drag one of these into the box:</p>
+          <ul class="ex-dragbank">
+            <li class="ex-drag">Overall,</li>
+            <li class="ex-drag">Furthermore,</li>
+            <li class="ex-drag correct">Meanwhile,</li>
+            <li class="ex-drag">Consequently,</li>
+          </ul>
           <button class="ex-reveal-btn">Show the answer</button>
           <div class="ex-answer">
             <div class="ex-sentence">Correct: <ins>Meanwhile,</ins></div>
@@ -576,7 +649,13 @@
     <div class="cat" id="c8">
       <div class="cat-head"><span class="cat-num">8</span><span class="cat-title">Organization &amp; Sentence Placement</span><span class="cat-count">3 examples</span></div>
       <p class="cat-what">A sentence is in the wrong spot (or a new sentence needs to be inserted) — the paragraph's ideas need to be reordered so one detail doesn't interrupt a chain of events or separate a claim from the sentence it's supporting.</p>
-      <div class="strategy"><b>How to solve it:</b> Read the whole paragraph first and mentally number what order the ideas "should" go in (chronological, general-to-specific, claim-then-evidence). Then check: does the sentence in question fit where it currently sits, or does it interrupt a pair of sentences that clearly belong next to each other?</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Read the whole paragraph first and mentally number what order the ideas "should" go in (chronological, general-to-specific, claim-then-evidence).</li>
+          <li>Check whether the sentence in question fits where it currently sits.</li>
+          <li>Or whether it interrupts a pair of sentences that clearly belong next to each other.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam D — "Martial Arts for the Mind and Body" (DR02)</div>
@@ -636,7 +715,13 @@
     <div class="cat" id="c9">
       <div class="cat-head"><span class="cat-num">9</span><span class="cat-title">Off-Topic Removal</span><span class="cat-count">4 examples</span></div>
       <p class="cat-what">A sentence that's true and well-written, but drifts away from the specific topic of its own paragraph (not the whole passage — just that paragraph) and should be deleted.</p>
-      <div class="strategy"><b>How to solve it:</b> State the paragraph's one main point in a single short phrase. Then check each sentence against that phrase, not against the passage as a whole — a sentence can be interesting and on-topic for the passage overall but still off-topic for its specific paragraph.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>State the paragraph's one main point in a single short phrase.</li>
+          <li>Check each sentence against that phrase, not against the passage as a whole.</li>
+          <li>A sentence can be interesting and on-topic for the passage overall but still off-topic for its specific paragraph.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — "The Benefits of Indoor Plants" (AR46)</div>
@@ -714,7 +799,13 @@
     <div class="cat" id="c10">
       <div class="cat-head"><span class="cat-num">10</span><span class="cat-title">Best Introductory/Concluding/Supporting Sentence</span><span class="cat-count">5 examples</span></div>
       <p class="cat-what">Pick the sentence that best opens a passage/paragraph, best wraps it up, or best backs up a claim that was just made — without introducing brand-new information that wasn't already building up to it.</p>
-      <div class="strategy"><b>How to solve it:</b> Name the paragraph's main claim in your own words first. The right answer restates or reinforces that exact claim at the right altitude — general for an intro, matching the specific topic for a conclusion, a concrete specific example for support. Wrong answers are usually too narrow (introductions), too broad or a new topic (conclusions), or true-but-irrelevant-to-this-specific-claim (support).</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Name the paragraph's main claim in your own words first.</li>
+          <li>The right answer restates or reinforces that exact claim at the right altitude — general for an intro, matching the specific topic for a conclusion, a concrete specific example for support.</li>
+          <li>Wrong answers are usually too narrow (introductions), too broad or a new topic (conclusions), or true-but-irrelevant-to-this-specific-claim (support).</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — "The Benefits of Indoor Plants" (AR47, concluding)</div>
@@ -808,7 +899,13 @@
     <div class="cat" id="c11">
       <div class="cat-head"><span class="cat-num">11</span><span class="cat-title">Style &amp; Tone Matching</span><span class="cat-count">4 examples</span></div>
       <p class="cat-what">A sentence needs to be rewritten in different words while keeping the SAME formal, objective style as the rest of the passage — no slang, no casual asides, no needless flourishes, no second-guessing the facts.</p>
-      <div class="strategy"><b>How to solve it:</b> Ignore grammar correctness for a second — every answer choice is usually grammatically fine. Instead, cross out any choice with casual phrasing ("way too," "you may know"), unnecessary flair/exaggeration, or added emotional commentary that the rest of the passage doesn't use. The correct choice sounds the most like a textbook/encyclopedia, matter-of-fact.</div>
+      <div class="strategy"><b>How to solve it:</b>
+        <ul>
+          <li>Ignore grammar correctness for a second — every answer choice is usually grammatically fine.</li>
+          <li>Cross out any choice with casual phrasing ("way too," "you may know"), unnecessary flair/exaggeration, or added emotional commentary that the rest of the passage doesn't use.</li>
+          <li>The correct choice sounds the most like a textbook/encyclopedia, matter-of-fact.</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam B — "The End of an Era" (BR03)</div>
@@ -885,7 +982,14 @@
     <div class="cat" id="c12">
       <div class="cat-head"><span class="cat-num">12</span><span class="cat-title">Commonly Confused Words &amp; Word Forms</span><span class="cat-count">0 examples yet</span></div>
       <p class="cat-what">Small, specific mix-ups that show up on these tests again and again: possessive vs. contraction ("its" vs. "it's"), "who" vs. "that" for people, irregular past participles ("rang" vs. "rung"), and comparative vs. superlative ("better" vs. "best").</p>
-      <div class="strategy"><b>How to solve it:</b> These aren't about logic — they're about recognizing five or six specific, recurring mix-ups on sight. <b>its/it's:</b> "it's" always means "it is" — if "it is" doesn't fit, it should be "its." <b>who/that:</b> "who" for people, "that" for things. <b>Comparative vs. superlative:</b> exactly 2 things being compared → "-er"/"more" (better, more); 3+ things → "-est"/"most" (best, most). <b>Irregular verbs:</b> after "has/have/was/were," use the participle form (rung, swum, begun), not the simple past (rang, swam, began).</div>
+      <div class="strategy"><b>How to solve it:</b> These aren't about logic — they're about recognizing five or six specific, recurring mix-ups on sight.
+        <ul>
+          <li><b>its/it's:</b> "it's" always means "it is" — if "it is" doesn't fit, it should be "its."</li>
+          <li><b>who/that:</b> "who" for people, "that" for things.</li>
+          <li><b>Comparative vs. superlative:</b> exactly 2 things being compared → "-er"/"more" (better, more); 3+ things → "-est"/"most" (best, most).</li>
+          <li><b>Irregular verbs:</b> after "has/have/was/were," use the participle form (rung, swum, begun), not the simple past (rang, swam, began).</li>
+        </ul>
+      </div>
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Not yet surfaced in a transcribed exam</div>
