@@ -2,7 +2,7 @@
   "_schema": {
     "description": "Practice Test B — ELA section. Reading passages with associated questions, sourced from TestNav screenshots. Each passage has its own question set.",
     "id_format": "BR<NN> — Exam B, Reading, question number (continuous across passages).",
-    "answer_key_status": "4 of 6 Reading Comprehension passages now complete (Passage Set 1 ‘The Past and the Future of the Earth's Oldest Trees’ by Alex Ross, Passage Set 2 ‘A Miracle Mile’, Passage Set 4 ‘Looking for the Smallest Spark of Everything’, Passage Set 6 ‘Letter from Brooklyn’ — 25 new questions total, BR10-34), each with full verbatim passage text and complete exhibit answer keys from TestNav screenshots, rigorously re-verified page-by-page after an earlier incorrect claim that Passage Set 1 was missing text (it was not — the text was present in the screenshots the whole time; the earlier miss was a transcription-notes error, not a missing-source-material issue). Passage Sets 3 and 5 were re-walked screenshot-by-screenshot in full (33 and 27 images respectively, every single one read) and their passage text IS genuinely incomplete: the screenshot sequence never scrolled past the first 2-3 paragraphs while working through either passage's questions. Passage Set 3 (‘In Search of the Unknown’ by Robert W. Chambers, 9 questions) is missing paragraphs 4-34 of the narrative. Passage Set 5 (‘Using Fire to Keep a Prairie Healthy’, 7 questions) is missing paragraphs 4 onward plus a referenced diagram that was never screenshotted at all. Their question/answer content is fully verified and ready to merge the moment new screenshots of the complete passage text (and, for Set 5, the diagram) are available. Passage Set 7 (‘The End of an Era’, BR01-05) and all 4 Stand Alone Items (BR06-09) remain as before.",
+    "answer_key_status": "COMPLETE. All 7 passage sets transcribed (Passage Set 1 ‘The Past and the Future of the Earth's Oldest Trees’ by Alex Ross, Set 2 ‘A Miracle Mile’, Set 3 ‘In Search of the Unknown’ by Robert W. Chambers, Set 4 ‘Looking for the Smallest Spark of Everything’, Set 5 ‘Using Fire to Keep a Prairie Healthy’ (includes the ‘Overview of the Patch-Burn Method’ diagram as a cropped figure image), Set 6 ‘Letter from Brooklyn’, Set 7 ‘The End of an Era’) plus all 4 Stand Alone Items. All passage text and exhibit answer keys verified verbatim from TestNav screenshots. Sets 3 and 5 were initially reported missing passage text in an earlier pass; that was confirmed as a real gap via a rigorous page-by-page re-walk, and has since been resolved by new screenshots (Problems/ELA_B/, files timestamped 2026-10-26 ~1:27-1:29 AM) that scroll through the complete passages. 50/50 questions total.",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency).",
     "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph) displayed above the question. BR06 and BR08 use a 'select the one error' TestNav interaction (click an underlined span / pick a labeled sentence) that isn't a native template widget; they are represented as standard mc questions whose option text is the underlined phrase or sentence label, with the full paragraph (including <u> tags for BR06) shown as the stimulus.",
     "q_number_note": "q_numbers 1-27 are contiguous by design (the template sorts/navigates by q_number, and its parseHash() hash-routing clamps to total question count the same way kaplan-2025-2.html's did before that bug was fixed earlier this session — ela-b.html has the identical unfixed pattern, so q_numbers here were kept gap-free to avoid triggering it; a real fix to parseHash() itself was out of scope for this task)."
@@ -280,6 +280,314 @@
           "correct": "C",
           "solution": {
             "exhibit_text": "A. Incorrect — the loss made him “determined to redeem himself” and focus specifically on the four-minute mile, not just general improvement. B. Incorrect — the different training approach came later (the 1954 plateau), not directly from the Olympics loss. C. CORRECT — he sought redemption after his “dismal fourth place,” responding by setting a goal to conquer the “ultimate prize” (the four-minute mile). D. Incorrect — the loss motivated a change in focus, not an “opportunity” itself."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "fiction",
+      "title": "In Search of the Unknown",
+      "author": "Robert W. Chambers",
+      "citation": "From IN SEARCH OF THE UNKNOWN by Robert W. Chambers—Public Domain",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "It was at that time the policy of the trustees and officers of the Zoological Gardens neither to employ collectors nor to send out expeditions in search of specimens. The society decided to depend upon voluntary contributions, and I was always busy, part of the day, in dictating answers to correspondents who wrote offering their services as hunters of big game, collectors of all sorts of fauna, trappers, snarers, and also to those who offered specimens for sale, usually at exorbitant rates."
+        },
+        {
+          "num": 2,
+          "text": "To the proprietors of . . . mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals—of course, first submitting all such letters, together with my replies, to Professor Farrago."
+        },
+        {
+          "num": 3,
+          "text": "One day towards the end of May, however, just as I was leaving Bronx Park to return to town, Professor Lesard, of the reptilian department, called out to me that Professor Farrago wanted to see me a moment; so I . . . retraced my steps to the temporary, wooden building occupied by Professor Farrago, general superintendent of the Zoological Gardens. The professor, who was sitting at his desk before a pile of letters and replies submitted for approval by me, pushed his glasses down and looked over them at me with a whimsical smile that suggested amusement, impatience, annoyance, and perhaps a faint trace of apology."
+        },
+        {
+          "num": 4,
+          "text": "“Now, here's a letter,” he said, with a deliberate gesture towards a sheet of paper impaled on a file—“a letter that I suppose you remember.” He disengaged the sheet of paper and handed it to me."
+        },
+        {
+          "num": 5,
+          "text": "“Oh yes,” I replied, with a shrug; “of course the man is mistaken—or—”"
+        },
+        {
+          "num": 6,
+          "text": "“Or what?” demanded Professor Farrago, tranquilly, wiping his glasses."
+        },
+        {
+          "num": 7,
+          "text": "“—Or a liar,” I replied."
+        },
+        {
+          "num": 8,
+          "text": "After a silence he leaned back in his chair and bade me read the letter to him again, and I did so with a contemptuous tolerance for the writer, who must have been either a very innocent victim or a very stupid swindler. I said as much to Professor Farrago, but, to my surprise, he appeared to waver."
+        },
+        {
+          "num": 9,
+          "text": "“I suppose,” he said, with his near-sighted, embarrassed smile, “that nine hundred and ninety-nine men in a thousand would throw that letter aside and condemn the writer as a liar or a fool?”"
+        },
+        {
+          "num": 10,
+          "text": "“In my opinion,” said I, “he's one or the other.”"
+        },
+        {
+          "num": 11,
+          "text": "“He isn't—in mine,” said the professor, placidly."
+        },
+        {
+          "num": 12,
+          "text": "“What!” I exclaimed. “Here is a man living all alone on a strip of rock and sand between the wilderness and the sea, who wants you to send somebody to take charge of a bird that doesn't exist!”"
+        },
+        {
+          "num": 13,
+          "text": "“How do you know,” asked Professor Farrago, “that the bird in question does not exist?”"
+        },
+        {
+          "num": 14,
+          "text": "“It is generally accepted,” I replied, sarcastically, “that the great auk has been extinct for years. Therefore I may be pardoned for doubting that our correspondent possesses a pair of them alive.”"
+        },
+        {
+          "num": 15,
+          "text": "“Oh, you young fellows,” said the professor, smiling wearily, “you embark on a theory for destinations that don't exist.”"
+        },
+        {
+          "num": 16,
+          "text": "He leaned back in his chair, his amused eyes searching space for the imagery that made him smile."
+        },
+        {
+          "num": 17,
+          "text": "“Like swimming squirrels, you navigate with the help of Heaven and a stiff breeze, but you never land where you hope to—do you?”"
+        },
+        {
+          "num": 18,
+          "text": "Rather red in the face, I said: “Don't you believe the great auk to be extinct?”"
+        },
+        {
+          "num": 19,
+          "text": "“Audubon saw the great auk.”"
+        },
+        {
+          "num": 20,
+          "text": "“Who has seen a single specimen since?”"
+        },
+        {
+          "num": 21,
+          "text": "“Nobody—except our correspondent here,” he replied, laughing."
+        },
+        {
+          "num": 22,
+          "text": "I laughed, too, considering the interview at an end, but the professor went on, coolly:"
+        },
+        {
+          "num": 23,
+          "text": "“Whatever it is that our correspondent has—and I am daring to believe that it is the great auk itself—I want you to secure it for the society.”"
+        },
+        {
+          "num": 24,
+          "text": "When my astonishment subsided my first conscious sentiment was one of pity. Clearly, Professor Farrago was on the verge of dotage—ah, what a loss to the world!"
+        },
+        {
+          "num": 25,
+          "text": "I believe now that Professor Farrago perfectly interpreted my thoughts, but he betrayed neither resentment nor impatience. I drew a chair up beside his desk—there was nothing to do but to obey, and this fool's errand was none of my conceiving."
+        },
+        {
+          "num": 26,
+          "text": "Together we made out a list of articles necessary for me and itemized the expenses I might incur, and I set a date for my return, allowing no margin for a successful termination to the expedition."
+        },
+        {
+          "num": 27,
+          "text": "“Never mind that,” said the professor. “What I want you to do is to get those birds here safely. Now, how many men will you take?”"
+        },
+        {
+          "num": 28,
+          "text": "“None,” I replied, bluntly; “it's a useless expense, unless there is something to bring back. If there is I'll wire you, you may be sure.”"
+        },
+        {
+          "num": 29,
+          "text": "“Very well,” said Professor Farrago, good-humoredly, “you shall have all the assistance you may require. Can you leave to-night?”"
+        },
+        {
+          "num": 30,
+          "text": "The old gentleman was certainly prompt. I nodded, half-sulkily, aware of his amusement."
+        },
+        {
+          "num": 31,
+          "text": "“So,” I said, picking up my hat, “I am to start north to find a place called Black Harbor, where there is a man named Halyard who possesses, among other household utensils, two extinct great auks—”"
+        },
+        {
+          "num": 32,
+          "text": "We were both laughing by this time. I asked him why on earth he credited the assertion of a man he had never before heard of."
+        },
+        {
+          "num": 33,
+          "text": "“I suppose,” he replied, with the same half-apologetic, half-humorous smile, “it is instinct. I feel, somehow, that this man Halyard has got an auk—perhaps two. I can't get away from the idea that we are on the eve of acquiring the rarest of living creatures. It's odd for a scientist to talk as I do; doubtless you're shocked—admit it, now!”"
+        },
+        {
+          "num": 34,
+          "text": "But I was not shocked; on the contrary, I was conscious that the same strange hope that Professor Farrago cherished was beginning, in spite of me, to stir my pulses, too."
+        },
+        {
+          "num": 35,
+          "text": "“If he has—” I began, then stopped."
+        },
+        {
+          "num": 36,
+          "text": "The professor and I looked hard at each other in silence."
+        },
+        {
+          "num": 37,
+          "text": "“Go on,” he said, encouragingly."
+        },
+        {
+          "num": 38,
+          "text": "But I had nothing more to say, for the prospect of beholding with my own eyes a living specimen of the great auk produced a series of conflicting emotions within me which rendered speech profanely superfluous."
+        }
+      ],
+      "questions": [
+        {
+          "id": "BR35",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "Read paragraph 2 from the excerpt. “To the proprietors of . . . mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals—of course, first submitting all such letters, together with my replies, to Professor Farrago.” This paragraph helps develop the plot by establishing that the narrator",
+          "options": {
+            "A": "dislikes writing refusal letters for the animals offered to the zoological society.",
+            "B": "attempts to predict what the professor would say in the refusal letters.",
+            "C": "believes that many of the animals offered are not acceptable for the zoological society.",
+            "D": "resents the professor's insistence on reviewing the refusal letters."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The narrator shows no indication of disliking the work; the letters inform people whether the zoo will accept the animals. B. Incorrect. The narrator is confident in his own reply and doesn't anticipate differing from the professor, so there's no need to “predict.” C. CORRECT. “Uncompromising refusals” indicates the narrator's initial confidence that the animals in the letters aren't of value to the society; this confidence is later shaken as the plot unfolds when Professor Farrago states “I am daring to believe that it is the great auk itself” (paragraph 23); the narrator's transition from dismissive doubt to budding hopefulness is a major part of the plot (“But I was not shocked; on the contrary, I was conscious that the same strange hope that Professor Farrago cherished was beginning, in spite of me, to stir my pulses, too” [paragraph 34]). D. Incorrect. The narrator doesn't resent the review; “of course” in paragraph 2 shows he expects to submit letters to the professor as part of his job."
+          }
+        },
+        {
+          "id": "BR36",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 3. “The professor, who was sitting at his desk before a pile of letters and replies submitted for approval by me, pushed his glasses down and looked over them at me with a whimsical smile that suggested amusement, impatience, annoyance, and perhaps a faint trace of apology.” What does the phrase “a faint trace of apology” convey about the professor?",
+          "options": {
+            "A": "It indicates that the professor feels bad that he has to call the narrator to his office after work.",
+            "B": "It shows that the professor is hesitant to share his opinions with the narrator.",
+            "C": "It implies that the professor is uncomfortable criticizing the narrator's work.",
+            "D": "It suggests that the professor knows that the conversation will be frustrating for the narrator."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The apologetic manner is not about calling the narrator after work; it is caused by the professor's understanding that the conversation about the letter/expedition will cause an argument; in paragraph 29 the professor asks if the narrator can leave on the expedition that evening, showing he doesn't feel bad about taking the narrator's time. B. Incorrect. The paragraphs that follow show the professor sharing opinions without pause even when unflattering (“Like swimming squirrels, you navigate with the help of Heaven and a stiff breeze, but you never land where you hope to—do you?” [paragraph 17]). C. Incorrect. The professor is not uncomfortable challenging the narrator; he seems at ease. D. CORRECT. The professor is amused and annoyed by the narrator's dismissal of the possibility that great auks exist, and he knows the narrator will react negatively to being sent on what the narrator considers a “fool's errand” (paragraph 25)."
+          }
+        },
+        {
+          "id": "BR37",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "How does the exchange between the professor and the narrator in paragraphs 8-11 contribute to the development of the characters?",
+          "options": {
+            "A": "It establishes the conflict between the professor and the narrator concerning the validity of the letter.",
+            "B": "It suggests a theme of collaboration because the narrator and the professor regularly work together.",
+            "C": "It reveals the characters' traits by contrasting the narrator's distrust with how easily the professor is deceived by what he reads.",
+            "D": "It hints that the resolution will involve the narrator accepting the professor's opinion about the content of the letter."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. It reveals the difference in opinions: the narrator believes without doubt that Halyard (the letter writer about the auks) is “a liar or a fool” (paragraph 9), while the professor believes the letter writer could be telling the truth (“I said as much to Professor Farrago, but, to my surprise, he appeared to waver” [paragraph 8]). B. Incorrect. In paragraph 8, the narrator reacts with “contemptuous tolerance” and is shocked the professor agrees with Halyard (paragraph 11), whom the narrator condemned as a liar or fool (paragraph 10)—this is emphatic disagreement, not collaboration. C. Incorrect. The professor is portrayed as experienced and intelligent, not easily deceived. D. Incorrect. Paragraphs 8-11 primarily establish a difference of opinion, not a hint at the resolution."
+          }
+        },
+        {
+          "id": "BR38",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "The professor's observations in paragraphs 15-17 create tension in the excerpt by causing the narrator to feel",
+          "options": {
+            "A": "flustered by the professor's criticism of his logic.",
+            "B": "annoyed by the professor's sarcasm about his inexperience.",
+            "C": "confused by the professor's lack of respect for his opinion.",
+            "D": "frustrated by the professor's lack of interest in his theory."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The professor criticizes “you young fellows” (paragraph 15), suggesting the ideas of young scientists like the narrator are unsupported (“like swimming squirrels” [paragraph 17]) and inaccurate (“but you never land where you hope to—do you?” [paragraph 17] and “you embark on a theory for destinations that don't exist” [paragraph 15]). The narrator becomes “rather red in the face” (paragraph 18), indicating he's upset, and asks the professor about the great auk in an attempt to defend himself. B. Incorrect. The narrator has a negative reaction, but the professor is genuine, not sarcastic; sarcasm comes from the narrator in paragraph 14 (“It is generally accepted,” I replied, sarcastically . . .). C. Incorrect. The professor's observations cause the narrator to blush with embarrassment, but the narrator understands the professor's point about the narrator's unquestioning acceptance that great auks don't exist; the professor is criticizing youthful ideas, not disrespecting the narrator's opinion. D. Incorrect. The professor shows amusement with the narrator's perspective; the narrator is embarrassed and upset, but doesn't show frustration with the professor's “lack of interest”—the professor is interested."
+          }
+        },
+        {
+          "id": "BR39",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "How does the interaction between the narrator and the professor in paragraphs 26-28 contribute to the development of the theme?",
+          "options": {
+            "A": "It illustrates the professor's patience as the narrator argues against making the expedition.",
+            "B": "It reveals the narrator's frustration with his limited role in making decisions for the zoological society.",
+            "C": "It emphasizes the professor's desire to acquire new specimens for the zoological society at any cost.",
+            "D": "It shows the narrator's acceptance of his assignment despite his personal objections."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The narrator doesn't argue against making the expedition; he argues that it's unnecessary for the professor to pay for extra men, since the narrator can ask for assistance if he does find great auks (“None,” I replied, bluntly; “it's a useless expense, unless there is something to bring back. If there is I'll wire you, you may be sure” [paragraph 28]). B. Incorrect. The narrator's frustration/embarrassment comes from the professor criticizing his blind acceptance of a theory, not from an inability to make decisions. C. Incorrect. The professor states “what I want you to do is to get those birds here safely” (paragraph 27), indicating the priority is the birds' safety, not acquiring them at any cost. D. CORRECT. Paragraph 26 describes the professor and narrator making practical plans (“we made out a list of articles necessary for me and itemized the expenses I might incur”), indicating the narrator's acceptance of the assignment while not anticipating a “successful termination.” Paragraph 28 describes the narrator's personal objections (he believes extra men are pointless, “a useless expense”) since he doesn't expect to find any great auks."
+          }
+        },
+        {
+          "id": "BR40",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best explains why the professor is eager to send the narrator on an expedition?",
+          "options": {
+            "A": "“I believe now that Professor Farrago perfectly interpreted my thoughts, but he betrayed neither resentment nor impatience.” (paragraph 25)",
+            "B": "“Together we made out a list of articles necessary for me and itemized the expenses I might incur, and I set a date for my return, allowing no margin for a successful termination to the expedition.” (paragraph 26)",
+            "C": "“‘What I want you to do is to get those birds here safely.’” (paragraph 27)",
+            "D": "“‘I can't get away from the idea that we are on the eve of acquiring the rarest of living creatures.’” (paragraph 33)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The narrator suspects the professor is losing his ability to reason since the request seems impossible; this doesn't explain WHY the professor is excited. B. Incorrect. This shows planning logistics, not why the professor is eager. C. Incorrect. This shows interest in the birds' safety but not the underlying reason (rarity). D. CORRECT. This reveals the professor's excitement to get “the rarest of living creatures,” the great auk. In paragraph 14 the narrator states “it is generally accepted . . . that the great auk has been extinct for years,” making a living auk incredibly rare and explaining the professor's eagerness."
+          }
+        },
+        {
+          "id": "BR41",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "How does paragraph 34 help develop the plot of the excerpt?",
+          "options": {
+            "A": "It shows that the narrator is beginning to consider the possibility of finding the great auks.",
+            "B": "It demonstrates that the narrator is struggling to understand why the professor thinks the great auks exist.",
+            "C": "It establishes that the narrator is willing to let the professor overrule him about the great auks.",
+            "D": "It emphasizes that the narrator feels a sense of urgency to complete the expedition to locate the great auks."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Despite initial disbelief, the narrator admits in paragraph 34 that he's starting to feel the “same strange hope” the professor feels (paragraph 33). B. Incorrect. Paragraph 34 reveals the narrator is affected by the professor's “strange hope,” beginning to share it “in spite of” himself—not struggling to understand. C. Incorrect. The hope described wouldn't be present if the narrator were simply overruled without sharing the belief; it was already established before paragraph 34 that the narrator was willing to be overruled (“I drew a chair up beside his desk—there was nothing to do but to obey, and this fool's errand was none of my conceiving” [paragraph 25]). D. Incorrect. The narrator doesn't express urgency in paragraph 34; he expresses hope that the auks might really exist."
+          }
+        },
+        {
+          "id": "BR42",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "Which sentence best demonstrates the professional relationship between the narrator and the professor?",
+          "options": {
+            "A": "“He disengaged the sheet of paper and handed it to me.” (paragraph 4)",
+            "B": "“Clearly, Professor Farrago was on the verge of dotage—ah, what a loss to the world!” (paragraph 24)",
+            "C": "“I drew a chair up beside his desk—there was nothing to do but to obey, and this fool's errand was none of my conceiving.” (paragraph 25)",
+            "D": "“‘Very well,’ said Professor Farrago, good-humoredly, ‘you shall have all the assistance you may require.’” (paragraph 29)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This doesn't convey a subordinate/superior relationship. B. Incorrect. This is a momentary reaction, not a demonstration of the professional relationship. C. CORRECT. The narrator disagrees (“this fool's errand was none of my conceiving”) but obeys because he works for the professor (“there was nothing to do but to obey”). D. Incorrect. The professor's good-humored offer doesn't best demonstrate the underlying employer-employee relationship."
+          }
+        },
+        {
+          "id": "BR43",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "How does the author develop the contrast between the narrator's point of view and the professor's point of view?",
+          "options": {
+            "A": "by providing both the narrator's and professor's thoughts on how age and experience influence each other's reasoning",
+            "B": "by using the conversation between the narrator and the professor to emphasize their reactions to the letter",
+            "C": "by describing the professor's persistent efforts to change the narrator's mind about the letter",
+            "D": "by including dialogue that explains why the professor is the supervisor and the narrator is his subordinate"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The excerpt doesn't describe the narrator's thoughts on age/experience in enough detail. B. CORRECT. The primary conflict revolves around the narrator's disagreement with the professor about whether the letter about the great auks could be true; the narrator dismisses the possibility out of hand (“of course the man is mistaken” [paragraph 5]; “here is a man . . . who wants you to send somebody to take charge of a bird that doesn't exist!” [paragraph 12]), while the professor calmly admits “nine hundred and ninety-nine men in a thousand would throw that letter aside and condemn the writer” (paragraph 9) yet himself believes the writer could be telling the truth (“How do you know,” asked Professor Farrago, “that the bird in question does not exist?” [paragraph 13]). C. Incorrect. The professor explains the disagreement (paragraphs 19-21) but doesn't make persistent efforts to convince the narrator; instead, he states the narrator will go on the expedition regardless of the narrator's belief. D. Incorrect. The dialogue's point isn't to explain the subordinate-supervisor relationship, but to contrast what each character believes about the letter's contents."
           }
         }
       ]
@@ -573,6 +881,155 @@
           "correct": "C",
           "solution": {
             "exhibit_text": "A. Incorrect — the imagery conveys a positive tone (“perceive their wild dancing,” “combusting to the music they make”), not frustration. B. Incorrect — imagery of energetic movement describes the particles, not danger. C. CORRECT — phrases like “only down there” (line 40), “physicists jot down . . . whatever seems most real” (lines 41-42), and “they let us perceive” (line 43) convey that physicists have a rare role studying the mysteries of the universe; the speaker appreciates and is interested in their work. D. Incorrect — darkness refers to the mysteries of subatomic particles, not secretive physicist work processes."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Using Fire to Keep a Prairie Healthy",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Inside the 40,000-acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape."
+        },
+        {
+          "num": 2,
+          "text": "Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops."
+        },
+        {
+          "num": 3,
+          "text": "Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil."
+        },
+        {
+          "num": 4,
+          "text": "One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast-growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie's ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem's delicate balance."
+        },
+        {
+          "num": 5,
+          "text": "Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch-burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one-third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before."
+        },
+        {
+          "num": 6,
+          "text": "Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch-burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch-burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so."
+        }
+      ],
+      "passage_figure_html": "<div style=\"border:1px solid #333;padding:10px;max-width:480px;margin:0 auto;\"><img src=\"ela_b/figures/patch_burn_diagram.png\" alt=\"Overview of the Patch-Burn Method diagram\" style=\"max-width:100%;display:block;\"></div>",
+      "questions": [
+        {
+          "id": "BR44",
+          "q_number": 44,
+          "question_type": "mc",
+          "question": "According to the passage, how did fires started by natural causes prompt American Indians to begin practicing controlled burns?",
+          "options": {
+            "A": "by drawing animals in to the area to feed on the new growth sprouting from the burned land",
+            "B": "by destroying tall trees and reducing the shade that had hindered the growth of planted crops",
+            "C": "by burning off excess vegetation and increasing the availability of nutrients for the remaining plants",
+            "D": "by causing changes to the bison's migration habits as bison herds fled from the wildfires on the prairie"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Paragraph 2 states American Indians observed bison “grazing on tender new grass on the recently burned land rather than on grass in the unburned areas”—these observations prompted controlled burns to entice “herds away from the people's crops.” B. Incorrect. The paragraph 4 detail about red cedar trees/shade supports why conservationists use controlled burns TODAY, not what initially prompted the practice. C. Incorrect. Paragraph 3 details about nitrogen/soil quality don't explain the initial observations that prompted the practice. D. Incorrect. There's no indication bison changed migration habits to flee wildfires."
+          }
+        },
+        {
+          "id": "BR45",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "Targeting red cedar trees in controlled burns affects the animals that live on the prairie mostly by",
+          "options": {
+            "A": "ensuring that the animals' main food source has the conditions needed for it to thrive.",
+            "B": "endangering the animals that live near the trees scheduled for removal.",
+            "C": "making sure that the water supply for the animals is sufficient.",
+            "D": "reducing the animals' natural source of shade and protection from the elements."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Paragraph 4: targeting invasive red cedar trees ensures they don't “crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home”—removing them increases water and sunlight for prairie grasses. B. Incorrect. Paragraph 5: patch burning “allows animals in the burn area to safely relocate”—not endangering. C. Incorrect. The water statistic is about water for the grasses, not directly ensuring sufficient water supply for animals. D. Incorrect. Red cedars are invasive, not a natural part of the ecosystem; shade reduction isn't about animals' comfort/protection."
+          }
+        },
+        {
+          "id": "BR46",
+          "q_number": 46,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 6. “The patch-burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land.” The author includes this sentence to show that",
+          "options": {
+            "A": "the conservationists are better qualified to lead preservation efforts than farmers are.",
+            "B": "the conservationists are eager to involve others in the preservation of the prairie.",
+            "C": "the conservationists' efforts will restore the original beauty and biodiversity of the region.",
+            "D": "the conservationists' training program should serve as a model for other conservation organizations."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The sentence shows conservationists believe farmers capable of performing controlled burns, not that conservationists are better qualified. B. CORRECT. The conservationists are eager to involve others because “studies show that the patch-burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out” and “helped the prairie sustain life for hundreds of years” (paragraph 6); sharing knowledge with people who live on the prairie supports this eagerness. C. Incorrect. The idea that burns restore biodiversity isn't the focus of this specific sentence. D. Incorrect. There's no indication the training program should be a model for OTHER organizations."
+          }
+        },
+        {
+          "id": "BR47",
+          "q_number": 47,
+          "question_type": "mc",
+          "question": "Which sentence supports the idea that farmers and people who manage land may be concerned about using fire as a way to benefit the land?",
+          "options": {
+            "A": "“While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.” (paragraph 1)",
+            "B": "“The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops.” (paragraph 2)",
+            "C": "“This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate.” (paragraph 5)",
+            "D": "“The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.” (paragraph 5)"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Acknowledges “one of the greatest threats to the prairie is wildfire,” showing why farmers/land managers might be concerned about fire. B, C, D. Incorrect—each explains benefits/mechanics of controlled burns without addressing the underlying concern about fire as a threat."
+          }
+        },
+        {
+          "id": "BR48",
+          "q_number": 48,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 6. “Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.” The words “counterintuitive” and “strategic” convey the idea that",
+          "options": {
+            "A": "the safest methods are sometimes the least effective at solving complex challenges.",
+            "B": "thorough investigation of uncommon methodologies can lead to beneficial results.",
+            "C": "detailed planning can ensure that a potentially destructive action has a positive impact.",
+            "D": "plans that entail a certain amount of risk almost always result in success."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The methods have NOT been ineffective—the patch-burn system is “so successful” conservationists train farmers. B. Incorrect. Doesn't suggest the methodologies are uncommon (they were used by American Indian people long ago). C. CORRECT. Paragraph 1 states “one of the greatest threats to the prairie is wildfire,” so controlled burns suggest risk/counter to common expectations about the dangers of fire; the words convey the idea that detailed planning (“strategic”) can ensure a potentially destructive action (burning) has a positive impact. D. Incorrect. The passage doesn't suggest risky plans “almost always” succeed—success here comes specifically from careful planning."
+          }
+        },
+        {
+          "id": "BR49",
+          "q_number": 49,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "It is important to explain the purposes and the risks of controlled burns to the people living near a proposed burn area.",
+            "B": "It is necessary to thoroughly examine a particular region in order to plan and execute a successful controlled burn.",
+            "C": "Monitoring animals' reactions after a controlled burn on the prairie is a minor part of scientists' research.",
+            "D": "Conservationists should consider the helpful aspects of invasive species before executing a controlled burn."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 5, the author states that “patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate,” and paragraph 6 states that conservationists “provide training to prairie farmers about conducting controlled burns on their own land.” However, the author does not explicitly take a position about the importance of explaining the purposes and risks of controlled burns to people living near a proposed burn area. B. CORRECT. In paragraph 5, the author points out that conservationists “study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one-third of the land” and “rotate which portion of land is burned each year” so that animals, such as bison, can “safely relocate.” Therefore, the author would most likely agree that it is necessary to thoroughly examine a particular region in order to plan and execute a successful controlled burn. C. Incorrect. The author would be unlikely to agree that monitoring animals' reactions after a controlled burn on the prairie is a minor part of scientists' research. In paragraph 5, the author explains that patch burning “allows animals in the burn area to safely relocate” and that conservationists “burn a different section of the preserve” each year to ensure that animals have an abundant area to graze while other areas are being burned. D. Incorrect. According to the information in paragraph 4, conservationists commonly target invasive red cedar trees because they are tall trees that “crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home.” Since the focus is on the harm that the invasive red cedar trees cause, the author would be unlikely to agree that conservationists should consider helpful aspects of invasive species before a controlled burn."
+          }
+        },
+        {
+          "id": "BR50",
+          "q_number": 50,
+          "question_type": "mc",
+          "question": "How do the diagram and its text provide additional support for the topic presented in the passage?",
+          "options": {
+            "A": "by depicting how the landscape in a given area changes as the patch-burn method is applied",
+            "B": "by indicating that patch-burn fires are best suited for use in areas with certain features",
+            "C": "by revealing that the patch-burn method is used primarily on uninhabited areas of land",
+            "D": "by comparing the size of the area burned by the patch-burn method with that of unburned areas"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The text of the diagram states that “by using a patch-burn method, conservationists and farmers can reduce the risk of unintentional fires and control where grazing animals, such as bison, roam.” By showing the pattern of controlled burns and the resulting bison migration in a given area, the diagram depicts how the landscape changes as the patch-burn method is applied. B. Incorrect. Although the text mentions areas “where grazing animals, such as bison, roam,” the diagram does not depict distinctive features of the land such as trees or brush and therefore does not indicate that patch-burn fires are best suited for use in areas with certain features. C. Incorrect. While the text mentions “grazing animals, such as bison” and the diagram shows the bison grazing in only one area, the diagram and its text do not indicate that the patch-burn method is used on uninhabited land. D. Incorrect. While the areas of land depicted in the diagram do indicate that the sizes of the areas differ, the text provided does not compare the sizes of the areas burned by the patch-burn method with that of unburned areas."
           }
         }
       ]
