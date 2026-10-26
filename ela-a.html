@@ -246,7 +246,7 @@
     function parseHash() {
       const m = (location.hash || '').match(/#Q(\d+)/);
       if (!m) return null;
-      return Math.max(1, Math.min(totalQ() || 1, parseInt(m[1], 10)));
+      return Math.max(1, parseInt(m[1], 10));
     }
 
     function routeFromHash() {
