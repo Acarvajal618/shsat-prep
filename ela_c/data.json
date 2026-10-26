@@ -2,7 +2,7 @@
   "_schema": {
     "description": "Practice Test C — ELA section, all 50 questions transcribed (50/50). Questions 1-43 are the 6 Reading Comprehension passage sets (TestNav Passage Sets 1-6 of 7), transcribed from TestNav screenshots including the Exhibits answer-key popups (stored as exhibit_text, verbatim). Questions 44-47 are the Revising/Editing passage (Brickmaking Industry, TestNav Passage Set 7 of 7). Questions 48-50 are the standalone Revising/Editing items.",
     "id_format": "CR<NN> — Exam C, Reading, question number (continuous 1-50 across the full exam, RC passages first, then the editing passage, then standalone items — matching Exam A's real-exam numbering convention).",
-    "answer_key_status": "COMPLETE for 49 of 50 questions, sourced from the TestNav Exhibits answer-key panel (RC questions) or the original book/TestNav source (editing + standalone, unchanged from before). CR19 (Passage Set 3, final question) is the one exception — its Exhibits screenshot was never captured (the source jumps straight from the question screen to the next passage set), so its correct answer is left unset (null) rather than guessed. Question text and options for CR19 are fully transcribed and accurate.",
+    "answer_key_status": "COMPLETE for all 50 questions, sourced from the TestNav Exhibits answer-key panel (RC questions) or the original book/TestNav source (editing + standalone). CR19's Exhibits screenshot only showed the C/D explanations (A/B scrolled out of view), so A and B are recorded as \"Incorrect.\" without detailed reasoning rather than guessed.",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency).",
     "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph, with raw <u> tags for underlined spans where the source TestNav screenshot showed underlines) displayed above the question."
   },
@@ -419,10 +419,9 @@
             "C": "It highlights a contrast between the focus and control required while working and the freedom of having fun outside.",
             "D": "It concludes the progression of events in the narrative by describing the sequence of events at the end of the author’s day."
           },
-          "correct": null,
-          "unverified_note": "The answer-key/Exhibit screenshot for this question was not captured in the uploaded photos (the sequence jumps straight from the question screen to the next passage set) — correct answer not confirmed from source, left blank rather than guessed.",
+          "correct": "C",
           "solution": {
-            "exhibit_text": null
+            "exhibit_text": "A. Incorrect.\nB. Incorrect.\nC. CORRECT. In the sentence from paragraph 7, the author refers to her beadwork lessons as “confining” and states that after the lessons, she “was wild with surplus spirits” and “found joyous relief” in being outside and running around. The phrases “surplus spirits” and “joyous relief” highlight a sense of freedom that stands in strong contrast to the “confining” nature of the author’s beadwork lessons, which required intense focus and control.\nD. Incorrect. In paragraph 7, the author describes how “many a summer afternoon” after her beadwork lessons, she and her friends used “a light sharpened rod” to gather “sweet roots” and “little crystal drops of gum.” She then explains that they later “tossed away our”"
           }
         }
       ]
