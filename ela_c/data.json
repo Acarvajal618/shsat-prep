@@ -1,12 +1,1219 @@
 {
   "_schema": {
-    "description": "Practice Test C — ELA section. This batch of 25 TestNav screenshots covers only Passage 7 of 7 (an informational passage, sentence-numbered format) plus all 3 Stand Alone Items. Passages 1-6 were not present in the screenshot batch and are NOT included here — do not infer their existence from `total_passages`.",
-    "id_format": "CR<NN> — Exam C, Reading, question number (continuous across passages in this batch).",
-    "answer_key_status": "COMPLETE for all 7 questions captured in this batch (CR01-CR07), sourced from the TestNav Exhibits answer-key panel.",
+    "description": "Practice Test C — ELA section, all 50 questions transcribed (50/50). Questions 1-43 are the 6 Reading Comprehension passage sets (TestNav Passage Sets 1-6 of 7), transcribed from TestNav screenshots including the Exhibits answer-key popups (stored as exhibit_text, verbatim). Questions 44-47 are the Revising/Editing passage (Brickmaking Industry, TestNav Passage Set 7 of 7). Questions 48-50 are the standalone Revising/Editing items.",
+    "id_format": "CR<NN> — Exam C, Reading, question number (continuous 1-50 across the full exam, RC passages first, then the editing passage, then standalone items — matching Exam A's real-exam numbering convention).",
+    "answer_key_status": "COMPLETE for 49 of 50 questions, sourced from the TestNav Exhibits answer-key panel (RC questions) or the original book/TestNav source (editing + standalone, unchanged from before). CR19 (Passage Set 3, final question) is the one exception — its Exhibits screenshot was never captured (the source jumps straight from the question screen to the next passage set), so its correct answer is left unset (null) rather than guessed. Question text and options for CR19 are fully transcribed and accurate.",
     "math_notation": "LaTeX in \\(...\\) inline and \\[...\\] display; KaTeX renders it (unlikely to be used in ELA, kept for consistency).",
     "standalone_items_note": "standalone_items are non-passage editing/grammar questions shown full-width with no passage pane; each may include a 'stimulus' (a short numbered-sentence paragraph, with raw <u> tags for underlined spans where the source TestNav screenshot showed underlines) displayed above the question."
   },
   "passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Invention of the Telegraph",
+      "author": null,
+      "citation": "“Invention of the Telegraph”—Public Domain/Library of Congress",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Today, instant communication over great distances is so commonplace that it’s difficult to imagine a time when sending a message required days or weeks of travel. Before the telegraph, most long-distance communication relied on visual or “semaphore” systems using flags or lights, messengers on horseback, or ships carrying letters across oceans. The United States government, eager to improve communication along its borders, was searching for just such a system along its entire Atlantic coast when a portrait painter named Samuel Morse set out to change the way the world communicates."
+        },
+        {
+          "num": 2,
+          "text": "Morse’s interest in long-distance communication began unexpectedly. While attending lectures on electricity at Yale, Morse learned about Michael Faraday’s invention of the electromagnet, a device that used electric current to create a magnetic field. Morse speculated that it might be possible to send a coded message over a wire by using an electromagnet to produce an audible or visible signal at the receiving end."
+        },
+        {
+          "num": 3,
+          "text": "Morse was not alone in exploring the use of electricity for communication. Joseph Henry, a physics professor at Princeton, had rung a bell at a distance by opening and closing an electric circuit and had published an article in 1831—of which Morse was unaware—that contained details suggesting the idea of an electric telegraph. Leonard D. Gale, a professor of chemistry, was familiar with Henry’s electrical work and pointed out flaws in Morse’s early system. Gale showed Morse how to regularly boost the strength of a signal and overcome distance problems by using a relay system Henry had invented. Henry’s experiments, Gale’s assistance, and, soon after, hiring the young technician Alfred Vail were keys to Morse’s success."
+        },
+        {
+          "num": 4,
+          "text": "By December 1837, Morse had enough confidence in his new system to apply for the federal government’s appropriation, and during the next year he conducted demonstrations of his telegraph both in New York and Washington."
+        },
+        {
+          "num": 5,
+          "text": "Morse’s request for funding was delayed for several years. During this time, Morse traveled to Europe, where he tried not only to secure patent protection overseas but to examine competing telegraph systems in England. When Morse returned to the United States, the nation was in the midst of a long depression caused by the Panic of 1837, and Congress was reluctant to spend money on an unproven invention."
+        },
+        {
+          "num": 6,
+          "text": "By 1843, the country was beginning to recover economically, and Morse again asked Congress for the $30,000 that would allow him to build a telegraph line from Washington to Baltimore, forty miles away. The House of Representatives eventually passed the bill containing the Morse appropriation, and the Senate approved it in the final hours of that Congress’s last session. With President Tyler’s signature, Morse received the cash he needed and began to carry out plans for an underground telegraph line."
+        },
+        {
+          "num": 7,
+          "text": "Morse had hired the ingenious construction engineer Ezra Cornell to lay the pipe carrying the wire, and although Cornell did his job superbly, one of Morse’s partners, Congressman F. O. J. Smith, had purchased wire with defective insulation. Too much time had been wasted laying bad wire, and with the project on a rigid deadline, something had to be done quickly. Cornell suggested that the fastest and cheapest way of connecting Washington and Baltimore was to string wires overhead on trees and poles. The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore."
+        },
+        {
+          "num": 8,
+          "text": "Soon, as overhead wires connected cities up and down the Atlantic coast, the dots-and-dashes method that recorded messages on a long moving strip of paper was replaced by the operator’s ability to interpret the code in real time. . . . Telegraph lines soon extended westward, and within Morse’s own lifetime they connected the continents of Europe and America."
+        }
+      ],
+      "passage_figure_html": "<img src=\"ela_c/figures/telegraph_map.jpg\" alt=\"Map of the British All-Red Telegraph Line, 1902\" style=\"max-width:100%;display:block;border-radius:4px;margin-bottom:12px;\"><img src=\"ela_c/figures/telegraph_chart.jpg\" alt=\"Bar chart: Telegraph Messages Transmitted, 1870-1920\" style=\"max-width:100%;display:block;border-radius:4px;\">",
+      "questions": [
+        {
+          "id": "CR01",
+          "q_number": 1,
+          "question_type": "mc",
+          "question": "The details of the section “The Growth of an Idea” convey a central idea of the passage by suggesting that",
+          "options": {
+            "A": "the collaborative efforts of colleagues resulted in successful communication over a wire.",
+            "B": "a great deal of interest and work was devoted to understanding how to use electricity to send signals.",
+            "C": "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
+            "D": "colleges like Yale played a great role in making new discoveries about electricity and its applications."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although paragraph 2 in this section states that Morse “speculated that it might be possible to send a coded message over a wire,” this section does not describe Morse and his colleagues' ultimate success at sending such a message.\nB. CORRECT. The section helps convey a central idea because it mainly focuses on what inspired Morse to begin his work and explains how others were just as interested in working to achieve this goal. Paragraph 3 states that “Henry's experiments, Gale's assistance, and, soon after, hiring the young technician Alfred Vail were keys to Morse's success.” Their shared interest in the possibilities of electricity inspired them to work together to find a way to use electricity to send long-distance messages.\nC. Incorrect. Paragraph 2 of the section explains how Morse came to understand how Faraday's electromagnet worked and states that this invention prompted Morse to wonder whether it might be possible to send a coded message over a wire. However, that early idea of Morse's only evolved into the telegraph after much more research and experimentation.\nD. Incorrect. Although paragraph 2 establishes that Morse was interested in lectures at Yale on electricity, the influence of what Morse learned at Yale was only a minor factor in his development of the telegraph."
+          }
+        },
+        {
+          "id": "CR02",
+          "q_number": 2,
+          "question_type": "mc",
+          "question": "Which sentence is the best summary of how Morse obtained the funding necessary to build his telegraph system?",
+          "options": {
+            "A": "Morse’s application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system.",
+            "B": "Morse applied for a government grant that required both houses of Congress and the president to pass a bill awarding him $30,000 for his telegraph project.",
+            "C": "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843.",
+            "D": "Working with Gale and Vail allowed Morse to find flaws in Henry’s work and to develop his own ideas before applying for the federal government appropriation."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This summary focuses mostly on what Morse did while his application for funding was delayed in the United States rather than on how Morse acquired the patent, because during this period, Morse tried “not only to secure patent protection overseas but to examine competing telegraph systems in England” (paragraph 5). Therefore, it is not the best summary of how Morse obtained the funding necessary to build his telegraph system.\nB. Incorrect. Although this summary mentions how Morse applied for the “federal government's appropriation” (paragraph 4), it primarily focuses on the actions of the House of Representatives and the Senate, not on Morse's efforts to obtain funding. Therefore, it is not the best summary of how Morse obtained the funding necessary to build his telegraph system.\nC. CORRECT. This summary best describes how Morse obtained the funding that he needed for his telegraph system, because it explains that Morse applied “for the federal government's appropriation, and during the next year he conducted demonstrations of his telegraph” (paragraph 4). In paragraph 5, the author explains the impact that the Panic of 1837 had on Morse's request. In paragraph 6, the author describes how by 1843, economic times had improved, so Morse again “asked Congress for the $30,000” and was awarded the funds after “the Senate approved it.”\nD. Incorrect. This summary is not the best summary of how Morse obtained the funding necessary to build his telegraph system, because it relates how Morse worked with others to develop his ideas about the telegraph and how Gale and Vail were the “keys to Morse's success” (paragraph 3) before he applied for funding."
+          }
+        },
+        {
+          "id": "CR03",
+          "q_number": 3,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 7.\n\n**The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore.**\n\nThe words “dramatic” and “spectacularly” in the sentence convey a",
+          "options": {
+            "A": "sense of relief and fulfillment that the line was finished.",
+            "B": "sense of wonder and celebration that the telegraph line was accomplished.",
+            "C": "feeling of excitement about the future possibilities of the telegraph.",
+            "D": "feeling of confidence about being able to continue the work."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While there may have been some feelings of relief and fulfillment when the lines were finished, the passage instead focuses on the wonder and joy that Morse and Cornell felt after overcoming setbacks and completing the construction of the telegraph system.\nB. CORRECT. Morse and Cornell rushed to post the wires overhead, and the “rigid deadline” (paragraph 7) was successfully met. The words have a positive and victorious tone that is consistent with the feeling of wonder that it worked and of celebration that the construction was completed.\nC. Incorrect. The passage does not share whether Morse or Cornell considered the future possibilities of the telegraph; it shares only that the finished product was “dramatic,” implying it was amazing to see.\nD. Incorrect. While the passage later discusses the expansion of overhead wires “up and down the Atlantic coast” and how they “connected the continents of Europe and America” (paragraph 8), there is no evidence shared in the passage that Morse planned to continue his work with electricity."
+          }
+        },
+        {
+          "id": "CR04",
+          "q_number": 4,
+          "question_type": "mc",
+          "question": "How does the graph support the ideas in paragraph 8?",
+          "options": {
+            "A": "It indicates how welcome the improvement of long-distance communication was in the United States.",
+            "B": "It provides evidence of the dramatic increase in the number of telegraph messages as Morse’s system expanded across the United States.",
+            "C": "It reveals that by the twentieth century millions of people had used the telegraph despite earlier hesitations about the system.",
+            "D": "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system’s usage."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While it can be inferred from the expansion shown on the graph that people possibly welcomed the improvement in long-distance communication, the graph does not state this explicitly.\nB. CORRECT. The graph shows the number of messages transmitted from 1870 to 1920. In 1920 almost 160 million messages were transmitted, showing a “dramatic”—almost double—increase from 1910.\nC. Incorrect. The graph does not show how many people used the telegraph, but rather it shows the number of messages sent. Additionally, paragraph 8 provides no details about hesitation on the part of individual people.\nD. Incorrect. While improvements in recording and interpreting code were made, the graph does not show the effect of this advancement on the speed or number of messages being transmitted."
+          }
+        },
+        {
+          "id": "CR05",
+          "q_number": 5,
+          "question_type": "mc",
+          "question": "The idea that, in the mid-nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
+          "options": {
+            "A": "description of the government’s initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast.",
+            "B": "delay by the House of Representatives to pass the bill funding Morse’s telegraph line six years after he first applied for the appropriation.",
+            "C": "discussions of the newly invented electromagnet that sparked the idea of sending codes through wires.",
+            "D": "description of how an electric circuit could be closed to ring a bell at a distance."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Paragraph 1 states that most signaling systems at the time were “visual or 'semaphore' systems using flags or lights” and that the United States government was looking for “just such a system along its entire Atlantic coast.” This option is correct because it shows that the government wanted to continue to use a limited system instead of finding ways to improve the system. Had the government been aware of the possibilities of electricity, a more sophisticated system might have been imagined.\nB. Incorrect. The delay in funding had to do with the Panic of 1837 and the “long depression” (paragraph 5) and was not because the House of Representatives was not aware of or ready for innovation in the use of electricity.\nC. Incorrect. The information in this option focuses on what prompted Morse to consider an electric wire–based communications system. While this option suggests that electrical devices were just beginning to be invented, it does not support the idea that the nation was unaware of the possibilities of electricity.\nD. Incorrect. While this option describes an early electrical innovation that may seem quite basic and limited to modern audiences, paragraph 3 states that this innovation was the work of a “pioneer in the new field,” implying that it was quite significant for its time. This option is incorrect because it focuses on those people in the United States who were aware of the possibilities of electricity."
+          }
+        },
+        {
+          "id": "CR06",
+          "q_number": 6,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "Morse’s telegraph was successful because the wires were strung aboveground rather than underground as originally planned.",
+            "B": "Understanding the importance of Morse’s telegraph requires detailed knowledge of electrical systems.",
+            "C": "The implementation of Morse’s telegraph system was overly influenced by economic factors.",
+            "D": "Morse’s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The author explains that the aboveground wiring was used only because “Cornell suggested that [it was] the fastest and cheapest way” (paragraph 7), not because it would be more successful.\nB. Incorrect. The author conveys the importance of this advancement in communication without providing detailed information about electrical systems.\nC. Incorrect. While the Panic of 1837 caused a delay in Morse's funding, the author shows that Morse received the appropriation in 1843 and was able to overcome the financial setback he faced.\nD. CORRECT. Paragraph 8 states that “telegraph lines soon extended westward, and within Morse's own lifetime they connected the continents of Europe and America.” Therefore, this option is correct because the author presents Morse's telegraph as a great leap in the ability to quickly communicate messages over distances never before imagined."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Niagara Falls",
+      "author": "Rupert Brooke",
+      "citation": "From Letters from America by Rupert Brooke—Public Domain",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone."
+        },
+        {
+          "num": 2,
+          "text": "The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever-altering wonder. Greens and blues, purples and whites, melt into one another, fade, and come again, and change with the changing sun. Sometimes they are as richly diaphanous as a precious stone, and glow from within with a deep, inexplicable light. Sometimes the white intricacies of dropping foam become opaque and creamy. And always there are the rainbows. If you come suddenly upon the Falls from above, a great double rainbow, very vivid, spanning the extent of spray from top to bottom, is the first thing you see. If you wander along the cliff opposite, a bow springs into being in the American Falls, accompanies you courteously on your walk, dwindles and dies as the mist ends, and awakens again as you reach the Canadian tumult. And the bold traveller who attempts the trip under the American Falls sees, when he dare open his eyes to anything, tiny baby rainbows, some four or five yards in span, leaping from rock to rock among the foam, and gambolling beside him, barely out of hand's reach, as he goes. One I saw in that place was a complete circle, such as I have never seen before, and so near that I could put my foot on it. It is a terrifying journey, beneath and behind the Falls. The senses are battered and bewildered by the thunder of the water and the assault of wind and spray; or rather, the sound is not of falling water, but merely of falling; a noise of unspecified ruin. So, if you are close behind the endless clamour, the sight cannot recognise liquid in the masses that hurl past. You are dimly and pitifully aware that sheets of light and darkness are falling in great curves in front of you. Dull omnipresent foam washes the face. Farther away, in the roar and hissing, clouds of spray seem literally to slide down some invisible plane of air."
+        },
+        {
+          "num": 3,
+          "text": "Beyond the foot of the Falls the river is like a slipping floor of marble, green with veins of dirty white, made by the scum that was foam. It slides very quietly and slowly down for a mile or two, sullenly exhausted. Then it turns to a dull sage green, and hurries more swiftly, smooth and ominous. As the walls of the ravine close in, trouble stirs, and the waters boil and eddy. These are the lower rapids, a sight more terrifying than the Falls, because less intelligible. Close in its bands of rock the river surges tumultuously forward, writhing and leaping as if inspired by a demon. It is pressed by the straits into a visibly convex form. Great planes of water slide past. Sometimes it is thrown up into a pinnacle of foam higher than a house, or leaps with incredible speed from the crest of one vast wave to another, along the shining curve between, like the spring of a wild beast. Its motion continually suggests muscular action. The power manifest in these rapids moves one with a different sense of awe and terror from that of the Falls. Here the inhuman life and strength are spontaneous, active, almost resolute. . . . A place of fear."
+        },
+        {
+          "num": 4,
+          "text": "One is drawn back, strangely, to a contemplation of the Falls, at every hour, and especially by night, when the cloud of spray becomes an immense visible ghost, straining and wavering high above the river, white and pathetic and translucent. The Victorian lies very close below the surface in every man. There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara. I could not get out of my mind the thought of a friend, who said that the rainbows over the Falls were like the arts and beauty and goodness, with regard to the stream of life—caused by it, thrown upon its spray, but unable to stay or direct or affect it, and ceasing when it ceased. In all comparisons that rise in the heart, the river, with its multitudinous waves and its single current, likens itself to a life, whether of an individual or of a community. A man's life is of many flashing moments, and yet one stream; a nation's flows through all its citizens, and yet is more than they. In such places, one is aware, with an almost insupportable and yet comforting certitude, that both men and nations are hurried onwards to their ruin or ending as inevitably as this dark flood. Some go down to it unreluctant, and meet it, like the river, not without nobility. And as incessant, as inevitable, and as unavailing as the spray that hangs over the Falls, is the white cloud of human crying. . . . With some such thoughts does the platitudinous heart win from the confusion and thunder of a Niagara peace that the quietest plains or most stable hills can never give."
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR07",
+          "q_number": 7,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 2.\n\n**They are extraordinarily level, one long curtain of lacework and woven foam.**\n\nWhat is the effect of comparing the American Falls to a “long curtain of lacework and woven foam”?",
+          "options": {
+            "A": "It demonstrates the timelessness of the American Falls.",
+            "B": "It conveys the secretive nature of the American Falls.",
+            "C": "It illustrates the elegant uniformity of the American Falls.",
+            "D": "It communicates the intense strength of the American Falls."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Neither “lacework and woven foam” (paragraph 2) nor the quality of being extremely level are related to timelessness.\nB. Incorrect. Although curtains are sometimes used to create privacy, the purpose of comparing the Falls to a “long curtain of lacework and woven foam” (paragraph 2) is not to convey the secretive nature of the Falls but rather to illustrate their beauty and uniformity.\nC. CORRECT. The word “lacework” in the sentence from paragraph 2 suggests an elegant piece of craftsmanship, and the “one long curtain” and “extraordinarily level” aspects of the Falls mean that the Falls are uniform or consistent.\nD. Incorrect. Although the author states in paragraph 1 that the Falls inspire a “feeling of colossal power,” in paragraph 2 the author describes the American Falls as “delicate and fragile.” Therefore, the purpose of the comparison in paragraph 2 is not to communicate the intense strength of the Falls."
+          }
+        },
+        {
+          "id": "CR08",
+          "q_number": 8,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 3.\n\n**These are the lower rapids, a sight more terrifying than the Falls, because less intelligible.**\n\nWhich statement best describes how the sentence fits into the overall structure of the excerpt?",
+          "options": {
+            "A": "It signals a change from the positive aspects of the Falls to the negative aspects.",
+            "B": "It indicates a progression from the literal description of the water to a discussion of timeless truths.",
+            "C": "It reinforces a shift from the qualities of the Falls to the qualities of the river.",
+            "D": "It introduces a contrast between the obvious and the hidden features of the rapids."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although in paragraph 2 the author describes the beauty of the Falls as both an “ever-altering wonder” and an “assault of wind and spray,” in paragraph 3 the author does not signal a change from the positive aspects of the Falls to the negative aspects. Instead, the author provides a description of the river and the rapids below the Falls.\nB. Incorrect. While the author compares the water of the river to “a slipping floor of marble, green with veins of dirty white, made by the scum that was foam” in paragraph 3, the statement that the lower rapids are “more terrifying than the Falls, because less intelligible” does not indicate a progression from the literal description of the water to a discussion of timeless truths. Instead, the author is merely describing all aspects of the rapids, both literally and figuratively.\nC. CORRECT. The first sentence of paragraph 3 moves the description “beyond the foot of the Falls” to “the river” and then the paragraph begins to describe this location in further detail (“a dull sage green,” “hurries more swiftly,” “smooth and ominous,” “waters boil and eddy”) before reinforcing this shift by confirming it again with the words “These are the lower rapids, a sight more terrifying than the Falls.”\nD. Incorrect. Although the author states that the waters of the rapids “boil and eddy” and suggests that the rapids are “less intelligible,” these statements do not introduce a contrast between the obvious and the hidden features of the rapids. They merely describe a feature and the sight of the lower rapids."
+          }
+        },
+        {
+          "id": "CR09",
+          "q_number": 9,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that the essence of the Falls lies in their emotional impact?",
+          "options": {
+            "A": "“If that were taken away, there would be little visible change, but the heart would be gone.” (paragraph 1)",
+            "B": "“By comparison their beauty is almost delicate and fragile.” (paragraph 2)",
+            "C": "“One is drawn back, strangely, to a contemplation of the Falls, at every hour, and especially by night, when the cloud of spray becomes an immense visible ghost, straining and wavering high above the river, white and pathetic and translucent.” (paragraph 4)",
+            "D": "“A man's life is of many flashing moments, and yet one stream; a nation's flows through all its citizens, and yet is more than they.” (paragraph 4)"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The first sentence in the excerpt establishes that “the real secret of the beauty and terror of the Falls” lies in “the feeling of colossal power and of unintelligible disaster.” This option states that “if that [feeling] were taken away, . . . the heart would be gone,” meaning that the emotional impact of the Falls is essential.\nB. Incorrect. While “delicate” and “fragile” are words that can be connected with certain kinds of emotions, in the sentence in the option they are connected with physical beauty.\nC. Incorrect. While the sentence in the option describes the power of the Falls to engage one in thought, it does not best support the idea that the essence of the Falls lies in their emotional impact.\nD. Incorrect. The sentence in the option describes thoughts one may have while watching the Falls and is not focused on the Falls' emotional impact."
+          }
+        },
+        {
+          "id": "CR10",
+          "q_number": 10,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\n**There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara.**\n\nThe sentence most contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "suggesting that viewing the Falls can be a life-changing experience.",
+            "B": "showing that the cliffs of the Falls are a good place for self-examination.",
+            "C": "emphasizing that the grandeur of the Falls seems impossible to grasp.",
+            "D": "highlighting the type of reflection that is inspired by a visit to the Falls."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The sentence focuses on the idea that the Falls are a great place for contemplation but does not clarify that these thoughts are life-changing.\nB. Incorrect. The sentence does not describe focused thoughts of a personal nature; the grand, sweeping nature of the Falls inspires thoughts of the same caliber as “the passage of empires.”\nC. Incorrect. The sentence is about how the Falls inspire great thoughts but is not about how difficult it is to grasp the grandeur of the Falls.\nD. CORRECT. The description of “cloudy thoughts of destiny and the passage of empires” in the sentence refers to the types of thoughts a person might have while observing the Falls."
+          }
+        },
+        {
+          "id": "CR11",
+          "q_number": 11,
+          "question_type": "mc",
+          "question": "In paragraph 4, the idea that human life and history ultimately end in the same way is illustrated mainly through",
+          "options": {
+            "A": "the discussion of how the rainbows visible in the Falls are like the art and beauty created by humankind.",
+            "B": "the comparison between the movement of water in the Falls and the human experience.",
+            "C": "the inclusion of details that show that every observer's experience with the Falls is different.",
+            "D": "the acknowledgment that contemplating the Falls at night sparks an awareness of humankind's destiny."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 4, the author compares the rainbows visible in the Falls to “the arts and beauty,” which share the rainbows' dependence on “the stream of life”—that is, they are “caused by it, thrown upon its spray, but unable to stay or direct or affect it, and ceasing when it ceased.” This comparison does not illustrate the idea that human life and history ultimately end in the same way but rather that art and beauty, like human beings, are unable to “stay or direct or affect” their ultimate fate.\nB. CORRECT. The author concludes in paragraph 4 that the movement of the Falls can be compared to people and history when he writes, “both men and nations are hurried onwards to their ruin or ending as inevitably as this dark flood.” This comparison illustrates the idea that human life and history ultimately end in the same way.\nC. Incorrect. Although in paragraph 4 the author states that “One is drawn back, strangely, to a contemplation of the Falls” and provides an account of “a friend, who said that the rainbows over the Falls were like the arts and beauty and goodness, with regard to the stream of life,” the author does not provide details to show that every observer's experience with the Falls is different. Rather, the author explains that “the Victorian lies very close below the surface in every man” (paragraph 4).\nD. Incorrect. While the setting at night does provide a place of contemplation, the author notes the “dark flood” as the overall illustration of the human experience."
+          }
+        },
+        {
+          "id": "CR12",
+          "q_number": 12,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "A": "A sense of ease and assurance comes with accepting one's fate.",
+            "B": "No matter where one's path goes in life, one will always have regrets.",
+            "C": "The best way to overcome fear is to recognize it and then defy it.",
+            "D": "Reason will die out with humanity, but art will remain immortal."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. In paragraph 4, the author states that the Falls make a person feel “with an almost insupportable and yet comforting certitude, that both men and nations are hurried onwards to their ruin or ending.” Later, the final sentence says, “With some such thoughts does the platitudinous heart win from the confusion and thunder of a Niagara peace.”\nB. Incorrect. Although in paragraph 4 the author states that “one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara” and that “a man's life is of many flashing moments,” the author does not suggest that one will always have regrets no matter where one's path goes in life.\nC. Incorrect. While the excerpt discusses fear when experiencing the power of the Falls, the excerpt does not support the idea that one should defy fear.\nD. Incorrect. The excerpt states in paragraph 4 that art is “unable to stay.”"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Impressions of an Indian Childhood",
+      "author": "Zitkala-Sa",
+      "citation": null,
+      "intro_note": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published “Impressions of an Indian Childhood” (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie."
+        },
+        {
+          "num": 2,
+          "text": "Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat beside her bunches of colored beads, just as an artist arranges the paints upon his palette. On a lapboard she smoothed out a double sheet of soft white buckskin; and drawing from a beaded case that hung on the left of her wide belt a long, narrow blade, she trimmed the buckskin into shape. Often she worked upon small moccasins for her small daughter. Then I became intensely interested in her designing. With a proud, beaming face, I watched her work. In my imagination, I saw myself walking in a new pair of snugly fitting moccasins. I felt the envious eyes of my playmates upon the pretty red beads decorating my feet."
+        },
+        {
+          "num": 3,
+          "text": "Close beside my mother I sat on a rug, with a scrap of buckskin in one hand and an awl in the other. This was the beginning of my practical observation lessons in the art of beadwork. From a skein of finely twisted threads of silvery sinews my mother pulled out a single one. With an awl she pierced the buckskin, and skillfully threaded it with the white sinew. Picking up the tiny beads one by one, she strung them with the point of her thread, always twisting it carefully after every stitch."
+        },
+        {
+          "num": 4,
+          "text": "It took many trials before I learned how to knot my sinew thread on the point of my finger, as I saw her do. Then the next difficulty was in keeping my thread stiffly twisted, so that I could easily string my beads upon it. My mother required of me original designs for my lessons in beading. At first I frequently ensnared many a sunny hour into working a long design. Soon I learned from self-inflicted punishment to refrain from drawing complex patterns, for I had to finish whatever I began."
+        },
+        {
+          "num": 5,
+          "text": "After some experience I usually drew easy and simple crosses and squares. These were some of the set forms. My original designs were not always symmetrical nor sufficiently characteristic, two faults with which my mother had little patience. The quietness of her oversight made me feel strongly responsible and dependent upon my own judgment. She treated me as a dignified little individual as long as I was on my good behavior; and how humiliated I was when some boldness of mine drew forth a rebuke from her!"
+        },
+        {
+          "num": 6,
+          "text": "In the choice of colors she left me to my own taste. I was pleased with an outline of yellow upon a background of dark blue, or a combination of red and myrtle-green. There was another of red with a bluish-gray that was more conventionally used. When I became a little familiar with designing and the various pleasing combinations of color, a harder lesson was given me. It was the sewing on, instead of beads, some tinted porcupine quills, moistened and flattened between the nails of the thumb and forefinger. My mother cut off the prickly ends and burned them at once in the centre fire. These sharp points were poisonous, and worked into the flesh wherever they lodged. For this reason, my mother said, I should not do much alone in quills until I was as tall as my cousin Warca-Ziwin."
+        },
+        {
+          "num": 7,
+          "text": "Always after these confining lessons I was wild with surplus spirits, and found joyous relief in running loose in the open again. Many a summer afternoon a party of four or five of my playmates roamed over the hills with me. We each carried a light sharpened rod about four feet long, with which we pried up certain sweet roots. When we had eaten all the choice roots we chanced upon, we shouldered our rods and strayed off into patches of a stalky plant under whose yellow blossoms we found little crystal drops of gum. Drop by drop we gathered this nature's rock-candy, until each of us could boast of a lump the size of a small bird's egg. Soon satiated with its woody flavor, we tossed away our gum, to return again to the sweet roots."
+        }
+      ],
+      "passage_figure_html": "<div style=\"font-weight:700;margin-bottom:6px;\">A Brief History of Beadwork in South Dakota</div><table style=\"width:100%;border-collapse:collapse;font-size:14px;margin-bottom:6px;\"><tr><th style=\"text-align:left;border-bottom:1px solid #999;padding:4px 8px 4px 0;\">Date</th><th style=\"text-align:left;border-bottom:1px solid #999;padding:4px 0;\">Event</th></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1500s</td><td style=\"padding:4px 0;\">The Dakota use beads made from bones, shells, stones, and animal teeth. European traders bring glass beads to North America.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">Late 1600s</td><td style=\"padding:4px 0;\">The Dakota begin trading with the French in Minnesota.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1830s</td><td style=\"padding:4px 0;\">The Dakota begin using glass beads in clothing, artwork, and decorations in place of Native-made beads.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1862–1865</td><td style=\"padding:4px 0;\">The Dakota are expelled from their homelands in Minnesota as a result of the U.S.-Dakota War.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1900s–1920s</td><td style=\"padding:4px 0;\">The Dakota create items to sell outside their community.</td></tr></table><div style=\"font-size:12px;color:#666;\">Source: MNopedia</div>",
+      "questions": [
+        {
+          "id": "CR13",
+          "q_number": 13,
+          "question_type": "mc",
+          "question": "In paragraph 1, the phrases “cool morning breezes swept freely” and “wafting the perfume of sweet grasses” affect the tone of the excerpt by suggesting",
+          "options": {
+            "A": "the sadness that the author feels reflecting upon her former way of life.",
+            "B": "the enthusiasm with which the author approached her work indoors.",
+            "C": "the fond feelings that the author has toward her childhood experiences.",
+            "D": "the mix of emotions that the author feels toward her work and her mother."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although the author describes in paragraph 1 the setting of her childhood experiences, the positive wording of the phrases the author uses in the paragraph (“swept freely” and “perfume of sweet grasses”) does not suggest a tone of sadness the author feels when she reflects on her former way of life.\nB. Incorrect. Although the phrases “cool morning breezes swept freely” and “wafting the perfume of sweet grasses” used in paragraph 1 create a positive tone, the phrases do not suggest an enthusiasm for the author's work but rather suggest an appreciation of the peaceful setting.\nC. CORRECT. In paragraph 1, the phrases “cool morning breezes swept freely” and “wafting the perfume of sweet grasses” are used to describe where the author's childhood experiences took place. The phrases create a tone of fondness and evoke a feeling of happiness through their lyrical sensory detail: “swept freely” suggests a sense of joyful possibility, while “perfume,” “sweet,” and “cool” convey delight.\nD. Incorrect. Although the author describes her mother's beadwork lessons as “confining” in paragraph 7, the phrases in paragraph 1 do not suggest that the author feels conflicting or mixed emotions toward her work and her mother. Instead, the phrases convey a positive tone by affectionately describing the author's childhood home."
+          }
+        },
+        {
+          "id": "CR14",
+          "q_number": 14,
+          "question_type": "mc",
+          "question": "The phrase “just as an artist arranges the paints upon his palette” in paragraph 2 suggests that",
+          "options": {
+            "A": "beadwork is a true form of art.",
+            "B": "color is a source of artistic inspiration.",
+            "C": "all artistic activities begin with a series of steps.",
+            "D": "the beadworker tries to imitate art."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. In paragraph 2, by comparing the way her mother arranges the beads to the way a painter “arranges the paints upon his palette,” the author emphasizes that her mother approaches her craft just as a painter does, thus suggesting that beadwork is a true form of art.\nB. Incorrect. Although the author mentions “bunches of colored beads” in paragraph 2, this detail does not provide enough evidence for the idea that color inspires beadworkers. The phrase “just as an artist arranges the paints upon his palette” indicates the connection of beadwork to other forms of art in general, not necessarily to the specifics of color as a source of inspiration.\nC. Incorrect. In paragraph 2, the author describes untying “the long tasseled strings” and then spreading “upon a mat beside her bunches of colored beads.” However, the phrase “just as an artist arranges the paints upon his palette” does not suggest that all artistic activities begin with a series of steps.\nD. Incorrect. In paragraph 2, the author describes how her mother “spread upon a mat beside her bunches of colored beads” as the first step in the artistic process described in the passage. Therefore, the comparison between the mother's process and a painter arranging paints on a palette suggests that the mother is creating art, not imitating it."
+          }
+        },
+        {
+          "id": "CR15",
+          "q_number": 15,
+          "question_type": "mc",
+          "question": "The author’s use of sequence in paragraphs 1 and 2 contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "listing the many steps that are involved in the process of beading in order to explain its difficulty and complexity.",
+            "B": "conveying the importance of following the steps of the beading process in a precise order to work most efficiently.",
+            "C": "emphasizing the time required to fully prepare for and execute the many large and small tasks in the activity of beading.",
+            "D": "detailing each step in preparation for beading in order to highlight the author’s enthusiasm for the work."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 2, the author does list the steps her mother takes in preparation to do beadwork, such as “untying the long tasseled strings” of the bag of beads, spreading the beads beside her on a mat, and using “a long, narrow blade” to trim the buckskin into shape. However, the language used to describe this sequence does not indicate that preparing to work with beads is difficult or complex.\nB. Incorrect. Although the author's description of untying the bag of beads, spreading the beads upon a mat, smoothing out a sheet of buckskin, and trimming the buckskin into shape in paragraph 2 indicates that the mother follows a certain routine, it does not place any emphasis on working most efficiently by following the steps of the beading process in a precise order.\nC. Incorrect. In paragraph 2, the author describes her mother “untying the long tasseled strings that bound a small brown buckskin bag,” spreading them “upon a mat beside her bunches of colored beads,” “smooth[ing] out a double sheet of soft white buckskin; and drawing from a beaded case that hung on the left of her wide belt a long, narrow blade” to trim the buckskin. Although these descriptions do outline the steps in her process for creating beadwork, they do not emphasize the time required to do so, since the author does not mention in the excerpt how long it took her mother to fully prepare for and complete the large and small tasks in the activity of beading.\nD. CORRECT. In paragraph 1, the author describes how the morning begins with her mother rolling up the canvas of the wigwam and allowing the breeze to come in. In paragraph 2, the author uses sensory language and precise sequencing to describe the way her mother prepares the beading materials by untying “the long tasseled strings that bound a small brown buckskin bag,” spreading the “bunches of colored beads” beside her, and smoothing out “a double sheet of soft white buckskin.” This combination of sequence and sensory language highlights the author's enthusiasm for beadwork by emphasizing that the author pays close attention to her mother's preparations."
+          }
+        },
+        {
+          "id": "CR16",
+          "q_number": 16,
+          "question_type": "mc",
+          "question": "Which sentence best summarizes the process of beading that is described in the excerpt?",
+          "options": {
+            "A": "Take a buckskin bag full of beads and spread them out on a mat in different colors like a paint palette; take a double sheet of buckskin and smooth it out on a table; take a sinew and awl and thread the beads onto the buckskin in a desired pattern.",
+            "B": "Cut the double sheet of buckskin into a shape; take a skein of sinew and pierce the buckskin with an awl; thread the sinew with beads of many different colors in a simple or complex pattern; twist the sinew to keep it tight after every stitch into the buckskin.",
+            "C": "Arrange the beads into groups of colors on a mat; smooth out a double sheet of buckskin and cut it to shape; take a single thread of sinew; pierce the buckskin with an awl; thread the buckskin with the sinew and string it with beads, carefully twisting after every stitch.",
+            "D": "Gather beads, buckskin, sinew, and awl and place them on a mat; cut the buckskin into the desired shape; decide on a pattern for the beads and create it using the sinews and the awl; thread the beads onto the sinew in the desired pattern and twist it tight."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraphs 2 and 3, the author describes how at the beginning of the process her mother “smoothed out a double sheet of soft white buckskin” on a lapboard (paragraph 2) and how she strings the beads into a pattern. However, this sentence does not describe the steps that take place between the preparation and the stringing of the beads. Thus, this sentence does not best summarize the beading process.\nB. Incorrect. In paragraphs 2 and 3, the author describes the process her mother uses to string the beads with “the point of her thread, always twisting it carefully after every stitch” (paragraph 3). While this sentence includes some of the steps in the beading process, it does not describe the necessary preparation, namely spreading the beads and the buckskin out on a table. Thus, this sentence does not best summarize the beading process.\nC. CORRECT. This sentence best summarizes the process of beading that is described in the excerpt because it includes details about each step in the process. In paragraph 2, the author explains how her mother “spread upon a mat beside her bunches of colored beads” and how “on a lapboard she smoothed out a double sheet of soft white buckskin; and drawing from a beaded case that hung on the left of her wide belt a long, narrow blade, she trimmed the buckskin into shape.” The author continues her description in paragraph 3, stating, “From a skein of finely twisted threads of silvery sinews my mother pulled out a single one. With an awl she pierced the buckskin, and skillfully threaded it with the white sinew. Picking up the tiny beads one by one, she strung them with the point of her thread, always twisting it carefully after every stitch.”\nD. Incorrect. In paragraphs 2 and 3, the author describes the process her mother uses as she “smoothed out a double sheet of soft white buckskin” (paragraph 2) on a lapboard before stringing the beads. While this sentence includes most of the steps in the beading process, it excludes the step of piercing the buckskin. This sentence also provides few details about the process of beading and uses vague wording to describe each step. Therefore, the sentence does not best summarize the beading process."
+          }
+        },
+        {
+          "id": "CR17",
+          "q_number": 17,
+          "question_type": "mc",
+          "question": "The idea that mastering moccasin design and creation requires experience is best illustrated in the excerpt through",
+          "options": {
+            "A": "the information about the advanced technique of incorporating porcupine quills into a design.",
+            "B": "the descriptions of the special materials that must be used to make decorated moccasins.",
+            "C": "the descriptions of the various color combinations that make an attractive moccasin design.",
+            "D": "the example of the author successfully and independently using a sharpened rod."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. In paragraph 6, the author states that when she became more familiar with elements of design, “a harder lesson was given me.” According to the author, sewing on porcupine quills is a much more difficult task to master because it requires experience in handling the poisonous porcupine quills, which is why her mother told her not to “do much alone in quills” until she was older (paragraph 6). This information best illustrates the idea that mastering moccasin design and creation requires experience.\nB. Incorrect. Although the author provides detailed descriptions of the materials used to make decorated moccasins (“colored beads” [paragraph 2]; “a skein of finely twisted threads of silvery sinews” [paragraph 3]; “tinted porcupine quills, moistened and flattened between the nails of the thumb and forefinger” [paragraph 6]), these descriptions do not illustrate the experience that is needed to gain mastery of moccasin design and creation.\nC. Incorrect. Although the author describes the color combinations she used in making moccasins (“I was pleased with an outline of yellow upon a background of dark blue, or a combination of red and myrtle-green. There was another of red with a bluish-gray that was more conventionally used” [paragraph 6]), this information mainly illustrates the author's satisfaction with her moccasin design, not the importance of experience in mastering the creation and design of moccasins.\nD. Incorrect. In paragraph 7, the author tells of using a sharpened rod to spear gum from trees. She explains that she and her playmates used the rods to “[pry] up certain sweet roots” to find the gum. The detail of the sharpened rod is from a recollection about the playtime that followed the “confining lessons” of moccasin making. However, it does not illustrate the idea that mastering moccasin design and creation requires experience."
+          }
+        },
+        {
+          "id": "CR18",
+          "q_number": 18,
+          "question_type": "mc",
+          "question": "How does the author distinguish her point of view from that of her mother?",
+          "options": {
+            "A": "by describing their techniques for knotting sinew thread (paragraph 4)",
+            "B": "by describing their approaches to beadwork design (paragraph 5)",
+            "C": "by stating her mother’s instructions on working with quills (paragraph 6)",
+            "D": "by stating her mother’s ideas about activities after lessons (paragraph 7)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 4, the author explains that “it took many trials before I learned how to knot my sinew thread on the point of my finger, as I saw her do” and that the “difficulty was in keeping my thread stiffly twisted, so that I could easily string my beads upon it.” Although this explanation describes the author's difficulty in performing the same task as her mother, it does not distinguish her point of view from that of her mother. In fact, they seem to share the same point of view regarding the importance of the technique the author is attempting to learn.\nB. CORRECT. In paragraph 5, the author distinguishes her point of view from that of her mother by describing their approaches to beadwork design. In the paragraph, the author states, “I usually drew easy and simple crosses and squares” and “My original designs were not always symmetrical nor sufficiently characteristic, two faults with which my mother had little patience.” The author also distinguishes her point of view from that her of mother by stating that “the quietness of [my mother's] oversight made me feel strongly responsible and dependent upon my own judgment.”\nC. Incorrect. In paragraph 6, the author states, “My mother cut off the prickly ends and burned them at once in the centre fire. These sharp points were poisonous, and worked into the flesh wherever they lodged. For this reason, my mother said, I should not do much alone in quills until I was as tall as my cousin Warca-Ziwin.” Although these instructions explain the importance of having experience and skill when working with quills, they do not distinguish the author's point of view from that of her mother.\nD. Incorrect. In paragraph 7, the author describes her beadwork lessons as “confining” and states that she liked to roam “over the hills” with her playmates after the lessons. However, she makes no mention of her mother in paragraph 7; the activities and ideas stated there belong to the author, not the mother."
+          }
+        },
+        {
+          "id": "CR19",
+          "q_number": 19,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 7.\n\n**Always after these confining lessons I was wild with surplus spirits, and found joyous relief in running loose in the open again.**\n\nWhich sentence best describes how this sentence fits into the overall structure of the excerpt?",
+          "options": {
+            "A": "It introduces a shift from the author’s demanding relationship with her mother to her more relaxed relationships with friends.",
+            "B": "It signals a change from the challenging aspects of life on the reservation to the advantages of living on the prairie.",
+            "C": "It highlights a contrast between the focus and control required while working and the freedom of having fun outside.",
+            "D": "It concludes the progression of events in the narrative by describing the sequence of events at the end of the author’s day."
+          },
+          "correct": null,
+          "unverified_note": "The answer-key/Exhibit screenshot for this question was not captured in the uploaded photos (the sequence jumps straight from the question screen to the next passage set) — correct answer not confirmed from source, left blank rather than guessed.",
+          "solution": {
+            "exhibit_text": null
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Bird Talk",
+      "author": "Carl Sandburg",
+      "citation": "“Bird Talk” by Carl Sandburg—Public Domain",
+      "lines": [
+        {
+          "num": null,
+          "text": "And now when the branches were beginning to be heavy,"
+        },
+        {
+          "num": null,
+          "text": "It was the time when they once had said, “This is the"
+        },
+        {
+          "num": null,
+          "text": "beginning of summer.”"
+        },
+        {
+          "num": null,
+          "text": "The shrilling of the frogs was not so shrill as in the"
+        },
+        {
+          "num": 5,
+          "text": "first weeks after the broken winter;"
+        },
+        {
+          "num": null,
+          "text": "The birds took their hops and zigzags a little more"
+        },
+        {
+          "num": null,
+          "text": "anxious; a home is a home; worms are worms."
+        },
+        {
+          "num": null,
+          "text": "The yellow spreads of the dandelions and buttercups"
+        },
+        {
+          "num": null,
+          "text": "reached across the green pastures."
+        },
+        {
+          "num": 10,
+          "text": "Tee whee and tee whee came on the breezes, and the grackles"
+        },
+        {
+          "num": null,
+          "text": "chuzzled their syllables."
+        },
+        {
+          "num": null,
+          "text": "And it was the leaves with a strong soft wind over them"
+        },
+        {
+          "num": null,
+          "text": "that talked most of all and said more than any others"
+        },
+        {
+          "num": null,
+          "text": "though speaking the fewest words."
+        },
+        {
+          "num": 15,
+          "text": "It was the green leaves trickling out the gaunt nowhere"
+        },
+        {
+          "num": null,
+          "text": "of winter, out on the gray hungry branches—"
+        },
+        {
+          "num": null,
+          "text": "It was the leaves on the branches, beginning to be heavy,"
+        },
+        {
+          "num": null,
+          "text": "who said as they said one time before, “This is the beginning of summer.”"
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 20,
+          "text": "We shall never blame the birds who come"
+        },
+        {
+          "num": null,
+          "text": "where the river and the road make the Grand Crossing"
+        },
+        {
+          "num": null,
+          "text": "and talk there, sitting in circles talking bird talk."
+        },
+        {
+          "num": null,
+          "text": "If they ask in their circles as to who is here"
+        },
+        {
+          "num": null,
+          "text": "and as to who is not here and who used to be here,"
+        },
+        {
+          "num": 25,
+          "text": "Or if instead of counting up last year as against"
+        },
+        {
+          "num": null,
+          "text": "this year, they count up this year as against next"
+        },
+        {
+          "num": null,
+          "text": "year, and have their bird chatter about who is here"
+        },
+        {
+          "num": null,
+          "text": "this year who won't be here next year,"
+        },
+        {
+          "num": null,
+          "text": "We shall never blame the birds."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 30,
+          "text": "If I have put your face among leaf faces, child,"
+        },
+        {
+          "num": null,
+          "text": "Or if I have put your voice among bird voices,"
+        },
+        {
+          "num": null,
+          "text": "Blame me no more than the bluejays."
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR20",
+          "q_number": 20,
+          "question_type": "mc",
+          "question": "Read lines 6-7 from the poem.\n\n**The birds took their hops and zigzags a little more**\n**anxious; a home is a home; worms are worms.**\n\nWhat idea from the second stanza do the lines help develop?",
+          "options": {
+            "A": "The birds are eager for the return of warmer months.",
+            "B": "The birds are most likely to thrive during the spring.",
+            "C": "The birds naturally adjust to the seasonal changes.",
+            "D": "The birds instinctively prepare for the future."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While lines 6-7 show the birds acting “a little more anxious” as the season changes, the lines do not indicate that the birds are eager for the return of warmer months; rather, the birds simply adjust to the change without much fuss, since “a home is a home; worms are worms” regardless of the season.\nB. Incorrect. The birds are more likely to thrive in warmer weather as evidenced by some birds' migration to a warmer climate during winter, and the creatures in the first stanza are responding to the “'beginning of summer'” (line 3) in their own way, such as the birds who are taking “their hops and zigzags a little more / anxious” (lines 6-7). However, the thriving of birds during a particular season is not the focus of the second stanza; rather, it is focused on the general nature of birds.\nC. CORRECT. The birds are taking “their hops and zigzags a little more / anxious” (lines 6-7) in light of warmer weather, but they are not making a big to-do of the change because “a home is a home; worms are worms” (line 7) any time of the year. Such a natural adjustment to seasonal changes is reflected in the second stanza, where the birds “count up this year as against next / year” (lines 26-27) because they are well accustomed to the cyclical nature of things.\nD. Incorrect. Although the birds' actions of “hops and zigzags” (line 6) may indicate some sort of preparation, these actions are not preparation but rather the internalized cognizance of the change that has occurred with little conscious thought. As revealed in the second stanza, birds do not ponder much about past or future but rather adapt naturally as things change."
+          }
+        },
+        {
+          "id": "CR21",
+          "q_number": 21,
+          "question_type": "mc",
+          "question": "Read lines 12-14 from the poem.\n\n**And it was the leaves with a strong soft wind over them**\n**that talked most of all and said more than any others**\n**though speaking the fewest words.**\n\nWhat does the phrase “talked most of all” in line 13 convey?",
+          "options": {
+            "A": "It establishes that the speaker thinks the sound of wind in the leaves is the best indication that the season is changing.",
+            "B": "It introduces the idea that the sound of the wind in the leaves remains constant throughout the seasons.",
+            "C": "It suggests that the speaker is overwhelmed by the sounds of nature that emerge as the season changes.",
+            "D": "It emphasizes that the sounds of nature enable the speaker to appreciate each season of the year."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The phrase “talked most of all” (line 13) describes the sound of the leaves in the wind as more significant than the other sounds of the season mentioned earlier in the poem, such as the frogs and birds, establishing that the speaker thinks the sound of wind in the leaves is the best indication that the season is changing.\nB. Incorrect. The poem does not suggest that the sound of the wind in the leaves remains constant throughout the seasons; rather, the leaves are specifically described as signaling the change into summer.\nC. Incorrect. The phrase does not suggest that the speaker is overwhelmed by the sounds of nature; rather, it elevates the sound of the leaves above the other sounds of the season.\nD. Incorrect. The phrase emphasizes the significance of the leaves' sound specifically, not a general appreciation of the sounds of each season."
+          }
+        },
+        {
+          "id": "CR22",
+          "q_number": 22,
+          "question_type": "mc",
+          "question": "How does the repetition of “ ‘This is the beginning of summer’ ” in lines 2–3 and lines 18–19 contribute to the meaning of the poem?",
+          "options": {
+            "A": "It suggests that the shift to summer occurs in the same way each year.",
+            "B": "It emphasizes the idea that living things are prepared for the change of season.",
+            "C": "It highlights the idea that the first signs of summer are surprising each year.",
+            "D": "It builds expectations about what the natural world looks like during a change of season."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. This phrase is used twice verbatim, in both cases to show the figurative words spoken by the branches (lines 2-3) and the leaves on the branches (lines 18-19). Repetition of this phrase conveys the idea that the transition to summer occurs in the same manner each subsequent year and thus evokes the same response from nature.\nB. Incorrect. While living things—branches and leaves—both make identical figurative utterances, they do so not because they have prepared for such an event. Rather, these living things take the change in stride because of the sameness and expectedness of the seasonal shifts, which occur in the same way each time.\nC. Incorrect. Even though the branches and leaves have been imbued by the speaker with some degree of consciousness in their figurative ability to speak, they are not surprised by the change in seasons. They say the same thing each year because the same thing occurs each year in the same way.\nD. Incorrect. Certain lines of the poem do describe the natural world during the change of seasons, but the repeated phrase itself is not what builds those expectations—it is the surrounding descriptive imagery that does so."
+          }
+        },
+        {
+          "id": "CR23",
+          "q_number": 23,
+          "question_type": "mc",
+          "question": "Which lines from the poem best contrast with the idea of winter’s scarcity and bleakness?",
+          "options": {
+            "A": "“The shrilling of the frogs was not so shrill as in the / first weeks after the broken winter;” (lines 4-5)",
+            "B": "“The yellow spreads of the dandelions and buttercups / reached across the green pastures.” (lines 8-9)",
+            "C": "“Tee whee and tee whee came on the breezes, and the grackles / chuzzled their syllables.” (lines 10-11)",
+            "D": "“Or if instead of counting up last year as against / this year, they count up this year as against next” (lines 25-26)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This line references winter directly but does not provide a vivid contrast of abundance against winter's scarcity; it simply compares the relative loudness of frog sounds.\nB. CORRECT. The image of “yellow spreads of the dandelions and buttercups” reaching “across the green pastures” (lines 8-9) vividly contrasts with the bleakness and scarcity of winter through its depiction of colorful abundance covering the landscape.\nC. Incorrect. This line describes bird sounds but does not specifically evoke a visual contrast with winter's bleakness in the way that the blooming flowers do.\nD. Incorrect. This line is about birds counting who is present from year to year, not about a contrast with winter's bleakness."
+          }
+        },
+        {
+          "id": "CR24",
+          "q_number": 24,
+          "question_type": "mc",
+          "question": "Throughout the poem, the poet conveys the speaker’s point of view by",
+          "options": {
+            "A": "gradually moving the speaker’s attention from one element of nature to another.",
+            "B": "providing the speaker’s motivation for describing the landscape in great detail.",
+            "C": "highlighting the speaker’s emotional response as each season passes.",
+            "D": "shifting the speaker’s focus from external observations to personal reflection."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "This question asks for an explanation of how the poet conveys the speaker's point of view on the natural world and the change of seasons as presented in the poem.\nA. Incorrect. Though in the first stanza the speaker describes various elements of nature such as branches, frogs, birds, flowers, and leaves, these elemental shifts are not precisely gradual and occur only in the first stanza. Further, the first stanza, though appreciative of the natural world, is primarily descriptive and does not develop the speaker's perspective to the degree that other parts of the poem do.\nB. Incorrect. While it may be inferred that the speaker describes the landscape to such a degree because it has revealed a seasonal shift, that this is indeed the speaker's motivation is never explicitly conveyed by the poet.\nC. Incorrect. Multiple seasons do not pass in the poem; only the shift to the “'beginning of summer'” (line 3) occurs in an endless cycle. Further, the speaker does not reveal an emotional response; it is the responses of nature that the speaker describes.\nD. CORRECT. The first stanza is the speaker's observations of the natural world embracing a new season. In the second stanza, the speaker begins to reflect on how the natural world, as embodied by the birds, calmly accepts seasonal change in its perpetual sameness. The reflection continues in the third stanza, where it is revealed that the speaker has been addressing these observations to a child."
+          }
+        },
+        {
+          "id": "CR25",
+          "q_number": 25,
+          "question_type": "mc",
+          "question": "Over the course of the poem, a central idea is developed mainly through the speaker’s",
+          "options": {
+            "A": "sense of eager anticipation as winter ends.",
+            "B": "description of the changes in nature as the seasons transition.",
+            "C": "observation of the birds’ behavior as summer begins.",
+            "D": "prediction of future alterations in the physical landscape."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks how the central idea about the natural acceptance of change by nature is developed by the speaker of the poem.\nA. Incorrect. The speaker is an observer of the changes in nature as propelled by the seasons and shows no personal eagerness for the end of winter. Further, even though nature rejoices at the end of winter as exemplified by “the shrilling of the frogs” (line 4), the speaker merely records this and does not share in this display.\nB. CORRECT. The response of nature to the “beginning of summer” (line 3) is the primary focus of the poem as revealed by the speaker through vivid descriptions of the sights, sounds, movements, and attitudes of the natural world.\nC. Incorrect. The second stanza of the poem begins a reflection on birds “sitting in circles talking bird talk” (line 22) and taking a sort of attendance of who is present, but this behavioral description is largely figurative and meant to illustrate a point about the way the birds adapt quickly to change, not to develop a central idea of the poem in terms of how nature responds generally.\nD. Incorrect. Seasonal changes are inevitable and cyclical per the speaker, but the speaker does not make predictions about future alterations in the physical landscape."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Serpent Mound (Ohio, 1846)",
+      "author": null,
+      "citation": null,
+      "intro_note": "The Great Serpent Mound, located in Adams County, Ohio, is a human-made mound of earth that researchers believe was created between 300 B.C. and A.D. 1100 by an indigenous culture.",
+      "lines": [
+        {
+          "num": null,
+          "text": "Brush Creek stood low when the museum men came"
+        },
+        {
+          "num": null,
+          "text": "with their measuring tapes and sketchbooks."
+        },
+        {
+          "num": null,
+          "text": "It was winter. Fringed with ice,"
+        },
+        {
+          "num": null,
+          "text": "the creek doubled back on itself"
+        },
+        {
+          "num": 5,
+          "text": "as if it had forgotten something."
+        },
+        {
+          "num": null,
+          "text": "Pa was in Cincinnati, or else on his way home,"
+        },
+        {
+          "num": null,
+          "text": "so Ma told me to lead the men"
+        },
+        {
+          "num": null,
+          "text": "into the marshy low grounds. It being winter,"
+        },
+        {
+          "num": null,
+          "text": "there was little underbrush to speak of—"
+        },
+        {
+          "num": 10,
+          "text": "in the summer there would have been"
+        },
+        {
+          "num": null,
+          "text": "briars, poison ivy, biting flies. I listened"
+        },
+        {
+          "num": null,
+          "text": "for the swish of a beaver's heavy tail,"
+        },
+        {
+          "num": null,
+          "text": "the chitter of a chickadee, or the cry of a hawk,"
+        },
+        {
+          "num": null,
+          "text": "but the winter silence of the creek pressed"
+        },
+        {
+          "num": 15,
+          "text": "down on all of us like a weight."
+        },
+        {
+          "num": null,
+          "text": "The humps in the ground were all but"
+        },
+        {
+          "num": null,
+          "text": "invisible until you were right up on them. The figure"
+        },
+        {
+          "num": null,
+          "text": "was even less obvious: the sinuous body,"
+        },
+        {
+          "num": null,
+          "text": "the tail coiled three times around,"
+        },
+        {
+          "num": 20,
+          "text": "and at the other end, the mouth wide open."
+        },
+        {
+          "num": null,
+          "text": "In the summer the creek bottom was crowded"
+        },
+        {
+          "num": null,
+          "text": "with so much life that you could trip over"
+        },
+        {
+          "num": null,
+          "text": "the ridges of earth before you saw"
+        },
+        {
+          "num": null,
+          "text": "anything at all. In winter you could climb"
+        },
+        {
+          "num": 25,
+          "text": "a tree and get some idea of the whole thing:"
+        },
+        {
+          "num": null,
+          "text": "the serpent's body undulating, slithering"
+        },
+        {
+          "num": null,
+          "text": "silently across the ancient"
+        },
+        {
+          "num": null,
+          "text": "earth. At the mouth end, there was an oval mound"
+        },
+        {
+          "num": null,
+          "text": "as if the snake were about to swallow an egg—"
+        },
+        {
+          "num": 30,
+          "text": "as snakes sometimes did in our rickety"
+        },
+        {
+          "num": null,
+          "text": "henhouse—my Pa always said, or"
+        },
+        {
+          "num": null,
+          "text": "as if swallowing the sun, one of the museum"
+        },
+        {
+          "num": null,
+          "text": "men suggested, taking notes with his quill pen,"
+        },
+        {
+          "num": null,
+          "text": "an old-style inkhorn slung at his side."
+        },
+        {
+          "num": 35,
+          "text": "I liked that: swallowing the sun,"
+        },
+        {
+          "num": null,
+          "text": "just the sort of thing a snake might do,"
+        },
+        {
+          "num": null,
+          "text": "might want to do. When, later, I told my sister Ruth,"
+        },
+        {
+          "num": null,
+          "text": "she disagreed. It is singing to the sun,"
+        },
+        {
+          "num": null,
+          "text": "she insisted. That is why its mouth"
+        },
+        {
+          "num": 40,
+          "text": "is wide open. She said, “Sometimes I think"
+        },
+        {
+          "num": null,
+          "text": "I hear it on summer nights. Not swallowing, singing.”"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR26",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "How does the poem’s form contribute to the poem’s meaning?",
+          "options": {
+            "A": "The uneven line lengths and indents create a visual shape that mimics the sinuous form of the mound itself.",
+            "B": "The uneven line lengths indicate the different interpretations people have of the mound.",
+            "C": "The dashes in the poem signal a change of thought from one speaker to another.",
+            "D": "The single long stanza suggests the speed with which the speaker and the museum men moved through the marsh."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The poem is structured as one long stanza. The line lengths throughout the poem and the line indents (such as those in lines 7-10) create a visual effect so that the poem itself mimics the shape of the Serpent Mound.\nB. Incorrect. The uneven line lengths in the poem do not indicate the different interpretations of the mound; separate stanzas or other stopping points would more effectively point to contrasting ideas.\nC. Incorrect. The dashes in the poem lead to further explanation of a thought, not a change of thought.\nD. Incorrect. The single long stanza reflects the shape of the serpent mound itself rather than the speed of the speaker and the museum men moving through the marsh."
+          }
+        },
+        {
+          "id": "CR27",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "Which lines reveal how the setting affects the speaker and the men from the museum?",
+          "options": {
+            "A": "“It being winter, / there was little underbrush to speak of—” (lines 8-9)",
+            "B": "“but the winter silence of the creek pressed / down on all of us like a weight.” (lines 14-15)",
+            "C": "“The humps in the ground were all but / invisible until you were right up on them.” (lines 16-17)",
+            "D": "“In the summer the creek bottom was crowded / with so much life that you could trip” (lines 21-22)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This detail explains a practical feature of the winter setting but does not reveal an effect on the speaker and the men emotionally.\nB. CORRECT. The simile comparing the “winter silence” to a weight “pressed / down on all of us” (lines 14-15) directly reveals how the stillness of the winter setting affects the speaker and the museum men.\nC. Incorrect. This detail describes a visual feature of the mound in winter rather than an effect of the setting on the people present.\nD. Incorrect. This detail describes the summer setting, which is not the setting of the scene being narrated in the poem."
+          }
+        },
+        {
+          "id": "CR28",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "Lines 1-2 contribute to the development of ideas in the poem by",
+          "options": {
+            "A": "suggesting that the men are too busy with their work to talk to the speaker.",
+            "B": "helping establish the reason for the men’s visit and purposeful behavior.",
+            "C": "hinting that the men have hidden motives for studying the mound.",
+            "D": "indicating why the speaker is fascinated by the men and wants to help them."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The lines do not suggest that the men are too busy to talk to the speaker; rather, they establish the professional purpose of the men's visit.\nB. CORRECT. The mention of the museum men's “measuring tapes and sketchbooks” (line 2) establishes that they have come to study and document the mound, helping establish the reason for their visit and their purposeful, methodical behavior throughout the poem.\nC. Incorrect. The lines give no indication of hidden motives; the tools mentioned are straightforward instruments of academic study.\nD. Incorrect. The lines describe the men's equipment, not a reason for the speaker's own fascination or desire to help them."
+          }
+        },
+        {
+          "id": "CR29",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "Read line 28 from the poem.\n\n**earth. At the mouth end, there was an oval mound**\n\nHow does the line contribute to the development of ideas in the poem?",
+          "options": {
+            "A": "It explains why the museum men are measuring the mound so precisely.",
+            "B": "It foreshadows the disagreement between the speaker and Ruth about the mound's meaning.",
+            "C": "It introduces a detail that leads to differing interpretations of the mound's symbolism.",
+            "D": "It emphasizes that the shape of the mound is difficult to see clearly in any season."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The line does not explain the museum men's measuring process; it simply describes a physical feature of the mound.\nB. Incorrect. While this detail does eventually lead to differing interpretations, it does not specifically foreshadow the later disagreement between the speaker and Ruth, which centers on the serpent's open mouth rather than the oval mound itself.\nC. CORRECT. The “oval mound” at the serpent's mouth end is the detail that directly leads to the differing interpretations offered in the poem: the Pa's explanation of a snake swallowing an egg (lines 29-31) and the museum man's suggestion of swallowing the sun (lines 32-34), which in turn leads to Ruth's alternate idea that the mound is singing (lines 38-41).\nD. Incorrect. While earlier lines do emphasize the difficulty of seeing the mound's shape, line 28 specifically introduces a feature that becomes the subject of interpretation, not a statement about visibility."
+          }
+        },
+        {
+          "id": "CR30",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "What impact do the phrases “all but / invisible” and “even less obvious” in lines 16-18 have on the meaning of the poem?",
+          "options": {
+            "A": "They emphasize that understanding the mound's full shape and meaning requires effort and imagination.",
+            "B": "They suggest that the museum men were unqualified to study the mound.",
+            "C": "They indicate that the mound had been intentionally hidden by its original builders.",
+            "D": "They foreshadow that the speaker will fail to see the mound's shape at all."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. By describing the humps in the ground as “all but / invisible” and the figure as “even less obvious,” the poem emphasizes that perceiving the mound's full shape and significance takes effort, careful looking, and imagination, a theme that continues as the poem describes needing to climb a tree to see the whole shape.\nB. Incorrect. The phrases describe the difficulty of seeing the mound itself, not any lack of qualification on the part of the museum men, who are shown taking careful notes.\nC. Incorrect. The poem gives no indication that the mound's builders intentionally hid it; the obscurity described comes from vegetation and the mound's subtlety, not intentional concealment.\nD. Incorrect. The poem goes on to describe the speaker climbing a tree and getting “some idea of the whole thing” (line 25), so the speaker does not fail to see the shape."
+          }
+        },
+        {
+          "id": "CR31",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "How does the dialogue between the speaker and Ruth in the final lines of the poem contribute to its meaning?",
+          "options": {
+            "A": "It shows that the speaker and Ruth both deny the museum men's interpretation of the mound.",
+            "B": "It reveals that siblings in the speaker's family often disagreed about historical facts.",
+            "C": "It suggests that Ruth's interpretation of the mound is more scientifically valid than the speaker's.",
+            "D": "It demonstrates that the mound's meaning remains open to multiple, equally valid interpretations."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The speaker had earlier favored the museum man's suggestion that the mound was “swallowing the sun” (line 35), but Ruth “disagreed” (line 37) and offered her own idea that the mound is “singing to the sun” (line 38), showing that siblings can arrive at their own distinct, personal interpretations separate from the museum men's academic one.\nB. Incorrect. The poem shows a single disagreement between the speaker and Ruth about the mound's meaning, not a pattern of the siblings disagreeing about historical facts in general.\nC. Incorrect. Ruth's interpretation is presented as a personal, poetic belief (“Sometimes I think / I hear it on summer nights,” lines 40-41) rather than a scientifically valid claim.\nD. Incorrect. While the poem does present multiple interpretations, the final lines focus specifically on the sibling disagreement rather than a broader statement that all interpretations are equally valid."
+          }
+        },
+        {
+          "id": "CR32",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "Which statement best describes a central idea of the poem?",
+          "options": {
+            "A": "Ancient monuments are best understood through rigorous scientific measurement.",
+            "B": "The meaning people find in an ancient structure can be shaped by personal imagination as much as by careful study.",
+            "C": "Winter is the best season to study ancient earthworks because vegetation does not obscure them.",
+            "D": "Family members rarely agree on the significance of historical sites."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While the museum men do measure the mound, the poem ultimately favors personal, imaginative interpretation (the egg, the sun, the song) over purely scientific measurement as the source of the mound's meaning.\nB. CORRECT. Throughout the poem, the mound's meaning comes not from the museum men's measurements alone but from the personal, imaginative interpretations offered by Pa (a snake and an egg), a museum man (swallowing the sun), and Ruth (singing to the sun), showing that meaning is shaped as much by imagination as by careful study.\nC. Incorrect. While the poem notes that winter reveals the mound's shape more easily than summer's overgrowth, this is a detail of the setting, not the poem's central idea.\nD. Incorrect. The poem shows only one sibling disagreement and does not generalize about families and historical sites."
+          }
+        },
+        {
+          "id": "CR33",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "Read lines 37-41 from the poem.\n\n**might want to do. When, later, I told my sister Ruth,**\n**she disagreed. It is singing to the sun,**\n**she insisted. That is why its mouth**\n**is wide open. She said, “Sometimes I think**\n**I hear it on summer nights. Not swallowing, singing.”**\n\nWhich choice best describes how Ruth's interpretation of the mound differs from the speaker's?",
+          "options": {
+            "A": "Ruth believes the mound is a practical structure, while the speaker believes it is purely decorative.",
+            "B": "Ruth imagines the mound as expressing a joyful sound, while the speaker imagines it consuming something.",
+            "C": "Ruth agrees with the museum men's interpretation, while the speaker agrees with Pa's.",
+            "D": "Ruth believes the mound was built recently, while the speaker believes it is ancient."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Neither interpretation frames the mound as a practical structure or as purely decorative; both are imaginative readings of the open mouth shape.\nB. CORRECT. Ruth believes the mound's open mouth means it is “singing to the sun” (line 38), an image of joyful sound, while the speaker had favored the idea that the mound was “swallowing the sun” (line 35), an image of consumption.\nC. Incorrect. Ruth's interpretation of singing is her own original idea, not an agreement with the museum man's suggestion of swallowing the sun, which is the idea the speaker favors.\nD. Incorrect. Neither Ruth nor the speaker expresses an opinion about when the mound was built in these lines."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Growing Peppers on the ISS Is Just the Start of Space Farming",
+      "author": "Melanie Canales",
+      "citation": "From “Growing Peppers on the ISS Is Just the Start of Space Farming” by Melanie Canales from WIRED, December 21, 2021. Copyright © 2021 Condé Nast. All rights reserved.",
+      "intro_note": "The author, Melanie Canales, is a first-generation Peruvian American farmer and beekeeper based in Virginia's Shenandoah Valley, on lands of the indigenous Monacan and Manahoac tribes. Her work focuses on creating healthy relationships between people and their surrounding ecosystems.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Unburdened by the constraints of gravity, red and green peppers jut out at 45-degree angles inside the Advanced Plant Habitat (APH), a sort of space terrarium not much larger than a microwave. Four chile pepper plants stand effortlessly upright, despite the dozens of glossy fruits weighing them down. These plants have lived entirely in space; their leaves have never been chewed on by insects or rustled by a summer breeze, [and] their stems are unfamiliar with bending toward the sun's arc across the sky. Scissors glint under the tank's white and blue lights as astronaut Mark Vande Hei and his team snip the stems of those that are ready for harvest. The peppers whirl around their heads until the astronauts catch them and tape them against a board to photograph."
+        },
+        {
+          "num": 2,
+          "text": "Back on Earth, the Plant Habitat-04 team of engineers and plant scientists are observing and conferring with the astronauts. Of the 26 peppers in this batch, only the 14 finest will stay on the International Space Station [ISS] for consumption. The rest will be wrapped in foil, sealed in a Ziploc bag, then frozen at a brisk −80 degrees, until they can come roaring back to Earth in the next cargo capsule to be studied later. Now, after a 137-day growth cycle, the astronauts remove the plants from the module and trash them. Project Plant Habitat-04 is complete. It's taco night on the ISS."
+        },
+        {
+          "num": 3,
+          "text": "Since 2014, NASA has experimented with growing lettuces, brassicas, and zinnias in space, an endeavor that relies on highly specialized technology over 50 years in the making. [Fall 2021's] two successful pepper harvests . . . will provide data on the nutritional and psychological benefits of growing vegetables on-craft, as well as a crop's ability to reliably produce long-term in microgravity. While controlled environmental agriculture is not new, the APH experiment represents an evolution in specialized growth habitats. It doesn't aim to re-create Earth's conditions, but to perfect each isolated variable of plant growth in the clinical environment of a spaceship."
+        },
+        {
+          "num": 4,
+          "text": "“The Advanced Plant Habitat is the most complex plant growth system on orbit today,” says Lashelle Spencer, a plant scientist at NASA's Kennedy Space Center. Its more than 180 sensors control and monitor temperature, humidity, and carbon dioxide. The astronauts can adjust the color and intensity of the light, and how much moisture the plants' roots are getting. It waters itself."
+        },
+        {
+          "num": 5,
+          "text": "It's the day after Thanksgiving, and Spencer has been at Kennedy since 5 a.m. to facilitate the peppers' final harvest. As part of the project team, she played a crucial role in preparing the seeds that were sent hurtling into space in June and guiding the astronauts through maintaining the plants in orbit. . . . Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored. Spencer's goal is to create the conditions necessary for cultivating healthy plants in space, so those plants can sustain healthy astronauts on long-term missions. Astronaut food is great, she says—“especially the shrimp cocktail. But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food.”"
+        },
+        {
+          "num": 6,
+          "text": "The sensory experience of growing productive crops can also help mitigate the psychological effects of long-term space travel. . . . Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners. When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft. . . ."
+        },
+        {
+          "num": 7,
+          "text": "“We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,” says Paul Bosland, who along with his colleagues at the Chile Pepper Institute genetically engineered the NuMex Española Improved chile pepper seeds grown in Plant Habitat-04. . . ."
+        },
+        {
+          "num": 8,
+          "text": "Working with NASA, Bosland cultivated a variety that could accommodate both the nutritional needs of astronauts as well as the logistics of growing a plant in space. . . ."
+        },
+        {
+          "num": 9,
+          "text": ". . . The experiment is helping gather the data necessary to determine the nutritional content of crops grown in space, and therefore how many people they can feed, and for how long. Though much is still unknown, Spencer is certain of one thing that future astronauts will need to do: “I think in an optimal world, a scientist like me would say that they would be growing plants from day one. From the day they left to the day they came back, they would be growing them.”"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR34",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "What is the best summary of the astronauts’ process for Project Plant Habitat-04?",
+          "options": {
+            "A": "After a 137-day growth cycle, the astronauts harvest the peppers while being observed and advised by plant scientists. The astronauts remove the peppers from the APH and photograph them before eating the most nutritious ones.",
+            "B": "The astronauts confer with plant scientists and engineers before selecting the 14 finest peppers to keep aboard the ISS for consumption. The remaining peppers are wrapped in foil and sent back to Kennedy Space Center to be studied.",
+            "C": "With the help of plant scientists, the astronauts carefully control and monitor the growing conditions in the APH, ultimately harvesting the peppers after a 137-day growth cycle. The astronauts choose 14 of the peppers for consumption and send the rest back to be studied.",
+            "D": "Astronauts use specialized tools to plant and maintain genetically modified peppers aboard the ISS. After harvesting the fruit, the astronauts tape the peppers to a board to prevent them from floating around the module."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although this summary mentions the pepper harvest and photographing and eating the peppers, it leaves out an important part of the process: the team's preparation for growing the peppers and the return to Earth of some harvested peppers for study.\nB. Incorrect. This summary includes the selection of some peppers for consumption and the return of some peppers for research; however, it omits important information about the previous steps required to develop the process for growing peppers.\nC. CORRECT. This summary accurately and completely summarizes the astronauts' process for Project Plant Habitat-04: collaborating with plant scientists, controlling the APH conditions, completing the 137-day growth cycle, harvesting the peppers, choosing 14 peppers to eat, and sending the remaining peppers back for study.\nD. Incorrect. This summary focuses on information incidental to the process of growing peppers for Project Plant Habitat-04, mentioning the use of genetically modified peppers and the taping of harvested peppers to a board to keep them from floating, while omitting important steps such as the monitoring of growth and the selection of peppers for consumption and study."
+          }
+        },
+        {
+          "id": "CR35",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 5.\n\n**Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored.**\n\nThe sentence contributes to the overall meaning of the excerpt by",
+          "options": {
+            "A": "indicating that the attempt to grow crops aboard the ISS is an important endeavor.",
+            "B": "describing the health effects of spending a significant length of time in space.",
+            "C": "revealing why certain kinds of foods are more appealing in space than on Earth.",
+            "D": "emphasizing the difficulty of preserving the nutrients in the crops grown in space."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The sentence explains that astronauts' current food supply consists of dehydrated foods along with vitamin and mineral supplements that lose nutritional value over time. These details support the idea that growing fresh crops in space, as described in the excerpt, is important for astronauts' nutrition during long missions.\nB. Incorrect. While the sentence mentions food and nutrients and astronauts spending “upwards of 100 days in space,” it does not describe the overall health effects of being in space for this long. Instead, the sentence focuses on the limitations of the food available to astronauts.\nC. Incorrect. While the sentence does mention that astronauts eat packaged and dehydrated food while in space and that the food and supplements provided are limited in nutritional value, it does not mention the appeal of foods eaten in space compared with foods eaten on Earth.\nD. Incorrect. The sentence explains that supplements can lose their nutritional value over time, but it does not mention whether crops grown in space might also lose nutrients."
+          }
+        },
+        {
+          "id": "CR36",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "Which statement best explains why Lashelle Spencer is a relevant source of information for the excerpt?",
+          "options": {
+            "A": "She works at NASA’s Kennedy Space Center.",
+            "B": "She is part of the APH project team.",
+            "C": "She is sensitive to the astronauts’ need for healthy food in space.",
+            "D": "She witnessed how astronauts aboard the APH responded when harvesting their food."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While paragraphs 5 and 8 do mention that Lashelle Spencer works at NASA's Kennedy Space Center, that fact does not explain her direct expertise on growing plants in space.\nB. CORRECT. In paragraph 4, Spencer is identified as a “plant scientist” at NASA, and paragraph 5 states that she is directly involved with the Advanced Plant Habitat as “part of the project team,” making her a relevant source of information for the excerpt's discussion of growing plants in space.\nC. Incorrect. Although the details in paragraph 5 do indicate that Spencer is interested in providing better food choices to astronauts, her empathy toward the astronauts' needs does not make her a relevant source of information for the excerpt.\nD. Incorrect. Paragraph 5 does mention that Spencer helped facilitate the harvest from the Kennedy Space Center, so she likely did witness the astronauts' reactions as they harvested the peppers; however, this inference does not explain Spencer's relevance as a source of information for the excerpt."
+          }
+        },
+        {
+          "id": "CR37",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "How does the author support the claim in paragraph 4 that the APH is a complex plant growth system?",
+          "options": {
+            "A": "by indicating how many sensors help control the variables of plant growth",
+            "B": "by detailing how the method of growing plants has been adapted to the conditions of space",
+            "C": "by explaining the steps required to package and return the plants to Earth",
+            "D": "by describing how NASA has spent years experimenting with plants grown in a controlled environment"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The author supports the claim that the APH is a complex plant growth system by stating that it has “more than 180 sensors” that control and monitor temperature, humidity, and carbon dioxide (paragraph 4). These details, along with the description of how astronauts can adjust light and moisture via these sensors, directly illustrate the system's complexity.\nB. Incorrect. Although paragraph 4 describes some of the APH's features, such as monitoring “temperature, humidity, and carbon dioxide,” it does not focus on how the key elements of plant growing are adapted to space conditions. The details instead emphasize the number of sensors and the variety of variables they control.\nC. Incorrect. Although paragraph 2 mentions packaging and returning plants to Earth, the process does not directly contribute to the complexity of the APH system of growing plants in space.\nD. Incorrect. While paragraph 3 references NASA's experimentation “with growing lettuces, brassicas, and zinnias in space” since 2014 and how it relied “on specialized technology,” there is no indication in the paragraph that the APH system existed during the same time period or that this history explains the complexity of the APH specifically."
+          }
+        },
+        {
+          "id": "CR38",
+          "q_number": 38,
+          "question_type": "mc_multi",
+          "question": "Which **two** sentences in paragraphs 5–9 **best** support the idea that the astronauts working in space enjoyed participating in the food-growing experiment?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "“But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food.” (paragraph 5)",
+            "B": "“Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners.” (paragraph 6)",
+            "C": "“When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft.” (paragraph 6)",
+            "D": "“'We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,' says Paul Bosland” (paragraph 7)",
+            "E": "“'I think in an optimal world, a scientist like me would say that they would be growing plants from day one.'” (paragraph 9)"
+          },
+          "correct": [
+            "B",
+            "C"
+          ],
+          "solution": {
+            "exhibit_text": "A. Incorrect. “But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food” is incorrect because it illustrates an opinion on fresh foods of Lashelle Spencer, a plant scientist at NASA's Kennedy Space Center. Although astronauts are likely to enjoy fresh food, the statement does not describe the enjoyment of the astronauts participating in the experiment.\nB. CORRECT. “Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners” is a correct response. The details about the attitude of the astronauts toward the plants and their desire to observe them every day support the idea that they enjoyed participating in the experiment.\nC. CORRECT. “When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft” is a correct response. That the astronauts were taking selfies with the peppers and “delighting in watching the fruits pirouetting around the spacecraft” suggests that the astronauts enjoyed being part of the experiment.\nD. Incorrect. “'We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,' says Paul Bosland” is incorrect because the quotation only gives information about the variables taken into account in the selection of peppers by a scientist at the Chile Pepper Institute. Although the observation suggests that the spicy heat of peppers might be enjoyed by astronauts in space, the sentence does not address the attitude of the astronauts toward the experiment.\nE. Incorrect. “'I think in an optimal world, a scientist like me would say that they would be growing plants from day one'” is incorrect because it emphasizes the opinion of Lashelle Spencer, a plant scientist at NASA's Kennedy Space Center, regarding the growth of plants in space. Although she suggests growing plants is a good idea, the quotation does not support the idea that the astronauts enjoyed participating in the experiment."
+          }
+        },
+        {
+          "id": "CR39",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "The description in paragraph 5 of Lashelle Spencer’s goal develops a central idea of the excerpt by",
+          "options": {
+            "A": "illustrating that certain types of packaged foods available in space lack particular flavors.",
+            "B": "supporting the notion that spending more than 100 days in space is detrimental to astronauts’ health.",
+            "C": "offering an example of how the limited selection of on-mission meals becomes less appealing over time.",
+            "D": "making an important point about the astronauts’ current reliance on supplements for vitamins and minerals."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although Spencer mentions how astronauts miss certain eating experiences like the “fresh pop” and “green flavor” not found in packaged and dehydrated food, a central idea of the excerpt is that there is a need to provide fresh, healthy foods for long missions, not that food flavor should be improved.\nB. Incorrect. While the excerpt focuses on how spending more than 100 days in space affects nutrition, it does not discuss specific ways in which spending long periods of time in space is detrimental to the health of astronauts.\nC. Incorrect. Although paragraph 5 states that astronauts “can spend upwards of 100 days in space,” the excerpt does not develop a central idea that existing meals in space become less appealing over time.\nD. CORRECT. The paragraph explains that astronauts currently rely on supplements for vitamins and minerals, which lose their nutritional value over time. Spencer's goal for growing plants in space is to “sustain healthy astronauts,” supporting a central idea that astronauts need more nutritionally valuable food to sustain them while in space for long periods of time."
+          }
+        },
+        {
+          "id": "CR40",
+          "q_number": 40,
+          "question_type": "sort_categories",
+          "question": "What is the relationship between the scientists and the astronauts in carrying out the plant-growing experiments?\n\nMove the correct answer to each box.",
+          "sort_items": [
+            {
+              "id": "i1",
+              "text": "growing the plants to harvest"
+            },
+            {
+              "id": "i2",
+              "text": "documenting the nutritional goals"
+            },
+            {
+              "id": "i3",
+              "text": "analyzing the environment"
+            },
+            {
+              "id": "i4",
+              "text": "developing the materials and systems"
+            },
+            {
+              "id": "i5",
+              "text": "determining the most nutritional plants"
+            }
+          ],
+          "sort_categories": [
+            {
+              "id": "c1",
+              "label": "Scientists on Earth are primarily responsible for..."
+            },
+            {
+              "id": "c2",
+              "label": "Astronauts aboard the ISS are responsible for..."
+            }
+          ],
+          "correct": {
+            "i4": "c1",
+            "i1": "c2"
+          },
+          "solution": {
+            "exhibit_text": "The question asks for the two phrases that should be added to the sentence to explain the relationship between the scientists and the astronauts in carrying out the plant-growing experiments.\nCORRECT (Scientists on Earth). “Developing the materials and systems” belongs in this box. The excerpt explains that the scientists on Earth create and prepare the systems, seeds, and equipment needed for the plant-growing experiments in space.\nCORRECT (Astronauts aboard the ISS). “Growing the plants to harvest” belongs in this box. Paragraphs 1 and 2 of the excerpt show that astronauts aboard the ISS are responsible for tending to the plants in the system and harvesting them after the growth cycle is complete.\nIncorrect distractor. “Documenting the nutritional goals” does not belong in either box. While the excerpt does mention that the experiment is helping gather data about the nutritional value of the peppers, there is no evidence that either the scientists on Earth or the astronauts aboard the ISS are tasked with documenting specific nutritional goals.\nIncorrect distractor. “Analyzing the environment” does not belong in either box. Although the experiment requires control of environmental factors like light and moisture, the excerpt does not describe either the scientists on Earth or the astronauts aboard the ISS as being responsible for formally analyzing the environment of the habitat as part of the experiment.\nIncorrect distractor. “Determining the most nutritional plants” does not belong in either box. Although growing nutritious plants is important, the excerpt does not focus on the scientists on Earth or the astronauts aboard the ISS evaluating or selecting plants based on their nutritional value."
+          }
+        },
+        {
+          "id": "CR41",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "How is the quotation from Lashelle Spencer at the end of paragraph 9 relevant to the discussion of the peppers referred to in paragraph 2?",
+          "options": {
+            "A": "The quotation indicates that larger batches of peppers need to be grown during future missions and suggests a slight criticism of the astronauts discussed in paragraph 2 for not dedicating more of their time to growing peppers during their mission.",
+            "B": "The quotation explains why the 137-day growth cycle mentioned in paragraph 2 is necessary and provides a suggestion on how to grow more peppers during the same growth cycle in future missions.",
+            "C": "The quotation helps explain why some of the peppers discussed in paragraph 2 needed to be sent back to Earth and that increasing the overall number of peppers grown in space will be important in future missions.",
+            "D": "The quotation provides context for understanding why the peppers discussed in paragraph 2 must be sealed and frozen prior to their return to Earth and suggests how this method might be improved in upcoming missions."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The quotation from Spencer in paragraph 9 suggests that astronauts should spend more time on growing larger and more continuous batches of peppers during long missions, but it does not criticize astronauts for discarding plants and ending the experiment after the 137-day growth cycle.\nB. Incorrect. While the quotation from Spencer in paragraph 9 stresses the value of spending more time growing plants in space, it does not provide specific details about the 137-day growth cycle or offer specific methods for producing more peppers within the same time frame.\nC. CORRECT. The quotation from Spencer in paragraph 9 is relevant to the discussion of the peppers on the ISS in paragraph 2 because it emphasizes the importance of expanding plant-growing efforts on future space missions. Spencer suggests that rather than ending the experiment after the 137-day growth cycle, astronauts could continually replant and replenish their food supply from the beginning to the end of a long mission.\nD. Incorrect. Although the quotation from Spencer in paragraph 9 conveys the importance of dedicating more time to growing plants in space, it does not explain why the peppers were sealed and frozen, nor does it suggest how this method for preserving them might be improved."
+          }
+        },
+        {
+          "id": "CR42",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "How is the discussion of the genetic engineering of the peppers consumed on the ISS (paragraphs 7–8) important to the excerpt as a whole?",
+          "options": {
+            "A": "It provides a detail that helps the reader identify a particular variety of pepper consumed on the ISS.",
+            "B": "It indicates that the peppers eaten on the ISS resulted from a collaboration between scientists and astronauts.",
+            "C": "It allows the reader to understand how the peppers consumed on the ISS differ from most peppers grown on Earth.",
+            "D": "It suggests that the peppers consumed on the ISS are of a type that could be grown in natural conditions."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although paragraph 7 names the NuMex Española Improved chile pepper as the variety grown on the ISS, this detail is not further developed and does not play a significant role in the overall focus of the excerpt. The passage emphasizes the process and purpose of developing the pepper rather than the pepper itself.\nB. Incorrect. While paragraph 7 notes that Paul Bosland collaborated with colleagues to develop the seeds for the experiment, this fact alone is not the reason why the discussion of genetic engineering is important to the excerpt. The key point is that the pepper variety in the experiment was specifically modified to meet the needs of both astronauts and space cultivation. Who participated in the development of the peppers is secondary.\nC. CORRECT. Paragraph 7 explains how specialists selected a pepper variety and genetically engineered the seeds for the experiment, while paragraph 8 adds that the variety developed also needed to provide astronauts with proper nutrition and be capable of growing in space. These details are important to the excerpt as a whole because they illustrate how the peppers grown on the ISS differ from most peppers cultivated on Earth in both purpose and design.\nD. Incorrect. The details about the genetic engineering of the pepper seeds highlight that the variety was modified to suit specific space-related requirements. However, the excerpt does not discuss whether this type of pepper could be grown in natural conditions on Earth or if doing so is even a goal. Instead, these paragraphs are important because they explain how the pepper was adapted to address astronauts' nutritional needs and the constraints of space farming."
+          }
+        },
+        {
+          "id": "CR43",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "Some plants are better adapted for growing in space than on Earth, and focus should be placed on them.",
+            "B": "Attempting to grow plants in space the same way they are grown on Earth would not result in success.",
+            "C": "Plants grown in space provide better nutritional value than plants grown on Earth.",
+            "D": "Successfully growing plants in space is a challenge, so more research must first be completed on plants grown on Earth."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although paragraphs 7 and 8 discuss plants that have been genetically engineered “to accommodate the logistics of growing a plant in space,” the passage does not indicate that the plants are better adapted for growing in space rather than on Earth. Thus, the author is not likely to agree with this statement.\nB. CORRECT. In paragraph 3, the author points out that growing plants in space “relies on highly specialized technology over 50 years in the making,” and in paragraph 4, the author explains that the Advanced Plant Habitat requires specialized controls and adaptations for light, moisture, and temperature. The author's acknowledgment of the special conditions required to grow plants in space indicate that she would agree that growing methods used on Earth are unlikely to succeed in space.\nC. Incorrect. Although paragraph 8 mentions that pepper plants were genetically engineered to meet “the nutritional needs of astronauts,” the passage gives no indication that astronauts have greater nutritional needs in space than they do on Earth or that plants grown in space are engineered to provide better nutrition than their counterparts on Earth. Thus, the author would not be likely to agree with this sentence.\nD. Incorrect. Although the discussion in paragraph 4 of the rigorously controlled conditions indicates that growing plants in space is, indeed, challenging, the article indicates in paragraph 3 that NASA has been experimenting with growing plants in space “since 2014.” Because plant-growing experiments have already been under way in space for a number of years, it is unlikely that NASA or the author would agree that additional experiments on earth are necessary."
+          }
+        }
+      ]
+    },
     {
       "passage_number": 7,
       "total_passages": 7,
@@ -14,44 +1221,116 @@
       "title": "New York City and the Hudson Valley Brickmaking Industry",
       "sentence_paragraphs": [
         [
-          { "num": 1, "text": "Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick." },
-          { "num": 2, "text": "Indeed, one author described the bricks that make up some of New York City’s most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as “an inescapable presence.”" },
-          { "num": 3, "text": "Nearly 65 million people visit New York City every year to see these and other attractions." },
-          { "num": 4, "text": "Why was so much brick used in buildings constructed during the century before World War II?" },
-          { "num": 5, "text": "The answer involves an explosion in New York City’s population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany." },
-          { "num": 6, "text": "When demand later declined, the industry would entirely disappear." }
+          {
+            "num": 1,
+            "text": "Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick."
+          },
+          {
+            "num": 2,
+            "text": "Indeed, one author described the bricks that make up some of New York City’s most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as “an inescapable presence.”"
+          },
+          {
+            "num": 3,
+            "text": "Nearly 65 million people visit New York City every year to see these and other attractions."
+          },
+          {
+            "num": 4,
+            "text": "Why was so much brick used in buildings constructed during the century before World War II?"
+          },
+          {
+            "num": 5,
+            "text": "The answer involves an explosion in New York City’s population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany."
+          },
+          {
+            "num": 6,
+            "text": "When demand later declined, the industry would entirely disappear."
+          }
         ],
         [
-          { "num": 7, "text": "New York City’s appetite for brick was fueled by surging population and demand for safer building materials." },
-          { "num": 8, "text": "The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later." },
-          { "num": 9, "text": "Following large, destructive fires in the 1830s, the city had enacted laws requiring the use of fire-resistant materials." },
-          { "num": 10, "text": "Bricks turned out to be an inexpensive way for builders to quickly throw together a lot of structures while keeping building owners and safety inspectors happy." }
+          {
+            "num": 7,
+            "text": "New York City’s appetite for brick was fueled by surging population and demand for safer building materials."
+          },
+          {
+            "num": 8,
+            "text": "The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later."
+          },
+          {
+            "num": 9,
+            "text": "Following large, destructive fires in the 1830s, the city had enacted laws requiring the use of fire-resistant materials."
+          },
+          {
+            "num": 10,
+            "text": "Bricks turned out to be an inexpensive way for builders to quickly throw together a lot of structures while keeping building owners and safety inspectors happy."
+          }
         ],
         [
-          { "num": 11, "text": "The brickmaking industry in the Hudson Valley skyrocketed." },
-          { "num": 12, "text": "At the industry’s peak, approximately 130 brick factories crammed themselves into a 120-mile stretch along the Hudson River." },
-          { "num": 13, "text": "These factories employed much of the region’s population." },
-          { "num": 14, "text": "Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City." },
-          { "num": 15, "text": "Even though the factories operated only during the summers, their production was immense." },
-          { "num": 16, "text": "Hudson Valley factories shipped over a billion bricks on barges down the river to New York City annually." },
-          { "num": 17, "text": "In fact, The New York Times declared, “It’s fairly safe to assume that any brick building constructed between 1800 and 1950 includes some form of sediment from the banks of the Hudson River.”" }
+          {
+            "num": 11,
+            "text": "The brickmaking industry in the Hudson Valley skyrocketed."
+          },
+          {
+            "num": 12,
+            "text": "At the industry’s peak, approximately 130 brick factories crammed themselves into a 120-mile stretch along the Hudson River."
+          },
+          {
+            "num": 13,
+            "text": "These factories employed much of the region’s population."
+          },
+          {
+            "num": 14,
+            "text": "Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City."
+          },
+          {
+            "num": 15,
+            "text": "Even though the factories operated only during the summers, their production was immense."
+          },
+          {
+            "num": 16,
+            "text": "Hudson Valley factories shipped over a billion bricks on barges down the river to New York City annually."
+          },
+          {
+            "num": 17,
+            "text": "In fact, The New York Times declared, “It’s fairly safe to assume that any brick building constructed between 1800 and 1950 includes some form of sediment from the banks of the Hudson River.”"
+          }
         ],
         [
-          { "num": 18, "text": "History has proven, however, that boom times eventually end." },
-          { "num": 19, "text": "Shifting architectural trends halted not only the Hudson Valley’s brickmaking boom, but its entire industry." },
-          { "num": 20, "text": "Starting early in the twentieth century, architects and builders increasingly favored steel, glass, and concrete instead of brick." },
-          { "num": 21, "text": "By 1979, reduced demand for brick had driven every Hudson Valley brick factory out of business." }
+          {
+            "num": 18,
+            "text": "History has proven, however, that boom times eventually end."
+          },
+          {
+            "num": 19,
+            "text": "Shifting architectural trends halted not only the Hudson Valley’s brickmaking boom, but its entire industry."
+          },
+          {
+            "num": 20,
+            "text": "Starting early in the twentieth century, architects and builders increasingly favored steel, glass, and concrete instead of brick."
+          },
+          {
+            "num": 21,
+            "text": "By 1979, reduced demand for brick had driven every Hudson Valley brick factory out of business."
+          }
         ],
         [
-          { "num": 22, "text": "The Hudson Valley’s brickmaking legacy lives on in the architecture of New York City." },
-          { "num": 23, "text": "Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers." },
-          { "num": 24, "text": "The brick buildings surrounding New Yorkers today serve as a reminder that, as one amateur brick historian put it, “The skyline of New York City used to be the landscape of the Hudson River Valley.”" }
+          {
+            "num": 22,
+            "text": "The Hudson Valley’s brickmaking legacy lives on in the architecture of New York City."
+          },
+          {
+            "num": 23,
+            "text": "Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers."
+          },
+          {
+            "num": 24,
+            "text": "The brick buildings surrounding New Yorkers today serve as a reminder that, as one amateur brick historian put it, “The skyline of New York City used to be the landscape of the Hudson River Valley.”"
+          }
         ]
       ],
       "questions": [
         {
-          "id": "CR01",
-          "q_number": 1,
+          "id": "CR44",
+          "q_number": 44,
           "question_type": "mc",
           "question": "Which revision of sentence 10 would **best** maintain the style established in the passage?",
           "options": {
@@ -67,8 +1346,8 @@
           }
         },
         {
-          "id": "CR02",
-          "q_number": 2,
+          "id": "CR45",
+          "q_number": 45,
           "question_type": "mc_multi",
           "question": "Which **two** sentences present information irrelevant to the ideas in the passage and should be deleted?\n\nSelect the **two** correct answers.",
           "options": {
@@ -78,15 +1357,18 @@
             "D": "“History has proven, however, that boom times eventually end.” (sentence 18)",
             "E": "“Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers.” (sentence 23)"
           },
-          "correct": ["A", "C"],
+          "correct": [
+            "A",
+            "C"
+          ],
           "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.25 PM.png",
           "solution": {
             "exhibit_text": "The question asks which two sentences present information irrelevant to the ideas of the passage and should be deleted.\n\nA. CORRECT. “Nearly 65 million people visit New York City every year to see these and other attractions” (sentence 3) presents irrelevant information and should be deleted. While the statistic is interesting, it focuses on tourism, which is not relevant to either the topic of the passage—the growth and decline of the brickmaking industry—or to the ideas in the first paragraph (sentences 1–6), which focus on the prominence of brick in New York City’s buildings.\n\nB. Incorrect. “The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later” (sentence 8) is relevant to the ideas of the passage and should not be deleted. The numerical details in sentence 8 about the rapid growth in New York City provide relevant evidence that supports a central idea of the passage: that the brickmaking industry of the Hudson River Valley expanded quickly to supply the demands of builders who were, in turn, meeting the demands of a booming population.\n\nC. CORRECT. “Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City” (sentence 14) presents irrelevant details and should be deleted. The information in sentence 14 comparing population growth rates between the region and New York City are not needed to develop the passage’s central focus on the rise and decline of the Hudson River Valley’s brickmaking industry. The sentence also does not support ideas in the third paragraph (sentences 11–17). Although it mentions that brick factories employed much of the Hudson River Valley population, the productivity of the factories, rather than the Valley’s population, is the topic of the paragraph.\n\nD. Incorrect. “History has proven, however, that boom times eventually end” (sentence 18) is relevant to the ideas of the passage and should not be deleted. Sentence 18 effectively introduces the central idea of the passage: the decline of the Hudson River Valley brickmaking industry. The sentence also serves as a clear transition from the third paragraph (sentences 11–17), which provides evidence of the industry’s boom, to the fourth paragraph (sentences 18–21), which provides details about how the industry came to an end.\n\nE. Incorrect. “Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers” (sentence 23) is relevant to the ideas of the passage and should not be deleted. The mention of famous and ordinary buildings provides an effective link to introductory sentences 1 and 2, strengthening the passage’s conclusion, while also emphasizing the productivity of the Hudson Valley brickmaking industry detailed in the third paragraph (sentences 11–17)."
           }
         },
         {
-          "id": "CR03",
-          "q_number": 3,
+          "id": "CR46",
+          "q_number": 46,
           "question_type": "mc",
           "question": "Which phrase should be added to the beginning of sentence 11 to provide the **best** transition from the ideas in sentence 10?",
           "options": {
@@ -102,8 +1384,8 @@
           }
         },
         {
-          "id": "CR04",
-          "q_number": 4,
+          "id": "CR47",
+          "q_number": 47,
           "question_type": "mc",
           "question": "Which sentence would **best** follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21)?",
           "options": {
@@ -123,8 +1405,8 @@
   ],
   "standalone_items": [
     {
-      "id": "CR05",
-      "q_number": 5,
+      "id": "CR48",
+      "q_number": 48,
       "question_type": "mc",
       "stimulus": "(1) In 1976, the National Basketball Association (NBA) absorbed several teams of the American Basketball Association (ABA), including the New York Nets, who played in the Long Island area at the time. (2) The owner of the Nets decided to take the team to New Jersey after the team had financial troubles, where the team played for thirty-five seasons. (3) The New Jersey Nets had sixteen playoff appearances, including two appearances in the NBA finals. (4) In 2012, the team changed ownership and returned to New York, where the team now plays under the name the Brooklyn Nets.",
       "question": "Which sentence contains an error in its construction and should be revised?",
@@ -141,8 +1423,8 @@
       }
     },
     {
-      "id": "CR06",
-      "q_number": 6,
+      "id": "CR49",
+      "q_number": 49,
       "question_type": "mc",
       "stimulus": "(1) Jordan rehearsed his role for weeks. (2) He delivered his lines with ease. (3) His performance was met with a burst of applause from the audience.",
       "question": "What is the best way to combine the sentences to clarify the relationship between ideas?",
@@ -159,8 +1441,8 @@
       }
     },
     {
-      "id": "CR07",
-      "q_number": 7,
+      "id": "CR50",
+      "q_number": 50,
       "question_type": "mc",
       "stimulus": "(1) Both Italian gelato and American ice cream are delightful treats to have on a hot summer day, but many people <u>wonder:</u> what <u>is</u> the difference between the two? (2) To start <u>with,</u> the butterfat content is much higher in ice cream than <u>it is</u> in gelato, making the Italian treat a wiser decision for people looking to make healthier choices. (3) Additionally, the mixing <u>process,</u> which adds less air to the frozen treat, <u>makes</u> gelato denser than ice cream. (4) Finally, gelato is served 10 to 15 degrees warmer than ice cream, which enhances the texture and flavor of the <u>gelato,</u> and <u>allow</u> it to melt more quickly.",
       "question": "Which pair of revisions need to be made in this paragraph?",
