@@ -63,14 +63,16 @@
     .ex-options { list-style: none; margin: 0.55rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.3rem; }
     .ex-opt { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 0.3rem 0.65rem; font-size: 0.8rem; }
     .ex-opt b { color: var(--navy); margin-right: 0.35rem; }
-    .ex-card.revealed .ex-opt.correct { background: var(--green-light); border-color: var(--green); font-weight: 700; }
+    .ex-unit.revealed .ex-opt.correct { background: var(--green-light); border-color: var(--green); font-weight: 700; }
     .ex-nolettered { font-size: 0.78rem; color: var(--muted); font-style: italic; margin-top: 0.5rem; }
     .ex-dragnote { font-size: 0.74rem; color: var(--muted); font-style: italic; margin: 0.55rem 0 0.3rem; }
     .ex-dragbank { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; padding: 0; list-style: none; }
     .ex-drag { background: var(--bg); border: 1px solid var(--border); border-radius: 99px; padding: 0.25rem 0.8rem; font-size: 0.78rem; }
-    .ex-card.revealed .ex-drag.correct { background: var(--green-light); border-color: var(--green); font-weight: 700; }
+    .ex-unit.revealed .ex-drag.correct { background: var(--green-light); border-color: var(--green); font-weight: 700; }
     .ex-answer { display: none; margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px dashed var(--border); }
-    .ex-card.revealed .ex-answer { display: block; }
+    .ex-unit.revealed .ex-answer { display: block; }
+    .ex-variant { margin-top: 0.75rem; padding-top: 0.7rem; border-top: 2px solid var(--blue-light); }
+    .ex-variant-label { font-size: 0.68rem; font-weight: 800; color: var(--blue); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.35rem; }
     .ex-sentence { color: var(--text); margin-bottom: 0.4rem; }
     .ex-why { color: var(--muted); font-size: 0.78rem; }
     .ex-why b { color: var(--green); margin-right: 0.3rem; }
@@ -86,8 +88,8 @@
   <div class="page">
     <a href="exams.html" class="back">← Back to Exams</a>
     <h1>Grammar Guide</h1>
-    <p class="subtitle">The short, one-off Revising/Editing questions (Part A) — not tied to a reading passage — sourced straight from Practice Tests A–G and Kaplan 2025 Practice Tests 1–3: 21 real, verbatim exam questions across 7 categories, no workbook filler. Each one shows the complete original paragraph or sentence (never a clipped fragment) — try to spot the issue yourself, then press the button to see it underlined with the fix and the reasoning.</p>
-    <div class="howto"><b>How to use this page:</b> don't try to memorize the rules first. Read a category's strategy box once, then go through its examples one at a time — read the clean text, take a real guess, <i>then</i> reveal the answer. The goal is to start <i>recognizing the shape</i> of each error type on sight, the same way you'd recognize a friend's face before you could describe their features in words. Guessing wrong and then seeing why is more useful than reading the answer first.</div>
+    <p class="subtitle">The short, one-off Revising/Editing questions (Part A) — not tied to a reading passage — sourced straight from Practice Tests A–G and Kaplan 2025 Practice Tests 1–3: 21 real, verbatim exam questions across 7 categories, no workbook filler. Each real question is followed by a freshly written variant that tests the exact same skill with new wording, so you aren't just memorizing the real exam's answer.</p>
+    <div class="howto"><b>How to use this page:</b> don't try to memorize the rules first. Read a category's strategy box once, then go through its examples one at a time — read the clean text, take a real guess, <i>then</i> reveal the answer. Each card has two rounds: the real exam question first, then a "Try a similar one" variant underneath it with different wording but the same underlying skill — use that second one as your actual self-check. The goal is to start <i>recognizing the shape</i> of each error type on sight, the same way you'd recognize a friend's face before you could describe their features in words.</div>
     <div class="howto">Looking for the <b>longer passage-based</b> Revising/Editing questions (transitions, reordering sentences, cutting off-topic sentences, best intro/conclusion, matching style)? Those live in the companion <a href="ela-revising-editing-passage-guide.html">Revising/Editing Passage Guide</a>.</div>
 
     <div class="quickid">
@@ -120,19 +122,38 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — Standalone (AR48)</div>
-          <div class="ex-prompt">(1) Eliza and Brianna have been singing in their school chorus since they were in fourth grade. (2) The girls always sing a duet at the school talent show, and they take turns singing the national anthem before school sporting events. (3) Outside of school, she also sings in a choir made up of young and old members of her community. (4) Both girls hope that they will be able to continue singing for many more years.
-            <div class="ex-ask">Which sentence of the paragraph should be revised to correct a vague pronoun?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) Eliza and Brianna have been singing in their school chorus since they were in fourth grade. (2) The girls always sing a duet at the school talent show, and they take turns singing the national anthem before school sporting events. (3) Outside of school, she also sings in a choir made up of young and old members of her community. (4) Both girls hope that they will be able to continue singing for many more years.
+              <div class="ex-ask">Which sentence of the paragraph should be revised to correct a vague pronoun?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt correct"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(3) Outside of school, <u>she</u> also sings in a choir made up of young and old members of her community.</div>
+              <div class="ex-why"><b>Why:</b> Two girls, Eliza and Brianna, were just introduced. "She" could mean either one — the reader has no way to know which. Fix: name her directly (e.g., "Eliza also sings...").</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> sentence 1</li>
-            <li class="ex-opt"><b>B.</b> sentence 2</li>
-            <li class="ex-opt correct"><b>C.</b> sentence 3</li>
-            <li class="ex-opt"><b>D.</b> sentence 4</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(3) Outside of school, <u>she</u> also sings in a choir made up of young and old members of her community.</div>
-            <div class="ex-why"><b>Why:</b> Two girls, Eliza and Brianna, were just introduced. "She" could mean either one — the reader has no way to know which. Fix: name her directly (e.g., "Eliza also sings...").</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Marcus and Devon have played on the same soccer team since elementary school. (2) The boys practice drills together every weekend and often carpool to tournaments. (3) After practice, he usually stays late to work on free kicks with the coach. (4) Both boys hope to make the varsity team next year.
+              <div class="ex-ask">Which sentence of the paragraph should be revised to correct a vague pronoun?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt correct"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(3) After practice, <u>he</u> usually stays late to work on free kicks with the coach.</div>
+              <div class="ex-why"><b>Why:</b> Marcus and Devon were both just introduced. "He" could mean either one — the reader has no way to know which. Fix: name him directly (e.g., "After practice, Devon usually stays late...").</div>
+            </div>
           </div>
         </div>
       </div>
@@ -153,53 +174,110 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam A — Standalone (AR49), "pair of revisions" format</div>
-          <div class="ex-prompt">(1) <u>Yalina,</u> Michael, and Malcolm love making pancakes with <u>their</u> granddad on Saturday mornings. (2) Yalina's job <u>is</u> to open the box and pour the pancake mix into a <u>bowl,</u> slowly adding water, eggs, melted butter, and blueberries. (3) Michael uses a wooden spoon to vigorously stir the mixture until <u>it is smooth,</u> and Malcolm helps Granddad carefully pour the batter onto a griddle one-fourth cup at a time. (4) Granddad turns each pancake when <u>they start</u> to bubble, while all three siblings get the table ready for a <u>sweet</u> delicious breakfast.
-            <div class="ex-ask">Which pair of revisions is needed to correct the errors in the paragraph?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) <u>Yalina,</u> Michael, and Malcolm love making pancakes with <u>their</u> granddad on Saturday mornings. (2) Yalina's job <u>is</u> to open the box and pour the pancake mix into a <u>bowl,</u> slowly adding water, eggs, melted butter, and blueberries. (3) Michael uses a wooden spoon to vigorously stir the mixture until <u>it is smooth,</u> and Malcolm helps Granddad carefully pour the batter onto a griddle one-fourth cup at a time. (4) Granddad turns each pancake when <u>they start</u> to bubble, while all three siblings get the table ready for a <u>sweet</u> delicious breakfast.
+              <div class="ex-ask">Which pair of revisions is needed to correct the errors in the paragraph?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Sentence 1: Delete the comma after <b>Yalina</b>, AND change <b>their</b> to <b>her</b>.</li>
+              <li class="ex-opt"><b>B.</b> Sentence 2: Change <b>is</b> to <b>are</b>, AND delete the comma after <b>bowl</b>.</li>
+              <li class="ex-opt"><b>C.</b> Sentence 3: Change <b>it is</b> to <b>they are</b>, AND delete the comma after <b>smooth</b>.</li>
+              <li class="ex-opt correct"><b>D.</b> Sentence 4: Change <b>they start</b> to <b>it starts</b>, AND insert a comma after <b>sweet</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(4) Granddad turns each pancake when <u>they start</u> to bubble... → when <ins>it starts</ins> to bubble, while all three siblings get the table ready for a sweet<ins>,</ins> delicious breakfast.</div>
+              <div class="ex-why"><b>Why:</b> The antecedent is "each pancake" — singular — so it needs "it starts," not "they start." Separately, "sweet" and "delicious" are two independent adjectives both describing "breakfast," so they need a comma between them. (Sentences 1–3's underlines are all already correct — that's what makes this format tricky.)</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Sentence 1: Delete the comma after <b>Yalina</b>, AND change <b>their</b> to <b>her</b>.</li>
-            <li class="ex-opt"><b>B.</b> Sentence 2: Change <b>is</b> to <b>are</b>, AND delete the comma after <b>bowl</b>.</li>
-            <li class="ex-opt"><b>C.</b> Sentence 3: Change <b>it is</b> to <b>they are</b>, AND delete the comma after <b>smooth</b>.</li>
-            <li class="ex-opt correct"><b>D.</b> Sentence 4: Change <b>they start</b> to <b>it starts</b>, AND insert a comma after <b>sweet</b>.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(4) Granddad turns each pancake when <u>they start</u> to bubble... → when <ins>it starts</ins> to bubble, while all three siblings get the table ready for a sweet<ins>,</ins> delicious breakfast.</div>
-            <div class="ex-why"><b>Why:</b> The antecedent is "each pancake" — singular — so it needs "it starts," not "they start." Separately, "sweet" and "delicious" are two independent adjectives both describing "breakfast," so they need a comma between them. (Sentences 1–3's underlines are all already correct — that's what makes this format tricky.)</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) <u>Noah,</u> Priya, and Deja love blending smoothies with <u>their</u> grandmother on Sunday afternoons. (2) Priya's job <u>is</u> to wash the fruit and cut it into small <u>pieces,</u> carefully adding yogurt and ice to the blender. (3) Deja presses the blender button until the mixture <u>is smooth,</u> and Noah helps Grandma pour the finished smoothie into cups. (4) Grandma blends each smoothie until <u>they turn</u> smooth, while all three grandchildren set the table for a <u>cold</u> refreshing treat.
+              <div class="ex-ask">Which pair of revisions is needed to correct the errors in the paragraph?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Sentence 1: Delete the comma after <b>Noah</b>, AND change <b>their</b> to <b>her</b>.</li>
+              <li class="ex-opt"><b>B.</b> Sentence 2: Change <b>is</b> to <b>are</b>, AND delete the comma after <b>pieces</b>.</li>
+              <li class="ex-opt"><b>C.</b> Sentence 3: Change <b>is</b> to <b>are</b>, AND delete the comma after <b>smooth</b>.</li>
+              <li class="ex-opt correct"><b>D.</b> Sentence 4: Change <b>they turn</b> to <b>it turns</b>, AND insert a comma after <b>cold</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(4) Grandma blends each smoothie until <u>they turn</u> smooth... → until <ins>it turns</ins> smooth, while all three grandchildren set the table for a cold<ins>,</ins> refreshing treat.</div>
+              <div class="ex-why"><b>Why:</b> The antecedent is "each smoothie" — singular — so it needs "it turns," not "they turn." Separately, "cold" and "refreshing" are two independent adjectives both describing "treat," so they need a comma between them.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam G — Standalone (GR47)</div>
-          <div class="ex-prompt">(1) Both Salvadoran and Mexican tamales are delicious staples of Mesoamerican cuisine, but they differ in preparation, wrapping, and texture. (2) Salvadoran tamales are often prepared by pre-cooking the masa, a ground corn dough, into a thick, smooth roux before steaming it, resulting in a silky, custard-like texture that is much softer and wetter than that of typical Mexican tamales. (3) The preparation of Mexican tamales involves a fat, and broth, which is mixed into the masa before steaming. (4) Mexican tamales are traditionally wrapped in dried corn husks; Salvadoran tamales, however, are wrapped in banana leaves, which give them an earthy flavor and tint them slightly green.
-            <div class="ex-ask">Which pair of revisions need to be made in this paragraph?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) Both Salvadoran and Mexican tamales are delicious staples of Mesoamerican cuisine, but they differ in preparation, wrapping, and texture. (2) Salvadoran tamales are often prepared by pre-cooking the masa, a ground corn dough, into a thick, smooth roux before steaming it, resulting in a silky, custard-like texture that is much softer and wetter than that of typical Mexican tamales. (3) The preparation of Mexican tamales involves a fat, and broth, which is mixed into the masa before steaming. (4) Mexican tamales are traditionally wrapped in dried corn husks; Salvadoran tamales, however, are wrapped in banana leaves, which give them an earthy flavor and tint them slightly green.
+              <div class="ex-ask">Which pair of revisions need to be made in this paragraph?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Sentence 1: Delete the comma after <b>cuisine</b> AND change <b>they differ</b> to <b>it differs</b>.</li>
+              <li class="ex-opt"><b>B.</b> Sentence 2: Delete the comma after <b>dough</b> AND change <b>is</b> to <b>are</b>.</li>
+              <li class="ex-opt correct"><b>C.</b> Sentence 3: Delete the comma after <b>fat</b> AND change <b>is</b> to <b>are</b>.</li>
+              <li class="ex-opt"><b>D.</b> Sentence 4: Delete the semicolon after <b>husks</b> AND change <b>tint</b> to <b>tints</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(3) The preparation of Mexican tamales involves <u>a fat, and broth, which is mixed</u> into the masa before steaming. → a fat and broth, which <ins>are mixed</ins> into the masa before steaming.</div>
+              <div class="ex-why"><b>Why:</b> The subject of "is mixed" is "a fat...and broth" — a compound (two-part) subject, which is always plural, so it needs "are mixed." The stray comma after "fat" also gets deleted since "a fat and broth" is a simple pair, not a list.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Sentence 1: Delete the comma after <b>cuisine</b> AND change <b>they differ</b> to <b>it differs</b>.</li>
-            <li class="ex-opt"><b>B.</b> Sentence 2: Delete the comma after <b>dough</b> AND change <b>is</b> to <b>are</b>.</li>
-            <li class="ex-opt correct"><b>C.</b> Sentence 3: Delete the comma after <b>fat</b> AND change <b>is</b> to <b>are</b>.</li>
-            <li class="ex-opt"><b>D.</b> Sentence 4: Delete the semicolon after <b>husks</b> AND change <b>tint</b> to <b>tints</b>.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(3) The preparation of Mexican tamales involves <u>a fat, and broth, which is mixed</u> into the masa before steaming. → a fat and broth, which <ins>are mixed</ins> into the masa before steaming.</div>
-            <div class="ex-why"><b>Why:</b> The subject of "is mixed" is "a fat...and broth" — a compound (two-part) subject, which is always plural, so it needs "are mixed." The stray comma after "fat" also gets deleted since "a fat and broth" is a simple pair, not a list.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Both Neapolitan and Chicago-style pizzas are beloved dishes in American cuisine, but they differ in crust, toppings, and cooking method. (2) Neapolitan pizza is traditionally made by stretching the dough very thin before topping it with San Marzano tomatoes and fresh mozzarella, resulting in a light, chewy crust that bakes quickly in a wood-fired oven. (3) The preparation of Chicago-style pizza involves a layer of cheese, and sauce, which is added before the crust is baked in a deep pan. (4) Neapolitan pizzas are traditionally served unsliced; Chicago-style pizzas, however, are cut into squares, which give them a distinctive party-style presentation.
+              <div class="ex-ask">Which pair of revisions need to be made in this paragraph?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Sentence 1: Delete the comma after <b>cuisine</b> AND change <b>they differ</b> to <b>it differs</b>.</li>
+              <li class="ex-opt"><b>B.</b> Sentence 2: Delete the comma after <b>dough</b> AND change <b>is</b> to <b>are</b>.</li>
+              <li class="ex-opt correct"><b>C.</b> Sentence 3: Delete the comma after <b>cheese</b> AND change <b>is</b> to <b>are</b>.</li>
+              <li class="ex-opt"><b>D.</b> Sentence 4: Delete the semicolon after <b>unsliced</b> AND change <b>give</b> to <b>gives</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(3) The preparation of Chicago-style pizza involves <u>a layer of cheese, and sauce, which is added</u> before the crust is baked in a deep pan. → a layer of cheese and sauce, which <ins>are added</ins> before the crust is baked in a deep pan.</div>
+              <div class="ex-why"><b>Why:</b> The subject of "is added" is "a layer of cheese...and sauce" — a compound (two-part) subject, which is always plural, so it needs "are added." The stray comma after "cheese" also gets deleted since "a layer of cheese and sauce" is a simple pair, not a list.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 1 — Standalone (KM1_Q05)</div>
-          <div class="ex-prompt">(1) With <u>its</u> dramatic canyons and gushing geysers in sections of Wyoming, Idaho, and Montana, Yellowstone National Park <u>offers</u> unique hydrothermal and geologic wonders. (2) While many tourists <u>visited</u> the park each year, <u>they are</u> a permanent home for thousands of animals, including bears, elk, and wolves. (3) During the spring, Yellowstone <u>becomes</u> a dynamic landscape, prompting nature lovers to flock to <u>it</u> to see the rushing rivers and flourishing plant and animal life. (4) Hundreds of animal species, including nearly 300 species of birds, 16 species of fish, and 67 species of mammals, <u>have been</u> observed making the park <u>their</u> home.
-            <div class="ex-ask">How should the paragraph be revised?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) With <u>its</u> dramatic canyons and gushing geysers in sections of Wyoming, Idaho, and Montana, Yellowstone National Park <u>offers</u> unique hydrothermal and geologic wonders. (2) While many tourists <u>visited</u> the park each year, <u>they are</u> a permanent home for thousands of animals, including bears, elk, and wolves. (3) During the spring, Yellowstone <u>becomes</u> a dynamic landscape, prompting nature lovers to flock to <u>it</u> to see the rushing rivers and flourishing plant and animal life. (4) Hundreds of animal species, including nearly 300 species of birds, 16 species of fish, and 67 species of mammals, <u>have been</u> observed making the park <u>their</u> home.
+              <div class="ex-ask">How should the paragraph be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Sentence 1: Change <b>its</b> to <b>their</b>, AND change <b>offers</b> to <b>offered</b>.</li>
+              <li class="ex-opt correct"><b>B.</b> Sentence 2: Change <b>visited</b> to <b>visit</b>, AND change <b>they are</b> to <b>it is</b>.</li>
+              <li class="ex-opt"><b>C.</b> Sentence 3: Change <b>becomes</b> to <b>became</b>, AND change <b>it</b> to <b>them</b>.</li>
+              <li class="ex-opt"><b>D.</b> Sentence 4: Change <b>have been</b> to <b>had been</b>, AND change <b>their</b> to <b>its</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(2) While many tourists <u>visited</u> the park each year, <u>they are</u> a permanent home... → While many tourists <ins>visit</ins> the park each year, <ins>it is</ins> a permanent home for thousands of animals...</div>
+              <div class="ex-why"><b>Why:</b> Two separate agreement slips in one sentence: the rest of the paragraph is present tense ("offers," "becomes"), so "visited" needs to be "visit"; and "they" has no plural antecedent — it should be "it," referring back to "the park."</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Sentence 1: Change <b>its</b> to <b>their</b>, AND change <b>offers</b> to <b>offered</b>.</li>
-            <li class="ex-opt correct"><b>B.</b> Sentence 2: Change <b>visited</b> to <b>visit</b>, AND change <b>they are</b> to <b>it is</b>.</li>
-            <li class="ex-opt"><b>C.</b> Sentence 3: Change <b>becomes</b> to <b>became</b>, AND change <b>it</b> to <b>them</b>.</li>
-            <li class="ex-opt"><b>D.</b> Sentence 4: Change <b>have been</b> to <b>had been</b>, AND change <b>their</b> to <b>its</b>.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(2) While many tourists <u>visited</u> the park each year, <u>they are</u> a permanent home... → While many tourists <ins>visit</ins> the park each year, <ins>it is</ins> a permanent home for thousands of animals...</div>
-            <div class="ex-why"><b>Why:</b> Two separate agreement slips in one sentence: the rest of the paragraph is present tense ("offers," "becomes"), so "visited" needs to be "visit"; and "they" has no plural antecedent — it should be "it," referring back to "the park."</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) With its extensive collection of rare manuscripts and quiet reading rooms, the Hendryx Public Library offers unique resources to students and historians alike. (2) While many visitors toured the library each year, they are a popular destination for long-term researchers as well. (3) During the summer, the library becomes a bustling hub of activity, prompting local families to flock to it for story hours and workshops. (4) Hundreds of rare documents, including early maps, handwritten letters, and first-edition novels, have been preserved there for public use.
+              <div class="ex-ask">How should the paragraph be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Sentence 1: Change <b>its</b> to <b>their</b>, AND change <b>offers</b> to <b>offered</b>.</li>
+              <li class="ex-opt correct"><b>B.</b> Sentence 2: Change <b>toured</b> to <b>tour</b>, AND change <b>they are</b> to <b>it is</b>.</li>
+              <li class="ex-opt"><b>C.</b> Sentence 3: Change <b>becomes</b> to <b>became</b>, AND change <b>it</b> to <b>them</b>.</li>
+              <li class="ex-opt"><b>D.</b> Sentence 4: Change <b>have been</b> to <b>had been</b>, AND change <b>there</b> to <b>their</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(2) While many visitors <u>toured</u> the library each year, <u>they are</u> a popular destination... → While many visitors <ins>tour</ins> the library each year, <ins>it is</ins> a popular destination for long-term researchers as well.</div>
+              <div class="ex-why"><b>Why:</b> The rest of the paragraph is present tense ("offers," "becomes"), so "toured" needs to be "tour"; and "they" has no plural antecedent — it should be "it," referring back to "the library."</div>
+            </div>
           </div>
         </div>
       </div>
@@ -220,71 +298,147 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam D — Standalone (DR13)</div>
-          <div class="ex-prompt">(1) Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers to help with a variety of tasks. (2) Working at the animal shelter is a great way for young people, especially those who aspire to care for and protect animals, to gain valuable work experience. (3) In addition to hands-on training with animal care, volunteers will learn important job skills, such as punctuality, responsibility, and personal initiative. (4) Caring for animals can also help volunteers develop empathy, which is the awareness and understanding of the feelings of others.
-            <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers to help with a variety of tasks. (2) Working at the animal shelter is a great way for young people, especially those who aspire to care for and protect animals, to gain valuable work experience. (3) In addition to hands-on training with animal care, volunteers will learn important job skills, such as punctuality, responsibility, and personal initiative. (4) Caring for animals can also help volunteers develop empathy, which is the awareness and understanding of the feelings of others.
+              <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(1) <u>Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers...</u></div>
+              <div class="ex-why"><b>Why:</b> It's not the shelter that walks dogs and feeds kittens — it's the volunteers. The opening phrase dangles because the noun right after the comma ("the animal shelter") isn't who's actually doing those actions.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt correct"><b>A.</b> sentence 1</li>
-            <li class="ex-opt"><b>B.</b> sentence 2</li>
-            <li class="ex-opt"><b>C.</b> sentence 3</li>
-            <li class="ex-opt"><b>D.</b> sentence 4</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(1) <u>Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers...</u></div>
-            <div class="ex-why"><b>Why:</b> It's not the shelter that walks dogs and feeds kittens — it's the volunteers. The opening phrase dangles because the noun right after the comma ("the animal shelter") isn't who's actually doing those actions.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Sorting donations, organizing shelves, and greeting visitors, the community food pantry is looking for volunteers to help on weekends. (2) Working at the food pantry is a great way for students, especially those interested in social work, to gain hands-on experience. (3) In addition to packing food boxes, volunteers learn communication skills, such as patience, teamwork, and active listening. (4) Helping others can also build a volunteer's sense of purpose, which is the feeling that one's work matters.
+              <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(1) <u>Sorting donations, organizing shelves, and greeting visitors, the community food pantry is looking for volunteers...</u></div>
+              <div class="ex-why"><b>Why:</b> It's not the pantry that sorts donations and greets visitors — it's the volunteers. The opening phrase dangles because the noun right after the comma ("the community food pantry") isn't who's actually doing those actions.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam G — Standalone (GR49)</div>
-          <div class="ex-prompt">(1) On the morning of February 10, 2022, the world was captivated as Nathan Chen took to the ice at the Winter Olympics in Beijing, China. (2) Executing five flawless quadruple jumps during his "Rocket Man" free skate, the stadium erupted in applause, and his gold medal was secured. (3) Longtime figure skating fans were particularly moved because he was the first U.S. men's skater to win gold since Evan Lysacek in 2010. (4) Another American skater, Dick Button, won the first gold medal for the U.S. men's figure skating in 1948 by adding jumps to his program that no one else had attempted in international competition.
-            <div class="ex-ask">Which sentence in the paragraph contains an error in construction? Move the answer to the box. There is only one error in construction.</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) On the morning of February 10, 2022, the world was captivated as Nathan Chen took to the ice at the Winter Olympics in Beijing, China. (2) Executing five flawless quadruple jumps during his "Rocket Man" free skate, the stadium erupted in applause, and his gold medal was secured. (3) Longtime figure skating fans were particularly moved because he was the first U.S. men's skater to win gold since Evan Lysacek in 2010. (4) Another American skater, Dick Button, won the first gold medal for the U.S. men's figure skating in 1948 by adding jumps to his program that no one else had attempted in international competition.
+              <div class="ex-ask">Which sentence in the paragraph contains an error in construction? Move the answer to the box. There is only one error in construction.</div>
+            </div>
+            <p class="ex-dragnote">"Move the answer to the box" format — drag one of these into the box:</p>
+            <ul class="ex-dragbank">
+              <li class="ex-drag">Sentence 1</li>
+              <li class="ex-drag correct">Sentence 2</li>
+              <li class="ex-drag">Sentence 3</li>
+              <li class="ex-drag">Sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">Correct: <b>Sentence 2</b> — <u>Executing five flawless quadruple jumps during his "Rocket Man" free skate, the stadium erupted in applause,</u> and his gold medal was secured.</div>
+              <div class="ex-why"><b>Why:</b> The stadium didn't execute the jumps — Nathan Chen did. Same dangling-modifier pattern as DR13: check who's really doing the "-ing" action right after the comma.</div>
+            </div>
           </div>
-          <p class="ex-dragnote">"Move the answer to the box" format — drag one of these into the box:</p>
-          <ul class="ex-dragbank">
-            <li class="ex-drag">Sentence 1</li>
-            <li class="ex-drag correct">Sentence 2</li>
-            <li class="ex-drag">Sentence 3</li>
-            <li class="ex-drag">Sentence 4</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">Correct: <b>Sentence 2</b> — <u>Executing five flawless quadruple jumps during his "Rocket Man" free skate, the stadium erupted in applause,</u> and his gold medal was secured.</div>
-            <div class="ex-why"><b>Why:</b> The stadium didn't execute the jumps — Nathan Chen did. Same dangling-modifier pattern as DR13: check who's really doing the "-ing" action right after the comma.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) On the evening of July 4, 2023, fans across the stadium rose to their feet as Mia Alvarez stepped up to the plate in the championship game. (2) Launching a towering home run over the center-field wall, the crowd roared with excitement, and her team secured the victory. (3) Longtime fans were especially thrilled because she was the first rookie to hit a walk-off homer in a championship game in over a decade. (4) Another legendary player, Sam Reyes, had hit the very first championship home run for the franchise back in 1998.
+              <div class="ex-ask">Which sentence in the paragraph contains an error in construction? There is only one error in construction.</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> sentence 1</li>
+              <li class="ex-opt correct"><b>B.</b> sentence 2</li>
+              <li class="ex-opt"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(2) <u>Launching a towering home run over the center-field wall, the crowd roared with excitement,</u> and her team secured the victory.</div>
+              <div class="ex-why"><b>Why:</b> The crowd didn't launch the home run — Mia Alvarez did. Same dangling-modifier pattern as the real exam version: check who's really doing the "-ing" action right after the comma.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 3 — Standalone (KM3_Q01)</div>
-          <div class="ex-prompt">(1) John Updike wrote many novels, including the Pulitzer Prize-winning Rabbit Is Rich. (2) This famous American author studied at Harvard and Oxford before beginning his career in literature and eventually earning more than one Pulitzer Prize. (3) His novels exploring contemporary human relationships in the United States. (4) In addition to creating novels, Updike wrote poems and collections of short stories.
-            <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) John Updike wrote many novels, including the Pulitzer Prize-winning Rabbit Is Rich. (2) This famous American author studied at Harvard and Oxford before beginning his career in literature and eventually earning more than one Pulitzer Prize. (3) His novels exploring contemporary human relationships in the United States. (4) In addition to creating novels, Updike wrote poems and collections of short stories.
+              <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt correct"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(3) <u>His novels exploring contemporary human relationships in the United States.</u></div>
+              <div class="ex-why"><b>Why:</b> This is a fragment, not a complete sentence — "exploring" is a participle, not a real verb. It needs something like "explore" or "explored" to actually make the subject "his novels" do something.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> sentence 1</li>
-            <li class="ex-opt"><b>B.</b> sentence 2</li>
-            <li class="ex-opt correct"><b>C.</b> sentence 3</li>
-            <li class="ex-opt"><b>D.</b> sentence 4</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(3) <u>His novels exploring contemporary human relationships in the United States.</u></div>
-            <div class="ex-why"><b>Why:</b> This is a fragment, not a complete sentence — "exploring" is a participle, not a real verb. It needs something like "explore" or "explored" to actually make the subject "his novels" do something.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Maya Angelou wrote many acclaimed works, including the celebrated memoir I Know Why the Caged Bird Sings. (2) This influential American author studied dance and drama before beginning her career in writing and eventually earning numerous honorary degrees. (3) Her poems exploring themes of resilience and identity throughout American history. (4) In addition to writing memoirs, Angelou composed poetry and essays.
+              <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt correct"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(3) <u>Her poems exploring themes of resilience and identity throughout American history.</u></div>
+              <div class="ex-why"><b>Why:</b> This is a fragment, not a complete sentence — "exploring" is a participle, not a real verb. It needs something like "explore" or "explored" to actually make the subject "her poems" do something.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 2 — Standalone (KM2_Q02)</div>
-          <div class="ex-prompt">(1) After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree in computer science. (2) The coursework revolves around programming, which is the preparation of instructions that tell the computer which operations it needs to perform. (3) Students learn formulas as well as programs that translate complex computer languages. (4) With new advancements every day, the computer science field requires professionals to constantly learn about applying the latest technology.
-            <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree in computer science. (2) The coursework revolves around programming, which is the preparation of instructions that tell the computer which operations it needs to perform. (3) Students learn formulas as well as programs that translate complex computer languages. (4) With new advancements every day, the computer science field requires professionals to constantly learn about applying the latest technology.
+              <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>E.</b> sentence 1</li>
+              <li class="ex-opt"><b>F.</b> sentence 2</li>
+              <li class="ex-opt"><b>G.</b> sentence 3</li>
+              <li class="ex-opt"><b>H.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(1) <u>After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree...</u></div>
+              <div class="ex-why"><b>Why:</b> It's the software engineer who graduates from college, not "the next five years." Another dangling opening modifier — the subject right after the comma should be the one doing the graduating.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt correct"><b>E.</b> sentence 1</li>
-            <li class="ex-opt"><b>F.</b> sentence 2</li>
-            <li class="ex-opt"><b>G.</b> sentence 3</li>
-            <li class="ex-opt"><b>H.</b> sentence 4</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">(1) <u>After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree...</u></div>
-            <div class="ex-why"><b>Why:</b> It's the software engineer who graduates from college, not "the next five years." Another dangling opening modifier — the subject right after the comma should be the one doing the graduating.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) After finishing high school, the next four years of a nursing student's life are spent completing clinical rotations and coursework in anatomy. (2) The curriculum centers on patient care, which involves learning how to monitor vital signs and respond to emergencies. (3) Students practice procedures as well as techniques that improve bedside communication. (4) With new medical research every year, the nursing field requires professionals to constantly update their knowledge.
+              <div class="ex-ask">Which sentence contains an error in its construction and should be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> sentence 1</li>
+              <li class="ex-opt"><b>B.</b> sentence 2</li>
+              <li class="ex-opt"><b>C.</b> sentence 3</li>
+              <li class="ex-opt"><b>D.</b> sentence 4</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">(1) <u>After finishing high school, the next four years of a nursing student's life are spent completing clinical rotations...</u></div>
+              <div class="ex-why"><b>Why:</b> It's the nursing student who finishes high school, not "the next four years." Another dangling opening modifier — the subject right after the comma should be the one doing the finishing.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -305,70 +459,146 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam B — Standalone (BR07)</div>
-          <div class="ex-prompt">(1) Flyby missions near Jupiter have been happening since 1973. (2) Flyby missions allow scientists to collect data about Jupiter and its moons.
-            <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between the ideas?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) Flyby missions near Jupiter have been happening since 1973. (2) Flyby missions allow scientists to collect data about Jupiter and its moons.
+              <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between the ideas?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> While flyby missions near Jupiter have been happening since 1973, scientists collect data about the planet and its moons.</li>
+              <li class="ex-opt"><b>B.</b> Although there have been flyby missions near Jupiter since 1973, they have allowed scientists to collect data about the planet and its moons.</li>
+              <li class="ex-opt correct"><b>C.</b> Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973.</li>
+              <li class="ex-opt"><b>D.</b> Flyby missions have been happening near Jupiter, but scientists have been collecting data about the planet and its moons since 1973.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Flyby missions near Jupiter, <ins>which allow scientists to collect data about the planet and its moons,</ins> have been happening since 1973."</div>
+              <div class="ex-why"><b>Why:</b> Sentence 2 is just extra description of "flyby missions," so it folds into sentence 1 as a "which" clause rather than being tacked on with "and" or turned into a false cause/contrast.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> While flyby missions near Jupiter have been happening since 1973, scientists collect data about the planet and its moons.</li>
-            <li class="ex-opt"><b>B.</b> Although there have been flyby missions near Jupiter since 1973, they have allowed scientists to collect data about the planet and its moons.</li>
-            <li class="ex-opt correct"><b>C.</b> Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973.</li>
-            <li class="ex-opt"><b>D.</b> Flyby missions have been happening near Jupiter, but scientists have been collecting data about the planet and its moons since 1973.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"Flyby missions near Jupiter, <ins>which allow scientists to collect data about the planet and its moons,</ins> have been happening since 1973."</div>
-            <div class="ex-why"><b>Why:</b> Sentence 2 is just extra description of "flyby missions," so it folds into sentence 1 as a "which" clause rather than being tacked on with "and" or turned into a false cause/contrast.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Satellite missions studying Saturn have been ongoing since 1997. (2) Satellite missions allow scientists to collect data about Saturn's rings and moons.
+              <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between the ideas?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> While satellite missions studying Saturn have been ongoing since 1997, scientists collect data about the planet's rings and moons.</li>
+              <li class="ex-opt"><b>B.</b> Although there have been satellite missions studying Saturn since 1997, they have allowed scientists to collect data about the planet's rings and moons.</li>
+              <li class="ex-opt correct"><b>C.</b> Satellite missions studying Saturn, which allow scientists to collect data about the planet's rings and moons, have been ongoing since 1997.</li>
+              <li class="ex-opt"><b>D.</b> Satellite missions have been ongoing near Saturn, but scientists have been collecting data about the planet's rings and moons since 1997.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Satellite missions studying Saturn, <ins>which allow scientists to collect data about the planet's rings and moons,</ins> have been ongoing since 1997."</div>
+              <div class="ex-why"><b>Why:</b> Sentence 2 is just extra description of "satellite missions," so it folds into sentence 1 as a "which" clause rather than being tacked on with "and" or turned into a false cause/contrast.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam C — Standalone (CR49)</div>
-          <div class="ex-prompt">(1) Jordan rehearsed his role for weeks. (2) He delivered his lines with ease. (3) His performance was met with a burst of applause from the audience.
-            <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between ideas?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) Jordan rehearsed his role for weeks. (2) He delivered his lines with ease. (3) His performance was met with a burst of applause from the audience.
+              <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between ideas?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Though Jordan had rehearsed his role for weeks, when he delivered his lines with ease, his performance was met with a burst of applause from the audience.</li>
+              <li class="ex-opt"><b>B.</b> Jordan had rehearsed his role for weeks, yet he delivered his lines with ease, so his performance was met with a burst of applause from the audience.</li>
+              <li class="ex-opt correct"><b>C.</b> Because Jordan had rehearsed his role for weeks, he delivered his lines with ease, and his performance was met with a burst of applause from the audience.</li>
+              <li class="ex-opt"><b>D.</b> Jordan had rehearsed his role for weeks, so he delivered his lines with ease, but his performance was met with a burst of applause from the audience.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"<ins>Because</ins> Jordan had rehearsed his role for weeks, he delivered his lines with ease, <ins>and</ins> his performance was met with a burst of applause from the audience."</div>
+              <div class="ex-why"><b>Why:</b> All three ideas are a cause-and-effect chain (rehearsal → ease → applause). "Because" correctly marks the cause; "and" just adds the final result. Wrong choices use "yet," "so...but" — words that imply contrast or a problem, which isn't what's happening here.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Though Jordan had rehearsed his role for weeks, when he delivered his lines with ease, his performance was met with a burst of applause from the audience.</li>
-            <li class="ex-opt"><b>B.</b> Jordan had rehearsed his role for weeks, yet he delivered his lines with ease, so his performance was met with a burst of applause from the audience.</li>
-            <li class="ex-opt correct"><b>C.</b> Because Jordan had rehearsed his role for weeks, he delivered his lines with ease, and his performance was met with a burst of applause from the audience.</li>
-            <li class="ex-opt"><b>D.</b> Jordan had rehearsed his role for weeks, so he delivered his lines with ease, but his performance was met with a burst of applause from the audience.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"<ins>Because</ins> Jordan had rehearsed his role for weeks, he delivered his lines with ease, <ins>and</ins> his performance was met with a burst of applause from the audience."</div>
-            <div class="ex-why"><b>Why:</b> All three ideas are a cause-and-effect chain (rehearsal → ease → applause). "Because" correctly marks the cause; "and" just adds the final result. Wrong choices use "yet," "so...but" — words that imply contrast or a problem, which isn't what's happening here.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Elena practiced her violin piece for months. (2) She performed the solo with confidence. (3) Her performance earned a standing ovation from the audience.
+              <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between ideas?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Though Elena had practiced her violin piece for months, when she performed the solo with confidence, her performance earned a standing ovation from the audience.</li>
+              <li class="ex-opt"><b>B.</b> Elena had practiced her violin piece for months, yet she performed the solo with confidence, so her performance earned a standing ovation from the audience.</li>
+              <li class="ex-opt correct"><b>C.</b> Because Elena had practiced her violin piece for months, she performed the solo with confidence, and her performance earned a standing ovation from the audience.</li>
+              <li class="ex-opt"><b>D.</b> Elena had practiced her violin piece for months, so she performed the solo with confidence, but her performance earned a standing ovation from the audience.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"<ins>Because</ins> Elena had practiced her violin piece for months, she performed the solo with confidence, <ins>and</ins> her performance earned a standing ovation from the audience."</div>
+              <div class="ex-why"><b>Why:</b> All three ideas are a cause-and-effect chain (practice → confidence → ovation). "Because" correctly marks the cause; "and" just adds the final result. Wrong choices use "yet," "so...but" — words that imply contrast or a problem, which isn't what's happening here.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam D — Standalone (DR16)</div>
-          <div class="ex-prompt">(1) Scientists now believe that Jupiter may have as many as seventy-nine moons. (2) One of Jupiter's moons is named Io. (3) Io has the greatest number of active volcanoes in the solar system.
-            <div class="ex-ask">What is the best way to combine the sentences?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) Scientists now believe that Jupiter may have as many as seventy-nine moons. (2) One of Jupiter's moons is named Io. (3) Io has the greatest number of active volcanoes in the solar system.
+              <div class="ex-ask">What is the best way to combine the sentences?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Io, which is one of Jupiter's moons, has the greatest number of active volcanoes in the solar system, and scientists now believe that Jupiter may have as many as seventy-nine moons.</li>
+              <li class="ex-opt"><b>B.</b> Scientists now believe that Jupiter may have as many as seventy-nine moons, and one of them is named Io, which has the greatest number of active volcanoes in the solar system.</li>
+              <li class="ex-opt correct"><b>C.</b> Scientists now believe that Jupiter may have as many as seventy-nine moons, including one named Io, which has the greatest number of active volcanoes in the solar system.</li>
+              <li class="ex-opt"><b>D.</b> Io, a moon with the greatest number of active volcanoes in the solar system, is one of Jupiter's moons, and scientists now believe that Jupiter may have as many as seventy-nine moons.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Scientists now believe that Jupiter may have as many as seventy-nine moons, <ins>including one named Io, which has</ins> the greatest number of active volcanoes in the solar system."</div>
+              <div class="ex-why"><b>Why:</b> Sentence 1 is the main idea; sentences 2–3 are both just further detail about one specific moon, so "including...which" nests them both as description rather than giving them equal weight with "and."</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Io, which is one of Jupiter's moons, has the greatest number of active volcanoes in the solar system, and scientists now believe that Jupiter may have as many as seventy-nine moons.</li>
-            <li class="ex-opt"><b>B.</b> Scientists now believe that Jupiter may have as many as seventy-nine moons, and one of them is named Io, which has the greatest number of active volcanoes in the solar system.</li>
-            <li class="ex-opt correct"><b>C.</b> Scientists now believe that Jupiter may have as many as seventy-nine moons, including one named Io, which has the greatest number of active volcanoes in the solar system.</li>
-            <li class="ex-opt"><b>D.</b> Io, a moon with the greatest number of active volcanoes in the solar system, is one of Jupiter's moons, and scientists now believe that Jupiter may have as many as seventy-nine moons.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"Scientists now believe that Jupiter may have as many as seventy-nine moons, <ins>including one named Io, which has</ins> the greatest number of active volcanoes in the solar system."</div>
-            <div class="ex-why"><b>Why:</b> Sentence 1 is the main idea; sentences 2–3 are both just further detail about one specific moon, so "including...which" nests them both as description rather than giving them equal weight with "and."</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) Scientists now believe that Saturn may have more than one hundred and forty-five moons. (2) One of Saturn's moons is named Titan. (3) Titan has a dense atmosphere and liquid methane lakes.
+              <div class="ex-ask">What is the best way to combine the sentences?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Titan, which is one of Saturn's moons, has a dense atmosphere and liquid methane lakes, and scientists now believe that Saturn may have more than one hundred and forty-five moons.</li>
+              <li class="ex-opt"><b>B.</b> Scientists now believe that Saturn may have more than one hundred and forty-five moons, and one of them is named Titan, which has a dense atmosphere and liquid methane lakes.</li>
+              <li class="ex-opt correct"><b>C.</b> Scientists now believe that Saturn may have more than one hundred and forty-five moons, including one named Titan, which has a dense atmosphere and liquid methane lakes.</li>
+              <li class="ex-opt"><b>D.</b> Titan, a moon with a dense atmosphere and liquid methane lakes, is one of Saturn's moons, and scientists now believe that Saturn may have more than one hundred and forty-five moons.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Scientists now believe that Saturn may have more than one hundred and forty-five moons, <ins>including one named Titan, which has</ins> a dense atmosphere and liquid methane lakes."</div>
+              <div class="ex-why"><b>Why:</b> Sentence 1 is the main idea; sentences 2–3 are both just further detail about one specific moon, so "including...which" nests them both as description rather than giving them equal weight with "and."</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam F — Standalone (FR49)</div>
-          <div class="ex-prompt">(1) NASA's Artemis program plans to establish a base camp on the Moon. (2) The base camp established by NASA's Artemis program will serve as a critical staging point for future missions to Mars.
-            <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between the ideas?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">(1) NASA's Artemis program plans to establish a base camp on the Moon. (2) The base camp established by NASA's Artemis program will serve as a critical staging point for future missions to Mars.
+              <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between the ideas?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> NASA's Artemis program plans to establish a base camp on the Moon, but this lunar presence will serve as a critical staging point for future missions to Mars.</li>
+              <li class="ex-opt correct"><b>B.</b> NASA's Artemis program plans to establish a base camp on the Moon; afterwards, this lunar presence will serve as a critical staging point for future missions to Mars.</li>
+              <li class="ex-opt"><b>C.</b> Intending to serve as a critical staging point for future missions to Mars, the Moon will be used to establish a base camp by NASA's Artemis program.</li>
+              <li class="ex-opt"><b>D.</b> Although NASA's Artemis program plans to establish a base camp on the Moon, this lunar presence will serve as a critical staging point for future missions to Mars.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"NASA's Artemis program plans to establish a base camp on the Moon; <ins>afterwards,</ins> this lunar presence will serve as a critical staging point for future missions to Mars."</div>
+              <div class="ex-why"><b>Why:</b> This is a sequence in time (base camp first, staging point after), not a contrast — "afterwards" correctly marks that order. "Although/but" choices would wrongly imply the two ideas conflict with each other.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> NASA's Artemis program plans to establish a base camp on the Moon, but this lunar presence will serve as a critical staging point for future missions to Mars.</li>
-            <li class="ex-opt correct"><b>B.</b> NASA's Artemis program plans to establish a base camp on the Moon; afterwards, this lunar presence will serve as a critical staging point for future missions to Mars.</li>
-            <li class="ex-opt"><b>C.</b> Intending to serve as a critical staging point for future missions to Mars, the Moon will be used to establish a base camp by NASA's Artemis program.</li>
-            <li class="ex-opt"><b>D.</b> Although NASA's Artemis program plans to establish a base camp on the Moon, this lunar presence will serve as a critical staging point for future missions to Mars.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"NASA's Artemis program plans to establish a base camp on the Moon; <ins>afterwards,</ins> this lunar presence will serve as a critical staging point for future missions to Mars."</div>
-            <div class="ex-why"><b>Why:</b> This is a sequence in time (base camp first, staging point after), not a contrast — "afterwards" correctly marks that order. "Although/but" choices would wrongly imply the two ideas conflict with each other.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">(1) The city's new transit authority plans to build a light-rail line downtown. (2) The light-rail line built by the transit authority will serve as a key connector for future suburban extensions.
+              <div class="ex-ask">What is the best way to combine the sentences to clarify the relationship between the ideas?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> The city's new transit authority plans to build a light-rail line downtown, but this rail line will serve as a key connector for future suburban extensions.</li>
+              <li class="ex-opt correct"><b>B.</b> The city's new transit authority plans to build a light-rail line downtown; afterwards, this rail line will serve as a key connector for future suburban extensions.</li>
+              <li class="ex-opt"><b>C.</b> Intending to serve as a key connector for future suburban extensions, the downtown will be used to build a light-rail line by the transit authority.</li>
+              <li class="ex-opt"><b>D.</b> Although the city's new transit authority plans to build a light-rail line downtown, this rail line will serve as a key connector for future suburban extensions.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The city's new transit authority plans to build a light-rail line downtown; <ins>afterwards,</ins> this rail line will serve as a key connector for future suburban extensions."</div>
+              <div class="ex-why"><b>Why:</b> This is a sequence in time (light-rail line first, connector role after), not a contrast — "afterwards" correctly marks that order. "Although/but" choices would wrongly imply the two ideas conflict with each other.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -389,87 +619,182 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam B — Standalone (BR06)</div>
-          <div class="ex-prompt">In September 2016 the National Museum of African American History and Culture opened as part of the Smithsonian <u>Institution, the</u> museum is already the Smithsonian's third most popular site. Experts say that they expect this newest Smithsonian facility to welcome nearly 4 million visitors a <u>year. The</u> museum features more than 30,000 <u>objects, including</u> Muhammad Ali's boxing gloves and a dress sewn by Rosa Parks. A commemorative copy of the Emancipation <u>Proclamation, written</u> in 1863 during the presidency of Abraham Lincoln, is also on display at the museum.
-            <div class="ex-ask">Which part of the paragraph contains an error in sentence structure? Select the one error.</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">In September 2016 the National Museum of African American History and Culture opened as part of the Smithsonian <u>Institution, the</u> museum is already the Smithsonian's third most popular site. Experts say that they expect this newest Smithsonian facility to welcome nearly 4 million visitors a <u>year. The</u> museum features more than 30,000 <u>objects, including</u> Muhammad Ali's boxing gloves and a dress sewn by Rosa Parks. A commemorative copy of the Emancipation <u>Proclamation, written</u> in 1863 during the presidency of Abraham Lincoln, is also on display at the museum.
+              <div class="ex-ask">Which part of the paragraph contains an error in sentence structure? Select the one error.</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> Institution, the</li>
+              <li class="ex-opt"><b>B.</b> year. The</li>
+              <li class="ex-opt"><b>C.</b> objects, including</li>
+              <li class="ex-opt"><b>D.</b> Proclamation, written</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...opened as part of the Smithsonian <u>Institution, the</u> museum is already..." → "...Smithsonian <ins>Institution; the</ins> museum is already..."</div>
+              <div class="ex-why"><b>Why:</b> "The museum opened..." and "the museum is already..." are both complete sentences on their own — a plain comma can't join two complete sentences, so it needs a semicolon. (The other three underlined spots are correctly punctuated — they're just decoys.)</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt correct"><b>A.</b> Institution, the</li>
-            <li class="ex-opt"><b>B.</b> year. The</li>
-            <li class="ex-opt"><b>C.</b> objects, including</li>
-            <li class="ex-opt"><b>D.</b> Proclamation, written</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"...opened as part of the Smithsonian <u>Institution, the</u> museum is already..." → "...Smithsonian <ins>Institution; the</ins> museum is already..."</div>
-            <div class="ex-why"><b>Why:</b> "The museum opened..." and "the museum is already..." are both complete sentences on their own — a plain comma can't join two complete sentences, so it needs a semicolon. (The other three underlined spots are correctly punctuated — they're just decoys.)</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">In March 2015 the National Museum of Mathematics opened as part of a growing wave of hands-on science <u>museums, the</u> museum is already one of the city's most visited cultural sites. Experts say that they expect this growing museum to welcome over 100,000 visitors a <u>year. The</u> museum features more than 30 interactive <u>exhibits, including</u> a square-wheeled tricycle and a human-sized fractal maze. A rotating exhibit on <u>probability, designed</u> in 2019 by a team of mathematicians, is also on display at the museum.
+              <div class="ex-ask">Which part of the paragraph contains an error in sentence structure? Select the one error.</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> museums, the</li>
+              <li class="ex-opt"><b>B.</b> year. The</li>
+              <li class="ex-opt"><b>C.</b> exhibits, including</li>
+              <li class="ex-opt"><b>D.</b> probability, designed</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...opened as part of a growing wave of hands-on science <u>museums, the</u> museum is already..." → "...hands-on science <ins>museums; the</ins> museum is already..."</div>
+              <div class="ex-why"><b>Why:</b> "The museum opened..." and "the museum is already..." are both complete sentences on their own — a plain comma can't join two complete sentences, so it needs a semicolon. (The other three underlined spots are correctly punctuated — they're just decoys.)</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 1 — Standalone (KM1_Q01)</div>
-          <div class="ex-prompt">One of the most predictable <u>problems</u> that New England gardeners <u>encounter</u> is rocky <u>soil,</u> another issue that plagues these gardeners is the destruction of cultivated plants by local wildlife.
-            <div class="ex-ask">Which edit should be made to correct this sentence?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">One of the most predictable <u>problems</u> that New England gardeners <u>encounter</u> is rocky <u>soil,</u> another issue that plagues these gardeners is the destruction of cultivated plants by local wildlife.
+              <div class="ex-ask">Which edit should be made to correct this sentence?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Insert a comma after <b>problems</b>.</li>
+              <li class="ex-opt"><b>B.</b> Insert a comma after <b>encounter</b>.</li>
+              <li class="ex-opt"><b>C.</b> Delete the comma after <b>soil</b>.</li>
+              <li class="ex-opt correct"><b>D.</b> Replace the comma after <b>soil</b> with a semicolon.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...is rocky <u>soil,</u> another issue that plagues..." → "...is rocky <ins>soil; another</ins> issue that plagues these gardeners is the destruction of cultivated plants by local wildlife."</div>
+              <div class="ex-why"><b>Why:</b> Same comma-splice pattern as BR06 — "...is rocky soil" and "another issue...is the destruction..." are each a full sentence, so the comma needs to become a semicolon.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Insert a comma after <b>problems</b>.</li>
-            <li class="ex-opt"><b>B.</b> Insert a comma after <b>encounter</b>.</li>
-            <li class="ex-opt"><b>C.</b> Delete the comma after <b>soil</b>.</li>
-            <li class="ex-opt correct"><b>D.</b> Replace the comma after <b>soil</b> with a semicolon.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"...is rocky <u>soil,</u> another issue that plagues..." → "...is rocky <ins>soil; another</ins> issue that plagues these gardeners is the destruction of cultivated plants by local wildlife."</div>
-            <div class="ex-why"><b>Why:</b> Same comma-splice pattern as BR06 — "...is rocky soil" and "another issue...is the destruction..." are each a full sentence, so the comma needs to become a semicolon.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">One of the most frustrating problems that city gardeners encounter is limited sunlight, another issue that plagues these gardeners is the high cost of raised garden beds.
+              <div class="ex-ask">Which edit should be made to correct this sentence?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Insert a comma after <b>problems</b>.</li>
+              <li class="ex-opt"><b>B.</b> Insert a comma after <b>encounter</b>.</li>
+              <li class="ex-opt"><b>C.</b> Delete the comma after <b>sunlight</b>.</li>
+              <li class="ex-opt correct"><b>D.</b> Replace the comma after <b>sunlight</b> with a semicolon.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...is limited <u>sunlight,</u> another issue that plagues..." → "...is limited <ins>sunlight; another</ins> issue that plagues these gardeners is the high cost of raised garden beds."</div>
+              <div class="ex-why"><b>Why:</b> Same comma-splice pattern as the museum example — "...is limited sunlight" and "another issue...is the high cost..." are each a full sentence, so the comma needs to become a semicolon.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam G — Standalone (GR50)</div>
-          <div class="ex-prompt">The dedicated skilled engineer Ellen Ochoa became the first Hispanic American woman to go to space when she participated in a nine-day NASA mission focused on studying the Sun and its interaction with Earth's atmosphere in 1993.
-            <div class="ex-ask">Which edit should be made to correct the sentence?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">The dedicated skilled engineer Ellen Ochoa became the first Hispanic American woman to go to space when she participated in a nine-day NASA mission focused on studying the Sun and its interaction with Earth's atmosphere in 1993.
+              <div class="ex-ask">Which edit should be made to correct the sentence?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> Insert a comma after <b>dedicated</b>.</li>
+              <li class="ex-opt"><b>B.</b> Insert a comma after <b>Hispanic</b>.</li>
+              <li class="ex-opt"><b>C.</b> Insert a comma after <b>nine-day</b>.</li>
+              <li class="ex-opt"><b>D.</b> Insert a comma after <b>Sun</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The <u>dedicated</u> skilled engineer Ellen Ochoa became..." → "The <ins>dedicated,</ins> skilled engineer Ellen Ochoa became..."</div>
+              <div class="ex-why"><b>Why:</b> "Dedicated" and "skilled" are two separate, equal adjectives both describing "engineer" ("dedicated AND skilled engineer" works), so they need a comma between them.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt correct"><b>A.</b> Insert a comma after <b>dedicated</b>.</li>
-            <li class="ex-opt"><b>B.</b> Insert a comma after <b>Hispanic</b>.</li>
-            <li class="ex-opt"><b>C.</b> Insert a comma after <b>nine-day</b>.</li>
-            <li class="ex-opt"><b>D.</b> Insert a comma after <b>Sun</b>.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"The <u>dedicated</u> skilled engineer Ellen Ochoa became..." → "The <ins>dedicated,</ins> skilled engineer Ellen Ochoa became..."</div>
-            <div class="ex-why"><b>Why:</b> "Dedicated" and "skilled" are two separate, equal adjectives both describing "engineer" ("dedicated AND skilled engineer" works), so they need a comma between them.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">The curious determined astronomer Dr. Lena Park became the first woman to lead the observatory's research team when she completed a six-month expedition focused on mapping distant galaxies in 2021.
+              <div class="ex-ask">Which edit should be made to correct the sentence?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>A.</b> Insert a comma after <b>curious</b>.</li>
+              <li class="ex-opt"><b>B.</b> Insert a comma after <b>woman</b>.</li>
+              <li class="ex-opt"><b>C.</b> Insert a comma after <b>six-month</b>.</li>
+              <li class="ex-opt"><b>D.</b> Insert a comma after <b>galaxies</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The <u>curious</u> determined astronomer Dr. Lena Park became..." → "The <ins>curious,</ins> determined astronomer Dr. Lena Park became..."</div>
+              <div class="ex-why"><b>Why:</b> "Curious" and "determined" are two separate, equal adjectives both describing "astronomer" ("curious AND determined astronomer" works), so they need a comma between them.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 3 — Standalone (KM3_Q06)</div>
-          <div class="ex-prompt">The swift nimble Florence Griffith Joyner set a world record in 1988 when she beat the old record for the 100-meter sprint by 0.27 seconds and improved her previous best by more than half a second.
-            <div class="ex-ask">Which edit should be made to correct this sentence?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">The swift nimble Florence Griffith Joyner set a world record in 1988 when she beat the old record for the 100-meter sprint by 0.27 seconds and improved her previous best by more than half a second.
+              <div class="ex-ask">Which edit should be made to correct this sentence?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>E.</b> Insert a comma after <b>swift</b>.</li>
+              <li class="ex-opt"><b>F.</b> Insert a comma after <b>seconds</b>.</li>
+              <li class="ex-opt"><b>G.</b> Insert a comma after <b>previous</b>.</li>
+              <li class="ex-opt"><b>H.</b> Insert a comma after <b>best</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The <u>swift</u> nimble Florence Griffith Joyner..." → "The <ins>swift,</ins> nimble Florence Griffith Joyner..."</div>
+              <div class="ex-why"><b>Why:</b> Identical pattern to GR50 — two independent adjectives ("swift" and "nimble") describing the same person need a comma between them.</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt correct"><b>E.</b> Insert a comma after <b>swift</b>.</li>
-            <li class="ex-opt"><b>F.</b> Insert a comma after <b>seconds</b>.</li>
-            <li class="ex-opt"><b>G.</b> Insert a comma after <b>previous</b>.</li>
-            <li class="ex-opt"><b>H.</b> Insert a comma after <b>best</b>.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"The <u>swift</u> nimble Florence Griffith Joyner..." → "The <ins>swift,</ins> nimble Florence Griffith Joyner..."</div>
-            <div class="ex-why"><b>Why:</b> Identical pattern to GR50 — two independent adjectives ("swift" and "nimble") describing the same person need a comma between them.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">The quiet focused chess champion Daniel Kim set a tournament record in 2019 when he won twelve matches in a row and improved his previous ranking by more than two hundred points.
+              <div class="ex-ask">Which edit should be made to correct this sentence?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt correct"><b>E.</b> Insert a comma after <b>quiet</b>.</li>
+              <li class="ex-opt"><b>F.</b> Insert a comma after <b>points</b>.</li>
+              <li class="ex-opt"><b>G.</b> Insert a comma after <b>previous</b>.</li>
+              <li class="ex-opt"><b>H.</b> Insert a comma after <b>ranking</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The <u>quiet</u> focused chess champion Daniel Kim set..." → "The <ins>quiet,</ins> focused chess champion Daniel Kim set..."</div>
+              <div class="ex-why"><b>Why:</b> Identical pattern to the astronomer example — two independent adjectives ("quiet" and "focused") describing the same person need a comma between them.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 3 — Standalone (KM3_Q03)</div>
-          <div class="ex-prompt">Point Pleasant needed increased revenue, from tourism, and consequently the town built a new park, a large hotel, and a fine restaurant in the main square.
-            <div class="ex-ask">How should the sentence be revised?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">Point Pleasant needed increased revenue, from tourism, and consequently the town built a new park, a large hotel, and a fine restaurant in the main square.
+              <div class="ex-ask">How should the sentence be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Insert a comma after <b>Point Pleasant</b>, AND delete the comma after <b>hotel</b>.</li>
+              <li class="ex-opt correct"><b>B.</b> Delete the comma after <b>revenue</b>, AND insert a comma after <b>consequently</b>.</li>
+              <li class="ex-opt"><b>C.</b> Insert a comma after <b>town</b>, AND delete the comma after <b>park</b>.</li>
+              <li class="ex-opt"><b>D.</b> Insert a comma after <b>restaurant</b>, AND insert a comma after <b>main</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Point Pleasant needed increased <u>revenue, from</u> tourism, <u>and consequently</u> the town built..." → "Point Pleasant needed increased <ins>revenue from</ins> tourism, <ins>and, consequently,</ins> the town built..."</div>
+              <div class="ex-why"><b>Why:</b> "Revenue from tourism" is one tight phrase that shouldn't be split by a comma; "consequently" is an inserted transition word that needs its own commas on both sides, not a bare "and consequently."</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> Insert a comma after <b>Point Pleasant</b>, AND delete the comma after <b>hotel</b>.</li>
-            <li class="ex-opt correct"><b>B.</b> Delete the comma after <b>revenue</b>, AND insert a comma after <b>consequently</b>.</li>
-            <li class="ex-opt"><b>C.</b> Insert a comma after <b>town</b>, AND delete the comma after <b>park</b>.</li>
-            <li class="ex-opt"><b>D.</b> Insert a comma after <b>restaurant</b>, AND insert a comma after <b>main</b>.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"Point Pleasant needed increased <u>revenue, from</u> tourism, <u>and consequently</u> the town built..." → "Point Pleasant needed increased <ins>revenue from</ins> tourism, <ins>and, consequently,</ins> the town built..."</div>
-            <div class="ex-why"><b>Why:</b> "Revenue from tourism" is one tight phrase that shouldn't be split by a comma; "consequently" is an inserted transition word that needs its own commas on both sides, not a bare "and consequently."</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">Riverdale needed increased funding, for schools, and subsequently the town built a new library, a renovated gym, and an updated playground near the square.
+              <div class="ex-ask">How should the sentence be revised?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> Insert a comma after <b>Riverdale</b>, AND delete the comma after <b>gym</b>.</li>
+              <li class="ex-opt correct"><b>B.</b> Delete the comma after <b>funding</b>, AND insert a comma after <b>subsequently</b>.</li>
+              <li class="ex-opt"><b>C.</b> Insert a comma after <b>town</b>, AND delete the comma after <b>library</b>.</li>
+              <li class="ex-opt"><b>D.</b> Insert a comma after <b>playground</b>, AND insert a comma after <b>near</b>.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Riverdale needed increased <u>funding, for</u> schools, <u>and subsequently</u> the town built..." → "Riverdale needed increased <ins>funding for</ins> schools, <ins>and, subsequently,</ins> the town built..."</div>
+              <div class="ex-why"><b>Why:</b> "Funding for schools" is one tight phrase that shouldn't be split by a comma; "subsequently" is an inserted transition word that needs its own commas on both sides, not a bare "and subsequently."</div>
+            </div>
           </div>
         </div>
       </div>
@@ -490,71 +815,147 @@
       <div class="ex-grid">
         <div class="ex-card">
           <div class="ex-source">Exam D — Standalone (DR14)</div>
-          <div class="ex-prompt">In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways <u>send the sound through the environment</u>.
-            <div class="ex-ask">Which revision to the words "send the sound through the environment" uses the most precise language? Drag the correct phrase into the box.</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways <u>send the sound through the environment</u>.
+              <div class="ex-ask">Which revision to the words "send the sound through the environment" uses the most precise language? Drag the correct phrase into the box.</div>
+            </div>
+            <p class="ex-dragnote">Drag-the-phrase format — drag one of these into the box:</p>
+            <ul class="ex-dragbank">
+              <li class="ex-drag">guide the sound waves in a specific direction</li>
+              <li class="ex-drag">focus the sound waves to travel through the space</li>
+              <li class="ex-drag correct">direct the sound waves to move along the curves of the arches</li>
+              <li class="ex-drag">transfer the sound waves to a variety of different locations</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...because the tiled archways <u>send the sound through the environment</u>." → "...because the tiled archways <ins>direct the sound waves to move along the curves of the arches</ins>."</div>
+              <div class="ex-why"><b>Why:</b> "Send...through the environment" is vague — it doesn't say how. The fix names the actual mechanism already implied by "tiled archways": sound waves following the curve of the arch.</div>
+            </div>
           </div>
-          <p class="ex-dragnote">Drag-the-phrase format — drag one of these into the box:</p>
-          <ul class="ex-dragbank">
-            <li class="ex-drag">guide the sound waves in a specific direction</li>
-            <li class="ex-drag">focus the sound waves to travel through the space</li>
-            <li class="ex-drag correct">direct the sound waves to move along the curves of the arches</li>
-            <li class="ex-drag">transfer the sound waves to a variety of different locations</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"...because the tiled archways <u>send the sound through the environment</u>." → "...because the tiled archways <ins>direct the sound waves to move along the curves of the arches</ins>."</div>
-            <div class="ex-why"><b>Why:</b> "Send...through the environment" is vague — it doesn't say how. The fix names the actual mechanism already implied by "tiled archways": sound waves following the curve of the arch.</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">In the Open-Air Amphitheater of Riverside Park, a performer speaking softly at center stage can be heard clearly in the back row, even over ambient noise, because the curved stone seating <u>sends the sound through the environment</u>.
+              <div class="ex-ask">Which revision to the underlined words uses the most precise language?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> guides the sound waves in a specific direction</li>
+              <li class="ex-opt"><b>B.</b> focuses the sound waves to travel through the space</li>
+              <li class="ex-opt correct"><b>C.</b> directs the sound waves to move along the curve of the seating</li>
+              <li class="ex-opt"><b>D.</b> transfers the sound waves to a variety of different locations</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...because the curved stone seating <u>sends the sound through the environment</u>." → "...because the curved stone seating <ins>directs the sound waves to move along the curve of the seating</ins>."</div>
+              <div class="ex-why"><b>Why:</b> "Send...through the environment" is vague — it doesn't say how. The fix names the actual mechanism already implied by "curved stone seating": sound waves following the curve.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam F — Standalone (FR47)</div>
-          <div class="ex-prompt">Lucia explored the flea market looking for <u>some cheap things for her kitchen</u>. After searching through a bin of mismatched ceramics, she finally discovered a set of hand-carved cherry wood bowls that possessed exactly the rustic charm she had imagined. With a few polished silver spoons tucked into her bag alongside them, she headed home, satisfied that she had found the perfect additions to her kitchen without exceeding her budget.
-            <div class="ex-ask">What is the most precise revision for the words "some cheap things for her kitchen"?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">Lucia explored the flea market looking for <u>some cheap things for her kitchen</u>. After searching through a bin of mismatched ceramics, she finally discovered a set of hand-carved cherry wood bowls that possessed exactly the rustic charm she had imagined. With a few polished silver spoons tucked into her bag alongside them, she headed home, satisfied that she had found the perfect additions to her kitchen without exceeding her budget.
+              <div class="ex-ask">What is the most precise revision for the words "some cheap things for her kitchen"?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> some inexpensive things for her kitchen</li>
+              <li class="ex-opt"><b>B.</b> some low-cost kitchen items</li>
+              <li class="ex-opt"><b>C.</b> two types of kitchen tools</li>
+              <li class="ex-opt correct"><b>D.</b> affordable salad bowls and serving spoons</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Lucia explored the flea market looking for <u>some cheap things for her kitchen</u>." → "...looking for <ins>affordable salad bowls and serving spoons</ins>."</div>
+              <div class="ex-why"><b>Why:</b> The rest of the paragraph already tells us exactly what she bought — bowls and spoons. The precise revision uses those specific items instead of "some cheap things." ("Inexpensive"/"low-cost" choices are just a synonym swap — still vague about WHAT she bought.)</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> some inexpensive things for her kitchen</li>
-            <li class="ex-opt"><b>B.</b> some low-cost kitchen items</li>
-            <li class="ex-opt"><b>C.</b> two types of kitchen tools</li>
-            <li class="ex-opt correct"><b>D.</b> affordable salad bowls and serving spoons</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"Lucia explored the flea market looking for <u>some cheap things for her kitchen</u>." → "...looking for <ins>affordable salad bowls and serving spoons</ins>."</div>
-            <div class="ex-why"><b>Why:</b> The rest of the paragraph already tells us exactly what she bought — bowls and spoons. The precise revision uses those specific items instead of "some cheap things." ("Inexpensive"/"low-cost" choices are just a synonym swap — still vague about WHAT she bought.)</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">Diego wandered the farmers market looking for <u>some fresh things for his breakfast</u>. After sampling a few bins of early-season berries, he finally found a crate of heirloom tomatoes that had exactly the ripeness he was hoping for. With a loaf of sourdough tucked under his arm, he headed home, pleased that he had found the perfect additions to his breakfast without spending too much.
+              <div class="ex-ask">What is the most precise revision for the underlined words?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> some healthy things for his breakfast</li>
+              <li class="ex-opt"><b>B.</b> some fresh market items</li>
+              <li class="ex-opt"><b>C.</b> two types of produce</li>
+              <li class="ex-opt correct"><b>D.</b> ripe tomatoes and a loaf of sourdough</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"Diego wandered the farmers market looking for <u>some fresh things for his breakfast</u>." → "...looking for <ins>ripe tomatoes and a loaf of sourdough</ins>."</div>
+              <div class="ex-why"><b>Why:</b> The rest of the paragraph already tells us exactly what he bought — tomatoes and sourdough. The precise revision uses those specific items instead of "some fresh things."</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Exam E — Standalone (ER50)</div>
-          <div class="ex-prompt">The Brooklyn Bridge was such a big distance across the water and took a really long time to finish, so many people doubted that the bridge would ever be completed.
-            <div class="ex-ask">Which revision of the sentence uses the most precise language?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">The Brooklyn Bridge was such a big distance across the water and took a really long time to finish, so many people doubted that the bridge would ever be completed.
+              <div class="ex-ask">Which revision of the sentence uses the most precise language?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> The Brooklyn Bridge involved a significant gap across the water and lasted for many years, so many people doubted that the bridge would ever be completed.</li>
+              <li class="ex-opt correct"><b>B.</b> The Brooklyn Bridge required a one-mile span over the East River and fourteen years of construction, so many people doubted that the bridge would ever be completed.</li>
+              <li class="ex-opt"><b>C.</b> The Brooklyn Bridge was an immense length over the river and its construction continued for a lengthy duration, so many people doubted that the bridge would ever be completed.</li>
+              <li class="ex-opt"><b>D.</b> The Brooklyn Bridge featured a wide reach between landmasses and took an extended amount of time, so many people doubted that the bridge would ever be completed.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The Brooklyn Bridge was such a big distance across the water and took a really long time to finish..." → "The Brooklyn Bridge required <ins>a one-mile span over the East River and fourteen years of construction</ins>..."</div>
+              <div class="ex-why"><b>Why:</b> "Big distance" and "really long time" are vague; the best choice swaps in the actual measurable facts (one mile, fourteen years, East River) rather than just rephrasing the vagueness with fancier synonyms like "immense length" or "lengthy duration."</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>A.</b> The Brooklyn Bridge involved a significant gap across the water and lasted for many years, so many people doubted that the bridge would ever be completed.</li>
-            <li class="ex-opt correct"><b>B.</b> The Brooklyn Bridge required a one-mile span over the East River and fourteen years of construction, so many people doubted that the bridge would ever be completed.</li>
-            <li class="ex-opt"><b>C.</b> The Brooklyn Bridge was an immense length over the river and its construction continued for a lengthy duration, so many people doubted that the bridge would ever be completed.</li>
-            <li class="ex-opt"><b>D.</b> The Brooklyn Bridge featured a wide reach between landmasses and took an extended amount of time, so many people doubted that the bridge would ever be completed.</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"The Brooklyn Bridge was such a big distance across the water and took a really long time to finish..." → "The Brooklyn Bridge required <ins>a one-mile span over the East River and fourteen years of construction</ins>..."</div>
-            <div class="ex-why"><b>Why:</b> "Big distance" and "really long time" are vague; the best choice swaps in the actual measurable facts (one mile, fourteen years, East River) rather than just rephrasing the vagueness with fancier synonyms like "immense length" or "lengthy duration."</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">The Golden Gate Bridge was such a big distance across the water and took a really long time to finish, so many engineers doubted that the bridge would ever be completed.
+              <div class="ex-ask">Which revision of the sentence uses the most precise language?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>A.</b> The Golden Gate Bridge involved a significant gap across the water and lasted for many years, so many engineers doubted that the bridge would ever be completed.</li>
+              <li class="ex-opt correct"><b>B.</b> The Golden Gate Bridge required a 1.7-mile span across the strait and four years of construction, so many engineers doubted that the bridge would ever be completed.</li>
+              <li class="ex-opt"><b>C.</b> The Golden Gate Bridge was an immense length over the strait and its construction continued for a lengthy duration, so many engineers doubted that the bridge would ever be completed.</li>
+              <li class="ex-opt"><b>D.</b> The Golden Gate Bridge featured a wide reach between shorelines and took an extended amount of time, so many engineers doubted that the bridge would ever be completed.</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"The Golden Gate Bridge was such a big distance across the water and took a really long time to finish..." → "The Golden Gate Bridge required <ins>a 1.7-mile span across the strait and four years of construction</ins>..."</div>
+              <div class="ex-why"><b>Why:</b> "Big distance" and "really long time" are vague; the best choice swaps in the actual measurable facts (1.7 miles, four years, the strait) rather than just rephrasing the vagueness with fancier synonyms.</div>
+            </div>
           </div>
         </div>
         <div class="ex-card">
           <div class="ex-source">Kaplan 3 — Standalone (KM3_Q02)</div>
-          <div class="ex-prompt">During the intense exchange between the basketball coaches and the referees about a pivotal decision that could change the outcome of the playoff game, the sports journalist calmly and clearly <u>explained to all of the people who were viewing channel KXTV on their televisions what was happening</u>.
-            <div class="ex-ask">Which revision uses the most precise language for the underlined words?</div>
+          <div class="ex-unit">
+            <div class="ex-prompt">During the intense exchange between the basketball coaches and the referees about a pivotal decision that could change the outcome of the playoff game, the sports journalist calmly and clearly <u>explained to all of the people who were viewing channel KXTV on their televisions what was happening</u>.
+              <div class="ex-ask">Which revision uses the most precise language for the underlined words?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>E.</b> told the people about the events</li>
+              <li class="ex-opt correct"><b>F.</b> reported on the disagreement for KXTV</li>
+              <li class="ex-opt"><b>G.</b> explained the dialogue for the people at home watching KXTV</li>
+              <li class="ex-opt"><b>H.</b> discussed the issue on live television</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...the sports journalist calmly and clearly <u>explained to all of the people who were viewing channel KXTV on their televisions what was happening</u>." → "...the sports journalist calmly and clearly <ins>reported on the disagreement for KXTV</ins>."</div>
+              <div class="ex-why"><b>Why:</b> "All of the people who were viewing channel KXTV on their televisions" is a wordy way of just saying "for KXTV," and "what was happening" is replaced with the specific event already named earlier in the sentence: "the disagreement."</div>
+            </div>
           </div>
-          <ul class="ex-options">
-            <li class="ex-opt"><b>E.</b> told the people about the events</li>
-            <li class="ex-opt correct"><b>F.</b> reported on the disagreement for KXTV</li>
-            <li class="ex-opt"><b>G.</b> explained the dialogue for the people at home watching KXTV</li>
-            <li class="ex-opt"><b>H.</b> discussed the issue on live television</li>
-          </ul>
-          <button class="ex-reveal-btn">Show the answer</button>
-          <div class="ex-answer">
-            <div class="ex-sentence">"...the sports journalist calmly and clearly <u>explained to all of the people who were viewing channel KXTV on their televisions what was happening</u>." → "...the sports journalist calmly and clearly <ins>reported on the disagreement for KXTV</ins>."</div>
-            <div class="ex-why"><b>Why:</b> "All of the people who were viewing channel KXTV on their televisions" is a wordy way of just saying "for KXTV," and "what was happening" is replaced with the specific event already named earlier in the sentence: "the disagreement."</div>
+          <div class="ex-unit ex-variant">
+            <div class="ex-variant-label">Try a similar one (not from a real exam)</div>
+            <div class="ex-prompt">During the heated debate between the city council members and the residents about a controversial zoning proposal that could change the character of the neighborhood, the local reporter calmly and clearly <u>explained to all of the people who were reading the morning paper what was happening</u>.
+              <div class="ex-ask">Which revision uses the most precise language for the underlined words?</div>
+            </div>
+            <ul class="ex-options">
+              <li class="ex-opt"><b>E.</b> told the people about the events</li>
+              <li class="ex-opt correct"><b>F.</b> reported on the dispute for the morning paper</li>
+              <li class="ex-opt"><b>G.</b> explained the debate for the people reading the paper</li>
+              <li class="ex-opt"><b>H.</b> discussed the issue in print</li>
+            </ul>
+            <button class="ex-reveal-btn">Show the answer</button>
+            <div class="ex-answer">
+              <div class="ex-sentence">"...the local reporter calmly and clearly <u>explained to all of the people who were reading the morning paper what was happening</u>." → "...the local reporter calmly and clearly <ins>reported on the dispute for the morning paper</ins>."</div>
+              <div class="ex-why"><b>Why:</b> "All of the people who were reading the morning paper" is a wordy way of just saying "for the morning paper," and "what was happening" is replaced with the specific event already named earlier in the sentence: "the dispute."</div>
+            </div>
           </div>
         </div>
       </div>
@@ -590,8 +991,8 @@
   <script>
     document.querySelectorAll('.ex-reveal-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var card = btn.closest('.ex-card');
-        var revealed = card.classList.toggle('revealed');
+        var unit = btn.closest('.ex-unit');
+        var revealed = unit.classList.toggle('revealed');
         btn.textContent = revealed ? 'Hide the answer' : 'Show the answer';
       });
     });
