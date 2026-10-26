@@ -427,6 +427,8 @@
       let figureHtml = '';
       if (q.figure_svg) {
         figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
+      } else if (q.figure_image) {
+        figureHtml = `<div class="tn-figure"><img src="${q.figure_image}" alt="Figure" style="max-width:100%;display:block;border-radius:4px;"></div>`;
       }
       document.getElementById('tn-question').innerHTML = stimulusHtml + figureHtml + renderQuestionText(q.question);
 

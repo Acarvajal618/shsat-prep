@@ -1,9 +1,9 @@
 {
   "_schema": {
-    "description": "Kaplan 2025 'SHSAT Practice Tests and Explanations' book, Practice Test 1, Part 1 ELA, questions 1-57 (Revising/Editing Part A Q1-7, Part B Q8-14, Reading Comprehension Q15-57 across 6 passages). Questions/options/passage text transcribed verbatim from the book. Explanations are NOT transcribed as text per the user's instruction — each question's 'Solution' button shows a cropped photo of the book's 'Getting to the Answer' explanation instead.",
+    "description": "Kaplan 2025 'SHSAT Practice Tests and Explanations' book, Practice Test 1, Part 1 ELA, questions 1-57 (Revising/Editing Part A Q1-7, Part B Q8-14, Reading Comprehension Q15-57 across 6 passages). Questions/options/passage text transcribed verbatim from the book. Explanations are NOT transcribed as text per the user's instruction \u2014 each question's 'Solution' button shows a cropped photo of the book's 'Getting to the Answer' explanation instead.",
     "source": "Kaplan SHSAT Practice Tests and Explanations, Practice Test 1, pages 342-366 (questions) and 379-388 (answers/explanations)",
-    "status": "Questions 1-57 transcribed (ELA complete). Math (58-114) not yet started.",
-    "option_letters": "The book alternates A-D and E-H per question (standard test-booklet convention to avoid bubble-sheet confusion) — preserved exactly as printed rather than normalized."
+    "status": "Questions 1-114 transcribed \u2014 exam complete (57 ELA + 57 math).",
+    "option_letters": "The book alternates A-D and E-H per question (standard test-booklet convention to avoid bubble-sheet confusion) \u2014 preserved exactly as printed rather than normalized."
   },
   "standalone_items": [
     {
@@ -61,7 +61,7 @@
       "id": "KM1_Q04",
       "q_number": 4,
       "question_type": "mc",
-      "stimulus": "(1) The River Seine cuts through <u>Paris, forming</u> the Left Bank and Right Bank. (2) Although the riverbanks no longer <u>have</u> any <u>factories,</u> they include many famous attractions. (3) On a river <u>cruise,</u> tourists <u>can view</u> the Eiffel Tower, artistic bridges, and lush gardens. (4) They can also see the famous Musée d'Orsay, a renovated train station that <u>becomes</u> <u>a museum,</u> after it was filled with paintings and sculptures.",
+      "stimulus": "(1) The River Seine cuts through <u>Paris, forming</u> the Left Bank and Right Bank. (2) Although the riverbanks no longer <u>have</u> any <u>factories,</u> they include many famous attractions. (3) On a river <u>cruise,</u> tourists <u>can view</u> the Eiffel Tower, artistic bridges, and lush gardens. (4) They can also see the famous Mus\u00e9e d'Orsay, a renovated train station that <u>becomes</u> <u>a museum,</u> after it was filled with paintings and sculptures.",
       "question": "Which revisions correct the errors in the paragraph?",
       "options": {
         "E": "Sentence 1: Change **forming** to **forms**, AND delete the comma after **Paris**.",
@@ -124,6 +124,952 @@
       "solution": {
         "exhibit_image": "kaplan_2025_1/solutions/Q07.jpg"
       }
+    },
+    {
+      "id": "KM1_Q58",
+      "q_number": 58,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "What is the value of the expression shown above?  \\[4-6\\div|-2|+(-3)^3\\times 2\\dfrac{1}{3}\\]",
+      "grid_answer": "-62",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q58.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q59",
+      "q_number": 59,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "If \\(3x+8=44\\), what is the value of \\(x\\)?",
+      "grid_answer": "12",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q59.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q60",
+      "q_number": 60,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "Carin opened a money market account with a deposit of $3,000. This account earns 2% simple interest annually. How many years will it take for her $3,000 deposit to earn $420 in interest, assuming she does not withdraw any of the money?",
+      "grid_answer": "7",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q60.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q61",
+      "q_number": 61,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "In a scale drawing of a rectangular patio, the length is 14 inches and the width is 10 inches. In the drawing, 4 inches represents 5 yards. What is the length of the actual patio, in yards?",
+      "grid_answer": "17.5",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q61.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q62",
+      "q_number": 62,
+      "question_type": "grid_in",
+      "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+      "question": "A certain test consists of multiple-choice questions and essay questions in the ratio of 5:2. If the test contains 6 essay questions, what is the total number of questions on the test?",
+      "grid_answer": "21",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q62.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q63",
+      "q_number": 63,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In quadrilateral ABCD shown above, AD = 20 cm, DC = 15 cm, BC = 7 cm, and AB = 24 cm. Angles ADC and ABC are right angles. What is the area of quadrilateral ABCD?",
+      "options": {
+        "A": "66 sq cm",
+        "B": "117 sq cm",
+        "C": "234 sq cm",
+        "D": "468 sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q63.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><line x1=\"20\" y1=\"20\" x2=\"164\" y2=\"128\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"164\" y1=\"128\" x2=\"132.5\" y2=\"170\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"132.5\" y1=\"170\" x2=\"20\" y2=\"170\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"20\" y1=\"170\" x2=\"20\" y2=\"20\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"20\" y1=\"20\" x2=\"132.5\" y2=\"170\" stroke=\"#222\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><path d=\"M20.0,160.0 L30.0,160.0 L30.0,170.0\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M156.0,122.0 L150.0,130.0 L158.0,136.0\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"10\" y=\"15\" font-size=\"14\">A</text><text x=\"172\" y=\"126\" font-size=\"14\">B</text><text x=\"138.5\" y=\"186\" font-size=\"14\">C</text><text x=\"6\" y=\"186\" font-size=\"14\">D</text></svg>"
+    },
+    {
+      "id": "KM1_Q64",
+      "q_number": 64,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A pond contains 1,600 fish. If 25% of the fish are trout and the remaining fish are bass, how many fewer trout are there than bass?",
+      "options": {
+        "E": "200",
+        "F": "400",
+        "G": "800",
+        "H": "1,200"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q64.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q65",
+      "q_number": 65,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The number 119 has a smallest factor, other than 1, of 7. Which of the following numbers does NOT have a smallest factor (other than 1) of 7?",
+      "options": {
+        "A": "28",
+        "B": "35",
+        "C": "40",
+        "D": "63"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q65.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q66",
+      "q_number": 66,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Lucia speed walks 3 kilometers in \\(\\dfrac{2}{3}\\) hour. At that rate, how many meters does she speed walk per minute?",
+      "options": {
+        "E": "0.75",
+        "F": "75",
+        "G": "750",
+        "H": "7,500"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q66.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q67",
+      "q_number": 67,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "\\(\\dfrac{72}{7}=\\dfrac{12}{x}\\). What value of \\(x\\) makes the equation true?",
+      "options": {
+        "A": "1",
+        "B": "\\(1\\dfrac{1}{6}\\)",
+        "C": "6",
+        "D": "\\(7\\dfrac{1}{6}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q67.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q68",
+      "q_number": 68,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Which number line shows the solution to the inequality above?  \\[-2<\\dfrac{x}{3}<1\\]",
+      "options": {
+        "E": "(see number line E above)",
+        "F": "(see number line F above)",
+        "G": "(see number line G above)",
+        "H": "(see number line H above)"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q68.jpg"
+      },
+      "figure_image": "kaplan_2025_1/figures/q68_numberlines.jpg"
+    },
+    {
+      "id": "KM1_Q69",
+      "q_number": 69,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Between which two consecutive integers is the fraction \\(\\dfrac{43}{8}\\)?",
+      "options": {
+        "A": "3 and 4",
+        "B": "4 and 5",
+        "C": "5 and 6",
+        "D": "6 and 7"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q69.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q70",
+      "q_number": 70,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Isabel has 10 boards that are x meters long. She has 5 boards that are 2x meters long. She also has 4 boards that measure 3 meters, 6 meters, 9 meters, and 13 meters, respectively. If she were to lay all her boards in a straight line with no gaps between them, the boards would measure 271 meters. What is the value of x?",
+      "options": {
+        "E": "5 meters",
+        "F": "6 meters",
+        "G": "10 meters",
+        "H": "12 meters"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q70.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q71",
+      "q_number": 71,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The table above shows baseball ticket prices paid by 100 customers (50 paid $25, 30 paid $40, 20 paid $100). What is the mean price paid by the 100 customers in the table above?",
+      "options": {
+        "A": "$25",
+        "B": "$33.33",
+        "C": "$44.50",
+        "D": "$55"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q71.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q72",
+      "q_number": 72,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "What is the circumference of the circle inscribed in the square above, which has a side length of 6?",
+      "options": {
+        "E": "\\(2\\pi\\)",
+        "F": "\\(3\\pi\\)",
+        "G": "\\(6\\pi\\)",
+        "H": "\\(9\\pi\\)"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q72.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><rect x=\"30\" y=\"30\" width=\"140\" height=\"140\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"70\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"178\" y=\"104\" font-size=\"16\" text-anchor=\"start\">6</text></svg>"
+    },
+    {
+      "id": "KM1_Q73",
+      "q_number": 73,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(x+y=12\\) and \\(x=15\\), then what is \\(-\\dfrac{x}{y}\\)?",
+      "options": {
+        "A": "-5",
+        "B": "-3",
+        "C": "3",
+        "D": "5"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q73.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q74",
+      "q_number": 74,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A deli sold 25 pounds of meat, consisting of salami, turkey, ham, and roast beef. The deli sold 10 pounds of turkey, 8 pounds of ham, and 4 pounds of roast beef. What percentage of the 25 pounds sold was salami?",
+      "options": {
+        "E": "3%",
+        "F": "8%",
+        "G": "12%",
+        "H": "22%"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q74.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q75",
+      "q_number": 75,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A performer bursts into 2 fits of laughter during her act. Each burst of laughter produces 3 laughs, and each laugh produces 250 giggles from the audience. How many giggles does the audience produce during the performer's act?",
+      "options": {
+        "A": "500",
+        "B": "750",
+        "C": "1,500",
+        "D": "6,000"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q75.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q76",
+      "q_number": 76,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A shipment of 469 tires needs to be packed into crates that each hold 9 tires. How many crates will hold exactly 9 tires, assuming as many crates as possible are filled completely?",
+      "options": {
+        "E": "51",
+        "F": "52",
+        "G": "53",
+        "H": "58"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q76.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q77",
+      "q_number": 77,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A bus is traveling at a constant rate and travels 310 miles in 5 hours. If the bus continues at the same rate for a total trip of 1,070 miles, approximately how many hours will the entire trip take?",
+      "options": {
+        "A": "12 hours",
+        "B": "15 hours",
+        "C": "17 hours",
+        "D": "21 hours"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q77.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q78",
+      "q_number": 78,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(\\dfrac{30}{100}=\\dfrac{x}{300}\\), what is the value of \\(x\\)?",
+      "options": {
+        "E": "3",
+        "F": "30",
+        "G": "90",
+        "H": "900"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q78.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q79",
+      "q_number": 79,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "What is the average (arithmetic mean) of the consecutive even numbers from 2 to 14, inclusive?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q79.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q80",
+      "q_number": 80,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Jennifer is saving for a bicycle that costs $310.04. She has already saved $200. If Jennifer earns $6.48 per hour at her job, what is the minimum number of whole hours she must work to have enough money to buy the bicycle?",
+      "options": {
+        "E": "16",
+        "F": "17",
+        "G": "18",
+        "H": "19"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q80.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q81",
+      "q_number": 81,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at \\(\\dfrac{1}{3}\\) and Y is located at \\(\\dfrac{11}{3}\\)?",
+      "options": {
+        "A": "-2",
+        "B": "\\(-\\dfrac{4}{3}\\)",
+        "C": "\\(-\\dfrac{1}{3}\\)",
+        "D": "2"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q81.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q82",
+      "q_number": 82,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+      "options": {
+        "E": "-5",
+        "F": "-4",
+        "G": "-3",
+        "H": "-2"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q82.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q83",
+      "q_number": 83,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "What is the least common multiple of 8, 32, and 48?",
+      "options": {
+        "A": "64",
+        "B": "96",
+        "C": "128",
+        "D": "144"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q83.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q84",
+      "q_number": 84,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "David is now 4 years more than twice the age of Henry. If Henry will be 18 in 3 years, how old was David 2 years ago?",
+      "options": {
+        "E": "13",
+        "F": "15",
+        "G": "32",
+        "H": "34"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q84.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q85",
+      "q_number": 85,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Joe answered 37 out of 50 questions correctly on his history exam. What percentage of the questions did he get wrong?",
+      "options": {
+        "A": "13%",
+        "B": "26%",
+        "C": "37%",
+        "D": "74%"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q85.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q86",
+      "q_number": 86,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Angle A and angle B are supplementary. If the measure of angle B is one-third the measure of angle A, what is the measure of angle B?",
+      "options": {
+        "E": "22.5\u00b0",
+        "F": "45\u00b0",
+        "G": "67.5\u00b0",
+        "H": "135\u00b0"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q86.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q87",
+      "q_number": 87,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Jin completed 8 pages in his math workbook and 12 pages in his science workbook. This is 25% of the total number of pages in both workbooks together. If there are 32 pages in his math workbook, how many pages are there in his science workbook?",
+      "options": {
+        "A": "20",
+        "B": "48",
+        "C": "80",
+        "D": "128"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q87.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q88",
+      "q_number": 88,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In March, the electricity used in New York was 5,000,000 watts. In April, the number of watts used was 4,000,000. By what percentage did the electricity usage decrease from March to April?",
+      "options": {
+        "E": "20%",
+        "F": "25%",
+        "G": "50%",
+        "H": "75%"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q88.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q89",
+      "q_number": 89,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The population of a particular bacteria doubles in size every 19 hours. If the population is 100 at 2:15 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+      "options": {
+        "A": "2:15 a.m.",
+        "B": "4:15 a.m.",
+        "C": "6:15 a.m.",
+        "D": "4:15 p.m."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q89.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q90",
+      "q_number": 90,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The sum of 6 consecutive odd numbers is 36. What is the difference between the highest and the lowest of these numbers?",
+      "options": {
+        "E": "1",
+        "F": "6",
+        "G": "7",
+        "H": "10"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q90.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q91",
+      "q_number": 91,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If 5,000 children were surveyed, how many have bedtimes that are 10:30 p.m. or earlier, according to the circle graph above?",
+      "options": {
+        "A": "53",
+        "B": "1,350",
+        "C": "2,650",
+        "D": "3,600"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q91.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 300 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"150\" cy=\"150\" r=\"110\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M150,150 L150.0,40.0 A110,110 0 0 1 259.8,156.9 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M150,150 L259.8,156.9 A110,110 0 0 1 220.1,234.8 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M150,150 L220.1,234.8 A110,110 0 0 1 129.4,258.1 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M150,150 L129.4,258.1 A110,110 0 0 1 41.9,170.6 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M150,150 L41.9,170.6 A110,110 0 0 1 150.0,40.0 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"199.7\" y=\"103.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"199.7\" dy=\"0\">26%</tspan><tspan x=\"199.7\" dy=\"13\">10:30 p.m.</tspan></text><text x=\"210.8\" y=\"181.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"210.8\" dy=\"0\">13%</tspan><tspan x=\"210.8\" dy=\"13\">10 p.m.</tspan></text><text x=\"167.0\" y=\"216.1\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"167.0\" dy=\"0\">14%</tspan><tspan x=\"167.0\" dy=\"13\">Earlier than</tspan><tspan x=\"167.0\" dy=\"13\">10 p.m.</tspan></text><text x=\"101.8\" y=\"198.2\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"101.8\" dy=\"0\">19%</tspan><tspan x=\"101.8\" dy=\"13\">No bedtime</tspan></text><text x=\"97.5\" y=\"106.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"97.5\" dy=\"0\">28%</tspan><tspan x=\"97.5\" dy=\"13\">11 p.m. or</tspan><tspan x=\"97.5\" dy=\"13\">later</tspan></text><text x=\"150\" y=\"315\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#222\">WEEKNIGHT BEDTIMES, AGE 11</text></svg>"
+    },
+    {
+      "id": "KM1_Q92",
+      "q_number": 92,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "\\((11+4x)-(2-x)=\\)",
+      "options": {
+        "E": "9-5x",
+        "F": "9+3x",
+        "G": "9+5x",
+        "H": "13+3x"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q92.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q93",
+      "q_number": 93,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A can contains 40 chips: 10 each of red and blue, 12 white, and the remaining black. If Susan were to remove 3 black and 2 red chips, what is the probability that the next one she removes is black?",
+      "options": {
+        "A": "\\(\\dfrac{3}{35}\\)",
+        "B": "\\(\\dfrac{1}{8}\\)",
+        "C": "\\(\\dfrac{1}{7}\\)",
+        "D": "\\(\\dfrac{1}{5}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q93.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q94",
+      "q_number": 94,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "For what value of \\(x\\) does \\(6(8-x)=3(x-2)\\)?",
+      "options": {
+        "A": "-9",
+        "B": "-6",
+        "C": "3",
+        "D": "6"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q94.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q95",
+      "q_number": 95,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Bob, Ted, and Carol are all splitting a reward they received for returning someone's wallet. If Bob and Ted each take one-quarter of the reward, and Carol gets $40, how much was the reward in total?",
+      "options": {
+        "A": "$50",
+        "B": "$60",
+        "C": "$80",
+        "D": "$120"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q95.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q96",
+      "q_number": 96,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "\\(\\left(\\dfrac{3}{4}-\\dfrac{2}{7}\\right)\\div\\dfrac{1}{4}=\\)",
+      "options": {
+        "E": "\\(-\\dfrac{3}{2}\\)",
+        "F": "\\(-\\dfrac{1}{2}\\)",
+        "G": "\\(\\dfrac{7}{112}\\)",
+        "H": "\\(\\dfrac{13}{7}\\)"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q96.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q97",
+      "q_number": 97,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A survey asked students what types of exercise they regularly do. 40 students jog, 36 students lift weights, 12 students do both, and 16 students do neither. How many students were surveyed?",
+      "options": {
+        "A": "72",
+        "B": "76",
+        "C": "80",
+        "D": "104"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q97.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q98",
+      "q_number": 98,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Larissa spends 3 times as many hours reading as Tom does. Nela spends half as many hours reading as Tom does. If all three of them read a combined total of 18 hours, how many hours did Tom read?",
+      "options": {
+        "E": "3",
+        "F": "4",
+        "G": "6",
+        "H": "8"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q98.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q99",
+      "q_number": 99,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "100 people played golf on Monday, and the pro shop sold 14 dozen golf balls. At this rate, approximately how many dozens of golf balls can the pro shop expect to sell on Tuesday if 150 people are scheduled to play golf?",
+      "options": {
+        "A": "18 dozen",
+        "B": "20 dozen",
+        "C": "21 dozen",
+        "D": "24 dozen"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q99.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q100",
+      "q_number": 100,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The side length of square A is shorter than the side length of square B by 5 inches. If the perimeter of square A is 100 inches, what is the difference, in square inches, between the area of square A and the area of square B?",
+      "options": {
+        "E": "10",
+        "F": "25",
+        "G": "125",
+        "H": "275"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q100.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q101",
+      "q_number": 101,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "N belongs to the set of rational numbers {0.4, 0.5, 1.1, 2.0, 3.5}. If 4.9N/1.4 is an integer, what is N?",
+      "options": {
+        "A": "0.4",
+        "B": "0.5",
+        "C": "1.1",
+        "D": "2.0"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q101.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q102",
+      "q_number": 102,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A painter uses a shade of green paint made from \\(\\dfrac{1}{3}\\) ounce of blue paint mixed with \\(1\\dfrac{2}{3}\\) ounces of yellow paint. What is the ratio of blue paint to yellow paint?",
+      "options": {
+        "E": "1:6",
+        "F": "1:5",
+        "G": "1:3",
+        "H": "1:2"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q102.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q103",
+      "q_number": 103,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "If \\(x=2\\) and \\(2x(2y-x)=16\\), what is the value of \\(y\\)?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q103.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q104",
+      "q_number": 104,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "A mixed box of frozen yogurt bars contains 8 strawberry bars. The probability of choosing a strawberry bar at random is 2/5. How many bars in the box are NOT strawberry?",
+      "options": {
+        "E": "12",
+        "F": "16",
+        "G": "20",
+        "H": "32"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q104.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q105",
+      "q_number": 105,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Margo bowled a mean of 110 points per game in each of her first 4 games. If she scores 160 points in her 5th game, what is her mean score for all 5 games?",
+      "options": {
+        "A": "120",
+        "B": "132",
+        "C": "135",
+        "D": "142"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q105.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q106",
+      "q_number": 106,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Nick and Alex worked together on a paper. Nick wrote 2/7 of the paper, and Alex wrote the remaining 20 pages. What is the total length of the paper, in pages?",
+      "options": {
+        "E": "7",
+        "F": "21",
+        "G": "28",
+        "H": "35"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q106.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q107",
+      "q_number": 107,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In the figure above, point A is both a vertex of square ABCD and the center of a circle that contains arc BD. If the area of square ABCD is 100 square meters, what is the area of the shaded region?",
+      "options": {
+        "A": "\\(100\\pi\\)",
+        "B": "\\((100\\pi-50)\\)",
+        "C": "\\(25\\pi\\)",
+        "D": "\\((25\\pi-50)\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q107.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><path d=\"M170,30 A140,140 0 0 1 30,170 Z\" fill=\"#cfcfcf\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"30\" y=\"30\" width=\"140\" height=\"140\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"16\" y=\"24\" font-size=\"14\">A</text><text x=\"176\" y=\"24\" font-size=\"14\">B</text><text x=\"176\" y=\"186\" font-size=\"14\">C</text><text x=\"16\" y=\"186\" font-size=\"14\">D</text></svg>"
+    },
+    {
+      "id": "KM1_Q108",
+      "q_number": 108,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "At summer camp, campers are randomly assigned to 1 of 25 cabins and 1 of 4 cafeterias. Josef likes 8 of the cabins and 2 of the cafeterias. What is the probability that Josef is assigned to both a cabin and a cafeteria that he likes?",
+      "options": {
+        "E": "16%",
+        "F": "20%",
+        "G": "34%",
+        "H": "82%"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q108.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q109",
+      "q_number": 109,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "How many numbers in the set of consecutive integers from 1 to 99, inclusive, have 3 as a factor but not 6 as a factor?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "9",
+        "D": "17"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q109.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q110",
+      "q_number": 110,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The probability of picking a red marble at random from a bag of 30 red and blue marbles is 1/5. How many blue marbles must be removed from the bag to increase the probability of picking a red marble to 1/4?",
+      "options": {
+        "E": "4",
+        "F": "5",
+        "G": "6",
+        "H": "24"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q110.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q111",
+      "q_number": 111,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "Burt has b action figures, and Cho has c action figures. If Burt gives 4 of his action figures to Cho, Burt will then have twice as many action figures as Cho. Which of the following equations shows the relationship between b and c?",
+      "options": {
+        "A": "b-4=2(c+4)",
+        "B": "b-4=2c+4",
+        "C": "2(b-4)=c",
+        "D": "2(b-4)=c+4"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q111.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q112",
+      "q_number": 112,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In the figure above, rays A, B, C, D, E, and F all originate from point G. The measure of angle BGC is 10\u00b0 less than the measure of angle CGD, and the measure of angle DGE is 25\u00b0 more than the measure of angle EGF. What is the measure of angle DGE?",
+      "options": {
+        "E": "25\u00b0",
+        "F": "35\u00b0",
+        "G": "70\u00b0",
+        "H": "95\u00b0"
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q112.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"150\" cy=\"150\" r=\"2\" fill=\"#222\"/><line x1=\"150\" y1=\"150\" x2=\"50.0\" y2=\"150.0\" stroke=\"#222\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"63.4\" y2=\"100.0\" stroke=\"#222\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"92.6\" y2=\"68.1\" stroke=\"#222\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"150.0\" y2=\"50.0\" stroke=\"#222\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"249.6\" y2=\"158.7\" stroke=\"#222\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"175.9\" y2=\"246.6\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"32.0\" y=\"150.0\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"47.8\" y=\"91.0\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"82.3\" y=\"53.3\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"150.0\" y=\"32.0\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"267.6\" y=\"160.3\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"180.5\" y=\"264.0\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"111.4\" y=\"139.6\" font-size=\"11\" text-anchor=\"middle\" fill=\"#444\">30\u00b0</text><text x=\"120.5\" y=\"123.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#444\">(x-10)\u00b0</text><text x=\"138.0\" y=\"111.9\" font-size=\"11\" text-anchor=\"middle\" fill=\"#444\">x\u00b0</text><text x=\"175.7\" y=\"119.4\" font-size=\"11\" text-anchor=\"middle\" fill=\"#444\">(2x+25)\u00b0</text><text x=\"180.6\" y=\"175.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"#444\">2x\u00b0</text><text x=\"125.6\" y=\"181.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"#444\">3x\u00b0</text><text x=\"150\" y=\"150\" font-size=\"13\" dx=\"-20\" dy=\"5\">G</text></svg>"
+    },
+    {
+      "id": "KM1_Q113",
+      "q_number": 113,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "The sum of the numbers m, n, and p is 24. The ratio of m to n is 2:5, and the ratio of n to p is 5:3. What is the value of n?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "14"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q113.jpg"
+      }
+    },
+    {
+      "id": "KM1_Q114",
+      "q_number": 114,
+      "question_type": "mc",
+      "section_label": "PART 2 - MATHEMATICS",
+      "question": "In the figure above, P is the center of a circle, and AB is a diameter of the circle. ABCD is a rectangle, and PQ is a radius of the circle, where Q is a point on CD. If the perimeter of rectangle ABCD is 72 centimeters, what is the circumference of the circle?",
+      "options": {
+        "E": "\\(12\\pi\\)",
+        "F": "\\(18\\pi\\)",
+        "G": "\\(24\\pi\\)",
+        "H": "\\(144\\pi\\)"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_image": "kaplan_2025_1/solutions/Q114.jpg"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"100\" cy=\"70\" r=\"60\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"70\" width=\"120\" height=\"60\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"100\" y1=\"70\" x2=\"100\" y2=\"130\" stroke=\"#222\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><circle cx=\"100\" cy=\"70\" r=\"2\" fill=\"#222\"/><path d=\"M90,70 L90,80 L100,80\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><text x=\"26\" y=\"66\" font-size=\"14\">A</text><text x=\"166\" y=\"66\" font-size=\"14\">B</text><text x=\"166\" y=\"146\" font-size=\"14\">C</text><text x=\"26\" y=\"146\" font-size=\"14\">D</text><text x=\"96\" y=\"62\" font-size=\"14\">P</text><text x=\"106\" y=\"146\" font-size=\"14\">Q</text></svg>"
     }
   ],
   "passages": [
@@ -136,7 +1082,7 @@
         [
           {
             "num": 1,
-            "text": "Movies and television shows often portray the scientist as an adherent to the rules—a square, upstanding member of society."
+            "text": "Movies and television shows often portray the scientist as an adherent to the rules\u2014a square, upstanding member of society."
           },
           {
             "num": 2,
@@ -347,11 +1293,11 @@
         },
         {
           "num": 2,
-          "text": "Interest in this phenomenon excited the world of sports and compelled scientists to investigate the mechanism by which a thrown baseball could change its path mid-flight. Some posited that the rotation of Earth played a factor. Others theorized that the effect was simply the work of a foreign object upon the ball. In reality, the curve of a curveball involves a complex scientific process called the Magnus effect, named after German physicist H. G. Magnus. While this effect was eventually identified in the late nineteenth century as the reason for the curveball, the origins of the explanation actually date back as far as the time of Isaac Newton. The physics of an object moving inside a fluid substance such as a liquid or a gas—in this case, a baseball flying through the air—can be complex and unexpected. When a ball leaves the pitcher's hand with a bit of a spin, its turning motion drags some of the surrounding air with it. While the ball spins in the air, the speed of the air changes, and the air moves slower on one side of the ball than it does on the other side. This difference in speed causes the ball to depart from its straight path, making the ball curve. A skilled pitcher can learn to create this effect by imparting a spin upon the ball as it is released."
+          "text": "Interest in this phenomenon excited the world of sports and compelled scientists to investigate the mechanism by which a thrown baseball could change its path mid-flight. Some posited that the rotation of Earth played a factor. Others theorized that the effect was simply the work of a foreign object upon the ball. In reality, the curve of a curveball involves a complex scientific process called the Magnus effect, named after German physicist H. G. Magnus. While this effect was eventually identified in the late nineteenth century as the reason for the curveball, the origins of the explanation actually date back as far as the time of Isaac Newton. The physics of an object moving inside a fluid substance such as a liquid or a gas\u2014in this case, a baseball flying through the air\u2014can be complex and unexpected. When a ball leaves the pitcher's hand with a bit of a spin, its turning motion drags some of the surrounding air with it. While the ball spins in the air, the speed of the air changes, and the air moves slower on one side of the ball than it does on the other side. This difference in speed causes the ball to depart from its straight path, making the ball curve. A skilled pitcher can learn to create this effect by imparting a spin upon the ball as it is released."
         },
         {
           "num": 3,
-          "text": "This unexpected movement of the ball can have devastating results for the batter. Because of the Magnus effect, a curveball will begin its directional change, or \"break,\" in the opposite direction of the pitcher's throwing hand (e.g., toward the right side if the pitcher is left-handed). A ball that spins in this manner is now referred to as a \"regulation curve.\" In the early 1900s, pitchers began throwing curveballs in the opposite direction as well; these have come to be known as \"fadeaways\" or \"screwballs.\" In both types of curves, the effect is generally the same. The ball reaches the batter at a slower rate of speed than a more direct pitch would have and fools the batter into thinking the ball will continue to move in a straight line. Contrary to how it appears, the ball has already changed its direction, and the batter has swung at a ball that was never really there. Today, the curveball is still alive and well, living in the nightmares of batters who have attempted—and failed—to hit it."
+          "text": "This unexpected movement of the ball can have devastating results for the batter. Because of the Magnus effect, a curveball will begin its directional change, or \"break,\" in the opposite direction of the pitcher's throwing hand (e.g., toward the right side if the pitcher is left-handed). A ball that spins in this manner is now referred to as a \"regulation curve.\" In the early 1900s, pitchers began throwing curveballs in the opposite direction as well; these have come to be known as \"fadeaways\" or \"screwballs.\" In both types of curves, the effect is generally the same. The ball reaches the batter at a slower rate of speed than a more direct pitch would have and fools the batter into thinking the ball will continue to move in a straight line. Contrary to how it appears, the ball has already changed its direction, and the batter has swung at a ball that was never really there. Today, the curveball is still alive and well, living in the nightmares of batters who have attempted\u2014and failed\u2014to hit it."
         }
       ],
       "passage_figure_html": "<div style=\"text-align:center;font-weight:700;font-size:0.85em;margin-bottom:6px;\">RESULTS OF ALL PITCHES IN MAJOR LEAGUE BASEBALL GAMES, 2007 SEASON</div><img src=\"kaplan_2025_1/passage_figures/curveball_table.jpg\" alt=\"Table of ball, strike, foul, and hit percentages for fastball, curveball, slider, changeup, and the average for all pitch types\" style=\"max-width:100%;display:block;margin:0 auto 16px;border-radius:4px;\"><div style=\"text-align:center;font-weight:700;font-size:0.85em;margin-bottom:6px;\">HOW \"CURVE\" BALLS CURVE</div><img src=\"kaplan_2025_1/passage_figures/curveball_diagram.jpg\" alt=\"Diagram showing a spinning baseball with lower air speed above and higher air speed below, illustrating flight path and ball rotation\" style=\"max-width:100%;display:block;margin:0 auto;border-radius:4px;\">",
@@ -481,7 +1427,7 @@
       "paragraphs": [
         {
           "num": 1,
-          "text": "It was nearly bed-time and when they¹ awoke next morning land would be in sight. Dr. Macphail lit his pipe and, leaning over the rail, searched the heavens for the Southern Cross. After two years at the front and a wound that had taken longer to heal than it should, he was glad to settle down quietly at Apia for twelve months at least, and he felt already better for the journey. Since some of the passengers were leaving the ship next day at Pago-Pago they had had a little dance that evening and in his ears hammered still the harsh notes of the mechanical piano. But the deck was quiet at last. A little way off he saw his wife in a long chair talking with the Davidsons, and he strolled over to her. When he sat down under the light and took off his hat you saw that he had very red hair, with a bald patch on the crown, and the red, freckled skin which accompanies red hair; he was a man of forty, thin, with a pinched face, precise and rather pedantic; and he spoke with a Scots accent in a very low, quiet voice."
+          "text": "It was nearly bed-time and when they\u00b9 awoke next morning land would be in sight. Dr. Macphail lit his pipe and, leaning over the rail, searched the heavens for the Southern Cross. After two years at the front and a wound that had taken longer to heal than it should, he was glad to settle down quietly at Apia for twelve months at least, and he felt already better for the journey. Since some of the passengers were leaving the ship next day at Pago-Pago they had had a little dance that evening and in his ears hammered still the harsh notes of the mechanical piano. But the deck was quiet at last. A little way off he saw his wife in a long chair talking with the Davidsons, and he strolled over to her. When he sat down under the light and took off his hat you saw that he had very red hair, with a bald patch on the crown, and the red, freckled skin which accompanies red hair; he was a man of forty, thin, with a pinched face, precise and rather pedantic; and he spoke with a Scots accent in a very low, quiet voice."
         },
         {
           "num": 2,
@@ -548,7 +1494,7 @@
           "text": "\"It's almost a hopeless task for the missionaries here. I can never be sufficiently thankful to God that we are at least spared that.\""
         }
       ],
-      "passage_figure_html": "<div style=\"font-size:0.82em;color:#555;margin-top:12px;\">¹In this excerpt, two couples are aboard a ship bound for a South Seas island.</div>",
+      "passage_figure_html": "<div style=\"font-size:0.82em;color:#555;margin-top:12px;\">\u00b9In this excerpt, two couples are aboard a ship bound for a South Seas island.</div>",
       "questions": [
         {
           "id": "KM1_Q22",
@@ -690,7 +1636,7 @@
       "paragraphs": [
         {
           "num": 1,
-          "text": "The cheetah—whose name comes from the Sanskrit word chitkara, meaning \"spotted one\"—can be found hunting in the African savanna, the vast, uninhabited grassy plains of sub-Saharan Africa. Although the cheetah is certainly famous for its incredible speed, which has been recorded in excess of 70 miles per hour by biologists, the significant vulnerabilities of this wild cat are less well-known. Ironically, it is largely because of its ability to run so blindingly fast that the cheetah has evolved to be quite defenseless when it stands still. This combination of great strengths and significant weaknesses makes the cheetah a fascinating creature."
+          "text": "The cheetah\u2014whose name comes from the Sanskrit word chitkara, meaning \"spotted one\"\u2014can be found hunting in the African savanna, the vast, uninhabited grassy plains of sub-Saharan Africa. Although the cheetah is certainly famous for its incredible speed, which has been recorded in excess of 70 miles per hour by biologists, the significant vulnerabilities of this wild cat are less well-known. Ironically, it is largely because of its ability to run so blindingly fast that the cheetah has evolved to be quite defenseless when it stands still. This combination of great strengths and significant weaknesses makes the cheetah a fascinating creature."
         },
         {
           "num": 2,
@@ -964,19 +1910,19 @@
       "paragraphs": [
         {
           "num": 1,
-          "text": "Today, airships are seen mostly as advertisements hovering in the sky over sporting events. Such companies as Goodyear, Metropolitan Life, and Fuji Film have all made use of \"blimps\" in this way to the delight of spectators. But there was a time, before World War II, that blimps—as well as other lighter-than-air vehicles—were not just a charming diversion but actually used as a mode of transportation. One in particular, the German ship Hindenburg, was an incredible example of a commercial passenger aircraft capable of crossing the Atlantic Ocean. Tragically, on one fateful day, the path of airships was changed forever when, in spectacular fashion, the Hindenburg revealed the downside of the use of airships as transportation."
+          "text": "Today, airships are seen mostly as advertisements hovering in the sky over sporting events. Such companies as Goodyear, Metropolitan Life, and Fuji Film have all made use of \"blimps\" in this way to the delight of spectators. But there was a time, before World War II, that blimps\u2014as well as other lighter-than-air vehicles\u2014were not just a charming diversion but actually used as a mode of transportation. One in particular, the German ship Hindenburg, was an incredible example of a commercial passenger aircraft capable of crossing the Atlantic Ocean. Tragically, on one fateful day, the path of airships was changed forever when, in spectacular fashion, the Hindenburg revealed the downside of the use of airships as transportation."
         },
         {
           "num": 2,
-          "text": "Airships enjoyed many advantages in the early twentieth century, and the Hindenburg was considered a one-of-a-kind example. When the 804-foot Hindenburg was launched in 1936, it was the largest airship in the world. Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas—in this case, hydrogen. The Hindenburg was a product of some of the newest technology of its time with a frame constructed of an early aluminum alloy called duralumin, while its gas cells were reinforced with a new material known as latex. In an age when airplanes could not carry more than 10 passengers at a time, the Hindenburg could hold an astounding 1,002 passengers, twice as many as a modern jetliner. Thus, in many ways, it was an incredible specimen of modern advancements."
+          "text": "Airships enjoyed many advantages in the early twentieth century, and the Hindenburg was considered a one-of-a-kind example. When the 804-foot Hindenburg was launched in 1936, it was the largest airship in the world. Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas\u2014in this case, hydrogen. The Hindenburg was a product of some of the newest technology of its time with a frame constructed of an early aluminum alloy called duralumin, while its gas cells were reinforced with a new material known as latex. In an age when airplanes could not carry more than 10 passengers at a time, the Hindenburg could hold an astounding 1,002 passengers, twice as many as a modern jetliner. Thus, in many ways, it was an incredible specimen of modern advancements."
         },
         {
           "num": 3,
-          "text": "Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships. Tickets to fly in the Hindenburg were not affordable for most people, so the customer base was extremely limited. This was due in part to the massive amount of fuel needed not only to fill the balloon but also to power its propellers, making this airship very expensive to operate. Even with all of that fuel, the Hindenburg flew at a mere 78 miles per hour—a snail's pace considering that it was used for transatlantic passenger service. Because any airship is essentially a balloon with an engine, it is extremely vulnerable to air currents and stormy weather, and the Hindenburg, despite its massive size, was no different."
+          "text": "Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships. Tickets to fly in the Hindenburg were not affordable for most people, so the customer base was extremely limited. This was due in part to the massive amount of fuel needed not only to fill the balloon but also to power its propellers, making this airship very expensive to operate. Even with all of that fuel, the Hindenburg flew at a mere 78 miles per hour\u2014a snail's pace considering that it was used for transatlantic passenger service. Because any airship is essentially a balloon with an engine, it is extremely vulnerable to air currents and stormy weather, and the Hindenburg, despite its massive size, was no different."
         },
         {
           "num": 4,
-          "text": "The Hindenburg's fate, however, rested on its most dangerous characteristic and one it shared with other airships: the use of highly flammable hydrogen gas. Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened. On May 6, 1937, as the Hindenburg was landing in Lakehurst, New Jersey, it suddenly burst into flames, killing 36 of the 97 passengers on board. This explosion destroyed the ship quickly; in a matter of just 34 seconds, the entire ship was engulfed in flames. Although the exact cause is still unknown, it is believed to have been caused by a discharge of static electricity in the air that reacted to gas that had escaped from a small leak in the balloon. Though there had been other airship mishaps before this date, something about this particular disaster captured the public imagination—maybe the fact that it was famously witnessed and reported live by radio reporter Herbert Morrison, who gave a dramatic account of the event as it unfolded, or maybe it was just a final symbolic end to a mode of travel that had become passé."
+          "text": "The Hindenburg's fate, however, rested on its most dangerous characteristic and one it shared with other airships: the use of highly flammable hydrogen gas. Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened. On May 6, 1937, as the Hindenburg was landing in Lakehurst, New Jersey, it suddenly burst into flames, killing 36 of the 97 passengers on board. This explosion destroyed the ship quickly; in a matter of just 34 seconds, the entire ship was engulfed in flames. Although the exact cause is still unknown, it is believed to have been caused by a discharge of static electricity in the air that reacted to gas that had escaped from a small leak in the balloon. Though there had been other airship mishaps before this date, something about this particular disaster captured the public imagination\u2014maybe the fact that it was famously witnessed and reported live by radio reporter Herbert Morrison, who gave a dramatic account of the event as it unfolded, or maybe it was just a final symbolic end to a mode of travel that had become pass\u00e9."
         },
         {
           "num": 5,
@@ -1004,7 +1950,7 @@
           "id": "KM1_Q45",
           "q_number": 45,
           "question_type": "mc",
-          "stimulus": "But there was a time, before World War II, that blimps—as well as other lighter-than-air vehicles—were not just a charming diversion but actually used as a mode of transportation.",
+          "stimulus": "But there was a time, before World War II, that blimps\u2014as well as other lighter-than-air vehicles\u2014were not just a charming diversion but actually used as a mode of transportation.",
           "question": "Read this sentence from the passage. How does this sentence contribute to the development of a central idea in the passage?",
           "options": {
             "A": "It confirms that blimps were developed in Germany.",
@@ -1058,7 +2004,7 @@
           "options": {
             "E": "They suggest that it was not surprising the Hindenburg burst into flames.",
             "F": "They explain why the customer base for airship tickets was so limited.",
-            "G": "They indicate that by the end of the 1930s, airships had become passé.",
+            "G": "They indicate that by the end of the 1930s, airships had become pass\u00e9.",
             "H": "They confirm that the exact cause of the Hindenburg disaster is still unknown."
           },
           "correct": "E",
@@ -1072,7 +2018,7 @@
           "question_type": "mc",
           "question": "Which sentence from the excerpt best supports the idea that the Hindenburg had a dangerous flaw?",
           "options": {
-            "A": "\"Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas—in this case, hydrogen.\" (paragraph 2)",
+            "A": "\"Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas\u2014in this case, hydrogen.\" (paragraph 2)",
             "B": "\"Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships.\" (paragraph 3)",
             "C": "\"Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened.\" (paragraph 4)",
             "D": "\"At the time of the Hindenburg disaster, the airship was already obsolete as a mode of transportation.\" (paragraph 5)"
@@ -1110,7 +2056,7 @@
       "lines": [
         {
           "num": 1,
-          "text": "I like to see it¹ lap the Miles,"
+          "text": "I like to see it\u00b9 lap the Miles,"
         },
         {
           "num": null,
@@ -1174,14 +2120,14 @@
         },
         {
           "num": 15,
-          "text": "Stop—docile and omnipotent—"
+          "text": "Stop\u2014docile and omnipotent\u2014"
         },
         {
           "num": null,
           "text": "At its own stable door."
         }
       ],
-      "passage_figure_html": "<div style=\"font-size:0.82em;color:#555;margin-top:12px;\">¹the train</div>",
+      "passage_figure_html": "<div style=\"font-size:0.82em;color:#555;margin-top:12px;\">\u00b9the train</div>",
       "questions": [
         {
           "id": "KM1_Q51",
@@ -1241,7 +2187,7 @@
             "E": "\"And then, prodigious, step\" (line 4)",
             "F": "\"To fit its sides, and crawl between,\" (line 9)",
             "G": "\"Then chase itself down Hill\" (line 12)",
-            "H": "\"Stop—docile and omnipotent—\" (line 15)"
+            "H": "\"Stop\u2014docile and omnipotent\u2014\" (line 15)"
           },
           "correct": "E",
           "solution": {
