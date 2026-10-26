@@ -208,7 +208,7 @@
     const DATA_URL = 'worksheet_12/data.json?v=' + Date.now();
     const state = {
       questions: [],   // flattened, global q_number order, each tagged .section
-      passage: null,   // the ELA passage object (if any)
+      passages: [],    // the ELA passage objects (if any)
       cur: 0,
       answers: {},
     };
@@ -220,10 +220,18 @@
         const data = await r.json();
         const list = [];
         (data.math_questions || []).forEach((q, i) => list.push(Object.assign({ section: 'math', sectionIndex: i + 1, sectionTotal: (data.math_questions || []).length }, q)));
-        if (data.ela_passage) {
-          state.passage = data.ela_passage;
+        if (Array.isArray(data.ela_passages) && data.ela_passages.length) {
+          state.passages = data.ela_passages;
+          const totalEla = data.ela_passages.reduce((sum, p) => sum + (p.questions || []).length, 0);
+          let seen = 0;
+          data.ela_passages.forEach((p, pIdx) => {
+            const eq = p.questions || [];
+            eq.forEach((q, i) => { seen++; list.push(Object.assign({ section: 'ela', passageIdx: pIdx, sectionIndex: seen, sectionTotal: totalEla }, q)); });
+          });
+        } else if (data.ela_passage) {
+          state.passages = [data.ela_passage];
           const eq = data.ela_passage.questions || [];
-          eq.forEach((q, i) => list.push(Object.assign({ section: 'ela', sectionIndex: i + 1, sectionTotal: eq.length }, q)));
+          eq.forEach((q, i) => list.push(Object.assign({ section: 'ela', passageIdx: 0, sectionIndex: i + 1, sectionTotal: eq.length }, q)));
         }
         (data.grammar_questions || []).forEach((q, i) => list.push(Object.assign({ section: 'grammar', sectionIndex: i + 1, sectionTotal: (data.grammar_questions || []).length }, q)));
         state.questions = list.sort((a, b) => a.q_number - b.q_number);
@@ -268,7 +276,10 @@
       const counter = document.getElementById('tn-counter');
       if (!q) { label.textContent = ''; counter.textContent = ''; return; }
       if (q.section === 'math') label.textContent = 'MATH';
-      else if (q.section === 'ela') label.textContent = 'ELA — THE BEST LAID PLANS OF RAVENS';
+      else if (q.section === 'ela') {
+        const p = state.passages[q.passageIdx];
+        label.textContent = 'ELA' + (p ? ' — ' + p.title.toUpperCase() : '');
+      }
       else label.textContent = 'GRAMMAR';
       counter.textContent = q.sectionIndex + ' OF ' + q.sectionTotal;
     }
@@ -369,7 +380,8 @@
 
     function renderPassagePane() {
       const pane = document.getElementById('tn-passage-pane');
-      const p = state.passage;
+      const q = currentQ();
+      const p = q ? state.passages[q.passageIdx] : null;
       if (!p) { pane.innerHTML = ''; return; }
       let html = `<div class="tn-passage-title">${esc(p.title)}</div>`;
       if (p.author) html += `<div class="tn-passage-author">by ${esc(p.author)}</div>`;

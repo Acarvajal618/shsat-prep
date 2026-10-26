@@ -1,8 +1,9 @@
 {
   "_schema": {
-    "description": "Practice Set 12 (10/26) — math-only so far (grammar and revision sections pending: grammar/revision fodder bank still processing, and 2 passages for the revision section are pending upload). 10 math pain-point questions pulled from Kaplan Practice Test 2's Proficiency Table (currently at streak 0), each followed by 2 freshly generated practice questions testing the identical skill. Intended workflow: parent walks through the original (pulling up its full Kaplan solution image) first, then the student solves the two new ones independently.",
+    "description": "Practice Set 12 (10/26) — math + 2 reading passages so far (grammar and a dedicated revision passage still pending the grammar/revision fodder bank finishing processing). 10 math pain-point questions pulled from Kaplan Practice Test 2's Proficiency Table (currently at streak 0), each followed by 2 freshly generated practice questions testing the identical skill. The 2 ELA passages are from a Kaplan workbook (\"The Kaplan Method for Reading Comprehension\" chapter) uploaded as general fodder, not tied to any specific numbered exam — like the math and grammar fodder, this source had NO answer key, so every correct answer and explanation below was worked out directly, not copied from a key.",
     "sections": {
-      "math": "q_number 1-30, grouped in triples (original + 2 new) per skill. Originals use id format KM2_Q<n>.0 and reuse the exhibit_image already on disk from kaplan_2025_2/solutions/. New questions use id format KM2_Q<n>.1 / KM2_Q<n>.2 and have hand-verified exhibit_text solutions (no external answer key — these are original questions, answers derived and double-checked directly, not guessed)."
+      "math": "q_number 1-30, grouped in triples (original + 2 new) per skill. Originals use id format KM2_Q<n>.0 and reuse the exhibit_image already on disk from kaplan_2025_2/solutions/. New questions use id format KM2_Q<n>.1 / KM2_Q<n>.2 and have hand-verified exhibit_text solutions (no external answer key — these are original questions, answers derived and double-checked directly, not guessed).",
+      "ela": "q_number 31-39 across 2 passages ('Bogart's Extraordinary Career', 'From Discovery to Fallout: The Implications of Radioactivity'). The original book question 3 (a two-part drag-to-box item) was split into two ordinary multiple-choice questions, 3a and 3b, for simplicity — same 4 source sentences offered as options each time."
     }
   },
   "math_questions": [
@@ -451,6 +452,183 @@
       }
     }
   ],
-  "ela_passage": null,
+  "ela_passages": [
+    {
+      "id": "RCF_BOGART",
+      "title": "Bogart's Extraordinary Career",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        { "num": 1, "text": "Although Humphrey Bogart became one of the greatest Hollywood stars to ever live, his early acting career was far from promising. In fact, when one considers Bogart's troubled youth and the intentions of his parents that he study medicine, it is perhaps surprising that he ever made it onto the screen at all. Even when he did enter show business, it was years before he found his acting niche. Eventually Bogart found his place in Hollywood, developed a signature style that attracted legions of fans, and attained the status of an icon. His fame has endured to this day." },
+        { "num": 2, "text": "Born in New York City in 1899 as the son of a prominent surgeon, young Humphrey was eagerly placed on the academic track to medical school by his parents. He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University. Bogart, however, was not inclined toward academics; he was often described during his adolescent years as rather belligerent and a frequent instigator of trouble. Indeed, soon after he had arrived at Andover, he ran into disciplinary problems and was eventually expelled." },
+        { "num": 3, "text": "After this expulsion, Bogart volunteered for the Navy, which, in hindsight, seemed a better fit than medical school. In fact, Bogart was described as a model soldier. It was 1918, and with World War I in full swing, Bogart had ample opportunity to see action. It may have been in the service when he received a providential injury to his mouth that partially paralyzed his upper lip. Although accounts of the event differ (at times it has been suggested the injury arose in childhood or possibly in a bar brawl), this injury was significant in that it was responsible for Bogart's distinctive snarl that became the cornerstone of his acting style." },
+        { "num": 4, "text": "After his honorable discharge from the Navy in 1920, Bogart next turned his attention to a number of working-class pursuits and then, interestingly, to the theater. The transition is a remarkable one given that Bogart had shown no inclination toward acting in his youth. However, a random connection with an old family friend who had show business contacts introduced Bogart to show business. He began first as a staffer in a New York theater office, but he eventually became stage manager and finally worked himself into some minor stage roles. His inexperience showed however, and he struggled with poor reviews and the inability to find any substantive parts." },
+        { "num": 5, "text": "In the early 1930s, Bogart set out for Hollywood hoping to jump start his career and quickly signed a contract with Fox Pictures. Unfortunately, even under contract, Bogart appeared in only three films—all of them bit roles. Frustrated, he returned to the Broadway stage, where he finally caught his break with a remarkable performance as Duke Mantee in the play The Petrified Forest. The production was a hit, and Bogart's performance as the quintessential tough guy was critically acclaimed. Reprising the role for its screen adaptation, Bogart earned accolades and signed for a long-term contract with Warner Brothers. Bogart, back out in Hollywood, would go on to make 28 films, often as a gangster or other tough guy." },
+        { "num": 6, "text": "Whether it was as gumshoe Sam Spade in The Maltese Falcon or as café owner Rick Blaine in Casablanca, Bogart consistently created rich and complex screen images infused with a hangdog expression, perennial five o'clock shadow, dangling cigarette, and world-weary attitude. The lip injury–induced snarl fit in well with this persona, but Bogart's great appeal went far beyond these elements. Bogart played the tough guy who managed to seem somehow tender. Both cynical and sentimental, Bogart walked a line that appealed to legions of both male and female fans alike, and his performances came to personify male elegance on the screen. It is unlikely that his illustrious career will ever be forgotten." }
+      ],
+      "questions": [
+        {
+          "id": "RCF_BOGART_Q1",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "A": "Humphrey Bogart found success at an early age as an actor.",
+            "B": "Humphrey Bogart's early life experiences shaped his portrayal of tough-guy characters on the screen.",
+            "C": "Humphrey Bogart ignored his studies and his father's wishes to follow his dreams of acting.",
+            "D": "Humphrey Bogart's tremendous fame as an actor arose almost accidentally after his rather unsuccessful early life."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A is wrong — the passage opens by saying his early career was \"far from promising,\" the opposite of early success. C is wrong — Bogart never \"dreamed\" of acting; he fell into it through a random connection, not a defiant pursuit of a passion. B is true but too narrow — it only covers one detail (the lip injury shaping his screen persona), not the whole arc of the passage. D matches paragraph 1's framing exactly: it was \"perhaps surprising he ever made it onto the screen at all,\" and paragraphs 2–5 trace a string of failures (expulsion, poor reviews, bit roles) before an accidental breakthrough. That's the passage's real throughline."
+          }
+        },
+        {
+          "id": "RCF_BOGART_Q2",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best explains why Bogart never went to medical school?",
+          "options": {
+            "A": "\"He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University.\" (paragraph 2)",
+            "B": "\"Indeed, soon after he had arrived at Andover, he ran into disciplinary problems and was eventually expelled.\" (paragraph 2)",
+            "C": "\"It was 1918, and with World War I in full swing, Bogart had ample opportunity to see action.\" (paragraph 3)",
+            "D": "\"After his honorable discharge from the Navy in 1920, Bogart next turned his attention to a number of working-class pursuits and then, interestingly, to the theater.\" (paragraph 4)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A describes the plan FOR medical school, not why it fell apart. C and D are about his Navy service and post-Navy years — after the medical-school track had already ended. B is the direct cause: he was expelled from the prep school that was supposed to prepare him for Yale, which is exactly what ended the medical-school path."
+          }
+        },
+        {
+          "id": "RCF_BOGART_Q3A",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt supports the idea that Bogart's parents wanted him to attend medical school?",
+          "options": {
+            "A": "\"His inexperience showed however, and he struggled with poor reviews and the inability to find any substantive parts.\" (paragraph 4)",
+            "B": "\"He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University.\" (paragraph 2)",
+            "C": "\"Born in New York City in 1899 as the son of a prominent surgeon, young Humphrey was eagerly placed on the academic track to medical school by his parents.\" (paragraph 2)",
+            "D": "\"In the early 1930s, Bogart set out for Hollywood hoping to jump start his career and quickly signed a contract with Fox Pictures.\" (paragraph 5)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "C says it directly — \"placed on the academic track to medical school BY HIS PARENTS.\" B is related (prepping for Yale medical studies) but doesn't actually say whose decision it was; C is the more direct, explicit match."
+          }
+        },
+        {
+          "id": "RCF_BOGART_Q3B",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt supports the idea that Bogart's early performances as an actor were not well received?",
+          "options": {
+            "A": "\"His inexperience showed however, and he struggled with poor reviews and the inability to find any substantive parts.\" (paragraph 4)",
+            "B": "\"He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University.\" (paragraph 2)",
+            "C": "\"Born in New York City in 1899 as the son of a prominent surgeon, young Humphrey was eagerly placed on the academic track to medical school by his parents.\" (paragraph 2)",
+            "D": "\"In the early 1930s, Bogart set out for Hollywood hoping to jump start his career and quickly signed a contract with Fox Pictures.\" (paragraph 5)"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A says it directly — \"poor reviews\" is a literal statement that his performances were not well received. B and C are about the medical-school track; D is just about signing with Fox Pictures, not about how his performances were received."
+          }
+        },
+        {
+          "id": "RCF_BOGART_Q4",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "A": "The only way to achieve your dream is to continually work toward it through good times and bad times alike.",
+            "B": "A capacity for greatness is not always apparent in a person's formative years.",
+            "C": "Your experiences and hardships in life influence the way you go about doing your job.",
+            "D": "Only those born with clear talent and skill can make it to the peak of their chosen field."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A doesn't fit — Bogart didn't have a lifelong \"dream\" of acting he worked toward; it was closer to an accident. D is directly contradicted — his early performances were inexperienced and poorly reviewed, not a sign of natural talent. C is true in a narrow sense (the lip injury shaped his acting style) but is a smaller, secondary detail, not the passage's main point. B matches the passage's central idea directly: someone whose \"troubled youth\" and unpromising start gave no hint of the icon he'd become — greatness wasn't visible early on."
+          }
+        }
+      ]
+    },
+    {
+      "id": "RCF_RADIOACTIVITY",
+      "title": "From Discovery to Fallout: The Implications of Radioactivity",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        { "num": 1, "text": "In 1895, Wilhelm Conrad Röntgen first identified electromagnetic radiation occurring in the wavelength band now known as X-rays. It was a new kind of light with penetrating properties that were not only remarkable in that they could “see” through skin but seemed clearly applicable to various fields of technology. Scientists, energized by the discovery, quickly sought to understand the properties and potential uses of these rays. Although no one at the time had any reason to suspect the potential for great danger, over the decades it became clear that radiation had tremendous potential to benefit humanity as well as a disturbing power to harm it." },
+        { "num": 2, "text": "Scientific knowledge of radiation expanded quickly over the next few years with a host of subsequent discoveries. In 1896, French physicist Antoine Henri Becquerel accidentally discovered that unexposed photographic plates left in a darkened drawer with uranium crystals became partially developed. Becquerel recognized that an invisible source of energy must have been emitted from the uranium in order to cause this phenomenon. Becquerel's discovery marked the beginning of scientific work with radioactivity, a different, yet closely related property to the idea of radiation." },
+        { "num": 3, "text": "Radioactivity is the name given to the decay or rearrangement of an atom's nucleus. The mysterious energy emanating from Becquerel's uranium crystals existed at the atomic level. Atoms of all elements have heavy positively charged cores, or nuclei, made up of protons and neutrons. The bulk of an atom's mass lies in this nucleus. Some atoms are so big that their nuclei are unstable and cannot remain cohesive. Decay will happen naturally and spontaneously to such unstable nuclei. In many cases, the breaking up is accompanied by the release of a particle, and that particle release is what we now know as radiation. High-energy electromagnetic radiation (such as Röntgen's X-rays) is one kind of radiation. Different kinds of radiation differ in their ability to penetrate materials and to cause damage." },
+        { "num": 4, "text": "One of the most important findings that built upon this original research was that radioactive decay occurred at a specific rate and, further, that the rate of decay was predictable and measurable. The husband and wife team of Pierre and Marie Curie and other pioneers measured rate of decay using the term “half-life” to describe the relationship between time and the amount of decay of radioactive material. The Curies discovered that a uranium ore termed “pitchblende” had more than 300 times the radioactive energy than a sample of the same amount of pure uranium. They reasoned that other radioactive elements present in pitchblende were responsible for this discrepancy, and through this knowledge, they were eventually able to isolate the previously undiscovered elements of radium and polonium. The studies of such elements were challenging in that, given the extremely short half-life of even the longest-lived polonium isotope, the raw material rapidly disappeared even while they were performing calculations with it. This concept of half-life was broadly applicable to many fields and was used by later scientists to develop techniques for determining the age of samples through a method called radiocarbon dating, making it invaluable in the fields of anthropology and archaeology." },
+        { "num": 5, "text": "From this early work with radiation, modern nuclear science was also born. Scientists discovered that when an atom of radioactive material was split into lighter atoms, a sudden, powerful release of energy would result. This laid open the path to harnessing nuclear energy as a source of power, as well as to the development of nuclear weapons, with the power to destroy civilization as we know it." },
+        { "num": 6, "text": "It is clear that the discovery of radioactivity and the subsequent development of nuclear science have proved to be both beneficial and troubling for humanity. Many of the early scientists who worked with radiation made great sacrifices in the name of the expansion of knowledge, including Marie Curie and Antoine Henri Becquerel, who died from conditions related to their exposure to radiation. Yet their discoveries led to more precise models of the atom and more accurate information about the nature of matter as well as many positive practical applications, including diagnostic medicine and even the use of radioactive isotopes for treating cancer. Ironically, human knowledge of nuclear properties has the potential to both protect us and annihilate us. It is hard to imagine too many fields of knowledge that have this same range of awesome power." }
+      ],
+      "questions": [
+        {
+          "id": "RCF_RAD_Q5",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "A": "The discovery of radioactivity resulted from the hard work of the Curies in establishing the field of nuclear science.",
+            "B": "The discovery of radioactivity has been very harmful to the human race over the last several decades.",
+            "C": "The discovery of radioactivity has had significant consequences for humanity.",
+            "D": "The discovery of radioactivity is the story of the life and work of Antoine Henri Becquerel."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A and D each zoom in on just one scientist (the Curies, or Becquerel) — too narrow for the whole passage, which covers Röntgen, Becquerel, and the Curies. B is one-sided — it ignores the explicitly stated benefits (diagnostic medicine, cancer treatment, nuclear power). C is the only option broad and neutral enough to cover the passage's real theme, stated directly in paragraph 1 and paragraph 6: radioactivity has had BOTH great benefits and real dangers."
+          }
+        },
+        {
+          "id": "RCF_RAD_Q6",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best explains why radiation possesses a power that is “disturbing” (paragraph 1)?",
+          "options": {
+            "A": "\"In 1896, French physicist Antoine Henri Becquerel accidentally discovered that unexposed photographic plates left in a darkened drawer with uranium crystals became partially developed.\" (paragraph 2)",
+            "B": "\"The husband and wife team of Pierre and Marie Curie and other pioneers measured rate of decay using the term ‘half-life’ ...\" (paragraph 4)",
+            "C": "\"Scientists discovered that when an atom of radioactive material was split into lighter atoms, a sudden, powerful release of energy would result.\" (paragraph 5)",
+            "D": "\"Yet their discoveries led to more precise models of the atom and more accurate information about the nature of matter as well as many positive practical applications, including diagnostic medicine and even the use of radioactive isotopes for treating cancer.\" (paragraph 6)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A and B just describe how discoveries were made, not danger. D is actually about the POSITIVE side (diagnostic medicine, cancer treatment) — the opposite of disturbing. C is the sentence that directly explains the destructive power: splitting atoms releases energy, which paragraph 5 immediately connects to nuclear weapons “with the power to destroy civilization as we know it.”"
+          }
+        },
+        {
+          "id": "RCF_RAD_Q7",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "How does paragraph 4 fit into the overall structure of the excerpt?",
+          "options": {
+            "A": "It provides a specific example of early research into radioactivity and the implications of that research.",
+            "B": "It contrasts the methodical research of early pioneers in the field with the guesswork of the Curies.",
+            "C": "It elaborates on the physical properties of radioactivity and how it is generated.",
+            "D": "It introduces the dangerous effects of radiation on the human body by showing how the Curies were poisoned by radiation."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "B is wrong — the paragraph never contrasts anyone's “guesswork” with the Curies; it's entirely about their methodical measurement of half-life. C is really paragraph 3's job (defining what radioactivity IS). D is wrong — the Curies' deaths from radiation exposure are mentioned in paragraph 6, not paragraph 4. A fits: paragraph 4 takes the general concept from paragraph 3 and gives a concrete example (the Curies' half-life research, discovery of radium/polonium) plus a real implication (radiocarbon dating)."
+          }
+        },
+        {
+          "id": "RCF_RAD_Q8",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "What is the purpose of the mention of diagnostic medicine (paragraph 6)?",
+          "options": {
+            "A": "to give an example of a potential benefit of nuclear science that may be possible after much more research",
+            "B": "to illustrate how nuclear science can currently offer at least a few positive developments for humanity",
+            "C": "to refute the notion that the discovery of radioactivity has only ever been harmful",
+            "D": "to explain why the discovery of radioactivity has only ever been beneficial for humanity"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A is wrong — the text presents diagnostic medicine as an application that already exists (“led to ... positive practical applications, including diagnostic medicine”), not something still awaiting future research. D is directly contradicted by the passage's “both protect us and annihilate us” framing — it hasn't been “only” beneficial. C assumes the passage was arguing radioactivity was “only harmful” before this point, which it wasn't. B is the simplest accurate read: it's a concrete, current example supporting the “both beneficial and troubling” balance the passage is building toward in its conclusion."
+          }
+        }
+      ]
+    }
+  ],
   "grammar_questions": []
 }
