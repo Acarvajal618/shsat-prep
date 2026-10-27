@@ -15,7 +15,9 @@
    },
    "correct": "B",
    "reasoning": "'them' has no stated antecedent (no noun for who receives vacation time). Only B replaces the vague pronoun with a specific noun ('full-time workers'); A, C, and D all keep the unresolved 'them'.",
-   "source_category": "vague_pronoun"
+   "source_category": "vague_pronoun",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF093",
@@ -32,7 +34,9 @@
    },
    "correct": "B",
    "reasoning": "'that was drastically changed' has a vague pronoun reference - 'that' has no single clear noun antecedent, only an implied abstract idea (the perception that 20 HRs was extraordinary).",
-   "source_category": "vague_pronoun"
+   "source_category": "vague_pronoun",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF151",
@@ -49,7 +53,9 @@
    },
    "correct": "B",
    "reasoning": "'which captured readers' attention' has an ambiguous antecedent - it's unclear whether 'which' refers to 'cartoons' or 'newspapers and magazines', both plural nouns.",
-   "source_category": "vague_pronoun"
+   "source_category": "vague_pronoun",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF161",
@@ -66,7 +72,9 @@
    },
    "correct": "A",
    "reasoning": "'and these are his observations' has a vague/unclear pronoun reference - 'these' has no clear antecedent noun phrase to point back to.",
-   "source_category": "vague_pronoun"
+   "source_category": "vague_pronoun",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF164",
@@ -83,7 +91,28 @@
    },
    "correct": "C",
    "reasoning": "'this creature' has an ambiguous antecedent - sentence 2 just referred to 'both species' (plural), so it's unclear which single elephant 'this creature' (weighing 6.5 tons) refers to.",
-   "source_category": "vague_pronoun"
+   "source_category": "vague_pronoun",
+   "origin": "fodder",
+   "status": "active"
+  },
+  {
+   "id": "ORIG001",
+   "skill": "vague_pronoun",
+   "format": "mc",
+   "img": null,
+   "stimulus": null,
+   "question": "The museum curator placed the ancient vase on a shelf above the ornate mirror, worried that it might be damaged during the renovation. Which revision best fixes the vague pronoun in this sentence?",
+   "options": {
+    "A": "...worried that it might be damaged during the renovation. (no change)",
+    "B": "...worried that the vase might be damaged during the renovation.",
+    "C": "...worried that the shelf might be damaged during the renovation.",
+    "D": "...worried that the renovation might be damaged."
+   },
+   "correct": "B",
+   "reasoning": "\"...worried that it might be damaged during the renovation.\" → \"...worried that the vase might be damaged during the renovation.\" Vague pronouns aren't just about people — \"it\" here could mean the vase OR the mirror, since both are singular objects named right before it. Naming the specific object removes the ambiguity.",
+   "source_category": null,
+   "origin": "original",
+   "status": "active"
   }
  ],
  "agreement": [
@@ -102,7 +131,9 @@
    },
    "correct": "C",
    "reasoning": "S1 needs 'averages' (plural) since each of multiple applicants has their own GPA. S3 is missing the comma after the introductory phrase 'Along with having an extremely competitive application process' before the main clause begins. S2 and S4 are already correct as written.",
-   "source_category": "punctuation_agreement_pair"
+   "source_category": "punctuation_agreement_pair",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF035",
@@ -119,7 +150,9 @@
    },
    "correct": "Sentence 2",
    "reasoning": "Subject-verb agreement error: plural subject 'Aborigines' with singular verb 'has lived' - should be 'have lived'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF045",
@@ -136,7 +169,9 @@
    },
    "correct": "B",
    "reasoning": "Subject-verb agreement: plural subject 'scientists' requires 'see', not 'sees'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF048",
@@ -153,7 +188,9 @@
    },
    "correct": "C",
    "reasoning": "Pronoun-antecedent agreement: 'The wolf spider' (singular) requires 'its', not 'their'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF051",
@@ -170,7 +207,9 @@
    },
    "correct": "D",
    "reasoning": "Subject-verb agreement: plural subject 'Service employees' requires 'work', not 'works' (the intervening 'who...customer' clause doesn't change the subject's number).",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF054",
@@ -187,7 +226,9 @@
    },
    "correct": "D",
    "reasoning": "Subject-verb agreement: compound plural subject 'heroes, creativity, and humor' requires 'have made', not 'has made'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF059",
@@ -204,7 +245,9 @@
    },
    "correct": "B",
    "reasoning": "Subject-verb agreement: plural 'Children' requires 'enjoy', not 'enjoys'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF061",
@@ -221,7 +264,9 @@
    },
    "correct": "Sentence 1",
    "reasoning": "Subject-verb agreement: the singular subject 'study' (of 'The extensive study of atoms' movements') requires 'has led', not 'have led'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF096",
@@ -238,7 +283,9 @@
    },
    "correct": "D",
    "reasoning": "Subject-verb agreement: singular 'a book' requires 'which needs to be reprinted', not 'which need to be reprinted'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF147",
@@ -255,7 +302,9 @@
    },
    "correct": "A",
    "reasoning": "'The Yankees' is treated as plural throughout - A is the only option consistently using 'are/they/have/have'; B, C, and D each mix singular and plural forms inconsistently.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF162",
@@ -272,7 +321,9 @@
    },
    "correct": "D",
    "reasoning": "Subject-verb agreement: singular 'the bird' requires 'has', not 'have'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF163",
@@ -289,7 +340,9 @@
    },
    "correct": "A",
    "reasoning": "'that he had previously discovered' uses the singular 'he', but the subject is the three-person compound 'Marie Curie, Pierre Curie, and Henri Becquerel' - should be 'they'.",
-   "source_category": "agreement"
+   "source_category": "agreement",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF133",
@@ -306,7 +359,9 @@
    },
    "correct": "D",
    "reasoning": "Sentence 4 has a clear subject-verb agreement error: plural 'adult cats' requires 'are', not 'is'. A, B, and C each propose changes to sentences that are already correct as written (their commas/colon correctly set off introductory clauses or introduce a list, and their verbs already agree).",
-   "source_category": "agreement_punctuation_pair"
+   "source_category": "agreement_punctuation_pair",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF046",
@@ -323,7 +378,9 @@
    },
    "correct": "A",
    "reasoning": "The sentence describes a historical period (Middle Ages) using past tense throughout ('became', 'was considered', 'earned') except for 'are', which should be 'were' to match.",
-   "source_category": "verb_tense"
+   "source_category": "verb_tense",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF069",
@@ -340,7 +397,9 @@
    },
    "correct": "C",
    "reasoning": "The paragraph is in past tense throughout; sentence 3's 'performs' breaks that and must be 'performed'. The comma after 'friends' incorrectly splits the compound object 'her friends and team members' and must be deleted.",
-   "source_category": "verb_tense_punctuation_pair"
+   "source_category": "verb_tense_punctuation_pair",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF070",
@@ -357,7 +416,9 @@
    },
    "correct": "D",
    "reasoning": "Sentence 4's compound predicate ('did not grow...but developed...') shares one subject 'Okapis' and should not have a comma before 'but' (only independent clauses need that comma); and 'develops' must be 'developed' to match the past tense used throughout.",
-   "source_category": "verb_tense_punctuation_pair"
+   "source_category": "verb_tense_punctuation_pair",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF074",
@@ -374,7 +435,9 @@
    },
    "correct": "D",
    "reasoning": "'are dedicating' breaks the simple-present general-truth tense used throughout ('run faster', 'must be attributed') and should be 'dedicate'. The comma after 'ages' incorrectly precedes 'and' joining two parallel prepositional phrases (not independent clauses) and should be deleted.",
-   "source_category": "verb_tense_punctuation_pair"
+   "source_category": "verb_tense_punctuation_pair",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF071",
@@ -391,7 +454,9 @@
    },
    "correct": "D",
    "reasoning": "'may have chosen' is an odd tense/mood shift against the passage's general-present-tense description of homeopathy; 'may choose' fits better. A comma is also needed after 'failed' to properly set off the third item in the list ('or reduce the cost of treatment'). A, B, and C each propose unnecessary or incorrect changes to sentences that are already correct.",
-   "source_category": "grammar_mechanics_pair"
+   "source_category": "grammar_mechanics_pair",
+   "origin": "fodder",
+   "status": "active"
   }
  ],
  "sentence_construction": [
@@ -410,7 +475,9 @@
    },
    "correct": "C",
    "reasoning": "Sentence 3 is a fragment missing a subject - 'Resulted in...' has no subject performing the action.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF003",
@@ -427,7 +494,9 @@
    },
    "correct": "D",
    "reasoning": "Dangling modifier: 'to raise money for uniforms' must be followed by the people doing the raising, not 'a car wash'. D cleanly places 'members of the volleyball team' right after the purpose clause, with 'on Saturday' naturally at the end. (A inserts an awkward parenthetical between subject/verb; B still leaves 'a car wash' as what's modified; C stacks two different modifier types awkwardly up front.) Moderate confidence - C is a weaker alternate fix.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF005",
@@ -444,7 +513,9 @@
    },
    "correct": "C",
    "reasoning": "Sentence 3 is a comma splice: two independent clauses joined only by a comma.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF006",
@@ -461,7 +532,9 @@
    },
    "correct": "B",
    "reasoning": "Sentence 2 is a comma splice joining two independent clauses with only a comma.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF007",
@@ -478,7 +551,9 @@
    },
    "correct": "A",
    "reasoning": "Sentence 1 is a comma splice: '...from 1909 to 1913' + 'he was not finished with public service' are independent clauses joined with just a comma.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF008",
@@ -495,7 +570,9 @@
    },
    "correct": "C",
    "reasoning": "Sentence 3 lacks a comma after 'prospector', causing 'named after an old prospector and had a lively community' to misleadingly read as one unit attached to 'Berry' rather than 'had' being parallel to 'was known' (town was known... and had...).",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF009",
@@ -512,7 +589,9 @@
    },
    "correct": "D",
    "reasoning": "Dangling modifier: 'Captured by the Spanish conquistadores in 1503' must modify a person/place that was captured, but the subject that follows is 'colonization', which cannot itself be captured.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF011",
@@ -529,7 +608,9 @@
    },
    "correct": "B",
    "reasoning": "Comma splice: 'Active volcanoes are monitored closely' and 'seismologists observe warning signs...' are both independent clauses joined only by a comma. Changing the comma to a semicolon fixes it.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF012",
@@ -546,7 +627,9 @@
    },
    "correct": "Sentence 1",
    "reasoning": "The relative clause 'which they have classified' sits immediately after 'the ancient reptiles' but logically should refer to the fossils/signs being classified, not the reptiles themselves as a blanket group - ambiguous modifier attachment. LOW CONFIDENCE - no other sentence has a clearer error, but this one is subtle; flagging as uncertain.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF025",
@@ -563,7 +646,9 @@
    },
    "correct": "C",
    "reasoning": "Sentence 3 opens a parenthetical with a dash ('-making sense out of technical political jargon') but never closes it before 'plays', making it read as though 'jargon' is the subject of 'plays' rather than 'the commercial'.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF030",
@@ -580,7 +665,9 @@
    },
    "correct": "A",
    "reasoning": "Sentence 1 uses the wrong preposition: 'became associated on' should be 'became associated with'.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF033",
@@ -597,7 +684,9 @@
    },
    "correct": "B",
    "reasoning": "Sentence 2 mixes verb tenses incorrectly: 'has lived...and then moved' - the present perfect 'has lived' doesn't agree with the simple past sequential action 'then moved'; should be simple past 'lived...and then moved' throughout.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF038",
@@ -614,7 +703,9 @@
    },
    "correct": "D",
    "reasoning": "'might decide on drive' is ungrammatical - 'decide on' must be followed by a noun/gerund ('decide on driving') or restructured as 'decide to drive', not the bare verb 'drive'.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF047",
@@ -631,7 +722,9 @@
    },
    "correct": "A",
    "reasoning": "Pronoun-antecedent agreement error: 'Sandstone, limestone, and shale' (three items, plural) is referred to with the singular 'it all' - should be 'they all'.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF052",
@@ -648,7 +741,9 @@
    },
    "correct": "A",
    "reasoning": "'was admired more for X' is a dangling/incomplete comparative - no 'than' comparison point is given and no clear basis for 'more' versus 'most'. Medium confidence - sentences 2-4 are all clean, making S1 the best candidate by elimination.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF072",
@@ -665,7 +760,9 @@
    },
    "correct": "C",
    "reasoning": "Dangling modifier: 'after completing this class' must modify a person (a student), but the subject that follows, 'statistics', cannot itself complete a class.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF094",
@@ -682,7 +779,9 @@
    },
    "correct": "C",
    "reasoning": "Sentence 3 reverses the logical cause-effect relationship: solar activity (sunspots) causes the lights to appear farther from the poles, not the reverse as currently phrased ('When...occur far away from the poles, they light up...more frequently during...solar activity').",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF095",
@@ -699,7 +798,9 @@
    },
    "correct": "C",
    "reasoning": "'Much like modern penguins and cormorants, which have denser bones than most birds to enable them to stay submerged.' is a sentence fragment (a comparison phrase with no main clause of its own). The period after 'submerged' should be a comma, continuing into 'the Baptornis had a body built...' as the main clause the comparison attaches to.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF098",
@@ -716,7 +817,9 @@
    },
    "correct": "B",
    "reasoning": "'yet' signals a false contrast - adapting to traditional instruction and having multiple learning styles are compatible facts, not contrasting ones.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF115",
@@ -733,7 +836,9 @@
    },
    "correct": "B",
    "reasoning": "'Because X, Y' wrongly implies being celebrated today caused her lack of recognition during her lifetime - these are a contrast, not cause-effect, so 'Because' should be 'Although'.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF116",
@@ -750,7 +855,9 @@
    },
    "correct": "D",
    "reasoning": "'for the gold rushes, many other reasons' is an incomplete/unclear construction - inserting 'among' ('for the gold rushes, among many other reasons') fixes it.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF117",
@@ -767,7 +874,9 @@
    },
    "correct": "D",
    "reasoning": "Dangling modifier: 'After persevering through confrontations, strikes, and pickets' should modify the advocates (Huerta and Chavez) who persevered, not 'farmworkers', who are described as receiving the resulting improved conditions.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF119",
@@ -784,7 +893,9 @@
    },
    "correct": "Sentence 1",
    "reasoning": "Dangling modifier: 'As specialists in the technology of deciphering messages' should modify 'cryptologists', but the subject that follows is 'complex mathematical formulas', which are not specialists.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF135",
@@ -801,7 +912,9 @@
    },
    "correct": "A",
    "reasoning": "'Llamas...make excellent pets' and 'they are very friendly...' are both independent clauses joined only by a comma - a comma splice. The other three options are all correctly punctuated (comma+coordinating conjunction 'for', semicolon joining independent clauses, comma after introductory phrase).",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF139",
@@ -818,7 +931,9 @@
    },
    "correct": "C",
    "reasoning": "Run-on: 'continued for a week' and 'teachers counted the money...' are both independent clauses with no punctuation joining them; a semicolon fixes it (a comma alone would create a splice).",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF141",
@@ -835,7 +950,9 @@
    },
    "correct": "A",
    "reasoning": "Comma splice: 'outdoor activities' and 'we can ski down mountains...' are both independent clauses joined only by a comma; a semicolon fixes it. B, C, D would incorrectly break up the comma-separated list.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF144",
@@ -852,7 +969,9 @@
    },
    "correct": "B",
    "reasoning": "Run-on: 'during the summer' and 'it was popular only briefly...' are both independent clauses with no punctuation joining them.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF152",
@@ -869,7 +988,9 @@
    },
    "correct": "B",
    "reasoning": "Run-on: there is no punctuation between 'parallels to French' and 'The Russian alphabet has used...', which starts a new independent clause - needs a period or semicolon.",
-   "source_category": "sentence_construction"
+   "source_category": "sentence_construction",
+   "origin": "fodder",
+   "status": "active"
   }
  ],
  "combining_sentences": [
@@ -888,7 +1009,9 @@
    },
    "correct": "C",
    "reasoning": "C correctly preserves the causal relationship (good business caused expansion). A wrongly implies contrast; B reverses the causality; D is vague about the connection.",
-   "source_category": "combining_sentences"
+   "source_category": "combining_sentences",
+   "origin": "fodder",
+   "status": "active"
   }
  ],
  "punctuation": [
@@ -907,7 +1030,9 @@
    },
    "correct": "B",
    "reasoning": "Two independent clauses joined by conjunctive adverb 'however' need a semicolon before it: '...signify love; however, many people believe...'",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF004",
@@ -924,7 +1049,9 @@
    },
    "correct": "B",
    "reasoning": "Introductory descriptive phrase 'In constant demand as a piano teacher' must be set off by a comma before the subject 'my brother David' begins.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF024",
@@ -941,7 +1068,9 @@
    },
    "correct": "B",
    "reasoning": "The introductory phrase 'Unable to decide between a career in law and one in medicine' must be set off by a comma before the main clause 'Jemma combined...' begins.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF026",
@@ -958,7 +1087,9 @@
    },
    "correct": "Sentence 2",
    "reasoning": "Sentence 2 needs a colon after 'bicycle' to introduce the list that follows (blue-collar workers, office workers, parents, students) - without it, the sentence runs together confusingly.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF028",
@@ -975,7 +1106,9 @@
    },
    "correct": "C",
    "reasoning": "A colon is needed after 'amenities' to introduce the list of amenities that follows.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF029",
@@ -992,7 +1125,9 @@
    },
    "correct": "C",
    "reasoning": "The appositive describing Violet Palmer opens with a dash and must close with a second dash right before the main verb 'started'; without it, 'game started her journey' misleadingly reads as if 'game' is the subject.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF031",
@@ -1009,7 +1144,9 @@
    },
    "correct": "B",
    "reasoning": "A comma is needed before 'including' to set off the nonessential list that explains the requirements.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF032",
@@ -1026,7 +1163,9 @@
    },
    "correct": "C",
    "reasoning": "The introductory concessive clause 'though valued at $1 million when donated in the 1950s' must be followed by a comma before the main clause 'the map's authenticity has been hotly debated' begins.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF037",
@@ -1043,7 +1182,9 @@
    },
    "correct": "B",
    "reasoning": "The opening dash before 'one of the hardest substances...' must be closed with a second dash right before the main clause 'would be an ideal material' begins.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF073",
@@ -1060,7 +1201,9 @@
    },
    "correct": "B",
    "reasoning": "'suspension bridges which linked the network of roads' is a nonrestrictive clause (extra descriptive info, not identifying a specific subset of bridges) and needs a comma before 'which'.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF113",
@@ -1077,7 +1220,9 @@
    },
    "correct": "C",
    "reasoning": "The introductory concessive clause 'Although the orchestral arrangement is more famous' needs a comma before the main clause 'Samuel Barber's Adagio was originally written...' begins.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF114",
@@ -1094,7 +1239,9 @@
    },
    "correct": "C",
    "reasoning": "The parenthetical 'often without brakes and gears' opens with a comma after 'bikes' but is missing its closing comma after 'gears' before 'are used' continues.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF132",
@@ -1111,7 +1258,9 @@
    },
    "correct": "B",
    "reasoning": "The nonrestrictive clause 'which took weeks for me to complete' opens with a comma after 'project' but needs a closing comma after 'complete' before 'included' continues.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF140",
@@ -1128,7 +1277,9 @@
    },
    "correct": "D",
    "reasoning": "'schools library' is missing the possessive apostrophe - should be 'school's library'.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF142",
@@ -1145,7 +1296,9 @@
    },
    "correct": "A",
    "reasoning": "The parenthetical 'after distributing samples of igneous lava' opens with a comma after 'professor' but is missing its closing comma after 'lava' before 'explained' continues.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF143",
@@ -1162,7 +1315,9 @@
    },
    "correct": "C",
    "reasoning": "The introductory clause 'Because customers enjoy the entertainment that comes with their meals' needs a comma before the main clause 'these servers earn tips...' begins.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF145",
@@ -1179,7 +1334,9 @@
    },
    "correct": "B",
    "reasoning": "The appositive 'our swim team coach' opens with a comma after 'Miss Adams' but needs a closing comma after 'coach' before 'chose' continues.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF146",
@@ -1196,7 +1353,9 @@
    },
    "correct": "D",
    "reasoning": "'long' and 'intense' are coordinate adjectives both independently modifying 'drills' (passes the 'and' test: 'long and intense drills') and need a comma between them.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF148",
@@ -1213,7 +1372,9 @@
    },
    "correct": "B",
    "reasoning": "'todays' is missing its possessive apostrophe - should be 'today's movies'. A, C, and D each incorrectly add an apostrophe to a word that should stay plural, not possessive ('effects', 'movies', 'years').",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF149",
@@ -1230,7 +1391,9 @@
    },
    "correct": "C",
    "reasoning": "This is a three-item series (turning off faucets, decreasing shower time, running machines less often) - a comma after 'showers' is needed before 'and running washing machines' to clearly separate the second and third items (Oxford comma).",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF150",
@@ -1247,7 +1410,9 @@
    },
    "correct": "A",
    "reasoning": "'who met with students at the start of the school year' is a nonrestrictive clause (there's only one principal) and needs an opening comma after 'principal' to match the closing comma already present after 'year'.",
-   "source_category": "punctuation"
+   "source_category": "punctuation",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF019",
@@ -1259,7 +1424,9 @@
    "options": null,
    "correct": null,
    "reasoning": "A colon is needed to introduce the list/explanation of what the favorite dinner is.",
-   "source_category": "punctuation_edit_open"
+   "source_category": "punctuation_edit_open",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF020",
@@ -1271,7 +1438,9 @@
    "options": null,
    "correct": null,
    "reasoning": "Two independent clauses joined by the FANBOYS conjunction 'but' require a comma before it.",
-   "source_category": "punctuation_edit_open"
+   "source_category": "punctuation_edit_open",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF021",
@@ -1283,7 +1452,9 @@
    "options": null,
    "correct": null,
    "reasoning": "'which has occasionally led...' is nonessential/nonrestrictive information and must be set off by a comma.",
-   "source_category": "punctuation_edit_open"
+   "source_category": "punctuation_edit_open",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF022",
@@ -1295,7 +1466,9 @@
    "options": null,
    "correct": null,
    "reasoning": "Introductory phrase must be separated from the main clause with a comma.",
-   "source_category": "punctuation_edit_open"
+   "source_category": "punctuation_edit_open",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF023",
@@ -1307,7 +1480,9 @@
    "options": null,
    "correct": null,
    "reasoning": "'born Chloe Wofford' is a nonessential parenthetical (her birth name) and must be set off by commas on both sides.",
-   "source_category": "punctuation_edit_open"
+   "source_category": "punctuation_edit_open",
+   "origin": "fodder",
+   "status": "active"
   }
  ],
  "precise_language": [
@@ -1326,7 +1501,9 @@
    },
    "correct": "C",
    "reasoning": "'difficult and challenging' is redundant (near-synonyms) - 'and challenging' should be deleted.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF088",
@@ -1343,7 +1520,9 @@
    },
    "correct": "A",
    "reasoning": "'society and the people living in it' is redundant - society inherently includes the people living in it. B removes a non-redundant category (acquaintances differ from family); C and D remove meaningful nuance ('even when' shows skill despite mundane subject matter; 'often' qualifies that admiration isn't universal).",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF089",
@@ -1360,7 +1539,9 @@
    },
    "correct": "C",
    "reasoning": "C uses the most precise, concise verb ('improved' instead of vague 'made better') and the clearest specific action ('completing all available extra-credit projects') without unnecessary padding. B has an awkward 'his doing' construction and vague 'not as low'; A and D are specific but wordier with less necessary compound actions.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF091",
@@ -1377,7 +1558,9 @@
    },
    "correct": "D",
    "reasoning": "D replaces vague/casual phrasing ('fun for lots of vacationers') with more precise, formal language ('attractive to tourists'). A, B, and C all move in the wrong direction, replacing precise technical language with vaguer/more casual phrasing.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF097",
@@ -1394,7 +1577,9 @@
    },
    "correct": "B",
    "reasoning": "'buy or purchase' is redundant - 'buy' and 'purchase' are synonyms.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF134",
@@ -1411,7 +1596,9 @@
    },
    "correct": "C",
    "reasoning": "C is the most concise and natural phrasing ('Kaylee plans to X and to Y'), avoiding the wordy, awkward 'the plan Kaylee has/will follow is...' construction retained in A, B, and D.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF160",
@@ -1428,7 +1615,9 @@
    },
    "correct": "D",
    "reasoning": "D keeps the specific '20 miles' (A vaguely says 'some miles'), removes the redundant 'halting and stopping' (keeping just 'stopping'), and correctly keeps 'run' matching the infinitive structure ('allowed...to run...and [to] scale') rather than B/C's mismatched past-tense 'ran'.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF166",
@@ -1445,7 +1634,9 @@
    },
    "correct": "B",
    "reasoning": "'convey and show meaning' is redundant - 'convey' and 'show' are near-synonyms here.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF167",
@@ -1462,7 +1653,9 @@
    },
    "correct": "A",
    "reasoning": "'present-day' and 'current' are redundant synonyms.",
-   "source_category": "precise_language"
+   "source_category": "precise_language",
+   "origin": "fodder",
+   "status": "active"
   }
  ],
  "confused_words": [
@@ -1481,7 +1674,9 @@
    },
    "correct": "A",
    "reasoning": "'it's' (contraction of 'it is') is used where the possessive 'its' is needed ('its presence').",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF049",
@@ -1498,7 +1693,9 @@
    },
    "correct": "A",
    "reasoning": "Comparing only two people requires the comparative form 'better', not the superlative 'best' (reserved for three or more).",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF050",
@@ -1515,7 +1712,9 @@
    },
    "correct": "Sentence 4",
    "reasoning": "'close related languages' should be 'closely related languages' - the adverb 'closely' (not the adjective 'close') is needed to modify the participle/adjective 'related'.",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF053",
@@ -1532,7 +1731,9 @@
    },
    "correct": "A",
    "reasoning": "'was eventually rang' uses the wrong verb form - passive voice needs the past participle 'rung', not the simple past 'rang' ('was eventually rung').",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF056",
@@ -1549,7 +1750,9 @@
    },
    "correct": "D",
    "reasoning": "'the brighter veterinary students' uses the comparative without a comparison point; should be the superlative 'the brightest veterinary students' since selecting among many, not comparing two.",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF057",
@@ -1566,7 +1769,9 @@
    },
    "correct": "C",
    "reasoning": "'have officially became' uses the wrong verb form - present perfect 'have' requires the past participle 'become', not the simple past 'became'.",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF058",
@@ -1583,7 +1788,9 @@
    },
    "correct": "C",
    "reasoning": "Wrong preposition: 'associate the dialogue to' should be 'associate the dialogue with' (idiom 'associate X with Y').",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF060",
@@ -1600,7 +1807,9 @@
    },
    "correct": "C",
    "reasoning": "Wrong preposition: 'view it of a treatable condition' should be 'view it as a treatable condition' (idiom 'view X as Y').",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF159",
@@ -1617,7 +1826,9 @@
    },
    "correct": "C",
    "reasoning": "'young women that did not previously consider' uses 'that' to refer to people; should be 'who'.",
-   "source_category": "grammar_mechanics"
+   "source_category": "grammar_mechanics",
+   "origin": "fodder",
+   "status": "active"
   },
   {
    "id": "GRF062",
@@ -1634,8 +1845,87 @@
    },
    "correct": "B",
    "reasoning": "'Seniors which' should be 'Seniors who' since 'which' cannot refer to people; and the comma after 'applications' incorrectly separates the subject ('Seniors who need help with their college applications') from its verb ('can find') and must be deleted.",
-   "source_category": "grammar_mechanics_pair"
+   "source_category": "grammar_mechanics_pair",
+   "origin": "fodder",
+   "status": "active"
   }
  ],
- "wordiness": []
+ "wordiness": [
+  {
+   "id": "ORIG002",
+   "skill": "wordiness",
+   "format": "mc",
+   "img": null,
+   "stimulus": null,
+   "question": "(1) The committee reviewed each and every application before making a final decision. (2) Applicants were asked to submit a résumé, a cover letter, and two references. (3) The strongest candidates were invited back for a second round of interviews. (4) The committee announced its decision by email the following week. Which sentence should be revised to correct a wordiness issue?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "A",
+   "reasoning": "(1) The committee reviewed each and every application before making a final decision. → The committee reviewed every application before making a final decision. \"Each\" and \"every\" mean the same thing here — pairing them doesn't add emphasis, it just says the same word twice. One or the other is enough.",
+   "source_category": null,
+   "origin": "original",
+   "status": "active"
+  },
+  {
+   "id": "ORIG003",
+   "skill": "wordiness",
+   "format": "mc",
+   "img": null,
+   "stimulus": null,
+   "question": "(1) The research team spent months collecting data before they began their final analysis. (2) Every single one of the participants completed the entire survey without skipping any questions. (3) The results revealed a clear connection between sleep quality and memory performance. (4) Researchers plan to publish their findings in a peer-reviewed journal next year. Which sentence should be revised to correct a wordiness issue?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "B",
+   "reasoning": "(2) Every single one of the participants completed the entire survey... → All of the participants completed the entire survey... \"Every,\" \"single,\" and \"one\" are all doing the same job of emphasizing totality — stacking all three doesn't add meaning, it just repeats it. \"All of the participants\" or \"Every participant\" says the exact same thing in fewer words.",
+   "source_category": null,
+   "origin": "original",
+   "status": "active"
+  },
+  {
+   "id": "ORIG004",
+   "skill": "wordiness",
+   "format": "mc",
+   "img": null,
+   "stimulus": null,
+   "question": "(1) The weather service issued an advance warning before the storm made landfall, giving residents time to prepare. (2) Emergency shelters opened across the county to house anyone who needed a safe place to stay. (3) Volunteers distributed food, water, and blankets throughout the week. (4) Local officials praised the community's quick response to the crisis. Which sentence should be revised to correct a wordiness issue?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "A",
+   "reasoning": "(1) The weather service issued an advance warning before the storm made landfall... → The weather service issued a warning before the storm made landfall... \"Advance warning\" is redundant — a warning is, by definition, something given in advance. It could simply say \"a warning.\"",
+   "source_category": null,
+   "origin": "original",
+   "status": "active"
+  },
+  {
+   "id": "ORIG005",
+   "skill": "wordiness",
+   "format": "mc",
+   "img": null,
+   "stimulus": null,
+   "question": "(1) Due to the fact that ticket sales exceeded expectations, the concert venue added a second show. (2) Fans who missed out on the first round of tickets rushed to buy seats for the new date. (3) The band announced that proceeds from the extra show would support a local music education program. (4) Reviewers praised the added performance as even stronger than the first. Which sentence should be revised to correct a wordiness issue?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "A",
+   "reasoning": "(1) Due to the fact that ticket sales exceeded expectations, the concert venue added a second show. → Because ticket sales exceeded expectations, the concert venue added a second show. \"Due to the fact that\" is a wordy way of saying \"because\" — it takes five words to do the job of one, without adding any meaning.",
+   "source_category": null,
+   "origin": "original",
+   "status": "active"
+  }
+ ]
 }

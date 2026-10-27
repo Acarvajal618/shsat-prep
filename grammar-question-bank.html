@@ -73,7 +73,7 @@
   <div class="page">
     <a href="ela-revising-editing-guide.html" class="back">← Back to Grammar Guide</a>
     <h1>Grammar Question Bank</h1>
-    <p class="subtitle">Pick a skill, work through real questions one at a time. These come from a Kaplan workbook not tied to any specific SHSAT practice test — every answer and explanation was worked out by hand (no answer key existed), same standard as the rest of this site. Not infinite, but a lot to shift through. Answers are password-locked, same password as the exam pages.</p>
+    <p class="subtitle">Pick a skill, work through real questions one at a time. This is the single pool every grammar question eventually lives in: 97 from a Kaplan workbook (no answer key existed, so every answer was worked out by hand) plus originals written for the Grammar Guide and future practice sets — each card says which kind it is. Not infinite, but a lot to shift through. Answers are password-locked, same password as the exam pages.</p>
 
     <div class="skill-pills" id="skillPills"></div>
 
@@ -86,7 +86,9 @@
 
     <details class="how">
       <summary>Where does this content come from?</summary>
-      Sourced from a Kaplan "Revising/Editing Text" workbook, separate from the lettered practice exams (A–G) and Kaplan tests 1–3. It had no printed answer key, so every correct answer and explanation here was worked out directly from grammar rules, then spot-checked. 4 questions that turned out to be genuinely ambiguous on review were left out entirely rather than force-guessed, and 24 more were left out because they depend on a specific named reading passage from the workbook rather than standing on their own (a few "combine these sentences" questions in particular came almost entirely from passages, which is why that skill is thin here). This bank only includes standalone, sentence-level "grammar" skill types — the paragraph-level skills (transitions, reordering, off-topic removal, style matching) live in the <a href="ela-revising-editing-passage-guide.html">Revising/Editing Passage Guide</a> instead. Each question's source line also names the original photo it was transcribed from (e.g. "photo IMG_8604"), in case anything ever needs to be checked against the original workbook page.
+Most of this bank (97 questions) is sourced from a Kaplan "Revising/Editing Text" workbook, separate from the lettered practice exams (A–G) and Kaplan tests 1–3. It had no printed answer key, so every correct answer and explanation here was worked out directly from grammar rules, then spot-checked. 4 questions that turned out to be genuinely ambiguous on review were left out entirely rather than force-guessed, and 24 more were left out because they depend on a specific named reading passage from the workbook rather than standing on their own (a few "combine these sentences" questions in particular came almost entirely from passages, which is why that skill is thin here). This bank only includes standalone, sentence-level "grammar" skill types — the paragraph-level skills (transitions, reordering, off-topic removal, style matching) live in the <a href="ela-revising-editing-passage-guide.html">Revising/Editing Passage Guide</a> instead. Each fodder question's source line also names the original photo it was transcribed from (e.g. "photo IMG_8604"), in case anything ever needs to be checked against the original workbook page.
+      <br><br>
+      The rest ("Original" in the source line) are questions written from scratch — first for the Grammar Guide, and going forward also for new practice sets — rather than pulled from any outside source. This bank is meant to be the single home for every grammar question across the whole site, old and new, so nothing lives only inside one worksheet. Questions get reviewed here too: anything ruled out during review is marked excluded and quietly drops out of practice, without deleting the record of it.
     </details>
   </div>
 
@@ -194,7 +196,8 @@
       const card = document.createElement('div');
       card.className = 'q-card';
 
-      const sourceLine = `Fodder — ${current.id}${current.img ? ' · photo ' + current.img : ''}${current.source_category && current.source_category !== currentSkill ? ' · ' + current.source_category.replace(/_/g, ' ') : ''}`;
+      const originLabel = current.origin === 'original' ? 'Original' : 'Fodder';
+      const sourceLine = `${originLabel} — ${current.id}${current.img ? ' · photo ' + current.img : ''}${current.source_category && current.source_category !== currentSkill ? ' · ' + current.source_category.replace(/_/g, ' ') : ''}`;
       let html = `<div class="q-source">${esc(sourceLine)}</div>`;
       html += `<div class="q-text">${renderText(current.question)}</div>`;
 
@@ -269,7 +272,12 @@
     fetch('data/grammar-question-bank.json?v=' + Date.now())
       .then(r => r.json())
       .then(data => {
-        BANK = data;
+        // Only ever show active questions -- anything marked excluded during
+        // review stays in the file for the record but drops out of practice.
+        BANK = {};
+        Object.keys(data).forEach(skill => {
+          BANK[skill] = (data[skill] || []).filter(q => q.status !== 'excluded');
+        });
         buildPills();
         document.getElementById('qArea').innerHTML = '<div class="empty-state">Pick a skill above to start.</div>';
       })
