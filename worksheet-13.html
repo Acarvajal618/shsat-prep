@@ -321,7 +321,7 @@
       if (q.solution.exhibit_image) {
         html += `<img src="${q.solution.exhibit_image}" alt="Answer explanation" style="max-width:100%;display:block;border-radius:4px;">`;
       } else {
-        html += esc(q.solution.exhibit_text);
+        html += renderQuestionText(q.solution.exhibit_text);
       }
       body.innerHTML = html;
       document.getElementById('tn-exhibit-title').textContent = 'Solution';
@@ -344,7 +344,7 @@
       if (bq.solution && bq.solution.exhibit_image) {
         html += `<img src="${bq.solution.exhibit_image}" alt="Base question solution" style="max-width:100%;display:block;border-radius:4px;">`;
       } else if (bq.solution && bq.solution.exhibit_text) {
-        html += esc(bq.solution.exhibit_text);
+        html += renderQuestionText(bq.solution.exhibit_text);
       }
       html += '</div>';
       body.innerHTML = html;
