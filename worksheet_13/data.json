@@ -1,0 +1,1278 @@
+{
+ "math_questions": [
+  {
+   "id": "KM2_Q60.0",
+   "q_number": 1,
+   "question_type": "grid_keypad",
+   "grid_label": "ORIGINAL (missed on Kaplan 2) — solve together first.",
+   "question": "Sidney is eating lunch at a salad bar where you create your own salad. An 8-ounce salad costs $2.49. Each additional ounce of salad costs $0.25. How much does Sidney's salad cost if it weighs 1 pound, 8 ounces?",
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q60.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q60.1",
+   "q_number": 2,
+   "question_type": "grid_keypad",
+   "grid_prefix": "$",
+   "grid_label": "NEW (same skill) — try it on your own.",
+   "question": "Marcus is buying trail mix at a bulk food store. A 6-ounce bag costs $3.20. Each additional ounce costs $0.40. How much does Marcus's bag cost if it weighs 1 pound exactly?",
+   "solution": {
+    "exhibit_text": "1 pound = 16 ounces. The bag already includes the first 6 ounces, so the extra ounces are 16 − 6 = 10.\n\nExtra cost: 10 × $0.40 = $4.00\n\nTotal cost: $3.20 + $4.00 = $7.20\n\nAnswer: $7.20"
+   }
+  },
+  {
+   "id": "KM2_Q60.2",
+   "q_number": 3,
+   "question_type": "grid_keypad",
+   "grid_prefix": "$",
+   "grid_label": "NEW (same skill) — try it on your own.",
+   "question": "Priya is buying granola at a market. A 10-ounce container costs $4.75. Each additional ounce costs $0.30. How much does Priya's container cost if it weighs 1 pound, 4 ounces?",
+   "solution": {
+    "exhibit_text": "1 pound, 4 ounces = 16 + 4 = 20 ounces. The container already includes the first 10 ounces, so the extra ounces are 20 − 10 = 10.\n\nExtra cost: 10 × $0.30 = $3.00\n\nTotal cost: $4.75 + $3.00 = $7.75\n\nAnswer: $7.75"
+   }
+  },
+  {
+   "id": "KM2_Q63.0",
+   "q_number": 4,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\n\\[\\left\\{\\dfrac{2}{11},\\dfrac{3}{11},\\dfrac{4}{11},\\dfrac{5}{11},\\dfrac{6}{11},\\dfrac{7}{11}\\right\\}\\]\nIf Deena chooses a number at random from the set above, what is the probability that the number she chooses is less than \\(\\dfrac{1}{2}\\)?",
+   "options": {
+    "A": "\\(\\dfrac{5}{11}\\)",
+    "B": "\\(\\dfrac{1}{2}\\)",
+    "C": "\\(\\dfrac{2}{3}\\)",
+    "D": "\\(\\dfrac{5}{6}\\)"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q63.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q63.1",
+   "q_number": 5,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf a number is chosen at random from the set \\(\\left\\{\\dfrac{3}{13},\\dfrac{4}{13},\\dfrac{5}{13},\\dfrac{6}{13},\\dfrac{7}{13},\\dfrac{8}{13},\\dfrac{9}{13}\\right\\}\\), what is the probability that the number chosen is greater than \\(\\dfrac{1}{2}\\)?",
+   "options": {
+    "A": "\\(\\dfrac{3}{7}\\)",
+    "B": "\\(\\dfrac{1}{2}\\)",
+    "C": "\\(\\dfrac{4}{7}\\)",
+    "D": "\\(\\dfrac{5}{7}\\)"
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "Rewrite \\(\\dfrac{1}{2}\\) with a denominator of 13: \\(\\dfrac{1}{2}=\\dfrac{6.5}{13}\\).\n\nThere are 7 numbers total in the set. The ones greater than \\(\\dfrac{6.5}{13}\\) are \\(\\dfrac{7}{13},\\dfrac{8}{13},\\dfrac{9}{13}\\) — 3 of them.\n\nProbability = \\(\\dfrac{3}{7}\\). Answer: (A)"
+   }
+  },
+  {
+   "id": "KM2_Q63.2",
+   "q_number": 6,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf a number is chosen at random from the set \\(\\left\\{\\dfrac{1}{9},\\dfrac{2}{9},\\dfrac{3}{9},\\dfrac{4}{9},\\dfrac{5}{9},\\dfrac{6}{9}\\right\\}\\), what is the probability that the number chosen is less than \\(\\dfrac{2}{3}\\)?",
+   "options": {
+    "A": "\\(\\dfrac{1}{3}\\)",
+    "B": "\\(\\dfrac{1}{2}\\)",
+    "C": "\\(\\dfrac{2}{3}\\)",
+    "D": "\\(\\dfrac{5}{6}\\)"
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "Rewrite \\(\\dfrac{2}{3}\\) with a denominator of 9: \\(\\dfrac{2}{3}=\\dfrac{6}{9}\\).\n\nThere are 6 numbers total in the set. The ones less than \\(\\dfrac{6}{9}\\) are \\(\\dfrac{1}{9},\\dfrac{2}{9},\\dfrac{3}{9},\\dfrac{4}{9},\\dfrac{5}{9}\\) — 5 of them.\n\nProbability = \\(\\dfrac{5}{6}\\). Answer: (D)"
+   }
+  },
+  {
+   "id": "KM2_Q67.0",
+   "q_number": 7,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nA certain machine caps 5 bottles every 2 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+   "options": {
+    "A": "120",
+    "B": "150",
+    "C": "240",
+    "D": "300"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q67.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q67.1",
+   "q_number": 8,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nA printer prints 8 pages every 3 seconds. At this rate, how many pages can the printer print in 2 minutes?",
+   "options": {
+    "A": "240",
+    "B": "280",
+    "C": "320",
+    "D": "360"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "2 minutes = 120 seconds.\n\nRate: \\(\\dfrac{8\\text{ pages}}{3\\text{ sec}}\\)\n\nTotal pages: \\(120 \\times \\dfrac{8}{3} = \\dfrac{960}{3} = 320\\)\n\nAnswer: (C) 320"
+   }
+  },
+  {
+   "id": "KM2_Q67.2",
+   "q_number": 9,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nA conveyor belt moves 12 boxes every 5 seconds. At this rate, how many boxes can the belt move in 3 minutes?",
+   "options": {
+    "E": "360",
+    "F": "396",
+    "G": "420",
+    "H": "432"
+   },
+   "correct": "H",
+   "solution": {
+    "exhibit_text": "3 minutes = 180 seconds.\n\nRate: \\(\\dfrac{12\\text{ boxes}}{5\\text{ sec}}\\)\n\nTotal boxes: \\(180 \\times \\dfrac{12}{5} = \\dfrac{2160}{5} = 432\\)\n\nAnswer: (H) 432"
+   }
+  },
+  {
+   "id": "KM2_Q69.0",
+   "q_number": 10,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nIf \\(a+b<5\\), and \\(a-b>6\\), which of the following pairs could be the values of \\(a\\) and \\(b\\)?",
+   "options": {
+    "A": "(4, -3)",
+    "B": "(4, -2)",
+    "C": "(3, -2)",
+    "D": "(1, 3)"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q69.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q69.1",
+   "q_number": 11,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf \\(x+y<4\\), and \\(x-y>5\\), which of the following pairs could be the values of \\(x\\) and \\(y\\)?",
+   "options": {
+    "A": "(5, -2)",
+    "B": "(3, -2)",
+    "C": "(5, 0)",
+    "D": "(2, 3)"
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "Check each pair against BOTH conditions.\n\n(A) (5, −2): sum = 3 < 4 ✓, difference = 5−(−2) = 7 > 5 ✓. Both true — this works.\n\n(B) (3, −2): sum = 1 < 4 ✓, but difference = 3−(−2) = 5, and 5 is NOT greater than 5. Fails.\n\n(C) (5, 0): sum = 5, and 5 is NOT less than 4. Fails.\n\n(D) (2, 3): sum = 5, not less than 4. Fails.\n\nAnswer: (A)"
+   }
+  },
+  {
+   "id": "KM2_Q69.2",
+   "q_number": 12,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf \\(x+y>6\\), and \\(x-y<-1\\), which of the following pairs could be the values of \\(x\\) and \\(y\\)?",
+   "options": {
+    "E": "(2, 5)",
+    "F": "(4, 3)",
+    "G": "(6, 2)",
+    "H": "(0, 5)"
+   },
+   "correct": "E",
+   "solution": {
+    "exhibit_text": "Check each pair against BOTH conditions.\n\n(E) (2, 5): sum = 7 > 6 ✓, difference = 2−5 = −3, and −3 < −1 ✓. Both true — this works.\n\n(F) (4, 3): sum = 7 > 6 ✓, but difference = 4−3 = 1, and 1 is NOT less than −1. Fails.\n\n(G) (6, 2): sum = 8 > 6 ✓, but difference = 6−2 = 4, not less than −1. Fails.\n\n(H) (0, 5): sum = 5, not greater than 6. Fails.\n\nAnswer: (E)"
+   }
+  },
+  {
+   "id": "KM2_Q73.0",
+   "q_number": 13,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nIf 4% of \\(r\\) is 6.2, then what is 20% of \\(r\\)?",
+   "options": {
+    "A": "25",
+    "B": "26",
+    "C": "30",
+    "D": "31"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q73.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q73.1",
+   "q_number": 14,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf 5% of \\(p\\) is 8.5, then what is 15% of \\(p\\)?",
+   "options": {
+    "A": "24",
+    "B": "25",
+    "C": "25.5",
+    "D": "26"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "5% of \\(p\\) = 8.5, so \\(p = \\dfrac{8.5}{0.05} = 170\\).\n\n15% of 170 = \\(0.15 \\times 170 = 25.5\\)\n\nAnswer: (C) 25.5"
+   }
+  },
+  {
+   "id": "KM2_Q73.2",
+   "q_number": 15,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf 8% of \\(m\\) is 14.4, then what is 25% of \\(m\\)?",
+   "options": {
+    "E": "40",
+    "F": "42",
+    "G": "45",
+    "H": "48"
+   },
+   "correct": "G",
+   "solution": {
+    "exhibit_text": "8% of \\(m\\) = 14.4, so \\(m = \\dfrac{14.4}{0.08} = 180\\).\n\n25% of 180 = \\(0.25 \\times 180 = 45\\)\n\nAnswer: (G) 45"
+   }
+  },
+  {
+   "id": "KM2_Q74.0",
+   "q_number": 16,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nAt a certain school, the ratio of teachers to students is 1:10. Which of the following could be the total number of teachers and students?",
+   "options": {
+    "E": "100",
+    "F": "121",
+    "G": "144",
+    "H": "222"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q74.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q74.1",
+   "q_number": 17,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nAt a company, the ratio of managers to employees is 2:9. Which of the following could be the total number of managers and employees?",
+   "options": {
+    "A": "100",
+    "B": "110",
+    "C": "120",
+    "D": "130"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "The ratio parts add up to 2 + 9 = 11, so the total must be a multiple of 11.\n\nCheck each option: 100 ÷ 11 is not whole; 110 ÷ 11 = 10 ✓; 120 ÷ 11 is not whole; 130 ÷ 11 is not whole.\n\nOnly 110 works (10 managers, 90 employees).\n\nAnswer: (B) 110"
+   }
+  },
+  {
+   "id": "KM2_Q74.2",
+   "q_number": 18,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIn a garden, the ratio of rose bushes to tulip bushes is 3:7. Which of the following could be the total number of rose and tulip bushes?",
+   "options": {
+    "E": "45",
+    "F": "52",
+    "G": "60",
+    "H": "67"
+   },
+   "correct": "G",
+   "solution": {
+    "exhibit_text": "The ratio parts add up to 3 + 7 = 10, so the total must be a multiple of 10.\n\nOnly 60 is a multiple of 10 (18 rose bushes, 42 tulip bushes).\n\nAnswer: (G) 60"
+   }
+  },
+  {
+   "id": "KM2_Q79.0",
+   "q_number": 19,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nIf \\(k=15\\), what is \\((4k+30)-(2k+15)\\)?",
+   "options": {
+    "A": "15",
+    "B": "30",
+    "C": "45",
+    "D": "60"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q79.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q79.1",
+   "q_number": 20,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf \\(n=12\\), what is \\((5n+20)-(3n+8)\\)?",
+   "options": {
+    "A": "32",
+    "B": "34",
+    "C": "36",
+    "D": "38"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "Simplify first: \\((5n+20)-(3n+8) = 5n+20-3n-8 = 2n+12\\)\n\nSubstitute \\(n=12\\): \\(2(12)+12 = 24+12 = 36\\)\n\nAnswer: (C) 36"
+   }
+  },
+  {
+   "id": "KM2_Q79.2",
+   "q_number": 21,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nIf \\(t=9\\), what is \\((6t+40)-(2t+10)\\)?",
+   "options": {
+    "E": "60",
+    "F": "63",
+    "G": "66",
+    "H": "69"
+   },
+   "correct": "G",
+   "solution": {
+    "exhibit_text": "Simplify first: \\((6t+40)-(2t+10) = 6t+40-2t-10 = 4t+30\\)\n\nSubstitute \\(t=9\\): \\(4(9)+30 = 36+30 = 66\\)\n\nAnswer: (G) 66"
+   }
+  },
+  {
+   "id": "KM2_Q81.0",
+   "q_number": 22,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nOn a town map, 3 inches represents 5 miles. The points on this map that represent the library and the water tower are 7 inches apart. How many miles apart are the library and the water tower, to the nearest mile?",
+   "options": {
+    "A": "10",
+    "B": "12",
+    "C": "13",
+    "D": "15"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q81.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q81.1",
+   "q_number": 23,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nOn a blueprint, 4 inches represents 15 miles. Two points on the blueprint are 7 inches apart. How many miles apart are the two points, to the nearest mile?",
+   "options": {
+    "A": "24",
+    "B": "25",
+    "C": "26",
+    "D": "27"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "Set up the scale: \\(\\dfrac{4\\text{ in}}{15\\text{ mi}} = \\dfrac{7\\text{ in}}{x\\text{ mi}}\\)\n\n\\(x = 7 \\times \\dfrac{15}{4} = \\dfrac{105}{4} = 26.25\\)\n\nRounded to the nearest mile: 26\n\nAnswer: (C) 26"
+   }
+  },
+  {
+   "id": "KM2_Q81.2",
+   "q_number": 24,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nOn a map, 5 centimeters represents 12 kilometers. Two cities on the map are 8 centimeters apart. How many kilometers apart are the cities, to the nearest kilometer?",
+   "options": {
+    "E": "17",
+    "F": "18",
+    "G": "19",
+    "H": "20"
+   },
+   "correct": "G",
+   "solution": {
+    "exhibit_text": "Set up the scale: \\(\\dfrac{5\\text{ cm}}{12\\text{ km}} = \\dfrac{8\\text{ cm}}{x\\text{ km}}\\)\n\n\\(x = 8 \\times \\dfrac{12}{5} = \\dfrac{96}{5} = 19.2\\)\n\nRounded to the nearest kilometer: 19\n\nAnswer: (G) 19"
+   }
+  },
+  {
+   "id": "KM2_Q84.0",
+   "q_number": 25,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\nJung's average (arithmetic mean) on 2 biology quizzes is 70. What must Jung's score on the next quiz be in order to have an average of 80 for the three quizzes?",
+   "options": {
+    "E": "80",
+    "F": "85",
+    "G": "90",
+    "H": "100"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q84.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q84.1",
+   "q_number": 26,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nCarlos's average (arithmetic mean) on 3 math tests is 78. What must Carlos's score be on the next test in order to have an average of 82 for the four tests?",
+   "options": {
+    "A": "86",
+    "B": "90",
+    "C": "94",
+    "D": "98"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "Sum of the first 3 tests: \\(78 \\times 3 = 234\\)\n\nSum needed for 4 tests averaging 82: \\(82 \\times 4 = 328\\)\n\n4th test score: \\(328 - 234 = 94\\)\n\nAnswer: (C) 94"
+   }
+  },
+  {
+   "id": "KM2_Q84.2",
+   "q_number": 27,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\nInés's average (arithmetic mean) on 4 quizzes is 75. What must Inés's score be on the next quiz in order to have an average of 80 for the five quizzes?",
+   "options": {
+    "E": "90",
+    "F": "95",
+    "G": "98",
+    "H": "100"
+   },
+   "correct": "H",
+   "solution": {
+    "exhibit_text": "Sum of the first 4 quizzes: \\(75 \\times 4 = 300\\)\n\nSum needed for 5 quizzes averaging 80: \\(80 \\times 5 = 400\\)\n\n5th quiz score: \\(400 - 300 = 100\\)\n\nAnswer: (H) 100"
+   }
+  },
+  {
+   "id": "KM2_Q95.0",
+   "q_number": 28,
+   "question_type": "mc",
+   "question": "ORIGINAL (missed on Kaplan 2) — solve together first.\n\n\\[\\{1,2,3,4,\\ldots,297,298,299,300\\}\\]\nHow many members of the set shown above are multiples of 10 but not multiples of 15?",
+   "options": {
+    "A": "20",
+    "B": "24",
+    "C": "25",
+    "D": "30"
+   },
+   "solution": {
+    "exhibit_image": "kaplan_2025_2/solutions/Q95.jpg"
+   }
+  },
+  {
+   "id": "KM2_Q95.1",
+   "q_number": 29,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\n\\[\\{1,2,3,\\ldots,359,360\\}\\]\nHow many members of the set shown above are multiples of 8 but not multiples of 12?",
+   "options": {
+    "A": "28",
+    "B": "30",
+    "C": "32",
+    "D": "34"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "Multiples of 8 from 1 to 360: \\(360 \\div 8 = 45\\)\n\nA number that's a multiple of both 8 and 12 is a multiple of their LCM, 24. Multiples of 24 from 1 to 360: \\(360 \\div 24 = 15\\)\n\nMultiples of 8 but NOT 12: \\(45 - 15 = 30\\)\n\nAnswer: (B) 30"
+   }
+  },
+  {
+   "id": "KM2_Q95.2",
+   "q_number": 30,
+   "question_type": "mc",
+   "question": "NEW (same skill) — try it on your own.\n\n\\[\\{1,2,3,\\ldots,179,180\\}\\]\nHow many members of the set shown above are multiples of 6 but not multiples of 9?",
+   "options": {
+    "E": "16",
+    "F": "18",
+    "G": "20",
+    "H": "22"
+   },
+   "correct": "G",
+   "solution": {
+    "exhibit_text": "Multiples of 6 from 1 to 180: \\(180 \\div 6 = 30\\)\n\nA number that's a multiple of both 6 and 9 is a multiple of their LCM, 18. Multiples of 18 from 1 to 180: \\(180 \\div 18 = 10\\)\n\nMultiples of 6 but NOT 9: \\(30 - 10 = 20\\)\n\nAnswer: (G) 20"
+   }
+  }
+ ],
+ "ela_passages": [
+  {
+   "id": "RCF_BOGART",
+   "title": "Bogart's Extraordinary Career",
+   "author": null,
+   "citation": null,
+   "paragraphs": [
+    {
+     "num": 1,
+     "text": "Although Humphrey Bogart became one of the greatest Hollywood stars to ever live, his early acting career was far from promising. In fact, when one considers Bogart's troubled youth and the intentions of his parents that he study medicine, it is perhaps surprising that he ever made it onto the screen at all. Even when he did enter show business, it was years before he found his acting niche. Eventually Bogart found his place in Hollywood, developed a signature style that attracted legions of fans, and attained the status of an icon. His fame has endured to this day."
+    },
+    {
+     "num": 2,
+     "text": "Born in New York City in 1899 as the son of a prominent surgeon, young Humphrey was eagerly placed on the academic track to medical school by his parents. He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University. Bogart, however, was not inclined toward academics; he was often described during his adolescent years as rather belligerent and a frequent instigator of trouble. Indeed, soon after he had arrived at Andover, he ran into disciplinary problems and was eventually expelled."
+    },
+    {
+     "num": 3,
+     "text": "After this expulsion, Bogart volunteered for the Navy, which, in hindsight, seemed a better fit than medical school. In fact, Bogart was described as a model soldier. It was 1918, and with World War I in full swing, Bogart had ample opportunity to see action. It may have been in the service when he received a providential injury to his mouth that partially paralyzed his upper lip. Although accounts of the event differ (at times it has been suggested the injury arose in childhood or possibly in a bar brawl), this injury was significant in that it was responsible for Bogart's distinctive snarl that became the cornerstone of his acting style."
+    },
+    {
+     "num": 4,
+     "text": "After his honorable discharge from the Navy in 1920, Bogart next turned his attention to a number of working-class pursuits and then, interestingly, to the theater. The transition is a remarkable one given that Bogart had shown no inclination toward acting in his youth. However, a random connection with an old family friend who had show business contacts introduced Bogart to show business. He began first as a staffer in a New York theater office, but he eventually became stage manager and finally worked himself into some minor stage roles. His inexperience showed however, and he struggled with poor reviews and the inability to find any substantive parts."
+    },
+    {
+     "num": 5,
+     "text": "In the early 1930s, Bogart set out for Hollywood hoping to jump start his career and quickly signed a contract with Fox Pictures. Unfortunately, even under contract, Bogart appeared in only three films—all of them bit roles. Frustrated, he returned to the Broadway stage, where he finally caught his break with a remarkable performance as Duke Mantee in the play The Petrified Forest. The production was a hit, and Bogart's performance as the quintessential tough guy was critically acclaimed. Reprising the role for its screen adaptation, Bogart earned accolades and signed for a long-term contract with Warner Brothers. Bogart, back out in Hollywood, would go on to make 28 films, often as a gangster or other tough guy."
+    },
+    {
+     "num": 6,
+     "text": "Whether it was as gumshoe Sam Spade in The Maltese Falcon or as café owner Rick Blaine in Casablanca, Bogart consistently created rich and complex screen images infused with a hangdog expression, perennial five o'clock shadow, dangling cigarette, and world-weary attitude. The lip injury–induced snarl fit in well with this persona, but Bogart's great appeal went far beyond these elements. Bogart played the tough guy who managed to seem somehow tender. Both cynical and sentimental, Bogart walked a line that appealed to legions of both male and female fans alike, and his performances came to personify male elegance on the screen. It is unlikely that his illustrious career will ever be forgotten."
+    }
+   ],
+   "questions": [
+    {
+     "id": "RCF_BOGART_Q1",
+     "q_number": 31,
+     "question_type": "mc",
+     "question": "Which statement best describes the central idea of the passage?",
+     "options": {
+      "A": "Humphrey Bogart found success at an early age as an actor.",
+      "B": "Humphrey Bogart's early life experiences shaped his portrayal of tough-guy characters on the screen.",
+      "C": "Humphrey Bogart ignored his studies and his father's wishes to follow his dreams of acting.",
+      "D": "Humphrey Bogart's tremendous fame as an actor arose almost accidentally after his rather unsuccessful early life."
+     },
+     "correct": "D",
+     "solution": {
+      "exhibit_text": "A is wrong — the passage opens by saying his early career was \"far from promising,\" the opposite of early success. C is wrong — Bogart never \"dreamed\" of acting; he fell into it through a random connection, not a defiant pursuit of a passion. B is true but too narrow — it only covers one detail (the lip injury shaping his screen persona), not the whole arc of the passage. D matches paragraph 1's framing exactly: it was \"perhaps surprising he ever made it onto the screen at all,\" and paragraphs 2–5 trace a string of failures (expulsion, poor reviews, bit roles) before an accidental breakthrough. That's the passage's real throughline."
+     }
+    },
+    {
+     "id": "RCF_BOGART_Q2",
+     "q_number": 32,
+     "question_type": "mc",
+     "question": "Which sentence from the excerpt best explains why Bogart never went to medical school?",
+     "options": {
+      "A": "\"He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University.\" (paragraph 2)",
+      "B": "\"Indeed, soon after he had arrived at Andover, he ran into disciplinary problems and was eventually expelled.\" (paragraph 2)",
+      "C": "\"It was 1918, and with World War I in full swing, Bogart had ample opportunity to see action.\" (paragraph 3)",
+      "D": "\"After his honorable discharge from the Navy in 1920, Bogart next turned his attention to a number of working-class pursuits and then, interestingly, to the theater.\" (paragraph 4)"
+     },
+     "correct": "B",
+     "solution": {
+      "exhibit_text": "A describes the plan FOR medical school, not why it fell apart. C and D are about his Navy service and post-Navy years — after the medical-school track had already ended. B is the direct cause: he was expelled from the prep school that was supposed to prepare him for Yale, which is exactly what ended the medical-school path."
+     }
+    },
+    {
+     "id": "RCF_BOGART_Q3A",
+     "q_number": 33,
+     "question_type": "mc",
+     "question": "Which sentence from the excerpt supports the idea that Bogart's parents wanted him to attend medical school?",
+     "options": {
+      "A": "\"His inexperience showed however, and he struggled with poor reviews and the inability to find any substantive parts.\" (paragraph 4)",
+      "B": "\"He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University.\" (paragraph 2)",
+      "C": "\"Born in New York City in 1899 as the son of a prominent surgeon, young Humphrey was eagerly placed on the academic track to medical school by his parents.\" (paragraph 2)",
+      "D": "\"In the early 1930s, Bogart set out for Hollywood hoping to jump start his career and quickly signed a contract with Fox Pictures.\" (paragraph 5)"
+     },
+     "correct": "C",
+     "solution": {
+      "exhibit_text": "C says it directly — \"placed on the academic track to medical school BY HIS PARENTS.\" B is related (prepping for Yale medical studies) but doesn't actually say whose decision it was; C is the more direct, explicit match."
+     }
+    },
+    {
+     "id": "RCF_BOGART_Q3B",
+     "q_number": 34,
+     "question_type": "mc",
+     "question": "Which sentence from the excerpt supports the idea that Bogart's early performances as an actor were not well received?",
+     "options": {
+      "A": "\"His inexperience showed however, and he struggled with poor reviews and the inability to find any substantive parts.\" (paragraph 4)",
+      "B": "\"He attended the prestigious Phillips Academy in Andover, Massachusetts, to prepare himself for medical studies at Yale University.\" (paragraph 2)",
+      "C": "\"Born in New York City in 1899 as the son of a prominent surgeon, young Humphrey was eagerly placed on the academic track to medical school by his parents.\" (paragraph 2)",
+      "D": "\"In the early 1930s, Bogart set out for Hollywood hoping to jump start his career and quickly signed a contract with Fox Pictures.\" (paragraph 5)"
+     },
+     "correct": "A",
+     "solution": {
+      "exhibit_text": "A says it directly — \"poor reviews\" is a literal statement that his performances were not well received. B and C are about the medical-school track; D is just about signing with Fox Pictures, not about how his performances were received."
+     }
+    },
+    {
+     "id": "RCF_BOGART_Q4",
+     "q_number": 35,
+     "question_type": "mc",
+     "question": "With which statement would the author of this excerpt most likely agree?",
+     "options": {
+      "A": "The only way to achieve your dream is to continually work toward it through good times and bad times alike.",
+      "B": "A capacity for greatness is not always apparent in a person's formative years.",
+      "C": "Your experiences and hardships in life influence the way you go about doing your job.",
+      "D": "Only those born with clear talent and skill can make it to the peak of their chosen field."
+     },
+     "correct": "B",
+     "solution": {
+      "exhibit_text": "A doesn't fit — Bogart didn't have a lifelong \"dream\" of acting he worked toward; it was closer to an accident. D is directly contradicted — his early performances were inexperienced and poorly reviewed, not a sign of natural talent. C is true in a narrow sense (the lip injury shaped his acting style) but is a smaller, secondary detail, not the passage's main point. B matches the passage's central idea directly: someone whose \"troubled youth\" and unpromising start gave no hint of the icon he'd become — greatness wasn't visible early on."
+     }
+    }
+   ]
+  },
+  {
+   "id": "RCF_RADIOACTIVITY",
+   "title": "From Discovery to Fallout: The Implications of Radioactivity",
+   "author": null,
+   "citation": null,
+   "paragraphs": [
+    {
+     "num": 1,
+     "text": "In 1895, Wilhelm Conrad Röntgen first identified electromagnetic radiation occurring in the wavelength band now known as X-rays. It was a new kind of light with penetrating properties that were not only remarkable in that they could “see” through skin but seemed clearly applicable to various fields of technology. Scientists, energized by the discovery, quickly sought to understand the properties and potential uses of these rays. Although no one at the time had any reason to suspect the potential for great danger, over the decades it became clear that radiation had tremendous potential to benefit humanity as well as a disturbing power to harm it."
+    },
+    {
+     "num": 2,
+     "text": "Scientific knowledge of radiation expanded quickly over the next few years with a host of subsequent discoveries. In 1896, French physicist Antoine Henri Becquerel accidentally discovered that unexposed photographic plates left in a darkened drawer with uranium crystals became partially developed. Becquerel recognized that an invisible source of energy must have been emitted from the uranium in order to cause this phenomenon. Becquerel's discovery marked the beginning of scientific work with radioactivity, a different, yet closely related property to the idea of radiation."
+    },
+    {
+     "num": 3,
+     "text": "Radioactivity is the name given to the decay or rearrangement of an atom's nucleus. The mysterious energy emanating from Becquerel's uranium crystals existed at the atomic level. Atoms of all elements have heavy positively charged cores, or nuclei, made up of protons and neutrons. The bulk of an atom's mass lies in this nucleus. Some atoms are so big that their nuclei are unstable and cannot remain cohesive. Decay will happen naturally and spontaneously to such unstable nuclei. In many cases, the breaking up is accompanied by the release of a particle, and that particle release is what we now know as radiation. High-energy electromagnetic radiation (such as Röntgen's X-rays) is one kind of radiation. Different kinds of radiation differ in their ability to penetrate materials and to cause damage."
+    },
+    {
+     "num": 4,
+     "text": "One of the most important findings that built upon this original research was that radioactive decay occurred at a specific rate and, further, that the rate of decay was predictable and measurable. The husband and wife team of Pierre and Marie Curie and other pioneers measured rate of decay using the term “half-life” to describe the relationship between time and the amount of decay of radioactive material. The Curies discovered that a uranium ore termed “pitchblende” had more than 300 times the radioactive energy than a sample of the same amount of pure uranium. They reasoned that other radioactive elements present in pitchblende were responsible for this discrepancy, and through this knowledge, they were eventually able to isolate the previously undiscovered elements of radium and polonium. The studies of such elements were challenging in that, given the extremely short half-life of even the longest-lived polonium isotope, the raw material rapidly disappeared even while they were performing calculations with it. This concept of half-life was broadly applicable to many fields and was used by later scientists to develop techniques for determining the age of samples through a method called radiocarbon dating, making it invaluable in the fields of anthropology and archaeology."
+    },
+    {
+     "num": 5,
+     "text": "From this early work with radiation, modern nuclear science was also born. Scientists discovered that when an atom of radioactive material was split into lighter atoms, a sudden, powerful release of energy would result. This laid open the path to harnessing nuclear energy as a source of power, as well as to the development of nuclear weapons, with the power to destroy civilization as we know it."
+    },
+    {
+     "num": 6,
+     "text": "It is clear that the discovery of radioactivity and the subsequent development of nuclear science have proved to be both beneficial and troubling for humanity. Many of the early scientists who worked with radiation made great sacrifices in the name of the expansion of knowledge, including Marie Curie and Antoine Henri Becquerel, who died from conditions related to their exposure to radiation. Yet their discoveries led to more precise models of the atom and more accurate information about the nature of matter as well as many positive practical applications, including diagnostic medicine and even the use of radioactive isotopes for treating cancer. Ironically, human knowledge of nuclear properties has the potential to both protect us and annihilate us. It is hard to imagine too many fields of knowledge that have this same range of awesome power."
+    }
+   ],
+   "questions": [
+    {
+     "id": "RCF_RAD_Q5",
+     "q_number": 36,
+     "question_type": "mc",
+     "question": "Which statement best describes the central idea of the passage?",
+     "options": {
+      "A": "The discovery of radioactivity resulted from the hard work of the Curies in establishing the field of nuclear science.",
+      "B": "The discovery of radioactivity has been very harmful to the human race over the last several decades.",
+      "C": "The discovery of radioactivity has had significant consequences for humanity.",
+      "D": "The discovery of radioactivity is the story of the life and work of Antoine Henri Becquerel."
+     },
+     "correct": "C",
+     "solution": {
+      "exhibit_text": "A and D each zoom in on just one scientist (the Curies, or Becquerel) — too narrow for the whole passage, which covers Röntgen, Becquerel, and the Curies. B is one-sided — it ignores the explicitly stated benefits (diagnostic medicine, cancer treatment, nuclear power). C is the only option broad and neutral enough to cover the passage's real theme, stated directly in paragraph 1 and paragraph 6: radioactivity has had BOTH great benefits and real dangers."
+     }
+    },
+    {
+     "id": "RCF_RAD_Q6",
+     "q_number": 37,
+     "question_type": "mc",
+     "question": "Which sentence from the excerpt best explains why radiation possesses a power that is “disturbing” (paragraph 1)?",
+     "options": {
+      "A": "\"In 1896, French physicist Antoine Henri Becquerel accidentally discovered that unexposed photographic plates left in a darkened drawer with uranium crystals became partially developed.\" (paragraph 2)",
+      "B": "\"The husband and wife team of Pierre and Marie Curie and other pioneers measured rate of decay using the term ‘half-life’ ...\" (paragraph 4)",
+      "C": "\"Scientists discovered that when an atom of radioactive material was split into lighter atoms, a sudden, powerful release of energy would result.\" (paragraph 5)",
+      "D": "\"Yet their discoveries led to more precise models of the atom and more accurate information about the nature of matter as well as many positive practical applications, including diagnostic medicine and even the use of radioactive isotopes for treating cancer.\" (paragraph 6)"
+     },
+     "correct": "C",
+     "solution": {
+      "exhibit_text": "A and B just describe how discoveries were made, not danger. D is actually about the POSITIVE side (diagnostic medicine, cancer treatment) — the opposite of disturbing. C is the sentence that directly explains the destructive power: splitting atoms releases energy, which paragraph 5 immediately connects to nuclear weapons “with the power to destroy civilization as we know it.”"
+     }
+    },
+    {
+     "id": "RCF_RAD_Q7",
+     "q_number": 38,
+     "question_type": "mc",
+     "question": "How does paragraph 4 fit into the overall structure of the excerpt?",
+     "options": {
+      "A": "It provides a specific example of early research into radioactivity and the implications of that research.",
+      "B": "It contrasts the methodical research of early pioneers in the field with the guesswork of the Curies.",
+      "C": "It elaborates on the physical properties of radioactivity and how it is generated.",
+      "D": "It introduces the dangerous effects of radiation on the human body by showing how the Curies were poisoned by radiation."
+     },
+     "correct": "A",
+     "solution": {
+      "exhibit_text": "B is wrong — the paragraph never contrasts anyone's “guesswork” with the Curies; it's entirely about their methodical measurement of half-life. C is really paragraph 3's job (defining what radioactivity IS). D is wrong — the Curies' deaths from radiation exposure are mentioned in paragraph 6, not paragraph 4. A fits: paragraph 4 takes the general concept from paragraph 3 and gives a concrete example (the Curies' half-life research, discovery of radium/polonium) plus a real implication (radiocarbon dating)."
+     }
+    },
+    {
+     "id": "RCF_RAD_Q8",
+     "q_number": 39,
+     "question_type": "mc",
+     "question": "What is the purpose of the mention of diagnostic medicine (paragraph 6)?",
+     "options": {
+      "A": "to give an example of a potential benefit of nuclear science that may be possible after much more research",
+      "B": "to illustrate how nuclear science can currently offer at least a few positive developments for humanity",
+      "C": "to refute the notion that the discovery of radioactivity has only ever been harmful",
+      "D": "to explain why the discovery of radioactivity has only ever been beneficial for humanity"
+     },
+     "correct": "B",
+     "solution": {
+      "exhibit_text": "A is wrong — the text presents diagnostic medicine as an application that already exists (“led to ... positive practical applications, including diagnostic medicine”), not something still awaiting future research. D is directly contradicted by the passage's “both protect us and annihilate us” framing — it hasn't been “only” beneficial. C assumes the passage was arguing radioactivity was “only harmful” before this point, which it wasn't. B is the simplest accurate read: it's a concrete, current example supporting the “both beneficial and troubling” balance the passage is building toward in its conclusion."
+     }
+    }
+   ]
+  },
+  {
+   "id": "RCF_HAVANA",
+   "title": "Havana",
+   "author": null,
+   "citation": null,
+   "note": "Revision passage (Revising/Editing Part B style) — numbered sentences, not prose paragraphs. From the grammar/revision fodder bank; no answer key existed, all 6 questions solved directly.",
+   "paragraphs": [
+    {
+     "num": 1,
+     "text": "(1) This lively center of all things Cuban looks today much as it did when it was built more than 100 years ago. (2) What became Havana was actually founded in 1515 by Spanish conquistador Diego Velázquez de Cuéllar. (3) Its excellent natural bay made it not only a trading city but also the staging point for the Spanish conquest of the continent. (4) As a harbor, however, it was also ripe for attacks by pirates. (5) To counter this, as well as to consolidate their control of the city, the Spanish built the Fortress San Carlos de la Cabaña, one of the largest in the Spanish New World. (6) The city of Havana stands today as a testament to its turbulent yet glorious history."
+    },
+    {
+     "num": 2,
+     "text": "(7) Trade from Havana was brisk. (8) Ships from all over the New World unloaded cargo in Havana harbor, from there to be sent on to Spain. (9) Spain lost control of Cuba in 1762, when the British captured it during the Seven Years' War. (10) The British did not take their time in opening up trade with their colonies in North America and the Caribbean. (11) Less than a year later, as a result of the Treaty of 1763, the treaty that ended the Seven Years' War, the English ceded Cuba back to Spain in return for Florida."
+    },
+    {
+     "num": 3,
+     "text": "(12) Another Treaty of Paris, in 1898, brought Cuba, and therefore Havana, under the control of the United States. (13) This country recognized Cuban independence in 1902. (14) Cuba's Republican period lasted from 1902 until 1959, and Havana became known for its nightclubs and elite hotels. (15) The Republican period ended with the revolution led by Fidel Castro, who then governed the country until his death in 2016. (16) Castro's foremost comrade-in-arms was Che Guevara, who was also a doctor and writer."
+    },
+    {
+     "num": 4,
+     "text": "(17) Havana has a landscape that can be considered as three distinct areas: the old town, the newer and more commercial Vedado, and the upscale residential district. (18) An air of distinction and wealth, albeit now somewhat faded, lingers in its neighborhoods. (19) Spanish architecture, a symbol of a colonial past, graces the city, though the paint and plaster of many of the buildings have chipped and peeled as the years have passed. (20) Amid the gentle aging of this great city, it is the generosity and friendliness of the residents that have allowed Havana to survive and flourish."
+    }
+   ],
+   "questions": [
+    {
+     "id": "GRF081",
+     "q_number": 40,
+     "question_type": "mc",
+     "question": "Sentence 6 (“The city of Havana stands today as a testament to its turbulent yet glorious history.”) is in the wrong place in the first paragraph. Where should it be moved to improve the organization?",
+     "options": {
+      "A": "to the beginning of the paragraph (before sentence 1)",
+      "B": "between sentences 2 and 3",
+      "C": "between sentences 3 and 4",
+      "D": "between sentences 4 and 5"
+     },
+     "correct": "A",
+     "solution": {
+      "exhibit_text": "Sentence 1 opens with “This lively center...” — “This” needs “Havana” to already be named for the reader to know what it refers to. Sentence 6 names “Havana” explicitly and works like a thesis statement introducing the topic. Moving it to the very beginning lets sentence 1's “This” correctly refer back to it."
+     }
+    },
+    {
+     "id": "GRF082",
+     "q_number": 41,
+     "question_type": "mc",
+     "question": "(9) [blank] Spain lost control of Cuba in 1762, when the British captured it during the Seven Years' War. Which word or phrase should be added to the beginning of sentence 9 to best emphasize its relationship to sentence 8 (“Ships from all over the New World unloaded cargo in Havana harbor, from there to be sent on to Spain.”)?",
+     "options": {
+      "A": "Therefore,",
+      "B": "Before that,",
+      "C": "Consequently,",
+      "D": "However,"
+     },
+     "correct": "D",
+     "solution": {
+      "exhibit_text": "Sentence 8 describes Havana's trade as well-established and thriving. Sentence 9 is a negative turn — Spain losing control. That's a contrast, not a cause-and-effect or a continuation, so “However,” is the only fit; the other three all signal the wrong kind of relationship."
+     }
+    },
+    {
+     "id": "GRF083",
+     "q_number": 42,
+     "question_type": "mc",
+     "question": "Which revision of sentence 10 (“The British did not take their time in opening up trade with their colonies in North America and the Caribbean.”) best maintains the style established in the passage?",
+     "options": {
+      "A": "The British immediately opened trade with their colonies in North America and the Caribbean.",
+      "B": "The British slowly opened trade with their colonies in North America and the Caribbean.",
+      "C": "The Spanish immediately opened trade with their colonies in North America and the Caribbean.",
+      "D": "The British were super quick in opening trade with their colonies in North America and the Caribbean."
+     },
+     "correct": "A",
+     "solution": {
+      "exhibit_text": "“Did not take their time” means they acted quickly — A preserves that meaning in plain, formal language matching the rest of the passage. B reverses the meaning (slowly). C swaps in the wrong country (Spanish, not British). D is correct in meaning but uses casual slang (“super quick”) that doesn't match the passage's formal historical tone."
+     }
+    },
+    {
+     "id": "GRF085",
+     "q_number": 43,
+     "question_type": "mc",
+     "question": "Which sentence in the third paragraph (sentences 12-16) presents information that shifts away from the main topic and should be removed?",
+     "options": {
+      "A": "sentence 13",
+      "B": "sentence 14",
+      "C": "sentence 15",
+      "D": "sentence 16"
+     },
+     "correct": "D",
+     "solution": {
+      "exhibit_text": "The third paragraph is about the political history of who controlled Havana/Cuba over time (U.S. control, independence, the Republican era, Castro's revolution). Sentence 16 shifts to a biographical detail about Che Guevara personally (“also a doctor and writer”) that has nothing to do with the paragraph's actual topic."
+     }
+    },
+    {
+     "id": "GRF084",
+     "q_number": 44,
+     "question_type": "mc",
+     "question": "(12) Another Treaty of Paris, in 1898, brought Cuba, and therefore Havana, under the control of the United States. (13) This country recognized Cuban independence in 1902. What is the best way to combine sentences 12 and 13 to clarify the relationship between the ideas?",
+     "options": {
+      "A": "The Treaty of Paris in 1898 brought Cuba, and therefore Havana, under the control of the United States, which recognized Cuban independence in 1902.",
+      "B": "The country of the United States, which is north of Cuba, recognized Cuban independence after it got control of Cuba due to the Treaty of Paris, in 1898.",
+      "C": "In 1898, the United States recognized Cuban independence after it gained control of Cuba as a part of the Treaty of Paris.",
+      "D": "The Treaty of Paris, in 1898, brought Cuba, and therefore Havana, under the control of the United States; the United States recognized Cuban independence in 1902."
+     },
+     "correct": "A",
+     "solution": {
+      "exhibit_text": "A combines both facts smoothly with a clear “which” reference back to the United States. B adds an irrelevant detail (geography) and creates an ambiguous pronoun. C wrongly implies both events happened in the same year, 1898 — independence was actually 1902. D is factually fine but clunky, repeating “the United States” instead of using a pronoun or relative clause."
+     }
+    },
+    {
+     "id": "GRF086",
+     "q_number": 45,
+     "question_type": "mc",
+     "question": "Sentence 17 begins the fourth and final paragraph: “[blank] Havana has a landscape that can be considered as three distinct areas: the old town, the newer and more commercial Vedado, and the upscale residential district.” The third paragraph (sentences 12-16) covered Havana's political history of changing control. Which transitional phrase should be added to the beginning of sentence 17?",
+     "options": {
+      "A": "Despite its tumultuous past,",
+      "B": "Regardless of its rich cultural beginnings,",
+      "C": "Before the advent of its founding,",
+      "D": "Today, due to its diverse history,"
+     },
+     "correct": "D",
+     "solution": {
+      "exhibit_text": "The three distinct areas described in paragraph 4 exist BECAUSE OF Havana's different historical eras of control — that's a causal relationship, not a contrast, so “Despite” and “Regardless of” (which both signal contrast) are wrong. “Today, due to its diverse history,” correctly signals both the shift from past (paragraph 3) to present-day description (paragraph 4) and the causal link between that history and the landscape."
+     }
+    }
+   ]
+  }
+ ],
+ "grammar_questions": [
+  {
+   "id": "P1027-1A",
+   "q_number": 46,
+   "question_type": "mc",
+   "question": "(1) The narwhal, a whale best known for its long spiral tusk, lives in the cold Arctic waters year-round. (2) Because it has a thick layer of blubber, the narwhal can survive in waters near freezing. (3) It often travels in small pods alongside other narwhals. (4) The narwhal's unusual tusk, pale skin, and deep-diving ability caused them to be nicknamed the \"unicorn of the sea.\"\n\nWhich sentence in the paragraph contains an error in construction? There is only one error in construction.",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "“The narwhal's...tusk, skin, and ability caused them to be nicknamed” — “them” is plural but refers back to “the narwhal,” which is singular. It should be “it.”"
+   }
+  },
+  {
+   "id": "P1027-1B",
+   "q_number": 47,
+   "question_type": "mc",
+   "question": "(1) The vintage typewriter, found in an attic, had not been used in decades. (2) Because it was missing several keys, the typewriter no longer worked properly. (3) It sat quietly on a shelf for years. (4) The typewriter's rusted frame, faded keys, and missing ribbon caused them to be sold for scrap metal.\n\nWhich sentence in the paragraph contains an error in construction? There is only one error in construction.",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "“The typewriter's...frame, keys, and ribbon caused them to be sold” — “them” is plural but refers back to “the typewriter,” which is singular. It should be “it.”"
+   }
+  },
+  {
+   "id": "P1027-1C",
+   "q_number": 48,
+   "question_type": "mc",
+   "question": "(1) The community garden, started five years ago, now covers an entire city block. (2) Because it was maintained entirely by volunteers, the garden became a point of local pride. (3) It attracts visitors from across the city every summer. (4) The garden's colorful flowers, fresh vegetables, and welcoming paths caused them to be featured in a local magazine.\n\nWhich sentence in the paragraph contains an error in construction? There is only one error in construction.",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "“The garden's...flowers, vegetables, and paths caused them to be featured” — “them” is plural but refers back to “the garden,” which is singular. It should be “it.”"
+   }
+  },
+  {
+   "id": "P1027-2A",
+   "q_number": 49,
+   "question_type": "mc",
+   "question": "(1) On the morning of April 3, 2021, a severe thunderstorm struck the coastal town of Millbrook. (2) Knocking down power lines across the entire county, streets flooded, traffic signals went dark, and cell service failed. (3) Longtime residents were especially alarmed because a similar storm had hit the exact same week one year earlier. (4) The historic Millbrook Flood of 1998, which caused over a million dollars in damage, also struck in early April.\n\nWhich sentence in the paragraph contains an error in construction and should be revised? There is only one error in construction.",
+   "options": {
+    "A": "Sentence 1",
+    "B": "Sentence 2",
+    "C": "Sentence 3",
+    "D": "Sentence 4"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "Sentence 2 opens with “Knocking down power lines across the entire county,” but it's the storm that knocked down the power lines — not the streets, traffic signals, or cell service that follow the comma. Dangling modifier."
+   }
+  },
+  {
+   "id": "P1027-2B",
+   "q_number": 50,
+   "question_type": "mc",
+   "question": "(1) During the summer of 2019, a prolonged drought affected farmland across the region. (2) Reducing crop yields by nearly forty percent, farmers struggled, grocery prices rose, and local markets ran short on produce. (3) Longtime farmers were especially worried because a similar drought had occurred the previous decade. (4) The historic drought of 1988, which lasted for over a year, also devastated the same farmland.\n\nWhich sentence in the paragraph contains an error in construction and should be revised? There is only one error in construction.",
+   "options": {
+    "A": "Sentence 1",
+    "B": "Sentence 2",
+    "C": "Sentence 3",
+    "D": "Sentence 4"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "Sentence 2 opens with “Reducing crop yields by nearly forty percent,” but it's the drought that reduced crop yields — not the farmers, prices, or markets that follow the comma. Dangling modifier."
+   }
+  },
+  {
+   "id": "P1027-2C",
+   "q_number": 51,
+   "question_type": "mc",
+   "question": "(1) In the fall of 2020, a sudden cold snap hit the orchard region unusually early. (2) Damaging nearly half of the apple crop, growers lost income, prices climbed, and local cideries faced shortages. (3) Longtime growers were especially concerned because a similar cold snap had struck years earlier. (4) The historic frost of 1995, which wiped out an entire harvest, also hit in early fall.\n\nWhich sentence in the paragraph contains an error in construction and should be revised? There is only one error in construction.",
+   "options": {
+    "A": "Sentence 1",
+    "B": "Sentence 2",
+    "C": "Sentence 3",
+    "D": "Sentence 4"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "Sentence 2 opens with “Damaging nearly half of the apple crop,” but it's the cold snap that caused the damage — not the growers, prices, or cideries that follow the comma. Dangling modifier."
+   }
+  },
+  {
+   "id": "P1027-3A",
+   "q_number": 52,
+   "question_type": "mc",
+   "question": "(1) In 1962, the expansion team joined the American League, adding a new rival to the division. (2) The owner decided to move the franchise to Seattle after the team struggled at the gate, where the team played for twelve seasons. (3) The Seattle club made the playoffs three times during that stretch. (4) In 1974, the team relocated again and now plays under a different name.\n\nWhich sentence contains an error in its construction and should be revised?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "“Where the team played for twelve seasons” is meant to describe Seattle, but it's placed right after “struggled at the gate” instead — making it sound like the struggling happened for twelve seasons, not the time in Seattle. Misplaced modifier."
+   }
+  },
+  {
+   "id": "P1027-3B",
+   "q_number": 53,
+   "question_type": "mc",
+   "question": "(1) In 1958, the growing company opened its first overseas office, expanding into a new market. (2) The founder decided to relocate headquarters to Chicago after the business outgrew its original building, where the company operated for forty years. (3) The Chicago office became the company's largest location. (4) In 1998, the company moved its headquarters once more.\n\nWhich sentence contains an error in its construction and should be revised?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "“Where the company operated for forty years” is meant to describe Chicago, but it's placed right after “outgrew its original building” instead. Misplaced modifier."
+   }
+  },
+  {
+   "id": "P1027-3C",
+   "q_number": 54,
+   "question_type": "mc",
+   "question": "(1) In 1930, the small theater troupe gained its first national audience, touring several major cities. (2) The director decided to move the troupe to Boston after the group lost its original venue, where the troupe performed for two decades. (3) The Boston years produced some of the troupe's most famous productions. (4) In 1950, the troupe disbanded after its final performance.\n\nWhich sentence contains an error in its construction and should be revised?",
+   "options": {
+    "A": "sentence 1",
+    "B": "sentence 2",
+    "C": "sentence 3",
+    "D": "sentence 4"
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "“Where the troupe performed for two decades” is meant to describe Boston, but it's placed right after “lost its original venue” instead. Misplaced modifier."
+   }
+  },
+  {
+   "id": "P1027-4A",
+   "q_number": 55,
+   "question_type": "mc",
+   "question": "(1) Serena Williams is best known for her dominance in professional tennis. (2) Williams is an American athlete, businesswoman, and philanthropist. (3) Williams was inducted into the International Tennis Hall of Fame in 2022.\n\nWhat is the best way to combine these sentences to clarify the relationship between ideas?",
+   "options": {
+    "A": "Serena Williams, best known for her dominance in professional tennis, is an American athlete, businesswoman, and philanthropist who was inducted into the International Tennis Hall of Fame in 2022.",
+    "B": "Serena Williams was inducted into the International Tennis Hall of Fame in 2022, and she is an American athlete, businesswoman, and philanthropist who is best known for her dominance in professional tennis.",
+    "C": "Serena Williams, an American athlete, businesswoman, and philanthropist, was inducted into the International Tennis Hall of Fame in 2022, and she is best known for her dominance in professional tennis.",
+    "D": "Serena Williams is best known for her dominance in professional tennis, and she was inducted into the International Tennis Hall of Fame in 2022 as an American athlete, businesswoman, and philanthropist."
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "Option A keeps the most natural order — what she's known for, then who she is, then her honor — nesting the ideas as descriptive layers around one subject. The other options reorder the ideas in a way that buries the main point or tacks details on awkwardly with “and.”"
+   }
+  },
+  {
+   "id": "P1027-4B",
+   "q_number": 56,
+   "question_type": "mc",
+   "question": "(1) Leonardo da Vinci is best known for painting the Mona Lisa. (2) Da Vinci was an Italian artist, inventor, and scientist. (3) Da Vinci was commissioned to design military fortifications by the Duke of Milan in 1482.\n\nWhat is the best way to combine these sentences to clarify the relationship between ideas?",
+   "options": {
+    "A": "Leonardo da Vinci, best known for painting the Mona Lisa, was an Italian artist, inventor, and scientist who was commissioned to design military fortifications by the Duke of Milan in 1482.",
+    "B": "Leonardo da Vinci was commissioned to design military fortifications by the Duke of Milan in 1482, and he was an Italian artist, inventor, and scientist who is best known for painting the Mona Lisa.",
+    "C": "Leonardo da Vinci, an Italian artist, inventor, and scientist, was commissioned to design military fortifications by the Duke of Milan in 1482, and he is best known for painting the Mona Lisa.",
+    "D": "Leonardo da Vinci is best known for painting the Mona Lisa, and he was commissioned to design military fortifications by the Duke of Milan in 1482 as an Italian artist, inventor, and scientist."
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "Option A keeps the most natural order — what he's known for, then who he is, then the specific commission — nesting the ideas around one subject. The other options reorder or awkwardly tack details on with “and.”"
+   }
+  },
+  {
+   "id": "P1027-4C",
+   "q_number": 57,
+   "question_type": "mc",
+   "question": "(1) Misty Copeland is best known for becoming the first Black female principal dancer at American Ballet Theatre. (2) Copeland is an American dancer, author, and advocate. (3) Copeland was named one of Time's 100 most influential people in 2015.\n\nWhat is the best way to combine these sentences to clarify the relationship between ideas?",
+   "options": {
+    "A": "Misty Copeland, best known for becoming the first Black female principal dancer at American Ballet Theatre, is an American dancer, author, and advocate who was named one of Time's 100 most influential people in 2015.",
+    "B": "Misty Copeland was named one of Time's 100 most influential people in 2015, and she is an American dancer, author, and advocate who is best known for becoming the first Black female principal dancer at American Ballet Theatre.",
+    "C": "Misty Copeland, an American dancer, author, and advocate, was named one of Time's 100 most influential people in 2015, and she is best known for becoming the first Black female principal dancer at American Ballet Theatre.",
+    "D": "Misty Copeland is best known for becoming the first Black female principal dancer at American Ballet Theatre, and she was named one of Time's 100 most influential people in 2015 as an American dancer, author, and advocate."
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "Option A keeps the most natural order — what she's known for, then who she is, then her honor — nesting the ideas around one subject. The other options reorder or awkwardly tack details on with “and.”"
+   }
+  },
+  {
+   "id": "P1027-5A",
+   "q_number": 58,
+   "question_type": "mc",
+   "question": "Jazz music became popularized across the United States largely through New Orleans. It developed over time as African American musicians blended blues, ragtime, and brass band traditions. This new sound was everywhere by the 1920s, and people began using the term \"jazz age\" to describe the era. In the 1930s, the music surged in popularity, filling dance halls and spreading through radio broadcasts, it became closely tied to American cultural identity. As communities grew and moved, they carried the music with them. Jazz spread from New Orleans to other big cities through clubs, festivals, and dance halls.\n\nWhich part of the text contains an error in sentence structure? Select the one error.",
+   "options": {
+    "A": "States. It",
+    "B": "1920s, and",
+    "C": "broadcasts, it",
+    "D": "them. Jazz"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "\"…spreading through radio broadcasts, it became closely tied…\" joins two complete sentences with only a comma — a comma splice. It needs a period or semicolon instead."
+   }
+  },
+  {
+   "id": "P1027-5B",
+   "q_number": 59,
+   "question_type": "mc",
+   "question": "Hip hop music became popularized across the country largely through the Bronx. It developed over time as DJs and MCs blended funk, soul, and spoken word traditions. This new sound was everywhere by the 1980s, and people began using the term \"hip hop\" to describe the movement. In the 1990s, the genre surged in popularity, filling arenas and spreading through music television, it became closely tied to youth cultural identity. As communities grew and moved, they carried the music with them. Hip hop spread from the Bronx to other big cities through clubs, battles, and record labels.\n\nWhich part of the text contains an error in sentence structure? Select the one error.",
+   "options": {
+    "A": "country. It",
+    "B": "1980s, and",
+    "C": "television, it",
+    "D": "them. Hip"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "\"…spreading through music television, it became closely tied…\" joins two complete sentences with only a comma — a comma splice. It needs a period or semicolon instead."
+   }
+  },
+  {
+   "id": "P1027-5C",
+   "q_number": 60,
+   "question_type": "mc",
+   "question": "Bluegrass music became popularized across Appalachia largely through string bands. It developed over time as musicians blended Irish, Scottish, and African American traditions. This new sound was everywhere by the 1940s, and people began using the term \"bluegrass\" to describe the style. In the 1950s, the genre surged in popularity, filling barn dances and spreading through local radio stations, it became closely tied to rural cultural identity. As communities grew and moved, they carried the music with them. Bluegrass spread from Appalachia to other regions through festivals, clubs, and record labels.\n\nWhich part of the text contains an error in sentence structure? Select the one error.",
+   "options": {
+    "A": "Appalachia. It",
+    "B": "1940s, and",
+    "C": "stations, it",
+    "D": "them. Bluegrass"
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "\"…spreading through local radio stations, it became closely tied…\" joins two complete sentences with only a comma — a comma splice. It needs a period or semicolon instead."
+   }
+  },
+  {
+   "id": "P1027-6A",
+   "q_number": 61,
+   "question_type": "mc",
+   "question": "(1) Dolphins include animals such as bottlenose and spinner dolphins, and they communicate to coordinate hunting and social bonding. (2) They use clicks and whistles to locate prey, warn of danger, and maintain contact with their pod.\n\nRead these sentences. What is the best way to combine the sentences to clarify the relationship between the ideas?",
+   "options": {
+    "A": "Dolphins, which include animals such as bottlenose and spinner dolphins, use clicks and whistles to locate prey, warn of danger, and maintain contact with their pod, and they communicate to coordinate hunting and social bonding.",
+    "B": "Dolphins, which include animals such as bottlenose and spinner dolphins, communicate to coordinate hunting and social bonding, use clicks and whistles to locate prey, warn of danger, and maintain contact with their pod.",
+    "C": "Dolphins, such as bottlenose and spinner dolphins, communicate to coordinate hunting and social bonding, using clicks and whistles to locate prey, warn of danger, and maintain contact with their pod.",
+    "D": "Dolphins, such as bottlenose and spinner dolphins, communicate to coordinate hunting and social bonding, use clicks and whistles to locate prey, warn of danger, and maintain contact with their pod."
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "Option C uses “using” to turn the second idea into a phrase describing HOW dolphins communicate, keeping everything as one smooth sentence. Option D uses the bare verb “use” right after a comma, which creates two unconnected main verbs stuck together — a run-on. Option A reverses the logical order; option B keeps the wordy “which include” and still has the “use” run-on problem."
+   }
+  },
+  {
+   "id": "P1027-6B",
+   "q_number": 62,
+   "question_type": "mc",
+   "question": "(1) Elephants include animals such as African and Asian elephants, and they communicate to express emotion and maintain family bonds. (2) They use rumbles and trumpeting calls to warn of danger, locate family members, and express affection.\n\nRead these sentences. What is the best way to combine the sentences to clarify the relationship between the ideas?",
+   "options": {
+    "A": "Elephants, which include animals such as African and Asian elephants, use rumbles and trumpeting calls to warn of danger, locate family members, and express affection, and they communicate to express emotion and maintain family bonds.",
+    "B": "Elephants, which include animals such as African and Asian elephants, communicate to express emotion and maintain family bonds, use rumbles and trumpeting calls to warn of danger, locate family members, and express affection.",
+    "C": "Elephants, such as African and Asian elephants, communicate to express emotion and maintain family bonds, using rumbles and trumpeting calls to warn of danger, locate family members, and express affection.",
+    "D": "Elephants, such as African and Asian elephants, communicate to express emotion and maintain family bonds, use rumbles and trumpeting calls to warn of danger, locate family members, and express affection."
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "Option C uses “using” to turn the second idea into a phrase describing HOW elephants communicate. Option D's bare verb “use” after a comma creates a run-on. Option A reverses the logical order; option B keeps the wordy “which include” and still has the run-on problem."
+   }
+  },
+  {
+   "id": "P1027-6C",
+   "q_number": 63,
+   "question_type": "mc",
+   "question": "(1) Wolves include animals such as gray and red wolves, and they communicate to coordinate hunting and defend territory. (2) They use howls and body posture to signal location, express dominance, and strengthen pack bonds.\n\nRead these sentences. What is the best way to combine the sentences to clarify the relationship between the ideas?",
+   "options": {
+    "A": "Wolves, which include animals such as gray and red wolves, use howls and body posture to signal location, express dominance, and strengthen pack bonds, and they communicate to coordinate hunting and defend territory.",
+    "B": "Wolves, which include animals such as gray and red wolves, communicate to coordinate hunting and defend territory, use howls and body posture to signal location, express dominance, and strengthen pack bonds.",
+    "C": "Wolves, such as gray and red wolves, communicate to coordinate hunting and defend territory, using howls and body posture to signal location, express dominance, and strengthen pack bonds.",
+    "D": "Wolves, such as gray and red wolves, communicate to coordinate hunting and defend territory, use howls and body posture to signal location, express dominance, and strengthen pack bonds."
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "Option C uses “using” to turn the second idea into a phrase describing HOW wolves communicate. Option D's bare verb “use” after a comma creates a run-on. Option A reverses the logical order; option B keeps the wordy “which include” and still has the run-on problem."
+   }
+  },
+  {
+   "id": "P1027-7A",
+   "q_number": 64,
+   "question_type": "mc",
+   "question": "(1) With its extensive collection of rare manuscripts and quiet reading rooms, the Hendryx Public Library offers unique resources to students and historians alike. (2) While many visitors toured the library each year, they are a popular destination for long-term researchers as well. (3) During the summer, the library becomes a bustling hub of activity, prompting local families to flock to it for story hours and workshops. (4) Hundreds of rare documents, including early maps, handwritten letters, and first-edition novels, have been preserved there for public use.\n\nHow should the paragraph be revised?",
+   "options": {
+    "A": "Sentence 1: Change its to their, AND change offers to offered.",
+    "B": "Sentence 2: Change toured to tour, AND change they are to it is.",
+    "C": "Sentence 3: Change becomes to became, AND change it to them.",
+    "D": "Sentence 4: Change have been to had been, AND change there to their."
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "The rest of the paragraph is present tense (“offers,” “becomes”), so “toured” needs to be “tour”; and “they” has no plural antecedent — it should be “it,” referring back to “the library.”"
+   }
+  },
+  {
+   "id": "P1027-7B",
+   "q_number": 65,
+   "question_type": "mc",
+   "question": "(1) With its sprawling greenhouses and seasonal flower displays, the Castlewood Botanical Garden offers unique experiences to visitors of all ages. (2) While many tourists visited the garden each year, they are a popular destination for local school groups as well. (3) During the fall, the garden becomes a vibrant spectacle, prompting photographers to flock to it for its colorful foliage. (4) Hundreds of plant species, including rare orchids, ancient ferns, and towering bamboo, have been cultivated there for public enjoyment.\n\nHow should the paragraph be revised?",
+   "options": {
+    "A": "Sentence 1: Change its to their, AND change offers to offered.",
+    "B": "Sentence 2: Change visited to visit, AND change they are to it is.",
+    "C": "Sentence 3: Change becomes to became, AND change it to them.",
+    "D": "Sentence 4: Change have been to had been, AND change there to their."
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "The rest of the paragraph is present tense (“offers,” “becomes”), so “visited” needs to be “visit”; and “they” has no plural antecedent — it should be “it,” referring back to “the garden.”"
+   }
+  },
+  {
+   "id": "P1027-7C",
+   "q_number": 66,
+   "question_type": "mc",
+   "question": "(1) With its vast collection of vintage aircraft and interactive exhibits, the Harrowgate Aviation Museum offers unique experiences to visitors of all ages. (2) While many families visited the museum each year, they are a popular destination for school field trips as well. (3) During the summer, the museum becomes a lively hub of activity, prompting enthusiasts to flock to it for special flight demonstrations. (4) Hundreds of historical artifacts, including early flight instruments, pilot uniforms, and engine models, have been preserved there for public education.\n\nHow should the paragraph be revised?",
+   "options": {
+    "A": "Sentence 1: Change its to their, AND change offers to offered.",
+    "B": "Sentence 2: Change visited to visit, AND change they are to it is.",
+    "C": "Sentence 3: Change becomes to became, AND change it to them.",
+    "D": "Sentence 4: Change have been to had been, AND change there to their."
+   },
+   "correct": "B",
+   "solution": {
+    "exhibit_text": "The rest of the paragraph is present tense (“offers,” “becomes”), so “visited” needs to be “visit”; and “they” has no plural antecedent — it should be “it,” referring back to “the museum.”"
+   }
+  },
+  {
+   "id": "P1027-8A",
+   "q_number": 67,
+   "question_type": "mc",
+   "question": "The new scholarship program provides full tuition coverage that allows students of pursuing degrees without taking on debt.\n\nWhich edit should be made to correct this sentence?",
+   "options": {
+    "A": "Change provides to provide.",
+    "B": "Change allows to allowed.",
+    "C": "Change of pursuing to to pursue.",
+    "D": "Change taking on to take on."
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "“Allow students of pursuing” uses the wrong construction — “allow someone TO do something” is the correct idiom, not “allow someone OF doing something.” It should be “allows students to pursue.”"
+   }
+  },
+  {
+   "id": "P1027-8B",
+   "q_number": 68,
+   "question_type": "mc",
+   "question": "The city's new bike-share program offers reduced membership rates that allow residents of accessing bicycles throughout downtown.\n\nWhich edit should be made to correct this sentence?",
+   "options": {
+    "A": "Change offers to offer.",
+    "B": "Change allow to allowed.",
+    "C": "Change of accessing to to access.",
+    "D": "Change throughout to through."
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "“Allow residents of accessing” uses the wrong construction — it should be “allow residents to access,” not “allow residents of accessing.”"
+   }
+  },
+  {
+   "id": "P1027-8C",
+   "q_number": 69,
+   "question_type": "mc",
+   "question": "The community center's new policy includes flexible hours that allow members of using the gym before or after work.\n\nWhich edit should be made to correct this sentence?",
+   "options": {
+    "A": "Change includes to include.",
+    "B": "Change allow to allowed.",
+    "C": "Change of using to to use.",
+    "D": "Change before to prior to."
+   },
+   "correct": "C",
+   "solution": {
+    "exhibit_text": "“Allow members of using” uses the wrong construction — it should be “allow members to use,” not “allow members of using.”"
+   }
+  },
+  {
+   "id": "P1027-9A",
+   "q_number": 70,
+   "question_type": "mc",
+   "question": "The submarine, which offers the advantage of underwater travel without requiring surface support, allowing researchers to study ocean life at extreme depths without disturbing marine habitats.\n\nWhich edit should be made to correct the sentence?",
+   "options": {
+    "A": "Change which offers to offering.",
+    "B": "Change the advantage of underwater travel to underwater travel’s advantage.",
+    "C": "Change without requiring to without the requirement of.",
+    "D": "Change allowing to allows."
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "The sentence has no main verb — “which offers…” is a relative clause describing “the submarine,” and “allowing” is just another participle, leaving nothing to complete the sentence. “Allowing” needs to become “allows” to serve as the main verb."
+   }
+  },
+  {
+   "id": "P1027-9B",
+   "q_number": 71,
+   "question_type": "mc",
+   "question": "The telescope, which offers the ability to observe distant galaxies without requiring travel beyond Earth, allowing astronomers to study the universe's earliest moments from a research facility.\n\nWhich edit should be made to correct the sentence?",
+   "options": {
+    "A": "Change which offers to offering.",
+    "B": "Change the ability to observe to observing ability.",
+    "C": "Change without requiring to without the requirement of.",
+    "D": "Change allowing to allows."
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "The sentence has no main verb — “which offers…” is a relative clause describing “the telescope,” and “allowing” is just another participle. “Allowing” needs to become “allows” to serve as the main verb."
+   }
+  },
+  {
+   "id": "P1027-9C",
+   "q_number": 72,
+   "question_type": "mc",
+   "question": "The greenhouse, which offers a controlled environment for growing crops without requiring ideal outdoor weather, allowing farmers to produce vegetables throughout the winter months.\n\nWhich edit should be made to correct the sentence?",
+   "options": {
+    "A": "Change which offers to offering.",
+    "B": "Change a controlled environment to environment control.",
+    "C": "Change without requiring to without the requirement of.",
+    "D": "Change allowing to allows."
+   },
+   "correct": "D",
+   "solution": {
+    "exhibit_text": "The sentence has no main verb — “which offers…” is a relative clause describing “the greenhouse,” and “allowing” is just another participle. “Allowing” needs to become “allows” to serve as the main verb."
+   }
+  },
+  {
+   "id": "P1027-10A",
+   "q_number": 73,
+   "question_type": "mc",
+   "question": "The quiet determined marathon runner Elena Vasquez set a personal record in 2019 when she finished the course nearly ten minutes faster than her previous best.\n\nWhich edit should be made to correct this sentence?",
+   "options": {
+    "A": "Insert a comma after quiet.",
+    "B": "Insert a comma after runner.",
+    "C": "Insert a comma after personal.",
+    "D": "Insert a comma after minutes."
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "“Quiet” and “determined” are two separate, equal adjectives both describing “marathon runner” — you could say “quiet AND determined runner,” so they need a comma between them."
+   }
+  },
+  {
+   "id": "P1027-10B",
+   "q_number": 74,
+   "question_type": "mc",
+   "question": "The curious resourceful young inventor Marcus Chen built his first working robot at the age of twelve using spare parts from his garage.\n\nWhich edit should be made to correct this sentence?",
+   "options": {
+    "A": "Insert a comma after curious.",
+    "B": "Insert a comma after inventor.",
+    "C": "Insert a comma after twelve.",
+    "D": "Insert a comma after spare."
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "“Curious” and “resourceful” both describe “inventor” — you could say “curious AND resourceful inventor,” so they need a comma between them."
+   }
+  },
+  {
+   "id": "P1027-10C",
+   "q_number": 75,
+   "question_type": "mc",
+   "question": "The confident articulate debate captain Priya Sharma led her team to the state finals for the third consecutive year.\n\nWhich edit should be made to correct this sentence?",
+   "options": {
+    "A": "Insert a comma after confident.",
+    "B": "Insert a comma after captain.",
+    "C": "Insert a comma after team.",
+    "D": "Insert a comma after third."
+   },
+   "correct": "A",
+   "solution": {
+    "exhibit_text": "“Confident” and “articulate” both describe “debate captain” — you could say “confident AND articulate captain,” so they need a comma between them."
+   }
+  }
+ ]
+}
