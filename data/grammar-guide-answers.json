@@ -1,0 +1,202 @@
+{
+ "card1": {
+  "correctIndex": 2,
+  "sentence": "(3) After practice, <u>he</u> usually stays late to work on free kicks with the coach.",
+  "why": "<b>Why:</b> Marcus and Devon were both just introduced. \"He\" could mean either one — the reader has no way to know which. Fix: name him directly (e.g., \"After practice, Devon usually stays late...\")."
+ },
+ "card2": {
+  "correctIndex": 1,
+  "sentence": "(2) <u>Her</u> mother studied music theory in college and now teaches private lessons on weekends.",
+  "why": "<b>Why:</b> \"Her\" could refer to either Priya's mother or Keisha's mother — there's no way to tell which. Same pattern as the first example: a pronoun shows up right after two people were named, with no single clear antecedent."
+ },
+ "card3": {
+  "correctIndex": 1,
+  "sentence": "\"...worried that <u>it</u> might be damaged during the renovation.\" → \"...worried that <ins>the vase</ins> might be damaged during the renovation.\"",
+  "why": "<b>Why:</b> Vague pronouns aren't just about people — \"it\" here could mean the vase OR the mirror, since both are singular objects named right before it. Naming the specific object removes the ambiguity."
+ },
+ "card4": {
+  "correctIndex": 1,
+  "sentence": "\"...giving <u>them</u> better equipment.\" → \"...giving <ins>warehouse workers</ins> better equipment.\"",
+  "why": "<b>Why:</b> \"Them\" has no stated antecedent — no noun in the sentence says who actually gets the equipment. Only the correct choice replaces the vague pronoun with a specific noun; the other choices all keep the unresolved \"them.\""
+ },
+ "card5": {
+  "correctIndex": 1,
+  "sentence": "(2) ...swimming a mile in under seventeen minutes was considered remarkable, but <u>that</u> was drastically changed by Ledecky...",
+  "why": "<b>Why:</b> \"That\" doesn't point to any single named noun — it's trying to refer back to the whole idea that seventeen minutes was remarkable, which isn't a noun a pronoun can cleanly stand in for."
+ },
+ "card6": {
+  "correctIndex": 3,
+  "sentence": "(4) Grandma blends each smoothie until <u>they turn</u> smooth... → until <ins>it turns</ins> smooth, while all three grandchildren set the table for a cold<ins>,</ins> refreshing treat.",
+  "why": "<b>Why:</b> The antecedent is \"each smoothie\" — singular — so it needs \"it turns,\" not \"they turn.\" Separately, \"cold\" and \"refreshing\" are two independent adjectives both describing \"treat,\" so they need a comma between them."
+ },
+ "card7": {
+  "correctIndex": 2,
+  "sentence": "(3) The preparation of Chicago-style pizza involves <u>a layer of cheese, and sauce, which is added</u> before the crust is baked in a deep pan. → a layer of cheese and sauce, which <ins>are added</ins> before the crust is baked in a deep pan.",
+  "why": "<b>Why:</b> The subject of \"is added\" is \"a layer of cheese...and sauce\" — a compound (two-part) subject, which is always plural, so it needs \"are added.\" The stray comma after \"cheese\" also gets deleted since \"a layer of cheese and sauce\" is a simple pair, not a list."
+ },
+ "card8": {
+  "correctIndex": 3,
+  "sentence": "(4) ...scientists <u>used</u> powerful telescopes to study their composition and origin. → scientists <ins>use</ins> powerful telescopes to study their composition and origin.",
+  "why": "<b>Why:</b> The rest of the paragraph is present tense (\"are,\" \"causes,\" \"can develop\"), so \"used\" breaks that consistency — nothing in the sentence signals that this one action happened only in the past. It should be \"use.\""
+ },
+ "card9": {
+  "correctIndex": 3,
+  "sentence": "(4) ...which removes more <u>sediment, and allow</u> the final cup to taste cleaner and lighter. → ...which removes more <ins>sediment and allows</ins> the final cup to taste cleaner and lighter.",
+  "why": "<b>Why:</b> The subject of \"allow\" is \"which\" (referring back to the paper filter removing sediment) — a singular idea, so it needs \"allows.\" The comma before \"and allow(s)\" also gets deleted since it's joining two things the filter does, not two separate sentences."
+ },
+ "card10": {
+  "correctIndex": 3,
+  "sentence": "(4) ...a landmark that <u>becomes</u> a UNESCO World Heritage <u>Site,</u> after it was added to the list in 1996. → ...a landmark that <ins>became</ins> a UNESCO World Heritage <ins>Site</ins> after it was added to the list in 1996.",
+  "why": "<b>Why:</b> \"Became\" matches the past-tense context (\"after it was added to the list in 1996\") — \"becomes\" would wrongly suggest it's an ongoing, repeated event. And \"Site\" shouldn't have a comma before \"after,\" since that's not where a new clause needs to be set off."
+ },
+ "card11": {
+  "correctIndex": 0,
+  "sentence": "(1) <u>Sorting donations, organizing shelves, and greeting visitors, the community food pantry is looking for volunteers...</u>",
+  "why": "<b>Why:</b> It's not the pantry that sorts donations and greets visitors — it's the volunteers. The opening phrase dangles because the noun right after the comma (\"the community food pantry\") isn't who's actually doing those actions."
+ },
+ "card12": {
+  "correctIndex": 2,
+  "sentence": "(3) <u>Her poems exploring themes of resilience and identity throughout American history.</u>",
+  "why": "<b>Why:</b> This is a fragment, not a complete sentence — \"exploring\" is a participle, not a real verb. It needs something like \"explore\" or \"explored\" to actually make the subject \"her poems\" do something."
+ },
+ "card13": {
+  "correctIndex": 0,
+  "sentence": "(1) There is considerable evidence that early trade networks were greatly influenced by how well merchants could navigate difficult mountain terrain, <u>such as the Silk Road traders crossing the Himalayas</u>.",
+  "why": "<b>Why:</b> \"Such as the Silk Road traders crossing the Himalayas\" is meant to give an example of \"early trade networks,\" but as written it's placed right after \"mountain terrain\" — making it sound like the terrain is being exemplified, not the trade networks. A misplaced modifier needs to move next to the thing it actually describes."
+ },
+ "card14": {
+  "correctIndex": 1,
+  "sentence": "(2) <u>Launching a towering home run over the center-field wall, the crowd roared with excitement,</u> and her team secured the victory.",
+  "why": "<b>Why:</b> The crowd didn't launch the home run — Mia Alvarez did. Same dangling-modifier pattern as the other examples: check who's really doing the \"-ing\" action right after the comma."
+ },
+ "card15": {
+  "correctIndex": 0,
+  "sentence": "(1) <u>After finishing high school, the next four years of a nursing student's life are spent completing clinical rotations...</u>",
+  "why": "<b>Why:</b> It's the nursing student who finishes high school, not \"the next four years.\" Another dangling opening modifier — the subject right after the comma should be the one doing the finishing."
+ },
+ "card16": {
+  "correctIndex": 2,
+  "sentence": "\"<ins>Because</ins> Elena had practiced her violin piece for months, she performed the solo with confidence, <ins>and</ins> her performance earned a standing ovation from the audience.\"",
+  "why": "<b>Why:</b> All three ideas are a cause-and-effect chain (practice → confidence → ovation). \"Because\" correctly marks the cause; \"and\" just adds the final result. Wrong choices use \"yet,\" \"so...but\" — words that imply contrast or a problem, which isn't what's happening here."
+ },
+ "card17": {
+  "correctIndex": 2,
+  "sentence": "\"The years of intense training that young gymnasts need to dedicate in order to compete at an elite level <ins>is impossible without</ins> the guidance and support of experienced coaches.\"",
+  "why": "<b>Why:</b> Sentence 1 says gymnasts need to dedicate years of training; sentence 2 adds that this is only possible with coaches' support. Option C keeps both main ideas intact by directly linking them with \"is impossible without\" — the same relationship the original two sentences state. The other choices shift the emphasis (A, B make it sound like two loosely related facts) or restructure the idea in a way that changes what's being said (D)."
+ },
+ "card18": {
+  "correctIndex": 1,
+  "sentence": "\"The city's new transit authority plans to build a light-rail line downtown; <ins>afterwards,</ins> this rail line will serve as a key connector for future suburban extensions.\"",
+  "why": "<b>Why:</b> This is a sequence in time (light-rail line first, connector role after), not a contrast — \"afterwards\" correctly marks that order. \"Although/but\" choices would wrongly imply the two ideas conflict with each other."
+ },
+ "card19": {
+  "correctIndex": 2,
+  "sentence": "\"Satellite missions studying Saturn, <ins>which allow scientists to collect data about the planet's rings and moons,</ins> have been ongoing since 1997.\"",
+  "why": "<b>Why:</b> Sentence 2 is just extra description of \"satellite missions,\" so it folds into sentence 1 as a \"which\" clause rather than being tacked on with \"and\" or turned into a false cause/contrast."
+ },
+ "card20": {
+  "correctIndex": 2,
+  "sentence": "\"Scientists now believe that Saturn may have more than one hundred and forty-five moons, <ins>including one named Titan, which has</ins> a dense atmosphere and liquid methane lakes.\"",
+  "why": "<b>Why:</b> Sentence 1 is the main idea; sentences 2–3 are both just further detail about one specific moon, so \"including...which\" nests them both as description rather than giving them equal weight with \"and.\""
+ },
+ "card21": {
+  "correctIndex": 0,
+  "sentence": "\"...opened as part of a growing wave of hands-on science <u>museums, the</u> museum is already...\" → \"...hands-on science <ins>museums; the</ins> museum is already...\"",
+  "why": "<b>Why:</b> \"The museum opened...\" and \"the museum is already...\" are both complete sentences on their own — a plain comma can't join two complete sentences, so it needs a semicolon. (The other three underlined spots are correctly punctuated — they're just decoys.)"
+ },
+ "card22": {
+  "correctIndex": 0,
+  "sentence": "\"The <u>curious</u> determined astronomer Dr. Lena Park became...\" → \"The <ins>curious,</ins> determined astronomer Dr. Lena Park became...\"",
+  "why": "<b>Why:</b> \"Curious\" and \"determined\" are two separate, equal adjectives both describing \"astronomer\" (\"curious AND determined astronomer\" works), so they need a comma between them."
+ },
+ "card23": {
+  "correctIndex": 1,
+  "sentence": "\"Many historians agree that Ada Lovelace, <u>a pioneering mathematician</u> is nearly as influential...\" → \"...Ada Lovelace, <ins>a pioneering mathematician,</ins> is nearly as influential...\"",
+  "why": "<b>Why:</b> \"A pioneering mathematician\" is nonessential extra information about Ada Lovelace, so it needs a comma on BOTH sides to be properly set off — the sentence only has the opening comma, not the closing one."
+ },
+ "card24": {
+  "correctIndex": 3,
+  "sentence": "\"...is limited <u>sunlight,</u> another issue that plagues...\" → \"...is limited <ins>sunlight; another</ins> issue that plagues these gardeners is the high cost of raised garden beds.\"",
+  "why": "<b>Why:</b> \"...is limited sunlight\" and \"another issue...is the high cost...\" are each a complete sentence on their own — a plain comma can't join two complete sentences, so it needs to become a semicolon."
+ },
+ "card25": {
+  "correctIndex": 1,
+  "sentence": "\"Riverdale needed increased <u>funding, for</u> schools, <u>and subsequently</u> the town built...\" → \"Riverdale needed increased <ins>funding for</ins> schools, <ins>and, subsequently,</ins> the town built...\"",
+  "why": "<b>Why:</b> \"Funding for schools\" is one tight phrase that shouldn't be split by a comma; \"subsequently\" is an inserted transition word that needs its own commas on both sides, not a bare \"and subsequently.\""
+ },
+ "card26": {
+  "correctIndex": 3,
+  "sentence": "\"Diego wandered the farmers market looking for <u>some fresh things for his breakfast</u>.\" → \"...looking for <ins>ripe tomatoes and a loaf of sourdough</ins>.\"",
+  "why": "<b>Why:</b> The rest of the paragraph already tells us exactly what he bought — tomatoes and sourdough. The precise revision uses those specific items instead of \"some fresh things.\""
+ },
+ "card27": {
+  "correctIndex": 1,
+  "sentence": "\"The Golden Gate Bridge was such a big distance across the water and took a really long time to finish...\" → \"The Golden Gate Bridge required <ins>a 1.7-mile span across the strait and four years of construction</ins>...\"",
+  "why": "<b>Why:</b> \"Big distance\" and \"really long time\" are vague; the best choice swaps in the actual measurable facts (1.7 miles, four years, the strait) rather than just rephrasing the vagueness with fancier synonyms."
+ },
+ "card28": {
+  "correctIndex": 1,
+  "sentence": "\"...the local reporter calmly and clearly <u>explained to all of the people who were reading the morning paper what was happening</u>.\" → \"...the local reporter calmly and clearly <ins>reported on the dispute for the morning paper</ins>.\"",
+  "why": "<b>Why:</b> \"All of the people who were reading the morning paper\" is a wordy way of just saying \"for the morning paper,\" and \"what was happening\" is replaced with the specific event already named earlier in the sentence: \"the dispute.\""
+ },
+ "card29": {
+  "correctIndex": 2,
+  "sentence": "\"...because the curved stone seating <u>sends the sound through the environment</u>.\" → \"...because the curved stone seating <ins>directs the sound waves to move along the curve of the seating</ins>.\"",
+  "why": "<b>Why:</b> \"Send...through the environment\" is vague — it doesn't say how. The fix names the actual mechanism already implied by \"curved stone seating\": sound waves following the curve."
+ },
+ "card30": {
+  "correctIndex": 2,
+  "sentence": "\"Cameron made his math grade better by doing extra work.\" → \"Cameron <ins>improved</ins> his math grade by <ins>completing all available extra-credit projects</ins>.\"",
+  "why": "<b>Why:</b> C uses the most precise, concise verb (\"improved\" instead of the vague \"made better\") and the clearest specific action (\"completing all available extra-credit projects\") without extra padding. B has an awkward \"his doing\" construction and a vague \"not as low\"; A and D are specific but wordier than they need to be."
+ },
+ "card31": {
+  "correctIndex": 0,
+  "sentence": "(1) A skilled surgeon, the doctor, <u>who treats patients,</u> is known throughout the hospital for steady hands and careful technique.",
+  "why": "<b>Why:</b> \"Who treats patients\" is redundant — the sentence already says \"doctor\" and \"surgeon,\" both of which already mean someone who treats patients. The clause doesn't add any new information, it just restates what's already known."
+ },
+ "card32": {
+  "correctIndex": 0,
+  "sentence": "(1) The committee reviewed <u>each and every</u> application before making a final decision. → The committee reviewed <ins>every</ins> application before making a final decision.",
+  "why": "<b>Why:</b> \"Each\" and \"every\" mean the same thing here — pairing them doesn't add emphasis, it just says the same word twice. One or the other is enough."
+ },
+ "card33": {
+  "correctIndex": 1,
+  "sentence": "(2) <u>Every single one of</u> the participants completed the entire survey... → <ins>All of</ins> the participants completed the entire survey...",
+  "why": "<b>Why:</b> \"Every,\" \"single,\" and \"one\" are all doing the same job of emphasizing totality — stacking all three doesn't add meaning, it just repeats it. \"All of the participants\" or \"Every participant\" says the exact same thing in fewer words."
+ },
+ "card34": {
+  "correctIndex": 0,
+  "sentence": "(1) The weather service issued an <u>advance warning</u> before the storm made landfall... → The weather service issued <ins>a warning</ins> before the storm made landfall...",
+  "why": "<b>Why:</b> \"Advance warning\" is redundant — a warning is, by definition, something given in advance. It could simply say \"a warning.\""
+ },
+ "card35": {
+  "correctIndex": 0,
+  "sentence": "(1) <u>Due to the fact that</u> ticket sales exceeded expectations, the concert venue added a second show. → <ins>Because</ins> ticket sales exceeded expectations, the concert venue added a second show.",
+  "why": "<b>Why:</b> \"Due to the fact that\" is a wordy way of saying \"because\" — it takes five words to do the job of one, without adding any meaning."
+ },
+ "card36": {
+  "correctIndex": 0,
+  "sentence": "\"...<u>it's</u> vibrant colors still catch the eye...\" → \"...<ins>its</ins> vibrant colors still catch the eye...\"",
+  "why": "<b>Why:</b> \"It's\" always means \"it is\" — try the substitution: \"it is vibrant colors\" doesn't make sense, so this needs the possessive \"its\" (no apostrophe)."
+ },
+ "card37": {
+  "correctIndex": 0,
+  "sentence": "\"...which had not been <u>rang</u> since the school's founding...\" → \"...which had not been <ins>rung</ins> since the school's founding...\"",
+  "why": "<b>Why:</b> After \"had been\" (passive voice), irregular verbs need their participle form — \"rung,\" not the simple past \"rang.\" You'd say \"the bell rang,\" but \"the bell had been rung.\""
+ },
+ "card38": {
+  "correctIndex": 0,
+  "sentence": "\"The volunteers <u>that</u> organized the fundraiser...\" → \"The volunteers <ins>who</ins> organized the fundraiser...\"",
+  "why": "<b>Why:</b> \"Volunteers\" are people — \"who\" should be used for people, while \"that\" is reserved for things, animals, or groups treated as a single unit."
+ },
+ "card39": {
+  "correctIndex": 0,
+  "sentence": "\"Between Maya and Jade, Maya is the <u>best</u> sprinter...\" → \"...Maya is the <ins>better</ins> sprinter...\"",
+  "why": "<b>Why:</b> Only two people are being compared (\"Between Maya and Jade\"), so this needs the comparative \"better,\" not the superlative \"best\" — \"best\" is reserved for comparing three or more."
+ },
+ "card40": {
+  "correctIndex": 3,
+  "sentence": "(4) ...when translating between two <u>close</u> related languages... → ...when translating between two <ins>closely</ins> related languages...",
+  "why": "<b>Why:</b> The word modifying \"related\" (an adjective here) needs to be an adverb — \"closely,\" not the adjective \"close.\" You can't use an adjective to describe another adjective."
+ }
+}
