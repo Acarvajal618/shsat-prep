@@ -92,7 +92,7 @@
   <div class="page">
     <a href="exams.html" class="back">← Back to Exams</a>
     <h1>Grammar Guide</h1>
-    <p class="subtitle">The short, one-off Revising/Editing questions (Part A) — not tied to a reading passage — grouped into 8 skills, 5 examples each. Every question on this page is an original, freshly written question, not a real one. Each card notes what it's modeled on: a real SHSAT standalone question ("Same skill as Exam X..."), a real Kaplan-workbook fodder question ("Same skill as Fodder — GRFnnn..."), or nothing at all ("Original example") when neither source had a match. Either way, the real questions stay unseen here and ready for real practice — for a much bigger pool of real, answerable fodder questions to actually work through, see the <a href="grammar-question-bank.html">Grammar Question Bank</a>.</p>
+    <p class="subtitle">The short, one-off Revising/Editing questions (Part A) — not tied to a reading passage — grouped into 8 skills, 5 examples each. Every question on this page is an original, freshly written question, not a real one. Each card notes what it's modeled on: a real SHSAT standalone question ("Same skill as Exam X..."), a real Kaplan-workbook fodder question ("Same skill as Fodder — GRFnnn..."), or nothing at all ("Original example") when neither source had a match. Either way, the real questions stay unseen here and ready for real practice — for a much bigger pool of real, answerable fodder questions to actually work through, see the <a href="grammar-question-bank.html">Grammar Question Bank</a>. Answers are password-locked, same password as the exam pages.</p>
     <div class="howto"><b>How to use this page:</b> don't try to memorize the rules first. Read a category's strategy box once, then go through its examples one at a time — read the clean text, take a real guess, <i>then</i> reveal the answer. The goal is to start <i>recognizing the shape</i> of each error type on sight, the same way you'd recognize a friend's face before you could describe their features in words.</div>
     <div class="howto">Looking for the <b>longer passage-based</b> Revising/Editing questions (transitions, reordering sentences, cutting off-topic sentences, best intro/conclusion, matching style)? Those live in the companion <a href="ela-revising-editing-passage-guide.html">Revising/Editing Passage Guide</a>.</div>
     <div class="howto">Want a lot more practice once these click? The <a href="grammar-question-bank.html">Grammar Question Bank</a> has 97 more real, standalone-only questions to shift through, one skill at a time.</div>
@@ -1024,9 +1024,28 @@
   </div>
 
   <script>
+    // Password-gates revealing an answer, same password/behavior as solution-lock.js
+    // on the exam pages: unlock doesn't persist across reloads, and once entered
+    // correctly once on this page load, every later answer reveals without re-asking.
+    // Hiding an already-revealed answer never re-prompts.
+    var ANSWER_PASSWORD = 'camellia33';
+    var answersUnlocked = false;
+    function ensureUnlocked() {
+      if (answersUnlocked) return true;
+      var attempt = window.prompt('Enter the solution password to reveal this answer:');
+      if (attempt === null) return false;
+      if (attempt.trim().toLowerCase() === ANSWER_PASSWORD) {
+        answersUnlocked = true;
+        return true;
+      }
+      window.alert('Incorrect password.');
+      return false;
+    }
+
     document.querySelectorAll('.ex-reveal-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var unit = btn.closest('.ex-unit');
+        if (!unit.classList.contains('revealed') && !ensureUnlocked()) return;
         var revealed = unit.classList.toggle('revealed');
         btn.textContent = revealed ? 'Hide the answer' : 'Show the answer';
       });
