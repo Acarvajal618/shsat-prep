@@ -73,7 +73,7 @@
   <div class="page">
     <a href="ela-revising-editing-guide.html" class="back">← Back to Grammar Guide</a>
     <h1>Grammar Question Bank</h1>
-    <p class="subtitle">Pick a skill, work through real questions one at a time. These come from a Kaplan workbook not tied to any specific SHSAT practice test — every answer and explanation was worked out by hand (no answer key existed), same standard as the rest of this site. Not infinite, but a lot to shift through.</p>
+    <p class="subtitle">Pick a skill, work through real questions one at a time. These come from a Kaplan workbook not tied to any specific SHSAT practice test — every answer and explanation was worked out by hand (no answer key existed), same standard as the rest of this site. Not infinite, but a lot to shift through. Answers are password-locked, same password as the exam pages.</p>
 
     <div class="skill-pills" id="skillPills"></div>
 
@@ -108,6 +108,23 @@
     let deckPos = 0;
     let current = null;
     let score = 0, attempts = 0, streak = 0;
+
+    // Password-gates seeing an answer, same password/behavior as solution-lock.js
+    // on the exam pages: unlock doesn't persist across reloads, and once entered
+    // correctly once on this page load, every later answer reveals without re-asking.
+    const ANSWER_PASSWORD = 'camellia33';
+    let answersUnlocked = false;
+    function ensureUnlocked() {
+      if (answersUnlocked) return true;
+      const attempt = window.prompt('Enter the solution password to reveal this answer:');
+      if (attempt === null) return false;
+      if (attempt.trim().toLowerCase() === ANSWER_PASSWORD) {
+        answersUnlocked = true;
+        return true;
+      }
+      window.alert('Incorrect password.');
+      return false;
+    }
 
     function esc(s) {
       return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -216,6 +233,7 @@
 
     function answer(key, el) {
       if (document.querySelector('.q-opt.locked')) return;
+      if (!ensureUnlocked()) return;
       document.querySelectorAll('.q-opt').forEach(o => o.classList.add('locked'));
       attempts++;
       const correct = key === current.correct;
@@ -234,6 +252,7 @@
     }
 
     function revealOpen() {
+      if (!ensureUnlocked()) return;
       document.getElementById('openBtn').disabled = true;
       showFeedback('Here\'s the fix:', 'neutral');
     }
