@@ -86,7 +86,7 @@
 
     <details class="how">
       <summary>Where does this content come from?</summary>
-      Sourced from a Kaplan "Revising/Editing Text" workbook, separate from the lettered practice exams (A–G) and Kaplan tests 1–3. It had no printed answer key, so every correct answer and explanation here was worked out directly from grammar rules, then spot-checked. 4 questions that turned out to be genuinely ambiguous on review were left out entirely rather than force-guessed, and 24 more were left out because they depend on a specific named reading passage from the workbook rather than standing on their own (a few "combine these sentences" questions in particular came almost entirely from passages, which is why that skill is thin here). This bank only includes standalone, sentence-level "grammar" skill types — the paragraph-level skills (transitions, reordering, off-topic removal, style matching) live in the <a href="ela-revising-editing-passage-guide.html">Revising/Editing Passage Guide</a> instead.
+      Sourced from a Kaplan "Revising/Editing Text" workbook, separate from the lettered practice exams (A–G) and Kaplan tests 1–3. It had no printed answer key, so every correct answer and explanation here was worked out directly from grammar rules, then spot-checked. 4 questions that turned out to be genuinely ambiguous on review were left out entirely rather than force-guessed, and 24 more were left out because they depend on a specific named reading passage from the workbook rather than standing on their own (a few "combine these sentences" questions in particular came almost entirely from passages, which is why that skill is thin here). This bank only includes standalone, sentence-level "grammar" skill types — the paragraph-level skills (transitions, reordering, off-topic removal, style matching) live in the <a href="ela-revising-editing-passage-guide.html">Revising/Editing Passage Guide</a> instead. Each question's source line also names the original photo it was transcribed from (e.g. "photo IMG_8604"), in case anything ever needs to be checked against the original workbook page.
     </details>
   </div>
 
@@ -177,7 +177,7 @@
       const card = document.createElement('div');
       card.className = 'q-card';
 
-      const sourceLine = `Fodder — ${current.id}${current.source_category && current.source_category !== currentSkill ? ' · ' + current.source_category.replace(/_/g, ' ') : ''}`;
+      const sourceLine = `Fodder — ${current.id}${current.img ? ' · photo ' + current.img : ''}${current.source_category && current.source_category !== currentSkill ? ' · ' + current.source_category.replace(/_/g, ' ') : ''}`;
       let html = `<div class="q-source">${esc(sourceLine)}</div>`;
       html += `<div class="q-text">${renderText(current.question)}</div>`;
 
