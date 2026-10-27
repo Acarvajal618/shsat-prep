@@ -33,54 +33,6 @@
    "source_category": "vague_pronoun"
   },
   {
-   "id": "GRF102",
-   "skill": "vague_pronoun",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Noctilucent Clouds passage, sentence 7: 'Seeing these things in Europe has also happened more and more in the past 50 years, for reasons that remain unsure.' Which revision of sentence 7 best maintains the formal style established in the passage?",
-   "options": {
-    "A": "Over the past 50 years, for reasons that remain unsure, seeing these things in Europe has also become more frequent.",
-    "B": "Sightings of these things in Europe has also become more frequent in the past 50 years, for reasons that remain unclear.",
-    "C": "Sightings in Europe have also become more frequent in the past 50 years.",
-    "D": "Sightings in Europe have also become more frequent in the past 50 years, for reasons that remain unclear."
-   },
-   "correct": "D",
-   "reasoning": "D replaces the vague 'these things' with the clear 'Sightings' (correctly agreeing with 'have'), while retaining the original's 'for reasons that remain unclear' clause. A and B still contain the vague 'these things' (B also has a subject-verb agreement error); C drops meaningful information.",
-   "source_category": "vague_pronoun"
-  },
-  {
-   "id": "GRF109",
-   "skill": "vague_pronoun",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Icebreakers passage, sentence 14: 'This process is time-consuming because it can be up to 16 feet thick.' Which revision of sentence 14 best supports the passage?",
-   "options": {
-    "A": "This process is lengthy because it can be up to 16 feet thick.",
-    "B": "This process is time-consuming and lengthy because the ice can be up to 16 feet thick.",
-    "C": "This process is time-consuming because the ice can be up to 16 feet thick.",
-    "D": "This process is time-consuming because it can be up to 16 feet high."
-   },
-   "correct": "C",
-   "reasoning": "'it' vaguely/incorrectly refers to 'the process' when it should refer to 'the ice' (a process can't be '16 feet thick'). C fixes this cleanly; A keeps the vague 'it'; B fixes the reference but adds redundant 'time-consuming and lengthy'; D keeps the vague 'it' and wrongly changes 'thick' to 'high'.",
-   "source_category": "vague_pronoun"
-  },
-  {
-   "id": "GRF120",
-   "skill": "vague_pronoun",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Music Education paragraph, sentence 4: 'Those comments made them feel that we were really effecting our school atmosphere.' Which revision of sentence 4 best maintains the style established in the passage?",
-   "options": {
-    "A": "Those comments made them feel that we were really effecting our school atmosphere.",
-    "B": "Those comments made them feel that we were really affecting our school atmosphere.",
-    "C": "Those comments made us feel that we were really affecting our school atmosphere.",
-    "D": "Those comments made us feel that we were really affecting our school and academic atmosphere."
-   },
-   "correct": "C",
-   "reasoning": "The passage is first-person throughout ('My friends and I', 'We handed out') so 'us' (not 'them') is correct; and 'affecting' (influencing) is the correct word, not 'effecting' (bringing about). D adds an unnecessary addition ('and academic') beyond fixing the actual errors.",
-   "source_category": "vague_pronoun"
-  },
-  {
    "id": "GRF151",
    "skill": "vague_pronoun",
    "format": "mc",
@@ -259,22 +211,6 @@
    "source_category": "agreement"
   },
   {
-   "id": "GRF064",
-   "skill": "agreement",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Jean Piaget passage, sentence 5: 'While observing the mollusks living in the region's many lakes, Piaget saw biological changes occurring in the creatures that could be attributed only to its environment.' Which edit should be made to correct sentence 5?",
-   "options": {
-    "A": "Change saw to seen.",
-    "B": "Change biological changes occurring to the occurrence of biological changes.",
-    "C": "Change that to who.",
-    "D": "Change its to their."
-   },
-   "correct": "D",
-   "reasoning": "Pronoun-antecedent agreement: 'the creatures' (plural) requires 'their environment', not 'its'.",
-   "source_category": "agreement"
-  },
-  {
    "id": "GRF096",
    "skill": "agreement",
    "format": "mc",
@@ -417,22 +353,6 @@
    "correct": "D",
    "reasoning": "'are dedicating' breaks the simple-present general-truth tense used throughout ('run faster', 'must be attributed') and should be 'dedicate'. The comma after 'ages' incorrectly precedes 'and' joining two parallel prepositional phrases (not independent clauses) and should be deleted.",
    "source_category": "verb_tense_punctuation_pair"
-  },
-  {
-   "id": "GRF044",
-   "skill": "agreement",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Crisis Management passage, sentence 19: 'Plans vary depending on the company, but all suggests some problems that could arise and set up a team to handle them.' Which edit should be made to correct sentence 19?",
-   "options": {
-    "A": "Change Plans to A plan.",
-    "B": "Change suggests to suggest.",
-    "C": "Change set up to sets up.",
-    "D": "Change them to those."
-   },
-   "correct": "B",
-   "reasoning": "Subject-verb agreement: 'all' (referring to the plural 'plans') needs the plural verb 'suggest', not 'suggests'.",
-   "source_category": "grammar_mechanics"
   },
   {
    "id": "GRF071",
@@ -899,169 +819,9 @@
    "correct": "B",
    "reasoning": "Run-on: there is no punctuation between 'parallels to French' and 'The Russian alphabet has used...', which starts a new independent clause - needs a period or semicolon.",
    "source_category": "sentence_construction"
-  },
-  {
-   "id": "GRF153",
-   "skill": "sentence_construction",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Archerfish passage, sentence 5: 'Archerfish are generally small, from five to ten centimeters, they are capable of growing as large as 40 centimeters.' How should sentence 5 be revised?",
-   "options": {
-    "A": "Archerfish are generally small, from five to ten centimeters, they is capable of growing as large as 40 centimeters.",
-    "B": "Archerfish are generally tiny, from five to ten centimeters, they are capable of growing as large as 40 centimeters.",
-    "C": "Archerfish are generally small, from five to ten centimeters, but they are capable of growing as large as 40 centimeters.",
-    "D": "Fish are generally small, from five to ten centimeters, they are capable of growing as large as 40 centimeters."
-   },
-   "correct": "C",
-   "reasoning": "Comma splice between two independent clauses; adding 'but' fixes it and correctly signals the logical contrast (small on average, but capable of growing much larger).",
-   "source_category": "sentence_construction"
-  },
-  {
-   "id": "GRF040",
-   "skill": "sentence_construction",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Crisis Management passage, sentence 6: 'The company that slipped up not only has to admit that it made a mistake and show how it is dealing with that mistake.' Which edit is needed to correct sentence 6?",
-   "options": {
-    "A": "Change company to companies.",
-    "B": "Change mistake to mistakes.",
-    "C": "Change and to but also.",
-    "D": "Change with that to with these."
-   },
-   "correct": "C",
-   "reasoning": "'not only' needs its correlative pair 'but also', not a plain 'and': 'not only has to admit...but also show...'",
-   "source_category": "grammar_mechanics"
   }
  ],
  "combining_sentences": [
-  {
-   "id": "GRF013",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Winter passage. (8) Second, winter weather provides them with the opportunity for so many activities. (9) It allows us to ski down mountains, skate on frozen ponds, and sled down hills. What is the best way to combine sentences 8 and 9 to clarify the relationship between ideas?",
-   "options": {
-    "A": "Second, winter weather provides them with the opportunity for so many activities, allowing us to ski down mountains, skate on frozen ponds, and sled down hills.",
-    "B": "Second, winter weather provides the opportunity for so many activities, allowing people to ski down mountains, skate on frozen ponds, and sled down hills.",
-    "C": "Second, providing the opportunity for so many activities, in winter weather it is allowed to ski down mountains, skate on frozen ponds, and sled down hills.",
-    "D": "Second, winter weather provides many activities and allows them to ski down mountains, skate on frozen ponds, and sled down hills."
-   },
-   "correct": "B",
-   "reasoning": "Original sentences have an unclear pronoun 'them' with no antecedent, then switch to 'us'. B resolves this by removing the vague pronoun and using 'people' consistently. A keeps the problem (both 'them' and 'us' present); C is awkward/passive with a dangling modifier; D keeps the vague 'them'.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF039",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Crisis Management passage. (2) One of the best is Johnson & Johnson. (3) Which devised a clever strategy, after some people consumed a pain reliever laced with cyanide, that helped create a whole new type of public relations known as 'crisis management.' What is the best way to combine sentences 2 and 3 to clarify the relationship between ideas?",
-   "options": {
-    "A": "The best example is Johnson & Johnson, which, after several people consumed a pain reliever laced with cyanide, devised a clever strategy that helped to create a whole new type of public relations known as 'crisis management.'",
-    "B": "For example, Johnson & Johnson, whose clever strategy helped create a whole new type of public relations called 'crisis management' after several people consumed a pain reliever laced with cyanide.",
-    "C": "Johnson & Johnson might have had the most clever strategy, after several people consumed a pain reliever laced with cyanide, and they helped to create a whole new type of public relations known as 'crisis management.'",
-    "D": "As the best example was Johnson & Johnson, their clever strategy, after several people consumed a pain reliever laced with cyanide was to help create a whole new type of public relations known as 'crisis management.'"
-   },
-   "correct": "A",
-   "reasoning": "Sentence 3 originally begins with 'Which', a sentence fragment. A correctly embeds the relative clause with clear chronology and a complete main clause. B is a fragment (no main verb for 'Johnson & Johnson'/the 'whose' clause never resolves). C weakens certainty with 'might have had' (changes meaning) and awkwardly inserts the cyanide clause. D has an ungrammatical 'As X was Y' opening and a missing comma.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF063",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Jean Piaget passage, sentences 2-4: (2) Piaget was born in Switzerland in 1896. (3) He studied at the University of Neuchatel. (4) He eventually received a doctorate in the natural sciences. What is the best way to combine sentences 2 through 4 to clarify the relationship between ideas?",
-   "options": {
-    "A": "Born in Switzerland in 1896, Piaget studied at the University of Neuchatel, where he eventually received a doctorate in the natural sciences.",
-    "B": "Piaget was born in Switzerland in 1896 and studied at the University of Neuchatel and eventually received a doctorate in the natural sciences.",
-    "C": "Piaget was born in Switzerland in 1896; studied at the University of Neuchatel; eventually received a doctorate in the natural sciences.",
-    "D": "In 1896, Piaget was born in Switzerland, where he studied at the University of Neuchatel, eventually having received a doctorate in the natural sciences."
-   },
-   "correct": "A",
-   "reasoning": "A combines all three facts cleanly and correctly, with 'where' logically linking the university to the doctorate. B is repetitive/clunky ('and...and'). C misuses semicolons before sentence fragments lacking their own subject. D's 'eventually having received' is awkwardly passive compared to A.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF065",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Jean Piaget passage, sentences 8-9: (8) He continued his studies at the Sorbonne in Paris. (9) Where he began focusing on the cognitive development of children. What is the best way to combine sentences 8 and 9 to clarify the relationship between ideas?",
-   "options": {
-    "A": "He continued his studies at the Sorbonne in Paris; where he began focusing on the cognitive development of children.",
-    "B": "He continued his studies at the Sorbonne in Paris, where he began focusing on the cognitive development of children.",
-    "C": "He continued his studies at the Sorbonne in Paris and he began focusing on the cognitive development of children.",
-    "D": "He continued his studies at the Sorbonne in Paris. He began focusing on the cognitive development of children."
-   },
-   "correct": "B",
-   "reasoning": "Sentence 9 ('Where he began...') is a fragment. B correctly attaches it to 'Paris' with a comma + 'where' relative clause - grammatically correct and clarifies the location relationship. A misuses a semicolon before a dependent clause; C and D lose the specific location-based connection.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF077",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Social Psychology passage, sentences 7-8: (7) The debate about the relationship between instinctive responses and those produced by environmental influences, reflective of learned behavior, is not new. (8) The question was discussed as far back as ancient Greece. What is the best way to combine sentences 7 and 8 to clarify the relationship between ideas?",
-   "options": {
-    "A": "...is not new, the question was discussed as far back as ancient Greece.",
-    "B": "...is not new; however, the question was discussed as far back as ancient Greece.",
-    "C": "...is not new; the question was discussed as far back as ancient Greece.",
-    "D": "...is not new; on the other hand, the question was discussed as far back as ancient Greece."
-   },
-   "correct": "C",
-   "reasoning": "S8 elaborates/supports S7's claim (evidence of how old the debate is), not a contrast, so a plain semicolon joining the two independent, related clauses is correct. A is a comma splice; B and D wrongly use contrast connectors ('however'/'on the other hand') for a supporting relationship.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF084",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Havana passage, sentences 12-13: (12) Another Treaty of Paris, in 1898, brought Cuba, and therefore Havana, under the control of the United States. (13) This country recognized Cuban independence in 1902. What is the best way to combine sentences 12 and 13 to clarify the relationship between ideas?",
-   "options": {
-    "A": "The Treaty of Paris in 1898 brought Cuba, and therefore Havana, under the control of the United States, which recognized Cuban independence in 1902.",
-    "B": "The country of the United States, which is north of Cuba, recognized Cuban independence after it got control of Cuba due to the Treaty of Paris, in 1898.",
-    "C": "In 1898, the United States recognized Cuban independence after it gained control of Cuba as a part of the Treaty of Paris.",
-    "D": "The Treaty of Paris, in 1898, brought Cuba, and therefore Havana, under the control of the United States; the United States recognized Cuban independence in 1902."
-   },
-   "correct": "A",
-   "reasoning": "A smoothly combines both facts with a clear 'which' reference to the United States. B adds irrelevant detail and has an ambiguous pronoun; C incorrectly implies both events happened in 1898 (independence was actually 1902); D is correct but redundantly repeats 'the United States' rather than using a pronoun/relative clause.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF103",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Noctilucent Clouds passage, sentences 8-10: (8) Ordinary clouds occur approximately 10 kilometers from Earth's surface. (9) Noctilucent clouds are found at about 82 kilometers. (10) This is more than seven times higher than commercial airlines fly. What is the best way to combine sentences 8, 9, and 10?",
-   "options": {
-    "A": "Ordinary clouds occur approximately 10 kilometers from Earth's surface, noctilucent clouds are found at about 82 kilometers, and this is more than seven times higher than commercial airlines fly.",
-    "B": "Ordinary clouds occur approximately 10 kilometers from Earth's surface; while noctilucent clouds, being found at about 82 kilometers, which is more than seven times higher than commercial airlines fly.",
-    "C": "Ordinary clouds occur approximately 10 kilometers from Earth's surface, but noctilucent clouds are found at about 82 kilometers, which is more than seven times higher than commercial airlines fly.",
-    "D": "Ordinary clouds occur approximately 10 kilometers from Earth's surface, found at about 82 kilometers, which is more than seven times higher than commercial airlines fly."
-   },
-   "correct": "C",
-   "reasoning": "C correctly uses 'but' to signal the contrast between the two cloud types' very different altitudes, and 'which' clearly refers back to '82 kilometers' for the airline comparison. A reads as a flat list without showing the contrast; B is a sentence fragment after the semicolon; D drops the noctilucent-clouds subject, creating ambiguity.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF108",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Icebreakers passage, sentences 12-13: (12) The ship then reverses, powers ahead, and runs up onto the ice again. (13) It clears a path for itself. What is the best way to combine sentences 12 and 13?",
-   "options": {
-    "A": "...runs up onto the ice again, by which the vessel clears a path for itself.",
-    "B": "...runs up onto the ice again, because the vessel clears a path for itself.",
-    "C": "...runs up onto the ice again, and the vessel, clearing a path for itself.",
-    "D": "...runs up onto the ice again so that the vessel clears a path for itself."
-   },
-   "correct": "D",
-   "reasoning": "'so that' correctly shows purpose/result (the repeated cycle is done in order to clear a path). B reverses the causality ('because' implies clearing causes the reversing); C is a sentence fragment.",
-   "source_category": "combining_sentences"
-  },
   {
    "id": "GRF118",
    "skill": "combining_sentences",
@@ -1079,54 +839,6 @@
    "source_category": "combining_sentences"
   },
   {
-   "id": "GRF126",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Nizhny Novgorod passage, sentences 1-2: (1) The Russian city of Nizhny Novgorod has long been an important city in the Volga Vyatka economic region of the country. (2) Substantially contributing to the gross national product. What is the best way to combine sentences 1 and 2?",
-   "options": {
-    "A": "...region of the country; substantially contributing to the gross national product.",
-    "B": "...region of the country, however, substantially contributing to the gross national product.",
-    "C": "...region of the country, substantially contributing to the gross national product.",
-    "D": "The Russian city of Nizhny Novgorod, has long been an important city in the Volga Vyatka economic region of the country, whereas it substantially contributes to the gross national product."
-   },
-   "correct": "C",
-   "reasoning": "Sentence 2 is a fragment (participial phrase, no subject/verb). C correctly attaches it to the main clause with just a comma. A misuses a semicolon before a non-independent clause; B's 'however' implies a false contrast; D has an incorrect comma splitting subject from verb and a false 'whereas' contrast.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF127",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Nizhny Novgorod passage, sentences 7-8: (7) In that same year, it was part of a grand exhibition of art and industry. (8) It featured industrial exhibits including the first Russian car, a radio receiver, oil products, and other examples of new Russian technology. What is the best way to combine sentences 7 and 8 to clarify the relationship between ideas?",
-   "options": {
-    "A": "...exhibition of art and industry, it featured industrial exhibits...",
-    "B": "...exhibition of art and industry featuring industrial exhibits...",
-    "C": "...exhibition of art and industry; featuring industrial exhibits...",
-    "D": "...exhibition of art and industry, which featured industrial exhibits..."
-   },
-   "correct": "D",
-   "reasoning": "D uses a clear comma + 'which' relative clause unambiguously referring back to 'the exhibition'. A is a comma splice; C misuses a semicolon before a participial fragment.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF129",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Nizhny Novgorod passage, sentences 11-12: (11) There were numerous examples of various avant-garde art movements. (12) These included Cubo-Futurism, Neo-Primitivism, Suprematism, and others. What is the best way to combine sentences 11 and 12 to clarify the relationship between ideas?",
-   "options": {
-    "A": "...avant-garde art movements, includes Cubo-Futurism, Neo-Primitivism, Suprematism, and others.",
-    "B": "...avant-garde art movements; some of the examples of avant-garde art movements included Cubo-Futurism, Neo-Primitivism, Suprematism, and others.",
-    "C": "...avant-garde art movements not excepting Cubo-Futurism, Neo-Primitivism, Suprematism, and others.",
-    "D": "There were numerous examples of various avant-garde art movements, including Cubo-Futurism, Neo-Primitivism, Suprematism, and others."
-   },
-   "correct": "D",
-   "reasoning": "D cleanly uses 'including' to introduce the specific examples. A has a subject-verb agreement error; B is redundant (repeats 'avant-garde art movements'); C uses awkward, unusual phrasing.",
-   "source_category": "combining_sentences"
-  },
-  {
    "id": "GRF137",
    "skill": "combining_sentences",
    "format": "mc",
@@ -1140,54 +852,6 @@
    },
    "correct": "D",
    "reasoning": "D is clean and concise, correctly keeping 'the revolution' as the subject matching the 'Very much an urban movement' modifier. A changes 'social class' to the less precise 'society'; B is redundant ('that class' restates 'social class'); C uses awkward passive voice and creates a dangling modifier (the social class system, not the revolution, now follows 'Very much an urban movement').",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF156",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Archerfish passage, sentences 14-15: (14) Interestingly, accurate aiming is not instinctual in the archerfish. (15) This is evidenced by the fact that young fish frequently miss the target. What is the best way to combine sentences 14 and 15 to clarify the relationship between the ideas?",
-   "options": {
-    "A": "...archerfish; as evidenced by young fish that frequently miss the target.",
-    "B": "...archerfish but it is evidenced by young fish that frequently miss the target.",
-    "C": "...archerfish, as evidenced by young fish that frequently miss the target.",
-    "D": "...archerfish, young fish frequently miss the target."
-   },
-   "correct": "C",
-   "reasoning": "C correctly uses a comma + 'as evidenced by' to show the evidence/support relationship. A misuses a semicolon before a non-independent-clause fragment; B's 'but' wrongly implies contrast; D is a comma splice.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF169",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Dieter Roth passage, sentences 5-6: (5) In 1953, Roth was involved with a group of artists and writers who published a journal called Spirale. (6) He designed the first cover. What is the best way to combine sentences 5 and 6?",
-   "options": {
-    "A": "In 1953, Roth was involved with a group of artists and writers who published a journal called Spirale, and he designed the first cover.",
-    "B": "In 1953, Roth was involved with a group of artists and writers who published a journal called Spirale, for which he designed the first cover.",
-    "C": "So in 1953, Roth was involved with a group of artists and writers who published a journal called Spirale, designing the first cover.",
-    "D": "Consequently, a group of artists and writers who published a journal called Spirale had Roth involved in 1953 with his designing of the first cover."
-   },
-   "correct": "B",
-   "reasoning": "B's 'for which' precisely shows that designing the cover was his specific contribution to the journal - a clearer logical connection than A's generic 'and'. C's unmotivated 'So' and dangling-ish participle, and D's convoluted phrasing, are both worse.",
-   "source_category": "combining_sentences"
-  },
-  {
-   "id": "GRF170",
-   "skill": "combining_sentences",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Dieter Roth passage, sentences 12-13: (12) From then on, his main theme was the passage of time. (13) It was illustrated with depictions of visible decay, chance, and mindless accumulation. What is the best way to combine sentences 12 and 13?",
-   "options": {
-    "A": "From then on, his main theme was the passage of time, which he illustrated with depictions of visible decay, chance, and mindless accumulation.",
-    "B": "From then on, his main theme was the passage of time, and it was illustrated with depictions of visible decay, chance, and mindless accumulation.",
-    "C": "From then on, his main theme was the passage of time that was nevertheless illustrated with depictions of visible decay, chance, and mindless accumulation.",
-    "D": "From then on, his main theme was the passage of time that would be illustrated with depictions of visible decay, chance, and mindless accumulation."
-   },
-   "correct": "A",
-   "reasoning": "A cleanly attributes the illustrating action to Roth ('which he illustrated'). C's 'nevertheless' wrongly implies contrast where there is none; D's 'would be' incorrectly shifts the tense/meaning to something hypothetical/future rather than simply descriptive.",
    "source_category": "combining_sentences"
   }
  ],
@@ -1666,22 +1330,6 @@
    "source_category": "precise_language"
   },
   {
-   "id": "GRF124",
-   "skill": "precise_language",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Music Education paragraph, sentence 12: 'Learning how to read and perform music is like learning a second language-it is the same because it's another way to express yourself.' Which revision of sentence 12 best maintains the style established in the passage?",
-   "options": {
-    "A": "Learning how to read music and perform it is like learning a second language-because it's another way to express yourself.",
-    "B": "Learning how to read and perform music is like learning a second language-it is the same way to express yourself.",
-    "C": "Learning how to read and perform music is like learning a second language-music is the same because it's another way to express yourself.",
-    "D": "Learning how to read and perform music is like learning a second language-it's another way to express yourself."
-   },
-   "correct": "A",
-   "reasoning": "'it is the same' is redundant with the comparison already made via 'is like learning a second language' and should be removed, keeping only the explanatory reason. A cleanly removes just the redundant part while preserving the causal 'because' clause.",
-   "source_category": "precise_language"
-  },
-  {
    "id": "GRF134",
    "skill": "precise_language",
    "format": "mc",
@@ -1711,22 +1359,6 @@
    },
    "correct": "C",
    "reasoning": "C precisely names the specific type of economy before ('agrarian') and what replaced it (manufacturing/machinery-based). A's 'had to do with' and B's 'different kind of economy' and D's 'entirely different' and vague 'They' are all imprecise by comparison.",
-   "source_category": "precise_language"
-  },
-  {
-   "id": "GRF157",
-   "skill": "precise_language",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Archerfish passage, sentence 16: 'To make it better, young fish hunt in small clumps to up the odds that at least one archerfish will be able to do a good job.' Which revision of sentence 16 uses the most precise language?",
-   "options": {
-    "A": "To make it better, young fish hunt in small groups to increase the odds that at least one archerfish will be able to do a good job.",
-    "B": "To make it better, young fish hunt in small groups to increase the odds that at least one archerfish will be able to catch prey.",
-    "C": "To compensate for this, young fish hunt in small clumps to up the odds that at least one archerfish will be able to do a good job.",
-    "D": "To compensate for this, young fish hunt in small groups to increase the odds that at least one archerfish will be able to catch prey."
-   },
-   "correct": "D",
-   "reasoning": "D replaces every vague term: 'make it better'→'compensate for this' (ties to the refraction problem), 'clumps'→'groups', 'up the odds'→'increase the odds', 'do a good job'→'catch prey'. A, B, and C each leave at least one vague term unfixed.",
    "source_category": "precise_language"
   },
   {
@@ -1793,22 +1425,6 @@
    },
    "correct": "A",
    "reasoning": "'it's' (contraction of 'it is') is used where the possessive 'its' is needed ('its presence').",
-   "source_category": "grammar_mechanics"
-  },
-  {
-   "id": "GRF041",
-   "skill": "confused_words",
-   "format": "mc",
-   "stimulus": null,
-   "question": "Crisis Management passage, sentence 10: 'In the end, the company came to relatively unscathed.' Which edit should be made to correct sentence 10?",
-   "options": {
-    "A": "Change In the end to Last.",
-    "B": "Change the company to that company.",
-    "C": "Change came to to came out.",
-    "D": "Change relatively to relative."
-   },
-   "correct": "C",
-   "reasoning": "'came to relatively unscathed' is not idiomatic; 'came out relatively unscathed' is the correct phrasing.",
    "source_category": "grammar_mechanics"
   },
   {
