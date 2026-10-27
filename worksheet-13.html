@@ -190,13 +190,14 @@
         <div class="tn-question" id="tn-question">Loading…</div>
         <div id="tn-body"></div>
         <div class="tn-card-actions">
+          <button class="tn-btn-solution" id="tn-show-base" disabled>Base Question</button>
           <button class="tn-btn-solution" id="tn-show-solution" disabled>Solution</button>
         </div>
       </div>
 
       <div class="tn-exhibit-panel" id="tn-exhibit-panel">
         <div class="tn-exhibit-header">
-          <span>Solutions</span>
+          <span id="tn-exhibit-title">Solution</span>
           <button class="tn-exhibit-close" id="tn-close-exhibit">X</button>
         </div>
         <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
@@ -287,7 +288,8 @@
     function wireControls() {
       document.getElementById('tn-prev').onclick = () => go(-1);
       document.getElementById('tn-next').onclick = () => go(+1);
-      document.getElementById('tn-show-solution').onclick = toggleExhibit;
+      document.getElementById('tn-show-solution').onclick = () => toggleExhibit('solution');
+      document.getElementById('tn-show-base').onclick = () => toggleExhibit('base');
       document.getElementById('tn-close-exhibit').onclick = closeExhibit;
       document.addEventListener('keydown', (e) => {
         if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
@@ -304,13 +306,13 @@
       location.hash = 'Q' + state.questions[next].q_number;
     }
 
-    function toggleExhibit() {
+    function toggleExhibit(mode) {
       const panel = document.getElementById('tn-exhibit-panel');
-      panel.classList.contains('open') ? closeExhibit() : openExhibit();
+      if (panel.classList.contains('open') && state.exhibitMode === mode) closeExhibit();
+      else openExhibit(mode);
     }
-    function openExhibit() {
-      const q = currentQ();
-      if (!q || !q.solution || (!q.solution.exhibit_text && !q.solution.exhibit_image)) return;
+    function openSolutionExhibit(q) {
+      if (!q.solution || (!q.solution.exhibit_text && !q.solution.exhibit_image)) return false;
       const body = document.getElementById('tn-exhibit-body');
       let html = '';
       if (q.solution.exhibit_svg) {
@@ -322,6 +324,40 @@
         html += esc(q.solution.exhibit_text);
       }
       body.innerHTML = html;
+      document.getElementById('tn-exhibit-title').textContent = 'Solution';
+      return true;
+    }
+    function openBaseExhibit(q) {
+      const bq = q.base_question;
+      if (!bq) return false;
+      const body = document.getElementById('tn-exhibit-body');
+      let html = '';
+      if (bq.stimulus) html += `<div class="tn-stimulus-box" style="margin-bottom:14px;">${bq.stimulus}</div>`;
+      html += `<div style="margin-bottom:14px;">${renderQuestionText(bq.question)}</div>`;
+      if (bq.options) {
+        html += '<div style="margin-bottom:14px;">' + Object.keys(bq.options).map(k => {
+          const isCorrect = k === bq.correct;
+          return `<div style="padding:4px 0;${isCorrect ? 'font-weight:700;color:#1a7a1a;' : ''}">${esc(k)}. ${esc(bq.options[k])}${isCorrect ? ' ✓' : ''}</div>`;
+        }).join('') + '</div>';
+      }
+      html += '<div style="border-top:1px solid #ddd;margin-top:10px;padding-top:10px;">';
+      if (bq.solution && bq.solution.exhibit_image) {
+        html += `<img src="${bq.solution.exhibit_image}" alt="Base question solution" style="max-width:100%;display:block;border-radius:4px;">`;
+      } else if (bq.solution && bq.solution.exhibit_text) {
+        html += esc(bq.solution.exhibit_text);
+      }
+      html += '</div>';
+      body.innerHTML = html;
+      document.getElementById('tn-exhibit-title').textContent = 'Base Question' + (q.base_source ? ' — ' + q.base_source : '');
+      return true;
+    }
+    function openExhibit(mode) {
+      const q = currentQ();
+      if (!q) return;
+      const ok = mode === 'base' ? openBaseExhibit(q) : openSolutionExhibit(q);
+      if (!ok) return;
+      state.exhibitMode = mode;
+      const body = document.getElementById('tn-exhibit-body');
       typesetMath(body);
       const panel = document.getElementById('tn-exhibit-panel');
       panel.classList.add('open');
@@ -329,6 +365,7 @@
     }
     function closeExhibit() {
       document.getElementById('tn-exhibit-panel').classList.remove('open');
+      state.exhibitMode = null;
     }
 
     function typesetMath(root, retriesLeft) {
@@ -409,6 +446,7 @@
         document.getElementById('tn-question').textContent = 'No question found.';
         document.getElementById('tn-body').innerHTML = '';
         document.getElementById('tn-show-solution').disabled = true;
+        document.getElementById('tn-show-base').disabled = true;
         return;
       }
 
@@ -423,8 +461,14 @@
         renderPassagePane();
       }
 
-      const baseMatch = (q.section === 'math') ? (q.id || '').match(/^(.*?)\.(\d+)$/) : null;
-      document.getElementById('tn-base-tag').textContent = baseMatch ? ('Based on ' + baseMatch[1]) : '';
+      let baseLabel = '';
+      if (q.section === 'math') {
+        const baseMatch = (q.id || '').match(/^(.*?)\.(\d+)$/);
+        if (baseMatch) baseLabel = 'Based on ' + baseMatch[1];
+      } else if (q.section === 'grammar' && q.base_source) {
+        baseLabel = 'Based on ' + q.base_source;
+      }
+      document.getElementById('tn-base-tag').textContent = baseLabel;
 
       let stimulusHtml = '';
       if (q.section === 'grammar' && q.stimulus) {
@@ -447,6 +491,7 @@
 
       const hasSolution = !!(q.solution && (q.solution.exhibit_text || q.solution.exhibit_image));
       document.getElementById('tn-show-solution').disabled = !hasSolution;
+      document.getElementById('tn-show-base').disabled = !q.base_question;
 
       wireInputs(q);
       typesetMath(document.getElementById('tn-card'));
