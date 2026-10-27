@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mad-Lib Generator Demo — SHSAT Prep</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .page { max-width: 760px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+    .back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--primary); text-decoration: none; font-size: 0.88rem; margin-bottom: 1rem; }
+    h1 { font-size: 1.5rem; font-weight: 900; margin-bottom: 0.3rem; color: var(--text); }
+    .subtitle { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
+    .note { background: var(--primary-light); border-radius: var(--radius); padding: 0.85rem 1.05rem; font-size: 0.85rem; color: #581c5e; margin-bottom: 1.5rem; }
+    .note b { color: var(--text); }
+
+    .scoreboard { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-muted); }
+    .scoreboard b { color: var(--text); }
+
+    .q-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.25rem 1.4rem; }
+    .q-source { font-size: 0.7rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.5rem; }
+    .q-prompt { font-size: 1rem; line-height: 1.6; color: var(--text); margin-bottom: 0.6rem; }
+    .q-ask { font-style: italic; color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1rem; }
+
+    .q-options { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+    .q-opt {
+      background: var(--bg); border: 1.5px solid var(--border); border-radius: 8px;
+      padding: 0.6rem 0.9rem; font-size: 0.92rem; cursor: pointer; transition: all 0.12s;
+    }
+    .q-opt:hover:not(.locked) { border-color: var(--primary); background: var(--primary-light); }
+    .q-opt b { color: var(--text); margin-right: 0.4rem; }
+    .q-opt.correct { background: #e6f4ea; border-color: var(--correct); font-weight: 700; }
+    .q-opt.wrong { background: #fce8e6; border-color: var(--incorrect); }
+
+    .q-feedback { display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed var(--border); }
+    .q-feedback.shown { display: block; }
+    .q-feedback .verdict { font-weight: 800; margin-bottom: 0.4rem; }
+    .q-feedback .verdict.correct { color: var(--correct); }
+    .q-feedback .verdict.wrong { color: var(--incorrect); }
+    .q-why { color: var(--text-muted); font-size: 0.88rem; }
+
+    .q-actions { margin-top: 1.1rem; display: flex; gap: 0.6rem; }
+    .btn {
+      border: none; border-radius: 8px; padding: 0.55rem 1.1rem; font-size: 0.88rem; font-weight: 700;
+      cursor: pointer; font-family: inherit;
+    }
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    .how { margin-top: 2rem; font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; }
+    .how summary { cursor: pointer; font-weight: 700; color: var(--text); margin-bottom: 0.4rem; }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+  <div class="page">
+    <a href="ela-revising-editing-guide.html" class="back">← Back to Grammar Guide</a>
+    <h1>Mad-Lib Generator — Demo</h1>
+    <p class="subtitle">Proof-of-concept for one skill: Vague Pronoun. Not a real exam question — every question is assembled on the spot from name/scenario pieces.</p>
+    <div class="note"><b>How this works:</b> this page combines 6 name pairs × 5 short scenarios = 30 different paragraphs, each with a pronoun planted at a different spot. Get one right, and it hands you a new combination. It's not infinite — but it's enough that you won't see the same exact paragraph twice for a while.</div>
+
+    <div class="scoreboard">
+      <span>Score: <b id="score">0</b> / <b id="attempts">0</b></span>
+      <span id="streak"></span>
+    </div>
+
+    <div class="q-card">
+      <div class="q-source">Vague Pronoun — generated question</div>
+      <div class="q-prompt" id="qPrompt"></div>
+      <div class="q-ask" id="qAsk"></div>
+      <ul class="q-options" id="qOptions"></ul>
+      <div class="q-feedback" id="qFeedback">
+        <div class="verdict" id="qVerdict"></div>
+        <div class="q-why" id="qWhy"></div>
+      </div>
+      <div class="q-actions">
+        <button class="btn btn-primary" id="nextBtn">Generate New Question</button>
+      </div>
+    </div>
+
+    <details class="how">
+      <summary>What would it take to make this real?</summary>
+      This is a template randomizer, not AI — all 30 combinations are fixed in advance in the code, just shuffled and filled in on click. Making it a real "infinite" generator (actually novel sentences every time) would mean calling an AI model live from the page, which this static site can't safely do on its own — that needs a small backend to hold an API key and would cost money per generation. The template approach you're looking at here is the same technique your Equation/Percentage/Ratio trainers already use, just applied to sentences instead of numbers — more templates and name/scenario pools can be added any time to grow the variety.
+    </details>
+  </div>
+
+  <script>
+    const NAME_PAIRS = [
+      { a: 'Marcus', b: 'Devon', gender: 'm' },
+      { a: 'Javier', b: 'Ethan', gender: 'm' },
+      { a: 'Caleb', b: 'Noah', gender: 'm' },
+      { a: 'Priya', b: 'Keisha', gender: 'f' },
+      { a: 'Maya', b: 'Sofia', gender: 'f' },
+      { a: 'Elena', b: 'Aisha', gender: 'f' },
+    ];
+
+    // vagueSlot: which sentence (1-4) carries the ambiguous pronoun
+    // form: 'subject' -> he/she, 'possessive' -> his/her
+    const SCENARIOS = [
+      {
+        kids: 'boys/girls', vagueSlot: 3, form: 'subject',
+        build: (n1, n2, kids, pron, poss) => [
+          `${n1} and ${n2} have played on the same soccer team since elementary school.`,
+          `The ${kids} practice drills together every weekend and often carpool to tournaments.`,
+          `After practice, ${pron} usually stays late to work on free kicks with the coach.`,
+          `Both ${kids} hope to make the varsity team next year.`,
+        ],
+        why: (n1, n2, pron) => `${n1} and ${n2} were both introduced in sentence 1. "${pron}" could mean either one — the reader has no way to know which.`,
+      },
+      {
+        kids: 'kids', vagueSlot: 2, form: 'possessive',
+        build: (n1, n2, kids, pron, poss) => [
+          `${n1} and ${n2} have been playing violin since second grade.`,
+          `${poss} mother studied music theory in college and now teaches private lessons on weekends.`,
+          `The two always rehearse duets together before recitals, taking turns on melody and harmony.`,
+          `Both ${kids} plan to audition for the youth orchestra next spring.`,
+        ],
+        why: (n1, n2, poss) => `${n1} and ${n2} were both introduced in sentence 1. "${poss}" could mean either one's mother — the reader has no way to know which.`,
+      },
+      {
+        kids: 'two', vagueSlot: 3, form: 'possessive',
+        build: (n1, n2, kids, pron, poss) => [
+          `${n1} and ${n2} joined the chess club at the start of the school year.`,
+          `The ${kids} of them meet twice a week to study classic openings and practice timed matches.`,
+          `${poss} favorite strategy involves sacrificing a knight early to control the center of the board.`,
+          `Both players hope to qualify for the regional tournament in the spring.`,
+        ],
+        why: (n1, n2, poss) => `${n1} and ${n2} were both introduced in sentence 1. "${poss}" could mean either one — the reader has no way to know which.`,
+      },
+      {
+        kids: 'kids', vagueSlot: 3, form: 'possessive',
+        build: (n1, n2, kids, pron, poss) => [
+          `${n1} and ${n2} have entered the school baking contest every year since sixth grade.`,
+          `The ${kids} spend weekends testing new recipes and adjusting ingredients until they get it right.`,
+          `${poss} secret ingredient is a pinch of cinnamon added right before the dough goes in the oven.`,
+          `Both are hoping to place in the top three this year.`,
+        ],
+        why: (n1, n2, poss) => `${n1} and ${n2} were both introduced in sentence 1. "${poss}" could mean either one's secret ingredient — the reader has no way to know which.`,
+      },
+      {
+        kids: 'two', vagueSlot: 2, form: 'possessive',
+        build: (n1, n2, kids, pron, poss) => [
+          `${n1} and ${n2} have built robots together since freshman year.`,
+          `${poss} favorite part of the process is programming the robot's sensors to avoid obstacles.`,
+          `The ${kids} of them test each new design in the gym before every competition.`,
+          `Both plan to study engineering in college.`,
+        ],
+        why: (n1, n2, poss) => `${n1} and ${n2} were both introduced in sentence 1. "${poss}" could mean either one — the reader has no way to know which.`,
+      },
+    ];
+
+    let current = null;
+    let score = 0, attempts = 0, streak = 0;
+    let lastKey = null;
+
+    function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+    function makeQuestion() {
+      let pair, scenario, key;
+      do {
+        pair = pick(NAME_PAIRS);
+        scenario = pick(SCENARIOS);
+        key = pair.a + scenario.vagueSlot;
+      } while (key === lastKey && NAME_PAIRS.length * SCENARIOS.length > 1);
+      lastKey = key;
+
+      const pron = pair.gender === 'm' ? 'he' : 'she';
+      const poss = pair.gender === 'm' ? 'His' : 'Her';
+      const kidsWord = pair.gender === 'm' ? 'boys' : 'girls';
+      const sentences = scenario.build(pair.a, pair.b, kidsWord, pron, poss);
+
+      current = {
+        sentences,
+        correctSlot: scenario.vagueSlot,
+        why: scenario.why(pair.a, pair.b, scenario.form === 'possessive' ? poss : pron),
+      };
+      render();
+    }
+
+    function render() {
+      const numbered = current.sentences.map((s, i) => `(${i + 1}) ${s}`).join(' ');
+      document.getElementById('qPrompt').textContent = numbered;
+      document.getElementById('qAsk').textContent = 'Which sentence of the paragraph should be revised to correct a vague pronoun?';
+      const optsEl = document.getElementById('qOptions');
+      optsEl.innerHTML = '';
+      ['A', 'B', 'C', 'D'].forEach((letter, i) => {
+        const li = document.createElement('li');
+        li.className = 'q-opt';
+        li.innerHTML = `<b>${letter}.</b> sentence ${i + 1}`;
+        li.addEventListener('click', () => answer(i + 1, li));
+        optsEl.appendChild(li);
+      });
+      document.getElementById('qFeedback').classList.remove('shown');
+      document.querySelectorAll('.q-opt').forEach(o => o.classList.remove('locked'));
+    }
+
+    function answer(slot, el) {
+      if (document.querySelector('.q-opt.locked')) return; // already answered
+      document.querySelectorAll('.q-opt').forEach(o => o.classList.add('locked'));
+      attempts++;
+      const correct = slot === current.correctSlot;
+      if (correct) { score++; streak++; el.classList.add('correct'); }
+      else {
+        streak = 0;
+        el.classList.add('wrong');
+        document.querySelectorAll('.q-opt')[current.correctSlot - 1].classList.add('correct');
+      }
+      document.getElementById('score').textContent = score;
+      document.getElementById('attempts').textContent = attempts;
+      document.getElementById('streak').textContent = streak >= 3 ? `🔥 ${streak} in a row` : '';
+
+      const fb = document.getElementById('qFeedback');
+      fb.classList.add('shown');
+      document.getElementById('qVerdict').textContent = correct ? 'Correct!' : `Not quite — it's sentence ${current.correctSlot}.`;
+      document.getElementById('qVerdict').className = 'verdict ' + (correct ? 'correct' : 'wrong');
+      document.getElementById('qWhy').textContent = current.why;
+    }
+
+    document.getElementById('nextBtn').addEventListener('click', makeQuestion);
+    makeQuestion();
+  </script>
+</body>
+</html>
