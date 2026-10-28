@@ -291,6 +291,7 @@
 
   <script>
     const DATA_URL = 'exam_dummy/data.json?v=' + Date.now();
+    const STORAGE_KEY = 'shsat_exam_dummy_v1';
     const state = {
       questions: [],   // flattened, global q_number order, each tagged .section
       passages: [],    // the ELA passage objects (if any)
@@ -300,7 +301,28 @@
       startTime: null,
       timerInterval: null,
       finished: false,
+      finishedAtMs: 0,
     };
+
+    // ── Persistence: a page refresh must NOT reset the clock, lose her
+    // answers, or undo the forward-only lock. Saved on every state change,
+    // restored on boot. ──────────────────────────────────────────────
+    function saveState() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          answers: state.answers, cur: state.cur, furthestIndex: state.furthestIndex,
+          startTime: state.startTime, finished: state.finished, finishedAtMs: state.finishedAtMs,
+        }));
+      } catch (e) { /* private-browsing / storage disabled — degrade silently */ }
+    }
+    function loadSavedState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return null;
+        const saved = JSON.parse(raw);
+        return (saved && typeof saved === 'object') ? saved : null;
+      } catch (e) { return null; }
+    }
 
     async function boot() {
       wireControls();
@@ -328,9 +350,38 @@
         console.error('boot fetch failed:', e);
         state.questions = [];
       }
+
+      let restored = false;
+      if (state.questions.length) {
+        const saved = loadSavedState();
+        if (saved) {
+          const maxIdx = state.questions.length - 1;
+          state.answers = saved.answers || {};
+          state.furthestIndex = Math.min(Math.max(parseInt(saved.furthestIndex, 10) || 0, 0), maxIdx);
+          state.cur = Math.min(Math.max(parseInt(saved.cur, 10) || 0, 0), state.furthestIndex);
+          state.startTime = saved.startTime || Date.now();
+          state.finished = !!saved.finished;
+          state.finishedAtMs = saved.finishedAtMs || 0;
+          restored = true;
+        }
+      }
+      if (restored) {
+        location.hash = 'Q' + state.questions[state.cur].q_number;
+      } else {
+        state.furthestIndex = 0;
+        state.startTime = Date.now();
+      }
       routeFromHash();
-      render();
-      startTimer();
+
+      if (state.finished) {
+        document.getElementById('tn-main').style.display = 'none';
+        document.querySelector('.tn-toolbar').style.display = 'none';
+        document.querySelector('.tn-infobar').style.display = 'none';
+        renderResults();
+      } else {
+        render();
+        startTimer();
+      }
     }
 
     function totalQ() { return state.questions.length; }
@@ -562,6 +613,7 @@
       state.finished = true;
       state.finishedAtMs = Date.now() - state.startTime;
       stopTimer();
+      saveState();
       document.getElementById('tn-main').style.display = 'none';
       document.querySelector('.tn-toolbar').style.display = 'none';
       document.querySelector('.tn-infobar').style.display = 'none';
@@ -729,6 +781,7 @@
 
     function render() {
       if (state.finished) return;
+      saveState();
       updateInfobar();
       const q = currentQ();
       const main = document.getElementById('tn-main');
