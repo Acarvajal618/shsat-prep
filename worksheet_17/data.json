@@ -1,0 +1,2291 @@
+{
+  "math_questions": [
+    {
+      "id": "P1028E-M-1_3_001",
+      "type_id": "1_3",
+      "question": "If Maria ran 2.1 miles on Monday, 6 miles on Tuesday, and 4.2 miles on Wednesday, what is the mean number of miles she ran over the course of three days?",
+      "options": {
+        "A": "4.1",
+        "B": "4.2",
+        "C": "12.3",
+        "D": "6"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "1_003",
+      "solution": {
+        "exhibit_text": "Add the three distances and divide by 3.\n\n2.1 + 6 + 4.2 = 12.3\n12.3 / 3 = 4.1"
+      },
+      "question_type": "mc",
+      "q_number": 1
+    },
+    {
+      "id": "P1028E-M-2_1_001",
+      "type_id": "2_1",
+      "question": "If x = 2 and 2x(2y - x) = 16, what is the value of y?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "2_001",
+      "solution": {
+        "exhibit_text": "Plug in 2 for x and simplify carefully.\n\nSubstitute x with 2: 2(2)(2y - 2) = 16\nSimplify: 4(2y - 2) = 16\nDistribute: 8y - 8 = 16\nAdd 8, divide by 8: y = 3"
+      },
+      "question_type": "mc",
+      "q_number": 2
+    },
+    {
+      "id": "P1028E-M-3_1_001",
+      "type_id": "3_1",
+      "question": "What value of x makes the equation above true? \n\n48/8 = 12/x",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "3_001",
+      "solution": {
+        "exhibit_text": "Since this is a proportion, cross multiply and solve for x.\n\nCross multiply: 48 · x = 8 · 12\nSimplify: 48x = 96\nDivide both sides by 48: x = 2"
+      },
+      "question_type": "mc",
+      "q_number": 3
+    },
+    {
+      "id": "P1028E-M-4_1_001",
+      "type_id": "4_1",
+      "question": "Maria speed walks 4 kilometers in 1/2 of an hour. At that rate, how many meters does she speed walk per minute?",
+      "options": {
+        "A": "100",
+        "B": "133.33",
+        "C": "133",
+        "D": "1,333"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "4_001",
+      "solution": {
+        "exhibit_text": "Pay careful attention to the units. You are asked for the rate in meters per minute, so convert kilometers to meters and hours to minutes.\n\nConvert kilometers to meters: 4 km = 4 × 1,000 = 4,000 m\nConvert hours to minutes: (1/2) hr = (1/2) × 60 = 30 minutes\nDivide: 4,000 ÷ 30 = 133.33... ≈ 133 meters per minute"
+      },
+      "question_type": "mc",
+      "q_number": 4
+    },
+    {
+      "id": "P1028E-M-5_1_001",
+      "type_id": "5_1",
+      "question": "Which of the following numbers does not have factors that include the smallest factor (other than 1) of 91?",
+      "options": {
+        "A": "21",
+        "B": "28",
+        "C": "35",
+        "D": "44"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "5_001",
+      "solution": {
+        "exhibit_text": "Begin by listing the factors of 91: 1, 7, 13, and 91. The smallest factor (other than 1) is 7. Of the options (21, 28, 35, 44), only 44 is not divisible by 7.\n\nList the factors of 91: 1, 7, 13, and 91.\nIdentify the smallest factor (other than 1), which is 7.\nCheck the options: 21, 28, 35 are divisible by 7; 44 is not."
+      },
+      "question_type": "mc",
+      "q_number": 5
+    },
+    {
+      "id": "P1028E-M-6_1_001",
+      "type_id": "6_1",
+      "question": "In a pond of 2,000 fish, 30% of the fish are trout. The remaining fish are bass. How many fewer trout are there than bass?",
+      "options": {
+        "A": "200",
+        "B": "400",
+        "C": "600",
+        "D": "800"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "6_001",
+      "solution": {
+        "exhibit_text": "Pay close attention to what is being asked. You are looking for the difference between the number of trout and bass.\n\nCalculate the number of trout: 2,000 × 0.30 = 600 trout\nDetermine the number of bass: 2,000 - 600 = 1,400 bass\nSubtract to find how many fewer trout there are than bass: 1,400 - 600 = 800"
+      },
+      "question_type": "mc",
+      "q_number": 6
+    },
+    {
+      "id": "P1028E-M-7_1_001",
+      "type_id": "7_1",
+      "question": "A quadrilateral ABCD with right angles at D and B. AD = 12 cm, DC = 9 cm, BC = 5 cm, AB = 20 cm.\n\nIf AD = 12 centimeters, DC = 9 centimeters, BC = 5 centimeters, and AB = 20 centimeters, what is the area of quadrilateral ABCD?",
+      "options": {
+        "A": "52 sq cm",
+        "B": "104 sq cm",
+        "C": "156 sq cm",
+        "D": "208 sq cm"
+      },
+      "correct": "B",
+      "source": "generated",
+      "diagram_path": "AREA_1_diagram.jpg",
+      "solution": {
+        "exhibit_text": "The diagonal divides the quadrilateral into two right triangles. To find the area of the quadrilateral, find the area of the two triangles and then add them together.\n\nCalculate the area of the first triangle with legs 12 cm and 9 cm: 1/2(12)(9) = 54 sq cm.\nCalculate the area of the second triangle with legs 5 cm and 20 cm: 1/2(5)(20) = 50 sq cm.\nAdd the areas of the two triangles: 54 + 50 = 104 sq cm."
+      },
+      "question_type": "mc",
+      "q_number": 7
+    },
+    {
+      "id": "P1028E-M-8_1_001",
+      "type_id": "8_1",
+      "question": "Between which two consecutive integers is the fraction 43/8?",
+      "options": {
+        "A": "3 and 4",
+        "B": "4 and 5",
+        "C": "5 and 6",
+        "D": "6 and 7"
+      },
+      "correct": "C",
+      "source": "generated",
+      "solution": {
+        "exhibit_text": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.\n\nConvert the improper fraction 43/8 to a mixed number.\nCalculate 43 ÷ 8 = 5 with a remainder of 3.\nWrite the mixed number as 5 3/8."
+      },
+      "question_type": "mc",
+      "q_number": 8
+    },
+    {
+      "id": "P1028E-M-9_1_001",
+      "type_id": "9_1",
+      "question": "Isabel has 10 boards that are x meters long. She has 5 boards that are 2x meters long. She also has 4 boards that measure 3 meters, 6 meters, 9 meters, and 13 meters, respectively. If she were to lay all her boards in a straight line with no gaps between them, the boards would measure 271 meters. What is the value of x?",
+      "options": {
+        "A": "5 meters",
+        "B": "6 meters",
+        "C": "10 meters",
+        "D": "12 meters"
+      },
+      "correct": "D",
+      "source": "generated",
+      "solution": {
+        "exhibit_text": "First, subtract the lengths of the 4 boards that are given from the total length of all of the boards.\n\nCalculate the total length of the boards: 271 − 13 − 9 − 6 − 3 = 240\nCreate an algebraic equation: 10(x) + 5(2x) = 240\nSimplify the equation: 10x + 10x = 240\nCombine like terms: 20x = 240\nSolve for x: x = 12 meters"
+      },
+      "question_type": "mc",
+      "q_number": 9
+    },
+    {
+      "id": "P1028E-M-11_1_001",
+      "type_id": "11_1",
+      "question": "If x + y = 12 and x = 15, then what is -x/y?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "-5"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "11_001",
+      "solution": {
+        "exhibit_text": "Substitute x into x+y=sum to get y, then compute -x/y.\n\ny = 12 - 15 = -3.\n-x/y = -15/-3 = 5."
+      },
+      "question_type": "mc",
+      "q_number": 10
+    },
+    {
+      "id": "P1028E-M-12_1_001",
+      "type_id": "12_1",
+      "question": "If -3 < x/2 < 4, what is the range of x?",
+      "options": {
+        "A": "-3 < x < 4",
+        "B": "-6 < x < 10",
+        "C": "-3 < x < 4",
+        "D": "-6 < x < 8"
+      },
+      "correct": "D",
+      "source": "generated_v3_fix",
+      "canonical_id": "12_001",
+      "solution": {
+        "exhibit_text": "Multiply each part of the compound inequality by the denominator to clear the fraction and isolate x.\n\nMultiply each part by 2: -3·2 < (x/2)·2 < 4·2\nSimplify: -6 < x < 8"
+      },
+      "question_type": "mc",
+      "q_number": 11
+    },
+    {
+      "id": "P1028E-M-13_1_001",
+      "type_id": "13_1",
+      "question": "There are 250 giggles in one laugh and 3 laughs in a burst. How many giggles are in 2 bursts?",
+      "options": {
+        "A": "1,500",
+        "B": "750",
+        "C": "3,000",
+        "D": "2,000"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "13_001",
+      "solution": {
+        "exhibit_text": "Multiply conversion factors along the chain.\n\n250 × 3 × 2 = 1500."
+      },
+      "question_type": "mc",
+      "q_number": 12
+    },
+    {
+      "id": "P1028E-M-14_1_001",
+      "type_id": "14_1",
+      "question": "If 3x + 8 = 44, what is the value of x?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "11",
+        "D": "14"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "14_001",
+      "solution": {
+        "exhibit_text": "Isolate x.\n\n3x + 8 = 44 → 3x = 36 → x = 12."
+      },
+      "question_type": "mc",
+      "q_number": 13
+    },
+    {
+      "id": "P1028E-M-15_1_001",
+      "type_id": "15_1",
+      "question": "What is the average of all the even numbers in the set {2, 3, 4, ..., 14}?",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "7",
+        "D": "10"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "15_001",
+      "solution": {
+        "exhibit_text": "List even numbers in set; compute average.\n\nEvens: [2, 4, 6, 8, 10, 12, 14]; average = 8."
+      },
+      "question_type": "mc",
+      "q_number": 14
+    },
+    {
+      "id": "P1028E-M-16_1_001",
+      "type_id": "16_1",
+      "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+      "options": {
+        "A": "-1",
+        "B": "-3",
+        "C": "1",
+        "D": "-5"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "16_001",
+      "solution": {
+        "exhibit_text": "Least even integer greater than bound.\n\nEven integers > -3.75: ... -1."
+      },
+      "question_type": "mc",
+      "q_number": 15
+    },
+    {
+      "id": "P1028E-M-17_1_001",
+      "type_id": "17_1",
+      "question": "What is the least common multiple of 8, 32, and 48?",
+      "options": {
+        "A": "64",
+        "B": "96",
+        "C": "128",
+        "D": "144"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "17_001",
+      "solution": {
+        "exhibit_text": "Since 48 and 32 are both multiples of 8, find the least common multiple of 48 and 32 only.\n\nList multiples of 48: 48, 96, 144, 192, ...\nList multiples of 32: 32, 64, 96, ...\nIdentify the least common multiple from the lists: 96."
+      },
+      "question_type": "mc",
+      "q_number": 16
+    },
+    {
+      "id": "P1028E-M-18_1_001",
+      "type_id": "18_1",
+      "question": "David is now 4 years more than twice the age of Henry. If Henry will be 18 in 3 years, how old was David 2 years ago?",
+      "options": {
+        "E": "13",
+        "F": "15",
+        "G": "32",
+        "H": "34"
+      },
+      "correct": "G",
+      "source": "generated",
+      "canonical_id": "18_001",
+      "solution": {
+        "exhibit_text": "The ages are given in three different time frames. Do not confuse them!\n\nLet Henry's age now = x. David's age now = 2x + 4.\nHenry's age in 3 years = x + 3 = 18. Thus, Henry's age now = 15.\nDavid's age now = 2(15) + 4 = 34.\nDavid's age 2 years ago = 34 - 2 = 32."
+      },
+      "question_type": "mc",
+      "q_number": 17
+    },
+    {
+      "id": "P1028E-M-19_1_001",
+      "type_id": "19_1",
+      "question": "Angle A and angle B are supplementary. If the measure of angle B is one-third the measure of angle A, what is the measure of angle B?",
+      "options": {
+        "A": "22.5°",
+        "B": "45°",
+        "C": "67.5°",
+        "D": "135°"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "19_001",
+      "solution": {
+        "exhibit_text": "The sum of the measures of supplementary angles is 180°, so set up an equation using the relationship between angles A and B to solve for B.\n\nLet A + B = 180° and B = (1/3)A. So A + (1/3)A = 180°, (4/3)A = 180°, A = 135°.\nB = 180° - 135° = 45°."
+      },
+      "question_type": "mc",
+      "q_number": 18
+    },
+    {
+      "id": "P1028E-M-20_1_001",
+      "type_id": "20_1",
+      "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 1/3 and Y is located at 11/3?",
+      "options": {
+        "A": "-2",
+        "B": "-4/3",
+        "C": "-1/3",
+        "D": "2"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "20_001",
+      "solution": {
+        "exhibit_text": "Use midpoint relations to determine the positions of points Z, X, and W.\n\nZ is at 1/3, Y is at 11/3. X is halfway between Z and Y: X = (1/3 + 11/3)/2 = 2.\nZ is halfway between W and X: 1/3 = (W + 2)/2, so W = 2/3 - 2 = -4/3."
+      },
+      "question_type": "mc",
+      "q_number": 19
+    },
+    {
+      "id": "P1028E-M-21_1_001",
+      "type_id": "21_1",
+      "question": "The sum of 6 consecutive odd numbers is 36. What is the difference between the highest and the lowest of these numbers?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "7",
+        "D": "10"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "21_001",
+      "solution": {
+        "exhibit_text": "Set the first number as a variable and construct the relationship between consecutive odd numbers.\n\nLet the first odd number be n. The six numbers are n, n+2, n+4, n+6, n+8, n+10. Sum = 6n+30 = 36, so n = 1.\nThe numbers are 1, 3, 5, 7, 9, 11. Difference between highest and lowest = 11 - 1 = 10."
+      },
+      "question_type": "mc",
+      "q_number": 20
+    },
+    {
+      "id": "P1028E-M-22_1_001",
+      "type_id": "22_1",
+      "question": "(11 + 4x) - (2 - x) =",
+      "options": {
+        "A": "9 - 5x",
+        "B": "9 + 3x",
+        "C": "9 + 5x",
+        "D": "13 + 3x"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "22_001",
+      "solution": {
+        "exhibit_text": "Distribute the negative and combine like terms.\n\n(11 + 4x) - (2 - x) = 11 + 4x - 2 + x = 9 + 5x"
+      },
+      "question_type": "mc",
+      "q_number": 21
+    },
+    {
+      "id": "P1028E-M-23_1_001",
+      "type_id": "23_1",
+      "question": "A can contains 40 chips: 10 each of red and blue, 12 white, and the remaining black. If Susan were to remove 3 black and 2 red chips, what is the probability that the next one she removes is black?",
+      "options": {
+        "A": "3/35",
+        "B": "1/8",
+        "C": "1/7",
+        "D": "1/5"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "23_001",
+      "solution": {
+        "exhibit_text": "Find initial black count, then new total and remaining black after removals. Probability = remaining black / new total.\n\nInitial black: 40 - 10 - 10 - 12 = 8. After removing 3 black and 2 red: 5 black left, 35 chips total.\nP(black) = 5/35 = 1/7."
+      },
+      "question_type": "mc",
+      "q_number": 22
+    },
+    {
+      "id": "P1028E-M-24_1_001",
+      "type_id": "24_1",
+      "question": "The population of a particular bacteria doubles in size every 19 hours. If the population is 100 at 2:15 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+      "options": {
+        "A": "2:15 a.m.",
+        "B": "4:15 a.m.",
+        "C": "6:15 a.m.",
+        "D": "4:15 p.m."
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "24_001",
+      "solution": {
+        "exhibit_text": "Break the total time into manageable chunks. Doubled twice = 2 × 19 = 38 hours from start.\n\nStart at 2:15 p.m. Add 24 hours: 2:15 p.m. the next day. Add remaining 14 hours: 4:15 a.m. the following morning (i.e., 2:15 p.m. + 14h = 4:15 a.m. next day). So 2:15 p.m. + 38h = 4:15 a.m. (next day)."
+      },
+      "question_type": "mc",
+      "q_number": 23
+    },
+    {
+      "id": "P1028E-M-25_1_001",
+      "type_id": "25_1",
+      "question": "(2/3 - 1/5) ÷ 1/6 =",
+      "options": {
+        "A": "14/5",
+        "B": "7/15",
+        "C": "1/5",
+        "D": "5/9"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "25_001",
+      "solution": {
+        "exhibit_text": "When adding or subtracting fractions, you must have a common denominator.\n\n(2/3 - 1/5) ÷ 1/6\n=(2 × 5)/(3 × 5) - (1 × 3)/(5 × 3) ÷ 1/6\n=(10/15 - 3/15) ÷ 1/6 = (7/15) ÷ 1/6\nTo divide by a fraction, multiply by its reciprocal.\n7/15 × 6/1 = 42/15 = 14/5"
+      },
+      "question_type": "mc",
+      "q_number": 24
+    },
+    {
+      "id": "P1028E-M-26_1_001",
+      "type_id": "26_1",
+      "question": "A survey asked students what types of exercise they regularly do. Based on the results, the following statements are all true.\n\n• 50 students run.\n• 40 students swim.\n• 15 students both run and swim.\n• 20 students neither run nor swim.\n\nHow many students were surveyed?",
+      "options": {
+        "A": "90",
+        "B": "95",
+        "C": "100",
+        "D": "130"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "26_001",
+      "solution": {
+        "exhibit_text": "Use Venn: total = only run + only swim + both + neither.\n\nOnly run: 50 - 15 = 35. Only swim: 40 - 15 = 25.\nTotal = 35 + 25 + 15 + 20 = 95."
+      },
+      "question_type": "mc",
+      "q_number": 25
+    },
+    {
+      "id": "P1028E-M-27_1_001",
+      "type_id": "27_1",
+      "question": "The side length of square A is shorter than the side length of square B by 5 inches. The perimeter of square A is 100 inches. What is the difference, in square inches, between the area of square A and the area of square B?",
+      "options": {
+        "A": "10",
+        "B": "25",
+        "C": "125",
+        "D": "275"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "27_001",
+      "solution": {
+        "exhibit_text": "To find the area difference between two squares, first determine the side lengths using the perimeter and the relationship between the squares, then calculate their areas and find the difference.\n\nCalculate the side length of square A: 100 ÷ 4 = 25 inches.\nDetermine the side length of square B: 25 + 5 = 30 inches.\nCalculate the area of square B: 30 × 30 = 900 sq in.\nCalculate the area of square A: 25 × 25 = 625 sq in.\nFind the difference between the areas: 900 - 625 = 275 sq in."
+      },
+      "question_type": "mc",
+      "q_number": 26
+    },
+    {
+      "id": "P1028E-M-28_1_001",
+      "type_id": "28_1",
+      "question": "In a scale drawing of a rectangular patio, the length is 14 inches and the width is 10 inches. In the drawing, 4 inches represents 5 yards. What is the length of the actual patio, in yards?",
+      "options": {
+        "A": "15 yards",
+        "B": "17.5 yards",
+        "C": "20 yards",
+        "D": "25 yards"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "28_001",
+      "solution": {
+        "exhibit_text": "Start by simplifying the scale to determine how many yards 1 inch represents based on the given dimensions.\n\nIdentify that 4 inches represent 5 yards.\nCalculate how many yards 1 inch represents: 5 ÷ 4 = 1.25 yards.\nDetermine the length of the patio in the drawing, which is 14 inches.\nCalculate the actual length of the patio: 14 × 1.25 = 17.5 yards."
+      },
+      "question_type": "mc",
+      "q_number": 27
+    },
+    {
+      "id": "P1028E-M-29_1_001",
+      "type_id": "29_1",
+      "question": "Margo bowled a mean of 110 points per game in her first 4 games. In her 5th game, she bowled 160 points. What is her mean score for the first 5 games?",
+      "options": {
+        "A": "120",
+        "B": "132",
+        "C": "135",
+        "D": "142"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "29_001",
+      "solution": {
+        "exhibit_text": "Calculate the total points scored in the first 4 games and then find the mean by adding the points from the 5th game.\n\nCalculate total points for the first 4 games: 110 × 4 = 440 points\nAdd points from the 5th game: 440 + 160 = 600 points\nCalculate the mean over the 5 games: 600 ÷ 5 = 120"
+      },
+      "question_type": "mc",
+      "q_number": 28
+    },
+    {
+      "id": "P1028E-M-30_1_001",
+      "type_id": "30_1",
+      "question": "Nick and Alex worked on a paper together. If Nick wrote 2/7 of the paper and Alex wrote 20 pages, then what was the total length of the paper?",
+      "options": {
+        "A": "7 pages",
+        "B": "21 pages",
+        "C": "28 pages",
+        "D": "35 pages"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "30_001",
+      "solution": {
+        "exhibit_text": "Set up the equation based on the fraction of the paper written by Alex, which is 5/7 of the total pages, and equate it to 20 pages.\n\nIdentify that 5/7 of the paper equals 20 pages.\nSet up the equation: (5/7)P = 20.\nMultiply both sides by 7 to eliminate the fraction: 5P = 140.\nDivide both sides by 5 to solve for P: P = 28."
+      },
+      "question_type": "mc",
+      "q_number": 29
+    },
+    {
+      "id": "P1028E-M-31_1_001",
+      "type_id": "31_1",
+      "question": "Burt has b action figures, and Cho has c action figures. If Burt gives 4 action figures to Cho, Burt will have twice as many action figures as Cho. Which equation shows the relationship between b and c?",
+      "options": {
+        "A": "b - 4 = 2(c + 4)",
+        "B": "b - 4 = 2c + 4",
+        "C": "2(b - 4) = c",
+        "D": "2(b - 4) = c + 4"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "31_001",
+      "solution": {
+        "exhibit_text": "When you are given a lot of general information about variables, start by writing down what you know. Divide the information into before and after Burt gives 4 of his action figures to Cho.\n\nBefore: Burt = b and Cho = c\nAfter: Burt = b - 4 and Cho = c + 4\nAfter: Burt = twice Cho, so b - 4 = 2(c + 4)"
+      },
+      "question_type": "mc",
+      "q_number": 30
+    },
+    {
+      "id": "P1028E-M-32_1_001",
+      "type_id": "32_1",
+      "question": "What is the value of 4 - 6 ÷ |1 - 2|?",
+      "options": {
+        "A": "-2",
+        "B": "0",
+        "C": "2",
+        "D": "4"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "32_001",
+      "solution": {
+        "exhibit_text": "Follow the order of operations: PEMDAS. Evaluate absolute value first, then division, then subtraction.\n\n|1 - 2| = |-1| = 1\n6 ÷ 1 = 6\n4 - 6 = -2"
+      },
+      "question_type": "mc",
+      "q_number": 31
+    },
+    {
+      "id": "P1028E-M-33_1_001",
+      "type_id": "33_1",
+      "question": "Carin opened a money market account with a deposit of $3,000. This account earns 2% simple interest annually. How many years will it take for her $3,000 deposit to earn $420 in interest, assuming she does not withdraw any of the money?",
+      "options": {
+        "A": "7 years",
+        "B": "8 years",
+        "C": "9 years",
+        "D": "10 years"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "33_001",
+      "solution": {
+        "exhibit_text": "Use the simple interest formula I = Prt to solve for t, where I is the interest earned, P is the principal, r is the interest rate as a decimal, and t is the time in years.\n\nIdentify the values: I = $420, P = $3,000, r = 2% = 0.02.\nSubstitute the values into the formula: 420 = 3000 × 0.02 × t.\nCalculate: 420 = 60t.\nSolve for t: t = 420 / 60 = 7."
+      },
+      "question_type": "mc",
+      "q_number": 32
+    },
+    {
+      "id": "P1028E-M-34_2_002",
+      "type_id": "34_2",
+      "question": "In 2019, total graduates were 500. Workforce 10%, Vocational 25%. How many chose either workforce or vocational?",
+      "options": {
+        "A": "175",
+        "B": "62",
+        "C": "107",
+        "D": "190"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "34_002",
+      "solution": {
+        "exhibit_text": "Add the two percentages and multiply by total.\n\n(10+25)% of 500 = 175."
+      },
+      "question_type": "mc",
+      "q_number": 33
+    },
+    {
+      "id": "P1028E-M-35_1_001",
+      "type_id": "35_1",
+      "question": "If a + b < 6, and a - b > 5, which of the following pairs could be the values of a and b?",
+      "options": {
+        "A": "(5, -1)",
+        "B": "(4, 2)",
+        "C": "(3, 1)",
+        "D": "(2, 4)"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "35_001",
+      "solution": {
+        "exhibit_text": "Check each pair: both a + b < 6 and a - b > 5 must hold.\n\nA: 5 + (-1) = 4 < 6 ✓; 5 - (-1) = 6 > 5 ✓\nB: 4 + 2 = 6 is not < 6; C, D fail similarly\nOnly (5, -1) satisfies both inequalities"
+      },
+      "question_type": "mc",
+      "q_number": 34
+    },
+    {
+      "id": "P1028E-M-36_1_001",
+      "type_id": "36_1",
+      "question": "How many negative odd numbers satisfy the inequality 3x + 60 ≥ 15?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "36_001",
+      "solution": {
+        "exhibit_text": "Solve the inequality for x, then count negative odd integers that satisfy it.\n\n3x + 60 ≥ 15 → 3x ≥ -45 → x ≥ -15\nNegative odd numbers ≥ -15: -15, -13, -11, -9, -7, -5, -3, -1\nCount = 8"
+      },
+      "question_type": "mc",
+      "q_number": 35
+    },
+    {
+      "id": "P1028E-M-37_1_001",
+      "type_id": "37_1",
+      "question": "What is the surface area, in square centimeters, of a cube with volume 8 cubic centimeters?",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "24",
+        "D": "32"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "37_001",
+      "solution": {
+        "exhibit_text": "Find the side length from volume (s³ = V), then compute surface area 6s².\n\nVolume = 8 cm³ → side s = 2 cm\nSurface area = 6 × 2² = 6 × 4 = 24 cm²"
+      },
+      "question_type": "mc",
+      "q_number": 36
+    },
+    {
+      "id": "P1028E-M-38_1_001",
+      "type_id": "38_1",
+      "question": "Ben can choose 2 of his 4 best friends to go with him to the movies. His best friends are Carla, David, Emma, and Frank. How many different pairs of 2 friends can he choose from the 4?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "38_001",
+      "solution": {
+        "exhibit_text": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.\n\nChoose 2 from 4: C(4,2) = 4×3/2 = 6"
+      },
+      "question_type": "mc",
+      "q_number": 37
+    },
+    {
+      "id": "P1028E-M-39_1_001",
+      "type_id": "39_1",
+      "question": "Which improper fraction has the same value as the expression above? (1.45 repeating + 1.09 repeating)",
+      "options": {
+        "A": "14/11",
+        "B": "25/11",
+        "C": "28/11",
+        "D": "31/11"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "39_001",
+      "solution": {
+        "exhibit_text": "Convert each repeating decimal to a fraction (digit sequence minus non-repeating over 9s), add, and simplify.\n\n1.45 repeating = (145-1)/99 = 144/99 = 16/11; 1.09 repeating = 108/99 = 12/11\nSum = 16/11 + 12/11 = 28/11"
+      },
+      "question_type": "mc",
+      "q_number": 38
+    },
+    {
+      "id": "P1028E-M-40_1_001",
+      "type_id": "40_1",
+      "question": "Andre buys two cedar trees to plant in his back yard. One tree is 4 feet, 9 inches tall and the other is 5 feet, 6.5 inches tall. What is the difference in height, in inches, between the two trees?",
+      "options": {
+        "A": "8.5",
+        "B": "9.5",
+        "C": "10.5",
+        "D": "11.5"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "40_001",
+      "solution": {
+        "exhibit_text": "Convert both heights to inches (1 ft = 12 in), then subtract.\n\nFirst: 4×12 + 9 = 57 in; second: 5×12 + 6.5 = 66.5 in\nDifference = 66.5 - 57 = 9.5 in"
+      },
+      "question_type": "mc",
+      "q_number": 39
+    },
+    {
+      "id": "P1028E-M-41_1_001",
+      "type_id": "41_1",
+      "question": "A camp counselor has 54 paintbrushes, 72 tubes of paint, and 90 sheets of paper to distribute to the children in the camp. If each child receives an equal number of each item and there are no items remaining, what is the greatest possible number of children in the camp?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "18",
+        "D": "36"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "41_001",
+      "solution": {
+        "exhibit_text": "The greatest number of children is the GCF of the three quantities.\n\nGCF(54, 72, 90): 54 = 2×3³, 72 = 2³×3², 90 = 2×3²×5\nGCF = 2×3² = 18"
+      },
+      "question_type": "mc",
+      "q_number": 40
+    },
+    {
+      "id": "P1028E-M-1_4_001",
+      "type_id": "1_4",
+      "question": "William is enrolled in a book-of-the-month club. This club sends members leather-bound editions of classic books the same day each month. As a reward for loyalty, William receives a free book at the end of each year. If William pays $468 per year for the club, what is the average price he pays for each book?",
+      "options": {
+        "A": "36",
+        "B": "39",
+        "C": "39.5",
+        "D": "468"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "1_004",
+      "solution": {
+        "exhibit_text": "Total paid divided by total books (12 paid + 1 free = 13 books).\n\n468 / 13 = 36"
+      },
+      "question_type": "mc",
+      "q_number": 41
+    },
+    {
+      "id": "P1028E-M-1_5_001",
+      "type_id": "1_5",
+      "question": "The mean of a set of 10 numbers is 16. Two of the numbers (7 and 13) are removed. What is the mean of the 8 remaining numbers?",
+      "options": {
+        "A": "6",
+        "B": "13.5",
+        "C": "17.5",
+        "D": "18"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "1_005",
+      "solution": {
+        "exhibit_text": "Find total of 10 numbers, subtract the two removed, divide by 8.\n\n10 × 16 = 160\n160 − 7 − 13 = 140\n140 / 8 = 17.5"
+      },
+      "question_type": "mc",
+      "q_number": 42
+    },
+    {
+      "id": "P1028E-M-1_7_001",
+      "type_id": "1_7",
+      "question": "Jung's average (arithmetic mean) on 2 biology quizzes is 70. What must Jung's score on the next quiz be in order to have an average of 80 for the three quizzes?",
+      "options": {
+        "A": "80",
+        "B": "85",
+        "C": "90",
+        "D": "100"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "1_007",
+      "solution": {
+        "exhibit_text": "Sum for 2 quizzes = 140; need sum for 3 = 240; third = 240 − 140 = 100.\n\n2 × 70 = 140\n3 × 80 = 240\n240 − 140 = 100"
+      },
+      "question_type": "mc",
+      "q_number": 43
+    },
+    {
+      "id": "P1028E-M-1_8_001",
+      "type_id": "1_8",
+      "question": "On Friday, Marvin sold 4 suits that had a mean sale price of $125. On Saturday, he sold 6 suits that had a mean sale price of $140. What was the mean sale price, to the nearest dollar, for all 10 of the suits he sold on Friday and Saturday?",
+      "options": {
+        "A": "$130",
+        "B": "$132",
+        "C": "$133",
+        "D": "$134"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "1_008",
+      "solution": {
+        "exhibit_text": "Total Friday = 4 × 125 = 500; total Saturday = 6 × 140 = 840; combined mean = 1340 / 10 = 134.\n\n4 × 125 = 500\n6 × 140 = 840\n500 + 840 = 1340\n1340 / 10 = 134"
+      },
+      "question_type": "mc",
+      "q_number": 44
+    },
+    {
+      "id": "P1028E-M-1_9_001",
+      "type_id": "1_9",
+      "question": "The average (arithmetic mean) of 16 numbers is 3. The average of these 16 numbers and a seventeenth number is 4. What is the seventeenth number?",
+      "options": {
+        "A": "12",
+        "B": "17",
+        "C": "18",
+        "D": "20"
+      },
+      "correct": "D",
+      "source": "generated",
+      "canonical_id": "1_009",
+      "solution": {
+        "exhibit_text": "Sum of 16 = 48; sum of 17 = 68; 17th = 68 − 48 = 20.\n\n16 × 3 = 48\n17 × 4 = 68\n68 − 48 = 20"
+      },
+      "question_type": "mc",
+      "q_number": 45
+    },
+    {
+      "id": "P1028E-M-2_2_001",
+      "type_id": "2_2",
+      "question": "What is the value of the expression 2(a – 5)² + 3a ÷ 4 if a = 8?",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "30",
+        "D": "36"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "2_002",
+      "solution": {
+        "exhibit_text": "Substitute a = 8 and evaluate.\n\n(a − 5)² = 9, 2(9) + 3(8)÷4 = 18 + 6 = 24"
+      },
+      "question_type": "mc",
+      "q_number": 46
+    },
+    {
+      "id": "P1028E-M-2_3_001",
+      "type_id": "2_3",
+      "question": "If 2x + 3y = 194 and x = 28, what is the value of y?",
+      "options": {
+        "A": "38",
+        "B": "42",
+        "C": "46",
+        "D": "52"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "2_003",
+      "solution": {
+        "exhibit_text": "Substitute x = 28 and solve for y.\n\n2(28) + 3y = 194 → 56 + 3y = 194\n3y = 138 → y = 46"
+      },
+      "question_type": "mc",
+      "q_number": 47
+    },
+    {
+      "id": "P1028E-M-2_4_001",
+      "type_id": "2_4",
+      "question": "If k = 15, what is (4k + 30) - (2k + 15)?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "45",
+        "D": "60"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "2_004",
+      "solution": {
+        "exhibit_text": "Substitute k = 15 and simplify, or simplify to 2k + 15 first.\n\n(4k + 30) − (2k + 15) = 2k + 15\n2(15) + 15 = 45"
+      },
+      "question_type": "mc",
+      "q_number": 48
+    },
+    {
+      "id": "P1028E-M-2_5_001",
+      "type_id": "2_5",
+      "question": "What is the value of (4g - 150) / h if h = 100 and g = 300?",
+      "options": {
+        "A": "1.5",
+        "B": "10.5",
+        "C": "105",
+        "D": "1,000"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "2_005",
+      "solution": {
+        "exhibit_text": "Substitute g and h and compute.\n\n4g − 150 = 1200 − 150 = 1050\n1050 / 100 = 10.5"
+      },
+      "question_type": "mc",
+      "q_number": 49
+    },
+    {
+      "id": "P1028E-M-2_6_001",
+      "type_id": "2_6",
+      "question": "If x = 2, y = 3, and z = 4, then what is (4y / 2x)(9z / 3x)?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "36"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "2_006",
+      "solution": {
+        "exhibit_text": "Substitute and simplify each factor.\n\n4y/(2x) = 12/4 = 3, 9z/(3x) = 36/6 = 6\n3 × 6 = 18"
+      },
+      "question_type": "mc",
+      "q_number": 50
+    }
+  ],
+  "ela_passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "Snowy Mountains",
+      "author": "John Gould Fletcher",
+      "citation": "“Snowy Mountains” by John Gould Fletcher—Public Domain",
+      "lines": [
+        {
+          "num": null,
+          "text": "Higher and still more high,"
+        },
+        {
+          "num": null,
+          "text": "Palaces made for cloud,"
+        },
+        {
+          "num": null,
+          "text": "Above the dingy city-roofs"
+        },
+        {
+          "num": null,
+          "text": "Blue-white like angels with broad wings,"
+        },
+        {
+          "num": 5,
+          "text": "Pillars of the sky at rest"
+        },
+        {
+          "num": null,
+          "text": "The mountains from the great plateau"
+        },
+        {
+          "num": null,
+          "text": "Uprise."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "But the world heeds them not;"
+        },
+        {
+          "num": null,
+          "text": "They have been here now for too long a time."
+        },
+        {
+          "num": 10,
+          "text": "The world makes war on them,"
+        },
+        {
+          "num": null,
+          "text": "Tunnels their granite cliffs,"
+        },
+        {
+          "num": null,
+          "text": "Splits down their shining sides,"
+        },
+        {
+          "num": null,
+          "text": "Plasters their cliffs with soap-advertisements,"
+        },
+        {
+          "num": null,
+          "text": "Destroys the lonely fragments of their peace."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 15,
+          "text": "Vaster and still more vast,"
+        },
+        {
+          "num": null,
+          "text": "Peak after peak, pile after pile,"
+        },
+        {
+          "num": null,
+          "text": "Wilderness still untamed,"
+        },
+        {
+          "num": null,
+          "text": "To which the future is as was the past,"
+        },
+        {
+          "num": null,
+          "text": "Barrier spread by Gods,"
+        },
+        {
+          "num": 20,
+          "text": "Sunning their shining foreheads,"
+        },
+        {
+          "num": null,
+          "text": "Barrier broken down by those who do not need"
+        },
+        {
+          "num": null,
+          "text": "The joy of time-resisting storm-worn stone,"
+        },
+        {
+          "num": null,
+          "text": "The mountains swing along"
+        },
+        {
+          "num": null,
+          "text": "The south horizon of the sky;"
+        },
+        {
+          "num": 25,
+          "text": "Welcoming with wide floors of blue-green ice"
+        },
+        {
+          "num": null,
+          "text": "The mists that dance and drive before the sun."
+        }
+      ],
+      "questions": [
+        {
+          "id": "AR01",
+          "q_number": 51,
+          "question_type": "mc",
+          "question": "The description in the first stanza (lines 1–7) helps establish a central idea of the poem by",
+          "options": {
+            "A": "comparing the length of time the mountains have existed with the length of time the city has existed.",
+            "B": "contrasting the grandeur of the mountains with the structures in the city below them.",
+            "C": "implying that the mountains are a source of inspiration to the people in the city below.",
+            "D": "suggesting that the mountains are larger than the people in the city realize."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_A/AR01.png",
+          "solution": {
+            "exhibit_text": "The question asks how the description in the first stanza (lines 1–7) helps establish a central idea of the poem.\n\nA. Incorrect. Details comparing the length of time the mountains have existed with the length of time the city has existed are referenced later in the poem.\n\nB. CORRECT. The poem is mostly about the grandeur of the mountains in spite of the spread of civilization. The first stanza contrasts these two elements.\n\nC. Incorrect. The poem actually communicates the message that people do not recognize the greatness of the mountains. This message is conveyed in the second stanza rather than in the first stanza.\n\nD. Incorrect. Although the first stanza mentions the size of the mountains, it does not imply that people cannot see how large the mountains are."
+          }
+        },
+        {
+          "id": "AR02",
+          "q_number": 52,
+          "question_type": "mc",
+          "question": "Which detail from the poem reflects the speaker’s view that people often fail to appreciate what is familiar?",
+          "options": {
+            "A": "“The mountains from the great plateau” (line 6)",
+            "B": "“They have been here now for too long a time.” (line 9)",
+            "C": "“Splits down their shining sides,” (line 12)",
+            "D": "“To which the future is as was the past,” (line 18)"
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_A/AR02.png",
+          "solution": {
+            "exhibit_text": "The question asks for the detail from the poem that reflects the speaker's view that people often fail to appreciate that which is familiar.\n\nA. Incorrect. Line 6 describes the mountains' location, rather than their long existence or their familiarity.\n\nB. CORRECT. Line 9 most directly supports this idea by implying that the mountains have been there for so long that people are accustomed to seeing them and no longer appreciate their beauty and value.\n\nC. Incorrect. In line 12, the mention of harm that has been done to the mountains does not connect to a sense of familiarity.\n\nD. Incorrect. Although line 18 alludes to the long existence of the mountains, it does not connect this long existence with a sense of familiarity or the failure of people to appreciate the mountains' worth."
+          }
+        },
+        {
+          "id": "AR03",
+          "q_number": 53,
+          "question_type": "mc",
+          "question": "How does isolating the word “Uprise” in line 7 affect the meaning of the poem?",
+          "options": {
+            "A": "It creates a contrast between the great plateau and the city buildings.",
+            "B": "It reveals the similarity between the tall buildings in the city and the tall mountains on the horizon.",
+            "C": "It creates a vision of the region before people developed the land.",
+            "D": "It emphasizes that the mountains dominate the landscape."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_A/AR03.png",
+          "solution": {
+            "exhibit_text": "The question asks how the isolation of the word “Uprise” in line 7 affects the meaning of the poem.\n\nA. Incorrect. The word “Uprise” describes the mountains and, therefore, does not create a contrast between the plateau and the city buildings; rather, it creates a contrast between the mountains and the plateau.\n\nB. Incorrect. The word “Uprise” contrasts the mountains with the plateau; it does not compare the mountains to the buildings in the city.\n\nC. Incorrect. The word “Uprise” does not create a vision of the region before people developed the land because the first stanza, which line 7 concludes, reveals that the land has already been developed. Line 3 establishes that the mountains rise “above the dingy city-roofs.”\n\nD. CORRECT. The isolation of the word “Uprise” powerfully emphasizes the first stanza's description of the magnificent mountains standing tall above the land below."
+          }
+        },
+        {
+          "id": "AR04",
+          "q_number": 54,
+          "question_type": "mc_multi",
+          "question": "In which **two** ways does the poet develop the speaker's point of view in the second stanza (lines 8–14)?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "by describing the mountains' awe-inspiring size and strength",
+            "B": "by comparing the various methods humans use to control nature",
+            "C": "by criticizing the careless actions of humans that harm the natural environment",
+            "D": "by demonstrating how the mountains and the people are able to benefit from each other",
+            "E": "by depicting the unfortunate plight of the mountains with vivid details"
+          },
+          "correct": [
+            "C",
+            "E"
+          ],
+          "source_screenshot": "Problems/ELA_A/AR04.png",
+          "solution": {
+            "exhibit_text": "The question asks for the two ways in which the poet develops the speaker's point of view in the second stanza (lines 8–14).\n\nA. Incorrect. The speaker's descriptions of the mountains' awe-inspiring size and strength mainly occur in the first and third stanzas, while in the second stanza, the speaker focuses on humanity and its negative effect on the mountains.\n\nB. Incorrect. The wording of the second stanza—“makes war” (line 10), “Splits down their shining sides” (line 12), and “Destroys the lonely fragments” (line 14)—communicates the speaker's position that people's main impact on the mountains is destructive, but the stanza does not compare the various methods people use to control nature.\n\nC. CORRECT. In the second stanza, the speaker criticizes the careless and destructive actions of people that harm the mountains. The speaker cites the harm done to the mountains when people “[tunnel] their granite cliffs” (line 11) and “[split] down their shining sides” (line 12), thus “[destroying] the lonely fragments of their peace” (line 14).\n\nD. Incorrect. In the second stanza, the speaker does not describe a mutually beneficial relationship between the mountains and the people. Although people clearly derive benefits from the mountains by plastering “their cliffs with soap-advertisements” (line 13), the stanza does not demonstrate that the mountains receive any benefit from the harmful actions of the people.\n\nE. CORRECT. In the second stanza, the speaker depicts the unfortunate plight of the mountains with vivid details. Lines 11–14 feature expressive wording that sharply illustrates the mountains' misfortune: “Tunnels their granite cliffs, / Splits down their shining sides, / Plasters their cliffs with soap-advertisements.”"
+          }
+        },
+        {
+          "id": "AR05",
+          "q_number": 55,
+          "question_type": "mc",
+          "question": "Read lines 21–22 from the poem.\n\n**Barrier broken down by those who do not need**\n**The joy of time-resisting storm-worn stone,**\n\nHow do the lines help convey the speaker's point of view?",
+          "options": {
+            "A": "They suggest that the speaker wants to remove the obstacles that prevent others from experiencing the wonders of nature.",
+            "B": "They reveal the speaker's opinion that some people are too busy to appreciate natural beauty.",
+            "C": "They reflect the speaker's dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
+            "D": "They explain that the speaker is confident that nature will never be fully destroyed by people."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_A/AR05.png",
+          "solution": {
+            "exhibit_text": "The question asks how lines 21–22 help convey the speaker's point of view.\n\nA. Incorrect. The word “barrier” (line 21) refers to the speaker's opinion that the mountains were “spread by Gods” (line 19) and not to an obstacle that the speaker thinks should be removed.\n\nB. Incorrect. While the lines indicate that people have lost the need to connect with nature, they do not reveal that the speaker thinks that the cause of this loss is busyness.\n\nC. CORRECT. The words “those who do not need / The joy” in lines 21–22 reflect the speaker's sadness that people do not realize that they are destroying something wonderful and irreplaceable.\n\nD. Incorrect. Although the speaker does say that the stone is “time-resisting” (line 22), this belief is only a small detail of the speaker's point of view."
+          }
+        },
+        {
+          "id": "AR06",
+          "q_number": 56,
+          "question_type": "mc",
+          "question": "Read lines 23–26 from the poem.\n\n**The mountains swing along**\n**The south horizon of the sky;**\n**Welcoming with wide floors of blue-green ice**\n**The mists that dance and drive before the sun.**\n\nThe personification in these concluding lines of the poem suggests that the mountains are",
+          "options": {
+            "A": "gracious hosts who are untroubled by the actions of people.",
+            "B": "unaware of their coming destruction.",
+            "C": "lively entertainers who are amused by the everyday concerns of people.",
+            "D": "too proud to reveal their pain."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_A/AR06.png",
+          "solution": {
+            "exhibit_text": "The question asks what the personification in the concluding lines of the poem suggests about the mountains.\n\nA. CORRECT. Line 25's use of the word “Welcoming” suggests that the mountains are kind hosts. Lines 23 and 26, with language such as “The mountains swing along” and “The mists that dance and drive before the sun,” imply the carefree nature of the mountains as they resist the destructive work of humanity.\n\nB. Incorrect. The personification in the lines conveys a sense of optimism and endurance, with no language to suggest coming destruction.\n\nC. Incorrect. Although the lines mention that “the mountains swing along” (line 23) and “the mists . . . dance” (line 26), the personification is used to describe the mountains' perseverance, rather than to suggest that the mountains are amused by the concerns of others.\n\nD. Incorrect. Although the second stanza develops the idea that the mountains have been mistreated by humans, which might be a source of pain, the concluding lines emphasize the joy and perseverance of the mountains as they “swing along” (line 23) despite significant adversity."
+          }
+        },
+        {
+          "id": "AR07",
+          "q_number": 57,
+          "question_type": "mc_multi",
+          "question": "Which **two** quotations from the poem support the theme that human creations detract from natural wonder?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4)",
+            "B": "“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7)",
+            "C": "“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12)",
+            "D": "“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18)",
+            "E": "“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25)"
+          },
+          "correct": [
+            "A",
+            "C"
+          ],
+          "solution": {
+            "exhibit_text": "The question identifies two themes and asks which quotations from the poem support each theme.\n\n“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4) — Human Creations Detract from Natural Wonder. The lines describe the city-roofs as “dingy,” suggesting that they mar the lovely background of the blue-white mountains, which are compared to angels. The description primarily serves to contrast the city's unsightly appearance with the beauty of the mountains.\n\n“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7) — Nature's Unspoiled Beauty is Splendid. By describing the mountains as “pillars of the sky” that “uprise” dramatically from a large plateau, the lines convey a sense of the mountains' dramatic and impressive size, a powerful image of an unspoiled, natural landscape.\n\n“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12) — Human Creations Detract from Natural Wonder. The words “tunnels” and “splits” emphasize that human intervention in nature is destructive, breaking apart the “shining sides” of the mountain, diminishing its beauty and serenity.\n\n“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18) — Nature's Unspoiled Beauty is Splendid. The phrase indicates that the natural mountainous landscape is both splendid and unspoiled (“wilderness still untamed”), and that this unspoiled state is timeless or eternal.\n\n“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25) — Nature's Unspoiled Beauty is Splendid. The reference to the “wide floors of blue-green ice” emphasizes that the landscape is beautiful, majestically “welcoming” one's eye and inviting appreciation of its unspoiled beauty."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Best Laid Plans of Ravens",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "In Edgar Allan Poe’s poem “The Raven,” a raven visits a lonely man’s home and responds to the man’s pleading questions with only the word “nevermore.” The poem’s narrator interprets the word as a prediction of doom for his future. A talking, prophetic raven may seem to be the wild imaginings of the poet, but a new study published in the journal Science hints that one particular idea behind the poem might not be as far-fetched as it seems. For most of human history, people assumed that animals do not understand the passage of time in the same way people do. Some people believed that animals might remember events from the past and that instinct might drive them to make preparations in order to guarantee survival, but most people did not think that animals had the ability to plan. At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future."
+        },
+        {
+          "num": 2,
+          "text": "It can be difficult to test an animal’s ability to plan because human observers must be certain they are not mistaking instinctual behavior for intentional planning. For example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual. Cognitive scientists argue that in order for an animal’s behavior to qualify as preparing for the future, the animal must use specific decision-making skills to solve a problem."
+        },
+        {
+          "num": 3,
+          "text": "To avoid mistaking instinctual behavior for evidence of decision-making, the Lund University researchers designed two experiments to test ravens’ ability to plan. Ravens belong to the corvid family, a group of birds known for their intelligence. A study in 2007 showed that corvids have the tendency to save only certain types of food, which suggests that they are planning for the future rather than acting on instinct. In order to investigate that theory, the researchers had to design experiments that would achieve results that could not be explained by an instinctual behavior of food hoarding. Therefore, the ravens were taught two behaviors that they do not normally perform in the wild."
+        },
+        {
+          "num": 4,
+          "text": "For the first experiment, the researchers showed the birds how to use a small stone to open a box and get treats. Once the ravens learned the behavior, the researchers presented the birds with four stones. Only one stone was the right size to open the box. The birds learned to select that stone and set it aside until the researchers presented the box. The second experiment involved bartering. A researcher would trade the ravens a large treat for a bottle cap. Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap. The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats. In both experiments, the ravens waited patiently for up to seventeen hours for the researcher to return."
+        },
+        {
+          "num": 5,
+          "text": "The results of these experiments are exciting, but more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future. Some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead. Regardless, like other recent advances in animal science, these experiments show that ravens could be much smarter than first believed, and scientists now believe that ravens do actually think about their own future."
+        }
+      ],
+      "questions": [
+        {
+          "id": "AR08",
+          "q_number": 58,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 1.\n\n**At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future.**\n\nWhich sentence from paragraph 4 provides support for this argument?",
+          "options": {
+            "A": "“Once the ravens learned the behavior, the researchers presented the birds with four stones.”",
+            "B": "“A researcher would trade the ravens a large treat for a bottle cap.”",
+            "C": "“Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap.”",
+            "D": "“The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats.”"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks which sentence from paragraph 4 supports the argument presented in the sentence from paragraph 1.\n\nA. Incorrect. This sentence from paragraph 4 refers to the ravens’ ability to adapt and learn but not to plan and think ahead.\n\nB. Incorrect. This sentence from paragraph 4 relates the actions of the researcher rather than the actions of the ravens and does not provide evidence in support of the argument that ravens have the ability to think and plan ahead.\n\nC. Incorrect. This sentence from paragraph 4 does not describe a behavior of the ravens that would support the argument in the sentence from paragraph 1; instead it relates the actions of the researchers without giving any information about the ravens’ responses.\n\nD. CORRECT. This sentence from paragraph 4 shows that the ravens seem to make a decision, which involves a thought process. The ravens chose to wait for the researcher rather than take the treats, suggesting that the ravens understood that the researcher would trade a larger treat for the bottle cap."
+          }
+        },
+        {
+          "id": "AR09",
+          "q_number": 59,
+          "question_type": "mc",
+          "question": "Read these sentences from paragraph 2.\n\n**For example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual.**\n\nWhich statement describes the effect of the phrase “merely instinctual” in the passage?",
+          "options": {
+            "A": "It implies that animals are skilled at finding and saving food for later consumption.",
+            "B": "It conveys that many animals will usually prioritize gathering food over other activities.",
+            "C": "It suggests that animals often store more food than they will be able to consume.",
+            "D": "It emphasizes that many animals collect food automatically rather than with true intention."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks which statement describes the effect in the passage of the phrase “merely instinctual” from paragraph 2.\n\nA. Incorrect. The passage does not question animals’ ability to find and save food but rather whether this or other behavior involves thought and planning for the future.\n\nB. Incorrect. While the sentence states that “many animals hoard food,” the passage does not suggest that they give priority of thought to this activity; they hoard food out of instinct.\n\nC. Incorrect. Although the passage discusses animals’ tendency to store a great deal of food, it does not suggest that their hoarding goes beyond their needs.\n\nD. CORRECT. The passage suggests that in order for an animal’s actions to qualify as planning for the future, “the animal must use specific decision-making skills to solve a problem” (paragraph 2). The behavior of hoarding food is based on instinct and done automatically without real thought."
+          }
+        },
+        {
+          "id": "AR10",
+          "q_number": 60,
+          "question_type": "mc",
+          "question": "In the first experiment described in paragraph 4, which of the ravens’ behaviors provides the strongest evidence for the claim that the birds are capable of planning?",
+          "options": {
+            "A": "They accepted treats from the box.",
+            "B": "They set aside the stone that would open the box.",
+            "C": "They learned which stone could open the box.",
+            "D": "They waited for researchers to bring the box."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks which of the ravens’ behaviors in the first experiment described in paragraph 4 most strongly supports the claim that the birds are capable of planning.\n\nA. Incorrect. While “the researchers showed the birds how to use a small stone to open a box and get treats” (paragraph 4), the acceptance of the treats does not demonstrate planning.\n\nB. CORRECT. Once the ravens learned which stone would open the box, they consistently selected only that stone.\n\nC. Incorrect. Although the birds learned which stone opened the box, this behavior demonstrates not their ability to plan but rather their intelligence.\n\nD. Incorrect. The birds’ patience shows their anticipation for and understanding of the future gain of a treat but does not provide the strongest evidence of their ability to plan."
+          }
+        },
+        {
+          "id": "AR11",
+          "q_number": 61,
+          "question_type": "mc",
+          "question": "How does paragraph 5 fit into the overall structure of the passage and contribute to the development of ideas?",
+          "options": {
+            "A": "It introduces a problem with the results of the study at Lund University, suggesting that some scientists believe that further research will not lead to a clear answer.",
+            "B": "It summarizes the final steps of the study at Lund University, emphasizing the difficulties researchers had in differentiating between true planning and practiced actions.",
+            "C": "It provides a conclusion to the information about the Lund University study, indicating that some scientists think further research is needed in order to prove the idea.",
+            "D": "It lists the effects of the study at Lund University, implying that researchers should have designed experiments that better differentiated between planning and instinct."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks how paragraph 5 fits into the overall structure of the passage and contributes to the development of ideas.\n\nA. Incorrect. While paragraph 5 states that “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future,” this statement suggests that more research is needed, not that the results of the Lund University study are problematic.\n\nB. Incorrect. Paragraph 5 does not discuss steps of the study or emphasize difficulties in determining whether the behaviors shown in the study were planned or practiced; instead it simply suggests that more study is required to make such a determination.\n\nC. CORRECT. Paragraph 5 notes that some doubt remains (“Some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead”) and that more experimentation is needed; the author concludes that there is reason to believe the originally stated theory that ravens are quite smart and can give thought to how future events may affect them.\n\nD. Incorrect. Paragraph 5 does not list the effects of the study or criticize the experiment for not differentiating between planning and instinct. The paragraph explains why the results of the experiments are not conclusive and emphasizes that more research is needed."
+          }
+        },
+        {
+          "id": "AR12",
+          "q_number": 62,
+          "question_type": "mc",
+          "question": "The author conveys a point of view on the study of animal intelligence **mainly** by",
+          "options": {
+            "A": "sharing details about experiments that tested the ability of an animal to plan for the future.",
+            "B": "comparing the results of different experiments that were designed to test animal intelligence.",
+            "C": "critiquing experiments that aimed to demonstrate that certain animals are capable of planning for the future.",
+            "D": "explaining how modern experiments show that previously held beliefs about animal intelligence are inaccurate."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how the author conveys a point of view on the study of animal intelligence.\n\nA. CORRECT. Paragraphs 3 and 4 focus on the process and details of the experiments that scientists conducted. This detailed information from the author provides a sense of how the ravens demonstrated planning abilities beyond natural instinct. The author supports the claims from the experiments, calling the findings “exciting” and stating in the conclusion that “these experiments show that ravens could be much smarter than first believed” (paragraph 5).\n\nB. Incorrect. Although two experiments are described in the passage, the description presents the experiments as building on each other and does not compare their results. The passage states that “these experiments show that ravens could be much smarter than first believed, and scientists now believe that ravens do actually think about their own future” (paragraph 5).\n\nC. Incorrect. The author presents information from the experiments and the results that were gathered from them; while there is an admission that “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future” (paragraph 5), the author does not criticize the experiments that are presented.\n\nD. Incorrect. While the author does discuss some previously held beliefs about animal intelligence in paragraph 1, the focus of the passage is that experiments indicate that there is reason to question these beliefs, since “these experiments show that ravens could be much smarter than first believed” (paragraph 5). The previously held beliefs are not considered inaccurate by the discussion in the passage because only one example—the raven—is provided. The passage does not state that beliefs about animal intelligence as a whole are inaccurate."
+          }
+        },
+        {
+          "id": "AR13",
+          "q_number": 63,
+          "question_type": "mc",
+          "question": "With which statement would the author of the passage **most likely** agree?",
+          "options": {
+            "A": "Scientists are unlikely to be able to conduct an experiment that can genuinely distinguish between instinctual and learned behaviors in animals.",
+            "B": "Scientists should continue researching to determine whether or not animals can demonstrate advanced intelligence.",
+            "C": "Scientists should be careful about making conclusions about animal intelligence based on experiments that rely on training animals.",
+            "D": "Scientists can confirm data on whether animals have the ability to plan by performing experiments on additional species known for their intelligence."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks the reader to choose the statement with which the author of the passage would most likely agree.\n\nA. Incorrect. It is very likely that additional experiments or changes to the experiments presented can help scientists tell the difference between the types of behavior that the animals are showing. The current research supports “other recent advances in animal science” and also shows that ravens are “much smarter” (paragraph 5) than previously believed, making them excellent candidates for further research.\n\nB. CORRECT. As paragraph 5 notes, “more evidence needs to be gathered before scientists can fully conclude that ravens can plan for the future.” The evidence is not yet considered definitive because “some scientists argue that the ravens might be choosing the stone and bottle cap because the ravens have been trained to do so, not necessarily because the ravens are thinking ahead” (paragraph 5). Therefore, more research is needed in order to draw a complete conclusion as to whether or not the animals are demonstrating advanced intelligence or simply the results of training.\n\nC. Incorrect. The passage shows that the scientists did not draw conclusions based on one experiment alone. The passage also states in paragraph 5 that additional research and experiments are necessary in order to obtain conclusive evidence of ravens’ abilities to think and plan ahead.\n\nD. Incorrect. The passage claims that more evidence must be gathered in order to make a claim that animals can definitely plan for the future. The evidence presented helps scientists “believe that ravens do actually think about their own future” (paragraph 5), but more confirmation is needed. The passage does not discuss performing experiments on additional species."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "fiction",
+      "title": "A Voice in the Wilderness",
+      "author": "Grace Livingston Hill",
+      "citation": "From A VOICE IN THE WILDERNESS by Grace Livingston Hill—Public Domain",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night."
+        },
+        {
+          "num": 2,
+          "text": "It occurred to her, as she swung her heavy suit-case down the rather long step to the ground, and then carefully swung herself after it, that it was strange that neither conductor, brakeman, nor porter had come to help her off the train, when all three had taken the trouble to tell her that hers was the next station; but she could hear voices up ahead. Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment."
+        },
+        {
+          "num": 3,
+          "text": "The ground was rough where she stood, and there seemed no sign of a platform. Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it?"
+        },
+        {
+          "num": 4,
+          "text": "She strained her eyes into the darkness, and tried to make out things from the two or three specks of light that danced about like fireflies in the distance. She could dimly see moving figures away up near the engine, and each one evidently carried a lantern. The train was tremendously long. A sudden feeling of isolation took possession of her. Perhaps she ought not to have got out until some one came to help her. Perhaps the train had not pulled into the station yet and she ought to get back on it and wait. Yet if the train started before she found the conductor she might be carried on somewhere and he justly blame her for a fool."
+        },
+        {
+          "num": 5,
+          "text": "There did not seem to be any building on that side of the track. It was probably on the other, but she was standing too near the cars to see over. She tried to move back to look, but the ground sloped and she slipped and fell in the cinders, bruising her knee and cutting her wrist."
+        },
+        {
+          "num": 6,
+          "text": "In sudden panic she arose. She would get back into the train, no matter what the consequences. They had no right to put her out here, away off from the station, at night, in a strange country. If the train started before she could find the conductor she would tell him that he must back it up again and let her off. He certainly could not expect her to get out like this."
+        },
+        {
+          "num": 7,
+          "text": "She lifted the heavy suit-case up the high step that was even farther from the ground than it had been when she came down, because her fall had loosened some of the earth and caused it to slide away from the track. Then, reaching to the rail of the step, she tried to pull herself up, but as she did so the engine gave a long snort and the whole train, as if it were in league against her, lurched forward crazily, shaking off her hold. She slipped to her knees again, the suit-case, toppled from the lower step, descending upon her, and together they slid and rolled down the short bank, while the train . . . ran giddily off into the night."
+        },
+        {
+          "num": 8,
+          "text": "The horror of being deserted helped the girl to rise in spite of bruises and shock. She lifted imploring hands to the unresponsive cars as they hurried by her—one, two, three, with bright windows, each showing a passenger, comfortable and safe inside, unconscious of her need."
+        },
+        {
+          "num": 9,
+          "text": "A moment of useless screaming, running, trying to attract some one's attention, a sickening sense of terror and failure, and the last car slatted itself past with a mocking clatter, as if it enjoyed her discomfort."
+        },
+        {
+          "num": 10,
+          "text": "Margaret stood dazed, reaching out helpless hands, then dropped them at her sides and gazed after the fast-retreating train, the light on its last car swinging tauntingly, blinking now and then with a leer in its eye, rapidly vanishing from her sight into the depth of the night."
+        },
+        {
+          "num": 11,
+          "text": "She gasped and looked about her for the station that but a short moment before had been so real to her mind; and, lo! on this side and on that there was none!"
+        },
+        {
+          "num": 12,
+          "text": "The night was wide like a great floor shut in by a low, vast dome of curving blue set with the largest, most wonderful stars she had ever seen. Heavy shadows of purple-green, smoke-like, hovered over earth darker and more intense than the unfathomable blue of the night sky. It seemed like the secret nesting-place of mysteries wherein no human foot might dare intrude. It was incredible that such could be but common sage-brush, sand, and greasewood wrapped about with the beauty of the lonely night."
+        },
+        {
+          "num": 13,
+          "text": "No building broke the inky outlines of the plain, nor friendly light streamed out to cheer her heart. Not even a tree was in sight, except on the far horizon, where a heavy line of deeper darkness might mean a forest. Nothing, absolutely nothing, in the blue, deep, starry dome above and the bluer darkness of the earth below save one sharp shaft ahead like a black mast throwing out a dark arm across the track."
+        },
+        {
+          "num": 14,
+          "text": "As soon as she sighted it she picked up her baggage and made her painful way toward it, for her knees and wrist were bruised and her baggage was heavy."
+        },
+        {
+          "num": 15,
+          "text": "A soft drip, drip greeted her as she drew nearer; something plashing down among the cinders by the track. Then she saw the tall column with its arm outstretched, and looming darker among the sage-brush the outlines of a water-tank. It was so she recognized the engine's drinking-tank, and knew that she had mistaken a pause to water the engine for a regular stop at a station."
+        }
+      ],
+      "questions": [
+        {
+          "id": "AR14",
+          "q_number": 64,
+          "question_type": "mc",
+          "question": "In paragraph 2, how does the phrase “when all three had taken the trouble to tell her” affect the tone in the first part of the excerpt?",
+          "options": {
+            "A": "It creates an accusatory tone by suggesting that Margaret believes that others are responsible for her problem.",
+            "B": "It introduces a defiant tone by suggesting that Margaret left the train early to prove a point.",
+            "C": "It suggests a frustrated tone by showing that Margaret feels confused by the inconsistent help offered by the railroad employees.",
+            "D": "It establishes an appreciative tone by showing that Margaret feels cared for by the railroad employees."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks how the phrase from paragraph 2 affects the tone in the first part of the excerpt.\n\nA. Incorrect. When Margaret recalls the interaction, there is no indication that she blames the men for her current problem.\n\nB. Incorrect. While the description of how Margaret “hastily [gathers] up her belongings” and “[hurries] down the aisle” (paragraph 1) may give the appearance of being defiant, there is no evidence that she intentionally put herself in this vulnerable position just to make a point.\n\nC. CORRECT. The phrase includes the words “all three” and “taken the trouble,” emphasizing Margaret's early frustration as she recalls with some confused irritation that the men thought she needed an abundance of help earlier, but none of them is around to help when the train stops.\n\nD. Incorrect. While the conductor, brakeman, and porter have all looked after Margaret by alerting her that her station was next, it is unclear whether Margaret appreciates this excess of attention. The phrase instead conveys Margaret's annoyance about a situation in which assistance from the railroad employees would have been welcome but is not provided."
+          }
+        },
+        {
+          "id": "AR15",
+          "q_number": 65,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that Margaret is unaccustomed to traveling to new places by train?",
+          "options": {
+            "A": "“With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night.” (paragraph 1)",
+            "B": "“Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment.” (paragraph 2)",
+            "C": "“Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it?” (paragraph 3)",
+            "D": "“She could dimly see moving figures away up near the engine, and each one evidently carried a lantern.” (paragraph 4)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks for evidence from the excerpt that best supports the idea that Margaret is unfamiliar with traveling to new places by train.\n\nA. Incorrect. Margaret's actions in the sentence from paragraph 1 are decisive as she gathers her belongings to exit the train; she is familiar with rail travel.\n\nB. Incorrect. In the sentence from paragraph 2, Margaret is using her knowledge about trains to attempt to interpret the actions of others; she is familiar with trains, even if a particular destination has not been mentioned.\n\nC. CORRECT. If Margaret has never traveled to this region by train before, she must guess or attempt to interpret what she sees. This idea is best represented in the sentence in paragraph 3 where she questions whether the stations in the West have platforms.\n\nD. Incorrect. While the sentence from paragraph 4 shows that Margaret is trying to better understand her situation in the darkness, her ability to identify the train's engine and the figures carrying lanterns indicates some familiarity with her mode of travel."
+          }
+        },
+        {
+          "id": "AR16",
+          "q_number": 66,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\n**She strained her eyes into the darkness, and tried to make out things from the two or three specks of light that danced about like fireflies in the distance.**\n\nThe simile used in the sentence affects the tone of the paragraph by emphasizing a",
+          "options": {
+            "A": "feeling of comfort as Margaret connects her unfamiliar surroundings with familiar images.",
+            "B": "sense of lonesomeness as Margaret realizes that she is on her own in the wilderness.",
+            "C": "sense of tranquility as Margaret is distracted from the urgency of her situation by the beauty of the night.",
+            "D": "feeling of dread as Margaret regards the desolation of the land that surrounds her."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks how the simile in the sentence from paragraph 4 affects the tone of the paragraph.\n\nA. Incorrect. Margaret is confused and indecisive, showing her discomfort with her situation.\n\nB. CORRECT. The image of two or three fireflies creating small specks of light in the darkness creates a sense of isolation or loneliness in Margaret, as shown in the sentence “A sudden feeling of isolation took possession of her” (paragraph 4).\n\nC. Incorrect. Margaret is not tranquil; rather, she expresses distress, questions her decisions, and worries about being labeled a “fool” (paragraph 4).\n\nD. Incorrect. Margaret experiences feelings of isolation and begins to question her decision in paragraph 4, but these feelings do not become extreme until paragraph 9, where she feels “a sickening sense of terror and failure” as the train pulls away."
+          }
+        },
+        {
+          "id": "AR17",
+          "q_number": 67,
+          "question_type": "mc",
+          "question": "How do Margaret's earlier interactions with the conductor, brakeman, and porter affect the plot?",
+          "options": {
+            "A": "They prompt Margaret to get off the train without further assistance.",
+            "B": "They cause Margaret to think that she knows what to do once she gets off the train.",
+            "C": "They compel Margaret to wonder whether the train has not pulled all the way into the station.",
+            "D": "They lead Margaret to believe that train stations in rural areas lack platforms."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how Margaret's earlier interactions with the conductor, brakeman, and porter affect the plot.\n\nA. CORRECT. Because the conductor, brakeman, and porter have all “taken the trouble to tell her that hers was the next station” (paragraph 2), Margaret assumes that the next time the train stops, she will have reached her station. This assumption causes Margaret to get off the train at the next stop without waiting for help or confirmation, but the stop turns out to be just “a pause to water the engine” (paragraph 15). This mistaken assumption creates the main problem that Margaret confronts in the passage.\n\nB. Incorrect. Although Margaret's earlier interactions with the three railroad employees cause her to think that she knows when to get off the train, it is clear from paragraph 4 that Margaret is deeply confused and does not know what to do once she has exited the train car. She muses uneasily, “Perhaps she ought not to have got out until some one came to help her. Perhaps the train had not pulled into the station yet and she ought to get back on it and wait” (paragraph 4).\n\nC. Incorrect. Margaret wonders in paragraph 3 whether the train is “so long that her car had stopped before reaching [the station]” and speculates in paragraph 4 that “the train had not pulled into the station yet.” These thoughts reflect her assumption (based on her interactions with the three railroad employees) that the next stop is her station. However, Margaret's speculation that the train has not fully pulled into the station does not significantly affect the plot.\n\nD. Incorrect. Margaret wonders in paragraph 3 whether they “have platforms in this wild Western land” and is expecting to see a platform because her interactions with the three railroad employees have led her to believe that she has reached a station. However, it is unclear whether Margaret really believes that rural stations all lack platforms, and her speculation on this point is not further developed in the passage and does not affect the plot."
+          }
+        },
+        {
+          "id": "AR18",
+          "q_number": 68,
+          "question_type": "mc",
+          "question": "How does Margaret's experience in paragraph 9 emphasize a theme of the excerpt?",
+          "options": {
+            "A": "It confirms Margaret's understanding that she cannot rely on help from anyone else.",
+            "B": "It leads Margaret to realize that her desire to change her situation is impractical.",
+            "C": "It causes Margaret to believe that her own actions led to an unfavorable outcome.",
+            "D": "It reinforces Margaret's frustration about her lack of control over her surroundings."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks about the relationship between the theme and paragraph 9, where Margaret desperately tries to get someone on the train to notice her.\n\nA. CORRECT. One important theme of this excerpt concerns Margaret's willingness to take action to ensure that she reaches her destination. This determination, described in Option A, is why she gathers her belongings together without help, gets off the train without being assisted by employees, and then attempts to climb back on while the train employees are busy examining the engine.\n\nB. Incorrect. While the narrator describes her screaming as useless, she does not feel that her efforts overall are useless, and she does not give up until paragraph 10.\n\nC. Incorrect. While Margaret is feeling a sense of “failure” in paragraph 9, she does not condemn herself as the train moves away.\n\nD. Incorrect. Margaret expresses “terror” in paragraph 9 over being unable to catch someone's attention, not frustration about her lack of control over her surroundings."
+          }
+        },
+        {
+          "id": "AR19",
+          "q_number": 69,
+          "question_type": "mc",
+          "question": "How does paragraph 11 contribute to the plot of the excerpt?",
+          "options": {
+            "A": "It reveals that the reality of the situation is different from Margaret's assumptions.",
+            "B": "It illustrates that Margaret's main problem is her own imagination.",
+            "C": "It shows that Margaret is surprised by the unexpected adventure she is about to undertake.",
+            "D": "It provides insight into how Margaret reacts to stressful situations."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how paragraph 11 contributes to the plot of the excerpt.\n\nA. CORRECT. In paragraph 5, Margaret assumes there is a station (“It was probably on the other [side], but she was standing too near the cars to see”), but in paragraph 11, the station that had been “so real” in Margaret's mind actually does not exist.\n\nB. Incorrect. Margaret's main problem is not that her imagination has led her astray but rather that her inexperience with this train route has caused her to misinterpret the events that have occurred. Paragraph 11 reveals that she has been acting on faulty assumptions; however, her assumptions are somewhat justified by the events that have occurred.\n\nC. Incorrect. While Margaret seems somewhat in awe of her surroundings in paragraph 12 and she “gasped” in paragraph 11, her exclamation is one of shock at the discovery, not surprise over an unexpected adventure.\n\nD. Incorrect. While paragraph 11 describes how Margaret responds to the distressing situation that her actions and decisions have created, the paragraph does not offer insight into how Margaret generally responds to problems or conflicts."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Champion of the Channel",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that “even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.” Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming."
+        },
+        {
+          "num": 2,
+          "text": "Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards."
+        },
+        {
+          "num": 3,
+          "text": "For decades the channel's perils have defeated countless swimmers. Ederle, too, failed in her first attempt to cross the channel in 1925. Just six miles short of finishing, she became ill, and her coach had to haul her out of the water. Undeterred, Ederle decided to try again. Ederle knew that if she did not complete the challenge this time, she might never get the opportunity to set this record, because a rival female swimmer was preparing to make her second attempt at the crossing as well."
+        },
+        {
+          "num": 4,
+          "text": "To prepare for the marathon swim, Ederle found ways to improve her equipment. She and her sister Meg discovered that melted candle wax perfectly sealed goggle edges, effectively waterproofing Ederle's goggles against hammering waves. The sisters also designed a two-piece silk swimsuit for Ederle. During her first channel-crossing attempt she had worn a standard one-piece swimsuit that, after the lengthy hours of swimming across the channel, had stretched out, filling with water and creating drag, making an already challenging task almost insurmountable. Unlike the cumbersome typical bathing suit, this silk invention weighed little and allowed for easy movement."
+        },
+        {
+          "num": 5,
+          "text": "On August 6, 1926, Ederle waded into the channel near Cape Gris-Nez, France. At first she shivered in the bone-chilling water even though she had covered her body in eight layers of grease for insulation. Her limbs felt stiff. Her strokes were irregular. Driving forward, she fought to clear her mind and find what she called her “sphere,” a place where the sea became her only companion and the shrieks of gulls and the humming of boat engines faded away. Using a new overhand stroke called the American crawl, Ederle eventually settled into a steady pace, briskly breaking through waves."
+        },
+        {
+          "num": 6,
+          "text": "Throughout Ederle's swim, two tugboats accompanied her. One carried newspaper reporters who wired dispatches of her progress to shore. The other, displaying a sign that read “This way, ole kid!” with an arrow pointing forward, transported her coach, family, and friends. Her coach played songs, such as “Yes, We Have No Bananas,” on a phonograph so that Ederle could time her strokes to the rhythm. Using a net, her coach also passed her baby bottles of broth for nourishment."
+        },
+        {
+          "num": 7,
+          "text": "For hours Ederle swam, dodging debris with an amused smile. However, as she neared the English shore, a sudden fierce storm erupted. The tides and waves forced Ederle backward, and she fought the stubborn swells for several hours. The salty water caused her tongue to swell and inflamed her ears. Yet Ederle felt indescribably happy as she churned through the sea. Finally, as she neared the English shore, the storm abated, and the tide turned. No longer fighting against her, the sea pushed her toward the shore and victory."
+        },
+        {
+          "num": 8,
+          "text": "After fourteen hours and thirty-one minutes, Ederle, on wobbly legs, stepped onto the English shore. The waiting crowd roared, honked their automobile horns, blasted their tugboat whistles, and set off flares that flashed in the sky. Ederle had swum into history."
+        },
+        {
+          "num": 9,
+          "text": "When Ederle returned to New York, she received a parade, where thousands of people shouted “Trudy!” Not only were everyday American citizens proud of Ederle, but also she inspired them to be more active. Over the next few years, more than 60,000 people credited her with motivating them to earn their American Red Cross swimming certificates. Gertrude Ederle's accomplishment proved to the world that with determination and passion, it was possible for a person to achieve his or her goals."
+        }
+      ],
+      "passage_figure_html": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 13px;'>\n<caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SOLO SWIMS ACROSS THE ENGLISH CHANNEL</caption>\n<tbody>\n<tr><td colspan='3' style='border:1px solid #111; padding:6px 10px; text-align:center; background:#e8e8e8; font-weight:bold;'>Earliest Speed Records</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px; font-weight:bold;'>Year</td><td style='border:1px solid #111; padding:6px 10px; font-weight:bold;'>Swimmer</td><td style='border:1px solid #111; padding:6px 10px; font-weight:bold;'>Time</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px;'>1875</td><td style='border:1px solid #111; padding:6px 10px;'>Matthew Webb (M)</td><td style='border:1px solid #111; padding:6px 10px;'>21 hours, 45 minutes</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px;'>1923</td><td style='border:1px solid #111; padding:6px 10px;'>Enrico Tiraboschi (M)</td><td style='border:1px solid #111; padding:6px 10px;'>16 hours, 33 minutes</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px;'>1926</td><td style='border:1px solid #111; padding:6px 10px;'>Gertrude Ederle (F)</td><td style='border:1px solid #111; padding:6px 10px;'>14 hours, 31 minutes</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px;'>1926</td><td style='border:1px solid #111; padding:6px 10px;'>Arnst Vierkotter (M)</td><td style='border:1px solid #111; padding:6px 10px;'>12 hours, 38 minutes</td></tr>\n<tr><td colspan='3' style='border:1px solid #111; padding:6px 10px; text-align:center; background:#e8e8e8; font-weight:bold;'>Current Speed Records</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px; font-weight:bold;'>Year</td><td style='border:1px solid #111; padding:6px 10px; font-weight:bold;'>Swimmer</td><td style='border:1px solid #111; padding:6px 10px; font-weight:bold;'>Time</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px;'>2006</td><td style='border:1px solid #111; padding:6px 10px;'>Yvetta Hlavacova (F)</td><td style='border:1px solid #111; padding:6px 10px;'>7 hours, 25 minutes</td></tr>\n<tr><td style='border:1px solid #111; padding:6px 10px;'>2012</td><td style='border:1px solid #111; padding:6px 10px;'>Trent Grimsey (M)</td><td style='border:1px solid #111; padding:6px 10px;'>6 hours, 55 minutes</td></tr>\n</tbody></table>",
+      "questions": [
+        {
+          "id": "AR20",
+          "q_number": 70,
+          "question_type": "mc",
+          "question": "What do the newspaper editor's comments in paragraph 1 reveal about the challenges Ederle faced in attempting her feat?",
+          "options": {
+            "A": "Regardless of her ability, being an American put Ederle at a serious disadvantage over a Londoner, who would be more familiar with the English Channel.",
+            "B": "At the time, Ederle still needed more training in order to succeed in the daunting task of swimming the English Channel.",
+            "C": "While Ederle could participate in athletic competition, some people were not comfortable with her attempt to swim the channel because no woman had ever attempted it before.",
+            "D": "In spite of her previous achievements, Ederle still experienced social as well as physical obstacles in attempting to swim the channel."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks what the newspaper editor's comments in paragraph 1 reveal about Ederle's challenges leading up to her attempt to swim across the channel.\n\nA. Incorrect. The idea that Ederle was at a disadvantage because she was American rather than English, and thus less familiar with the channel, was not the basis for the newspaper editor's comments about the outcome of her swim.\n\nB. Incorrect. The passage establishes that Ederle was a highly accomplished swimmer who had won major world competitions (“Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals” [paragraph 1]).\n\nC. Incorrect. The newspaper editor's point was that Ederle would be unsuccessful in her attempt to complete the swim because she was a woman, not that people were uncomfortable with the idea since no woman had attempted it before.\n\nD. CORRECT. The comments reveal a lack of social support since many people believed that a woman, no matter how skilled a swimmer, did not have the strength to overcome the physical challenges that the dangerous channel waters presented (“He claimed that 'even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.'” [paragraph 1])."
+          }
+        },
+        {
+          "id": "AR21",
+          "q_number": 71,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\n**During her first channel-crossing attempt she had worn a standard one-piece swimsuit that, after the lengthy hours of swimming across the channel, had stretched out, filling with water and creating drag, making an already challenging task almost insurmountable.**\n\nThe word “insurmountable” is used to highlight",
+          "options": {
+            "A": "how the bathing suit made it impossible for Ederle to make it across the channel.",
+            "B": "how Ederle and her sister decided to improve Ederle's swimming equipment in a creative way.",
+            "C": "that the flaws in Ederle's bathing suit made a difficult task even more complicated.",
+            "D": "that the swimming equipment Ederle used needed to be custom made for her attempt."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks about the effect of the word “insurmountable,” which means “incapable of being overcome,” in paragraph 4.\n\nA. Incorrect. Ederle did not complete her first swim because she became ill (“Just six miles short of finishing, she became ill, and her coach had to haul her out of the water.” [paragraph 3]), not because the suit made it impossible for Ederle to complete her swim.\n\nB. Incorrect. The author uses the word “insurmountable” to draw attention to the increased difficulty caused by the suit, not to draw attention to the sisters' creativity in solving the problem.\n\nC. CORRECT. The suit Ederle wore during her first attempt to swim the channel “stretched out, filling with water and creating drag” (paragraph 4), which likely contributed to her failed attempt to swim across the channel.\n\nD. Incorrect. The passage does not address whether the original suit was custom made, simply that the suit created additional difficulties for Ederle in a situation that was already difficult."
+          }
+        },
+        {
+          "id": "AR22",
+          "q_number": 72,
+          "question_type": "mc",
+          "question": "Which statement describes how the author's use of a problem-and-solution structure in paragraph 5 contributes to the development of ideas in the passage?",
+          "options": {
+            "A": "Detailing the challenges presented by the cold channel waters highlights the effectiveness of Ederle's training.",
+            "B": "Describing Ederle's physical difficulties during her swim provides evidence of the team effort required to ensure her safety.",
+            "C": "Explaining the difficulties that arose early in the effort helps predict the additional obstacles that occurred during Ederle's attempt.",
+            "D": "Illustrating Ederle's process of blocking out her discomfort shows that swimming the channel was both a mental and a physical challenge."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks how a problem-and-solution structure in paragraph 5 contributes to the ideas presented in the passage.\n\nA. Incorrect. The details in paragraph 5 do not provide a connection between the cold temperature of the water and the effectiveness of Ederle's training.\n\nB. Incorrect. The difficulties Ederle encountered were only partially relieved by her team, and her team's efforts to ensure Ederle's safety are not explained in the passage.\n\nC. Incorrect. The paragraph does not focus on the relationship between the problems Ederle encountered at the start of her swim and the problems she encountered during or near the end of her swim.\n\nD. CORRECT. The paragraph describes how the water's temperature made Ederle uncomfortable and made it difficult for her to regulate her stroke. The paragraph continues with the explanation of how she overcame these issues by focusing her mind on the sea and tuning out the distractions in her surroundings (“the sea became her only companion and the shrieks of gulls and the humming of boat engines faded away” [paragraph 5])."
+          }
+        },
+        {
+          "id": "AR23",
+          "q_number": 73,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that Ederle succeeded in swimming across the channel because of her innovative approach to the challenge?",
+          "options": {
+            "A": "“Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours.” (paragraph 1)",
+            "B": "“At first she shivered in the bone-chilling water even though she had covered her body in eight layers of grease for insulation.” (paragraph 5)",
+            "C": "“Using a new overhand stroke called the American crawl, Ederle eventually settled into a steady pace, briskly breaking through waves.” (paragraph 5)",
+            "D": "“The other [tugboat], displaying a sign that read 'This way, ole kid!' with an arrow pointing forward, transported her coach, family, and friends.” (paragraph 6)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks for the best support for the idea that Ederle's swim across the channel was successful because of her innovative approach to the challenge.\n\nA. Incorrect. The sentence from paragraph 1 shows that Ederle's performance was groundbreaking but not necessarily innovative.\n\nB. Incorrect. The layers of grease mentioned in the sentence from paragraph 5 primarily served to insulate Ederle (keep her warm) by helping her maintain her body temperature in the cold water; neither the sentence in paragraph 5 nor the surrounding text evidence establishes that this was an innovative practice. Furthermore, the sentence does not show that she succeeded as a result of this approach.\n\nC. CORRECT. The sentence from paragraph 5 explains that Ederle employed a newly developed, or innovative, type of stroke that allowed her to maintain her pace through the rough water.\n\nD. Incorrect. The tugboat carrying Ederle's supporters referenced in the sentence from paragraph 6 likely provided encouragement during Ederle's swim, but the sentence does not show that this approach was innovative or that it enabled Ederle's success."
+          }
+        },
+        {
+          "id": "AR24",
+          "q_number": 74,
+          "question_type": "mc",
+          "question": "Paragraph 7 contributes to the development of a central idea of the passage by",
+          "options": {
+            "A": "illustrating that Ederle's physical strength and mental fortitude allowed her to stay focused on her goal.",
+            "B": "conveying that Ederle pushed herself to the edge of her physical capabilities in order to complete the swim.",
+            "C": "highlighting the impact the severe weather had on Ederle's emotions during her swim.",
+            "D": "emphasizing the surge of emotions Ederle felt as she came closer to achieving a personal goal."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks for an explanation of how paragraph 7 contributes to the development of a central idea of the passage.\n\nA. Incorrect. Although Ederle needed to remain focused on her goal, the idea that her physical strength and mental fortitude allowed her to maintain this focus is not illustrated in paragraph 7. Paragraph 7 instead contributes to the development of a central idea by emphasizing Ederle's emotional responses over the course of her swim.\n\nB. Incorrect. While paragraph 7 describes some of the physical challenges that Ederle faced (“The salty water caused her tongue to swell and inflamed her ears”), the statement that she “pushed herself to the edge of her physical capabilities” is not the most accurate way to describe the focus of this paragraph. This option is incorrect because it omits the paragraph's focus on Ederle's emotional responses to the challenging circumstances of her swim.\n\nC. Incorrect. While paragraph 7 describes Ederle's feelings of happiness and amusement during her swim, these feelings were caused by her anticipation and excitement as she approached achieving her goal, not by the severe weather.\n\nD. CORRECT. Paragraph 7 contributes to the development of a central idea by describing Ederle's emotional state over the course of her swim. A central idea of the passage is that Ederle's passion and determination allowed her to accomplish her goal of being the first woman to cross the English Channel. Paragraph 7 shows her passion and determination by emphasizing the positive emotions Ederle felt as she progressed during her swim, despite the unfavorable conditions (“For hours Ederle swam, dodging debris with an amused smile” and “Yet Ederle felt indescribably happy as she churned through the sea”)."
+          }
+        },
+        {
+          "id": "AR25",
+          "q_number": 75,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best conveys the author's perspective regarding the impact of Ederle's accomplishment?",
+          "options": {
+            "A": "“Undeterred, Ederle decided to try again.” (paragraph 3)",
+            "B": "“For hours Ederle swam, dodging debris with an amused smile.” (paragraph 7)",
+            "C": "“Yet Ederle felt indescribably happy as she churned through the sea.” (paragraph 7)",
+            "D": "“Ederle had swum into history.” (paragraph 8)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks for the sentence from the passage that best conveys the author's perspective about the impact of Ederle's swim.\n\nA. Incorrect. Although this option shows Ederle's determination to accomplish her goal, it does not convey the author's perspective. Rather, the option reinforces Ederle's own perspective about the challenge that she was facing.\n\nB. Incorrect. The sentence presented in this option is incorrect because it relates to Ederle's state of mind as she came closer to achieving her goal and does not provide details about the author's opinion of the impact of Ederle's accomplishment.\n\nC. Incorrect. The sentence presented in this option is incorrect because it simply presents Ederle's emotional state as she nears her goal and does not provide information about the author's perspective.\n\nD. CORRECT. This option is correct because, throughout the passage, the author emphasizes that Ederle's accomplishment was memorable and great, which is best stated in the sentence from paragraph 8."
+          }
+        },
+        {
+          "id": "AR26",
+          "q_number": 76,
+          "question_type": "mc",
+          "question": "Which sentence is the best summary of the steps that Ederle took to prepare for her second attempt to swim across the English Channel?",
+          "options": {
+            "A": "Working with her sister, Ederle waterproofed her goggles using melted candle wax to seal the edges and designed a two-piece silk swimsuit that was lightweight and would not stretch out during the long swim.",
+            "B": "Ederle covered her body in numerous layers of grease for insulation and focused on finding her “sphere” during her swim.",
+            "C": "Ederle began training with her coach, who played music while she swam to help her time her strokes to the music.",
+            "D": "Ederle focused on developing better equipment than the standard bathing suit that proved cumbersome during her first attempt to cross the channel."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks for the best summary of Ederle's steps to prepare for her second attempt to swim across the English Channel.\n\nA. CORRECT. Ederle's preparation is outlined in paragraph 4. This option is correct because it acknowledges the idea that Ederle involved her sister in this process, and it details the efforts the two took to improve Ederle's equipment, including sealing her goggles with wax and designing a better swimsuit.\n\nB. Incorrect. The option focuses on Ederle's actions in the moments before her swim (covering her body with grease for insulation) and during her swim (finding her “sphere”), not her overall preparation methods.\n\nC. Incorrect. The option refers to a way that Ederle's coach helped Ederle keep her strokes in rhythm during her swim. While this option suggests that Ederle and her coach had made thoughtful preparations, it does not address the many other steps that Ederle took to prepare for the swim.\n\nD. Incorrect. The option does not refer to the series of steps that Ederle took to prepare for her swim, but rather to just one of the efforts made (improving equipment), without acknowledging her sister's contributions."
+          }
+        },
+        {
+          "id": "AR27",
+          "q_number": 77,
+          "question_type": "mc",
+          "question": "The idea that many people were interested in Ederle's attempt to swim the channel is illustrated in the passage **mainly** through the",
+          "options": {
+            "A": "information about Ederle's competition with another female swimmer who was also attempting to cross the channel.",
+            "B": "details about the reports of Ederle's progress during the swim and the celebration of her successful completion of the swim.",
+            "C": "details about how Ederle's historic swim contributed to an increase in the number of people learning how to swim.",
+            "D": "information about the resources Ederle used throughout her swim to maintain her motivation and stamina."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks how the idea that many people were interested in Ederle's attempt to swim the channel is mainly illustrated in the passage.\n\nA. Incorrect. While paragraph 3 states that “a rival female swimmer was preparing to make her second attempt at the crossing as well,” which suggests that Ederle's competitor was interested in Ederle's attempt to swim the channel, this information does not establish that many people were interested in Ederle's attempt.\n\nB. CORRECT. Paragraph 6 includes the detail that newspaper reporters followed Ederle on a tugboat and “wired dispatches of her progress to shore,” which suggests that an audience was waiting for news about Ederle's progress. Paragraph 8 states that when Ederle reached the shore, “the waiting crowd roared, honked their automobile horns, blasted their tugboat whistles, and set off flares that flashed in the sky.” Further, paragraph 9 states that when Ederle returned to New York, “thousands of people” attended a parade in her honor. These details describing the celebration of Ederle's feat further illustrate the idea that many people were interested in what she had accomplished.\n\nC. Incorrect. While paragraph 9 states that “more than 60,000 people credited [Ederle] with motivating them to earn their American Red Cross swimming certificates,” this detail describes how Ederle's historic swim influenced people after the fact but does not illustrate the level of public interest during the attempt itself.\n\nD. Incorrect. Paragraph 6 provides details about how Ederle's “coach, family, and friends” displayed signs, played songs, and “passed her baby bottles of broth” to help her maintain her motivation and stamina. However, these resources do not suggest the idea that people beyond Ederle's immediate support team were interested in her attempt to swim the channel."
+          }
+        },
+        {
+          "id": "AR28",
+          "q_number": 78,
+          "question_type": "mc",
+          "question": "How does the table mainly build on information presented in the passage?",
+          "options": {
+            "A": "It shows that people have continued to swim the channel and have significantly improved on past records, building on the idea that Ederle's accomplishment proved that determination could help someone achieve a goal.",
+            "B": "It shows that subsequent female record holders were inspired to swim across the channel by Ederle, building on the idea that she motivated others to be active.",
+            "C": "It shows that Ederle had other female swimmers competing with her to set the channel-swim record, building on the idea of her rivalry with another swimmer.",
+            "D": "It allows for a comparison between past, present, and future channel-swim records, building on the idea that Ederle broke the men's record by two hours."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how the table mainly builds on the information in the passage.\n\nA. CORRECT. The table supports the information in the passage by showing that people have continued to swim the channel and have significantly improved on past records. The information in the table about records set by those who came after Ederle builds on the idea that “Gertrude Ederle's accomplishment proved to the world that with determination and passion, it was possible for a person to achieve his or her goals” (paragraph 9).\n\nB. Incorrect. Even though paragraph 9 states that Ederle “inspired [everyday American citizens] to be more active” and the table presents the time for the current female record holder, there is no indication in the passage or in the table that the subsequent female record holders were inspired to swim across the channel by Ederle.\n\nC. Incorrect. Although paragraph 3 mentions that Ederle had a female rival and the table includes the speed record of another female swimmer, the passage does not provide information about other female swimmers competing with Ederle to set the channel-swim record.\n\nD. Incorrect. Although paragraph 1 mentions that Ederle “broke the men's record by two hours” and the table allows for comparisons between the earliest speed records and those of the present day, there is no mention in the passage of past, present, or future channel-swim records. The table allows for comparison, but this aspect of the table does not build on the information presented in the passage."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 7,
+      "genre": "fiction",
+      "title": "The Spirit of the Herd",
+      "author": "Dallas Lore Sharp",
+      "intro_note": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty.",
+      "citation": "From “The Spirit of the Herd” by Dallas Lore Sharp—Public Domain",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Along with the wagon had come the fresh horses—one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men—a Peroxide Jim to complement a Wade?"
+        },
+        {
+          "num": 2,
+          "text": "The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders, his faith in Peroxide Jim was complete. . . ."
+        },
+        {
+          "num": 3,
+          "text": "The desert, where the herd was camped, was one of the highest of a series of tablelands, or benches; it lay as level as a floor, rimmed by sheer rock, from which there was a drop to the bench of sage below. The herd when overtaken by the dusk had been headed for a pass descending to the next lower bench, but was now halted within a mile of the rim rock on the east, where there was a perpendicular fall of about three hundred feet. . . ."
+        },
+        {
+          "num": 4,
+          "text": "In the taut silence of the stirless desert night, with the tension of the herd at the snapping-point, any quick, unwonted sight or sound would stampede them. The sneezing of a horse, the flare of a match, would be enough to send the whole four thousand headlong—blind, frenzied, trampling—till spent and scattered over the plain."
+        },
+        {
+          "num": 5,
+          "text": "And so, as he rode, Wade began to sing. The rider ahead of him took up the air and passed it on until, above the stepping stir of the hoofs rose the faint voices of the men, and all the herd was bound about by the slow plaintive measures of some old song. It was not to soothe their savage breasts that the riders sang to the cattle, but rather to preempt the dreaded silence, to relieve the tension, and so to prevent the shock of any sudden startling noise."
+        },
+        {
+          "num": 6,
+          "text": "So they sang and rode and the night wore on to one o'clock, when Wade, coming up on the rim-rock side, felt a cool breeze fan his face, and caught a breath of fresh, moist wind with the taste of water in it."
+        },
+        {
+          "num": 7,
+          "text": "He checked his horse instantly, listening as the wind swept past him over the cattle. But they must already have smelled it, for they had ceased their milling, the whole herd standing motionless, the indistinct forms close to him in the dark showing their bald faces lifted to drink the sweet wet breath that came over the rim. Then they started on again, but faster, and with a rumbling now from their hoarse throats that tightened Wade's grip on the reins."
+        },
+        {
+          "num": 8,
+          "text": "The sound seemed to come out of the earth, a low, rumbling mumble, as dark as the night and as wide as the plain, a thick, inarticulate bellow that stood every rider stiff in his stirrups. . . ."
+        },
+        {
+          "num": 9,
+          "text": "Then the breeze caught the dust and carried it back from the gray-coated, ghostly shapes, and Wade saw that the animals were still moving in a circle. He must keep them going. He touched his horse to ride on with them, when across the black sky flashed a vivid streak of lightning."
+        },
+        {
+          "num": 10,
+          "text": "There was a snort from the steers, a quick clap of horns and hoofs from far within the herd, a tremor of the plain, a roar, a surging mass—and Wade was riding the flank of a wild stampede. Before him, behind him, beside him, pressing hard upon his horse, the herd swept on in the dark."
+        },
+        {
+          "num": 11,
+          "text": "Wade was riding for his life. He knew it. His horse knew it. He was riding to turn the herd, too, back from the rim, as the horse also knew. The cattle were after water—water-mad—ready to go over the precipice to get it, carrying horse and rider with them. Wade was the only rider between the herd and the rim. It was black as death. He could see nothing in the sage, could scarcely discern the pounding, panting shadows at his side. He knew that he was being borne toward the rim, how fast he could not tell, but he knew by the swish of the brush against his tapaderos and the plunging of the horse that the ground was growing stonier, that they were nearing the rocks."
+        },
+        {
+          "num": 12,
+          "text": "To outrun the herd was his only chance for life. If he could come up with the leaders he might not only escape, but even stand a chance of heading them off upon the plain and saving the herd. There were cattle still ahead of him; how many, what part of them all, he could not make out in the dark. But the horse knew. The reins hung on his straight neck, where his rider had dropped them, as, yelling and firing over the wild herd, he had given this horse the race to win, to lose."
+        },
+        {
+          "num": 13,
+          "text": "They were riding the rim. Close on their left bore down the flank of the herd, and on their right, under their very feet, was a precipice, so close that they felt its blackness—its three hundred feet of fall! . . ."
+        },
+        {
+          "num": 14,
+          "text": ". . . Then Wade found himself racing neck and neck with a big white steer, which the horse, with marvelous instinct, seemed to pick out from a bunch, and to cling to, forcing him gradually ahead, till, cutting him free from the bunch entirely, he bore him off into the swishing sage."
+        },
+        {
+          "num": 15,
+          "text": "The steers coming on close behind followed their leader, and in, after them, swung others. The tide was turning from the rim. More and more were veering, and within a short time the whole herd, bearing off from the cliffs, was pounding over the open plains."
+        },
+        {
+          "num": 16,
+          "text": "Whose race was it? It was Peroxide Jim's, according to Wade, for not by word or by touch of hand or knee had the horse been directed in the run. From the flash of the lightning the horse had taken the bit, had covered an indescribably perilous path at top speed, had outrun the herd and turned it from the edge of the rim rock, without a false step or a tremor of fear."
+        }
+      ],
+      "questions": [
+        {
+          "id": "AR29",
+          "q_number": 79,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best explains why Wade reserved Peroxide Jim for “emergency work” (paragraph 1)?",
+          "options": {
+            "A": "“a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw.” (paragraph 1)",
+            "B": "“with the tension of the herd at the snapping-point, any quick, unwonted sight or sound would stampede them.” (paragraph 4)",
+            "C": "“he knew by the swish of the brush against his tapaderos and the plunging of the horse that the ground was growing stonier, that they were nearing the rocks.” (paragraph 11)",
+            "D": "“From the flash of the lightning the horse had taken the bit, had covered an indescribably perilous path at top speed, had outrun the herd and turned it from the edge of the rim rock, without a false step or a tremor of fear.” (paragraph 16)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks which sentence from the excerpt best explains why Wade reserved Peroxide Jim for “emergency work” (paragraph 1).\n\nA. Incorrect. While the sentence from paragraph 1 refers to Peroxide Jim as being a superior horse, it does not tell why he would be useful in an emergency. The mention of Peroxide Jim's superiority does not describe the attributes that would make him an appealing choice for use in an emergency.\n\nB. Incorrect. The sentence from paragraph 10 does not describe the actions of Peroxide Jim. The sentence describes what Wade and the horse were experiencing, but it does not include any reference to how Peroxide Jim was responding to the situation.\n\nC. Incorrect. The sentence from paragraph 11 describes Wade's experiences and does not focus on the actions of Peroxide Jim. It reveals Wade's awareness of the danger he was in, but the only reference to Peroxide Jim in this sentence is the description of the horse having to work harder to run on the stonier ground as they neared the edge: from “the plunging of the horse,” Wade knew “that the ground was growing stonier, that they were nearing the rocks.” This quotation does not show that Peroxide Jim was the right horse to use for emergency work because it does not indicate, at this point in the text, that he was responding in a way that saved the herd or Wade.\n\nD. CORRECT. The sentence from paragraph 16 describes Peroxide Jim's high level of skill and ability to perform in a life-and-death situation. Not only did Peroxide Jim recognize the emergency immediately (“From the flash of the lightning the horse had taken the bit”), but the horse also proved to have the physical capability (“had covered an indescribably perilous path at top speed, had outrun the herd and turned it from the edge of the rim rock”) and the mental toughness (“without a false step or a tremor of fear”) required to respond appropriately to the dangerous situation."
+          }
+        },
+        {
+          "id": "AR30",
+          "q_number": 80,
+          "question_type": "mc",
+          "question": "Paragraphs 1–2 contribute to the development of the central idea of the excerpt by",
+          "options": {
+            "A": "revealing the respect Wade had for his horse.",
+            "B": "emphasizing Wade's high expectations of his horse and himself.",
+            "C": "indicating that Wade and his horse understood the cattle business.",
+            "D": "demonstrating Wade's ability to gauge a horse's competence."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how paragraphs 1–2 contribute to the development of the central idea of the excerpt.\n\nA. CORRECT. The description of Peroxide Jim in paragraph 1 indicates that the horse was a fine animal (“Along with the wagon had come the fresh horses—one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw” [paragraph 1]). The statement in paragraph 2 that Wade's “faith in Peroxide Jim was complete” supports the central idea of the excerpt that Wade believed in Peroxide Jim's abilities even before the horse turned the herd and saved the cattle.\n\nB. Incorrect. Paragraphs 1–2 do not emphasize Wade's high expectations for himself, nor are these expectations a central idea of the excerpt. The narrator expresses a high opinion of Wade's abilities in his comparison of Peroxide Jim and Wade, referring to the horse as a “complement” (paragraph 1) for Wade; however, Wade showed complete trust in the horse's ability to save the herd without his help, as evidenced by Wade dropping the reins to allow the horse to control the situation (paragraph 12).\n\nC. Incorrect. The paragraphs refer to Peroxide Jim's ability to handle cattle; in fact, paragraph 2 says that “the horse knew the cattle business.” It can be inferred that Wade had this knowledge as well, but this idea is not the focus of paragraphs 1–2 and is not the central idea of the excerpt.\n\nD. Incorrect. Wade's ability to judge a horse's competence is not a central idea of the excerpt. The event described in the text is proof that Wade knew how to judge a horse's ability: Wade trusted Peroxide Jim, and Peroxide Jim did not let him down. The option puts the focus on Wade and one of his strengths, when the central idea and focus of the excerpt is Peroxide Jim's abilities and strengths, not Wade's."
+          }
+        },
+        {
+          "id": "AR31",
+          "q_number": 81,
+          "question_type": "mc",
+          "question": "How does paragraph 3 convey the effect of the setting on the cattle drive?",
+          "options": {
+            "A": "It shows how the growing darkness created challenges for the riders in getting the herd to move.",
+            "B": "It describes how the changing elevation contributed to the dangerousness of the environment.",
+            "C": "It describes how the desert created an uncomfortable feeling of isolation for the riders and the cattle.",
+            "D": "It shows how the steep terrain made it difficult for the cattle to keep moving forward."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks how paragraph 3 conveys the effect of the setting on the cattle drive.\n\nA. Incorrect. The riders were not trying to move the herd through the darkness. Instead, the reference to the growing darkness (“overtaken by the dusk”) indicates that the riders had halted the animals for the night because moving the herd across the desert in the darkness would have been much too dangerous because of the sheer drop-off at the edge of the tableland. The riders needed the daylight to navigate the herd safely through the “pass descending to the next lower bench.”\n\nB. CORRECT. Paragraph 3 describes the land where the herd was as being “as level as a floor” but “rimmed by sheer rock, from which there was a drop to the bench of sage below.” The drop was “a perpendicular fall of about three hundred feet”—any animal or person could fall over that edge. It was the change in height, from flat tableland to sheer drop-off, that made the terrain so dangerous.\n\nC. Incorrect. The use of the word “desert” in the first sentence of the paragraph does not highlight the isolation of the setting or indicate that the riders and the herd were uncomfortable being alone. Instead, the word merely establishes the setting where the action occurred: “it lay as level as a floor, rimmed by sheer rock, from which there was a drop to the bench of sage below.”\n\nD. Incorrect. The excerpt does not indicate that the steep terrain made it difficult for the herd to move forward. The herd was not expected to navigate the steep terrain. Instead, the steep terrain presented a danger to the herd that must be avoided. The riders intended to move the herd safely through passes that descended gradually to lower elevations."
+          }
+        },
+        {
+          "id": "AR32",
+          "q_number": 82,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 13.\n\n**Close on their left bore down the flank of the herd, and on their right, under their very feet, was a precipice, so close that they felt its blackness—its three hundred feet of fall!**\n\nThe phrase “bore down the flank of the herd” conveys that Wade",
+          "options": {
+            "A": "struggled to see the front of the herd.",
+            "B": "had to ride quickly to keep up with the herd.",
+            "C": "was forced to ride between the edge of the cliff and the herd.",
+            "D": "knew that the drop of the cliff would frighten the herd."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks what the phrase “bore down the flank of the herd” (paragraph 13) conveys about Wade.\n\nA. Incorrect. While Wade struggled to see the front of the herd, the words “bore down the flank of the herd” (paragraph 13) are meant to convey the intensity of the situation Wade was in, not the way the herd is blocking his vision.\n\nB. Incorrect. The sentence from paragraph 13 states that the herd was “close on their left” and includes the phrase “bore down.” Both of these phrases indicate that Wade was trapped between the stampeding herd and the steep cliff. Wade and Peroxide Jim were struggling to reach the very front of the herd to turn it away from the edge.\n\nC. CORRECT. The phrase “bore down the flank of the herd” from paragraph 13 conveys the overwhelming strength of the herd. The herd was forcing Wade toward the cliff. The wording in the quotation emphasizes the immediate danger of the situation and conveys the idea that Wade and Peroxide Jim were almost forced over the edge of the precipice by the stampeding herd.\n\nD. Incorrect. The phrase “bore down the flank of the herd” (paragraph 13) does not indicate anything about the fear felt by the herd. The phrase is about Wade's position between the edge of the stampeding herd and the drop-off. Wade was aware of the danger the herd was in if he and Peroxide Jim could not turn the cattle from the edge."
+          }
+        },
+        {
+          "id": "AR33",
+          "q_number": 83,
+          "question_type": "mc",
+          "question": "Read these sentences from the excerpt.\n\n**He was riding to turn the herd, too, back from the rim, as the horse also knew.** (paragraph 11)\n\n**It was Peroxide Jim's, according to Wade, for not by word or by touch of hand or knee had the horse been directed in the run.** (paragraph 16)\n\nHow do these sentences develop a central idea in the excerpt?",
+          "options": {
+            "A": "They suggest that Wade would have been unable to save the herd without Peroxide Jim.",
+            "B": "They imply that Wade spent many hours training Peroxide Jim to herd cattle.",
+            "C": "They show that Peroxide Jim was able to understand a situation and take action.",
+            "D": "They indicate that Peroxide Jim was unafraid of the dangers presented by the stampede and the cliff."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks how the two sentences develop a central idea in the excerpt.\n\nA. Incorrect. While the sentences suggest that Peroxide Jim played a significant role in saving the herd, they do not indicate that Wade would have been completely unable to save the herd on his own.\n\nB. Incorrect. The sentences do not provide any information about how Peroxide Jim was trained; rather, they emphasize that the horse acted on his own instinct and understanding during the stampede, without direction from Wade.\n\nC. CORRECT. Both sentences emphasize that Peroxide Jim acted independently, without guidance from Wade (“as the horse also knew” and “not by word or by touch of hand or knee had the horse been directed in the run”). This shows that the horse was able to understand the dangerous situation and take appropriate action on his own, which develops the central idea that Peroxide Jim possessed remarkable instinct and intelligence.\n\nD. Incorrect. While the excerpt elsewhere indicates that Peroxide Jim acted “without a false step or a tremor of fear” (paragraph 16), these two particular sentences focus on the horse's independent understanding and action, not specifically on his lack of fear."
+          }
+        },
+        {
+          "id": "AR34",
+          "q_number": 84,
+          "question_type": "mc",
+          "question": "How do the details in paragraphs 14–16 help convey a central idea of the excerpt?",
+          "options": {
+            "A": "They highlight Peroxide Jim's natural ability to control the herd.",
+            "B": "They emphasize the danger of the situation from which Peroxide Jim rescued the herd.",
+            "C": "They show that Peroxide Jim's physical strength allowed him to force the herd to turn.",
+            "D": "They indicate that Peroxide Jim anticipated the herd's stampede before the men did."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks how the details in paragraphs 14–16 help convey a central idea of the excerpt.\n\nA. CORRECT. Paragraphs 14–16 describe how Peroxide Jim's “marvelous instinct” headed off the herd and drove it away from the cliff. Wade acknowledged that without his instruction, Peroxide Jim knew to find the leader of the herd, cut him off from the rest of the herd, and then lead him to safety, confident that the remainder of the herd would follow. Paragraph 16 confirms this: “Whose race was it? It was Peroxide Jim's, according to Wade, for not by word or by touch of hand or knee had the horse been directed in the run.” This reinforces a central idea of the excerpt regarding the horse's amazing intellect and ability.\n\nB. Incorrect. Although paragraphs 14–16 mention the “rim,” the “cliffs,” and the “indescribably perilous path,” these details are not the focus of the paragraphs. They are descriptions of the setting where Peroxide Jim's able and effective actions saved the stampeding herd, and it is these actions that are the central idea being conveyed.\n\nC. Incorrect. Although Peroxide Jim is called “powerful” in paragraph 1, his physical strength is neither a central idea of the excerpt nor the focus of paragraphs 14–16. His success at turning the herd was attributed to his intellect and instinct, not his physical strength.\n\nD. Incorrect. The excerpt does not suggest that Peroxide Jim anticipated the herd's stampede before the men did. In fact, the excerpt indicates that Wade led the men in singing to cover sudden noises that might cause the herd to stampede, indicating that Wade was alert to that possibility. Paragraph 7 also indicates that Wade anticipated the stampede, as he “checked his horse instantly” and “tightened [his] grip on the reins” as soon as he smelled the rain and heard the low rumble of thunder that preceded the lightning strike. The narrator notes Wade's actions well before the horse's actions. Paragraphs 14–16 describe how Peroxide Jim acted after the stampede began."
+          }
+        },
+        {
+          "id": "AR35",
+          "q_number": 85,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt **best** reveals the mood on the drive before the lightning struck?",
+          "options": {
+            "A": "“The herd when overtaken by the dusk had been headed for a pass descending to the next lower bench, but was now halted within a mile of the rim rock on the east, where there was a perpendicular fall of about three hundred feet.” (paragraph 3)",
+            "B": "“It was not to soothe their savage breasts that the riders sang to the cattle, but rather to preempt the dreaded silence, to relieve the tension, and so to prevent the shock of any sudden startling noise.” (paragraph 5)",
+            "C": "“He checked his horse instantly, listening as the wind swept past him over the cattle.” (paragraph 7)",
+            "D": "“Then the breeze caught the dust and carried it back from the gray-coated, ghostly shapes, and Wade saw that the animals were still moving in a circle.” (paragraph 9)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks which sentence from the excerpt best reveals the mood on the drive before the lightning struck.\n\nA. Incorrect. The sentence from paragraph 3 describes the setting but does not contain words that create a strong mood. In fact, this sentence shows that while there were dangerous surroundings, the riders and the herd were “now halted.”\n\nB. CORRECT. The sentence from paragraph 5 describes the riders singing “to preempt the dreaded silence, to relieve the tension” and to prevent “shock” from any sudden noise. These words provide a strong sense of the tense, heavy mood in which a terrible event such as a stampede could quickly happen.\n\nC. Incorrect. In the sentence from paragraph 7, Wade has become aware of a change in the weather (“caught a breath of fresh, moist wind with the taste of water” [paragraph 6]) and is seeking to verify it. Even though a rainstorm was one concern the riders had, the words describing Wade's immediate reaction to his discovery do not best convey the mood of dread and foreboding that the men and horses feel just before the lightning strike.\n\nD. Incorrect. While the words “ghostly” and “still moving in a circle” in the sentence from paragraph 9 create a strange and mysterious image, the mood before the lightning struck was not one of mystery or suspense. Instead, these descriptive words are used to indicate Wade's faint ability to see the herd moving in the dark."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Massachusetts: Lowell National Historical Park",
+      "author": null,
+      "citation": "From “Massachusetts: Lowell National Historical Park”—Public Domain/National Park Service",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "During the first half of the 19th century, Lowell, Massachusetts, quickly transformed itself from a farm town to a bustling industrial city. In time, Lowell became a model of industry, gaining global recognition for its state-of-the-art technology, innovative canal and dam system, mill architecture, boardinghouses, churches, and ethnic neighborhoods. Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills, or visit the industrious city that was becoming a popular tourist destination. As one Scottish traveler observed during his visit to America, “Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.” Today, Lowell National Historical Park welcomes visitors to enjoy the sights of Lowell and learn about the history of one of America's most significant industrial cities."
+        },
+        {
+          "num": 2,
+          "text": "The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's Merrimack River to take advantage of the kinetic energy offered by the Pawtucket waterfalls. Over six miles of canals powered the waterwheels of Lowell's mills, whose massive five- and six-story brick buildings dominated the city's landscape. . . . The most recognized of these buildings are the Lowell Manufacturing Company chartered in 1821, the Suffolk or Wannalancit Mill completed around the 1880s, the Boott Mill Company established in 1835, and the Boott Mill Boardinghouse that opened in 1838. By the 1850s, 40 textile mills employing over 10,000 workers stretched for about a mile along the river. . . ."
+        },
+        {
+          "num": 3,
+          "text": "The city's female workforce was significant in the history of Lowell. From the early to mid-1800s, women left the constricted lifestyle of small rural towns and rural areas for independent industrial city life. Most were young single Yankee girls, who were tired of the limited opportunities offered by their domestic work. Women found that Lowell's mills offered monthly wages for their services and provided them room and board. Although these women gained economic independence in Lowell, the mill boardinghouse keepers constantly supervised their social activities, for which they hardly had any time, considering their daily 12- to 14-hour work schedules. At the end of the day, the factory bell signaled the “mill girls” to return to their boardinghouses. They were expected to adhere to the strict code of conduct respecting curfew and attending church."
+        },
+        {
+          "num": 4,
+          "text": "Yankee “mill girls” continued to dominate the Lowell workforce until the 1840s, when the city began to find it difficult to compete with the growing industrial development in other New England communities. As profits fell, the mill industry cut wages. These wage cuts, deteriorating working conditions, and long workdays led the “mill girls” to protest and organize strikes. When their demands went unheard, the women left Lowell, and immigrant groups replaced them in the workforce. Despite the low wages and unhealthy work conditions, immigrants were eager to find work."
+        },
+        {
+          "num": 5,
+          "text": "The immigrants replacing the Yankee “mill girls” during the 1840s were predominantly Irish Catholics, who traveled to America during the Great Potato Famine. Although Lowell received an influx of Irish families during this time, the Irish were a part of the city's history from its birth, and before the “mill girls” arrived, they built Lowell's historic canals, mills, and boardinghouses. Initially, Lowell's Protestant community was slow to welcome Irish immigrants, but the hostility between Yankee Protestants and Irish Catholics eventually disappeared. Irish immigrants dominated the industrial scene until the Civil War, when other immigrant groups began to work in the city mills."
+        },
+        {
+          "num": 6,
+          "text": "Like the Irish, the French-Canadians, Greeks, Poles, Portuguese, Russian Jews, and Armenians who came to work in Lowell's mills faced long work hours, low wages, and poor living conditions in the city's crowded tenements. By the time Lowell's industry declined, the city had become an ethnic melting pot, where each group claimed its own distinct neighborhood, like the Irish immigrants' “New Dublin” or “Acre,” and the French-Canadians' “Little Canada.” The city officially began to close down its mills in the 1920s and '30s after Lowell's outdated mills could no longer compete against the state-of-the-art cotton mills in other communities and working conditions continued to decline as Lowell's companies stopped reinvesting in their mills. . . . Despite a brief resurgence during World War II, the city shut down its last surviving mill by the mid-1950s."
+        }
+      ],
+      "questions": [
+        {
+          "id": "AR36",
+          "q_number": 86,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 1.\n\n**As one Scottish traveler observed during his visit to America, “Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.”**\n\nThe author **most likely** includes the quotation from the Scottish traveler in order to",
+          "options": {
+            "A": "suggest that people around the world saw the direct contribution of nature and industry to the United States.",
+            "B": "compare the natural and industrial attractions in the United States at that time.",
+            "C": "convey the idea that the United States offered both natural and industrial attractions.",
+            "D": "imply that the natural resources in the United States contributed to the development of industry."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks why the author most likely includes the quotation from the Scottish traveler in paragraph 1 of the passage.\n\nA. Incorrect. While it is likely that people outside the United States recognized that both the natural landscape and the bustling industry were significant, the quotation from the Scottish traveler is meant to convey the variety of the types of attractions in the U.S., not to make a general statement about their contribution.\n\nB. Incorrect. The Scottish traveler mentions both “American scenery” and “American industry” in the quotation, but the intent is to highlight that they are each points of interest. The quotation does not provide a comparison of the two attractions.\n\nC. CORRECT. The quotation emphasizes the idea that the United States offers different attractions. The Scottish traveler highlights the two places in the United States that he will most remember: first, the beautiful natural formation of Niagara Falls (“'the glory of American scenery'”) and second, the industrial city of Lowell (“'the glory . . . of American industry'”).\n\nD. Incorrect. The Scottish traveler mentions both “American scenery” and “American industry” in the quotation but does not imply that the natural resources contributed to the development of industry."
+          }
+        },
+        {
+          "id": "AR37",
+          "q_number": 87,
+          "question_type": "mc",
+          "question": "Which description from the passage **best** conveys the central idea that Lowell was “one of America's most significant industrial cities” (paragraph 1)?",
+          "options": {
+            "A": "the reference to the early immigrants from Ireland who built Lowell's canals, mills, and boardinghouses.",
+            "B": "the details about the women and immigrants who worked in Lowell's mills.",
+            "C": "the details about the development of the mills and the people who worked in them throughout Lowell's history.",
+            "D": "the reference to Lowell's culturally diverse community of Yankee women, immigrant families, and tourists."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks which description conveys the central idea that Lowell was “one of America's most significant industrial cities” (paragraph 1).\n\nA. Incorrect. While the passage does state that the city's canals, mills, and boardinghouses were built by early immigrants from Ireland, these details do not contribute to the development of the overall idea that Lowell was a significant industrial city.\n\nB. Incorrect. The details about the women and immigrants who worked in the mills is important to the passage, but these details alone do not show that Lowell was a significant industrial city.\n\nC. CORRECT. The details throughout the passage about the development of the mills and the people who worked in them convey the significance of Lowell in early American industry. Paragraph 2 shares details about the businesses that started in the early 1800s and contributed to the development of industry in the region (“The most recognized of these buildings are the Lowell Manufacturing Company chartered in 1821, the Suffolk or Wannalancit Mill completed around the 1880s, the Boott Mill Company established in 1835, and the Boott Mill Boardinghouse that opened in 1838”). Then paragraphs 3–6 provide specific details about the people who worked in the mills at different points in time.\n\nD. Incorrect. Although the passage references Lowell's culturally diverse community (“Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills” [paragraph 1]), these groups alone are not what marked Lowell as a significant industrial city."
+          }
+        },
+        {
+          "id": "AR38",
+          "q_number": 88,
+          "question_type": "mc",
+          "question": "Which sentence from paragraph 2 **best** supports the idea that Lowell became “a bustling industrial city” (paragraph 1) in a short period of time?",
+          "options": {
+            "A": "“The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's Merrimack River to take advantage of the kinetic energy offered by the Pawtucket waterfalls.”",
+            "B": "“Over six miles of canals powered the waterwheels of Lowell's mills, whose massive five- and six-story brick buildings dominated the city's landscape.”",
+            "C": "“The most recognized of these buildings are the Lowell Manufacturing Company chartered in 1821, the Suffolk or Wannalancit Mill completed around the 1880s, the Boott Mill Company established in 1835, and the Boott Mill Boardinghouse that opened in 1838.”",
+            "D": "“By the 1850s, 40 textile mills employing over 10,000 workers stretched for about a mile along the river.”"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks for the sentence in paragraph 2 that best supports the idea that Lowell became “a bustling industrial city” (paragraph 1) in a short period of time.\n\nA. Incorrect. While the sentence provides details on when the town of Lowell was founded and the natural features of the area, it does not support the idea that the city became “a bustling industrial city” in a short period of time.\n\nB. Incorrect. Although this sentence indicates that the mill buildings were a noticeable feature of the city, it does not emphasize how quickly the city grew into an industrial center.\n\nC. Incorrect. While this sentence lists several prominent mill buildings in Lowell, the dates given span many decades, which does not support the idea that the city became industrial in a short period of time.\n\nD. CORRECT. This sentence shows that by the 1850s—just a few decades after the city's founding in 1821—Lowell already had 40 textile mills employing over 10,000 workers, directly supporting the idea that the city quickly became a bustling industrial city."
+          }
+        },
+        {
+          "id": "AR39",
+          "q_number": 89,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 3.\n\n**From the early to mid-1800s, women left the constricted lifestyle of small rural towns and rural areas for independent industrial city life.**\n\nWhich statement **best** describes how the sentence fits into the overall structure of the passage?",
+          "options": {
+            "A": "It provides a transition from a description of the mills to a description of the workforce in those mills.",
+            "B": "It indicates a shift in tone from positive and hopeful to negative and dissatisfied with working conditions at the mill.",
+            "C": "It summarizes a challenge that led many women to leave their hometown and seek work in urban areas.",
+            "D": "It begins a comparison of the mill workforce between the mid-1800s and the late 1800s."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks which statement best describes how the sentence in paragraph 3 fits into the overall structure of the passage.\n\nA. CORRECT. The sentence in paragraph 3 provides a transition from the overall description of the city and the mills to a description of the women who made up the workforce in the mills. The idea that women left domestic life in favor of working in the mills is important in the passage, and the sentence serves to connect that idea to the previous discussion about the mills.\n\nB. Incorrect. While the mill girls' dissatisfaction with their working conditions is addressed later in the passage (“These wage cuts, deteriorating working conditions, and long workdays led the 'mill girls' to protest and organize strikes” [paragraph 4]), the sentence in paragraph 3 does not indicate a shift in tone from positive to negative. The sentence provides a transition to the discussion of the women who worked in the mills.\n\nC. Incorrect. Although the sentence in paragraph 3 mentions that women became interested in working in the mills because of the “constricted lifestyle of small rural towns,” structurally the sentence serves primarily as a transition rather than a summary of a challenge.\n\nD. Incorrect. The sentence does not begin a comparison of the mill workforce between the mid-1800s and the late 1800s; rather, it introduces the topic of the female workforce that is discussed in the remainder of paragraph 3 and in paragraph 4."
+          }
+        },
+        {
+          "id": "AR40",
+          "q_number": 90,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 5.\n\n**Although Lowell received an influx of Irish families during this time, the Irish were a part of the city's history from its birth, and before the “mill girls” arrived, they built Lowell's historic canals, mills, and boardinghouses.**\n\nHow does this sentence contribute to the development of ideas in the passage?",
+          "options": {
+            "A": "It implies that Lowell was founded by early Irish immigrants.",
+            "B": "It emphasizes the important role Irish immigrants played in Lowell's history.",
+            "C": "It suggests that the new Irish immigrants were readily accepted into the community.",
+            "D": "It highlights the working relationship between the mill girls and the new Irish immigrants."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks how the sentence in paragraph 5 contributes to the development of ideas in the passage.\n\nA. Incorrect. The sentence from paragraph 5 does not imply that Lowell was founded by early Irish immigrants. The sentence explains how Irish immigrants had been settling in Lowell since the city was established and that they contributed to the construction of the city, which allowed it to become an industrial center several decades later.\n\nB. CORRECT. The sentence from paragraph 5 shows that early Irish immigrants were critical to the success of Lowell as an industrial city. This information supports the development of the idea that the work of Irish immigrants and immigrants from other places is an important element in the historical significance of industry in Lowell.\n\nC. Incorrect. The sentence from paragraph 5 does not suggest that new Irish immigrants were readily accepted into the community. Paragraph 5 states that “initially, Lowell's Protestant community was slow to welcome Irish immigrants, but the hostility between Yankee Protestants and Irish Catholics eventually disappeared.”\n\nD. Incorrect. The sentence from paragraph 5 does not highlight the relationship between the mill girls and the new Irish immigrants. Paragraph 4 explains how the mill girls left Lowell, and paragraph 5 states that the mill girls were replaced by “predominantly Irish Catholics, who traveled to America during the Great Potato Famine” but does not discuss a relationship between them."
+          }
+        },
+        {
+          "id": "AR41",
+          "q_number": 91,
+          "question_type": "mc",
+          "question": "Which sentence **best** summarizes the mill girls' experience as the dominant workforce in Lowell?",
+          "options": {
+            "A": "The mill girls were eager to leave their domestic duties and small towns behind, so they went to work in the mills of Lowell.",
+            "B": "Originally, the mill girls were satisfied to work in Lowell, but as they left their jobs at the Lowell mills, immigrants arrived to fill the empty positions.",
+            "C": "Young women left home to work in the Lowell mills, but the mill girls soon became dissatisfied with the working conditions and rigid boardinghouse rules.",
+            "D": "The mill girls embraced city life when they came to work in Lowell's mills, but when their protests about unfavorable working conditions went unanswered, they left."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks for the sentence that best summarizes the mill girls' time as the dominant workforce in Lowell.\n\nA. Incorrect. While the passage explains that mill girls were initially eager to leave the domestic duties of life in rural areas, the summary sentence does not address the details about the mill girls' time working in the mills or the changes that led the mill girls to leave the industry.\n\nB. Incorrect. Mill girls initially found satisfaction in the mill work and lifestyle, and when they did leave, immigrants filled the empty jobs. This summary sentence, however, does not address the details about the mill girls' time as the primary workforce in Lowell or the circumstances that led them to leave their jobs in the mid-1800s.\n\nC. Incorrect. Mill girls did leave home to work in the Lowell mills, and they did grow dissatisfied over time, but this summary sentence does not include details about the mill girls' actions to improve the working conditions.\n\nD. CORRECT. This sentence summary best captures the mill girls' experience as outlined in paragraphs 3 and 4. The sentence concisely summarizes both the women's initial excitement about the opportunity to live independently (“Women found that Lowell's mills offered monthly wages for their services and provided them room and board” [paragraph 3]) and their eventual inability to secure better working conditions (“When their demands went unheard, the women left Lowell, and immigrant groups replaced them in the workforce” [paragraph 4])."
+          }
+        },
+        {
+          "id": "AR42",
+          "q_number": 92,
+          "question_type": "mc",
+          "question": "The reason Lowell lost its status as an industrial leader is **best** illustrated through the",
+          "options": {
+            "A": "description of poor living and working conditions.",
+            "B": "explanation for why some immigrant groups struggled to live together.",
+            "C": "comparison with other mills that used modern methods.",
+            "D": "information about the mills opening temporarily during World War II."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks for the reason that best illustrates why Lowell lost its status as an industrial leader.\n\nA. Incorrect. While the passage discusses the “long work hours, low wages, and poor living conditions in the city's crowded tenements” (paragraph 6) in Lowell, these details highlight the living and working conditions of immigrant groups. The author does not state that poor living and working conditions are the reason Lowell lost its status as a “model of industry.”\n\nB. Incorrect. Paragraph 5 in the passage acknowledges that there was some tension between the different ethnic and religious groups in Lowell, but this idea is not what led to Lowell's decline as a “model of industry.”\n\nC. CORRECT. The passage explains that Lowell's outdated mills could no longer compete against the state-of-the-art cotton mills in other communities, which directly led to the decline and eventual closing of Lowell's mills (“The city officially began to close down its mills in the 1920s and '30s after Lowell's outdated mills could no longer compete against the state-of-the-art cotton mills in other communities” [paragraph 6]).\n\nD. Incorrect. Although the passage mentions a “brief resurgence during World War II” (paragraph 6), this detail does not explain why Lowell lost its status as an industrial leader; rather, it shows a temporary exception to the city's overall decline."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 7,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Benefits of Indoor Plants",
+      "author": null,
+      "citation": null,
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "In an age of endless media content, it is easy to see why people might prefer to stay inside."
+          },
+          {
+            "num": 2,
+            "text": "According to a study sponsored by the Environmental Protection Agency, Americans spend an average of 87 percent of their time indoors."
+          },
+          {
+            "num": 3,
+            "text": "Scientists say that this separation between people and nature puts people at risk for physical and psychological issues."
+          }
+        ],
+        [
+          {
+            "num": 4,
+            "text": "During the process of photosynthesis, plants convert carbon dioxide into oxygen and remove many harmful toxins from the air."
+          },
+          {
+            "num": 5,
+            "text": "Spending prolonged periods of time indoors, away from plants, deprives people of these benefits."
+          },
+          {
+            "num": 6,
+            "text": "Air that is not regularly detoxified can lead to a condition known as sick building syndrome."
+          },
+          {
+            "num": 7,
+            "text": "This disorder first came to light in the 1970s when many office workers in the United States began to complain of unexplained flu-like symptoms."
+          },
+          {
+            "num": 8,
+            "text": "Researchers determined the cause to be volatile organic compounds, or VOCs."
+          },
+          {
+            "num": 9,
+            "text": "VOCs are harmful chemicals that are emitted by everyday objects such as carpet, furniture, cleaning products, and computers."
+          },
+          {
+            "num": 10,
+            "text": "The NASA Clean Air Study found a simple way to remove a significant number of VOCs within a 24-hour period: add plants to indoor spaces."
+          }
+        ],
+        [
+          {
+            "num": 11,
+            "text": "Adding plants to indoor spaces has psychological benefits too."
+          },
+          {
+            "num": 12,
+            "text": "Research has long linked time spent in natural environments with increased energy and feelings of contentment."
+          },
+          {
+            "num": 13,
+            "text": "While being outdoors is an excellent option for improving a person's mental health, recent research has indicated that encountering natural elements while indoors can also help."
+          },
+          {
+            "num": 14,
+            "text": "To experience the maximum benefit of natural elements, experts suggest placing at least one live plant per 100 square feet of home or office space."
+          }
+        ],
+        [
+          {
+            "num": 15,
+            "text": "Connecting with nature, even just by being near an indoor plant, is a significant factor in a person's well-being."
+          },
+          {
+            "num": 16,
+            "text": "Sitting in front of an electronic screen all day isn't natural, and today's workers need to get up and get outdoors."
+          },
+          {
+            "num": 17,
+            "text": "Richard Ryan, a psychology professor at the University of Rochester, puts it this way: “Nature is something within which we flourish, so having it be more a part of our lives is critical, especially when we live and work in built environments.”"
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "AR43",
+          "q_number": 93,
+          "question_type": "mc",
+          "question": "Which sentence should follow sentence 3 to **best** introduce the topic of the passage?",
+          "options": {
+            "A": "Placing plants in homes and offices can provide a healthy bridge between nature and the indoors.",
+            "B": "It is important for people to realize that they need to spend more time near plants, whether indoors or out in nature.",
+            "C": "For their personal health and well-being, people need to spend more time outdoors or bring the outdoors in.",
+            "D": "Individuals with little connection to nature can experience illness, depression, and higher levels of stress."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks which sentence should follow sentence 3 to best introduce the topic of the passage.\n\nA. CORRECT. The sentence introduces the overall topic by previewing the main idea of the passage: that placing plants indoors can provide a healthy connection between nature and the indoor environments where people spend most of their time, which both the physical-health section (sentences 4-10) and the psychological-health section (sentences 11-14) go on to support.\n\nB. Incorrect. This sentence references spending time near plants whether indoors or outdoors, but the passage focuses specifically on the benefits of having plants indoors, not on spending time in nature generally.\n\nC. Incorrect. This sentence suggests two separate solutions (going outdoors or bringing the outdoors in), but the passage's focus is specifically on indoor plants, not on spending more time outdoors.\n\nD. Incorrect. This sentence restates the risks of being disconnected from nature mentioned in sentence 3, rather than introducing the passage's main topic of indoor plants as a solution."
+          }
+        },
+        {
+          "id": "AR44",
+          "q_number": 94,
+          "question_type": "mc",
+          "question": "Which transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5?",
+          "options": {
+            "A": "Therefore,",
+            "B": "Unfortunately,",
+            "C": "For example,",
+            "D": "Similarly,"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks which transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5.\n\nSentence 4 explains that plants convert carbon dioxide into oxygen and remove harmful toxins from the air. Sentence 5 explains that spending prolonged time away from plants deprives people of these benefits. “Unfortunately,” is the correct transition because it emphasizes the negative consequence (being deprived of a benefit) that follows from the positive information in sentence 4, matching the passage's point that staying indoors, away from plants, is a problem.\n\n“As a result,” would suggest sentence 5 is a direct effect of sentence 4's process, which is not quite accurate since sentence 5 describes a separate circumstance (being away from plants), not a result of photosynthesis itself. “Primarily,” doesn't fit because sentence 5 is not identifying a main cause. “In contrast,” is incorrect because sentence 5 does not contrast with sentence 4; it builds on the idea by showing a consequence of lacking the benefit described."
+          }
+        },
+        {
+          "id": "AR45",
+          "q_number": 95,
+          "question_type": "mc",
+          "question": "Which sentence could **best** follow sentence 13 to support the ideas in the third paragraph (sentences 11–14)?",
+          "options": {
+            "A": "The sentence could best follow sentence 13 because it directly supports the main idea of the third paragraph that indoor plants provide “psychological benefits” (sentence 11) by presenting the findings of a relevant research study.",
+            "B": "A 2015 study of office workers from sixteen countries revealed that employees who worked near plants were more creative and productive than employees without plants.",
+            "C": "A survey found that one well-known hotel is popular with guests because its indoor plants are known to have a calming effect on travelers.",
+            "D": "A 2018 study revealed that people who are routinely exposed to natural elements and surroundings tend to increase their compassion for others, suggesting that natural exposure generates compassion for others."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks which sentence could best follow sentence 13 to support the ideas in the third paragraph (sentences 11-14).\n\nA. Incorrect. This option restates the question rather than providing a sentence that could be inserted into the passage.\n\nB. CORRECT. The sentence could best follow sentence 13 because it directly supports the main idea of the third paragraph that indoor plants provide “psychological benefits” (sentence 11) by presenting the findings of a relevant research study. The details about the study provide a concrete example of the mental benefits of indoor plants: the employees in the study who worked near plants “were more creative” and accomplished more than those who worked in spaces without plants.\n\nC. Incorrect. Although the sentence describes a study in which indoor plants were found to have a positive effect, it does not clearly support the ideas in sentences 11-14, because the sentence focuses on how guests perceive indoor spaces at a hotel rather than on the psychological benefits that individuals experience from being near plants.\n\nD. Incorrect. While the sentence describes a study conducted in 2018, plants are not mentioned as the source of the increased compassion people perceive in indoor spaces; the sentence focuses on exposure to natural elements and surroundings generally, not specifically on indoor plants."
+          }
+        },
+        {
+          "id": "AR46",
+          "q_number": 96,
+          "question_type": "mc",
+          "question": "Which sentence presents ideas irrelevant to the topic of the passage and should be deleted?",
+          "options": {
+            "A": "sentence 11",
+            "B": "sentence 14",
+            "C": "sentence 15",
+            "D": "sentence 16"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks which sentence presents ideas irrelevant to the topic of the passage and should be deleted.\n\nA. Incorrect. Sentence 11 (“Adding plants to indoor spaces has psychological benefits too”) introduces the topic of the third paragraph and is relevant to the passage's focus on the benefits of indoor plants.\n\nB. Incorrect. Sentence 14 provides a practical recommendation (one live plant per 100 square feet) that is directly relevant to the passage's discussion of maximizing the benefits of indoor plants.\n\nC. Incorrect. Sentence 15 reinforces the passage's central idea that connecting with nature through indoor plants is significant to a person's well-being.\n\nD. CORRECT. Sentence 16 (“Sitting in front of an electronic screen all day isn't natural, and today's workers need to get up and get outdoors”) shifts the focus to screen time and getting outdoors, which is a tangent not directly related to the passage's specific focus on the benefits of indoor plants. This idea is irrelevant to the topic and disrupts the flow of the passage's argument about indoor plants specifically."
+          }
+        },
+        {
+          "id": "AR47",
+          "q_number": 97,
+          "question_type": "mc",
+          "question": "Which concluding sentence should follow sentence 17 to **best** support the information presented in the passage?",
+          "options": {
+            "A": "Because indoor plants absorb the carbon dioxide in our air and release the oxygen we need to breathe, they are vital to our wholeness and wellness.",
+            "B": "Experts say that adding a Boston fern, a spider plant, or an aloe vera plant is a good place to start if you want to begin to incorporate nature into your home or office.",
+            "C": "More people should consider bringing natural elements inside to improve general wellness and reverse some of the negative effects of an indoor-centered society.",
+            "D": "As one study has confirmed, houseplants are a wise investment because they can remove almost 90 percent of the toxins in the air within the span of 24 hours."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks which concluding sentence should follow sentence 17 to best support the information presented in the passage.\n\nA. Incorrect. This sentence only addresses the physical benefit of indoor plants (removing carbon dioxide) discussed in the second paragraph; it does not serve as an effective conclusion because it fails to also capture the psychological benefits discussed in the third and fourth paragraphs.\n\nB. Incorrect. This sentence provides specific plant recommendations, which is a narrow, practical detail rather than a conclusion that ties together the passage's overall argument about both the physical and psychological benefits of indoor plants.\n\nC. CORRECT. This sentence serves as an effective conclusion because it broadly captures both central ideas of the passage—the physical health benefits (removing toxins) and the psychological well-being benefits (countering an “indoor-centered society”)—and reinforces the passage's overall argument that people should bring natural elements indoors.\n\nD. Incorrect. This sentence only restates a specific physical benefit (toxin removal) mentioned earlier in the passage (the NASA Clean Air Study) and does not address the psychological benefits discussed in the third and fourth paragraphs, making it an incomplete conclusion."
+          }
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P1028E-AR48",
+      "q_number": 98,
+      "question_type": "mc",
+      "question": "(1) Priya and Noor have spent three months building a robot for the school's engineering fair. (2) They designed the robot's arm to pick up small objects and sort them by color. (3) After school, she also volunteers at the community center teaching younger kids basic coding. (4) Both girls hope their robot will place in the top three at the regional competition.\n\nWhich sentence of the paragraph should be revised to correct a vague pronoun?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Sentence 3 uses “she” (“she also volunteers”), but with two girls named in sentence 1 — Priya and Noor — there's no way to tell which one “she” means.\n\n**Why this sounds right:** Since the robot project was just described as something both girls do together, your brain quietly assigns “she” to whichever girl you pictured first — but nothing in the sentence itself actually locks that connection down.\n\n**The concept:** A pronoun needs exactly one clear noun it could be replacing. If a sentence has two or more people or things it could plausibly point to — or if it doesn't clearly point to anything — the pronoun is vague. Fix it by swapping the pronoun back out for the actual name or noun, or by rewriting the sentence so only one candidate is possible.\n\n**More examples of this mistake:**\n- \"Maria told her sister that she had won the scholarship.\" (Who won — Maria or her sister? \"She\" could point to either.)\n- \"The coach argued with the referee, and then he stormed off the field.\" (Who stormed off — the coach or the referee?)"
+      },
+      "base_source": "Exam A — Standalone (AR48)",
+      "base_question": {
+        "stimulus": "(1) Eliza and Brianna have been singing in their school chorus since they were in fourth grade. (2) The girls always sing a duet at the school talent show, and they take turns singing the national anthem before school sporting events. (3) Outside of school, she also sings in a choir made up of young and old members of her community. (4) Both girls hope that they will be able to continue singing for many more years.",
+        "question": "Which sentence of the paragraph should be revised to correct a vague pronoun?",
+        "options": {
+          "A": "sentence 1",
+          "B": "sentence 2",
+          "C": "sentence 3",
+          "D": "sentence 4"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "The question asks for identification of the sentence with a vague pronoun.\n\nA. Incorrect. There is no vague pronoun in sentence 1, which correctly uses the plural pronouns “their”/“they” to refer to both Eliza and Brianna.\n\nB. Incorrect. There is no vague pronoun in sentence 2, which uses the pronoun “they” to correctly refer to both girls again.\n\nC. CORRECT. Sentence 3 is the only sentence where the pronoun is vague. The sentence uses the pronoun “she” near the beginning, but whether “she” refers to Eliza or Brianna is unclear.\n\nD. Incorrect. There is no vague pronoun in sentence 4, which uses the pronoun “they” to correctly refer to “both girls.”"
+        }
+      }
+    },
+    {
+      "id": "P1028E-AR49",
+      "q_number": 99,
+      "question_type": "mc",
+      "question": "(1) Wei, Carlos, and Deja spend every Saturday building birdhouses for the backyard with their uncle. (2) Wei's job is to measure each wooden plank and mark exactly where the saw should cut. (3) Carlos sands every edge until it is smooth, and Deja helps Uncle Theo nail the roof panels into place. (4) Uncle Theo paints each birdhouse once they are dry, while all three friends get the porch ready for a bright cheerful celebration.\n\nWhich pair of revisions is needed to correct the errors in the paragraph?",
+      "options": {
+        "A": "Sentence 1: Delete the comma after **Wei** AND change **their** to **his**.",
+        "B": "Sentence 2: Change **is** to **are** AND insert a comma after **plank**.",
+        "C": "Sentence 3: Change **it is** to **they are** AND delete the comma after **smooth**.",
+        "D": "Sentence 4: Change **they are** to **it is**, AND insert a comma after **bright**."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "In sentence 4, “each birdhouse” is singular, so the pronoun has to be singular too — “they are” should be “it is.” A comma is also needed between “bright” and “cheerful,” which both independently describe “celebration” (you could just as easily say “cheerful, bright celebration”).\n\n**Why this sounds right:** “They” feels natural because the sentence has been talking about three kids throughout the paragraph, so a plural pronoun blends in — even though the specific antecedent here, “each birdhouse,” is singular. “Bright cheerful celebration” also reads fine as one smooth descriptive phrase, the same way “hot sunny afternoon” would.\n\n**The concept:** A pronoun has to match the number of the noun it's replacing — singular noun, singular pronoun (\"it\"); plural noun, plural pronoun (\"they\"/\"them\"). Find the antecedent (the noun the pronoun stands in for), check if it's one thing or more than one thing, and make sure the pronoun matches. A list of someone's traits or parts (\"its mouth, skin, and coloring\") can look plural, but it's still describing one single subject.\n\n**The concept:** When two adjectives both independently describe the same noun (you could say them in either order, or put \"and\" between them — \"calm and patient,\" \"patient and calm\"), they need a comma between them. If the adjectives don't work that way — if one adjective is really describing the adjective+noun combo together (like \"bright red car,\" where you wouldn't say \"red bright car\") — no comma is needed. Test it: can you swap the order or insert \"and\"? If yes, add the comma.\n\n**More examples of this mistake:**\n- \"The band released their first album in 2019.\" (If \"the band\" is being treated as one singular group, the pronoun should be \"its,\" not \"their.\")\n- \"The jury announced their decision this morning.\" (Same issue — \"its,\" if \"the jury\" is acting as a single body.)\n- \"She wore a bright colorful scarf to the party.\" (Missing comma — \"bright, colorful scarf.\")\n- \"It was a long exhausting shift at the hospital.\" (Missing comma — \"long, exhausting shift.\")"
+      },
+      "base_source": "Exam A — Standalone (AR49)",
+      "base_question": {
+        "stimulus": "(1) <u>Yalina,</u> Michael, and Malcolm love making pancakes with <u>their</u> granddad on Saturday mornings. (2) Yalina's job <u>is</u> to open the box and pour the pancake mix into a <u>bowl,</u> slowly adding water, eggs, melted butter, and blueberries. (3) Michael uses a wooden spoon to vigorously stir the mixture until <u>it is smooth,</u> and Malcolm helps Granddad carefully pour the batter onto a griddle one-fourth cup at a time. (4) Granddad turns each pancake when <u>they start</u> to bubble, while all three siblings get the table ready for a <u>sweet</u> delicious breakfast.",
+        "question": "Which pair of revisions is needed to correct the errors in the paragraph?",
+        "options": {
+          "A": "Sentence 1: Delete the comma after **Yalina**, AND change **their** to **her**.",
+          "B": "Sentence 2: Change **is** to **are**, AND delete the comma after **bowl**.",
+          "C": "Sentence 3: Change **it is** to **they are**, AND delete the comma after **smooth**.",
+          "D": "Sentence 4: Change **they start** to **it starts**, AND insert a comma after **sweet**."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "The question asks which two revisions are needed to correct the paragraph.\n\nA. Incorrect. The comma is needed after “Yalina” to separate the first and second names in the series of three names (Yalina, Michael, and Malcolm). The possessive determiner “their” is also correct as written because it refers back to “Yalina, Michael, and Malcolm,” a plural group of people.\n\nB. Incorrect. Changing “is” to “are” would introduce an error in subject-verb agreement into the sentence; the singular subject “Yalina's job” requires the singular verb “is.” The comma after “bowl” is required because it separates the phrase “slowly adding water, eggs, melted butter, and blueberries,” which modifies how Yalina prepares the batter, from the remainder of the sentence.\n\nC. Incorrect. “It is” refers to the singular noun “mixture,” so this singular pronoun and verb form is correct. The comma after “smooth” is necessary because this is a compound sentence where two independent clauses (“Michael uses a wooden spoon to vigorously stir the mixture until it is smooth” and “Malcolm helps Granddad carefully pour the batter onto a griddle one-fourth cup at a time”) are joined using a coordinating conjunction, which requires a comma.\n\nD. CORRECT. The plural pronoun “they” refers incorrectly to a singular antecedent, “each pancake.” The pronoun should be changed to a singular one to match its antecedent. A comma is needed between two adjectives of equal importance that modify the noun “breakfast.” Because “sweet” and “delicious” could be written as “sweet and delicious,” they are of equal importance, and a comma is needed."
+        }
+      }
+    },
+    {
+      "id": "P1028E-AR50",
+      "q_number": 100,
+      "question_type": "mc",
+      "question": "(1) The Komodo dragon, the largest living lizard on Earth, can grow to be more than nine feet long. (2) Because its legs are short and its body is heavy, the Komodo dragon moves slowly across the ground most of the time. (3) It can still sprint in quick bursts when chasing prey. (4) The Komodo dragon's sharp claws, powerful jaws, and venomous bite caused them to be feared by nearly every animal on its island.\n\nWhich sentence in the paragraph contains an error in construction? There is only one error in construction.",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Sentence 4 switches to the plural pronoun “them” to refer to the Komodo dragon, when the singular “it” is needed — the whole paragraph (sentences 1-3) consistently refers to one single dragon.\n\n**Why this sounds right:** “Them” sits right after a list of three features — “sharp claws, powerful jaws, and venomous bite” — so the plural pronoun feels like it's agreeing with that nearby list, even though it's actually meant to refer back to the one dragon those features belong to.\n\n**The concept:** A pronoun has to match the number of the noun it's replacing — singular noun, singular pronoun (\"it\"); plural noun, plural pronoun (\"they\"/\"them\"). Find the antecedent (the noun the pronoun stands in for), check if it's one thing or more than one thing, and make sure the pronoun matches. A list of someone's traits or parts (\"its mouth, skin, and coloring\") can look plural, but it's still describing one single subject.\n\n**More examples of this mistake:**\n- \"The band released their first album in 2019.\" (If \"the band\" is being treated as one singular group, the pronoun should be \"its,\" not \"their.\")\n- \"The jury announced their decision this morning.\" (Same issue — \"its,\" if \"the jury\" is acting as a single body.)"
+      },
+      "base_source": "Exam A — Standalone (AR50)",
+      "base_question": {
+        "stimulus": "(1) The blobfish, a creature that certainly resembles its name, is an unusual fish whose body is mostly composed of pink, gelatinous flesh. (2) Because it has very few muscles and its density is close to that of water, the blobfish spends its life floating slightly above the ocean floor. (3) It must wait patiently for whatever edible matter might float by its mouth. (4) The blobfish's downturned mouth, slimy skin, and pale coloring caused them to be voted the World's Ugliest Animal in 2013.",
+        "question": "Which sentence in the paragraph contains an error in construction? Move the answer to the box. There is only one error in construction.",
+        "options": {
+          "A": "Sentence 1",
+          "B": "Sentence 2",
+          "C": "Sentence 3",
+          "D": "Sentence 4"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "The question asks for identification of the one sentence in the paragraph that contains an error in construction.\n\nSentence 1: Construction is correct. The singular pronoun “its” matches the number of the word it refers to, the singular noun “blobfish.” Additionally, the clause “a creature that certainly resembles its name” is correctly set off by commas to provide an extra, but not essential, detail about the blobfish. The comma separating “pink” and “gelatinous” is correct because these are coordinate adjectives. There are no errors in sentence 1.\n\nSentence 2: Construction is correct. The singular pronouns “it” and “its” match the number of the word they refer to, the singular noun “blobfish.” Additionally, the structure of the sentence correctly shows that the clause “Because it has very few muscles and its density is close to that of water” modifies the words “the blobfish.” There are no errors in sentence 2.\n\nSentence 3: Construction is correct. The “it” and “its” in the sentence refer to “the blobfish” mentioned in the previous sentence. The use of singular pronouns in sentence 3 is consistent with the rest of the paragraph. There are no errors in sentence 3.\n\nSentence 4: Contains an error in construction. Sentence 4 erroneously uses the plural pronoun “them” to refer to the blobfish, when the singular “it” should have been used. Although sentence 4 starts by correctly referring to the blobfish in the singular (“the blobfish's”), it erroneously switches to plural usage midway through: “caused them to be voted.” This is an error because the rest of the paragraph refers to the blobfish in the singular. The singular construction of the paragraph starts with “a creature” and “an unusual fish” in sentence 1 and continues throughout sentence 2 (“it has,” “its density,” “the blobfish,” and “its life”), sentence 3 (“It must” and “its mouth”), and the first half of sentence 4 (“the blobfish's”). Proper construction requires sentence 4 to maintain the paragraph's consistent use of singular references. To fix the construction error in sentence 4, the plural pronoun “them” should be changed to the singular pronoun “it” (*i.e.*, “The blobfish's downturned mouth, slimy skin, and pale coloring caused it to be voted the World's Ugliest Animal in 2013.”)."
+        }
+      }
+    }
+  ]
+}
