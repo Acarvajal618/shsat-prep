@@ -393,6 +393,8 @@
       if (!bq) return false;
       const body = document.getElementById('tn-exhibit-body');
       let html = '';
+      if (bq.figure_svg) html += `<div class="tn-figure" style="margin-bottom:14px;">${bq.figure_svg}</div>`;
+      else if (bq.exhibit_image_path) html += `<div class="tn-figure" style="margin-bottom:14px;"><img src="${bq.exhibit_image_path}" alt="figure"></div>`;
       if (bq.stimulus) html += `<div class="tn-stimulus-box" style="margin-bottom:14px;">${bq.stimulus}</div>`;
       html += `<div style="margin-bottom:14px;">${renderQuestionText(bq.question)}</div>`;
       if (bq.options) {
