@@ -228,6 +228,14 @@
     .tn-exhibit-body .katex-display { margin: 0.25em 0 !important; }
     .tn-exhibit-body .katex-display > .katex { display: inline-block; }
 
+    .tn-passage-picker { display: flex; gap: 4px; margin-left: 10px; align-items: center; }
+    .tn-passage-picker-label { font-size: 11px; color: #777; margin-right: 2px; text-transform: uppercase; letter-spacing: 0.03em; }
+    .tn-passage-picker-btn { width: 26px; height: 26px; border-radius: 50%; border: 1px solid #bbb; background: #fff; font-size: 12px; font-weight: 700; cursor: pointer; color: #333; padding: 0; }
+    .tn-passage-picker-btn:hover:not(:disabled) { background: #f0f0f0; }
+    .tn-passage-picker-btn.current { background: #4a90d9; color: #fff; border-color: #3878be; }
+    .tn-passage-picker-btn.answered:not(.current) { background: #eef5ff; border-color: #a9c7e8; }
+    .tn-passage-picker-btn:disabled { opacity: 0.35; cursor: default; }
+
     @media (max-width: 900px) {
       .tn-main { flex-direction: column; }
       .tn-passage-pane { flex: 1 1 auto; position: static; max-height: 360px; width: 100%; }
@@ -249,6 +257,7 @@
       <button class="tn-btn" id="tn-prev" title="Previous question">←</button>
       <button class="tn-btn next" id="tn-next" title="Next question">→</button>
     </div>
+    <div class="tn-passage-picker" id="tn-passage-picker" style="display:none;"></div>
     <div class="tn-timer" id="tn-timer" title="Elapsed time">0:00:00</div>
     <button class="tn-btn-finish" id="tn-finish-exam">Finish Exam</button>
     <div class="tn-user">
@@ -433,9 +442,45 @@
       if (state.finished) return;
       const next = state.cur + delta;
       if (!canNavigateTo(next)) return;
+      if (delta > 0 && next > state.furthestIndex) {
+        const nextQ = state.questions[next];
+        const curQ = state.questions[state.cur];
+        const enteringNewPassage = nextQ.section === 'ela' && (curQ.section !== 'ela' || curQ.passageIdx !== nextQ.passageIdx);
+        if (enteringNewPassage) {
+          const ok = confirm('Are you sure you want to move forward? Because this will be a new passage, and you cannot review it after this.');
+          if (!ok) return;
+        }
+      }
       state.cur = next;
       if (next > state.furthestIndex) state.furthestIndex = next;
       location.hash = 'Q' + state.questions[next].q_number;
+    }
+
+    // ── Passage question picker: jump to any question in the current
+    // passage (not just the immediately-previous one). ─────────────
+    function jumpTo(idx) {
+      if (state.finished || !canNavigateTo(idx)) return;
+      state.cur = idx;
+      if (idx > state.furthestIndex) state.furthestIndex = idx;
+      location.hash = 'Q' + state.questions[idx].q_number;
+    }
+    function renderPassagePicker(q) {
+      const el = document.getElementById('tn-passage-picker');
+      if (!q || q.section !== 'ela') { el.style.display = 'none'; el.innerHTML = ''; return; }
+      const indices = [];
+      state.questions.forEach((qq, idx) => { if (qq.section === 'ela' && qq.passageIdx === q.passageIdx) indices.push(idx); });
+      const btns = indices.map((idx, n) => {
+        const isCurrent = idx === state.cur;
+        const isAnswered = state.answers[state.questions[idx].q_number] != null;
+        const allowed = canNavigateTo(idx);
+        const cls = 'tn-passage-picker-btn' + (isCurrent ? ' current' : '') + (isAnswered ? ' answered' : '');
+        return `<button class="${cls}" data-idx="${idx}" ${allowed ? '' : 'disabled'} title="Question ${n + 1} of this passage">${n + 1}</button>`;
+      }).join('');
+      el.innerHTML = `<span class="tn-passage-picker-label">Review:</span>${btns}`;
+      el.style.display = 'flex';
+      el.querySelectorAll('.tn-passage-picker-btn').forEach(btn => {
+        btn.onclick = () => jumpTo(parseInt(btn.dataset.idx, 10));
+      });
     }
 
     // ── Finish exam: grade, render the results report, stop the clock ──
@@ -633,6 +678,7 @@
       const main = document.getElementById('tn-main');
       document.getElementById('tn-prev').disabled = !canNavigateTo(state.cur - 1);
       document.getElementById('tn-next').disabled = state.cur === state.questions.length - 1;
+      renderPassagePicker(q);
 
       if (!q) {
         document.getElementById('tn-question').textContent = 'No question found.';
