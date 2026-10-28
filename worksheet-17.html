@@ -457,7 +457,7 @@
 
     // ── Timer: counts up from 0, display freezes at 3:00:00 ─────────
     function startTimer() {
-      state.startTime = Date.now();
+      if (!state.startTime) state.startTime = Date.now(); // don't clobber a restored start time
       updateTimerDisplay();
       state.timerInterval = setInterval(updateTimerDisplay, 1000);
     }
