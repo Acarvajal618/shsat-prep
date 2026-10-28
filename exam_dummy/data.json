@@ -1,0 +1,127 @@
+{
+  "_schema": "Dummy 10-question exam used only to test exam-mode mechanics (timer, forward-only navigation, results/score report, downloadable results). Not real study content.",
+  "math_questions": [
+    {
+      "id": "D-M1",
+      "q_number": 1,
+      "question_type": "mc",
+      "question": "What is 7 + 5?",
+      "options": {"A": "10", "B": "11", "C": "12", "D": "13"},
+      "correct": "C",
+      "solution": {"exhibit_text": "7 + 5 = 12."}
+    },
+    {
+      "id": "D-M2",
+      "q_number": 2,
+      "question_type": "mc",
+      "question": "What is 9 × 6?",
+      "options": {"A": "45", "B": "48", "C": "54", "D": "56"},
+      "correct": "C",
+      "solution": {"exhibit_text": "9 × 6 = 54."}
+    },
+    {
+      "id": "D-M3",
+      "q_number": 3,
+      "question_type": "mc",
+      "question": "What is 100 − 37?",
+      "options": {"A": "63", "B": "67", "C": "73", "D": "77"},
+      "correct": "A",
+      "solution": {"exhibit_text": "100 − 37 = 63."}
+    },
+    {
+      "id": "D-M4",
+      "q_number": 4,
+      "question_type": "mc",
+      "question": "What is 144 ÷ 12?",
+      "options": {"A": "10", "B": "11", "C": "12", "D": "13"},
+      "correct": "C",
+      "solution": {"exhibit_text": "144 ÷ 12 = 12."}
+    }
+  ],
+  "ela_passages": [
+    {
+      "id": "D-P1",
+      "title": "The Garden",
+      "paragraphs": [
+        "Maria planted tomatoes, basil, and peppers in her backyard garden every spring. She watered the plants each morning before school and checked them again after she got home. By the end of summer, the garden was full of ripe vegetables that she shared with her neighbors."
+      ],
+      "questions": [
+        {
+          "id": "D-E1",
+          "q_number": 5,
+          "question_type": "mc",
+          "question": "What did Maria do every morning?",
+          "options": {"A": "Picked tomatoes", "B": "Watered the plants", "C": "Shared vegetables", "D": "Planted peppers"},
+          "correct": "B",
+          "solution": {"exhibit_text": "The passage says she watered the plants each morning before school."}
+        },
+        {
+          "id": "D-E2",
+          "q_number": 6,
+          "question_type": "mc",
+          "question": "What did Maria do with the vegetables at the end of summer?",
+          "options": {"A": "Sold them", "B": "Shared them with neighbors", "C": "Stored them", "D": "Gave them to her school"},
+          "correct": "B",
+          "solution": {"exhibit_text": "The passage says she shared the ripe vegetables with her neighbors."}
+        }
+      ]
+    },
+    {
+      "id": "D-P2",
+      "title": "The Library Trip",
+      "paragraphs": [
+        "On Saturday, Devon walked to the public library to return two books. While he was there, he found a new mystery novel on the display table and decided to check it out. The librarian reminded him that it was due back in three weeks."
+      ],
+      "questions": [
+        {
+          "id": "D-E3",
+          "q_number": 7,
+          "question_type": "mc",
+          "question": "Why did Devon go to the library?",
+          "options": {"A": "To study", "B": "To return two books", "C": "To meet a friend", "D": "To use a computer"},
+          "correct": "B",
+          "solution": {"exhibit_text": "The passage says he went to return two books."}
+        },
+        {
+          "id": "D-E4",
+          "q_number": 8,
+          "question_type": "mc",
+          "question": "What did the librarian remind Devon about?",
+          "options": {"A": "The library's hours", "B": "A late fee", "C": "When the new book was due", "D": "Where to find more mysteries"},
+          "correct": "C",
+          "solution": {"exhibit_text": "The passage says the librarian reminded him the book was due back in three weeks."}
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "D-G1",
+      "q_number": 9,
+      "question_type": "mc",
+      "question": "Which sentence is correctly punctuated?",
+      "options": {
+        "A": "After the rain stopped we went outside.",
+        "B": "After the rain stopped, we went outside.",
+        "C": "After, the rain stopped we went outside.",
+        "D": "After the rain, stopped we went outside."
+      },
+      "correct": "B",
+      "solution": {"exhibit_text": "An introductory clause (\"After the rain stopped\") needs a comma before the main clause."}
+    },
+    {
+      "id": "D-G2",
+      "q_number": 10,
+      "question_type": "mc",
+      "question": "Which sentence uses the correct verb?",
+      "options": {
+        "A": "The group of students were excited for the trip.",
+        "B": "The group of students was excited for the trip.",
+        "C": "The group of students have been excited for the trip.",
+        "D": "The group of students is excited for the trip, were they?"
+      },
+      "correct": "B",
+      "solution": {"exhibit_text": "\"The group\" is a singular subject, so it takes the singular verb \"was,\" even though \"students\" (plural) sits right before the verb."}
+    }
+  ]
+}
