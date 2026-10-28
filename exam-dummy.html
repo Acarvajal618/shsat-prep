@@ -397,10 +397,52 @@
       return false;
     }
 
+    // ── A question can't be left blank (or partially done) before
+    // moving forward — exactly how "complete" depends on its type. ──
+    function isQuestionComplete(q) {
+      if (!q) return true;
+      const given = state.answers[q.q_number];
+      if (q.question_type === 'mc') {
+        return given != null && given !== '';
+      }
+      if (q.question_type === 'mc_multi') {
+        const required = (q.correct || []).length;
+        return Array.isArray(given) && given.length === required;
+      }
+      if (q.question_type === 'sort_categories') {
+        const items = q.sort_items || [];
+        return items.length > 0 && items.every(it => given && given[it.id]);
+      }
+      if (q.question_type === 'drag_drop') {
+        const boxes = q.boxes || [];
+        return boxes.length > 0 && boxes.every(b => given && given[b.label]);
+      }
+      return given != null && given !== '';
+    }
+    function incompleteMessage(q) {
+      if (q.question_type === 'mc_multi') {
+        return 'Please select ' + (q.correct || []).length + ' answers before moving on.';
+      }
+      if (q.question_type === 'sort_categories') {
+        return 'Please move every item into a box before moving on.';
+      }
+      if (q.question_type === 'drag_drop') {
+        return 'Please fill in every blank before moving on.';
+      }
+      return 'Please answer this question before moving on.';
+    }
+    function allQuestionsComplete() {
+      return state.questions.every(q => isQuestionComplete(q));
+    }
+
     function wireControls() {
       document.getElementById('tn-prev').onclick = () => go(-1);
       document.getElementById('tn-next').onclick = () => go(+1);
       document.getElementById('tn-finish-exam').onclick = () => {
+        if (!allQuestionsComplete()) {
+          alert('Some questions are still unanswered. Please go back and finish every question before finishing the exam.');
+          return;
+        }
         if (confirm('Finish the exam now? You will not be able to change any answers after this.')) {
           finishExam();
         }
@@ -442,6 +484,13 @@
       if (state.finished) return;
       const next = state.cur + delta;
       if (!canNavigateTo(next)) return;
+      if (delta > 0 && next > state.cur) {
+        const curQ = state.questions[state.cur];
+        if (!isQuestionComplete(curQ)) {
+          alert(incompleteMessage(curQ));
+          return;
+        }
+      }
       if (delta > 0 && next > state.furthestIndex) {
         const nextQ = state.questions[next];
         const curQ = state.questions[state.cur];
@@ -460,6 +509,13 @@
     // passage (not just the immediately-previous one). ─────────────
     function jumpTo(idx) {
       if (state.finished || !canNavigateTo(idx)) return;
+      if (idx > state.cur) {
+        const curQ = state.questions[state.cur];
+        if (!isQuestionComplete(curQ)) {
+          alert(incompleteMessage(curQ));
+          return;
+        }
+      }
       state.cur = idx;
       if (idx > state.furthestIndex) state.furthestIndex = idx;
       location.hash = 'Q' + state.questions[idx].q_number;
