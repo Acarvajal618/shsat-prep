@@ -1,353 +1,438 @@
 {
   "math_questions": [
     {
-      "id": "P1028E-M-1_3_001",
+      "id": "P1028E-M-1_3_002",
       "type_id": "1_3",
-      "question": "If Maria ran 2.1 miles on Monday, 6 miles on Tuesday, and 4.2 miles on Wednesday, what is the mean number of miles she ran over the course of three days?",
+      "question": "If Jake ran 3.2 miles on Monday, 5.5 miles on Tuesday, and 4.3 miles on Wednesday, what is the mean number of miles he ran over the course of three days?",
       "options": {
-        "A": "4.1",
-        "B": "4.2",
-        "C": "12.3",
-        "D": "6"
-      },
-      "correct": "A",
-      "source": "generated",
-      "canonical_id": "1_003",
-      "solution": {
-        "strategy": "Add the three distances and divide by 3.",
-        "steps": [
-          "2.1 + 6 + 4.2 = 12.3",
-          "12.3 / 3 = 4.1"
-        ],
-        "final_answer": "A"
-      },
-      "question_type": "mc",
-      "q_number": 1
-    },
-    {
-      "id": "P1028E-M-2_1_001",
-      "type_id": "2_1",
-      "question": "If x = 2 and 2x(2y - x) = 16, what is the value of y?",
-      "options": {
-        "A": "1",
-        "B": "3",
-        "C": "6",
-        "D": "12"
+        "A": "4.0",
+        "B": "4.33",
+        "C": "13",
+        "D": "5.5"
       },
       "correct": "B",
       "source": "generated",
-      "canonical_id": "2_001",
+      "canonical_id": "1_003",
       "solution": {
-        "strategy": "Plug in 2 for x and simplify carefully.",
-        "steps": [
-          "Substitute x with 2: 2(2)(2y - 2) = 16",
-          "Simplify: 4(2y - 2) = 16",
-          "Distribute: 8y - 8 = 16",
-          "Add 8, divide by 8: y = 3"
-        ],
-        "final_answer": "B"
+        "exhibit_text": "Add the three distances and divide by 3.\n\n3.2 + 5.5 + 4.3 = 13\n13 / 3 = 4.33"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 1_3 (canonical 1_003)",
+      "base_question": {
+        "question": "If Maria ran 2.1 miles on Monday, 6 miles on Tuesday, and 4.2 miles on Wednesday, what is the mean number of miles she ran over the course of three days?",
+        "options": {
+          "A": "4.1",
+          "B": "4.2",
+          "C": "12.3",
+          "D": "6"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Add the three distances and divide by 3.\n\n2.1 + 6 + 4.2 = 12.3\n12.3 / 3 = 4.1"
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P1028E-M-2_1_002",
+      "type_id": "2_1",
+      "question": "If x = 3 and 3x(2y - x) = 45, what is the value of y?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "2_001",
+      "solution": {
+        "exhibit_text": "Substitute x = 3 and solve for y.\n\n3(3)(2y - 3) = 45 → 9(2y - 3) = 45\n2y - 3 = 5 → y = 4"
+      },
+      "question_type": "mc",
+      "base_source": "Math bank — type 2_1 (canonical 2_001)",
+      "base_question": {
+        "question": "If x = 2 and 2x(2y - x) = 16, what is the value of y?",
+        "options": {
+          "A": "1",
+          "B": "3",
+          "C": "6",
+          "D": "12"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Plug in 2 for x and simplify carefully.\n\nSubstitute x with 2: 2(2)(2y - 2) = 16\nCalculate: (2 × 2)(2y - 2) = 16\nSimplify: 4(2y - 2) = 16\nDistribute: 8y - 8 = 16\nAdd 8 to both sides: 8y = 24\nDivide by 8: y = 3"
+        }
+      },
       "q_number": 2
     },
     {
-      "id": "P1028E-M-3_1_001",
+      "id": "P1028E-M-3_1_002",
       "type_id": "3_1",
-      "question": "What value of x makes the equation above true? \n\n48/8 = 12/x",
+      "question": "What value of x makes the equation above true? \n\n36/6 = 18/x",
       "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "3_001",
       "solution": {
-        "strategy": "Since this is a proportion, cross multiply and solve for x.",
-        "steps": [
-          "Cross multiply: 48 · x = 8 · 12",
-          "Simplify: 48x = 96",
-          "Divide both sides by 48: x = 2"
-        ],
-        "final_answer": "2"
+        "exhibit_text": "Since this is a proportion, cross multiply and solve for x.\n\nCross multiply: 36 · x = 6 · 18\nSimplify: 36x = 108\nDivide both sides by 36: x = 3"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 3_1 (canonical 3_001)",
+      "base_question": {
+        "question": "What value of x makes the equation above true? \n\n72/7 = 12/x",
+        "options": {
+          "A": "1",
+          "B": "1 1/6",
+          "C": "6",
+          "D": "7 1/6"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Since this is a proportion, you could cross multiply and solve for x. However, you can save time by considering the relationships between the numbers.\n\nCalculate 72 ÷ 6 = 12.\nDetermine the value of x must be 7 ÷ 6."
+        }
+      },
       "q_number": 3
     },
     {
-      "id": "P1028E-M-4_1_001",
+      "id": "P1028E-M-4_1_002",
       "type_id": "4_1",
-      "question": "Maria speed walks 4 kilometers in 1/2 of an hour. At that rate, how many meters does she speed walk per minute?",
+      "question": "James speed walks 2 kilometers in 3/4 of an hour. At that rate, how many meters does he speed walk per minute?",
       "options": {
-        "A": "100",
-        "B": "133.33",
-        "C": "133",
-        "D": "1,333"
+        "A": "40",
+        "B": "44",
+        "C": "44.44",
+        "D": "444"
       },
-      "correct": "C",
+      "correct": "B",
       "source": "generated",
       "canonical_id": "4_001",
       "solution": {
-        "strategy": "Pay careful attention to the units. You are asked for the rate in meters per minute, so convert kilometers to meters and hours to minutes.",
-        "steps": [
-          "Convert kilometers to meters: 4 km = 4 × 1,000 = 4,000 m",
-          "Convert hours to minutes: (1/2) hr = (1/2) × 60 = 30 minutes",
-          "Divide: 4,000 ÷ 30 = 133.33... ≈ 133 meters per minute"
-        ],
-        "final_answer": "133 meters per minute"
+        "exhibit_text": "Pay careful attention to the units. You are asked for the rate in meters per minute, so convert kilometers to meters and hours to minutes.\n\nConvert kilometers to meters: 2 km = 2 × 1,000 = 2,000 m\nConvert hours to minutes: (3/4) hr = (3/4) × 60 = 45 minutes\nDivide: 2,000 ÷ 45 ≈ 44.44, round to 44 meters per minute"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 4_1 (canonical 4_001)",
+      "base_question": {
+        "question": "Lucia speed walks 3 kilometers in 2/3 of an hour. At that rate, how many meters does she speed walk per minute?",
+        "options": {
+          "A": "0.75",
+          "B": "75",
+          "C": "750",
+          "D": "7,500"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Pay careful attention to the units. You are asked for the rate in meters per minute, so convert kilometers to meters and hours to minutes.\n\nConvert kilometers to meters: 3 km = 3 × 1,000 = 3,000 m\nConvert hours to minutes: (2/3) hr = (2/3) × 60 = 40 minutes\nDivide: 3,000 ÷ 40 = 75 meters per minute"
+        }
+      },
       "q_number": 4
     },
     {
-      "id": "P1028E-M-5_1_001",
+      "id": "P1028E-M-5_1_002",
       "type_id": "5_1",
-      "question": "Which of the following numbers does not have factors that include the smallest factor (other than 1) of 91?",
+      "question": "Which of the following numbers does not have factors that include the smallest factor (other than 1) of 143?",
       "options": {
-        "A": "21",
-        "B": "28",
-        "C": "35",
-        "D": "44"
+        "A": "22",
+        "B": "33",
+        "C": "44",
+        "D": "65"
       },
       "correct": "D",
       "source": "generated",
       "canonical_id": "5_001",
       "solution": {
-        "strategy": "Begin by listing the factors of 91: 1, 7, 13, and 91. The smallest factor (other than 1) is 7. Of the options (21, 28, 35, 44), only 44 is not divisible by 7.",
-        "steps": [
-          "List the factors of 91: 1, 7, 13, and 91.",
-          "Identify the smallest factor (other than 1), which is 7.",
-          "Check the options: 21, 28, 35 are divisible by 7; 44 is not."
-        ],
-        "final_answer": "44"
+        "exhibit_text": "The factors of 143 are 1, 11, 13, and 143. The smallest factor (other than 1) is 11. Of the options, 65 is not divisible by 11.\n\nList the factors of 143: 1, 11, 13, and 143.\nIdentify the smallest factor (other than 1), which is 11.\nCheck: 22, 33, 44 are divisible by 11; 65 is not."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 5_1 (canonical 5_001)",
+      "base_question": {
+        "question": "Which of the following numbers does not have factors that include the smallest factor (other than 1) of 119?",
+        "options": {
+          "A": "28",
+          "B": "35",
+          "C": "40",
+          "D": "63"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Begin by listing the factors of 119: 1, 7, 17, and 119. The smallest factor (other than 1) is 7. Of the options listed (28, 35, 40, and 63), only 40 does not have a factor of 7.\n\nList the factors of 119: 1, 7, 17, and 119.\nIdentify the smallest factor (other than 1), which is 7.\nCheck the options: 28, 35, 40, and 63.\nDetermine which option does not have a factor of 7."
+        }
+      },
       "q_number": 5
     },
     {
-      "id": "P1028E-M-6_1_001",
+      "id": "P1028E-M-6_1_002",
       "type_id": "6_1",
-      "question": "In a pond of 2,000 fish, 30% of the fish are trout. The remaining fish are bass. How many fewer trout are there than bass?",
+      "question": "In a pond of 800 fish, 25% of the fish are trout. The remaining fish are bass. How many fewer trout are there than bass?",
       "options": {
         "A": "200",
         "B": "400",
         "C": "600",
         "D": "800"
       },
-      "correct": "D",
+      "correct": "B",
       "source": "generated",
       "canonical_id": "6_001",
       "solution": {
-        "strategy": "Pay close attention to what is being asked. You are looking for the difference between the number of trout and bass.",
-        "steps": [
-          "Calculate the number of trout: 2,000 × 0.30 = 600 trout",
-          "Determine the number of bass: 2,000 - 600 = 1,400 bass",
-          "Subtract to find how many fewer trout there are than bass: 1,400 - 600 = 800"
-        ],
-        "final_answer": "800"
+        "exhibit_text": "Pay close attention to what is being asked. You are looking for the difference between the number of trout and bass.\n\nCalculate the number of trout: 800 × 0.25 = 200 trout\nDetermine the number of bass: 800 - 200 = 600 bass\nSubtract to find how many fewer trout there are than bass: 600 - 200 = 400"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 6_1 (canonical 6_001)",
+      "base_question": {
+        "question": "In a pond of 1,600 fish, 25% of the fish are trout. The remaining fish are bass. How many fewer trout are there than bass?",
+        "options": {
+          "A": "200",
+          "B": "400",
+          "C": "800",
+          "D": "1,200"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Pay close attention to what is being asked. You are looking for the difference between the number of trout and bass.\n\nCalculate the number of trout: 1,600 × 0.25 = 400 trout\nDetermine the number of bass: 1,600 - 400 = 1,200 bass\nSubtract to find how many fewer trout there are than bass: 1,200 - 400 = 800"
+        }
+      },
       "q_number": 6
     },
     {
-      "id": "P1028E-M-7_1_001",
+      "id": "P1028E-M-7_1_002",
       "type_id": "7_1",
-      "question": "A quadrilateral ABCD with right angles at D and B. AD = 12 cm, DC = 9 cm, BC = 5 cm, AB = 20 cm.\n\nIf AD = 12 centimeters, DC = 9 centimeters, BC = 5 centimeters, and AB = 20 centimeters, what is the area of quadrilateral ABCD?",
+      "question": "A quadrilateral ABCD with right angles at D and B. AD = 8 cm, DC = 6 cm, BC = 4 cm, AB = 15 cm.\n\nIf AD = 8 centimeters, DC = 6 centimeters, BC = 4 centimeters, and AB = 15 centimeters, what is the area of quadrilateral ABCD?",
       "options": {
-        "A": "52 sq cm",
-        "B": "104 sq cm",
-        "C": "156 sq cm",
-        "D": "208 sq cm"
+        "A": "27 sq cm",
+        "B": "54 sq cm",
+        "C": "81 sq cm",
+        "D": "108 sq cm"
       },
       "correct": "B",
       "source": "generated",
-      "canonical_id": null,
+      "canonical_id": "7_001",
       "solution": {
-        "strategy": "The diagonal divides the quadrilateral into two right triangles. To find the area of the quadrilateral, find the area of the two triangles and then add them together.",
-        "steps": [
-          "Calculate the area of the first triangle with legs 12 cm and 9 cm: 1/2(12)(9) = 54 sq cm.",
-          "Calculate the area of the second triangle with legs 5 cm and 20 cm: 1/2(5)(20) = 50 sq cm.",
-          "Add the areas of the two triangles: 54 + 50 = 104 sq cm."
-        ],
-        "final_answer": "104 sq cm"
+        "exhibit_text": "The diagonal divides the quadrilateral into two right triangles. To find the area of the quadrilateral, find the area of the two triangles and then add them together.\n\nCalculate the area of the first triangle with legs 8 cm and 6 cm: 1/2(8)(6) = 24 sq cm.\nCalculate the area of the second triangle with legs 4 cm and 15 cm: 1/2(4)(15) = 30 sq cm.\nAdd the areas of the two triangles: 24 + 30 = 54 sq cm."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 7_1 (canonical 7_001)",
+      "base_question": {
+        "question": "A quadrilateral ABCD with right angles at D and B. AD = 20 cm, DC = 15 cm, BC = 7 cm, AB = 24 cm.\n\nIf AD = 20 centimeters, DC = 15 centimeters, BC = 7 centimeters, and AB = 24 centimeters, what is the area of quadrilateral ABCD?",
+        "options": {
+          "A": "66 sq cm",
+          "B": "117 sq cm",
+          "C": "234 sq cm",
+          "D": "468 sq cm"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "The diagonal divides the quadrilateral into two right triangles. To find the area of the quadrilateral, find the area of the two triangles and then add them together.\n\nCalculate the area of the first triangle with legs 20 cm and 15 cm: 1/2(20)(15) = 150 sq cm.\nCalculate the area of the second triangle with legs 7 cm and 24 cm: 1/2(7)(24) = 84 sq cm.\nAdd the areas of the two triangles: 150 + 84 = 234 sq cm."
+        }
+      },
       "q_number": 7
     },
     {
-      "id": "P1028E-M-8_1_001",
+      "id": "P1028E-M-8_1_002",
       "type_id": "8_1",
-      "question": "Between which two consecutive integers is the fraction 43/8?",
+      "question": "Between which two consecutive integers is the fraction 67/9?",
       "options": {
-        "A": "3 and 4",
-        "B": "4 and 5",
-        "C": "5 and 6",
-        "D": "6 and 7"
+        "A": "6 and 7",
+        "B": "7 and 8",
+        "C": "8 and 9",
+        "D": "9 and 10"
       },
-      "correct": "C",
+      "correct": "B",
       "source": "generated",
-      "canonical_id": null,
+      "canonical_id": "8_001",
       "solution": {
-        "strategy": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.",
-        "steps": [
-          "Convert the improper fraction 43/8 to a mixed number.",
-          "Calculate 43 ÷ 8 = 5 with a remainder of 3.",
-          "Write the mixed number as 5 3/8."
-        ],
-        "final_answer": "The mixed number is bigger than 5 and smaller than 6, so (C) is the correct answer."
+        "exhibit_text": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.\n\nConvert the improper fraction 67/9 to a mixed number.\nCalculate 67 ÷ 9 = 7 with a remainder of 4.\nWrite the mixed number as 7 4/9."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 8_1 (canonical 8_001)",
+      "base_question": {
+        "question": "Between which two consecutive integers is the fraction 43/8?",
+        "options": {
+          "A": "3 and 4",
+          "B": "4 and 5",
+          "C": "5 and 6",
+          "D": "6 and 7"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "To place an improper fraction between two consecutive integers, rewrite the fraction as a mixed number.\n\nConvert the improper fraction 43/8 to a mixed number.\nCalculate 43 ÷ 8 = 5 with a remainder of 3.\nWrite the mixed number as 5 3/8."
+        }
+      },
       "q_number": 8
     },
     {
-      "id": "P1028E-M-9_1_001",
+      "id": "P1028E-M-9_1_002",
       "type_id": "9_1",
-      "question": "Isabel has 10 boards that are x meters long. She has 5 boards that are 2x meters long. She also has 4 boards that measure 3 meters, 6 meters, 9 meters, and 13 meters, respectively. If she were to lay all her boards in a straight line with no gaps between them, the boards would measure 271 meters. What is the value of x?",
+      "question": "Marcus has 8 boards that are x meters long. He has 4 boards that are 2x meters long. He also has 4 boards that measure 2 meters, 5 meters, 7 meters, and 11 meters, respectively. If he were to lay all his boards in a straight line with no gaps between them, the boards would measure 169 meters. What is the value of x?",
       "options": {
-        "A": "5 meters",
-        "B": "6 meters",
+        "A": "8 meters",
+        "B": "9 meters",
         "C": "10 meters",
         "D": "12 meters"
       },
-      "correct": "D",
+      "correct": "B",
       "source": "generated",
-      "canonical_id": null,
+      "canonical_id": "9_001",
       "solution": {
-        "strategy": "First, subtract the lengths of the 4 boards that are given from the total length of all of the boards.",
-        "steps": [
-          "Calculate the total length of the boards: 271 − 13 − 9 − 6 − 3 = 240",
-          "Create an algebraic equation: 10(x) + 5(2x) = 240",
-          "Simplify the equation: 10x + 10x = 240",
-          "Combine like terms: 20x = 240",
-          "Solve for x: x = 12 meters"
-        ],
-        "final_answer": "12 meters"
+        "exhibit_text": "First, subtract the lengths of the 4 boards that are given from the total length of all of the boards.\n\nCalculate the total length of the boards: 169 − 11 − 7 − 5 − 2 = 144\nCreate an algebraic equation: 8(x) + 4(2x) = 144\nSimplify the equation: 8x + 8x = 144\nCombine like terms: 16x = 144\nSolve for x: x = 9 meters"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 9_1 (canonical 9_001)",
+      "base_question": {
+        "question": "Isabel has 10 boards that are x meters long. She has 5 boards that are 2x meters long. She also has 4 boards that measure 3 meters, 6 meters, 9 meters, and 13 meters, respectively. If she were to lay all her boards in a straight line with no gaps between them, the boards would measure 271 meters. What is the value of x?",
+        "options": {
+          "A": "5 meters",
+          "B": "6 meters",
+          "C": "10 meters",
+          "D": "12 meters"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "First, subtract the lengths of the 4 boards that are given from the total length of all of the boards.\n\nCalculate the total length of the boards: 271 - 13 - 9 - 6 - 3 = 240\nCreate an algebraic equation: 10(x) + 5(2x) = 240\nSimplify the equation: 10x + 10x = 240\nCombine like terms: 20x = 240\nSolve for x: x = 12 meters"
+        }
+      },
       "q_number": 9
     },
     {
-      "id": "P1028E-M-10_1_001",
+      "id": "P1028E-M-10_1_002",
       "type_id": "10_1",
-      "question": "What is the circumference of the circle inscribed in the square above? The square has side length 6.",
+      "question": "What is the circumference of the circle inscribed in the square above? The square has side length 4.",
       "options": {
-        "E": "3π",
-        "F": "6π",
-        "G": "12π",
-        "H": "36π"
+        "E": "2π",
+        "F": "4π",
+        "G": "8π",
+        "H": "16π"
       },
       "correct": "F",
       "source": "generated",
       "canonical_id": "10_001",
       "solution": {
-        "strategy": "Circumference of a circle is π times its diameter. Circle inscribed in square has diameter = side of square.",
-        "steps": [
-          "Side length: 6. Diameter = 6. C = π×6 = 6π."
-        ],
-        "final_answer": "6π"
+        "exhibit_text": "Circumference of a circle is π times its diameter. Circle inscribed in square has diameter = side of square.\n\nSide length: 4. Diameter = 4. C = π×4 = 4π."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 10_1 (canonical 10_001)",
+      "base_question": {
+        "question": "What is the circumference of the circle inscribed in the square above?",
+        "options": {
+          "E": "2π",
+          "F": "3π",
+          "G": "6π",
+          "H": "9π"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Recall that the circumference of a circle is π times its diameter. If the circle is inscribed in a square with a side length of 6, it must have a diameter of 6.\n\nIdentify the side length of the square: 6.\nDetermine the diameter of the inscribed circle: diameter = 6.\nCalculate the circumference of the circle using the formula: circumference = π × diameter.\nSubstitute the diameter into the formula: circumference = π × 6."
+        }
+      },
       "q_number": 10
     },
     {
-      "id": "P1028E-M-11_1_001",
+      "id": "P1028E-M-11_1_002",
       "type_id": "11_1",
-      "question": "If x + y = 12 and x = 15, then what is -x/y?",
+      "question": "If x + y = 20 and x = 8, then what is -x/y?",
       "options": {
-        "A": "5",
-        "B": "6",
-        "C": "4",
-        "D": "-5"
+        "A": "-0.67",
+        "B": "0.33",
+        "C": "-1.67",
+        "D": "0.67"
       },
       "correct": "A",
       "source": "generated",
       "canonical_id": "11_001",
       "solution": {
-        "strategy": "Substitute x into x+y=sum to get y, then compute -x/y.",
-        "steps": [
-          "y = 12 - 15 = -3.",
-          "-x/y = -15/-3 = 5."
-        ],
-        "final_answer": "5"
+        "exhibit_text": "Substitute x into x+y=sum to get y, then compute -x/y.\n\ny = 20 - 8 = 12.\n-x/y = -8/12 = -0.67."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 11_1 (canonical 11_001)",
+      "base_question": {
+        "question": "If x + y = 12 and x = 15, then what is -x/y?",
+        "options": {
+          "A": "-5",
+          "B": "-3",
+          "C": "3",
+          "D": "5"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "You know the value of x, so plug it in to find the value of y.\n\nStart with the equation x + y = 12.\nSubstitute x with 15: 15 + y = 12.\nSolve for y: y = 12 - 15.\nCalculate y: y = -3."
+        }
+      },
       "q_number": 11
     },
     {
-      "id": "P1028E-M-12_1_001",
+      "id": "P1028E-M-12_1_002",
       "type_id": "12_1",
-      "question": "If -3 < x/2 < 4, what is the range of x?",
+      "question": "If -2 < x/3 < 1, what is the range of x?",
       "options": {
-        "A": "-3 < x < 4",
-        "B": "-6 < x < 10",
-        "C": "-3 < x < 4",
-        "D": "-6 < x < 8"
+        "A": "-6 < x < 3",
+        "B": "-6 < x < 6",
+        "C": "-3 < x < 1",
+        "D": "-2 < x < 1"
       },
-      "correct": "D",
+      "correct": "A",
       "source": "generated_v3_fix",
       "canonical_id": "12_001",
       "solution": {
-        "strategy": "Multiply each part of the compound inequality by the denominator to clear the fraction and isolate x.",
-        "steps": [
-          "Multiply each part by 2: -3·2 < (x/2)·2 < 4·2",
-          "Simplify: -6 < x < 8"
-        ],
-        "final_answer": "-6 < x < 8"
+        "exhibit_text": "Multiply each part of the compound inequality by the denominator to clear the fraction and isolate x.\n\nMultiply each part by 3: -2·3 < (x/3)·3 < 1·3\nSimplify: -6 < x < 3"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 12_1 (canonical 12_001)",
+      "base_question": {
+        "question": "Which number line shows the solution to the inequality above?",
+        "options": {
+          "A": "E.",
+          "B": "F.",
+          "C": "G.",
+          "D": "H."
+        },
+        "correct": null,
+        "solution": {
+          "exhibit_text": "Multiply each term in the equation by 3 to clear the fraction. This will isolate the x.\n\nMultiply each term by 3: -2(3) < (x/3)(3) < 1(3)\nSimplify: -6 < x < 3\nSince x is between -6 and 3, choose the number line that is shaded between -6 and 3."
+        }
+      },
       "q_number": 12
     },
     {
-      "id": "P1028E-M-13_1_001",
+      "id": "P1028E-M-13_1_002",
       "type_id": "13_1",
-      "question": "There are 250 giggles in one laugh and 3 laughs in a burst. How many giggles are in 2 bursts?",
+      "question": "There are 60 klips in one klop and 5 klops in a kludge. How many klips are in 2 kludges?",
       "options": {
-        "A": "1,500",
-        "B": "750",
-        "C": "3,000",
-        "D": "2,000"
+        "A": "600",
+        "B": "120",
+        "C": "300",
+        "D": "660"
       },
       "correct": "A",
-      "source": "generated",
+      "source": "generated_v3_fix",
       "canonical_id": "13_001",
       "solution": {
-        "strategy": "Multiply conversion factors along the chain.",
-        "steps": [
-          "250 × 3 × 2 = 1500."
-        ],
-        "final_answer": "1500"
+        "exhibit_text": "Apply each conversion factor one step at a time, cancelling out units as you go.\n\nStart with 2 kludges.\nMultiply by the first conversion factor: 2 kludges × (5 klops/1 kludge) = 10 klops.\nMultiply by the next conversion factor: 10 klops × (60 klips/1 klop) = 600 klips."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 13_1 (canonical 13_001)",
+      "base_question": {
+        "question": "There are 250 giggles in one laugh and 3 laughs in a burst. How many giggles are in 2 bursts?",
+        "options": {
+          "A": "250",
+          "B": "500",
+          "C": "750",
+          "D": "1,500"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Apply each conversion factor one step at a time, cancelling out units as you go.\n\nStart with 2 bursts.\nMultiply by the conversion factor: 2 bursts × (3 laughs / 1 burst).\nMultiply the result by the next conversion factor: (result) × (250 giggles / 1 laugh)."
+        }
+      },
       "q_number": 13
     },
     {
-      "id": "P1028E-M-14_1_001",
+      "id": "P1028E-M-14_1_002",
       "type_id": "14_1",
-      "question": "If 3x + 8 = 44, what is the value of x?",
-      "options": {
-        "A": "12",
-        "B": "13",
-        "C": "11",
-        "D": "14"
-      },
-      "correct": "A",
-      "source": "generated",
-      "canonical_id": "14_001",
-      "solution": {
-        "strategy": "Isolate x.",
-        "steps": [
-          "3x + 8 = 44 → 3x = 36 → x = 12."
-        ],
-        "final_answer": "12"
-      },
-      "question_type": "mc",
-      "q_number": 14
-    },
-    {
-      "id": "P1028E-M-15_1_001",
-      "type_id": "15_1",
-      "question": "What is the average of all the even numbers in the set {2, 3, 4, ..., 14}?",
+      "question": "If 2x + 5 = 21, what is the value of x?",
       "options": {
         "A": "8",
         "B": "9",
@@ -356,21 +441,64 @@
       },
       "correct": "A",
       "source": "generated",
-      "canonical_id": "15_001",
+      "canonical_id": "14_001",
       "solution": {
-        "strategy": "List even numbers in set; compute average.",
-        "steps": [
-          "Evens: [2, 4, 6, 8, 10, 12, 14]; average = 8."
-        ],
-        "final_answer": "8"
+        "exhibit_text": "Isolate x.\n\n2x + 5 = 21 → 2x = 16 → x = 8."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 14_1 (canonical 14_001)",
+      "base_question": {
+        "question": "If 3x + 8 = 44, what is the value of x?",
+        "options": {
+          "A": "10",
+          "B": "12",
+          "C": "14",
+          "D": "16"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Substitute the two given values into the equation. Then cross multiply to solve for x.\n\nSet up the equation: 30/100 = x/300\nCross multiply: 100x = 30(300)\nCalculate: 100x = 9000\nSolve for x: x = 90"
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P1028E-M-15_1_002",
+      "type_id": "15_1",
+      "question": "What is the average of all the even numbers in the set {2, 3, 4, ..., 12}?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "6",
+        "D": "9"
+      },
+      "correct": "A",
+      "source": "generated",
+      "canonical_id": "15_001",
+      "solution": {
+        "exhibit_text": "List even numbers in set; compute average.\n\nEvens: [2, 4, 6, 8, 10, 12]; average = 7."
+      },
+      "question_type": "mc",
+      "base_source": "Math bank — type 15_1 (canonical 15_001)",
+      "base_question": {
+        "question": "What is the average of all the even numbers in the set {2, 3, 4, ..., 12, 13, 14}?",
+        "options": {
+          "A": "7",
+          "B": "8",
+          "C": "8.5",
+          "D": "9"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "To find the average of a set of consecutive even numbers, take the average of the highest and lowest numbers.\n\nIdentify the lowest number: 2\nIdentify the highest number: 14\nCalculate the average: (2 + 14) / 2 = 16 / 2 = 8\nAlternatively, find the sum of all even numbers in the set (which is 56) and divide by the number of even numbers in the set (which is 7): 56 / 7 = 8"
+        }
+      },
       "q_number": 15
     },
     {
-      "id": "P1028E-M-16_1_001",
+      "id": "P1028E-M-16_1_002",
       "type_id": "16_1",
-      "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+      "question": "If n is an even integer that is greater than -2.5, what is the least possible value of n?",
       "options": {
         "A": "-1",
         "B": "-3",
@@ -381,848 +509,1145 @@
       "source": "generated",
       "canonical_id": "16_001",
       "solution": {
-        "strategy": "Least even integer greater than bound.",
-        "steps": [
-          "Even integers > -3.75: ... -1."
-        ],
-        "final_answer": "-1"
+        "exhibit_text": "Least even integer greater than bound.\n\nEven integers > -2.5: ... -1."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 16_1 (canonical 16_001)",
+      "base_question": {
+        "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+        "options": {
+          "A": "-5",
+          "B": "-4",
+          "C": "-3",
+          "D": "-2"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "When comparing numbers, especially negative numbers, it is helpful to draw a number line.\n\nDraw a number line and mark -3.75.\nIdentify numbers greater than -3.75 on the number line.\nFind the smallest even number greater than -3.75."
+        }
+      },
       "q_number": 16
     },
     {
-      "id": "P1028E-M-17_1_001",
+      "id": "P1028E-M-17_1_002",
       "type_id": "17_1",
-      "question": "What is the least common multiple of 8, 32, and 48?",
+      "question": "What is the least common multiple of 6, 12, and 18?",
       "options": {
-        "A": "64",
-        "B": "96",
-        "C": "128",
-        "D": "144"
+        "A": "18",
+        "B": "36",
+        "C": "72",
+        "D": "108"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "17_001",
       "solution": {
-        "strategy": "Since 48 and 32 are both multiples of 8, find the least common multiple of 48 and 32 only.",
-        "steps": [
-          "List multiples of 48: 48, 96, 144, 192, ...",
-          "List multiples of 32: 32, 64, 96, ...",
-          "Identify the least common multiple from the lists: 96."
-        ],
-        "final_answer": "96"
+        "exhibit_text": "Find LCM using prime factorization or listing multiples.\n\n6 = 2×3, 12 = 2²×3, 18 = 2×3². LCM = 2²×3² = 36."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 17_1 (canonical 17_001)",
+      "base_question": {
+        "question": "What is the least common multiple of 8, 32, and 48 ?",
+        "options": {
+          "A": "64",
+          "B": "96",
+          "C": "128",
+          "D": "144"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Since 48 and 32 are both multiples of 8, find the least common multiple of 48 and 32 only.\n\nList multiples of 48: 48, 96, 144, 192, ...\nList multiples of 32: 32, 64, 96, ...\nIdentify the least common multiple from the lists: 96."
+        }
+      },
       "q_number": 17
     },
     {
-      "id": "P1028E-M-18_1_001",
+      "id": "P1028E-M-18_1_002",
       "type_id": "18_1",
-      "question": "David is now 4 years more than twice the age of Henry. If Henry will be 18 in 3 years, how old was David 2 years ago?",
+      "question": "Maria is now 3 years more than twice the age of Nina. If Nina will be 20 in 5 years, how old was Maria 3 years ago?",
       "options": {
-        "E": "13",
-        "F": "15",
+        "E": "28",
+        "F": "30",
         "G": "32",
         "H": "34"
       },
-      "correct": "G",
+      "correct": "F",
       "source": "generated",
       "canonical_id": "18_001",
       "solution": {
-        "strategy": "The ages are given in three different time frames. Do not confuse them!",
-        "steps": [
-          "Let Henry's age now = x. David's age now = 2x + 4.",
-          "Henry's age in 3 years = x + 3 = 18. Thus, Henry's age now = 15.",
-          "David's age now = 2(15) + 4 = 34.",
-          "David's age 2 years ago = 34 - 2 = 32."
-        ],
-        "final_answer": "32"
+        "exhibit_text": "The ages are given in three different time frames. Do not confuse them!\n\nLet Nina's age now = x. Maria's age now = 2x + 3.\nNina's age in 5 years = x + 5 = 20. Thus, Nina's age now = 15.\nMaria's age now = 2(15) + 3 = 33.\nMaria's age 3 years ago = 33 - 3 = 30."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 18_1 (canonical 18_001)",
+      "base_question": {
+        "question": "David is now 4 years more than twice the age of Henry. If Henry will be 18 in 3 years, how old was David 2 years ago?",
+        "options": {
+          "E": "13",
+          "F": "15",
+          "G": "32",
+          "H": "34"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "The ages are given in three different time frames. Do not confuse them!\n\nLet Henry's age now = x.\nDavid's age now = 2x + 4.\nHenry's age in 3 years = x + 3 = 18. Thus, Henry's age now = 15.\nDavid's age now = 2(15) + 4 = 34.\nDavid's age 2 years ago = 34 - 2 = 32."
+        }
+      },
       "q_number": 18
     },
     {
-      "id": "P1028E-M-19_1_001",
+      "id": "P1028E-M-19_1_002",
       "type_id": "19_1",
-      "question": "Angle A and angle B are supplementary. If the measure of angle B is one-third the measure of angle A, what is the measure of angle B?",
+      "question": "Angle A and angle B are supplementary. If the measure of angle B is one-half the measure of angle A, what is the measure of angle B?",
       "options": {
-        "A": "22.5°",
-        "B": "45°",
-        "C": "67.5°",
-        "D": "135°"
+        "A": "45°",
+        "B": "60°",
+        "C": "90°",
+        "D": "120°"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "19_001",
       "solution": {
-        "strategy": "The sum of the measures of supplementary angles is 180°, so set up an equation using the relationship between angles A and B to solve for B.",
-        "steps": [
-          "Let A + B = 180° and B = (1/3)A. So A + (1/3)A = 180°, (4/3)A = 180°, A = 135°.",
-          "B = 180° - 135° = 45°."
-        ],
-        "final_answer": "45°"
+        "exhibit_text": "A + B = 180° and B = (1/2)A. So A + (1/2)A = 180°, (3/2)A = 180°, A = 120°, B = 60°.\n\nA + (1/2)A = 180°. A = 120°, B = 60°."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 19_1 (canonical 19_001)",
+      "base_question": {
+        "question": "Angle A and angle B are supplementary. If the measure of angle B is one-third the measure of angle A, what is the measure of angle B?",
+        "options": {
+          "A": "22.5°",
+          "B": "45°",
+          "C": "67.5°",
+          "D": "135°"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "The sum of the measures of supplementary angles is 180°, so set up an equation using the relationship between angles A and B to solve for B.\n\nLet A + B = 180°\nSubstitute B with (1/3)A: A + (1/3)A = 180°\nMultiply through by 3 to eliminate the fraction: 3A + A = 540°\nCombine like terms: 4A = 540°\nSolve for A: A = 135°\nSubstitute A back to find B: B = 180° - A\nB = 180° - 135° = 45°"
+        }
+      },
       "q_number": 19
     },
     {
-      "id": "P1028E-M-20_1_001",
+      "id": "P1028E-M-20_1_002",
       "type_id": "20_1",
-      "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 1/3 and Y is located at 11/3?",
+      "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 0 and Y is located at 8?",
       "options": {
-        "A": "-2",
-        "B": "-4/3",
-        "C": "-1/3",
-        "D": "2"
+        "A": "-6",
+        "B": "-4",
+        "C": "4",
+        "D": "6"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "20_001",
       "solution": {
-        "strategy": "Use midpoint relations to determine the positions of points Z, X, and W.",
-        "steps": [
-          "Z is at 1/3, Y is at 11/3. X is halfway between Z and Y: X = (1/3 + 11/3)/2 = 2.",
-          "Z is halfway between W and X: 1/3 = (W + 2)/2, so W = 2/3 - 2 = -4/3."
-        ],
-        "final_answer": "-4/3"
+        "exhibit_text": "Use midpoint formula. X = (0+8)/2 = 4. Z = (W+X)/2 so 0 = (W+4)/2, W = -4.\n\nX = 4. W = 2(0) - 4 = -4."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 20_1 (canonical 20_001)",
+      "base_question": {
+        "question": "Suppose point Z is halfway between points W and X on a standard number line, and point X is halfway between points Z and Y. Where is W if Z is located at 1/3 and Y is located at 11/3?",
+        "options": {
+          "A": "-2",
+          "B": "-4/3",
+          "C": "-1/3",
+          "D": "2"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Visualize the problem using a number line to determine the positions of points Z, X, and W based on their distances.\n\nIdentify point Z at 1/3 and point Y at 10/3.\nCalculate the distance between Z and Y: 10/3 - 1/3 = 9/3.\nSince X is halfway between Z and Y, calculate the distance to X: 9/3 ÷ 2 = 5/3.\nDetermine the position of X: 1/3 + 5/3 = 6/3, which is equal to 2.\nSince Z is halfway between W and X, W must be the same distance from Z as X is, but in the opposite direction.\nSubtract the distance from Z: 1/3 - 5/3 = -4/3."
+        }
+      },
       "q_number": 20
     },
     {
-      "id": "P1028E-M-21_1_001",
+      "id": "P1028E-M-21_1_002",
       "type_id": "21_1",
-      "question": "The sum of 6 consecutive odd numbers is 36. What is the difference between the highest and the lowest of these numbers?",
+      "question": "The sum of 5 consecutive odd numbers is 45. What is the difference between the greatest and the least?",
       "options": {
-        "A": "1",
-        "B": "6",
-        "C": "7",
+        "A": "4",
+        "B": "5",
+        "C": "8",
         "D": "10"
-      },
-      "correct": "D",
-      "source": "generated",
-      "canonical_id": "21_001",
-      "solution": {
-        "strategy": "Set the first number as a variable and construct the relationship between consecutive odd numbers.",
-        "steps": [
-          "Let the first odd number be n. The six numbers are n, n+2, n+4, n+6, n+8, n+10. Sum = 6n+30 = 36, so n = 1.",
-          "The numbers are 1, 3, 5, 7, 9, 11. Difference between highest and lowest = 11 - 1 = 10."
-        ],
-        "final_answer": "10"
-      },
-      "question_type": "mc",
-      "q_number": 21
-    },
-    {
-      "id": "P1028E-M-22_1_001",
-      "type_id": "22_1",
-      "question": "(11 + 4x) - (2 - x) =",
-      "options": {
-        "A": "9 - 5x",
-        "B": "9 + 3x",
-        "C": "9 + 5x",
-        "D": "13 + 3x"
       },
       "correct": "C",
       "source": "generated",
-      "canonical_id": "22_001",
+      "canonical_id": "21_001",
       "solution": {
-        "strategy": "Distribute the negative and combine like terms.",
-        "steps": [
-          "(11 + 4x) - (2 - x) = 11 + 4x - 2 + x = 9 + 5x"
-        ],
-        "final_answer": "9 + 5x"
+        "exhibit_text": "Let the first odd be n. Sum = 5n + 20 = 45, n = 5. Numbers 5,7,9,11,13. Difference = 8.\n\n5n + 20 = 45, n = 5. Difference = 13 - 5 = 8."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 21_1 (canonical 21_001)",
+      "base_question": {
+        "question": "The sum of 6 consecutive odd numbers is 36. What is the difference between the highest and the lowest of these numbers?",
+        "options": {
+          "A": "1",
+          "B": "6",
+          "C": "7",
+          "D": "10"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Set the first number as a variable and construct the relationship between consecutive odd numbers.\n\nLet the first odd number be x.\nWrite the equation for the sum of five consecutive odd numbers: x + (x + 2) + (x + 4) + (x + 6) + (x + 8) + (x + 10) = 36.\nCombine like terms: 5x + 30 = 36.\nSolve for x: 5x = 36 - 30, so 5x = 6, giving x = 1.\nThe largest number is (x + 10), which is 1 + 10 = 11.\nThe difference between 1 and 11 is 10."
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P1028E-M-22_1_002",
+      "type_id": "22_1",
+      "question": "(7 + 3x) - (1 - 2x) =",
+      "options": {
+        "A": "6 + x",
+        "B": "6 + 5x",
+        "C": "8 + x",
+        "D": "8 + 5x"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "22_001",
+      "solution": {
+        "exhibit_text": "Distribute the negative and combine like terms.\n\n(7 + 3x) - (1 - 2x) = 7 + 3x - 1 + 2x = 6 + 5x"
+      },
+      "question_type": "mc",
+      "base_source": "Math bank — type 22_1 (canonical 22_001)",
+      "base_question": {
+        "question": "(11 + 4x) - (2 - x) =",
+        "options": {
+          "A": "9 - 5x",
+          "B": "9 + 3x",
+          "C": "9 + 5x",
+          "D": "13 + 3x"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Distribute the negative and combine like terms.\n\n(11 + 4x) - (2 - x) = 11 + 4x - 2 + x\nCombine like terms: 9 + 5x"
+        }
+      },
       "q_number": 22
     },
     {
-      "id": "P1028E-M-23_1_001",
+      "id": "P1028E-M-23_1_002",
       "type_id": "23_1",
-      "question": "A can contains 40 chips: 10 each of red and blue, 12 white, and the remaining black. If Susan were to remove 3 black and 2 red chips, what is the probability that the next one she removes is black?",
+      "question": "A can contains 50 chips: 15 red, 15 blue, 12 white, and the rest black. If Maria removes 4 black and 10 red chips, what is the probability that the next chip she picks is black?",
       "options": {
-        "A": "3/35",
-        "B": "1/8",
-        "C": "1/7",
-        "D": "1/5"
+        "A": "4/43",
+        "B": "1/10",
+        "C": "1/9",
+        "D": "4/25"
       },
       "correct": "C",
       "source": "generated",
       "canonical_id": "23_001",
       "solution": {
-        "strategy": "Find initial black count, then new total and remaining black after removals. Probability = remaining black / new total.",
-        "steps": [
-          "Initial black: 40 - 10 - 10 - 12 = 8. After removing 3 black and 2 red: 5 black left, 35 chips total.",
-          "P(black) = 5/35 = 1/7."
-        ],
-        "final_answer": "1/7"
+        "exhibit_text": "Find initial black count, then new total and remaining black after removals.\n\nInitial black: 50 - 15 - 15 - 12 = 8. After removing 4 black and 10 red: 4 black left, 36 total. P(black) = 4/36 = 1/9."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 23_1 (canonical 23_001)",
+      "base_question": {
+        "question": "A can contains 40 chips: 10 each of red and blue, 12 white, and the remaining black. If Susan were to remove 3 black and 2 red chips, what is the probability that the next one she removes is black?",
+        "options": {
+          "A": "3/35",
+          "B": "1/8",
+          "C": "1/7",
+          "D": "1/5"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "First, determine the initial number of black chips, then calculate the new total after removing some chips, and finally use the probability formula to find the desired outcome.\n\nCalculate initial black chips: 40 total - 10 red - 10 blue - 12 white = 8 black chips\nCalculate new total after removals: 40 total - 2 red - 3 black = 35 new total\nCalculate remaining black chips: 8 black - 3 black removed = 5 black\nUse probability formula: probability = desired / total = 5 / 35 = 1 / 7"
+        }
+      },
       "q_number": 23
     },
     {
-      "id": "P1028E-M-24_1_001",
+      "id": "P1028E-M-24_1_002",
       "type_id": "24_1",
-      "question": "The population of a particular bacteria doubles in size every 19 hours. If the population is 100 at 2:15 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+      "question": "The population of a particular bacteria doubles in size every 12 hours. If the population is 200 at 8:00 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
       "options": {
-        "A": "2:15 a.m.",
-        "B": "4:15 a.m.",
-        "C": "6:15 a.m.",
-        "D": "4:15 p.m."
+        "A": "8:00 p.m.",
+        "B": "8:00 a.m. the next day",
+        "C": "12:00 a.m. the next day",
+        "D": "2:00 a.m. the next day"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "24_001",
       "solution": {
-        "strategy": "Break the total time into manageable chunks. Doubled twice = 2 × 19 = 38 hours from start.",
-        "steps": [
-          "Start at 2:15 p.m. Add 24 hours: 2:15 p.m. the next day. Add remaining 14 hours: 4:15 a.m. the following morning (i.e., 2:15 p.m. + 14h = 4:15 a.m. next day). So 2:15 p.m. + 38h = 4:15 a.m. (next day)."
-        ],
-        "final_answer": "4:15 a.m."
+        "exhibit_text": "Doubled twice = 2 × 12 = 24 hours. 8:00 a.m. + 24h = 8:00 a.m. the next day.\n\n24 hours from 8:00 a.m. is 8:00 a.m. the next day."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 24_1 (canonical 24_001)",
+      "base_question": {
+        "question": "The population of a particular bacteria doubles in size every 19 hours. If the population is 100 at 2:15 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+        "options": {
+          "A": "2:15 a.m.",
+          "B": "4:15 a.m.",
+          "C": "6:15 a.m.",
+          "D": "4:15 p.m."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Break the total time into manageable chunks to easily calculate the final time.\n\nStart with 2:15 p.m.\nAdd 24 hours to 2:15 p.m. to get back to 2:15 p.m. the next day.\nAdd 12 hours to 2:15 p.m. to get to 2:15 a.m.\nAdd the remaining 2 hours to 2:15 a.m. to reach 4:15 a.m."
+        }
+      },
       "q_number": 24
     },
     {
-      "id": "P1028E-M-25_1_001",
+      "id": "P1028E-M-25_1_002",
       "type_id": "25_1",
-      "question": "(2/3 - 1/5) ÷ 1/6 =",
+      "question": "(5/6 - 1/4) ÷ 1/3 =",
       "options": {
-        "A": "14/5",
-        "B": "7/15",
-        "C": "1/5",
-        "D": "5/9"
+        "A": "7/12",
+        "B": "1",
+        "C": "7/4",
+        "D": "3/4"
       },
-      "correct": "A",
+      "correct": "C",
       "source": "generated",
       "canonical_id": "25_001",
       "solution": {
-        "strategy": "When adding or subtracting fractions, you must have a common denominator.",
-        "steps": [
-          "(2/3 - 1/5) ÷ 1/6",
-          "=(2 × 5)/(3 × 5) - (1 × 3)/(5 × 3) ÷ 1/6",
-          "=(10/15 - 3/15) ÷ 1/6 = (7/15) ÷ 1/6",
-          "To divide by a fraction, multiply by its reciprocal.",
-          "7/15 × 6/1 = 42/15 = 14/5"
-        ],
-        "final_answer": "14/5"
+        "exhibit_text": "When adding or subtracting fractions, you must have a common denominator.\n\n(5/6 - 1/4) ÷ 1/3\n=(10/12 - 3/12) ÷ 1/3 = (7/12) ÷ 1/3\nTo divide by a fraction, multiply by its reciprocal.\n7/12 × 3/1 = 21/12 = 7/4"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 25_1 (canonical 25_001)",
+      "base_question": {
+        "question": "(3/4 - 2/7) ÷ 1/4 =",
+        "options": {
+          "A": "-3/2",
+          "B": "-1/2",
+          "C": "7/112",
+          "D": "13/7"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "When adding or subtracting fractions, you must have a common denominator.\n\n(3/4 - 2/7) ÷ 1/4\n=(3 × 7)/(4 × 7) - (2 × 4)/(7 × 4) ÷ 1/4\n=(21/28 - 8/28) ÷ 1/4\n= (13/28) ÷ 1/4\nTo divide by a fraction, multiply by its reciprocal.\n13/28 × 4/1 = 52/28 = 13/7"
+        }
+      },
       "q_number": 25
     },
     {
-      "id": "P1028E-M-26_1_001",
+      "id": "P1028E-M-26_1_002",
       "type_id": "26_1",
-      "question": "A survey asked students what types of exercise they regularly do. Based on the results, the following statements are all true.\n\n• 50 students run.\n• 40 students swim.\n• 15 students both run and swim.\n• 20 students neither run nor swim.\n\nHow many students were surveyed?",
+      "question": "A survey asked students what types of exercise they regularly do. Based on the results, the following statements are all true.\n\n• 44 students bike.\n• 38 students hike.\n• 10 students both bike and hike.\n• 18 students neither bike nor hike.\n\nHow many students were surveyed?",
       "options": {
-        "A": "90",
-        "B": "95",
-        "C": "100",
-        "D": "130"
+        "A": "80",
+        "B": "82",
+        "C": "90",
+        "D": "110"
       },
-      "correct": "B",
+      "correct": "C",
       "source": "generated",
       "canonical_id": "26_001",
       "solution": {
-        "strategy": "Use Venn: total = only run + only swim + both + neither.",
-        "steps": [
-          "Only run: 50 - 15 = 35. Only swim: 40 - 15 = 25.",
-          "Total = 35 + 25 + 15 + 20 = 95."
-        ],
-        "final_answer": "95"
+        "exhibit_text": "Use Venn: total = only bike + only hike + both + neither.\n\nOnly bike: 44 - 10 = 34. Only hike: 38 - 10 = 28.\nTotal = 34 + 28 + 10 + 18 = 90."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 26_1 (canonical 26_001)",
+      "base_question": {
+        "question": "A survey asked students what types of exercise they regularly do. Based on the results, the following statements are all true.\n\n• 40 students jog.\n• 36 students lift weights.\n• 12 students both jog and lift weights.\n• 16 students neither jog nor lift weights.\n\nHow many students were surveyed?",
+        "options": {
+          "A": "72",
+          "B": "76",
+          "C": "80",
+          "D": "104"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Defining variables helps keep all the information organized.\n\nLet j = number of students who only jog.\nLet w = number of students who only lift weights.\nThere are 40 students who jog, and of those 40 students, 12 both jog and lift weights.\nCalculate j and w using the given information."
+        }
+      },
       "q_number": 26
     },
     {
-      "id": "P1028E-M-27_1_001",
+      "id": "P1028E-M-27_1_002",
       "type_id": "27_1",
-      "question": "The side length of square A is shorter than the side length of square B by 5 inches. The perimeter of square A is 100 inches. What is the difference, in square inches, between the area of square A and the area of square B?",
+      "question": "The side length of square A is shorter than the side length of square B by 3 inches. The perimeter of square A is 60 inches. What is the difference, in square inches, between the area of square A and the area of square B?",
       "options": {
-        "A": "10",
-        "B": "25",
-        "C": "125",
-        "D": "275"
+        "A": "99",
+        "B": "81",
+        "C": "27",
+        "D": "9"
       },
-      "correct": "D",
+      "correct": "A",
       "source": "generated",
       "canonical_id": "27_001",
       "solution": {
-        "strategy": "To find the area difference between two squares, first determine the side lengths using the perimeter and the relationship between the squares, then calculate their areas and find the difference.",
-        "steps": [
-          "Calculate the side length of square A: 100 ÷ 4 = 25 inches.",
-          "Determine the side length of square B: 25 + 5 = 30 inches.",
-          "Calculate the area of square B: 30 × 30 = 900 sq in.",
-          "Calculate the area of square A: 25 × 25 = 625 sq in.",
-          "Find the difference between the areas: 900 - 625 = 275 sq in."
-        ],
-        "final_answer": "275"
+        "exhibit_text": "To find the area difference between two squares, first determine the side lengths using the perimeter and the relationship between the squares, then calculate their areas and find the difference.\n\nCalculate the side length of square A: 60 ÷ 4 = 15 inches.\nDetermine the side length of square B: 15 + 3 = 18 inches.\nCalculate the area of square B: 18 × 18 = 324 sq in.\nCalculate the area of square A: 15 × 15 = 225 sq in.\nFind the difference between the areas: 324 - 225 = 99 sq in."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 27_1 (canonical 27_001)",
+      "base_question": {
+        "question": "The side length of square A is shorter than the side length of square B by 5 inches. The perimeter of square A is 100 inches. What is the difference, in square inches, between the area of square A and the area of square B?",
+        "options": {
+          "A": "10",
+          "B": "25",
+          "C": "125",
+          "D": "275"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "To find the area difference between two squares, first determine the side lengths using the perimeter and the relationship between the squares, then calculate their areas and find the difference.\n\nCalculate the side length of square A: 100 ÷ 4 = 25 inches.\nDetermine the side length of square B: 25 + 5 = 30 inches.\nCalculate the area of square B: 30 × 30 = 900 sq in.\nCalculate the area of square A: 25 × 25 = 625 sq in.\nFind the difference between the areas: 900 - 625 = 275 sq in."
+        }
+      },
       "q_number": 27
     },
     {
-      "id": "P1028E-M-28_1_001",
+      "id": "P1028E-M-28_1_002",
       "type_id": "28_1",
-      "question": "In a scale drawing of a rectangular patio, the length is 14 inches and the width is 10 inches. In the drawing, 4 inches represents 5 yards. What is the length of the actual patio, in yards?",
+      "question": "In a scale drawing of a rectangular room, the length is 12 inches and the width is 8 inches. In the drawing, 3 inches represents 4 yards. What is the length of the actual room, in yards?",
       "options": {
-        "A": "15 yards",
-        "B": "17.5 yards",
-        "C": "20 yards",
-        "D": "25 yards"
+        "A": "12 yards",
+        "B": "14 yards",
+        "C": "16 yards",
+        "D": "18 yards"
       },
-      "correct": "B",
+      "correct": "C",
       "source": "generated",
       "canonical_id": "28_001",
       "solution": {
-        "strategy": "Start by simplifying the scale to determine how many yards 1 inch represents based on the given dimensions.",
-        "steps": [
-          "Identify that 4 inches represent 5 yards.",
-          "Calculate how many yards 1 inch represents: 5 ÷ 4 = 1.25 yards.",
-          "Determine the length of the patio in the drawing, which is 14 inches.",
-          "Calculate the actual length of the patio: 14 × 1.25 = 17.5 yards."
-        ],
-        "final_answer": "17.5 yards"
+        "exhibit_text": "Start by simplifying the scale to determine how many yards 1 inch represents.\n\nIdentify that 3 inches represent 4 yards.\nCalculate how many yards 1 inch represents: 4 ÷ 3 ≈ 1.333 yards.\nCalculate the actual length: 12 × (4/3) = 16 yards."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 28_1 (canonical 28_001)",
+      "base_question": {
+        "question": "In a scale drawing of a rectangular patio, the length is 14 inches and the width is 10 inches. In the drawing, 4 inches represents 5 yards. What is the length of the actual patio, in yards?",
+        "options": {
+          "A": "15 yards",
+          "B": "17.5 yards",
+          "C": "20 yards",
+          "D": "25 yards"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Start by simplifying the scale to determine how many yards 1 inch represents based on the given dimensions.\n\nIdentify that 4 inches represent 5 yards.\nCalculate how many yards 1 inch represents: 5 ÷ 4 = 1.25 yards.\nDetermine the length of the patio in the drawing, which is 14 inches.\nCalculate the actual length of the patio: 14 × 1.25 = 17.5 yards."
+        }
+      },
       "q_number": 28
     },
     {
-      "id": "P1028E-M-29_1_001",
+      "id": "P1028E-M-29_1_002",
       "type_id": "29_1",
-      "question": "Margo bowled a mean of 110 points per game in her first 4 games. In her 5th game, she bowled 160 points. What is her mean score for the first 5 games?",
+      "question": "Jake bowled a mean of 100 points per game in his first 5 games. In his 6th game, he bowled 130 points. What is his mean score for the first 6 games?",
       "options": {
-        "A": "120",
-        "B": "132",
-        "C": "135",
-        "D": "142"
+        "A": "105",
+        "B": "108",
+        "C": "110",
+        "D": "115"
       },
       "correct": "A",
       "source": "generated",
       "canonical_id": "29_001",
       "solution": {
-        "strategy": "Calculate the total points scored in the first 4 games and then find the mean by adding the points from the 5th game.",
-        "steps": [
-          "Calculate total points for the first 4 games: 110 × 4 = 440 points",
-          "Add points from the 5th game: 440 + 160 = 600 points",
-          "Calculate the mean over the 5 games: 600 ÷ 5 = 120"
-        ],
-        "final_answer": "120"
+        "exhibit_text": "Calculate the total points scored in the first 5 games, add the 6th game, then find the mean.\n\nTotal for first 5 games: 100 × 5 = 500 points\nAdd 6th game: 500 + 130 = 630 points\nMean over 6 games: 630 ÷ 6 = 105"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 29_1 (canonical 29_001)",
+      "base_question": {
+        "question": "105. Margo bowled a mean of 110 points per game in her first 4 games. In her 5th game, she bowled 160 points. What is her mean score for the first 5 games?",
+        "options": {
+          "A": "120",
+          "B": "132",
+          "C": "135",
+          "D": "142"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Calculate the total points scored in the first 4 games and then find the mean by adding the points from the 5th game.\n\nCalculate total points for the first 4 games: 110 × 4 = 440 points\nAdd points from the 5th game: 440 + 160 = 600 points\nCalculate the mean over the 5 games: 600 ÷ 5 = 120"
+        }
+      },
       "q_number": 29
     },
     {
-      "id": "P1028E-M-30_1_001",
+      "id": "P1028E-M-30_1_002",
       "type_id": "30_1",
-      "question": "Nick and Alex worked on a paper together. If Nick wrote 2/7 of the paper and Alex wrote 20 pages, then what was the total length of the paper?",
+      "question": "Maya and Ben worked on a report together. If Maya wrote 1/4 of the report and Ben wrote 27 pages, then what was the total length of the report?",
       "options": {
-        "A": "7 pages",
-        "B": "21 pages",
-        "C": "28 pages",
-        "D": "35 pages"
+        "A": "32 pages",
+        "B": "36 pages",
+        "C": "40 pages",
+        "D": "45 pages"
       },
-      "correct": "C",
+      "correct": "B",
       "source": "generated",
       "canonical_id": "30_001",
       "solution": {
-        "strategy": "Set up the equation based on the fraction of the paper written by Alex, which is 5/7 of the total pages, and equate it to 20 pages.",
-        "steps": [
-          "Identify that 5/7 of the paper equals 20 pages.",
-          "Set up the equation: (5/7)P = 20.",
-          "Multiply both sides by 7 to eliminate the fraction: 5P = 140.",
-          "Divide both sides by 5 to solve for P: P = 28."
-        ],
-        "final_answer": "28 pages"
+        "exhibit_text": "Identify the fraction Ben wrote (3/4) and set up an equation for the total.\n\nBen wrote 3/4 of the report, so (3/4)P = 27.\nMultiply both sides by 4: 3P = 108.\nSolve for P: P = 36."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 30_1 (canonical 30_001)",
+      "base_question": {
+        "question": "106. Nick and Alex worked on a paper together. If Nick wrote 2/7 of the paper and Alex wrote 20 pages, then what was the total length of the paper?",
+        "options": {
+          "A": "7 pages",
+          "B": "21 pages",
+          "C": "28 pages",
+          "D": "35 pages"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Set up the equation based on the fraction of the paper written by Alex, which is 5/7 of the total pages, and equate it to 20 pages.\n\nIdentify that 5/7 of the paper equals 20 pages.\nSet up the equation: (5/7)P = 20.\nMultiply both sides by 7 to eliminate the fraction: 5P = 140.\nDivide both sides by 5 to solve for P: P = 28."
+        }
+      },
       "q_number": 30
     },
     {
-      "id": "P1028E-M-31_1_001",
+      "id": "P1028E-M-31_1_002",
       "type_id": "31_1",
-      "question": "Burt has b action figures, and Cho has c action figures. If Burt gives 4 action figures to Cho, Burt will have twice as many action figures as Cho. Which equation shows the relationship between b and c?",
+      "question": "Burt has b action figures, and Cho has c action figures. If Burt gives 6 action figures to Cho, Burt will have twice as many action figures as Cho. Which equation shows the relationship between b and c?",
       "options": {
-        "A": "b - 4 = 2(c + 4)",
-        "B": "b - 4 = 2c + 4",
-        "C": "2(b - 4) = c",
-        "D": "2(b - 4) = c + 4"
+        "A": "b - 6 = 2(c + 6)",
+        "B": "b - 6 = 2c + 6",
+        "C": "2(b - 6) = c",
+        "D": "2(b - 6) = c + 6"
       },
       "correct": "A",
       "source": "generated",
       "canonical_id": "31_001",
       "solution": {
-        "strategy": "When you are given a lot of general information about variables, start by writing down what you know. Divide the information into before and after Burt gives 4 of his action figures to Cho.",
-        "steps": [
-          "Before: Burt = b and Cho = c",
-          "After: Burt = b - 4 and Cho = c + 4",
-          "After: Burt = twice Cho, so b - 4 = 2(c + 4)"
-        ],
-        "final_answer": "(A) is correct."
+        "exhibit_text": "Express after-change amounts: Burt = b - 6, Cho = c + 6. Burt has twice as many as Cho: b - 6 = 2(c + 6).\n\nAfter: Burt = b - 6 and Cho = c + 6\nBurt = 2 × Cho gives b - 6 = 2(c + 6)"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 31_1 (canonical 31_001)",
+      "base_question": {
+        "question": "111. Burt has b action figures, and Cho has c action figures. If Burt gives 4 action figures to Cho, Burt will have twice as many action figures as Cho. Which equation shows the relationship between b and c?",
+        "options": {
+          "A": "b - 4 = 2(c + 4)",
+          "B": "b - 4 = 2c + 4",
+          "C": "2(b - 4) = c",
+          "D": "2(b - 4) = c + 4"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "When you are given a lot of general information about variables, start by writing down what you know. Divide the information into before and after Burt gives 4 of his action figures to Cho.\n\nBefore: Burt = b and Cho = c\nAfter: Burt = b - 4 and Cho = c + 4\nAfter: Burt = twice Cho, so b - 4 = 2(c + 4)"
+        }
+      },
       "q_number": 31
     },
     {
-      "id": "P1028E-M-32_1_001",
+      "id": "P1028E-M-32_1_002",
       "type_id": "32_1",
-      "question": "What is the value of 4 - 6 ÷ |1 - 2|?",
+      "question": "What is the value of 10 - 2 × |3 - 5| + 4?",
       "options": {
-        "A": "-2",
-        "B": "0",
-        "C": "2",
-        "D": "4"
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
       },
-      "correct": "A",
+      "correct": "C",
       "source": "generated",
       "canonical_id": "32_001",
       "solution": {
-        "strategy": "Follow the order of operations: PEMDAS. Evaluate absolute value first, then division, then subtraction.",
-        "steps": [
-          "|1 - 2| = |-1| = 1",
-          "6 ÷ 1 = 6",
-          "4 - 6 = -2"
-        ],
-        "final_answer": "-2"
+        "exhibit_text": "Follow PEMDAS. Absolute value first: |3 - 5| = 2. Then multiplication: 2 × 2 = 4. Then left to right: 10 - 4 + 4 = 10.\n\n|3 - 5| = 2\n2 × 2 = 4\n10 - 4 + 4 = 10"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 32_1 (canonical 32_001)",
+      "base_question": {
+        "question": "[PICTURE REQUIRED]\n58. What is the value of the expression shown above? (4 - 6 ÷ |-2| + (-3)³ × 2⅓)",
+        "options": {
+          "A": "-62",
+          "B": "-56",
+          "C": "56",
+          "D": "62"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Follow the order of operations: PEMDAS. Remember that absolute value bars act like parentheses, so evaluate that part first.\n\n4 - 6 ÷ |1 - 2| + (-3)³ × 2 1/3\n4 - 6 ÷ 2 + (-3)³ × 2 1/3\n4 - 6 ÷ 2 + (-27) × 2 1/3\n4 - 3 + (-27) × 2 1/3\n4 - 3 + (-27 × 7/3)\n4 - 3 + (-63)\n4 - 3 - 63"
+        }
+      },
       "q_number": 32
     },
     {
-      "id": "P1028E-M-33_1_001",
+      "id": "P1028E-M-33_1_002",
       "type_id": "33_1",
-      "question": "Carin opened a money market account with a deposit of $3,000. This account earns 2% simple interest annually. How many years will it take for her $3,000 deposit to earn $420 in interest, assuming she does not withdraw any of the money?",
+      "question": "Jordan opened a money market account with a deposit of $2,000. This account earns 3% simple interest annually. How many years will it take for her $2,000 deposit to earn $180 in interest, assuming she does not withdraw any of the money?",
       "options": {
-        "A": "7 years",
-        "B": "8 years",
-        "C": "9 years",
-        "D": "10 years"
+        "A": "2 years",
+        "B": "3 years",
+        "C": "4 years",
+        "D": "5 years"
       },
-      "correct": "A",
+      "correct": "B",
       "source": "generated",
       "canonical_id": "33_001",
       "solution": {
-        "strategy": "Use the simple interest formula I = Prt to solve for t, where I is the interest earned, P is the principal, r is the interest rate as a decimal, and t is the time in years.",
-        "steps": [
-          "Identify the values: I = $420, P = $3,000, r = 2% = 0.02.",
-          "Substitute the values into the formula: 420 = 3000 × 0.02 × t.",
-          "Calculate: 420 = 60t.",
-          "Solve for t: t = 420 / 60 = 7."
-        ],
-        "final_answer": "7 years"
+        "exhibit_text": "Use the simple interest formula I = Prt to solve for t.\n\nI = $180, P = $2,000, r = 0.03. 180 = 2000 × 0.03 × t = 60t.\nSolve for t: t = 180 / 60 = 3."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 33_1 (canonical 33_001)",
+      "base_question": {
+        "question": "60. Carin opened a money market account with a deposit of $3,000. This account earns 2% simple interest annually. How many years will it take for her $3,000 deposit to earn $420 in interest, assuming she does not withdraw any of the money?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Use the simple interest formula I = Prt to solve for t, where I is the interest earned, P is the principal, r is the interest rate as a decimal, and t is the time in years.\n\nIdentify the values: I = $420, P = $3,000, r = 2% = 0.02.\nSubstitute the values into the formula: 420 = 3000 × 0.02 × t.\nCalculate: 420 = 60t.\nSolve for t: t = 420 / 60."
+        }
+      },
       "q_number": 33
     },
     {
-      "id": "P1028E-M-35_1_001",
+      "id": "P1028E-M-35_1_002",
       "type_id": "35_1",
-      "question": "If a + b < 6, and a - b > 5, which of the following pairs could be the values of a and b?",
+      "question": "If a + b < 4, and a - b > 7, which of the following pairs could be the values of a and b?",
       "options": {
-        "A": "(5, -1)",
-        "B": "(4, 2)",
-        "C": "(3, 1)",
-        "D": "(2, 4)"
+        "A": "(5, -2)",
+        "B": "(6, -3)",
+        "C": "(4, 0)",
+        "D": "(3, 2)"
       },
-      "correct": "A",
+      "correct": "B",
       "source": "generated",
       "canonical_id": "35_001",
       "solution": {
-        "strategy": "Check each pair: both a + b < 6 and a - b > 5 must hold.",
-        "steps": [
-          "A: 5 + (-1) = 4 < 6 ✓; 5 - (-1) = 6 > 5 ✓",
-          "B: 4 + 2 = 6 is not < 6; C, D fail similarly",
-          "Only (5, -1) satisfies both inequalities"
-        ],
-        "final_answer": "A"
+        "exhibit_text": "Check each pair: both a + b < 4 and a - b > 7 must hold.\n\nB: 6 + (-3) = 3 < 4 ✓; 6 - (-3) = 9 > 7 ✓\nA: 5 + (-2) = 3 < 4 ✓ but 5 - (-2) = 7 is not > 7\nOnly (6, -3) satisfies both"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 35_1 (canonical 35_001)",
+      "base_question": {
+        "question": "69. If a + b < 5, and a - b > 6, which of the following pairs could be the values of a and b?",
+        "options": {
+          "A": "(4, -3)",
+          "B": "(4, -2)",
+          "C": "(3, -2)",
+          "D": "(1, 3)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Test each pair against both inequalities (a + b < 5 and a - b > 6).\n\n(4, -3): 4 + (-3) = 1 < 5 (true); 4 - (-3) = 7 > 6 (true). Both hold.\nThe other pairs fail at least one inequality."
+        }
+      },
       "q_number": 34
     },
     {
-      "id": "P1028E-M-36_1_001",
+      "id": "P1028E-M-36_1_002",
       "type_id": "36_1",
-      "question": "How many negative odd numbers satisfy the inequality 3x + 60 ≥ 15?",
+      "question": "How many negative odd numbers satisfy the inequality 5x + 50 ≥ 10?",
       "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
       },
       "correct": "C",
       "source": "generated",
       "canonical_id": "36_001",
       "solution": {
-        "strategy": "Solve the inequality for x, then count negative odd integers that satisfy it.",
-        "steps": [
-          "3x + 60 ≥ 15 → 3x ≥ -45 → x ≥ -15",
-          "Negative odd numbers ≥ -15: -15, -13, -11, -9, -7, -5, -3, -1",
-          "Count = 8"
-        ],
-        "final_answer": "C"
+        "exhibit_text": "Solve the inequality for x, then count negative odd integers that satisfy it.\n\n5x + 50 ≥ 10 → 5x ≥ -40 → x ≥ -8\nNegative odd numbers ≥ -8: -7, -5, -3, -1\nCount = 4"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 36_1 (canonical 36_001)",
+      "base_question": {
+        "question": "93. How many negative odd numbers satisfy the inequality 4x + 100 ≥ 20?",
+        "options": {
+          "A": "9",
+          "B": "10",
+          "C": "19",
+          "D": "20"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Solve the inequality for x, then count the negative odd integers that satisfy it.\n\n4x + 100 >= 20\n4x >= -80\nx >= -20\n\nNegative odd integers from -19 to -1: -19, -17, ..., -1 — that's 10 numbers."
+        }
+      },
       "q_number": 35
     },
     {
-      "id": "P1028E-M-37_1_001",
+      "id": "P1028E-M-37_1_002",
       "type_id": "37_1",
-      "question": "What is the surface area, in square centimeters, of a cube with volume 8 cubic centimeters?",
+      "question": "What is the surface area, in square centimeters, of a cube with volume 64 cubic centimeters?",
       "options": {
-        "A": "12",
-        "B": "16",
-        "C": "24",
-        "D": "32"
+        "A": "64",
+        "B": "96",
+        "C": "128",
+        "D": "192"
       },
-      "correct": "C",
+      "correct": "B",
       "source": "generated",
       "canonical_id": "37_001",
       "solution": {
-        "strategy": "Find the side length from volume (s³ = V), then compute surface area 6s².",
-        "steps": [
-          "Volume = 8 cm³ → side s = 2 cm",
-          "Surface area = 6 × 2² = 6 × 4 = 24 cm²"
-        ],
-        "final_answer": "C"
+        "exhibit_text": "Find the side length from volume (s³ = V), then compute surface area 6s².\n\nVolume = 64 cm³ → side s = 4 cm\nSurface area = 6 × 4² = 6 × 16 = 96 cm²"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 37_1 (canonical 37_001)",
+      "base_question": {
+        "question": "89. What is the surface area, in square centimeters, of a cube with volume 27 cubic centimeters?",
+        "options": {
+          "A": "24",
+          "B": "27",
+          "C": "36",
+          "D": "54"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Find the side length from the volume, then use it to find surface area.\n\nVolume = s^3 = 27, so s = 3\nSurface area = 6s^2 = 6(9) = 54"
+        }
+      },
       "q_number": 36
     },
     {
-      "id": "P1028E-M-38_1_001",
+      "id": "P1028E-M-38_1_002",
       "type_id": "38_1",
-      "question": "Ben can choose 2 of his 4 best friends to go with him to the movies. His best friends are Carla, David, Emma, and Frank. How many different pairs of 2 friends can he choose from the 4?",
+      "question": "Maria can choose 2 of her 6 best friends to go with her to the concert. Her best friends are Nina, Omar, Paula, Quinn, Rachel, and Sam. How many different pairs of 2 friends can she choose from the 6?",
       "options": {
-        "A": "4",
-        "B": "6",
-        "C": "8",
-        "D": "12"
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "30"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "38_001",
       "solution": {
-        "strategy": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.",
-        "steps": [
-          "Choose 2 from 4: C(4,2) = 4×3/2 = 6"
-        ],
-        "final_answer": "B"
+        "exhibit_text": "Number of ways to choose 2 from n is C(n,2) = n(n-1)/2.\n\nChoose 2 from 6: C(6,2) = 6×5/2 = 15"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 38_1 (canonical 38_001)",
+      "base_question": {
+        "question": "58. Alicia can choose 2 of her 5 best friends to go with her to the amusement park. Her best friends are Connie, Dale, Eric, Finley, and Georgette. How many different pairs of 2 friends can she choose from the 5?",
+        "options": {
+          "A": "5",
+          "B": "10",
+          "C": "15",
+          "D": "20"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "This is a combinations problem: choosing 2 friends out of 5, order doesn't matter.\n\nNumber of pairs = 5!/(2! * 3!) = (5 * 4) / 2 = 10"
+        }
+      },
       "q_number": 37
     },
     {
-      "id": "P1028E-M-39_1_001",
+      "id": "P1028E-M-39_1_002",
       "type_id": "39_1",
-      "question": "Which improper fraction has the same value as the expression above? (1.45 repeating + 1.09 repeating)",
+      "question": "Which improper fraction has the same value as the expression above? (2.18 repeating + 0.63 repeating)",
       "options": {
-        "A": "14/11",
-        "B": "25/11",
-        "C": "28/11",
-        "D": "31/11"
+        "A": "25/11",
+        "B": "28/11",
+        "C": "31/11",
+        "D": "34/11"
       },
       "correct": "C",
       "source": "generated",
       "canonical_id": "39_001",
       "solution": {
-        "strategy": "Convert each repeating decimal to a fraction (digit sequence minus non-repeating over 9s), add, and simplify.",
-        "steps": [
-          "1.45 repeating = (145-1)/99 = 144/99 = 16/11; 1.09 repeating = 108/99 = 12/11",
-          "Sum = 16/11 + 12/11 = 28/11"
-        ],
-        "final_answer": "C"
+        "exhibit_text": "Convert each repeating decimal to a fraction, add, and simplify.\n\n2.18 repeating = 216/99 = 24/11; 0.63 repeating = 63/99 = 7/11\nSum = 24/11 + 7/11 = 31/11"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 39_1 (canonical 39_001)",
+      "base_question": {
+        "question": "111. Which improper fraction has the same value as the expression above? (2.56 repeating + 1.32 repeating)",
+        "options": {
+          "A": "41/11",
+          "B": "19/5",
+          "C": "97/25",
+          "D": "35/9"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Convert each repeating decimal to a fraction, then add.\n\n2.565656... = 254/99\n1.323232... = 131/99\nSum = 385/99, which simplifies (divide by 11) to 35/9"
+        }
+      },
       "q_number": 38
     },
     {
-      "id": "P1028E-M-40_1_001",
+      "id": "P1028E-M-40_1_002",
       "type_id": "40_1",
-      "question": "Andre buys two cedar trees to plant in his back yard. One tree is 4 feet, 9 inches tall and the other is 5 feet, 6.5 inches tall. What is the difference in height, in inches, between the two trees?",
+      "question": "Maria buys two rose bushes. One is 3 feet, 4 inches tall and the other is 4 feet, 11 inches tall. What is the difference in height, in inches, between the two bushes?",
       "options": {
-        "A": "8.5",
-        "B": "9.5",
-        "C": "10.5",
-        "D": "11.5"
-      },
-      "correct": "B",
-      "source": "generated",
-      "canonical_id": "40_001",
-      "solution": {
-        "strategy": "Convert both heights to inches (1 ft = 12 in), then subtract.",
-        "steps": [
-          "First: 4×12 + 9 = 57 in; second: 5×12 + 6.5 = 66.5 in",
-          "Difference = 66.5 - 57 = 9.5 in"
-        ],
-        "final_answer": "B"
-      },
-      "question_type": "mc",
-      "q_number": 39
-    },
-    {
-      "id": "P1028E-M-41_1_001",
-      "type_id": "41_1",
-      "question": "A camp counselor has 54 paintbrushes, 72 tubes of paint, and 90 sheets of paper to distribute to the children in the camp. If each child receives an equal number of each item and there are no items remaining, what is the greatest possible number of children in the camp?",
-      "options": {
-        "A": "6",
-        "B": "9",
-        "C": "18",
-        "D": "36"
+        "A": "17",
+        "B": "18",
+        "C": "19",
+        "D": "20"
       },
       "correct": "C",
       "source": "generated",
-      "canonical_id": "41_001",
+      "canonical_id": "40_001",
       "solution": {
-        "strategy": "The greatest number of children is the GCF of the three quantities.",
-        "steps": [
-          "GCF(54, 72, 90): 54 = 2×3³, 72 = 2³×3², 90 = 2×3²×5",
-          "GCF = 2×3² = 18"
-        ],
-        "final_answer": "C"
+        "exhibit_text": "Convert both heights to inches (1 ft = 12 in), then subtract.\n\nFirst: 3×12 + 4 = 40 in; second: 4×12 + 11 = 59 in\nDifference = 59 - 40 = 19 in"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 40_1 (canonical 40_001)",
+      "base_question": {
+        "question": "99. Andre buys two cedar trees to plant in his back yard. One tree is 4 feet, 9 inches tall and the other is 5 feet, 6.5 inches tall. What is the difference in height, in inches, between the two trees?",
+        "options": {
+          "A": "8.5",
+          "B": "9.5",
+          "C": "10.5",
+          "D": "11.5"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Convert both heights to inches, then subtract.\n\n4 ft 9 in = 57 in\n5 ft 6.5 in = 66.5 in\n66.5 - 57 = 9.5 inches"
+        }
+      },
+      "q_number": 39
+    },
+    {
+      "id": "P1028E-M-41_1_002",
+      "type_id": "41_1",
+      "question": "A teacher has 24 pencils, 36 erasers, and 60 sheets of sticker paper to give to students. If each student receives an equal number of each item and there are no items remaining, what is the greatest possible number of students?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "correct": "B",
+      "source": "generated",
+      "canonical_id": "41_001",
+      "solution": {
+        "exhibit_text": "The greatest number of students is the GCF of the three quantities.\n\nGCF(24, 36, 60): 24 = 2³×3, 36 = 2²×3², 60 = 2²×3×5\nGCF = 2²×3 = 12"
+      },
+      "question_type": "mc",
+      "base_source": "Math bank — type 41_1 (canonical 41_001)",
+      "base_question": {
+        "question": "32. A camp counselor has 54 paintbrushes, 72 tubes of paint, and 90 sheets of paper to distribute to the children in the camp. If each child receives an equal number of each item and there are no items remaining, what is the greatest possible number of children in the camp?",
+        "options": {
+          "A": "6",
+          "B": "9",
+          "C": "18",
+          "D": "36"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "This asks for the greatest common factor (GCF) of 54, 72, and 90.\n\n54 = 2 x 3^3\n72 = 2^3 x 3^2\n90 = 2 x 3^2 x 5\nGCF = 2 x 3^2 = 18"
+        }
+      },
       "q_number": 40
     },
     {
-      "id": "P1028E-M-6_3_001",
+      "id": "P1028E-M-6_3_002",
       "type_id": "6_3",
-      "question": "Sarah answered 42 out of 50 questions correctly on her math exam. What percentage of the questions did she get wrong?",
+      "question": "Mike answered 34 out of 40 questions correctly on his science exam. What percentage of the questions did he get wrong?",
       "options": {
-        "A": "8%",
-        "B": "16%",
-        "C": "42%",
-        "D": "84%"
+        "A": "6%",
+        "B": "15%",
+        "C": "34%",
+        "D": "85%"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "6_003",
       "solution": {
-        "strategy": "Set up a proportion to find the percentage of questions Sarah got wrong by comparing the number of wrong answers to the total number of questions.",
-        "steps": [
-          "Identify the number of questions Sarah got wrong: 50 - 42 = 8 out of 50.",
-          "Set up the equation: 8/50 = x/100.",
-          "Cross-multiply: 8 × 100 = 50x, so 800 = 50x.",
-          "Divide both sides by 50: x = 16."
-        ],
-        "final_answer": "16%"
+        "exhibit_text": "Find the number wrong, then express as a percentage of the total.\n\nNumber wrong: 40 - 34 = 6 out of 40.\n6/40 = x/100 → 600 = 40x → x = 15."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 6_3 (canonical 6_003)",
+      "base_question": {
+        "question": "Joe answered 37 out of 50 questions correctly on his history exam. What percentage of the questions did he get wrong?",
+        "options": {
+          "A": "13%",
+          "B": "26%",
+          "C": "37%",
+          "D": "74%"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Set up a proportion to find the percentage of questions Joe got wrong by comparing the number of wrong answers to the total number of questions.\n\nIdentify the number of questions Joe got wrong: 13 out of 50.\nSet up the equation: 13/50 = x/100.\nCross-multiply to solve for x: 13 × 2 = 50 × x.\nCalculate: 26 = 50x.\nDivide both sides by 50 to find x: x = 26/100."
+        }
+      },
       "q_number": 41
     },
     {
-      "id": "P1028E-M-14_2_001",
+      "id": "P1028E-M-14_2_002",
       "type_id": "14_2",
-      "question": "For what value of x does 6(8 - x) = 3(x - 2)?",
+      "question": "For what value of x does 4(10 - x) = 2(x - 4)?",
       "options": {
-        "A": "6",
-        "B": "7",
-        "C": "5",
-        "D": "4"
+        "A": "8",
+        "B": "9",
+        "C": "7",
+        "D": "6"
       },
       "correct": "A",
       "source": "generated",
       "canonical_id": "14_002",
       "solution": {
-        "strategy": "Expand both sides; collect x; solve.",
-        "steps": [
-          "x = (48+6)/(3+6) = 6."
-        ],
-        "final_answer": "6"
+        "exhibit_text": "Expand both sides; collect x; solve.\n\nx = (40+8)/(2+4) = 8."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 14_2 (canonical 14_002)",
+      "base_question": {
+        "question": "For what value of x does 6(8 - x) = 3(x - 2) ?",
+        "options": {
+          "A": "-9",
+          "B": "-6",
+          "C": "3",
+          "D": "6"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Be careful with your work, especially when manipulating positive and negative terms. Sloppy calculations can cost you points on Test Day.\n\n6(8 - x) = 3(x - 2)\n48 - 6x = 3x - 6\n48 - 6x = 9x - 6\n54 = 9x\n6 = x"
+        }
+      },
       "q_number": 42
     },
     {
-      "id": "P1028E-M-2_2_001",
+      "id": "P1028E-M-2_2_002",
       "type_id": "2_2",
-      "question": "What is the value of the expression 2(a – 5)² + 3a ÷ 4 if a = 8?",
+      "question": "What is the value of the expression 2(a – 5)² + 3a ÷ 4 if a = 6?",
       "options": {
-        "A": "18",
-        "B": "24",
-        "C": "30",
-        "D": "36"
-      },
-      "correct": "B",
-      "source": "generated",
-      "canonical_id": "2_002",
-      "solution": {
-        "strategy": "Substitute a = 8 and evaluate.",
-        "steps": [
-          "(a − 5)² = 9, 2(9) + 3(8)÷4 = 18 + 6 = 24"
-        ],
-        "final_answer": "B"
-      },
-      "question_type": "mc",
-      "q_number": 43
-    },
-    {
-      "id": "P1028E-M-9_2_001",
-      "type_id": "9_2",
-      "question": "Bob, Ted, and Carol are all splitting a reward they received for returning someone's wallet. If Bob and Ted each take one-quarter of the reward, and Carol gets $40, how much was the reward in total?",
-      "options": {
-        "A": "$50",
-        "B": "$60",
-        "C": "$80",
-        "D": "$120"
+        "A": "4",
+        "B": "5",
+        "C": "6.5",
+        "D": "8"
       },
       "correct": "C",
       "source": "generated",
-      "canonical_id": null,
+      "canonical_id": "2_002",
       "solution": {
-        "strategy": "If Bob and Ted each receive one-quarter of the reward, then together they received half of the reward. This means that Carol received the other half.",
-        "steps": [
-          "Bob and Ted each receive 1/4 of the total reward.",
-          "Together, Bob and Ted receive 1/4 + 1/4 = 1/2 of the total reward.",
-          "Since Carol received $40, she received the other half of the reward.",
-          "The total reward must be double what Carol received: 2 × $40 = $80."
-        ],
-        "final_answer": "$80"
+        "exhibit_text": "Substitute a = 6.\n\n(a − 5)² = 1, 2(1) + 3(6)÷4 = 2 + 4.5 = 6.5"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 2_2 (canonical 2_002)",
+      "base_question": {
+        "question": "What is the value of the expression 2(a – 5)² + 3a ÷ 4 if a = 8?",
+        "options": {
+          "A": "18",
+          "B": "24",
+          "C": "30",
+          "D": "36"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Substitute a = 8 and follow order of operations.\n\n2(8-5)^2 + 3(8)/4\n= 2(9) + 24/4\n= 18 + 6 = 24"
+        }
+      },
+      "q_number": 43
+    },
+    {
+      "id": "P1028E-M-9_2_002",
+      "type_id": "9_2",
+      "question": "Alice, Ben, and Claire are splitting a prize from a contest. If Alice and Ben each take one-third of the prize, and Claire gets $60, how much was the prize in total?",
+      "options": {
+        "A": "$90",
+        "B": "$120",
+        "C": "$180",
+        "D": "$240"
+      },
+      "correct": "C",
+      "source": "generated",
+      "canonical_id": "9_002",
+      "solution": {
+        "exhibit_text": "If Alice and Ben each receive one-third of the prize, together they receive 2/3. Claire receives the remaining 1/3.\n\nAlice and Ben each receive 1/3 of the total prize.\nTogether they receive 2/3 of the total.\nClaire received $60, which is 1/3 of the total.\nThe total prize is 3 × $60 = $180."
+      },
+      "question_type": "mc",
+      "base_source": "Math bank — type 9_2 (canonical 9_002)",
+      "base_question": {
+        "question": "Bob, Ted, and Carol are all splitting a reward they received for returning someone’s wallet. If Bob and Ted each take one-quarter of the reward, and Carol gets $40, how much was the reward in total?",
+        "options": {
+          "A": "$50",
+          "B": "$60",
+          "C": "$80",
+          "D": "$120"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "If Bob and Ted each receive one-quarter of the reward, then together they received half of the reward. This means that Carol received the other half.\n\nBob and Ted each receive 1/4 of the total reward.\nTogether, Bob and Ted receive 1/4 + 1/4 = 1/2 of the total reward.\nSince Carol received $40, she received the other half of the reward.\nThe total reward must be double what Carol received: 2 × $40 = $80."
+        }
+      },
       "q_number": 44
     },
     {
-      "id": "P1028E-M-4_2_001",
+      "id": "P1028E-M-4_2_002",
       "type_id": "4_2",
-      "question": "A bus travels 1,200 miles from Boston, MA, to Miami, FL. The bus covers the first 360 miles in 6 hours. If the bus continues to travel at this rate, how many more hours will it take to reach Miami? Round your answer to the nearest whole hour.",
+      "question": "A bus travels 900 miles from Chicago, IL, to Denver, CO. The bus covers the first 270 miles in 5 hours. If the bus continues to travel at this rate, how many more hours will it take to reach Denver? Round your answer to the nearest whole hour.",
       "options": {
-        "A": "12",
-        "B": "14",
-        "C": "16",
-        "D": "20"
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "17"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "4_002",
       "solution": {
-        "strategy": "This question requires several steps, so proceed methodically. All calculations center around the basic formula d = rt.",
-        "steps": [
-          "Find the rate at which the bus is traveling: 360 ÷ 6 = 60 miles per hour.",
-          "Find the remaining distance: 1,200 - 360 = 840 miles.",
-          "Find the time for the remaining distance: 840 ÷ 60 = 14 hours."
-        ],
-        "final_answer": "14 hours"
+        "exhibit_text": "This question requires several steps, so proceed methodically. All calculations center around the basic formula d = rt.\n\nFind the rate at which the bus is traveling: 270 ÷ 5 = 54 miles per hour.\nFind the remaining distance: 900 - 270 = 630 miles.\nFind the time for the remaining distance: 630 ÷ 54 ≈ 11.67, round to 12 hours."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 4_2 (canonical 4_002)",
+      "base_question": {
+        "question": "A bus travels 1,070 miles from Jacksonville, FL, to Syracuse, NY. The bus covers the first 310 miles in 5 hours. If the bus continues to travel at this rate, how many more hours will it take to reach Syracuse? Round your answer to the nearest whole hour.",
+        "options": {
+          "A": "12",
+          "B": "14",
+          "C": "16",
+          "D": "17"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "This question requires several steps, so proceed methodically. All calculations center around the basic formula d = rt.\n\nFind the rate at which the bus is traveling: 310 ÷ 5 = 62 miles per hour."
+        }
+      },
       "q_number": 45
     },
     {
-      "id": "P1028E-M-1_4_001",
+      "id": "P1028E-M-1_4_002",
       "type_id": "1_4",
-      "question": "William is enrolled in a book-of-the-month club. This club sends members leather-bound editions of classic books the same day each month. As a reward for loyalty, William receives a free book at the end of each year. If William pays $468 per year for the club, what is the average price he pays for each book?",
+      "question": "Helen is enrolled in a book-of-the-month club. This club sends members leather-bound editions of classic books the same day each month. As a reward for loyalty, Helen receives a free book at the end of each year. If Helen pays $390 per year for the club, what is the average price she pays for each book?",
       "options": {
-        "A": "36",
-        "B": "39",
-        "C": "39.5",
-        "D": "468"
+        "A": "30",
+        "B": "32.50",
+        "C": "39",
+        "D": "390"
       },
       "correct": "A",
       "source": "generated",
       "canonical_id": "1_004",
       "solution": {
-        "strategy": "Total paid divided by total books (12 paid + 1 free = 13 books).",
-        "steps": [
-          "468 / 13 = 36"
-        ],
-        "final_answer": "A"
+        "exhibit_text": "Total paid divided by total books (12 paid + 1 free = 13 books).\n\n390 / 13 = 30"
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 1_4 (canonical 1_004)",
+      "base_question": {
+        "question": "William is enrolled in a book-of-the-month club. This club sends members leather-bound editions of classic books the same day each month. As a reward for loyalty, William receives a free book at the end of each year. If William pays $468 per year for the club, what is the average price he pays for each book?",
+        "options": {
+          "A": "36",
+          "B": "39",
+          "C": "39.5",
+          "D": "468"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "William pays for 12 months but receives 13 books total (12 paid + 1 free).\n\n468 / 13 = 36"
+        }
+      },
       "q_number": 46
     },
     {
-      "id": "P1028E-M-5_2_001",
+      "id": "P1028E-M-5_2_002",
       "type_id": "5_2",
-      "question": "How many numbers in the set of consecutive integers from 1 to 90, inclusive, have 3 as a factor but do not have 6 as a factor?",
+      "question": "How many numbers in the set of consecutive integers from 1 to 60, inclusive, have 3 as a factor but do not have 6 as a factor?",
       "options": {
-        "A": "12",
-        "B": "15",
-        "C": "18",
-        "D": "20"
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "15"
       },
       "correct": "B",
       "source": "generated",
       "canonical_id": "5_002",
       "solution": {
-        "strategy": "Count numbers divisible by 3, then subtract those divisible by 6 (since 6 is a multiple of 3).",
-        "steps": [
-          "Numbers divisible by 3: 90 ÷ 3 = 30.",
-          "Numbers divisible by 6: 90 ÷ 6 = 15.",
-          "Numbers with 3 but not 6: 30 - 15 = 15."
-        ],
-        "final_answer": "15"
+        "exhibit_text": "Count numbers divisible by 3, then subtract those divisible by 6.\n\nNumbers divisible by 3: 60 ÷ 3 = 20.\nNumbers divisible by 6: 60 ÷ 6 = 10.\nNumbers with 3 but not 6: 20 - 10 = 10."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 5_2 (canonical 5_002)",
+      "base_question": {
+        "question": "109. How many numbers in the set of consecutive integers from 1 to 99, inclusive, have 3 as a factor but do not have 6 as a factor?",
+        "options": {
+          "A": "1",
+          "B": "3",
+          "C": "9",
+          "D": "17"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Do not try to count every number. Instead, jot down the first several numbers and look for patterns.\n\nList the numbers: 1, 2, 3, 4, 5, 6, ..., 98, 99.\nDetermine how many numbers are divisible by 3: 99 ÷ 3 = 33.\nDetermine how many are divisible by 6: 99 ÷ 6 = 16.5."
+        }
+      },
       "q_number": 47
     },
     {
-      "id": "P1028E-M-11_2_001",
+      "id": "P1028E-M-11_2_002",
       "type_id": "11_2",
-      "question": "Solve for x in terms of y if 3x - 5 = y.",
+      "question": "Solve for x in terms of y if 2x - 4 = y.",
       "options": {
-        "A": "x = (y - 5) / 3",
-        "B": "x = 3(y + 5)",
-        "C": "x = (y + 5) / 3",
-        "D": "x = 3(5 - y)"
+        "A": "x = (y - 4) / 2",
+        "B": "x = 2(y + 4)",
+        "C": "x = (y + 4) / 2",
+        "D": "x = 2(4 - y)"
       },
       "correct": "C",
       "source": "generated",
       "canonical_id": "11_002",
       "solution": {
-        "strategy": "Solve for x: add then divide.",
-        "steps": [
-          "3x - 5 = y → 3x = y + 5 → x = (y + 5)/3."
-        ],
-        "final_answer": "C"
+        "exhibit_text": "Solve for x: add then divide.\n\n2x - 4 = y → 2x = y + 4 → x = (y + 4)/2."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 11_2 (canonical 11_002)",
+      "base_question": {
+        "question": "Solve for x in terms of y if 3x - 5 = y.",
+        "options": {
+          "A": "x = (y - 5) / 3",
+          "B": "x = 3(y + 5)",
+          "C": "x = (y + 5) / 3",
+          "D": "x = 3(5 - y)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Isolate x by adding 5 to both sides, then dividing by 3.\n\n3x - 5 = y\n3x = y + 5\nx = (y + 5) / 3"
+        }
+      },
       "q_number": 48
     },
     {
-      "id": "P1028E-M-18_2_001",
+      "id": "P1028E-M-18_2_002",
       "type_id": "18_2",
-      "question": "Larissa spends 3 times as many hours reading as Tom does, and Nela spends half as many hours as Tom does. If all 3 people read for a total of 18 hours, for how many hours did Tom read?",
+      "question": "Amy spends 2 times as many hours studying as Ben does, and Chris spends one-third as many hours as Ben does. If all 3 people study for a total of 20 hours, for how many hours did Ben study?",
       "options": {
-        "A": "3",
-        "B": "4",
+        "A": "4",
+        "B": "5",
         "C": "6",
         "D": "8"
       },
-      "correct": "B",
+      "correct": "C",
       "source": "generated",
       "canonical_id": "18_002",
       "solution": {
-        "strategy": "Translate the word problem into algebraic equations to find the values of L, N, and T.",
-        "steps": [
-          "Identify L = 3T and N = (1/2)T.",
-          "Set up the equation L + N + T = 18.",
-          "Substitute: 3T + (1/2)T + T = 18. So (9/2)T = 18, T = 4."
-        ],
-        "final_answer": "4"
+        "exhibit_text": "Translate into equations: A = 2B, C = B/3, A + B + C = 20.\n\n2B + B + B/3 = 20. (6/3 + 3/3 + 1/3)B = 10B/3 = 20, B = 6."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 18_2 (canonical 18_002)",
+      "base_question": {
+        "question": "Larissa spends 3 times as many hours reading as Tom does, and Nela spends half as many hours as Tom does. If all 3 people read for a total of 18 hours, for how many hours did Tom read?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "6",
+          "D": "8"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Translate the word problem into algebraic equations to find the values of L, N, and T.\n\nIdentify L = 3T and N = 1/2T.\nSet up the equation L + N + T = 18.\nSubstitute L and N into the equation: 3T + 1/2T + T = 18.\nCombine like terms: (6/2)T + (1/2)T + (2/2)T = 18.\nSimplify to get (9/2)T = 18.\nMultiply both sides by 2 to eliminate the fraction: 9T = 36.\nDivide by 9 to solve for T: T = 4."
+        }
+      },
       "q_number": 49
     },
     {
-      "id": "P1028E-M-35_2_001",
+      "id": "P1028E-M-35_2_002",
       "type_id": "35_2",
-      "question": "Which of the following values of s would yield the smallest value for 4 + (1/s)?",
+      "question": "Which value of s would yield the smallest value for 5 + 4/s?",
       "options": {
         "A": "1/4",
         "B": "1/2",
-        "C": "1",
+        "C": "2",
         "D": "4"
       },
       "correct": "D",
-      "source": "canonical",
+      "source": "generated_v3_fix",
       "canonical_id": "35_002",
       "solution": {
-        "strategy": "4 + 1/s is smallest when 1/s is smallest; for s > 0, that is when s is largest.",
-        "steps": [
-          "Largest s = 4 gives smallest value 4 + 1/4 = 4.25."
-        ],
-        "final_answer": "D"
+        "exhibit_text": "Plug each option into the expression and pick the s that produces the smallest value.\n\nEvaluate: s = 1/4 → 21; s = 1/2 → 13; s = 2 → 7; s = 4 → 6.\nThe smallest value is at s = 4."
       },
       "question_type": "mc",
+      "base_source": "Math bank — type 35_2 (canonical 35_002)",
+      "base_question": {
+        "question": "70. Which of the following values of s would yield the smallest value for 4 + (1/s)?",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "1",
+          "D": "4"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "To make 4 + (1/s) as small as possible, make 1/s as small as possible.\n\nOf the given values, s = 4 gives the smallest 1/s (0.25), so 4 + 1/4 = 4.25 is the smallest total."
+        }
+      },
       "q_number": 50
     }
   ],
@@ -1458,19 +1883,47 @@
         {
           "id": "AR07",
           "q_number": 57,
-          "question_type": "mc_multi",
-          "question": "Which **two** quotations from the poem support the theme that human creations detract from natural wonder?\n\nSelect the **two** correct answers.",
-          "options": {
-            "A": "“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4)",
-            "B": "“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7)",
-            "C": "“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12)",
-            "D": "“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18)",
-            "E": "“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25)"
-          },
-          "correct": [
-            "A",
-            "C"
+          "question_type": "sort_categories",
+          "question": "Which quotations from the poem support the theme that nature's unspoiled beauty is splendid, and which quotations support the theme that human creations detract from natural wonder?\n\nMove each answer to the correct box.",
+          "sort_items": [
+            {
+              "id": "i1",
+              "text": "“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4)"
+            },
+            {
+              "id": "i2",
+              "text": "“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7)"
+            },
+            {
+              "id": "i3",
+              "text": "“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12)"
+            },
+            {
+              "id": "i4",
+              "text": "“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18)"
+            },
+            {
+              "id": "i5",
+              "text": "“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25)"
+            }
           ],
+          "sort_categories": [
+            {
+              "id": "c1",
+              "label": "Nature's Unspoiled Beauty is Splendid"
+            },
+            {
+              "id": "c2",
+              "label": "Human Creations Detract from Natural Wonder"
+            }
+          ],
+          "correct": {
+            "i1": "c2",
+            "i2": "c1",
+            "i3": "c2",
+            "i4": "c1",
+            "i5": "c1"
+          },
           "solution": {
             "exhibit_text": "The question identifies two themes and asks which quotations from the poem support each theme.\n\n“Above the dingy city-roofs / Blue-white like angels with broad wings,” (lines 3–4) — Human Creations Detract from Natural Wonder. The lines describe the city-roofs as “dingy,” suggesting that they mar the lovely background of the blue-white mountains, which are compared to angels. The description primarily serves to contrast the city's unsightly appearance with the beauty of the mountains.\n\n“Pillars of the sky at rest / The mountains from the great plateau / Uprise.” (lines 5–7) — Nature's Unspoiled Beauty is Splendid. By describing the mountains as “pillars of the sky” that “uprise” dramatically from a large plateau, the lines convey a sense of the mountains' dramatic and impressive size, a powerful image of an unspoiled, natural landscape.\n\n“Tunnels their granite cliffs, / Splits down their shining sides,” (lines 11–12) — Human Creations Detract from Natural Wonder. The words “tunnels” and “splits” emphasize that human intervention in nature is destructive, breaking apart the “shining sides” of the mountain, diminishing its beauty and serenity.\n\n“Wilderness still untamed, / To which the future is as was the past,” (lines 17–18) — Nature's Unspoiled Beauty is Splendid. The phrase indicates that the natural mountainous landscape is both splendid and unspoiled (“wilderness still untamed”), and that this unspoiled state is timeless or eternal.\n\n“The south horizon of the sky; / Welcoming with wide floors of blue-green ice” (lines 24–25) — Nature's Unspoiled Beauty is Splendid. The reference to the “wide floors of blue-green ice” emphasizes that the landscape is beautiful, majestically “welcoming” one's eye and inviting appreciation of its unspoiled beauty."
           }
@@ -2406,15 +2859,22 @@
         {
           "id": "AR44",
           "q_number": 94,
-          "question_type": "mc",
-          "question": "Which transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5?",
-          "options": {
-            "A": "Therefore,",
-            "B": "Unfortunately,",
-            "C": "For example,",
-            "D": "Similarly,"
+          "question_type": "drag_drop",
+          "question": "Sentence 4: “During the process of photosynthesis, plants convert carbon dioxide into oxygen and remove many harmful toxins from the air.”\n\nSentence 5: “[B1] spending prolonged periods of time indoors, away from plants, deprives people of these benefits.”\n\nWhich transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5?",
+          "boxes": [
+            {
+              "label": "B1"
+            }
+          ],
+          "drop_values": [
+            "As a result,",
+            "Primarily,",
+            "In contrast,",
+            "Unfortunately,"
+          ],
+          "correct": {
+            "B1": "Unfortunately,"
           },
-          "correct": "B",
           "solution": {
             "exhibit_text": "The question asks which transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5.\n\nSentence 4 explains that plants convert carbon dioxide into oxygen and remove harmful toxins from the air. Sentence 5 explains that spending prolonged time away from plants deprives people of these benefits. “Unfortunately,” is the correct transition because it emphasizes the negative consequence (being deprived of a benefit) that follows from the positive information in sentence 4, matching the passage's point that staying indoors, away from plants, is a problem.\n\n“As a result,” would suggest sentence 5 is a direct effect of sentence 4's process, which is not quite accurate since sentence 5 describes a separate circumstance (being away from plants), not a result of photosynthesis itself. “Primarily,” doesn't fit because sentence 5 is not identifying a main cause. “In contrast,” is incorrect because sentence 5 does not contrast with sentence 4; it builds on the idea by showing a consequence of lacking the benefit described."
           }

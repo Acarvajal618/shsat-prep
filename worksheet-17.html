@@ -137,6 +137,62 @@
     .tn-keypad-input { display: inline-block; padding: 8px 14px; border: 1.5px solid #7a7a7a; border-radius: 3px; min-height: 30px; min-width: 240px; font-family: Georgia, serif; font-size: 18px; vertical-align: middle; background: #fff; }
     .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
 
+    /* ── Drag-drop fill-in-the-blank (drag_drop) ─────────────────────── */
+    .tn-chips-row {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 14px 0; padding: 10px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px;
+    }
+    .tn-chip {
+      background: #4a90d9; color: #fff;
+      padding: 5px 13px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 15px;
+      border: 1px solid #3878be;
+    }
+    .tn-chip:active { cursor: grabbing; }
+    .tn-dropbox {
+      display: inline-block; min-width: 70px; padding: 3px 12px;
+      border: 1.5px dashed #7a7a7a; border-radius: 3px;
+      margin: 0 4px; text-align: center;
+      background: #f9f9f9; color: #333;
+      font-family: Georgia, serif; font-size: 15px;
+      vertical-align: middle; cursor: pointer;
+    }
+    .tn-dropbox.filled { border-style: solid; background: #dbe9ff; border-color: #4a90d9; }
+    .tn-dropbox.drag-over { background: #ffeeaa; }
+
+    /* ── Sort into categories (sort_categories) ──────────────────────── */
+    .tn-sort-pool {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 14px 0; padding: 10px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px;
+      min-height: 40px;
+    }
+    .tn-sort-pool-empty { color: #888; font-style: italic; font-size: 13px; }
+    .tn-sort-chip {
+      background: #4a90d9; color: #fff;
+      padding: 7px 12px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 14px; line-height: 1.4;
+      border: 1px solid #3878be; max-width: 320px;
+    }
+    .tn-sort-chip:active { cursor: grabbing; }
+    .tn-sort-chip.selected { outline: 2px solid #ff9900; }
+    .tn-sort-categories { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
+    .tn-sort-category {
+      flex: 1 1 260px; min-height: 80px;
+      border: 1.5px dashed #7a7a7a; border-radius: 4px;
+      background: #f9f9f9; padding: 10px; cursor: pointer;
+    }
+    .tn-sort-category.drag-over { background: #ffeeaa; }
+    .tn-sort-category-label {
+      font-weight: 700; font-size: 13px; color: #333;
+      margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid #ddd;
+    }
+    .tn-sort-category-items { display: flex; flex-direction: column; gap: 6px; }
+    .tn-sort-category .tn-sort-chip { background: #dbe9ff; color: #1a3a5c; border-color: #4a90d9; cursor: pointer; max-width: none; }
+
     .tn-card-actions { margin-top: 20px; padding-top: 16px; border-top: 1px solid #eee; display: flex; gap: 10px; }
     .tn-btn-solution { background: #fff; border: 1px solid #b8b8b8; border-radius: 2px; padding: 8px 18px; font-size: 13px; color: #333; cursor: pointer; font-family: inherit; }
     .tn-btn-solution:hover { background: #ebebeb; }
@@ -484,11 +540,11 @@
       }
 
       let baseLabel = '';
-      if (q.section === 'math') {
+      if (q.base_source) {
+        baseLabel = 'Based on ' + q.base_source;
+      } else if (q.section === 'math') {
         const baseMatch = (q.id || '').match(/^(.*?)\.(\d+)$/);
         if (baseMatch) baseLabel = 'Based on ' + baseMatch[1];
-      } else if (q.section === 'grammar' && q.base_source) {
-        baseLabel = 'Based on ' + q.base_source;
       }
       document.getElementById('tn-base-tag').textContent = baseLabel;
 
@@ -499,7 +555,10 @@
       let figureHtml = '';
       if (q.figure_svg) figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
 
-      document.getElementById('tn-question').innerHTML = figureHtml + stimulusHtml + renderQuestionText(q.question);
+      const questionTextHtml = q.question_type === 'drag_drop'
+        ? renderDragDropProse(q)
+        : renderQuestionText(q.question);
+      document.getElementById('tn-question').innerHTML = figureHtml + stimulusHtml + questionTextHtml;
 
       let bodyHtml = '';
       if (q.question_type === 'mc') {
@@ -508,6 +567,10 @@
         bodyHtml = renderMcMulti(q);
       } else if (q.question_type === 'grid_keypad') {
         bodyHtml = renderGridKeypad(q);
+      } else if (q.question_type === 'drag_drop') {
+        bodyHtml = renderDragDropChips(q);
+      } else if (q.question_type === 'sort_categories') {
+        bodyHtml = renderSortCategories(q);
       }
       document.getElementById('tn-body').innerHTML = bodyHtml;
 
@@ -588,6 +651,58 @@
       `;
     }
 
+    // ── Drag-drop fill-in-the-blank: question text has a "[B1]"-style
+    // marker; drop_values are chips the student drags/clicks into it. ──
+    function renderDragDropProse(q) {
+      let html = renderQuestionText(q.question);
+      const placed = state.answers[q.q_number] || {};
+      (q.boxes || []).forEach(b => {
+        const marker = '[' + b.label + ']';
+        const val = placed[b.label] || '';
+        const cls = val ? 'tn-dropbox filled' : 'tn-dropbox';
+        html = html.split(marker).join(
+          `<span class="${cls}" data-box="${b.label}">${val ? esc(val) : '____'}</span>`);
+      });
+      return html;
+    }
+    function renderDragDropChips(q) {
+      const placed = state.answers[q.q_number] || {};
+      const placedValues = new Set(Object.values(placed));
+      const chips = (q.drop_values || []).map(v => {
+        if (placedValues.has(v)) return '';
+        return `<div class="tn-chip" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
+      }).filter(Boolean).join('');
+      const empty = chips.length === 0
+        ? `<span style="color:#888; font-style:italic; font-size:13px;">All values placed — click a box to return one.</span>`
+        : chips;
+      return `<div class="tn-chips-row" data-role="chips">${empty}</div>`;
+    }
+
+    // ── Sort items into N labeled categories (sort_categories) ──────
+    function renderSortCategories(q) {
+      const placed = state.answers[q.q_number] || {}; // { itemId: categoryId }
+      const items = q.sort_items || [];
+      const categories = q.sort_categories || [];
+      const pool = items.filter(it => !placed[it.id]);
+      const poolHtml = pool.length
+        ? pool.map(it => `<div class="tn-sort-chip" draggable="true" data-item="${esc(it.id)}">${renderBoldText(it.text)}</div>`).join('')
+        : `<span class="tn-sort-pool-empty">All items placed — click an item in a box to return it here.</span>`;
+      const catsHtml = categories.map(cat => {
+        const inBox = items.filter(it => placed[it.id] === cat.id);
+        const itemsHtml = inBox.map(it =>
+          `<div class="tn-sort-chip" data-item="${esc(it.id)}">${renderBoldText(it.text)}</div>`
+        ).join('');
+        return `<div class="tn-sort-category" data-cat="${esc(cat.id)}">
+          <div class="tn-sort-category-label">${esc(cat.label)}</div>
+          <div class="tn-sort-category-items">${itemsHtml}</div>
+        </div>`;
+      }).join('');
+      return `
+        <div class="tn-sort-pool" data-role="sort-pool">${poolHtml}</div>
+        <div class="tn-sort-categories">${catsHtml}</div>
+      `;
+    }
+
     function wireInputs(q) {
       document.querySelectorAll('.tn-option').forEach((el) => {
         el.addEventListener('click', () => {
@@ -617,6 +732,94 @@
           if (disp) disp.textContent = cur;
         });
       });
+
+      // ── Drag-drop (drag_drop) ────────────────────────────
+      if (q.question_type === 'drag_drop') {
+        document.querySelectorAll('.tn-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.value);
+            e.dataTransfer.effectAllowed = 'copy';
+          });
+          chip.addEventListener('click', () => {
+            state._selectedChip = chip.dataset.value;
+            document.querySelectorAll('.tn-chip').forEach(c => c.style.outline = '');
+            chip.style.outline = '2px solid #ff9900';
+          });
+        });
+        document.querySelectorAll('.tn-dropbox').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const v = e.dataTransfer.getData('text/plain');
+            const lbl = box.dataset.box;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = v;
+            state._selectedChip = null;
+            render();
+          });
+          box.addEventListener('click', () => {
+            const lbl = box.dataset.box;
+            if (state._selectedChip) {
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][lbl] = state._selectedChip;
+              state._selectedChip = null;
+              render();
+            } else if (state.answers[q.q_number] && state.answers[q.q_number][lbl]) {
+              delete state.answers[q.q_number][lbl];
+              render();
+            }
+          });
+        });
+      }
+
+      // ── Sort into categories (sort_categories) ───────────
+      if (q.question_type === 'sort_categories') {
+        document.querySelectorAll('.tn-sort-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.item);
+            e.dataTransfer.effectAllowed = 'move';
+          });
+          chip.addEventListener('click', () => {
+            const itemId = chip.dataset.item;
+            // Clicking a chip already placed in a category returns it to the pool.
+            const placed = state.answers[q.q_number] || {};
+            if (placed[itemId]) {
+              delete placed[itemId];
+              state.answers[q.q_number] = placed;
+              state._selectedSortItem = null;
+              render();
+              return;
+            }
+            state._selectedSortItem = itemId;
+            document.querySelectorAll('.tn-sort-pool .tn-sort-chip').forEach(c => c.classList.remove('selected'));
+            chip.classList.add('selected');
+          });
+        });
+        document.querySelectorAll('.tn-sort-category').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const itemId = e.dataTransfer.getData('text/plain');
+            const catId = box.dataset.cat;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][itemId] = catId;
+            state._selectedSortItem = null;
+            render();
+          });
+          box.addEventListener('click', (e) => {
+            if (e.target.closest('.tn-sort-chip')) return; // handled by the chip's own click
+            if (state._selectedSortItem) {
+              const catId = box.dataset.cat;
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][state._selectedSortItem] = catId;
+              state._selectedSortItem = null;
+              render();
+            }
+          });
+        });
+      }
     }
 
     boot();
