@@ -1,0 +1,1471 @@
+{
+  "math_questions": [
+    {
+      "id": "P-HE5-M-KM1_Q94",
+      "question_type": "mc",
+      "question": "For what value of \\(x\\) does \\(6(10-x)=4(x-5)\\)?",
+      "options": {
+        "A": "\\(-8\\)",
+        "B": "\\(-6\\)",
+        "C": "\\(6\\)",
+        "D": "\\(8\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Distribute both sides: \\(60-6x = 4x-20\\). Add \\(6x\\) and \\(20\\) to both sides: \\(80 = 10x\\). Divide by \\(10\\): \\(x=8\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q94 (KM1_Q94)",
+      "base_question": {
+        "question": "For what value of \\(x\\) does \\(6(8-x)=3(x-2)\\)?",
+        "options": {
+          "A": "-9",
+          "B": "-6",
+          "C": "3",
+          "D": "6"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "6(8-x)=3(x-2) -> 48-6x=3x-6 -> 54=9x -> x=6."
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-HE5-M-KM3_Q91",
+      "question_type": "mc",
+      "question": "If \\(p\\) is a negative number, and the product of \\(q\\) and \\(r\\) is negative, which of the following **must** be true?",
+      "options": {
+        "A": "\\(\\dfrac{p}{r}\\) is negative",
+        "B": "\\(\\dfrac{p}{r}\\) is positive",
+        "C": "\\(\\dfrac{q}{r}\\) is positive",
+        "D": "\\(\\dfrac{q}{r}\\) is negative"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Since the product of \\(q\\) and \\(r\\) is negative, \\(q\\) and \\(r\\) have opposite signs. Two numbers with opposite signs always divide to give a negative result, so \\(\\dfrac{q}{r}\\) must be negative. The sign of \\(r\\) alone isn't determined relative to \\(p\\) (which is given as negative), so \\(\\dfrac{p}{r}\\) could be either positive or negative — it isn't guaranteed."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q91 (KM3_Q91)",
+      "base_question": {
+        "question": "If \\(a\\) is a positive number, and the product of \\(b\\) and \\(c\\) is positive, which of the following **must** be true?",
+        "options": {
+          "A": "\\(\\dfrac{a}{c}\\) is negative",
+          "B": "\\(\\dfrac{a}{c}\\) is positive",
+          "C": "\\(\\dfrac{b}{c}\\) is negative",
+          "D": "\\(\\dfrac{b}{c}\\) is positive"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Since bc is positive, b and c have the same sign, so b/c must be positive. The sign of c relative to a isn't determined, so a/c isn't guaranteed to be any particular sign."
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-HE5-M-BM45",
+      "question_type": "mc",
+      "question": "A ball is selected at random from a box that contains \\(6\\) black balls, \\(9\\) green balls, and \\(15\\) orange balls. What is the probability that the ball selected is black?",
+      "options": {
+        "A": "\\(\\dfrac{1}{5}\\)",
+        "B": "\\(\\dfrac{1}{6}\\)",
+        "C": "\\(\\dfrac{1}{3}\\)",
+        "D": "\\(\\dfrac{3}{5}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The total number of balls is \\(6 + 9 + 15 = 30\\). The probability the ball is black is \\(\\dfrac{6}{30} = \\dfrac{1}{5}\\)."
+      },
+      "base_source": "Exam B — Math Q45 (BM45)",
+      "base_question": {
+        "question": "A ball is selected at random from a box that contains \\(7\\) black balls, \\(14\\) green balls, and \\(21\\) red balls. What is the probability that the ball selected is black?",
+        "options": {
+          "A": "\\(\\dfrac{1}{6}\\)",
+          "B": "\\(\\dfrac{1}{5}\\)",
+          "C": "\\(\\dfrac{1}{3}\\)",
+          "D": "\\(\\dfrac{5}{6}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) The total number of balls in the box is \\(7 + 14 + 21 = 42\\).\n\nThe probability that the ball is black is \\(\\dfrac{7}{42} = \\dfrac{1}{6}\\)."
+        }
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-HE5-M-KM3_Q110",
+      "question_type": "mc",
+      "question": "Which statement must be true if \\(y\\) is a whole number such that \\(2 < y < 4\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{y-2} < \\dfrac{1}{y+2}\\)",
+        "B": "\\(\\dfrac{1}{y-2} > \\dfrac{1}{y+2}-1\\)",
+        "C": "\\(\\dfrac{1}{y-2}+\\dfrac{1}{y+2} < 1\\)",
+        "D": "\\(\\dfrac{1}{y-2}+\\dfrac{1}{y+2} < -\\dfrac{1}{y}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The only whole number strictly between \\(2\\) and \\(4\\) is \\(y=3\\). Testing each option: \\(\\dfrac{1}{y-2} = \\dfrac{1}{1} = 1\\) and \\(\\dfrac{1}{y+2} = \\dfrac{1}{5}\\). (A): is \\(1 < \\dfrac{1}{5}\\)? No. (B): is \\(1 > \\dfrac{1}{5}-1 = -0.8\\)? Yes — true. (C): is \\(1+0.2=1.2 < 1\\)? No. (D): is \\(1.2 < -\\dfrac{1}{3}\\)? No. Only (B) holds."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q110 (KM3_Q110)",
+      "base_question": {
+        "question": "Which statement must be true if \\(x\\) is a whole number such that \\(1 < x < 3\\)?",
+        "options": {
+          "E": "\\(\\dfrac{1}{x-1} < \\dfrac{1}{x+1}\\)",
+          "F": "\\(\\dfrac{1}{x-1} > \\dfrac{1}{x+1}-1\\)",
+          "G": "\\(\\dfrac{1}{x-1}+\\dfrac{1}{x+1} < 1\\)",
+          "H": "\\(\\dfrac{1}{x-1}+\\dfrac{1}{x+1} < -\\dfrac{1}{x}\\)"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "The only whole number between 1 and 3 is x=2. Testing the options at x=2 shows only the option matching 1/(x-1) > 1/(x+1) - 1 holds true (1 > -2/3)."
+        }
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-HE5-M-KM2_Q67",
+      "question_type": "mc",
+      "question": "A certain machine caps 7 bottles every 3 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+      "options": {
+        "A": "\\(120\\)",
+        "B": "\\(140\\)",
+        "C": "\\(160\\)",
+        "D": "\\(210\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "There are \\(60\\) seconds in a minute. At \\(7\\) bottles per \\(3\\) seconds, the rate is \\(\\dfrac{7}{3}\\) bottles per second. In \\(60\\) seconds: \\(\\dfrac{7}{3} \\times 60 = 140\\) bottles."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q67 (KM2_Q67)",
+      "base_question": {
+        "question": "A certain machine caps 5 bottles every 2 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+        "options": {
+          "A": "120",
+          "B": "150",
+          "C": "240",
+          "D": "300"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "5 bottles every 2 seconds, rate = 5/2 per second. In 60 seconds: (5/2)*60=150."
+        }
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-HE5-M-CM39",
+      "question_type": "mc",
+      "question": "A shipment contains \\(240\\) small boxes of medical supplies. In a random sample of \\(30\\) of these boxes, \\(9\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
+      "options": {
+        "A": "\\(126\\)",
+        "B": "\\(147\\)",
+        "C": "\\(168\\)",
+        "D": "\\(189\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The fraction of undamaged boxes in the sample is \\(\\dfrac{30-9}{30} = \\dfrac{21}{30} = \\dfrac{7}{10}\\). The boxes not in the sample number \\(240 - 30 = 210\\). Predicted undamaged: \\(\\dfrac{7}{10} \\times 210 = 147\\)."
+      },
+      "base_source": "Exam C — Math Q39 (CM39)",
+      "base_question": {
+        "question": "A shipment contains \\(170\\) small boxes of medical supplies. In a random sample of \\(20\\) of these boxes, \\(8\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
+        "options": {
+          "A": "\\(60\\)",
+          "B": "\\(68\\)",
+          "C": "\\(90\\)",
+          "D": "\\(102\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) Determine the fraction of undamaged boxes in the sample, given \\(8\\) of the \\(20\\) boxes are damaged.\n\n\\[\\dfrac{20 - 8}{20} = \\dfrac{12}{20} = \\dfrac{3}{5} \\text{ or } 0.6\\]\n\nSubtract the number of boxes in the sample from \\(170\\).\n\n\\[170 - 20 = 150\\]\n\nBasing the prediction of undamaged boxes on the sample, multiply the number of boxes **not** in the sample by the fraction of undamaged boxes in the sample.\n\n\\[150 \\times 0.6 = 90\\]"
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-HE5-M-DM27",
+      "question_type": "mc",
+      "question": "A birdseed mixture is \\(\\dfrac{3}{8}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.08\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(40\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+      "options": {
+        "A": "$\\(12.80\\)",
+        "B": "$\\(16.00\\)",
+        "C": "$\\(19.20\\)",
+        "D": "$\\(24.00\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "40 pounds of birdseed is \\(40 \\times 16 = 640\\) ounces. The sunflower seeds make up \\(\\dfrac{3}{8}\\) of that: \\(\\dfrac{3}{8} \\times 640 = 240\\) ounces. Cost: \\(240 \\times 0.08 = \\$19.20\\)."
+      },
+      "base_source": "Exam D — Math Q27 (DM27)",
+      "base_question": {
+        "question": "A birdseed mixture is \\(\\dfrac{2}{5}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.10\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(25\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+        "options": {
+          "A": "$\\(10.00\\)",
+          "B": "$\\(16.00\\)",
+          "C": "$\\(40.00\\)",
+          "D": "$\\(160.00\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) First, calculate the amount of sunflower seeds in \\(25\\) pounds of this birdseed by using ratio reasoning to find that there are \\(10\\) pounds of sunflower seeds in the birdseed.\n\n\\[\\dfrac{2}{5} = \\dfrac{10}{25}\\]\n\nThen, use ratio reasoning to find the cost of the sunflower seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.10}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$1.60\\]\n\nThe cost of the sunflower seeds is $\\(1.60\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(10\\) pounds.\n\n\\[\\dfrac{\\$1.60}{1 \\text{ pound}} \\times \\dfrac{10 \\text{ pounds}}{1} = \\$16.00\\]"
+        }
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-HE5-M-FM09",
+      "question_type": "mc",
+      "question": "A student is choosing 3 movies to watch over break from a list of 8 different recommended films. How many different sets of 3 movies can the student choose?",
+      "options": {
+        "A": "\\(24\\)",
+        "B": "\\(56\\)",
+        "C": "\\(112\\)",
+        "D": "\\(336\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "This is a combination: choosing 3 of 8 where order doesn't matter. \\(\\binom{8}{3} = \\dfrac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = \\dfrac{336}{6} = 56\\)."
+      },
+      "base_source": "Exam F — Math Q09 (FM09)",
+      "base_question": {
+        "question": "A student is choosing 3 books to read over the summer from a list of 7 different recommended novels. How many different sets of 3 books can the student choose?",
+        "options": {
+          "A": "21",
+          "B": "35",
+          "C": "105",
+          "D": "210"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "The student must choose 3 books to read. Since there are 7 available books, there are 7 options for the first book. After the first book has been selected, there are only 6 left to choose from. Similarly, after the second has been selected, there are only 5 left. Therefore, there are \\(7\\times6\\times5=210\\) total ways to choose the three books.\n\nHowever, this method imposes an order on the way the books are chosen. In reality, choosing 3 books from a group of 7 can be done in any order you want. To account for this, you must divide by the total number of ways to arrange 3 books, which is \\(3\\times2\\times1=6\\). Therefore, the final result is \\(\\dfrac{210}{6}=35\\)."
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-HE5-M-EM26",
+      "question_type": "mc",
+      "question": "If Jordan drove \\(180\\) miles between 10:00 a.m. and 12:30 p.m. on the same day, what was his average speed in miles per hour?",
+      "options": {
+        "A": "\\(60\\)",
+        "B": "\\(65\\)",
+        "C": "\\(72\\)",
+        "D": "\\(75\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "From 10:00 a.m. to 12:30 p.m. is \\(2.5\\) hours. Average speed \\(= 180 \\div 2.5 = 72\\) miles per hour."
+      },
+      "base_source": "Exam E — Math Q26 (EM26)",
+      "base_question": {
+        "question": "If Morgan drove 247 miles between 9:15 a.m. and 12:30 p.m. on the same day, what was her average speed in miles per hour?",
+        "options": {
+          "A": "60",
+          "B": "63",
+          "C": "67",
+          "D": "76"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Start by finding out how long Morgan drove by counting the number of hours and quarter hours. Going from 9:15 a.m. to 12:15 p.m. is 3 hours, and from 12:15 to 12:30 is one quarter of an hour. Thus, Morgan's total driving time was 3.25 hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(247 \\div 3.25 = 76\\). To make the division easier, you may want to divide 24,700 by 325.\n\nAlternatively, you can use Backsolving. Start with (C). You are looking for a number that will get you to 247 when multiplied by 3.25: \\(3.25 \\times 67 = 217.75\\). This is too small, and since (A) and (B) are smaller, you can also eliminate them, leaving only choice (D)."
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-HE5-M-FM33",
+      "question_type": "mc",
+      "question": "A committee of 3 people is to be chosen from a group of six 11th graders and five 12th graders. If the committee must consist of two 11th graders and one 12th grader, how many different committees can be formed?",
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(55\\)",
+        "C": "\\(75\\)",
+        "D": "\\(150\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Choose 2 of the 6 eleventh graders: \\(\\binom{6}{2} = 15\\). Choose 1 of the 5 twelfth graders: \\(\\binom{5}{1} = 5\\). Multiply: \\(15 \\times 5 = 75\\)."
+      },
+      "base_source": "Exam F — Math Q33 (FM33)",
+      "base_question": {
+        "question": "A committee of 3 people is to be chosen from a group of five 9th graders and four 10th graders. If the committee must consist of two 9th graders and one 10th grader, how many different committees can be formed?",
+        "options": {
+          "A": "20",
+          "B": "40",
+          "C": "84",
+          "D": "120"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "There are five 9th graders, and two must be chosen to be part of the committee. There are 5 ways to select the first 9th grader. After he has been chosen, only 4 remain. It appears that there are \\(5\\times4=20\\) selections possible. However, the order in which these 9th graders appear on the committee does not matter. Therefore, you must divide by the number of ways to arrange 2 objects, or \\(2\\times1\\). The final result is \\(\\dfrac{20}{2\\times1}=10\\).\n\nThere are 4 ways to choose one 10th grader out of a group of four 10th graders.\n\nEach of the 10 ways to choose the 9th graders can be paired with each of the 4 ways to choose the 10th graders. Therefore, a total of \\(10\\times4=40\\) committees are possible."
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-HE5-M-KM3_Q98",
+      "question_type": "mc",
+      "question": "Angle P and angle Q are supplementary. If the measure of angle Q is one-fifth the measure of angle P, how many degrees greater is angle P than angle Q?",
+      "options": {
+        "A": "\\(90\\degree\\)",
+        "B": "\\(100\\degree\\)",
+        "C": "\\(120\\degree\\)",
+        "D": "\\(150\\degree\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Since \\(Q = \\dfrac{1}{5}P\\), we have \\(P = 5Q\\). Supplementary means \\(5Q + Q = 180\\degree\\), so \\(6Q = 180\\degree\\), giving \\(Q = 30\\degree\\) and \\(P = 150\\degree\\). The difference is \\(150\\degree - 30\\degree = 120\\degree\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q98 (KM3_Q98)",
+      "base_question": {
+        "question": "Angle K and angle L are supplementary. If the measure of angle L is one-fourth the measure of angle K, how many degrees greater is angle K than angle L?",
+        "options": {
+          "E": "36°",
+          "F": "54°",
+          "G": "108°",
+          "H": "144°"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "K=4L, 4L+L=180, L=36, K=144. K-L = 144-36 = 108 degrees."
+        }
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-HE5-M-FM31",
+      "question_type": "mc",
+      "question": "What is the probability of rolling a number less than 3 twice in a row on a fair six-sided die, with each of the numbers 1–6 on each side?",
+      "options": {
+        "A": "\\(\\dfrac{1}{12}\\)",
+        "B": "\\(\\dfrac{1}{9}\\)",
+        "C": "\\(\\dfrac{1}{6}\\)",
+        "D": "\\(\\dfrac{1}{3}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Numbers less than 3 are \\(1\\) and \\(2\\), so the probability of rolling one on a single roll is \\(\\dfrac{2}{6} = \\dfrac{1}{3}\\). For two independent rolls: \\(\\dfrac{1}{3} \\times \\dfrac{1}{3} = \\dfrac{1}{9}\\)."
+      },
+      "base_source": "Exam F — Math Q31 (FM31)",
+      "base_question": {
+        "question": "What is the probability of rolling a number greater than 3 twice in a row on a fair six-sided die, with each of the numbers 1–6 on each side?",
+        "options": {
+          "A": "\\(\\dfrac{1}{8}\\)",
+          "B": "\\(\\dfrac{1}{4}\\)",
+          "C": "\\(\\dfrac{1}{2}\\)",
+          "D": "\\(\\dfrac{3}{4}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "To find the probability of two independent events, find the probability of each individual event and then multiply those probabilities together. Remember that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). You need to find the probability of rolling a 4, 5, or 6 on the die and then multiply that number by itself. In this scenario, there are 3 desired outcomes out of a total of 6, so the probability of rolling a 4, 5, or 6 is \\(\\dfrac{3}{6}=\\dfrac{1}{2}\\). Multiply this number by itself to obtain \\(\\dfrac{1}{2}\\times\\dfrac{1}{2}=\\dfrac{1}{4}\\)."
+        }
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-HE5-M-KM1_Q88",
+      "question_type": "mc",
+      "question": "In one month, a factory used 8,000,000 watts of electricity. The following month, the number of watts used was 6,000,000. By what percentage did the electricity usage decrease?",
+      "options": {
+        "A": "\\(20\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(33\\dfrac{1}{3}\\%\\)",
+        "D": "\\(75\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The decrease is \\(8{,}000{,}000 - 6{,}000{,}000 = 2{,}000{,}000\\) watts. As a percentage of the original: \\(\\dfrac{2{,}000{,}000}{8{,}000{,}000} = 0.25 = 25\\%\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q88 (KM1_Q88)",
+      "base_question": {
+        "question": "In March, the electricity used in New York was 5,000,000 watts. In April, the number of watts used was 4,000,000. By what percentage did the electricity usage decrease from March to April?",
+        "options": {
+          "E": "20%",
+          "F": "25%",
+          "G": "50%",
+          "H": "75%"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_text": "The decrease is 5,000,000 - 4,000,000 = 1,000,000 watts. As a percentage of the original: 1,000,000/5,000,000 = 20%."
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-HE5-M-DM32",
+      "question_type": "mc",
+      "question": "There were \\(40\\) people at Jason's party. If each person at the party drank \\(3\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(= 4\\) quarts; \\(1\\) quart \\(= 4\\) cups.",
+      "options": {
+        "A": "\\(3\\dfrac{3}{4}\\)",
+        "B": "\\(7\\dfrac{1}{2}\\)",
+        "C": "\\(10\\)",
+        "D": "\\(15\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Total cups: \\(40 \\times 3 = 120\\). Since \\(1\\) gallon \\(= 4 \\times 4 = 16\\) cups, convert: \\(120 \\div 16 = 7\\dfrac{1}{2}\\) gallons."
+      },
+      "base_source": "Exam D — Math Q32 (DM32)",
+      "base_question": {
+        "question": "There were \\(36\\) people at Emily's party. If each person at the party drank \\(2\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(= 4\\) quarts; \\(1\\) quart \\(= 4\\) cups.",
+        "options": {
+          "A": "\\(2\\dfrac{1}{4}\\)",
+          "B": "\\(4\\dfrac{1}{2}\\)",
+          "C": "\\(9\\)",
+          "D": "\\(72\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Since \\(36\\) people each drank \\(2\\) cups of juice, the total amount of juice they drank was \\(36 \\times 2 = 72\\) cups.\n\nConvert \\(72\\) cups to gallons:\n\n\\[72 \\text{ cups} \\times \\dfrac{1 \\text{ quart}}{4 \\text{ cups}} \\times \\dfrac{1 \\text{ gallon}}{4 \\text{ quarts}} =\\]\n\\[\\dfrac{72}{16} \\text{ gallons} =\\]\n\\[\\dfrac{9}{2} \\text{ gallons} =\\]\n\\[4\\dfrac{1}{2} \\text{ gallons}\\]"
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-HE5-M-GM16",
+      "question_type": "mc",
+      "question": "Elena had \\(5\\) times as much money as Carlos. Elena gives Carlos \\(\\$8\\), but she still has \\(\\$20\\) more than Carlos. How much money do the two of them have in all?",
+      "options": {
+        "A": "\\(\\$36\\)",
+        "B": "\\(\\$45\\)",
+        "C": "\\(\\$54\\)",
+        "D": "\\(\\$63\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Let \\(C\\) = Carlos's money, so Elena has \\(E = 5C\\). After Elena gives Carlos \\$8: Elena has \\(E-8\\), Carlos has \\(C+8\\), and \\(E - 8 = (C+8) + 20\\), so \\(E = C + 36\\). Setting \\(5C = C + 36\\) gives \\(4C = 36\\), so \\(C = 9\\) and \\(E = 45\\). Total: \\(9 + 45 = \\$54\\)."
+      },
+      "base_source": "Exam G — Math Q16 (GM16)",
+      "base_question": {
+        "question": "Marcus had three times as much money as José. Marcus gives José \\(\\$5.30\\), but he still has \\(\\$10\\) more than José. How much money do the two boys have in all?",
+        "options": {
+          "A": "\\(\\$10.30\\)",
+          "B": "\\(\\$30.90\\)",
+          "C": "\\(\\$33.60\\)",
+          "D": "\\(\\$41.20\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "First, set up an equation to represent the initial situation. Marcus (\\(M\\)) has three times as much money as José (\\(J\\)): \\(M=3J\\). Next, set up an equation for the new situation. Marcus gives José \\(\\$5.30\\), so \\(M-5.30\\) and \\(J+5.30\\). Marcus still has \\(\\$10\\) more than José, so \\(M-5.30=(J+5.30)+10\\). Simplify to get \\(M=J+20.6\\). From the first equation, you know \\(M\\) is equal to \\(3J\\), so set \\(3J\\) equal to \\(J+20.60\\) and solve for \\(J\\).\n\n\\[3J=J+20.6\\]\n\\[2J=20.6\\]\n\\[J=10.3\\]\n\nJosé started out with \\(\\$10.30\\), which means Marcus started out with \\(3\\times10.60=30.90\\). Be careful! The question asks how much the boys have in sum, so add \\(10.60+30.90=41.20\\)."
+        }
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-HE5-M-KM1_Q86",
+      "question_type": "mc",
+      "question": "Angle C and angle D are supplementary. If the measure of angle D is one-fourth the measure of angle C, what is the measure of angle D?",
+      "options": {
+        "A": "\\(18\\degree\\)",
+        "B": "\\(30\\degree\\)",
+        "C": "\\(36\\degree\\)",
+        "D": "\\(45\\degree\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Supplementary angles sum to \\(180\\degree\\). Since \\(D = \\dfrac{1}{4}C\\), we have \\(C = 4D\\). So \\(4D + D = 180\\degree\\), giving \\(5D = 180\\degree\\), so \\(D = 36\\degree\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q86 (KM1_Q86)",
+      "base_question": {
+        "question": "Angle A and angle B are supplementary. If the measure of angle B is one-third the measure of angle A, what is the measure of angle B?",
+        "options": {
+          "E": "22.5°",
+          "F": "45°",
+          "G": "67.5°",
+          "H": "135°"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "Angle A = 3B, so A + B = 180 gives 3B + B = 180, 4B = 180, B = 45°."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-HE5-M-KM3_Q94",
+      "question_type": "mc",
+      "question": "If an integer is randomly chosen from the first 50 positive integers, what is the probability that the integer selected has at least one digit that is a 7?",
+      "options": {
+        "A": "\\(\\dfrac{1}{10}\\)",
+        "B": "\\(\\dfrac{3}{25}\\)",
+        "C": "\\(\\dfrac{7}{50}\\)",
+        "D": "\\(\\dfrac{1}{5}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Among 1–50, the integers containing the digit 7 are \\(7, 17, 27, 37, 47\\) — that's \\(5\\) numbers (no numbers from 70–79 exist in this range). The probability is \\(\\dfrac{5}{50} = \\dfrac{1}{10}\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q94 (KM3_Q94)",
+      "base_question": {
+        "question": "If an integer is randomly chosen from the first 50 positive integers, what is the probability that the integer selected has at least one digit that is a 3?",
+        "options": {
+          "E": "\\(\\dfrac{7}{25}\\)",
+          "F": "\\(\\dfrac{3}{10}\\)",
+          "G": "\\(\\dfrac{8}{25}\\)",
+          "H": "\\(\\dfrac{2}{5}\\)"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_text": "Numbers 1-50 containing digit 3: 3,13,23,30-39,43 = 14 numbers. Probability = 14/50 = 7/25."
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-HE5-M-FM05",
+      "question_type": "mc",
+      "question": "Maria and Daniel worked on a report together. If Maria wrote \\(\\dfrac{3}{8}\\) of the report and Daniel wrote \\(25\\) pages, then what was the total length of the report?",
+      "options": {
+        "A": "\\(15\\) pages",
+        "B": "\\(25\\) pages",
+        "C": "\\(40\\) pages",
+        "D": "\\(64\\) pages"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "If Maria wrote \\(\\dfrac{3}{8}\\) of the report, Daniel wrote the remaining \\(\\dfrac{5}{8}\\), which equals \\(25\\) pages. So \\(\\dfrac{5}{8}P = 25\\), meaning \\(P = 25 \\times \\dfrac{8}{5} = 40\\) pages."
+      },
+      "base_source": "Exam F — Math Q05 (FM05)",
+      "base_question": {
+        "question": "Nick and Alex worked on a paper together. If Nick wrote \\(\\dfrac{2}{7}\\) of the paper and Alex wrote \\(20\\) pages, then what was the total length of the paper?",
+        "options": {
+          "A": "7 pages",
+          "B": "21 pages",
+          "C": "28 pages",
+          "D": "35 pages"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "If Nick wrote \\(\\dfrac{2}{7}\\) of the paper, then Alex must have written the other \\(\\dfrac{5}{7}\\) of the paper. This means \\(\\dfrac{5}{7}\\) of the paper is equal to 20 pages.\n\n\\[\\dfrac{5}{7}P=20\\]\n\nTo solve for \\(P\\), multiply both sides of the equation by the reciprocal of \\(\\dfrac{5}{7}\\), which is \\(\\dfrac{7}{5}\\).\n\n\\[P=\\dfrac{7}{5}\\times20\\]\n\\[P=28\\]\n\nThe paper is 28 pages long."
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-HE5-M-KM3_Q107",
+      "question_type": "mc",
+      "question": "For how many positive integers \\(x\\) is \\(\\dfrac{210}{x}\\) an integer?",
+      "options": {
+        "A": "\\(8\\)",
+        "B": "\\(12\\)",
+        "C": "\\(16\\)",
+        "D": "\\(20\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "This asks for the number of positive divisors of \\(210\\). Its prime factorization is \\(210 = 2 \\times 3 \\times 5 \\times 7\\), so the number of divisors is \\((1+1)(1+1)(1+1)(1+1) = 2^4 = 16\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q107 (KM3_Q107)",
+      "base_question": {
+        "question": "For how many positive integers \\(x\\) is \\(\\dfrac{130}{x}\\) an integer?",
+        "options": {
+          "A": "8",
+          "B": "7",
+          "C": "6",
+          "D": "5"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "130 = 2 x 5 x 13, so the number of divisors is (1+1)(1+1)(1+1) = 8."
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-HE5-M-AM21",
+      "question_type": "mc",
+      "question": "The faculty of a certain four-year college consists of \\(150\\) teachers. There are \\(600\\) first-year students. The student-to-faculty ratio for the entire college is \\(12\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
+      "options": {
+        "A": "\\(1{,}100\\)",
+        "B": "\\(1{,}200\\)",
+        "C": "\\(1{,}800\\)",
+        "D": "\\(2{,}400\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Total students at the college: \\(150 \\times 12 = 1{,}800\\). Subtract the \\(600\\) first-year students: \\(1{,}800 - 600 = 1{,}200\\)."
+      },
+      "base_source": "Exam A — Math Q21 (AM21)",
+      "base_question": {
+        "question": "The faculty of a certain four-year college consists of \\(179\\) teachers. There are \\(663\\) first-year students. The student-to-faculty ratio for the entire college is \\(15\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
+        "options": {
+          "A": "\\(1{,}989\\)",
+          "B": "\\(2{,}022\\)",
+          "C": "\\(2{,}652\\)",
+          "D": "\\(2{,}685\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Let \\(x\\) be the number of second-, third-, and fourth-year students. Then the total number of students in the college is \\(663 + x\\).\n\nSet up a proportion and solve for \\(x\\):\n\n\\[\\dfrac{15}{1} = \\dfrac{663 + x}{179}\\]\n\\[663 + x = 179(15)\\]\n\\[663 + x = 2{,}685\\]\n\\[x = 2{,}022\\]"
+        }
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-HE5-M-KM1_Q92",
+      "question_type": "mc",
+      "question": "\\((15+6x)-(4-2x)=\\)",
+      "options": {
+        "A": "\\(11-8x\\)",
+        "B": "\\(11+4x\\)",
+        "C": "\\(11+8x\\)",
+        "D": "\\(19+4x\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Distribute the negative sign: \\(15+6x-4+2x\\). Combine like terms: \\((15-4) + (6x+2x) = 11+8x\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q92 (KM1_Q92)",
+      "base_question": {
+        "question": "\\((11+4x)-(2-x)=\\)",
+        "options": {
+          "E": "9-5x",
+          "F": "9+3x",
+          "G": "9+5x",
+          "H": "13+3x"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "(11+4x)-(2-x) = 11+4x-2+x = 9+5x."
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-HE5-M-EM07",
+      "question_type": "mc",
+      "question": "Lina has a box of coins from various countries. The box contains \\(5\\) coins from Country A, \\(3\\) from Country B, \\(2\\) from Country C, and \\(2\\) from Country D. If Lina selects \\(2\\) coins at random from this box, without replacing them, what is the probability that both coins are **not** from Country A?",
+      "options": {
+        "A": "\\(\\dfrac{7}{22}\\)",
+        "B": "\\(\\dfrac{5}{12}\\)",
+        "C": "\\(\\dfrac{1}{2}\\)",
+        "D": "\\(\\dfrac{7}{12}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "There are \\(12\\) coins total, of which \\(7\\) are not from Country A. The probability the first coin is not from Country A is \\(\\dfrac{7}{12}\\). Given that, \\(6\\) of the remaining \\(11\\) coins are not from Country A, so the probability the second also isn't is \\(\\dfrac{6}{11}\\). Multiply: \\(\\dfrac{7}{12} \\times \\dfrac{6}{11} = \\dfrac{42}{132} = \\dfrac{7}{22}\\)."
+      },
+      "base_source": "Exam E — Math Q07 (EM07)",
+      "base_question": {
+        "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are **not** from New York?",
+        "options": {
+          "A": "\\(\\dfrac{12}{35}\\)",
+          "B": "\\(\\dfrac{7}{13}\\)",
+          "C": "\\(\\dfrac{4}{7}\\)",
+          "D": "\\(\\dfrac{6}{7}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Since Erin does not replace the coins, you must pay careful attention to the number of coins each time she chooses a coin. The total number of quarters in the box to start is \\(6+4+2+3=15\\). The number of quarters that are not from New York is \\(4+2+3=9\\).\n\nThe probability that the first quarter is not from New York is \\(\\dfrac{9}{15}\\), or \\(\\dfrac{3}{5}\\). Now, out of the 14 remaining quarters, there are 8 quarters left that are not from New York. The probability that the second quarter is not from New York is \\(\\dfrac{8}{14}\\), or \\(\\dfrac{4}{7}\\).\n\nMultiply these two probabilities to find the probability that both coins are not from New York:\n\n\\[\\dfrac{3}{5} \\times \\dfrac{4}{7} = \\dfrac{12}{35}\\]"
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-HE5-M-AM42",
+      "question_type": "mc",
+      "question": "\\[\\dfrac{1}{7} = 0.\\overline{142857}\\]\n\nIn the infinitely repeating decimal above, \\(1\\) is the first digit in the repeating pattern. What is the \\(200\\)th digit?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(4\\)",
+        "C": "\\(7\\)",
+        "D": "\\(8\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The repeating pattern \\(142857\\) has \\(6\\) digits. Divide \\(200\\) by \\(6\\): \\(200 \\div 6 = 33\\) remainder \\(2\\). A remainder of \\(2\\) means the \\(200\\)th digit matches the \\(2\\)nd digit of the pattern, which is \\(4\\)."
+      },
+      "base_source": "Exam A — Math Q42 (AM42)",
+      "base_question": {
+        "question": "\\[\\dfrac{10}{13} = 0.\\overline{769230}\\]\n\nIn the infinitely repeating decimal above, \\(7\\) is the first digit in the repeating pattern. What is the \\(391\\)st digit?",
+        "options": {
+          "A": "\\(0\\)",
+          "B": "\\(3\\)",
+          "C": "\\(6\\)",
+          "D": "\\(7\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) There are \\(6\\) digits in the repeating decimal (\\(769230\\)), so \\(7\\) would be the first, seventh, thirteenth digit and so on. To find the \\(391\\)st digit, divide \\(391\\) by \\(6\\).\n\n\\[391 \\div 6 = 65 \\text{ R}1\\]\n\nSince the remainder is \\(1\\), that means the \\(391\\)st digit is the same as the \\(1\\)st digit, which is \\(7\\)."
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-HE5-M-GM45",
+      "question_type": "mc",
+      "question": "Bucket \\(C\\) and Bucket \\(D\\) each contain \\(\\dfrac{2}{3}\\) cups of chicken feed. If \\(\\dfrac{1}{4}\\) of the chicken feed in Bucket \\(C\\) is poured into Bucket \\(D\\), how much chicken feed is now in Bucket \\(D\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{2}\\text{ cups}\\)",
+        "B": "\\(\\dfrac{2}{3}\\text{ cups}\\)",
+        "C": "\\(\\dfrac{5}{6}\\text{ cups}\\)",
+        "D": "\\(1\\dfrac{1}{6}\\text{ cups}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The amount poured from Bucket C is \\(\\dfrac{1}{4} \\times \\dfrac{2}{3} = \\dfrac{1}{6}\\) cups. Bucket D now has \\(\\dfrac{2}{3} + \\dfrac{1}{6} = \\dfrac{4}{6} + \\dfrac{1}{6} = \\dfrac{5}{6}\\) cups."
+      },
+      "base_source": "Exam G — Math Q45 (GM45)",
+      "base_question": {
+        "question": "Bucket \\(A\\) and Bucket \\(B\\) each contain \\(\\dfrac{3}{4}\\) liters of chicken feed. If \\(\\dfrac{1}{3}\\) of the chicken feed in Bucket \\(A\\) is poured into Bucket \\(B\\), how much chicken feed is now in Bucket \\(B\\)?",
+        "options": {
+          "A": "\\(\\dfrac{1}{2}\\text{ liters}\\)",
+          "B": "\\(\\dfrac{5}{6}\\text{ liters}\\)",
+          "C": "\\(1\\text{ liter}\\)",
+          "D": "\\(1\\dfrac{1}{12}\\text{ liters}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Bucket B currently contains \\(\\dfrac{3}{4}\\) liters of chicken feed. The question says that \\(\\dfrac{1}{3}\\) of the chicken feed in Bucket A is poured into Bucket B. Since Bucket A also contains \\(\\dfrac{3}{4}\\) liters of chicken feed, \\(\\dfrac{3}{4}\\times\\dfrac{1}{3}=\\dfrac{1}{4}\\) liters are poured into Bucket B. Bucket B now contains \\(\\dfrac{3}{4}+\\dfrac{1}{4}=1\\) liter of chicken feed."
+        }
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-HE5-M-KM2_Q79",
+      "question_type": "mc",
+      "question": "If \\(k=20\\), what is \\((5k+40)-(3k+20)\\)?",
+      "options": {
+        "A": "\\(40\\)",
+        "B": "\\(50\\)",
+        "C": "\\(60\\)",
+        "D": "\\(80\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Simplify first: \\((5k+40)-(3k+20) = 2k+20\\). Substitute \\(k=20\\): \\(2(20)+20 = 40+20 = 60\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q79 (KM2_Q79)",
+      "base_question": {
+        "question": "If \\(k=15\\), what is \\((4k+30)-(2k+15)\\)?",
+        "options": {
+          "A": "15",
+          "B": "30",
+          "C": "45",
+          "D": "60"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "k=15: (4k+30)-(2k+15) = 2k+15 = 2(15)+15 = 45."
+        }
+      },
+      "q_number": 25
+    }
+  ],
+  "ela_passages": [
+    {
+      "genre": "informational",
+      "title": "Moving Through Mountains",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "An age-old proverb says that necessity is the mother of invention."
+          },
+          {
+            "num": 2,
+            "text": "Centuries of human ingenuity in the face of obstacles prove this to be true."
+          },
+          {
+            "num": 3,
+            "text": "For many years the Swiss Alps, a mountain range spanning southern Switzerland and northern Italy, were such an obstacle."
+          },
+          {
+            "num": 4,
+            "text": "Roads and railways had to navigate around the mountains or through winding tunnels inside the mountains, making the transportation of people and goods difficult and time-consuming."
+          },
+          {
+            "num": 5,
+            "text": "In 2016 these burdens were eased with the completion of the Gotthard Base Tunnel."
+          }
+        ],
+        [
+          {
+            "num": 6,
+            "text": "Construction of the high-speed railway tunnel began in 1996."
+          },
+          {
+            "num": 7,
+            "text": "The tunnel was created through the use of tunnel-boring machines, which are giant drills with a flat rotating head called a cutter head."
+          },
+          {
+            "num": 8,
+            "text": "Each of the tunnel-boring machines used during the construction of the tunnel was about the length of four football fields arranged end-to-end."
+          },
+          {
+            "num": 9,
+            "text": "During the seventeen-year construction period, 28 million tons of rock were removed, enough to rebuild the Great Pyramid of Giza five times."
+          },
+          {
+            "num": 10,
+            "text": "This massive construction project is reported to have cost $12 billion."
+          },
+          {
+            "num": 11,
+            "text": "After that, 4 million cubic meters of concrete, or enough concrete to build eighty-four Empire State Buildings, were used to construct and support the tunnel."
+          }
+        ],
+        [
+          {
+            "num": 12,
+            "text": "In a few years, the high-speed railway will carry more than 250 freight trains and 55 passenger trains a day, with most traveling at speeds of around 100 to 125 miles per hour."
+          },
+          {
+            "num": 13,
+            "text": "It will be faster for people to travel between northern and southern Europe."
+          },
+          {
+            "num": 14,
+            "text": "The travel time between the European cities of Zurich, Switzerland, and Milan, Italy, will be reduced by an hour."
+          },
+          {
+            "num": 15,
+            "text": "Many European leaders compare the Gotthard Base Tunnel to the Channel Tunnel, a 33-mile underwater tunnel that connects the United Kingdom and France."
+          },
+          {
+            "num": 16,
+            "text": "While there is no roadway in the Channel Tunnel, people can drive their cars onto special trains that will carry vehicles through to the other side."
+          }
+        ],
+        [
+          {
+            "num": 17,
+            "text": "Just as traffic congestion in major cities led to the construction of underground local transportation, natural formations, such as mountain ranges, have also sent people underground for faster, easier, and cheaper methods of transportation across larger areas."
+          },
+          {
+            "num": 18,
+            "text": "There is renewed interest in constructing innovative methods of transportation that will help eliminate problems associated with traveling to and from certain areas."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "DR07",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "Which sentence should be added after sentence 5 to introduce the main topic of the passage?",
+          "options": {
+            "A": "The construction of the Gotthard Base Tunnel was approved by Swiss voters in 1992 and was funded by tolls, fuel taxes, and government loans.",
+            "B": "Leaders from several European countries attended the opening ceremonies for the Gotthard Base Tunnel, a Swiss tunnel.",
+            "C": "The Gotthard Base Tunnel is the world's longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
+            "D": "The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks which sentence should be added to the end of the first paragraph in order to introduce the topic of the passage, which is the description, construction, and use of the Gotthard Base Tunnel.\n\nA. Incorrect. The option is incorrect because it offers information about the funding used to build the Gotthard Base Tunnel but does not provide a description of the tunnel.\n\nB. Incorrect. The option is incorrect because it gives details about the opening ceremony of the tunnel but does not provide a description of the tunnel.\n\nC. CORRECT. The option correctly presents and describes the Gotthard Base Tunnel.\n\nD. Incorrect. The option is incorrect because it offers a result of completing the Gotthard Base Tunnel rather than offering an introductory statement presenting and describing the tunnel."
+          }
+        },
+        {
+          "id": "DR08",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "Which sentence should be added to follow and support sentence 7?",
+          "options": {
+            "A": "The tunnel-boring machine is helpful to tunnel builders in the modern era and has been an improvement over dynamite.",
+            "B": "These enormous tunnel-boring machines function somewhat like a cheese grater, with the cutter head grinding slowly through rock and stone.",
+            "C": "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel-boring machines.",
+            "D": "Different types of cutter heads are used with tunnel-boring machines depending on the geology of the area where the tunnel is being created."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks for a sentence that provides additional details about the tunnel-boring machines used to build the Gotthard Base Tunnel in order to support the description of the machines in sentence 7.\n\nA. Incorrect. The option is incorrect because it offers information about how tunnel-boring machines were an improvement over previous methods but does not include information about how the machines work.\n\nB. CORRECT. The option is correct because it offers specific details about how tunnel-boring machines, such as the ones used to create the Gotthard Base Tunnel, drill through rock.\n\nC. Incorrect. The option is incorrect because it presents the idea that the tunnel could not be built until advances were made in tunnel-boring machine technology and does not describe how the machines function.\n\nD. Incorrect. The option is incorrect because, though it explains that there are different types of cutter heads used for different geologies, the geology of the tunnel area is not discussed in sentence 7 or in the rest of the paragraph."
+          }
+        },
+        {
+          "id": "DR09",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "Where should sentence 11 be moved in order to improve the organization of the second paragraph (sentences 6–11)?",
+          "options": {
+            "A": "to the beginning of the paragraph (before sentence 6)",
+            "B": "between sentences 6 and 7",
+            "C": "between sentences 8 and 9",
+            "D": "between sentences 9 and 10"
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks where sentence 11, which completes the detailed steps of how the tunnel was built, should be moved within the second paragraph in order to improve the organization of the paragraph.\n\nA. Incorrect. The option, placing the sentence at the beginning of the paragraph (before sentence 6), is incorrect because it would not make sense since the process of building the tunnel has not yet been introduced.\n\nB. Incorrect. The option is incorrect because placing the sentence after sentence 6 would not make sense given that adding concrete would have to happen after the rock was broken down and removed from the tunnel.\n\nC. Incorrect. The option, placing the sentence between sentences 8 and 9, would be incorrect because the use of concrete did not take place before the removal of “28 million tons of rock” (sentence 9).\n\nD. CORRECT. The option, placing the sentence between sentences 9 and 10, is correct because placing the sentence there helps the reader understand the full sequence of steps performed in constructing the tunnel before the cost of the project is introduced."
+          }
+        },
+        {
+          "id": "DR10",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "Which sentence presents information that shifts away from the main topic of the third paragraph (sentences 12–16) and should be removed?",
+          "options": {
+            "A": "sentence 13",
+            "B": "sentence 14",
+            "C": "sentence 15",
+            "D": "sentence 16"
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks which sentence should be removed because it presents an idea that shifts away from the main idea of the third paragraph, which is about the transportation benefits of the Gotthard Base Tunnel.\n\nA. Incorrect. The option (sentence 13) is incorrect because the idea of faster travel times is important to the development of the main idea of the paragraph.\n\nB. Incorrect. The option (sentence 14) is incorrect because the sentence provides a specific example of decreased travel time between two cities when traveling through the Gotthard Base Tunnel, supporting the development of ideas in the paragraph.\n\nC. Incorrect. The option (sentence 15) is incorrect because the sentence compares the Gotthard Base Tunnel to another tunnel that provides an important connection between places; thus, the sentence supports the idea that transportation innovations are beneficial.\n\nD. CORRECT. The option (sentence 16) is the correct response because, even though the sentence provides additional information about the Channel Tunnel, it does not help the reader understand the benefits of the Gotthard Base Tunnel."
+          }
+        },
+        {
+          "id": "DR11",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "Which transition phrase should be added to the beginning of sentence 18?",
+          "options": {
+            "A": "Although the Gotthard Base Tunnel is mainly for freight trains,",
+            "B": "With the Gotthard Base Tunnel taking ten years to complete,",
+            "C": "Because of the successful completion of the Gotthard Base Tunnel,",
+            "D": "As the number of trains using the Gotthard Base Tunnel increases,"
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks for a transition that bridges the ideas between sentences 17 and 18 and accurately presents the relationship.\n\nA. Incorrect. The option is incorrect because the use of the word “although” and the mention of freight trains suggest that sentence 18 will be about other types of vehicles that use the Gotthard Base Tunnel, and the transition phrase does not logically precede the sentence.\n\nB. Incorrect. The option is incorrect because the reference to the amount of time it took to build the tunnel does not help lead into the idea presented in sentence 18.\n\nC. CORRECT. The option is correct because it bridges the sentences by referring to the Gotthard Base Tunnel as a solution to the problems described in sentence 17 and logically introduces sentence 18.\n\nD. Incorrect. The option is incorrect because it suggests that sentence 18 is related to the increasing number of trains using the Gotthard Base Tunnel, which is not accurate."
+          }
+        },
+        {
+          "id": "DR12",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "Which concluding sentence should be added after sentence 18 to support the topic presented in the passage?",
+          "options": {
+            "A": "There is proof that underground tunnels such as the Gotthard Base Tunnel are beneficial to the economy of the surrounding area.",
+            "B": "The Gotthard Base Tunnel is an extraordinary example of how human ingenuity and persistence can overcome great obstacles.",
+            "C": "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
+            "D": "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks for a concluding sentence that supports key ideas about the topic developed earlier in the passage.\n\nA. Incorrect. The option is incorrect because the economies of surrounding areas are never mentioned in the passage.\n\nB. CORRECT. The option is correct because it supports the points made in the introductory paragraph by affirming the idea that the Gotthard Base Tunnel is an example of a way people have improved life by overcoming obstacles.\n\nC. Incorrect. The option is incorrect because, although the construction of the Gotthard Base Tunnel appears to have required many people to work together, the passage does not explicitly mention people or groups working together.\n\nD. Incorrect. The option is incorrect because it focuses on the cost of the Gotthard Base Tunnel, which is referred to only in sentence 10 of the passage."
+          }
+        }
+      ]
+    },
+    {
+      "genre": "informational",
+      "title": "A Memory Revolution",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet’s vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind."
+        },
+        {
+          "num": null,
+          "text": "A Dependable and Valuable Asset"
+        },
+        {
+          "num": 2,
+          "text": "Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study students’ tendency to depend on the Internet for facts. To begin, the scientists divided sixty participants into multiple groups, including an “Internet” group and a “memory” group, and placed them in front of computers. The Internet group was required to use the search engine Google to answer eight challenging trivia questions. In contrast, participants in the memory group were permitted to use only their personal knowledge to answer the questions. In the second round, the researchers administered notably easier questions. This time, they allowed each group the option of using Google as they answered. Their results showed that 83 percent of the Internet group continued to consult Google in the second round, while only 63 percent of the memory group chose to do so."
+        },
+        {
+          "num": 3,
+          "text": "People’s growing inclination to rely on the Internet in order to retrieve information, particularly facts and figures, is called cognitive offloading. Canadian researcher Evan F. Risko and British researcher Sam Gilbert, who have written extensively about the topic, say a similar process has been taking place for centuries. In the past, people used resources like encyclopedias to assist their memories; however, today the Internet, serving as a vast extended memory, allows people to digitally access and retrieve much larger volumes of information. Consequently, people’s minds are free for other cognitive feats, such as connecting data, learning new information, or solving problems."
+        },
+        {
+          "num": null,
+          "text": "Filing Information Away"
+        },
+        {
+          "num": 4,
+          "text": "The use of the Internet also appears to be modifying the strategies people use to store information in their mind. Researchers Betsy Sparrow from Columbia University, Jenny Liu from the University of Wisconsin-Madison, and Daniel Wegner from Harvard University conducted several studies to discover how people efficiently manage their information intake."
+        },
+        {
+          "num": 5,
+          "text": "To begin, the researchers examined how people evaluate which information deserves their effort to remember. For this experiment, participants read forty trivia facts, such as “An ostrich’s eye is bigger than its brain,” and typed the statements into a computer file. Half the participants had been previously told the file would be saved, while half believed it would be erased. Next, the participants wrote down every fact they could recall. Those who believed the information would be erased and no longer available could recall 40 percent more facts than those who thought the information would be saved."
+        },
+        {
+          "num": 6,
+          "text": "In another experiment, the same researchers tested the ability of study participants to remember where to access information. For this trial, participants read and typed trivia statements, which they saved in folders with generic names such as “Facts” and “Items.” After spending ten minutes writing down all the facts they could recall from memory, participants were asked which folder contained a particular fact based on a keyword. For example, “Which folder has the fact about ostriches?” Overall, participants recalled the information’s location more often than the content itself, correctly identifying 49 percent of the folders for specific facts while remembering only 23 percent of the actual trivia. The researchers concluded that our memory is adapting to the Internet age by prioritizing where to locate information even when the specific details are forgotten. According to Sparrow, the Internet has become an important form of transactive memory, an external source of the recollections and associative networks that constitute memory."
+        },
+        {
+          "num": 7,
+          "text": "As the Internet’s resources continue to expand our “external” memory, some question whether the process may cause people to depend too heavily on technology. However, Steven Pinker, a professor of psychology at Harvard University, says, “Knowledge is increasing exponentially; human brainpower and waking hours are not. Fortunately, the Internet and information technologies are helping us manage, search and retrieve our collective intellectual output at different scales, from Twitter and previews to e-books and online encyclopedias. Far from making us stupid, these technologies are the only things that will keep us smart.”"
+        }
+      ],
+      "passage_figure_html": "<img src=\"ela_d/figures/memory_diagram.jpg\" alt=\"How Memory Works diagram: New Information flows into Sensory Memory, then via Attention into Short-Term Memory, which loops to itself via Rehearsal (information maintained through repetition); unrehearsed information from Short-Term Memory is forgotten. Short-Term Memory flows to Long-Term Memory via Storage and back via Retrieval; some information in Long-Term Memory may be forgotten over time.\" style=\"max-width:100%;border:1px solid #ccc;border-radius:4px;\">",
+      "questions": [
+        {
+          "id": "DR17",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "The details in paragraph 3 about cognitive offloading convey a central idea of the passage by",
+          "options": {
+            "A": "suggesting that reliance on the Internet for information is inevitable.",
+            "B": "demonstrating how the methods used to store and find information have changed over time.",
+            "C": "explaining how encyclopedias and the Internet are similar sources of information.",
+            "D": "implying that more information can be understood now than ever before."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR18",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "How do the details about the experiment described in paragraph 5 convey a central idea of the passage?",
+          "options": {
+            "A": "They show that people are capable of remembering a large number of facts if given enough time to study them.",
+            "B": "They demonstrate that people are more likely to recall information that is personally meaningful to them.",
+            "C": "They reveal that people remember information better when they believe they will need it again in the future.",
+            "D": "They indicate that people are less likely to make an effort to remember information they believe will remain accessible."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR19",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 7.\n\nAs the Internet’s resources continue to expand our “external” memory, some question whether the process may cause people to depend too heavily on technology.\n\nHow does the sentence contribute to the structure and development of ideas in the passage?",
+          "options": {
+            "A": "It presents a claim about the risks of relying on the Internet that prompted the research described in paragraphs 2 and 6.",
+            "B": "It contrasts a disadvantage of relying on the Internet with the benefits of Internet use that are described in paragraphs 2 and 6.",
+            "C": "It signals a shift from a neutral viewpoint in paragraphs 2 and 6 to a presentation of an argument and a counterargument.",
+            "D": "It introduces a counterargument and marks a transition from an optimistic tone in paragraphs 2 and 6 to a cautious tone as the counterargument is developed."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR20",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "The study described in paragraph 6 influenced researchers’ ideas about memory in the digital age by",
+          "options": {
+            "A": "proving that people are no longer capable of memorizing large amounts of information without the aid of technology.",
+            "B": "demonstrating that people's memory capacity has decreased significantly since the introduction of the Internet.",
+            "C": "suggesting that people's memory is adapting to prioritize the location of information rather than the information itself.",
+            "D": "confirming that people rely exclusively on technology to store and retrieve all types of information."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR21",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "How does the diagram provide additional support for the topic presented in the passage?",
+          "options": {
+            "A": "It reveals why human brains must adapt to obtaining information from the Internet as opposed to other sources.",
+            "B": "It indicates how people can use the Internet to help improve their long-term recollection of information.",
+            "C": "It shows how study participants’ brains distinguished between important and unimportant details.",
+            "D": "It depicts the idea that repetition and rehearsal are necessary to recall information when tools such as search engines are unavailable."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR22",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "Which evidence from the passage is most relevant to the claim in paragraph 7 that “ ‘far from making us stupid, these technologies are the only things that will keep us smart’ ”?",
+          "options": {
+            "A": "the revelation that most people opted to use the Internet to answer relatively easy trivia questions rather than relying on their own brainpower (paragraph 2)",
+            "B": "the assertion that the storage of information on the Internet frees people to focus on higher-order tasks such as problem solving (paragraph 3)",
+            "C": "the connection between how people organize information in their mind and their ability to recall that information (paragraph 5)",
+            "D": "the description of transactive memory as an expansive external source that people can use to store information (paragraph 6)"
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR23",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "The effect of the Internet on a person’s memory is illustrated in the passage through the presentation of studies that",
+          "options": {
+            "A": "examine how the use of search engines changes the way people evaluate and store information for future access.",
+            "B": "highlight the difference between the capacity of the Internet and the ability of the human brain to locate information.",
+            "C": "compare the type of information that can be obtained from the Internet with the type of information that is stored in the human brain.",
+            "D": "emphasize the ease of obtaining information through search engines rather than remembering it without assistance."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_D/"
+        }
+      ]
+    },
+    {
+      "genre": "informational",
+      "title": "How We Made the First Flight",
+      "author": "Orville Wright",
+      "citation": "From “How We Made the First Flight” by Orville Wright—Public Domain/Federal Aviation Administration",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Mr. Spratt had to leave us the morning of the 17th, on account of the illness of his father, but Mr. Daniels and Mr. Dough and Mr. W.C. Brinkley of Manteo, and John T. Daniels, Thomas Beacham, and W.S. Dough, members of the Kill Devil Life Saving Station, witnessed the flights of the 17th. It had been our intention, after we had gained sufficient skill in handling the machine through our experience with it as a glider, to design and build a new machine which would contain a motor, and which would be large enough to need the motor. But by the time we had gained the skill, we had also discovered that there were many problems still to be solved in the operation of a successful power-flyer, and that it would be far more economical of time and effort to work these problems out, as far as practicable, with a machine built and operated as a glider, before attempting to handle a machine with a motor in it. Experiments with a glider as light and as small as ours, holding to the same general plan, were extremely difficult, principally because of the tendency of the machine to turn up on one wing and dive to the ground on that side when partially stalled. This tendency was a very serious handicap in all our early gliding, often causing bruises and sprains, though by care we avoided breaking any bones during all of our experimenting."
+        },
+        {
+          "num": 2,
+          "text": "The wind, according to our anemometer at this time, was blowing a little over 20 miles (corrected) an hour, 27 miles according to the Government anemometer at Kitty Hawk. On slipping the rope the machine started off increasing in speed to probably 7 or 8 miles an hour. The machine lifted from the truck just as it was entering on the fourth rail. Mr. Daniels snapped the camera for us, taking a picture just as the machine had reached the end of the track and had risen to a height of about two feet."
+        },
+        {
+          "num": null,
+          "text": "Final Preparations"
+        },
+        {
+          "num": 3,
+          "text": "The ground was a little rough, covered with grassy hummocks, and we had, as yet, had no experience in handling a machine of this particular type under the influence of winds. This resulted in a decided slowing up of our progress. As the velocity of the wind was over 35 feet per second and the speed of the machine over the ground against this wind ten feet per second, the speed of the machine relative to the air was over 45 feet per second, and the length of the flight was equivalent to a flight of 540 feet made in calm air. This flight lasted only 12 seconds, but it was nevertheless the first in the history of the world in which a machine carrying a man had raised itself by its own power into the air in full flight, had sailed forward without reduction of speed and had finally landed at a point as high as that from which it started."
+        },
+        {
+          "num": null,
+          "text": "Audacity—and Calculation"
+        },
+        {
+          "num": 4,
+          "text": "After our experience of the preceding three years, we had no slightest apprehension for his safety. The idea that in itself the new flight was extremely dangerous to life and limb was not share by us at that time. Yet the slow, approximate antecedent flights, we felt instinctively the machine would do all that we had calculated it would. We had taken up the subject in a different way from others who had worked on the problem of flying machines, and we met with different results. We knew, through our experiments with gliders, that we had gained control of the machine in the air to a sufficient degree to make flights of a mile or so. Therefore, we had no fear in trusting ourselves to it."
+        },
+        {
+          "num": null,
+          "text": "Flight"
+        },
+        {
+          "num": 5,
+          "text": "This flight lasted only 12 seconds, but it was nevertheless the first in the history of the world in which a machine carrying a man had raised itself by its own power into the air in full flight, had sailed forward without reduction of speed and had finally landed at a point as high as that from which it started."
+        }
+      ],
+      "questions": [
+        {
+          "id": "DR24",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "Which detail from paragraph 1 best supports the idea that Orville and Wilbur Wright approached their project methodically?",
+          "options": {
+            "A": "the decision to gain skill operating a glider before attempting to build a motor-powered machine",
+            "B": "the fact that Mr. Spratt had to leave on account of his father's illness",
+            "C": "the presence of witnesses from the Kill Devil Life Saving Station",
+            "D": "the tendency of the machine to turn up on one wing and dive to the ground"
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR49",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\nWilbur having used his turn in the unsuccessful attempt on the 14th, the right to the first trial now belonged to me.\n\nThe sentence contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "demonstrating the challenge of the extreme winter conditions during the flight.",
+            "B": "revealing how many tries it took for Wilbur Wright to finally get the machine to take flight.",
+            "C": "demonstrating that both Orville and Wilbur Wright were eager to pilot what could potentially be the first flight.",
+            "D": "suggesting a sense that both brothers felt confident they would soon succeed in completing the first flight."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/Screenshot 2026-10-26 at 1.13.40 AM.png"
+        },
+        {
+          "id": "DR25",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "The photograph mentioned in paragraph 4 is significant because it",
+          "options": {
+            "A": "documents that the machine rose into the air as soon as the tethering wire was released.",
+            "B": "provides proof of the critical moment the machine took flight.",
+            "C": "documents that the wind reduced the speed of the plane at the start of the flight.",
+            "D": "provides proof that the pilot had to gradually increase the height of the plane in the air."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR26",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "Which detail from the excerpt best explains why the flight on December 17 was especially significant given the difficulties the Wright brothers had faced?",
+          "options": {
+            "A": "the fact that the ground was covered with grassy hummocks",
+            "B": "the fact that the flight lasted only 12 seconds",
+            "C": "the fact that the machine landed at a point as high as that from which it started",
+            "D": "the fact that witnesses from the Kill Devil Life Saving Station were present"
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR27",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "How does paragraph 5 contribute to the development of ideas in the excerpt?",
+          "options": {
+            "A": "It introduces a new challenge the brothers faced after the flight.",
+            "B": "It describes the difficulties of handling the machine with no prior experience.",
+            "C": "It emphasizes the historic significance of the flight despite its short duration.",
+            "D": "It explains why the brothers chose to test the machine in windy conditions."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR28",
+          "q_number": 44,
+          "question_type": "mc",
+          "question": "Which statement best describes the Wright brothers' attitude toward the risk of the flight, based on paragraph 6?",
+          "options": {
+            "A": "They were anxious about the flight because of how dangerous it could be.",
+            "B": "They were confident in the machine because of their extensive experience with gliders.",
+            "C": "They were uncertain whether the machine would perform as calculated.",
+            "D": "They were reluctant to attempt the flight after their previous experiences."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR29",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that the Wright brothers' gliding experience was essential to the success of the first flight?",
+          "options": {
+            "A": "\"It had been our intention...to design and build a new machine which would contain a motor\" (paragraph 1)",
+            "B": "\"We knew, through our experiments with gliders, that we had gained control of the machine in the air to a sufficient degree to make flights of a mile or so\" (paragraph 6)",
+            "C": "\"Mr. Daniels snapped the camera for us, taking a picture just as the machine had reached the end of the track\" (paragraph 4)",
+            "D": "\"The ground was a little rough, covered with grassy hummocks\" (paragraph 5)"
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_D/"
+        }
+      ]
+    },
+    {
+      "genre": "informational",
+      "title": "Wolves of the Sea",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Chester Starr, a hereditary chief and fisheries manager for the Heiltsuk First Nation, believed that there were two kinds of wolves living in the Great Bear Rainforest of British Columbia: mainland wolves and sea wolves. Scientists had always believed that the wolves that are sometimes spotted swimming between islands and eating salmon are the same wolves that live on the mainland. But Starr insisted that these so-called sea wolves were a genetically distinct population, smaller and more adept at swimming and living off marine resources than their mainland counterparts. In 2008, Starr shared his belief with Chris Darimont, a conservation scientist, who wanted to confer with local First Nations groups, as aboriginal Canadians are known, in order to learn what they knew about these wolves."
+        },
+        {
+          "num": 2,
+          "text": "Starr asked Darimont which wolves he and his team were going to study—the timber wolves (mainland wolves) or the coastal wolves on the islands."
+        },
+        {
+          "num": 3,
+          "text": "While mainland wolves almost exclusively eat meat, such as deer and elk, and teach their young to hunt for land animals, sea wolves get as much as 90 percent of their nutrition from the sea and teach their young to dig for clams and to catch fish. Sea wolves regularly swim between islands and have been known to sneak up on a seal sunning itself on a rock and make a leaping attack from the water. Darimont suspects that some sea wolves live their entire life on the islands."
+        },
+        {
+          "num": 4,
+          "text": "Darimont hypothesizes that a change in habitat led to the eventual genetic differences between sea wolves and mainland wolves. A genetic marker is a variation in a DNA sequence that can be used to identify individuals or a species because it is passed down to offspring. After collecting and analyzing the DNA in 800 samples of gray fur and wolf waste, researchers could produce hard biological evidence that sea wolves had genetic markers that made them distinct from the mainland wolves. Many years ago, loss of habitat and food sources forced some mainland wolves out to the islands. They learned to eat everything from kelp and fish eggs to the remains of sea creatures that washed up on the beach. Wolves living on the islands and mainland wolves became more isolated and rarely mated with each other. Over time the two types of wolves became more distinct."
+        },
+        {
+          "num": 5,
+          "text": "It turned out that Chester Starr was right all along. “It sounded totally bizarre at first,” admits Darimont, “that there could be two versions of the species.” But he now realizes that this skepticism “definitely reflected my ignorance of indigenous knowledge at the time.” Learning to trust the wisdom of the Heiltsuk people opened Darimont up to knowledge accumulated over millennia and positioned him so that he could gather new scientific evidence about one of British Columbia’s most elusive species, the sea wolf."
+        }
+      ],
+      "questions": [
+        {
+          "id": "DR30",
+          "q_number": 46,
+          "question_type": "mc",
+          "question": "Which statement best describes a central idea of the passage?",
+          "options": {
+            "A": "Mainland wolves and sea wolves have always been understood by scientists to be genetically distinct.",
+            "B": "A scientist's willingness to trust indigenous knowledge led to a new discovery about wolves in the Great Bear Rainforest.",
+            "C": "Sea wolves are more skilled hunters than mainland wolves because they have adapted to a marine diet.",
+            "D": "Chester Starr's research methods were more rigorous than those used by conservation scientists."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR31",
+          "q_number": 47,
+          "question_type": "mc",
+          "question": "Why does the author include details about the conversation between Starr and Darimont in paragraph 2?",
+          "options": {
+            "A": "to explain why Starr had closely observed the relationship between the two groups of wolves Darimont wanted to study",
+            "B": "to show that Darimont was hoping to work with Starr and to study both groups of wolves in the area",
+            "C": "to highlight that Darimont was unfamiliar with the area and expected Starr to help him find wolves to study",
+            "D": "to emphasize that the question asked by Starr caused Darimont to review his initial assumption about the wolves"
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR32",
+          "q_number": 48,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\nAfter collecting and analyzing the DNA in 800 samples of gray fur and wolf waste, researchers could produce hard biological evidence that sea wolves had genetic markers that made them distinct from the mainland wolves.\n\nThe phrase “hard biological evidence” conveys that the goal of the research team was to",
+          "options": {
+            "A": "develop a procedure in order to ensure their study yielded plentiful data about the wolves.",
+            "B": "seek definitive scientific proof of the number of wolf species present in the area of the study.",
+            "C": "conduct a study to evaluate multiple theories about the diets of different wolf species.",
+            "D": "discover if the new data would provide information different from that of previous studies."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR50",
+          "q_number": 49,
+          "question_type": "mc",
+          "question": "The author uses the word \"admits\" in paragraph 5 most likely to",
+          "options": {
+            "A": "note that Darimont's genetic research verified a theory based solely on field observations.",
+            "B": "imply that Darimont's study was disappointing because the conclusion that he reached was not original.",
+            "C": "emphasize that Darimont's study ultimately confirmed an idea that he had initially doubted.",
+            "D": "highlight that Darimont's results led him to draw a conclusion from his research that his team did not agree with."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/Screenshot 2026-10-26 at 1.15.05 AM.png"
+        },
+        {
+          "id": "DR33",
+          "q_number": 50,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that sea wolves had successfully adapted to living on the islands?",
+          "options": {
+            "A": "“While mainland wolves almost exclusively eat meat, such as deer and elk, and teach their young to hunt for land animals, sea wolves get as much as 90 percent of their nutrition from the sea and teach their young to dig for clams and to catch fish.” (paragraph 3)",
+            "B": "“Sea wolves regularly swim between islands and have been known to sneak up on a seal sunning itself on a rock and make a leaping attack from the water.” (paragraph 3)",
+            "C": "“Darimont suspects that some sea wolves live their entire life on the islands.” (paragraph 3)",
+            "D": "“Darimont hypothesizes that a change in habitat led to the eventual genetic differences between sea wolves and mainland wolves.” (paragraph 4)"
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR34",
+          "q_number": 51,
+          "question_type": "mc",
+          "question": "How did a change in habitat most affect the wolf population of the Great Bear Rainforest over time?",
+          "options": {
+            "A": "It caused some of the wolves to learn new hunting techniques in order to catch increasingly scarce prey.",
+            "B": "It caused the wolves to form smaller packs and eventually separate, establishing distinct territories.",
+            "C": "It caused some of the wolves to gradually become a new, genetically distinct species as they adapted behaviorally.",
+            "D": "It caused the wolves to adapt their diet as different food sources became available in the area."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/"
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-HE5-GR50",
+      "question_type": "mc",
+      "question": "The confident skilled gymnast Priya Patel became the first student at her school to qualify for the state finals when she competed in a two-day meet focused on testing balance and strength in 2021.",
+      "options": {
+        "A": "Insert a comma after confident.",
+        "B": "Insert a comma after state.",
+        "C": "Insert a comma after two-day.",
+        "D": "Insert a comma after balance."
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Insert a comma between \"confident\" and \"skilled\" — they're coordinate adjectives, each independently describing \"gymnast,\" and you could reverse their order (\"skilled, confident gymnast\") without changing the meaning.\n\n**Why this sounds right:** Two adjectives stacked in front of a noun often feel fine without a comma, especially short, commonly-paired ones — but that's only true for \"cumulative\" adjectives that build on each other in a fixed order. Here \"confident\" and \"skilled\" are totally independent descriptions, which is exactly when the comma rule kicks in.\n\n**The concept:** When two adjectives both independently describe the same noun (you could say them in either order, or put \"and\" between them), they need a comma between them. Test it: can you swap the order or insert \"and\" without changing the meaning? If yes, they're coordinate and need a comma.\n\n**More examples of this mistake:**\n- \"She wore a bright colorful scarf to the party.\" (should be \"bright, colorful scarf\")\n- \"It was a long exhausting shift at the hospital.\" (should be \"long, exhausting shift\")"
+      },
+      "base_source": "Exam G — Standalone (GR50)",
+      "base_question": {
+        "stimulus": "The dedicated skilled engineer Ellen Ochoa became the first Hispanic American woman to go to space when she participated in a nine-day NASA mission focused on studying the Sun and its interaction with Earth's atmosphere in 1993.",
+        "question": "Which edit should be made to correct the sentence?",
+        "options": {
+          "A": "Insert a comma after dedicated.",
+          "B": "Insert a comma after Hispanic.",
+          "C": "Insert a comma after nine-day.",
+          "D": "Insert a comma after Sun."
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Category: Punctuation\nGetting to the Answer: The answer choices indicate that the sentence is missing a comma; look for specific situations in which commas are needed, such as to punctuate parenthetical phrases or coordinate adjectives. Coordinate adjectives describe characteristics of the same noun and must be connected with either a comma or the word \"and.\" (A) is correct because it places a comma between the coordinate adjectives \"dedicated\" and \"skilled.\" (B), (C), and (D) are incorrect because they include unnecessary commas that create grammatical errors. (B) and (C) incorrectly place commas between cumulative adjectives, which are adjectives that work together in a specific order to modify a noun. The rule is that if the words cannot be reversed without altering the original meaning, a comma should not be used. (D) places a comma after \"Sun,\" which is incorrect because the combination of a comma and a FANBOYS conjunction (\"and\") is used to separate two independent clauses, but \"its interaction with Earth's atmosphere\" is a phrase and cannot stand alone as an independent clause."
+        }
+      },
+      "q_number": 52
+    },
+    {
+      "id": "P-HE5-KM1_Q01",
+      "question_type": "mc",
+      "question": "One of the most common challenges that city gardeners face is poor drainage, another problem that frustrates these gardeners is the limited amount of sunlight in shaded yards.",
+      "options": {
+        "A": "Insert a comma after challenges.",
+        "B": "Insert a comma after face.",
+        "C": "Delete the comma after drainage.",
+        "D": "Replace the comma after drainage with a semicolon."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "The comma after \"drainage\" is only a comma, but it's joining two complete sentences (\"One of the most common challenges...is poor drainage\" and \"another problem...is the limited amount of sunlight...\"). A comma alone can't join two independent clauses — replace it with a semicolon.\n\n**Why this sounds right:** It reads smoothly as one flowing thought about garden problems, and since both halves are about the same topic, the sentence doesn't \"feel\" broken — but grammatically, each half has its own subject and verb and could stand alone, which means a plain comma isn't strong enough to hold them together.\n\n**The concept:** A comma splice happens when you join two complete sentences (each with its own subject and verb) using only a comma. Test it by splitting the sentence in two at the comma — if both halves could stand alone as their own sentence, you need a period, a semicolon, or a connecting word, not just a comma.\n\n**More examples of this mistake:**\n- \"The museum closes at five, we still had time to see the dinosaur exhibit.\"\n- \"She finished her homework early, she decided to go for a walk.\""
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q01)",
+      "base_question": {
+        "stimulus": "One of the most predictable <u>problems</u> that New England gardeners <u>encounter</u> is rocky <u>soil,</u> another issue that plagues these gardeners is the destruction of cultivated plants by local wildlife.",
+        "question": "Which edit should be made to correct this sentence?",
+        "options": {
+          "A": "Insert a comma after **problems**.",
+          "B": "Insert a comma after **encounter**.",
+          "C": "Delete the comma after **soil**.",
+          "D": "Replace the comma after **soil** with a semicolon."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "The sentence joins two complete, independent clauses (\"One of the most predictable problems...is rocky soil\" and \"another issue...is the destruction of cultivated plants...\") with only a comma — a comma splice. Replacing the comma with a semicolon correctly joins the two related independent clauses."
+        }
+      },
+      "q_number": 53
+    },
+    {
+      "id": "P-HE5-KM1_Q02",
+      "question_type": "mc",
+      "question": "Many food critics agree that Antoine Dubois, a celebrated pastry chef is nearly as skilled a sculptor as he is a baker.",
+      "options": {
+        "A": "Delete the comma after Dubois.",
+        "B": "Insert a comma after chef.",
+        "C": "Insert a comma after skilled.",
+        "D": "Insert a comma after sculptor."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The phrase \"a celebrated pastry chef\" is a nonessential appositive describing Antoine Dubois — it needs a comma on both sides. The opening comma after \"Dubois\" is there, but the closing comma after \"chef\" (right before \"is nearly...\") is missing.\n\n**Why this sounds right:** The sentence still makes sense read aloud without a pause there, and since there's already one comma earlier in the sentence, it's easy to assume the punctuation job is done — but an appositive needs to be bracketed by two commas, like parentheses, not just one.\n\n**The concept:** A nonessential appositive (an extra description of a noun that could be removed without changing who or what is being talked about) needs a comma before AND after it, like a pair of parentheses. If only one of the two commas is there, the phrase isn't properly closed off, even if the sentence still reads smoothly.\n\n**More examples of this mistake:**\n- \"My neighbor, a retired firefighter spends his mornings gardening.\" (missing the closing comma after \"firefighter\")\n- \"The novel, a bestseller for three years, was finally adapted into a film.\" (correct — both commas present)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q02)",
+      "base_question": {
+        "stimulus": "Many theater critics agree that Patti <u>LuPone,</u> a famous Broadway <u>performer</u> is nearly as dramatic an <u>actor</u> as she is a singer.",
+        "question": "Which edit should be made to correct this sentence?",
+        "options": {
+          "E": "Delete the comma after **LuPone**.",
+          "F": "Insert a comma after **performer**.",
+          "G": "Insert a comma after **dramatic**.",
+          "H": "Insert a comma after **actor**."
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "\"a famous Broadway performer\" is a nonessential appositive describing Patti LuPone and needs a comma on both sides. The opening comma after \"LuPone\" is present, but the closing comma after \"performer\" is missing, so one must be inserted there."
+        }
+      },
+      "q_number": 54
+    },
+    {
+      "id": "P-HE5-KM1_Q03",
+      "question_type": "mc",
+      "question": "(1) Young violinists need to dedicate hours of daily practice in order to master difficult pieces. (2) This dedication is impossible without the encouragement of a patient teacher.\n\nWhat is the best way to combine the sentences to clarify the relationship between the ideas?",
+      "options": {
+        "A": "Young violinists have hours of daily practice they need to dedicate in order to master difficult pieces; however, they also need the encouragement of a patient teacher.",
+        "B": "While young violinists have hours of daily practice they need to dedicate in order to master difficult pieces, they also need the encouragement of a patient teacher.",
+        "C": "The hours of daily practice that young violinists need to dedicate in order to master difficult pieces are impossible without the encouragement of a patient teacher.",
+        "D": "The hours of daily practice that young violinists need to dedicate, along with the encouragement of a patient teacher, are needed to master difficult pieces."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "(C) is correct because it preserves the original relationship: the daily practice itself is impossible/incomplete without a teacher's encouragement — a dependency, not a contrast or a simple addition. (A) wrongly signals contrast with \"however.\" (B) treats the two ideas as merely simultaneous with \"while,\" losing the \"impossible without\" dependency. (D) demotes the teacher's encouragement to an afterthought tacked on with \"along with,\" rather than something the practice depends on.\n\n**Why this sounds right:** (B) sounds reasonable because \"while\" is a common way to link two related ideas, but \"while\" signals a contrast or a simultaneous-but-separate relationship, when really the second sentence describes a condition the first idea depends on (\"impossible without\") — that dependency gets lost if you treat them as just two things happening alongside each other.\n\n**The concept:** When you combine two sentences using a connecting word or structure, that connection has to accurately reflect how the ideas actually relate: does one depend on the other, cause it, contrast with it, or just add to it? Picking a connector that implies the wrong relationship changes the meaning even if the sentence still reads smoothly.\n\n**More examples of this mistake:**\n- \"Because the bridge was under repair, traffic moved smoothly.\" (wrong — needs \"although\")\n- \"The team practiced every day, but they won the championship.\" (wrong — needs \"and\"/\"so\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q03)",
+      "base_question": {
+        "stimulus": null,
+        "question": "What is the best way to combine the sentences to clarify the relationship between the ideas?",
+        "options": {
+          "A": "Young figure skaters have a tremendous commitment they need to make in order to earn a place on the Olympic team; however, they also need the support of their families.",
+          "B": "While young figure skaters have a tremendous commitment they need to make in order to earn a place on the Olympic team, they also need the support of their families.",
+          "C": "The tremendous commitment that young figure skaters have to make in order to earn a place on the Olympic team is impossible without the help and support of their families.",
+          "D": "The tremendous commitment that young figure skaters have, along with the support of their families, is needed to make the Olympic team."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) best preserves the dependency relationship between the two ideas: the commitment young figure skaters must make is impossible without family support. It embeds the first idea as a modifying clause of the subject and keeps the dependency (\"is impossible without\") as the main clause, unlike the other options which introduce a false contrast (A), demote the dependency to a mere simultaneous fact (B), or tack the family support on as an afterthought (D)."
+        }
+      },
+      "q_number": 55
+    }
+  ]
+}
