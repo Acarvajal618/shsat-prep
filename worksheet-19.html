@@ -60,6 +60,10 @@
     .tn-results-score { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 20px 24px; margin-bottom: 20px; text-align: center; }
     .tn-results-score .big { font-size: 34px; font-weight: 800; color: #1a1a1a; }
     .tn-results-score .sub { color: #666; font-size: 14px; margin-top: 4px; }
+    .tn-review-unlock { background: #eafbea; border: 1px solid #b7e4b7; border-radius: 6px; padding: 14px 18px; margin-bottom: 20px; text-align: center; font-size: 15px; color: #1a3a1a; }
+    .tn-review-unlock strong { font-family: 'SF Mono', Consolas, monospace; font-size: 16px; letter-spacing: 0.02em; }
+    .tn-review-unlock .sub { color: #3a5a3a; font-size: 13px; margin-top: 6px; }
+    .tn-review-unlock a { color: #1a5a1a; font-weight: 600; }
     .tn-results-breakdown { display: flex; gap: 12px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
     .tn-results-breakdown div { background: #f3f3f3; border-radius: 4px; padding: 6px 14px; font-size: 13px; color: #444; }
     .tn-results-download { display: block; margin: 0 auto 24px; background: #4a90d9; color: #fff; border: none; border-radius: 3px; padding: 10px 20px; font-size: 14px; font-weight: 600; cursor: pointer; }
@@ -713,6 +717,10 @@
           <div class="sub">${pct}% correct &middot; time taken: ${formatDuration(state.finishedAtMs)}</div>
           <div class="tn-results-breakdown">${breakdown}</div>
         </div>
+        <div class="tn-review-unlock">
+          🔓 Review password unlocked: <strong>unlock1029</strong>
+          <div class="sub">Use this on the <a href="worksheet-20.html">full-content version</a> of this exam to freely review every Solution and Base Question.</div>
+        </div>
         <button class="tn-results-download" id="tn-download-results">⬇ Download Results</button>
         ${rowsHtml}
       `;
@@ -727,6 +735,7 @@
       lines.push('EXAM RESULTS — ' + new Date().toLocaleString());
       lines.push('Score: ' + summary.correct + ' / ' + summary.total);
       lines.push('Time taken: ' + formatDuration(state.finishedAtMs));
+      lines.push('Review password (for worksheet-20.html, the full-content version): unlock1029');
       Object.keys(summary.bySection).forEach(k => {
         if (summary.bySection[k].total > 0) {
           lines.push(sectionLabel[k] + ': ' + summary.bySection[k].correct + ' / ' + summary.bySection[k].total);
