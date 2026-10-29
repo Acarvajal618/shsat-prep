@@ -1,0 +1,602 @@
+[
+  {
+    "real_id": "AM38",
+    "q": "\\[\\dfrac{p}{q} = \\dfrac{r}{s}\\]\n\nIn the equation above, \\(p\\), \\(q\\), \\(r\\), and \\(s\\) are positive numbers. Which of these is equal to \\(s\\)?",
+    "opt": {
+      "A": "\\(q\\)",
+      "B": "\\(qr\\)",
+      "C": "\\(\\dfrac{p}{qr}\\)",
+      "D": "\\(\\dfrac{qr}{p}\\)"
+    },
+    "correct": "D",
+    "sol": "Solve the equation for \\(s\\):\n\n\\[\\dfrac{p}{q} = \\dfrac{r}{s}\\]\n\\[ps = qr\\]\n\\[s = \\dfrac{qr}{p}\\]"
+  },
+  {
+    "real_id": "AM24",
+    "q": "The **least** of \\(7\\) consecutive integers is \\(l\\), and the **greatest** is \\(g\\). What is the value of \\(\\dfrac{l+g}{2}\\) in terms of \\(l\\)?",
+    "opt": {
+      "A": "\\(2l\\)",
+      "B": "\\(4l\\)",
+      "C": "\\(l + 3\\)",
+      "D": "\\(l + 7\\)"
+    },
+    "correct": "C",
+    "sol": "The first integer is \\(l\\), so the seventh and greatest is \\(l+6\\), meaning \\(g=l+6\\). Substitute and simplify:\n\n\\[\\dfrac{l+g}{2} = \\dfrac{l + (l+6)}{2} = \\dfrac{2l+6}{2} = l+3\\]"
+  },
+  {
+    "real_id": "AM18",
+    "q": "Mr. Alvarez bought six bottles of juice for $\\(1.20\\) each and \\(5\\) pounds of cheese. He paid a total of $\\(31.20\\) for these items, **not** including tax. What was the price per pound of the cheese?",
+    "opt": {
+      "A": "\\(\\$3.84\\)",
+      "B": "\\(\\$4.80\\)",
+      "C": "\\(\\$4.90\\)",
+      "D": "\\(\\$6.24\\)"
+    },
+    "correct": "B",
+    "sol": "Let \\(x\\) be the price per pound of cheese.\n\n\\[6(1.20) + 5x = 31.20\\]\n\\[7.20 + 5x = 31.20\\]\n\\[5x = 24.00\\]\n\\[x = 4.80\\]"
+  },
+  {
+    "real_id": "AM35",
+    "q": "In the set of consecutive integers from \\(18\\) to \\(36\\), inclusive, there are four integers that are multiples of both \\(2\\) and \\(3\\). How many integers in this set are multiples of **neither** \\(2\\) nor \\(3\\)?",
+    "opt": {
+      "A": "\\(5\\)",
+      "B": "\\(6\\)",
+      "C": "\\(12\\)",
+      "D": "\\(14\\)"
+    },
+    "correct": "B",
+    "sol": "The set is \\(\\{18,19,\\ldots,36\\}\\), 19 numbers total. The odd numbers (eliminating multiples of 2) are \\(\\{19,21,23,25,27,29,31,33,35\\}\\), 9 numbers. Of these, the multiples of 3 are \\(21, 27, 33\\). Removing those leaves \\(\\{19,23,25,29,31,35\\}\\) — 6 numbers that are multiples of neither 2 nor 3."
+  },
+  {
+    "real_id": "AM28",
+    "q": "\\[3\\tfrac{1}{5} + 2\\tfrac{1}{10} + 5\\tfrac{2}{5} + 6\\tfrac{1}{2}\\]\n\nWhat is the value of the expression shown above?",
+    "opt": {
+      "A": "\\(16\\tfrac{9}{10}\\)",
+      "B": "\\(17\\tfrac{1}{5}\\)",
+      "C": "\\(17\\tfrac{7}{10}\\)",
+      "D": "\\(18\\tfrac{1}{5}\\)"
+    },
+    "correct": "B",
+    "sol": "Convert all fractions to a common denominator of 10:\n\n\\[3\\tfrac{2}{10} + 2\\tfrac{1}{10} + 5\\tfrac{4}{10} + 6\\tfrac{5}{10}\\]\n\n\\[= (3+2+5+6) + \\dfrac{2+1+4+5}{10} = 16 + \\dfrac{12}{10} = 16 + 1\\tfrac{1}{5} = 17\\tfrac{1}{5}\\]"
+  },
+  {
+    "real_id": "BM18",
+    "q": "If \\(\\dfrac{48}{y} = 6x\\), what is the value of \\(x\\) when \\(y = 4\\)?",
+    "opt": {
+      "A": "\\(2\\)",
+      "B": "\\(3\\)",
+      "C": "\\(8\\)",
+      "D": "\\(12\\)"
+    },
+    "correct": "A",
+    "sol": "Substitute \\(4\\) for \\(y\\) and solve for \\(x\\):\n\n\\[\\dfrac{48}{4} = 6x\\]\n\\[12 = 6x\\]\n\\[x = 2\\]"
+  },
+  {
+    "real_id": "BM25",
+    "q": "If \\(k + 1\\) is an odd integer, which one of the following **must** be an even integer?",
+    "opt": {
+      "A": "\\(k - 1\\)",
+      "B": "\\(2k + 1\\)",
+      "C": "\\(2k - 2\\)",
+      "D": "\\(2k - 1\\)"
+    },
+    "correct": "C",
+    "sol": "If \\(k+1\\) is odd, then \\(k\\) itself must be even. Twice any integer is always even, so \\(2k\\) is even, and an even integer minus \\(2\\) is still even. So \\(2k-2\\) must be even. (\\(2k+1\\) and \\(2k-1\\) are always odd regardless of \\(k\\), and \\(k-1\\) would be odd since \\(k\\) is even.)"
+  },
+  {
+    "real_id": "BM32",
+    "q": "At a company, a survey asked two questions, Question A and Question B. Of the \\(500\\) employees who responded, \\(450\\) answered \"yes\" to Question A, and \\(380\\) answered \"yes\" to Question B. What is the **least** possible number of these employees who could have answered \"yes\" to **both** questions?",
+    "opt": {
+      "A": "\\(50\\)",
+      "B": "\\(100\\)",
+      "C": "\\(330\\)",
+      "D": "\\(380\\)"
+    },
+    "correct": "C",
+    "sol": "None of the \\(50\\) employees (\\(500-450\\)) who answered \"no\" to Question A could have answered \"yes\" to both. So the least possible number who answered \"yes\" to both is found by subtracting those \\(50\\) from the \\(380\\) who said \"yes\" to Question B: \\(380 - 50 = 330\\)."
+  },
+  {
+    "real_id": "BM49",
+    "q": "Mika rolled a weighted die \\(40\\) times and found that the probability of it landing on a particular favorable face was \\(65\\%\\). If she rolls the die \\(160\\) **more** times, what is the total number of times she can expect it to land on that favorable face (across all \\(200\\) rolls)?",
+    "opt": {
+      "A": "\\(65\\)",
+      "B": "\\(91\\)",
+      "C": "\\(130\\)",
+      "D": "\\(143\\)"
+    },
+    "correct": "C",
+    "sol": "Mika rolls a total of \\(200\\) times (\\(40+160\\)). The number of times it's expected to land favorably is \\(65\\%\\) of \\(200\\):\n\n\\[0.65 \\times 200 = 130\\]"
+  },
+  {
+    "real_id": "BM14",
+    "q": "A crate contains three types of citrus: \\(4\\) lemons, \\(6\\) limes, and \\(8\\) grapefruits. What is the probability that a piece of fruit chosen at random from this crate is **not** a lemon?",
+    "opt": {
+      "A": "\\(\\dfrac{2}{9}\\)",
+      "B": "\\(\\dfrac{4}{9}\\)",
+      "C": "\\(\\dfrac{7}{9}\\)",
+      "D": "\\(\\dfrac{8}{9}\\)"
+    },
+    "correct": "C",
+    "sol": "The total number of fruit is \\(4+6+8=18\\). The number that are **not** lemons (limes and grapefruits) is \\(6+8=14\\). So the probability is \\(\\dfrac{14}{18}=\\dfrac{7}{9}\\)."
+  },
+  {
+    "real_id": "CM36",
+    "q": "A deck of \\(52\\) playing cards contains \\(13\\) spades. Theo has \\(16\\) cards from this deck in his hand, \\(4\\) of which are spades. The other cards remain in the deck. What is the probability that a card drawn at random from the remainder of the deck will be a spade?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{9}\\)",
+      "B": "\\(\\dfrac{1}{4}\\)",
+      "C": "\\(\\dfrac{4}{13}\\)",
+      "D": "\\(\\dfrac{1}{3}\\)"
+    },
+    "correct": "B",
+    "sol": "The remaining deck has \\(52-16=36\\) cards. The remaining spades number \\(13-4=9\\). So the probability of drawing a spade is \\(\\dfrac{9}{36}=\\dfrac{1}{4}\\)."
+  },
+  {
+    "real_id": "CM33",
+    "q": "A bag contains \\(60\\) tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out \\(150\\) times, and \\(30\\) of those times a green tile is selected. Based on this information, what is the most likely number of green tiles in the bag?",
+    "opt": {
+      "A": "\\(10\\)",
+      "B": "\\(12\\)",
+      "C": "\\(15\\)",
+      "D": "\\(30\\)"
+    },
+    "correct": "B",
+    "sol": "The fraction of draws that were green is \\(\\dfrac{30}{150}=\\dfrac{1}{5}\\). Apply that fraction to the actual \\(60\\) tiles in the bag: \\(\\dfrac{1}{5}(60)=12\\)."
+  },
+  {
+    "real_id": "CM46",
+    "q": "A rain gauge shows that \\(15\\) centimeters of snow fell yesterday. If \\(1\\) inch is equal to approximately \\(2.5\\) centimeters, about how many inches of snow fell yesterday?",
+    "opt": {
+      "A": "\\(1.5\\)",
+      "B": "\\(3\\)",
+      "C": "\\(6\\)",
+      "D": "\\(15\\)"
+    },
+    "correct": "C",
+    "sol": "Set up a proportion:\n\n\\[\\dfrac{1\\text{ in.}}{2.5\\text{ cm}}=\\dfrac{x\\text{ in.}}{15\\text{ cm}}\\]\n\\[2.5x=15\\]\n\\[x=6\\]"
+  },
+  {
+    "real_id": "CM24",
+    "q": "In a gallery show, the ratio of the number of sculptures, paintings, and drawings shown is \\(2{:}7{:}5\\), respectively. If the number of paintings shown was \\(56\\), what is the total number of sculptures and drawings that were shown?",
+    "opt": {
+      "A": "\\(40\\)",
+      "B": "\\(48\\)",
+      "C": "\\(56\\)",
+      "D": "\\(64\\)"
+    },
+    "correct": "C",
+    "sol": "Since paintings (ratio \\(7\\)) correspond to \\(56\\) actual paintings, each ratio unit equals \\(56\\div7=8\\). Sculptures: \\(2\\times8=16\\). Drawings: \\(5\\times8=40\\). Sculptures plus drawings: \\(16+40=56\\)."
+  },
+  {
+    "real_id": "CM14",
+    "q": "If \\(x = -3\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
+    "opt": {
+      "A": "\\(-3\\)",
+      "B": "\\(-2\\)",
+      "C": "\\(2\\)",
+      "D": "\\(3\\)"
+    },
+    "correct": "D",
+    "sol": "Substitute \\(-3\\):\n\n\\[|(-3)+(-3)^2+(-3)^3| = |-3+9-27| = |-21| = 21\\]\n\\[|(-3)+2(-3)+3(-3)| = |6(-3)| = |-18| = 18\\]\n\\[21-18=3\\]"
+  },
+  {
+    "real_id": "DM34",
+    "q": "Last week, Marco rode his bike to school on \\(2\\) of the \\(5\\) mornings and rode his bike home on \\(3\\) of the \\(5\\) afternoons. Based on last week's events, what is the probability that Marco will ride his bike in the morning and the afternoon next Monday?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{5}\\)",
+      "B": "\\(\\dfrac{6}{25}\\)",
+      "C": "\\(\\dfrac{12}{25}\\)",
+      "D": "\\(\\dfrac{3}{5}\\)"
+    },
+    "correct": "B",
+    "sol": "The probability Marco bikes in the morning is \\(\\dfrac{2}{5}\\), and in the afternoon is \\(\\dfrac{3}{5}\\). These are independent events, so multiply: \\(\\dfrac{2}{5}\\times\\dfrac{3}{5}=\\dfrac{6}{25}\\)."
+  },
+  {
+    "real_id": "DM21",
+    "q": "Priya borrowed $\\(8.25\\) from her mother, $\\(9.50\\) from her father, and $\\(5.75\\) from her sister to purchase a tablet case. Her aunt gave her $\\(30.00\\) as a gift. How much money will Priya have left or still owe if she uses the money her aunt gave her to pay back the money she borrowed?",
+    "opt": {
+      "A": "Priya will still owe $\\(6.50\\).",
+      "B": "Priya will still owe $\\(1.50\\).",
+      "C": "Priya will have $\\(1.50\\) left.",
+      "D": "Priya will have $\\(6.50\\) left."
+    },
+    "correct": "D",
+    "sol": "Total borrowed: \\(8.25+9.50+5.75=23.50\\). Difference from the gift: \\(30.00-23.50=6.50\\). Since this is positive, Priya has $\\(6.50\\) left."
+  },
+  {
+    "real_id": "DM24",
+    "q": "An athlete runs \\(\\dfrac{1}{6}\\) kilometer in \\(\\dfrac{2}{3}\\) minute. At this rate, how many kilometers would the athlete run in \\(1\\) minute?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{9}\\)",
+      "B": "\\(\\dfrac{1}{4}\\)",
+      "C": "\\(1\\dfrac{1}{3}\\)",
+      "D": "\\(4\\)"
+    },
+    "correct": "B",
+    "sol": "Find the unit rate: \\(\\dfrac{1}{6}\\div\\dfrac{2}{3}=\\dfrac{1}{6}\\times\\dfrac{3}{2}=\\dfrac{3}{12}=\\dfrac{1}{4}\\) kilometer per minute."
+  },
+  {
+    "real_id": "DM42",
+    "q": "A student reads \\(\\dfrac{1}{10}\\) of a book in \\(\\dfrac{1}{2}\\) hour. What fraction of the book can the student read in \\(1\\) hour?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{20}\\)",
+      "B": "\\(\\dfrac{1}{5}\\)",
+      "C": "\\(\\dfrac{3}{10}\\)",
+      "D": "\\(\\dfrac{10}{2}\\)"
+    },
+    "correct": "B",
+    "sol": "\\[\\dfrac{\\frac{1}{10}}{\\frac{1}{2}}=\\dfrac{1}{10}\\div\\dfrac{1}{2}=\\dfrac{1}{10}\\times\\dfrac{2}{1}=\\dfrac{2}{10}=\\dfrac{1}{5}\\]"
+  },
+  {
+    "real_id": "DM30",
+    "q": "A recipe uses \\(\\dfrac{3}{4}\\) cup of sugar for every \\(1\\dfrac{1}{2}\\) cups of flour. A cook wants to increase the recipe. How many cups of sugar are needed for each cup of flour?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{2}\\)",
+      "B": "\\(\\dfrac{3}{8}\\)",
+      "C": "\\(2\\)",
+      "D": "\\(\\dfrac{9}{8}\\)"
+    },
+    "correct": "A",
+    "sol": "\\[\\dfrac{\\frac{3}{4}}{\\frac{3}{2}}=\\dfrac{3}{4}\\div\\dfrac{3}{2}=\\dfrac{3}{4}\\times\\dfrac{2}{3}=\\dfrac{6}{12}=\\dfrac{1}{2}\\]"
+  },
+  {
+    "real_id": "EM32",
+    "q": "\\[-3[(-24.5) \\div 7] - 4[9.6 \\div (-3.2)] =\\]",
+    "opt": {
+      "A": "\\(-22.5\\)",
+      "B": "\\(1.5\\)",
+      "C": "\\(10.5\\)",
+      "D": "\\(22.5\\)"
+    },
+    "correct": "D",
+    "sol": "Inside the brackets first: \\((-24.5)\\div7=-3.5\\), and \\(9.6\\div(-3.2)=-3\\). The expression becomes \\(-3(-3.5)-4(-3)=10.5-(-12)=10.5+12=22.5\\)."
+  },
+  {
+    "real_id": "EM44",
+    "q": "The sum of two consecutive integers is \\(-13\\). If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
+    "opt": {
+      "A": "\\(-21\\)",
+      "B": "\\(-17\\)",
+      "C": "\\(-13\\)",
+      "D": "\\(-10\\)"
+    },
+    "correct": "B",
+    "sol": "Let the integers be \\(x\\) and \\(x+1\\): \\(x+(x+1)=-13\\), so \\(2x=-14\\) and \\(x=-7\\). The integers are \\(-7\\) and \\(-6\\). Doubling the smaller: \\(2(-7)=-14\\). Adding 3 to the larger: \\(-6+3=-3\\). Sum: \\(-14+(-3)=-17\\)."
+  },
+  {
+    "real_id": "EM14",
+    "q": "A water storage tank currently contains \\(3{,}600\\) liters of water. If this amount fills the tank to exactly \\(\\dfrac{3}{4}\\) of its total capacity, how many **kiloliters** of water must be added to fill the tank completely?",
+    "opt": {
+      "A": "\\(1.2\\)",
+      "B": "\\(3.6\\)",
+      "C": "\\(4.8\\)",
+      "D": "\\(1200\\)"
+    },
+    "correct": "A",
+    "sol": "Total capacity: \\(3600=\\dfrac{3}{4}x\\), so \\(x=4800\\) liters. Amount still needed: \\(4800-3600=1200\\) liters \\(=1.2\\) kiloliters."
+  },
+  {
+    "real_id": "EM38",
+    "q": "If \\(x=5(2-y)(3^2-2^2)\\), what is the value of \\(y\\) in terms of \\(x\\)?",
+    "opt": {
+      "A": "\\(\\dfrac{x-10}{5}\\)",
+      "B": "\\(\\dfrac{x}{5}-2\\)",
+      "C": "\\(5-\\dfrac{x}{2}\\)",
+      "D": "\\(2-\\dfrac{x}{25}\\)"
+    },
+    "correct": "D",
+    "sol": "Simplify: \\(x=5(2-y)(9-4)=5(2-y)(5)=25(2-y)=50-25y\\). Then \\(x-50=-25y\\), so \\(y=\\dfrac{50-x}{25}=2-\\dfrac{x}{25}\\)."
+  },
+  {
+    "real_id": "EM47",
+    "q": "Mia has \\(x\\) marbles, and Liam has 5 more than 6 times the number of marbles Mia has. In terms of \\(x\\), how many marbles do Mia and Liam have in total?",
+    "opt": {
+      "A": "\\(6x\\)",
+      "B": "\\(6x+5\\)",
+      "C": "\\(7x+5\\)",
+      "D": "\\(7x+6\\)"
+    },
+    "correct": "C",
+    "sol": "Liam has \\(6x+5\\) marbles. Total: \\(x+(6x+5)=7x+5\\)."
+  },
+  {
+    "real_id": "FM28",
+    "q": "\\[\\dfrac{a}{b}=c(b+d)\\]\nIn the equation above, the value of \\(b\\) is \\(1\\), and \\(a\\), \\(c\\), and \\(d\\) are greater than 0. What is the value of \\(d\\) in terms of \\(a\\) and \\(c\\)?",
+    "opt": {
+      "A": "\\(\\dfrac{a+c}{c}\\)",
+      "B": "\\(\\dfrac{a-c}{c}\\)",
+      "C": "\\(\\dfrac{c-a}{c}\\)",
+      "D": "\\(\\dfrac{1-a}{c}\\)"
+    },
+    "correct": "B",
+    "sol": "Substitute \\(b=1\\): \\(a=c(1+d)=c+cd\\). So \\(a-c=cd\\), and \\(d=\\dfrac{a-c}{c}\\)."
+  },
+  {
+    "real_id": "FM17",
+    "q": "A line whose slope is \\(-\\dfrac{1}{3}\\) passes through the points \\((6,3)\\) and \\((x,2)\\). What is the value of \\(x\\)?",
+    "opt": {
+      "A": "\\(-9\\)",
+      "B": "\\(-3\\)",
+      "C": "\\(3\\)",
+      "D": "\\(9\\)"
+    },
+    "correct": "D",
+    "sol": "\\[-\\dfrac{1}{3}=\\dfrac{2-3}{x-6}=\\dfrac{-1}{x-6}\\]\n\nSimplify (both sides negative): \\(\\dfrac{1}{3}=\\dfrac{1}{x-6}\\), so \\(x-6=3\\) and \\(x=9\\)."
+  },
+  {
+    "real_id": "FM19",
+    "q": "Priya is building a large solid cube with an edge length of 6 feet. She constructs it using smaller solid cubes, each with an edge length of 0.5 feet. How many small cubes will Priya need to build the large cube?",
+    "opt": {
+      "A": "\\(12\\)",
+      "B": "\\(144\\)",
+      "C": "\\(864\\)",
+      "D": "\\(1728\\)"
+    },
+    "correct": "D",
+    "sol": "Small cubes per edge: \\(6\\div0.5=12\\). Since volume scales as (edge)\\(^3\\): \\(12\\times12\\times12=1728\\)."
+  },
+  {
+    "real_id": "FM16",
+    "q": "If \\(\\dfrac{a}{b}+\\dfrac{5}{a}=\\dfrac{\\square}{ab}\\) and \\(a,b\\ne0\\), what expression is represented by \\(\\square\\)?",
+    "opt": {
+      "A": "\\(a+5b\\)",
+      "B": "\\(5a+b\\)",
+      "C": "\\(a^2+5\\)",
+      "D": "\\(a^2+5b\\)"
+    },
+    "correct": "D",
+    "sol": "Give both fractions the common denominator \\(ab\\): \\(\\dfrac{a}{b}\\left(\\dfrac{a}{a}\\right)+\\dfrac{5}{a}\\left(\\dfrac{b}{b}\\right)=\\dfrac{a^2}{ab}+\\dfrac{5b}{ab}=\\dfrac{a^2+5b}{ab}\\). So \\(\\square=a^2+5b\\)."
+  },
+  {
+    "real_id": "FM29",
+    "q": "A commercial printer feeds paper through the rollers at a rate of 8 sheets every 2 seconds. If each sheet is \\(x\\) inches long, what must \\(x\\) be in order for the press to process exactly 1,920 inches of paper per minute?",
+    "opt": {
+      "A": "\\(6\\)",
+      "B": "\\(8\\)",
+      "C": "\\(80\\)",
+      "D": "\\(96\\)"
+    },
+    "correct": "B",
+    "sol": "Sheets per minute: \\(\\dfrac{8}{2}\\times60=240\\). Then \\(240x=1920\\), so \\(x=8\\) inches."
+  },
+  {
+    "real_id": "GM10",
+    "q": "\\(M\\) belongs to the set of rational numbers \\(\\{0.3,\\ 0.6,\\ 1.5,\\ 2.0,\\ 4.5\\}\\). If \\(\\dfrac{6.3M}{0.9}\\) is an integer, what is \\(M\\)?",
+    "opt": {
+      "A": "\\(0.3\\)",
+      "B": "\\(0.6\\)",
+      "C": "\\(1.5\\)",
+      "D": "\\(2.0\\)"
+    },
+    "correct": "D",
+    "sol": "Simplify: \\(\\dfrac{6.3M}{0.9}=7M\\). Testing each value, only \\(M=2.0\\) gives \\(7(2.0)=14\\), a whole number; the others give non-integer results."
+  },
+  {
+    "real_id": "GM07",
+    "q": "A bag has \\(8\\) red socks and \\(2\\) blue socks. If two socks are picked at random **without** replacing the first sock back into the bag, what is the probability that the first sock is red and the second sock is blue?",
+    "opt": {
+      "A": "\\(\\dfrac{4}{45}\\)",
+      "B": "\\(\\dfrac{8}{45}\\)",
+      "C": "\\(\\dfrac{1}{5}\\)",
+      "D": "\\(\\dfrac{4}{5}\\)"
+    },
+    "correct": "B",
+    "sol": "Probability first is red: \\(\\dfrac{8}{10}=\\dfrac{4}{5}\\). With one red removed, \\(9\\) socks remain, \\(2\\) blue: \\(\\dfrac{2}{9}\\). Multiply: \\(\\dfrac{4}{5}\\times\\dfrac{2}{9}=\\dfrac{8}{45}\\)."
+  },
+  {
+    "real_id": "GM43",
+    "q": "Each month, Diego incurs fixed operating expenses of \\(\\$1{,}800\\) at his print shop. It costs him \\(\\$45\\) to produce a specific poster, and he sells each poster for \\(\\$105\\). What is Diego's profit if he produces and sells \\(50\\) posters in \\(1\\) month?",
+    "opt": {
+      "A": "\\(\\$3{,}000\\)",
+      "B": "\\(\\$600\\)",
+      "C": "\\(\\$1{,}200\\)",
+      "D": "\\(\\$1{,}800\\)"
+    },
+    "correct": "C",
+    "sol": "Profit per poster: \\(\\$105-\\$45=\\$60\\). For \\(50\\) posters: \\(50(\\$60)=\\$3{,}000\\). Subtract fixed expenses: \\(\\$3{,}000-\\$1{,}800=\\$1{,}200\\)."
+  },
+  {
+    "real_id": "GM13",
+    "q": "A can contains \\(50\\) chips: \\(15\\) each of red and blue, \\(12\\) white, and the remaining black. If Elena were to remove \\(3\\) black and \\(2\\) red chips, what is the probability that the next one she removes is black?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{3}\\)",
+      "B": "\\(\\dfrac{1}{15}\\)",
+      "C": "\\(\\dfrac{1}{9}\\)",
+      "D": "\\(\\dfrac{1}{5}\\)"
+    },
+    "correct": "C",
+    "sol": "Black chips to start: \\(50-15-15-12=8\\). Total remaining after removing \\(2\\) red and \\(3\\) black: \\(50-5=45\\). Black remaining: \\(8-3=5\\). Probability: \\(\\dfrac{5}{45}=\\dfrac{1}{9}\\)."
+  },
+  {
+    "real_id": "GM29",
+    "q": "The faculty of a certain four-year university consists of \\(120\\) professors. There are \\(600\\) second-year students. The student-to-faculty ratio for the entire university is \\(15\\) to \\(1\\). What is the total number of first-, third-, and fourth-year students?",
+    "opt": {
+      "A": "\\(1{,}200\\)",
+      "B": "\\(1{,}800\\)",
+      "C": "\\(2{,}400\\)",
+      "D": "\\(3{,}000\\)"
+    },
+    "correct": "A",
+    "sol": "Total students: \\(120\\times15=1800\\). Subtract the \\(600\\) second-year students: \\(1800-600=1200\\)."
+  },
+  {
+    "real_id": "KM1_Q108",
+    "q": "At a summer camp, campers are randomly assigned to 1 of 20 cabins and 1 of 5 cafeterias. Priya likes 6 of the cabins and 2 of the cafeterias. What is the probability that Priya is assigned to both a cabin and a cafeteria that she likes?",
+    "opt": {
+      "A": "\\(12\\%\\)",
+      "B": "\\(30\\%\\)",
+      "C": "\\(40\\%\\)",
+      "D": "\\(70\\%\\)"
+    },
+    "correct": "A",
+    "sol": "Probability of a liked cabin: \\(\\dfrac{6}{20}\\). Probability of a liked cafeteria: \\(\\dfrac{2}{5}\\). These are independent, so multiply: \\(\\dfrac{6}{20}\\times\\dfrac{2}{5}=\\dfrac{12}{100}=12\\%\\)."
+  },
+  {
+    "real_id": "KM1_Q97",
+    "q": "A survey asked students what types of exercise they regularly do. 35 students swim, 42 students run, 10 students do both, and 18 students do neither. How many students were surveyed?",
+    "opt": {
+      "A": "\\(105\\)",
+      "B": "\\(77\\)",
+      "C": "\\(85\\)",
+      "D": "\\(87\\)"
+    },
+    "correct": "C",
+    "sol": "Use the overlap formula: total \\(=35+42-10+18=85\\)."
+  },
+  {
+    "real_id": "KM1_Q109",
+    "q": "How many numbers in the set of consecutive integers from 1 to 120, inclusive, have 4 as a factor but not 8 as a factor?",
+    "opt": {
+      "A": "\\(30\\)",
+      "B": "\\(7\\)",
+      "C": "\\(15\\)",
+      "D": "\\(23\\)"
+    },
+    "correct": "C",
+    "sol": "Multiples of 4 from 1-120: \\(30\\). Multiples of 8: \\(15\\). Numbers with 4 as a factor but not 8: \\(30-15=15\\)."
+  },
+  {
+    "real_id": "KM1_Q89",
+    "q": "The population of a particular bacteria doubles in size every 15 hours. If the population is 100 at 10:30 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+    "opt": {
+      "A": "\\(10\\!:\\!30\\text{ a.m.}\\)",
+      "B": "\\(4\\!:\\!30\\text{ a.m.}\\)",
+      "C": "\\(4\\!:\\!30\\text{ p.m.}\\)",
+      "D": "\\(10\\!:\\!30\\text{ p.m.}\\)"
+    },
+    "correct": "C",
+    "sol": "Doubling twice takes \\(2\\times15=30\\) hours. \\(30\\) hours after 10:30 a.m. is 24 hours later (10:30 a.m. the next day) plus 6 more hours, which is 4:30 p.m."
+  },
+  {
+    "real_id": "KM1_Q113",
+    "q": "The sum of the numbers a, b, and c is 28. The ratio of a to b is 3:4, and the ratio of b to c is 4:7. What is the value of b?",
+    "opt": {
+      "A": "\\(10\\)",
+      "B": "\\(12\\)",
+      "C": "\\(6\\)",
+      "D": "\\(8\\)"
+    },
+    "correct": "D",
+    "sol": "Since both ratios already share the value \\(4\\) for \\(b\\), they chain directly: \\(a{:}b{:}c = 3{:}4{:}7\\). The parts sum to \\(3+4+7=14\\), and \\(28\\div14=2\\) per part. So \\(b=4\\times2=8\\)."
+  },
+  {
+    "real_id": "KM2_Q106",
+    "q": "Suppose \\(A\\) is the sum of the first 40 consecutive multiples of 5, and \\(B\\) is the sum of the first 40 consecutive multiples of 15. What percent of \\(A\\) is \\(B\\)?",
+    "opt": {
+      "A": "\\(100\\%\\)",
+      "B": "\\(150\\%\\)",
+      "C": "\\(200\\%\\)",
+      "D": "\\(300\\%\\)"
+    },
+    "correct": "D",
+    "sol": "Every term in \\(B\\) (multiples of 15) is exactly \\(3\\) times the corresponding term in \\(A\\) (multiples of 5), since \\(15=3\\times5\\). So \\(B=3A\\), meaning \\(B\\) is \\(300\\%\\) of \\(A\\)."
+  },
+  {
+    "real_id": "KM2_Q110",
+    "q": "If \\(x=\\dfrac{2}{5}\\) and \\(y=\\dfrac{1}{2}-\\dfrac{1}{5}\\), what is the value of \\(x-y\\)?",
+    "opt": {
+      "A": "\\(-\\dfrac{3}{10}\\)",
+      "B": "\\(-\\dfrac{1}{10}\\)",
+      "C": "\\(0\\)",
+      "D": "\\(\\dfrac{1}{10}\\)"
+    },
+    "correct": "D",
+    "sol": "\\(y=\\dfrac{1}{2}-\\dfrac{1}{5}=\\dfrac{5}{10}-\\dfrac{2}{10}=\\dfrac{3}{10}\\). Then \\(x-y=\\dfrac{4}{10}-\\dfrac{3}{10}=\\dfrac{1}{10}\\)."
+  },
+  {
+    "real_id": "KM2_Q95",
+    "q": "\\[\\{1,2,3,4,\\ldots,198,199,200\\}\\]\nHow many members of the set shown above are multiples of 10 but not multiples of 15?",
+    "opt": {
+      "A": "\\(14\\)",
+      "B": "\\(20\\)",
+      "C": "\\(26\\)",
+      "D": "\\(6\\)"
+    },
+    "correct": "A",
+    "sol": "Multiples of 10 from 1-200: \\(20\\). Multiples of both 10 and 15 (i.e. multiples of 30): \\(6\\). Multiples of 10 but not 15: \\(20-6=14\\)."
+  },
+  {
+    "real_id": "KM2_Q97",
+    "q": "A brass washer used in a mechanical device is intended to have a thickness of 0.5 centimeter, with an allowable error of 4%. What is the greatest allowable thickness of the brass washer?",
+    "opt": {
+      "A": "\\(0.52\\text{ cm}\\)",
+      "B": "\\(0.02\\text{ cm}\\)",
+      "C": "\\(0.1\\text{ cm}\\)",
+      "D": "\\(0.48\\text{ cm}\\)"
+    },
+    "correct": "A",
+    "sol": "Greatest allowable thickness: \\(0.5\\times1.04=0.52\\) cm."
+  },
+  {
+    "real_id": "KM2_Q101",
+    "q": "\\[(-1)^0+1^2+(-1)^2+\\left(\\dfrac{1}{2}\\right)^2\\]\nWhat is the decimal form of the sum above?",
+    "opt": {
+      "A": "\\(3.25\\)",
+      "B": "\\(4\\)",
+      "C": "\\(0.25\\)",
+      "D": "\\(2.25\\)"
+    },
+    "correct": "A",
+    "sol": "\\[(-1)^0+1^2+(-1)^2+\\left(\\dfrac{1}{2}\\right)^2 = 1+1+1+0.25 = 3.25\\]"
+  },
+  {
+    "real_id": "KM3_Q78",
+    "q": "If \\(2x+2x+18=2x+2x+2x+4\\), then what is the value of \\(x\\)?",
+    "opt": {
+      "A": "\\(7\\)",
+      "B": "\\(9\\)",
+      "C": "\\(3\\)",
+      "D": "\\(5\\)"
+    },
+    "correct": "A",
+    "sol": "\\[4x+18=6x+4\\]\n\\[18-4=6x-4x\\]\n\\[14=2x\\]\n\\[x=7\\]"
+  },
+  {
+    "real_id": "KM3_Q82",
+    "q": "Two boxes can hold the same amount of sand. Box 1 is \\(\\dfrac{1}{5}\\) filled, and Box 2 is \\(\\dfrac{3}{4}\\) filled. If the sand in Box 2 is poured into Box 1, what fraction of Box 1 is still **not** filled?",
+    "opt": {
+      "A": "\\(\\dfrac{1}{20}\\)",
+      "B": "\\(\\dfrac{2}{5}\\)",
+      "C": "\\(\\dfrac{3}{5}\\)",
+      "D": "\\(\\dfrac{19}{20}\\)"
+    },
+    "correct": "A",
+    "sol": "Combined fill: \\(\\dfrac{1}{5}+\\dfrac{3}{4}=\\dfrac{4}{20}+\\dfrac{15}{20}=\\dfrac{19}{20}\\). Not filled: \\(1-\\dfrac{19}{20}=\\dfrac{1}{20}\\)."
+  },
+  {
+    "real_id": "KM3_Q74",
+    "q": "Mr. Reyes has a pencil box containing 6 blue pencils, 9 green pencils, and 10 orange pencils. If he removes one pencil at random, what is the probability that it will **not** be green?",
+    "opt": {
+      "A": "\\(\\dfrac{16}{25}\\)",
+      "B": "\\(\\dfrac{3}{5}\\)",
+      "C": "\\(\\dfrac{2}{3}\\)",
+      "D": "\\(\\dfrac{9}{25}\\)"
+    },
+    "correct": "A",
+    "sol": "Total pencils: \\(6+9+10=25\\). Not green: \\(6+10=16\\). Probability: \\(\\dfrac{16}{25}\\)."
+  },
+  {
+    "real_id": "KM3_Q71",
+    "q": "\\[\\dfrac{25}{6}=\\dfrac{5}{x}\\]\nWhat value of \\(x\\) makes the equation above true?",
+    "opt": {
+      "A": "\\(1\\dfrac{1}{5}\\)",
+      "B": "\\(4\\)",
+      "C": "\\(4\\dfrac{1}{6}\\)",
+      "D": "\\(\\dfrac{5}{6}\\)"
+    },
+    "correct": "A",
+    "sol": "Cross multiply: \\(25x=30\\), so \\(x=\\dfrac{30}{25}=\\dfrac{6}{5}=1\\dfrac{1}{5}\\)."
+  },
+  {
+    "real_id": "KM3_Q75",
+    "q": "In a scale drawing of a cruise ship, 0.3 inches represents 300 feet. How many inches represent 15 feet?",
+    "opt": {
+      "A": "\\(0.015\\)",
+      "B": "\\(0.15\\)",
+      "C": "\\(1.5\\)",
+      "D": "\\(0.0015\\)"
+    },
+    "correct": "A",
+    "sol": "Set up a proportion: \\(\\dfrac{0.3}{300}=\\dfrac{x}{15}\\). Solve: \\(x=\\dfrac{0.3\\times15}{300}=\\dfrac{4.5}{300}=0.015\\) inches."
+  }
+]

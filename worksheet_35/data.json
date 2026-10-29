@@ -1,0 +1,3093 @@
+{
+  "math_questions": [
+    {
+      "id": "P-FE5-M-KM1_Q76",
+      "question_type": "mc",
+      "question": "A shipment of 583 tires needs to be packed into crates that each hold 8 tires. How many crates will hold exactly 8 tires, assuming as many crates as possible are filled completely?",
+      "options": {
+        "A": "72",
+        "B": "71",
+        "C": "73",
+        "D": "79"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Divide 583 by 8: 583 / 8 = 72 remainder 7.\nOnly the 72 complete groups of 8 count as fully-packed crates (the leftover 7 tires don't fill another crate)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q76 (KM1_Q76)",
+      "base_question": {
+        "question": "A shipment of 469 tires needs to be packed into crates that each hold 9 tires. How many crates will hold exactly 9 tires?",
+        "options": {
+          "E": "51",
+          "F": "52",
+          "G": "53",
+          "H": "58"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "469/9=52 remainder 1, so 52 full crates"
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-FE5-M-AM24",
+      "question_type": "mc",
+      "question": "The least of 7 consecutive integers is m, and the greatest is k. What is the value of (m+k)/2 in terms of m?",
+      "options": {
+        "A": "2m",
+        "B": "m + 3",
+        "C": "m + 6",
+        "D": "m + 7"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "With 7 consecutive integers starting at m, the greatest is k = m+6 (6 steps up from the first).\n(m+k)/2 = (m + m+6)/2 = (2m+6)/2 = m+3."
+      },
+      "base_source": "Exam A — Math Q24 (AM24)",
+      "base_question": {
+        "question": "The least of 5 consecutive integers is l, and the greatest is g. What is the value of (l+g)/2 in terms of l?",
+        "options": {
+          "A": "2l",
+          "B": "3l",
+          "C": "l + 2",
+          "D": "l + 5"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "g = l+4. (l+g)/2 = (2l+4)/2 = l+2"
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-FE5-M-BM31",
+      "question_type": "mc",
+      "question": "A sandwich shop offers a choice of 4 bread types and 8 different fillings. If a customer wants a sandwich with exactly 3 different fillings, how many different sandwiches can be created?",
+      "options": {
+        "A": "32",
+        "B": "56",
+        "C": "224",
+        "D": "336"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The number of ways to choose 3 fillings out of 8 (order doesn't matter) is C(8,3) = (8x7x6)/(3x2x1) = 56.\nSince there are 4 bread choices, multiply: 4 x 56 = 224."
+      },
+      "base_source": "Exam B — Math Q31 (BM31)",
+      "base_question": {
+        "question": "A pizza shop offers a choice of 3 sizes (small, medium, and large) and 7 different toppings. If Cody wants to order a pizza with exactly 2 different toppings, how many different pizzas can he create?",
+        "options": {
+          "A": "6",
+          "B": "21",
+          "C": "63",
+          "D": "126"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "C(7,2)=21 topping pairs, x3 sizes = 63."
+        }
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-FE5-M-KM2_Q103",
+      "question_type": "mc",
+      "question": "If x(b-c)=y+x and 2b=5c=10, what is the value of y/x?",
+      "options": {
+        "A": "1",
+        "B": "5",
+        "C": "3",
+        "D": "2"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "From 2b=10, b=5. From 5c=10, c=2.\nx(b-c) = y+x -> x(5-2) = y+x -> 3x = y+x -> y = 2x -> y/x = 2."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q103 (KM2_Q103)",
+      "base_question": {
+        "question": "If x(b-c)=y+x and 2b=3c=7, what is the value of y/x?",
+        "options": {
+          "A": "1/7",
+          "B": "1/6",
+          "C": "1/3",
+          "D": "5/7"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "b=3.5,c=7/3,diff=7/6,y/x=diff-1=1/6"
+        }
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-FE5-M-DM30",
+      "question_type": "mc",
+      "question": "A recipe uses 3/4 cup of sugar for every 1 1/2 cups of flour. How many cups of sugar are needed for each cup of flour?",
+      "options": {
+        "A": "1/2",
+        "B": "3/4",
+        "C": "1 1/8",
+        "D": "2"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Set up the ratio: (3/4 cup sugar) / (1 1/2 cups flour) = (3/4) / (3/2).\nDivide: 3/4 x 2/3 = 6/12 = 1/2 cup of sugar per cup of flour."
+      },
+      "base_source": "Exam D — Math Q30 (DM30)",
+      "base_question": {
+        "question": "A recipe uses 2/3 cup of sugar for every 1 1/4 cups of flour. How many cups of sugar are needed for each cup of flour?",
+        "options": {
+          "A": "8/15",
+          "B": "5/6",
+          "C": "1 7/8",
+          "D": "3 2/3"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(2/3)/(5/4) = 2/3 x 4/5 = 8/15"
+        }
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-FE5-M-GM17",
+      "question_type": "mc",
+      "question": "Which of the following numbers has a factor that includes the smallest factor (other than 1) of 161?",
+      "options": {
+        "A": "17",
+        "B": "49",
+        "C": "51",
+        "D": "55"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "161 = 7 x 23 — both prime, so the smallest factor (other than 1) of 161 is 7.\nCheck each option for a factor of 7: 17 is prime, 51 = 3x17, 55 = 5x11 — none divisible by 7.\nOnly 49 = 7x7 shares that smallest factor."
+      },
+      "base_source": "Exam G — Math Q17 (GM17)",
+      "base_question": {
+        "question": "Which of the following numbers has a factor that includes the smallest factor (other than 1) of 95?",
+        "options": {
+          "A": "19",
+          "B": "21",
+          "C": "25",
+          "D": "31"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "95=19x5, smallest factor 5. 25 is the only option divisible by 5."
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-FE5-M-KM3_Q112",
+      "question_type": "mc",
+      "question": "The amount of water in a tank evaporates so that the amount left at the end of each day is 15% less than at the start of that day. Approximately what percent of the original amount of water is left after three days?",
+      "options": {
+        "A": "45%",
+        "B": "55%",
+        "C": "61%",
+        "D": "85%"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Each day, 85% of the water remains (100% - 15%).\nAfter 3 days: 0.85 x 0.85 x 0.85 = 0.614125, or about 61%."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q112 (KM3_Q112)",
+      "base_question": {
+        "question": "Water in a bucket evaporates so that the amount left at the end of each day is 10% less than at the start. What percent is left after 3 days?",
+        "options": {
+          "E": "30%",
+          "F": "67%",
+          "G": "70%",
+          "H": "73%"
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_text": "0.9^3=0.729~73%"
+        }
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-FE5-M-FM35",
+      "question_type": "mc",
+      "question": "Devon jogs 5 km in 5/6 of an hour. How many meters does he jog per minute?",
+      "options": {
+        "A": "1",
+        "B": "6000",
+        "C": "1000",
+        "D": "100"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Convert: 5 km = 5,000 m. 5/6 hour = 5/6 x 60 = 50 minutes.\n5,000 m in 50 minutes = 5,000/50 = 100 meters per minute."
+      },
+      "base_source": "Exam F — Math Q35 (FM35)",
+      "base_question": {
+        "question": "Lucia speed walks 3 km in 2/3 of an hour. How many meters does she speed walk per minute?",
+        "options": {
+          "A": "0.75",
+          "B": "75",
+          "C": "750",
+          "D": "7500"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "3000m/40min = 75"
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-FE5-M-CM33",
+      "question_type": "mc",
+      "question": "A bag contains 60 marbles that are either red, white, or blue. A marble is drawn at random, recorded, and replaced. This is done 150 times, and 25 of those times a red marble is drawn. Based on this, what is the most likely number of red marbles in the bag?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "25",
+        "D": "30"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The sample shows red marbles 25 out of 150 times, or 25/150 = 1/6 of the time.\nApply that same fraction to the actual 60 marbles in the bag: 1/6 x 60 = 10."
+      },
+      "base_source": "Exam C — Math Q33 (CM33)",
+      "base_question": {
+        "question": "A bag contains 40 tiles that are either red, green, or blue. A tile is drawn at random, recorded, and replaced. This is done 120 times, and 18 of those times a red tile is drawn. Based on this, what is the most likely number of red tiles in the bag?",
+        "options": {
+          "A": "6",
+          "B": "15",
+          "C": "18",
+          "D": "30"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "18/120 = 3/20 of the sample is red. 3/20 x 40 = 6."
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-FE5-M-EM34",
+      "question_type": "mc",
+      "question": "Marco took 7 quizzes and earned a mean score of 88 points. If the mean score for the first 6 quizzes was 85 points, how many points did Marco score on the 7th quiz?",
+      "options": {
+        "A": "88",
+        "B": "106",
+        "C": "103",
+        "D": "91"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Total of all 7 quizzes: 88 x 7 = 616.\nTotal of the first 6 quizzes: 85 x 6 = 510.\n7th quiz score: 616 - 510 = 106."
+      },
+      "base_source": "Exam E — Math Q34 (EM34)",
+      "base_question": {
+        "question": "Annette took 6 quizzes and earned a mean score of 85 points. If the mean score for the first 5 quizzes was 82 points, how many points did Annette score on the 6th quiz?",
+        "options": {
+          "A": "85",
+          "B": "88",
+          "C": "97",
+          "D": "100"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Sum of 6 = 510. Sum of first 5 = 410. 6th = 100."
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-FE5-M-KM1_Q99",
+      "question_type": "mc",
+      "question": "80 people played tennis on Saturday, and the pro shop sold 12 dozen tennis balls. Approximately how many dozens can the shop expect to sell on Sunday if 120 people are scheduled to play?",
+      "options": {
+        "A": "14 dozen",
+        "B": "16 dozen",
+        "C": "18 dozen",
+        "D": "20 dozen"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Set up a proportion: 12 dozen / 80 people = x / 120 people.\nx = 12 x (120/80) = 12 x 1.5 = 18 dozen."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q99 (KM1_Q99)",
+      "base_question": {
+        "question": "100 people played golf on Monday, and the pro shop sold 14 dozen golf balls. Approximately how many dozens can the shop expect to sell Tuesday if 150 people play?",
+        "options": {
+          "A": "18 dozen",
+          "B": "20 dozen",
+          "C": "21 dozen",
+          "D": "24 dozen"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "14/100 x 150 = 21"
+        }
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-FE5-M-AM38",
+      "question_type": "mc",
+      "question": "p/q = r/s. In the equation above, p, q, r, and s are positive numbers. Which of these is equal to s?",
+      "options": {
+        "A": "q",
+        "B": "qr",
+        "C": "p/(qr)",
+        "D": "qr/p"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Cross-multiply to clear the fractions: p/q = r/s -> ps = qr -> s = qr/p."
+      },
+      "base_source": "Exam A — Math Q38 (AM38)",
+      "base_question": {
+        "question": "w/x = y/z. In the equation above, w, x, y, and z are positive numbers. Which of these is equal to z?",
+        "options": {
+          "A": "x",
+          "B": "xy",
+          "C": "w/(xy)",
+          "D": "xy/w"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "w/x = y/z -> wz = xy -> z = xy/w"
+        }
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-FE5-M-BM24",
+      "question_type": "mc",
+      "question": "A chemical decays in such a way that the amount left at the end of each week is 25% less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
+      "options": {
+        "A": "56.25%",
+        "B": "50%",
+        "C": "62.5%",
+        "D": "75%"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Each week, 75% of the chemical remains (100% - 25%).\nAfter week 1: 0.75x. After week 2: 0.75(0.75x) = 0.5625x, or 56.25%."
+      },
+      "base_source": "Exam B — Math Q24 (BM24)",
+      "base_question": {
+        "question": "A chemical decays in such a way that the amount left at the end of each week is 20% less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
+        "options": {
+          "A": "40%",
+          "B": "60%",
+          "C": "64%",
+          "D": "80%"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "0.80 x 0.80 = 0.64 = 64%"
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-FE5-M-KM2_Q86",
+      "question_type": "mc",
+      "question": "What is the value of (5g-200)/h if h=50 and g=60?",
+      "options": {
+        "A": "1.6",
+        "B": "2",
+        "C": "20",
+        "D": "200"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Substitute g=60 and h=50: (5(60)-200)/50 = (300-200)/50 = 100/50 = 2."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q86 (KM2_Q86)",
+      "base_question": {
+        "question": "What is the value of (4g-150)/h if h=100 and g=300?",
+        "options": {
+          "E": "1.5",
+          "F": "10.5",
+          "G": "105",
+          "H": "1000"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "(1200-150)/100=10.5"
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-FE5-M-DM42",
+      "question_type": "mc",
+      "question": "A student reads 1/8 of a book in 1/4 hour. What fraction of the book can the student read in 1 hour?",
+      "options": {
+        "A": "1/32",
+        "B": "5/8",
+        "C": "1/2",
+        "D": "4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Set up the unit rate: (1/8 book) / (1/4 hour).\nDivide: 1/8 divided by 1/4 = 1/8 x 4 = 4/8 = 1/2 of the book per hour."
+      },
+      "base_source": "Exam D — Math Q42 (DM42)",
+      "base_question": {
+        "question": "A student reads 1/12 of a book in 1/3 hour. What fraction of the book can the student read in 1 hour?",
+        "options": {
+          "A": "1/36",
+          "B": "1/4",
+          "C": "5/12",
+          "D": "12/3"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(1/12)/(1/3) = 1/12 x 3 = 1/4"
+        }
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-FE5-M-GM33",
+      "question_type": "mc",
+      "question": "If n is an even integer that is greater than -5.5, what is the least possible value of n?",
+      "options": {
+        "A": "-6",
+        "B": "-5",
+        "C": "-2",
+        "D": "-4"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Picture -5.5 on a number line. The even integers greater than -5.5 are -4, -2, 0, 2, ...\nThe smallest (least) of these is -4."
+      },
+      "base_source": "Exam G — Math Q33 (GM33)",
+      "base_question": {
+        "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+        "options": {
+          "A": "-5",
+          "B": "-4",
+          "C": "-3",
+          "D": "-2"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Least even integer greater than -3.75 is -2."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-FE5-M-KM3_Q105",
+      "question_type": "mc",
+      "question": "{1,2,3,4,5} — a list is made of all possible products of two different numbers from the set above. What is the ratio of odd products to even products?",
+      "options": {
+        "A": "3:7",
+        "B": "1:3",
+        "C": "2:5",
+        "D": "3:10"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The pairs are: (1,2)=2,(1,3)=3,(1,4)=4,(1,5)=5,(2,3)=6,(2,4)=8,(2,5)=10,(3,4)=12,(3,5)=15,(4,5)=20 — 10 products total.\nOdd products: 3, 5, 15 — that's 3. Even products: the other 7.\nRatio of odd to even = 3:7."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q105 (KM3_Q105)",
+      "base_question": {
+        "question": "{2,3,4,5,6} — Agnes lists all products of two different numbers from the set. What is the ratio of odd products to even products?",
+        "options": {
+          "A": "1:9",
+          "B": "1:4",
+          "C": "1:2",
+          "D": "2:3"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Only 3x5=15 is odd out of 10 products. 1:9"
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-FE5-M-FM02",
+      "question_type": "mc",
+      "question": "The perimeter of a rectangle is 240 inches. The ratio of its length to its width is 7:5. What are the dimensions of this rectangle?",
+      "options": {
+        "A": "75 in. by 45 in.",
+        "B": "70 in. by 50 in.",
+        "C": "80 in. by 40 in.",
+        "D": "90 in. by 30 in."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Perimeter in ratio-parts: 2(7+5) = 24 parts total for 240 inches, so each part = 240/24 = 10.\nLength = 7 x 10 = 70 inches. Width = 5 x 10 = 50 inches."
+      },
+      "base_source": "Exam F — Math Q2 (FM02)",
+      "base_question": {
+        "question": "The perimeter of a rectangle is 208 inches. The ratio of its length to its width is 5:3. What are the dimensions of this rectangle?",
+        "options": {
+          "A": "60 in. by 44 in.",
+          "B": "65 in. by 39 in.",
+          "C": "68 in. by 36 in.",
+          "D": "72 in. by 32 in."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "P/16 parts: length=5(208/16)=65, width=39"
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-FE5-M-CM45",
+      "question_type": "mc",
+      "question": "Priya earns $9 per hour at her job. She wants to change to a job that will pay $13.50 per hour. What will be the percent increase in Priya's hourly pay if she makes this job change?",
+      "options": {
+        "A": "4.5%",
+        "B": "33%",
+        "C": "50%",
+        "D": "150%"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Increase: 13.50 - 9 = 4.50.\nPercent increase = 4.50/9 x 100 = 50%."
+      },
+      "base_source": "Exam C — Math Q45 (CM45)",
+      "base_question": {
+        "question": "Malik earns $10 per hour at his job. He wants to change to a job that will pay $12 per hour. What will be the percent increase in Malik's hourly pay if he makes this job change?",
+        "options": {
+          "A": "2%",
+          "B": "20%",
+          "C": "83%",
+          "D": "120%"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(12-10)/10 x 100 = 20%"
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-FE5-M-EM06",
+      "question_type": "mc",
+      "question": "What is the value of 150(1-0.3)^2+45?",
+      "options": {
+        "A": "90",
+        "B": "189",
+        "C": "130.5",
+        "D": "118.5"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Inside the parentheses: 1 - 0.3 = 0.7. Square it: (0.7)^2 = 0.49.\nMultiply: 150 x 0.49 = 73.5. Add 45: 73.5 + 45 = 118.5."
+      },
+      "base_source": "Exam E — Math Q6 (EM06)",
+      "base_question": {
+        "question": "What is the value of 200(1-0.4)^2+28?",
+        "options": {
+          "A": "100",
+          "B": "196",
+          "C": "5672",
+          "D": "14428"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "200(0.36)+28 = 72+28=100"
+        }
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-FE5-M-KM1_Q74",
+      "question_type": "mc",
+      "question": "A deli sold 40 pounds of meat: salami, turkey, ham, and roast beef. It sold 16 pounds of turkey, 12 pounds of ham, and 6 pounds of roast beef. What percentage of the 40 pounds sold was salami?",
+      "options": {
+        "A": "15%",
+        "B": "10%",
+        "C": "6%",
+        "D": "20%"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Salami = 40 - 16 - 12 - 6 = 6 pounds.\nPercentage: 6/40 x 100 = 15%."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q74 (KM1_Q74)",
+      "base_question": {
+        "question": "A deli sold 25 pounds of meat: salami, turkey, ham, and roast beef. It sold 10 lb turkey, 8 lb ham, 4 lb roast beef. What percentage was salami?",
+        "options": {
+          "E": "3%",
+          "F": "8%",
+          "G": "12%",
+          "H": "22%"
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_text": "25-10-8-4=3, 3/25=12%... (official says 22%, recompute: actually check — using given nums: salami=25-10-8-4=3, 3/25=12% — but official answer listed H=22%, so likely my transcription differs; regardless this is base reference only)"
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-FE5-M-AM18",
+      "question_type": "mc",
+      "question": "Mr. Delgado bought six bottles of juice for $0.75 each and 9 pounds of cheese. He paid a total of $22.50 for these items, not including tax. What was the price per pound of the cheese?",
+      "options": {
+        "A": "$2.50",
+        "B": "$2.00",
+        "C": "$4.50",
+        "D": "$13.50"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Let x be the price per pound of the cheese.\n6(0.75) + 9x = 22.50\n4.50 + 9x = 22.50\n9x = 18.00\nx = 2.00"
+      },
+      "base_source": "Exam A — Math Q18 (AM18)",
+      "base_question": {
+        "question": "Mrs. Cranston bought five bottles of water for $0.90 each and 8 pounds of meat. She paid a total of $26.90 for these items, not including tax. What was the price per pound of the meat?",
+        "options": {
+          "A": "$2.80",
+          "B": "$3.25",
+          "C": "$14.40",
+          "D": "$22.40"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "5(0.90)+8x=26.90 -> 4.50+8x=26.90 -> 8x=22.40 -> x=2.80"
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-FE5-M-BM18",
+      "question_type": "mc",
+      "question": "If 48/y = 4x, what is the value of x when y = 4?",
+      "options": {
+        "A": "9",
+        "B": "4",
+        "C": "3",
+        "D": "12"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Substitute 4 for y: 48/4 = 4x -> 12 = 4x -> x = 3."
+      },
+      "base_source": "Exam B — Math Q18 (BM18)",
+      "base_question": {
+        "question": "If 36/y = 4x, what is the value of x when y = 3?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "9",
+          "D": "12"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "36/3=12=4x -> x=3"
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-FE5-M-KM2_Q81",
+      "question_type": "mc",
+      "question": "On a city map, 2 inches represents 7 miles. Two landmarks are 9 inches apart on the map. How many miles apart are they, to the nearest mile?",
+      "options": {
+        "A": "28",
+        "B": "40",
+        "C": "36",
+        "D": "32"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Set up a proportion: 2 inches / 7 miles = 9 inches / x miles.\nCross-multiply: 2x = 63, so x = 31.5, which rounds to 32 miles."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q81 (KM2_Q81)",
+      "base_question": {
+        "question": "On a town map, 3 inches represents 5 miles. The library and water tower are 7 inches apart on the map. How many miles apart are they, to the nearest mile?",
+        "options": {
+          "A": "10",
+          "B": "12",
+          "C": "13",
+          "D": "15"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "7 x 5/3 = 11.67 ~ 12"
+        }
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-FE5-M-DM18",
+      "question_type": "mc",
+      "question": "Which of the following decimals is equivalent to 2 1/3 + 3 5/9?",
+      "options": {
+        "A": "5.8 repeating",
+        "B": "5.6 repeating",
+        "C": "6.1 repeating",
+        "D": "6.8 repeating"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Give both fractions a denominator of 9: 2 3/9 + 3 5/9 = 5 8/9.\nConvert 8/9 to a decimal: 8 divided by 9 = 0.888... so the total is 5.888... = 5.8 repeating."
+      },
+      "base_source": "Exam D — Math Q18 (DM18)",
+      "base_question": {
+        "question": "Which of the following decimals is equivalent to 1 2/3 + 2 4/9?",
+        "options": {
+          "A": "3.1 repeating",
+          "B": "3.6 repeating",
+          "C": "4.1 repeating",
+          "D": "4.9 repeating"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "1 6/9+2 4/9 = 4 1/9 = 4.111... = 4.1 repeating"
+        }
+      },
+      "q_number": 25
+    },
+    {
+      "id": "P-FE5-M-GM22",
+      "question_type": "mc",
+      "question": "If n is a positive integer such that n and n+1 are both factors of 36, what is the sum of all possible values of n?",
+      "options": {
+        "A": "9",
+        "B": "6",
+        "C": "12",
+        "D": "15"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Factors of 36: 1,2,3,4,6,9,12,18,36.\nConsecutive-integer pairs within that list: (1,2), (2,3), (3,4).\nThe smaller number in each pair is n: 1, 2, and 3. Sum: 1+2+3 = 6."
+      },
+      "base_source": "Exam G — Math Q22 (GM22)",
+      "base_question": {
+        "question": "If n is a positive integer such that n and n+1 are both factors of 42, what is the sum of all possible values of n?",
+        "options": {
+          "A": "9",
+          "B": "10",
+          "C": "13",
+          "D": "15"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Factors of 42:1,2,3,6,7,14,21,42. Consecutive pairs: (1,2),(2,3),(6,7). Sum of n=1+2+6=9."
+        }
+      },
+      "q_number": 26
+    },
+    {
+      "id": "P-FE5-M-KM3_Q111",
+      "question_type": "mc",
+      "question": "If x=5(2-y)(3^2-1), what is the value of y in terms of x?",
+      "options": {
+        "A": "2-x/8",
+        "B": "x/40-2",
+        "C": "2-x/40",
+        "D": "(x-8)/40"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Simplify 3^2-1 = 8 first: x = 5(2-y)(8) = 40(2-y) = 80-40y.\nSolve for y: 40y = 80-x, so y = (80-x)/40 = 2 - x/40."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q111 (KM3_Q111)",
+      "base_question": {
+        "question": "If x=4(3-y)(2^2-1), what is the value of y in terms of x?",
+        "options": {
+          "A": "(x-6)/4",
+          "B": "x/4-3",
+          "C": "4-x/3",
+          "D": "3-x/12"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "x=12(3-y)=36-12y -> y=(36-x)/12=3-x/12"
+        }
+      },
+      "q_number": 27
+    },
+    {
+      "id": "P-FE5-M-FM24",
+      "question_type": "mc",
+      "question": "Priya drove from A to B at 18 mph and immediately returned by the same route at 36 mph. What was her average speed, in miles per hour, for the entire trip?",
+      "options": {
+        "A": "36",
+        "B": "27",
+        "C": "30",
+        "D": "24"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Pick a distance both rates divide evenly, like 36 miles.\nTime there: 36/18 = 2 hrs. Time back: 36/36 = 1 hr. Total time: 3 hrs. Total distance: 72 miles.\nAverage speed = 72/3 = 24 mph."
+      },
+      "base_source": "Exam F — Math Q24 (FM24)",
+      "base_question": {
+        "question": "Michael drove from A to B at 15 mph and immediately returned by the same route at 30 mph. What was his average speed for the entire trip?",
+        "options": {
+          "A": "20",
+          "B": "22.5",
+          "C": "24",
+          "D": "25"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Pick d=60: t=4+2=6, avg=120/6=20"
+        }
+      },
+      "q_number": 28
+    },
+    {
+      "id": "P-FE5-M-CM14",
+      "question_type": "mc",
+      "question": "If x = -3, what is the value of |x + x^2 + x^3| - |x + 2x + 3x|?",
+      "options": {
+        "A": "3",
+        "B": "-15",
+        "C": "-18",
+        "D": "39"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "First term: |(-3) + (-3)^2 + (-3)^3| = |-3 + 9 + (-27)| = |-21| = 21.\nSecond term: |(-3) + 2(-3) + 3(-3)| = |-3-6-9| = |-18| = 18.\nResult: 21 - 18 = 3."
+      },
+      "base_source": "Exam C — Math Q14 (CM14)",
+      "base_question": {
+        "question": "If x = -2, what is the value of |x + x^2 + x^3| - |x + 2x + 3x|?",
+        "options": {
+          "A": "-18",
+          "B": "-6",
+          "C": "-2",
+          "D": "2"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "|(-2)+4+(-8)| - |(-2)+(-4)+(-6)| = |-6| - |-12| = 6-12 = -6"
+        }
+      },
+      "q_number": 29
+    },
+    {
+      "id": "P-FE5-M-EM33",
+      "question_type": "mc",
+      "question": "A debate club has 9 members: 6 are ninth graders, and 3 are tenth graders. If no member can hold more than one office, how many ways can President, Vice President, and Secretary be filled, given that the President must be a ninth grader?",
+      "options": {
+        "A": "24",
+        "B": "336",
+        "C": "432",
+        "D": "504"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "There are 6 choices for President (must be a ninth grader).\nAfter that, 8 students remain for Vice President (any of them), then 7 remain for Secretary.\n6 x 8 x 7 = 336."
+      },
+      "base_source": "Exam E — Math Q33 (EM33)",
+      "base_question": {
+        "question": "A school's robotics club has 8 members: 5 are eighth graders, and 3 are seventh graders. If no member can hold more than one office, how many ways can President, Vice President, and Treasurer be filled, given that the President must be an eighth grader?",
+        "options": {
+          "A": "18",
+          "B": "210",
+          "C": "336",
+          "D": "360"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "5 x 7 x 6 = 210"
+        }
+      },
+      "q_number": 30
+    },
+    {
+      "id": "P-FE5-M-KM1_Q66",
+      "question_type": "mc",
+      "question": "A cyclist rides 6 km in 2/5 hour. How many meters does the cyclist ride per minute?",
+      "options": {
+        "A": "25",
+        "B": "100",
+        "C": "250",
+        "D": "400"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Convert: 6 km = 6,000 m. 2/5 hour = 2/5 x 60 = 24 minutes.\n6,000 m / 24 min = 250 meters per minute."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q66 (KM1_Q66)",
+      "base_question": {
+        "question": "Lucia speed walks 3 km in 2/3 hour. How many meters does she speed walk per minute?",
+        "options": {
+          "E": "0.75",
+          "F": "75",
+          "G": "750",
+          "H": "7500"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "3000m/40min=75"
+        }
+      },
+      "q_number": 31
+    },
+    {
+      "id": "P-FE5-M-AM35",
+      "question_type": "mc",
+      "question": "In the set of consecutive integers from 10 to 40, inclusive, how many integers are multiples of neither 2 nor 3?",
+      "options": {
+        "A": "8",
+        "B": "15",
+        "C": "12",
+        "D": "10"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "There are 31 integers from 10 to 40. Remove all evens (multiples of 2), leaving the 15 odd numbers: 11,13,15,...,39.\nOf those, remove the ones also divisible by 3 (15,21,27,33,39) — 5 numbers.\nThat leaves 15-5=10 integers that are multiples of neither 2 nor 3."
+      },
+      "base_source": "Exam A — Math Q35 (AM35)",
+      "base_question": {
+        "question": "In the set of consecutive integers from 12 to 30, inclusive, there are four integers that are multiples of both 2 and 3. How many integers in this set are multiples of neither 2 nor 3?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "13",
+          "D": "15"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Eliminate evens, then multiples of 3 among the remaining odds. 6 numbers remain: 13,17,19,23,25,29."
+        }
+      },
+      "q_number": 32
+    },
+    {
+      "id": "P-FE5-M-BM14",
+      "question_type": "mc",
+      "question": "A cooler contains three types of beverages: 7 bottles of apple juice, 4 bottles of grape juice, and 5 bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is not grape juice?",
+      "options": {
+        "A": "3/4",
+        "B": "1/3",
+        "C": "1/4",
+        "D": "4/5"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Total bottles = 7+4+5 = 16. Bottles that are not grape juice = 7+5 = 12.\nProbability = 12/16 = 3/4."
+      },
+      "base_source": "Exam B — Math Q14 (BM14)",
+      "base_question": {
+        "question": "A cooler contains three types of beverages: 5 bottles of apple juice, 3 bottles of grape juice, and 6 bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is not apple juice?",
+        "options": {
+          "A": "1/9",
+          "B": "5/14",
+          "C": "9/14",
+          "D": "2/3"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Total=14. Not apple = 3+6=9. Probability = 9/14."
+        }
+      },
+      "q_number": 33
+    },
+    {
+      "id": "P-FE5-M-KM2_Q71",
+      "question_type": "mc",
+      "question": "A warehouse has 8 sections, S shelves per section, and each shelf holds B boxes. Which expression gives the total number of boxes in the warehouse?",
+      "options": {
+        "A": "8/(SB)",
+        "B": "8SB",
+        "C": "8S+B",
+        "D": "8S+8B"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Total boxes = (number of sections) x (shelves per section) x (boxes per shelf) = 8 x S x B = 8SB."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q71 (KM2_Q71)",
+      "base_question": {
+        "question": "A building has 10 floors, R rooms per floor, and each room has C chairs. Which expresses the total number of chairs?",
+        "options": {
+          "A": "10/(RC)",
+          "B": "10RC",
+          "C": "10R+C",
+          "D": "10R+10C"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "10 floors x R rooms x C chairs = 10RC"
+        }
+      },
+      "q_number": 34
+    },
+    {
+      "id": "P-FE5-M-DM23",
+      "question_type": "mc",
+      "question": "Which situation involves quantities that combine to equal zero?",
+      "options": {
+        "A": "a submarine descending 50 feet, and then descending 50 feet more",
+        "B": "spending $15 on a movie ticket and then spending $15 on snacks",
+        "C": "depositing $30 into a bank account and then withdrawing $30 from that account",
+        "D": "a hiker starting at an elevation of 200 feet, climbing 100 feet, and then climbing 100 feet more"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Depositing $30 (+30) and withdrawing $30 (-30) are exact opposites, so they combine to equal zero: +30 + (-30) = 0. The other options describe two amounts that add together (combine to a larger total), not cancel out."
+      },
+      "base_source": "Exam D — Math Q23 (DM23)",
+      "base_question": {
+        "question": "Which situation involves quantities that combine to equal zero?",
+        "options": {
+          "A": "receiving $5 as a gift and then giving $5 to a friend",
+          "B": "buying a book for $10 and then buying lunch for $10",
+          "C": "getting on an elevator at the ground floor, rising 3 floors, and then rising 3 more floors",
+          "D": "starting in a cave 20 feet below the ground, climbing up 20 feet, and then climbing up 20 feet more"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "+5 and -5 combine to make 0."
+        }
+      },
+      "q_number": 35
+    },
+    {
+      "id": "P-FE5-M-GM34",
+      "question_type": "mc",
+      "question": "A box contains 8 red, 4 yellow, and 5 green index cards. If 2 cards are pulled at random without replacement, what is the probability both are NOT green?",
+      "options": {
+        "A": "9/17",
+        "B": "12/17",
+        "C": "144/289",
+        "D": "33/68"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "There are 17 cards total, 12 of which are not green.\nFirst draw: 12/17. Second draw (one fewer card, one fewer non-green): 11/16.\n12/17 x 11/16 = 132/272 = 33/68."
+      },
+      "base_source": "Exam G — Math Q34 (GM34)",
+      "base_question": {
+        "question": "A box contains 6 red, 3 yellow, and 4 green index cards. If 2 cards are pulled at random without replacement, what is the probability both are NOT green?",
+        "options": {
+          "A": "16/169",
+          "B": "4/39",
+          "C": "6/13",
+          "D": "81/169"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "9/13 x 8/12 = 6/13"
+        }
+      },
+      "q_number": 36
+    },
+    {
+      "id": "P-FE5-M-KM3_Q86",
+      "question_type": "mc",
+      "question": "A recipe calls for 1/4 teaspoon of cumin and 1 2/3 teaspoons of salt. What is the ratio of cumin to salt in this recipe?",
+      "options": {
+        "A": "3:20",
+        "B": "1:4",
+        "C": "3:4",
+        "D": "4:3"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Write both amounts as improper fractions: cumin = 1/4 tsp, salt = 5/3 tsp.\nRatio = (1/4) : (5/3). Multiply both sides by 12 to clear denominators: 3 : 20."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q86 (KM3_Q86)",
+      "base_question": {
+        "question": "A recipe calls for 1/6 teaspoon of oregano and 1 1/4 teaspoons of pepper. What is the ratio of oregano to pepper?",
+        "options": {
+          "E": "1:12",
+          "F": "2:15",
+          "G": "1:3",
+          "H": "2:3"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "(1/6)/(5/4) = 4/30=2/15"
+        }
+      },
+      "q_number": 37
+    },
+    {
+      "id": "P-FE5-M-FM17",
+      "question_type": "mc",
+      "question": "A line whose slope is -1/3 passes through the points (6,3) and (x,1). What is the value of x?",
+      "options": {
+        "A": "-6",
+        "B": "12",
+        "C": "6",
+        "D": "0"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Use the slope formula: -1/3 = (1-3)/(x-6) = -2/(x-6).\nSo 1/3 = 2/(x-6). Cross multiply: x-6 = 6, so x = 12."
+      },
+      "base_source": "Exam F — Math Q17 (FM17)",
+      "base_question": {
+        "question": "A line whose slope is -1/2 passes through the points (4,2) and (x,1). What is the value of x?",
+        "options": {
+          "A": "-6",
+          "B": "-3",
+          "C": "3",
+          "D": "6"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "-1/2 = (1-2)/(x-4) -> x=6"
+        }
+      },
+      "q_number": 38
+    },
+    {
+      "id": "P-FE5-M-CM19",
+      "question_type": "mc",
+      "question": "What is the value of (-5/6)(-3/10)?",
+      "options": {
+        "A": "-4/15",
+        "B": "-1/4",
+        "C": "1/4",
+        "D": "4/15"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Multiply numerators and denominators: (5x3)/(6x10) = 15/60.\nA negative times a negative is positive, and 15/60 simplifies to 1/4."
+      },
+      "base_source": "Exam C — Math Q19 (CM19)",
+      "base_question": {
+        "question": "What is the value of (-3/4)(-2/5)?",
+        "options": {
+          "A": "-7/20",
+          "B": "-3/10",
+          "C": "3/10",
+          "D": "7/20"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(3x2)/(4x5) = 6/20 = 3/10"
+        }
+      },
+      "q_number": 39
+    },
+    {
+      "id": "P-FE5-M-EM47",
+      "question_type": "mc",
+      "question": "Priya has x stickers, and Devon has 9 more than 5 times the number of stickers Priya has. In terms of x, how many stickers do Priya and Devon have in total?",
+      "options": {
+        "A": "9x",
+        "B": "5x+9",
+        "C": "6x+5",
+        "D": "6x+9"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Devon has 5x+9 stickers (9 more than 5 times Priya's amount).\nTotal: x + (5x+9) = 6x+9."
+      },
+      "base_source": "Exam E — Math Q47 (EM47)",
+      "base_question": {
+        "question": "Frank has x shells, and Darnell has 8 more than 7 times the number of shells Frank has. In terms of x, how many shells do Frank and Darnell have in total?",
+        "options": {
+          "A": "8x",
+          "B": "7x+8",
+          "C": "8x+7",
+          "D": "8x+8"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "x + (7x+8) = 8x+8"
+        }
+      },
+      "q_number": 40
+    },
+    {
+      "id": "P-FE5-M-KM1_Q89",
+      "question_type": "mc",
+      "question": "The population of a bacteria culture doubles every 13 hours. If the population is 50 at 3:20 p.m., at what time of day will the population have doubled twice?",
+      "options": {
+        "A": "5:20 p.m.",
+        "B": "1:20 a.m.",
+        "C": "3:20 a.m.",
+        "D": "9:20 p.m."
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Two doublings take 13 + 13 = 26 hours.\n26 hours after 3:20 p.m. is 24 hours later (back to 3:20 p.m. the next day) plus 2 more hours: 5:20 p.m."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q89 (KM1_Q89)",
+      "base_question": {
+        "question": "The population of a bacteria doubles every 19 hours. If the population is 100 at 2:15 p.m., at what time will it have doubled twice?",
+        "options": {
+          "A": "2:15 a.m.",
+          "B": "4:15 a.m.",
+          "C": "6:15 a.m.",
+          "D": "4:15 p.m."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "2 doublings = 38 hours later = 4:15am two days later"
+        }
+      },
+      "q_number": 41
+    },
+    {
+      "id": "P-FE5-M-AM28",
+      "question_type": "mc",
+      "question": "3 1/4 + 2 2/5 + 1 3/20 + 4 7/10. What is the value of the expression shown above?",
+      "options": {
+        "A": "10 1/2",
+        "B": "11 1/2",
+        "C": "11",
+        "D": "12"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Give every fraction a common denominator of 20: 3 5/20 + 2 8/20 + 1 3/20 + 4 14/20.\nAdd whole numbers: 3+2+1+4 = 10. Add fractions: 5/20+8/20+3/20+14/20 = 30/20 = 1 10/20 = 1 1/2.\nTotal: 10 + 1 1/2 = 11 1/2."
+      },
+      "base_source": "Exam A — Math Q28 (AM28)",
+      "base_question": {
+        "question": "2 1/5 + 3 3/10 + 4 2/5 + 5 1/2. What is the value of the expression shown above?",
+        "options": {
+          "A": "14 7/20",
+          "B": "14 2/5",
+          "C": "15 7/20",
+          "D": "15 2/5"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Common denominator 10: 2 2/10+3 3/10+4 4/10+5 5/10 = 14 + 14/10 = 15 2/5"
+        }
+      },
+      "q_number": 42
+    },
+    {
+      "id": "P-FE5-M-BM49",
+      "question_type": "mc",
+      "question": "Priya flipped a weighted coin 40 times and found that the probability of it landing on heads was 65%. If she flips the coin 160 more times, what is the total number of times she can expect it to land on heads?",
+      "options": {
+        "A": "104",
+        "B": "117",
+        "C": "130",
+        "D": "140"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Priya will flip the coin a total of 40+160 = 200 times.\nExpected number of heads = 0.65 x 200 = 130."
+      },
+      "base_source": "Exam B — Math Q49 (BM49)",
+      "base_question": {
+        "question": "Carlos tossed a paper cup in the air 50 times and found that the probability of it landing on its side was 72%. If he tosses the cup 150 more times, what is the total number of times he can expect the cup to land on its side?",
+        "options": {
+          "A": "72",
+          "B": "108",
+          "C": "144",
+          "D": "158"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "200 total tosses x 0.72 = 144"
+        }
+      },
+      "q_number": 43
+    },
+    {
+      "id": "P-FE5-M-KM2_Q63",
+      "question_type": "mc",
+      "question": "{3/13,4/13,5/13,6/13,7/13,8/13,9/13} — if a number is chosen at random from the set above, what is the probability the number chosen is less than 1/2?",
+      "options": {
+        "A": "3/7",
+        "B": "5/7",
+        "C": "1/2",
+        "D": "4/7"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "1/2 equals 6.5/13. Values in the set less than that: 3/13, 4/13, 5/13, 6/13 — 4 of the 7 total values.\nProbability = 4/7."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q63 (KM2_Q63)",
+      "base_question": {
+        "question": "{2/11,3/11,4/11,5/11,6/11,7/11} — what is the probability a number chosen at random is less than 1/2?",
+        "options": {
+          "A": "5/11",
+          "B": "1/2",
+          "C": "2/3",
+          "D": "5/6"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "4 of 6 values (2,3,4,5)/11 < 1/2(=5.5/11). 4/6=2/3"
+        }
+      },
+      "q_number": 44
+    },
+    {
+      "id": "P-FE5-M-DM40",
+      "question_type": "mc",
+      "question": "A team has 68 points and must have at least 120 points to win a prize. The team earns 4 points for each can collected. Which inequality can be used to find x, the number of cans needed?",
+      "options": {
+        "A": "68+4x>=120",
+        "B": "4+68x>=120",
+        "C": "68+4x<=120",
+        "D": "4+68x<=120"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The team starts with a fixed 68 points, and each can adds 4 points (4x total from cans).\nThey need AT LEAST (>=) 120 points, so the inequality is 68 + 4x >= 120."
+      },
+      "base_source": "Exam D — Math Q40 (DM40)",
+      "base_question": {
+        "question": "A team has 53 points and must have at least 100 points to win a prize. The team earns 5 points for each can collected. Which inequality can be used to find x, the number of cans needed?",
+        "options": {
+          "A": "5+53x<=100",
+          "B": "5+53x>=100",
+          "C": "53+5x<=100",
+          "D": "53+5x>=100"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Starting 53 points plus 5 per can, at least 100: 53+5x>=100"
+        }
+      },
+      "q_number": 45
+    },
+    {
+      "id": "P-FE5-M-GM24",
+      "question_type": "mc",
+      "question": "An alloy mixes iron, copper, carbon, and chromium in the ratio 35:2:5:3. If a block of this alloy weighs 45 kilograms, how many kilograms of carbon does it contain?",
+      "options": {
+        "A": "3 kg",
+        "B": "5 kg",
+        "C": "7 kg",
+        "D": "9 kg"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The ratio parts add up to 35+2+5+3 = 45 total parts, and carbon is 5 of those parts.\nSince the block weighs 45 kg (conveniently, 1 kg per part), carbon = 5 x 1 = 5 kg."
+      },
+      "base_source": "Exam G — Math Q24 (GM24)",
+      "base_question": {
+        "question": "An alloy mixes iron, copper, carbon, and chromium in the ratio 44:1:3:2. A 25 kg block — how many kg of carbon?",
+        "options": {
+          "A": "1 kg",
+          "B": "1.5 kg",
+          "C": "2.25 kg",
+          "D": "5.625"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "3/50 x 25 = 1.5"
+        }
+      },
+      "q_number": 46
+    },
+    {
+      "id": "P-FE5-M-KM3_Q77",
+      "question_type": "mc",
+      "question": "If Maria went shopping with $20, bought two items that cost the same amount, and ended up with a debt of $4, how much did each of the two items cost?",
+      "options": {
+        "A": "$8",
+        "B": "$10",
+        "C": "$12",
+        "D": "$16"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Maria spent her $20 plus went $4 into debt, so she spent a total of 20+4 = $24.\nSince the two items cost the same, each one cost 24/2 = $12."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q77 (KM3_Q77)",
+      "base_question": {
+        "question": "If Thomas went shopping with $15, bought two items that cost the same amount, and ended up with a debt of $5, how much did each item cost?",
+        "options": {
+          "A": "$5",
+          "B": "$10",
+          "C": "$15",
+          "D": "$20"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "15+5=20 total spent, /2=10 each"
+        }
+      },
+      "q_number": 47
+    },
+    {
+      "id": "P-FE5-M-FM34",
+      "question_type": "mc",
+      "question": "In a sample of 80 ties, 10 are purple and 40 are striped; of the 10 purple, 6 have stripes. What is the probability a tie selected at random is NOT purple and does NOT have stripes?",
+      "options": {
+        "A": "1/8",
+        "B": "3/8",
+        "C": "11/20",
+        "D": "9/20"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Purple or striped (avoiding double-counting the overlap): 10 + 40 - 6 = 44.\nNeither purple nor striped: 80 - 44 = 36.\nProbability = 36/80 = 9/20."
+      },
+      "base_source": "Exam F — Math Q34 (FM34)",
+      "base_question": {
+        "question": "In a sample of 60 ties, 8 are purple and 32 are striped; of the 8 purple, 5 have stripes. What is the probability a tie is NOT purple and does NOT have stripes?",
+        "options": {
+          "A": "1/12",
+          "B": "1/3",
+          "C": "5/12",
+          "D": "9/20"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "60-(8+32-5)=25. 25/60=5/12"
+        }
+      },
+      "q_number": 48
+    },
+    {
+      "id": "P-FE5-M-CM36",
+      "question_type": "mc",
+      "question": "A deck of 52 playing cards contains 13 spades. Sara has 15 cards from this deck in her hand, 4 of which are spades. What is the probability that a card drawn at random from the remainder of the deck will be a spade?",
+      "options": {
+        "A": "9/37",
+        "B": "4/15",
+        "C": "1/4",
+        "D": "9/13"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Cards remaining in the deck: 52-15 = 37.\nSpades remaining: 13-4 = 9.\nProbability = 9/37."
+      },
+      "base_source": "Exam C — Math Q36 (CM36)",
+      "base_question": {
+        "question": "A deck of 52 playing cards contains 13 hearts. Sara has 12 cards from this deck in her hand, 3 of which are hearts. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
+        "options": {
+          "A": "1/10",
+          "B": "1/4",
+          "C": "3/13",
+          "D": "1/3"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(13-3)/(52-12) = 10/40 = 1/4"
+        }
+      },
+      "q_number": 49
+    },
+    {
+      "id": "P-FE5-M-EM16",
+      "question_type": "mc",
+      "question": "Which inequality is equivalent to -3(x+5) <= 12?",
+      "options": {
+        "A": "x >= -5",
+        "B": "x >= -9",
+        "C": "x <= -9",
+        "D": "x <= -5"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Distribute: -3x - 15 <= 12. Add 15 to both sides: -3x <= 27.\nDivide both sides by -3, flipping the inequality sign: x >= -9."
+      },
+      "base_source": "Exam E — Math Q16 (EM16)",
+      "base_question": {
+        "question": "Which inequality is equivalent to -2(x+4) <= 10?",
+        "options": {
+          "A": "x >= -9",
+          "B": "x >= -5",
+          "C": "x <= -9",
+          "D": "x <= -5"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "-2x-8<=10 -> -2x<=18 -> x>=-9 (flip)"
+        }
+      },
+      "q_number": 50
+    }
+  ],
+  "ela_passages": [
+    {
+      "id": "consciousness",
+      "passage_number": 1,
+      "total_passages": 8,
+      "title": "States of Consciousness",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "Consciousness is a topic that has captivated psychologists since the beginning of experimental psychology in the late 1800s."
+          },
+          {
+            "num": 2,
+            "text": "Wilhelm Wundt and William James, both notable founders of psychology, were fascinated with studying consciousness, both from the perspective of how it was organized and how it worked."
+          }
+        ],
+        [
+          {
+            "num": 3,
+            "text": "Consciousness refers to the active processing of information in the brain."
+          },
+          {
+            "num": 4,
+            "text": "It is your awareness of yourself and your environment, and the features of your consciousness at any given point in time are referred to as your state of consciousness."
+          },
+          {
+            "num": 5,
+            "text": "While in a normal state of consciousness, you are awake and alert."
+          },
+          {
+            "num": 6,
+            "text": "In an altered state of consciousness, however, you experience a disruption to your normal state—such as falling asleep or drifting off into a daydream."
+          },
+          {
+            "num": 7,
+            "text": "You may not realize that you experience different states of consciousness throughout each day."
+          },
+          {
+            "num": 8,
+            "text": "You are likely not actively aware of your breathing, heartbeat, and other biological functions, for instance."
+          },
+          {
+            "num": 9,
+            "text": "These body processes, which are being controlled by your brain, are happening on a nonconscious level."
+          }
+        ],
+        [
+          {
+            "num": 10,
+            "text": "According to psychoanalytic theory, all of the memories that you have stored and could actively start thinking about, if prompted, represent the preconscious level."
+          },
+          {
+            "num": 11,
+            "text": "For example, what did you have for breakfast this morning?"
+          }
+        ],
+        [
+          {
+            "num": 12,
+            "text": "Psychologists have found that people are affected by information that they are not aware of consciously."
+          },
+          {
+            "num": 13,
+            "text": "This information is acting on a subconscious level."
+          },
+          {
+            "num": 14,
+            "text": "According to Austrian psychologist Sigmund Freud, people possess subconscious longings that are often socially unacceptable."
+          },
+          {
+            "num": 15,
+            "text": "Two examples that illustrate subconscious processing are priming and the mere-exposure effect."
+          },
+          {
+            "num": 16,
+            "text": "Priming refers to the processing of information from stimuli that are outside of conscious awareness."
+          },
+          {
+            "num": 17,
+            "text": "In fact, studies show that people can correctly answer questions that they have seen previously—even when they do not remember seeing the questions."
+          },
+          {
+            "num": 18,
+            "text": "The mere-exposure effect happens when people prefer stimuli they have seen previously over new stimuli—even when they do not remember the old stimuli."
+          }
+        ],
+        [
+          {
+            "num": 19,
+            "text": "Psychologists design and conduct experiments that explore different states of consciousness to better understand how the brain processes information."
+          },
+          {
+            "num": 20,
+            "text": "These experiments probe the inner workings of normal conscious, nonconscious, preconscious, and subconscious levels of being."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q06",
+          "q_number": 51,
+          "question_type": "mc",
+          "blank_target_sentence_num": 2,
+          "question": "Which sentence should follow sentence 2 to introduce the main claim of the passage?",
+          "options": {
+            "E": "Altered states of consciousness include falling asleep, daydreaming, and experiencing hallucinations.",
+            "F": "Today, researchers continue to explore what consciousness is, how we are able to understand it, and what it means to be in a “state of consciousness.”",
+            "G": "Some psychology research investigates consciousness with the hope of discovering the key to curing, or at least better managing, neurological disorders such as epilepsy.",
+            "H": "Based on their studies of consciousness, these fathers of psychology founded the field's first two great “schools”: voluntarism and functionalism."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q06.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q07",
+          "q_number": 52,
+          "question_type": "mc",
+          "blank_target_sentence_num": 11,
+          "question": "Which sentence could best follow sentence 11 to support the ideas in the third paragraph (sentences 10–11)?",
+          "options": {
+            "A": "If someone asked you about what you ate, you would be able to transfer that memory from the preconscious level to the conscious level in just a few seconds.",
+            "B": "If you are not able to come up with an answer, it is likely because the memory is stored at the unconscious level.",
+            "C": "Many studies have linked eating breakfast to better memory and concentration, lower risks of heart disease, and a healthier body weight.",
+            "D": "If you were prompted to think about what you had for breakfast, you would think about exactly what you ate, such as cereal and milk or yogurt and fruit."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q07.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q08",
+          "q_number": 53,
+          "question_type": "mc",
+          "question": "Which sentence presents ideas irrelevant to the topic of paragraph 4 and should be deleted?",
+          "options": {
+            "E": "sentence 14",
+            "F": "sentence 15",
+            "G": "sentence 16",
+            "H": "sentence 17"
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q08.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q09",
+          "q_number": 54,
+          "question_type": "mc",
+          "blank_target_sentence_num": 20,
+          "question": "Which concluding sentence should follow sentence 20 to best support the information presented in the passage?",
+          "options": {
+            "A": "Scientists create and facilitate experiments that investigate different states of consciousness to better comprehend how people sift through and internalize information.",
+            "B": "Psychological experiments focus on the intricacies of multiple levels of consciousness, which range from active, normal consciousness to completely unconscious states.",
+            "C": "The goal of investigating consciousness is to learn more about the awareness of one's self and environment, the ways consciousness can be altered, and the various levels and states of consciousness.",
+            "D": "Hypnosis involves a change in the way a person senses, thinks, feels, perceives, or behaves while following the suggestions of a hypnotist; a state of altered consciousness appears to take over while normal conscious control is seemingly suspended."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q09.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "weaving",
+      "passage_number": 2,
+      "total_passages": 8,
+      "title": "Weaving",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "Handweaving, traditionally the province of home spinners and weavers, has been practiced throughout recorded history."
+          },
+          {
+            "num": 2,
+            "text": "Silk weaving has been known in China since 3500 B.C.E and in Egypt since 3600 B.C.E."
+          },
+          {
+            "num": 3,
+            "text": "By 700 C.E., looms were common in Africa, Asia, and Europe."
+          },
+          {
+            "num": 4,
+            "text": "In particular, they were found throughout the Islamic world."
+          }
+        ],
+        [
+          {
+            "num": 5,
+            "text": "In mythology, weaving is typically the province of women."
+          },
+          {
+            "num": 6,
+            "text": "In Pre-Dynastic Egypt, Neith was the goddess of weaving; in Greece, it was the goddess Athena; in Scandinavia, it was the goddess Frigg, the wife of chief god Odin."
+          },
+          {
+            "num": 7,
+            "text": "These goddesses and other protectors of weavers show the importance of the craft to ancient peoples: each was not only prominent in her pantheon but also associated with other crucial domains, such as childbirth, wisdom, the creation of the stars, and fate itself."
+          }
+        ],
+        [
+          {
+            "num": 8,
+            "text": "Tales about weaving are numerous as well."
+          },
+          {
+            "num": 9,
+            "text": "Theseus emerges from the maze of the Minotaur by following Ariadne's woven thread."
+          },
+          {
+            "num": 10,
+            "text": "A crane weaves a gorgeous cloth of her own feathers as a gift for those who rescued her."
+          },
+          {
+            "num": 11,
+            "text": "In the fable “The Old Man and Death,” Aesop warns of being careful of what you wish for."
+          },
+          {
+            "num": 12,
+            "text": "Sleeping Beauty pricks her finger on a spindle and is cursed."
+          },
+          {
+            "num": 13,
+            "text": "Indeed, the English word text derives from the Latin word textare—weaving, as in “weaving a story.”"
+          }
+        ],
+        [
+          {
+            "num": 14,
+            "text": "Weaving continues to be an important part of many modern cultures as well."
+          },
+          {
+            "num": 15,
+            "text": "In Ukraine, the rushnyk, a ritual cloth, accompanies people throughout their lives; a newborn is placed immediately upon it and the dead are covered with it."
+          },
+          {
+            "num": 16,
+            "text": "Without question, the importance of weaving goes far beyond the practical into cultural meanings that still resonate today."
+          },
+          {
+            "num": 17,
+            "text": "Navajo weaving often features the symbol of Spider Woman, who gave the art of weaving to Navajo women."
+          },
+          {
+            "num": 18,
+            "text": "Andean peoples, living in close connection with nature, incorporate symbols for the sun and rivers."
+          },
+          {
+            "num": 19,
+            "text": "A pattern or motif may be specific to the weaver herself and can convey piety, cultural or family traditions, daily life, folklore characters, and even humor."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q10",
+          "q_number": 55,
+          "question_type": "mc",
+          "blank_target_sentence_num": 2,
+          "question": "Which transition should be added to the beginning of sentence 2?",
+          "options": {
+            "E": "However,",
+            "F": "Indeed,",
+            "G": "As a result,",
+            "H": "Even so,"
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q10.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q11",
+          "q_number": 56,
+          "question_type": "mc",
+          "question": "Which is the best way to combine sentences 3 and 4 to clarify the relationship between ideas?",
+          "options": {
+            "A": "By 700 C.E., looms were common in Africa, Asia, and Europe, and evidence has shown that they could also be found throughout the Islamic world.",
+            "B": "As long ago as the year 700 C.E., looms were common in Africa, Asia, Europe, as well as in parts of the Islamic world.",
+            "C": "By 700 C.E., looms were common in Africa, Asia, and Europe, though they were also found throughout the Islamic world.",
+            "D": "By 700 C.E., looms were common in Africa, Asia, and Europe, as well as throughout the Islamic world."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q11.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q12",
+          "q_number": 57,
+          "question_type": "mc",
+          "question": "Which sentence should be added after sentence 4 to introduce the main topic of the passage?",
+          "options": {
+            "E": "Given the widespread use and long history of weaving, it is unsurprising that the art is deeply intertwined with folklore and tradition.",
+            "F": "Cultures are reflections of people's beliefs and attitudes, and weaving has impacted the course of many societies.",
+            "G": "Weaving materials vary significantly between cultures and can include everything from tree bark to caterpillar cocoons, depending on local resources.",
+            "H": "Since the art of weaving is so widely practiced, many weavers find inspiration in the traditions of other cultures as well as in their own."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q12.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q13",
+          "q_number": 58,
+          "question_type": "mc",
+          "question": "Which sentence presents information that shifts away from the main topic of the third paragraph (sentences 8-13) and should be removed?",
+          "options": {
+            "A": "sentence 9",
+            "B": "sentence 10",
+            "C": "sentence 11",
+            "D": "sentence 12"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q13.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q14",
+          "q_number": 59,
+          "question_type": "mc",
+          "question": "Where should sentence 16 be moved to improve the organization of the fourth paragraph (sentences 14-19)?",
+          "options": {
+            "E": "to the beginning of the paragraph (before sentence 14)",
+            "F": "between sentences 14 and 15",
+            "G": "between sentences 17 and 18",
+            "H": "to the end of the paragraph (after sentence 19)"
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q14.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 8,
+      "genre": "informational",
+      "title": "Did an Asteroid Kill the Dinosaurs?",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The question of why dinosaurs became extinct has puzzled paleontologists since the first dinosaur fossil was found almost two centuries ago. These great reptiles dominated the Earth for nearly 160 million years but mysteriously died out approximately 65 million years ago. Although various explanations for this disappearance have been offered, ranging from an epidemic to a sudden, catastrophic drop in temperature, no theory has yet been conclusively proven."
+        },
+        {
+          "num": 2,
+          "text": "One of the most recent theories was posited in 1980 by Luis Alvarez, a Nobel Prize-winning physicist. According to Alvarez and his geologist son Walter, a huge meteor crashed into the Earth's surface 65 million years ago, sending up a massive cloud of dust and rock particles. The cloud blocked out sunlight for a period of months or even years, disrupting plant growth and the global food chain. The lack of plants as a food source, coupled with a significant drop in temperature, resulted in the extinction of the dinosaurs."
+        },
+        {
+          "num": 3,
+          "text": "Alvarez based his theory on an unusual piece of evidence. Geologists discovered that a thin layer of the metal iridium had been deposited all over the world at approximately the time the dinosaurs died out. Since iridium is rarely found on the Earth's surface, Alvarez reasoned that it had either come up from the Earth's core by volcanic action or been deposited by meteorite strikes from space. Because the iridium was deposited evenly in sediments worldwide, Alvarez found the meteorite theory more likely."
+        },
+        {
+          "num": 4,
+          "text": "But paleontologists—scientists who study dinosaurs—scoffed at the Alvarez extinction theory. Neither Luis nor Walter Alvarez was a paleontologist, yet they claimed to have solved a mystery that had defied the efforts of paleontologists for over a century. Some scientists pointed out that, in order to create worldwide fallout of iridium on the scale suggested by Alvarez, the “doomsday” meteorite would have had to be about 5 miles in diameter, and its impact would have formed a crater perhaps a hundred miles wide. If such a meteorite had hit the Earth, where was the crater? Because of the absence of evidence of such a catastrophic collision, these critics were skeptical of the Alvarez theory."
+        },
+        {
+          "num": 5,
+          "text": "Finally, a decade after the cosmic extinction theory was first proposed, the crater was found. Lying partly underwater on the northern edge of Mexico's Yucatan Peninsula, the crater is 110 miles wide, with the center of impact close to the city of Chicxulub, which has given the crater its name. Long-buried under sediment, the Chicxulub crater had actually been discovered in 1981 by oil geologists, but dates of nearby rock samples taken at that time suggested that it was significantly older than 65 million years. New deepwater samples of melted rock from the crater itself were recently analyzed by an advanced dating process, however, and were found to be 64.98 million years old. Many scientists now feel that, thanks to the Alvarez theory, the mystery of dinosaur extinction has finally been solved."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q15",
+          "q_number": 60,
+          "question_type": "mc",
+          "question": "According to the passage, the Alvarez theory that the iridium layer was deposited by a meteorite rather than by volcanic action is supported by evidence that",
+          "options": {
+            "A": "proves that the Yucatan crater was created by a meteor strike.",
+            "B": "describes the only way in which a large enough dust and rock cloud could be generated to disrupt the food chain.",
+            "C": "indicates that iridium is evenly distributed in sediments worldwide.",
+            "D": "shows that geologists agree that iridium is rare on the surface of the Earth."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q15.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q16",
+          "q_number": 61,
+          "question_type": "mc",
+          "question": "Based on the passage, what is the main reason that opponents of the Alvarez theory criticized both Luis and Walter Alvarez?",
+          "options": {
+            "E": "The Alvarezes published incomplete research.",
+            "F": "The Alvarezes were being personally abrasive.",
+            "G": "The Alvarezes were theorizing outside their own fields.",
+            "H": "The Alvarezes misinterpreted experimental data."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q16.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q17",
+          "q_number": 62,
+          "question_type": "mc",
+          "question": "The author mentions the global food chain in paragraph 2 in order to",
+          "options": {
+            "A": "refute the theory that an epidemic was responsible for dinosaur extinction.",
+            "B": "illustrate the importance of a clean atmosphere for life on Earth.",
+            "C": "support the contention that dinosaurs were primarily plant-eaters.",
+            "D": "explain how the cloud of dust caused the extinction of dinosaurs."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q17.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q18",
+          "q_number": 63,
+          "question_type": "mc",
+          "question": "What is the most likely reason the discovery of a layer of iridium in geologic sediments was considered unusual?",
+          "options": {
+            "E": "Iridium had never been detected there before.",
+            "F": "Iridium is normally quite scarce at the Earth's surface.",
+            "G": "Iridium only occurs in meteoric craters.",
+            "H": "Few volcanoes had been active during the era when those sediments accumulated."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q18.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q19",
+          "q_number": 64,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 2.\n\n“The lack of plants as a food source, coupled with a significant drop in temperature, resulted in the extinction of the dinosaurs.”\n\nThe phrase “coupled with” conveys the idea that the lack of plants",
+          "options": {
+            "A": "resulted from the meteorite impact.",
+            "B": "combined with the weather to cause dinosaur extinction.",
+            "C": "led to the even worldwide distribution of iridium in snowfall.",
+            "D": "caused the dinosaurs to go extinct due to starvation."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q19.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q20",
+          "q_number": 65,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that paleontologists initially had reason to be critical of the Alvarez theory?",
+          "options": {
+            "E": "“Although various explanations for this disappearance have been offered, ranging from an epidemic to a sudden, catastrophic drop in temperature, no theory has yet been conclusively proven.” (paragraph 1)",
+            "F": "“Geologists discovered that a thin layer of the metal iridium had been deposited all over the world at approximately the time the dinosaurs died out.” (paragraph 3)",
+            "G": "“[T]he ‘doomsday’ meteorite would have had to be about 5 miles in diameter, and its impact would have formed a crater perhaps a hundred miles wide.” (paragraph 4)",
+            "H": "“New deepwater samples of melted rock from the crater itself were recently analyzed by an advanced dating process, however, and were found to be 64.98 million years old.” (paragraph 5)"
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q20.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q21",
+          "q_number": 66,
+          "question_type": "mc",
+          "question": "Paragraph 5 contributes to the development of the central idea of the passage by",
+          "options": {
+            "A": "rejecting the majority opinion of paleontologists.",
+            "B": "revealing the impact crater was far older than 65 million years.",
+            "C": "showing how the Alvarez theory was accepted a decade later.",
+            "D": "highlighting the lack of iridium at the impact site."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q21.jpg"
+          }
+        }
+      ],
+      "id": "asteroid"
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 8,
+      "genre": "informational",
+      "title": "New Research in Repairing Bone",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Surgeons perform phenomenal feats such as replacing clogged coronary arteries with blood vessels from the leg, reconnecting capillaries and tendons to reattach severed fingers, and even refashioning parts of intestines to create new bladders. However, surgeons find it difficult to reconstruct complicated bones like the jawbone or those of the inner ear, and only rarely can they replace large bones lost to disease or injury."
+        },
+        {
+          "num": 2,
+          "text": "This challenge stems from the nature of bones. Unlike other types of tissue, bones with one normal shape cannot be reworked into other shapes, nor can doctors move large bones from one part of the body to another without severely disabling a person. Many existing treatments for bone defects are short-term and limited. Surgeons can replace some diseased joints with plastic or metal implants, but artificial hips or knees steadily loosen and must be reconstructed several times during a patient's life."
+        },
+        {
+          "num": 3,
+          "text": "Several new procedures have been developed that enable surgeons to treat a larger number of bone defects. Bone grafting involves replacing a damaged section of bone with bone removed from another part of the body such as the rib or hip, or from bone donated from a cadaver. The living cells within the bone graft grow and attach to those in the original bone, repairing the injury. Distraction osteogenesis is now also another option available to surgeons. In this process, a bone that needs to be lengthened is cut surgically, and the ends of the cut bone are held apart by a mechanical device. As the body's natural healing process begins to refill the gap in the bone, the gap is slowly widened, stretching the newly formed soft bone and lengthening it. Distraction osteogenesis is used to correct a number of problems in the jawbones and palate and may reduce the number of surgeries needed by patients with these issues."
+        },
+        {
+          "num": 4,
+          "text": "The most radical approach to overcoming the obstacles presented by bones is to create bone substitutes from, of all things, muscle. Although this may sound peculiar, muscle, bone, fat, blood vessels, and bone marrow all develop in human embryos from the same loosely organized tissue, so the idea of making bones from muscle is not all that strange. In 1987, scientists isolated a bone-inducing protein called osteogenin from cows and discovered that osteogenin can make undifferentiated human tissue produce cartilage and bone. However, few surgeons have used osteogenin because it is hard to control. If sprinkled directly onto a defect, for instance, the entire area might stiffen to bone if even a tiny bit of osteogenin fell on the surrounding blood vessels and nerves."
+        },
+        {
+          "num": 5,
+          "text": "More recently, plastic surgeons are working on circumventing that snag by prefabricating bones away from the immediate site of a defect. Flaps of animal thigh muscles are removed, placed in osteogenin-coated molds, and implanted in the same animal's abdomen. This implantation provides a suitable biologic environment for transforming muscle into bone. Within weeks, the molds yield tiny, perfectly detailed bone segments. So far, surgeons have made bones from muscles in small animals but have not yet tried the process in humans. One limitation on the process is that osteogenin is available only in small amounts. Second, the safety and effectiveness of the process must first be tested on larger animals before human trials can begin."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q22",
+          "q_number": 67,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "E": "The drawbacks and limitations of osteogenin make it an ineffective treatment for bone-related medical issues.",
+            "F": "There are various approaches that doctors and scientists can use to cultivate bone tissue.",
+            "G": "The approval process for new medical procedures to be used on humans is a complex one.",
+            "H": "The recent major advances in reconstructive surgery offer hope to those with previously incurable medical issues."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q22.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q23",
+          "q_number": 68,
+          "question_type": "mc",
+          "question": "What do the details about animal testing described in paragraph 5 convey?",
+          "options": {
+            "A": "They highlight that osteogenin bone replacement in humans can be tried only after extensive animal testing.",
+            "B": "They imply that success in large animals assures success in human bone transplants.",
+            "C": "They convey that all bones can be regenerated from undifferentiated muscle tissue.",
+            "D": "They show how cows are unique in producing osteogenin."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q23.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q24",
+          "q_number": 69,
+          "question_type": "mc",
+          "question": "How does the word “challenge” in paragraph 2 contribute to the meaning of the paragraph?",
+          "options": {
+            "E": "It conveys how hard it is to match bone to be grafted from a donor to that of the recipient.",
+            "F": "It highlights the problems of learning how to reconfigure the natural shapes of bones.",
+            "G": "It emphasizes the issues with designing better types of plastic or metal substitutes for bone.",
+            "H": "It references how difficult it is to find ways of reconstructing or replacing certain bones."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q24.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q25",
+          "q_number": 70,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the author's claim that “the idea of making bones from muscle is not all that strange” (paragraph 4)?",
+          "options": {
+            "A": "“Surgeons perform phenomenal feats such as replacing clogged coronary arteries with blood vessels from the leg[.]” (paragraph 1)",
+            "B": "“The living cells within the bone graft grow and attach to those in the original bone, repairing the injury.” (paragraph 3)",
+            "C": "“[M]uscle, bone, fat, blood vessels, and bone marrow all develop in human embryos from the same loosely organized tissue[.]” (paragraph 4)",
+            "D": "“In 1987, scientists isolated a bone-inducing protein called osteogenin from cows and discovered that osteogenin can make undifferentiated human tissue produce cartilage and bone.” (paragraph 4)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q25.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q26",
+          "q_number": 71,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that plastic surgeons will be able to circumvent the “snag” osteogenin presents?",
+          "options": {
+            "E": "“If sprinkled directly onto a defect, for instance, the entire area might stiffen to bone if even a tiny bit of osteogenin fell on the surrounding blood vessels and nerves.” (paragraph 4)",
+            "F": "“Flaps of animal thigh muscles are removed, placed in osteogenin-coated molds, and implanted in the same animal's abdomen.” (paragraph 5)",
+            "G": "“So far, surgeons have made bones from muscles in small animals but have not yet tried the process in humans.” (paragraph 5)",
+            "H": "“One limitation on the process is that osteogenin is available only in small amounts.” (paragraph 5)"
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q26.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q27",
+          "q_number": 72,
+          "question_type": "mc",
+          "question": "The passage suggests that osteogenin-coated molds are most likely placed inside the animal's abdomen during the bone growth procedure because",
+          "options": {
+            "A": "osteogenin-coated molds need a living environment in order to work properly.",
+            "B": "the abdominal muscles are the easiest to transform into replacement bone.",
+            "C": "doctors cannot move large bones in the body without disabling the test subject.",
+            "D": "osteogenin is available only in small amounts."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q27.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q28",
+          "q_number": 73,
+          "question_type": "mc",
+          "question": "The author most likely used the phrase “this may sound peculiar” in paragraph 4 to convey the idea that",
+          "options": {
+            "E": "mending bones artificially rather than letting them heal on their own is surprisingly beneficial for patients.",
+            "F": "the process involving osteogenin has proven shockingly successful in animal trials.",
+            "G": "mending bones artificially is a complex time-consuming process that even researchers do not fully understand.",
+            "H": "the process involving the use of osteogenin may seem strange to the uninformed."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q28.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q29",
+          "q_number": 74,
+          "question_type": "mc",
+          "question": "How does paragraph 4 fit into the overall structure of the passage?",
+          "options": {
+            "A": "It explains how osteogenin can be used safely.",
+            "B": "It argues that replacing bone is more difficult than other procedures.",
+            "C": "It describes how a protein can turn other human tissue into bone.",
+            "D": "It indicates that artificial bones and joints do not last long."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q29.jpg"
+          }
+        }
+      ],
+      "id": "repairing_bone"
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 8,
+      "genre": "informational",
+      "title": "Chain Mail",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Flexible body armor made from interlocking iron or steel rings was known as far back as the ancient Roman era. Used primarily as protection for elite heavy cavalry troops, various forms of so-called “chain mail” armor were relatively rare and expensive at that time, and less practical in many ways than the Roman infantryman's segmented steel breastplate. For centuries after the fall of Imperial Rome, the craft of fashioning mail armor fell into disuse. In the medieval period, however, the techniques were revived and became more popular than ever. By the fourteenth century, entire armies were often outfitted with practical and effective linked-metal armor suits."
+        },
+        {
+          "num": 2,
+          "text": "The type of armor historians sometimes call “chain mail,” but which was called by the people of the time merely “mail,” had many advantages for the individual fighting man in the age of steel weapons. It combined the flexibility and suppleness of cloth with the impact-absorbing mass and cut resistance of rigid metal plates. Edged weapons, no matter how sharp, are incapable of slashing or sawing through a well-fashioned mail suit. Moreover, when struck with a blunt object, the links transfer much of the force through the mass of the garment, absorbing a significant amount of impact instead of allowing it to pass to the soft tissues of the wearer beneath."
+        },
+        {
+          "num": 3,
+          "text": "The process of manufacturing a mail shirt was very labor-intensive in preindustrial times. Each of the thousands of individual links that made up a full suit, or “harness,” had to be individually cut from a coil of hand-drawn wire. The ends of each link were flattened and drilled with tiny holes, and then the link was added into the garment and riveted closed. Each of these steps was accomplished by a small group of specialists in that task to reduce the amount of time needed to produce a suit. The master mailer was then able to grow or shrink the metal garment to “knit” sleeves, mittens, hoods, and other garments by varying the pattern of interlocking links. Modern mail-makers, or “maillers,” use these traditional techniques to create historically accurate chain mail and may work alone for a year to produce a full set of mail."
+        },
+        {
+          "num": 4,
+          "text": "At first, the expense of chain mail meant that it was used exclusively by the wealthy nobility. As soon as a soldier fell in battle, however, his coveted chain mail would quickly be taken for use by another. Eventually, as improved stabbing and piercing weapons became more widespread, linked mail armor became obsolete and was relegated to the common foot soldier, the peasant recruit, or just discarded completely. For the nobility, the need for greater protection spurred the development of armors revolving around cleverly articulated rigid steel plates instead. Because of this, only a few examples of medieval mail armor survive into the present."
+        },
+        {
+          "num": 5,
+          "text": "Today, in addition to traditional maillers, modern maillers produce chain mail with premade wire, electric motors, and pneumatic tools for costumes for Renaissance festivals, movies, theme parks, medieval restaurants, and fantasy hobbyists. Although these modern techniques make the process go faster, “mail making” remains a tedious, time-consuming pursuit."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q30",
+          "q_number": 75,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "E": "The armor used in the medieval era was closely related to the types of weapons used in warfare.",
+            "F": "Medieval mail armor has a long history, including a complicated production process and some modern uses.",
+            "G": "The revival of Roman arms technology in the medieval era enabled the use of chain mail to spread.",
+            "H": "Body armor and its production process has continued to evolve since Roman times."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q30.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q31",
+          "q_number": 76,
+          "question_type": "mc",
+          "question": "In paragraph 3, how does the word “master” contribute to the meaning of the paragraph?",
+          "options": {
+            "A": "It emphasizes that the maillers owned the armor they made.",
+            "B": "It indicates that the makers of mail shirts were elders.",
+            "C": "It defines the maillers as teachers.",
+            "D": "It describes the makers of mail shirts as experts."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q31.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q32",
+          "q_number": 77,
+          "question_type": "mc",
+          "question": "How does paragraph 3 fit into the overall structure of the excerpt?",
+          "options": {
+            "E": "It contrasts the initial exclusivity of chain mail to wealthy medieval elites with its later spread to the lower classes.",
+            "F": "It elaborates on the advantages of chain mail against various types of weapons on the medieval battlefield.",
+            "G": "It highlights how the development of weaponry affects offensive and defensive military technology over time.",
+            "H": "It describes the manufacturing process for chain mail in order to establish why only the wealthy initially owned it."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q32.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q33",
+          "q_number": 78,
+          "question_type": "mc",
+          "question": "What is the most likely reason chain mail was not commonly used in the ancient Roman era?",
+          "options": {
+            "A": "Ancient Roman “linked mail armor” was less effective than the armor made in the fourteenth century.",
+            "B": "The improved stabbing and piercing weapons used by Rome's military opponents made flexible mail armor impractical.",
+            "C": "Armor made from segmented steel plates was unsuitable for wear by Roman cavalry troops.",
+            "D": "The segmented breastplate was a more practical form of protection for Roman infantry than flexible mail armor."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q33.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q34",
+          "q_number": 79,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that chain mail became less effective as a form of defense on the battlefield?",
+          "options": {
+            "E": "“It combined the flexibility and suppleness of cloth with the impact-absorbing mass and cut resistance of rigid metal plates.” (paragraph 2)",
+            "F": "“Moreover, when struck with a blunt object, the links transfer much of the force through the mass of the garment, absorbing a significant amount of impact instead of allowing it to pass to the soft tissues of the wearer beneath.” (paragraph 2)",
+            "G": "“For the nobility, the need for greater protection spurred the development of armors revolving around cleverly articulated rigid steel plates instead.” (paragraph 4)",
+            "H": "“Today, in addition to traditional maillers, modern maillers produce chain mail with premade wire, electric motors, and pneumatic tools for costumes for renaissance festivals, movies, theme parks, medieval restaurants, and fantasy hobbyists.” (paragraph 5)"
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q34.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q35",
+          "q_number": 80,
+          "question_type": "mc",
+          "question": "In paragraph 4, the idea that chain mail was once considered very valuable is illustrated mainly through the",
+          "options": {
+            "A": "tedious, labor-intensive process for creating mail armor.",
+            "B": "use of chain armor by the peasant class.",
+            "C": "superior durability of medieval mail armor.",
+            "D": "immediate theft of an armor suit after a soldier's death."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q35.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q36",
+          "q_number": 81,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "E": "Linked-metal armor represented a practical solution to a technological need in a particular historical era.",
+            "F": "Military technologies in the era of steel hand weapons succeeded primarily because of the existence of an adequate network of skilled craftsmen to support them.",
+            "G": "The availability of practical mail armor was limited mainly to the fourteenth century.",
+            "H": "Linked-metal armor was of such limited usefulness that it became obsolete as soon as the superior technology of articulated metal plates became widespread."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q36.jpg"
+          }
+        }
+      ],
+      "id": "chain_mail"
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 8,
+      "genre": "poem",
+      "title": "The Flying Gang",
+      "author": "Andrew Barton Paterson",
+      "citation": null,
+      "lines": [
+        {
+          "num": null,
+          "text": "I served my time, in the days gone by,"
+        },
+        {
+          "num": null,
+          "text": "In the railway's clash and clang,"
+        },
+        {
+          "num": null,
+          "text": "And I worked my way to the end, and I"
+        },
+        {
+          "num": null,
+          "text": "Was the head of the 'Flying Gang.'"
+        },
+        {
+          "num": 5,
+          "text": "'Twas a chosen band that was kept at hand"
+        },
+        {
+          "num": null,
+          "text": "In case of an urgent need,"
+        },
+        {
+          "num": null,
+          "text": "Was it south or north we were started forth,"
+        },
+        {
+          "num": null,
+          "text": "And away at our utmost speed."
+        },
+        {
+          "num": null,
+          "text": "If word reached town that a bridge was down,"
+        },
+        {
+          "num": 10,
+          "text": "The imperious summons rang—"
+        },
+        {
+          "num": null,
+          "text": "'Come out with the pilot engine sharp,"
+        },
+        {
+          "num": null,
+          "text": "And away with the flying gang.'"
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "Then a piercing scream and a rush of steam"
+        },
+        {
+          "num": null,
+          "text": "As the engine moved ahead,"
+        },
+        {
+          "num": 15,
+          "text": "With a measured beat by the slum and street"
+        },
+        {
+          "num": null,
+          "text": "Of the busy town we fled,"
+        },
+        {
+          "num": null,
+          "text": "By the uplands bright and the homesteads white,"
+        },
+        {
+          "num": null,
+          "text": "With the rush of the western gale,"
+        },
+        {
+          "num": null,
+          "text": "And the pilot swayed with the pace we made"
+        },
+        {
+          "num": 20,
+          "text": "As she rocked on the ringing rail."
+        },
+        {
+          "num": null,
+          "text": "And the country children clapped their hands"
+        },
+        {
+          "num": null,
+          "text": "As the engine's echoes rang,"
+        },
+        {
+          "num": null,
+          "text": "But their elders said: 'There is work ahead"
+        },
+        {
+          "num": null,
+          "text": "When they send for the flying gang.'"
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 25,
+          "text": "Then across the miles of the saltbush plain"
+        },
+        {
+          "num": null,
+          "text": "That gleamed with the morning dew,"
+        },
+        {
+          "num": null,
+          "text": "Where the grasses waved like the ripening grain"
+        },
+        {
+          "num": null,
+          "text": "The pilot engine flew,"
+        },
+        {
+          "num": null,
+          "text": "A fiery rush in the open bush"
+        },
+        {
+          "num": 30,
+          "text": "Where the grade marks seemed to fly,"
+        },
+        {
+          "num": null,
+          "text": "And the order sped on the wires ahead,"
+        },
+        {
+          "num": null,
+          "text": "The pilot MUST go by."
+        },
+        {
+          "num": null,
+          "text": "The Governor's special must stand aside,"
+        },
+        {
+          "num": null,
+          "text": "And the fast express go hang,"
+        },
+        {
+          "num": 35,
+          "text": "Let your orders be that the line is free"
+        },
+        {
+          "num": null,
+          "text": "For the boys of the flying gang."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q37",
+          "q_number": 82,
+          "question_type": "mc",
+          "question": "The first stanza (lines 1–12) conveys a central idea of the poem by",
+          "options": {
+            "A": "showing how the members of the flying gang were chosen.",
+            "B": "explaining the occupation of the narrator.",
+            "C": "comparing the work of the flying gang to the jobs performed by other railroad workers.",
+            "D": "implying that the narrator was required to travel long distances."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q37.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q38",
+          "q_number": 83,
+          "question_type": "mc",
+          "question": "Read lines 5–6 from the first stanza.\n\n“'Twas a chosen band that was kept at hand\nIn case of an urgent need,”\n\nHow do the lines contribute to the development of ideas in the stanza?",
+          "options": {
+            "E": "The lines emphasize the immediacy and importance of the narrator's work.",
+            "F": "The lines indicate how musicians were an integral part of railroad work.",
+            "G": "The lines reveal the narrator's intention to persevere in a difficult situation.",
+            "H": "The lines show how the narrator began his employment at the railroad."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q38.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q39",
+          "q_number": 84,
+          "question_type": "mc",
+          "question": "Which line from the poem best supports the idea that the flying gang was used for the largest, most important repairs the railroad needed?",
+          "options": {
+            "A": "“I served my time, in the days gone by,\nIn the railway's clash and clang,” (lines 1–2)",
+            "B": "“And I worked my way to the end, and I\nWas the head of the 'Flying Gang.'” (lines 3–4)",
+            "C": "“If word reached town that a bridge was down,\nThe imperious summons rang—” (lines 9–10)",
+            "D": "“'Come out with the pilot engine sharp,\nAnd away with the flying gang.'” (lines 11–12)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q39.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q40",
+          "q_number": 85,
+          "question_type": "mc",
+          "question": "The poet develops the speaker's point of view in the second stanza (lines 13–24) by",
+          "options": {
+            "E": "describing the beautiful, desolate countryside through which the flying gang travels.",
+            "F": "showing how the train thrills the city dwellers as it moves through the town.",
+            "G": "illustrating all the preparations necessary before the flying gang can leave.",
+            "H": "contrasting the children's cheerful excitement with the adults' recognition of the job ahead."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q40.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q41",
+          "q_number": 86,
+          "question_type": "mc",
+          "question": "How do the phrases “piercing scream,” “rush of steam,” and “she rocked on the ringing rail” in the second stanza affect the tone of the poem?",
+          "options": {
+            "A": "They suggest that the flying gang must urgently respond to its orders.",
+            "B": "They imply that the flying gang is very noisy when it works.",
+            "C": "They indicate the sounds that one might expect close to a railroad.",
+            "D": "They contrast the quiet of the countryside with the noise the train makes as it passes."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q41.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q42",
+          "q_number": 87,
+          "question_type": "mc",
+          "question": "Which line from the poem best supports the idea that the children do not understand the work of the flying gang?",
+          "options": {
+            "E": "“Then a piercing scream and a rush of steam\nAs the engine moved ahead,” (lines 13–14)",
+            "F": "“And the pilot swayed with the pace we made\nAs she rocked on the ringing rail.” (lines 19–20)",
+            "G": "“And the country children clapped their hands\nAs the engine's echoes rang,” (lines 21–22)",
+            "H": "“But their elders said: 'There is work ahead\nWhen they send for the flying gang.'” (lines 23–24)"
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q42.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q43",
+          "q_number": 88,
+          "question_type": "mc",
+          "question": "Read lines 29–30.\n\n“A fiery rush in the open bush\nWhere the grade marks seemed to fly,”\n\nWhich of the following supports the most likely meaning of these lines?",
+          "options": {
+            "A": "“By the uplands bright and the homesteads white,\nWith the rush of the western gale,” (lines 17–18)",
+            "B": "“But their elders said: 'There is work ahead\nWhen they send for the flying gang.'” (lines 23–24)",
+            "C": "“Then across the miles of the saltbush plain\nThat gleamed with the morning dew,” (lines 25–26)",
+            "D": "“Let your orders be that the line is free\nFor the boys of the flying gang.” (lines 35–36)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q43.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q44",
+          "q_number": 89,
+          "question_type": "mc",
+          "question": "How does the form of the poem contribute to its meaning?",
+          "options": {
+            "E": "The use of an equal number of lines in each stanza emphasizes that each stage of the journey is equally important.",
+            "F": "The regular rhyme scheme and meter reflect the repetitive sound and motion of the train.",
+            "G": "The different stanzas are used to illustrate different aspects of the flying gang and its work.",
+            "H": "The first-person narrator is used to emphasize the dangerous conditions faced by the flying gang."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q44.jpg"
+          }
+        }
+      ],
+      "id": "flying_gang"
+    },
+    {
+      "passage_number": 7,
+      "total_passages": 8,
+      "genre": "informational",
+      "title": "The Panama Canal",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "In 1880, Ferdinand de Lesseps, the force behind the successful completion of the Suez Canal in Egypt, attempted to finance the construction of a canal in Panama. After he successfully shortened many long ocean voyages by connecting the Mediterranean Sea with the Red Sea and eliminated the need for the perilous passage around the entire continent of Africa, he turned his attention to Panama. As he had done in Suez, de Lesseps planned to trim the journey between the Atlantic and Pacific Oceans by cutting across the Isthmus of Panama, the shortest distance between the two oceans. However, by 1888, de Lesseps retreated, discouraged by the many logistical problems he faced in the construction of the canal. For example, the volume of excavation that the canal would require was beyond the capabilities of the era's technology. Likewise, all materials to be used on the canal had to be imported, and communities to house the canal's workers had to be constructed from scratch."
+        },
+        {
+          "num": 2,
+          "text": "The Isthmus of Panama also presented many environmental obstacles that had to be overcome before progress could be made on the canal. The unique geology of the area resulted in frequent landslides, and tropical diseases plagued the workers. In fact, during the six years that de Lesseps' work on the canal continued, between 10,000 and 20,000 workers died from various diseases, most notably malaria and yellow fever. As a result of these hardships, de Lesseps was forced to abandon his project, though his company still retained the right to complete it."
+        },
+        {
+          "num": 3,
+          "text": "Just after the turn of the century, the United States began taking an active interest in the Panama Canal. The United States had been mulling over the idea of investing in a canal in Nicaragua, but experts managed to convince American leaders that the Panama site was better suited for this type of project. However, de Lesseps's Compagnie Nouvelle refused to sell its contracts and equipment for less than $100 million. As the Nicaraguan site was far less expensive, Compagnie Nouvelle came to fear that the Americans would decide on the Nicaraguan canal, so it agreed to sell its Panama site for $40 million. Now, America had only to convince Panama and Colombia—since, at the time, Panama was under Colombian rule—to sell them the land. The Americans approached the Panamanians, who were eager to sell, but the Colombians refused."
+        },
+        {
+          "num": 4,
+          "text": "With support from the United States, which sent warships to prevent Colombia from sending troops by sea, Panama declared its independence. Despite vocal protestations from some Panamanians, some United States lawmakers, and the press, a treaty, giving the United States the right to build and defend the canal as well as administer the territory immediately adjacent to that canal, was signed three days later."
+        },
+        {
+          "num": 5,
+          "text": "America's next step was to control the rampant diseases of the area. Colonel William Crawford Gorgas helped to rid the Isthmus of yellow fever and limit the outbreaks of malaria. Though this was a praiseworthy accomplishment, many of the obstacles that had faced de Lesseps remained. Landslides were still common, so a system of dredges was designed to remove debris from the locks that would be used to move ships across the canal. Once these problems were solved, it still took a decade and the labor of more than 70,000 workers to construct the canal, all at a cost of nearly half a billion dollars and the lives of almost 40% of the workers. The first ship passed through the canal on August 15, 1914, and throughout the twentieth century, nearly a million vessels have crossed the Isthmus via the Panama Canal, not only saving 7,800 miles on the ocean journey from New York to San Francisco, but also sparing ships from the treacherous passage around Cape Horn."
+        },
+        {
+          "num": 6,
+          "text": "After the Second World War, the devious inception of the United States' control of the Panama Canal began to show its effects: more Panamanians began to demand the United States return the territory to Panama. Riots erupted in the Canal Zone in 1964, and the United States reinforced the military assigned to defend the Canal. Pressure continued to build on the United States to return the Canal, and in 1974, the United States' president began negotiations to do so. Three years later, a new treaty was signed which returned the land, the Canal, and its operation to Panama, in return for Panama guaranteeing the permanent neutrality of the Canal. Today, the Canal provides the largest portion of Panama's annual revenue."
+        }
+      ],
+      "passage_figure_html": "<div style=\"text-align:center;font-weight:700;font-size:0.85em;margin-bottom:6px;\">OCEAN TRADE ROUTES BETWEEN NEW YORK CITY AND SAN FRANCISCO</div><img src=\"kaplan_2025_2/passage_figures/panama_map.jpg\" alt=\"Map of ocean trade routes between New York City and San Francisco, comparing the route through the Panama Canal (5,200 miles) to the route around South America (13,000 miles)\" style=\"max-width:100%;display:block;margin:0 auto 16px;border-radius:4px;\"><div style=\"text-align:center;font-weight:700;font-size:0.85em;margin-bottom:6px;\">APPROXIMATE VOYAGE TIME FROM U.S. GULF COAST THROUGH PANAMA CANAL OR OTHER ROUTES</div><img src=\"kaplan_2025_2/passage_figures/panama_chart.jpg\" alt=\"Chart comparing approximate voyage time in days from the U.S. Gulf Coast to various South American and Asian countries via the Panama Canal, Suez Canal, or other routes\" style=\"max-width:100%;display:block;margin:0 auto;border-radius:4px;\">",
+      "questions": [
+        {
+          "id": "KM2_Q45",
+          "q_number": 90,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "A": "The Panama Canal is key to the history of the entire region of Central America in the late 1800s.",
+            "B": "The Panama Canal represented the failure of the Panamanian revolution as the canal fell under United States control.",
+            "C": "The Panama Canal had a massive impact on international trade.",
+            "D": "The Panama Canal faced difficulties in its planning and construction."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q45.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q46",
+          "q_number": 91,
+          "question_type": "mc",
+          "question": "The map contributes to the development of the topic of the passage mainly by",
+          "options": {
+            "E": "illustrating that Panama was a more advantageous location than Nicaragua for the building of a canal that would shorten the journey from the East and West coasts of the United States.",
+            "F": "suggesting that the much shorter ocean voyage between the North American coasts through the Isthmus of Panama was a compelling reason for the building of the Panama Canal.",
+            "G": "revealing that the route through the Panama Canal is not the only ocean trade route between New York City and San Francisco.",
+            "H": "showing that the environmental, logistical, and political obstacles standing in the way of building the Panama Canal can eventually be overcome."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q46.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q47",
+          "q_number": 92,
+          "question_type": "mc",
+          "question": "The hardships that de Lesseps experienced in building his canal are best illustrated through the",
+          "options": {
+            "A": "hurdles necessary to gain Panama's political independence from Columbia.",
+            "B": "financial problems he faced in securing funding for its construction.",
+            "C": "Colombian government's stance against allowing the United States to build and operate a canal in Panama.",
+            "D": "logistical and environmental challenges he faced while operating in the isthmus of Panama."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q47.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q48",
+          "q_number": 93,
+          "question_type": "mc",
+          "question": "Which evidence from the passage best supports the claim in paragraph 3 that “the Americans would decide on the Nicaraguan canal”?",
+          "options": {
+            "E": "the assertion that it would be cheaper to build a canal at the Nicaraguan site",
+            "F": "the recommendation of the experts that a canal be built at the Nicaraguan site",
+            "G": "the revelation that the Nicaraguans had nearly completed their canal already",
+            "H": "the description of the Nicaraguan site as the shortest span of distance between the Atlantic and Pacific"
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q48.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q49",
+          "q_number": 94,
+          "question_type": "mc",
+          "question": "How does the graph support the development of ideas in paragraph 1?",
+          "options": {
+            "A": "It provides evidence that the voyage time from the U.S. Gulf coast to many other countries through the Panama Canal is shorter on average than via other routes.",
+            "B": "It proves that the time it takes to travel from the U.S. Gulf coast to other countries using the Suez canal rather than the Panama Canal is shorter in most cases.",
+            "C": "It illustrates the surprising fact that it takes approximately the same amount of time for a ship to reach Indonesia from the U.S. Gulf coast no matter which route is taken.",
+            "D": "It shows that leaders in the United States were inspired by Ferdinand de Lesseps to complete building the canal in Panama rather than in Nicaragua."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q49.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q50",
+          "q_number": 95,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "E": "The United States spent much more to build the canal than was expected.",
+            "F": "The diseases in the area were a major impediment to U.S. construction of the canal.",
+            "G": "Ferdinand de Lesseps did not want the United States to have control over the canal.",
+            "H": "The canal project damaged relations between the United States and Panama."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q50.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q51",
+          "q_number": 96,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 5.\n\n“Once these problems were solved, it still took a decade and the labor of more than 70,000 workers to construct the canal, all at a cost of nearly half a billion dollars and the lives of almost 40% of the workers.”\n\nHow does the sentence contribute to the structure and development of ideas in the passage?",
+          "options": {
+            "A": "It contrasts the success achieved by the United States with the failure of de Lesseps to overcome the environmental and logistical issues of the site.",
+            "B": "It criticizes the huge expense and the human cost required to successfully complete the Panama Canal.",
+            "C": "It indicates that the cost of constructing the canal was worthwhile because of the time saved and the revenues generated by the canal.",
+            "D": "It emphasizes the continued challenges presented earlier in the passage while recognizing that they were eventually overcome."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q51.jpg"
+          }
+        }
+      ],
+      "id": "panama_canal"
+    },
+    {
+      "passage_number": 8,
+      "total_passages": 8,
+      "genre": "literary",
+      "title": "Excerpt from “The Adventure of the Speckled Band”",
+      "author": "Sir Arthur Conan Doyle",
+      "citation": null,
+      "intro_note": "In this excerpt, renowned detective Sherlock Holmes and his companion and chronicler Dr. Watson have received an early morning visit from a distraught woman, afraid for her life. The stepdaughter of Dr. Grimesby Roylott, she has witnessed the mysterious death of her sister and been ill-treated by her stepfather, a violent and unpredictable man, who has unexpectedly burst in on Holmes and Watson.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "[O]ur door had been suddenly dashed open, and . . . a huge man had framed himself in the aperture. His costume was a peculiar mixture of the professional and of the agricultural, having a black top-hat, a long frock-coat, and a pair of high gaiters, with a hunting crop swinging in his hand. So tall was he that his hat actually brushed the crossbar of the doorway, and his breadth seemed to span it across from side to side. A large face, seared with a thousand wrinkles, burned yellow with the sun, and marked with every evil passion, was turned from one to the other of us, while his deep-set, bile-shot eyes, and his high, thin, fleshless nose, gave him somewhat the resemblance to a fierce old bird of prey."
+        },
+        {
+          "num": 2,
+          "text": "“Which of you is Holmes?” asked this apparition."
+        },
+        {
+          "num": 3,
+          "text": "“My name, sir; but you have the advantage of me,” said my companion quietly."
+        },
+        {
+          "num": 4,
+          "text": "“I am Dr. Grimesby Roylott, of Stoke Moran.”"
+        },
+        {
+          "num": 5,
+          "text": "“Indeed, Doctor,” said Holmes blandly. “Pray take a seat.”"
+        },
+        {
+          "num": 6,
+          "text": "“I will do nothing of the kind. My stepdaughter has been here. I have traced her. What has she been saying to you?”"
+        },
+        {
+          "num": 7,
+          "text": "“It is a little cold for the time of the year,” said Holmes."
+        },
+        {
+          "num": 8,
+          "text": "“What has she been saying to you?” screamed the old man furiously."
+        },
+        {
+          "num": 9,
+          "text": "“But I have heard that the crocuses promise well,” continued my companion imperturbably."
+        },
+        {
+          "num": 10,
+          "text": "“Ha! You put me off, do you?” said our new visitor, taking a step forward and shaking his hunting crop. “I know you, you scoundrel! I have heard of you before. You are Holmes, the meddler.”"
+        },
+        {
+          "num": 11,
+          "text": "My friend smiled."
+        },
+        {
+          "num": 12,
+          "text": "“Holmes, the busybody!”"
+        },
+        {
+          "num": 13,
+          "text": "His smile broadened."
+        },
+        {
+          "num": 14,
+          "text": "“Holmes, the Scotland Yard Jack-in-office!”"
+        },
+        {
+          "num": 15,
+          "text": "Holmes chuckled heartily. “Your conversation is most entertaining,” said he. “When you go out close the door, for there is a decided draught.”"
+        },
+        {
+          "num": 16,
+          "text": "“I will go when I have said my say. Don't you dare to meddle with my affairs. I know that Miss Stoner has been here. I traced her! I am a dangerous man to fall foul of! See here.” He stepped swiftly forward, seized the poker, and bent it into a curve with his huge brown hands."
+        },
+        {
+          "num": 17,
+          "text": "“See that you keep yourself out of my grip,” he snarled, and hurling the twisted poker into the fireplace he strode out of the room."
+        },
+        {
+          "num": 18,
+          "text": "“He seems a very amiable person,” said Holmes, laughing. “I am not quite so bulky, but if he had remained I might have shown him that my grip was not much more feeble than his own.” As he spoke he picked up the steel poker and, with a sudden effort, straightened it out again."
+        },
+        {
+          "num": 19,
+          "text": "“Fancy his having the insolence to confound me with the official detective force! This incident gives zest to our investigation, however, and I only trust that our little friend will not suffer from her imprudence in allowing this brute to trace her. And now, Watson, we shall order breakfast, and afterwards I shall walk down to Doctors' Commons, where I hope to get some data which may help us in this matter.”"
+        },
+        {
+          "num": 20,
+          "text": "It was nearly one o'clock when Sherlock Holmes returned from his excursion. He held in his hand a sheet of blue paper, scrawled over with notes and figures."
+        },
+        {
+          "num": 21,
+          "text": "“I have seen the will of the deceased wife,” said he. “To determine its exact meaning I have been obliged to work out the present prices of the investments with which it is concerned. The total income, which at the time of the wife's death was little short of 1100 pounds, is now, through the fall in agricultural prices, not more than 750 pounds. Each daughter can claim an income of 250 pounds, in case of marriage. It is evident, therefore, that if both girls had married, this beauty would have had a mere pittance, while even one of them would cripple him to a very serious extent. My morning's work has not been wasted, since it has proved that he has the very strongest motives for standing in the way of anything of the sort. And now, Watson, this is too serious for dawdling, especially as the old man is aware that we are interesting ourselves in his affairs; so if you are ready, we shall call a cab and drive to Waterloo. I should be very much obliged if you would slip your revolver into your pocket. An Eley's No. 2 is an excellent argument with gentlemen who can twist steel pokers into knots. That and a toothbrush are, I think, all that we need.”"
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM2_Q52",
+          "q_number": 97,
+          "question_type": "mc",
+          "question": "How does paragraph 9 fit into the overall structure of the excerpt?",
+          "options": {
+            "E": "It establishes that this is a meeting between two satiric adversaries.",
+            "F": "It illustrates the calmness of Holmes in the face of possible danger.",
+            "G": "It highlights the somewhat unseasonable weather.",
+            "H": "It describes the degree of Dr. Roylott's anger."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q52.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q53",
+          "q_number": 98,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "A": "Dr. Roylott's stepdaughter speaking with Holmes influences Dr. Roylott to threaten Holmes in order to find out what his stepdaughter has said.",
+            "B": "Dr. Roylott's stepdaughter speaking with Holmes influences Dr. Roylott to burst into the room and physically assault both Holmes and Dr. Watson.",
+            "C": "Dr. Roylott's stepdaughter speaking with Holmes influences Dr. Roylott to furiously deny the accusations that his stepdaughter has made.",
+            "D": "Dr. Roylott's stepdaughter speaking with Holmes influences Dr. Roylott to threaten his stepdaughter's life if Holmes doesn't stop investigating."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q53.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q54",
+          "q_number": 99,
+          "question_type": "mc",
+          "question": "The words “scoundrel” and “meddler” in paragraph 10 contribute to the meaning of the paragraph by",
+          "options": {
+            "E": "conveying that Dr. Roylott is a violent, unhinged person who does not care whom he attacks.",
+            "F": "underlining that Dr. Roylott knows enough about Holmes to view him as a threat.",
+            "G": "emphasizing that Dr. Roylott is taking care not to come across as potentially guilty.",
+            "H": "revealing that Dr. Roylott knows exactly who Holmes is and what he does for a living."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q54.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q55",
+          "q_number": 100,
+          "question_type": "mc",
+          "question": "How does the author's use of various insults in paragraphs 10–14 contribute to the development of ideas in the passage?",
+          "options": {
+            "A": "They reveal that Dr. Roylott will insult every man that he meets.",
+            "B": "They illustrate that Holmes is calm until his profession is called into question.",
+            "C": "They demonstrate that Dr. Roylott is trying and failing to make Holmes afraid of him.",
+            "D": "They highlight the ever-increasing outrage that Holmes feels."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q55.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q56",
+          "q_number": 101,
+          "question_type": "mc",
+          "question": "How does paragraph 17 fit into the overall structure of the excerpt?",
+          "options": {
+            "E": "It introduces a shift from the perspective of Dr. Roylott to that of Dr. Watson.",
+            "F": "It emphasizes that neither Dr. Roylott nor his stepdaughter can intimidate Holmes.",
+            "G": "It offers a practical explanation for why Holmes is not afraid of Dr. Roylott.",
+            "H": "It indicates that the conversation between Holmes and Dr. Roylott is now over."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q56.jpg"
+          }
+        },
+        {
+          "id": "KM2_Q57",
+          "q_number": 102,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that Dr. Roylott poses no actual threat to the safety of Holmes?",
+          "options": {
+            "A": "“'Pray take a seat.'” (paragraph 5)",
+            "B": "“Holmes chuckled heartily. 'Your conversation is most entertaining,' said he.” (paragraph 15)",
+            "C": "“'He seems a very amiable person,' said Holmes, laughing.” (paragraph 18)",
+            "D": "“'. . . my grip was not much more feeble than his own.'” (paragraph 18)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_2/solutions/Q57.jpg"
+          }
+        }
+      ],
+      "id": "speckled_band"
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-FE5-KM2_Q01",
+      "q_number": 103,
+      "question_type": "mc",
+      "question": "(1) A dedicated firefighter leads the crew at Station 12 and is known for responding quickly to emergencies. (2) On every call, he assesses the situation, the firefighter who saves lives for a living, before directing his team. (3) Residents trust his judgment during dangerous situations. (4) Leading the station has taught him valuable lessons about composure and teamwork.\n\nWhich sentence should be revised to correct a wordiness issue?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "In sentence 2, the phrase \"the firefighter who saves lives for a living\" is redundant — the sentence already establishes he's a \"dedicated firefighter\" who \"leads the crew.\" Deleting the phrase loses no actual information.\n\n**Why this sounds right:** \"The firefighter who saves lives for a living\" is phrased like a relative clause adding new detail, so it doesn't immediately register as filler — only checking it against the earlier \"dedicated firefighter\" and \"leads the crew\" reveals it repeats what's already been said.\n\n**The concept:** Wordiness happens when a sentence says the same thing twice in different words, or includes a phrase that doesn't add new information because something else in the sentence already implies it. Test a phrase by asking: if I deleted this, would the sentence lose any actual meaning? If not, it's redundant and should be cut.\n\n**More examples of this mistake:**\n- \"The two of them worked together collaboratively to finish the mural.\" (\"Together\" and \"collaboratively\" say the same thing twice.)\n- \"She gave a brief, short summary of the book.\" (\"Brief\" and \"short\" are redundant — pick one.)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 (KM2_Q01)",
+      "base_question": {
+        "stimulus": "(1) A talented geographer, the professor, who teaches college students, is an expert at locating cities and countries on maps. (2) In his lectures, he explains cartography, or map-making, which involves surveying the Earth's surface to represent its physical structures. (3) Geographers use maps with different projections that can display the Earth's various features, including mountains, the magnetic poles, and oceans. (4) Studying the field of geography provides knowledge about its connections to biology, sociology, and history, among other subjects.",
+        "question": "Which sentence should be revised to correct a wordiness issue?",
+        "options": {
+          "A": "sentence 1",
+          "B": "sentence 2",
+          "C": "sentence 3",
+          "D": "sentence 4"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q01.jpg"
+        }
+      }
+    },
+    {
+      "id": "P-FE5-KM2_Q02",
+      "q_number": 104,
+      "question_type": "mc",
+      "question": "(1) Becoming a licensed pilot requires years of rigorous flight training and several FAA exams. (2) Pilots must also accumulate a minimum number of flight hours before flying commercially. (3) After completing flight school, the next several years of a pilot's career are spent building flight experience and earning additional certifications. (4) Many pilots eventually specialize in a particular type of aircraft.\n\nWhich sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "sentence 1",
+        "B": "sentence 2",
+        "C": "sentence 3",
+        "D": "sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Modifying phrases must sit directly next to the thing they describe. In sentence 3, \"After completing flight school\" is placed next to \"the next several years,\" which makes it sound like the years themselves completed flight school — it should be placed next to a word like \"a pilot.\"\n\n**Why this sounds right:** \"The next several years\" sits directly after the comma and is topically connected to the idea of time passing after flight school, so the phrase doesn't immediately clash — even though years themselves can't complete flight school.\n\n**The concept:** A describing phrase attaches to whatever noun sits closest to it, usually the noun right after it. If that's not the noun the phrase is actually meant to describe, the sentence ends up saying something illogical — a modifier \"dangling\" with nothing correct to attach to, or \"misplaced\" and describing the wrong thing. Find the noun the phrase is logically describing, then make sure that noun (not some other noun that happens to be nearby) is the one sitting right next to it.\n\n**More examples of this mistake:**\n- \"After practicing for months, the piano recital finally arrived.\" (The recital didn't practice — should be \"After practicing for months, Mia finally performed in the piano recital.\")\n- \"Having forgotten her umbrella, the rain soaked through her jacket.\" (The rain didn't forget anything — should be \"Having forgotten her umbrella, Priya got soaked in the rain.\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 (KM2_Q02)",
+      "base_question": {
+        "stimulus": "(1) After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree in computer science. (2) The coursework revolves around programming, which is the preparation of instructions that tell the computer which operations it needs to perform. (3) Students learn formulas as well as programs that translate complex computer languages. (4) With new advancements every day, the computer science field requires professionals to constantly learn about applying the latest technology.",
+        "question": "Which sentence contains an error in its construction and should be revised?",
+        "options": {
+          "E": "sentence 1",
+          "F": "sentence 2",
+          "G": "sentence 3",
+          "H": "sentence 4"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q02.jpg"
+        }
+      }
+    },
+    {
+      "id": "P-FE5-KM2_Q03",
+      "q_number": 105,
+      "question_type": "mc",
+      "question": "The new mentorship program gives incoming freshmen the opportunity of connecting with alumni who work in their intended field of study.\n\nWhich edit should be made to correct this sentence?",
+      "options": {
+        "A": "Change **gives** to **give**.",
+        "B": "Change **opportunity of connecting** to **opportunity to connect**.",
+        "C": "Change **who work** to **whom work**.",
+        "D": "Change **intended field** to **intending field**."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "\"Opportunity\" takes the idiomatic pattern \"opportunity to + verb,\" not \"opportunity of + verb-ing.\" So \"opportunity of connecting\" must become \"opportunity to connect.\"\n\n**Why this sounds right:** \"Of\" is a preposition that commonly follows nouns in English, so \"opportunity of connecting\" sounds like ordinary, idiomatic phrasing even though the correct formal pairing is \"opportunity to connect.\"\n\n**The concept:** Certain English nouns and verbs are followed by a specific pattern — some take \"to\" + the base verb (an infinitive: \"the chance to go\"), others take a preposition + the \"-ing\" form (\"accused of lying\"). Which pattern a given word takes isn't something you can work out from a rule; it's learned case by case, which is why these are called \"idiomatic\" — they just have to sound right. Words like \"opportunity,\" \"chance,\" \"ability,\" and \"right\" all take \"to + verb,\" never \"of + verb-ing.\"\n\n**More examples of this mistake:**\n- \"He is capable to solve the puzzle in record time.\" (Should be \"capable of solving\" — \"capable\" pairs with \"of\" + the \"-ing\" form, not \"to\" + the base verb.)\n- \"The team succeeded to finish the project early.\" (Should be \"succeeded in finishing.\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 (KM2_Q03)",
+      "base_question": {
+        "stimulus": "The federal government provides low-interest loans that allow students of deferring payment until they graduate and begin to work.",
+        "question": "Which edit should be made to correct this sentence?",
+        "options": {
+          "A": "Change **provides** to **provide**.",
+          "B": "Change **allow** to **allowed**.",
+          "C": "Change **of deferring** to **to defer**.",
+          "D": "Change **begin to** to **begin with**."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q03.jpg"
+        }
+      }
+    },
+    {
+      "id": "P-FE5-KM2_Q04",
+      "q_number": 106,
+      "question_type": "mc",
+      "question": "The research submarine, which offers scientists access to ocean depths unreachable by surface vessels, descending to depths of over ten thousand feet without sustaining structural damage.\n\nWhich edit should be made to correct the sentence?",
+      "options": {
+        "A": "Change **which offers** to **offering**.",
+        "B": "Change **unreachable** to **that is unreachable**.",
+        "C": "Change **sustaining** to **having sustained**.",
+        "D": "Change **descending** to **descends**."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "As written, the sentence has no main verb for the subject \"The research submarine\" — it's a fragment. Changing \"descending\" to \"descends\" gives it a working main verb.\n\n**Why this sounds right:** \"Descending to depths of over ten thousand feet\" reads like a smooth, natural continuation of the sentence's description, so you don't notice the sentence never actually finishes with a working main verb for \"the research submarine.\"\n\n**The concept:** Every complete sentence needs a subject and a working main verb. Phrases that start with \"which\"/\"who\" or end in \"-ing\" (like \"offering\" or \"generating\") are describing phrases, not main verbs — they can't carry the sentence by themselves. If a sentence is just one long string of describing phrases with no verb doing the main action, it's a fragment. The fix is usually turning one of those \"-ing\" words into a real verb (\"generating\" → \"generates\").\n\n**More examples of this mistake:**\n- \"Walking along the beach at sunset, collecting shells.\" (No subject, no main verb — just two describing phrases. Fix: \"She walked along the beach at sunset, collecting shells.\")\n- \"The report that was due on Friday afternoon.\" (\"That was due on Friday afternoon\" is a describing clause, not a main verb for \"the report.\" Fix: \"The report was due on Friday afternoon.\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 (KM2_Q04)",
+      "base_question": {
+        "stimulus": "The helicopter, which offers the advantages of flight without requiring large amounts of space for takeoff and landing, allowing relatively easy access to places as remote as mountaintops.",
+        "question": "Which edit should be made to correct the sentence?",
+        "options": {
+          "E": "Change **which offers** to **offering**.",
+          "F": "Change **large amounts of space** to **space in large amounts**.",
+          "G": "Change **takeoff and landing** to **the takeoff as well as the landing**.",
+          "H": "Change **allowing** to **allows**."
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q04.jpg"
+        }
+      }
+    },
+    {
+      "id": "P-FE5-KM2_Q05",
+      "q_number": 107,
+      "question_type": "mc",
+      "question": "(1) Japan is home to more than 100 active volcanoes. (2) One of Japan's most famous volcanoes is Mount Fuji. (3) Mount Fuji attracts more than 300,000 climbers to its summit each year.\n\nWhat is the best way to combine the sentences?",
+      "options": {
+        "A": "Japan is home to more than 100 active volcanoes, and one of them is Mount Fuji, which attracts more than 300,000 climbers to its summit each year.",
+        "B": "Mount Fuji, one of Japan's most famous volcanoes, attracts more than 300,000 climbers to its summit each year, and Japan is home to more than 100 active volcanoes.",
+        "C": "Mount Fuji attracts more than 300,000 climbers to its summit each year, one of Japan's most famous volcanoes, and Japan is home to more than 100 active volcanoes.",
+        "D": "Japan is home to more than 100 active volcanoes, including Mount Fuji, which attracts more than 300,000 climbers to its summit each year."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "(D) correctly nests Mount Fuji as an example within the main point about Japan's volcanoes, using \"including...which.\" (A) uses \"and\" to treat the two ideas as equal, separate facts instead of nesting the detail. (B) and (C) lead with the detail about Mount Fuji instead of the main point about Japan.\n\n**Why this sounds right:** Option A still reads as a fluent, grammatically fine sentence since \"and\" smoothly joins the two ideas, so the structural issue of which fact is primary doesn't register as an error the way a word-level mistake would.\n\n**The concept:** When combining several short sentences about one subject, there's usually one \"main point\" and the rest are supporting details. The strongest combination makes the main point the main clause and folds the other facts in as describing phrases or clauses, in whatever order makes the most logical sense. Watch out for answers that just string everything together with \"and,\" since that treats every fact as equally important and loses the sense of what matters most.\n\n**More examples of this mistake:**\n- Weak: \"The bakery opens at six. It sells fresh croissants. Many customers line up before it opens.\" Stronger: \"Many customers line up before the bakery opens at six to buy its fresh croissants.\" (Folds the supporting details into one sentence built around the real main point.)\n- Weak: \"The lake freezes every winter. Skaters flock to it. The ice can get over a foot thick.\" Stronger: \"Every winter, skaters flock to the lake as it freezes to over a foot thick.\" (Same fix — one main clause, details folded in.)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 (KM2_Q05)",
+      "base_question": {
+        "stimulus": "(1) New York state has more than 70,000 miles of rivers and streams. (2) One of New York's rivers is the Hudson River. (3) The Hudson River is home to dozens of rare birds and more than a hundred rare plants.",
+        "question": "What is the best way to combine the sentences?",
+        "options": {
+          "A": "The Hudson River, one of New York's rivers, is home to dozens of rare birds and more than a hundred rare plants, and New York state has more than 70,000 miles of rivers and streams.",
+          "B": "New York state has more than 70,000 miles of rivers and streams, and one of them is the Hudson River, which is home to dozens of rare birds and more than a hundred rare plants.",
+          "C": "The Hudson River, home to dozens of rare birds and more than a hundred rare plants, is one of New York State's rivers, and New York state has more than 70,000 miles of rivers and streams.",
+          "D": "New York state has more than 70,000 miles of rivers and streams, including the Hudson River, which is home to dozens of rare birds and more than a hundred rare plants."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q05.jpg"
+        }
+      }
+    }
+  ]
+}
