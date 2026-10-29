@@ -1,79 +1,48 @@
 {
   "math_questions": [
     {
-      "id": "P1029-M-AM02",
-      "q_number": 1,
+      "id": "P1029-M-EM09",
       "question_type": "mc",
-      "question": "A drone is traveling \\(45\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the drone's speed in **feet per second**?",
+      "question": "In the set of consecutive integers from \\(20\\) to \\(50\\), inclusive, how many integers are multiples of neither \\(3\\) nor \\(5\\)?",
       "options": {
-        "A": "\\(\\dfrac{45 \\cdot 5{,}280}{3{,}600}\\)",
-        "B": "\\(\\dfrac{45 \\cdot 5{,}280}{1}\\)",
-        "C": "\\(\\dfrac{45 \\cdot 3{,}600}{5{,}280}\\)",
-        "D": "\\(\\dfrac{45 \\cdot 5{,}280}{60}\\)"
+        "A": "\\(16\\)",
+        "B": "\\(17\\)",
+        "C": "\\(14\\)",
+        "D": "\\(15\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "Divide 45 mph by the number of seconds in an hour (60 × 60 = 3,600) to get miles per second, then multiply by 5,280 to convert to feet per second: (45 × 5,280) / 3,600 = 66 ft/s."
+        "exhibit_text": "31 integers total. Multiples of 3: 10. Multiples of 5: 7. Multiples of 15: 2. Multiples of 3 or 5: 10+7−2=15. Neither: 31−15=16."
       },
-      "base_source": "Exam A — Math Q2 (AM02)",
+      "base_source": "Exam E — Math Q9 (EM09)",
       "base_question": {
-        "question": "A car is traveling \\(55\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the car's speed in **feet per second**?",
+        "question": "In the set of consecutive integers from 10 to 40, inclusive, how many integers are multiples of neither 3 nor 4?",
         "options": {
-          "A": "\\(\\dfrac{55 \\cdot 5{,}280}{1}\\)",
-          "B": "\\(\\dfrac{55 \\cdot 5{,}280}{3{,}600}\\)",
-          "C": "\\(\\dfrac{55 \\cdot 3{,}600}{5{,}280}\\)",
-          "D": "\\(\\dfrac{55 \\cdot 5{,}280}{60}\\)"
+          "A": "15",
+          "B": "16",
+          "C": "17",
+          "D": "18"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "(B) Divide the rate (\\(55\\) miles per hour) by the number of seconds in an hour (\\(60\\) minutes x \\(60\\) seconds \\(= 3{,}600\\) seconds):\n\n\\[\\dfrac{55}{3{,}600} \\text{ miles per second}\\]\n\nMultiply by the number of feet in a mile (\\(5{,}280\\)):\n\n\\[\\dfrac{55 \\times 5{,}280}{3{,}600} \\text{ feet per second}\\]"
+          "exhibit_text": "There are \\(40 - 10 + 1 = 31\\) integers between 10 and 40, inclusive. You must add 1 because simply subtracting \\(40-10\\) gives the numbers *between* the two endpoints of 10 and 40. Here, you are told that the endpoints are included. To determine the number of integers that are multiples of neither 3 nor 4, determine the number of integers that *are* multiples of 3, 4, or both, and subtract this from the total of 31.\n\nA number is a multiple of 3 if it is divisible by 3, so the multiples of 3 between 10 and 40, inclusive, are 12, 15, 18, 21, 24, 27, 30, 33, 36, and 39. There are 10 numbers in this list. Using similar logic, the multiples of 4 between 10 and 40, inclusive, are 12, 16, 20, 24, 28, 32, 36, and 40. There are 8 numbers in this list. However, observe that the numbers 12, 24, and 36 appear on both lists. Therefore, there are \\(10+8-3=15\\) numbers that are multiples of 3, 4, or both.\n\nThus, there are \\(31-15=16\\) integers between 10 and 40 inclusive that are multiples of neither 3 nor 4."
         }
-      }
-    },
-    {
-      "id": "P1029-M-AM06",
-      "q_number": 2,
-      "question_type": "mc",
-      "question": "\\(9 + (5n + 4) - (6n + 7) = \\)",
-      "options": {
-        "A": "\\(6 + n\\)",
-        "B": "\\(6 - n\\)",
-        "C": "\\(20 - n\\)",
-        "D": "\\(20 + n\\)"
       },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Distribute the subtraction: 9 + 5n + 4 - 6n - 7 = (9+4-7) + (5n-6n) = 6 - n."
-      },
-      "base_source": "Exam A — Math Q6 (AM06)",
-      "base_question": {
-        "question": "\\(7 + (3n + 6) - (4n + 8) = \\)",
-        "options": {
-          "A": "\\(5 - n\\)",
-          "B": "\\(5 + n\\)",
-          "C": "\\(21 - n\\)",
-          "D": "\\(21 + n\\)"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "(A) \\(7 + 3n + 6 - 4n - 8 =\\)\n\\((7 + 6 - 8) + (3n - 4n) =\\)\n\\(5 - n\\)"
-        }
-      }
+      "q_number": 1
     },
     {
       "id": "P1029-M-AM07",
-      "q_number": 3,
       "question_type": "mc",
-      "question": "In a certain school, course grades range from \\(0\\) to \\(100\\). Felix took \\(6\\) courses and his mean course grade was \\(85\\). Priya took \\(10\\) courses. If both students have the same sum of course grades, what was Priya's mean?",
+      "question": "In a certain school, course grades range from \\(0\\) to \\(100\\). Kai took \\(6\\) courses and his mean course grade was \\(80\\). Dana took \\(10\\) courses. If both students have the same sum of course grades, what was Dana's mean?",
       "options": {
-        "A": "\\(85\\)",
-        "B": "\\(56\\)",
-        "C": "\\(51\\)",
-        "D": "\\(93\\)"
+        "A": "\\(40\\)",
+        "B": "\\(48\\)",
+        "C": "\\(60\\)",
+        "D": "\\(80\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Felix's sum of grades is 6 × 85 = 510. Priya has the same sum spread across 10 courses, so her mean is 510 / 10 = 51."
+        "exhibit_text": "Kai's total: 6 × 80 = 480. Dana's mean: 480 / 10 = 48."
       },
       "base_source": "Exam A — Math Q7 (AM07)",
       "base_question": {
@@ -88,352 +57,22 @@
         "solution": {
           "exhibit_text": "(A) The sum of Adrianna's course grades equals \\(4\\) times the mean (average) of her grades:\n\n\\[90 \\times 4 = 360\\]\n\nRoberto has the same sum (\\(360\\)) as Adrianna. Find the mean of his course grades:\n\n\\[360 \\div 5 = 72\\]"
         }
-      }
-    },
-    {
-      "id": "P1029-M-AM18",
-      "q_number": 4,
-      "question_type": "mc",
-      "question": "Mr. Alvarez bought \\(5\\) bottles of juice for $\\(1.10\\) each and \\(8\\) pounds of cheese. He paid a total of $\\(35.50\\) for these items, **not** including tax. What was the price per pound of the cheese?",
-      "options": {
-        "A": "$\\(2.80\\)",
-        "B": "$\\(30.00\\)",
-        "C": "$\\(4.44\\)",
-        "D": "$\\(3.75\\)"
       },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "5 bottles at $1.10 each cost $5.50. Subtract that from the $35.50 total: $35.50 − $5.50 = $30.00 for the cheese. Divide by 8 pounds: $30.00 / 8 = $3.75 per pound."
-      },
-      "base_source": "Exam A — Math Q18 (AM18)",
-      "base_question": {
-        "question": "Mrs. Cranston bought five bottles of water for $\\(0.90\\) each and \\(8\\) pounds of meat. She paid a total of $\\(26.90\\) for these items, **not** including tax. What was the price per pound of the meat?",
-        "options": {
-          "A": "$\\(2.80\\)",
-          "B": "$\\(3.25\\)",
-          "C": "$\\(14.40\\)",
-          "D": "$\\(22.40\\)"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "(A) Let \\(x\\) be the price per pound of the meat. Set up an equation to show what Mrs. Cranston spent:\n\n\\[5(0.90) + 8x = 26.90\\]\n\\[4.50 + 8x = 26.90\\]\n\\[8x = 22.40\\]\n\\[x = 2.80\\]\n\nThe price per pound of the meat was $\\(2.80\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM20",
-      "q_number": 5,
-      "question_type": "mc",
-      "question": "\\(1\\) zeb \\(= 4\\) orns\\\\\\(2\\) quibs \\(= 5\\) trels\\\\\\(5\\) zebs \\(= 2\\) fenns\\\\\\(1\\) quib \\(= 3\\) fenns\\\\\\\\A nation has five types of coins: zebs, orns, fenns, quibs, and trels. The relationship between the coins is shown above. Which coin is most valuable?",
-      "options": {
-        "A": "quib",
-        "B": "fenn",
-        "C": "zeb",
-        "D": "trel"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Convert everything to orns: 1 zeb = 4 orns. Since 5 zebs = 2 fenns, 1 fenn = 2.5 zebs = 10 orns. Since 1 quib = 3 fenns, 1 quib = 30 orns. Since 2 quibs = 5 trels, 1 trel = 0.4 quib = 12 orns. Comparing values in orns (zeb=4, fenn=10, quib=30, trel=12), the quib is worth the most."
-      },
-      "base_source": "Exam A — Math Q20 (AM20)",
-      "base_question": {
-        "question": "\\(1\\) sind \\(= 4\\) lorgs\n\\(2\\) plunks \\(= 5\\) dalts\n\\(5\\) sinds \\(= 2\\) harps\n\\(1\\) plunk \\(= 3\\) harps\n\nA nation has five types of coins: sinds, dalts, lorgs, harps, and plunks. The relationship between the coins is shown above. Which coin is most valuable?",
-        "options": {
-          "A": "sind",
-          "B": "dalt",
-          "C": "harp",
-          "D": "plunk"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) \\(1\\) sind \\(= 4\\) lorgs, so \\(1\\) sind \\(> 1\\) lorg.\n\n\\(2\\) harps \\(= 5\\) sinds, so \\(1\\) harp \\(> 1\\) sind.\n\n\\(1\\) plunk \\(= 3\\) harps, so \\(1\\) plunk \\(> 1\\) harp, meaning that \\(1\\) plunk \\(> 1\\) sind and \\(1\\) lorg.\n\n\\(2\\) plunks \\(= 5\\) dalts, so \\(1\\) plunk \\(> 1\\) dalt.\n\nTherefore, the plunk is the most valuable."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM21",
-      "q_number": 6,
-      "question_type": "mc",
-      "question": "The faculty of a certain four-year college consists of \\(210\\) teachers. There are \\(510\\) first-year students. The student-to-faculty ratio for the entire college is \\(12\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
-      "options": {
-        "A": "\\(1{,}740\\)",
-        "B": "\\(2{,}010\\)",
-        "C": "\\(2{,}520\\)",
-        "D": "\\(2{,}730\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Total students = 210 × 12 = 2,520. Subtract the 510 first-year students: 2,520 − 510 = 2,010."
-      },
-      "base_source": "Exam A — Math Q21 (AM21)",
-      "base_question": {
-        "question": "The faculty of a certain four-year college consists of \\(179\\) teachers. There are \\(663\\) first-year students. The student-to-faculty ratio for the entire college is \\(15\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
-        "options": {
-          "A": "\\(1{,}989\\)",
-          "B": "\\(2{,}022\\)",
-          "C": "\\(2{,}652\\)",
-          "D": "\\(2{,}685\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) Let \\(x\\) be the number of second-, third-, and fourth-year students. Then the total number of students in the college is \\(663 + x\\).\n\nSet up a proportion and solve for \\(x\\):\n\n\\[\\dfrac{15}{1} = \\dfrac{663 + x}{179}\\]\n\\[663 + x = 179(15)\\]\n\\[663 + x = 2{,}685\\]\n\\[x = 2{,}022\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM24",
-      "q_number": 7,
-      "question_type": "mc",
-      "question": "The **least** of \\(7\\) consecutive integers is \\(l\\), and the **greatest** is \\(g\\). What is the value of \\(\\dfrac{l+g}{2}\\) in terms of \\(l\\)?",
-      "options": {
-        "A": "\\(2l\\)",
-        "B": "\\(3l\\)",
-        "C": "\\(l + 3\\)",
-        "D": "\\(l + 7\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "With 7 consecutive integers starting at l, the greatest is g = l + 6. So (l+g)/2 = (l + l+6)/2 = (2l+6)/2 = l + 3."
-      },
-      "base_source": "Exam A — Math Q24 (AM24)",
-      "base_question": {
-        "question": "The **least** of \\(5\\) consecutive integers is \\(l\\), and the **greatest** is \\(g\\). What is the value of \\(\\dfrac{l+g}{2}\\) in terms of \\(l\\)?",
-        "options": {
-          "A": "\\(2l\\)",
-          "B": "\\(3l\\)",
-          "C": "\\(l + 2\\)",
-          "D": "\\(l + 5\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) The first integer is \\(l\\), so the second is \\(l+1\\), the third is \\(l+2\\), then \\(l+3\\), and finally \\(l+4\\).\n\nSince \\(g\\) is the fifth and greatest of the integers, \\(g = l+4\\).\n\nSubstitute \\(l+4\\) for \\(g\\) and simplify:\n\n\\[\\dfrac{l+g}{2} = \\dfrac{l + l + 4}{2} = \\dfrac{2l+4}{2} = l+2\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM30",
-      "q_number": 8,
-      "question_type": "mc",
-      "question": "For a mural, Theo can paint \\(5\\) tiles in \\(15\\) minutes, working at a constant rate. Nia can paint \\(4\\) tiles in \\(10\\) minutes, working at her own constant rate. What is the total number of tiles the two of them can paint in one hour?",
-      "options": {
-        "A": "\\(36\\)",
-        "B": "\\(40\\)",
-        "C": "\\(54\\)",
-        "D": "\\(44\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Theo's rate is 5/15 = 1/3 tile per minute, so in 60 minutes he paints 20 tiles. Nia's rate is 4/10 = 2/5 tile per minute, so in 60 minutes she paints 24 tiles. Together: 20 + 24 = 44."
-      },
-      "base_source": "Exam A — Math Q30 (AM30)",
-      "base_question": {
-        "question": "For a presentation, Deion can create \\(5\\) slides in \\(20\\) minutes, working at a constant rate. Kyra can create \\(3\\) slides in \\(10\\) minutes, working at her own constant rate. What is the total number of slides the two of them can create in one hour?",
-        "options": {
-          "A": "\\(16\\)",
-          "B": "\\(30\\)",
-          "C": "\\(33\\)",
-          "D": "\\(55\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) Set up proportions to figure out how many slides Deion and Kyra can create in \\(1\\) hour:\n\n**Deion:**\n\\[\\dfrac{5}{20} = \\dfrac{x}{60}\\]\n\\[20x = 300\\]\n\\[x = 15\\]\n\nDeion can create \\(15\\) slides in \\(1\\) hour.\n\n**Kyra:**\n\\[\\dfrac{3}{10} = \\dfrac{x}{60}\\]\n\\[10x = 180\\]\n\\[x = 18\\]\n\nKyra can create \\(18\\) slides in \\(1\\) hour.\n\nTotal: \\(15 + 18 = 33\\) slides."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM34",
-      "q_number": 9,
-      "question_type": "mc",
-      "question": "Suppose \\(M = \\dfrac{a}{b}\\), \\(N = \\dfrac{c}{d}\\), and \\(a\\), \\(b\\), \\(c\\), and \\(d\\) do **not** equal \\(0\\). What is \\(\\dfrac{M}{N}\\) in terms of \\(a\\), \\(b\\), \\(c\\), and \\(d\\)?",
-      "options": {
-        "A": "\\(\\dfrac{ad}{bc}\\)",
-        "B": "\\(\\dfrac{ac}{bd}\\)",
-        "C": "\\(\\dfrac{ab}{cd}\\)",
-        "D": "\\(\\dfrac{bc}{ad}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "M/N = (a/b) ÷ (c/d) = (a/b) × (d/c) = ad/bc."
-      },
-      "base_source": "Exam A — Math Q34 (AM34)",
-      "base_question": {
-        "question": "Suppose \\(M = \\dfrac{w}{x}\\), \\(N = \\dfrac{y}{z}\\), and \\(w\\), \\(x\\), \\(y\\), and \\(z\\) do **not** equal \\(0\\). What is \\(\\dfrac{M}{N}\\) in terms of \\(w\\), \\(x\\), \\(y\\), and \\(z\\)?",
-        "options": {
-          "A": "\\(\\dfrac{wx}{yz}\\)",
-          "B": "\\(\\dfrac{wy}{xz}\\)",
-          "C": "\\(\\dfrac{wz}{xy}\\)",
-          "D": "\\(\\dfrac{xy}{wz}\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) It is easier to rewrite \\(\\dfrac{M}{N}\\) as \\(M \\div N\\) since they are both fractions.\n\n\\[M \\div N = \\dfrac{w}{x} \\div \\dfrac{y}{z} = \\dfrac{w}{x} \\times \\dfrac{z}{y} = \\dfrac{wz}{xy}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM35",
-      "q_number": 10,
-      "question_type": "mc",
-      "question": "In the set of consecutive integers from \\(15\\) to \\(33\\), inclusive, there are three integers that are multiples of both \\(2\\) and \\(3\\). How many integers in this set are multiples of **neither** \\(2\\) nor \\(3\\)?",
-      "options": {
-        "A": "\\(5\\)",
-        "B": "\\(6\\)",
-        "C": "\\(13\\)",
-        "D": "\\(16\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "From 15 to 33 there are 19 integers. 9 are multiples of 2, 7 are multiples of 3, and 3 are multiples of both (18, 24, 30). By inclusion-exclusion, multiples of 2 or 3 = 9 + 7 − 3 = 13, so multiples of neither = 19 − 13 = 6."
-      },
-      "base_source": "Exam A — Math Q35 (AM35)",
-      "base_question": {
-        "question": "In the set of consecutive integers from \\(12\\) to \\(30\\), inclusive, there are four integers that are multiples of both \\(2\\) and \\(3\\). How many integers in this set are multiples of **neither** \\(2\\) nor \\(3\\)?",
-        "options": {
-          "A": "\\(5\\)",
-          "B": "\\(6\\)",
-          "C": "\\(13\\)",
-          "D": "\\(15\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) The question asks for integers from \\(12\\) to \\(30\\) that are **not** divisible by \\(2\\) or \\(3\\).\n\nThe set of consecutive integers is \\(\\{12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30\\}\\).\n\nSince all even numbers are divisible by \\(2\\), eliminate all even numbers, leaving the odd numbers in the set: \\(\\{13, 15, 17, 19, 21, 23, 25, 27, 29\\}\\).\n\nEliminate those integers that are multiples of \\(3\\) (\\(15\\), \\(21\\), and \\(27\\)). The remaining integers are: \\(\\{13, 17, 19, 23, 25, 29\\}\\). herefore, there are \\(6\\) numbers in the set that are multiples of **neither** \\(2\\) nor \\(3\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM38",
-      "q_number": 11,
-      "question_type": "mc",
-      "question": "\\[\\dfrac{p}{q} = \\dfrac{r}{s}\\]\n\nIn the equation above, \\(p\\), \\(q\\), \\(r\\), and \\(s\\) are positive numbers. Which of these is equal to \\(s\\)?",
-      "options": {
-        "A": "\\(q\\)",
-        "B": "\\(qr\\)",
-        "C": "\\(\\dfrac{qr}{p}\\)",
-        "D": "\\(\\dfrac{p}{qr}\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "Cross-multiply: ps = qr, so s = qr/p."
-      },
-      "base_source": "Exam A — Math Q38 (AM38)",
-      "base_question": {
-        "question": "\\[\\dfrac{w}{x} = \\dfrac{y}{z}\\]\n\nIn the equation above, \\(w\\), \\(x\\), \\(y\\), and \\(z\\) are positive numbers. Which of these is equal to \\(z\\)?",
-        "options": {
-          "A": "\\(x\\)",
-          "B": "\\(xy\\)",
-          "C": "\\(\\dfrac{w}{xy}\\)",
-          "D": "\\(\\dfrac{xy}{w}\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) Solve the equation for \\(z\\):\n\n\\[\\dfrac{w}{x} = \\dfrac{y}{z}\\]\n\\[wz = xy\\]\n\\[z = \\dfrac{xy}{w}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM42",
-      "q_number": 12,
-      "question_type": "mc",
-      "question": "\\[\\dfrac{3}{7} = 0.\\overline{428571}\\]\n\nIn the infinitely repeating decimal above, \\(4\\) is the first digit in the repeating pattern. What is the \\(365\\)th digit?",
-      "options": {
-        "A": "\\(2\\)",
-        "B": "\\(5\\)",
-        "C": "\\(8\\)",
-        "D": "\\(7\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "The repeating block \"428571\" has 6 digits. 365 ÷ 6 = 60 remainder 5, so the 365th digit matches the 5th digit of the block (4-2-8-5-7-1), which is 7."
-      },
-      "base_source": "Exam A — Math Q42 (AM42)",
-      "base_question": {
-        "question": "\\[\\dfrac{10}{13} = 0.\\overline{769230}\\]\n\nIn the infinitely repeating decimal above, \\(7\\) is the first digit in the repeating pattern. What is the \\(391\\)st digit?",
-        "options": {
-          "A": "\\(0\\)",
-          "B": "\\(3\\)",
-          "C": "\\(6\\)",
-          "D": "\\(7\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) There are \\(6\\) digits in the repeating decimal (\\(769230\\)), so \\(7\\) would be the first, seventh, thirteenth digit and so on. To find the \\(391\\)st digit, divide \\(391\\) by \\(6\\).\n\n\\[391 \\div 6 = 65 \\text{ R}1\\]\n\nSince the remainder is \\(1\\), that means the \\(391\\)st digit is the same as the \\(1\\)st digit, which is \\(7\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-AM45",
-      "q_number": 13,
-      "question_type": "mc",
-      "question": "Each week, Rosa has fixed expenses of $\\(900\\) at her pottery shop. It costs her $\\(120\\) to make a vase in her shop, and she sells each vase for $\\(260\\). What is Rosa's **profit** if she makes and sells \\(20\\) vases in \\(1\\) week?",
-      "options": {
-        "A": "\\(1{,}900\\)",
-        "B": "\\(1{,}600\\)",
-        "C": "\\(2{,}800\\)",
-        "D": "\\(5{,}200\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Profit per vase is $260 − $120 = $140. For 20 vases: 20 × $140 = $2,800. Subtract the fixed expenses: $2,800 − $900 = $1,900."
-      },
-      "base_source": "Exam A — Math Q45 (AM45)",
-      "base_question": {
-        "question": "Each week, Leon has fixed expenses of $\\(1{,}250\\) at his furniture shop. It costs him $\\(150\\) to make a chair in his shop, and he sells each chair for $\\(275\\). What is Leon's **profit** if he makes and sells \\(25\\) chairs in \\(1\\) week?",
-        "options": {
-          "A": "$\\(1{,}875\\)",
-          "B": "$\\(2{,}500\\)",
-          "C": "$\\(3{,}125\\)",
-          "D": "$\\(4{,}375\\)"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "(A) Each chair costs Leon $\\(150\\) to make, and he sells the chair for $\\(275\\). His profit is found by subtracting the cost from the price:\n\n\\[\\$275 - \\$150 = \\$125 \\text{ per chair}\\]\n\nIf Leon makes and sells \\(25\\) chairs in a week, his initial profit is \\(25 \\times \\$125 = \\$3{,}125\\). However, Leon has additional fixed expenses of $\\(1{,}250\\) per week, so this cost must also be subtracted to arrive at the profit.\n\nHis final profit is \\(\\$3{,}125 - \\$1{,}250 = \\$1{,}875\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM07",
-      "q_number": 14,
-      "question_type": "mc",
-      "question": "\\[M = 5N = \\dfrac{P}{3} = Q + 2 = \\dfrac{R}{9} > 0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
-      "options": {
-        "A": "\\(M\\)",
-        "B": "\\(R\\)",
-        "C": "\\(P\\)",
-        "D": "\\(N\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Let the common value be k > 0. Then M = k, N = k/5, P = 3k, Q = k−2, R = 9k. Since k is positive, 9k is the largest of these, so R has the greatest value."
-      },
-      "base_source": "Exam B — Math Q7 (BM07)",
-      "base_question": {
-        "question": "\\[M = 3N = \\dfrac{P}{4} = Q + 5 = \\dfrac{R}{7} > 0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
-        "options": {
-          "A": "\\(M\\)",
-          "B": "\\(N\\)",
-          "C": "\\(P\\)",
-          "D": "\\(R\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) Break the equations apart to each equal \\(M\\):\n\n\\[M = 3N\\]\n\\[M = \\dfrac{P}{4}\\]\n\\[M = Q + 5\\]\n\\[M = \\dfrac{R}{7}\\]\n\nPick a number to substitute into the equations, and solve the equations to find the values of \\(M\\), \\(N\\), \\(P\\), \\(Q\\), and \\(R\\).\n\nLet \\(M = 2\\). Since all the equations are equal to \\(2\\), substitute \\(2\\) to find each variable.\n\n\\[M = 3N\\]\n\\[2 = 3N\\]\n\\[\\dfrac{2}{3} = N\\]\n\n\\[M = \\dfrac{P}{4}\\]\n\\[2 = \\dfrac{P}{4}\\]\n\\[8 = P\\]\n\n\\[M = Q + 5\\]\n\\[2 = Q + 5\\]\n\\[-3 = Q\\]\n\n\\[M = \\dfrac{R}{7}\\]\n\\[2 = \\dfrac{R}{7}\\]\n\\[14 = R\\]\n\nComparing the values: \\(M = 2\\), \\(N = \\tfrac{2}{3}\\), \\(P = 8\\), \\(Q = -3\\), \\(R = 14\\). \\(R\\) has the greatest value."
-        }
-      }
+      "q_number": 2
     },
     {
       "id": "P1029-M-BM09",
-      "q_number": 15,
       "question_type": "mc",
-      "question": "To make party invitations, Reiko could buy a package of paper for $\\(9.60\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.12\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
+      "question": "To make flyers, Dante could buy a package of paper for $\\(14.40\\), or he could buy \\(x\\) individual sheets of the same paper for $\\(0.20\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
       "options": {
-        "A": "\\(76\\)",
-        "B": "\\(78\\)",
-        "C": "\\(79\\)",
-        "D": "\\(80\\)"
+        "A": "\\(71\\)",
+        "B": "\\(72\\)",
+        "C": "\\(68\\)",
+        "D": "\\(70\\)"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "We need 0.12x < 9.60, so x < 80. The largest whole number less than 80 is 79 (0.12 × 79 = $9.48, which is less than $9.60; 0.12 × 80 = $9.60, which is not less)."
+        "exhibit_text": "0.20x < 14.40 → x < 72. The largest integer less than 72 is 71."
       },
       "base_source": "Exam B — Math Q9 (BM09)",
       "base_question": {
@@ -448,532 +87,22 @@
         "solution": {
           "exhibit_text": "(C) Set up an inequality to compare the costs:\n\n\\[0.15x \\le 10.50\\]\n\\[x \\le 70\\]\n\nTherefore, \\(70\\) individual sheets would cost $\\(10.50\\), so \\(69\\) is the greatest number of individual sheets Macie can buy that would be **less** expensive than the package."
         }
-      }
-    },
-    {
-      "id": "P1029-M-BM10",
-      "q_number": 16,
-      "question_type": "mc",
-      "question": "At \\(2{:}00\\) p.m. one day, the temperature was \\(12\\) degrees above zero. During the rest of the day, the temperature fell \\(4\\) degrees per hour. What was the temperature at \\(9{:}00\\) p.m. that day?",
-      "options": {
-        "A": "\\(16°\\)",
-        "B": "\\(-12°\\)",
-        "C": "\\(-8°\\)",
-        "D": "\\(-16°\\)"
       },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "From 2:00 p.m. to 9:00 p.m. is 7 hours. The temperature falls 4 degrees each hour: 12 − 4(7) = 12 − 28 = −16 degrees."
-      },
-      "base_source": "Exam B — Math Q10 (BM10)",
-      "base_question": {
-        "question": "At \\(1{:}00\\) p.m. one day, the temperature was \\(8\\) degrees above zero. During the rest of the day, the temperature fell \\(3\\) degrees per hour. What was the temperature at \\(7{:}00\\) p.m. that day?",
-        "options": {
-          "A": "\\(-13°\\)",
-          "B": "\\(-10°\\)",
-          "C": "\\(-7°\\)",
-          "D": "\\(5°\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) \\(7{:}00\\) p.m. is \\(6\\) hours after \\(1{:}00\\) p.m. Calculate the number of degrees the temperature dropped in \\(6\\) hours: \\(3 \\times 6 = 18\\) degrees. Subtract that from the starting point (\\(8\\) degrees) to find the solution: \\(8 - 18 = -10\\) degrees."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM14",
-      "q_number": 17,
-      "question_type": "mc",
-      "question": "A cooler contains three types of beverages: \\(6\\) bottles of apple juice, \\(4\\) bottles of grape juice, and \\(8\\) bottles of lemonade. What is the probability that a bottle chosen at random from this cooler is **not** apple juice?",
-      "options": {
-        "A": "\\(\\dfrac{2}{3}\\)",
-        "B": "\\(\\dfrac{1}{2}\\)",
-        "C": "\\(\\dfrac{1}{3}\\)",
-        "D": "\\(\\dfrac{5}{6}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "There are 6 + 4 + 8 = 18 bottles total, 12 of which are not apple juice. The probability is 12/18 = 2/3."
-      },
-      "base_source": "Exam B — Math Q14 (BM14)",
-      "base_question": {
-        "question": "A cooler contains three types of beverages: \\(5\\) bottles of apple juice, \\(3\\) bottles of grape juice, and \\(6\\) bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is **not** apple juice?",
-        "options": {
-          "A": "\\(\\dfrac{1}{9}\\)",
-          "B": "\\(\\dfrac{5}{14}\\)",
-          "C": "\\(\\dfrac{9}{14}\\)",
-          "D": "\\(\\dfrac{2}{3}\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) The total number of bottles of juice in the cooler is \\(5 + 3 + 6 = 14\\).\n\nThe number of bottles of juice that are **not** apple juice (grape juice and orange juice) is \\(3 + 6 = 9\\).\n\nSo the probability is \\(\\dfrac{9}{14}\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM18",
-      "q_number": 18,
-      "question_type": "mc",
-      "question": "If \\(\\dfrac{48}{y} = 6x\\), what is the value of \\(x\\) when \\(y = 4\\)?",
-      "options": {
-        "A": "\\(3\\)",
-        "B": "\\(2\\)",
-        "C": "\\(8\\)",
-        "D": "\\(12\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Substitute y = 4: 48/4 = 12 = 6x, so x = 12/6 = 2."
-      },
-      "base_source": "Exam B — Math Q18 (BM18)",
-      "base_question": {
-        "question": "If \\(\\dfrac{36}{y} = 4x\\), what is the value of \\(x\\) when \\(y = 3\\)?",
-        "options": {
-          "A": "\\(3\\)",
-          "B": "\\(4\\)",
-          "C": "\\(9\\)",
-          "D": "\\(12\\)"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "(A) Substitute \\(3\\) for \\(y\\) and solve for \\(x\\):\n\n\\[\\dfrac{36}{y} = 4x\\]\n\\[\\dfrac{36}{3} = 4x\\]\n\\[12 = 4x\\]\n\\[3 = x\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM22",
-      "q_number": 19,
-      "question_type": "mc",
-      "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(10\\) grams. What is the weight of the zinc in this coin?",
-      "options": {
-        "A": "\\(0.48\\) gram",
-        "B": "\\(1.2\\) grams",
-        "C": "\\(0.6\\) gram",
-        "D": "\\(60\\) grams"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "The ratio parts sum to 177+12+7+4 = 200. Zinc is 12/200 of the total weight: (12/200) × 10 = 0.6 gram."
-      },
-      "base_source": "Exam B — Math Q22 (BM22)",
-      "base_question": {
-        "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
-        "options": {
-          "A": "\\(0.28\\) gram",
-          "B": "\\(0.48\\) gram",
-          "C": "\\(0.96\\) gram",
-          "D": "\\(48\\) grams"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) Add the four values in the ratio (\\(177 + 12 + 7 + 4 = 200\\)) and use the sum as the denominator. Use that to find the fraction of zinc in one of the coins. Then reduce the fraction:\n\n\\[\\dfrac{12}{200} = \\dfrac{3}{50}\\]\n\nMultiply this fraction by \\(8\\) to find the number of grams of zinc in decimal form:\n\n\\[\\dfrac{3}{50} \\times 8 = \\dfrac{24}{50} = 0.48 \\text{ g}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM24",
-      "q_number": 20,
-      "question_type": "mc",
-      "question": "A chemical decays in such a way that the amount left at the end of each week is \\(10\\%\\) less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
-      "options": {
-        "A": "\\(80\\%\\)",
-        "B": "\\(99\\%\\)",
-        "C": "\\(90\\%\\)",
-        "D": "\\(81\\%\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Each week, 90% of the amount remains. After two weeks: 0.9 × 0.9 = 0.81, or 81%."
-      },
-      "base_source": "Exam B — Math Q24 (BM24)",
-      "base_question": {
-        "question": "A chemical decays in such a way that the amount left at the end of each week is \\(20\\%\\) less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
-        "options": {
-          "A": "\\(40\\%\\)",
-          "B": "\\(60\\%\\)",
-          "C": "\\(64\\%\\)",
-          "D": "\\(80\\%\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) Let \\(x\\) be the original amount of the chemical. It loses \\(20\\%\\) after each week, which means \\(80\\%\\) of the chemical remains at the end of each week. End of first week: \\(0.80x\\).\n\nAt the end of the second week, \\(80\\%\\) of the amount left at the end of the first week remains.\n\nEnd of second week: \\(0.80(0.80x) = 0.64x\\) or \\(64\\%\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM25",
-      "q_number": 21,
-      "question_type": "mc",
-      "question": "If \\(w - 3\\) is an even integer, which one of the following **must** be an odd integer?",
-      "options": {
-        "A": "\\(2w - 1\\)",
-        "B": "\\(w + 3\\)",
-        "C": "\\(2w\\)",
-        "D": "\\(2w + 4\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Since w − 3 is even, w is odd. But notice 2w is always even no matter what w is, so 2w − 1 is always odd regardless of the premise — that's the one guaranteed to be odd."
-      },
-      "base_source": "Exam B — Math Q25 (BM25)",
-      "base_question": {
-        "question": "If \\(w - 1\\) is an odd integer, which one of the following **must** be an even integer?",
-        "options": {
-          "A": "\\(w + 1\\)",
-          "B": "\\(2w - 1\\)",
-          "C": "\\(2w - 2\\)",
-          "D": "\\(2w + 1\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) One more than an odd integer must be even.\n\nOne more than \\(w - 1\\) is \\(w\\), therefore \\(w\\) must be even. Two times an even integer must be even, therefore \\(2w\\) is even. An even integer decreased by \\(2\\) must be even.\n\nTherefore, \\(2w - 2\\) must be even."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM31",
-      "q_number": 22,
-      "question_type": "mc",
-      "question": "A pizza shop offers a choice of \\(4\\) sizes and \\(6\\) different toppings. Different pizzas can be created by changing the size and the choice of toppings. If Lucia wants to order a pizza with exactly \\(2\\) different toppings, how many different pizzas can she create?",
-      "options": {
-        "A": "\\(15\\)",
-        "B": "\\(60\\)",
-        "C": "\\(24\\)",
-        "D": "\\(120\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "The number of ways to choose 2 toppings from 6 is C(6,2) = 15. With 4 size choices for each topping combination: 4 × 15 = 60."
-      },
-      "base_source": "Exam B — Math Q31 (BM31)",
-      "base_question": {
-        "question": "A pizza shop offers a choice of \\(3\\) sizes (small, medium, and large) and \\(7\\) different toppings. Different pizzas can be created by changing the size and the choice of toppings. If Cody wants to order a pizza with exactly \\(2\\) different toppings, how many different pizzas can he create?",
-        "options": {
-          "A": "\\(6\\)",
-          "B": "\\(21\\)",
-          "C": "\\(63\\)",
-          "D": "\\(126\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) Figure out how many different topping pairs are possible. Use \\(1, 2, 3, 4, 5, 6, 7\\) to represent the toppings, and create a list of possible pairs:\n\n\\(1,2; 1,3; 1,4; 1,5; 1,6; 1,7\\)\n\\(2,3; 2,4; 2,5; 2,6; 2,7\\)\n\\(3,4; 3,5; 3,6; 3,7\\)\n\\(4,5; 4,6; 4,7\\)\n\\(5,6; 5,7\\)\n\\(6,7\\)\n\nSo there are \\(21\\) different topping combinations for one pizza.\n\nSince there are \\(3\\) pizza sizes, multiply the total number of combinations by \\(3\\) to get the total number of different pizzas Cody can create: \\(3 \\times 21 = 63\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM35",
-      "q_number": 23,
-      "question_type": "mc",
-      "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-5, -1, 2,\\) and \\(8\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
-      "options": {
-        "A": "\\(5\\)",
-        "B": "\\(6\\)",
-        "C": "\\(8\\)",
-        "D": "\\(7\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "The midpoint of PQ is (−5 + −1)/2 = −3. The midpoint of RS is (2 + 8)/2 = 5. The distance between −3 and 5 is 8 units."
-      },
-      "base_source": "Exam B — Math Q35 (BM35)",
-      "base_question": {
-        "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-3, -1, 0,\\) and \\(2\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
-        "options": {
-          "A": "\\(1\\)",
-          "B": "\\(2\\)",
-          "C": "\\(3\\)",
-          "D": "\\(4\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C)\n\nFind the midpoint of \\(PQ\\) and \\(RS\\):\n\nMidpoint of \\(PQ = \\dfrac{-1-(-3)}{2} = \\dfrac{2}{2} = 1\\) unit.\n\nThe midpoint of \\(PQ\\) is located \\(1\\) unit from each endpoint, so the midpoint is at \\(-2\\).\n\nMidpoint of \\(RS = \\dfrac{2-0}{2} = \\dfrac{2}{2} = 1\\) unit.\n\nThe midpoint of \\(RS\\) is located \\(1\\) unit from each endpoint, so the midpoint is at \\(1\\). The distance between the two midpoints is \\(1 - (-2) = 3\\) units."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM38",
-      "q_number": 24,
-      "question_type": "mc",
-      "question": "Lena chose an Internet service that charges $\\(15.00\\) per month plus $\\(0.03\\) per minute. Marco chose an Internet service that charges $\\(27.00\\) per month for unlimited usage. At the end of the month, Lena's and Marco's charges were identical. For how many minutes did Lena use the Internet service that month?",
-      "options": {
-        "A": "\\(40\\)",
-        "B": "\\(100\\)",
-        "C": "\\(900\\)",
-        "D": "\\(400\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Set the charges equal: 15 + 0.03m = 27, so 0.03m = 12, and m = 12/0.03 = 400."
-      },
-      "base_source": "Exam B — Math Q38 (BM38)",
-      "base_question": {
-        "question": "Phan chose an Internet service that charges $\\(18.00\\) per month plus $\\(0.024\\) per minute. Deion chose an Internet service that charges $\\(30.00\\) per month for unlimited usage. At the end of the month, Phan's and Deion's charges were identical. For how many minutes did Phan use the Internet service that month?",
-        "options": {
-          "A": "\\(50\\)",
-          "B": "\\(60\\)",
-          "C": "\\(100\\)",
-          "D": "\\(500\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) Let \\(x\\) be the number of minutes Phan used his Internet service in the month. Phan's monthly charges were \\(18 + 0.024x\\). Since Deion's charges were the same as Phan's, set the expression equal to \\(30\\) and solve for \\(x\\):\n\n\\[18 + 0.024x = 30\\]\n\\[0.024x = 12\\]\n\\[x = 500\\]\n\nPhan used his service for \\(500\\) minutes."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM45",
-      "q_number": 25,
-      "question_type": "mc",
-      "question": "A ball is selected at random from a box that contains \\(10\\) black balls, \\(15\\) green balls, and \\(25\\) red balls. What is the probability that the ball selected is black?",
-      "options": {
-        "A": "\\(\\dfrac{1}{5}\\)",
-        "B": "\\(\\dfrac{1}{4}\\)",
-        "C": "\\(\\dfrac{1}{3}\\)",
-        "D": "\\(\\dfrac{3}{5}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "There are 10 + 15 + 25 = 50 balls total. The probability of selecting black is 10/50 = 1/5."
-      },
-      "base_source": "Exam B — Math Q45 (BM45)",
-      "base_question": {
-        "question": "A ball is selected at random from a box that contains \\(7\\) black balls, \\(14\\) green balls, and \\(21\\) red balls. What is the probability that the ball selected is black?",
-        "options": {
-          "A": "\\(\\dfrac{1}{6}\\)",
-          "B": "\\(\\dfrac{1}{5}\\)",
-          "C": "\\(\\dfrac{1}{3}\\)",
-          "D": "\\(\\dfrac{5}{6}\\)"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "(A) The total number of balls in the box is \\(7 + 14 + 21 = 42\\).\n\nThe probability that the ball is black is \\(\\dfrac{7}{42} = \\dfrac{1}{6}\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-BM48",
-      "q_number": 26,
-      "question_type": "mc",
-      "question": "There are now \\(x\\) cans stacked on a shelf that holds \\(50\\) cans when full. If \\(6\\) of these cans were removed, the shelf would be half full. What is the value of \\(x\\)?",
-      "options": {
-        "A": "\\(19\\)",
-        "B": "\\(31\\)",
-        "C": "\\(28\\)",
-        "D": "\\(25\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Half full means 25 cans. If removing 6 cans leaves 25, then x − 6 = 25, so x = 31."
-      },
-      "base_source": "Exam B — Math Q48 (BM48)",
-      "base_question": {
-        "question": "There are now \\(x\\) cans stacked on a shelf that holds \\(36\\) cans when full. If \\(4\\) of these cans were removed, the shelf would be half full. What is the value of \\(x\\)?",
-        "options": {
-          "A": "\\(14\\)",
-          "B": "\\(16\\)",
-          "C": "\\(18\\)",
-          "D": "\\(22\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) The shelf, when full, holds \\(36\\) cans. When the shelf is half full, it holds \\(18\\) cans.\n\n\\[x - 4 = 18\\]\n\\[x = 22\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM02",
-      "q_number": 27,
-      "question_type": "mc",
-      "question": "If \\((15 \\div m) + 6 = 21\\), what is the value of \\(m\\)?",
-      "options": {
-        "A": "\\(\\dfrac{1}{3}\\)",
-        "B": "\\(3\\)",
-        "C": "\\(1\\)",
-        "D": "\\(5\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "Subtract 6 from both sides: 15/m = 15. So m = 15/15 = 1."
-      },
-      "base_source": "Exam C — Math Q2 (CM02)",
-      "base_question": {
-        "question": "If \\((8 \\div m) + 4 = 20\\), what is the value of \\(m\\)?",
-        "options": {
-          "A": "\\(\\dfrac{1}{3}\\)",
-          "B": "\\(\\dfrac{1}{2}\\)",
-          "C": "\\(2\\)",
-          "D": "\\(3\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) The quantity \\((8 \\div m)\\) means the same as \\(\\dfrac{8}{m}\\), so the equation can be rewritten:\n\n\\[\\left(\\dfrac{8}{m}\\right) + 4 = 20\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\\left(\\dfrac{8}{m}\\right) = 16\\]\n\nMultiply both sides of the equation by \\(m\\):\n\n\\[8 = 16m\\]\n\nSolve for \\(m\\):\n\n\\[\\left(\\dfrac{8}{16}\\right) = m\\]\n\\[\\dfrac{1}{2} = m\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM03",
-      "q_number": 28,
-      "question_type": "mc",
-      "question": "\\[7x = x - 2{,}400\\]\n\nWhat is the value of \\(x\\) in the equation shown above?",
-      "options": {
-        "A": "\\(400\\)",
-        "B": "\\(343\\)",
-        "C": "\\(-343\\)",
-        "D": "\\(-400\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Subtract x from both sides: 6x = −2,400, so x = −400."
-      },
-      "base_source": "Exam C — Math Q3 (CM03)",
-      "base_question": {
-        "question": "\\[6x = x - 1{,}680\\]\n\nWhat is the value of \\(x\\) in the equation shown above?",
-        "options": {
-          "A": "\\(336\\)",
-          "B": "\\(240\\)",
-          "C": "\\(-240\\)",
-          "D": "\\(-336\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) Simplify \\(6x = x - 1{,}680\\). First, subtract \\(x\\) from both sides of the equation. Then, divide both sides by \\(5\\).\n\n\\[6x - x = x - x - 1{,}680\\]\n\\[5x = -1{,}680\\]\n\\[\\dfrac{5x}{5} = \\dfrac{-1{,}680}{5}\\]\n\\[x = -336\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM07",
-      "q_number": 29,
-      "question_type": "mc",
-      "question": "\\[-20 > 5x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
-      "options": {
-        "A": "\\(x < -4\\)",
-        "B": "\\(x > -4\\)",
-        "C": "\\(x < -1\\)",
-        "D": "\\(x > -1\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Divide both sides by 5 (positive, so the inequality direction stays the same): −4 > x, which means x < −4."
-      },
-      "base_source": "Exam C — Math Q7 (CM07)",
-      "base_question": {
-        "question": "\\[-12 > 6x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
-        "options": {
-          "A": "\\(x > -6\\)",
-          "B": "\\(x < -6\\)",
-          "C": "\\(x < -2\\)",
-          "D": "\\(x > -2\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) Divide to solve for \\(x\\):\n\n\\[\\dfrac{(-12)}{6} > \\dfrac{6x}{6}\\]\n\\[-2 > x\\]\n\nRewriting \\(-2 > x\\) with the \\(x\\) term first requires reversing the inequality symbol in order to keep the meaning \"\\(x\\) is less than \\((-2)\\)\".\n\n\\[x < -2\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM14",
-      "q_number": 30,
-      "question_type": "mc",
-      "question": "If \\(x = -3\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
-      "options": {
-        "A": "\\(-18\\)",
-        "B": "\\(3\\)",
-        "C": "\\(18\\)",
-        "D": "\\(24\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "x + x^2 + x^3 = −3 + 9 + (−27) = −21, so |−21| = 21. x + 2x + 3x = 6x = −18, so |−18| = 18. The difference is 21 − 18 = 3."
-      },
-      "base_source": "Exam C — Math Q14 (CM14)",
-      "base_question": {
-        "question": "If \\(x = -2\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
-        "options": {
-          "A": "\\(-18\\)",
-          "B": "\\(-6\\)",
-          "C": "\\(-2\\)",
-          "D": "\\(2\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) Substitute \\(-2\\) for each value of \\(x\\) in the expression:\n\n\\[|(-2) + (-2)^2 + (-2)^3|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving exponents:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving multiplication:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + (-4) + (-6)|\\]\n\nSimplify by adding the terms within the absolute value bars:\n\n\\[|-6| - |-12|\\]\n\\[6 - 12 = -6\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM18",
-      "q_number": 31,
-      "question_type": "mc",
-      "question": "I. \\(a - b\\)\n\nII. \\(ab^2\\)\n\nIII. \\(a^b\\)\n\nIf \\(a\\) is a positive integer and \\(b\\) is a negative integer, which of the above expressions **must** be a positive number?",
-      "options": {
-        "A": "II only",
-        "B": "I and II only",
-        "C": "II and III only",
-        "D": "I, II, and III"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "I: a positive integer minus a negative integer always adds a positive amount, so a − b > a > 0, always positive. II: b^2 is always positive (squaring removes the sign), so ab^2 is always positive. III: a positive integer raised to a negative power equals 1 over a positive power of a, which is always positive. All three expressions must be positive, so the answer is I, II, and III."
-      },
-      "base_source": "Exam C — Math Q18 (CM18)",
-      "base_question": {
-        "question": "I. \\(s - t\\)\nII. \\(st^2\\)\nIII. \\(s^t\\)\n\nIf \\(s\\) is a positive integer and \\(t\\) is a negative integer, which of the above expressions **must** be a positive number?",
-        "options": {
-          "A": "II only",
-          "B": "I and II only",
-          "C": "II and III only",
-          "D": "I, II, and III"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "(D) Each of the three expressions must be considered:\n\nExpression I: \\(s - t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSubtracting a negative integer is the equivalent of adding a positive integer, so \\(s - (-t)\\) is equivalent to finding the value of \\(s + t\\), which must result in a positive number.\n\nExpression II: \\(st^2\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSquaring a negative integer results in a positive integer, so \\(s(-t)^2\\) is equivalent to finding the value of \\(st^2\\), which must result in a positive number.\n\nExpression III: \\(s^t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer: raising a positive number to a negative power gives \\(\\dfrac{1}{s^{|t|}}\\), which is still positive.\n\nAll three expressions must be positive."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM24",
-      "q_number": 32,
-      "question_type": "mc",
-      "question": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and photographs shown is \\(2{:}3{:}5\\), respectively. If the number of drawings shown was \\(30\\), what is the total number of photographs and paintings that were shown?",
-      "options": {
-        "A": "\\(50\\)",
-        "B": "\\(60\\)",
-        "C": "\\(80\\)",
-        "D": "\\(70\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Drawings correspond to 3 parts = 30, so 1 part = 10. Paintings = 2 × 10 = 20. Photographs = 5 × 10 = 50. Paintings + photographs = 20 + 50 = 70."
-      },
-      "base_source": "Exam C — Math Q24 (CM24)",
-      "base_question": {
-        "question": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and photographs shown is \\(3{:}5{:}4\\), respectively. If the number of drawings shown was \\(45\\), what is the total number of photographs and paintings that were shown?",
-        "options": {
-          "A": "\\(36\\)",
-          "B": "\\(63\\)",
-          "C": "\\(84\\)",
-          "D": "\\(108\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) The ratio of paintings to drawings to photographs is \\(3 : 5 : 4\\).\n\nFirst, determine the number of actual paintings and photographs.\n\nSince the number of actual drawings is \\(45\\), each ratio is multiplied by \\(9\\), since \\(5 \\times 9 = 45\\).\n\n| Type | Ratio | Actual Number |\n| --- | --- | --- |\n| Paintings | \\(3\\) | \\(27\\) |\n| Drawings | \\(5\\) | \\(45\\) |\n| Photographs | \\(4\\) | \\(36\\) |\n\nAdd the number of paintings (\\(27\\)) and the number of photographs (\\(36\\)):\n\n\\[27 + 36 = 63\\]"
-        }
-      }
+      "q_number": 3
     },
     {
       "id": "P1029-M-CM11",
-      "q_number": 33,
       "question_type": "mc",
-      "question": "Jun has \\(4\\) stamp albums with \\(625\\) stamps in each album. If she transfers her stamp collection to \\(5\\) albums, each holding \\(420\\) stamps, how many stamps will be left over?",
+      "question": "Felix has \\(4\\) stamp albums with \\(620\\) stamps in each album. If he transfers his stamp collection to \\(5\\) albums, each holding \\(410\\) stamps, how many stamps will be left over?",
       "options": {
-        "A": "\\(400\\)",
-        "B": "\\(300\\)",
-        "C": "\\(420\\)",
-        "D": "\\(500\\)"
+        "A": "\\(430\\)",
+        "B": "\\(450\\)",
+        "C": "\\(230\\)",
+        "D": "\\(410\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "Jun has 4 × 625 = 2,500 stamps. The 5 new albums hold 5 × 420 = 2,100 stamps. Leftover: 2,500 − 2,100 = 400."
+        "exhibit_text": "Total stamps: 4 × 620 = 2,480. New capacity: 5 × 410 = 2,050. Leftover: 2,480 − 2,050 = 430."
       },
       "base_source": "Exam C — Math Q11 (CM11)",
       "base_question": {
@@ -988,172 +117,654 @@
         "solution": {
           "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"
         }
-      }
+      },
+      "q_number": 4
     },
     {
-      "id": "P1029-M-CM33",
-      "q_number": 34,
+      "id": "P1029-M-DM30",
       "question_type": "mc",
-      "question": "A bag contains \\(50\\) tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out \\(100\\) times, and \\(20\\) of those times a green tile is selected. Based on the information, what is the most likely number of green tiles in the bag?",
+      "question": "A recipe uses \\(\\dfrac{3}{4}\\) cup of sugar for every \\(1\\dfrac{1}{2}\\) cups of flour. A baker wants to increase the recipe. How many cups of sugar are needed for each cup of flour?",
       "options": {
-        "A": "\\(20\\)",
-        "B": "\\(10\\)",
-        "C": "\\(25\\)",
-        "D": "\\(40\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "The sample proportion of green is 20/100 = 0.2. Applying this proportion to the bag: 0.2 × 50 = 10."
-      },
-      "base_source": "Exam C — Math Q33 (CM33)",
-      "base_question": {
-        "question": "A bag contains \\(40\\) tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out \\(120\\) times, and \\(18\\) of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag?",
-        "options": {
-          "A": "\\(6\\)",
-          "B": "\\(15\\)",
-          "C": "\\(18\\)",
-          "D": "\\(30\\)"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "(A) First, determine what fraction of the sample were red tiles, given \\(18\\) of the \\(120\\) tiles drawn were red.\n\n\\[\\dfrac{18 \\div 6}{120 \\div 6} = \\dfrac{3}{20}\\]\n\nTo predict how many of the actual \\(40\\) tiles in the bag are red, multiply \\(40\\) by the fraction of red tiles in the sample.\n\n\\[\\dfrac{3}{20}(40) = \\dfrac{120}{20} = 6\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM39",
-      "q_number": 35,
-      "question_type": "mc",
-      "question": "A shipment contains \\(250\\) small boxes of medical supplies. In a random sample of \\(25\\) of these boxes, \\(5\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
-      "options": {
-        "A": "\\(160\\)",
-        "B": "\\(200\\)",
-        "C": "\\(180\\)",
-        "D": "\\(225\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "In the sample, 20 of 25 boxes (80%) are undamaged. The remaining shipment (not counting the sample) has 250 − 25 = 225 boxes. 80% of 225 = 180."
-      },
-      "base_source": "Exam C — Math Q39 (CM39)",
-      "base_question": {
-        "question": "A shipment contains \\(170\\) small boxes of medical supplies. In a random sample of \\(20\\) of these boxes, \\(8\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
-        "options": {
-          "A": "\\(60\\)",
-          "B": "\\(68\\)",
-          "C": "\\(90\\)",
-          "D": "\\(102\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) Determine the fraction of undamaged boxes in the sample, given \\(8\\) of the \\(20\\) boxes are damaged.\n\n\\[\\dfrac{20 - 8}{20} = \\dfrac{12}{20} = \\dfrac{3}{5} \\text{ or } 0.6\\]\n\nSubtract the number of boxes in the sample from \\(170\\).\n\n\\[170 - 20 = 150\\]\n\nBasing the prediction of undamaged boxes on the sample, multiply the number of boxes **not** in the sample by the fraction of undamaged boxes in the sample.\n\n\\[150 \\times 0.6 = 90\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM40",
-      "q_number": 36,
-      "question_type": "mc",
-      "question": "In basketball, a player can earn \\(1\\) point for making a free throw and \\(2\\) points for making another basket. Hana makes a mean of \\(10\\) free throws per game, and she scores a total of at least \\(31\\) points per game. The inequality below shows this relationship, where \\(b\\) represents the number of \\(2\\)-point baskets Hana makes.\n\n\\[2b + 10 \\ge 31\\]\n\nWhat is the number of \\(2\\)-point baskets Hana needs to make if she wants to score at **least** her minimum total points for a game and make her mean number of free throws?",
-      "options": {
-        "A": "\\(b \\le 10\\)",
-        "B": "\\(b \\le 31\\)",
-        "C": "\\(b \\ge 21\\)",
-        "D": "\\(b \\ge 11\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Solve: 2b + 10 ≥ 31, so 2b ≥ 21, so b ≥ 10.5. Since b must be a whole number of baskets, b ≥ 11."
-      },
-      "base_source": "Exam C — Math Q40 (CM40)",
-      "base_question": {
-        "question": "In basketball, a player can earn \\(1\\) point for making a free throw and \\(2\\) points for making another basket. Marcus makes a mean of \\(8\\) free throws per game, and he scores a total of at least \\(25\\) points per game. The inequality below shows this relationship, where \\(b\\) represents the number of \\(2\\)-point baskets Marcus makes.\n\n\\[2b + 8 \\ge 25\\]\n\nWhat is the number of \\(2\\)-point baskets Marcus needs to make if he wants to score at **least** his minimum total points for a game and make his mean number of free throws?",
-        "options": {
-          "A": "\\(b \\le 8\\)",
-          "B": "\\(b \\ge 9\\)",
-          "C": "\\(b \\ge 16\\)",
-          "D": "\\(b \\le 25\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) Solve the inequality \\(2b + 8 \\ge 25\\).\n\n\\[2b + 8 - 8 \\ge 25 - 8\\]\n\\[2b \\ge 17\\]\n\\[\\dfrac{2b}{2} \\ge \\dfrac{17}{2}\\]\n\\[b \\ge 8.5\\]\n\nSince the number of baskets made must be a whole number, the fewest \\(2\\)-point baskets, \\(b\\), he must make is \\(9\\)."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-CM46",
-      "q_number": 37,
-      "question_type": "mc",
-      "question": "A rain gauge shows that \\(15\\) centimeters of rain fell yesterday. If \\(1\\) inch is equal to approximately \\(2.5\\) centimeters, about how many inches of rain fell yesterday?",
-      "options": {
-        "A": "\\(6\\)",
-        "B": "\\(4\\)",
-        "C": "\\(1.5\\)",
-        "D": "\\(15\\)"
+        "A": "\\(\\dfrac{1}{2}\\)",
+        "B": "\\(\\dfrac{5}{6}\\)",
+        "C": "\\(1\\dfrac{1}{8}\\)",
+        "D": "\\(2\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "15 ÷ 2.5 = 6 inches."
+        "exhibit_text": "Sugar per cup of flour: (3/4) ÷ (3/2) = (3/4) × (2/3) = 1/2 cup."
       },
-      "base_source": "Exam C — Math Q46 (CM46)",
+      "base_source": "Exam D — Math Q30 (DM30)",
       "base_question": {
-        "question": "A rain gauge shows that \\(10\\) centimeters of rain fell yesterday. If \\(1\\) inch is equal to approximately \\(2.5\\) centimeters, about how many inches of rain fell yesterday?",
+        "question": "A recipe uses \\(\\dfrac{2}{3}\\) cup of sugar for every \\(1\\dfrac{1}{4}\\) cups of flour. A cook wants to increase the recipe. How many cups of sugar are needed for each cup of flour?",
         "options": {
-          "A": "\\(1\\)",
-          "B": "\\(2.5\\)",
-          "C": "\\(4\\)",
-          "D": "\\(10\\)"
+          "A": "\\(\\dfrac{8}{15}\\)",
+          "B": "\\(\\dfrac{5}{6}\\)",
+          "C": "\\(1\\dfrac{7}{8}\\)",
+          "D": "\\(3\\dfrac{2}{3}\\)"
         },
-        "correct": "C",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "(C) Set up a proportion to solve:\n\n\\[\\dfrac{1 \\text{ in.}}{2.5 \\text{ cm}} = \\dfrac{x \\text{ in.}}{10 \\text{ cm}}\\]\n\\[2.5x = 10\\]\n\\[x = 10 \\div 2.5\\]\n\\[x = 4\\]\n\n\\(10\\) centimeters is approximately \\(4\\) inches."
+          "exhibit_text": "(A) To find the cups of sugar for each cup of flour, find the unit rate using this ratio:\n\n\\[\\dfrac{\\dfrac{2}{3} \\text{ cup of sugar}}{1\\dfrac{1}{4} \\text{ cups of flour}}\\]\n\nThen, convert the denominator to an improper fraction and divide to find the cups of sugar per cup of flour.\n\n\\[\\dfrac{\\dfrac{2}{3}}{\\dfrac{5}{4}} = \\dfrac{2}{3} \\div \\dfrac{5}{4} = \\dfrac{2}{3} \\times \\dfrac{4}{5} = \\dfrac{8}{15}\\]"
         }
-      }
+      },
+      "q_number": 5
     },
     {
-      "id": "P1029-M-CM19",
-      "q_number": 38,
+      "id": "P1029-M-EM07",
       "question_type": "mc",
-      "question": "What is the value of \\(\\left(-\\dfrac{5}{6}\\right)\\left(-\\dfrac{3}{10}\\right)\\)?",
+      "question": "Nadia has a box of coins from various countries. The box contains \\(5\\) coins from Canada, \\(3\\) from Mexico, \\(2\\) from Chile, and \\(2\\) from Peru. If Nadia selects \\(2\\) coins at random from this box, without replacing them, what is the probability that both coins are **not** from Canada?",
       "options": {
-        "A": "\\(-\\dfrac{1}{4}\\)",
-        "B": "\\(\\dfrac{1}{4}\\)",
-        "C": "\\(-\\dfrac{4}{15}\\)",
-        "D": "\\(\\dfrac{4}{15}\\)"
+        "A": "\\(\\dfrac{7}{22}\\)",
+        "B": "\\(\\dfrac{5}{11}\\)",
+        "C": "\\(\\dfrac{7}{12}\\)",
+        "D": "\\(\\dfrac{5}{6}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "12 total, 7 not from Canada. P = (7/12) × (6/11) = 42/132 = 7/22."
+      },
+      "base_source": "Exam E — Math Q7 (EM07)",
+      "base_question": {
+        "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are **not** from New York?",
+        "options": {
+          "A": "\\(\\dfrac{12}{35}\\)",
+          "B": "\\(\\dfrac{7}{13}\\)",
+          "C": "\\(\\dfrac{4}{7}\\)",
+          "D": "\\(\\dfrac{6}{7}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Since Erin does not replace the coins, you must pay careful attention to the number of coins each time she chooses a coin. The total number of quarters in the box to start is \\(6+4+2+3=15\\). The number of quarters that are not from New York is \\(4+2+3=9\\).\n\nThe probability that the first quarter is not from New York is \\(\\dfrac{9}{15}\\), or \\(\\dfrac{3}{5}\\). Now, out of the 14 remaining quarters, there are 8 quarters left that are not from New York. The probability that the second quarter is not from New York is \\(\\dfrac{8}{14}\\), or \\(\\dfrac{4}{7}\\).\n\nMultiply these two probabilities to find the probability that both coins are not from New York:\n\n\\[\\dfrac{3}{5} \\times \\dfrac{4}{7} = \\dfrac{12}{35}\\]"
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P1029-M-FM34",
+      "question_type": "mc",
+      "question": "In a sample of \\(50\\) ties at a clothing store, there are \\(10\\) purple ties and \\(25\\) striped ties. Of the \\(10\\) purple ties, \\(4\\) have stripes. If a tie is selected at random, what is the probability that **both** of the following are true: the tie is **not** purple and does **not** have stripes?",
+      "options": {
+        "A": "\\(\\dfrac{1}{10}\\)",
+        "B": "\\(\\dfrac{19}{50}\\)",
+        "C": "\\(\\dfrac{31}{50}\\)",
+        "D": "\\(\\dfrac{9}{10}\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "A negative times a negative is positive: (5/6)(3/10) = 15/60 = 1/4."
+        "exhibit_text": "Purple or striped: 10 + 25 − 4 = 31. Not purple and not striped: 50 − 31 = 19. Probability: 19/50."
       },
-      "base_source": "Exam C — Math Q19 (CM19)",
+      "base_source": "Exam F — Math Q34 (FM34)",
       "base_question": {
-        "question": "What is the value of \\(\\left(-\\dfrac{3}{4}\\right)\\left(-\\dfrac{2}{5}\\right)\\)?",
+        "question": "In a sample of 60 ties at a local clothing store, there are 8 purple ties and 32 striped ties. Of the 8 purple ties, 5 have stripes. If a tie is selected at random from the given sample, what is the probability that **both** of the following are true: the tie is **not** purple and does **not** have stripes?",
         "options": {
-          "A": "\\(-\\dfrac{7}{20}\\)",
-          "B": "\\(-\\dfrac{3}{10}\\)",
-          "C": "\\(\\dfrac{3}{10}\\)",
-          "D": "\\(\\dfrac{7}{20}\\)"
+          "A": "\\(\\dfrac{1}{12}\\)",
+          "B": "\\(\\dfrac{1}{3}\\)",
+          "C": "\\(\\dfrac{5}{12}\\)",
+          "D": "\\(\\dfrac{9}{20}\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) Evaluate the expression by multiplying the terms in the numerator and the terms in the denominator. The product of two negative values is positive:\n\n\\[\\dfrac{(-3) \\times (-2)}{4 \\times 5} = \\dfrac{6}{20}\\]\n\nSimplify the result:\n\n\\[\\dfrac{6 \\div 2}{20 \\div 2} = \\dfrac{3}{10}\\]"
+          "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of non-purple unstriped ties. Find the number of purple or striped ties and subtract from 60. \\(8\\text{ purple}+32\\text{ striped}=40\\) ties. You might be tempted to go ahead and subtract from 60 now (which would give a probability of \\(\\dfrac{20}{60}\\), or \\(\\dfrac{1}{3}\\)), but remember that 5 ties are *both* purple and striped. You don't want to count those twice, so subtract them: \\(40-5=35\\). Now you can subtract from 60 to get 25 ties that are neither purple nor striped. The probability of selecting one of these is \\(\\dfrac{25}{60}\\), or \\(\\dfrac{5}{12}\\)."
         }
-      }
+      },
+      "q_number": 7
     },
     {
-      "id": "P1029-M-DM02",
-      "q_number": 39,
+      "id": "P1029-M-GM34",
       "question_type": "mc",
-      "question": "What is the value of \\(r\\) in \\(\\dfrac{p}{6} + \\dfrac{q - p}{3} = \\dfrac{r}{6}\\)?",
+      "question": "A box contains \\(8\\) red index cards, \\(2\\) yellow index cards, and \\(5\\) green index cards. If Teo pulls out \\(2\\) cards at random from this box, without replacement, what is the probability that both cards are **not** green?",
       "options": {
-        "A": "\\(1\\)",
-        "B": "\\(3\\)",
-        "C": "\\(2q - p\\)",
-        "D": "\\(p\\)"
+        "A": "\\(\\dfrac{49}{225}\\)",
+        "B": "\\(\\dfrac{16}{225}\\)",
+        "C": "\\(\\dfrac{4}{35}\\)",
+        "D": "\\(\\dfrac{3}{7}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "10 not-green cards of 15 total. P = (10/15)(9/14) = 90/210 = 3/7."
+      },
+      "base_source": "Exam G — Math Q34 (GM34)",
+      "base_question": {
+        "question": "A box contains \\(6\\) red index cards, \\(3\\) yellow index cards, and \\(4\\) green index cards. If Gabriella pulls out \\(2\\) cards at random from this box, without replacement, what is the probability that both cards are **not** green?",
+        "options": {
+          "A": "\\(\\dfrac{16}{169}\\)",
+          "B": "\\(\\dfrac{4}{39}\\)",
+          "C": "\\(\\dfrac{6}{13}\\)",
+          "D": "\\(\\dfrac{81}{169}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Remember that \"without replacement\" means Gabriella will not put the first card she drew back before she pulls out a second one, so the probabilities will be different for each draw. At first, there are \\(13\\) index cards, and \\(9\\) are not green. After one card is drawn, there are \\(12\\) cards, and \\(8\\) are not green. You need to multiply to find the probability of both events occurring: \\(\\dfrac{9}{13}\\times\\dfrac{8}{12}\\). Cross canceling simplifies this to \\(\\dfrac{3}{13}\\times\\dfrac{2}{1}=\\dfrac{6}{13}\\)."
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P1029-M-AM45",
+      "question_type": "mc",
+      "question": "Each week, Priya has fixed expenses of $\\(900\\) at her pottery shop. It costs her $\\(120\\) to make a vase in her shop, and she sells each vase for $\\(260\\). What is Priya's **profit** if she makes and sells \\(30\\) vases in \\(1\\) week?",
+      "options": {
+        "A": "$\\(2{,}700\\)",
+        "B": "$\\(3{,}300\\)",
+        "C": "$\\(4{,}200\\)",
+        "D": "$\\(4{,}800\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Revenue: 30 × $260 = $7,800. Total cost: $900 + (30 × $120) = $900 + $3,600 = $4,500. Profit: $7,800 − $4,500 = $3,300."
+      },
+      "base_source": "Exam A — Math Q45 (AM45)",
+      "base_question": {
+        "question": "Each week, Leon has fixed expenses of $\\(1{,}250\\) at his furniture shop. It costs him $\\(150\\) to make a chair in his shop, and he sells each chair for $\\(275\\). What is Leon's **profit** if he makes and sells \\(25\\) chairs in \\(1\\) week?",
+        "options": {
+          "A": "$\\(1{,}875\\)",
+          "B": "$\\(2{,}500\\)",
+          "C": "$\\(3{,}125\\)",
+          "D": "$\\(4{,}375\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) Each chair costs Leon $\\(150\\) to make, and he sells the chair for $\\(275\\). His profit is found by subtracting the cost from the price:\n\n\\[\\$275 - \\$150 = \\$125 \\text{ per chair}\\]\n\nIf Leon makes and sells \\(25\\) chairs in a week, his initial profit is \\(25 \\times \\$125 = \\$3{,}125\\). However, Leon has additional fixed expenses of $\\(1{,}250\\) per week, so this cost must also be subtracted to arrive at the profit.\n\nHis final profit is \\(\\$3{,}125 - \\$1{,}250 = \\$1{,}875\\)."
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P1029-M-BM31",
+      "question_type": "mc",
+      "question": "A sandwich shop offers a choice of \\(4\\) sizes and \\(6\\) different fillings. Different sandwiches can be created by changing the size and the choice of fillings. If Marcus wants to order a sandwich with exactly \\(3\\) different fillings, how many different sandwiches can he create?",
+      "options": {
+        "A": "\\(120\\)",
+        "B": "\\(18\\)",
+        "C": "\\(24\\)",
+        "D": "\\(80\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Choosing 3 fillings from 6: C(6,3) = 20. With 4 size choices: 20 × 4 = 80."
+      },
+      "base_source": "Exam B — Math Q31 (BM31)",
+      "base_question": {
+        "question": "A pizza shop offers a choice of \\(3\\) sizes (small, medium, and large) and \\(7\\) different toppings. Different pizzas can be created by changing the size and the choice of toppings. If Cody wants to order a pizza with exactly \\(2\\) different toppings, how many different pizzas can he create?",
+        "options": {
+          "A": "\\(6\\)",
+          "B": "\\(21\\)",
+          "C": "\\(63\\)",
+          "D": "\\(126\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) Figure out how many different topping pairs are possible. Use \\(1, 2, 3, 4, 5, 6, 7\\) to represent the toppings, and create a list of possible pairs:\n\n\\(1,2; 1,3; 1,4; 1,5; 1,6; 1,7\\)\n\\(2,3; 2,4; 2,5; 2,6; 2,7\\)\n\\(3,4; 3,5; 3,6; 3,7\\)\n\\(4,5; 4,6; 4,7\\)\n\\(5,6; 5,7\\)\n\\(6,7\\)\n\nSo there are \\(21\\) different topping combinations for one pizza.\n\nSince there are \\(3\\) pizza sizes, multiply the total number of combinations by \\(3\\) to get the total number of different pizzas Cody can create: \\(3 \\times 21 = 63\\)."
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P1029-M-CM03",
+      "question_type": "mc",
+      "question": "\\[8x = x - 1{,}750\\]\n\nWhat is the value of \\(x\\) in the equation shown above?",
+      "options": {
+        "A": "\\(-350\\)",
+        "B": "\\(250\\)",
+        "C": "\\(-150\\)",
+        "D": "\\(-250\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "8x = x − 1,750 → 7x = −1,750 → x = −250."
+      },
+      "base_source": "Exam C — Math Q3 (CM03)",
+      "base_question": {
+        "question": "\\[6x = x - 1{,}680\\]\n\nWhat is the value of \\(x\\) in the equation shown above?",
+        "options": {
+          "A": "\\(336\\)",
+          "B": "\\(240\\)",
+          "C": "\\(-240\\)",
+          "D": "\\(-336\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Simplify \\(6x = x - 1{,}680\\). First, subtract \\(x\\) from both sides of the equation. Then, divide both sides by \\(5\\).\n\n\\[6x - x = x - x - 1{,}680\\]\n\\[5x = -1{,}680\\]\n\\[\\dfrac{5x}{5} = \\dfrac{-1{,}680}{5}\\]\n\\[x = -336\\]"
+        }
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P1029-M-DM10",
+      "question_type": "mc",
+      "question": "\\[3x + 14 > 5x + 6\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x < 4\\)",
+        "B": "\\(x > 4\\)",
+        "C": "\\(x < 40\\)",
+        "D": "\\(x > 40\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "14 − 6 > 5x − 3x → 8 > 2x → 4 > x, i.e. x < 4."
+      },
+      "base_source": "Exam D — Math Q10 (DM10)",
+      "base_question": {
+        "question": "\\[2x + 11 > 3x + 9\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+        "options": {
+          "A": "\\(x < 2\\)",
+          "B": "\\(x > 2\\)",
+          "C": "\\(x < 20\\)",
+          "D": "\\(x > 20\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) Use inverse operations to isolate the variable \\(x\\) by first getting the \\(x\\) variable on one side.\n\n\\[2x + 11 > 3x + 9\\]\n\\[2x - 3x + 11 > 3x - 3x + 9\\]\n\\[-x + 11 > 9\\]\n\\[-x + 11 - 11 > 9 - 11\\]\n\\[-x > -2\\]\n\nNow, when dividing by \\(-1\\), the direction of the inequality sign changes.\n\n\\[-x > -2\\]\n\\[x < 2\\]\n\nAnother way to solve is to keep the coefficient of \\(x\\) positive and then recognizing that \\(2 > x\\) is the same as \\(x < 2\\)."
+        }
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P1029-M-EM06",
+      "question_type": "mc",
+      "question": "What is the value of the expression shown below?\\n\\\\[150(1-0.2)^2+22=\\\\]",
+      "options": {
+        "A": "\\(96\\)",
+        "B": "\\(118\\)",
+        "C": "\\(150\\)",
+        "D": "\\(172\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "150 × 0.8² + 22 = 150 × 0.64 + 22 = 96 + 22 = 118."
+      },
+      "base_source": "Exam E — Math Q6 (EM06)",
+      "base_question": {
+        "question": "What is the value of the expression shown below?\n\\[200(1-0.4)^2+28=\\]",
+        "options": {
+          "A": "100",
+          "B": "196",
+          "C": "5,672",
+          "D": "14,428"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Evaluate the expression using PEMDAS. First, perform the subtraction inside the parentheses: \\(1 - 0.4 = 0.6\\). Square the result: \\((0.6)^2 = 0.36\\). Multiply the result by 200: \\(200(0.36) = 72\\). Finally, add 28: \\(72 + 28 = 100\\)."
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P1029-M-FM21",
+      "question_type": "mc",
+      "question": "In Maya and Leo's class, extra credit quiz scores range from \\(0\\) to \\(50\\). Maya took \\(5\\) quizzes, and her mean score was \\(36\\). Leo took \\(9\\) quizzes. If both students have the same total score for their quizzes, what was Leo's mean score?",
+      "options": {
+        "A": "\\(18\\)",
+        "B": "\\(20\\)",
+        "C": "\\(24\\)",
+        "D": "\\(36\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Maya's total: 5 × 36 = 180. Leo's mean: 180 / 9 = 20."
+      },
+      "base_source": "Exam F — Math Q21 (FM21)",
+      "base_question": {
+        "question": "In James and Sarah's class, extra credit quiz scores range from 0 to 50. Sarah took 6 quizzes, and her mean score was 40. James took 8 quizzes. If both students have the same total score for their quizzes, what was James's mean score?",
+        "options": {
+          "A": "30",
+          "B": "32",
+          "C": "35",
+          "D": "40"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Recall that \\(\\text{Average}=\\dfrac{\\text{Sum of Values}}{\\text{Number of Values}}\\). Sarah took 6 quizzes, and her mean was 40, so \\(40=\\dfrac{\\text{Sum of Values}}{6}\\). Multiply both sides by 6 to obtain \\(240=\\text{Sum of Values}\\), or total score for the quizzes. James took 8 quizzes, and the sum of his quizzes was the same as Sarah's sum. Therefore, James' average is \\(\\dfrac{240}{8}=30\\)."
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P1029-M-GM01",
+      "question_type": "mc",
+      "question": "A census recorded household sizes in a town with this percent distribution: \\(1\\) person \\(15\\%\\), \\(2\\) people \\(30\\%\\), \\(3\\) people \\(25\\%\\), \\(4\\) people \\(20\\%\\), \\(5\\) or more people \\(10\\%\\). If the town has \\(600\\) households, how many hold **at least** \\(4\\) people?",
+      "options": {
+        "A": "\\(210\\)",
+        "B": "\\(120\\)",
+        "C": "\\(150\\)",
+        "D": "\\(180\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "At least 4 people: 20% + 10% = 30%. 600 × 0.30 = 180."
+      },
+      "base_source": "Exam G — Math Q1 (GM01)",
+      "base_question": {
+        "question": "A census-taker recorded the number of people living in each household in a certain town and reported the percent distribution in the table above. If the town has \\(540\\) households, how many of them hold **at least** \\(4\\) people?",
+        "options": {
+          "A": "\\(103\\)",
+          "B": "\\(135\\)",
+          "C": "\\(180\\)",
+          "D": "\\(196\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "When a problem gives you a graph or table with a lot of information, read the question to find out what to focus on. Here, the question asks how many households have at least 4 people, so you don't need to pay attention to any of the smaller households. \\(19\\%\\) have \\(4\\) people and \\(6\\%\\) have \\(5\\) or more people, so \\(25\\%\\) have at least \\(4\\). Since \\(25\\%\\) is the same as \\(\\dfrac{1}{4}\\), you can simply divide: \\(540\\div4=135\\) households."
+        },
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>HOUSEHOLD POPULATIONS IN CENSUS</caption><thead><tr><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Number of People in Household</th><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Percent of Households</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>18%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>26%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>31%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>19%</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>5 or more</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>6%</td></tr></tbody></table>"
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P1029-M-AM20",
+      "question_type": "mc",
+      "question": "1 twik = 3 zeks\\n1 vin = 2 zeks\\n5 twiks = 2 orbs\\n1 nix = 3 orbs\\n\\nA nation has five types of coins: zeks, twiks, vins, orbs, and nix. The relationship between the coins is shown above. Which coin is most valuable?",
+      "options": {
+        "A": "twik",
+        "B": "vin",
+        "C": "orb",
+        "D": "nix"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Let zek = 1. twik = 3 zeks. From 5 twiks = 2 orbs: 15 zeks = 2 orbs, so orb = 7.5 zeks. nix = 3 orbs = 22.5 zeks. vin = 2 zeks. Values in zeks: zek=1, vin=2, twik=3, orb=7.5, nix=22.5. Most valuable: nix."
+      },
+      "base_source": "Exam A — Math Q20 (AM20)",
+      "base_question": {
+        "question": "\\(1\\) sind \\(= 4\\) lorgs\n\\(2\\) plunks \\(= 5\\) dalts\n\\(5\\) sinds \\(= 2\\) harps\n\\(1\\) plunk \\(= 3\\) harps\n\nA nation has five types of coins: sinds, dalts, lorgs, harps, and plunks. The relationship between the coins is shown above. Which coin is most valuable?",
+        "options": {
+          "A": "sind",
+          "B": "dalt",
+          "C": "harp",
+          "D": "plunk"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) \\(1\\) sind \\(= 4\\) lorgs, so \\(1\\) sind \\(> 1\\) lorg.\n\n\\(2\\) harps \\(= 5\\) sinds, so \\(1\\) harp \\(> 1\\) sind.\n\n\\(1\\) plunk \\(= 3\\) harps, so \\(1\\) plunk \\(> 1\\) harp, meaning that \\(1\\) plunk \\(> 1\\) sind and \\(1\\) lorg.\n\n\\(2\\) plunks \\(= 5\\) dalts, so \\(1\\) plunk \\(> 1\\) dalt.\n\nTherefore, the plunk is the most valuable."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P1029-M-BM07",
+      "question_type": "mc",
+      "question": "\\[M=2N=\\dfrac{P}{5}=Q+3=\\dfrac{R}{9}>0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
+      "options": {
+        "A": "\\(M\\)",
+        "B": "\\(N\\)",
+        "C": "\\(P\\)",
+        "D": "\\(R\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Let M = 1. Then N = 0.5, P = 5, Q = −2, R = 9. The greatest is R."
+      },
+      "base_source": "Exam B — Math Q7 (BM07)",
+      "base_question": {
+        "question": "\\[M = 3N = \\dfrac{P}{4} = Q + 5 = \\dfrac{R}{7} > 0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
+        "options": {
+          "A": "\\(M\\)",
+          "B": "\\(N\\)",
+          "C": "\\(P\\)",
+          "D": "\\(R\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Break the equations apart to each equal \\(M\\):\n\n\\[M = 3N\\]\n\\[M = \\dfrac{P}{4}\\]\n\\[M = Q + 5\\]\n\\[M = \\dfrac{R}{7}\\]\n\nPick a number to substitute into the equations, and solve the equations to find the values of \\(M\\), \\(N\\), \\(P\\), \\(Q\\), and \\(R\\).\n\nLet \\(M = 2\\). Since all the equations are equal to \\(2\\), substitute \\(2\\) to find each variable.\n\n\\[M = 3N\\]\n\\[2 = 3N\\]\n\\[\\dfrac{2}{3} = N\\]\n\n\\[M = \\dfrac{P}{4}\\]\n\\[2 = \\dfrac{P}{4}\\]\n\\[8 = P\\]\n\n\\[M = Q + 5\\]\n\\[2 = Q + 5\\]\n\\[-3 = Q\\]\n\n\\[M = \\dfrac{R}{7}\\]\n\\[2 = \\dfrac{R}{7}\\]\n\\[14 = R\\]\n\nComparing the values: \\(M = 2\\), \\(N = \\tfrac{2}{3}\\), \\(P = 8\\), \\(Q = -3\\), \\(R = 14\\). \\(R\\) has the greatest value."
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P1029-M-CM45",
+      "question_type": "mc",
+      "question": "Teresa earns $\\(20\\) per hour at her job. She wants to change to a job that will pay $\\(25\\) per hour. What will be the percent increase in Teresa's hourly pay if she makes this job change?",
+      "options": {
+        "A": "\\(5\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(80\\%\\)",
+        "D": "\\(125\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Increase: $25 − $20 = $5. Percent increase: $5 / $20 = 0.25 = 25%."
+      },
+      "base_source": "Exam C — Math Q45 (CM45)",
+      "base_question": {
+        "question": "Malik earns $\\(10\\) per hour at his job. He wants to change to a job that will pay $\\(12\\) per hour. What will be the percent increase in Malik's hourly pay if he makes this job change?",
+        "options": {
+          "A": "\\(2\\%\\)",
+          "B": "\\(20\\%\\)",
+          "C": "\\(83\\%\\)",
+          "D": "\\(120\\%\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Subtract to determine the amount of increase in Malik's hourly pay if he changes jobs.\n\n\\[12 - 10 = 2\\]\n\nDivide the increase amount by the original hourly pay rate.\n\n\\[2 \\div 10 = 0.2\\]\n\nMultiply the quotient by \\(100\\) to express the decimal amount as a percentage.\n\n\\[0.2 \\times 100 = 20\\]"
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P1029-M-DM17",
+      "question_type": "mc",
+      "question": "At Lakeview High School, \\(90\\) students are members of either the band or the art club, or both. Of these students, \\(50\\) are members of the band, and \\(55\\) are members of the art club. What fraction of the total is the number of students who are members of **both** the band and the art club?",
+      "options": {
+        "A": "\\(\\dfrac{1}{6}\\)",
+        "B": "\\(\\dfrac{5}{18}\\)",
+        "C": "\\(\\dfrac{1}{9}\\)",
+        "D": "\\(\\dfrac{11}{18}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Both = band + art − total = 50 + 55 − 90 = 15. Fraction: 15/90 = 1/6."
+      },
+      "base_source": "Exam D — Math Q17 (DM17)",
+      "base_question": {
+        "question": "At Midville High School, \\(64\\) students are members of either the orchestra or the choir, or both. Of these students, \\(38\\) are members of the orchestra, and \\(46\\) are members of the choir. What fraction of the total is the number of students who are members of **both** the orchestra and the choir?",
+        "options": {
+          "A": "\\(\\dfrac{16}{21}\\)",
+          "B": "\\(\\dfrac{10}{19}\\)",
+          "C": "\\(\\dfrac{10}{23}\\)",
+          "D": "\\(\\dfrac{5}{16}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) First, add the number of students that are members of both orchestra and choir.\n\n\\[38 + 46 = 84\\]\n\nThen, subtract to find the number of students that are members of both orchestra and choir.\n\n\\[84 - 64 = 20\\]\n\nThen, find the fraction of the \\(64\\) students that are members of both orchestra and choir.\n\n\\[\\dfrac{20}{64} = \\dfrac{5}{16}\\]"
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P1029-M-EM01",
+      "question_type": "mc",
+      "question": "A survey of \\(4{,}000\\) children found that \\(53\\%\\) have bedtimes of \\(9{:}30\\) p.m. or earlier. How many of the surveyed children have bedtimes of \\(9{:}30\\) p.m. or earlier?",
+      "options": {
+        "A": "\\(3{,}600\\)",
+        "B": "\\(53\\)",
+        "C": "\\(1{,}200\\)",
+        "D": "\\(2{,}120\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "4,000 × 0.53 = 2,120 children."
+      },
+      "base_source": "Exam E — Math Q1 (EM01)",
+      "base_question": {
+        "question": "If 5,000 children were surveyed, how many have bedtimes that are 10:30 p.m. or earlier, according to the circle graph above?",
+        "options": {
+          "A": "53",
+          "B": "1,350",
+          "C": "2,650",
+          "D": "3,600"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Read the question carefully—\"10:30 p.m. or earlier\" includes 10:30 p.m., 10 p.m., and earlier than 10 p.m. Refer to the circle graph to find the percentages: 26% + 13% + 14% = 53% of the children surveyed have bedtimes that are 10:30 p.m. or earlier. Finally, find 53% of 5,000.\n\n\\[\\dfrac{53}{100} \\times 5{,}000 = \\dfrac{265{,}000}{100} = 2{,}650\\]"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 220 245\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"110\" y=\"16\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#222\">WEEKNIGHT BEDTIMES, AGE 11</text><g transform=\"translate(0,20)\"><path d=\"M110,110 L110.0,15.0 A95,95 0 0 1 204.8,116.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L204.8,116.0 A95,95 0 0 1 170.6,183.2 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L170.6,183.2 A95,95 0 0 1 92.2,203.3 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L92.2,203.3 A95,95 0 0 1 16.7,127.8 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M110,110 L16.7,127.8 A95,95 0 0 1 110.0,15.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"152.9\" y=\"69.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"152.9\" dy=\"0\" font-weight=\"700\">26%</tspan><tspan x=\"152.9\" dy=\"12\">10:30 p.m.</tspan></text><text x=\"162.5\" y=\"136.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"162.5\" dy=\"0\" font-weight=\"700\">13%</tspan><tspan x=\"162.5\" dy=\"12\">10 p.m.</tspan></text><text x=\"124.6\" y=\"167.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"124.6\" dy=\"0\" font-weight=\"700\">14%</tspan><tspan x=\"124.6\" dy=\"12\">Earlier than</tspan><tspan x=\"124.6\" dy=\"12\">10 p.m.</tspan></text><text x=\"68.4\" y=\"151.6\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"68.4\" dy=\"0\" font-weight=\"700\">19%</tspan><tspan x=\"68.4\" dy=\"12\">No bedtime</tspan></text><text x=\"64.6\" y=\"72.5\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"64.6\" dy=\"0\" font-weight=\"700\">28%</tspan><tspan x=\"64.6\" dy=\"12\">11 p.m. or later</tspan></text></g></svg>"
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P1029-M-FM15",
+      "question_type": "mc",
+      "question": "A school robotics committee must be formed, consisting of exactly \\(1\\) captain and \\(2\\) members. If there are \\(5\\) captains and \\(7\\) members available to join the committee, how many different ways are there to form the committee?",
+      "options": {
+        "A": "\\(35\\)",
+        "B": "\\(70\\)",
+        "C": "\\(105\\)",
+        "D": "\\(140\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Multiply every term by 6: p + 2(q − p) = r. Distribute: p + 2q − 2p = r, so r = 2q − p."
+        "exhibit_text": "Choosing 1 of 5 captains: 5. Choosing 2 of 7 members: C(7,2) = 21. Total: 5 × 21 = 105."
+      },
+      "base_source": "Exam F — Math Q15 (FM15)",
+      "base_question": {
+        "question": "A school debate committee must be formed, consisting of exactly 1 teacher and 2 students. If there are 4 teachers and 6 students available to join the committee, how many different ways are there to form the committee?",
+        "options": {
+          "A": "24",
+          "B": "60",
+          "C": "90",
+          "D": "120"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "The committee contains exactly 1 teacher. There are 4 possible teachers to choose from, so there are 4 options for this position. The remaining 2 positions must be filled from the 6 available students. There are thus 6 choices for one position. Once this person is assigned, there are only 5 left to choose from. This appears to yield \\(6\\times5=30\\) options for the students. However, this method counts Student A and Student B as a different group than Student B and Student A. In reality, they should be the same because order does not matter in a committee. To correct for this, divide 30 by the number of different ways of arranging 2 students, which is 2. This yields \\(30\\div2=15\\) groups of 2 students. Multiply this by the number of options for the teacher to arrive at the total number of ways of selecting the committee: \\(4\\times15=60\\)."
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P1029-M-GM02",
+      "question_type": "mc",
+      "question": "A gardener has a plot of land that is \\(8\\) feet by \\(25\\) feet. If both sides of the plot are increased by \\(10\\%\\), how many square feet will be added to the plot?",
+      "options": {
+        "A": "\\(20\\)",
+        "B": "\\(42\\)",
+        "C": "\\(80\\)",
+        "D": "\\(220\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Original area: 8 × 25 = 200. New dimensions: 8.8 × 27.5 = 242. Added: 242 − 200 = 42."
+      },
+      "base_source": "Exam G — Math Q2 (GM02)",
+      "base_question": {
+        "question": "A gardener has a plot of land that is \\(10\\) feet by \\(20\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
+        "options": {
+          "A": "\\(20\\)",
+          "B": "\\(35\\)",
+          "C": "\\(88\\)",
+          "D": "\\(180\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Start by finding the total area of the plot before it increases. Plug the original dimensions into the area equation, \\(\\text{Area}=\\text{length}\\times\\text{width}\\), to find that \\(\\text{Area}=10\\times20=200\\).\n\nNext, find the new lengths for the plot. To make the math easier, find \\(10\\%\\) and double it to get to \\(20\\%\\). Start with the side length that is \\(10\\) feet. \\(10\\%\\) of \\(10\\) is \\(1\\), so \\(20\\%\\) of \\(10\\) is \\(2\\). The new length is \\(10+2=12\\). Do the same for the other side length. \\(10\\%\\) of \\(20\\) is \\(2\\), so \\(20\\%\\) of \\(20\\) is \\(4\\). The new length is \\(20+4=24\\).\n\nThe new area is \\(12\\times24=288\\). Finally, subtract the starting area from the new area to find how many square feet the plot increased by: \\(288-200=88\\)."
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P1029-M-AM18",
+      "question_type": "mc",
+      "question": "Mr. Alvarez bought five bottles of juice for $\\(1.20\\) each and \\(8\\) pounds of cheese. He paid a total of $\\(30.00\\) for these items, **not** including tax. What was the price per pound of the cheese?",
+      "options": {
+        "A": "$\\(3.00\\)",
+        "B": "$\\(3.25\\)",
+        "C": "$\\(3.75\\)",
+        "D": "$\\(4.00\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Bottles: 5 × $1.20 = $6.00. Cheese total: $30.00 − $6.00 = $24.00. Per pound: $24.00 / 8 = $3.00."
+      },
+      "base_source": "Exam A — Math Q18 (AM18)",
+      "base_question": {
+        "question": "Mrs. Cranston bought five bottles of water for $\\(0.90\\) each and \\(8\\) pounds of meat. She paid a total of $\\(26.90\\) for these items, **not** including tax. What was the price per pound of the meat?",
+        "options": {
+          "A": "$\\(2.80\\)",
+          "B": "$\\(3.25\\)",
+          "C": "$\\(14.40\\)",
+          "D": "$\\(22.40\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) Let \\(x\\) be the price per pound of the meat. Set up an equation to show what Mrs. Cranston spent:\n\n\\[5(0.90) + 8x = 26.90\\]\n\\[4.50 + 8x = 26.90\\]\n\\[8x = 22.40\\]\n\\[x = 2.80\\]\n\nThe price per pound of the meat was $\\(2.80\\)."
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P1029-M-BM19",
+      "question_type": "mc",
+      "question": "Points \\(X\\), \\(Y\\), and \\(Z\\) are on a straight line, and \\(Y\\) is between \\(X\\) and \\(Z\\). Length \\(\\overline{YZ} = \\dfrac{2}{3}\\overline{XY}\\), and length \\(\\overline{XY} = 18\\) centimeters. What is the length of \\(\\overline{XZ}\\)?",
+      "options": {
+        "A": "\\(12\\) cm",
+        "B": "\\(24\\) cm",
+        "C": "\\(30\\) cm",
+        "D": "\\(36\\) cm"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "YZ = (2/3)(18) = 12 cm. XZ = XY + YZ = 18 + 12 = 30 cm."
+      },
+      "base_source": "Exam B — Math Q19 (BM19)",
+      "base_question": {
+        "question": "Points \\(X\\), \\(Y\\), and \\(Z\\) are on a straight line, and \\(Y\\) is between \\(X\\) and \\(Z\\). Length \\(\\overline{YZ} = \\dfrac{3}{5}\\overline{XY}\\), and length \\(\\overline{XY} = 20\\) centimeters. What is the length of \\(\\overline{XZ}\\)?",
+        "options": {
+          "A": "\\(12\\) cm",
+          "B": "\\(24\\) cm",
+          "C": "\\(30\\) cm",
+          "D": "\\(32\\) cm"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Since \\(\\overline{XY} = 20\\) cm, use that to find \\(\\overline{YZ}\\):\n\n\\[\\overline{YZ} = \\dfrac{3}{5}\\overline{XY} = \\dfrac{3}{5}(20) = 12 \\text{ cm}\\]\n\\[\\overline{XZ} = \\overline{XY} + \\overline{YZ} = 20 + 12 = 32 \\text{ cm}\\]"
+        }
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P1029-M-CM18",
+      "question_type": "mc",
+      "question": "I. \\(a - b\\)\\nII. \\(ab^2\\)\\nIII. \\(a^b\\)\\n\\nIf \\(a\\) is a positive integer and \\(b\\) is a negative integer, which of the above expressions **must** be a positive number?",
+      "options": {
+        "A": "II only",
+        "B": "I and II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "I: positive − negative = positive, always. II: a positive, b² always positive (even power), so ab² positive, always. III: a^b with b negative means 1/a^|b|, which is positive since a is a positive integer. All three must be positive."
+      },
+      "base_source": "Exam C — Math Q18 (CM18)",
+      "base_question": {
+        "question": "I. \\(s - t\\)\nII. \\(st^2\\)\nIII. \\(s^t\\)\n\nIf \\(s\\) is a positive integer and \\(t\\) is a negative integer, which of the above expressions **must** be a positive number?",
+        "options": {
+          "A": "II only",
+          "B": "I and II only",
+          "C": "II and III only",
+          "D": "I, II, and III"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Each of the three expressions must be considered:\n\nExpression I: \\(s - t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSubtracting a negative integer is the equivalent of adding a positive integer, so \\(s - (-t)\\) is equivalent to finding the value of \\(s + t\\), which must result in a positive number.\n\nExpression II: \\(st^2\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSquaring a negative integer results in a positive integer, so \\(s(-t)^2\\) is equivalent to finding the value of \\(st^2\\), which must result in a positive number.\n\nExpression III: \\(s^t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer: raising a positive number to a negative power gives \\(\\dfrac{1}{s^{|t|}}\\), which is still positive.\n\nAll three expressions must be positive."
+        }
+      },
+      "q_number": 25
+    },
+    {
+      "id": "P1029-M-DM02",
+      "question_type": "mc",
+      "question": "What is the value of \\(c\\) in \\(\\dfrac{a}{10} + \\dfrac{b - a}{5} = \\dfrac{c}{10}\\)?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(5\\)",
+        "C": "\\(b\\)",
+        "D": "\\(2b - a\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Multiply every term by 10: a + 2(b − a) = c → a + 2b − 2a = c → c = 2b − a."
       },
       "base_source": "Exam D — Math Q2 (DM02)",
       "base_question": {
@@ -1168,337 +779,728 @@
         "solution": {
           "exhibit_text": "(D) First, multiply both sides of the equation by \\(10\\) to eliminate the fractions. In other words, multiply each term by \\(10\\).\n\n\\[\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\]\n\\[10\\left(\\dfrac{x}{10} + \\dfrac{y - x}{5}\\right) = 10\\left(\\dfrac{z}{10}\\right)\\]\n\\[\\dfrac{10x}{10} + \\dfrac{10(y - x)}{5} = \\dfrac{10z}{10}\\]\n\\[x + 2(y - x) = z\\]\n\nThen, distribute and combine like terms to find the value for \\(z\\).\n\n\\[x + 2(y - x) = z\\]\n\\[x + 2y - 2x = z\\]\n\\[2y - x = z\\]"
         }
-      }
+      },
+      "q_number": 26
     },
     {
-      "id": "P1029-M-DM06",
-      "q_number": 40,
+      "id": "P1029-M-EM32",
       "question_type": "mc",
-      "question": "The cost of shipping a package is $\\(15\\), plus $\\(3\\) for each additional pound over \\(4\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 4\\).",
+      "question": "\\[-3[(-24.4) \\div 6.1] - 4[9.6 \\div (-3.2)] =\\]",
       "options": {
-        "A": "\\(15 + 3(p + 4)\\)",
-        "B": "\\(18p - 4\\)",
-        "C": "\\(18p + 4\\)",
-        "D": "\\(15 + 3(p - 4)\\)"
+        "A": "\\(-24\\)",
+        "B": "\\(12\\)",
+        "C": "\\(18\\)",
+        "D": "\\(24\\)"
       },
       "correct": "D",
       "solution": {
-        "exhibit_text": "The base $15 covers the first 4 pounds; every pound beyond that costs an extra $3, so the extra pounds are (p − 4). Total cost = 15 + 3(p − 4)."
+        "exhibit_text": "(-24.4) / 6.1 = -4, so -3(-4) = 12. 9.6 / (-3.2) = -3, so -4(-3) = 12. 12 + 12 = 24."
       },
-      "base_source": "Exam D — Math Q6 (DM06)",
+      "base_source": "Exam E — Math Q32 (EM32)",
       "base_question": {
-        "question": "The cost of shipping a package is $\\(12\\), plus $\\(2\\) for each additional pound over \\(3\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 3\\).",
+        "question": "\\[-2[(-18.75) \\div 6.25] - 5[8.46 \\div (-4.23)] =\\]",
         "options": {
-          "A": "\\(12 + 2(p + 3)\\)",
-          "B": "\\(12 + 2(p - 3)\\)",
-          "C": "\\(14p + 3\\)",
-          "D": "\\(14p - 3\\)"
+          "A": "\\(-4\\)",
+          "B": "4",
+          "C": "12",
+          "D": "16"
         },
-        "correct": "B",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "(B) Since the additional cost per pound is **not** added until the package weighs more than \\(3\\) pounds, the total cost for \\(1\\), \\(2\\), or \\(3\\) pounds is $\\(12\\).\n\n• \\(1\\) pound is $\\(12\\)\n• \\(2\\) pounds is $\\(12\\)\n• \\(3\\) pounds is $\\(12\\)\n\nSince \\(p\\) is greater than or equal to \\(3\\) pounds, the total cost for:\n\n• \\(4\\) pounds is\n\\[12 + (4 - 3)(2) = 14\\]\n• \\(5\\) pounds is\n\\[12 + (5 - 3)(2) = 16\\]\n• \\(p\\) pounds is\n\\[12 + (p - 3)(2)\\]"
+          "exhibit_text": "Remember PEMDAS to answer this question correctly. Operations inside parentheses come first, so \\(-2[(-18.75)\\div 6.25]\\) becomes \\(-2(-3)\\), and \\(5[8.46\\div(-4.23)]\\) becomes \\(5(-2)\\). The full expression now reads \\(-2(-3)-5(-2)\\), or \\(6-(-10)\\), which is \\(6+10\\), or 16."
         }
-      }
+      },
+      "q_number": 27
     },
     {
-      "id": "P1029-M-DM15",
-      "q_number": 41,
+      "id": "P1029-M-FM27",
       "question_type": "mc",
-      "question": "\\[\\dfrac{1}{22} + \\dfrac{1}{44} + \\dfrac{1}{66}\\]\n\nWhat is the value of the expression shown above?",
+      "question": "A trail mix recipe requires \\(\\dfrac{2}{3}\\) of an ounce of dried cranberries. How many batches of trail mix can be made using a package containing \\(44\\) ounces of dried cranberries?",
       "options": {
-        "A": "\\(\\dfrac{1}{12}\\)",
-        "B": "\\(\\dfrac{1}{22}\\)",
-        "C": "\\(\\dfrac{1}{44}\\)",
-        "D": "\\(\\dfrac{3}{44}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "The least common denominator is 132. 1/22 = 6/132, 1/44 = 3/132, 1/66 = 2/132. Sum: 11/132, which reduces to 1/12."
-      },
-      "base_source": "Exam D — Math Q15 (DM15)",
-      "base_question": {
-        "question": "\\[\\dfrac{1}{11} + \\dfrac{1}{22} + \\dfrac{1}{33}\\]\n\nWhat is the value of the expression shown above?",
-        "options": {
-          "A": "\\(\\dfrac{1}{22}\\)",
-          "B": "\\(\\dfrac{1}{11}\\)",
-          "C": "\\(\\dfrac{1}{6}\\)",
-          "D": "\\(\\dfrac{3}{22}\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) To add fractions, find a common denominator and rename the fractions using the common denominator. The least common denominator for \\(11\\), \\(22\\), and \\(33\\) is \\(66\\). After adding the fractions, the final fraction can be reduced to lowest terms.\n\n\\[\\dfrac{1}{11} = \\dfrac{1 \\times 6}{11 \\times 6} = \\dfrac{6}{66}\\]\n\\[\\dfrac{1}{22} = \\dfrac{1 \\times 3}{22 \\times 3} = \\dfrac{3}{66}\\]\n\\[\\dfrac{1}{33} = \\dfrac{1 \\times 2}{33 \\times 2} = \\dfrac{2}{66}\\]\n\n\\[\\dfrac{6}{66} + \\dfrac{3}{66} + \\dfrac{2}{66} = \\dfrac{11}{66} = \\dfrac{1}{6}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM18",
-      "q_number": 42,
-      "question_type": "mc",
-      "question": "Which of the following decimals is equivalent to \\(2\\dfrac{1}{3} + 1\\dfrac{5}{9}\\)?",
-      "options": {
-        "A": "\\(3.\\overline{3}\\)",
-        "B": "\\(3.\\overline{8}\\)",
-        "C": "\\(3.\\overline{6}\\)",
-        "D": "\\(4.\\overline{8}\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Convert to ninths: 2⅓ = 21/9, 1⅕/9 wait — 2⅓ = 7/3 = 21/9, and 1⅕/9 = 14/9. Sum = 35/9 = 3.8888... = 3.overline{8}."
-      },
-      "base_source": "Exam D — Math Q18 (DM18)",
-      "base_question": {
-        "question": "Which of the following decimals is equivalent to \\(1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\)?",
-        "options": {
-          "A": "\\(3.\\overline{1}\\)",
-          "B": "\\(3.\\overline{6}\\)",
-          "C": "\\(4.\\overline{1}\\)",
-          "D": "\\(4.\\overline{9}\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) First, add the mixed numbers. Then, convert the fraction \\(\\dfrac{1}{9}\\) to a decimal.\n\n\\[1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\]\n\\[1\\dfrac{6}{9} + 2\\dfrac{4}{9}\\]\n\\[3 + \\dfrac{10}{9}\\]\n\\[3 + 1\\dfrac{1}{9}\\]\n\\[4\\dfrac{1}{9} = 4.111\\ldots = 4.\\overline{1}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM21",
-      "q_number": 43,
-      "question_type": "mc",
-      "question": "Maxie borrowed $\\(9.25\\) from her mother, $\\(13.50\\) from her father, and $\\(6.00\\) from her brother to purchase a video game. Her grandmother gave her $\\(30.00\\) as a gift. How much money will Maxie have left or still owe if she uses the money her grandmother gave her to pay back the money she borrowed?",
-      "options": {
-        "A": "Maxie will still owe $\\(1.25\\).",
-        "B": "Maxie will still owe $\\(0.75\\).",
-        "C": "Maxie will have $\\(1.25\\) left.",
-        "D": "Maxie will have $\\(2.25\\) left."
+        "A": "\\(29\\)",
+        "B": "\\(44\\)",
+        "C": "\\(66\\)",
+        "D": "\\(88\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Total borrowed: $9.25 + $13.50 + $6.00 = $28.75. Her grandmother gave her $30.00, so she has $30.00 − $28.75 = $1.25 left after paying everyone back."
+        "exhibit_text": "44 ÷ (2/3) = 44 × (3/2) = 66 batches."
       },
-      "base_source": "Exam D — Math Q21 (DM21)",
+      "base_source": "Exam F — Math Q27 (FM27)",
       "base_question": {
-        "question": "Maxie borrowed $\\(7.75\\) from her mother, $\\(11.00\\) from her father, and $\\(4.50\\) from her brother to purchase a video game. Her grandmother gave her $\\(25.00\\) as a gift. How much money will Maxie have left or still owe if she uses the money her grandmother gave her to pay back the money she borrowed?",
+        "question": "A granola recipe requires \\(\\dfrac{3}{5}\\) of an ounce of vanilla extract. How many batches of granola can be made using a package containing 60 ounces of vanilla extract?",
         "options": {
-          "A": "Maxie will still owe $\\(2.25\\).",
-          "B": "Maxie will still owe $\\(1.75\\).",
-          "C": "Maxie will have $\\(1.75\\) left.",
-          "D": "Maxie will have $\\(2.25\\) left."
+          "A": "36",
+          "B": "48",
+          "C": "80",
+          "D": "100"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "To answer this question, you have to figure out how many times \\(\\dfrac{3}{5}\\) goes into 60. Since you're dividing by a number smaller than 1, the result must be more than 60, so eliminate (A) and (B). The equation is \\(60\\div\\dfrac{3}{5}=\\dfrac{60}{1}\\times\\dfrac{5}{3}\\). Canceling will make the multiplication easier: \\(\\dfrac{60}{1}\\times\\dfrac{5}{3}=\\dfrac{20}{1}\\times\\dfrac{5}{1}\\), which equals \\(20\\times5\\), or 100."
+        }
+      },
+      "q_number": 28
+    },
+    {
+      "id": "P1029-M-GM05",
+      "question_type": "mc",
+      "question": "In March, the electricity used in a factory was \\(8{,}000{,}000\\) watts. In April, the number of watts used was \\(6{,}000{,}000\\). By what percentage did the electricity usage decrease from March to April?",
+      "options": {
+        "A": "\\(20\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(33.3\\%\\)",
+        "D": "\\(75\\%\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Decrease: 8,000,000 − 6,000,000 = 2,000,000. Percent decrease: 2,000,000 / 8,000,000 = 0.25 = 25%."
+      },
+      "base_source": "Exam G — Math Q5 (GM05)",
+      "base_question": {
+        "question": "In March, the electricity used in New York was \\(5{,}000{,}000\\) watts. In April, the number of watts used was \\(4{,}000{,}000\\). By what percentage did the electricity usage decrease from March to April?",
+        "options": {
+          "A": "\\(20\\%\\)",
+          "B": "\\(25\\%\\)",
+          "C": "\\(50\\%\\)",
+          "D": "\\(75\\%\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "To find a percent change, find the amount of *change* and divide by the *original* amount.\n\n\\(5{,}000{,}000-4{,}000{,}000=1{,}000{,}000\\). This is the amount of change. Now divide by the original amount.\n\n\\[\\dfrac{1{,}000{,}000}{5{,}000{,}000}=\\dfrac{1}{5}=\\dfrac{20}{100}=20\\%\\]"
+        }
+      },
+      "q_number": 29
+    },
+    {
+      "id": "P1029-M-AM24",
+      "question_type": "mc",
+      "question": "The **least** of \\(7\\) consecutive integers is \\(l\\), and the **greatest** is \\(g\\). What is the value of \\(\\dfrac{l+g}{2}\\) in terms of \\(l\\)?",
+      "options": {
+        "A": "\\(2l\\)",
+        "B": "\\(l + 3\\)",
+        "C": "\\(l + 6\\)",
+        "D": "\\(3l\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "With 7 consecutive integers starting at l, the greatest is g = l + 6. (l+g)/2 = (l + l + 6)/2 = (2l+6)/2 = l + 3."
+      },
+      "base_source": "Exam A — Math Q24 (AM24)",
+      "base_question": {
+        "question": "The **least** of \\(5\\) consecutive integers is \\(l\\), and the **greatest** is \\(g\\). What is the value of \\(\\dfrac{l+g}{2}\\) in terms of \\(l\\)?",
+        "options": {
+          "A": "\\(2l\\)",
+          "B": "\\(3l\\)",
+          "C": "\\(l + 2\\)",
+          "D": "\\(l + 5\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) First, determine the total amount Maxie borrowed, in dollars:\n\n\\[7.75 + 11.00 + 4.50 = 23.25\\]\n\nThen use subtraction to determine the difference between the amount her grandmother gave her and the amount she borrowed:\n\n\\[25.00 - 23.25 = 1.75\\]\n\nThe difference is positive, which means that Maxie will still have $\\(1.75\\) left from the amount her grandmother gave her."
+          "exhibit_text": "(C) The first integer is \\(l\\), so the second is \\(l+1\\), the third is \\(l+2\\), then \\(l+3\\), and finally \\(l+4\\).\n\nSince \\(g\\) is the fifth and greatest of the integers, \\(g = l+4\\).\n\nSubstitute \\(l+4\\) for \\(g\\) and simplify:\n\n\\[\\dfrac{l+g}{2} = \\dfrac{l + l + 4}{2} = \\dfrac{2l+4}{2} = l+2\\]"
         }
-      }
+      },
+      "q_number": 30
     },
     {
-      "id": "P1029-M-DM24",
-      "q_number": 44,
+      "id": "P1029-M-BM14",
       "question_type": "mc",
-      "question": "An athlete runs \\(\\dfrac{1}{6}\\) kilometer in \\(\\dfrac{2}{3}\\) minute. At this rate, how many kilometers would the athlete run in \\(1\\) minute?",
+      "question": "A cooler contains three types of beverages: \\(6\\) bottles of apple juice, \\(4\\) bottles of grape juice, and \\(8\\) bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is **not** apple juice?",
       "options": {
         "A": "\\(\\dfrac{1}{9}\\)",
-        "B": "\\(4\\)",
-        "C": "\\(1\\dfrac{1}{3}\\)",
-        "D": "\\(\\dfrac{1}{4}\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Rate = (1/6) ÷ (2/3) = (1/6) × (3/2) = 3/12 = 1/4 kilometer per minute."
-      },
-      "base_source": "Exam D — Math Q24 (DM24)",
-      "base_question": {
-        "question": "An athlete runs \\(\\dfrac{1}{8}\\) kilometer in \\(\\dfrac{3}{4}\\) minute. At this rate, how many kilometers would the athlete run in \\(1\\) minute?",
-        "options": {
-          "A": "\\(\\dfrac{3}{32}\\)",
-          "B": "\\(\\dfrac{1}{6}\\)",
-          "C": "\\(1\\dfrac{1}{2}\\)",
-          "D": "\\(6\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) To determine the number of kilometers in \\(1\\) minute, find the unit rate in kilometers per minute: \\(\\dfrac{\\frac{1}{8} \\text{ kilometer}}{\\frac{3}{4} \\text{ minute}}\\).\n\nTo evaluate the fraction, use the reciprocal when dividing to get \\(\\dfrac{1}{6}\\) kilometer per \\(1\\) minute.\n\n\\[\\dfrac{1}{8} \\div \\dfrac{3}{4} = \\dfrac{1}{8} \\times \\dfrac{4}{3} = \\dfrac{4}{24} = \\dfrac{1}{6}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM28",
-      "q_number": 45,
-      "question_type": "mc",
-      "question": "A graph shows the relationship between the number of gallons of water, \\(y\\), that has been added to a tank and the number of hours, \\(x\\), that water has been added to the tank at a constant rate. What does the ordered pair \\((5, 40)\\) represent?",
-      "options": {
-        "A": "Forty gallons of water was added in \\(5\\) hours.",
-        "B": "Five gallons of water was added per hour.",
-        "C": "Five gallons of water was added in \\(40\\) hours.",
-        "D": "Forty gallons of water was added per hour."
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "The ordered pair (x, y) = (5, 40) means that after 5 hours, 40 gallons had been added — that is, 40 gallons were added in 5 hours."
-      },
-      "base_source": "Exam D — Math Q28 (DM28)",
-      "base_question": {
-        "question": "A graph shows the relationship between the number of gallons of water, \\(y\\), that has been added to a tank and the number of hours, \\(x\\), that water has been added to the tank at a constant rate. What does the ordered pair \\((3, 24)\\) represent?",
-        "options": {
-          "A": "Three gallons of water was added in \\(24\\) hours.",
-          "B": "Three gallons of water was added per hour.",
-          "C": "Twenty-four gallons of water was added in \\(3\\) hours.",
-          "D": "Twenty-four gallons of water was added per hour."
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) It is given that \\(x\\)-values on the graph represent the numbers of hours for which water was added to the tank, and the \\(y\\)-values represent the numbers of gallons of water added in \\(x\\) hours. In the ordered pair \\((3, 24)\\), \\(3\\) represents an \\(x\\)-value and \\(24\\) represents a \\(y\\)-value.\n\nTherefore, \\((3, 24)\\) represents a data point for \\(24\\) gallons of water being added to the tank in a \\(3\\)-hour period."
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM31",
-      "q_number": 46,
-      "question_type": "mc",
-      "question": "A box contains an unknown number of green marbles. An experimenter adds \\(150\\) red marbles to the box, mixes the marbles thoroughly, and then draws out \\(12\\) marbles at random. Assume that this sample is representative of the proportion in the box. If there are \\(3\\) red marbles and \\(9\\) green marbles in this sample, approximately how many green marbles are in the box?",
-      "options": {
-        "A": "\\(120\\)",
-        "B": "\\(450\\)",
-        "C": "\\(600\\)",
-        "D": "\\(750\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "In the sample, red marbles make up 3/12 = 1/4 of the total. Since there are 150 red marbles, the total number of marbles is 150 ÷ (1/4) = 600. Green marbles = 600 − 150 = 450."
-      },
-      "base_source": "Exam D — Math Q31 (DM31)",
-      "base_question": {
-        "question": "A box contains an unknown number of green marbles. An experimenter adds \\(100\\) red marbles to the box, mixes the marbles thoroughly, and then draws out \\(10\\) marbles at random. Assume that this sample is representative of the proportion in the box. If there are \\(2\\) red marbles and \\(8\\) green marbles in this sample, approximately how many green marbles are in the box?",
-        "options": {
-          "A": "\\(80\\)",
-          "B": "\\(300\\)",
-          "C": "\\(400\\)",
-          "D": "\\(500\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) In this context, the phrase \"this sample is representative\" means that the ratio of \\(2\\) red marbles to \\(8\\) green marbles is the same as the ratio of red to green marbles in the entire box. Use this ratio of \\(2\\) to \\(8\\) to set up a proportion and solve, where \\(x\\) represents the number of green marbles in the box.\n\n\\[\\dfrac{2}{8} = \\dfrac{100}{x}\\]\n\\[2x = 800\\]\n\\[x = 400\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM20",
-      "q_number": 47,
-      "question_type": "mc",
-      "question": "What is the value of \\(\\dfrac{-4(-5)^2 + 45(-5) + 200}{-5}\\)?",
-      "options": {
-        "A": "\\(-25\\)",
-        "B": "\\(5\\)",
-        "C": "\\(25\\)",
-        "D": "\\(145\\)"
+        "B": "\\(\\dfrac{4}{9}\\)",
+        "C": "\\(\\dfrac{2}{3}\\)",
+        "D": "\\(\\dfrac{7}{9}\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "(−5)^2 = 25, so −4(25) = −100. Then 45(−5) = −225. Sum: −100 − 225 + 200 = −125. Divide by −5: −125 / −5 = 25."
+        "exhibit_text": "18 total bottles, 12 not apple juice. 12/18 = 2/3."
       },
-      "base_source": "Exam D — Math Q20 (DM20)",
+      "base_source": "Exam B — Math Q14 (BM14)",
       "base_question": {
-        "question": "What is the value of \\(\\dfrac{-9(-4)^2 + 36(-4) + 304}{-4}\\)?",
+        "question": "A cooler contains three types of beverages: \\(5\\) bottles of apple juice, \\(3\\) bottles of grape juice, and \\(6\\) bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is **not** apple juice?",
         "options": {
-          "A": "\\(-76\\)",
-          "B": "\\(-4\\)",
-          "C": "\\(4\\)",
-          "D": "\\(148\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) Use the order of operations to evaluate the expression. It is important to recognize that the fraction bar is a grouping symbol and so the entire numerator should be evaluated first. Exponents are evaluated first.\n\n\\[\\dfrac{-9(-4)^2 + 36(-4) + 304}{-4}\\]\n\\[\\dfrac{-9(16) + 36(-4) + 304}{-4}\\]\n\nThen multiplication, recognizing that the product of a negative factor and a positive factor is negative.\n\n\\[\\dfrac{-9(16) + 36(-4) + 304}{-4}\\]\n\\[\\dfrac{-144 - 144 + 304}{-4}\\]\n\nThen addition and subtraction in order from left to right, recognizing the rules for adding and subtracting signed numbers.\n\n\\[\\dfrac{-144 - 144 + 304}{-4}\\]\n\\[\\dfrac{-288 + 304}{-4} = \\dfrac{16}{-4} = -4\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM42",
-      "q_number": 48,
-      "question_type": "mc",
-      "question": "A student reads \\(\\dfrac{1}{15}\\) of a book in \\(\\dfrac{1}{5}\\) hour. What fraction of the book can the student read in \\(1\\) hour?",
-      "options": {
-        "A": "\\(\\dfrac{1}{75}\\)",
-        "B": "\\(\\dfrac{15}{5}\\)",
-        "C": "\\(\\dfrac{3}{15}\\)",
-        "D": "\\(\\dfrac{1}{3}\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Rate = (1/15) ÷ (1/5) = (1/15) × 5 = 5/15 = 1/3 of the book per hour."
-      },
-      "base_source": "Exam D — Math Q42 (DM42)",
-      "base_question": {
-        "question": "A student reads \\(\\dfrac{1}{12}\\) of a book in \\(\\dfrac{1}{3}\\) hour. What fraction of the book can the student read in \\(1\\) hour?",
-        "options": {
-          "A": "\\(\\dfrac{1}{36}\\)",
-          "B": "\\(\\dfrac{1}{4}\\)",
-          "C": "\\(\\dfrac{5}{12}\\)",
-          "D": "\\(\\dfrac{12}{3}\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) To find the fraction of the book the student can read in \\(1\\) hour, find the unit rate per hour. First, set up the ratio.\n\n\\[\\dfrac{\\dfrac{1}{12} \\text{ book}}{\\dfrac{1}{3} \\text{ hour}}\\]\n\nThen use division to find the unit rate.\n\n\\[\\dfrac{\\dfrac{1}{12}}{\\dfrac{1}{3}} = \\dfrac{1}{12} \\div \\dfrac{1}{3} = \\dfrac{1}{12} \\times \\dfrac{3}{1} = \\dfrac{3}{12} = \\dfrac{1}{4}\\]\n\nAnother way to solve the problem is to set up the ratio and then multiply both the numerator and denominator by \\(3\\), since \\(\\dfrac{1}{3}\\) hour times \\(3\\) equals \\(1\\) hour.\n\n\\[\\dfrac{3 \\times \\dfrac{1}{12} \\text{ book}}{3 \\times \\dfrac{1}{3} \\text{ hour}} = \\dfrac{\\dfrac{1}{4} \\text{ book}}{1 \\text{ hour}}\\]"
-        }
-      }
-    },
-    {
-      "id": "P1029-M-DM49",
-      "q_number": 49,
-      "question_type": "mc",
-      "question": "Marisol has a piece of cloth measuring \\(60\\) inches by \\(84\\) inches. She wants to cut it into squares of equal size, without any cloth left over. What is the **greatest** possible side length, in inches, of one of those squares?",
-      "options": {
-        "A": "\\(12\\)",
-        "B": "\\(6\\)",
-        "C": "\\(4\\)",
-        "D": "\\(60\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "The greatest possible square side length is the greatest common factor of 60 and 84. 60 = 2²×3×5, 84 = 2²×3×7. The GCF is 2²×3 = 12."
-      },
-      "base_source": "Exam D — Math Q49 (DM49)",
-      "base_question": {
-        "question": "Anise has a piece of cloth measuring \\(45\\) inches by \\(75\\) inches. She wants to cut it into squares of equal size, without any cloth left over. What is the **greatest** possible side length, in inches, of one of those squares?",
-        "options": {
-          "A": "\\(3\\)",
-          "B": "\\(5\\)",
-          "C": "\\(15\\)",
-          "D": "\\(45\\)"
+          "A": "\\(\\dfrac{1}{9}\\)",
+          "B": "\\(\\dfrac{5}{14}\\)",
+          "C": "\\(\\dfrac{9}{14}\\)",
+          "D": "\\(\\dfrac{2}{3}\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) Given that each piece will be a square, the length and width will be the same. The greatest possible length can be determined by finding the greatest common factor of the length and width of the original piece of cloth.\n\nBegin by finding the prime factorization of the length (\\(75\\) in.) and width (\\(45\\) in.).\n\n\\[45 = 3 \\times 3 \\times 5\\]\n\\[75 = 3 \\times 5 \\times 5\\]\n\nThe common factors can be seen as \\(3 \\times 5\\).\n\nThe greatest possible side length, in inches, will be \\(3 \\times 5 = 15\\)."
+          "exhibit_text": "(C) The total number of bottles of juice in the cooler is \\(5 + 3 + 6 = 14\\).\n\nThe number of bottles of juice that are **not** apple juice (grape juice and orange juice) is \\(3 + 6 = 9\\).\n\nSo the probability is \\(\\dfrac{9}{14}\\)."
         }
-      }
+      },
+      "q_number": 31
     },
     {
-      "id": "P1029-M-DM34",
-      "q_number": 50,
+      "id": "P1029-M-CM07",
       "question_type": "mc",
-      "question": "Last week, Carlos rode his bike to school on \\(2\\) of the \\(5\\) mornings and rode his bike home on \\(3\\) of the \\(5\\) afternoons. Based on last week's events, what is the probability that Carlos will ride his bike in the morning and the afternoon next Monday?",
+      "question": "\\[-20 > 5x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
       "options": {
-        "A": "\\(\\dfrac{1}{5}\\)",
-        "B": "\\(\\dfrac{6}{25}\\)",
-        "C": "\\(\\dfrac{3}{25}\\)",
-        "D": "\\(\\dfrac{1}{2}\\)"
+        "A": "\\(x > -4\\)",
+        "B": "\\(x < -4\\)",
+        "C": "\\(x < 4\\)",
+        "D": "\\(x > 4\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "The probability he rides in the morning is 2/5, and the probability he rides in the afternoon is 3/5. Assuming these are independent, the probability of both is (2/5)×(3/5) = 6/25."
+        "exhibit_text": "Divide both sides by 5 (positive, so inequality direction stays): −4 > x, i.e. x < −4."
       },
-      "base_source": "Exam D — Math Q34 (DM34)",
+      "base_source": "Exam C — Math Q7 (CM07)",
       "base_question": {
-        "question": "Last week, Emily rode the bus to school on \\(3\\) of the \\(5\\) mornings and rode the bus home on \\(4\\) of the \\(5\\) afternoons. Based on last week's events, what is the probability that Emily will ride the bus in the morning and the afternoon next Monday?",
+        "question": "\\[-12 > 6x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
         "options": {
-          "A": "\\(\\dfrac{1}{5}\\)",
-          "B": "\\(\\dfrac{7}{25}\\)",
-          "C": "\\(\\dfrac{12}{25}\\)",
-          "D": "\\(\\dfrac{7}{10}\\)"
+          "A": "\\(x > -6\\)",
+          "B": "\\(x < -6\\)",
+          "C": "\\(x < -2\\)",
+          "D": "\\(x > -2\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) Using the joint probability formula, find the product of the two independent events. The probability that Emily will ride the bus to school on any given morning is \\(\\dfrac{3}{5}\\). The probability that Emily will ride the bus to school on any given afternoon is \\(\\dfrac{4}{5}\\).\n\nTherefore, the probability that Emily will ride the bus in the morning and the afternoon is \\(\\dfrac{3}{5} \\times \\dfrac{4}{5} = \\dfrac{12}{25}\\)."
+          "exhibit_text": "(C) Divide to solve for \\(x\\):\n\n\\[\\dfrac{(-12)}{6} > \\dfrac{6x}{6}\\]\n\\[-2 > x\\]\n\nRewriting \\(-2 > x\\) with the \\(x\\) term first requires reversing the inequality symbol in order to keep the meaning \"\\(x\\) is less than \\((-2)\\)\".\n\n\\[x < -2\\]"
         }
-      }
+      },
+      "q_number": 32
+    },
+    {
+      "id": "P1029-M-DM44",
+      "question_type": "mc",
+      "question": "A bakery charges $\\(1.50\\) for each cupcake and $\\(3.00\\) for a serving tray. The equation describes \\(p\\), the price of \\(c\\) cupcakes and a serving tray, **not** including tax.\\n\\n\\\\[p = 3.00 + 1.50c\\\\]\\n\\nIf Jasmine bought some cupcakes and a serving tray for a total of $\\(30.00\\), **not** including tax, how many cupcakes did she buy?",
+      "options": {
+        "A": "\\(14\\)",
+        "B": "\\(16\\)",
+        "C": "\\(18\\)",
+        "D": "\\(20\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "30.00 = 3.00 + 1.50c → 27.00 = 1.50c → c = 18."
+      },
+      "base_source": "Exam D — Math Q44 (DM44)",
+      "base_question": {
+        "question": "A bakery charges $\\(1.25\\) for each cupcake and $\\(2.50\\) for a serving tray. The equation describes \\(p\\), the price of \\(c\\) cupcakes and a serving tray, **not** including tax.\n\n\\[p = 2.50 + 1.25c\\]\n\nIf Samantha bought some cupcakes and a serving tray for a total of $\\(22.50\\), **not** including tax, how many cupcakes did she buy?",
+        "options": {
+          "A": "\\(4\\)",
+          "B": "\\(9\\)",
+          "C": "\\(16\\)",
+          "D": "\\(18\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) Using the specified equation \\(p = 2.50 + 1.25c\\), determine the number of cupcakes Samantha bought by substituting the total paid ($\\(22.50\\)) for \\(p\\), and solve the equation for the value of \\(c\\), the number of cupcakes bought.\n\n\\[22.50 = 2.50 + 1.25c\\]\n\\[22.50 - 2.50 = 1.25c\\]\n\\[20.00 \\div 1.25 = c\\]\n\\[16 = c\\]"
+        }
+      },
+      "q_number": 33
+    },
+    {
+      "id": "P1029-M-EM26",
+      "question_type": "mc",
+      "question": "If Darius drove \\(255\\) miles between \\(8{:}30\\) a.m. and \\(12{:}45\\) p.m. on the same day, what was his average speed in miles per hour?",
+      "options": {
+        "A": "\\(50\\)",
+        "B": "\\(55\\)",
+        "C": "\\(60\\)",
+        "D": "\\(65\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "8:30 a.m. to 12:45 p.m. is 4.25 hours. 255 / 4.25 = 60 mph."
+      },
+      "base_source": "Exam E — Math Q26 (EM26)",
+      "base_question": {
+        "question": "If Morgan drove 247 miles between 9:15 a.m. and 12:30 p.m. on the same day, what was her average speed in miles per hour?",
+        "options": {
+          "A": "60",
+          "B": "63",
+          "C": "67",
+          "D": "76"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Start by finding out how long Morgan drove by counting the number of hours and quarter hours. Going from 9:15 a.m. to 12:15 p.m. is 3 hours, and from 12:15 to 12:30 is one quarter of an hour. Thus, Morgan's total driving time was 3.25 hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(247 \\div 3.25 = 76\\). To make the division easier, you may want to divide 24,700 by 325.\n\nAlternatively, you can use Backsolving. Start with (C). You are looking for a number that will get you to 247 when multiplied by 3.25: \\(3.25 \\times 67 = 217.75\\). This is too small, and since (A) and (B) are smaller, you can also eliminate them, leaving only choice (D)."
+        }
+      },
+      "q_number": 34
+    },
+    {
+      "id": "P1029-M-FM41",
+      "question_type": "mc",
+      "question": "Points A, B, C, D, E, F, G, and H are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points A and H is \\(63\\), what is the distance between points B and E?",
+      "options": {
+        "A": "\\(18\\)",
+        "B": "\\(21\\)",
+        "C": "\\(24\\)",
+        "D": "\\(27\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "A to H spans 7 equal gaps, so each gap = 63/7 = 9. B to E spans 3 gaps: 3 × 9 = 27."
+      },
+      "base_source": "Exam F — Math Q41 (FM41)",
+      "base_question": {
+        "question": "Points A, B, C, D, E, F, G, and H are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points A and H is 56, what is the distance between points B and E?",
+        "options": {
+          "A": "16",
+          "B": "18",
+          "C": "21",
+          "D": "24"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Because the distance between each pair of adjacent points is the same, each of the 7 segments \\(\\overline{AB},\\overline{BC},\\overline{CD},\\overline{DE},\\overline{EF},\\overline{FG}\\), and \\(\\overline{GH}\\) has the same length. These 7 segments make up segment \\(\\overline{AH}\\). Since the length of \\(\\overline{AH}\\) is 56, the length of each of the 7 small segments is \\(56\\div7\\), or 8. The distance between points B and E is the sum of the lengths of the 3 equal segments \\(\\overline{BC}\\), \\(\\overline{CD}\\), and \\(\\overline{DE}\\), so the distance between points B and E is \\(3\\times8\\), or 24."
+        }
+      },
+      "q_number": 35
+    },
+    {
+      "id": "P1029-M-GM27",
+      "question_type": "mc",
+      "question": "The speed \\(8\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.3\\) meter.)",
+      "options": {
+        "A": "\\(2.4\\)",
+        "B": "\\(26.67\\)",
+        "C": "\\(8{,}640\\)",
+        "D": "\\(96{,}000\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "8 ft/s × 0.3 m/ft = 2.4 m/s. 2.4 × 3,600 s/hr = 8,640 m/hr."
+      },
+      "base_source": "Exam G — Math Q27 (GM27)",
+      "base_question": {
+        "question": "The speed \\(5\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.3\\) meter.)",
+        "options": {
+          "A": "\\(1.5\\)",
+          "B": "\\(16.67\\)",
+          "C": "\\(5{,}400\\)",
+          "D": "\\(60{,}000\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Convert the units by setting up ratios of known measures. Start with the given speed, \\(5\\) feet per second, and the given conversion, \\(1\\) foot \\(=0.3\\) meters. Then fill in the ratios needed to convert seconds to hours.\n\n\\[\\dfrac{5\\text{ ft}}{1\\text{ sec}}\\times\\dfrac{0.3\\text{ meters}}{1\\text{ ft}}\\times\\dfrac{60\\text{ sec}}{1\\text{ min}}\\times\\dfrac{60\\text{ min}}{1\\text{ hr}}\\]\n\\[=\\dfrac{5{,}400\\text{ meters}}{1\\text{ hr}}\\]"
+        }
+      },
+      "q_number": 36
+    },
+    {
+      "id": "P1029-M-AM02",
+      "question_type": "mc",
+      "question": "A cyclist is traveling \\(36\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the cyclist's speed in **feet per second**?",
+      "options": {
+        "A": "\\(\\dfrac{36 \\cdot 3{,}600}{5{,}280}\\)",
+        "B": "\\(\\dfrac{36 \\cdot 5{,}280}{3{,}600}\\)",
+        "C": "\\(\\dfrac{36 \\cdot 5{,}280}{1}\\)",
+        "D": "\\(\\dfrac{36 \\cdot 5{,}280}{60}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Divide 36 mph by the seconds in an hour (3,600) to get miles per second, then multiply by 5,280 to convert to feet: (36 × 5,280) / 3,600 = 52.8 ft/s."
+      },
+      "base_source": "Exam A — Math Q2 (AM02)",
+      "base_question": {
+        "question": "A car is traveling \\(55\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the car's speed in **feet per second**?",
+        "options": {
+          "A": "\\(\\dfrac{55 \\cdot 5{,}280}{1}\\)",
+          "B": "\\(\\dfrac{55 \\cdot 5{,}280}{3{,}600}\\)",
+          "C": "\\(\\dfrac{55 \\cdot 3{,}600}{5{,}280}\\)",
+          "D": "\\(\\dfrac{55 \\cdot 5{,}280}{60}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Divide the rate (\\(55\\) miles per hour) by the number of seconds in an hour (\\(60\\) minutes x \\(60\\) seconds \\(= 3{,}600\\) seconds):\n\n\\[\\dfrac{55}{3{,}600} \\text{ miles per second}\\]\n\nMultiply by the number of feet in a mile (\\(5{,}280\\)):\n\n\\[\\dfrac{55 \\times 5{,}280}{3{,}600} \\text{ feet per second}\\]"
+        }
+      },
+      "q_number": 37
+    },
+    {
+      "id": "P1029-M-BM25",
+      "question_type": "mc",
+      "question": "If \\(k - 1\\) is an odd integer, which one of the following **must** be an even integer?",
+      "options": {
+        "A": "\\(k + 1\\)",
+        "B": "\\(2k - 1\\)",
+        "C": "\\(2k - 2\\)",
+        "D": "\\(2k + 1\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "k − 1 odd means k is even. k+1 would be odd; 2k−1 and 2k+1 are always odd (even minus/plus 1). 2k−2 = 2(k−1) is always even no matter what k is, so it must be even."
+      },
+      "base_source": "Exam B — Math Q25 (BM25)",
+      "base_question": {
+        "question": "If \\(w - 1\\) is an odd integer, which one of the following **must** be an even integer?",
+        "options": {
+          "A": "\\(w + 1\\)",
+          "B": "\\(2w - 1\\)",
+          "C": "\\(2w - 2\\)",
+          "D": "\\(2w + 1\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) One more than an odd integer must be even.\n\nOne more than \\(w - 1\\) is \\(w\\), therefore \\(w\\) must be even. Two times an even integer must be even, therefore \\(2w\\) is even. An even integer decreased by \\(2\\) must be even.\n\nTherefore, \\(2w - 2\\) must be even."
+        }
+      },
+      "q_number": 38
+    },
+    {
+      "id": "P1029-M-CM14",
+      "question_type": "mc",
+      "question": "If \\(x = -3\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
+      "options": {
+        "A": "\\(-18\\)",
+        "B": "\\(-3\\)",
+        "C": "\\(3\\)",
+        "D": "\\(18\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "x+x²+x³ = −3+9−27 = −21, |−21|=21. x+2x+3x=6x=−18, |−18|=18. 21 − 18 = 3."
+      },
+      "base_source": "Exam C — Math Q14 (CM14)",
+      "base_question": {
+        "question": "If \\(x = -2\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
+        "options": {
+          "A": "\\(-18\\)",
+          "B": "\\(-6\\)",
+          "C": "\\(-2\\)",
+          "D": "\\(2\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Substitute \\(-2\\) for each value of \\(x\\) in the expression:\n\n\\[|(-2) + (-2)^2 + (-2)^3|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving exponents:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving multiplication:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + (-4) + (-6)|\\]\n\nSimplify by adding the terms within the absolute value bars:\n\n\\[|-6| - |-12|\\]\n\\[6 - 12 = -6\\]"
+        }
+      },
+      "q_number": 39
+    },
+    {
+      "id": "P1029-M-DM23",
+      "question_type": "mc",
+      "question": "Which situation involves quantities that combine to equal zero?",
+      "options": {
+        "A": "receiving $\\(8\\) as a gift and then giving $\\(8\\) to charity",
+        "B": "buying a shirt for $\\(12\\) and then buying shoes for $\\(12\\)",
+        "C": "climbing \\(4\\) flights of stairs and then climbing \\(4\\) more flights",
+        "D": "descending \\(15\\) feet into a cave and then descending \\(15\\) feet more"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Receiving $8 (+8) and giving away $8 (−8) combine to 0. The other options are two quantities in the **same** direction, which add up, not cancel."
+      },
+      "base_source": "Exam D — Math Q23 (DM23)",
+      "base_question": {
+        "question": "Which situation involves quantities that combine to equal zero?",
+        "options": {
+          "A": "receiving $\\(5\\) as a gift and then giving $\\(5\\) to a friend",
+          "B": "buying a book for $\\(10\\) and then buying lunch for $\\(10\\)",
+          "C": "getting on an elevator at the ground floor, rising \\(3\\) floors, and then rising \\(3\\) more floors",
+          "D": "starting in a cave \\(20\\) feet below the ground, climbing up \\(20\\) feet, and then climbing up \\(20\\) feet more"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) When looking for a situation where quantities combine to make zero, find two values with the same absolute value where one value is positive and one value is negative.\n\nIn the situation in option A, receiving a gift of $\\(5\\) is represented by \\(+5\\), and giving a friend $\\(5\\) is represented by \\(-5\\). These values combine to equal zero because \\(+5 - 5 = 0\\)."
+        }
+      },
+      "q_number": 40
+    },
+    {
+      "id": "P1029-M-EM15",
+      "question_type": "mc",
+      "question": "In a certain beach town, \\(30\\%\\) of the city's residents work in tourism. \\(60\\%\\) of residents are age \\(40\\) or younger, and \\(18\\%\\) of residents are people age \\(40\\) or younger who work in tourism. What percentage of the population are people older than \\(40\\) who do **not** work in tourism?",
+      "options": {
+        "A": "\\(12\\%\\)",
+        "B": "\\(18\\%\\)",
+        "C": "\\(28\\%\\)",
+        "D": "\\(48\\%\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "People who are ≤40 OR work in tourism: 30% + 60% − 18% = 72%. The remainder, older than 40 AND not in tourism: 100% − 72% = 28%."
+      },
+      "base_source": "Exam E — Math Q15 (EM15)",
+      "base_question": {
+        "question": "In a certain tourism destination, 28% of the city's residents work in the hospitality industry. 55% of residents are age 40 or younger, and 15% of residents are people age 40 or younger who work in the hospitality industry. What percentage of the employed population are people older than 40 who do **not** work in the hospitality industry?",
+        "options": {
+          "A": "13%",
+          "B": "17%",
+          "C": "32%",
+          "D": "45%"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Read word problems carefully to sort through the information they give you. Here, the question asks for residents older than 40 who do *not* work in hospitality. First, find the percent of residents older than 40: the problem tells you the percent of residents age 40 or younger (55%), so you can subtract from 100 to get 45% of the population is older than 40. To find how many of these residents *don't* work in hospitality, you need to know how many *do*, which the problem doesn't tell you. However, it does tell you how many total residents work in hospitality (28%) and how many of those are 40 or younger (15%), so you can subtract to find residents over 40 who work in hospitality: \\(28\\%-15\\%=13\\%\\). Finally, subtract over-40 residents in hospitality from all over-40 residents: \\(45\\%-13\\%=32\\%\\) of residents are older than 40 and *don't* work in hospitality."
+        }
+      },
+      "q_number": 41
+    },
+    {
+      "id": "P1029-M-FM07",
+      "question_type": "mc",
+      "question": "There are \\(80\\) cards of varying colors in a stack. The probability of drawing a green card is \\(0.25\\). If \\(5\\) green cards are removed from the stack, what is the probability of drawing a green card from the remaining stack?",
+      "options": {
+        "A": "\\(0.15\\)",
+        "B": "\\(0.20\\)",
+        "C": "\\(0.25\\)",
+        "D": "\\(0.30\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "0.25 × 80 = 20 green cards. Removing 5 leaves 15 green out of 75 total. 15/75 = 0.20."
+      },
+      "base_source": "Exam F — Math Q7 (FM07)",
+      "base_question": {
+        "question": "There are 50 cards of varying colors in a stack. The probability of drawing a yellow card is 0.4. If 10 yellow cards are removed from the stack, what is the probability of drawing a yellow card from the remaining stack?",
+        "options": {
+          "A": "0.20",
+          "B": "0.25",
+          "C": "0.30",
+          "D": "0.40"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). There are 50 total cards, and the probability of drawing a yellow card is 0.4. If \\(y\\) represents the number of yellow cards, the probability of drawing a yellow card is \\(0.4=\\dfrac{y}{50}\\). This yields \\(y=50\\times0.4=20\\). Thus, there are 20 yellow cards in the stack. The question asks for the probability of drawing a yellow card after 10 yellow cards are removed. This leaves \\(20-10=10\\) yellow cards out of a total of \\(50-10=40\\) remaining cards. The probability is thus \\(\\dfrac{10}{40}=0.25\\)."
+        }
+      },
+      "q_number": 42
+    },
+    {
+      "id": "P1029-M-GM22",
+      "question_type": "mc",
+      "question": "If \\(n\\) is a positive integer such that \\(n\\) and \\(n+1\\) are both factors of \\(60\\), what is the sum of all possible values of \\(n\\)?",
+      "options": {
+        "A": "\\(9\\)",
+        "B": "\\(12\\)",
+        "C": "\\(15\\)",
+        "D": "\\(20\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Factors of 60: 1,2,3,4,5,6,10,12,15,20,30,60. Consecutive factor pairs: (1,2),(2,3),(3,4),(4,5),(5,6). Possible n: 1,2,3,4,5. Sum = 15."
+      },
+      "base_source": "Exam G — Math Q22 (GM22)",
+      "base_question": {
+        "question": "If \\(n\\) is a positive integer such that \\(n\\) and \\(n+1\\) are both factors of \\(42\\), what is the sum of all possible values of \\(n\\)?",
+        "options": {
+          "A": "\\(9\\)",
+          "B": "\\(10\\)",
+          "C": "\\(13\\)",
+          "D": "\\(15\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "List out all of the factors of, or numbers that divide into, \\(42\\): \\(1,2,3,6,7,14,26,42\\). You are told that \\(n\\) and \\(n+1\\) are factors of \\(42\\). In other words, these two factors are consecutive integers, or integers that occur right next to each other. There are several pairs of consecutive integer factors in this list: \\(1\\) and \\(2\\), \\(2\\) and \\(3\\), and \\(6\\) and \\(7\\). The variable \\(n\\) represents the smaller one in each pair. Therefore, \\(n=1\\) for the first pair, \\(n=2\\) for the second pair, and \\(n=6\\) for the third pair. The question asks for the sum of all possible values of \\(n\\), which is \\(1+2+6=9\\)."
+        }
+      },
+      "q_number": 43
+    },
+    {
+      "id": "P1029-M-AM06",
+      "question_type": "mc",
+      "question": "\\(9 + (5m + 3) - (6m + 7) = \\)",
+      "options": {
+        "A": "\\(5 - m\\)",
+        "B": "\\(5 + m\\)",
+        "C": "\\(19 - m\\)",
+        "D": "\\(19 + m\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "9 + 5m + 3 − 6m − 7 = (9+3−7) + (5m−6m) = 5 − m."
+      },
+      "base_source": "Exam A — Math Q6 (AM06)",
+      "base_question": {
+        "question": "\\(7 + (3n + 6) - (4n + 8) = \\)",
+        "options": {
+          "A": "\\(5 - n\\)",
+          "B": "\\(5 + n\\)",
+          "C": "\\(21 - n\\)",
+          "D": "\\(21 + n\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) \\(7 + 3n + 6 - 4n - 8 =\\)\n\\((7 + 6 - 8) + (3n - 4n) =\\)\n\\(5 - n\\)"
+        }
+      },
+      "q_number": 44
+    },
+    {
+      "id": "P1029-M-BM10",
+      "question_type": "mc",
+      "question": "At \\(2{:}00\\) p.m. one day, the temperature was \\(10\\) degrees above zero. During the rest of the day, the temperature fell \\(4\\) degrees per hour. What was the temperature at \\(9{:}00\\) p.m. that day?",
+      "options": {
+        "A": "\\(-18°\\)",
+        "B": "\\(-14°\\)",
+        "C": "\\(-4°\\)",
+        "D": "\\(6°\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "From 2:00 p.m. to 9:00 p.m. is 7 hours. Temperature falls 4°/hr: 7 × 4 = 28° drop. 10 − 28 = −18°."
+      },
+      "base_source": "Exam B — Math Q10 (BM10)",
+      "base_question": {
+        "question": "At \\(1{:}00\\) p.m. one day, the temperature was \\(8\\) degrees above zero. During the rest of the day, the temperature fell \\(3\\) degrees per hour. What was the temperature at \\(7{:}00\\) p.m. that day?",
+        "options": {
+          "A": "\\(-13°\\)",
+          "B": "\\(-10°\\)",
+          "C": "\\(-7°\\)",
+          "D": "\\(5°\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) \\(7{:}00\\) p.m. is \\(6\\) hours after \\(1{:}00\\) p.m. Calculate the number of degrees the temperature dropped in \\(6\\) hours: \\(3 \\times 6 = 18\\) degrees. Subtract that from the starting point (\\(8\\) degrees) to find the solution: \\(8 - 18 = -10\\) degrees."
+        }
+      },
+      "q_number": 45
+    },
+    {
+      "id": "P1029-M-CM02",
+      "question_type": "mc",
+      "question": "If \\((9 \\div m) + 2 = 11\\), what is the value of \\(m\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{9}\\)",
+        "B": "\\(1\\)",
+        "C": "\\(9\\)",
+        "D": "\\(\\dfrac{1}{3}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "9/m + 2 = 11 → 9/m = 9 → m = 1."
+      },
+      "base_source": "Exam C — Math Q2 (CM02)",
+      "base_question": {
+        "question": "If \\((8 \\div m) + 4 = 20\\), what is the value of \\(m\\)?",
+        "options": {
+          "A": "\\(\\dfrac{1}{3}\\)",
+          "B": "\\(\\dfrac{1}{2}\\)",
+          "C": "\\(2\\)",
+          "D": "\\(3\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) The quantity \\((8 \\div m)\\) means the same as \\(\\dfrac{8}{m}\\), so the equation can be rewritten:\n\n\\[\\left(\\dfrac{8}{m}\\right) + 4 = 20\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\\left(\\dfrac{8}{m}\\right) = 16\\]\n\nMultiply both sides of the equation by \\(m\\):\n\n\\[8 = 16m\\]\n\nSolve for \\(m\\):\n\n\\[\\left(\\dfrac{8}{16}\\right) = m\\]\n\\[\\dfrac{1}{2} = m\\]"
+        }
+      },
+      "q_number": 46
+    },
+    {
+      "id": "P1029-M-DM35",
+      "question_type": "mc",
+      "question": "Hartwell Inc. hired \\(8\\) people as summer interns. Of these \\(8\\) people, \\(4\\) will be hired as permanent employees in the fall. If \\(3\\) of the \\(8\\) people are male, how many of the possible groups of \\(4\\) people hired in the fall will include **only** \\(1\\) male?",
+      "options": {
+        "A": "\\(10\\)",
+        "B": "\\(30\\)",
+        "C": "\\(50\\)",
+        "D": "\\(70\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Choose 1 of 3 males: C(3,1) = 3. Choose 3 of the 5 females: C(5,3) = 10. Total: 3 × 10 = 30."
+      },
+      "base_source": "Exam D — Math Q35 (DM35)",
+      "base_question": {
+        "question": "XYZ Corporation hired \\(6\\) people as summer workers. Of these \\(6\\) people, \\(3\\) will be hired as permanent employees in the fall. If \\(2\\) of the \\(6\\) people are male, how many of the possible groups of \\(3\\) people hired in the fall will include **only** \\(1\\) male?",
+        "options": {
+          "A": "\\(4\\)",
+          "B": "\\(6\\)",
+          "C": "\\(12\\)",
+          "D": "\\(24\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) An organized list can be used to determine the number of groups of \\(3\\) people that include **only** \\(1\\) male.\n\nLet the letters A, B, C, and D represent the females, and let the numbers \\(1\\) and \\(2\\) represent the males.\n\nThen, create a list of all possible combinations of \\(3\\) people with **only** \\(1\\) male.\n\nAB1, AB2, AC1, AC2, AD1, AD2\n\nBC1, BC2, BD1, BD2\n\nCD1, CD2\n\nThere are \\(12\\) possible groups with **only** \\(1\\) male."
+        }
+      },
+      "q_number": 47
+    },
+    {
+      "id": "P1029-M-EM20",
+      "question_type": "mc",
+      "question": "\\[Q=\\dfrac{R}{4}=S-8=9T=\\dfrac{U}{6}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+      "options": {
+        "A": "\\(R\\)",
+        "B": "\\(S\\)",
+        "C": "\\(T\\)",
+        "D": "\\(U\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Let Q = 1. Then R = 4, S = 9, T = 1/9, U = 6. The least of these is T."
+      },
+      "base_source": "Exam E — Math Q20 (EM20)",
+      "base_question": {
+        "question": "\\[Q=\\dfrac{R}{3}=S-6=7T=\\dfrac{U}{10}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+        "options": {
+          "A": "\\(R\\)",
+          "B": "\\(S\\)",
+          "C": "\\(T\\)",
+          "D": "\\(U\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Because it's easiest to compare these quantities if you have numbers instead of variables, pick a simple number to substitute for \\(Q\\), like 2. Take each piece of the equation at a time and solve for each of the answer choices:\n\n\\[Q=\\dfrac{R}{3} \\Rightarrow 2=\\dfrac{R}{3} \\Rightarrow R=6\\]\n\\[Q=S-6 \\Rightarrow 2=S-6 \\Rightarrow S=8\\]\n\\[Q=7T \\Rightarrow 2=7T \\Rightarrow T=\\dfrac{2}{7}\\]\n\\[Q=\\dfrac{U}{10} \\Rightarrow 2=\\dfrac{U}{10} \\Rightarrow U=20\\]\n\nThe only fraction and thus the smallest number is \\(T\\)."
+        }
+      },
+      "q_number": 48
+    },
+    {
+      "id": "P1029-M-FM01",
+      "question_type": "mc",
+      "question": "If \\(K\\) is an odd integer, which of the following **must** be even?",
+      "options": {
+        "A": "\\(3K - 2\\)",
+        "B": "\\(4K + 1\\)",
+        "C": "\\(5K\\)",
+        "D": "\\(6K\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "K is odd: 3K−2 is odd (odd−even=odd), 4K+1 is odd (even+1), 5K is odd (odd×odd). 6K is always even, since 6 times any integer is even."
+      },
+      "base_source": "Exam F — Math Q1 (FM01)",
+      "base_question": {
+        "question": "If \\(N\\) is an odd integer, which of the following **must** be even?",
+        "options": {
+          "A": "\\(2N-1\\)",
+          "B": "\\(3N+2\\)",
+          "C": "\\(4N\\)",
+          "D": "\\(N^2+2N\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "This is a perfect problem for Picking Numbers. Pick a simple number for \\(N\\), like 3. Then plug it into the answer choices and see which one is correct.\n\n(A) \\(2(3)+1=6-1=5\\). Eliminate.\n(B) \\(3(3)+2=9+2=11\\). Eliminate.\n(C) \\(4(3)=12\\). Keep.\n(D) \\((3)^2+2(3)=9+6=15\\). Eliminate.\n\nOnly (C) works."
+        }
+      },
+      "q_number": 49
+    },
+    {
+      "id": "P1029-M-GM07",
+      "question_type": "mc",
+      "question": "A drawer has \\(8\\) white socks and \\(5\\) black socks. If two socks are picked at random **without** replacing the first sock, what is the probability that the first sock is white and the second sock is black?",
+      "options": {
+        "A": "\\(\\dfrac{10}{39}\\)",
+        "B": "\\(\\dfrac{8}{13}\\)",
+        "C": "\\(\\dfrac{5}{12}\\)",
+        "D": "\\(\\dfrac{2}{3}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "P(first white) = 8/13. P(second black | first white) = 5/12. P = (8/13)(5/12) = 40/156 = 10/39."
+      },
+      "base_source": "Exam G — Math Q7 (GM07)",
+      "base_question": {
+        "question": "A bag has \\(6\\) white socks and \\(4\\) black socks. If two socks are picked at random **without** replacing the first sock back into the bag, what is the probability that the first sock is white and the second sock is black?",
+        "options": {
+          "A": "\\(\\dfrac{6}{25}\\)",
+          "B": "\\(\\dfrac{4}{15}\\)",
+          "C": "\\(\\dfrac{2}{5}\\)",
+          "D": "\\(\\dfrac{1}{2}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Total Number of Outcomes}}\\). Therefore, the probability of picking a white sock is \\(\\dfrac{\\text{White}}{\\text{Total}}=\\dfrac{6}{6+4}=\\dfrac{6}{10}=\\dfrac{3}{5}\\). The question says that the sock is not replaced. Thus, there are only \\(9\\) socks remaining in the bag. The probability of picking a black sock under these new conditions is \\(\\dfrac{\\text{Black}}{\\text{Total}}=\\dfrac{4}{9}\\).\n\nTo find the probability of both of these events occurring, multiply their individual probabilities: \\(\\dfrac{3}{5}\\times\\dfrac{4}{9}=\\dfrac{12}{45}=\\dfrac{4}{15}\\)."
+        }
+      },
+      "q_number": 50
     }
   ],
   "ela_passages": [
