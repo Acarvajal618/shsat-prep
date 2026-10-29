@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Half Exam 3</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --tn-bg: #ffffff;
+      --tn-infobar-bg: #6d6d6d;
+      --tn-infobar-text: #ffffff;
+      --tn-accent: #1a73e8;
+      --tn-progress: #62a3ea;
+      --tn-card-border: #e0e0e0;
+      --tn-text: #222;
+      --tn-muted: #888;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--tn-bg);
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--tn-text);
+      min-height: 100vh;
+    }
+    .tn-toolbar {
+      background: #f4f4f4;
+      display: flex; align-items: center;
+      padding: 10px 20px;
+      gap: 10px;
+      border-bottom: 1px solid #dcdcdc;
+    }
+    .tn-nav-arrows { display: flex; gap: 2px; }
+    .tn-btn {
+      background: #ffffff;
+      border: 1px solid #b3b3b3;
+      border-radius: 4px;
+      width: 46px; height: 36px;
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 16px; padding: 0;
+      color: #333;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+      transition: background 0.08s, border-color 0.08s;
+    }
+    .tn-btn:hover:not(:disabled) { background: #f0f0f0; border-color: #909090; }
+    .tn-btn.next { background: #4a90d9; color: #fff; border-color: #3878be; }
+    .tn-btn.next:hover { background: #3878be; border-color: #2f6aa8; }
+    .tn-btn:disabled { opacity: 0.4; cursor: default; background: #fff; }
+    .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #333; font-size: 13px; }
+    .tn-user .tn-avatar { width: 22px; height: 22px; border-radius: 2px; background: #d8d8d8; display: inline-flex; align-items: center; justify-content: center; color: #555; font-size: 13px; }
+    .tn-timer { margin-left: 18px; font-family: 'SF Mono', Consolas, monospace; font-size: 15px; font-weight: 700; color: #333; background: #f3f3f3; border: 1px solid #ddd; border-radius: 3px; padding: 6px 12px; }
+    .tn-timer.tn-timer-capped { color: #b00; }
+    .tn-btn-finish { margin-left: 12px; background: #fff; border: 1px solid #b8b8b8; border-radius: 2px; padding: 7px 16px; font-size: 13px; color: #a00; cursor: pointer; font-family: inherit; font-weight: 600; }
+    .tn-btn-finish:hover { background: #fdeaea; border-color: #c88; }
+
+    .tn-results { max-width: 820px; margin: 24px auto; padding: 0 16px 40px; }
+    .tn-results-score { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 20px 24px; margin-bottom: 20px; text-align: center; }
+    .tn-results-score .big { font-size: 34px; font-weight: 800; color: #1a1a1a; }
+    .tn-results-score .sub { color: #666; font-size: 14px; margin-top: 4px; }
+    .tn-review-unlock { background: #eafbea; border: 1px solid #b7e4b7; border-radius: 6px; padding: 14px 18px; margin-bottom: 20px; text-align: center; font-size: 15px; color: #1a3a1a; }
+    .tn-review-unlock strong { font-family: 'SF Mono', Consolas, monospace; font-size: 16px; letter-spacing: 0.02em; }
+    .tn-review-unlock .sub { color: #3a5a3a; font-size: 13px; margin-top: 6px; }
+    .tn-review-unlock a { color: #1a5a1a; font-weight: 600; }
+    .tn-results-breakdown { display: flex; gap: 12px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+    .tn-results-breakdown div { background: #f3f3f3; border-radius: 4px; padding: 6px 14px; font-size: 13px; color: #444; }
+    .tn-results-download { display: block; margin: 0 auto 24px; background: #4a90d9; color: #fff; border: none; border-radius: 3px; padding: 10px 20px; font-size: 14px; font-weight: 600; cursor: pointer; }
+    .tn-results-download:hover { background: #3878be; }
+    .tn-results-row { background: #fff; border: 1px solid #e5e5e5; border-radius: 4px; padding: 12px 16px; margin-bottom: 8px; }
+    .tn-results-row.correct { border-left: 4px solid #1a7a1a; }
+    .tn-results-row.incorrect { border-left: 4px solid #c23b3b; }
+    .tn-results-row.unanswered { border-left: 4px solid #999; }
+    .tn-results-row-head { display: flex; justify-content: space-between; font-size: 12px; color: #888; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.03em; }
+    .tn-results-row-q { font-size: 14px; color: #222; margin-bottom: 6px; }
+    .tn-results-row-ans { font-size: 13px; margin-bottom: 2px; }
+    .tn-results-row-ans .label { color: #888; }
+    .tn-results-row.correct .mark { color: #1a7a1a; font-weight: 700; }
+    .tn-results-row.incorrect .mark { color: #c23b3b; font-weight: 700; }
+    .tn-results-row-sol { font-size: 13px; color: #333; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e0e0e0; }
+    .tn-results-row-sol .label { color: #888; display: block; margin-bottom: 2px; }
+
+    .tn-passage-picker { display: flex; gap: 4px; margin-left: 10px; align-items: center; }
+    .tn-passage-picker-label { font-size: 11px; color: #777; margin-right: 2px; text-transform: uppercase; letter-spacing: 0.03em; }
+    .tn-passage-picker-btn { width: 26px; height: 26px; border-radius: 50%; border: 1px solid #bbb; background: #fff; font-size: 12px; font-weight: 700; cursor: pointer; color: #333; padding: 0; }
+    .tn-passage-picker-btn:hover:not(:disabled) { background: #f0f0f0; }
+    .tn-passage-picker-btn.current { background: #4a90d9; color: #fff; border-color: #3878be; }
+    .tn-passage-picker-btn.answered:not(.current) { background: #eef5ff; border-color: #a9c7e8; }
+    .tn-passage-picker-btn:disabled { opacity: 0.35; cursor: default; }
+
+    .tn-progress-line { height: 3px; background: var(--tn-progress); }
+    .tn-infobar { background: var(--tn-infobar-bg); color: var(--tn-infobar-text); padding: 6px 22px; font-size: 12px; letter-spacing: 0.05em; }
+    .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
+
+    /* ── Split layout: passage pane + question pane (ELA section) ── */
+    .tn-main {
+      max-width: 1400px;
+      margin: 32px auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 22px;
+      align-items: flex-start;
+    }
+    .tn-passage-pane {
+      flex: 0 0 46%;
+      border: 1px solid var(--tn-card-border);
+      background: #fff;
+      max-height: 640px;
+      overflow-y: auto;
+      padding: 22px 26px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 15px;
+      line-height: 1.7;
+      position: sticky;
+      top: 20px;
+    }
+    .tn-passage-title { text-align: center; font-weight: bold; margin-bottom: 4px; }
+    .tn-passage-author { text-align: center; color: #555; margin-bottom: 18px; }
+    .tn-passage-para { display: flex; gap: 10px; margin-bottom: 14px; }
+    .tn-passage-paranum {
+      flex: 0 0 20px; width: 20px; height: 20px; border-radius: 50%;
+      background: #333; color: #fff; font-size: 11px; font-weight: 700;
+      display: inline-flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .tn-passage-para .tn-passage-text { flex: 1; }
+    .tn-passage-citation { margin-top: 16px; font-size: 12px; color: #777; font-style: italic; }
+    .tn-passage-intro { font-style: italic; color: #444; margin-bottom: 16px; font-size: 14px; }
+    .tn-passage-sentpara { margin-bottom: 14px; }
+    .tn-passage-sentnum { color: #888; font-size: 11px; font-weight: 700; margin-right: 2px; }
+    .tn-passage-line { display: flex; gap: 14px; }
+    .tn-passage-linenum { flex: 0 0 24px; color: #888; font-size: 12px; text-align: right; padding-top: 2px; }
+
+    /* ── Math section & Grammar section: no passage pane ── */
+    .tn-main.no-pane .tn-passage-pane { display: none; }
+    .tn-main.no-pane .tn-question-pane { flex: 1 1 100%; }
+    .tn-main.no-pane.grammar .tn-question-pane { max-width: 760px; margin: 0 auto; }
+    .tn-main.no-pane.math .tn-question-pane { max-width: 1000px; margin: 0 auto; }
+
+    .tn-stimulus-box {
+      border: 1px solid var(--tn-card-border); background: #fafafa;
+      padding: 16px 20px; margin-bottom: 18px; font-size: 14px; line-height: 1.6;
+    }
+
+    .tn-question-pane { flex: 1; min-width: 0; }
+    .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
+    .tn-question { font-size: 15px; line-height: 1.55; color: var(--tn-text); white-space: pre-wrap; }
+    .tn-base-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.03em; color: var(--tn-muted); text-transform: uppercase; margin-bottom: 6px; }
+    .tn-question strong { font-weight: 700; }
+    .tn-figure { margin: 8px 0 16px; display: flex; justify-content: center; }
+    .tn-figure img { max-width: 100%; height: auto; }
+    .tn-figure svg { width: 100%; max-width: 420px; height: auto; }
+
+    .tn-options { margin-top: 22px; display: flex; flex-direction: column; gap: 4px; }
+    .tn-option { display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; cursor: pointer; border-radius: 2px; user-select: none; transition: background 0.08s; }
+    .tn-option:hover { background: #f6f6f6; }
+    .tn-radio { width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid #888; flex-shrink: 0; margin-top: 2px; position: relative; background: #fff; }
+    .tn-option.selected .tn-radio { border-color: var(--tn-accent); }
+    .tn-option.selected .tn-radio::after { content: ''; position: absolute; top: 2.5px; left: 2.5px; width: 8px; height: 8px; border-radius: 50%; background: var(--tn-accent); }
+    .tn-letter { font-weight: 500; min-width: 20px; }
+    .tn-option-text { flex: 1; }
+
+    /* Grid-keypad (math) */
+    .tn-keypad { margin-top: 10px; border: 1px solid #999; border-radius: 4px; padding: 8px; max-width: 340px; background: #fff; }
+    .tn-keypad-nav { display: flex; gap: 4px; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid #ddd; justify-content: flex-start; }
+    .tn-keypad-nav button { width: 32px; height: 28px; border-radius: 50%; border: 1px solid #bbb; background: #fff; cursor: pointer; font-size: 12px; color: #333; padding: 0; }
+    .tn-keypad-nav button:hover { background: #eee; }
+    .tn-keypad-row { display: flex; gap: 4px; margin-bottom: 4px; }
+    .tn-keypad-btn { flex: 1; height: 42px; background: #fff; border: 1px solid #bbb; border-radius: 3px; font-family: Georgia, serif; font-size: 17px; cursor: pointer; }
+    .tn-keypad-btn:hover { background: #eee; }
+    .tn-keypad-btn.icon svg { display: block; margin: 0 auto; }
+    .tn-keypad-input { display: inline-block; padding: 8px 14px; border: 1.5px solid #7a7a7a; border-radius: 3px; min-height: 30px; min-width: 240px; font-family: Georgia, serif; font-size: 18px; vertical-align: middle; background: #fff; }
+    .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
+
+    /* ── Drag-drop fill-in-the-blank (drag_drop) ─────────────────────── */
+    .tn-chips-row {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 14px 0; padding: 10px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px;
+    }
+    .tn-chip {
+      background: #4a90d9; color: #fff;
+      padding: 5px 13px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 15px;
+      border: 1px solid #3878be;
+    }
+    .tn-chip:active { cursor: grabbing; }
+    .tn-dropbox {
+      display: inline-block; min-width: 70px; padding: 3px 12px;
+      border: 1.5px dashed #7a7a7a; border-radius: 3px;
+      margin: 0 4px; text-align: center;
+      background: #f9f9f9; color: #333;
+      font-family: Georgia, serif; font-size: 15px;
+      vertical-align: middle; cursor: pointer;
+    }
+    .tn-dropbox.filled { border-style: solid; background: #dbe9ff; border-color: #4a90d9; }
+    .tn-dropbox.drag-over { background: #ffeeaa; }
+
+    /* ── Sort into categories (sort_categories) ──────────────────────── */
+    .tn-sort-pool {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 14px 0; padding: 10px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px;
+      min-height: 40px;
+    }
+    .tn-sort-pool-empty { color: #888; font-style: italic; font-size: 13px; }
+    .tn-sort-chip {
+      background: #4a90d9; color: #fff;
+      padding: 7px 12px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 14px; line-height: 1.4;
+      border: 1px solid #3878be; max-width: 320px;
+    }
+    .tn-sort-chip:active { cursor: grabbing; }
+    .tn-sort-chip.selected { outline: 2px solid #ff9900; }
+    .tn-sort-categories { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
+    .tn-sort-category {
+      flex: 1 1 260px; min-height: 80px;
+      border: 1.5px dashed #7a7a7a; border-radius: 4px;
+      background: #f9f9f9; padding: 10px; cursor: pointer;
+    }
+    .tn-sort-category.drag-over { background: #ffeeaa; }
+    .tn-sort-category-label {
+      font-weight: 700; font-size: 13px; color: #333;
+      margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid #ddd;
+    }
+    .tn-sort-category-items { display: flex; flex-direction: column; gap: 6px; }
+    .tn-sort-category .tn-sort-chip { background: #dbe9ff; color: #1a3a5c; border-color: #4a90d9; cursor: pointer; max-width: none; }
+
+    .tn-card-actions { margin-top: 20px; padding-top: 16px; border-top: 1px solid #eee; display: flex; gap: 10px; }
+    .tn-btn-solution { background: #fff; border: 1px solid #b8b8b8; border-radius: 2px; padding: 8px 18px; font-size: 13px; color: #333; cursor: pointer; font-family: inherit; }
+    .tn-btn-solution:hover { background: #ebebeb; }
+    .tn-btn-solution:disabled { opacity: 0.5; cursor: default; }
+
+    .tn-exhibit-panel { margin-top: 18px; background: #ffffff; border: 1px solid #cfcfcf; border-radius: 3px; display: none; }
+    .tn-exhibit-panel.open { display: block; }
+    .tn-exhibit-header { display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #eaeaea; border-bottom: 1px solid #cfcfcf; font-size: 14px; color: #333; }
+    .tn-exhibit-close { background: transparent; border: none; cursor: pointer; font-size: 15px; color: #333; padding: 2px 8px; font-weight: 600; }
+    .tn-exhibit-body { padding: 18px 22px; font-size: 14px; line-height: 1.5; color: #222; white-space: pre-line; }
+    .tn-exhibit-body .katex-display { margin: 0.25em 0 !important; }
+    .tn-exhibit-body .katex-display > .katex { display: inline-block; }
+
+    @media (max-width: 900px) {
+      .tn-main { flex-direction: column; }
+      .tn-passage-pane { flex: 1 1 auto; position: static; max-height: 360px; width: 100%; }
+    }
+    @media (max-width: 700px) {
+      .tn-toolbar { padding: 8px 12px; gap: 6px; flex-wrap: wrap; }
+      .tn-main { margin: 16px auto; padding: 0 12px; }
+      .tn-card { padding: 20px 16px; }
+      .tn-question { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <div class="tn-toolbar">
+    <div class="tn-nav-arrows">
+      <button class="tn-btn" id="tn-prev" title="Previous question">←</button>
+      <button class="tn-btn next" id="tn-next" title="Next question">→</button>
+    </div>
+    <div class="tn-passage-picker" id="tn-passage-picker" style="display:none;"></div>
+    <div class="tn-timer" id="tn-timer" title="Elapsed time">0:00:00</div>
+    <button class="tn-btn-finish" id="tn-finish-exam">Finish Exam</button>
+    <div class="tn-user">
+      <span>Guest</span>
+      <span class="tn-avatar">👤</span>
+    </div>
+  </div>
+
+  <div class="tn-progress-line"></div>
+  <div class="tn-infobar">
+    <span>HALF EXAM 3</span>
+    <span class="sep">/</span>
+    <span id="tn-section-label">MATH</span>
+    <span class="sep">/</span>
+    <span id="tn-counter">1 OF 20</span>
+  </div>
+
+  <div class="tn-main" id="tn-main">
+    <div class="tn-passage-pane" id="tn-passage-pane"></div>
+
+    <div class="tn-question-pane">
+      <div class="tn-card" id="tn-card">
+        <div class="tn-base-tag" id="tn-base-tag"></div>
+        <div class="tn-question" id="tn-question">Loading…</div>
+        <div id="tn-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tn-results" id="tn-results" style="display:none;"></div>
+
+  <script>
+    const DATA_URL = 'worksheet_22/data.json?v=' + Date.now();
+    const STORAGE_KEY = 'shsat_half_exam_3_v1';
+    const state = {
+      questions: [],   // flattened, global q_number order, each tagged .section
+      passages: [],    // the ELA passage objects (if any)
+      cur: 0,
+      furthestIndex: 0, // highest index reached so far — drives the forward-only lock
+      answers: {},
+      startTime: null,
+      timerInterval: null,
+      finished: false,
+      finishedAtMs: 0,
+    };
+
+    // ── Persistence: a page refresh must NOT reset the clock, lose her
+    // answers, or undo the forward-only lock. Saved on every state change,
+    // restored on boot. ──────────────────────────────────────────────
+    function saveState() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          answers: state.answers, cur: state.cur, furthestIndex: state.furthestIndex,
+          startTime: state.startTime, finished: state.finished, finishedAtMs: state.finishedAtMs,
+        }));
+      } catch (e) { /* private-browsing / storage disabled — degrade silently */ }
+    }
+    function loadSavedState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return null;
+        const saved = JSON.parse(raw);
+        return (saved && typeof saved === 'object') ? saved : null;
+      } catch (e) { return null; }
+    }
+
+    async function boot() {
+      wireControls();
+      try {
+        const r = await fetch(DATA_URL);
+        const data = await r.json();
+        const list = [];
+        (data.math_questions || []).forEach((q, i) => list.push(Object.assign({ section: 'math', sectionIndex: i + 1, sectionTotal: (data.math_questions || []).length }, q)));
+        if (Array.isArray(data.ela_passages) && data.ela_passages.length) {
+          state.passages = data.ela_passages;
+          const totalEla = data.ela_passages.reduce((sum, p) => sum + (p.questions || []).length, 0);
+          let seen = 0;
+          data.ela_passages.forEach((p, pIdx) => {
+            const eq = p.questions || [];
+            eq.forEach((q, i) => { seen++; list.push(Object.assign({ section: 'ela', passageIdx: pIdx, sectionIndex: seen, sectionTotal: totalEla }, q)); });
+          });
+        } else if (data.ela_passage) {
+          state.passages = [data.ela_passage];
+          const eq = data.ela_passage.questions || [];
+          eq.forEach((q, i) => list.push(Object.assign({ section: 'ela', passageIdx: 0, sectionIndex: i + 1, sectionTotal: eq.length }, q)));
+        }
+        (data.grammar_questions || []).forEach((q, i) => list.push(Object.assign({ section: 'grammar', sectionIndex: i + 1, sectionTotal: (data.grammar_questions || []).length }, q)));
+        state.questions = list.sort((a, b) => a.q_number - b.q_number);
+      } catch (e) {
+        console.error('boot fetch failed:', e);
+        state.questions = [];
+      }
+
+      let restored = false;
+      if (state.questions.length) {
+        const saved = loadSavedState();
+        if (saved) {
+          const maxIdx = state.questions.length - 1;
+          state.answers = saved.answers || {};
+          state.furthestIndex = Math.min(Math.max(parseInt(saved.furthestIndex, 10) || 0, 0), maxIdx);
+          state.cur = Math.min(Math.max(parseInt(saved.cur, 10) || 0, 0), state.furthestIndex);
+          state.startTime = saved.startTime || Date.now();
+          state.finished = !!saved.finished;
+          state.finishedAtMs = saved.finishedAtMs || 0;
+          restored = true;
+        }
+      }
+      if (restored) {
+        location.hash = 'Q' + state.questions[state.cur].q_number;
+      } else {
+        state.furthestIndex = 0;
+        state.startTime = Date.now();
+      }
+      routeFromHash();
+
+      if (state.finished) {
+        document.getElementById('tn-main').style.display = 'none';
+        document.querySelector('.tn-toolbar').style.display = 'none';
+        document.querySelector('.tn-infobar').style.display = 'none';
+        renderResults();
+        return;
+      }
+      render();
+      startTimer();
+    }
+
+    function totalQ() { return state.questions.length; }
+
+    function parseHash() {
+      const m = (location.hash || '').match(/#Q(\d+)/);
+      if (!m) return null;
+      return Math.max(1, parseInt(m[1], 10));
+    }
+
+    function routeFromHash() {
+      if (state.finished) return;
+      const q = parseHash();
+      if (q) {
+        const idx = state.questions.findIndex(x => x.q_number === q);
+        // Guard against hash tampering / browser back-forward bypassing the lock.
+        if (idx >= 0 && canNavigateTo(idx)) {
+          state.cur = idx;
+          if (idx > state.furthestIndex) state.furthestIndex = idx;
+        } else {
+          state.cur = state.furthestIndex;
+          location.hash = 'Q' + state.questions[state.furthestIndex].q_number;
+        }
+      } else {
+        state.cur = 0;
+        state.furthestIndex = 0;
+        location.hash = state.questions.length ? 'Q' + state.questions[0].q_number : 'Q1';
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      routeFromHash();
+      render();
+    });
+
+    function currentQ() { return state.questions[state.cur] || null; }
+
+    function updateInfobar() {
+      const q = currentQ();
+      const label = document.getElementById('tn-section-label');
+      const counter = document.getElementById('tn-counter');
+      if (!q) { label.textContent = ''; counter.textContent = ''; return; }
+      if (q.section === 'math') label.textContent = 'MATH';
+      else if (q.section === 'ela') {
+        const p = state.passages[q.passageIdx];
+        label.textContent = 'ELA' + (p ? ' — ' + p.title.toUpperCase() : '');
+      }
+      else label.textContent = 'GRAMMAR';
+      counter.textContent = q.sectionIndex + ' OF ' + q.sectionTotal;
+    }
+
+    function wireControls() {
+      document.getElementById('tn-prev').onclick = () => go(-1);
+      document.getElementById('tn-next').onclick = () => go(+1);
+      document.getElementById('tn-finish-exam').onclick = () => {
+        if (!allQuestionsComplete()) {
+          alert('Some questions are still unanswered. Please go back and finish every question before finishing the exam.');
+          return;
+        }
+        if (confirm('Finish the exam now? You will not be able to change any answers after this.')) {
+          finishExam();
+        }
+      };
+      document.addEventListener('keydown', (e) => {
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+        if (state.finished) return;
+        if (e.key === 'ArrowRight') go(+1);
+        if (e.key === 'ArrowLeft') go(-1);
+      });
+    }
+
+    // ── Timer: counts up from 0, display freezes at 3:00:00 ─────────
+    function startTimer() {
+      if (!state.startTime) state.startTime = Date.now(); // don't clobber a restored start time
+      updateTimerDisplay();
+      state.timerInterval = setInterval(updateTimerDisplay, 1000);
+    }
+    function stopTimer() {
+      if (state.timerInterval) clearInterval(state.timerInterval);
+      state.timerInterval = null;
+    }
+    function updateTimerDisplay() {
+      const el = document.getElementById('tn-timer');
+      if (!el) return;
+      const CAP_MS = 1.5 * 60 * 60 * 1000; // half exam — 90 min cap
+      let elapsed = Date.now() - state.startTime;
+      const capped = elapsed >= CAP_MS;
+      if (capped) elapsed = CAP_MS;
+      const totalSec = Math.floor(elapsed / 1000);
+      const h = Math.floor(totalSec / 3600);
+      const m = Math.floor((totalSec % 3600) / 60);
+      const s = totalSec % 60;
+      el.textContent = h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      el.classList.toggle('tn-timer-capped', capped);
+    }
+
+    // ── Exam-mode forward-only navigation ────────────────────────────
+    // Math/grammar: once you move past a question, you cannot return to it.
+    // ELA: you can move back within the same passage, but once you leave
+    // a passage for a new one, the old passage's questions are locked.
+    function canNavigateTo(targetIdx) {
+      if (targetIdx < 0 || targetIdx >= state.questions.length) return false;
+      if (targetIdx >= state.furthestIndex) return true;
+      const furthestQ = state.questions[state.furthestIndex];
+      const targetQ = state.questions[targetIdx];
+      if (furthestQ.section === 'ela' && targetQ.section === 'ela' && furthestQ.passageIdx === targetQ.passageIdx) {
+        return true;
+      }
+      return false;
+    }
+
+    // ── A question can't be left blank (or partially done) before
+    // moving forward — exactly how "complete" depends on its type. ──
+    function isQuestionComplete(q) {
+      if (!q) return true;
+      const given = state.answers[q.q_number];
+      if (q.question_type === 'mc') {
+        return given != null && given !== '';
+      }
+      if (q.question_type === 'mc_multi') {
+        const required = (q.correct || []).length;
+        return Array.isArray(given) && given.length === required;
+      }
+      if (q.question_type === 'sort_categories') {
+        const items = q.sort_items || [];
+        return items.length > 0 && items.every(it => given && given[it.id]);
+      }
+      if (q.question_type === 'drag_drop') {
+        const boxes = q.boxes || [];
+        return boxes.length > 0 && boxes.every(b => given && given[b.label]);
+      }
+      return given != null && given !== '';
+    }
+    function incompleteMessage(q) {
+      if (q.question_type === 'mc_multi') {
+        return 'Please select ' + (q.correct || []).length + ' answers before moving on.';
+      }
+      if (q.question_type === 'sort_categories') {
+        return 'Please move every item into a box before moving on.';
+      }
+      if (q.question_type === 'drag_drop') {
+        return 'Please fill in every blank before moving on.';
+      }
+      return 'Please answer this question before moving on.';
+    }
+    function allQuestionsComplete() {
+      return state.questions.every(q => isQuestionComplete(q));
+    }
+
+    function go(delta) {
+      if (state.finished) return;
+      const next = state.cur + delta;
+      if (!canNavigateTo(next)) return;
+      if (delta > 0 && next > state.cur) {
+        const curQ = state.questions[state.cur];
+        if (!isQuestionComplete(curQ)) {
+          alert(incompleteMessage(curQ));
+          return;
+        }
+      }
+      if (delta > 0 && next > state.furthestIndex) {
+        const nextQ = state.questions[next];
+        const curQ = state.questions[state.cur];
+        const enteringNewPassage = nextQ.section === 'ela' && (curQ.section !== 'ela' || curQ.passageIdx !== nextQ.passageIdx);
+        if (enteringNewPassage) {
+          const ok = confirm('Are you sure you want to move forward? Because this will be a new passage, and you cannot review it after this.');
+          if (!ok) return;
+        }
+      }
+      state.cur = next;
+      if (next > state.furthestIndex) state.furthestIndex = next;
+      location.hash = 'Q' + state.questions[next].q_number;
+    }
+
+    // ── Passage question picker: jump to any question in the current
+    // passage (not just the immediately-previous one). ─────────────
+    function jumpTo(idx) {
+      if (state.finished || !canNavigateTo(idx)) return;
+      if (idx > state.cur) {
+        const curQ = state.questions[state.cur];
+        if (!isQuestionComplete(curQ)) {
+          alert(incompleteMessage(curQ));
+          return;
+        }
+      }
+      state.cur = idx;
+      if (idx > state.furthestIndex) state.furthestIndex = idx;
+      location.hash = 'Q' + state.questions[idx].q_number;
+    }
+    function renderPassagePicker(q) {
+      const el = document.getElementById('tn-passage-picker');
+      if (!q || q.section !== 'ela') { el.style.display = 'none'; el.innerHTML = ''; return; }
+      const indices = [];
+      state.questions.forEach((qq, idx) => { if (qq.section === 'ela' && qq.passageIdx === q.passageIdx) indices.push(idx); });
+      const btns = indices.map((idx, n) => {
+        const isCurrent = idx === state.cur;
+        const isAnswered = state.answers[state.questions[idx].q_number] != null;
+        const allowed = canNavigateTo(idx);
+        const cls = 'tn-passage-picker-btn' + (isCurrent ? ' current' : '') + (isAnswered ? ' answered' : '');
+        return `<button class="${cls}" data-idx="${idx}" ${allowed ? '' : 'disabled'} title="Question ${n + 1} of this passage">${n + 1}</button>`;
+      }).join('');
+      el.innerHTML = `<span class="tn-passage-picker-label">Review:</span>${btns}`;
+      el.style.display = 'flex';
+      el.querySelectorAll('.tn-passage-picker-btn').forEach(btn => {
+        btn.onclick = () => jumpTo(parseInt(btn.dataset.idx, 10));
+      });
+    }
+
+    // ── Finish exam: grade, render the results report, stop the clock ──
+    // Handles the 4 question types present in this exam's data:
+    // mc (string), mc_multi (array of letters), sort_categories and
+    // drag_drop (both objects keyed by item/box id).
+    function gradeQuestion(q) {
+      const given = state.answers[q.q_number];
+      if (given === undefined || given === null || given === '') return 'unanswered';
+      if (q.question_type === 'mc_multi') {
+        if (!Array.isArray(given) || given.length === 0) return 'unanswered';
+        const a = [...given].sort();
+        const b = [...(q.correct || [])].sort();
+        return (a.length === b.length && a.every((v, i) => v === b[i])) ? 'correct' : 'incorrect';
+      }
+      if (q.question_type === 'sort_categories' || q.question_type === 'drag_drop') {
+        if (typeof given !== 'object' || Object.keys(given).length === 0) return 'unanswered';
+        const correctObj = q.correct || {};
+        const allMatch = Object.keys(correctObj).every(k => given[k] === correctObj[k]);
+        return allMatch ? 'correct' : 'incorrect';
+      }
+      return given === q.correct ? 'correct' : 'incorrect';
+    }
+
+    // Returns a readable list of strings describing an answer value for
+    // mc / mc_multi / sort_categories / drag_drop (never raw objects).
+    function answerParts(q, value) {
+      if (value === undefined || value === null || value === '') return null;
+      if (q.question_type === 'mc_multi') {
+        if (!Array.isArray(value) || !value.length) return null;
+        return [...value].sort().map(L => L + '. ' + ((q.options || {})[L] || ''));
+      }
+      if (q.question_type === 'drag_drop') {
+        if (typeof value !== 'object') return null;
+        const boxes = q.boxes || [];
+        return boxes.map(b => '[' + b.label + '] = "' + (value[b.label] || '(blank)') + '"');
+      }
+      if (q.question_type === 'sort_categories') {
+        if (typeof value !== 'object') return null;
+        const catLabel = {};
+        (q.sort_categories || []).forEach(c => { catLabel[c.id] = c.label; });
+        return (q.sort_items || []).map(it => {
+          const catId = value[it.id];
+          const text = it.text.replace(/\n+/g, ' ');
+          const short = text.length > 70 ? text.slice(0, 70) + '…' : text;
+          return '"' + short + '" → ' + (catId ? (catLabel[catId] || catId) : '(not placed)');
+        });
+      }
+      return [value + '. ' + ((q.options || {})[value] || '')];
+    }
+
+    function buildResultsSummary() {
+      const bySection = { math: { correct: 0, total: 0 }, ela: { correct: 0, total: 0 }, grammar: { correct: 0, total: 0 } };
+      let correct = 0;
+      const rows = state.questions.map(q => {
+        const status = gradeQuestion(q);
+        bySection[q.section].total++;
+        if (status === 'correct') { correct++; bySection[q.section].correct++; }
+        return { q, status, given: state.answers[q.q_number] };
+      });
+      return { rows, correct, total: state.questions.length, bySection };
+    }
+
+    function finishExam() {
+      state.finished = true;
+      state.finishedAtMs = Date.now() - state.startTime;
+      stopTimer();
+      saveState();
+      document.getElementById('tn-main').style.display = 'none';
+      document.querySelector('.tn-toolbar').style.display = 'none';
+      document.querySelector('.tn-infobar').style.display = 'none';
+      renderResults();
+    }
+
+    function formatDuration(ms) {
+      const totalSec = Math.floor(ms / 1000);
+      const h = Math.floor(totalSec / 3600);
+      const m = Math.floor((totalSec % 3600) / 60);
+      const s = totalSec % 60;
+      return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+    }
+
+    function renderResults() {
+      const summary = buildResultsSummary();
+      const el = document.getElementById('tn-results');
+      const pct = summary.total ? Math.round((summary.correct / summary.total) * 100) : 0;
+      const sectionLabel = { math: 'Math', ela: 'ELA', grammar: 'Grammar' };
+      const breakdown = Object.keys(summary.bySection)
+        .filter(k => summary.bySection[k].total > 0)
+        .map(k => `<div>${sectionLabel[k]}: ${summary.bySection[k].correct} / ${summary.bySection[k].total}</div>`)
+        .join('');
+      const rowsHtml = summary.rows.map(({ q, status, given }) => {
+        const label = q.section === 'ela' && state.passages[q.passageIdx] ? state.passages[q.passageIdx].title : sectionLabel[q.section];
+        const givenParts = answerParts(q, given);
+        const givenHtml = givenParts ? givenParts.map(p => esc(p)).join('<br>') : '(no answer)';
+        const correctParts = answerParts(q, q.correct);
+        const correctHtml = correctParts ? correctParts.map(p => esc(p)).join('<br>') : '';
+        const mark = status === 'correct' ? '✓ Correct' : status === 'incorrect' ? '✗ Incorrect' : '— Unanswered';
+        const solutionHtml = (q.solution && q.solution.exhibit_text)
+          ? `<div class="tn-results-row-sol"><span class="label">Explanation:</span>${renderQuestionText(q.solution.exhibit_text)}</div>`
+          : '';
+        const bq = q.base_question;
+        const baseFigure = bq && (bq.figure_svg || bq.exhibit_image_path)
+          ? (bq.figure_svg || `<img src="${bq.exhibit_image_path}" alt="figure">`)
+          : '';
+        const baseFigureHtml = baseFigure
+          ? `<div class="tn-results-row-sol"><span class="label">Figure from the real exam question${q.base_source ? ' (' + esc(q.base_source) + ')' : ''}:</span><div class="tn-figure">${baseFigure}</div></div>`
+          : '';
+        return `<div class="tn-results-row ${status}">
+          <div class="tn-results-row-head"><span>${sectionLabel[q.section]} — ${esc(label)}</span><span class="mark">${mark}</span></div>
+          <div class="tn-results-row-q">${renderQuestionText(q.question)}</div>
+          <div class="tn-results-row-ans"><span class="label">Her answer:</span> ${givenHtml}</div>
+          ${status !== 'correct' ? `<div class="tn-results-row-ans"><span class="label">Correct answer:</span> ${correctHtml}</div>` : ''}
+          ${baseFigureHtml}
+          ${solutionHtml}
+        </div>`;
+      }).join('');
+      el.innerHTML = `
+        <div class="tn-results-score">
+          <div class="big">${summary.correct} / ${summary.total}</div>
+          <div class="sub">${pct}% correct &middot; time taken: ${formatDuration(state.finishedAtMs)}</div>
+          <div class="tn-results-breakdown">${breakdown}</div>
+        </div>
+        <button class="tn-results-download" id="tn-download-results">⬇ Download Results</button>
+        ${rowsHtml}
+      `;
+      el.style.display = 'block';
+      document.getElementById('tn-download-results').onclick = () => downloadResults(summary);
+      typesetMath(el);
+    }
+
+    function downloadResults(summary) {
+      const sectionLabel = { math: 'Math', ela: 'ELA', grammar: 'Grammar' };
+      const lines = [];
+      lines.push('EXAM RESULTS — ' + new Date().toLocaleString());
+      lines.push('Score: ' + summary.correct + ' / ' + summary.total);
+      lines.push('Time taken: ' + formatDuration(state.finishedAtMs));
+      Object.keys(summary.bySection).forEach(k => {
+        if (summary.bySection[k].total > 0) {
+          lines.push(sectionLabel[k] + ': ' + summary.bySection[k].correct + ' / ' + summary.bySection[k].total);
+        }
+      });
+      lines.push('');
+      summary.rows.forEach(({ q, status, given }, i) => {
+        const givenParts = answerParts(q, given);
+        const correctParts = answerParts(q, q.correct);
+        lines.push('Q' + (i + 1) + ' (' + sectionLabel[q.section] + ') — ' + status.toUpperCase());
+        lines.push('  Question: ' + q.question.replace(/\n+/g, ' '));
+        lines.push('  Her answer: ' + (givenParts ? givenParts.join(' | ') : '(no answer)'));
+        if (status !== 'correct') {
+          lines.push('  Correct answer: ' + (correctParts ? correctParts.join(' | ') : ''));
+        }
+        const bq = q.base_question;
+        if (bq && (bq.figure_svg || bq.exhibit_image_path)) {
+          lines.push('  (This question has a figure/table from the real exam question — see the website to view it.)');
+        }
+        if (q.solution && q.solution.exhibit_text) {
+          lines.push('  Explanation: ' + q.solution.exhibit_text.replace(/\*\*/g, '').replace(/\n+/g, ' '));
+        }
+        lines.push('');
+      });
+      const blob = new Blob([lines.join('\n')], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'exam-results-' + new Date().toISOString().slice(0, 10) + '.txt';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function typesetMath(root, retriesLeft) {
+      if (retriesLeft === undefined) retriesLeft = 20;
+      if (window.renderMathInElement) {
+        window.renderMathInElement(root, {
+          delimiters: [
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '$$', right: '$$', display: true}
+          ],
+          throwOnError: false
+        });
+      } else if (retriesLeft > 0) {
+        // KaTeX's auto-render script is `defer`-loaded and may not have executed yet
+        // by the time boot()'s fetch() resolves (a real race, not just a slow network).
+        setTimeout(() => typesetMath(root, retriesLeft - 1), 50);
+      }
+    }
+
+    function esc(s) {
+      return (s || '').replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+    }
+
+    function renderBoldText(s) {
+      return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/__([^_]+)__/g, '<u>$1</u>');
+    }
+
+    function renderQuestionText(text) {
+      const lines = (text || '').split('\n');
+      const html = [];
+      let inList = false;
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (trimmed.startsWith('<')) {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push(line);
+        } else if (trimmed.startsWith('• ') || trimmed.startsWith('- ')) {
+          if (!inList) { html.push('<ul style="margin:8px 0 0 20px;">'); inList = true; }
+          html.push('<li>' + renderBoldText(trimmed.slice(2)) + '</li>');
+        } else if (trimmed === '') {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push('<div style="height:0.9em;"></div>');
+        } else {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push('<div>' + renderBoldText(line) + '</div>');
+        }
+      }
+      if (inList) html.push('</ul>');
+      return html.join('');
+    }
+
+    function renderPassagePane() {
+      const pane = document.getElementById('tn-passage-pane');
+      const q = currentQ();
+      const p = q ? state.passages[q.passageIdx] : null;
+      if (!p) { pane.innerHTML = ''; return; }
+      let html = `<div class="tn-passage-title">${esc(p.title)}</div>`;
+      if (p.author) html += `<div class="tn-passage-author">by ${esc(p.author)}</div>`;
+      if (p.intro_note) html += `<div class="tn-passage-intro">${esc(p.intro_note)}</div>`;
+      if (p.sentence_paragraphs) {
+        p.sentence_paragraphs.forEach(para => {
+          html += `<div class="tn-passage-sentpara">${para.map(s =>
+            `<span class="tn-passage-sentnum">(${s.num})</span><span class="tn-passage-sentence" data-sentnum="${s.num}">${esc(s.text)}</span> `
+          ).join('')}</div>`;
+        });
+      } else if (p.paragraphs) {
+        p.paragraphs.forEach(para => {
+          html += `<div class="tn-passage-para">
+            <span class="tn-passage-paranum">${para.num}</span>
+            <span class="tn-passage-text">${renderBoldText(para.text)}</span>
+          </div>`;
+        });
+      } else if (p.lines) {
+        p.lines.forEach(line => {
+          html += `<div class="tn-passage-line">
+            <span class="tn-passage-linenum">${line.num ? line.num : ''}</span>
+            <span class="tn-passage-text">${esc(line.text) || '&nbsp;'}</span>
+          </div>`;
+        });
+      }
+      if (p.passage_figure_html) html += `<div style="margin-top:16px;">${p.passage_figure_html}</div>`;
+      if (p.citation) html += `<div class="tn-passage-citation">${esc(p.citation)}</div>`;
+      pane.innerHTML = html;
+    }
+
+    function render() {
+      if (state.finished) return;
+      saveState();
+      updateInfobar();
+      const q = currentQ();
+      const main = document.getElementById('tn-main');
+      document.getElementById('tn-prev').disabled = !canNavigateTo(state.cur - 1);
+      document.getElementById('tn-next').disabled = state.cur === state.questions.length - 1;
+      renderPassagePicker(q);
+
+      if (!q) {
+        document.getElementById('tn-question').textContent = 'No question found.';
+        document.getElementById('tn-body').innerHTML = '';
+        return;
+      }
+
+      main.classList.remove('no-pane', 'math', 'grammar');
+      if (q.section === 'math') {
+        main.classList.add('no-pane', 'math');
+        document.getElementById('tn-passage-pane').innerHTML = '';
+      } else if (q.section === 'grammar') {
+        main.classList.add('no-pane', 'grammar');
+        document.getElementById('tn-passage-pane').innerHTML = '';
+      } else {
+        renderPassagePane();
+      }
+
+      let baseLabel = '';
+      if (q.base_source) {
+        baseLabel = 'Based on ' + q.base_source;
+      } else if (q.section === 'math') {
+        const baseMatch = (q.id || '').match(/^(.*?)\.(\d+)$/);
+        if (baseMatch) baseLabel = 'Based on ' + baseMatch[1];
+      }
+      document.getElementById('tn-base-tag').textContent = baseLabel;
+
+      let stimulusHtml = '';
+      if (q.section === 'grammar' && q.stimulus) {
+        stimulusHtml = `<div class="tn-stimulus-box">${q.stimulus}</div>`;
+      }
+      let figureHtml = '';
+      if (q.figure_svg) figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
+
+      const questionTextHtml = q.question_type === 'drag_drop'
+        ? renderDragDropProse(q)
+        : renderQuestionText(q.question);
+      document.getElementById('tn-question').innerHTML = figureHtml + stimulusHtml + questionTextHtml;
+
+      let bodyHtml = '';
+      if (q.question_type === 'mc') {
+        bodyHtml = renderMc(q);
+      } else if (q.question_type === 'mc_multi') {
+        bodyHtml = renderMcMulti(q);
+      } else if (q.question_type === 'grid_keypad') {
+        bodyHtml = renderGridKeypad(q);
+      } else if (q.question_type === 'drag_drop') {
+        bodyHtml = renderDragDropChips(q);
+      } else if (q.question_type === 'sort_categories') {
+        bodyHtml = renderSortCategories(q);
+      }
+      document.getElementById('tn-body').innerHTML = bodyHtml;
+
+      wireInputs(q);
+      typesetMath(document.getElementById('tn-card'));
+    }
+
+    function renderOptionContent(v) {
+      const s = (v || '').trim();
+      if (s.startsWith('<')) return s;
+      return renderBoldText(v);
+    }
+
+    function renderMc(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = state.answers[q.q_number] || null;
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel === L ? ' selected' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-radio"></span>
+          <span class="tn-letter">${L}.</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc">${opts}</div>`;
+    }
+
+    function renderMcMulti(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = new Set(state.answers[q.q_number] || []);
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel.has(L) ? ' selected' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-radio" style="border-radius:2px;"></span>
+          <span class="tn-letter">${L}</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc_multi">${opts}</div>`;
+    }
+
+    function renderGridKeypad(q) {
+      const val = state.answers[q.q_number] || '';
+      const prefix = q.grid_prefix || '';
+      const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      return `
+        <div class="tn-grid-label">${esc(label)}</div>
+        <div style="margin-top: 10px;">
+          ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;margin-right:8px;">${esc(prefix)}</span>` : ''}
+          <span class="tn-keypad-input" id="tn-grid-display">${esc(val)}</span>
+        </div>
+        <div class="tn-keypad" data-role="keypad">
+          <div class="tn-keypad-nav">
+            <button data-kp="ARR_L" title="Left">←</button>
+            <button data-kp="ARR_R" title="Right">→</button>
+            <button data-kp="UNDO"  title="Undo">↺</button>
+            <button data-kp="REDO"  title="Redo">↻</button>
+            <button data-kp="BKSP"  title="Backspace">⌫</button>
+            <button data-kp="CLEAR" title="Clear">🗑</button>
+          </div>
+          <div class="tn-keypad-row">
+            ${['1','2','3','4','5'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            ${['6','7','8','9','0'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            <button class="tn-keypad-btn" data-kp="n">n</button>
+            <button class="tn-keypad-btn" data-kp="-">−</button>
+            <button class="tn-keypad-btn" data-kp="+">+</button>
+            <button class="tn-keypad-btn" data-kp=".">.</button>
+          </div>
+        </div>
+      `;
+    }
+
+    // ── Drag-drop fill-in-the-blank: question text has a "[B1]"-style
+    // marker; drop_values are chips the student drags/clicks into it. ──
+    function renderDragDropProse(q) {
+      let html = renderQuestionText(q.question);
+      const placed = state.answers[q.q_number] || {};
+      (q.boxes || []).forEach(b => {
+        const marker = '[' + b.label + ']';
+        const val = placed[b.label] || '';
+        const cls = val ? 'tn-dropbox filled' : 'tn-dropbox';
+        html = html.split(marker).join(
+          `<span class="${cls}" data-box="${b.label}">${val ? esc(val) : '____'}</span>`);
+      });
+      return html;
+    }
+    function renderDragDropChips(q) {
+      const placed = state.answers[q.q_number] || {};
+      const placedValues = new Set(Object.values(placed));
+      const chips = (q.drop_values || []).map(v => {
+        if (placedValues.has(v)) return '';
+        return `<div class="tn-chip" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
+      }).filter(Boolean).join('');
+      const empty = chips.length === 0
+        ? `<span style="color:#888; font-style:italic; font-size:13px;">All values placed — click a box to return one.</span>`
+        : chips;
+      return `<div class="tn-chips-row" data-role="chips">${empty}</div>`;
+    }
+
+    // ── Sort items into N labeled categories (sort_categories) ──────
+    function renderSortCategories(q) {
+      const placed = state.answers[q.q_number] || {}; // { itemId: categoryId }
+      const items = q.sort_items || [];
+      const categories = q.sort_categories || [];
+      const pool = items.filter(it => !placed[it.id]);
+      const poolHtml = pool.length
+        ? pool.map(it => `<div class="tn-sort-chip" draggable="true" data-item="${esc(it.id)}">${renderBoldText(it.text)}</div>`).join('')
+        : `<span class="tn-sort-pool-empty">All items placed — click an item in a box to return it here.</span>`;
+      const catsHtml = categories.map(cat => {
+        const inBox = items.filter(it => placed[it.id] === cat.id);
+        const itemsHtml = inBox.map(it =>
+          `<div class="tn-sort-chip" data-item="${esc(it.id)}">${renderBoldText(it.text)}</div>`
+        ).join('');
+        return `<div class="tn-sort-category" data-cat="${esc(cat.id)}">
+          <div class="tn-sort-category-label">${esc(cat.label)}</div>
+          <div class="tn-sort-category-items">${itemsHtml}</div>
+        </div>`;
+      }).join('');
+      return `
+        <div class="tn-sort-pool" data-role="sort-pool">${poolHtml}</div>
+        <div class="tn-sort-categories">${catsHtml}</div>
+      `;
+    }
+
+    function wireInputs(q) {
+      document.querySelectorAll('.tn-option').forEach((el) => {
+        el.addEventListener('click', () => {
+          const letter = el.dataset.letter;
+          if (q.question_type === 'mc') {
+            state.answers[q.q_number] = (state.answers[q.q_number] === letter) ? null : letter;
+          } else if (q.question_type === 'mc_multi') {
+            const arr = state.answers[q.q_number] || [];
+            const idx = arr.indexOf(letter);
+            if (idx >= 0) arr.splice(idx, 1); else arr.push(letter);
+            state.answers[q.q_number] = arr;
+          }
+          render();
+        });
+      });
+
+      document.querySelectorAll('[data-role="keypad"] button[data-kp]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.kp;
+          let cur = state.answers[q.q_number] || '';
+          if (key === 'BKSP')       cur = cur.slice(0, -1);
+          else if (key === 'CLEAR') cur = '';
+          else if (['ARR_L','ARR_R','UNDO','REDO'].includes(key)) return;
+          else cur += key;
+          state.answers[q.q_number] = cur;
+          const disp = document.getElementById('tn-grid-display');
+          if (disp) disp.textContent = cur;
+        });
+      });
+
+      // ── Drag-drop (drag_drop) ────────────────────────────
+      if (q.question_type === 'drag_drop') {
+        document.querySelectorAll('.tn-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.value);
+            e.dataTransfer.effectAllowed = 'copy';
+          });
+          chip.addEventListener('click', () => {
+            state._selectedChip = chip.dataset.value;
+            document.querySelectorAll('.tn-chip').forEach(c => c.style.outline = '');
+            chip.style.outline = '2px solid #ff9900';
+          });
+        });
+        document.querySelectorAll('.tn-dropbox').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const v = e.dataTransfer.getData('text/plain');
+            const lbl = box.dataset.box;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = v;
+            state._selectedChip = null;
+            render();
+          });
+          box.addEventListener('click', () => {
+            const lbl = box.dataset.box;
+            if (state._selectedChip) {
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][lbl] = state._selectedChip;
+              state._selectedChip = null;
+              render();
+            } else if (state.answers[q.q_number] && state.answers[q.q_number][lbl]) {
+              delete state.answers[q.q_number][lbl];
+              render();
+            }
+          });
+        });
+      }
+
+      // ── Sort into categories (sort_categories) ───────────
+      if (q.question_type === 'sort_categories') {
+        document.querySelectorAll('.tn-sort-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.item);
+            e.dataTransfer.effectAllowed = 'move';
+          });
+          chip.addEventListener('click', () => {
+            const itemId = chip.dataset.item;
+            // Clicking a chip already placed in a category returns it to the pool.
+            const placed = state.answers[q.q_number] || {};
+            if (placed[itemId]) {
+              delete placed[itemId];
+              state.answers[q.q_number] = placed;
+              state._selectedSortItem = null;
+              render();
+              return;
+            }
+            state._selectedSortItem = itemId;
+            document.querySelectorAll('.tn-sort-pool .tn-sort-chip').forEach(c => c.classList.remove('selected'));
+            chip.classList.add('selected');
+          });
+        });
+        document.querySelectorAll('.tn-sort-category').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const itemId = e.dataTransfer.getData('text/plain');
+            const catId = box.dataset.cat;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][itemId] = catId;
+            state._selectedSortItem = null;
+            render();
+          });
+          box.addEventListener('click', (e) => {
+            if (e.target.closest('.tn-sort-chip')) return; // handled by the chip's own click
+            if (state._selectedSortItem) {
+              const catId = box.dataset.cat;
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][state._selectedSortItem] = catId;
+              state._selectedSortItem = null;
+              render();
+            }
+          });
+        });
+      }
+    }
+
+    boot();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1521 @@
+{
+  "math_questions": [
+    {
+      "id": "P-HE3-M-FM46",
+      "question_type": "mc",
+      "question": "What is the area of triangle DEF above, where the base measures p and the height (perpendicular to the base) measures 10?",
+      "base_source": "Exam F — Math Q46 (FM46)",
+      "base_question": {
+        "question": "What is the area of triangle DEF above?",
+        "options": {
+          "A": "\\(4x\\)",
+          "B": "\\(4y\\)",
+          "C": "\\(\\dfrac{1}{2}x+8\\)",
+          "D": "\\(4(x+y)\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "The area of a triangle is given by the formula \\(A=\\tfrac{1}{2}bh\\). According to the figure, \\(b=x\\) and \\(h=8\\) (the height is perpendicular to the base), so \\(A=\\tfrac{1}{2}(x)(8)=4x\\)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,270 150,40 270,270\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"109.3\" y1=\"125.1\" x2=\"270\" y2=\"270\" stroke=\"#222\" stroke-width=\"1.4\"/><polyline points=\"113.6,116.1 121.0,122.8 116.7,131.8\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.2\"/><line x1=\"23.8\" y1=\"262.2\" x2=\"133.8\" y2=\"32.2\" stroke=\"#222\" stroke-width=\"1\"/><path d=\"M23.8,262.2 L23.2,256.3 L28.8,258.9 Z\" fill=\"#222\"/><path d=\"M133.8,32.2 L134.3,38.2 L128.8,35.5 Z\" fill=\"#222\"/><text x=\"26\" y=\"286\" font-size=\"13\" font-family=\"system-ui,sans-serif\">D</text><text x=\"146\" y=\"32\" font-size=\"13\" font-family=\"system-ui,sans-serif\">E</text><text x=\"278\" y=\"278\" font-size=\"13\" font-family=\"system-ui,sans-serif\">F</text><text x=\"64.8\" y=\"147.2\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">x</text><text x=\"185.7\" y=\"189.6\" font-size=\"13\" font-family=\"system-ui,sans-serif\">8</text><text x=\"218.0\" y=\"155.0\" font-size=\"13\" font-family=\"system-ui,sans-serif\">8.5</text><text x=\"151.0\" y=\"288.0\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui,sans-serif\">y</text></svg>"
+      },
+      "options": {
+        "A": "\\(10p\\)",
+        "B": "\\(\\dfrac{1}{2}p + 10\\)",
+        "C": "\\(5(p + 10)\\)",
+        "D": "\\(5p\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Area = 1/2 × base × height = 1/2 × p × 10 = 5p."
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-HE3-M-DM12",
+      "question_type": "mc",
+      "question": "P is the center of the circle above, and R, S, and T are points on the circle. \\(\\overline{SP} = 15\\), and \\(\\overline{RT}\\) (a diameter) \\(= x + 3\\). What is the value of x?",
+      "base_source": "Exam D — Math Q12 (DM12)",
+      "base_question": {
+        "question": "\\(P\\) is the center of the circle above, and \\(R\\), \\(S\\), and \\(T\\) are points on the circle. What is the value of \\(x\\)?",
+        "options": {
+          "A": "\\(12\\)",
+          "B": "\\(15\\)",
+          "C": "\\(17\\)",
+          "D": "\\(19\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) \\(\\overline{SP}\\) represents the radius of the circle and has length \\(12\\).\n\nBoth \\(\\overline{RP}\\) and \\(\\overline{PT}\\) are radii and also have length \\(12\\).\n\nTherefore, the length of \\(\\overline{RT}\\), which is a diameter, is \\(24\\) and is also represented by \\(x + 5\\).\n\n\\[x + 5 = 24\\]\n\\[x = 19\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 400 280' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><circle cx='190' cy='140' r='95' fill='none' stroke='#111' stroke-width='1.4'/><line x1='95' y1='140' x2='285' y2='140' stroke='#111' stroke-width='1.4'/><line x1='190' y1='140' x2='247' y2='64' stroke='#111' stroke-width='1.4'/><line x1='247' y1='64' x2='247' y2='140' stroke='#111' stroke-width='1.4'/><polyline points='240,140 240,133 247,133' fill='none' stroke='#111' stroke-width='1'/><circle cx='95' cy='140' r='2.8' fill='#111'/><circle cx='190' cy='140' r='2.8' fill='#111'/><circle cx='285' cy='140' r='2.8' fill='#111'/><circle cx='247' cy='64' r='2.8' fill='#111'/><circle cx='247' cy='140' r='2.5' fill='#111'/><text x='84' y='137' font-family='Georgia,serif' font-size='15' text-anchor='end'>R</text><text x='187' y='158' font-family='Georgia,serif' font-size='15' text-anchor='end'>P</text><text x='295' y='137' font-family='Georgia,serif' font-size='15'>T</text><text x='253' y='60' font-family='Georgia,serif' font-size='15'>S</text><text x='213' y='102' font-family='Georgia,serif' font-size='19' font-weight='bold' font-style='italic'>12</text><line x1='95' y1='180' x2='247' y2='180' stroke='#111' stroke-width='1'/><line x1='95' y1='176' x2='95' y2='184' stroke='#111' stroke-width='1'/><line x1='247' y1='176' x2='247' y2='184' stroke='#111' stroke-width='1'/><text x='171' y='196' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>x</text><line x1='247' y1='210' x2='285' y2='210' stroke='#111' stroke-width='1'/><line x1='247' y1='206' x2='247' y2='214' stroke='#111' stroke-width='1'/><line x1='285' y1='206' x2='285' y2='214' stroke='#111' stroke-width='1'/><text x='266' y='226' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-style='italic'>5</text></svg>"
+      },
+      "options": {
+        "A": "\\(24\\)",
+        "B": "\\(25\\)",
+        "C": "\\(27\\)",
+        "D": "\\(30\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "SP is a radius, so it equals 15. The diameter RT = 2 × 15 = 30. Set x + 3 = 30, so x = 27."
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-HE3-M-CM17",
+      "question_type": "mc",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)? On a number line, M is at 2, R is at 5, S is at 9, and N is at 10.",
+      "base_source": "Exam C — Math Q17 (CM17)",
+      "base_question": {
+        "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?\n\n(On the number line: M is at 1, R is at 3, S is at 6, N is at 7.)",
+        "options": {
+          "A": "\\(\\dfrac{1}{2}\\) unit",
+          "B": "\\(1\\) unit",
+          "C": "\\(1\\dfrac{1}{2}\\) units",
+          "D": "\\(2\\) units"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(A) \\(\\overline{MN}\\) begins at \\(1\\) and ends at \\(7\\). Determine the length of \\(\\overline{MN}\\):\n\n\\[7 - 1 = 6\\]\n\nThe midpoint of a line segment is located exactly halfway between the two endpoints. Since \\(\\overline{MN}\\) is \\(6\\) units in length, the two endpoints are \\(6\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(6\\) by \\(2\\):\n\n\\[6 \\div 2 = 3\\]\n\nThe location of the midpoint of \\(\\overline{MN}\\) is \\(3\\) units from either endpoint. Find the midpoint by either adding \\(3\\) to the location of \\(M\\) (\\(1\\)) or subtracting \\(3\\) from the location of \\(N\\) (\\(7\\)):\n\n\\[1 + 3 = 4\\]\n\\[7 - 3 = 4\\]\n\nThe midpoint of \\(\\overline{MN}\\) is located at \\(4\\).\n\n\\(\\overline{RS}\\) begins at \\(3\\) and ends at \\(6\\). Determine the length of \\(\\overline{RS}\\):\n\n\\[6 - 3 = 3\\]\n\nSince \\(\\overline{RS}\\) is \\(3\\) units in length, the two endpoints are \\(3\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(3\\) by \\(2\\):\n\n\\[3 \\div 2 = 1.5\\]\n\nThe location of the midpoint of \\(\\overline{RS}\\) is \\(1.5\\) units from either endpoint. Find the midpoint by either adding \\(1.5\\) to the location of \\(R\\) (\\(3\\)) or subtracting \\(1.5\\) from the location of \\(S\\) (\\(6\\)):\n\n\\[3 + 1.5 = 4.5\\]\n\nThe midpoint of \\(\\overline{RS}\\) is located at \\(4.5\\).\n\nThe distance between the midpoints \\(4\\) and \\(4.5\\) is \\(\\dfrac{1}{2}\\) unit."
+        },
+        "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.3'/><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='104' y1='40' x2='104' y2='50' stroke='#111' stroke-width='1.3'/><text x='104' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='148' y1='40' x2='148' y2='50' stroke='#111' stroke-width='1.3'/><text x='148' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='192' y1='40' x2='192' y2='50' stroke='#111' stroke-width='1.3'/><text x='192' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='236' y1='40' x2='236' y2='50' stroke='#111' stroke-width='1.3'/><text x='236' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280' y1='40' x2='280' y2='50' stroke='#111' stroke-width='1.3'/><text x='280' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='324' y1='40' x2='324' y2='50' stroke='#111' stroke-width='1.3'/><text x='324' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='368' y1='40' x2='368' y2='50' stroke='#111' stroke-width='1.3'/><text x='368' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='412' y1='40' x2='412' y2='50' stroke='#111' stroke-width='1.3'/><text x='412' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><text x='104' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='192' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='324' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>"
+      },
+      "options": {
+        "A": "\\(1\\) unit",
+        "B": "\\(\\dfrac{1}{2}\\) unit",
+        "C": "\\(1\\dfrac{1}{2}\\) units",
+        "D": "\\(2\\) units"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Midpoint of MN: (2+10)/2 = 6. Midpoint of RS: (5+9)/2 = 7. Distance between them: 7 - 6 = 1 unit."
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-HE3-M-EM09",
+      "question_type": "mc",
+      "question": "In the set of consecutive integers from 1 to 40, inclusive, how many integers are multiples of neither 3 nor 4?",
+      "base_source": "Exam E — Math Q09 (EM09)",
+      "base_question": {
+        "question": "In the set of consecutive integers from 10 to 40, inclusive, how many integers are multiples of neither 3 nor 4?",
+        "options": {
+          "A": "15",
+          "B": "16",
+          "C": "17",
+          "D": "18"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "There are \\(40 - 10 + 1 = 31\\) integers between 10 and 40, inclusive. You must add 1 because simply subtracting \\(40-10\\) gives the numbers *between* the two endpoints of 10 and 40. Here, you are told that the endpoints are included. To determine the number of integers that are multiples of neither 3 nor 4, determine the number of integers that *are* multiples of 3, 4, or both, and subtract this from the total of 31.\n\nA number is a multiple of 3 if it is divisible by 3, so the multiples of 3 between 10 and 40, inclusive, are 12, 15, 18, 21, 24, 27, 30, 33, 36, and 39. There are 10 numbers in this list. Using similar logic, the multiples of 4 between 10 and 40, inclusive, are 12, 16, 20, 24, 28, 32, 36, and 40. There are 8 numbers in this list. However, observe that the numbers 12, 24, and 36 appear on both lists. Therefore, there are \\(10+8-3=15\\) numbers that are multiples of 3, 4, or both.\n\nThus, there are \\(31-15=16\\) integers between 10 and 40 inclusive that are multiples of neither 3 nor 4."
+        }
+      },
+      "options": {
+        "A": "\\(20\\)",
+        "B": "\\(18\\)",
+        "C": "\\(19\\)",
+        "D": "\\(21\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Total: 40. Multiples of 3: 13 (3 to 39). Multiples of 4: 10 (4 to 40). Multiples of both (12): 3 (12, 24, 36). Multiples of 3 or 4: 13+10-3=20. Neither: 40-20=20."
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-HE3-M-DM17",
+      "question_type": "mc",
+      "question": "At Rockville High School, 80 students are members of either the robotics club or the debate club, or both. Of these students, 45 are members of robotics, and 55 are members of debate. What fraction of the total is the number of students who are members of **both** clubs?",
+      "base_source": "Exam D — Math Q17 (DM17)",
+      "base_question": {
+        "question": "At Midville High School, \\(64\\) students are members of either the orchestra or the choir, or both. Of these students, \\(38\\) are members of the orchestra, and \\(46\\) are members of the choir. What fraction of the total is the number of students who are members of **both** the orchestra and the choir?",
+        "options": {
+          "A": "\\(\\dfrac{16}{21}\\)",
+          "B": "\\(\\dfrac{10}{19}\\)",
+          "C": "\\(\\dfrac{10}{23}\\)",
+          "D": "\\(\\dfrac{5}{16}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) First, add the number of students that are members of both orchestra and choir.\n\n\\[38 + 46 = 84\\]\n\nThen, subtract to find the number of students that are members of both orchestra and choir.\n\n\\[84 - 64 = 20\\]\n\nThen, find the fraction of the \\(64\\) students that are members of both orchestra and choir.\n\n\\[\\dfrac{20}{64} = \\dfrac{5}{16}\\]"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{1}{5}\\)",
+        "C": "\\(\\dfrac{3}{10}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Both = 45 + 55 - 80 = 20. Fraction of total: 20/80 = 1/4."
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-HE3-M-AM11",
+      "question_type": "mc",
+      "question": "In the pyramid above, each triangular face has the same area, and the base MNPQ is a square that measures 10 centimeters on each side. If the length of \\(\\overline{RS} = 7\\) centimeters, what is the surface area of the pyramid **excluding** the base?",
+      "base_source": "Exam A — Math Q11 (AM11)",
+      "base_question": {
+        "question": "In the pyramid above, each triangular face has the same area, and the base \\(MNPQ\\) is a square that measures \\(8\\) centimeters on each side. If the length of \\(\\overline{RS} = 6\\) centimeters, what is the surface area of the pyramid **excluding** the base?",
+        "options": {
+          "A": "\\(48\\) sq cm",
+          "B": "\\(96\\) sq cm",
+          "C": "\\(128\\) sq cm",
+          "D": "\\(160\\) sq cm"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Line segment \\(\\overline{RS}\\) is the altitude, or height, of **triangle** \\(QRP\\). The length of \\(\\overline{QP}\\) is \\(8\\) cm.\n\nUse the information to find the area of **triangle** \\(QRP\\):\n\n\\[A = \\tfrac{1}{2}bh = \\tfrac{1}{2}(8)(6) = 24 \\text{ sq cm.}\\]\n\nThere are \\(4\\) congruent triangles in the pyramid, so the surface area of the pyramid **excluding** the base is \\(4 \\times 24 = 96\\) sq cm."
+        },
+        "figure_svg": "<svg viewBox='0 0 700 480' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='400' y1='60' x2='400' y2='180' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='200' y2='320' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='600' y2='300' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='60' x2='200' y2='320' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='200' y1='320' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='400' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='500' y2='350' stroke='#111' stroke-width='1.6'/><path d='M 494 340 L 505 346 L 512 336' fill='none' stroke='#111' stroke-width='1.2'/><text x='393' y='52' font-family='Georgia,serif' font-size='22'>R</text><text x='383' y='178' font-family='Georgia,serif' font-size='22'>N</text><text x='178' y='325' font-family='Georgia,serif' font-size='22'>M</text><text x='608' y='300' font-family='Georgia,serif' font-size='22'>P</text><text x='393' y='425' font-family='Georgia,serif' font-size='22'>Q</text><text x='510' y='360' font-family='Georgia,serif' font-size='22'>S</text></svg>"
+      },
+      "options": {
+        "A": "\\(140\\) sq cm",
+        "B": "\\(70\\) sq cm",
+        "C": "\\(105\\) sq cm",
+        "D": "\\(175\\) sq cm"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Each triangular face has area 1/2 × base × height = 1/2 × 10 × 7 = 35 sq cm. There are 4 faces: 4 × 35 = 140 sq cm."
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-HE3-M-GM35",
+      "question_type": "mc",
+      "question": "If 1 zig is equivalent to 0.75 zag, how many zigs are equivalent to 18 zags, rounded to the nearest hundredth?",
+      "base_source": "Exam G — Math Q35 (GM35)",
+      "base_question": {
+        "question": "If \\(1\\) zork is equivalent to \\(0.64\\) blip, how many zorks are equivalent to \\(12\\) blips, rounded to the nearest hundredth?",
+        "options": {
+          "A": "\\(7.75\\)",
+          "B": "\\(15.75\\)",
+          "C": "\\(18.25\\)",
+          "D": "\\(18.75\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Set up a proportion. Since \\(1\\) zork is equivalent to \\(0.64\\) blips, the ratio of zorks to blips is constant. Let \\(x\\) be the number of zorks equivalent to \\(12\\) blips. Set the ratios equal to each other to obtain \\(\\dfrac{1\\text{ zork}}{0.64\\text{ blips}}=\\dfrac{x\\text{ zorks}}{12\\text{ blips}}\\).\n\nCross multiply to solve for \\(x\\).\n\n\\[0.64x=12\\]\n\\[64x=1{,}200\\]\n\\[16x=300\\]\n\\[4x=75\\]\n\\[x=\\dfrac{75}{4}=18.75\\]"
+        }
+      },
+      "options": {
+        "A": "\\(13.50\\)",
+        "B": "\\(24.00\\)",
+        "C": "\\(22.50\\)",
+        "D": "\\(24.75\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "18 zags ÷ 0.75 zag per zig = 24.00 zigs."
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-HE3-M-KM1_Q64",
+      "question_type": "mc",
+      "question": "A pond contains 2,000 fish. If 30% of the fish are trout and the remaining fish are bass, how many fewer trout are there than bass?",
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q64 (KM1_Q64)",
+      "base_question": {
+        "question": "A pond contains 1,600 fish. If 25% of the fish are trout and the remaining fish are bass, how many fewer trout are there than bass?",
+        "options": {
+          "E": "200",
+          "F": "400",
+          "G": "800",
+          "H": "1,200"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Trout: 25% of 1,600 = 400. Bass: 1,600 - 400 = 1,200. Difference: 1,200 - 400 = 800."
+        }
+      },
+      "options": {
+        "A": "\\(400\\)",
+        "B": "\\(600\\)",
+        "C": "\\(800\\)",
+        "D": "\\(1{,}000\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Trout: 30% of 2,000 = 600. Bass: 2,000 - 400 = 1,200. Difference: 1,200 - 400 = 800."
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-HE3-M-AM02",
+      "question_type": "mc",
+      "question": "A train is traveling 72 miles per hour, and 1 mile = 5,280 feet. Which of the following expressions gives the train's speed in feet per second?",
+      "base_source": "Exam A — Math Q02 (AM02)",
+      "base_question": {
+        "question": "A car is traveling \\(55\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the car's speed in **feet per second**?",
+        "options": {
+          "A": "\\(\\dfrac{55 \\cdot 5{,}280}{1}\\)",
+          "B": "\\(\\dfrac{55 \\cdot 5{,}280}{3{,}600}\\)",
+          "C": "\\(\\dfrac{55 \\cdot 3{,}600}{5{,}280}\\)",
+          "D": "\\(\\dfrac{55 \\cdot 5{,}280}{60}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Divide the rate (\\(55\\) miles per hour) by the number of seconds in an hour (\\(60\\) minutes x \\(60\\) seconds \\(= 3{,}600\\) seconds):\n\n\\[\\dfrac{55}{3{,}600} \\text{ miles per second}\\]\n\nMultiply by the number of feet in a mile (\\(5{,}280\\)):\n\n\\[\\dfrac{55 \\times 5{,}280}{3{,}600} \\text{ feet per second}\\]"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{72 \\cdot 5{,}280}{1}\\)",
+        "B": "\\(\\dfrac{72 \\cdot 3{,}600}{5{,}280}\\)",
+        "C": "\\(\\dfrac{72 \\cdot 5{,}280}{60}\\)",
+        "D": "\\(\\dfrac{72 \\cdot 5{,}280}{3{,}600}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Convert hours to seconds (1 hour = 3,600 seconds) and miles to feet (1 mile = 5,280 feet): speed = (72 × 5,280 feet) / (3,600 seconds)."
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-HE3-M-EM41",
+      "question_type": "mc",
+      "question": "At 6:00 a.m., the temperature at a weather station was -15 degrees Fahrenheit. By 10:00 a.m., the temperature had risen to -6 degrees Fahrenheit. By 1:00 p.m., the temperature was equal to the absolute value of the 6:00 a.m. temperature. What was the increase in temperature per hour, in degrees Fahrenheit, between 10:00 a.m. and 1:00 p.m.?",
+      "base_source": "Exam E — Math Q41 (EM41)",
+      "base_question": {
+        "question": "At 5:00 a.m., the temperature at a weather station was \\(-12\\) degrees Fahrenheit. By 9:00 a.m., the temperature had risen to \\(-3\\) degrees Fahrenheit. By 12:00 p.m., the temperature was equal to the absolute value of the 5:00 a.m. temperature.\nWhat was the increase in temperature per hour, in degrees Fahrenheit, between 9:00 a.m. and 12:00 p.m.?",
+        "options": {
+          "A": "5 °F",
+          "B": "9 °F",
+          "C": "15 °F",
+          "D": "18 °F"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "The absolute value of the 5:00 a.m. temperature is \\(|-12|=12\\). Therefore, the temperature at 12:00 p.m. was \\(12\\degree\\)F. The temperature at 9:00 a.m. was \\(-3\\degree\\)F. The total increase in temperature between 9:00 a.m. and 12:00 p.m. is thus \\(12-(-3)=15\\degree\\)F. This occurred over the course of 3 hours, so the increase in temperature per hour is \\(\\dfrac{15\\degree F}{3}=\\dfrac{5\\degree F}{\\text{hour}}\\)."
+        }
+      },
+      "options": {
+        "A": "\\(5\\) \\°F\\)",
+        "B": "\\(7\\) \\°F\\)",
+        "C": "\\(9\\) \\°F\\)",
+        "D": "\\(12\\) \\°F\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "At 1:00 p.m., the temperature was |-15| = 15°F. From 10 a.m. (-6°F) to 1 p.m. (15°F) is 3 hours: increase = (15 - (-6))/3 = 21/3 = 7°F per hour."
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-HE3-M-AM34",
+      "question_type": "mc",
+      "question": "Suppose P = a/b, Q = c/d, and a, b, c, and d do not equal 0. What is P/Q in terms of a, b, c, and d?",
+      "base_source": "Exam A — Math Q34 (AM34)",
+      "base_question": {
+        "question": "Suppose \\(M = \\dfrac{w}{x}\\), \\(N = \\dfrac{y}{z}\\), and \\(w\\), \\(x\\), \\(y\\), and \\(z\\) do **not** equal \\(0\\). What is \\(\\dfrac{M}{N}\\) in terms of \\(w\\), \\(x\\), \\(y\\), and \\(z\\)?",
+        "options": {
+          "A": "\\(\\dfrac{wx}{yz}\\)",
+          "B": "\\(\\dfrac{wy}{xz}\\)",
+          "C": "\\(\\dfrac{wz}{xy}\\)",
+          "D": "\\(\\dfrac{xy}{wz}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) It is easier to rewrite \\(\\dfrac{M}{N}\\) as \\(M \\div N\\) since they are both fractions.\n\n\\[M \\div N = \\dfrac{w}{x} \\div \\dfrac{y}{z} = \\dfrac{w}{x} \\times \\dfrac{z}{y} = \\dfrac{wz}{xy}\\]"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{ab}{cd}\\)",
+        "B": "\\(\\dfrac{ac}{bd}\\)",
+        "C": "\\(\\dfrac{ad}{bc}\\)",
+        "D": "\\(\\dfrac{bc}{ad}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "P/Q = (a/b) ÷ (c/d) = (a/b) × (d/c) = ad/bc."
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-HE3-M-KM3_Q97",
+      "question_type": "mc",
+      "question": "On Monday, a vendor sold 3 items with a mean sale price of $100. On Tuesday, she sold 7 items with a mean sale price of $130. What was the mean sale price, to the nearest dollar, for all 10 items sold on Monday and Tuesday?",
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q97 (KM3_Q97)",
+      "base_question": {
+        "question": "On Friday, Marvin sold 4 suits that had a mean sale price of $125. On Saturday, he sold 6 suits that had a mean sale price of $140. What was the mean sale price, to the nearest dollar, for all 10 of the suits he sold on Friday and Saturday?",
+        "options": {
+          "A": "$130",
+          "B": "$132",
+          "C": "$133",
+          "D": "$134"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Friday total: 4 × $125 = $500. Saturday total: 6 × $140 = $840. Combined mean: (500+840)/10 = $134."
+        }
+      },
+      "options": {
+        "A": "\\(\\$115\\)",
+        "B": "\\(\\$118\\)",
+        "C": "\\(\\$121\\)",
+        "D": "\\(\\$124\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Friday total: 3 × $100 = $300. Saturday total: 7 × $130 = $910. Combined mean: (300+910)/10 = $121."
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-HE3-M-KM2_Q92",
+      "question_type": "mc",
+      "question": "Tom completed a puzzle in 45.36 seconds. Jerry completed the same puzzle in 45.18 seconds. What was the difference between their times, expressed as a fraction of a second?",
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q92 (KM2_Q92)",
+      "base_question": {
+        "question": "Lisa completed a math competition problem in 33.24 seconds. Deidra completed the same problem in 33.09 seconds. What was the difference between their times, expressed as a fraction of a second?",
+        "options": {
+          "E": "\\(\\dfrac{1}{20}\\)",
+          "F": "\\(\\dfrac{1}{15}\\)",
+          "G": "\\(\\dfrac{3}{20}\\)",
+          "H": "\\(\\dfrac{1}{5}\\)"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Difference: 33.24 - 33.09 = 0.15 seconds = 15/100 = 3/20."
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{1}{10}\\)",
+        "B": "\\(\\dfrac{9}{50}\\)",
+        "C": "\\(\\dfrac{1}{5}\\)",
+        "D": "\\(\\dfrac{3}{10}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Difference: 45.36 - 45.18 = 0.18 seconds = 18/100 = 9/50."
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-HE3-M-GM04",
+      "question_type": "mc",
+      "question": "Each square in the grid above has a side length of 5. What is the area of the shaded triangle, which has a base of 4 grid-squares and a height of 3 grid-squares?",
+      "base_source": "Exam G — Math Q04 (GM04)",
+      "base_question": {
+        "question": "Each square in the grid above has a side length of \\(4\\). What is the area of the shaded triangle?",
+        "options": {
+          "A": "\\(3\\)",
+          "B": "\\(24\\)",
+          "C": "\\(48\\)",
+          "D": "\\(96\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "This triangle has a height of \\(8\\) (each box counts as \\(4\\)) and a base of \\(12\\). The area of a triangle is\n\n\\[\\dfrac{1}{2}(\\text{Base})(\\text{Height})=\\dfrac{1}{2}(12)(8)=48.\\]"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"20\" x2=\"170\" y2=\"20\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"140\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"50,20 50,80 140,80\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>"
+      },
+      "options": {
+        "A": "\\(75\\)",
+        "B": "\\(100\\)",
+        "C": "\\(300\\)",
+        "D": "\\(150\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Base = 4 × 5 = 20. Height = 3 × 5 = 15. Area = 1/2 × 20 × 15 = 150."
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-HE3-M-KM2_Q76",
+      "question_type": "mc",
+      "question": "The perimeter of a decagon is 172 centimeters. The length of one side is 34 centimeters. The length of another side is 42 centimeters. All the remaining 8 sides are equal in length to each other. What is the length of each of the remaining sides, in centimeters?",
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q76 (KM2_Q76)",
+      "base_question": {
+        "question": "The perimeter of a decagon is 160 centimeters. The length of one side is 36 centimeters. The length of another side is 44 centimeters. All the remaining sides are equal in length to each other. What is the length of each of the remaining sides, in centimeters?",
+        "options": {
+          "E": "6",
+          "F": "8",
+          "G": "10",
+          "H": "16"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Remaining length: 160 - 36 - 44 = 80 cm split across 8 equal sides: 80 / 8 = 10 cm each."
+        }
+      },
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(8\\)",
+        "C": "\\(10\\)",
+        "D": "\\(14\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Remaining length: 172 - 34 - 42 = 96 cm across 8 equal sides: 96 / 8 = 12 cm each."
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-HE3-M-BM48",
+      "question_type": "mc",
+      "question": "There are now x cans stacked on a shelf that holds 50 cans when full. If 6 of these cans were removed, the shelf would be half full. What is the value of x?",
+      "base_source": "Exam B — Math Q48 (BM48)",
+      "base_question": {
+        "question": "There are now \\(x\\) cans stacked on a shelf that holds \\(36\\) cans when full. If \\(4\\) of these cans were removed, the shelf would be half full. What is the value of \\(x\\)?",
+        "options": {
+          "A": "\\(14\\)",
+          "B": "\\(16\\)",
+          "C": "\\(18\\)",
+          "D": "\\(22\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) The shelf, when full, holds \\(36\\) cans. When the shelf is half full, it holds \\(18\\) cans.\n\n\\[x - 4 = 18\\]\n\\[x = 22\\]"
+        }
+      },
+      "options": {
+        "A": "\\(31\\)",
+        "B": "\\(25\\)",
+        "C": "\\(28\\)",
+        "D": "\\(29\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Half full = 25 cans. x - 6 = 25, so x = 31."
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-HE3-M-FM07",
+      "question_type": "mc",
+      "question": "There are 60 cards of varying colors in a stack. The probability of drawing a yellow card is 0.5. If 15 yellow cards are removed from the stack, what is the probability of drawing a yellow card from the remaining stack?",
+      "base_source": "Exam F — Math Q07 (FM07)",
+      "base_question": {
+        "question": "There are 50 cards of varying colors in a stack. The probability of drawing a yellow card is 0.4. If 10 yellow cards are removed from the stack, what is the probability of drawing a yellow card from the remaining stack?",
+        "options": {
+          "A": "0.20",
+          "B": "0.25",
+          "C": "0.30",
+          "D": "0.40"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). There are 50 total cards, and the probability of drawing a yellow card is 0.4. If \\(y\\) represents the number of yellow cards, the probability of drawing a yellow card is \\(0.4=\\dfrac{y}{50}\\). This yields \\(y=50\\times0.4=20\\). Thus, there are 20 yellow cards in the stack. The question asks for the probability of drawing a yellow card after 10 yellow cards are removed. This leaves \\(20-10=10\\) yellow cards out of a total of \\(50-10=40\\) remaining cards. The probability is thus \\(\\dfrac{10}{40}=0.25\\)."
+        }
+      },
+      "options": {
+        "A": "\\(0.33\\)",
+        "B": "\\(0.25\\)",
+        "C": "\\(0.30\\)",
+        "D": "\\(0.40\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Yellow cards: 0.5 × 60 = 30. After removing 15: 15 yellow left, 45 cards total. Probability: 15/45 ≈ 0.33."
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-HE3-M-CM18",
+      "question_type": "mc",
+      "question": "I. \\(a - b\\)  II. \\(a^2b\\)  III. \\(a^b\\)  If a is a positive integer and b is a negative integer, which of the above expressions **must** be a positive number?",
+      "base_source": "Exam C — Math Q18 (CM18)",
+      "base_question": {
+        "question": "I. \\(s - t\\)\nII. \\(st^2\\)\nIII. \\(s^t\\)\n\nIf \\(s\\) is a positive integer and \\(t\\) is a negative integer, which of the above expressions **must** be a positive number?",
+        "options": {
+          "A": "II only",
+          "B": "I and II only",
+          "C": "II and III only",
+          "D": "I, II, and III"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Each of the three expressions must be considered:\n\nExpression I: \\(s - t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSubtracting a negative integer is the equivalent of adding a positive integer, so \\(s - (-t)\\) is equivalent to finding the value of \\(s + t\\), which must result in a positive number.\n\nExpression II: \\(st^2\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer:\n\nSquaring a negative integer results in a positive integer, so \\(s(-t)^2\\) is equivalent to finding the value of \\(st^2\\), which must result in a positive number.\n\nExpression III: \\(s^t\\), where \\(s\\) is a positive integer and \\(t\\) is a negative integer: raising a positive number to a negative power gives \\(\\dfrac{1}{s^{|t|}}\\), which is still positive.\n\nAll three expressions must be positive."
+        }
+      },
+      "options": {
+        "A": "I only",
+        "B": "I and II only",
+        "C": "I and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "I: a - b = positive - negative = always positive. II: a²b = positive × negative = always negative (never positive). III: a^b = 1/a^|b|, which is positive since a is positive. So only I and III must be positive."
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-HE3-M-KM3_Q101",
+      "question_type": "mc",
+      "question": "The average (arithmetic mean) of 20 numbers is 5. The average of these 20 numbers and a 21st number is 6. What is the 21st number?",
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q101 (KM3_Q101)",
+      "base_question": {
+        "question": "The average (arithmetic mean) of 16 numbers is 3. The average of these 16 numbers and a seventeenth number is 4. What is the seventeenth number?",
+        "options": {
+          "A": "12",
+          "B": "17",
+          "C": "18",
+          "D": "20"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Sum of 16 numbers: 16 × 3 = 48. Sum of all 17 numbers: 17 × 4 = 68. The 17th number: 68 - 48 = 20."
+        }
+      },
+      "options": {
+        "A": "\\(20\\)",
+        "B": "\\(26\\)",
+        "C": "\\(23\\)",
+        "D": "\\(29\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Sum of 20 numbers: 20 × 5 = 100. Sum of all 21 numbers: 21 × 6 = 126. The 21st number: 126 - 100 = 26."
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-HE3-M-KM1_Q85",
+      "question_type": "mc",
+      "question": "Maria answered 42 out of 60 questions correctly on her science exam. What percentage of the questions did Maria answer correctly?",
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q85 (KM1_Q85)",
+      "base_question": {
+        "question": "Joe answered 37 out of 50 questions correctly on his history exam. What percentage of the questions did he get wrong?",
+        "options": {
+          "A": "13%",
+          "B": "26%",
+          "C": "37%",
+          "D": "74%"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "37 correct out of 50 total: 37/50 = 0.74 = 74%."
+        }
+      },
+      "options": {
+        "A": "\\(60\\%\\)",
+        "B": "\\(65\\%\\)",
+        "C": "\\(75\\%\\)",
+        "D": "\\(70\\%\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "42/60 = 0.70 = 70%."
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-HE3-M-KM2_Q77",
+      "question_type": "mc",
+      "question": "The sum of two consecutive integers is -15. If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q77 (KM2_Q77)",
+      "base_question": {
+        "question": "The sum of two consecutive integers is -9. If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
+        "options": {
+          "A": "-14",
+          "B": "-11",
+          "C": "-10",
+          "D": "-9"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Let the integers be n and n+1: n + (n+1) = -9, so n = -5 and the larger is -4. Double the smaller: 2(-5) = -10. Add 3 to the larger: -4 + 3 = -1. Sum: -10 + (-1) = -11."
+        }
+      },
+      "options": {
+        "A": "\\(-23\\)",
+        "B": "\\(-18\\)",
+        "C": "\\(-20\\)",
+        "D": "\\(-15\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Let the integers be n and n+1: n + (n+1) = -15, so n = -8 and the larger is -7. Double the smaller: 2(-8) = -16. Add 3 to the larger: -7+3 = -4. Sum: -16 + (-4) = -20."
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-HE3-M-EM18",
+      "question_type": "mc",
+      "question": "In the triangle above, if the measure of \\(\\angle ABC\\) (labeled \\((3x-5)\\degree\\)) is \\(70\\degree\\), and \\(\\angle BAC\\) is labeled \\((2x)\\degree\\), what is the value of y, the third angle?",
+      "base_source": "Exam E — Math Q18 (EM18)",
+      "base_question": {
+        "question": "In the triangle above, if the measure of \\(\\angle ABC\\) is \\(60\\degree\\), then what is the value of \\(y\\)?",
+        "options": {
+          "A": "24",
+          "B": "26",
+          "C": "28",
+          "D": "30"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "In the figure, \\(\\angle ABC\\) is labeled \\((2x-4)\\degree\\), and in the question stem, you're told that \\(\\angle ABC\\) measures \\(60\\degree\\). So, \\(2x-4=60\\), which leads to \\(2x=64\\) and \\(x=32\\). That means that \\(\\angle BAC\\), which is labeled \\((3x)\\degree\\), must measure \\(3 \\times 32\\), or \\(96\\degree\\). Since the measures of the angles of a triangle must add up to \\(180\\degree\\), \\(60\\degree+96\\degree+y\\degree=180\\degree\\), and \\(y=24\\)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"20,110 115,22 290,110\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"10\" y=\"122\" font-size=\"12\" font-weight=\"700\">A</text><text x=\"112\" y=\"16\" font-size=\"12\" font-weight=\"700\">B</text><text x=\"292\" y=\"122\" font-size=\"12\" font-weight=\"700\">C</text><text x=\"118\" y=\"42\" font-size=\"11\">(2x-4)&#176;</text><text x=\"34\" y=\"100\" font-size=\"11\">(3y)&#176;</text><text x=\"255\" y=\"100\" font-size=\"11\">y&#176;</text></svg>"
+      },
+      "options": {
+        "A": "\\(55\\)",
+        "B": "\\(65\\)",
+        "C": "\\(70\\)",
+        "D": "\\(60\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "3x - 5 = 70, so 3x = 75 and x = 25. Angle BAC = 2(25) = 50°. The three angles sum to 180°: y = 180 - 70 - 50 = 60."
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-HE3-M-KM3_Q95",
+      "question_type": "mc",
+      "question": "If -1 < y < 0, which of the following has the **greatest** value?",
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q95 (KM3_Q95)",
+      "base_question": {
+        "question": "If \\(-1 < y < 0\\), which of the following has the greatest value?",
+        "options": {
+          "A": "\\(y^2\\)",
+          "B": "\\(1-y\\)",
+          "C": "\\(1+y\\)",
+          "D": "\\(2y\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Test a value like y = -0.5: y² = 0.25, 1-y = 1.5, 1+y = 0.5, 2y = -1. Since y is negative, \"1 - y\" always adds a positive amount to 1, making it the largest of the four for any y in this range."
+        }
+      },
+      "options": {
+        "A": "\\(y^2\\)",
+        "B": "\\(2 - y\\)",
+        "C": "\\(2 + y\\)",
+        "D": "\\(3y\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Test y = -0.5: y² = 0.25, 2-y = 2.5, 2+y = 1.5, 3y = -1.5. Since y is negative, \"2 - y\" always adds a positive amount to 2, making it the largest for any y in this range."
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-HE3-M-BM07",
+      "question_type": "mc",
+      "question": "\\[M = 2N = \\dfrac{P}{3} = Q + 4 = \\dfrac{R}{9} > 0\\]  Based on the statement above, which variable has the **greatest** value?",
+      "base_source": "Exam B — Math Q07 (BM07)",
+      "base_question": {
+        "question": "\\[M = 3N = \\dfrac{P}{4} = Q + 5 = \\dfrac{R}{7} > 0\\]\n\nBased on the statement above, which variable has the **greatest** value?",
+        "options": {
+          "A": "\\(M\\)",
+          "B": "\\(N\\)",
+          "C": "\\(P\\)",
+          "D": "\\(R\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Break the equations apart to each equal \\(M\\):\n\n\\[M = 3N\\]\n\\[M = \\dfrac{P}{4}\\]\n\\[M = Q + 5\\]\n\\[M = \\dfrac{R}{7}\\]\n\nPick a number to substitute into the equations, and solve the equations to find the values of \\(M\\), \\(N\\), \\(P\\), \\(Q\\), and \\(R\\).\n\nLet \\(M = 2\\). Since all the equations are equal to \\(2\\), substitute \\(2\\) to find each variable.\n\n\\[M = 3N\\]\n\\[2 = 3N\\]\n\\[\\dfrac{2}{3} = N\\]\n\n\\[M = \\dfrac{P}{4}\\]\n\\[2 = \\dfrac{P}{4}\\]\n\\[8 = P\\]\n\n\\[M = Q + 5\\]\n\\[2 = Q + 5\\]\n\\[-3 = Q\\]\n\n\\[M = \\dfrac{R}{7}\\]\n\\[2 = \\dfrac{R}{7}\\]\n\\[14 = R\\]\n\nComparing the values: \\(M = 2\\), \\(N = \\tfrac{2}{3}\\), \\(P = 8\\), \\(Q = -3\\), \\(R = 14\\). \\(R\\) has the greatest value."
+        }
+      },
+      "options": {
+        "A": "\\(M\\)",
+        "B": "\\(N\\)",
+        "C": "\\(Q\\)",
+        "D": "\\(R\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Let the shared value be k > 0. Then M = k, N = k/2, P = 3k, Q = k - 4, R = 9k. R has the largest coefficient (9), so R is always the greatest."
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-HE3-M-KM2_Q100",
+      "question_type": "mc",
+      "question": "Erin has a box of quarters from various states in the Northeast. The box contains 8 quarters from New York, 5 from Pennsylvania, 3 from Delaware, and 4 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are not from New York?",
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q100 (KM2_Q100)",
+      "base_question": {
+        "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are not from New York?",
+        "options": {
+          "E": "\\(\\dfrac{12}{35}\\)",
+          "F": "\\(\\dfrac{7}{13}\\)",
+          "G": "\\(\\dfrac{4}{7}\\)",
+          "H": "\\(\\dfrac{6}{7}\\)"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_text": "Not-New-York quarters: 15 - 6 = 9. P(1st not NY) = 9/15. P(2nd not NY | 1st not NY) = 8/14. P(both) = (9/15)(8/14) = 72/210 = 12/35."
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{12}{19}\\)",
+        "B": "\\(\\dfrac{33}{95}\\)",
+        "C": "\\(\\dfrac{3}{5}\\)",
+        "D": "\\(\\dfrac{9}{20}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Not-New-York quarters: 20 - 8 = 12. P(1st not NY) = 9/20. P(2nd not NY | 1st not NY) = 11/19. P(both) = (9/20)(11/19) = 132/380 = 33/95."
+      },
+      "q_number": 25
+    }
+  ],
+  "ela_passages": [
+    {
+      "passage_number": 1,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Invention of the Telegraph",
+      "author": null,
+      "citation": "“Invention of the Telegraph”—Public Domain/Library of Congress",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Today, instant communication over great distances is so commonplace that it’s difficult to imagine a time when sending a message required days or weeks of travel. Before the telegraph, most long-distance communication relied on visual or “semaphore” systems using flags or lights, messengers on horseback, or ships carrying letters across oceans. The United States government, eager to improve communication along its borders, was searching for just such a system along its entire Atlantic coast when a portrait painter named Samuel Morse set out to change the way the world communicates."
+        },
+        {
+          "num": 2,
+          "text": "Morse’s interest in long-distance communication began unexpectedly. While attending lectures on electricity at Yale, Morse learned about Michael Faraday’s invention of the electromagnet, a device that used electric current to create a magnetic field. Morse speculated that it might be possible to send a coded message over a wire by using an electromagnet to produce an audible or visible signal at the receiving end."
+        },
+        {
+          "num": 3,
+          "text": "Morse was not alone in exploring the use of electricity for communication. Joseph Henry, a physics professor at Princeton, had rung a bell at a distance by opening and closing an electric circuit and had published an article in 1831—of which Morse was unaware—that contained details suggesting the idea of an electric telegraph. Leonard D. Gale, a professor of chemistry, was familiar with Henry’s electrical work and pointed out flaws in Morse’s early system. Gale showed Morse how to regularly boost the strength of a signal and overcome distance problems by using a relay system Henry had invented. Henry’s experiments, Gale’s assistance, and, soon after, hiring the young technician Alfred Vail were keys to Morse’s success."
+        },
+        {
+          "num": 4,
+          "text": "By December 1837, Morse had enough confidence in his new system to apply for the federal government’s appropriation, and during the next year he conducted demonstrations of his telegraph both in New York and Washington."
+        },
+        {
+          "num": 5,
+          "text": "Morse’s request for funding was delayed for several years. During this time, Morse traveled to Europe, where he tried not only to secure patent protection overseas but to examine competing telegraph systems in England. When Morse returned to the United States, the nation was in the midst of a long depression caused by the Panic of 1837, and Congress was reluctant to spend money on an unproven invention."
+        },
+        {
+          "num": 6,
+          "text": "By 1843, the country was beginning to recover economically, and Morse again asked Congress for the $30,000 that would allow him to build a telegraph line from Washington to Baltimore, forty miles away. The House of Representatives eventually passed the bill containing the Morse appropriation, and the Senate approved it in the final hours of that Congress’s last session. With President Tyler’s signature, Morse received the cash he needed and began to carry out plans for an underground telegraph line."
+        },
+        {
+          "num": 7,
+          "text": "Morse had hired the ingenious construction engineer Ezra Cornell to lay the pipe carrying the wire, and although Cornell did his job superbly, one of Morse’s partners, Congressman F. O. J. Smith, had purchased wire with defective insulation. Too much time had been wasted laying bad wire, and with the project on a rigid deadline, something had to be done quickly. Cornell suggested that the fastest and cheapest way of connecting Washington and Baltimore was to string wires overhead on trees and poles. The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore."
+        },
+        {
+          "num": 8,
+          "text": "Soon, as overhead wires connected cities up and down the Atlantic coast, the dots-and-dashes method that recorded messages on a long moving strip of paper was replaced by the operator’s ability to interpret the code in real time. . . . Telegraph lines soon extended westward, and within Morse’s own lifetime they connected the continents of Europe and America."
+        }
+      ],
+      "passage_figure_html": "<img src=\"ela_c/figures/telegraph_map.jpg\" alt=\"Map of the British All-Red Telegraph Line, 1902\" style=\"max-width:100%;display:block;border-radius:4px;margin-bottom:12px;\"><img src=\"ela_c/figures/telegraph_chart.jpg\" alt=\"Bar chart: Telegraph Messages Transmitted, 1870-1920\" style=\"max-width:100%;display:block;border-radius:4px;\">",
+      "questions": [
+        {
+          "id": "CR01",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "The details of the section “The Growth of an Idea” convey a central idea of the passage by suggesting that",
+          "options": {
+            "A": "the collaborative efforts of colleagues resulted in successful communication over a wire.",
+            "B": "a great deal of interest and work was devoted to understanding how to use electricity to send signals.",
+            "C": "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
+            "D": "colleges like Yale played a great role in making new discoveries about electricity and its applications."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although paragraph 2 in this section states that Morse “speculated that it might be possible to send a coded message over a wire,” this section does not describe Morse and his colleagues' ultimate success at sending such a message.\nB. CORRECT. The section helps convey a central idea because it mainly focuses on what inspired Morse to begin his work and explains how others were just as interested in working to achieve this goal. Paragraph 3 states that “Henry's experiments, Gale's assistance, and, soon after, hiring the young technician Alfred Vail were keys to Morse's success.” Their shared interest in the possibilities of electricity inspired them to work together to find a way to use electricity to send long-distance messages.\nC. Incorrect. Paragraph 2 of the section explains how Morse came to understand how Faraday's electromagnet worked and states that this invention prompted Morse to wonder whether it might be possible to send a coded message over a wire. However, that early idea of Morse's only evolved into the telegraph after much more research and experimentation.\nD. Incorrect. Although paragraph 2 establishes that Morse was interested in lectures at Yale on electricity, the influence of what Morse learned at Yale was only a minor factor in his development of the telegraph."
+          }
+        },
+        {
+          "id": "CR02",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "Which sentence is the best summary of how Morse obtained the funding necessary to build his telegraph system?",
+          "options": {
+            "A": "Morse’s application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system.",
+            "B": "Morse applied for a government grant that required both houses of Congress and the president to pass a bill awarding him $30,000 for his telegraph project.",
+            "C": "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843.",
+            "D": "Working with Gale and Vail allowed Morse to find flaws in Henry’s work and to develop his own ideas before applying for the federal government appropriation."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This summary focuses mostly on what Morse did while his application for funding was delayed in the United States rather than on how Morse acquired the patent, because during this period, Morse tried “not only to secure patent protection overseas but to examine competing telegraph systems in England” (paragraph 5). Therefore, it is not the best summary of how Morse obtained the funding necessary to build his telegraph system.\nB. Incorrect. Although this summary mentions how Morse applied for the “federal government's appropriation” (paragraph 4), it primarily focuses on the actions of the House of Representatives and the Senate, not on Morse's efforts to obtain funding. Therefore, it is not the best summary of how Morse obtained the funding necessary to build his telegraph system.\nC. CORRECT. This summary best describes how Morse obtained the funding that he needed for his telegraph system, because it explains that Morse applied “for the federal government's appropriation, and during the next year he conducted demonstrations of his telegraph” (paragraph 4). In paragraph 5, the author explains the impact that the Panic of 1837 had on Morse's request. In paragraph 6, the author describes how by 1843, economic times had improved, so Morse again “asked Congress for the $30,000” and was awarded the funds after “the Senate approved it.”\nD. Incorrect. This summary is not the best summary of how Morse obtained the funding necessary to build his telegraph system, because it relates how Morse worked with others to develop his ideas about the telegraph and how Gale and Vail were the “keys to Morse's success” (paragraph 3) before he applied for funding."
+          }
+        },
+        {
+          "id": "CR03",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 7.\n\n**The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore.**\n\nThe words “dramatic” and “spectacularly” in the sentence convey a",
+          "options": {
+            "A": "sense of relief and fulfillment that the line was finished.",
+            "B": "sense of wonder and celebration that the telegraph line was accomplished.",
+            "C": "feeling of excitement about the future possibilities of the telegraph.",
+            "D": "feeling of confidence about being able to continue the work."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While there may have been some feelings of relief and fulfillment when the lines were finished, the passage instead focuses on the wonder and joy that Morse and Cornell felt after overcoming setbacks and completing the construction of the telegraph system.\nB. CORRECT. Morse and Cornell rushed to post the wires overhead, and the “rigid deadline” (paragraph 7) was successfully met. The words have a positive and victorious tone that is consistent with the feeling of wonder that it worked and of celebration that the construction was completed.\nC. Incorrect. The passage does not share whether Morse or Cornell considered the future possibilities of the telegraph; it shares only that the finished product was “dramatic,” implying it was amazing to see.\nD. Incorrect. While the passage later discusses the expansion of overhead wires “up and down the Atlantic coast” and how they “connected the continents of Europe and America” (paragraph 8), there is no evidence shared in the passage that Morse planned to continue his work with electricity."
+          }
+        },
+        {
+          "id": "CR04",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "How does the graph support the ideas in paragraph 8?",
+          "options": {
+            "A": "It indicates how welcome the improvement of long-distance communication was in the United States.",
+            "B": "It provides evidence of the dramatic increase in the number of telegraph messages as Morse’s system expanded across the United States.",
+            "C": "It reveals that by the twentieth century millions of people had used the telegraph despite earlier hesitations about the system.",
+            "D": "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system’s usage."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While it can be inferred from the expansion shown on the graph that people possibly welcomed the improvement in long-distance communication, the graph does not state this explicitly.\nB. CORRECT. The graph shows the number of messages transmitted from 1870 to 1920. In 1920 almost 160 million messages were transmitted, showing a “dramatic”—almost double—increase from 1910.\nC. Incorrect. The graph does not show how many people used the telegraph, but rather it shows the number of messages sent. Additionally, paragraph 8 provides no details about hesitation on the part of individual people.\nD. Incorrect. While improvements in recording and interpreting code were made, the graph does not show the effect of this advancement on the speed or number of messages being transmitted."
+          }
+        },
+        {
+          "id": "CR05",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "The idea that, in the mid-nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
+          "options": {
+            "A": "description of the government’s initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast.",
+            "B": "delay by the House of Representatives to pass the bill funding Morse’s telegraph line six years after he first applied for the appropriation.",
+            "C": "discussions of the newly invented electromagnet that sparked the idea of sending codes through wires.",
+            "D": "description of how an electric circuit could be closed to ring a bell at a distance."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Paragraph 1 states that most signaling systems at the time were “visual or 'semaphore' systems using flags or lights” and that the United States government was looking for “just such a system along its entire Atlantic coast.” This option is correct because it shows that the government wanted to continue to use a limited system instead of finding ways to improve the system. Had the government been aware of the possibilities of electricity, a more sophisticated system might have been imagined.\nB. Incorrect. The delay in funding had to do with the Panic of 1837 and the “long depression” (paragraph 5) and was not because the House of Representatives was not aware of or ready for innovation in the use of electricity.\nC. Incorrect. The information in this option focuses on what prompted Morse to consider an electric wire–based communications system. While this option suggests that electrical devices were just beginning to be invented, it does not support the idea that the nation was unaware of the possibilities of electricity.\nD. Incorrect. While this option describes an early electrical innovation that may seem quite basic and limited to modern audiences, paragraph 3 states that this innovation was the work of a “pioneer in the new field,” implying that it was quite significant for its time. This option is incorrect because it focuses on those people in the United States who were aware of the possibilities of electricity."
+          }
+        },
+        {
+          "id": "CR06",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "Morse’s telegraph was successful because the wires were strung aboveground rather than underground as originally planned.",
+            "B": "Understanding the importance of Morse’s telegraph requires detailed knowledge of electrical systems.",
+            "C": "The implementation of Morse’s telegraph system was overly influenced by economic factors.",
+            "D": "Morse’s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The author explains that the aboveground wiring was used only because “Cornell suggested that [it was] the fastest and cheapest way” (paragraph 7), not because it would be more successful.\nB. Incorrect. The author conveys the importance of this advancement in communication without providing detailed information about electrical systems.\nC. Incorrect. While the Panic of 1837 caused a delay in Morse's funding, the author shows that Morse received the appropriation in 1843 and was able to overcome the financial setback he faced.\nD. CORRECT. Paragraph 8 states that “telegraph lines soon extended westward, and within Morse's own lifetime they connected the continents of Europe and America.” Therefore, this option is correct because the author presents Morse's telegraph as a great leap in the ability to quickly communicate messages over distances never before imagined."
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Niagara Falls",
+      "author": "Rupert Brooke",
+      "citation": "From Letters from America by Rupert Brooke—Public Domain",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone."
+        },
+        {
+          "num": 2,
+          "text": "The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever-altering wonder. Greens and blues, purples and whites, melt into one another, fade, and come again, and change with the changing sun. Sometimes they are as richly diaphanous as a precious stone, and glow from within with a deep, inexplicable light. Sometimes the white intricacies of dropping foam become opaque and creamy. And always there are the rainbows. If you come suddenly upon the Falls from above, a great double rainbow, very vivid, spanning the extent of spray from top to bottom, is the first thing you see. If you wander along the cliff opposite, a bow springs into being in the American Falls, accompanies you courteously on your walk, dwindles and dies as the mist ends, and awakens again as you reach the Canadian tumult. And the bold traveller who attempts the trip under the American Falls sees, when he dare open his eyes to anything, tiny baby rainbows, some four or five yards in span, leaping from rock to rock among the foam, and gambolling beside him, barely out of hand's reach, as he goes. One I saw in that place was a complete circle, such as I have never seen before, and so near that I could put my foot on it. It is a terrifying journey, beneath and behind the Falls. The senses are battered and bewildered by the thunder of the water and the assault of wind and spray; or rather, the sound is not of falling water, but merely of falling; a noise of unspecified ruin. So, if you are close behind the endless clamour, the sight cannot recognise liquid in the masses that hurl past. You are dimly and pitifully aware that sheets of light and darkness are falling in great curves in front of you. Dull omnipresent foam washes the face. Farther away, in the roar and hissing, clouds of spray seem literally to slide down some invisible plane of air."
+        },
+        {
+          "num": 3,
+          "text": "Beyond the foot of the Falls the river is like a slipping floor of marble, green with veins of dirty white, made by the scum that was foam. It slides very quietly and slowly down for a mile or two, sullenly exhausted. Then it turns to a dull sage green, and hurries more swiftly, smooth and ominous. As the walls of the ravine close in, trouble stirs, and the waters boil and eddy. These are the lower rapids, a sight more terrifying than the Falls, because less intelligible. Close in its bands of rock the river surges tumultuously forward, writhing and leaping as if inspired by a demon. It is pressed by the straits into a visibly convex form. Great planes of water slide past. Sometimes it is thrown up into a pinnacle of foam higher than a house, or leaps with incredible speed from the crest of one vast wave to another, along the shining curve between, like the spring of a wild beast. Its motion continually suggests muscular action. The power manifest in these rapids moves one with a different sense of awe and terror from that of the Falls. Here the inhuman life and strength are spontaneous, active, almost resolute. . . . A place of fear."
+        },
+        {
+          "num": 4,
+          "text": "One is drawn back, strangely, to a contemplation of the Falls, at every hour, and especially by night, when the cloud of spray becomes an immense visible ghost, straining and wavering high above the river, white and pathetic and translucent. The Victorian lies very close below the surface in every man. There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara. I could not get out of my mind the thought of a friend, who said that the rainbows over the Falls were like the arts and beauty and goodness, with regard to the stream of life—caused by it, thrown upon its spray, but unable to stay or direct or affect it, and ceasing when it ceased. In all comparisons that rise in the heart, the river, with its multitudinous waves and its single current, likens itself to a life, whether of an individual or of a community. A man's life is of many flashing moments, and yet one stream; a nation's flows through all its citizens, and yet is more than they. In such places, one is aware, with an almost insupportable and yet comforting certitude, that both men and nations are hurried onwards to their ruin or ending as inevitably as this dark flood. Some go down to it unreluctant, and meet it, like the river, not without nobility. And as incessant, as inevitable, and as unavailing as the spray that hangs over the Falls, is the white cloud of human crying. . . . With some such thoughts does the platitudinous heart win from the confusion and thunder of a Niagara peace that the quietest plains or most stable hills can never give."
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR07",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 2.\n\n**They are extraordinarily level, one long curtain of lacework and woven foam.**\n\nWhat is the effect of comparing the American Falls to a “long curtain of lacework and woven foam”?",
+          "options": {
+            "A": "It demonstrates the timelessness of the American Falls.",
+            "B": "It conveys the secretive nature of the American Falls.",
+            "C": "It illustrates the elegant uniformity of the American Falls.",
+            "D": "It communicates the intense strength of the American Falls."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Neither “lacework and woven foam” (paragraph 2) nor the quality of being extremely level are related to timelessness.\nB. Incorrect. Although curtains are sometimes used to create privacy, the purpose of comparing the Falls to a “long curtain of lacework and woven foam” (paragraph 2) is not to convey the secretive nature of the Falls but rather to illustrate their beauty and uniformity.\nC. CORRECT. The word “lacework” in the sentence from paragraph 2 suggests an elegant piece of craftsmanship, and the “one long curtain” and “extraordinarily level” aspects of the Falls mean that the Falls are uniform or consistent.\nD. Incorrect. Although the author states in paragraph 1 that the Falls inspire a “feeling of colossal power,” in paragraph 2 the author describes the American Falls as “delicate and fragile.” Therefore, the purpose of the comparison in paragraph 2 is not to communicate the intense strength of the Falls."
+          }
+        },
+        {
+          "id": "CR08",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 3.\n\n**These are the lower rapids, a sight more terrifying than the Falls, because less intelligible.**\n\nWhich statement best describes how the sentence fits into the overall structure of the excerpt?",
+          "options": {
+            "A": "It signals a change from the positive aspects of the Falls to the negative aspects.",
+            "B": "It indicates a progression from the literal description of the water to a discussion of timeless truths.",
+            "C": "It reinforces a shift from the qualities of the Falls to the qualities of the river.",
+            "D": "It introduces a contrast between the obvious and the hidden features of the rapids."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although in paragraph 2 the author describes the beauty of the Falls as both an “ever-altering wonder” and an “assault of wind and spray,” in paragraph 3 the author does not signal a change from the positive aspects of the Falls to the negative aspects. Instead, the author provides a description of the river and the rapids below the Falls.\nB. Incorrect. While the author compares the water of the river to “a slipping floor of marble, green with veins of dirty white, made by the scum that was foam” in paragraph 3, the statement that the lower rapids are “more terrifying than the Falls, because less intelligible” does not indicate a progression from the literal description of the water to a discussion of timeless truths. Instead, the author is merely describing all aspects of the rapids, both literally and figuratively.\nC. CORRECT. The first sentence of paragraph 3 moves the description “beyond the foot of the Falls” to “the river” and then the paragraph begins to describe this location in further detail (“a dull sage green,” “hurries more swiftly,” “smooth and ominous,” “waters boil and eddy”) before reinforcing this shift by confirming it again with the words “These are the lower rapids, a sight more terrifying than the Falls.”\nD. Incorrect. Although the author states that the waters of the rapids “boil and eddy” and suggests that the rapids are “less intelligible,” these statements do not introduce a contrast between the obvious and the hidden features of the rapids. They merely describe a feature and the sight of the lower rapids."
+          }
+        },
+        {
+          "id": "CR09",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that the essence of the Falls lies in their emotional impact?",
+          "options": {
+            "A": "“If that were taken away, there would be little visible change, but the heart would be gone.” (paragraph 1)",
+            "B": "“By comparison their beauty is almost delicate and fragile.” (paragraph 2)",
+            "C": "“One is drawn back, strangely, to a contemplation of the Falls, at every hour, and especially by night, when the cloud of spray becomes an immense visible ghost, straining and wavering high above the river, white and pathetic and translucent.” (paragraph 4)",
+            "D": "“A man's life is of many flashing moments, and yet one stream; a nation's flows through all its citizens, and yet is more than they.” (paragraph 4)"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The first sentence in the excerpt establishes that “the real secret of the beauty and terror of the Falls” lies in “the feeling of colossal power and of unintelligible disaster.” This option states that “if that [feeling] were taken away, . . . the heart would be gone,” meaning that the emotional impact of the Falls is essential.\nB. Incorrect. While “delicate” and “fragile” are words that can be connected with certain kinds of emotions, in the sentence in the option they are connected with physical beauty.\nC. Incorrect. While the sentence in the option describes the power of the Falls to engage one in thought, it does not best support the idea that the essence of the Falls lies in their emotional impact.\nD. Incorrect. The sentence in the option describes thoughts one may have while watching the Falls and is not focused on the Falls' emotional impact."
+          }
+        },
+        {
+          "id": "CR10",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 4.\n\n**There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara.**\n\nThe sentence most contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "suggesting that viewing the Falls can be a life-changing experience.",
+            "B": "showing that the cliffs of the Falls are a good place for self-examination.",
+            "C": "emphasizing that the grandeur of the Falls seems impossible to grasp.",
+            "D": "highlighting the type of reflection that is inspired by a visit to the Falls."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The sentence focuses on the idea that the Falls are a great place for contemplation but does not clarify that these thoughts are life-changing.\nB. Incorrect. The sentence does not describe focused thoughts of a personal nature; the grand, sweeping nature of the Falls inspires thoughts of the same caliber as “the passage of empires.”\nC. Incorrect. The sentence is about how the Falls inspire great thoughts but is not about how difficult it is to grasp the grandeur of the Falls.\nD. CORRECT. The description of “cloudy thoughts of destiny and the passage of empires” in the sentence refers to the types of thoughts a person might have while observing the Falls."
+          }
+        },
+        {
+          "id": "CR11",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "In paragraph 4, the idea that human life and history ultimately end in the same way is illustrated mainly through",
+          "options": {
+            "A": "the discussion of how the rainbows visible in the Falls are like the art and beauty created by humankind.",
+            "B": "the comparison between the movement of water in the Falls and the human experience.",
+            "C": "the inclusion of details that show that every observer's experience with the Falls is different.",
+            "D": "the acknowledgment that contemplating the Falls at night sparks an awareness of humankind's destiny."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 4, the author compares the rainbows visible in the Falls to “the arts and beauty,” which share the rainbows' dependence on “the stream of life”—that is, they are “caused by it, thrown upon its spray, but unable to stay or direct or affect it, and ceasing when it ceased.” This comparison does not illustrate the idea that human life and history ultimately end in the same way but rather that art and beauty, like human beings, are unable to “stay or direct or affect” their ultimate fate.\nB. CORRECT. The author concludes in paragraph 4 that the movement of the Falls can be compared to people and history when he writes, “both men and nations are hurried onwards to their ruin or ending as inevitably as this dark flood.” This comparison illustrates the idea that human life and history ultimately end in the same way.\nC. Incorrect. Although in paragraph 4 the author states that “One is drawn back, strangely, to a contemplation of the Falls” and provides an account of “a friend, who said that the rainbows over the Falls were like the arts and beauty and goodness, with regard to the stream of life,” the author does not provide details to show that every observer's experience with the Falls is different. Rather, the author explains that “the Victorian lies very close below the surface in every man” (paragraph 4).\nD. Incorrect. While the setting at night does provide a place of contemplation, the author notes the “dark flood” as the overall illustration of the human experience."
+          }
+        },
+        {
+          "id": "CR12",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "A": "A sense of ease and assurance comes with accepting one's fate.",
+            "B": "No matter where one's path goes in life, one will always have regrets.",
+            "C": "The best way to overcome fear is to recognize it and then defy it.",
+            "D": "Reason will die out with humanity, but art will remain immortal."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. In paragraph 4, the author states that the Falls make a person feel “with an almost insupportable and yet comforting certitude, that both men and nations are hurried onwards to their ruin or ending.” Later, the final sentence says, “With some such thoughts does the platitudinous heart win from the confusion and thunder of a Niagara peace.”\nB. Incorrect. Although in paragraph 4 the author states that “one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara” and that “a man's life is of many flashing moments,” the author does not suggest that one will always have regrets no matter where one's path goes in life.\nC. Incorrect. While the excerpt discusses fear when experiencing the power of the Falls, the excerpt does not support the idea that one should defy fear.\nD. Incorrect. The excerpt states in paragraph 4 that art is “unable to stay.”"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Impressions of an Indian Childhood",
+      "author": "Zitkala-Sa",
+      "citation": null,
+      "intro_note": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published “Impressions of an Indian Childhood” (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie."
+        },
+        {
+          "num": 2,
+          "text": "Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat beside her bunches of colored beads, just as an artist arranges the paints upon his palette. On a lapboard she smoothed out a double sheet of soft white buckskin; and drawing from a beaded case that hung on the left of her wide belt a long, narrow blade, she trimmed the buckskin into shape. Often she worked upon small moccasins for her small daughter. Then I became intensely interested in her designing. With a proud, beaming face, I watched her work. In my imagination, I saw myself walking in a new pair of snugly fitting moccasins. I felt the envious eyes of my playmates upon the pretty red beads decorating my feet."
+        },
+        {
+          "num": 3,
+          "text": "Close beside my mother I sat on a rug, with a scrap of buckskin in one hand and an awl in the other. This was the beginning of my practical observation lessons in the art of beadwork. From a skein of finely twisted threads of silvery sinews my mother pulled out a single one. With an awl she pierced the buckskin, and skillfully threaded it with the white sinew. Picking up the tiny beads one by one, she strung them with the point of her thread, always twisting it carefully after every stitch."
+        },
+        {
+          "num": 4,
+          "text": "It took many trials before I learned how to knot my sinew thread on the point of my finger, as I saw her do. Then the next difficulty was in keeping my thread stiffly twisted, so that I could easily string my beads upon it. My mother required of me original designs for my lessons in beading. At first I frequently ensnared many a sunny hour into working a long design. Soon I learned from self-inflicted punishment to refrain from drawing complex patterns, for I had to finish whatever I began."
+        },
+        {
+          "num": 5,
+          "text": "After some experience I usually drew easy and simple crosses and squares. These were some of the set forms. My original designs were not always symmetrical nor sufficiently characteristic, two faults with which my mother had little patience. The quietness of her oversight made me feel strongly responsible and dependent upon my own judgment. She treated me as a dignified little individual as long as I was on my good behavior; and how humiliated I was when some boldness of mine drew forth a rebuke from her!"
+        },
+        {
+          "num": 6,
+          "text": "In the choice of colors she left me to my own taste. I was pleased with an outline of yellow upon a background of dark blue, or a combination of red and myrtle-green. There was another of red with a bluish-gray that was more conventionally used. When I became a little familiar with designing and the various pleasing combinations of color, a harder lesson was given me. It was the sewing on, instead of beads, some tinted porcupine quills, moistened and flattened between the nails of the thumb and forefinger. My mother cut off the prickly ends and burned them at once in the centre fire. These sharp points were poisonous, and worked into the flesh wherever they lodged. For this reason, my mother said, I should not do much alone in quills until I was as tall as my cousin Warca-Ziwin."
+        },
+        {
+          "num": 7,
+          "text": "Always after these confining lessons I was wild with surplus spirits, and found joyous relief in running loose in the open again. Many a summer afternoon a party of four or five of my playmates roamed over the hills with me. We each carried a light sharpened rod about four feet long, with which we pried up certain sweet roots. When we had eaten all the choice roots we chanced upon, we shouldered our rods and strayed off into patches of a stalky plant under whose yellow blossoms we found little crystal drops of gum. Drop by drop we gathered this nature's rock-candy, until each of us could boast of a lump the size of a small bird's egg. Soon satiated with its woody flavor, we tossed away our gum, to return again to the sweet roots."
+        }
+      ],
+      "passage_figure_html": "<div style=\"font-weight:700;margin-bottom:6px;\">A Brief History of Beadwork in South Dakota</div><table style=\"width:100%;border-collapse:collapse;font-size:14px;margin-bottom:6px;\"><tr><th style=\"text-align:left;border-bottom:1px solid #999;padding:4px 8px 4px 0;\">Date</th><th style=\"text-align:left;border-bottom:1px solid #999;padding:4px 0;\">Event</th></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1500s</td><td style=\"padding:4px 0;\">The Dakota use beads made from bones, shells, stones, and animal teeth. European traders bring glass beads to North America.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">Late 1600s</td><td style=\"padding:4px 0;\">The Dakota begin trading with the French in Minnesota.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1830s</td><td style=\"padding:4px 0;\">The Dakota begin using glass beads in clothing, artwork, and decorations in place of Native-made beads.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1862–1865</td><td style=\"padding:4px 0;\">The Dakota are expelled from their homelands in Minnesota as a result of the U.S.-Dakota War.</td></tr><tr><td style=\"vertical-align:top;padding:4px 8px 4px 0;white-space:nowrap;\">1900s–1920s</td><td style=\"padding:4px 0;\">The Dakota create items to sell outside their community.</td></tr></table><div style=\"font-size:12px;color:#666;\">Source: MNopedia</div>",
+      "questions": [
+        {
+          "id": "CR13",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "In paragraph 1, the phrases “cool morning breezes swept freely” and “wafting the perfume of sweet grasses” affect the tone of the excerpt by suggesting",
+          "options": {
+            "A": "the sadness that the author feels reflecting upon her former way of life.",
+            "B": "the enthusiasm with which the author approached her work indoors.",
+            "C": "the fond feelings that the author has toward her childhood experiences.",
+            "D": "the mix of emotions that the author feels toward her work and her mother."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although the author describes in paragraph 1 the setting of her childhood experiences, the positive wording of the phrases the author uses in the paragraph (“swept freely” and “perfume of sweet grasses”) does not suggest a tone of sadness the author feels when she reflects on her former way of life.\nB. Incorrect. Although the phrases “cool morning breezes swept freely” and “wafting the perfume of sweet grasses” used in paragraph 1 create a positive tone, the phrases do not suggest an enthusiasm for the author's work but rather suggest an appreciation of the peaceful setting.\nC. CORRECT. In paragraph 1, the phrases “cool morning breezes swept freely” and “wafting the perfume of sweet grasses” are used to describe where the author's childhood experiences took place. The phrases create a tone of fondness and evoke a feeling of happiness through their lyrical sensory detail: “swept freely” suggests a sense of joyful possibility, while “perfume,” “sweet,” and “cool” convey delight.\nD. Incorrect. Although the author describes her mother's beadwork lessons as “confining” in paragraph 7, the phrases in paragraph 1 do not suggest that the author feels conflicting or mixed emotions toward her work and her mother. Instead, the phrases convey a positive tone by affectionately describing the author's childhood home."
+          }
+        },
+        {
+          "id": "CR14",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "The phrase “just as an artist arranges the paints upon his palette” in paragraph 2 suggests that",
+          "options": {
+            "A": "beadwork is a true form of art.",
+            "B": "color is a source of artistic inspiration.",
+            "C": "all artistic activities begin with a series of steps.",
+            "D": "the beadworker tries to imitate art."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. In paragraph 2, by comparing the way her mother arranges the beads to the way a painter “arranges the paints upon his palette,” the author emphasizes that her mother approaches her craft just as a painter does, thus suggesting that beadwork is a true form of art.\nB. Incorrect. Although the author mentions “bunches of colored beads” in paragraph 2, this detail does not provide enough evidence for the idea that color inspires beadworkers. The phrase “just as an artist arranges the paints upon his palette” indicates the connection of beadwork to other forms of art in general, not necessarily to the specifics of color as a source of inspiration.\nC. Incorrect. In paragraph 2, the author describes untying “the long tasseled strings” and then spreading “upon a mat beside her bunches of colored beads.” However, the phrase “just as an artist arranges the paints upon his palette” does not suggest that all artistic activities begin with a series of steps.\nD. Incorrect. In paragraph 2, the author describes how her mother “spread upon a mat beside her bunches of colored beads” as the first step in the artistic process described in the passage. Therefore, the comparison between the mother's process and a painter arranging paints on a palette suggests that the mother is creating art, not imitating it."
+          }
+        },
+        {
+          "id": "CR15",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "The author’s use of sequence in paragraphs 1 and 2 contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "listing the many steps that are involved in the process of beading in order to explain its difficulty and complexity.",
+            "B": "conveying the importance of following the steps of the beading process in a precise order to work most efficiently.",
+            "C": "emphasizing the time required to fully prepare for and execute the many large and small tasks in the activity of beading.",
+            "D": "detailing each step in preparation for beading in order to highlight the author’s enthusiasm for the work."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 2, the author does list the steps her mother takes in preparation to do beadwork, such as “untying the long tasseled strings” of the bag of beads, spreading the beads beside her on a mat, and using “a long, narrow blade” to trim the buckskin into shape. However, the language used to describe this sequence does not indicate that preparing to work with beads is difficult or complex.\nB. Incorrect. Although the author's description of untying the bag of beads, spreading the beads upon a mat, smoothing out a sheet of buckskin, and trimming the buckskin into shape in paragraph 2 indicates that the mother follows a certain routine, it does not place any emphasis on working most efficiently by following the steps of the beading process in a precise order.\nC. Incorrect. In paragraph 2, the author describes her mother “untying the long tasseled strings that bound a small brown buckskin bag,” spreading them “upon a mat beside her bunches of colored beads,” “smooth[ing] out a double sheet of soft white buckskin; and drawing from a beaded case that hung on the left of her wide belt a long, narrow blade” to trim the buckskin. Although these descriptions do outline the steps in her process for creating beadwork, they do not emphasize the time required to do so, since the author does not mention in the excerpt how long it took her mother to fully prepare for and complete the large and small tasks in the activity of beading.\nD. CORRECT. In paragraph 1, the author describes how the morning begins with her mother rolling up the canvas of the wigwam and allowing the breeze to come in. In paragraph 2, the author uses sensory language and precise sequencing to describe the way her mother prepares the beading materials by untying “the long tasseled strings that bound a small brown buckskin bag,” spreading the “bunches of colored beads” beside her, and smoothing out “a double sheet of soft white buckskin.” This combination of sequence and sensory language highlights the author's enthusiasm for beadwork by emphasizing that the author pays close attention to her mother's preparations."
+          }
+        },
+        {
+          "id": "CR16",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "Which sentence best summarizes the process of beading that is described in the excerpt?",
+          "options": {
+            "A": "Take a buckskin bag full of beads and spread them out on a mat in different colors like a paint palette; take a double sheet of buckskin and smooth it out on a table; take a sinew and awl and thread the beads onto the buckskin in a desired pattern.",
+            "B": "Cut the double sheet of buckskin into a shape; take a skein of sinew and pierce the buckskin with an awl; thread the sinew with beads of many different colors in a simple or complex pattern; twist the sinew to keep it tight after every stitch into the buckskin.",
+            "C": "Arrange the beads into groups of colors on a mat; smooth out a double sheet of buckskin and cut it to shape; take a single thread of sinew; pierce the buckskin with an awl; thread the buckskin with the sinew and string it with beads, carefully twisting after every stitch.",
+            "D": "Gather beads, buckskin, sinew, and awl and place them on a mat; cut the buckskin into the desired shape; decide on a pattern for the beads and create it using the sinews and the awl; thread the beads onto the sinew in the desired pattern and twist it tight."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraphs 2 and 3, the author describes how at the beginning of the process her mother “smoothed out a double sheet of soft white buckskin” on a lapboard (paragraph 2) and how she strings the beads into a pattern. However, this sentence does not describe the steps that take place between the preparation and the stringing of the beads. Thus, this sentence does not best summarize the beading process.\nB. Incorrect. In paragraphs 2 and 3, the author describes the process her mother uses to string the beads with “the point of her thread, always twisting it carefully after every stitch” (paragraph 3). While this sentence includes some of the steps in the beading process, it does not describe the necessary preparation, namely spreading the beads and the buckskin out on a table. Thus, this sentence does not best summarize the beading process.\nC. CORRECT. This sentence best summarizes the process of beading that is described in the excerpt because it includes details about each step in the process. In paragraph 2, the author explains how her mother “spread upon a mat beside her bunches of colored beads” and how “on a lapboard she smoothed out a double sheet of soft white buckskin; and drawing from a beaded case that hung on the left of her wide belt a long, narrow blade, she trimmed the buckskin into shape.” The author continues her description in paragraph 3, stating, “From a skein of finely twisted threads of silvery sinews my mother pulled out a single one. With an awl she pierced the buckskin, and skillfully threaded it with the white sinew. Picking up the tiny beads one by one, she strung them with the point of her thread, always twisting it carefully after every stitch.”\nD. Incorrect. In paragraphs 2 and 3, the author describes the process her mother uses as she “smoothed out a double sheet of soft white buckskin” (paragraph 2) on a lapboard before stringing the beads. While this sentence includes most of the steps in the beading process, it excludes the step of piercing the buckskin. This sentence also provides few details about the process of beading and uses vague wording to describe each step. Therefore, the sentence does not best summarize the beading process."
+          }
+        },
+        {
+          "id": "CR17",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "The idea that mastering moccasin design and creation requires experience is best illustrated in the excerpt through",
+          "options": {
+            "A": "the information about the advanced technique of incorporating porcupine quills into a design.",
+            "B": "the descriptions of the special materials that must be used to make decorated moccasins.",
+            "C": "the descriptions of the various color combinations that make an attractive moccasin design.",
+            "D": "the example of the author successfully and independently using a sharpened rod."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. In paragraph 6, the author states that when she became more familiar with elements of design, “a harder lesson was given me.” According to the author, sewing on porcupine quills is a much more difficult task to master because it requires experience in handling the poisonous porcupine quills, which is why her mother told her not to “do much alone in quills” until she was older (paragraph 6). This information best illustrates the idea that mastering moccasin design and creation requires experience.\nB. Incorrect. Although the author provides detailed descriptions of the materials used to make decorated moccasins (“colored beads” [paragraph 2]; “a skein of finely twisted threads of silvery sinews” [paragraph 3]; “tinted porcupine quills, moistened and flattened between the nails of the thumb and forefinger” [paragraph 6]), these descriptions do not illustrate the experience that is needed to gain mastery of moccasin design and creation.\nC. Incorrect. Although the author describes the color combinations she used in making moccasins (“I was pleased with an outline of yellow upon a background of dark blue, or a combination of red and myrtle-green. There was another of red with a bluish-gray that was more conventionally used” [paragraph 6]), this information mainly illustrates the author's satisfaction with her moccasin design, not the importance of experience in mastering the creation and design of moccasins.\nD. Incorrect. In paragraph 7, the author tells of using a sharpened rod to spear gum from trees. She explains that she and her playmates used the rods to “[pry] up certain sweet roots” to find the gum. The detail of the sharpened rod is from a recollection about the playtime that followed the “confining lessons” of moccasin making. However, it does not illustrate the idea that mastering moccasin design and creation requires experience."
+          }
+        },
+        {
+          "id": "CR18",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "How does the author distinguish her point of view from that of her mother?",
+          "options": {
+            "A": "by describing their techniques for knotting sinew thread (paragraph 4)",
+            "B": "by describing their approaches to beadwork design (paragraph 5)",
+            "C": "by stating her mother’s instructions on working with quills (paragraph 6)",
+            "D": "by stating her mother’s ideas about activities after lessons (paragraph 7)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 4, the author explains that “it took many trials before I learned how to knot my sinew thread on the point of my finger, as I saw her do” and that the “difficulty was in keeping my thread stiffly twisted, so that I could easily string my beads upon it.” Although this explanation describes the author's difficulty in performing the same task as her mother, it does not distinguish her point of view from that of her mother. In fact, they seem to share the same point of view regarding the importance of the technique the author is attempting to learn.\nB. CORRECT. In paragraph 5, the author distinguishes her point of view from that of her mother by describing their approaches to beadwork design. In the paragraph, the author states, “I usually drew easy and simple crosses and squares” and “My original designs were not always symmetrical nor sufficiently characteristic, two faults with which my mother had little patience.” The author also distinguishes her point of view from that her of mother by stating that “the quietness of [my mother's] oversight made me feel strongly responsible and dependent upon my own judgment.”\nC. Incorrect. In paragraph 6, the author states, “My mother cut off the prickly ends and burned them at once in the centre fire. These sharp points were poisonous, and worked into the flesh wherever they lodged. For this reason, my mother said, I should not do much alone in quills until I was as tall as my cousin Warca-Ziwin.” Although these instructions explain the importance of having experience and skill when working with quills, they do not distinguish the author's point of view from that of her mother.\nD. Incorrect. In paragraph 7, the author describes her beadwork lessons as “confining” and states that she liked to roam “over the hills” with her playmates after the lessons. However, she makes no mention of her mother in paragraph 7; the activities and ideas stated there belong to the author, not the mother."
+          }
+        },
+        {
+          "id": "CR19",
+          "q_number": 44,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 7.\n\n**Always after these confining lessons I was wild with surplus spirits, and found joyous relief in running loose in the open again.**\n\nWhich sentence best describes how this sentence fits into the overall structure of the excerpt?",
+          "options": {
+            "A": "It introduces a shift from the author’s demanding relationship with her mother to her more relaxed relationships with friends.",
+            "B": "It signals a change from the challenging aspects of life on the reservation to the advantages of living on the prairie.",
+            "C": "It highlights a contrast between the focus and control required while working and the freedom of having fun outside.",
+            "D": "It concludes the progression of events in the narrative by describing the sequence of events at the end of the author’s day."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect.\nB. Incorrect.\nC. CORRECT. In the sentence from paragraph 7, the author refers to her beadwork lessons as “confining” and states that after the lessons, she “was wild with surplus spirits” and “found joyous relief” in being outside and running around. The phrases “surplus spirits” and “joyous relief” highlight a sense of freedom that stands in strong contrast to the “confining” nature of the author’s beadwork lessons, which required intense focus and control.\nD. Incorrect. In paragraph 7, the author describes how “many a summer afternoon” after her beadwork lessons, she and her friends used “a light sharpened rod” to gather “sweet roots” and “little crystal drops of gum.” She then explains that they later “tossed away our”"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Martial Arts for the Mind and Body",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "The martial arts blend a series of physical movements with strategic mental discipline so that practitioners can defend themselves, physically defeat an opponent, or both."
+          },
+          {
+            "num": 2,
+            "text": "Historians are unsure of exactly when and where martial arts were first used."
+          },
+          {
+            "num": 3,
+            "text": "Martial arts have been practiced by several different societies for many centuries."
+          },
+          {
+            "num": 4,
+            "text": "Martial arts such as karate, kung fu, tae kwon do, and judo are still taught and practiced as methods of self-defense, but they offer students more than that."
+          },
+          {
+            "num": 5,
+            "text": "The study of martial arts can provide students with a way to enhance their mental discipline as well as their physical fitness."
+          }
+        ],
+        [
+          {
+            "num": 6,
+            "text": "Discipline, focus, and respect are important qualities for everyone to have."
+          },
+          {
+            "num": 7,
+            "text": "However, for most people these qualities are not innate; they must be learned and practiced."
+          },
+          {
+            "num": 8,
+            "text": "The study of martial arts can provide an opportunity to develop these skills."
+          },
+          {
+            "num": 9,
+            "text": "Students are rewarded for their dedication by passing tests and advancing to higher ranks or levels."
+          },
+          {
+            "num": 10,
+            "text": "For example, in a typical tae kwon do class, students learn discipline by diligently practicing moves, improve focus by listening carefully, and demonstrate respect by bowing to the instructor and following directions."
+          }
+        ],
+        [
+          {
+            "num": 11,
+            "text": "For teenagers, martial arts classes provide a safe and structured environment for gaining physical skills, building confidence, and enjoying a sense of community."
+          },
+          {
+            "num": 12,
+            "text": "A lot of teens go through hard situations as they try to do well in school and in life."
+          },
+          {
+            "num": 13,
+            "text": "A martial arts class can provide teens with a physical outlet for stress while also challenging them mentally."
+          },
+          {
+            "num": 14,
+            "text": "Participating in a martial arts program also helps children and teens focus on self-improvement rather than on competition."
+          },
+          {
+            "num": 15,
+            "text": "Progressing through levels of achievement involves mastering more physically demanding techniques."
+          },
+          {
+            "num": 16,
+            "text": "It requires students to take responsibility and be accountable for achieving set goals."
+          },
+          {
+            "num": 17,
+            "text": "Students gain confidence and experience companionship with other students who are progressing through the ranks."
+          }
+        ],
+        [
+          {
+            "num": 18,
+            "text": "Adults who practice martial arts can experience many of the same benefits that younger people do, but perhaps the greatest of these is health and fitness."
+          },
+          {
+            "num": 19,
+            "text": "Adult martial arts students often see changes in their body within weeks of beginning a program."
+          }
+        ],
+        [
+          {
+            "num": 20,
+            "text": "For people interested in studying a martial art, there are many ways to learn and practice."
+          },
+          {
+            "num": 21,
+            "text": "In addition to private studios, community recreation centers often offer low-cost or free martial arts classes."
+          },
+          {
+            "num": 22,
+            "text": "There are even online videos that introduce students to the basic concepts."
+          },
+          {
+            "num": 23,
+            "text": "People should study martial arts."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "DR01",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "What is the best way to combine sentences 2 and 3?",
+          "options": {
+            "A": "Historians, who are unsure of exactly when and where martial arts were first used, know that martial arts have been practiced by several different societies for many centuries.",
+            "B": "While historians are unsure of exactly when and where martial arts were first used, they do know that martial arts have been practiced by several different societies for many centuries.",
+            "C": "Because historians know that martial arts have been practiced by several different societies for many centuries, they are unsure of exactly when and where martial arts were first used.",
+            "D": "Martial arts have been practiced by several different societies for many centuries, and historians are unsure of exactly when and where martial arts were first used."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks for the best way to combine sentences 2 and 3.\n\nA. Incorrect. This way of combining sentences 2 and 3 places unnecessary emphasis on characterizing historians, and it does not clearly show the contrasting relationship between the idea from sentence 2 that historians do not know the exact origins of martial arts and the idea in sentence 3 that historians know that martial arts have a long history.\n\nB. CORRECT. This option is correct because the word “while” at the beginning of the sentence best indicates the contrast between the ideas in sentences 2 and 3. Sentence 2 states that historians do not know the exact origins of martial arts (“unsure of exactly when and where”). Sentence 3 describes what historians do know about these origins (“practiced by several different societies for many centuries”). This combination indicates that historians have a general understanding about the origins of martial arts even though they cannot confirm the exact details.\n\nC. Incorrect. Starting this sentence with the word “because” indicates a cause-and-effect relationship that does not exist between the ideas in the original sentences. The idea from sentence 3, that historians know that martial arts have been practiced for many years, did not cause the idea in sentence 2, that historians do not know exact details about the origins of martial arts.\n\nD. Incorrect. The conjunction (connecting word) “and” does not clearly show how the ideas in sentences 2 and 3 are related. While “and” can be used to combine related sentences, it does not demonstrate the contrast between the idea in sentence 2, that historians do not know the exact origins of martial arts, and the idea in sentence 3, that historians know that martial arts have a long history."
+          }
+        },
+        {
+          "id": "DR02",
+          "q_number": 46,
+          "question_type": "mc",
+          "question": "Where should sentence 10 be moved to improve the organization of the second paragraph (sentences 6–10)?",
+          "options": {
+            "A": "to the beginning of the paragraph (before sentence 6)",
+            "B": "between sentences 6 and 7",
+            "C": "between sentences 7 and 8",
+            "D": "between sentences 8 and 9"
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks where sentence 10 should be moved to improve the organization of the second paragraph.\n\nA. Incorrect. Starting this paragraph with sentence 10 would weaken the paragraph's organization because it would place a supporting detail sentence (sentence 10) before the topic sentence (sentence 6). Sentence 6 belongs at the beginning of the paragraph because it introduces the topic—the qualities of discipline, focus, and respect. Sentence 10 supports the key idea of the paragraph, that these qualities can be developed through the study of martial arts. If sentence 10 preceded sentence 6, the transitional phrase “for example” would refer to an unspecified topic and idea.\n\nB. Incorrect. Sentence 6 presents the idea that “discipline, focus, and respect are important qualities for everyone to have,” but the example in sentence 10 does not directly relate to this idea. Sentence 10 explains how martial arts develop these qualities, not why they are important qualities to have. Because sentence 10 is not directly related to the idea in sentence 6 (the qualities are important), it should not follow sentence 6.\n\nC. Incorrect. Sentences 7 and 8 should not be separated, because the idea presented in sentence 8—that “the study of martial arts can provide an opportunity to develop these skills”—is directly related to the idea from sentence 7—that the skills of discipline, focus, and respect “are not innate; they must be learned and practiced.” Sentence 10 supports the idea from sentence 8 by describing an example from a typical martial arts class, so sentence 10 should not precede sentence 8.\n\nD. CORRECT. This option is correct because sentence 10 logically follows and supports the idea in sentence 8 that “the study of martial arts can provide an opportunity to develop” the qualities of discipline, focus, and respect. Sentence 10 explains this idea with examples, describing three specific ways that students in a typical tae kwon do class develop discipline, focus, and respect—by “diligently practicing,” “listening carefully,” and “bowing to the instructor and following directions.”"
+          }
+        },
+        {
+          "id": "DR03",
+          "q_number": 47,
+          "question_type": "mc",
+          "question": "Which revision of sentence 12 best maintains the formal style established in the passage?",
+          "options": {
+            "A": "A lot of teens have to put up with difficult things while trying to do well in school and in life.",
+            "B": "Many teenagers deal with tough situations as they try to stay on top of their studies and do well in life.",
+            "C": "Many teenagers encounter challenges as they work to succeed both academically and personally.",
+            "D": "A lot of teens face problems as they work to keep up with their schoolwork and find personal success."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks for the revision of sentence 12 that best maintains the formal style established in the passage.\n\nA. Incorrect. The phrases “A lot,” “put up with,” “difficult things,” and “do well in school” are worded informally; therefore, this sentence does not consistently maintain the formal style established in the passage.\n\nB. Incorrect. The phrases “deal with,” “tough situations,” “stay on top of,” and “do well in life” are worded informally; therefore, this sentence does not consistently maintain the formal style established in the passage.\n\nC. CORRECT. This option is correct because it uses clear and scholarly wording throughout the whole sentence. The phrases “many teenagers,” “encounter challenges,” and “succeed both academically and personally” make the sentence's style more consistently formal than the other options.\n\nD. Incorrect. The phrases “A lot,” “face problems,” and “keep up with” are worded informally; therefore, this sentence does not consistently maintain the formal style established in the passage."
+          }
+        },
+        {
+          "id": "DR04",
+          "q_number": 48,
+          "question_type": "mc",
+          "question": "Which transitional phrase should be added to the beginning of sentence 17?",
+          "options": {
+            "A": "Over time,",
+            "B": "In fact,",
+            "C": "Even so,",
+            "D": "For instance,"
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks for the transitional phrase that should be added to the beginning of sentence 17.\n\nA. CORRECT. This option is correct because it best shows the chronological progression between the idea in sentence 16—progressing through levels of achievement “requires students to take responsibility and be accountable for achieving set goals”—and the idea in sentence 17—“students gain confidence and experience companionship with other students who are progressing through the ranks.” The transitional phrase “over time” shows the gradual nature of the relationship between the cause in sentence 16 and the effect in sentence 17.\n\nB. Incorrect. The phrase “in fact” is used to emphasize or add support to a preceding statement, but sentence 17 does not simply reinforce the idea in sentence 16; rather, it describes a result that develops gradually over time, which “in fact” does not convey.\n\nC. Incorrect. The phrase “even so” signals a contrast or an unexpected outcome, but there is no contrast between the ideas in sentence 16, that progressing through levels requires responsibility and accountability, and sentence 17, that students gain confidence and companionship; sentence 17 is a natural continuation of sentence 16, not a contrasting idea.\n\nD. Incorrect. The phrase “for instance” introduces a specific example of a preceding general statement, but sentence 17 does not provide a specific example of the idea in sentence 16; instead, it describes an additional, related effect that develops over time."
+          }
+        },
+        {
+          "id": "DR05",
+          "q_number": 49,
+          "question_type": "mc",
+          "question": "Which sentence would best follow and support sentence 18?",
+          "options": {
+            "A": "Adults often enjoy spending time with other students in their martial arts class.",
+            "B": "Adults who study martial arts can apply the discipline they learn to other parts of their lives.",
+            "C": "For example, some adults lose weight and gain muscle tone after only a few months of training.",
+            "D": "In fact, many adults begin studying martial arts because a friend or family member recommended it."
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks which sentence would best follow and support sentence 18.\n\nA. Incorrect. Sentence 18 focuses on health and fitness benefits for adults, not on the social benefits of spending time with other students, so this option does not directly support the idea in sentence 18.\n\nB. Incorrect. While this option relates to a benefit adults may experience, it focuses on discipline rather than the health and fitness benefit identified as “the greatest” in sentence 18, so it does not directly support sentence 18.\n\nC. CORRECT. This option is correct because it provides a specific, concrete example of the health and fitness changes mentioned in sentence 18, directly supporting the claim that health and fitness is “perhaps the greatest” benefit adults experience.\n\nD. Incorrect. This option describes why adults begin studying martial arts rather than supporting the specific claim in sentence 18 about the health and fitness benefits adults experience, so it does not directly follow from sentence 18."
+          }
+        },
+        {
+          "id": "DR06",
+          "q_number": 50,
+          "question_type": "mc",
+          "question": "Which sentence should be added after sentence 23 to best conclude the passage?",
+          "options": {
+            "A": "Martial arts classes are often more affordable than other extracurricular activities for students.",
+            "B": "Whether people choose a formal class or an online video, martial arts offer benefits to practitioners of any age.",
+            "C": "Many people who begin studying a martial art eventually go on to teach others.",
+            "D": "The specific martial art that a person chooses to study often depends on what is available in their area."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/",
+          "solution": {
+            "exhibit_text": "The question asks which sentence should be added after sentence 23 to best conclude the passage.\n\nA. Incorrect. The affordability of martial arts classes is not a main idea developed throughout the passage, so this option does not serve as an effective concluding sentence.\n\nB. CORRECT. This option is correct because it ties together the passage's main ideas: the variety of ways to learn (introduced in the final paragraph) and the broad benefits to practitioners of any age (discussed throughout the passage for teens and adults alike), making it an effective concluding statement.\n\nC. Incorrect. The idea that students go on to teach others is not developed anywhere else in the passage, so this option introduces a new idea rather than concluding the passage's established ideas.\n\nD. Incorrect. While sentence 23 mentions ways to learn martial arts, this option shifts focus to availability by location, which is not a theme developed in the passage, so it does not effectively conclude the passage."
+          }
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-HE3-ER47",
+      "question_type": "mc",
+      "question": "(1) Misty Copeland is best known for becoming the first Black female principal dancer at American Ballet Theatre. (2) Copeland is an American dancer and author. (3) Copeland was named one of Time's 100 Most Influential People in 2015.\n\nWhat is the best way to combine these sentences to clarify the relationship between ideas?",
+      "options": {
+        "A": "Misty Copeland, best known for becoming the first Black female principal dancer at American Ballet Theatre, is an American dancer and author who was named one of Time's 100 Most Influential People in 2015.",
+        "B": "Misty Copeland was named one of Time's 100 Most Influential People in 2015, and she is an American dancer and author who is best known for becoming the first Black female principal dancer at American Ballet Theatre.",
+        "C": "Misty Copeland, best known for becoming the first Black female principal dancer at American Ballet Theatre, is an American dancer and author; in addition, she was named one of Time's 100 Most Influential People in 2015.",
+        "D": "Misty Copeland, an American dancer and author, was named one of Time's 100 Most Influential People in 2015, and she is best known for becoming the first Black female principal dancer at American Ballet Theatre."
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "(A) introduces Copeland by what she's best known for, then who she is, then builds to the award. (B) and (D) use \"and\" to place her career and the award at the same level. (C) uses the wordier \"in addition, she was\" instead of the clearer \"who was.\"\n\n**Why this sounds right:** Lumping her achievements together with \"and\" still reads as a fluent sentence, so the structural issue of ordering doesn't register as an error.\n\n**The concept:** When combining several short sentences about one subject, there's usually one \"main point\" and the rest are supporting details. The strongest combination makes the main point the main clause and folds the other facts in as describing phrases or clauses, in whatever order makes the most logical sense. Watch out for answers that just string everything together with \"and,\" since that treats every fact as equally important and loses the sense of what matters most.\n\n**More examples of this mistake:**\n- Weak: \"The bakery opens at six. It sells fresh croissants. Many customers line up before it opens.\" Stronger: \"Many customers line up before the bakery opens at six to buy its fresh croissants.\" (Folds the supporting details into one sentence built around the real main point.)\n- Weak: \"The lake freezes every winter. Skaters flock to it. The ice can get over a foot thick.\" Stronger: \"Every winter, skaters flock to the lake as it freezes to over a foot thick.\" (Same fix — one main clause, details folded in.)"
+      },
+      "base_source": "Exam E — Standalone (ER47)",
+      "base_question": {
+        "question": "What is the best way to combine these sentences to clarify the relationship between ideas?",
+        "stimulus": "(1) Oprah Winfrey is best known for her talk show, The Oprah Winfrey Show. (2) Winfrey is an American television personality, actor, and entrepreneur. (3) Winfrey was awarded the Presidential Medal of Freedom (the nation's highest civilian honor) by President Barack Obama in 2013.",
+        "options": {
+          "A": "Oprah Winfrey, best known for her talk show, The Oprah Winfrey Show, is an American television personality, actor, and entrepreneur who was awarded the Presidential Medal of Freedom (the nation's highest civilian honor) by President Barack Obama in 2013.",
+          "B": "Oprah Winfrey was awarded the Presidential Medal of Freedom (the nation's highest civilian honor) by President Barack Obama in 2013, and she is an American television personality, actor, and entrepreneur who is best known for her talk show, The Oprah Winfrey Show.",
+          "C": "Oprah Winfrey, best known for her talk show, The Oprah Winfrey Show, is an American television personality, actor, and entrepreneur; in addition, she was awarded the Presidential Medal of Freedom (the nation's highest civilian honor) by President Barack Obama in 2013.",
+          "D": "Oprah Winfrey, an American television personality, actor, and entrepreneur, was awarded the Presidential Medal of Freedom (the nation's highest civilian honor) by President Barack Obama in 2013, and she is best known for her talk show, The Oprah Winfrey Show."
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Category: Multiple\nGetting to the Answer: Read through each answer, looking for a complex sentence that presents ideas clearly and precisely while logically connecting the ideas in the three sentences. (A) is correct because it introduces Oprah Winfrey by describing what she is best known for as well as who she is (an American television personality, actor, and entrepreneur) then builds to the impressive honor she was awarded. Incorrect choices (B) and (D) use the conjunction \"and\" to place the details of her career and the award at the same logical level. (C) is incorrect because it unnecessarily uses the wordier phrase \"in addition, she was\" instead of the clearer, shorter phrase \"who was.\""
+        }
+      },
+      "q_number": 51
+    },
+    {
+      "id": "P-HE3-ER48",
+      "question_type": "mc",
+      "question": "(1) The small town of Elmsworth has long been known for its devotion to preserving local history. (2) Recently, local leaders proposed a new initiative to convert the abandoned train depot into a public library and community archive. (3) Filled with vintage rail memorabilia and handwritten letters, the historical society hopes the new archive will inspire local students. (4) If the town council approves the funding next month, construction will likely begin before the arrival of spring.\n\nWhich sentence in the paragraph contains an error in construction and should be revised? There is only one error in construction.",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "In sentence 3, \"Filled with vintage rail memorabilia and handwritten letters\" is placed right next to \"the historical society,\" which illogically suggests the society itself is filled with memorabilia. The modifier needs to describe the archive, not the historical society.\n\n**Why this sounds right:** \"The historical society\" is a plausible, active-sounding subject that fits the sentence's larger point about hopes for the archive, so it's easy to miss that an organization can't literally be \"filled with\" memorabilia — that's the archive.\n\n**The concept:** When a sentence opens with a describing phrase followed by a comma, whatever noun comes right after that comma is what the phrase is describing. If that noun can't logically do or experience what the phrase describes, the modifier is \"dangling\" — it has nothing correct to attach to. Fix it by moving the right noun right after the comma, or by rewriting the phrase so it fits the noun that's actually there.\n\n**More examples of this mistake:**\n- \"After practicing for months, the piano recital finally arrived.\" (The recital didn't practice — should be \"After practicing for months, Mia finally performed in the piano recital.\")\n- \"Having forgotten her umbrella, the rain soaked through her jacket.\" (The rain didn't forget anything — should be \"Having forgotten her umbrella, Priya got soaked in the rain.\")"
+      },
+      "base_source": "Exam E — Standalone (ER48)",
+      "base_question": {
+        "question": "Which sentence in the paragraph contains an error in construction and should be revised? Move the answer to the box. There is only one error in construction.",
+        "stimulus": "(1) The small town of Oakhaven has long been celebrated for its commitment to environmental preservation and community involvement. (2) Recently, local leaders proposed a new initiative to convert the abandoned warehouse district, which once housed the textiles produced in nearby factories, into a thriving urban garden and educational center. (3) Overflowing with heirloom tomatoes and native wildflowers, the city council hopes the new garden will inspire the youth. (4) If the city council approves the funding next month, construction will likely begin before the arrival of winter.",
+        "options": {
+          "A": "Sentence 1",
+          "B": "Sentence 2",
+          "C": "Sentence 3",
+          "D": "Sentence 4"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Category: Sentence Structure\nGetting to the Answer: Read each sentence carefully. As you read, identify the subject and verb of each sentence. Identify independent and dependent clauses. Check the punctuation between clauses and check for modifier errors. In Sentence 3, \"Overflowing with heirloom tomatoes and native wildflowers\" is a modifying phrase. Because it is placed right next to \"the city council,\" it technically suggests that the city council members are overflowing with tomatoes and flowers. To fix it, the subject of the sentence needs to be the garden itself, or the modifier needs to be repositioned to describe the garden. All the other sentences are correct as written."
+        }
+      },
+      "q_number": 52
+    },
+    {
+      "id": "P-HE3-FR47",
+      "question_type": "mc",
+      "question": "Priya browsed the antique shop looking for some neat items for her study. After searching through a crate of old postcards, she finally discovered a brass magnifying glass that possessed exactly the vintage charm she had imagined. With a leather-bound atlas tucked under her arm alongside it, she headed home, satisfied that she had found the perfect additions to her study without exceeding her budget.\n\nWhat is the most precise revision for the words *some neat items for her study*?",
+      "options": {
+        "A": "some interesting items for her study",
+        "B": "a vintage magnifying glass and atlas",
+        "C": "some old-fashioned things",
+        "D": "two kinds of antique furniture"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) gives the most precise description of what Priya was shopping for — the exact items described in the rest of the paragraph. The other choices use the vague \"interesting items\" and \"old-fashioned things,\" or name the wrong category of object (\"furniture\").\n\n**Why this sounds right:** \"Some neat items for her study\" is a completely natural, casual way to talk — it isn't objectively broken, just vaguer than the specific items the paragraph already names.\n\n**The concept:** Precise language replaces vague, generic words (\"things,\" \"a big distance,\" \"what was happening\") with specific, concrete details — exact names, numbers, or nouns — that tell the reader precisely what's being described. When comparing answer choices, prefer the one with the most specific, checkable information instead of just restating the same vagueness in fancier words.\n\n**More examples of this mistake:**\n- \"The volunteers did a bunch of stuff to help clean up the park.\" → \"The volunteers planted new trees and collected forty bags of trash to clean up the park.\" (\"A bunch of stuff\" tells the reader nothing concrete.)\n- \"The scientist made a big discovery about the ocean.\" → \"The scientist discovered a new species of deep-sea jellyfish.\" (\"A big discovery\" is vague; name the actual discovery.)"
+      },
+      "base_source": "Exam F — Standalone (FR47)",
+      "base_question": {
+        "question": "What is the most precise revision for the words *some cheap things for her kitchen*?",
+        "stimulus": "Lucia explored the flea market looking for some cheap things for her kitchen. After searching through a bin of mismatched ceramics, she finally discovered a set of hand-carved cherry wood bowls that possessed exactly the rustic charm she had imagined. With a few polished silver spoons tucked into her bag alongside them, she headed home, satisfied that she had found the perfect additions to her kitchen without exceeding her budget.",
+        "options": {
+          "A": "some inexpensive things for her kitchen",
+          "B": "some low-cost kitchen items",
+          "C": "two types of kitchen tools",
+          "D": "affordable salad bowls and serving spoons"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Category: Knowledge of Language\nGetting to the Answer: The original sentence says Lucia was looking for \"some cheap things for her kitchen.\" To make it more precise, the answer choice should give more specific information about the \"things.\" (D) gives the most precise description of what Lucia was looking for: affordable salad bowls and serving spoons. These specific items are then further described in the remaining sentences in the paragraph. The remaining choices are incorrect because they use the vague \"things,\" \"items,\" and \"tools\" without specifying the exact items Lucia was shopping for."
+        }
+      },
+      "q_number": 53
+    },
+    {
+      "id": "P-HE3-GR47",
+      "question_type": "mc",
+      "question": "(1) Both Japanese origami and Chinese paper-cutting are traditional paper crafts, but they differ in technique, tools, and purpose. (2) Origami is often practiced by folding a single uncut sheet of paper into intricate three-dimensional shapes without any glue or scissors. (3) The practice of Chinese paper-cutting involves a sharp blade, and scissors, which is used to carve detailed designs into folded red paper. (4) Origami traditionally uses plain or patterned squares; paper-cutting, however, often uses red paper, which symbolizes good fortune and is tinted for festive occasions.\n\nWhich pair of revisions need to be made in this paragraph?",
+      "options": {
+        "A": "Sentence 1: Delete the comma after crafts AND change they differ to it differs.",
+        "B": "Sentence 2: Change folding to folds AND change shapes to shape.",
+        "C": "Sentence 3: Delete the comma after blade AND change is to are.",
+        "D": "Sentence 4: Delete the semicolon after squares AND change symbolizes to symbolize."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "In sentence 3, the comma after \"blade\" wrongly separates the two tools (\"a sharp blade and scissors\"), and \"is\" should be the plural \"are\" to match that two-item subject.\n\n**Why this sounds right:** The comma after \"blade\" reads like a natural pause before one more detail, so it doesn't register as splitting a two-item list; and with \"scissors\" sitting closest to \"is,\" the verb still feels locally fine even though it doesn't match the full two-part subject.\n\n**The concept:** A comma goes before \"and\" when it separates the last item in a list of three or more, or when \"and\" is joining two complete, independent sentences. But when \"and\" is just linking two verbs or phrases that share the same subject, no comma belongs before it — adding one wrongly suggests a third list item, or a second full sentence, that isn't actually there.\n\n**The concept:** Subject-verb agreement means the verb has to match whether its subject is singular or plural (\"the museum becomes,\" not \"the museum become\"). Pronoun agreement works the same way — a pronoun has to match the number of the noun it refers back to. These two rules often get tested together in the same sentence, so check both the verb and any pronouns against their subject/antecedent, not just one or the other.\n\n**More examples of this mistake:**\n- \"The chef chopped the vegetables, and seasoned the soup.\" (No comma needed — \"and seasoned\" shares the same subject, \"the chef\"; it isn't a second full sentence.)\n- \"The hikers reached the summit, and admired the view for an hour.\" (Same fix — delete the comma.)\n- \"The twins, who share a room, enjoys decorating it with their own posters, and keeps her side spotless.\" (Two separate agreement slips in one sentence: \"enjoys\" should be \"enjoy\" to match \"the twins,\" and \"her\" should be \"their\" since both twins are being described.)\n- \"The scientists, who collaborate closely, publishes its findings together, and shares all the credit.\" (Same double-slip pattern: \"publishes\" should be \"publish,\" and \"its\" should be \"their.\")"
+      },
+      "base_source": "Exam G — Standalone (GR47)",
+      "base_question": {
+        "question": "Which pair of revisions need to be made in this paragraph?",
+        "stimulus": "(1) Both Salvadoran and Mexican tamales are delicious staples of Mesoamerican cuisine, but they differ in preparation, wrapping, and texture. (2) Salvadoran tamales are often prepared by pre-cooking the masa, a ground corn dough, into a thick, smooth roux before steaming it, resulting in a silky, custard-like texture that is much softer and wetter than that of typical Mexican tamales. (3) The preparation of Mexican tamales involves a fat, and broth, which is mixed into the masa before steaming. (4) Mexican tamales are traditionally wrapped in dried corn husks; Salvadoran tamales, however, are wrapped in banana leaves, which give them an earthy flavor and tint them slightly green.",
+        "options": {
+          "A": "Sentence 1: Delete the comma after cuisine AND change they differ to it differs.",
+          "B": "Sentence 2: Delete the comma after dough AND change is to are.",
+          "C": "Sentence 3: Delete the comma after fat AND change is to are.",
+          "D": "Sentence 4: Delete the semicolon after husks AND change tint to tints."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Category: Multiple\nGetting to the Answer: The question is directing you to determine which proposed revisions are correct. Briskly work through each sentence to identify if it contains any errors with punctuation, verb agreement, or modifiers. For Sentence 1, the comma after \"cuisine\" correctly separates the two complete thoughts using the FANBOYS conjunction \"but.\" Additionally, it uses the plural \"they differ\" to refer to the plural antecedent \"tamales.\" Eliminate (A). For Sentence 2, the comma after \"dough\" is correct because it offsets the parenthetical information \"a ground corn dough.\" Furthermore, the singular \"is\" correctly agrees with the singular \"texture.\" Eliminate (B). For Sentence 3, the comma after \"fat\" is incorrect because it separates the second ingredient (\"broth\") from the first (\"a fat\"). Additionally, \"is\" should be the plural verb \"are\" to match the two subjects (\"a fat and broth\"). (C) is the correct revision to make. On test day, select this answer choice and move on. But, for reference, in Sentence 4, the semicolon after \"husks\" correctly separates two independent clauses, and the plural verb \"tint\" correctly matches the other plural verb (\"give\") in the compound predicate \"give... and tint...\" of the subject \"which,\" which is plural because it refers to the \"banana leaves.\" (D) is incorrect."
+        }
+      },
+      "q_number": 54
+    }
+  ]
+}

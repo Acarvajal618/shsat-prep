@@ -1,0 +1,1590 @@
+{
+  "math_questions": [
+    {
+      "id": "P-HE2-M-AM02",
+      "question_type": "mc",
+      "question": "A car is traveling 45 miles per hour, and 1 mile = 5,280 feet. Which of the following calculations would give the car's speed in **feet per second**?",
+      "options": {
+        "A": "\\(\\dfrac{45 \\cdot 5{,}280}{1}\\)",
+        "B": "\\(\\dfrac{45 \\cdot 5{,}280}{3{,}600}\\)",
+        "C": "\\(\\dfrac{45 \\cdot 3{,}600}{5{,}280}\\)",
+        "D": "\\(\\dfrac{45 \\cdot 5{,}280}{60}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Convert 45 miles/hour to feet/second: multiply by 5,280 feet/mile to get feet/hour, then divide by 3,600 seconds/hour to get feet/second: \\(\\dfrac{45 \\times 5{,}280}{3{,}600}\\)."
+      },
+      "base_source": "Exam A — Math Q02 (AM02)",
+      "base_question": {
+        "question": "A car is traveling \\(55\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the car's speed in **feet per second**?",
+        "options": {
+          "A": "\\(\\dfrac{55 \\cdot 5{,}280}{1}\\)",
+          "B": "\\(\\dfrac{55 \\cdot 5{,}280}{3{,}600}\\)",
+          "C": "\\(\\dfrac{55 \\cdot 3{,}600}{5{,}280}\\)",
+          "D": "\\(\\dfrac{55 \\cdot 5{,}280}{60}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Divide the rate (\\(55\\) miles per hour) by the number of seconds in an hour (\\(60\\) minutes x \\(60\\) seconds \\(= 3{,}600\\) seconds):\n\n\\[\\dfrac{55}{3{,}600} \\text{ miles per second}\\]\n\nMultiply by the number of feet in a mile (\\(5{,}280\\)):\n\n\\[\\dfrac{55 \\times 5{,}280}{3{,}600} \\text{ feet per second}\\]"
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-HE2-M-KM2_Q89",
+      "question_type": "mc",
+      "question": "What is the surface area, in square centimeters, of a cube with volume 64 cubic centimeters?",
+      "options": {
+        "A": "48",
+        "B": "64",
+        "C": "80",
+        "D": "96"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Volume = s³ = 64, so s = 4 cm (since 4³ = 64). Surface area = 6s² = 6(16) = 96 sq cm."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q89 (KM2_Q89)",
+      "base_question": {
+        "question": "What is the surface area, in square centimeters, of a cube with volume 27 cubic centimeters?",
+        "options": {
+          "A": "24",
+          "B": "27",
+          "C": "36",
+          "D": "54"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-HE2-M-AM47",
+      "question_type": "mc",
+      "question": "On a number line, points J, K, L, and M appear in that order. JK = 3, JM = 11, and LM = 2. If point J is at position 0, what is the position of point L?",
+      "options": {
+        "A": "\\(7\\)",
+        "B": "\\(8\\)",
+        "C": "\\(9\\)",
+        "D": "\\(10\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Since J is at 0 and JM = 11, point M is at position 11. L is 2 units before M (since LM = 2), so L is at 11 - 2 = 9."
+      },
+      "base_source": "Exam A — Math Q47 (AM47)",
+      "base_question": {
+        "question": "On the number line above, \\(JK = 3\\tfrac{1}{2}\\), \\(JM = 9\\tfrac{3}{4}\\), and \\(LM = 1\\tfrac{1}{8}\\). What is the position of point \\(L\\)?",
+        "options": {
+          "A": "\\(5\\tfrac{1}{8}\\)",
+          "B": "\\(5\\tfrac{1}{4}\\)",
+          "C": "\\(5\\tfrac{1}{2}\\)",
+          "D": "\\(6\\tfrac{1}{4}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) Find the location of \\(J\\) by using \\(JK = 3\\tfrac{1}{2}\\):\n\n\\[\\tfrac{3}{8} - J = 3\\tfrac{1}{2}\\]\n\\[J = \\tfrac{3}{8} - 3\\tfrac{1}{2} = -3\\tfrac{1}{8}\\]\n\nFind the location of \\(M\\) by using \\(JM = 9\\tfrac{3}{4}\\):\n\n\\[M - (-3\\tfrac{1}{8}) = 9\\tfrac{3}{4}\\]\n\\[M + 3\\tfrac{1}{8} = 9\\tfrac{3}{4}\\]\n\\[M = 9\\tfrac{3}{4} - 3\\tfrac{1}{8} = 6\\tfrac{5}{8}\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='290' y1='40' x2='290' y2='50' stroke='#111' stroke-width='1.4'/><line x1='370' y1='40' x2='370' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>J</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>K</text><text x='288' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='207' y='69' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='196' y1='73' x2='218' y2='73' stroke='#111' stroke-width='1.2'/><text x='207' y='87' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text></svg>"
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-HE2-M-FM39",
+      "question_type": "mc",
+      "question": "The mean of a set of 6 numbers is 10. Two of the numbers (4 and 8) are removed. What is the mean of the 4 remaining numbers?",
+      "options": {
+        "A": "\\(8\\)",
+        "B": "\\(10\\)",
+        "C": "\\(12\\)",
+        "D": "\\(14\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The sum of the original 6 numbers is \\(6\\times10=60\\). Removing 4 and 8 subtracts 12, leaving a sum of 48 over 4 numbers: \\(48/4=12\\)."
+      },
+      "base_source": "Exam F — Math Q39 (FM39)",
+      "base_question": {
+        "question": "The mean of a set of 10 numbers is 16. Two of the numbers (7 and 13) are removed. What is the mean of the 8 remaining numbers?",
+        "options": {
+          "A": "6",
+          "B": "13.5",
+          "C": "17.5",
+          "D": "18"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "The mean of a set of values is the sum of the values divided by the number of values. In this question, you already know the mean (16) of the original 10 values, so you can find the sum of those values by multiplying.\n\n\\[\\text{mean}=\\text{sum}\\div\\text{number of values}\\]\n\\[\\text{sum}=\\text{mean}\\times\\text{number of values}\\]\n\\[\\text{sum}=16\\times10\\]\n\\[\\text{sum}=160\\]\n\nIf 7 and 13 are removed from the set of numbers, the new sum is \\(160-20=140\\). Find the mean of the remaining 8 numbers by dividing:\n\n\\[140\\div8=17.5\\]"
+        }
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-HE2-M-CM11",
+      "question_type": "mc",
+      "question": "Jamal has 4 boxes with 450 marbles in each box. If he transfers his marble collection to 5 boxes, each holding 320 marbles, how many marbles will be left over?",
+      "options": {
+        "A": "\\(150\\)",
+        "B": "\\(200\\)",
+        "C": "\\(250\\)",
+        "D": "\\(320\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Jamal has \\(4\\times450=1{,}800\\) marbles total. The 5 new boxes hold \\(5\\times320=1{,}600\\) marbles. Leftover: \\(1{,}800-1{,}600=200\\)."
+      },
+      "base_source": "Exam C — Math Q11 (CM11)",
+      "base_question": {
+        "question": "Allison has \\(5\\) stamp albums with \\(576\\) stamps in each album. If she transfers her stamp collection to \\(6\\) albums, each holding \\(378\\) stamps, how many stamps will be left over?",
+        "options": {
+          "A": "\\(198\\)",
+          "B": "\\(612\\)",
+          "C": "\\(620\\)",
+          "D": "\\(632\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"
+        }
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-HE2-M-FM23",
+      "question_type": "mc",
+      "question": "The least of a set of 4 consecutive multiples of 6 is L, and the greatest is G. What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of G?",
+      "options": {
+        "A": "\\(G-6\\)",
+        "B": "\\(6-2G\\)",
+        "C": "\\(\\dfrac{2}{3}G+6\\)",
+        "D": "\\(\\dfrac{3}{2}G+4\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The 4 consecutive multiples of 6, from greatest to least, are \\(G, G-6, G-12, G-18\\), so \\(L=G-18\\). Substitute: \\(\\dfrac{2G+(G-18)}{3}=\\dfrac{3G-18}{3}=G-6\\)."
+      },
+      "base_source": "Exam F — Math Q23 (FM23)",
+      "base_question": {
+        "question": "The least of a set of 4 consecutive multiples of 3 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+        "options": {
+          "A": "\\(G-3\\)",
+          "B": "\\(3-2G\\)",
+          "C": "\\(\\dfrac{2}{3}G+\\dfrac{4}{3}\\)",
+          "D": "\\(\\dfrac{3}{2}G+1\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-3\\), then \\(G-6\\), and fourth and last, \\(G-9\\). Thus, \\(G-9\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-9\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-9)}{3}\\]\n\\[\\dfrac{3G-9}{3}\\]\n\\[\\dfrac{3(G-3)}{3}\\]\n\\[G-3\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 3, such as 3, 6, 9, and 12. Plug in 3 for \\(L\\) and 12 for \\(G\\) in the original expression such that \\(\\dfrac{2(12)+3}{3}=\\dfrac{27}{3}=9\\). The correct choice will result in 9 when 12 is plugged in for \\(G\\), and the only choice to do so is (A)."
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-HE2-M-KM3_Q97",
+      "question_type": "mc",
+      "question": "On Monday, a shop sold 5 shirts that had a mean sale price of $40. On Tuesday, it sold 3 shirts that had a mean sale price of $60. What was the mean sale price, to the nearest dollar, for all 8 shirts sold on Monday and Tuesday?",
+      "options": {
+        "A": "\\(\\$45\\)",
+        "B": "\\(\\$46\\)",
+        "C": "\\(\\$47.50\\)",
+        "D": "\\(\\$50\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Total revenue: \\(5(40)+3(60)=200+180=380\\). Mean for all 8 shirts: \\(380/8=47.50\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q97 (KM3_Q97)",
+      "base_question": {
+        "question": "On Friday, Marvin sold 4 suits that had a mean sale price of $125. On Saturday, he sold 6 suits that had a mean sale price of $140. What was the mean sale price, to the nearest dollar, for all 10 of the suits he sold on Friday and Saturday?",
+        "options": {
+          "A": "$130",
+          "B": "$132",
+          "C": "$133",
+          "D": "$134"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-HE2-M-KM1_Q75",
+      "question_type": "mc",
+      "question": "A clown performs 4 tricks during her act. Each trick gets 2 rounds of applause, and each round of applause includes 150 claps from the audience. How many claps does the audience produce during the clown's act?",
+      "options": {
+        "A": "300",
+        "B": "600",
+        "C": "1,200",
+        "D": "4,800"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "4 tricks × 2 rounds of applause each = 8 rounds. 8 rounds × 150 claps each = 1,200 claps."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q75 (KM1_Q75)",
+      "base_question": {
+        "question": "A performer bursts into 2 fits of laughter during her act. Each burst of laughter produces 3 laughs, and each laugh produces 250 giggles from the audience. How many giggles does the audience produce during the performer's act?",
+        "options": {
+          "A": "500",
+          "B": "750",
+          "C": "1,500",
+          "D": "6,000"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-HE2-M-FM43",
+      "question_type": "mc",
+      "question": "If \\(a\\) and \\(b\\) are non-zero integers and \\(a^2b>0\\), which statement **must** be true?",
+      "options": {
+        "A": "\\(b>0\\)",
+        "B": "\\(a>0\\)",
+        "C": "\\(a\\) and \\(b\\) have the same sign",
+        "D": "\\(a<b\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Since \\(a\\) is a non-zero integer, \\(a^2\\) is always positive. For \\(a^2b>0\\) to hold, \\(b\\) must be positive, regardless of the sign of \\(a\\)."
+      },
+      "base_source": "Exam F — Math Q43 (FM43)",
+      "base_question": {
+        "question": "If \\(x\\) and \\(y\\) are non-zero integers and \\(x^2y<0\\), which statement **must** be true?",
+        "options": {
+          "A": "\\(y<0\\)",
+          "B": "\\(x\\) and \\(y\\) have the same sign",
+          "C": "\\(x<0\\)",
+          "D": "\\(x>y\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Since \\(x\\) and \\(y\\) are non-zero integers and the square of any non-zero integer is positive, the expression \\(x^2\\) must be positive. You are told that \\(x^2y<0\\), or that \\(x^2y\\) is negative. Since the product of a positive and a negative is negative, this means that \\(y\\) must be negative."
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-HE2-M-GM27",
+      "question_type": "mc",
+      "question": "The speed 4 feet per second is equivalent to how many meters per hour? (Use the approximation 1 foot = 0.25 meter.)",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(900\\)",
+        "C": "\\(3{,}600\\)",
+        "D": "\\(36{,}000\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "4 feet/sec × 0.25 meters/foot = 1 meter/sec. 1 meter/sec × 3,600 sec/hour = 3,600 meters/hour."
+      },
+      "base_source": "Exam G — Math Q27 (GM27)",
+      "base_question": {
+        "question": "The speed \\(5\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.3\\) meter.)",
+        "options": {
+          "A": "\\(1.5\\)",
+          "B": "\\(16.67\\)",
+          "C": "\\(5{,}400\\)",
+          "D": "\\(60{,}000\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Convert the units by setting up ratios of known measures. Start with the given speed, \\(5\\) feet per second, and the given conversion, \\(1\\) foot \\(=0.3\\) meters. Then fill in the ratios needed to convert seconds to hours.\n\n\\[\\dfrac{5\\text{ ft}}{1\\text{ sec}}\\times\\dfrac{0.3\\text{ meters}}{1\\text{ ft}}\\times\\dfrac{60\\text{ sec}}{1\\text{ min}}\\times\\dfrac{60\\text{ min}}{1\\text{ hr}}\\]\n\\[=\\dfrac{5{,}400\\text{ meters}}{1\\text{ hr}}\\]"
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-HE2-M-FM11",
+      "question_type": "mc",
+      "question": "In a scale drawing, 1 inch represents 5 feet. If the drawing shows a rectangular patio with a length of 4 inches and a width of 2.5 inches, what is the actual length of the patio's longer side, in feet?",
+      "options": {
+        "A": "\\(12.5\\) feet",
+        "B": "\\(17.5\\) feet",
+        "C": "\\(20\\) feet",
+        "D": "\\(32.5\\) feet"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The longer side in the drawing is 4 inches (length). Actual length = 4 × 5 feet/inch = 20 feet."
+      },
+      "base_source": "Exam F — Math Q11 (FM11)",
+      "base_question": {
+        "question": "Students in Ms. Bonn's class drew a scale drawing, pictured above, of the new school garden that they want to install. In the drawing, the length is represented by \\(l\\), the width is represented by \\(w\\), and all angles are right angles. The actual space available is a square of ground that is 25.5 feet on a side. What is the **maximum** width of the actual garden?",
+        "options": {
+          "A": "7 feet",
+          "B": "12 feet",
+          "C": "21 feet",
+          "D": "25.5 feet"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "First, compute the length \\(l\\) and width \\(w\\) of the drawing by using the measurements of the parallel sides in the drawing: \\(l=6+2.5=8.5\\) in. and \\(w=4+3=7\\) in. If the actual space available is a square, then the longest side (the length) can be no greater than 25.5 ft, and the width, which is shorter, must be less than 25.5 ft. Remember that you have to find the actual width, not the length; however, use the information about the actual length to set up a proportion:\n\n\\[\\dfrac{8.5}{7}=\\dfrac{25.5}{w}\\]\n\nSolve for \\(w\\) by cross multiplying, or by noticing that since \\(25.5=8.5\\times3\\), then \\(w\\) must equal \\(7\\times3=21\\)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 280 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,30 227,30 227,184 172,184 172,118 40,118\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<text x=\"133\" y=\"20\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">l</text>\n<text x=\"14\" y=\"78\" font-size=\"12\" text-anchor=\"middle\">4 in.</text>\n<text x=\"106\" y=\"132\" font-size=\"12\" text-anchor=\"middle\">6 in.</text>\n<text x=\"150\" y=\"155\" font-size=\"12\" text-anchor=\"middle\">3 in.</text>\n<text x=\"199\" y=\"198\" font-size=\"12\" text-anchor=\"middle\">2.5 in.</text>\n<text x=\"240\" y=\"111\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">w</text>\n</svg>"
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-HE2-M-GM14",
+      "question_type": "mc",
+      "question": "If 1 euro = 1.5 Swiss francs, and 1 euro = 1.2 US dollars, how many euros must be exchanged for 30 Swiss francs and 6 US dollars?",
+      "options": {
+        "A": "\\(25\\)",
+        "B": "\\(20\\)",
+        "C": "\\(10\\)",
+        "D": "\\(36\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "30 Swiss francs ÷ 1.5 francs/euro = 20 euros. 6 US dollars ÷ 1.2 dollars/euro = 5 euros. Total: 20 + 5 = 25 euros."
+      },
+      "base_source": "Exam G — Math Q14 (GM14)",
+      "base_question": {
+        "question": "Using the table of equivalent currencies above, how many euros must be exchanged for \\(43\\) dinars and \\(10\\) U.S. dollars?",
+        "options": {
+          "A": "\\(138\\)",
+          "B": "\\(129\\)",
+          "C": "\\(53\\)",
+          "D": "\\(22.9\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Proportions are the key to conversion questions like this. First, set up a proportion of euros to dinars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{0.3}{43}\\). You could cross multiply to get \\(0.3e=38.7\\) and solve for \\(e\\). However, it is faster to notice that \\(0.9\\div3\\) would result in \\(0.3\\), so \\(e\\div3\\) would have to result in \\(43\\). So \\(129\\) euros are needed to exchange for \\(43\\) dinars.\n\nDon't forget that you also need to convert dollars! Set up a proportion of euros to dollars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{1}{10}\\). Cross multiplying here is fastest, resulting in \\(e=9\\). Add \\(129+9=138\\) euros."
+        },
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES (MAY 2019)</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Euro</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.9</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Botswana Pula</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>10.75</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Kuwaiti Dinar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.3</td></tr></tbody></table>"
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-HE2-M-KM3_Q85",
+      "question_type": "mc",
+      "question": "How can \\(\\dfrac{1}{4z}-\\dfrac{1}{8z}\\) be rewritten as a single fraction? (Assume \\(z \\ne 0\\).)",
+      "options": {
+        "A": "\\(-\\dfrac{1}{4z}\\)",
+        "B": "\\(-\\dfrac{1}{8z}\\)",
+        "C": "\\(\\dfrac{1}{4z}\\)",
+        "D": "\\(\\dfrac{1}{8z}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Rewrite with a common denominator of 8z: \\(\\dfrac{2}{8z}-\\dfrac{1}{8z}=\\dfrac{1}{8z}\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q85 (KM3_Q85)",
+      "base_question": {
+        "question": "How can \\(\\dfrac{1}{3y}-\\dfrac{1}{6y}\\) be rewritten as a single fraction? (Assume \\(y \\ne 0\\).)",
+        "options": {
+          "A": "\\(-\\dfrac{1}{3y}\\)",
+          "B": "\\(-\\dfrac{1}{6y}\\)",
+          "C": "\\(\\dfrac{1}{3y}\\)",
+          "D": "\\(\\dfrac{1}{6y}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-HE2-M-FM27",
+      "question_type": "mc",
+      "question": "A perfume recipe requires \\(\\dfrac{2}{7}\\) of an ounce of saffron extract. How many batches of perfume can be made using a package containing 28 ounces of saffron extract?",
+      "options": {
+        "A": "\\(14\\)",
+        "B": "\\(49\\)",
+        "C": "\\(56\\)",
+        "D": "\\(98\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Divide 28 by \\(\\dfrac{2}{7}\\): \\(28\\div\\dfrac{2}{7}=28\\times\\dfrac{7}{2}=\\dfrac{196}{2}=98\\) batches."
+      },
+      "base_source": "Exam F — Math Q27 (FM27)",
+      "base_question": {
+        "question": "A granola recipe requires \\(\\dfrac{3}{5}\\) of an ounce of vanilla extract. How many batches of granola can be made using a package containing 60 ounces of vanilla extract?",
+        "options": {
+          "A": "36",
+          "B": "48",
+          "C": "80",
+          "D": "100"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "To answer this question, you have to figure out how many times \\(\\dfrac{3}{5}\\) goes into 60. Since you're dividing by a number smaller than 1, the result must be more than 60, so eliminate (A) and (B). The equation is \\(60\\div\\dfrac{3}{5}=\\dfrac{60}{1}\\times\\dfrac{5}{3}\\). Canceling will make the multiplication easier: \\(\\dfrac{60}{1}\\times\\dfrac{5}{3}=\\dfrac{20}{1}\\times\\dfrac{5}{1}\\), which equals \\(20\\times5\\), or 100."
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-HE2-M-BM19",
+      "question_type": "mc",
+      "question": "Points M, N, and O are on a straight line, and N is between M and O. Length \\(\\overline{NO} = \\dfrac{2}{3}\\overline{MN}\\), and length \\(\\overline{MN} = 18\\) centimeters. What is the length of \\(\\overline{MO}\\)?",
+      "options": {
+        "A": "\\(20\\) cm",
+        "B": "\\(24\\) cm",
+        "C": "\\(30\\) cm",
+        "D": "\\(36\\) cm"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Since \\(\\overline{MN}=18\\) cm, find \\(\\overline{NO}=\\dfrac{2}{3}(18)=12\\) cm. \\(\\overline{MO}=\\overline{MN}+\\overline{NO}=18+12=30\\) cm."
+      },
+      "base_source": "Exam B — Math Q19 (BM19)",
+      "base_question": {
+        "question": "Points \\(X\\), \\(Y\\), and \\(Z\\) are on a straight line, and \\(Y\\) is between \\(X\\) and \\(Z\\). Length \\(\\overline{YZ} = \\dfrac{3}{5}\\overline{XY}\\), and length \\(\\overline{XY} = 20\\) centimeters. What is the length of \\(\\overline{XZ}\\)?",
+        "options": {
+          "A": "\\(12\\) cm",
+          "B": "\\(24\\) cm",
+          "C": "\\(30\\) cm",
+          "D": "\\(32\\) cm"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(D) Since \\(\\overline{XY} = 20\\) cm, use that to find \\(\\overline{YZ}\\):\n\n\\[\\overline{YZ} = \\dfrac{3}{5}\\overline{XY} = \\dfrac{3}{5}(20) = 12 \\text{ cm}\\]\n\\[\\overline{XZ} = \\overline{XY} + \\overline{YZ} = 20 + 12 = 32 \\text{ cm}\\]"
+        }
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-HE2-M-FM41",
+      "question_type": "mc",
+      "question": "Points P, Q, R, S, T, and U are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points P and U is 45, what is the distance between points Q and T?",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "27",
+        "D": "36"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "There are 5 equal gaps between P and U, so each gap = 45/5 = 9. Q to T spans 3 gaps (Q-R, R-S, S-T), so QT = 3 × 9 = 27."
+      },
+      "base_source": "Exam F — Math Q41 (FM41)",
+      "base_question": {
+        "question": "Points A, B, C, D, E, F, G, and H are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points A and H is 56, what is the distance between points B and E?",
+        "options": {
+          "A": "16",
+          "B": "18",
+          "C": "21",
+          "D": "24"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Because the distance between each pair of adjacent points is the same, each of the 7 segments \\(\\overline{AB},\\overline{BC},\\overline{CD},\\overline{DE},\\overline{EF},\\overline{FG}\\), and \\(\\overline{GH}\\) has the same length. These 7 segments make up segment \\(\\overline{AH}\\). Since the length of \\(\\overline{AH}\\) is 56, the length of each of the 7 small segments is \\(56\\div7\\), or 8. The distance between points B and E is the sum of the lengths of the 3 equal segments \\(\\overline{BC}\\), \\(\\overline{CD}\\), and \\(\\overline{DE}\\), so the distance between points B and E is \\(3\\times8\\), or 24."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-HE2-M-BM22",
+      "question_type": "mc",
+      "question": "An alloy coin is made from four metals—copper, tin, zinc, and nickel—with weights in the ratio of 141:30:20:9, respectively. The coin weighs a total of 20 grams. What is the weight of the zinc in this coin?",
+      "options": {
+        "A": "\\(0.9\\) gram",
+        "B": "\\(1.0\\) gram",
+        "C": "\\(2.0\\) grams",
+        "D": "\\(3.0\\) grams"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Add the ratio values: \\(141+30+20+9=200\\). Zinc's fraction is \\(\\dfrac{20}{200}=\\dfrac{1}{10}\\). Multiply by the total weight: \\(\\dfrac{1}{10}\\times 20 = 2.0\\) grams."
+      },
+      "base_source": "Exam B — Math Q22 (BM22)",
+      "base_question": {
+        "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
+        "options": {
+          "A": "\\(0.28\\) gram",
+          "B": "\\(0.48\\) gram",
+          "C": "\\(0.96\\) gram",
+          "D": "\\(48\\) grams"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(B) Add the four values in the ratio (\\(177 + 12 + 7 + 4 = 200\\)) and use the sum as the denominator. Use that to find the fraction of zinc in one of the coins. Then reduce the fraction:\n\n\\[\\dfrac{12}{200} = \\dfrac{3}{50}\\]\n\nMultiply this fraction by \\(8\\) to find the number of grams of zinc in decimal form:\n\n\\[\\dfrac{3}{50} \\times 8 = \\dfrac{24}{50} = 0.48 \\text{ g}\\]"
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-HE2-M-KM2_Q113",
+      "question_type": "mc",
+      "question": "Priya selects a marble from a bag and then returns it to the bag. When she does this 3 times, the probability of choosing a red marble all 3 times is \\(\\dfrac{1}{64}\\). Based on this information, what is the probability of Priya choosing a red marble a single time?",
+      "options": {
+        "A": "\\(\\dfrac{1}{64}\\)",
+        "B": "\\(\\dfrac{1}{16}\\)",
+        "C": "\\(\\dfrac{1}{8}\\)",
+        "D": "\\(\\dfrac{1}{4}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "If p is the probability of choosing red once, then \\(p^3=\\dfrac{1}{64}\\), so \\(p=\\dfrac{1}{4}\\) (since \\((1/4)^3=1/64\\))."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q113 (KM2_Q113)",
+      "base_question": {
+        "question": "Diego selects a marble from a bag and then returns it to the bag. When he does this 4 times, the probability of choosing a blue marble all 4 times is \\(\\dfrac{1}{81}\\). Based on this information, what is the probability of Diego choosing a blue marble the first time he selects a marble?",
+        "options": {
+          "A": "\\(\\dfrac{4}{81}\\)",
+          "B": "\\(\\dfrac{1}{9}\\)",
+          "C": "\\(\\dfrac{2}{9}\\)",
+          "D": "\\(\\dfrac{1}{3}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-HE2-M-CM27",
+      "question_type": "mc",
+      "question": "A graph shows the cost of gravel, in dollars, as a function of weight, in pounds, at a rate of $0.20 per pound. Which statement about a point on the graph is true?",
+      "options": {
+        "A": "The point \\((15, 3)\\) means that \\(3\\) lbs of gravel costs $\\(15.00\\).",
+        "B": "The point \\((1, 0.20)\\) means that \\(1\\) bag of gravel costs $\\(0.20\\).",
+        "C": "The point \\((20, 4)\\) means that \\(20\\) lbs of gravel costs $\\(4.00\\).",
+        "D": "The point \\((0, 0)\\) means that \\(0\\) lbs of gravel will be needed if \\(0\\) people attend."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "At $0.20/lb, 20 lbs costs 20 × 0.20 = $4.00, matching point (20, 4) where x = weight in pounds and y = cost in dollars. (A) has the axes reversed; (B) misreads the x-value as \"bags\" rather than pounds; (D) is an irrelevant, unsupported claim."
+      },
+      "base_source": "Exam C — Math Q27 (CM27)",
+      "base_question": {
+        "question": "Some friends are buying bags of ice for a picnic. The graph shows the cost of the ice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?\n\n(ICE COSTS graph: y-axis Cost (dollars) from 0 to 3.0; x-axis Weight of Ice (lb) from 0 to 20; a straight line from origin through (10, 1.5) and (20, 3.0).)",
+        "options": {
+          "A": "The point \\((20, 3)\\) means that \\(3\\) lbs of ice costs $\\(20.00\\).",
+          "B": "The point \\((1, 0.15)\\) means that \\(1\\) bag of ice costs $\\(0.15\\).",
+          "C": "The point \\((10, 1.5)\\) means that \\(10\\) lbs of ice costs $\\(1.50\\).",
+          "D": "The point \\((0, 0)\\) means that \\(0\\) lbs of ice will be needed if \\(0\\) people go to the picnic."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) The \\(x\\)-axis represents the weight, in pounds (lbs), of ice purchased, and the \\(y\\)-axis represents the cost of the ice, in dollars.\n\nThe \\(x\\)-value in the point \\((10, 1.5)\\) represents \\(10\\) lbs of ice, and the \\(y\\)-value represents \\(1.5\\) dollars, or $\\(1.50\\). Therefore, the cost of \\(10\\) lbs of ice is $\\(1.50\\)."
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-HE2-M-KM2_Q90",
+      "question_type": "mc",
+      "question": "In 2016, a town had a population of 50,000. By 2018, the population had decreased by 20% to 40,000. If the percent decrease from 2018 to 2020 is the same as the percent decrease from 2016 to 2018, what should the 2020 population be?",
+      "options": {
+        "E": "\\(28{,}000\\)",
+        "F": "\\(30{,}000\\)",
+        "G": "\\(32{,}000\\)",
+        "H": "\\(35{,}000\\)"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "The percent decrease from 2016 to 2018 was 20%. Applying the same 20% decrease to the 2018 population: \\(40{,}000\\times0.8=32{,}000\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q90 (KM2_Q90)",
+      "base_question": {
+        "question": "Based on the graph above, if the percent decrease from the 2018 population to the 2020 population of City X is the same as the percent decrease from the 2016 population to the 2018 population, what should the 2020 population in City X be?",
+        "options": {
+          "E": "280,000",
+          "F": "300,000",
+          "G": "320,000",
+          "H": "350,000"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">Population of City X, 2014-2018</text><text x=\"160.0\" y=\"34\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">(in Hundred Thousands)</text><line x1=\"70\" y1=\"60\" x2=\"70\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"260\" x2=\"304\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"260.0\" x2=\"70\" y2=\"260.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"264.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">0</text><line x1=\"66\" y1=\"226.7\" x2=\"70\" y2=\"226.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"230.7\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">1</text><line x1=\"66\" y1=\"193.3\" x2=\"70\" y2=\"193.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"197.3\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">2</text><line x1=\"66\" y1=\"160.0\" x2=\"70\" y2=\"160.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"164.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">3</text><line x1=\"66\" y1=\"126.7\" x2=\"70\" y2=\"126.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"130.7\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">4</text><line x1=\"66\" y1=\"93.3\" x2=\"70\" y2=\"93.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"97.3\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">5</text><line x1=\"66\" y1=\"60.0\" x2=\"70\" y2=\"60.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"64.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">6</text><text x=\"99.0\" y=\"54.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">6</text><line x1=\"90\" y1=\"60.0\" x2=\"108\" y2=\"60.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"99.0\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2014</text><text x=\"187.0\" y=\"87.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">5</text><line x1=\"178\" y1=\"93.3\" x2=\"196\" y2=\"93.3\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2016</text><text x=\"275.0\" y=\"120.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">4</text><line x1=\"266\" y1=\"126.7\" x2=\"284\" y2=\"126.7\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"275.0\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2018</text><line x1=\"99.0\" y1=\"60.0\" x2=\"187.0\" y2=\"93.3\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"187.0\" y1=\"93.3\" x2=\"275.0\" y2=\"126.7\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/></svg>"
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-HE2-M-KM3_Q72",
+      "question_type": "mc",
+      "question": "If \\(5x+3=38\\), then \\(5x+9=\\)",
+      "options": {
+        "A": "\\(38\\)",
+        "B": "\\(41\\)",
+        "C": "\\(44\\)",
+        "D": "\\(47\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "\\(5x+3=38\\) means \\(5x=35\\). So \\(5x+9=35+9=44\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q72 (KM3_Q72)",
+      "base_question": {
+        "question": "If \\(4x+2=26\\), then \\(4x+8=\\)",
+        "options": {
+          "E": "32",
+          "F": "34",
+          "G": "36",
+          "H": "38"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-HE2-M-KM2_Q102",
+      "question_type": "mc",
+      "question": "If a bucket contains 6 ounces of sand and 24 ounces of water, how many ounces of water would need to evaporate in order to make the ratio of the number of ounces of sand to the number of ounces of water 3 to 4?",
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(14\\)",
+        "C": "\\(16\\)",
+        "D": "\\(18\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Sand stays at 6 oz. We need \\(\\dfrac{6}{w}=\\dfrac{3}{4}\\), so \\(w=8\\) oz of water remain. Water evaporated: \\(24-8=16\\) oz."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q102 (KM2_Q102)",
+      "base_question": {
+        "question": "If a bucket contains 4 ounces of sand and 16 ounces of water, how many ounces of water would need to evaporate in order to make the ratio of the number of ounces of sand to the number of ounces of water 2 to 3?",
+        "options": {
+          "E": "6",
+          "F": "7",
+          "G": "8",
+          "H": "10"
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-HE2-M-EM25",
+      "question_type": "mc",
+      "question": "Point Q is not on line n. How many lines can be drawn through Q that are parallel to line n?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Cannot be determined from the information given."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Through a point not on a given line, there is exactly one line parallel to it (the Parallel Postulate). So exactly 1 line can be drawn."
+      },
+      "base_source": "Exam E — Math Q25 (EM25)",
+      "base_question": {
+        "question": "Point P is **not** on line \\(m\\). How many lines can be drawn through P that form a \\(90\\degree\\) angle with line \\(m\\)?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "Cannot be determined from the information given."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Draw a picture to better visualize the situation.\n\nAs you can see, a line drawn from P perpendicular to line \\(m\\) will create two \\(90\\degree\\) angles. However, a line drawn anywhere else will no longer be perpendicular and therefore will not create any \\(90\\degree\\) angles, so only one line meets the conditions of the question."
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-HE2-M-CM23",
+      "question_type": "mc",
+      "question": "In parallelogram ABCD, the height from vertex B to side AD is 12 centimeters, and side AD measures 30 centimeters. What is the area of the parallelogram?",
+      "options": {
+        "A": "\\(180\\) sq cm",
+        "B": "\\(252\\) sq cm",
+        "C": "\\(360\\) sq cm",
+        "D": "\\(420\\) sq cm"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Area of a parallelogram = base × height = \\(30 \\times 12 = 360\\) sq cm."
+      },
+      "base_source": "Exam C — Math Q23 (CM23)",
+      "base_question": {
+        "question": "On parallelogram \\(PQRS\\) above, the length of \\(\\overline{QT}\\) is \\(18\\) centimeters. What is the area of the parallelogram?",
+        "options": {
+          "A": "\\(112\\) sq cm",
+          "B": "\\(396\\) sq cm",
+          "C": "\\(612\\) sq cm",
+          "D": "\\(748\\) sq cm"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(C) \\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(34\\) cm in length, and the height is the length of the altitude, so the height is \\(18\\) cm.\n\nTo determine the area of a parallelogram, multiply the base \\(\\times\\) the height:\n\n\\[34 \\text{ cm} \\times 18 \\text{ cm} = 612 \\text{ cm}^2\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='187' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='313' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>18 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>22 cm</text><line x1='95' y1='250' x2='305' y2='250' stroke='#111' stroke-width='1'/><path d='M 95 250 L 105 246 L 105 254 Z' fill='#111'/><path d='M 305 250 L 295 246 L 295 254 Z' fill='#111'/><text x='200' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='13'>34 cm</text></svg>"
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-HE2-M-EM50",
+      "question_type": "mc",
+      "question": "If a coach asks you to randomly pick any 2 team captains from 5 volunteers, how many different pairs of captains can you choose?",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "10",
+        "D": "20"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "This is a combinations problem: choosing 2 from 5, order doesn't matter. Number of pairs = (5 × 4) / 2 = 10."
+      },
+      "base_source": "Exam E — Math Q50 (EM50)",
+      "base_question": {
+        "question": "A standard deck of playing cards contains 4 different aces (the ace of hearts, the ace of diamonds, the ace of clubs, and the ace of spades). If a magician asks you to randomly pick any 2 aces from the 4, how many different pairs of aces can you choose?",
+        "options": {
+          "A": "4",
+          "B": "6",
+          "C": "8",
+          "D": "12"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "There are 4 ways to pick the first ace. Once the first ace is picked, there are 3 ways to pick the remaining ace. This yields \\(4\\times3=12\\) possible combinations. But be careful! This method of calculation does not model the fact that the order in which you choose the cards does not matter. For example, this procedure counts an ace of hearts and then an ace of diamonds draw as something different than an ace of diamonds then an ace of hearts draw. However, you know that if you are holding two cards in your hand, their order does not matter. To fix this, simply divide by the number of ways to arrange 2 objects, or 2: \\(12\\div2=6\\).\n\nAlternatively, you could simply list out all of the possible different pairs of aces: hearts & diamonds; hearts & clubs; hearts & spades; diamonds & clubs; diamonds & spades; and clubs & spades. These are the 6 pairs, so this method also leads to the correct answer, (B). Keep in mind that this approach will become increasingly tedious as the numbers get larger."
+        }
+      },
+      "q_number": 25
+    }
+  ],
+  "ela_passages": [
+    {
+      "title": "The Past and the Future of the Earth's Oldest Trees",
+      "genre": "informational",
+      "questions": [
+        {
+          "id": "BR28",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "What is the effect of comparing groups of bristlecone pines to “a city within a cemetery” (paragraph 2)?",
+          "options": {
+            "A": "It illustrates that the new tree's appearance is markedly different from that of mature bristlecone pines.",
+            "B": "It emphasizes the new tree's ability to use resources left by prior generations of bristlecone pines.",
+            "C": "It highlights the tree's capacity for a long life if it is able to survive to maturity.",
+            "D": "It reveals that the tree's dense growth patterns are unusual in arid conditions."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The reference to “a city within a cemetery” describes how new trees use the remnants of their “ancestors” (paragraph 2) and makes no comment on the appearance of young versus mature trees. B. CORRECT. The “cemetery” contains “the bones of their ancestors” (paragraph 2)—“ancestors” being earlier generations of bristlecone pines—which provide some of the nutrients that the new trees need. C. Incorrect. The reference to “a cemetery” is not a comment on how long bristlecone pines can live; rather, it illustrates that the new pines are using remnants of their “ancestors” (paragraph 2) to grow. D. Incorrect. Although the climate is mentioned in paragraph 2, it is not the reason for the comparison to “a city within a cemetery.” The comment is intended to illustrate how the new trees use nutrients left behind by the old ones."
+          }
+        },
+        {
+          "id": "BR29",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through",
+          "options": {
+            "A": "a comparison of the bristlecone pine with similar trees that are known for their long lives.",
+            "B": "a description of specific qualities of the bristlecone pine that make it suited to its environment.",
+            "C": "an explanation of why the White Mountains are the best place for the bristlecone pine to grow.",
+            "D": "an examination of why the bristlecone pine has few competitors in the White Mountains."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While paragraph 4 does mention the bristlecone pine in conjunction with other long-living trees, this does not explain in any way how the bristlecone pine can survive difficult conditions. B. CORRECT. Paragraph 4 mentions several qualities that help the bristlecone pine survive a difficult environment: it can survive in a “dry, cold climate” as few plants can, it tolerates a soil that is heavily alkaline and low in nutrients, and the density of its wood protects it from insects. C. Incorrect. Paragraph 4 focuses on the qualities of the bristlecone pine that make it well suited to the White Mountains rather than on why the White Mountains are well suited to bristlecone pines. D. Incorrect. While paragraph 4 does acknowledge that the bristlecone pine has few competitors because the pine can stand conditions few other plants can stand, it is the examination of the pine's unique qualities that explains how the pine survives those conditions."
+          }
+        },
+        {
+          "id": "BR30",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 5. “Empires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year.” The sentence contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "emphasizing the bristlecone pine's precise growth pattern.",
+            "B": "suggesting that things that seem well established face threats.",
+            "C": "describing the pace of the life cycle of the bristlecone pine.",
+            "D": "explaining the reason for the bristlecone pine's longevity."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While “two-hundredths of an inch” is a reference to the bristlecone pine's growth pattern, the point of the reference—and of the entire sentence—is to emphasize the incredibly slow pace of the pine's life cycle. B. Incorrect. While “wars raged” is a threat that empires face, the point of mentioning wars and the rise and fall of empires is to emphasize the bristlecone pine's slow-paced life cycle by contrasting its slowness with the big, dramatic changes taking place in human history during that life cycle. C. CORRECT. Making reference to huge changes in human history such as the rise and fall of empires and the raging of wars provides a sharp contrast to the incredibly slow growth of the bristlecone pine. D. Incorrect. This sentence describes how slowly the bristlecone pine grows in contrast to how dramatically human history changes in the same time span but never explains the reasons for the pine's longevity."
+          }
+        },
+        {
+          "id": "BR31",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "Which claim is best supported by the details in paragraph 5 about the bristlecone pine's tree-ring record?",
+          "options": {
+            "A": "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions.",
+            "B": "The structure of the bristlecone pine allows scientists to predict changing Earth conditions over time.",
+            "C": "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
+            "D": "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 5, the author explains that the bristlecone pine is “an exceptionally useful source of data about changing conditions on Earth,” and this suggests that the information presented by the trees is particularly valuable and important. However, while the paragraph explains that the data provided by the trees are important, it does not address the need to protect the trees from any threat of extinction. The only reference to the trees' extinction is in paragraph 7, when the author addresses the “possibility that climate change will cause their extinction” but then explains that “scientists tend to discount the idea that the bristlecones are in immediate danger.” B. Incorrect. Paragraph 5 describes “minute changes in the tree-ring record” that make bristlecone pines “an exceptionally useful source of data about changing conditions on Earth,” and examples of those changing conditions are described in the present tense: “When rains are heavier than normal, the rings widen.” However, the term “record” indicates that the tree rings are already formed by the time scientists study them. The trees provide information about the past, which is emphasized by the description at the beginning of paragraph 5 of historic events one tree lived through. The excerpt contains no information about whether scientists can use the climate patterns of the past as evidenced by tree rings to make predictions about the future. C. Incorrect. Paragraph 5 describes the “slow-motion existence” of the bristlecone pine and provides examples of the record of “changing conditions on Earth” reflected in the rings of the trees. However, although the paragraph makes it clear that the trees have been able to survive these changing conditions, the paragraph does not indicate that the slow growth of the trees, each of which adds only “about two-hundredths of an inch to the diameter of its trunk each year,” is the key to their survival. Instead, paragraph 4 lists other reasons why an established bristlecone pine “can last almost indefinitely,” including distance between individual trees; tolerance for cold, dry conditions and dolomite soil; and bark that is resistant to insects. D. CORRECT. Paragraph 5 emphasizes the longevity of the bristlecone pine by discussing its “implacable slow-motion existence” and how this makes the trees a valuable source of information for scientists. The author explains that “minute changes in the tree-ring record make bristlecone pines an exceptionally useful source of data about changing conditions on Earth.” A tree that has been alive since 2500 B.C., like the one in paragraph 5, can provide a long record of the changing climate."
+          }
+        },
+        {
+          "id": "BR32",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "The phrases “clings to life” and “stripped of bark” in paragraph 6 are used to highlight",
+          "options": {
+            "A": "that the tree is fragile and needs help to avoid becoming extinct.",
+            "B": "how the tree can be misunderstood because of its appearance.",
+            "C": "how the tree interests observers with its unusual appearance.",
+            "D": "that the tree manages to survive even when partially fossilized."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While these two phrases are suggestive of the tree's fragility, nothing in this paragraph suggests that the tree needs help to avoid extinction. B. Incorrect. While the tree may be misunderstood to be dead because it is “stripped of bark,” the phrase “clings to life” emphasizes the fact that the tree is not dead but manages to survive. C. Incorrect. The paragraph says that far from being interested in the tree's unusual appearance, “most people march past it without giving it a second glance” (paragraph 6). D. CORRECT. The phrase “clings to life” emphasizes that the tree is still surviving even though it is partially fossilized, as shown by its “marbled hulk stripped of bark” (paragraph 6)."
+          }
+        },
+        {
+          "id": "BR33",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "What is the best summary of the bristlecone pine's life cycle?",
+          "options": {
+            "A": "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees.",
+            "B": "The bristlecone pine grows up slowly from the fragments of its dead ancestors. Over time, it begins to become contorted in appearance but continues to funnel water and nutrients to its stem.",
+            "C": "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
+            "D": "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect—covers minor details and leaves out the fossilization stage of the life cycle described in paragraph 6. B. Incorrect—does not address the fossilization phase accurately and incorrectly states the tree continues to funnel nutrients to its stem rather than to living needles. C. CORRECT—describes the key phases of the life cycle (slow growth in a hostile environment, followed by fossilization of the trunk and some branches while other parts remain alive) without focusing on minor details, and in chronological order. D. Incorrect—focuses on location and appearance more than on the phases of the life cycle."
+          }
+        },
+        {
+          "id": "BR34",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "Throughout the excerpt, the author conveys his point of view mainly by",
+          "options": {
+            "A": "sharing details about the qualities of the bristlecone pine that make it an unusual tree.",
+            "B": "comparing the bristlecone pine to global empires that lasted thousands of years before falling.",
+            "C": "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
+            "D": "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The author shares many details throughout the excerpt showing how unusual the tree is: it uses remnants from previous generations (paragraph 2), it grows “agonizingly” slowly (paragraph 3), and it survives difficult growing conditions (paragraph 4). B. Incorrect. The author briefly compares the tree to empires (paragraphs 1, 3, 5), but mainly offers many details about what makes the tree unusual. C. Incorrect. Paragraph 6 focuses on the sickly appearance versus survival contrast, but that is just one detail among many. D. Incorrect. Paragraph 7's statement that the trees “may survive humanity” is just one detail among many, not the main way the author conveys his point of view."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On a moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground—a stubby one-inch stem with a tuft of bright-green shoots."
+        },
+        {
+          "num": 2,
+          "text": "Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered with fragments of dead trees—trunks, limbs, roots, and smaller chunks. Pinus longaeva grows exclusively in subalpine regions of the Great Basin, which stretches from the eastern slopes of the Sierra Nevada to the Wasatch Range, in Utah. Conditions are generally too arid for the dead wood to rot; instead, it erodes, sanded down like rock. The remnants may harbor nutrients and fungi that help new trees grow. Bristlecones rise from the bones of their ancestors—a city within a cemetery."
+        },
+        {
+          "num": 3,
+          "text": "Coast redwoods and giant sequoias, California's gargantuan world-record-holding trees, can grow fifty feet or more in their first twenty years. Bristlecones rise agonizingly slowly. After four or five years, the seedling on the steep slope would have been just a few inches higher, sprouting needles in place of the embryonic shoots. The needles are a deep green, tough, resinous, and closely bunched in groups of five. On a mature tree, they live for fifty years or more. Decades may have passed before the tree was human height, and decades more before it resembled a conventional pine. Bristlecone saplings grow straight up, with relatively sparse foliage, looking like undernourished Christmas trees. After a few hundred years—by which time the Old Kingdom of Egypt had fallen—it was probably forty or fifty feet in height."
+        },
+        {
+          "num": 4,
+          "text": "Many tree species live for hundreds of years. A smaller but not inconsiderable number, including the sequoias and certain yews, oaks, cypresses, and junipers, survive for thousands. Once a bristlecone has established itself in the unforgiving conditions of the White Mountains, it can last almost indefinitely. The trees tend to grow some distance from one another, so fires almost never destroy an entire stand. Because only a few other plant species can handle the dry, cold climate, the bristlecones face little competition. Unlike most plants, they tolerate dolomite soil, which is composed of a chalky type of limestone that is heavily alkaline and low in nutrients. As for insect threats, bristlecone wood is so dense that mountain-pine beetles and other pests can rarely burrow their way into it."
+        },
+        {
+          "num": 5,
+          "text": "Empires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year. Minute changes in the tree-ring record make bristlecones an exceptionally useful source of data about changing conditions on Earth. When rains are heavier than normal, the rings widen. When volcanic eruptions cause global cooling, frost rings make the anomaly visible. . . ."
+        },
+        {
+          "num": 6,
+          "text": "As the millennia go by, bristlecones become contorted and wraithlike. The main stem, or leader, dies back. Entire branches, even the trunk itself, become fossils. At first glance, the tree may look dead. Such is the case of the forty-five-hundred-year-old tree that clings to life near the tourist path that now runs through the Ancient Bristlecone Pine Forest. Spears of dead wood jut into the air. The trunk is a marbled hulk stripped of bark, like driftwood thrown from a vanished ocean. A ribbon of live bark runs up one side, funneling water and nutrients to clumps of green needles high above. All told, the tree is an unprepossessing specimen; most people march past it without giving it a second glance. . . ."
+        },
+        {
+          "num": 7,
+          "text": ". . . No two super-elderly trees look alike, to the point where they have acquired the characteristics of individuals. Trees are prone to anthropomorphism; we project our dreams and our anxieties onto them. Bristlecones have been called elders, sentinels, sages. The possibility that climate change will cause their extinction has inspired a spate of alarmed news stories, although tree scientists tend to discount the idea that the bristlecones are in immediate danger. They have survived any number of catastrophes in the past; they may survive humanity."
+        }
+      ]
+    },
+    {
+      "title": "Using Fire to Keep a Prairie Healthy",
+      "genre": "informational",
+      "questions": [
+        {
+          "id": "BR44",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "According to the passage, how did fires started by natural causes prompt American Indians to begin practicing controlled burns?",
+          "options": {
+            "A": "by drawing animals in to the area to feed on the new growth sprouting from the burned land",
+            "B": "by destroying tall trees and reducing the shade that had hindered the growth of planted crops",
+            "C": "by burning off excess vegetation and increasing the availability of nutrients for the remaining plants",
+            "D": "by causing changes to the bison's migration habits as bison herds fled from the wildfires on the prairie"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Paragraph 2 states American Indians observed bison “grazing on tender new grass on the recently burned land rather than on grass in the unburned areas”—these observations prompted controlled burns to entice “herds away from the people's crops.” B. Incorrect. The paragraph 4 detail about red cedar trees/shade supports why conservationists use controlled burns TODAY, not what initially prompted the practice. C. Incorrect. Paragraph 3 details about nitrogen/soil quality don't explain the initial observations that prompted the practice. D. Incorrect. There's no indication bison changed migration habits to flee wildfires."
+          }
+        },
+        {
+          "id": "BR45",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Targeting red cedar trees in controlled burns affects the animals that live on the prairie mostly by",
+          "options": {
+            "A": "ensuring that the animals' main food source has the conditions needed for it to thrive.",
+            "B": "endangering the animals that live near the trees scheduled for removal.",
+            "C": "making sure that the water supply for the animals is sufficient.",
+            "D": "reducing the animals' natural source of shade and protection from the elements."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Paragraph 4: targeting invasive red cedar trees ensures they don't “crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home”—removing them increases water and sunlight for prairie grasses. B. Incorrect. Paragraph 5: patch burning “allows animals in the burn area to safely relocate”—not endangering. C. Incorrect. The water statistic is about water for the grasses, not directly ensuring sufficient water supply for animals. D. Incorrect. Red cedars are invasive, not a natural part of the ecosystem; shade reduction isn't about animals' comfort/protection."
+          }
+        },
+        {
+          "id": "BR46",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 6. “The patch-burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land.” The author includes this sentence to show that",
+          "options": {
+            "A": "the conservationists are better qualified to lead preservation efforts than farmers are.",
+            "B": "the conservationists are eager to involve others in the preservation of the prairie.",
+            "C": "the conservationists' efforts will restore the original beauty and biodiversity of the region.",
+            "D": "the conservationists' training program should serve as a model for other conservation organizations."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The sentence shows conservationists believe farmers capable of performing controlled burns, not that conservationists are better qualified. B. CORRECT. The conservationists are eager to involve others because “studies show that the patch-burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out” and “helped the prairie sustain life for hundreds of years” (paragraph 6); sharing knowledge with people who live on the prairie supports this eagerness. C. Incorrect. The idea that burns restore biodiversity isn't the focus of this specific sentence. D. Incorrect. There's no indication the training program should be a model for OTHER organizations."
+          }
+        },
+        {
+          "id": "BR47",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "Which sentence supports the idea that farmers and people who manage land may be concerned about using fire as a way to benefit the land?",
+          "options": {
+            "A": "“While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.” (paragraph 1)",
+            "B": "“The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops.” (paragraph 2)",
+            "C": "“This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate.” (paragraph 5)",
+            "D": "“The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.” (paragraph 5)"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. Acknowledges “one of the greatest threats to the prairie is wildfire,” showing why farmers/land managers might be concerned about fire. B, C, D. Incorrect—each explains benefits/mechanics of controlled burns without addressing the underlying concern about fire as a threat."
+          }
+        },
+        {
+          "id": "BR48",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 6. “Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.” The words “counterintuitive” and “strategic” convey the idea that",
+          "options": {
+            "A": "the safest methods are sometimes the least effective at solving complex challenges.",
+            "B": "thorough investigation of uncommon methodologies can lead to beneficial results.",
+            "C": "detailed planning can ensure that a potentially destructive action has a positive impact.",
+            "D": "plans that entail a certain amount of risk almost always result in success."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The methods have NOT been ineffective—the patch-burn system is “so successful” conservationists train farmers. B. Incorrect. Doesn't suggest the methodologies are uncommon (they were used by American Indian people long ago). C. CORRECT. Paragraph 1 states “one of the greatest threats to the prairie is wildfire,” so controlled burns suggest risk/counter to common expectations about the dangers of fire; the words convey the idea that detailed planning (“strategic”) can ensure a potentially destructive action (burning) has a positive impact. D. Incorrect. The passage doesn't suggest risky plans “almost always” succeed—success here comes specifically from careful planning."
+          }
+        },
+        {
+          "id": "BR49",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "It is important to explain the purposes and the risks of controlled burns to the people living near a proposed burn area.",
+            "B": "It is necessary to thoroughly examine a particular region in order to plan and execute a successful controlled burn.",
+            "C": "Monitoring animals' reactions after a controlled burn on the prairie is a minor part of scientists' research.",
+            "D": "Conservationists should consider the helpful aspects of invasive species before executing a controlled burn."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. In paragraph 5, the author states that “patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate,” and paragraph 6 states that conservationists “provide training to prairie farmers about conducting controlled burns on their own land.” However, the author does not explicitly take a position about the importance of explaining the purposes and risks of controlled burns to people living near a proposed burn area. B. CORRECT. In paragraph 5, the author points out that conservationists “study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one-third of the land” and “rotate which portion of land is burned each year” so that animals, such as bison, can “safely relocate.” Therefore, the author would most likely agree that it is necessary to thoroughly examine a particular region in order to plan and execute a successful controlled burn. C. Incorrect. The author would be unlikely to agree that monitoring animals' reactions after a controlled burn on the prairie is a minor part of scientists' research. In paragraph 5, the author explains that patch burning “allows animals in the burn area to safely relocate” and that conservationists “burn a different section of the preserve” each year to ensure that animals have an abundant area to graze while other areas are being burned. D. Incorrect. According to the information in paragraph 4, conservationists commonly target invasive red cedar trees because they are tall trees that “crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home.” Since the focus is on the harm that the invasive red cedar trees cause, the author would be unlikely to agree that conservationists should consider helpful aspects of invasive species before a controlled burn."
+          }
+        },
+        {
+          "id": "BR50",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "How do the diagram and its text provide additional support for the topic presented in the passage?",
+          "options": {
+            "A": "by depicting how the landscape in a given area changes as the patch-burn method is applied",
+            "B": "by indicating that patch-burn fires are best suited for use in areas with certain features",
+            "C": "by revealing that the patch-burn method is used primarily on uninhabited areas of land",
+            "D": "by comparing the size of the area burned by the patch-burn method with that of unburned areas"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The text of the diagram states that “by using a patch-burn method, conservationists and farmers can reduce the risk of unintentional fires and control where grazing animals, such as bison, roam.” By showing the pattern of controlled burns and the resulting bison migration in a given area, the diagram depicts how the landscape changes as the patch-burn method is applied. B. Incorrect. Although the text mentions areas “where grazing animals, such as bison, roam,” the diagram does not depict distinctive features of the land such as trees or brush and therefore does not indicate that patch-burn fires are best suited for use in areas with certain features. C. Incorrect. While the text mentions “grazing animals, such as bison” and the diagram shows the bison grazing in only one area, the diagram and its text do not indicate that the patch-burn method is used on uninhabited land. D. Incorrect. While the areas of land depicted in the diagram do indicate that the sizes of the areas differ, the text provided does not compare the sizes of the areas burned by the patch-burn method with that of unburned areas."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Inside the 40,000-acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape."
+        },
+        {
+          "num": 2,
+          "text": "Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops."
+        },
+        {
+          "num": 3,
+          "text": "Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil."
+        },
+        {
+          "num": 4,
+          "text": "One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast-growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie's ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem's delicate balance."
+        },
+        {
+          "num": 5,
+          "text": "Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch-burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one-third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before."
+        },
+        {
+          "num": 6,
+          "text": "Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch-burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch-burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so."
+        }
+      ],
+      "passage_figure_html": "<div style=\"border:1px solid #333;padding:10px;max-width:480px;margin:0 auto;\"><img src=\"ela_b/figures/patch_burn_diagram.png\" alt=\"Overview of the Patch-Burn Method diagram\" style=\"max-width:100%;display:block;\"></div>"
+    },
+    {
+      "title": "Letter from Brooklyn",
+      "genre": "poem",
+      "questions": [
+        {
+          "id": "BR21",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "How does the structure of the poem affect the poem's meaning?",
+          "options": {
+            "A": "The lack of a rhyming pattern suggests that the beauty of each passing day is unique.",
+            "B": "The lengths of the sentences represent the complexity of the thoughts being represented.",
+            "C": "The use of complete sentences implies the speaker's appreciation for the clear beginning and ending of each season.",
+            "D": "The single long stanza reflects the continuous flow of the speaker's thoughts."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the poem's lack of rhyme is not related to the uniqueness of passing days; the poem is primarily concerned with broad seasonal shifts. B. Incorrect — the poem includes both long sentences (lines 7-12) and short sentences (lines 5-6), but sentence lengths aren't connected to the complexity of ideas expressed. C. Incorrect — a complete sentence presents the beginning and end of a single thought, but the poem isn't primarily concerned with the speaker's thoughts on the clear beginning/ending of each season. D. CORRECT — unlike poems broken into stanzas reflecting unified groups of thoughts, this poem is one long stanza, emphasizing the uninterrupted flow of the speaker's thoughts from time to time and experience to experience without a clear break between any specific thoughts."
+          }
+        },
+        {
+          "id": "BR22",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "Which lines support the idea that a change in the weather will lessen the speaker's appreciation for the city?",
+          "options": {
+            "A": "“as though the air has been forced into intimacy / by the brevity of daylight.” (lines 11-12)",
+            "B": "“But when it starts darkening at 4, / this closeness, I know, will be a felt distance,” (lines 13-14)",
+            "C": "“like someone drawing your attention / to their lack of intimacy.” (lines 15-16)",
+            "D": "“These days I am still walking . . . / beneath the branches bending across avenues,” (lines 17-18)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — these lines focus on the positive way the air feels during “the early edge of fall” (line 7); they suggest the speaker appreciates this experience currently, while being aware the feeling might not last. B. CORRECT — these lines describe the shift in the “closeness” of the air as the weather changes and “it starts darkening at 4.” The speaker clearly indicates that the positive emotions surrounding this closeness, with “leaves green still” and the air “slightly crisp” (lines 8-9), will soon be “a felt distance,” suggesting the turn in weather will make the city less appealing. C. Incorrect — although these lines compare the darkening weather to a person revealing a “lack of intimacy,” that specific comparison doesn't focus on a diminishing appreciation for the city. D. Incorrect — these lines describe the “cathedral pace” (line 17) at which the speaker walks, emphasizing a meditative or thoughtful experience; such a description suggests the speaker still appreciates the city, not that the speaker's appreciation will lessen."
+          }
+        },
+        {
+          "id": "BR23",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "Read lines 5-6 from the poem. “The weather will turn cold. / But that all happens later.” How do the lines develop a central theme of the poem?",
+          "options": {
+            "A": "They highlight a contrast between the different seasons.",
+            "B": "They show the sequence of the changes that are expected to occur.",
+            "C": "They warn about a problem that requires thoughtful preparation.",
+            "D": "They emphasize the importance of valuing the present."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect — the poem describes impressions of one day in one season (“For now it is the early edge of fall, / leaves green still while the air narrows, / is slightly crisp” [lines 7-9]); despite the reference in line 5 to the eventual arrival of cold weather, lines 5-6 primarily emphasize the speaker's wish to stay focused on the present moment. A contrast between seasons is not a central theme of the poem. B. Incorrect — “The weather will turn cold” (line 5) refers to one change that is expected to occur, but lines 5-6 do not show a sequence of changes; the line that follows returns to the present: “For now . . .” (line 7). C. Incorrect — although the statement that the weather “will turn cold” in line 5 could be construed as a warning, there is no support in lines 5-6 for the idea that some problems require thoughtful preparation; the speaker is reflecting on a fleeting experience, not preparing to solve a problem. D. CORRECT — immediately after the line “The weather will turn cold” (line 5), the speaker returns to the current moment: “But that all happens later” (line 6). These lines help develop a central theme by emphasizing the speaker's choice to value and focus on the present moment. The “But” at the start of line 6 shows the speaker pulling back from the future and refocusing on the present, thus emphasizing the importance of savoring “the moment I am walking inside of” (line 22)."
+          }
+        },
+        {
+          "id": "BR24",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "Read lines 7-9 from the poem. “For now it is the early edge of fall, / leaves green still while the air narrows, / is slightly crisp,” The word choice in the lines helps convey the speaker's belief that",
+          "options": {
+            "A": "the beauty of the current season should still be appreciated.",
+            "B": "the changes in the weather signify the end of the most pleasant season.",
+            "C": "the transition from one season to another happens swiftly and without warning.",
+            "D": "the change in the weather is so subtle that people rarely observe or feel it."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT — words and phrases in these lines, such as “leaves green still” and “slightly crisp,” have a positive connotation, indicating the speaker believes in appreciating this season while it still lasts. B. Incorrect — although imagery such as “leaves green still” and “slightly crisp” in these lines suggests the speaker enjoys the season, the speaker never indicates the present season is the most pleasant of all seasons. C. Incorrect — the phrases “the early edge of fall” and “the air narrows” in these lines imply the season is just beginning to change, but there is no indication from these phrases that the changes will be swift and without warning. In fact, the narrowing of the air could be a warning of a greater, more gradual change in weather. D. Incorrect — the speaker experiences the change in weather as subtle (“the air narrows, / is slightly crisp”), but the speaker does not refer to the viewpoints of others. The entire viewpoint in the poem is personal and introspective, as represented by the use of the pronoun “I” throughout."
+          }
+        },
+        {
+          "id": "BR25",
+          "q_number": 44,
+          "question_type": "mc",
+          "question": "Which idea does the comparison of the brownstone houses to “a pop-up picture book I could have had as a child, / but didn't” in lines 20-21 convey?",
+          "options": {
+            "A": "It reveals that some people are still influenced by powerful images from childhood.",
+            "B": "It indicates that the neighborhood the speaker is walking through is charming and appealing.",
+            "C": "It suggests that the speaker has wanted to live in the neighborhood since childhood.",
+            "D": "It suggests that people often experience lingering regret from their past."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect — while the lines explain that the neighborhood reminds the speaker of images from childhood pop-up books, those images are not described as very powerful or influential. B. CORRECT — pop-up picture books are likely to delight a child with their unique, often beautiful representations of buildings that pop up out of the page. The comparison in these lines helps explain how the speaker views these brownstones with a childlike wonder and appreciation. C. Incorrect — though in these lines the speaker compares this neighborhood to scenes in children's pop-up picture books, there is no clear evidence the speaker wants to live there, only that the speaker appreciates its appeal. D. Incorrect — the lines state that the speaker did not have a “pop-up picture book” of the neighborhood's brownstones as a child, but not in a way that emphasizes regret. Rather, the speaker compares the neighborhood to images from pop-up books in general to suggest that the neighborhood looks whimsical/delightful."
+          }
+        },
+        {
+          "id": "BR26",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "Read these lines from the poem. “I can already see how this will end.” (line 1) “How Brooklyn makes me nostalgic / for the moment I am walking inside of.” (lines 21-22) The lines develop a central idea of the poem by",
+          "options": {
+            "A": "suggesting the speaker's desire to find a way to break free from the repetitive pattern of daily life.",
+            "B": "revealing the speaker's feelings of disappointment over the predictable change in season.",
+            "C": "emphasizing the speaker's awareness of the future significance of the present moment in the setting.",
+            "D": "showing the speaker's anticipation of specific emotions caused by an intimate knowledge of the setting."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect — these lines suggest life is governed by repetitive patterns, such as the change of seasons, but do not suggest the speaker wishes to break free from these natural cycles; a desire for freedom is not a central idea of the poem. B. Incorrect — although the speaker acknowledges that colder weather will inevitably bring disappointment, the speaker does not suggest the predictability of changing weather is itself disappointing. Rather, the speaker recognizes the value of enjoying the present moment. C. CORRECT — these lines connect the present warmer weather with the future colder weather and develop the central idea that the present “moment I am walking inside of” must be embraced because the speaker will be “nostalgic” for it in the future. D. Incorrect — in these lines, the speaker is aware that specific emotions will occur in the future, during cold weather, but this awareness is only part of the more complex central idea of the poem, which is that current emotions and feelings must be recognized, experienced, and appreciated."
+          }
+        },
+        {
+          "id": "BR27",
+          "q_number": 46,
+          "question_type": "mc",
+          "question": "The speaker's thoughts throughout the poem develop a theme by showing that",
+          "options": {
+            "A": "although people may hold expectations for the future, some people long for present experiences while they are still happening.",
+            "B": "though people come from different places, most people feel drawn to the special charm a city holds.",
+            "C": "although people can make decisions about their life, there will always be some things beyond their control.",
+            "D": "though general expectations exist, people have no way of knowing what a given day will actually bring."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT — the speaker's thoughts develop some tension because seasonal change will inevitably come: “The weather will turn cold” (line 5). However, the speaker is still able to enjoy the present experience because “that all happens later” (line 6). In lines 21-22, the speaker begins to describe experiences that create a longing for the present, even while it is still happening (“How Brooklyn makes me nostalgic / for the moment I am walking inside of”), developing a theme of the poem. B. Incorrect — the speaker's thoughts reveal an appreciation for the city, but this appreciation is highly personal and individual; these thoughts do not indicate that most people will feel drawn to cities. C. Incorrect — some things, such as seasons, are beyond human control, as the speaker concedes: “I can already see how this will end” (line 1). However, the theme of the poem is not that certain things are inevitable, but that one can live in the present moment and enjoy that experience before change occurs. D. Incorrect — the speaker's thoughts are not showing that people are surprised by what the days bring; the thoughts of the speaker suggest that people experience many seasons in Brooklyn and have an opportunity to enjoy each one before it changes."
+          }
+        }
+      ],
+      "lines": [
+        {
+          "num": null,
+          "text": "I can already see how this will end."
+        },
+        {
+          "num": null,
+          "text": "How I will grow tired of the bridge's"
+        },
+        {
+          "num": null,
+          "text": "steep incline, and the absent-minded tourists"
+        },
+        {
+          "num": null,
+          "text": "wandering into the bicycle path."
+        },
+        {
+          "num": 5,
+          "text": "The weather will turn cold."
+        },
+        {
+          "num": null,
+          "text": "But that all happens later."
+        },
+        {
+          "num": null,
+          "text": "For now it is the early edge of fall,"
+        },
+        {
+          "num": null,
+          "text": "leaves green still while the air narrows,"
+        },
+        {
+          "num": null,
+          "text": "is slightly crisp, almost grazing"
+        },
+        {
+          "num": 10,
+          "text": "the hair of my arm like a passing stranger,"
+        },
+        {
+          "num": null,
+          "text": "as though the air has been forced into intimacy"
+        },
+        {
+          "num": null,
+          "text": "by the brevity of daylight."
+        },
+        {
+          "num": null,
+          "text": "But when it starts darkening at 4,"
+        },
+        {
+          "num": null,
+          "text": "this closeness, I know, will be a felt distance,"
+        },
+        {
+          "num": 15,
+          "text": "like someone drawing your attention"
+        },
+        {
+          "num": null,
+          "text": "to their lack of intimacy."
+        },
+        {
+          "num": null,
+          "text": "These days I am still walking at a cathedral pace"
+        },
+        {
+          "num": null,
+          "text": "beneath the branches bending across avenues,"
+        },
+        {
+          "num": null,
+          "text": "brownstones like rows of lived-in chapels,"
+        },
+        {
+          "num": 20,
+          "text": "like a pop-up picture book I could have had as a child,"
+        },
+        {
+          "num": null,
+          "text": "but didn't. How Brooklyn makes me nostalgic"
+        },
+        {
+          "num": null,
+          "text": "for the moment I am walking inside of."
+        },
+        {
+          "num": null,
+          "text": "These late afternoons filled"
+        },
+        {
+          "num": null,
+          "text": "with a loneliness that makes me feel"
+        },
+        {
+          "num": 25,
+          "text": "distinctly myself, and an awareness"
+        },
+        {
+          "num": null,
+          "text": "of how rare that is."
+        }
+      ]
+    },
+    {
+      "title": "New York City and the Hudson Valley Brickmaking Industry",
+      "genre": "informational",
+      "questions": [
+        {
+          "id": "CR44",
+          "q_number": 47,
+          "question_type": "mc",
+          "question": "Which revision of sentence 10 would **best** maintain the style established in the passage?",
+          "options": {
+            "A": "Builders turned to brick, which was an affordable material that met safety standards while satisfying the city’s large demand for buildings.",
+            "B": "Figuring out that bricks were inexpensive, builders used tons of them to satisfy inspectors and the city’s desperate construction needs.",
+            "C": "Builders favored brick as a pleasingly economical way to meet significant construction demand while following municipal regulations.",
+            "D": "Once builders realized that low-cost brick was a law-abiding way to meet the city’s building needs, they hardly ever used any other materials."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.08 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks for the revision of sentence 10 that would best maintain the style established in the passage.\n\nA. CORRECT. This sentence maintains the style established in the passage because it uses clear, precise, and formal language. The phrases “affordable material” and “met safety standards” are accurate and appropriate to the historical and technical context. The word “satisfying” is a precise replacement for “keeping owners happy” from the original sentence, preserving both the meaning and the formal tone of the passage.\n\nB. Incorrect. Although the sentence conveys the same basic ideas as the passage, the phrases “Figuring out” and “tons of them” are informal and inconsistent with the passage’s formal style. In addition, the word “desperate” introduces a subjective and emotional tone, whereas the passage maintains an objective, fact-based style.\n\nC. Incorrect. Although this sentence incorporates some formal vocabulary, the phrase “pleasingly economical” introduces an opinion that is inconsistent with formal historical writing. The passage’s style avoids subjective language and focuses on precise, factual descriptions of events and conditions. The phrase “municipal regulations” is also more technical and at the same time less clear and precise than the style established in the passage.\n\nD. Incorrect. This sentence does not maintain the passage’s formal style because the phrase “law-abiding way” is awkward and informal for a historical description, and the expression “hardly ever” is conversational. The passage uses precise, objective language when describing building practices and material choices, avoiding casual or conversational phrasing."
+          }
+        },
+        {
+          "id": "CR45",
+          "q_number": 48,
+          "question_type": "mc_multi",
+          "question": "Which **two** sentences present information irrelevant to the ideas in the passage and should be deleted?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "“Nearly 65 million people visit New York City every year to see these and other attractions.” (sentence 3)",
+            "B": "“The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later.” (sentence 8)",
+            "C": "“Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City.” (sentence 14)",
+            "D": "“History has proven, however, that boom times eventually end.” (sentence 18)",
+            "E": "“Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers.” (sentence 23)"
+          },
+          "correct": [
+            "A",
+            "C"
+          ],
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.25 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks which two sentences present information irrelevant to the ideas of the passage and should be deleted.\n\nA. CORRECT. “Nearly 65 million people visit New York City every year to see these and other attractions” (sentence 3) presents irrelevant information and should be deleted. While the statistic is interesting, it focuses on tourism, which is not relevant to either the topic of the passage—the growth and decline of the brickmaking industry—or to the ideas in the first paragraph (sentences 1–6), which focus on the prominence of brick in New York City’s buildings.\n\nB. Incorrect. “The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later” (sentence 8) is relevant to the ideas of the passage and should not be deleted. The numerical details in sentence 8 about the rapid growth in New York City provide relevant evidence that supports a central idea of the passage: that the brickmaking industry of the Hudson River Valley expanded quickly to supply the demands of builders who were, in turn, meeting the demands of a booming population.\n\nC. CORRECT. “Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City” (sentence 14) presents irrelevant details and should be deleted. The information in sentence 14 comparing population growth rates between the region and New York City are not needed to develop the passage’s central focus on the rise and decline of the Hudson River Valley’s brickmaking industry. The sentence also does not support ideas in the third paragraph (sentences 11–17). Although it mentions that brick factories employed much of the Hudson River Valley population, the productivity of the factories, rather than the Valley’s population, is the topic of the paragraph.\n\nD. Incorrect. “History has proven, however, that boom times eventually end” (sentence 18) is relevant to the ideas of the passage and should not be deleted. Sentence 18 effectively introduces the central idea of the passage: the decline of the Hudson River Valley brickmaking industry. The sentence also serves as a clear transition from the third paragraph (sentences 11–17), which provides evidence of the industry’s boom, to the fourth paragraph (sentences 18–21), which provides details about how the industry came to an end.\n\nE. Incorrect. “Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers” (sentence 23) is relevant to the ideas of the passage and should not be deleted. The mention of famous and ordinary buildings provides an effective link to introductory sentences 1 and 2, strengthening the passage’s conclusion, while also emphasizing the productivity of the Hudson Valley brickmaking industry detailed in the third paragraph (sentences 11–17)."
+          }
+        },
+        {
+          "id": "CR46",
+          "q_number": 49,
+          "question_type": "mc",
+          "question": "Which phrase should be added to the beginning of sentence 11 to provide the **best** transition from the ideas in sentence 10?",
+          "options": {
+            "A": "While adapting to new uses for brick,",
+            "B": "Because the building boom preferred brick,",
+            "C": "As a result of New York City’s building boom,",
+            "D": "Although reliance on brick became the norm,"
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.44 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks which phrase should be added to the beginning of sentence 11 to provide the best transition from the ideas in sentence 10.\n\nA. Incorrect. The phrase “While adapting to new uses for brick” is not the best transition to place at the beginning of sentence 11 because it does not accurately describe the content of sentence 10. Although sentence 10 conveys that brick was a low-cost way for builders to adapt to two demands—New York City’s need for a lot of new buildings and its recently changed fire-safety laws—neither sentence 10 nor any of the preceding sentences in the second paragraph (sentences 7–10) indicate that builders found any new ways to use bricks. The focus is on the amount of bricks used, rather than any changes in how the builders used them.\n\nB. Incorrect. Although the phrase “Because the building boom preferred brick” accurately indicates a cause-and-effect relationship between builders using a lot of bricks and the skyrocketing brick production mentioned in sentence 11, it overstates the position of builders described in sentence 10. While sentence 10 says that builders found bricks to be a low-cost way of meeting several needs, it does not say that builders actually preferred to use bricks. In addition, the phrase is awkward and imprecise because a “building boom” cannot literally “prefer” something. Thus, this is not the best transition phrase to add to sentence 11.\n\nC. CORRECT. The transition phrase “As a result of New York City’s building boom” clearly conveys the cause-and-effect relationship between sentence 10, which describes a trend among New York City’s builders to use a lot of bricks to “quickly throw together a lot of structures while keeping building owners and safety inspectors happy,” and sentence 11, which points out a result of the building trend: brickmaking skyrocketed in the nearby Hudson River Valley.\n\nD. Incorrect. The word “although” in the transition phrase “Although reliance on brick became the norm,” incorrectly indicates an opposing relationship that does not exist between the ideas in sentences 10 and 11. Sentence 10 explains how using a lot of bricks helped New York City’s builders meet the demands of a building boom and new safety regulations. As sentence 16 details, many of the bricks made in the Hudson River Valley were shipped “down the river to New York City.” Thus, it is not logical that the skyrocketing growth of the brickmaking industry in the Hudson River Valley described in sentence 11 happened “although” or despite New York City builders using a lot of brick. Therefore, this transition is not the best one to place at the beginning of sentence 11."
+          }
+        },
+        {
+          "id": "CR47",
+          "q_number": 50,
+          "question_type": "mc",
+          "question": "Which sentence would **best** follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21)?",
+          "options": {
+            "A": "At first many people thought the new materials did not look as strong as brick, but eventually the public embraced the trend.",
+            "B": "Increasingly expensive shipping and labor costs also drove up the costs for brickmaking factories.",
+            "C": "The Flatiron building, completed in 1902, is a notable example of an early steel-framed building.",
+            "D": "The more that New York City builders chose to use these materials, the fewer bricks they bought."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.53 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks which sentence would best follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21).\n\nA. Incorrect. Although the information in the sentence that consumers eventually “embraced the trend” of building with steel, glass, and concrete suggests that demand for those building materials likely increased, this detail does not clearly link increased use of steel, glass, and concrete to lower demand for brick. Therefore, this sentence would not be the best choice to follow sentence 20 to support the ideas in the fourth paragraph.\n\nB. Incorrect. This sentence introduces a different cause of the decline of brickmaking—economic costs—rather than providing support or explanation for the idea that the shift to steel, glass, and concrete caused lower demand for brick. Thus, this sentence is not the best one to follow sentence 20.\n\nC. Incorrect. Although this sentence adds detail related to sentence 20 by giving an example of steel use, it shifts focus toward a specific building rather than the overall trend in material preference. It does not help explain the link between a growing preference for steel, glass, and concrete and declining demand for brick. Therefore, this sentence would not best follow sentence 20 to support the ideas in the fourth paragraph.\n\nD. CORRECT. This sentence supports the ideas in the fourth paragraph. It would best follow sentence 20 because it directly states the cause-and-effect relationship between builders’ preference for steel, glass, and concrete described in sentence 20 and the resulting decline in brick use detailed in sentence 21. It also supports, with a detail about the closing of the last factory, the idea in sentence 18 that the entire Hudson Valley brickmaking industry was ended."
+          }
+        }
+      ],
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick."
+          },
+          {
+            "num": 2,
+            "text": "Indeed, one author described the bricks that make up some of New York City’s most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as “an inescapable presence.”"
+          },
+          {
+            "num": 3,
+            "text": "Nearly 65 million people visit New York City every year to see these and other attractions."
+          },
+          {
+            "num": 4,
+            "text": "Why was so much brick used in buildings constructed during the century before World War II?"
+          },
+          {
+            "num": 5,
+            "text": "The answer involves an explosion in New York City’s population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany."
+          },
+          {
+            "num": 6,
+            "text": "When demand later declined, the industry would entirely disappear."
+          }
+        ],
+        [
+          {
+            "num": 7,
+            "text": "New York City’s appetite for brick was fueled by surging population and demand for safer building materials."
+          },
+          {
+            "num": 8,
+            "text": "The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later."
+          },
+          {
+            "num": 9,
+            "text": "Following large, destructive fires in the 1830s, the city had enacted laws requiring the use of fire-resistant materials."
+          },
+          {
+            "num": 10,
+            "text": "Bricks turned out to be an inexpensive way for builders to quickly throw together a lot of structures while keeping building owners and safety inspectors happy."
+          }
+        ],
+        [
+          {
+            "num": 11,
+            "text": "The brickmaking industry in the Hudson Valley skyrocketed."
+          },
+          {
+            "num": 12,
+            "text": "At the industry’s peak, approximately 130 brick factories crammed themselves into a 120-mile stretch along the Hudson River."
+          },
+          {
+            "num": 13,
+            "text": "These factories employed much of the region’s population."
+          },
+          {
+            "num": 14,
+            "text": "Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City."
+          },
+          {
+            "num": 15,
+            "text": "Even though the factories operated only during the summers, their production was immense."
+          },
+          {
+            "num": 16,
+            "text": "Hudson Valley factories shipped over a billion bricks on barges down the river to New York City annually."
+          },
+          {
+            "num": 17,
+            "text": "In fact, The New York Times declared, “It’s fairly safe to assume that any brick building constructed between 1800 and 1950 includes some form of sediment from the banks of the Hudson River.”"
+          }
+        ],
+        [
+          {
+            "num": 18,
+            "text": "History has proven, however, that boom times eventually end."
+          },
+          {
+            "num": 19,
+            "text": "Shifting architectural trends halted not only the Hudson Valley’s brickmaking boom, but its entire industry."
+          },
+          {
+            "num": 20,
+            "text": "Starting early in the twentieth century, architects and builders increasingly favored steel, glass, and concrete instead of brick."
+          },
+          {
+            "num": 21,
+            "text": "By 1979, reduced demand for brick had driven every Hudson Valley brick factory out of business."
+          }
+        ],
+        [
+          {
+            "num": 22,
+            "text": "The Hudson Valley’s brickmaking legacy lives on in the architecture of New York City."
+          },
+          {
+            "num": 23,
+            "text": "Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers."
+          },
+          {
+            "num": 24,
+            "text": "The brick buildings surrounding New Yorkers today serve as a reminder that, as one amateur brick historian put it, “The skyline of New York City used to be the landscape of the Hudson River Valley.”"
+          }
+        ]
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-HE2-CR48",
+      "question_type": "mc",
+      "question": "(1) In 1962, the Parkview Zoo merged with several smaller wildlife sanctuaries across the state, including the Elmbrook Aviary, which had housed exotic birds since the 1940s. (2) The zoo's director decided to relocate the aviary collection to the Elmbrook Nature Center after the original building suffered storm damage, where the birds lived for nearly two decades. (3) The aviary collection included over two hundred species, some of which were featured in national wildlife publications. (4) In 2015, the collection was reorganized under new management and returned to Parkview, where it now operates as a free public exhibit.\n\nWhich sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The \"where\" clause (\"where the birds lived for nearly two decades\") currently sits right after \"the original building suffered storm damage,\" so it reads as though the birds lived in the storm damage. It should instead follow \"the Elmbrook Nature Center,\" the actual place being described: \"...after the original building suffered storm damage, the zoo's director decided to relocate the aviary collection to the Elmbrook Nature Center, where the birds lived for nearly two decades.\"\n\n**Why this sounds right:** The sentence is one continuous chain of events — damage, then a decision, then a move — so \"where\" sliding in right after the most recently mentioned event (the storm damage) feels like part of that same flow instead of standing out as misattached.\n\n**The concept:** A descriptive clause (like a \"where\" or \"which\" clause) has to sit right next to the specific word it's describing — otherwise it reads as describing whatever word actually precedes it. If a \"where\" clause about a place ends up next to an unrelated noun or phrase instead of the place itself, move the clause so it sits immediately after the word it's meant to modify.\n\n**More examples of this mistake:**\n- \"The students toured the laboratory where the discovery was made on a school field trip.\" (Reads as if the discovery was made \"on a school field trip.\" Fix: \"On a school field trip, the students toured the laboratory where the discovery was made.\")\n- \"She finally returned to the town where she was born after twenty years.\" (Reads as if she was born \"after twenty years.\" Fix: \"After twenty years, she finally returned to the town where she was born.\")"
+      },
+      "base_source": "Exam C — Standalone (CR48)",
+      "base_question": {
+        "stimulus": "(1) In 1976, the National Basketball Association (NBA) absorbed several teams of the American Basketball Association (ABA), including the New York Nets, who played in the Long Island area at the time. (2) The owner of the Nets decided to take the team to New Jersey after the team had financial troubles, where the team played for thirty-five seasons. (3) The New Jersey Nets had sixteen playoff appearances, including two appearances in the NBA finals. (4) In 2012, the team changed ownership and returned to New York, where the team now plays under the name the Brooklyn Nets.",
+        "question": "Which sentence contains an error in its construction and should be revised?",
+        "options": {
+          "A": "sentence 1",
+          "B": "sentence 2",
+          "C": "sentence 3",
+          "D": "sentence 4"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "B. CORRECT. Sentence 2 contains a structural error. The current placement of the clause “where the team played for thirty-five seasons” suggests that the clause is modifying the term “financial troubles,” which is illogical. The clause should immediately follow the location, “New Jersey.” A revised version might read, “After the team had financial troubles, the owner of the Nets decided to take the team to New Jersey, where the team played for thirty-five seasons.”"
+        }
+      },
+      "q_number": 51
+    },
+    {
+      "id": "P-HE2-CR49",
+      "question_type": "mc",
+      "question": "(1) Marcus practiced his sourdough recipe every weekend for two months. (2) He developed a reliable technique for shaping the loaves. (3) His bread won first place at the regional baking competition.\n\nWhat is the best way to combine the sentences to clarify the relationship between ideas?",
+      "options": {
+        "A": "Though Marcus had practiced his sourdough recipe every weekend for two months, when he developed a reliable technique for shaping the loaves, his bread won first place at the regional baking competition.",
+        "B": "Marcus had practiced his sourdough recipe every weekend for two months, yet he developed a reliable technique for shaping the loaves, so his bread won first place at the regional baking competition.",
+        "C": "Because Marcus had practiced his sourdough recipe every weekend for two months, he developed a reliable technique for shaping the loaves, and his bread won first place at the regional baking competition.",
+        "D": "Marcus had practiced his sourdough recipe every weekend for two months, so he developed a reliable technique for shaping the loaves, but his bread won first place at the regional baking competition."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Option C uses \"because\" to correctly show that Marcus's two months of practice caused his improved technique, and \"and\" to add the result (winning first place) without implying any contradiction. All three ideas form a clean chain of cause and effect, so \"because...and\" is the only connector pairing that doesn't introduce a false contrast.\n\n**Why this sounds right:** Options A, B, and D each slip in a contrast word (\"though,\" \"yet,\" \"but\") partway through a fairly long sentence, so by the time you reach it, it's easy to register it as natural sentence variety rather than check whether the two ideas it connects actually conflict.\n\n**The concept:** When you combine sentences using a connecting word — because, although, while, which, and, but, since — that word has to accurately describe how the two ideas really relate: does one cause the other? Contradict it? Just add detail? Work out the real relationship in plain language first, then check that each answer choice's connecting word actually matches it.\n\n**More examples of this mistake:**\n- \"Because the bridge was under repair, traffic moved smoothly.\" (\"Because\" signals a cause-effect that doesn't fit — repair work should slow traffic, not smooth it; needs \"although\" or \"even though.\")\n- \"The team practiced every day, but they won the championship.\" (\"But\" signals contrast where there isn't one — practicing supports winning, so it needs \"and\" or \"so.\")"
+      },
+      "base_source": "Exam C — Standalone (CR49)",
+      "base_question": {
+        "stimulus": "(1) Jordan rehearsed his role for weeks. (2) He delivered his lines with ease. (3) His performance was met with a burst of applause from the audience.",
+        "question": "What is the best way to combine the sentences to clarify the relationship between ideas?",
+        "options": {
+          "A": "Though Jordan had rehearsed his role for weeks, when he delivered his lines with ease, his performance was met with a burst of applause from the audience.",
+          "B": "Jordan had rehearsed his role for weeks, yet he delivered his lines with ease, so his performance was met with a burst of applause from the audience.",
+          "C": "Because Jordan had rehearsed his role for weeks, he delivered his lines with ease, and his performance was met with a burst of applause from the audience.",
+          "D": "Jordan had rehearsed his role for weeks, so he delivered his lines with ease, but his performance was met with a burst of applause from the audience."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "C. CORRECT. This combination of sentences clarifies the relationship among the ideas in a logical way. “Because” is the best choice for conveying the cause-and-effect relationship between rehearsing and a successful performance."
+        }
+      },
+      "q_number": 52
+    },
+    {
+      "id": "P-HE2-CR50",
+      "question_type": "mc",
+      "question": "(1) Both watercolor painting and oil painting are popular art forms enjoyed by both amateur and professional artists, but many people <u>wonder:</u> what <u>is</u> the difference between the two? (2) To start <u>with,</u> the drying time is much faster for watercolor than <u>it is</u> for oil paint, making watercolor a better choice for artists who prefer quick results. (3) Additionally, the pigment <u>mixture,</u> which uses more water than oil paint, <u>creates</u> a lighter, more transparent appearance than oil paintings. (4) Finally, oil paintings can be reworked for several days after application, which allows for more detailed <u>blending,</u> and <u>give</u> artists more time to perfect their technique.\n\nWhich pair of revisions need to be made in this paragraph?",
+      "options": {
+        "A": "Sentence 1: Delete the colon after **wonder** AND change **is** to **are**.",
+        "B": "Sentence 2: Delete the comma after **with** AND change **it is** to **they are**.",
+        "C": "Sentence 3: Delete the comma after **mixture** AND change **creates** to **create**.",
+        "D": "Sentence 4: Delete the comma after **blending** AND change **give** to **gives**."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Sentence 4 has two errors: \"give\" should be \"gives\" to agree with the singular subject \"which\" (referring to the single fact that oil paintings can be reworked); and the comma before \"and give\" should be deleted because it's only joining two verb phrases that share the same subject (\"which\"), not introducing a second full sentence.\n\n**Why this sounds right:** The sentence already has a legitimate comma doing real work just before it (setting off \"which allows for more detailed blending\"), so one more comma right before \"and\" blends in with that same rhythm instead of standing out as an extra, unneeded one.\n\n**The concept:** A comma goes before \"and\" when it separates the last item in a list of three or more, or when \"and\" is joining two complete, independent sentences. But when \"and\" is just linking two verbs or phrases that share the same subject, no comma belongs before it — adding one wrongly suggests a third list item, or a second full sentence, that isn't actually there.\n\n**More examples of this mistake:**\n- \"The chef chopped the vegetables, and seasoned the soup.\" (No comma needed — \"and seasoned\" shares the same subject, \"the chef\"; it isn't a second full sentence.)\n- \"The hikers reached the summit, and admired the view for an hour.\" (Same fix — delete the comma.)"
+      },
+      "base_source": "Exam C — Standalone (CR50)",
+      "base_question": {
+        "stimulus": "(1) Both Italian gelato and American ice cream are delightful treats to have on a hot summer day, but many people <u>wonder:</u> what <u>is</u> the difference between the two? (2) To start <u>with,</u> the butterfat content is much higher in ice cream than <u>it is</u> in gelato, making the Italian treat a wiser decision for people looking to make healthier choices. (3) Additionally, the mixing <u>process,</u> which adds less air to the frozen treat, <u>makes</u> gelato denser than ice cream. (4) Finally, gelato is served 10 to 15 degrees warmer than ice cream, which enhances the texture and flavor of the <u>gelato,</u> and <u>allow</u> it to melt more quickly.",
+        "question": "Which pair of revisions need to be made in this paragraph?",
+        "options": {
+          "A": "Sentence 1: Delete the colon after **wonder** AND change **is** to **are**.",
+          "B": "Sentence 2: Delete the comma after **with** AND change **it is** to **they are**.",
+          "C": "Sentence 3: Delete the comma after **process** AND change **makes** to **make**.",
+          "D": "Sentence 4: Delete the comma after **gelato** AND change **allow** to **allows**."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "D. CORRECT. Deleting the comma after “gelato” would include the clause “and allow it to melt more quickly” with the first part of the clause. Changing the verb “allow” to “allows” is necessary to match the use of the singular pronoun “which.”"
+        }
+      },
+      "q_number": 53
+    },
+    {
+      "id": "P-HE2-DR13",
+      "question_type": "mc",
+      "question": "(1) Shelving returned books, organizing the summer reading program, repairing damaged book covers, and assisting younger patrons, the public library is looking for volunteers to help with a variety of tasks. (2) Volunteering at the library is a great way for teenagers, especially those who aspire to work in education or publishing, to gain valuable experience. (3) In addition to hands-on experience with library operations, volunteers will learn important skills, such as organization, patience, and communication. (4) Helping patrons find resources can also help volunteers develop confidence, which is the belief in one's own abilities.\n\nWhich sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The list of participial phrases (\"Shelving returned books, organizing the summer reading program, repairing damaged book covers, and assisting younger patrons\") sits right before \"the public library,\" so it reads as if the library itself is doing that shelving and organizing. The list is actually describing the \"tasks\" mentioned at the end of the sentence, so it should move there: \"The public library is looking for volunteers to help with a variety of tasks: shelving returned books, organizing the summer reading program, repairing damaged book covers, and assisting younger patrons.\"\n\n**Why this sounds right:** The list of actions comes first and sounds like it's setting the scene for \"the public library\" because that's the very next noun in the sentence — only on a second read do you notice those are things volunteers do, not things a library does.\n\n**The concept:** A describing phrase attaches to whatever noun sits closest to it, usually the noun right after it. If that's not the noun the phrase is actually meant to describe, the sentence ends up saying something illogical — a modifier \"dangling\" with nothing correct to attach to, or \"misplaced\" and describing the wrong thing. Find the noun the phrase is logically describing, then make sure that noun is the one sitting right next to it.\n\n**More examples of this mistake:**\n- \"After practicing for months, the piano recital finally arrived.\" (The recital didn't practice — should be \"After practicing for months, Mia finally performed in the piano recital.\")\n- \"Having forgotten her umbrella, the rain soaked through her jacket.\" (The rain didn't forget anything — should be \"Having forgotten her umbrella, Priya got soaked in the rain.\")"
+      },
+      "base_source": "Exam D — Standalone (DR13)",
+      "base_question": {
+        "stimulus": "(1) Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers to help with a variety of tasks. (2) Working at the animal shelter is a great way for young people, especially those who aspire to care for and protect animals, to gain valuable work experience. (3) In addition to hands-on training with animal care, volunteers will learn important job skills, such as punctuality, responsibility, and personal initiative. (4) Caring for animals can also help volunteers develop empathy, which is the awareness and understanding of the feelings of others.",
+        "question": "Which sentence contains an error in its construction and should be revised?",
+        "options": {
+          "A": "sentence 1",
+          "B": "sentence 2",
+          "C": "sentence 3",
+          "D": "sentence 4"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "A. CORRECT. Sentence 1 contains a structural error. The sentence begins with a list of modifying phrases that, as written, modifies the closest noun phrase, “the animal shelter,” which is illogical. The list should follow the word it modifies, “tasks,” at the end of the sentence."
+        }
+      },
+      "q_number": 54
+    }
+  ]
+}
