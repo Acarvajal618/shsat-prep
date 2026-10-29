@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Full Exam 5 (Full Content)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <!-- This page uses its own dedicated password (not the site-wide one) —
+       revealed only after finishing the exam-mode version, worksheet-19.html.
+       See the inline gate script near the end of <body>. -->
+  <script defer src="solution-lock-fe5.js"></script>
+  <style>
+    :root {
+      --tn-bg: #ffffff;
+      --tn-infobar-bg: #6d6d6d;
+      --tn-infobar-text: #ffffff;
+      --tn-accent: #1a73e8;
+      --tn-progress: #62a3ea;
+      --tn-card-border: #e0e0e0;
+      --tn-text: #222;
+      --tn-muted: #888;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--tn-bg);
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--tn-text);
+      min-height: 100vh;
+    }
+    .tn-toolbar {
+      background: #f4f4f4;
+      display: flex; align-items: center;
+      padding: 10px 20px;
+      gap: 10px;
+      border-bottom: 1px solid #dcdcdc;
+    }
+    .tn-nav-arrows { display: flex; gap: 2px; }
+    .tn-btn {
+      background: #ffffff;
+      border: 1px solid #b3b3b3;
+      border-radius: 4px;
+      width: 46px; height: 36px;
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 16px; padding: 0;
+      color: #333;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+      transition: background 0.08s, border-color 0.08s;
+    }
+    .tn-btn:hover:not(:disabled) { background: #f0f0f0; border-color: #909090; }
+    .tn-btn.next { background: #4a90d9; color: #fff; border-color: #3878be; }
+    .tn-btn.next:hover { background: #3878be; border-color: #2f6aa8; }
+    .tn-btn:disabled { opacity: 0.4; cursor: default; background: #fff; }
+    .tn-user { margin-left: auto; display: flex; align-items: center; gap: 6px; color: #333; font-size: 13px; }
+    .tn-user .tn-avatar { width: 22px; height: 22px; border-radius: 2px; background: #d8d8d8; display: inline-flex; align-items: center; justify-content: center; color: #555; font-size: 13px; }
+
+    .tn-progress-line { height: 3px; background: var(--tn-progress); }
+    .tn-infobar { background: var(--tn-infobar-bg); color: var(--tn-infobar-text); padding: 6px 22px; font-size: 12px; letter-spacing: 0.05em; }
+    .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
+
+    /* ── Split layout: passage pane + question pane (ELA section) ── */
+    .tn-main {
+      max-width: 1400px;
+      margin: 32px auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 22px;
+      align-items: flex-start;
+    }
+    .tn-passage-pane {
+      flex: 0 0 46%;
+      border: 1px solid var(--tn-card-border);
+      background: #fff;
+      max-height: 640px;
+      overflow-y: auto;
+      padding: 22px 26px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 15px;
+      line-height: 1.7;
+      position: sticky;
+      top: 20px;
+    }
+    .tn-passage-title { text-align: center; font-weight: bold; margin-bottom: 4px; }
+    .tn-passage-author { text-align: center; color: #555; margin-bottom: 18px; }
+    .tn-passage-para { display: flex; gap: 10px; margin-bottom: 14px; }
+    .tn-passage-paranum {
+      flex: 0 0 20px; width: 20px; height: 20px; border-radius: 50%;
+      background: #333; color: #fff; font-size: 11px; font-weight: 700;
+      display: inline-flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .tn-passage-para .tn-passage-text { flex: 1; }
+    .tn-passage-citation { margin-top: 16px; font-size: 12px; color: #777; font-style: italic; }
+    .tn-passage-intro { font-style: italic; color: #444; margin-bottom: 16px; font-size: 14px; }
+    .tn-passage-sentpara { margin-bottom: 14px; }
+    .tn-passage-sentnum { color: #888; font-size: 11px; font-weight: 700; margin-right: 2px; }
+    .tn-passage-line { display: flex; gap: 14px; }
+    .tn-passage-linenum { flex: 0 0 24px; color: #888; font-size: 12px; text-align: right; padding-top: 2px; }
+
+    /* ── Math section & Grammar section: no passage pane ── */
+    .tn-main.no-pane .tn-passage-pane { display: none; }
+    .tn-main.no-pane .tn-question-pane { flex: 1 1 100%; }
+    .tn-main.no-pane.grammar .tn-question-pane { max-width: 760px; margin: 0 auto; }
+    .tn-main.no-pane.math .tn-question-pane { max-width: 1000px; margin: 0 auto; }
+
+    .tn-stimulus-box {
+      border: 1px solid var(--tn-card-border); background: #fafafa;
+      padding: 16px 20px; margin-bottom: 18px; font-size: 14px; line-height: 1.6;
+    }
+
+    .tn-question-pane { flex: 1; min-width: 0; }
+    .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
+    .tn-question { font-size: 15px; line-height: 1.55; color: var(--tn-text); white-space: pre-wrap; }
+    .tn-base-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.03em; color: var(--tn-muted); text-transform: uppercase; margin-bottom: 6px; }
+    .tn-question strong { font-weight: 700; }
+    .tn-figure { margin: 8px 0 16px; display: flex; justify-content: center; }
+    .tn-figure img { max-width: 100%; height: auto; }
+    .tn-figure svg { width: 100%; max-width: 420px; height: auto; }
+
+    .tn-options { margin-top: 22px; display: flex; flex-direction: column; gap: 4px; }
+    .tn-option { display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; cursor: pointer; border-radius: 2px; user-select: none; transition: background 0.08s; }
+    .tn-option:hover { background: #f6f6f6; }
+    .tn-radio { width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid #888; flex-shrink: 0; margin-top: 2px; position: relative; background: #fff; }
+    .tn-option.selected .tn-radio { border-color: var(--tn-accent); }
+    .tn-option.selected .tn-radio::after { content: ''; position: absolute; top: 2.5px; left: 2.5px; width: 8px; height: 8px; border-radius: 50%; background: var(--tn-accent); }
+    .tn-letter { font-weight: 500; min-width: 20px; }
+    .tn-option-text { flex: 1; }
+
+    /* Grid-keypad (math) */
+    .tn-keypad { margin-top: 10px; border: 1px solid #999; border-radius: 4px; padding: 8px; max-width: 340px; background: #fff; }
+    .tn-keypad-nav { display: flex; gap: 4px; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid #ddd; justify-content: flex-start; }
+    .tn-keypad-nav button { width: 32px; height: 28px; border-radius: 50%; border: 1px solid #bbb; background: #fff; cursor: pointer; font-size: 12px; color: #333; padding: 0; }
+    .tn-keypad-nav button:hover { background: #eee; }
+    .tn-keypad-row { display: flex; gap: 4px; margin-bottom: 4px; }
+    .tn-keypad-btn { flex: 1; height: 42px; background: #fff; border: 1px solid #bbb; border-radius: 3px; font-family: Georgia, serif; font-size: 17px; cursor: pointer; }
+    .tn-keypad-btn:hover { background: #eee; }
+    .tn-keypad-btn.icon svg { display: block; margin: 0 auto; }
+    .tn-keypad-input { display: inline-block; padding: 8px 14px; border: 1.5px solid #7a7a7a; border-radius: 3px; min-height: 30px; min-width: 240px; font-family: Georgia, serif; font-size: 18px; vertical-align: middle; background: #fff; }
+    .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
+
+    /* ── Drag-drop fill-in-the-blank (drag_drop) ─────────────────────── */
+    .tn-chips-row {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 14px 0; padding: 10px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px;
+    }
+    .tn-chip {
+      background: #4a90d9; color: #fff;
+      padding: 5px 13px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 15px;
+      border: 1px solid #3878be;
+    }
+    .tn-chip:active { cursor: grabbing; }
+    .tn-dropbox {
+      display: inline-block; min-width: 70px; padding: 3px 12px;
+      border: 1.5px dashed #7a7a7a; border-radius: 3px;
+      margin: 0 4px; text-align: center;
+      background: #f9f9f9; color: #333;
+      font-family: Georgia, serif; font-size: 15px;
+      vertical-align: middle; cursor: pointer;
+    }
+    .tn-dropbox.filled { border-style: solid; background: #dbe9ff; border-color: #4a90d9; }
+    .tn-dropbox.drag-over { background: #ffeeaa; }
+
+    /* ── Sort into categories (sort_categories) ──────────────────────── */
+    .tn-sort-pool {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin: 14px 0; padding: 10px;
+      border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px;
+      min-height: 40px;
+    }
+    .tn-sort-pool-empty { color: #888; font-style: italic; font-size: 13px; }
+    .tn-sort-chip {
+      background: #4a90d9; color: #fff;
+      padding: 7px 12px; border-radius: 3px;
+      cursor: grab; user-select: none;
+      font-family: Georgia, serif; font-size: 14px; line-height: 1.4;
+      border: 1px solid #3878be; max-width: 320px;
+    }
+    .tn-sort-chip:active { cursor: grabbing; }
+    .tn-sort-chip.selected { outline: 2px solid #ff9900; }
+    .tn-sort-categories { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
+    .tn-sort-category {
+      flex: 1 1 260px; min-height: 80px;
+      border: 1.5px dashed #7a7a7a; border-radius: 4px;
+      background: #f9f9f9; padding: 10px; cursor: pointer;
+    }
+    .tn-sort-category.drag-over { background: #ffeeaa; }
+    .tn-sort-category-label {
+      font-weight: 700; font-size: 13px; color: #333;
+      margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid #ddd;
+    }
+    .tn-sort-category-items { display: flex; flex-direction: column; gap: 6px; }
+    .tn-sort-category .tn-sort-chip { background: #dbe9ff; color: #1a3a5c; border-color: #4a90d9; cursor: pointer; max-width: none; }
+
+    .tn-card-actions { margin-top: 20px; padding-top: 16px; border-top: 1px solid #eee; display: flex; gap: 10px; }
+    .tn-btn-solution { background: #fff; border: 1px solid #b8b8b8; border-radius: 2px; padding: 8px 18px; font-size: 13px; color: #333; cursor: pointer; font-family: inherit; }
+    .tn-btn-solution:hover { background: #ebebeb; }
+    .tn-btn-solution:disabled { opacity: 0.5; cursor: default; }
+
+    .tn-exhibit-panel { margin-top: 18px; background: #ffffff; border: 1px solid #cfcfcf; border-radius: 3px; display: none; }
+    .tn-exhibit-panel.open { display: block; }
+    .tn-exhibit-header { display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #eaeaea; border-bottom: 1px solid #cfcfcf; font-size: 14px; color: #333; }
+    .tn-exhibit-close { background: transparent; border: none; cursor: pointer; font-size: 15px; color: #333; padding: 2px 8px; font-weight: 600; }
+    .tn-exhibit-body { padding: 18px 22px; font-size: 14px; line-height: 1.5; color: #222; white-space: pre-line; }
+    .tn-exhibit-body .katex-display { margin: 0.25em 0 !important; }
+    .tn-exhibit-body .katex-display > .katex { display: inline-block; }
+
+    @media (max-width: 900px) {
+      .tn-main { flex-direction: column; }
+      .tn-passage-pane { flex: 1 1 auto; position: static; max-height: 360px; width: 100%; }
+    }
+    @media (max-width: 700px) {
+      .tn-toolbar { padding: 8px 12px; gap: 6px; flex-wrap: wrap; }
+      .tn-main { margin: 16px auto; padding: 0 12px; }
+      .tn-card { padding: 20px 16px; }
+      .tn-question { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-root"></div>
+  <script src="nav.js?v=1"></script>
+
+  <div class="tn-toolbar">
+    <div class="tn-nav-arrows">
+      <button class="tn-btn" id="tn-prev" title="Previous question">←</button>
+      <button class="tn-btn next" id="tn-next" title="Next question">→</button>
+    </div>
+    <div class="tn-user">
+      <span>Guest</span>
+      <span class="tn-avatar">👤</span>
+    </div>
+  </div>
+
+  <div class="tn-progress-line"></div>
+  <div class="tn-infobar">
+    <span>FULL EXAM 5 (FULL CONTENT)</span>
+    <span class="sep">/</span>
+    <span id="tn-section-label">MATH</span>
+    <span class="sep">/</span>
+    <span id="tn-counter">1 OF 20</span>
+  </div>
+
+  <div class="tn-main" id="tn-main">
+    <div class="tn-passage-pane" id="tn-passage-pane"></div>
+
+    <div class="tn-question-pane">
+      <div class="tn-card" id="tn-card">
+        <div class="tn-base-tag" id="tn-base-tag"></div>
+        <div class="tn-question" id="tn-question">Loading…</div>
+        <div id="tn-body"></div>
+        <div class="tn-card-actions">
+          <button class="tn-btn-solution" id="tn-show-base" disabled>Base Question</button>
+          <button class="tn-btn-solution" id="tn-show-solution" disabled>Solution</button>
+        </div>
+      </div>
+
+      <div class="tn-exhibit-panel" id="tn-exhibit-panel">
+        <div class="tn-exhibit-header">
+          <span id="tn-exhibit-title">Solution</span>
+          <button class="tn-exhibit-close" id="tn-close-exhibit">X</button>
+        </div>
+        <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = 'worksheet_35/data.json?v=' + Date.now();
+    const state = {
+      questions: [],   // flattened, global q_number order, each tagged .section
+      passages: [],    // the ELA passage objects (if any)
+      cur: 0,
+      answers: {},
+    };
+
+    async function boot() {
+      wireControls();
+      try {
+        const r = await fetch(DATA_URL);
+        const data = await r.json();
+        const list = [];
+        (data.math_questions || []).forEach((q, i) => list.push(Object.assign({ section: 'math', sectionIndex: i + 1, sectionTotal: (data.math_questions || []).length }, q)));
+        if (Array.isArray(data.ela_passages) && data.ela_passages.length) {
+          state.passages = data.ela_passages;
+          const totalEla = data.ela_passages.reduce((sum, p) => sum + (p.questions || []).length, 0);
+          let seen = 0;
+          data.ela_passages.forEach((p, pIdx) => {
+            const eq = p.questions || [];
+            eq.forEach((q, i) => { seen++; list.push(Object.assign({ section: 'ela', passageIdx: pIdx, sectionIndex: seen, sectionTotal: totalEla }, q)); });
+          });
+        } else if (data.ela_passage) {
+          state.passages = [data.ela_passage];
+          const eq = data.ela_passage.questions || [];
+          eq.forEach((q, i) => list.push(Object.assign({ section: 'ela', passageIdx: 0, sectionIndex: i + 1, sectionTotal: eq.length }, q)));
+        }
+        (data.grammar_questions || []).forEach((q, i) => list.push(Object.assign({ section: 'grammar', sectionIndex: i + 1, sectionTotal: (data.grammar_questions || []).length }, q)));
+        state.questions = list.sort((a, b) => a.q_number - b.q_number);
+      } catch (e) {
+        console.error('boot fetch failed:', e);
+        state.questions = [];
+      }
+      routeFromHash();
+      render();
+    }
+
+    function totalQ() { return state.questions.length; }
+
+    function parseHash() {
+      const m = (location.hash || '').match(/#Q(\d+)/);
+      if (!m) return null;
+      return Math.max(1, parseInt(m[1], 10));
+    }
+
+    function routeFromHash() {
+      const q = parseHash();
+      if (q) {
+        const idx = state.questions.findIndex(x => x.q_number === q);
+        state.cur = idx >= 0 ? idx : 0;
+      } else {
+        state.cur = 0;
+        location.hash = state.questions.length ? 'Q' + state.questions[0].q_number : 'Q1';
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      routeFromHash();
+      render();
+      closeExhibit();
+    });
+
+    function currentQ() { return state.questions[state.cur] || null; }
+
+    function updateInfobar() {
+      const q = currentQ();
+      const label = document.getElementById('tn-section-label');
+      const counter = document.getElementById('tn-counter');
+      if (!q) { label.textContent = ''; counter.textContent = ''; return; }
+      if (q.section === 'math') label.textContent = 'MATH';
+      else if (q.section === 'ela') {
+        const p = state.passages[q.passageIdx];
+        label.textContent = 'ELA' + (p ? ' — ' + p.title.toUpperCase() : '');
+      }
+      else label.textContent = 'GRAMMAR';
+      counter.textContent = q.sectionIndex + ' OF ' + q.sectionTotal;
+    }
+
+    function wireControls() {
+      document.getElementById('tn-prev').onclick = () => go(-1);
+      document.getElementById('tn-next').onclick = () => go(+1);
+      document.getElementById('tn-show-solution').onclick = () => toggleExhibit('solution');
+      document.getElementById('tn-show-base').onclick = () => toggleExhibit('base');
+      document.getElementById('tn-close-exhibit').onclick = closeExhibit;
+      document.addEventListener('keydown', (e) => {
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+        if (e.key === 'ArrowRight') go(+1);
+        if (e.key === 'ArrowLeft') go(-1);
+        if (e.key === 'Escape') closeExhibit();
+      });
+    }
+
+    function go(delta) {
+      const next = state.cur + delta;
+      if (next < 0 || next >= state.questions.length) return;
+      state.cur = next;
+      location.hash = 'Q' + state.questions[next].q_number;
+    }
+
+    function toggleExhibit(mode) {
+      const panel = document.getElementById('tn-exhibit-panel');
+      if (panel.classList.contains('open') && state.exhibitMode === mode) closeExhibit();
+      else openExhibit(mode);
+    }
+    function openSolutionExhibit(q) {
+      if (!q.solution || (!q.solution.exhibit_text && !q.solution.exhibit_image)) return false;
+      const body = document.getElementById('tn-exhibit-body');
+      let html = '';
+      if (q.solution.exhibit_svg) {
+        html += `<div style="margin-bottom:12px;max-width:320px;"><style>.tn-exhibit-svg-wrap svg{width:100%;height:auto;}</style><div class="tn-exhibit-svg-wrap">${q.solution.exhibit_svg}</div></div>`;
+      }
+      if (q.solution.exhibit_image) {
+        html += `<img src="${q.solution.exhibit_image}" alt="Answer explanation" style="max-width:100%;display:block;border-radius:4px;">`;
+      } else {
+        html += renderQuestionText(q.solution.exhibit_text);
+      }
+      body.innerHTML = html;
+      document.getElementById('tn-exhibit-title').textContent = 'Solution';
+      return true;
+    }
+    function openBaseExhibit(q) {
+      const bq = q.base_question;
+      if (!bq) return false;
+      const body = document.getElementById('tn-exhibit-body');
+      let html = '';
+      if (bq.figure_svg) html += `<div class="tn-figure" style="margin-bottom:14px;">${bq.figure_svg}</div>`;
+      else if (bq.exhibit_image_path) html += `<div class="tn-figure" style="margin-bottom:14px;"><img src="${bq.exhibit_image_path}" alt="figure"></div>`;
+      if (bq.stimulus) html += `<div class="tn-stimulus-box" style="margin-bottom:14px;">${bq.stimulus}</div>`;
+      html += `<div style="margin-bottom:14px;">${renderQuestionText(bq.question)}</div>`;
+      if (bq.options) {
+        html += '<div style="margin-bottom:14px;">' + Object.keys(bq.options).map(k => {
+          const isCorrect = k === bq.correct;
+          return `<div style="padding:4px 0;${isCorrect ? 'font-weight:700;color:#1a7a1a;' : ''}">${esc(k)}. ${esc(bq.options[k])}${isCorrect ? ' ✓' : ''}</div>`;
+        }).join('') + '</div>';
+      }
+      html += '<div style="border-top:1px solid #ddd;margin-top:10px;padding-top:10px;">';
+      if (bq.solution && bq.solution.exhibit_image) {
+        html += `<img src="${bq.solution.exhibit_image}" alt="Base question solution" style="max-width:100%;display:block;border-radius:4px;">`;
+      } else if (bq.solution && bq.solution.exhibit_text) {
+        html += renderQuestionText(bq.solution.exhibit_text);
+      }
+      html += '</div>';
+      body.innerHTML = html;
+      document.getElementById('tn-exhibit-title').textContent = 'Base Question' + (q.base_source ? ' — ' + q.base_source : '');
+      return true;
+    }
+    function openExhibit(mode) {
+      const q = currentQ();
+      if (!q) return;
+      const ok = mode === 'base' ? openBaseExhibit(q) : openSolutionExhibit(q);
+      if (!ok) return;
+      state.exhibitMode = mode;
+      const body = document.getElementById('tn-exhibit-body');
+      typesetMath(body);
+      const panel = document.getElementById('tn-exhibit-panel');
+      panel.classList.add('open');
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    function closeExhibit() {
+      document.getElementById('tn-exhibit-panel').classList.remove('open');
+      state.exhibitMode = null;
+    }
+
+    function typesetMath(root, retriesLeft) {
+      if (retriesLeft === undefined) retriesLeft = 20;
+      if (window.renderMathInElement) {
+        window.renderMathInElement(root, {
+          delimiters: [
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '$$', right: '$$', display: true}
+          ],
+          throwOnError: false
+        });
+      } else if (retriesLeft > 0) {
+        // KaTeX's auto-render script is `defer`-loaded and may not have executed yet
+        // by the time boot()'s fetch() resolves (a real race, not just a slow network).
+        setTimeout(() => typesetMath(root, retriesLeft - 1), 50);
+      }
+    }
+
+    function esc(s) {
+      return (s || '').replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+    }
+
+    function renderBoldText(s) {
+      return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/__([^_]+)__/g, '<u>$1</u>');
+    }
+
+    function renderQuestionText(text) {
+      const lines = (text || '').split('\n');
+      const html = [];
+      let inList = false;
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (trimmed.startsWith('<')) {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push(line);
+        } else if (trimmed.startsWith('• ') || trimmed.startsWith('- ')) {
+          if (!inList) { html.push('<ul style="margin:8px 0 0 20px;">'); inList = true; }
+          html.push('<li>' + renderBoldText(trimmed.slice(2)) + '</li>');
+        } else if (trimmed === '') {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push('<div style="height:0.9em;"></div>');
+        } else {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push('<div>' + renderBoldText(line) + '</div>');
+        }
+      }
+      if (inList) html.push('</ul>');
+      return html.join('');
+    }
+
+    function renderPassagePane() {
+      const pane = document.getElementById('tn-passage-pane');
+      const q = currentQ();
+      const p = q ? state.passages[q.passageIdx] : null;
+      if (!p) { pane.innerHTML = ''; return; }
+      let html = `<div class="tn-passage-title">${esc(p.title)}</div>`;
+      if (p.author) html += `<div class="tn-passage-author">by ${esc(p.author)}</div>`;
+      if (p.intro_note) html += `<div class="tn-passage-intro">${esc(p.intro_note)}</div>`;
+      if (p.sentence_paragraphs) {
+        p.sentence_paragraphs.forEach(para => {
+          html += `<div class="tn-passage-sentpara">${para.map(s =>
+            `<span class="tn-passage-sentnum">(${s.num})</span><span class="tn-passage-sentence" data-sentnum="${s.num}">${esc(s.text)}</span> `
+          ).join('')}</div>`;
+        });
+      } else if (p.paragraphs) {
+        p.paragraphs.forEach(para => {
+          html += `<div class="tn-passage-para">
+            <span class="tn-passage-paranum">${para.num}</span>
+            <span class="tn-passage-text">${renderBoldText(para.text)}</span>
+          </div>`;
+        });
+      } else if (p.lines) {
+        p.lines.forEach(line => {
+          html += `<div class="tn-passage-line">
+            <span class="tn-passage-linenum">${line.num ? line.num : ''}</span>
+            <span class="tn-passage-text">${esc(line.text) || '&nbsp;'}</span>
+          </div>`;
+        });
+      }
+      if (p.passage_figure_html) html += `<div style="margin-top:16px;">${p.passage_figure_html}</div>`;
+      if (p.citation) html += `<div class="tn-passage-citation">${esc(p.citation)}</div>`;
+      pane.innerHTML = html;
+    }
+
+    function render() {
+      updateInfobar();
+      const q = currentQ();
+      const main = document.getElementById('tn-main');
+      document.getElementById('tn-prev').disabled = state.cur === 0;
+      document.getElementById('tn-next').disabled = state.cur === state.questions.length - 1;
+
+      if (!q) {
+        document.getElementById('tn-question').textContent = 'No question found.';
+        document.getElementById('tn-body').innerHTML = '';
+        document.getElementById('tn-show-solution').disabled = true;
+        document.getElementById('tn-show-base').disabled = true;
+        return;
+      }
+
+      main.classList.remove('no-pane', 'math', 'grammar');
+      if (q.section === 'math') {
+        main.classList.add('no-pane', 'math');
+        document.getElementById('tn-passage-pane').innerHTML = '';
+      } else if (q.section === 'grammar') {
+        main.classList.add('no-pane', 'grammar');
+        document.getElementById('tn-passage-pane').innerHTML = '';
+      } else {
+        renderPassagePane();
+      }
+
+      let baseLabel = '';
+      if (q.base_source) {
+        baseLabel = 'Based on ' + q.base_source;
+      } else if (q.section === 'math') {
+        const baseMatch = (q.id || '').match(/^(.*?)\.(\d+)$/);
+        if (baseMatch) baseLabel = 'Based on ' + baseMatch[1];
+      }
+      document.getElementById('tn-base-tag').textContent = baseLabel;
+
+      let stimulusHtml = '';
+      if (q.section === 'grammar' && q.stimulus) {
+        stimulusHtml = `<div class="tn-stimulus-box">${q.stimulus}</div>`;
+      }
+      let figureHtml = '';
+      if (q.figure_svg) figureHtml = `<div class="tn-figure">${q.figure_svg}</div>`;
+
+      const questionTextHtml = q.question_type === 'drag_drop'
+        ? renderDragDropProse(q)
+        : renderQuestionText(q.question);
+      document.getElementById('tn-question').innerHTML = figureHtml + stimulusHtml + questionTextHtml;
+
+      let bodyHtml = '';
+      if (q.question_type === 'mc') {
+        bodyHtml = renderMc(q);
+      } else if (q.question_type === 'mc_multi') {
+        bodyHtml = renderMcMulti(q);
+      } else if (q.question_type === 'grid_keypad') {
+        bodyHtml = renderGridKeypad(q);
+      } else if (q.question_type === 'drag_drop') {
+        bodyHtml = renderDragDropChips(q);
+      } else if (q.question_type === 'sort_categories') {
+        bodyHtml = renderSortCategories(q);
+      }
+      document.getElementById('tn-body').innerHTML = bodyHtml;
+
+      const hasSolution = !!(q.solution && (q.solution.exhibit_text || q.solution.exhibit_image));
+      document.getElementById('tn-show-solution').disabled = !hasSolution;
+      document.getElementById('tn-show-base').disabled = !q.base_question;
+
+      wireInputs(q);
+      typesetMath(document.getElementById('tn-card'));
+    }
+
+    function renderOptionContent(v) {
+      const s = (v || '').trim();
+      if (s.startsWith('<')) return s;
+      return renderBoldText(v);
+    }
+
+    function renderMc(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = state.answers[q.q_number] || null;
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel === L ? ' selected' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-radio"></span>
+          <span class="tn-letter">${L}.</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc">${opts}</div>`;
+    }
+
+    function renderMcMulti(q) {
+      const letters = Object.keys(q.options || {}).sort();
+      const sel = new Set(state.answers[q.q_number] || []);
+      const opts = letters.map(L => {
+        const cls = 'tn-option' + (sel.has(L) ? ' selected' : '');
+        return `<div class="${cls}" data-letter="${L}">
+          <span class="tn-radio" style="border-radius:2px;"></span>
+          <span class="tn-letter">${L}</span>
+          <span class="tn-option-text">${renderOptionContent(q.options[L])}</span>
+        </div>`;
+      }).join('');
+      return `<div class="tn-options" data-mode="mc_multi">${opts}</div>`;
+    }
+
+    function renderGridKeypad(q) {
+      const val = state.answers[q.q_number] || '';
+      const prefix = q.grid_prefix || '';
+      const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      return `
+        <div class="tn-grid-label">${esc(label)}</div>
+        <div style="margin-top: 10px;">
+          ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;margin-right:8px;">${esc(prefix)}</span>` : ''}
+          <span class="tn-keypad-input" id="tn-grid-display">${esc(val)}</span>
+        </div>
+        <div class="tn-keypad" data-role="keypad">
+          <div class="tn-keypad-nav">
+            <button data-kp="ARR_L" title="Left">←</button>
+            <button data-kp="ARR_R" title="Right">→</button>
+            <button data-kp="UNDO"  title="Undo">↺</button>
+            <button data-kp="REDO"  title="Redo">↻</button>
+            <button data-kp="BKSP"  title="Backspace">⌫</button>
+            <button data-kp="CLEAR" title="Clear">🗑</button>
+          </div>
+          <div class="tn-keypad-row">
+            ${['1','2','3','4','5'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            ${['6','7','8','9','0'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
+          </div>
+          <div class="tn-keypad-row">
+            <button class="tn-keypad-btn" data-kp="n">n</button>
+            <button class="tn-keypad-btn" data-kp="-">−</button>
+            <button class="tn-keypad-btn" data-kp="+">+</button>
+            <button class="tn-keypad-btn" data-kp=".">.</button>
+          </div>
+        </div>
+      `;
+    }
+
+    // ── Drag-drop fill-in-the-blank: question text has a "[B1]"-style
+    // marker; drop_values are chips the student drags/clicks into it. ──
+    function renderDragDropProse(q) {
+      let html = renderQuestionText(q.question);
+      const placed = state.answers[q.q_number] || {};
+      (q.boxes || []).forEach(b => {
+        const marker = '[' + b.label + ']';
+        const val = placed[b.label] || '';
+        const cls = val ? 'tn-dropbox filled' : 'tn-dropbox';
+        html = html.split(marker).join(
+          `<span class="${cls}" data-box="${b.label}">${val ? esc(val) : '____'}</span>`);
+      });
+      return html;
+    }
+    function renderDragDropChips(q) {
+      const placed = state.answers[q.q_number] || {};
+      const placedValues = new Set(Object.values(placed));
+      const chips = (q.drop_values || []).map(v => {
+        if (placedValues.has(v)) return '';
+        return `<div class="tn-chip" draggable="true" data-value="${esc(v)}">${esc(v)}</div>`;
+      }).filter(Boolean).join('');
+      const empty = chips.length === 0
+        ? `<span style="color:#888; font-style:italic; font-size:13px;">All values placed — click a box to return one.</span>`
+        : chips;
+      return `<div class="tn-chips-row" data-role="chips">${empty}</div>`;
+    }
+
+    // ── Sort items into N labeled categories (sort_categories) ──────
+    function renderSortCategories(q) {
+      const placed = state.answers[q.q_number] || {}; // { itemId: categoryId }
+      const items = q.sort_items || [];
+      const categories = q.sort_categories || [];
+      const pool = items.filter(it => !placed[it.id]);
+      const poolHtml = pool.length
+        ? pool.map(it => `<div class="tn-sort-chip" draggable="true" data-item="${esc(it.id)}">${renderBoldText(it.text)}</div>`).join('')
+        : `<span class="tn-sort-pool-empty">All items placed — click an item in a box to return it here.</span>`;
+      const catsHtml = categories.map(cat => {
+        const inBox = items.filter(it => placed[it.id] === cat.id);
+        const itemsHtml = inBox.map(it =>
+          `<div class="tn-sort-chip" data-item="${esc(it.id)}">${renderBoldText(it.text)}</div>`
+        ).join('');
+        return `<div class="tn-sort-category" data-cat="${esc(cat.id)}">
+          <div class="tn-sort-category-label">${esc(cat.label)}</div>
+          <div class="tn-sort-category-items">${itemsHtml}</div>
+        </div>`;
+      }).join('');
+      return `
+        <div class="tn-sort-pool" data-role="sort-pool">${poolHtml}</div>
+        <div class="tn-sort-categories">${catsHtml}</div>
+      `;
+    }
+
+    function wireInputs(q) {
+      document.querySelectorAll('.tn-option').forEach((el) => {
+        el.addEventListener('click', () => {
+          const letter = el.dataset.letter;
+          if (q.question_type === 'mc') {
+            state.answers[q.q_number] = (state.answers[q.q_number] === letter) ? null : letter;
+          } else if (q.question_type === 'mc_multi') {
+            const arr = state.answers[q.q_number] || [];
+            const idx = arr.indexOf(letter);
+            if (idx >= 0) arr.splice(idx, 1); else arr.push(letter);
+            state.answers[q.q_number] = arr;
+          }
+          render();
+        });
+      });
+
+      document.querySelectorAll('[data-role="keypad"] button[data-kp]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.kp;
+          let cur = state.answers[q.q_number] || '';
+          if (key === 'BKSP')       cur = cur.slice(0, -1);
+          else if (key === 'CLEAR') cur = '';
+          else if (['ARR_L','ARR_R','UNDO','REDO'].includes(key)) return;
+          else cur += key;
+          state.answers[q.q_number] = cur;
+          const disp = document.getElementById('tn-grid-display');
+          if (disp) disp.textContent = cur;
+        });
+      });
+
+      // ── Drag-drop (drag_drop) ────────────────────────────
+      if (q.question_type === 'drag_drop') {
+        document.querySelectorAll('.tn-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.value);
+            e.dataTransfer.effectAllowed = 'copy';
+          });
+          chip.addEventListener('click', () => {
+            state._selectedChip = chip.dataset.value;
+            document.querySelectorAll('.tn-chip').forEach(c => c.style.outline = '');
+            chip.style.outline = '2px solid #ff9900';
+          });
+        });
+        document.querySelectorAll('.tn-dropbox').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const v = e.dataTransfer.getData('text/plain');
+            const lbl = box.dataset.box;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = v;
+            state._selectedChip = null;
+            render();
+          });
+          box.addEventListener('click', () => {
+            const lbl = box.dataset.box;
+            if (state._selectedChip) {
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][lbl] = state._selectedChip;
+              state._selectedChip = null;
+              render();
+            } else if (state.answers[q.q_number] && state.answers[q.q_number][lbl]) {
+              delete state.answers[q.q_number][lbl];
+              render();
+            }
+          });
+        });
+      }
+
+      // ── Sort into categories (sort_categories) ───────────
+      if (q.question_type === 'sort_categories') {
+        document.querySelectorAll('.tn-sort-chip').forEach(chip => {
+          chip.addEventListener('dragstart', (e) => {
+            e.dataTransfer.setData('text/plain', chip.dataset.item);
+            e.dataTransfer.effectAllowed = 'move';
+          });
+          chip.addEventListener('click', () => {
+            const itemId = chip.dataset.item;
+            // Clicking a chip already placed in a category returns it to the pool.
+            const placed = state.answers[q.q_number] || {};
+            if (placed[itemId]) {
+              delete placed[itemId];
+              state.answers[q.q_number] = placed;
+              state._selectedSortItem = null;
+              render();
+              return;
+            }
+            state._selectedSortItem = itemId;
+            document.querySelectorAll('.tn-sort-pool .tn-sort-chip').forEach(c => c.classList.remove('selected'));
+            chip.classList.add('selected');
+          });
+        });
+        document.querySelectorAll('.tn-sort-category').forEach(box => {
+          box.addEventListener('dragover', (e) => { e.preventDefault(); box.classList.add('drag-over'); });
+          box.addEventListener('dragleave', () => box.classList.remove('drag-over'));
+          box.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const itemId = e.dataTransfer.getData('text/plain');
+            const catId = box.dataset.cat;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][itemId] = catId;
+            state._selectedSortItem = null;
+            render();
+          });
+          box.addEventListener('click', (e) => {
+            if (e.target.closest('.tn-sort-chip')) return; // handled by the chip's own click
+            if (state._selectedSortItem) {
+              const catId = box.dataset.cat;
+              state.answers[q.q_number] = state.answers[q.q_number] || {};
+              state.answers[q.q_number][state._selectedSortItem] = catId;
+              state._selectedSortItem = null;
+              render();
+            }
+          });
+        });
+      }
+    }
+
+    boot();
+  </script>
+</body>
+</html>
