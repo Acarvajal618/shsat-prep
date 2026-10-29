@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Practice Exam — 10/29</title>
+  <title>Practice Exam — 10/29 (Half Exam)</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
@@ -270,7 +270,7 @@
 
   <div class="tn-progress-line"></div>
   <div class="tn-infobar">
-    <span>PRACTICE EXAM — 10/29</span>
+    <span>PRACTICE EXAM — 10/29 (HALF EXAM)</span>
     <span class="sep">/</span>
     <span id="tn-section-label">MATH</span>
     <span class="sep">/</span>
@@ -468,7 +468,7 @@
     function updateTimerDisplay() {
       const el = document.getElementById('tn-timer');
       if (!el) return;
-      const CAP_MS = 3 * 60 * 60 * 1000;
+      const CAP_MS = 1.5 * 60 * 60 * 1000; // half exam — 90 min cap
       let elapsed = Date.now() - state.startTime;
       const capped = elapsed >= CAP_MS;
       if (capped) elapsed = CAP_MS;
