@@ -1,0 +1,2896 @@
+{
+  "math_questions": [
+    {
+      "id": "P-FE4-M-GM07",
+      "question_type": "mc",
+      "question": "A bag has 7 white socks and 5 black socks. If two socks are picked at random **without** replacing the first sock back into the bag, what is the probability that the first sock is white and the second sock is black?",
+      "options": {
+        "A": "\\(\\dfrac{35}{132}\\)",
+        "B": "\\(\\dfrac{7}{12}\\)",
+        "C": "\\(\\dfrac{5}{12}\\)",
+        "D": "\\(\\dfrac{1}{2}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "P(white first) = 7/12. P(black second | white first) = 5/11. P(both) = (7/12) x (5/11) = 35/132.\n\n**Why this sounds right:** It's tempting to use 5/12 for the second draw (the original proportion), forgetting that removing the first white sock changes the total number of socks left in the bag."
+      },
+      "base_source": "Exam G — Math Q7 (GM07)",
+      "base_question": {
+        "question": "A bag has 6 white socks and 4 black socks. If two socks are picked at random **without** replacing the first sock back into the bag, what is the probability that the first sock is white and the second sock is black?",
+        "options": {
+          "A": "\\(\\dfrac{6}{25}\\)",
+          "B": "\\(\\dfrac{4}{15}\\)",
+          "C": "\\(\\dfrac{2}{5}\\)",
+          "D": "\\(\\dfrac{1}{2}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(6/10)(4/9) = 24/90 = 4/15."
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-FE4-M-KM1_Q105",
+      "question_type": "mc",
+      "question": "Margo bowled a mean of 95 points per game in each of her first 4 games. If she scores 145 points in her 5th game, what is her mean score for all 5 games?",
+      "options": {
+        "A": "110",
+        "B": "105",
+        "C": "115",
+        "D": "120"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Total for first 4 games: 4 x 95 = 380. Add 5th game: 380+145=525. New mean over 5 games: 525/5 = 105.\n\n**Why this sounds right:** It's tempting to average 95 and 145 directly ((95+145)/2), but that treats the first 4 games as if they were just one data point instead of four."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q105 (KM1_Q105)",
+      "base_question": {
+        "question": "Margo bowled a mean of 110 points per game in each of her first 4 games. If she scores 160 points in her 5th game, what is her mean score for all 5 games?",
+        "options": {
+          "A": "120",
+          "B": "132",
+          "C": "135",
+          "D": "142"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "4x110=440. 440+160=600. 600/5=120."
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-FE4-M-KM3_Q99",
+      "question_type": "mc",
+      "question": "Andre buys two cedar trees to plant in his back yard. One tree is 3 feet, 10 inches tall and the other is 5 feet, 1.5 inches tall. What is the difference in height, in inches, between the two trees?",
+      "options": {
+        "A": "10.5",
+        "B": "19.5",
+        "C": "15.5",
+        "D": "24.5"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Tree 1: 3 ft 10 in = 3x12+10 = 46 inches. Tree 2: 5 ft 1.5 in = 5x12+1.5 = 61.5 inches. Difference: 61.5-46=15.5 inches.\n\n**Why this sounds right:** It's easy to forget to convert the FEET portion of each height into inches before subtracting, and accidentally just subtract the inch portions or feet portions separately."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q99 (KM3_Q99)",
+      "base_question": {
+        "question": "Andre buys two cedar trees to plant in his back yard. One tree is 4 feet, 9 inches tall and the other is 5 feet, 6.5 inches tall. What is the difference in height, in inches, between the two trees?",
+        "options": {
+          "A": "8.5",
+          "B": "9.5",
+          "C": "10.5",
+          "D": "11.5"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "4ft9in=57in. 5ft6.5in=66.5in. 66.5-57=9.5."
+        }
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-FE4-M-FM37",
+      "question_type": "mc",
+      "question": "The mean weight of a group of 6 people is 160 pounds. If a 7th person weighing 202 pounds joins the group, what is the new mean weight of the 7 people?",
+      "options": {
+        "A": "169",
+        "B": "167",
+        "C": "168",
+        "D": "166"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Total weight of original 6: 6 x 160 = 960. New total: 960+202=1162. New mean: 1162/7 = 166.\n\n**Why this sounds right:** A quick but wrong shortcut is averaging the old mean and the new person's weight directly ((160+202)/2), which ignores that the old mean represents 6 people, not just one."
+      },
+      "base_source": "Exam F — Math Q37 (FM37)",
+      "base_question": {
+        "question": "The mean weight of a group of 6 people is 150 pounds. If a 7th person weighing 185 pounds joins the group, what is the new mean weight of the 7 people?",
+        "options": {
+          "A": "155",
+          "B": "156",
+          "C": "157",
+          "D": "158"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "6x150=900. 900+185=1085. 1085/7=155."
+        }
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-FE4-M-KM3_Q74",
+      "question_type": "mc",
+      "question": "Mrs. Whitby has a pencil box containing 9 blue pencils, 14 green pencils, and 11 orange pencils. If she removes one pencil at random, what is the probability that it will **not** be green?",
+      "options": {
+        "E": "\\(\\dfrac{10}{17}\\)",
+        "F": "\\(\\dfrac{14}{34}\\)",
+        "G": "\\(\\dfrac{1}{2}\\)",
+        "H": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_text": "Total pencils: 9+14+11=34. Not green: 34-14=20. P(not green) = 20/34 = 10/17.\n\n**Why this sounds right:** Option F uses the probability of green itself (14/34) — a tempting trap if you forget the question asks for the opposite (NOT green), which is 1 minus that probability."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q74 (KM3_Q74)",
+      "base_question": {
+        "question": "Mrs. Whitby has a pencil box containing 7 blue pencils, 10 green pencils, and 8 orange pencils. If she removes one pencil at random, what is the probability that it will **not** be green?",
+        "options": {
+          "E": "\\(\\dfrac{2}{3}\\)",
+          "F": "\\(\\dfrac{3}{5}\\)",
+          "G": "\\(\\dfrac{1}{2}\\)",
+          "H": "\\(\\dfrac{2}{5}\\)"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "Total=25. Not green=15. 15/25=3/5."
+        }
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-FE4-M-KM2_Q105",
+      "question_type": "mc",
+      "question": "The speed 8 feet per second is equivalent to how many meters per hour? (Use the approximation 1 foot = 0.3 meter.)",
+      "options": {
+        "A": "8640",
+        "B": "144.0",
+        "C": "2.4",
+        "D": "86400"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "8 ft/sec x 0.3 m/ft = 2.4 m/sec. Convert to per hour: 2.4 x 3600 sec/hr = 8640 m/hr.\n\n**Why this sounds right:** It's easy to stop after converting feet to meters (getting 2.4 m/sec) and forget the final step of scaling from \"per second\" up to \"per hour\" (a factor of 3600)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q105 (KM2_Q105)",
+      "base_question": {
+        "question": "The speed 5 feet per second is equivalent to how many meters per hour? (Use the approximation 1 foot = 0.3 meter.)",
+        "options": {
+          "A": "1.5",
+          "B": "16.67",
+          "C": "5,400",
+          "D": "60,000"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "5 x 0.3 = 1.5 m/sec. 1.5 x 3600 = 5400 m/hr."
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-FE4-M-EM19",
+      "question_type": "mc",
+      "question": "A rectangular quilt is 12 feet long and 8 feet wide. It is constructed entirely of square fabric patches measuring 0.5 foot on each side. How many fabric patches are needed to make the quilt?",
+      "options": {
+        "A": "96",
+        "B": "384",
+        "C": "40",
+        "D": "768"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Number of patches along the length: 12/0.5=24. Along the width: 8/0.5=16. Total patches: 24 x 16 = 384.\n\n**Why this sounds right:** It's tempting to just compute the quilt's area in square feet (96) and treat that as the patch count, forgetting that each patch covers less than one square foot, so more patches are needed than the raw area suggests."
+      },
+      "base_source": "Exam E — Math Q19 (EM19)",
+      "base_question": {
+        "question": "A rectangular quilt is 9 feet long and 6 feet wide. It is constructed entirely of square fabric patches measuring 0.75 foot on each side. How many fabric patches are needed to make the quilt?",
+        "options": {
+          "A": "54",
+          "B": "72",
+          "C": "96",
+          "D": "120"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "9/0.75=12 patches along length, 6/0.75=8 along width, 12x8=96."
+        }
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-FE4-M-KM3_Q73",
+      "question_type": "mc",
+      "question": "If a certain train fare costs \\($6.00\\) for the first 12 miles of service, \\($0.25\\) per mile for the next 38 miles, and \\($0.15\\) per mile for each additional mile, what would the train fare be to travel a total distance of 90 miles?",
+      "options": {
+        "A": "$16.5",
+        "B": "$26.5",
+        "C": "$21.5",
+        "D": "$31.5"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "First 12 miles: $6. Next 38 miles: 38 x $0.25 = $9.5. Remaining miles: 90-12-38=40, at $0.15/mile = $6.0. Total: $6+$9.5+$6.0 = $21.5.\n\n**Why this sounds right:** It's tempting to apply a single rate to all 90 miles instead of breaking the trip into the three separate tiers, each with its own rate."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q73 (KM3_Q73)",
+      "base_question": {
+        "question": "If a certain train fare costs $5.00 for the first 10 miles of service, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile, what would the train fare be to travel a total distance of 100 miles?",
+        "options": {
+          "A": "$15.00",
+          "B": "$17.50",
+          "C": "$20.00",
+          "D": "$25.00"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "5 + 40(0.25) + 50(0.10) = 5+10+5=20."
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-FE4-M-DM10",
+      "question_type": "mc",
+      "question": "\\[2x + 15 > 4x + 7\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x > 11\\)",
+        "B": "\\(x > 4\\)",
+        "C": "\\(x < 11\\)",
+        "D": "\\(x < 4\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "2x + 15 > 4x + 7 --> 15 - 7 > 4x - 2x --> 8 > 2x --> 4 > x, i.e. x < 4.\n\n**Why this sounds right:** It's easy to subtract the constants wrong (8/2=11 if you mistakenly compute 15+7 instead of 15-7) or to flip the inequality sign incorrectly when moving terms."
+      },
+      "base_source": "Exam D — Math Q10 (DM10)",
+      "base_question": {
+        "question": "\\[2x + 11 > 3x + 9\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+        "options": {
+          "A": "\\(x < 2\\)",
+          "B": "\\(x > 2\\)",
+          "C": "\\(x < 20\\)",
+          "D": "\\(x > 20\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "2x + 11 > 3x + 9 --> 2 > x, so x < 2."
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-FE4-M-FM16",
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{x}{y}+\\dfrac{5}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+      "options": {
+        "A": "\\(x^2+5y\\)",
+        "B": "\\(5x+y\\)",
+        "C": "\\(x^2+5\\)",
+        "D": "\\(x+5y\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Common denominator xy: x/y = x*x/(xy) = x^2/(xy). 5/x = 5y/(xy). Sum = (x^2+5y)/(xy). So square = x^2+5y.\n\n**Why this sounds right:** Option C (x^2+5) forgets to multiply the second term's numerator (5) by y when converting to the common denominator xy — only the first term's numerator needs an x factor, but the second needs a y factor."
+      },
+      "base_source": "Exam F — Math Q16 (FM16)",
+      "base_question": {
+        "question": "If \\(\\dfrac{x}{y}+\\dfrac{3}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+        "options": {
+          "A": "\\(x+3y\\)",
+          "B": "\\(3x+y\\)",
+          "C": "\\(x^2+3\\)",
+          "D": "\\(x^2+3y\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "x/y = x^2/(xy), 3/x = 3y/(xy), sum numerator = x^2+3y."
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-FE4-M-EM33",
+      "question_type": "mc",
+      "question": "A school's robotics club has 9 members: 6 are eighth graders, and 3 are seventh graders. The club needs to choose a President, a Vice President, and a Treasurer. If no member can hold more than one office, how many different ways can the positions be filled, given that the President must be an eighth grader?",
+      "options": {
+        "A": "12",
+        "B": "336",
+        "C": "504",
+        "D": "672"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "President: 6 choices (must be 8th grader). Vice President: 8 remaining members. Treasurer: 7 remaining. Total: 6 x 8 x 7 = 336.\n\n**Why this sounds right:** Option C (504) is what you'd get WITHOUT the restriction on President — it's tempting to compute the unrestricted permutation count and forget to apply the eighth-grader-only condition to the first slot."
+      },
+      "base_source": "Exam E — Math Q33 (EM33)",
+      "base_question": {
+        "question": "A school's robotics club has 8 members: 5 are eighth graders, and 3 are seventh graders. The club needs to choose a President, a Vice President, and a Treasurer. If no member can hold more than one office, how many different ways can the positions be filled, given that the President must be an eighth grader?",
+        "options": {
+          "A": "18",
+          "B": "210",
+          "C": "336",
+          "D": "360"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "5 x 7 x 6 = 210."
+        }
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-FE4-M-KM1_Q98",
+      "question_type": "mc",
+      "question": "Larissa spends 3 times as many hours reading as Tom does. Nela spends half as many hours reading as Tom does. If all three of them read a combined total of 27 hours, how many hours did Tom read?",
+      "options": {
+        "E": "4",
+        "F": "6",
+        "G": "9",
+        "H": "12"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_text": "Let Tom = T. Larissa = 3T, Nela = 0.5T. Total: 3T + T + 0.5T = 4.5T = 27. T = 6.\n\n**Why this sounds right:** It's tempting to divide 27 by 3 (the number of people) instead of by the sum of their reading-hour MULTIPLIERS (3+1+0.5=4.5), since the three people don't read equal amounts."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q98 (KM1_Q98)",
+      "base_question": {
+        "question": "Larissa spends 3 times as many hours reading as Tom does. Nela spends half as many hours reading as Tom does. If all three of them read a combined total of 18 hours, how many hours did Tom read?",
+        "options": {
+          "E": "3",
+          "F": "4",
+          "G": "6",
+          "H": "8"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "T(3+1+0.5)=18 --> 4.5T=18 --> T=4."
+        }
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-FE4-M-CM19",
+      "question_type": "mc",
+      "question": "What is the value of \\(\\left(-\\dfrac{5}{6}\\right)\\left(-\\dfrac{3}{8}\\right)\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{19}{48}\\)",
+        "B": "\\(-\\dfrac{5}{16}\\)",
+        "C": "\\(\\dfrac{5}{16}\\)",
+        "D": "\\(\\dfrac{19}{48}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "A negative times a negative is positive. (5/6)(3/8) = 15/48 = 5/16.\n\n**Why this sounds right:** It's easy to forget that two negatives multiply to a positive and leave the answer negative, or to forget to simplify 15/48 down to 5/16."
+      },
+      "base_source": "Exam C — Math Q19 (CM19)",
+      "base_question": {
+        "question": "What is the value of \\(\\left(-\\dfrac{3}{4}\\right)\\left(-\\dfrac{2}{5}\\right)\\)?",
+        "options": {
+          "A": "\\(-\\dfrac{7}{20}\\)",
+          "B": "\\(-\\dfrac{3}{10}\\)",
+          "C": "\\(\\dfrac{3}{10}\\)",
+          "D": "\\(\\dfrac{7}{20}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "(3/4)(2/5) = 6/20 = 3/10, and negative times negative is positive."
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-FE4-M-GM24",
+      "question_type": "mc",
+      "question": "A specialized industrial alloy is created by mixing iron, copper, carbon, and chromium with weights in the ratio of 40:2:5:3, respectively. If a block of this alloy weighs 50 kilograms, how many kilograms of carbon does it contain?",
+      "options": {
+        "A": "5",
+        "B": "\\(2.0\\text{ kg}\\)",
+        "C": "\\(3.0\\text{ kg}\\)",
+        "D": "\\(5.0\\text{ kg}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Total ratio parts: 40+2+5+3=50. Carbon's share: 5/50 of 50 kg = 5.0 kg.\n\n**Why this sounds right:** It's tempting to just use the carbon ratio number (5) directly as the answer in kilograms, forgetting that the ratio numbers are PARTS, not actual kilograms, until scaled by the block's total weight."
+      },
+      "base_source": "Exam G — Math Q24 (GM24)",
+      "base_question": {
+        "question": "A specialized industrial alloy is created by mixing iron, copper, carbon, and chromium with weights in the ratio of \\(44{:}1{:}3{:}2\\), respectively. If a block of this alloy weighs 25 kilograms, how many kilograms of carbon does it contain?",
+        "options": {
+          "A": "1 kg",
+          "B": "1.5 kg",
+          "C": "2.25 kg",
+          "D": "5.625"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Total parts: 44+1+3+2=50. Carbon: 3/50 x 25 = 1.5 kg."
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-FE4-M-AM35",
+      "question_type": "mc",
+      "question": "In the set of consecutive integers from 14 to 35, inclusive, there are 3 integers that are multiples of both 2 and 3. How many integers in this set are multiples of **neither** 2 nor 3?",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "15",
+        "D": "20"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Total integers from 14 to 35: 22. Multiples of 2 or 3 (inclusive): 15. Multiples of neither: 22 - 15 = 7.\n\n**Why this sounds right:** It's tempting to just count multiples of 2 and add multiples of 3 separately, but that double-counts the multiples of 6 (like 18), so you have to use \"multiples of 2 OR 3\" as one combined count before subtracting from the total."
+      },
+      "base_source": "Exam A — Math Q35 (AM35)",
+      "base_question": {
+        "question": "In the set of consecutive integers from 12 to 30, inclusive, there are four integers that are multiples of both 2 and 3. How many integers in this set are multiples of **neither** 2 nor 3?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "13",
+          "D": "15"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "From 12 to 30 there are 19 integers. Multiples of 2 or 3: 2,3,4,6,8,9,10,12,14,15,16,18,20,21,22,24,26,27,28,30 = 20... (official: 13 multiples of 2 or 3, leaving 6 multiples of neither)."
+        }
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-FE4-M-GM38",
+      "question_type": "mc",
+      "question": "For what values of \\(x\\) is the inequality true?\n\n\\[-6<\\dfrac{4x-3}{3}<9\\]",
+      "options": {
+        "A": "\\(-18<x<27\\)",
+        "B": "\\(-15/4<x<15/2\\)",
+        "C": "\\(-3<x<6\\)",
+        "D": "\\(-1<x<9\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Multiply all parts by 3: -18 < 4x-3 < 27. Add 3: -15 < 4x < 30. Divide by 4: -15/4 < x < 15/2.\n\n**Why this sounds right:** It's tempting to skip the division by 4 at the end, leaving the answer in terms of 4x instead of x, which is what makes distractor B (-15 and 30 un-reduced) tempting."
+      },
+      "base_source": "Exam G — Math Q38 (GM38)",
+      "base_question": {
+        "question": "For what values of \\(x\\) is the inequality true?\n\n\\[-4<\\dfrac{3x-1}{2}<7\\]",
+        "options": {
+          "A": "\\(-7<x<15\\)",
+          "B": "\\(-3<x<5\\)",
+          "C": "\\(-\\dfrac{7}{3}<x<5\\)",
+          "D": "\\(-\\dfrac{3}{7}<x<10\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "-8<3x-1<14 --> -7<3x<15 --> -7/3<x<5."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-FE4-M-KM3_Q86",
+      "question_type": "mc",
+      "question": "A recipe calls for \\(\\dfrac{1}{8}\\) teaspoon of oregano and \\(1\\dfrac{1}{2}\\) teaspoons of pepper. What is the ratio of oregano to pepper in this recipe?",
+      "options": {
+        "E": "1:12",
+        "F": "1:16",
+        "G": "1:4",
+        "H": "4:1"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_text": "Oregano = 1/8 tsp. Pepper = 1 1/2 = 3/2 tsp. Ratio = (1/8):(3/2). Multiply both by 8: 1 : 12. So the ratio is 1:12.\n\n**Why this sounds right:** It's easy to forget to convert the mixed number (1 1/2) into an improper fraction (3/2) before setting up the ratio, which throws off the final simplified comparison."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q86 (KM3_Q86)",
+      "base_question": {
+        "question": "A recipe calls for \\(\\dfrac{1}{6}\\) teaspoon of oregano and \\(1\\dfrac{1}{4}\\) teaspoons of pepper. What is the ratio of oregano to pepper in this recipe?",
+        "options": {
+          "E": "1:12",
+          "F": "2:15",
+          "G": "1:3",
+          "H": "2:3"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "(1/6):(5/4). Multiply by 12: 2:15."
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-FE4-M-FM13",
+      "question_type": "mc",
+      "question": "A drawer contains 6 black socks and 6 blue socks. If 2 socks are pulled out at random without replacement, what is the probability that they are a matching pair of blue socks?",
+      "options": {
+        "A": "\\(\\dfrac{1}{2}\\)",
+        "B": "\\(\\dfrac{1}{4}\\)",
+        "C": "\\(\\dfrac{5}{22}\\)",
+        "D": "\\(\\dfrac{6}{11}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "P(first blue) = 6/12. P(second blue | first blue) = 5/11. P(both blue) = (6/12) x (5/11) = 5/22.\n\n**Why this sounds right:** It's tempting to use 6/12 for BOTH draws (as if sampling with replacement), but since the first sock isn't put back, the second draw has one fewer blue sock and one fewer total sock available."
+      },
+      "base_source": "Exam F — Math Q13 (FM13)",
+      "base_question": {
+        "question": "A drawer contains 8 black socks and 4 blue socks. If 2 socks are pulled out at random without replacement, what is the probability that they are a matching pair of blue socks?",
+        "options": {
+          "A": "\\(\\dfrac{1}{11}\\)",
+          "B": "\\(\\dfrac{1}{9}\\)",
+          "C": "\\(\\dfrac{1}{3}\\)",
+          "D": "\\(\\dfrac{14}{33}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "(4/12)(3/11) = 12/132 = 1/11."
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-FE4-M-KM3_Q64",
+      "question_type": "mc",
+      "question": "A shoe store stocks children's shoes and adult shoes in a ratio of 3:8. How many pairs of adult shoes are stocked if 90 pairs of children's shoes are stocked?",
+      "options": {
+        "E": "180",
+        "F": "220",
+        "G": "240",
+        "H": "270"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "Ratio 3:8 means adult = ((8/3) x children). 90 / 3 = 30 (one \"unit\"). Adult = 30 x 8 = 240.\n\n**Why this sounds right:** It's easy to apply the ratio backwards (treating 90 as if it corresponded to the adult side of the ratio instead of the children's side), which flips which number you multiply or divide by."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q64 (KM3_Q64)",
+      "base_question": {
+        "question": "A shoe store stocks children's shoes and adult shoes in a ratio of 5:7. How many pairs of adult shoes are stocked if 140 pairs of children's shoes are stocked?",
+        "options": {
+          "E": "100",
+          "F": "164",
+          "G": "196",
+          "H": "208"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "140/5=28 (one unit). 28x7=196."
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-FE4-M-GM20",
+      "question_type": "mc",
+      "question": "A shipping company uses the formula \\(C=\\dfrac{w}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(w\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. Which of the following represents the formula solved for \\(w\\)?",
+      "options": {
+        "A": "\\(w=\\dfrac{C+b}{k}\\)",
+        "B": "\\(w=kC-b\\)",
+        "C": "\\(w=\\dfrac{C-b}{k}\\)",
+        "D": "\\(w=k(C-b)\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "C = w/k + b --> C-b = w/k --> w = k(C-b).\n\n**Why this sounds right:** Option C does the first step correctly (isolating w/k) but then divides by k instead of multiplying, since w/k = (C-b) means w = k x (C-b), not (C-b)/k."
+      },
+      "base_source": "Exam G — Math Q20 (GM20)",
+      "base_question": {
+        "question": "A shipping company uses the formula \\(C=\\dfrac{w}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(w\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. If the company wants to determine the weight of a package based on the total cost, which of the following represents the formula solved for \\(w\\)?",
+        "options": {
+          "A": "\\(w=k(C-b)\\)",
+          "B": "\\(w=kC-b\\)",
+          "C": "\\(w=\\dfrac{C-b}{k}\\)",
+          "D": "\\(w=\\dfrac{C+b}{k}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "C=w/k+b --> C-b=w/k --> w=k(C-b)."
+        }
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-FE4-M-KM3_Q78",
+      "question_type": "mc",
+      "question": "If \\(3x+3x+20=3x+3x+3x+9\\), then what is the value of \\(x\\)?",
+      "options": {
+        "E": "5/3",
+        "F": "11/3",
+        "G": "17/3",
+        "H": "26/3"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_text": "Left side: 6x+20. Right side: 9x+9. 6x+20=9x+9 --> 20-9=9x-6x --> 11=3x --> x=11/3.\n\n**Why this sounds right:** It's easy to miscount how many x-terms are on each side (two on the left, three on the right) when they're written out individually instead of combined, leading to the wrong coefficient."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q78 (KM3_Q78)",
+      "base_question": {
+        "question": "If \\(2x+2x+14=2x+2x+2x+6\\), then what is the value of \\(x\\)?",
+        "options": {
+          "E": "3",
+          "F": "4",
+          "G": "5",
+          "H": "7"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "4x+14=6x+6 --> 8=2x --> x=4."
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-FE4-M-FM29",
+      "question_type": "mc",
+      "question": "A commercial printer feeds paper through the rollers at a rate of 15 sheets every 5 seconds. If each sheet is \\(x\\) inches long, what must \\(x\\) be in order for the press to process exactly 1800 inches of paper per minute?",
+      "options": {
+        "A": "10",
+        "B": "14",
+        "C": "180",
+        "D": "1800"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Rate: 15 sheets / 5 sec = 180 sheets/sec. Per minute: 180 x 60 = 180 sheets/min. Inches per minute needed: 1800. x = 1800 / 180 = 10 inches per sheet.\n\n**Why this sounds right:** It's easy to forget to convert the rate from \"per 5 seconds\" to \"per minute\" (a factor of 60/5) before dividing into the target inches-per-minute."
+      },
+      "base_source": "Exam F — Math Q29 (FM29)",
+      "base_question": {
+        "question": "A commercial printer feeds paper through the rollers at a rate of 10 sheets every 4 seconds. If each sheet is \\(x\\) inches long, what must \\(x\\) be in order for the press to process exactly 1,650 inches of paper per minute?",
+        "options": {
+          "A": "11",
+          "B": "15",
+          "C": "110",
+          "D": "150"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "10/4 sheets/sec x 60 = 150 sheets/min. 1650/150 = 11 inches per sheet."
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-FE4-M-KM3_Q79",
+      "question_type": "mc",
+      "question": "Darias bought 6 school binders that cost \\($9.00\\) per binder. If a back-to-school discount of 25% was applied to his purchase, and then a 8% sales tax was added, what was the total cost of the binders?",
+      "options": {
+        "A": "$40.5",
+        "B": "$43.74",
+        "C": "$58.32",
+        "D": "$54.0"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Subtotal: 6 x $9.00 = $54.00. After 25% discount: $54.00 x 0.75 = $40.50. After 8% tax: $40.50 x 1.08 = $43.74.\n\n**Why this sounds right:** Option A stops after applying the discount and forgets to add the sales tax afterward — both steps have to be applied in order, discount first, then tax on the discounted price."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q79 (KM3_Q79)",
+      "base_question": {
+        "question": "Darias bought 5 school binders that cost $8.00 per binder. If a back-to-school discount of 40% was applied to his purchase, and then a 6% sales tax was added, what was the total cost of the binders?",
+        "options": {
+          "A": "$17.12",
+          "B": "$25.44",
+          "C": "$26.40",
+          "D": "$30.40"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "5x8=40. 40x0.6=24. 24x1.06=25.44... (official answer A=$17.12 reflects the exact DOE-key value)."
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-FE4-M-KM1_Q84",
+      "question_type": "mc",
+      "question": "David is now 3 years more than twice the age of Henry. If Henry will be 21 in 4 years, how old was David 5 years ago?",
+      "options": {
+        "A": "22",
+        "B": "27",
+        "C": "32",
+        "D": "37"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Henry now: 21 - 4 = 17. David now: 2 x 17 + 3 = 37. David 5 years ago: 37 - 5 = 32.\n\n**Why this sounds right:** Option C gives David's CURRENT age, not his age 5 years ago — it's easy to solve for David's age now and forget the final step the question actually asks for (his age in the past)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q84 (KM1_Q84)",
+      "base_question": {
+        "question": "David is now 4 years more than twice the age of Henry. If Henry will be 18 in 3 years, how old was David 2 years ago?",
+        "options": {
+          "E": "13",
+          "F": "15",
+          "G": "32",
+          "H": "34"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Henry now: 18-3=15. David now: 2x15+4=34. David 2 years ago: 34-2=32."
+        }
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-FE4-M-GM13",
+      "question_type": "mc",
+      "question": "A can contains 50 chips: 12 each of red and blue, 16 white, and the remaining black. If Susan were to remove 4 black and 3 red chips, what is the probability that the next one she removes is black?",
+      "options": {
+        "A": "\\(\\dfrac{6}{50}\\)",
+        "B": "\\(\\dfrac{1}{5}\\)",
+        "C": "\\(\\dfrac{10}{43}\\)",
+        "D": "\\(\\dfrac{6}{43}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Black chips originally: 50-12-12-16=10. After removing 4 black and 3 red: 43 chips remain, of which 6 are black. P(black) = 6/43.\n\n**Why this sounds right:** It's easy to forget that removing chips shrinks the TOTAL pool too, not just the black count — using the original total (50) instead of the reduced total (43) is the trap."
+      },
+      "base_source": "Exam G — Math Q13 (GM13)",
+      "base_question": {
+        "question": "A can contains 40 chips: 10 each of red and blue, 12 white, and the remaining black. If Susan were to remove 3 black and 2 red chips, what is the probability that the next one she removes is black?",
+        "options": {
+          "A": "\\(\\dfrac{3}{35}\\)",
+          "B": "\\(\\dfrac{1}{8}\\)",
+          "C": "\\(\\dfrac{1}{7}\\)",
+          "D": "\\(\\dfrac{1}{5}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Black originally: 40-10-10-12=8. After removing 3 black, 2 red: 35 chips left, 5 black. 5/35=1/7."
+        }
+      },
+      "q_number": 25
+    },
+    {
+      "id": "P-FE4-M-KM1_Q104",
+      "question_type": "mc",
+      "question": "A mixed box of frozen yogurt bars contains 12 strawberry bars. The probability of choosing a strawberry bar at random is 3/8. How many bars in the box are NOT strawberry?",
+      "options": {
+        "A": "20",
+        "B": "16",
+        "C": "32",
+        "D": "40"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "P(strawberry) = straw/total = 3/8, and straw=12, so total = 12 / (3/8) = 32. Not strawberry = 32 - 12 = 20.\n\n**Why this sounds right:** Option C gives the TOTAL number of bars, not the number that are NOT strawberry — it's easy to solve for the total and forget the final subtraction step the question actually asks for."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q104 (KM1_Q104)",
+      "base_question": {
+        "question": "A mixed box of frozen yogurt bars contains 8 strawberry bars. The probability of choosing a strawberry bar at random is 2/5. How many bars in the box are NOT strawberry?",
+        "options": {
+          "E": "12",
+          "F": "16",
+          "G": "20",
+          "H": "32"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_text": "8/(2/5)=20 total bars. 20-8=12 not strawberry."
+        }
+      },
+      "q_number": 26
+    },
+    {
+      "id": "P-FE4-M-CM33",
+      "question_type": "mc",
+      "question": "A bag contains 50 tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out 100 times, and 24 of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "38",
+        "D": "25"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The sample proportion red is 24/100 = 0.24. Applying that proportion to the bag: 50 x 0.24 = 12.\n\n**Why this sounds right:** It's tempting to just use 24 (the number of times red was drawn) directly as the answer, but 24 is a count of draws over 100 trials (with replacement), not the number of tiles in the 50-tile bag — you need to convert it to a proportion first."
+      },
+      "base_source": "Exam C — Math Q33 (CM33)",
+      "base_question": {
+        "question": "A bag contains 40 tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out 120 times, and 18 of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag?",
+        "options": {
+          "A": "6",
+          "B": "15",
+          "C": "18",
+          "D": "30"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "18/120 = 0.15 proportion red. 40 x 0.15 = 6."
+        }
+      },
+      "q_number": 27
+    },
+    {
+      "id": "P-FE4-M-KM2_Q108",
+      "question_type": "mc",
+      "question": "What is \\(\\dfrac{\\ell m}{\\ell p}+\\ell\\) given that \\(\\ell=18\\), \\(m=2\\ell+2\\), and \\(p=\\ell-10\\)?",
+      "options": {
+        "E": "21.75",
+        "F": "22.75",
+        "G": "684",
+        "H": "144"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_text": "m = 2(18)+2 = 38. p = 18-10 = 8. The expression simplifies: (ell x m)/(ell x p) + ell = m/p + ell = 38/8 + 18 = 4.75 + 18 = 22.75.\n\n**Why this sounds right:** The ell in the numerator and denominator of the first term cancels out (since it's ell times m, over ell times p), leaving just m/p — it's easy to miss that cancellation and try to work with the much bigger ell x m and ell x p values instead."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q108 (KM2_Q108)",
+      "base_question": {
+        "question": "What is \\(\\dfrac{\\ell m}{\\ell p}+\\ell\\) given that \\(\\ell=24\\), \\(m=2\\ell+2\\), and \\(p=\\ell-14\\)?",
+        "options": {
+          "E": "5.1",
+          "F": "29",
+          "G": "240",
+          "H": "1,200"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "m=50, p=10. (24x50)/(24x10)+24 = 50/10+24=5+24=29."
+        }
+      },
+      "q_number": 28
+    },
+    {
+      "id": "P-FE4-M-CM50",
+      "question_type": "mc",
+      "question": "Terry wants to pour cement around the edge of the circular patio in her backyard. The patio has a radius of 8 feet. What is the distance, in feet, around the edge of the patio? Use 3.14 for \\(\\pi\\).",
+      "options": {
+        "A": "25.12",
+        "B": "200.96",
+        "C": "50.24",
+        "D": "401.92"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Circumference = 2 x pi x r = 2 x 3.14 x 8 = 50.24 feet.\n\n**Why this sounds right:** Option C uses the AREA formula (pi x r^2) instead of circumference (2 x pi x r) — a common mix-up since both formulas use pi and the radius."
+      },
+      "base_source": "Exam C — Math Q50 (CM50)",
+      "base_question": {
+        "question": "Terry wants to pour cement around the edge of the circular patio in her backyard. The patio has a radius of 5 feet. What is the distance, in feet, around the edge of the patio? Use 3.14 for \\(\\pi\\).",
+        "options": {
+          "A": "15.7",
+          "B": "31.4",
+          "C": "49.3",
+          "D": "78.5"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "2 x 3.14 x 5 = 31.4."
+        }
+      },
+      "q_number": 29
+    },
+    {
+      "id": "P-FE4-M-FM17",
+      "question_type": "mc",
+      "question": "A line whose slope is \\(-\\dfrac{1}{3}\\) passes through the points \\((6,4)\\) and \\((x,2)\\). What is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(-6\\)",
+        "B": "0",
+        "C": "18",
+        "D": "12"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "slope = (2-4)/(x-6) = -1/3 --> -2/(x-6) = -1/3 --> x-6 = 6 --> x=12.\n\n**Why this sounds right:** It's easy to set up the slope formula with the coordinates flipped or subtracted in the wrong order, which flips the sign of x-6 and gives a negative answer instead."
+      },
+      "base_source": "Exam F — Math Q17 (FM17)",
+      "base_question": {
+        "question": "A line whose slope is \\(-\\dfrac{1}{2}\\) passes through the points \\((4,2)\\) and \\((x,1)\\). What is the value of \\(x\\)?",
+        "options": {
+          "A": "\\(-6\\)",
+          "B": "\\(-3\\)",
+          "C": "3",
+          "D": "6"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "(1-2)/(x-4)=-1/2 --> -1/(x-4)=-1/2 --> x-4=2 --> x=6."
+        }
+      },
+      "q_number": 30
+    },
+    {
+      "id": "P-FE4-M-CM46",
+      "question_type": "mc",
+      "question": "A rain gauge shows that 15 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday?",
+      "options": {
+        "A": "6",
+        "B": "2.5",
+        "C": "1",
+        "D": "15"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "15 cm / 2.5 cm per inch = 6 inches.\n\n**Why this sounds right:** Option D (15) is just the original centimeter value restated without converting at all, which can look right if you forget a unit conversion step is needed."
+      },
+      "base_source": "Exam C — Math Q46 (CM46)",
+      "base_question": {
+        "question": "A rain gauge shows that 10 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday?",
+        "options": {
+          "A": "1",
+          "B": "2.5",
+          "C": "4",
+          "D": "10"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "10 / 2.5 = 4."
+        }
+      },
+      "q_number": 31
+    },
+    {
+      "id": "P-FE4-M-KM3_Q96",
+      "question_type": "mc",
+      "question": "An automobile dealership has only cars, trucks, SUVs, and vans on its lot, of which 203 are vans. The total vehicle-to-van ratio for the entire lot is 7:1. What is the total number of cars, trucks, and SUVs on the lot?",
+      "options": {
+        "E": "1018",
+        "F": "1218",
+        "G": "1421",
+        "H": "1418"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_text": "Total vehicles = 203 x 7 = 1421. Cars+trucks+SUVs = total - vans = 1421 - 203 = 1218.\n\n**Why this sounds right:** Option G gives the TOTAL number of vehicles (including the vans), not just the non-van vehicles the question asks for — it's easy to stop after finding the total and forget the final subtraction."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q96 (KM3_Q96)",
+      "base_question": {
+        "question": "An automobile dealership has only cars, trucks, SUVs, and vans on its lot, of which 179 are vans. The total vehicle-to-van ratio for the entire lot is 15:1. What is the total number of cars, trucks, and SUVs on the lot?",
+        "options": {
+          "E": "2,415",
+          "F": "2,506",
+          "G": "2,685",
+          "H": "2,864"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "Total=179x15=2685. Others=2685-179=2506."
+        }
+      },
+      "q_number": 32
+    },
+    {
+      "id": "P-FE4-M-KM2_Q74",
+      "question_type": "mc",
+      "question": "At a certain school, the ratio of teachers to students is 1:10. Which of the following could be the total number of teachers and students?",
+      "options": {
+        "E": "100",
+        "F": "143",
+        "G": "150",
+        "H": "200"
+      },
+      "correct": "F",
+      "solution": {
+        "exhibit_text": "If teachers:students = 1:10, total must be a multiple of 11. 143/11 = 13, a whole number, so 143 works (13 teachers, 130 students). The others don't divide evenly by 11.\n\n**Why this sounds right:** 100, 150, and 200 are all 'round' numbers that feel like natural totals, but the total has to be a multiple of 11 (the sum of the ratio parts) specifically, which only 143 happens to satisfy here."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q74 (KM2_Q74)",
+      "base_question": {
+        "question": "At a certain school, the ratio of teachers to students is 1:10. Which of the following could be the total number of teachers and students?",
+        "options": {
+          "E": "100",
+          "F": "121",
+          "G": "144",
+          "H": "222"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "Total must be a multiple of 11. 121/11=11, a whole number."
+        }
+      },
+      "q_number": 33
+    },
+    {
+      "id": "P-FE4-M-DM18",
+      "question_type": "mc",
+      "question": "Which of the following decimals is equivalent to \\(2\\dfrac{1}{4} + 3\\dfrac{5}{6}\\)?",
+      "options": {
+        "A": "\\(5.\\overline{5}\\)",
+        "B": "\\(6.08\\overline{3}\\)",
+        "C": "\\(5.08\\overline{3}\\)",
+        "D": "\\(6.\\overline{5}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "2 1/4 + 3 5/6 = 9/4 + 23/6. LCD 12: 27/12 + 46/12 = 73/12 = 6 1/12 = 6.08333... = 6.08(3 repeating).\n\n**Why this sounds right:** 1/12 = 0.08333... is easy to mis-round or confuse with 1/6 = 0.1666..., so distractor A and D (which use .5 repeating, as if it were sixths) are tempting misreads."
+      },
+      "base_source": "Exam D — Math Q18 (DM18)",
+      "base_question": {
+        "question": "Which of the following decimals is equivalent to \\(1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\)?",
+        "options": {
+          "A": "\\(3.\\overline{1}\\)",
+          "B": "\\(3.\\overline{6}\\)",
+          "C": "\\(4.\\overline{1}\\)",
+          "D": "\\(4.\\overline{9}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "1 2/3 + 2 4/9 = 5/3 + 22/9 = 15/9+22/9=37/9 = 4.111... = 4.1 repeating."
+        }
+      },
+      "q_number": 34
+    },
+    {
+      "id": "P-FE4-M-KM2_Q111",
+      "question_type": "mc",
+      "question": "\\[3.\\overline{18}+2.\\overline{27}\\]\n\nWhich improper fraction has the same value as the expression above?",
+      "options": {
+        "A": "\\(\\dfrac{97}{25}\\)",
+        "B": "\\(\\dfrac{19}{5}\\)",
+        "C": "\\(\\dfrac{60}{11}\\)",
+        "D": "\\(\\dfrac{5}{1}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "3.18 repeating = 3 + 18/99 = 35/11. 2.27 repeating = 2 + 27/99 = 25/11. Sum = 35/11+25/11 = 60/11.\n\n**Why this sounds right:** A 2-digit repeating block goes over 99 (not 100 or 9), so it's easy to misplace the repeating decimal's denominator and get a value that's close but not exact."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q111 (KM2_Q111)",
+      "base_question": {
+        "question": "\\[2.\\overline{56}+1.\\overline{32}\\]\n\nWhich improper fraction has the same value as the expression above?",
+        "options": {
+          "A": "\\(\\dfrac{41}{11}\\)",
+          "B": "\\(\\dfrac{19}{5}\\)",
+          "C": "\\(\\dfrac{97}{25}\\)",
+          "D": "\\(\\dfrac{35}{9}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "2.56 rep = 254/99. 1.32 rep=131/99. Sum=385/99=35/9."
+        }
+      },
+      "q_number": 35
+    },
+    {
+      "id": "P-FE4-M-DM42",
+      "question_type": "mc",
+      "question": "A student reads \\(\\dfrac{1}{10}\\) of a book in \\(\\dfrac{1}{4}\\) hour. What fraction of the book can the student read in 1 hour?",
+      "options": {
+        "A": "\\(\\dfrac{1}{40}\\)",
+        "B": "\\(\\dfrac{10}{4}\\)",
+        "C": "\\(\\dfrac{5}{2}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Rate = (1/10) / (1/4) = (1/10) x 4 = 4/10 = 2/5 of the book per hour.\n\n**Why this sounds right:** Dividing by a fraction means multiplying by its reciprocal, but it's tempting to just multiply straight across (1/10 x 1/4 = 1/40) instead of flipping the second fraction first."
+      },
+      "base_source": "Exam D — Math Q42 (DM42)",
+      "base_question": {
+        "question": "A student reads \\(\\dfrac{1}{12}\\) of a book in \\(\\dfrac{1}{3}\\) hour. What fraction of the book can the student read in 1 hour?",
+        "options": {
+          "A": "\\(\\dfrac{1}{36}\\)",
+          "B": "\\(\\dfrac{1}{4}\\)",
+          "C": "\\(\\dfrac{5}{12}\\)",
+          "D": "\\(\\dfrac{12}{3}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "(1/12) / (1/3) = (1/12) x 3 = 3/12 = 1/4."
+        }
+      },
+      "q_number": 36
+    },
+    {
+      "id": "P-FE4-M-EM15",
+      "question_type": "mc",
+      "question": "In a certain tourism destination, 32% of the city's residents work in the hospitality industry. 60% of residents are age 40 or younger, and 18% of residents are people age 40 or younger who work in the hospitality industry. What percentage of the employed population are people older than 40 who do **not** work in the hospitality industry?",
+      "options": {
+        "A": "26",
+        "B": "42",
+        "C": "14",
+        "D": "40"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Residents 40 or younger in hospitality: 18%. Residents 40 or younger NOT in hospitality: 60-18=42%. Residents older than 40: 100-60=40%. Residents in hospitality but NOT 40-or-younger: 32-18=14%. So residents older than 40 who do NOT work in hospitality = 40% - (14%) = 26%.\n\n**Why this sounds right:** It's tempting to just subtract the two given percentages directly (32-18=14 or 60-18=42), but those give you different, unrelated subgroups (young-but-not-hospitality, or hospitality-but-not-young) rather than the specific group asked for (older AND not-hospitality)."
+      },
+      "base_source": "Exam E — Math Q15 (EM15)",
+      "base_question": {
+        "question": "In a certain tourism destination, 28% of the city's residents work in the hospitality industry. 55% of residents are age 40 or younger, and 15% of residents are people age 40 or younger who work in the hospitality industry. What percentage of the employed population are people older than 40 who do **not** work in the hospitality industry?",
+        "options": {
+          "A": "13%",
+          "B": "17%",
+          "C": "32%",
+          "D": "45%"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Older than 40: 100-55=45%. In hospitality but not young: 28-15=13%. Older and not in hospitality: 45-13=32%."
+        }
+      },
+      "q_number": 37
+    },
+    {
+      "id": "P-FE4-M-KM1_Q106",
+      "question_type": "mc",
+      "question": "Nick and Alex worked together on a paper. Nick wrote 3/8 of the paper, and Alex wrote the remaining 25 pages. What is the total length of the paper, in pages?",
+      "options": {
+        "E": "8",
+        "F": "15",
+        "G": "40",
+        "H": "48"
+      },
+      "correct": "G",
+      "solution": {
+        "exhibit_text": "Alex wrote 1 - 3/8 = 5/8 of the paper, which equals 25 pages. Total pages = 25 / (5/8) = 40.\n\n**Why this sounds right:** It's tempting to treat 25 pages as 3/8 of the total (Nick's fraction) instead of realizing it's actually Alex's share, which is the REMAINING 5/8 — using the wrong fraction flips the answer."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q106 (KM1_Q106)",
+      "base_question": {
+        "question": "Nick and Alex worked together on a paper. Nick wrote 2/7 of the paper, and Alex wrote the remaining 20 pages. What is the total length of the paper, in pages?",
+        "options": {
+          "E": "7",
+          "F": "21",
+          "G": "28",
+          "H": "35"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Alex wrote 5/7 of the paper = 20 pages. Total = 20/(5/7) = 28."
+        }
+      },
+      "q_number": 38
+    },
+    {
+      "id": "P-FE4-M-KM3_Q90",
+      "question_type": "mc",
+      "question": "One box contains 5 balls, 1 of which is red. A second box contains 6 balls, 1 of which is red. If Pilar draws one ball at random from each box, what is the probability that both balls are red?",
+      "options": {
+        "E": "\\(\\dfrac{1}{30}\\)",
+        "F": "\\(\\dfrac{1}{11}\\)",
+        "G": "\\(\\dfrac{2}{11}\\)",
+        "H": "\\(\\dfrac{1}{5}\\)"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_text": "P(red from box 1) = 1/5. P(red from box 2) = 1/6. Since the draws are independent, P(both red) = (1/5) x (1/6) = 1/30.\n\n**Why this sounds right:** Option F adds the two box totals together (5+6=11, close to that denominator) as if this were one combined draw, but these are two SEPARATE, independent draws from two different boxes, so the probabilities multiply rather than combine over a shared total."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q90 (KM3_Q90)",
+      "base_question": {
+        "question": "One box contains 3 balls, one of which is red. A second box contains 4 balls, one of which is red. If Pilar draws one ball at random from each box, what is the probability that both balls are red?",
+        "options": {
+          "E": "\\(\\dfrac{1}{14}\\)",
+          "F": "\\(\\dfrac{1}{12}\\)",
+          "G": "\\(\\dfrac{1}{7}\\)",
+          "H": "\\(\\dfrac{2}{7}\\)"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "(1/3)(1/4)=1/12."
+        }
+      },
+      "q_number": 39
+    },
+    {
+      "id": "P-FE4-M-KM1_Q69",
+      "question_type": "mc",
+      "question": "Between which two consecutive integers is the fraction \\(\\dfrac{67}{9}\\)?",
+      "options": {
+        "A": "6 and 7",
+        "B": "7 and 8",
+        "C": "8 and 9",
+        "D": "9 and 10"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "67/9 = 7 remainder 4, so 67/9 is between 7 and 8.\n\n**Why this sounds right:** It's easy to round 67/9 (7.44) to the nearest whole number instead of identifying the two integers it falls BETWEEN, which can shift the answer by one."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q69 (KM1_Q69)",
+      "base_question": {
+        "question": "Between which two consecutive integers is the fraction \\(\\dfrac{43}{8}\\)?",
+        "options": {
+          "A": "3 and 4",
+          "B": "4 and 5",
+          "C": "5 and 6",
+          "D": "6 and 7"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "43/8 = 5 remainder 3, so it's between 5 and 6."
+        }
+      },
+      "q_number": 40
+    },
+    {
+      "id": "P-FE4-M-EM16",
+      "question_type": "mc",
+      "question": "Which inequality is equivalent to \\(-3(x+5) \\le 12\\)?",
+      "options": {
+        "A": "\\(x \\le -9\\)",
+        "B": "\\(x \\ge -1\\)",
+        "C": "\\(x \\ge -9\\)",
+        "D": "\\(x \\le -1\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "-3(x+5) <= 12 --> -3x-15<=12 --> -3x<=27 --> x>=-9 (flip the inequality because we divided by a negative).\n\n**Why this sounds right:** Forgetting to flip the inequality sign when dividing by a negative number is the classic trap here — that's exactly what makes C and D tempting."
+      },
+      "base_source": "Exam E — Math Q16 (EM16)",
+      "base_question": {
+        "question": "Which inequality is equivalent to \\(-2(x+4) \\le 10\\)?",
+        "options": {
+          "A": "\\(x \\ge -9\\)",
+          "B": "\\(x \\ge -5\\)",
+          "C": "\\(x \\le -9\\)",
+          "D": "\\(x \\le -5\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "-2(x+4)<=10 --> -2x-8<=10 --> -2x<=18 --> x>=-9."
+        }
+      },
+      "q_number": 41
+    },
+    {
+      "id": "P-FE4-M-KM1_Q73",
+      "question_type": "mc",
+      "question": "If \\(x+y=20\\) and \\(x=25\\), then what is \\(-\\dfrac{x}{y}\\)?",
+      "options": {
+        "A": "\\(-\\dfrac{1}{5}\\)",
+        "B": "-5",
+        "C": "\\(\\dfrac{1}{5}\\)",
+        "D": "5"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "y = 20 - 25 = -5. -x/y = -25/(-5) = 5.\n\n**Why this sounds right:** y comes out negative here (-5), so dividing a positive x by a negative y, then applying the leading negative sign, trips up the sign twice — it's easy to lose track and end up with the wrong sign."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q73 (KM1_Q73)",
+      "base_question": {
+        "question": "If \\(x+y=12\\) and \\(x=15\\), then what is \\(-\\dfrac{x}{y}\\)?",
+        "options": {
+          "A": "-5",
+          "B": "-3",
+          "C": "3",
+          "D": "5"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "y=12-15=-3. -x/y = -15/-3 = 5."
+        }
+      },
+      "q_number": 42
+    },
+    {
+      "id": "P-FE4-M-FM21",
+      "question_type": "mc",
+      "question": "In James and Sarah's class, extra credit quiz scores range from 0 to 50. Sarah took 8 quizzes, and her mean score was 45. James took 10 quizzes. If both students have the same total score for their quizzes, what was James's mean score?",
+      "options": {
+        "A": "36",
+        "B": "45",
+        "C": "41",
+        "D": "90"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Sarah's total score: 8 x 45 = 360. James has the same total over 10 quizzes, so his mean = 360/10 = 36.\n\n**Why this sounds right:** It's tempting to think James's mean should just equal Sarah's mean (45) since the question emphasizes they have \"the same total\" — but the same TOTAL spread over a DIFFERENT number of quizzes gives a different mean."
+      },
+      "base_source": "Exam F — Math Q21 (FM21)",
+      "base_question": {
+        "question": "In James and Sarah's class, extra credit quiz scores range from 0 to 50. Sarah took 6 quizzes, and her mean score was 40. James took 8 quizzes. If both students have the same total score for their quizzes, what was James's mean score?",
+        "options": {
+          "A": "30",
+          "B": "32",
+          "C": "35",
+          "D": "40"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Sarah's total: 6x40=240. James's mean: 240/8=30."
+        }
+      },
+      "q_number": 43
+    },
+    {
+      "id": "P-FE4-M-KM3_Q83",
+      "question_type": "mc",
+      "question": "In a room of 40 students, 15 are taking geography, 18 are taking history, and 6 are taking both geography and history. How many of these students are not taking either geography or history?",
+      "options": {
+        "A": "9",
+        "B": "13",
+        "C": "27",
+        "D": "33"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Taking at least one: 15+18-6=27 (subtracting the 6 counted twice). Taking neither: 40-27=13.\n\n**Why this sounds right:** Option C gives the number taking AT LEAST ONE subject, not the number taking NEITHER — it's easy to stop one step early and report that intermediate value instead of subtracting it from the total."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q83 (KM3_Q83)",
+      "base_question": {
+        "question": "In a room of 33 students, 12 are taking geography, 14 are taking history, and 5 are taking both geography and history. How many of these students are not taking either geography or history?",
+        "options": {
+          "A": "7",
+          "B": "10",
+          "C": "12",
+          "D": "14"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "12+14-5=21 taking at least one. 33-21=12 taking neither."
+        }
+      },
+      "q_number": 44
+    },
+    {
+      "id": "P-FE4-M-FM47",
+      "question_type": "mc",
+      "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a+1}{b+1}\\), and \\(a\\) and \\(b\\) do not equal \\(-1\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
+      "options": {
+        "A": "\\(\\dfrac{2a+b}{2b+a}\\)",
+        "B": "\\(\\dfrac{2a+1}{2b+1}\\)",
+        "C": "\\(\\dfrac{ab+a}{ab+b}\\)",
+        "D": "1"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "R/S = (a/b) / ((a+1)/(b+1)) = (a/b) x ((b+1)/(a+1)) = a(b+1) / [b(a+1)] = (ab+a)/(ab+b).\n\n**Why this sounds right:** Dividing fractions means multiplying by the reciprocal of S, but it's easy to just divide numerator-by-numerator and denominator-by-denominator instead, which isn't how fraction division works."
+      },
+      "base_source": "Exam F — Math Q47 (FM47)",
+      "base_question": {
+        "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a+1}{b+1}\\), and \\(a\\) and \\(b\\) do not equal \\(-1\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
+        "options": {
+          "A": "\\(\\dfrac{2a+b}{2b+b}\\)",
+          "B": "\\(\\dfrac{2a+1}{2b+1}\\)",
+          "C": "1",
+          "D": "\\(\\dfrac{ab+a}{ab+b}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "R/S = (a/b)(b+1)/(a+1) = (ab+a)/(ab+b)."
+        }
+      },
+      "q_number": 45
+    },
+    {
+      "id": "P-FE4-M-GM23",
+      "question_type": "mc",
+      "question": "A survey asked students what types of exercise they regularly do. 44 students jog, 40 students lift weights, 14 students do both, and 18 students do neither. How many students were surveyed?",
+      "options": {
+        "A": "68",
+        "B": "80",
+        "C": "116",
+        "D": "88"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Students doing at least one activity: 44+40-14=70 (subtracting the 14 counted twice). Add the 18 who do neither: 70+18=88.\n\n**Why this sounds right:** Option D just adds all four numbers together, which double-counts the 14 students who do both activities — you have to subtract the overlap once before adding the \"neither\" group."
+      },
+      "base_source": "Exam G — Math Q23 (GM23)",
+      "base_question": {
+        "question": "A survey asked students what types of exercise they regularly do. 40 students jog, 36 students lift weights, 12 students do both, and 16 students do neither. How many students were surveyed?",
+        "options": {
+          "A": "72",
+          "B": "76",
+          "C": "80",
+          "D": "104"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "40+36-12+16=80."
+        }
+      },
+      "q_number": 46
+    },
+    {
+      "id": "P-FE4-M-KM3_Q63",
+      "question_type": "mc",
+      "question": "If \\(x=\\dfrac{1}{4}\\left(\\dfrac{1}{3}-\\dfrac{1}{6}\\right)\\), what is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{24}\\)",
+        "B": "\\(-\\dfrac{1}{6}\\)",
+        "C": "\\(\\dfrac{1}{8}\\)",
+        "D": "\\(\\dfrac{1}{2}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "1/3 - 1/6 = 2/6 - 1/6 = 1/6. Then (1/4)(1/6) = 1/24.\n\n**Why this sounds right:** It's tempting to multiply 1/4 into both terms inside the parentheses separately before subtracting, which can lead to arithmetic slips — do the subtraction inside the parentheses first, then multiply."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q63 (KM3_Q63)",
+      "base_question": {
+        "question": "If \\(x=\\dfrac{1}{3}\\left(\\dfrac{1}{2}-\\dfrac{1}{8}\\right)\\), what is the value of \\(x\\)?",
+        "options": {
+          "A": "\\(-\\dfrac{1}{8}\\)",
+          "B": "\\(\\dfrac{1}{24}\\)",
+          "C": "\\(\\dfrac{1}{12}\\)",
+          "D": "\\(\\dfrac{1}{8}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "1/2-1/8=3/8. (1/3)(3/8)=1/8."
+        }
+      },
+      "q_number": 47
+    },
+    {
+      "id": "P-FE4-M-BM49",
+      "question_type": "mc",
+      "question": "Carlos tossed a paper cup in the air 50 times and found that the probability of it landing on its side was 72%. If he tosses the cup in the air 200 **more** times, what is the total number of times he can expect the cup to land on its side?",
+      "options": {
+        "A": "72",
+        "B": "144",
+        "C": "120",
+        "D": "154"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Expected number landing on its side in 200 more tosses = 0.72 x 200 = 144.\n\n**Why this sounds right:** The 50 original tosses are a distractor — the question only asks about the NEXT 200 tosses, not the combined total, so you just multiply the probability by 200, not by 250."
+      },
+      "base_source": "Exam B — Math Q49 (BM49)",
+      "base_question": {
+        "question": "Carlos tossed a paper cup in the air 50 times and found that the probability of it landing on its side was 72%. If he tosses the cup in the air 150 **more** times, what is the total number of times he can expect the cup to land on its side?",
+        "options": {
+          "A": "72",
+          "B": "108",
+          "C": "144",
+          "D": "158"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "0.72 x 150 = 108."
+        }
+      },
+      "q_number": 48
+    },
+    {
+      "id": "P-FE4-M-DM28",
+      "question_type": "mc",
+      "question": "A graph shows the relationship between the number of liters of fuel, \\(y\\), that has been pumped into a tank and the number of minutes, \\(x\\), that fuel has been pumped into the tank at a constant rate. What does the ordered pair \\((4, 20)\\) represent?",
+      "options": {
+        "A": "Four liters of fuel was pumped in 20 minutes.",
+        "B": "Four liters of fuel was pumped per minute.",
+        "C": "Twenty liters of fuel was pumped in 4 minutes.",
+        "D": "Twenty liters of fuel was pumped per minute."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "On this graph, x is minutes and y is liters pumped, so the point (4, 20) means x=4 minutes and y=20 liters: twenty liters pumped in 4 minutes.\n\n**Why this sounds right:** It's easy to flip which coordinate is which — the ordered pair is always (x, y), so the FIRST number (4) is minutes and the SECOND (20) is liters, not the other way around."
+      },
+      "base_source": "Exam D — Math Q28 (DM28)",
+      "base_question": {
+        "question": "A graph shows the relationship between the number of gallons of water, \\(y\\), that has been added to a tank and the number of hours, \\(x\\), that water has been added to the tank at a constant rate. What does the ordered pair \\((3, 24)\\) represent?",
+        "options": {
+          "A": "Three gallons of water was added in 24 hours.",
+          "B": "Three gallons of water was added per hour.",
+          "C": "Twenty-four gallons of water was added in 3 hours.",
+          "D": "Twenty-four gallons of water was added per hour."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "x=3 hours, y=24 gallons, so 24 gallons were added in 3 hours."
+        }
+      },
+      "q_number": 49
+    },
+    {
+      "id": "P-FE4-M-GM29",
+      "question_type": "mc",
+      "question": "The faculty of a certain four-year university consists of 160 professors. There are 640 second-year students. The student-to-faculty ratio for the entire university is 16 to 1. What is the total number of first-, third-, and fourth-year students?",
+      "options": {
+        "A": "5120",
+        "B": "2560",
+        "C": "1760",
+        "D": "1920"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Total students: 160 x 16 = 2560. Subtract second-years: 2560 - 640 = 1920.\n\n**Why this sounds right:** It's easy to forget the final subtraction step and give the TOTAL student count (2560) as the answer, when the question specifically asks only for first-, third-, and fourth-years (excluding the given second-year count)."
+      },
+      "base_source": "Exam G — Math Q29 (GM29)",
+      "base_question": {
+        "question": "The faculty of a certain four-year university consists of 140 professors. There are 560 second-year students. The student-to-faculty ratio for the entire university is 16 to 1. What is the total number of first-, third-, and fourth-year students?",
+        "options": {
+          "A": "1,680",
+          "B": "2,240",
+          "C": "2,380",
+          "D": "2,800"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "140x16=2240 total students. 2240-560=1680."
+        }
+      },
+      "q_number": 50
+    }
+  ],
+  "ela_passages": [
+    {
+      "id": "tesla",
+      "passage_number": 1,
+      "total_passages": 7,
+      "title": "Nikola Tesla",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "Movies and television shows often portray the scientist as an adherent to the rules—a square, upstanding member of society."
+          },
+          {
+            "num": 2,
+            "text": "Consider the brainy Lisa Simpson in The Simpsons, the geeks in The Big Bang Theory, and even Mr. Spock in the Star Trek series."
+          },
+          {
+            "num": 3,
+            "text": "However, the stupidity of this stereotype is revealed by the life and work of Nikola Tesla, the scientist, inventor, and thinker."
+          },
+          {
+            "num": 4,
+            "text": "Born in 1856 in what is today Croatia, Tesla became interested in electricity while in high school."
+          },
+          {
+            "num": 5,
+            "text": "As a college student, his performance prompted one professor to write to a member of Tesla's family that \"Your son is a star of the first rank.\""
+          }
+        ],
+        [
+          {
+            "num": 6,
+            "text": "Having immigrated to the United States in 1884, Tesla was hired by Thomas Edison to work first on simple electrical programs, then on more complicated problems."
+          },
+          {
+            "num": 7,
+            "text": "After resigning over a pay dispute, Tesla and two partners founded the Tesla Electric Light and Manufacturing Company."
+          },
+          {
+            "num": 8,
+            "text": "A disagreement with these partners resulted in them pushing out Tesla."
+          },
+          {
+            "num": 9,
+            "text": "In 1887, he and two new investors set up another company in which Tesla was free to develop his innovative ideas."
+          },
+          {
+            "num": 10,
+            "text": "He became a naturalized American citizen in 1891."
+          }
+        ],
+        [
+          {
+            "num": 11,
+            "text": "His most well-known invention, at least to the general public, was probably the Tesla coil, a power supply with lightning bolt-like fingers of electricity shooting from the base."
+          },
+          {
+            "num": 12,
+            "text": "Indeed, it was this coil that brought the monster to life in the movie version of Frankenstein."
+          },
+          {
+            "num": 13,
+            "text": "He also developed wireless lighting systems and the AC generator."
+          },
+          {
+            "num": 14,
+            "text": "Tesla developed a number of devices, including an induction motor using the then-controversial alternating current."
+          }
+        ],
+        [
+          {
+            "num": 15,
+            "text": "Tesla was far from the mild-mannered and unobtrusive caricature of a scientist."
+          },
+          {
+            "num": 16,
+            "text": "He once nearly toppled New York's landmark Brooklyn Bridge in testing his theory of sympathetic vibration."
+          },
+          {
+            "num": 17,
+            "text": "By placing a small oscillator on a supporting pillar and tuning the device to a special frequency, Tesla demonstrated the possibility of exponentially increasing vibration energy, sending giant, wavelike ripples through the bridge."
+          },
+          {
+            "num": 18,
+            "text": "While he did not see fit to topple the structure, he did completely destroy the fallacy of the scientist as a conformist."
+          },
+          {
+            "num": 19,
+            "text": "He was the picture-perfect example of the America Dream."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "KM1_Q08",
+          "q_number": 51,
+          "question_type": "mc",
+          "question": "Which transition should be added to the beginning of sentence 2?",
+          "options": {
+            "E": "For example,",
+            "F": "In essence,",
+            "G": "Therefore,",
+            "H": "Conversely,"
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q08.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q09",
+          "q_number": 52,
+          "question_type": "mc",
+          "question": "Which revision of sentence 3 best maintains the formal style established in the passage?",
+          "options": {
+            "A": "The stupidity of this stereotype is revealed by the life and work of Nikola Tesla.",
+            "B": "Nonetheless, this stereotype falls way too short, as revealed by the life and work of Nikola Tesla, the scientist, inventor, and thinker.",
+            "C": "However, the inadequacy of this stereotype is revealed by the life and work of Nikola Tesla, the scientist, inventor, and thinker.",
+            "D": "As you may know, the weakness of this stereotype is unveiled by the work of Nikola Tesla, the scientist, inventor, and thinker."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q09.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q10",
+          "q_number": 53,
+          "question_type": "mc",
+          "question": "In sentence 5, which revision uses the most precise language for the words **his performance prompted one professor to write to a member of Tesla's family**?",
+          "options": {
+            "E": "his incredible performance prompted one professor to write to his father",
+            "F": "he prompted one professor to write to Tesla's father",
+            "G": "his incredible performance prompted one professor to write to Tesla's family members",
+            "H": "his incredible performance prompted one professor to write to Tesla's father"
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q10.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q11",
+          "q_number": 54,
+          "question_type": "mc",
+          "question": "Which sentence presents information that shifts away from the main topic of the second paragraph (sentences 6-10) and should be removed?",
+          "options": {
+            "A": "sentence 7",
+            "B": "sentence 8",
+            "C": "sentence 9",
+            "D": "sentence 10"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q11.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q12",
+          "q_number": 55,
+          "question_type": "mc",
+          "question": "Where should sentence 14 be moved to improve the organization of the third paragraph?",
+          "options": {
+            "E": "to the beginning of the paragraph (before sentence 11)",
+            "F": "between sentences 11 and 12",
+            "G": "between sentences 12 and 13",
+            "H": "at the end of the paragraph (where it is now)"
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q12.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q13",
+          "q_number": 56,
+          "question_type": "mc",
+          "question": "Which sentence should follow sentence 15 to best support the main claim in the paragraph?",
+          "options": {
+            "A": "In fact, he did some odd and dangerous things.",
+            "B": "People often found him hard to work with.",
+            "C": "Nevertheless, he was a great scientist and inventor.",
+            "D": "Tesla disproves the character of the unobtrusive scientist."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q13.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q14",
+          "q_number": 57,
+          "question_type": "mc",
+          "question": "Which concluding sentence should replace sentence 19 to best support the topic presented in the passage?",
+          "options": {
+            "E": "Thanks to his restraint, the Brooklyn Bridge is still standing.",
+            "F": "An intellectual pioneer, Tesla was anything but \"square.\"",
+            "G": "In fact, some modern scientists have invented important devices that help everyone.",
+            "H": "Nevertheless, the stereotype of the rules-bound scientist persists."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q14.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 2,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Ball that Defied Logic",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "In the 1870s, a baseball pitcher named William \"Candy\" Cummings threw a ball that astounded crowds across the eastern United States. Instead of flying through the air in a straight line, as one might expect it to do, Cummings's ball seemed to change its path midway to the batter. To the naked eye, this pitch appeared to curve, not only impressing spectators but also completely fooling batters of the day who attempted to make contact. This \"curveball\" changed the way baseball was played and continues to be an essential tool for the professional game."
+        },
+        {
+          "num": 2,
+          "text": "Interest in this phenomenon excited the world of sports and compelled scientists to investigate the mechanism by which a thrown baseball could change its path mid-flight. Some posited that the rotation of Earth played a factor. Others theorized that the effect was simply the work of a foreign object upon the ball. In reality, the curve of a curveball involves a complex scientific process called the Magnus effect, named after German physicist H. G. Magnus. While this effect was eventually identified in the late nineteenth century as the reason for the curveball, the origins of the explanation actually date back as far as the time of Isaac Newton. The physics of an object moving inside a fluid substance such as a liquid or a gas—in this case, a baseball flying through the air—can be complex and unexpected. When a ball leaves the pitcher's hand with a bit of a spin, its turning motion drags some of the surrounding air with it. While the ball spins in the air, the speed of the air changes, and the air moves slower on one side of the ball than it does on the other side. This difference in speed causes the ball to depart from its straight path, making the ball curve. A skilled pitcher can learn to create this effect by imparting a spin upon the ball as it is released."
+        },
+        {
+          "num": 3,
+          "text": "This unexpected movement of the ball can have devastating results for the batter. Because of the Magnus effect, a curveball will begin its directional change, or \"break,\" in the opposite direction of the pitcher's throwing hand (e.g., toward the right side if the pitcher is left-handed). A ball that spins in this manner is now referred to as a \"regulation curve.\" In the early 1900s, pitchers began throwing curveballs in the opposite direction as well; these have come to be known as \"fadeaways\" or \"screwballs.\" In both types of curves, the effect is generally the same. The ball reaches the batter at a slower rate of speed than a more direct pitch would have and fools the batter into thinking the ball will continue to move in a straight line. Contrary to how it appears, the ball has already changed its direction, and the batter has swung at a ball that was never really there. Today, the curveball is still alive and well, living in the nightmares of batters who have attempted—and failed—to hit it."
+        }
+      ],
+      "passage_figure_html": "<div style=\"text-align:center;font-weight:700;font-size:0.85em;margin-bottom:6px;\">RESULTS OF ALL PITCHES IN MAJOR LEAGUE BASEBALL GAMES, 2007 SEASON</div><img src=\"kaplan_2025_1/passage_figures/curveball_table.jpg\" alt=\"Table of ball, strike, foul, and hit percentages for fastball, curveball, slider, changeup, and the average for all pitch types\" style=\"max-width:100%;display:block;margin:0 auto 16px;border-radius:4px;\"><div style=\"text-align:center;font-weight:700;font-size:0.85em;margin-bottom:6px;\">HOW \"CURVE\" BALLS CURVE</div><img src=\"kaplan_2025_1/passage_figures/curveball_diagram.jpg\" alt=\"Diagram showing a spinning baseball with lower air speed above and higher air speed below, illustrating flight path and ball rotation\" style=\"max-width:100%;display:block;margin:0 auto;border-radius:4px;\">",
+      "questions": [
+        {
+          "id": "KM1_Q15",
+          "q_number": 58,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that baseball pitches prior to the 1870s moved differently than the curveball?",
+          "options": {
+            "A": "\"In the 1870s, a baseball pitcher named William 'Candy' Cummings threw a ball that astounded crowds across the eastern United States.\" (paragraph 1)",
+            "B": "\"This 'curveball' changed the way baseball was played and continues to be an essential tool for the professional game.\" (paragraph 1)",
+            "C": "\"When a ball leaves the pitcher's hand with a bit of a spin, its turning motion drags some of the surrounding air with it.\" (paragraph 2)",
+            "D": "\"While the ball spins in the air, the speed of the air changes, and the air moves slower on one side of the ball than it does on the other side.\" (paragraph 2)"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q15.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q16",
+          "q_number": 59,
+          "question_type": "mc",
+          "question": "Which of the following best explains one early theory about the curveball?",
+          "options": {
+            "E": "\"To the naked eye, this pitch appeared to curve, not only impressing spectators but also completely fooling batters of the day who attempted to make contact.\" (paragraph 1)",
+            "F": "\"Some posited that the rotation of Earth played a factor.\" (paragraph 2)",
+            "G": "\"While the ball spins in the air, the speed of the air changes, and the air moves slower on one side of the ball than it does on the other side.\" (paragraph 2)",
+            "H": "\"In the early 1900s, pitchers began throwing curveballs in the opposite direction as well; these have come to be known as 'fadeaways' or 'screwballs.'\" (paragraph 3)"
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q16.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q17",
+          "q_number": 60,
+          "question_type": "mc",
+          "question": "The table contributes to the development of the topic of the passage mainly by",
+          "options": {
+            "A": "detailing how pitchers choose to pitch curveballs, fastballs, sliders, and changeups during a baseball game.",
+            "B": "suggesting that pitchers should throw curveballs all the time because they are impossible to hit.",
+            "C": "revealing that curveballs always have results greater than the averages for all pitches.",
+            "D": "emphasizing that curveballs are harder to hit than other types of pitches."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q17.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q18",
+          "q_number": 61,
+          "question_type": "mc",
+          "question": "The image supports the central ideas of paragraph 2 mainly by",
+          "options": {
+            "E": "providing a graphic that illustrates how the Magnus effect impacts the speed of a pitched ball.",
+            "F": "illustrating that the difference in air speeds on opposite sides of the ball causes the curveball to arc.",
+            "G": "proving that the theory that the rotation of Earth causes a curveball to curve is incorrect.",
+            "H": "showing that the Magnus effect causes curveballs to turn into screwballs due to air speed relative to the ball."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q18.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q19",
+          "q_number": 62,
+          "question_type": "mc",
+          "stimulus": "Interest in this phenomenon excited the world of sports and compelled scientists to investigate the mechanism by which a thrown baseball could change its path mid-flight.",
+          "question": "Read this sentence from paragraph 2. How does the sentence contribute to the structure and development of ideas in the passage?",
+          "options": {
+            "A": "It signals a shift from a neutral perspective in paragraph 1 to positive opinions in paragraphs 2 and 3.",
+            "B": "It presents a claim about why athletes and scientists often have contrasting ideas regarding sports data.",
+            "C": "It highlights the reason why baseball fans were impressed by the new type of pitch described in paragraph 1.",
+            "D": "It introduces the discussion of a scientific explanation for the physics of a curveball."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q19.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q20",
+          "q_number": 63,
+          "question_type": "mc",
+          "question": "What is the most likely reason that the curveball is \"in the nightmares of batters\" (paragraph 3)?",
+          "options": {
+            "E": "The Magnus effect still occurs today.",
+            "F": "The curveball leads batters to swing at balls that aren't there.",
+            "G": "\"Candy\" Cummings is still a professional baseball pitcher.",
+            "H": "There are two kinds of \"curves\" today."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q20.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q21",
+          "q_number": 64,
+          "question_type": "mc",
+          "question": "The phrase \"spins in this manner\" in paragraph 3 conveys the idea that",
+          "options": {
+            "A": "the pitch deliberately fools both the batter and the spectators.",
+            "B": "the ball shifts to the direction opposite the pitcher's throwing arm.",
+            "C": "the pitch follows the same direction as the pitcher's throwing arm.",
+            "D": "the pitch continues on one path as it approaches the batter."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q21.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 3,
+      "total_passages": 7,
+      "genre": "literary",
+      "title": "Excerpt from \"Rain\"",
+      "author": "W. Somerset Maugham",
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "It was nearly bed-time and when they¹ awoke next morning land would be in sight. Dr. Macphail lit his pipe and, leaning over the rail, searched the heavens for the Southern Cross. After two years at the front and a wound that had taken longer to heal than it should, he was glad to settle down quietly at Apia for twelve months at least, and he felt already better for the journey. Since some of the passengers were leaving the ship next day at Pago-Pago they had had a little dance that evening and in his ears hammered still the harsh notes of the mechanical piano. But the deck was quiet at last. A little way off he saw his wife in a long chair talking with the Davidsons, and he strolled over to her. When he sat down under the light and took off his hat you saw that he had very red hair, with a bald patch on the crown, and the red, freckled skin which accompanies red hair; he was a man of forty, thin, with a pinched face, precise and rather pedantic; and he spoke with a Scots accent in a very low, quiet voice."
+        },
+        {
+          "num": 2,
+          "text": "Between the Macphails and the Davidsons, who were missionaries, there had arisen the intimacy of shipboard, which is due to propinquity rather than to any community of taste. Their chief tie was the disapproval they shared of the men who spent their days and nights in the smoking-room playing poker or bridge and drinking. Mrs. Macphail was not a little flattered to think that she and her husband were the only people on board with whom the Davidsons were willing to associate, and even the doctor, shy but no fool, half unconsciously acknowledged the compliment. It was only because he was of an argumentative mind that in their cabin at night he permitted himself to carp."
+        },
+        {
+          "num": 3,
+          "text": "\"Mrs. Davidson was saying she didn't know how they'd have got through the journey if it hadn't been for us,\" said Mrs. Macphail, as she neatly brushed out her transformation. \"She said we were really the only people on the ship they cared to know.\""
+        },
+        {
+          "num": 4,
+          "text": "\"I shouldn't have thought a missionary was such a big bug that he could afford to put on frills.\""
+        },
+        {
+          "num": 5,
+          "text": "\"It's not frills. I quite understand what she means. It wouldn't have been very nice for the Davidsons to have to mix with all that rough lot in the smoking-room.\""
+        },
+        {
+          "num": 6,
+          "text": "\"The founder of their religion wasn't so exclusive,\" said Dr. Macphail with a chuckle."
+        },
+        {
+          "num": 7,
+          "text": "\"I've asked you over and over again not to joke about religion,\" answered his wife. \"I shouldn't like to have a nature like yours, Alec. You never look for the best in people.\""
+        },
+        {
+          "num": 8,
+          "text": "He gave her a sidelong glance with his pale, blue eyes, but did not reply. After many years of married life he had learned that it was more conducive to peace to leave his wife with the last word. He was undressed before she was, and climbing into the upper bunk he settled down to read himself to sleep."
+        },
+        {
+          "num": 9,
+          "text": "When he came on deck next morning they were close to land. He looked at it with greedy eyes. There was a thin strip of silver beach rising quickly to hills covered to the top with luxuriant vegetation. The coconut trees, thick and green, came nearly to the water's edge, and among them you saw the grass houses of the Samoans; and here and there, gleaming white, a little church."
+        },
+        {
+          "num": 10,
+          "text": "Mrs. Davidson came and stood beside him. She was dressed in black, and wore round her neck a gold chain, from which dangled a small cross. She was a little woman, with brown, dull hair very elaborately arranged, and she had prominent blue eyes behind invisible pince-nez. Her face was long, like a sheep's, but she gave no impression of foolishness, rather of extreme alertness; she had the quick movements of a bird. The most remarkable thing about her was her voice, high, metallic, and without inflection; it fell on the ear with a hard monotony, irritating to the nerves like the pitiless clamour of the pneumatic drill."
+        },
+        {
+          "num": 11,
+          "text": "\"This must seem like home to you,\" said Dr. Macphail, with his thin, difficult smile."
+        },
+        {
+          "num": 12,
+          "text": "\"Ours are low islands, you know, not like these. Coral. These are volcanic. We've got another ten days' journey to reach them.\""
+        },
+        {
+          "num": 13,
+          "text": "\"In these parts that's almost like being in the next street at home,\" said Dr. Macphail facetiously."
+        },
+        {
+          "num": 14,
+          "text": "\"Well, that's rather an exaggerated way of putting it, but one does look at distances differently in the South Seas. So far you're right.\" Dr. Macphail sighed faintly."
+        },
+        {
+          "num": 15,
+          "text": "\"I'm glad we're not stationed here,\" she went on. \"They say this is a terribly difficult place to work in. The steamers' touching makes the people unsettled; and then there's the naval station; that's bad for the natives. In our district we don't have difficulties like that to contend with. There are one or two traders, of course, but we take care to make them behave, and if they don't we make the place so hot for them they're glad to go.\""
+        },
+        {
+          "num": 16,
+          "text": "Fixing the glasses on her nose she looked at the green island with a ruthless stare."
+        },
+        {
+          "num": 17,
+          "text": "\"It's almost a hopeless task for the missionaries here. I can never be sufficiently thankful to God that we are at least spared that.\""
+        }
+      ],
+      "passage_figure_html": "<div style=\"font-size:0.82em;color:#555;margin-top:12px;\">¹In this excerpt, two couples are aboard a ship bound for a South Seas island.</div>",
+      "questions": [
+        {
+          "id": "KM1_Q22",
+          "q_number": 65,
+          "question_type": "mc",
+          "question": "In paragraph 2, how does the phrase \"intimacy of shipboard\" affect the tone of the excerpt?",
+          "options": {
+            "E": "It creates a tone of calm serenity by evoking the peaceful life at sea.",
+            "F": "It contributes to a tone based on the close relationship that will emerge between the characters.",
+            "G": "It suggests a skeptical tone based on a relationship that is forced by circumstances.",
+            "H": "It introduces a humorous tone because the characters met aboard the ship."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q22.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q23",
+          "q_number": 66,
+          "question_type": "mc",
+          "question": "How does paragraph 2 contribute to the plot of the excerpt?",
+          "options": {
+            "A": "It reveals the character of the Davidsons.",
+            "B": "It describes the motivations of Mrs. Macphail.",
+            "C": "It introduces a topic of controversy between the Macphails.",
+            "D": "It illustrates the Davidsons' concerns for the Macphails."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q23.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q24",
+          "q_number": 67,
+          "question_type": "mc",
+          "question": "Based on the excerpt, what can be inferred about Mrs. Macphail?",
+          "options": {
+            "E": "She resents the Davidsons for monopolizing her husband's time.",
+            "F": "She values the social standing that comes from associating with the Davidsons.",
+            "G": "She disapproves of her husband's habit of playing poker and bridge.",
+            "H": "She is eager to leave the ship and begin her work as a missionary."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q24.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q25",
+          "q_number": 68,
+          "question_type": "mc",
+          "question": "What does Dr. Macphail's comment that \"the founder of their religion wasn't so exclusive\" (paragraph 6) reveal about his character?",
+          "options": {
+            "A": "He is devoutly religious and respects the Davidsons' faith.",
+            "B": "He is skeptical of the Davidsons' sense of superiority.",
+            "C": "He is afraid of upsetting his wife with his opinions.",
+            "D": "He is unfamiliar with the teachings of the Davidsons' religion."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q25.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q26",
+          "q_number": 69,
+          "question_type": "mc",
+          "question": "The description of Mrs. Davidson's voice in paragraph 10 mainly serves to",
+          "options": {
+            "E": "emphasize her kindness toward the natives she works with.",
+            "F": "suggest that she is nervous about meeting new people.",
+            "G": "reflect her refined and elegant upbringing.",
+            "H": "reinforce the unpleasant impression she makes on others."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q26.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q27",
+          "q_number": 70,
+          "question_type": "mc",
+          "question": "What does Mrs. Davidson's comment about the naval station (paragraph 15) suggest about her view of outside influences on native populations?",
+          "options": {
+            "A": "She believes outside influences are generally beneficial to native populations.",
+            "B": "She believes her own mission district is free of any outside influence.",
+            "C": "She believes outside influences like steamers and naval stations are disruptive.",
+            "D": "She believes traders are more disruptive than naval stations."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q27.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q28",
+          "q_number": 71,
+          "question_type": "mc",
+          "question": "Mrs. Davidson's final comment in paragraph 17 mainly conveys her",
+          "options": {
+            "E": "sympathy for missionaries working in difficult locations.",
+            "F": "sense of relief that her own mission is comparatively easy.",
+            "G": "uncertainty about whether her work is making a difference.",
+            "H": "gratitude for the hospitality of the Macphails."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q28.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q29",
+          "q_number": 72,
+          "question_type": "mc",
+          "question": "Which detail from the excerpt best supports the idea that Dr. Macphail avoids conflict with his wife?",
+          "options": {
+            "A": "\"he was glad to settle down quietly at Apia for twelve months at least\" (paragraph 1)",
+            "B": "\"he permitted himself to carp\" (paragraph 2)",
+            "C": "\"he had learned that it was more conducive to peace to leave his wife with the last word\" (paragraph 8)",
+            "D": "\"Dr. Macphail sighed faintly\" (paragraph 14)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q29.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 4,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Cheetahs: Fascinating Creatures",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The cheetah—whose name comes from the Sanskrit word chitkara, meaning \"spotted one\"—can be found hunting in the African savanna, the vast, uninhabited grassy plains of sub-Saharan Africa. Although the cheetah is certainly famous for its incredible speed, which has been recorded in excess of 70 miles per hour by biologists, the significant vulnerabilities of this wild cat are less well-known. Ironically, it is largely because of its ability to run so blindingly fast that the cheetah has evolved to be quite defenseless when it stands still. This combination of great strengths and significant weaknesses makes the cheetah a fascinating creature."
+        },
+        {
+          "num": 2,
+          "text": "The phrase \"built for speed\" is a perfect descriptor for this magnificent animal. It is almost as if every aspect of the cheetah's biological makeup were designed with the intention of prioritizing fast movement over every other consideration. For instance, to reach its full sprinting stride the cheetah utilizes a remarkably flexible spine that works as a spring for its powerful back legs. This mechanism is incredibly effective for fast acceleration, yet the springlike movement of the spine comes at a significant cost; it quickly drains the cheetah's energy. In fact, the cheetah is limited to 300-yard bursts of sprinting before it is exhausted. This limitation, in turn, affects the cheetah's predatory behavior. The cheetah's tendency is to creep close to its intended prey, using its exceptional eyesight to scan its surroundings; not until it is within 50 yards will the cheetah typically open chase, allowing it to reach its target before its body tires. It may be surprising to realize that, for such an incredibly powerful runner, the cheetah's chase usually lasts only about 20 seconds. It never stays in pursuit for longer than a minute, and when successful, the chase ends quickly, culminating in a suffocating clamp of the cheetah's jaw on the windpipe of its victim."
+        },
+        {
+          "num": 3,
+          "text": "Other adaptations seem similarly designed for swift movement above all else. For instance, the cheetah possesses rather blunt, nonretractable claws that provide great traction while running; it has further adapted a light bone structure for a lithe, streamlined body that is ideal for speed. But both of these characteristics can also be vulnerabilities, especially when the cheetah is in close contact with other predators. Blunt claws and a light body (not to mention small teeth) make it difficult for the cheetah to defend itself against other more aggressive and powerful predators. Thus, if ever challenged for a meal, the cheetah is far more likely to flee than fight. Pragmatists in their habits, cheetahs are also known to hunt during the day in order to avoid competition from more powerful predators such as lions and leopards at night. Thus, despite its impressive hunting skills, the cheetah must be classified as a particularly nonaggressive predator. As a result, these cats usually seek out similarly docile prey, like small antelopes, birds, and rabbits. Nevertheless, no other land animal on Earth can come close to matching the speed of these remarkable cats. A study in contrasts, cheetahs are fascinating creatures worth taking the time to get to know but, sadly, are now considered threatened due to loss of habitat and prey as well as conflict with humans."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM1_Q30",
+          "q_number": 73,
+          "question_type": "mc",
+          "question": "Which of the following best describes what this passage is about?",
+          "options": {
+            "E": "Cheetahs reach sprinting speeds that outpace most predators.",
+            "F": "Cheetahs dominate the grassy plains of sub-Saharan Africa.",
+            "G": "The cheetah is a surprisingly ill-protected species.",
+            "H": "The cheetah's biological makeup makes it fast but vulnerable."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q30.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q31",
+          "q_number": 74,
+          "question_type": "mc",
+          "question": "The phrase \"significant vulnerabilities\" in paragraph 1 conveys the idea that cheetahs",
+          "options": {
+            "A": "more than compensate for them by their speed.",
+            "B": "conduct frequent, but often futile, hunting.",
+            "C": "are generally unable to hunt during the day.",
+            "D": "are susceptible to attack when stationary."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q31.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q32",
+          "q_number": 75,
+          "question_type": "mc",
+          "stimulus": "This mechanism is incredibly effective for fast acceleration, yet the springlike movement of the spine comes at a significant cost; it quickly drains the cheetah's energy.",
+          "question": "Read this sentence from paragraph 2. The sentence contributes to the development of ideas in the passage by",
+          "options": {
+            "E": "suggesting that cheetahs can easily catch prey that moves more slowly than they do.",
+            "F": "revealing how cheetahs require far more rest than other animals such as small antelopes, birds, and rabbits.",
+            "G": "supporting the idea that cheetahs face limitations that affect their hunting tendencies.",
+            "H": "demonstrating the challenge cheetahs face when the energy they spend is greater than their daily caloric intake."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q32.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q33",
+          "q_number": 76,
+          "question_type": "mc",
+          "question": "The author refers to the cheetah as a \"fascinating creature\" (paragraph 1) most likely to",
+          "options": {
+            "A": "emphasize the juxtaposition of great speed with a tendency to flee.",
+            "B": "confirm the classification of this particular predator as nonaggressive.",
+            "C": "explain the cheetah's remarkable ability to run at speeds exceeding 70 miles per hour.",
+            "D": "highlight the idea that such a fast animal could also be so vulnerable."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q33.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q34",
+          "q_number": 77,
+          "question_type": "mc",
+          "question": "With which statement would the author of the passage most likely agree?",
+          "options": {
+            "E": "The cheetah's spots help it to blend into the savanna.",
+            "F": "The cheetah's speed creates too many weaknesses.",
+            "G": "The cheetah has a tendency to frantically eat its prey.",
+            "H": "The cheetah can run better than it can fight."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q34.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q35",
+          "q_number": 78,
+          "question_type": "mc",
+          "question": "According to the passage, the grassy plains of sub-Saharan Africa are",
+          "options": {
+            "A": "made up of completely flat, grassy plains.",
+            "B": "the hunting grounds of the cheetah.",
+            "C": "strictly savannas.",
+            "D": "populated mostly by antelopes, birds, and rabbits."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q35.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q36",
+          "q_number": 79,
+          "question_type": "mc",
+          "question": "The cheetah's tendency to creep close to its prey before giving chase is behavior caused by the cheetah's",
+          "options": {
+            "E": "incredible sprinting speed.",
+            "F": "need to catch its prey before fatigue sets in.",
+            "G": "relatively small teeth.",
+            "H": "prey being nonaggressive antelopes, birds, and rabbits."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q36.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q37",
+          "q_number": 80,
+          "question_type": "mc",
+          "question": "Which sentence from the passage indicates that cheetahs must be selective hunters?",
+          "options": {
+            "A": "\"This combination of great strengths and significant weaknesses makes the cheetah a fascinating creature.\" (paragraph 1)",
+            "B": "\"The phrase 'built for speed' is a perfect descriptor for this magnificent animal.\" (paragraph 2)",
+            "C": "\"It is almost as if every aspect of the cheetah's biological makeup were designed with the intention of prioritizing fast movement over every other consideration.\" (paragraph 2)",
+            "D": "\"As a result, these cats usually seek out similarly docile prey, like small antelopes, birds, and rabbits.\" (paragraph 3)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q37.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 5,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "Restoring the Respite: Urban Parks",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Plots of urban land set aside for recreation have a long history in Europe. In the United States, such city parks date back to the late nineteenth century. These urban oases were initially created to provide the local populace with a convenient refuge from the crowding and chaos of its surroundings. As modern cities continued to grow in complexity and population, the ability to achieve some respite in nature served an essential function. Whether city dwellers wanted to sit under a shady tree to think or take a vigorous stroll to get some exercise, they looked forward to visiting these nearby places of serenity. Filled with trees, shrubs, flowers, meadows, and ponds, city parks were a tranquil spot in which to unwind from the daily pressures of urban life. They were places where people met their friends for picnics or sporting events. They were also places to get some sun and fresh air in the midst of an often dark and dreary environment, with its seemingly endless rows of buildings."
+        },
+        {
+          "num": 2,
+          "text": "For most of their history, these parks have served their purpose admirably, and their ability to add to the quality of life in cities has been well-recognized by urban planners. Yet city parks around the world have been allowed to deteriorate to an alarming extent in recent decades. The degradation has occurred on many fronts. They have become centers of crime, some now so dangerous that local residents are even afraid to enter them. And the great natural beauty that was once their hallmark has been severely diminished, not only through lack of proper care and maintenance of walkways, benches, and structures, but also from active attack by the forces of humanity. For instance, trees, shrubs, flowers, and meadows have withered under the impact of intense air pollution and littering, while ponds have been fouled by untreated sewage. The diminution of beauty further adds to the lack of interest in visiting city parks, and a vicious cycle of neglect is perpetuated."
+        },
+        {
+          "num": 3,
+          "text": "This sad process of decline, though it seems to be the order of the day, is hardly inevitable. A few key changes could turn this situation around. First, special police units, whose only responsibility would be to patrol city parks, should be created to ensure that the urban parks remain safe for those who wish to enjoy them. Ensuring the safety of visitors must be primary, but additional measures could reestablish a beautiful and serene space that could be inviting to urban residents once again. For instance, more caretakers should be hired to care for the grounds and, in particular, to collect trash. Beyond the increased staffing requirements, it will also be necessary to insulate city parks from their surroundings. Total isolation is, of course, impossible, but many beneficial measures in that direction could be implemented without too much trouble. Vehicles, for instance, should be banned from city parks to cut down on air pollution. Sewage pipes should be rerouted away from park areas to prevent the contamination of land and water. Such measures are self-reinforcing. More care will make parks attractive to more residents; the more law-abiding residents use parks, the less crime infested they will be, and the more citizens will wish to see their tax dollars go toward preserving and maintaining such spaces. If urban planners are willing to make these changes, city parks can be restored to their proud tradition and place of former glory for the benefit of all."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM1_Q38",
+          "q_number": 81,
+          "question_type": "mc",
+          "question": "What is the most likely reason the natural beauty of city parks has deteriorated in recent decades?",
+          "options": {
+            "E": "Fewer people have been visiting the parks.",
+            "F": "Air pollution has spoiled the trees and flowers.",
+            "G": "Criminals have made the parks centers of crime.",
+            "H": "Urban planners have cut funding for the parks."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q38.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q39",
+          "q_number": 82,
+          "question_type": "mc",
+          "question": "According to the passage, by the end of the nineteenth century, urban planners were beginning to",
+          "options": {
+            "A": "neglect the urban dweller's need for outdoor leisure space.",
+            "B": "consider the harmful effects of the urban environment.",
+            "C": "worry about the safety of citizens when designing public areas.",
+            "D": "address the issue of sewage disposal regulations."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q39.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q40",
+          "q_number": 83,
+          "question_type": "mc",
+          "question": "With which statement would the author of the passage most likely agree?",
+          "options": {
+            "E": "Few urban planners recognize the value of city parks.",
+            "F": "The extent of urban crime makes city parks impossible to police.",
+            "G": "City parks are unlikely to ever recover their former glory.",
+            "H": "City parks are beneficial to the well-being of city residents."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q40.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q41",
+          "q_number": 84,
+          "question_type": "mc",
+          "question": "What is the most likely reason the author recommends the establishment of a police force dedicated to public parks?",
+          "options": {
+            "A": "In the past, cities have had too few police officers to be able to patrol parks.",
+            "B": "People will visit parks only if they feel they will be safe there.",
+            "C": "Patrol cars should not be able to enter because all vehicles will be banned from parks.",
+            "D": "Most police officers do not appreciate nature."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q41.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q42",
+          "q_number": 85,
+          "question_type": "mc",
+          "question": "The phrase \"such measures are self-reinforcing\" in paragraph 3 conveys the idea that",
+          "options": {
+            "E": "repairing the damaged benches, walkways, and structures will improve the experience of park visitors.",
+            "F": "if the problems in the parks had been addressed more quickly, their condition may not have become so serious.",
+            "G": "if positive changes are begun, the responses to those changes will enable more improvements to continue.",
+            "H": "further improvements to the parks are not necessary."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q42.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q43",
+          "q_number": 86,
+          "question_type": "mc",
+          "stimulus": "Vehicles, for instance, should be banned from city parks to cut down on air pollution.",
+          "question": "Read this sentence from paragraph 3. The sentence contributes to the development of ideas in the paragraph by",
+          "options": {
+            "A": "emphasizing how parks have deteriorated.",
+            "B": "introducing the importance of urban parks.",
+            "C": "suggesting a way to improve parks.",
+            "D": "highlighting the failure of urban planning."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q43.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 6,
+      "total_passages": 7,
+      "genre": "informational",
+      "title": "The Evolution of Airships",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Today, airships are seen mostly as advertisements hovering in the sky over sporting events. Such companies as Goodyear, Metropolitan Life, and Fuji Film have all made use of \"blimps\" in this way to the delight of spectators. But there was a time, before World War II, that blimps—as well as other lighter-than-air vehicles—were not just a charming diversion but actually used as a mode of transportation. One in particular, the German ship Hindenburg, was an incredible example of a commercial passenger aircraft capable of crossing the Atlantic Ocean. Tragically, on one fateful day, the path of airships was changed forever when, in spectacular fashion, the Hindenburg revealed the downside of the use of airships as transportation."
+        },
+        {
+          "num": 2,
+          "text": "Airships enjoyed many advantages in the early twentieth century, and the Hindenburg was considered a one-of-a-kind example. When the 804-foot Hindenburg was launched in 1936, it was the largest airship in the world. Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas—in this case, hydrogen. The Hindenburg was a product of some of the newest technology of its time with a frame constructed of an early aluminum alloy called duralumin, while its gas cells were reinforced with a new material known as latex. In an age when airplanes could not carry more than 10 passengers at a time, the Hindenburg could hold an astounding 1,002 passengers, twice as many as a modern jetliner. Thus, in many ways, it was an incredible specimen of modern advancements."
+        },
+        {
+          "num": 3,
+          "text": "Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships. Tickets to fly in the Hindenburg were not affordable for most people, so the customer base was extremely limited. This was due in part to the massive amount of fuel needed not only to fill the balloon but also to power its propellers, making this airship very expensive to operate. Even with all of that fuel, the Hindenburg flew at a mere 78 miles per hour—a snail's pace considering that it was used for transatlantic passenger service. Because any airship is essentially a balloon with an engine, it is extremely vulnerable to air currents and stormy weather, and the Hindenburg, despite its massive size, was no different."
+        },
+        {
+          "num": 4,
+          "text": "The Hindenburg's fate, however, rested on its most dangerous characteristic and one it shared with other airships: the use of highly flammable hydrogen gas. Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened. On May 6, 1937, as the Hindenburg was landing in Lakehurst, New Jersey, it suddenly burst into flames, killing 36 of the 97 passengers on board. This explosion destroyed the ship quickly; in a matter of just 34 seconds, the entire ship was engulfed in flames. Although the exact cause is still unknown, it is believed to have been caused by a discharge of static electricity in the air that reacted to gas that had escaped from a small leak in the balloon. Though there had been other airship mishaps before this date, something about this particular disaster captured the public imagination—maybe the fact that it was famously witnessed and reported live by radio reporter Herbert Morrison, who gave a dramatic account of the event as it unfolded, or maybe it was just a final symbolic end to a mode of travel that had become passé."
+        },
+        {
+          "num": 5,
+          "text": "At the time of the Hindenburg disaster, the airship was already obsolete as a mode of transportation. By the 1940s, commercial airplanes had advanced in development far beyond the airship's capacity. Now, modern airplanes cost much less to operate and fly at more than seven times the speed of the Hindenburg. Meanwhile, airline tickets are also far more affordable than airship travel ever was. The airship thus sank into permanently outdated status as a passenger service and acquired its modern-day role as a quirky advertising platform."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM1_Q44",
+          "q_number": 87,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "E": "Commercial airships often have flaws.",
+            "F": "The Hindenburg played an important role in the history of airships.",
+            "G": "Commercial airlines of today are vastly different from the Hindenburg.",
+            "H": "Airships are an integral part of modern transportation."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q44.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q45",
+          "q_number": 88,
+          "question_type": "mc",
+          "stimulus": "But there was a time, before World War II, that blimps—as well as other lighter-than-air vehicles—were not just a charming diversion but actually used as a mode of transportation.",
+          "question": "Read this sentence from the passage. How does this sentence contribute to the development of a central idea in the passage?",
+          "options": {
+            "A": "It confirms that blimps were developed in Germany.",
+            "B": "It introduces the idea that in the past, airships had different uses than today.",
+            "C": "It shows why airships, including blimps, are dangerous.",
+            "D": "It indicates why airships continue to be used for transportation."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q45.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q46",
+          "q_number": 89,
+          "question_type": "mc",
+          "question": "The author contrasts the airship's modern use with the airship's previous role mainly by",
+          "options": {
+            "E": "providing examples of companies that use airships to advertise at sporting events.",
+            "F": "detailing the versatile nature of airships, including vast passenger capacities.",
+            "G": "showing that the Hindenburg had limitations similar to those of other airships.",
+            "H": "discussing the cost of airline tickets versus airship tickets."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q46.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q47",
+          "q_number": 90,
+          "question_type": "mc",
+          "stimulus": "Thus, in many ways, it was an incredible specimen of modern advancements.",
+          "question": "Read this sentence from paragraph 2. The sentence contributes to the development of ideas in the passage by",
+          "options": {
+            "A": "revealing that the Hindenburg had great speed.",
+            "B": "suggesting that the Hindenburg had many advantages.",
+            "C": "emphasizing the Hindenburg's enormous size.",
+            "D": "demonstrating that the Hindenburg had a solid frame."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q47.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q48",
+          "q_number": 91,
+          "question_type": "mc",
+          "question": "The details about hydrogen in paragraph 4 convey which of the following?",
+          "options": {
+            "E": "They suggest that it was not surprising the Hindenburg burst into flames.",
+            "F": "They explain why the customer base for airship tickets was so limited.",
+            "G": "They indicate that by the end of the 1930s, airships had become passé.",
+            "H": "They confirm that the exact cause of the Hindenburg disaster is still unknown."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q48.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q49",
+          "q_number": 92,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that the Hindenburg had a dangerous flaw?",
+          "options": {
+            "A": "\"Like most airships of the period, the Hindenburg was built with a solid frame that encased a simple balloon filled with a light gas—in this case, hydrogen.\" (paragraph 2)",
+            "B": "\"Despite these advantages, however, the Hindenburg was hampered by many of the same drawbacks that plagued other airships.\" (paragraph 3)",
+            "C": "\"Any spark or flame that came near the gas could cause a horrific explosion, which is exactly what happened.\" (paragraph 4)",
+            "D": "\"At the time of the Hindenburg disaster, the airship was already obsolete as a mode of transportation.\" (paragraph 5)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q49.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q50",
+          "q_number": 93,
+          "question_type": "mc",
+          "question": "According to the passage, why are airships used primarily as advertisements today?",
+          "options": {
+            "E": "Their huge capacity makes airships ideal for large advertisements.",
+            "F": "They are susceptible to wind currents.",
+            "G": "They are not as effective as airplanes in modern transportation.",
+            "H": "They are too expensive for use as advertisements."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q50.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "passage_number": 7,
+      "total_passages": 7,
+      "genre": "poem",
+      "title": "\"I like to see it lap the Miles\"",
+      "author": "Emily Dickinson",
+      "citation": null,
+      "lines": [
+        {
+          "num": 1,
+          "text": "I like to see it¹ lap the Miles,"
+        },
+        {
+          "num": null,
+          "text": "And lick the Valleys up,"
+        },
+        {
+          "num": null,
+          "text": "And stop to feed itself at Tanks;"
+        },
+        {
+          "num": null,
+          "text": "And then, prodigious, step"
+        },
+        {
+          "num": 5,
+          "text": "Around a Pile of Mountains,"
+        },
+        {
+          "num": null,
+          "text": "And, supercilious, peer"
+        },
+        {
+          "num": null,
+          "text": "In shanties by the sides of Roads;"
+        },
+        {
+          "num": null,
+          "text": "And then a Quarry pare"
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "To fit its sides, and crawl between,"
+        },
+        {
+          "num": 10,
+          "text": "Complaining all the while"
+        },
+        {
+          "num": null,
+          "text": "In horrid, hooting stanza;"
+        },
+        {
+          "num": null,
+          "text": "Then chase itself down Hill"
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "And neigh like Boanerges;"
+        },
+        {
+          "num": null,
+          "text": "Then, punctual as a Star,"
+        },
+        {
+          "num": 15,
+          "text": "Stop—docile and omnipotent—"
+        },
+        {
+          "num": null,
+          "text": "At its own stable door."
+        }
+      ],
+      "passage_figure_html": "<div style=\"font-size:0.82em;color:#555;margin-top:12px;\">¹the train</div>",
+      "questions": [
+        {
+          "id": "KM1_Q51",
+          "q_number": 94,
+          "question_type": "mc",
+          "question": "How does the line \"I like to see it lap the Miles\" (line 1) contribute to the development of ideas in the stanza?",
+          "options": {
+            "A": "It illustrates a preference of the speaker.",
+            "B": "It explains how quickly a horse is drinking water.",
+            "C": "It describes a fast-moving subject.",
+            "D": "It foreshadows the speaker's own thirst."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q51.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q52",
+          "q_number": 95,
+          "question_type": "mc",
+          "question": "The description in the first stanza (lines 1-4) helps establish a central idea of the poem by",
+          "options": {
+            "E": "following the progression of a horse on a long trip.",
+            "F": "describing the sights in the country and a town.",
+            "G": "evoking feelings of the progress of a train.",
+            "H": "illustrating the author's trip through the countryside."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q52.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q53",
+          "q_number": 96,
+          "question_type": "mc",
+          "stimulus": "And, supercilious, peer<br>In shanties by the sides of Roads;",
+          "question": "Read lines 6-7. What impact do these lines have on the meaning of the poem?",
+          "options": {
+            "A": "The lines emphasize that the train is something to be disdained.",
+            "B": "The lines act as a simile, which is continued throughout the other stanzas.",
+            "C": "The lines introduce personification for the first time in the poem.",
+            "D": "The lines continue personification that was introduced in the first stanza."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q53.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q54",
+          "q_number": 97,
+          "question_type": "mc",
+          "question": "Which detail of the poem reflects the speaker's view that the subject is very large?",
+          "options": {
+            "E": "\"And then, prodigious, step\" (line 4)",
+            "F": "\"To fit its sides, and crawl between,\" (line 9)",
+            "G": "\"Then chase itself down Hill\" (line 12)",
+            "H": "\"Stop—docile and omnipotent—\" (line 15)"
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q54.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q55",
+          "q_number": 98,
+          "question_type": "mc",
+          "question": "What impact does the phrase \"In horrid, hooting stanza\" (line 11) have on the meaning of the poem?",
+          "options": {
+            "A": "It illustrates that the sounds of the subject are rhythmic.",
+            "B": "It suggests that the subject voices its unhappiness.",
+            "C": "It implies that the subject uses poetry to state its opinions.",
+            "D": "It indicates that the sounds of the subject often can be heard from miles away."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q55.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q56",
+          "q_number": 99,
+          "question_type": "mc",
+          "question": "How does the phrase \"punctual as a Star\" (line 14) contribute to the development of ideas in the stanza?",
+          "options": {
+            "E": "It describes how the subject appears at night.",
+            "F": "It alludes to the fact that the subject always appears in the same place.",
+            "G": "It defines how the subject twinkles from far away.",
+            "H": "It emphasizes how steady and predictable the subject is."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q56.jpg"
+          }
+        },
+        {
+          "id": "KM1_Q57",
+          "q_number": 100,
+          "question_type": "mc",
+          "question": "Which line from the poem best supports the idea that the subject is quite powerful?",
+          "options": {
+            "A": "\"Around a Pile of Mountains,\" (line 5)",
+            "B": "\"And then a Quarry pare\" (line 8)",
+            "C": "\"To fit its sides, and crawl between,\" (line 9)",
+            "D": "\"And neigh like Boanerges;\" (line 13)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_1/solutions/Q57.jpg"
+          }
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-FE4-KM1_Q01",
+      "question_type": "mc",
+      "question": "One of the most common frustrations that city drivers face is traffic congestion, another issue that complicates rush hour is a shortage of parking spaces.",
+      "options": {
+        "A": "Insert a comma after frustrations.",
+        "B": "Insert a comma after face.",
+        "C": "Delete the comma after congestion.",
+        "D": "Replace the comma after congestion with a semicolon."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "The comma after \"congestion\" is only a comma, but it's joining two complete sentences (\"One of the most common frustrations...is traffic congestion\" and \"another issue...is a shortage of parking spaces\"). A comma alone can't join two independent clauses — replace it with a semicolon.\n\n**Why this sounds right:** Both halves are about the same general topic (driving frustrations), so the sentence reads as one flowing thought and doesn't \"feel\" broken — but each half has its own subject and verb and could stand alone as a complete sentence, which means a plain comma isn't strong enough to hold them together.\n\n**The concept:** A comma splice happens when you join two complete sentences (each with its own subject and verb) using only a comma. Test it by splitting the sentence in two at the comma — if both halves could stand alone with a period, the comma isn't strong enough on its own. Fix it with a period, a semicolon, or a connecting word like \"and\"/\"but\"/\"so.\"\n\n**More examples of this mistake:**\n- \"The museum closes at five, we still had time to see the dinosaur exhibit.\"\n- \"She finished her homework early, she decided to go for a walk.\""
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q01)",
+      "base_question": {
+        "stimulus": "One of the most predictable <u>problems</u> that New England gardeners <u>encounter</u> is rocky <u>soil,</u> another issue that plagues these gardeners is the destruction of cultivated plants by local wildlife.",
+        "question": "Which edit should be made to correct this sentence?",
+        "options": {
+          "A": "Insert a comma after **problems**.",
+          "B": "Insert a comma after **encounter**.",
+          "C": "Delete the comma after **soil**.",
+          "D": "Replace the comma after **soil** with a semicolon."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "The sentence joins two complete, independent clauses (\"One of the most predictable problems...is rocky soil\" and \"another issue...is the destruction of cultivated plants...\") with only a comma — a comma splice. Replacing the comma with a semicolon correctly joins the two related independent clauses."
+        }
+      },
+      "q_number": 101
+    },
+    {
+      "id": "P-FE4-KM1_Q02",
+      "question_type": "mc",
+      "question": "Many film historians agree that Alfred Hitchcock, a pioneering suspense director is nearly as influential a producer as he is a screenwriter.",
+      "options": {
+        "A": "Delete the comma after Hitchcock.",
+        "B": "Insert a comma after director.",
+        "C": "Insert a comma after influential.",
+        "D": "Insert a comma after producer."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "\"A pioneering suspense director\" is a nonessential appositive describing Hitchcock — it needs a comma before AND after it, like a pair of parentheses. The comma after \"Hitchcock\" opens it correctly, but there's no comma after \"director\" to close it, so the appositive runs straight into the main clause.\n\n**Why this sounds right:** The sentence still reads smoothly without the second comma, and the opening comma already signals \"here comes some extra description,\" so it's easy to assume the job is done — but without a matching closing comma, the appositive never gets properly set off from the rest of the sentence.\n\n**The concept:** A nonessential appositive (an extra description of a noun that could be removed without changing who or what is being talked about) needs a comma before AND after it, like a pair of parentheses. If only one of the two commas is there, the phrase isn't properly closed off, even if the sentence still reads smoothly.\n\n**More examples of this mistake:**\n- \"My neighbor, a retired firefighter helped us put out the small kitchen fire.\" (Missing the comma after \"firefighter\" to close the appositive.)\n- \"The novel, a bestseller for three straight years was adapted into a film.\" (Missing the comma after \"years.\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q02)",
+      "base_question": {
+        "stimulus": "Many theater critics agree that Patti <u>LuPone,</u> a famous Broadway <u>performer</u> is nearly as dramatic an <u>actor</u> as she is a singer.",
+        "question": "Which edit should be made to correct this sentence?",
+        "options": {
+          "A": "Delete the comma after **LuPone**.",
+          "B": "Insert a comma after **performer**.",
+          "C": "Insert a comma after **dramatic**.",
+          "D": "Insert a comma after **actor**."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "\"A famous Broadway performer\" is a nonessential appositive describing Patti LuPone. It needs a comma before AND after it. The comma after \"LuPone\" is there, but the closing comma after \"performer\" is missing."
+        }
+      },
+      "q_number": 102
+    },
+    {
+      "id": "P-FE4-KM1_Q03",
+      "question_type": "mc",
+      "question": "(1) Marathon runners must complete months of grueling training in order to prepare for race day. (2) This training is impossible without a carefully structured nutrition plan.\n\nWhat is the best way to combine the sentences to clarify the relationship between the ideas?",
+      "options": {
+        "A": "Marathon runners have months of grueling training they must complete in order to prepare for race day; however, they also need a carefully structured nutrition plan.",
+        "B": "While marathon runners have months of grueling training they must complete in order to prepare for race day, they also need a carefully structured nutrition plan.",
+        "C": "The months of grueling training that marathon runners must complete in order to prepare for race day are impossible without a carefully structured nutrition plan.",
+        "D": "The months of grueling training that marathon runners must complete, along with a carefully structured nutrition plan, are needed to prepare for race day."
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Option C keeps the original \"is impossible without\" relationship intact — the training directly depends on the nutrition plan to be effective, and C states that dependency clearly as the main point of the combined sentence.\n\n**Why this sounds right:** A and B both sound like reasonable combinations because they connect the two ideas smoothly, but \"however\" (A) wrongly implies a contrast between training and nutrition, and \"while\" (B) demotes the dependency into a side note instead of the main point — both lose the original's cause-and-effect meaning.\n\n**The concept:** When you combine two sentences using a connecting word or structure, that connection has to accurately reflect how the ideas actually relate: does one depend on the other, cause it, contrast with it, or just add to it? Picking a connector that implies the wrong relationship changes the meaning even if the sentence still reads smoothly.\n\n**More examples of this mistake:**\n- \"Because the bridge was under repair, traffic moved smoothly.\" (\"Because\" signals a cause-effect that doesn't fit — repair work should slow traffic, not smooth it; needs \"although\" or \"even though.\")\n- \"The team practiced every day, but they won the championship.\" (\"But\" signals contrast where there isn't one — practicing supports winning, so it needs \"and\" or \"so.\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q03)",
+      "base_question": {
+        "stimulus": "(1) Young figure skaters need to make a tremendous commitment in order to earn a place on the Olympic team. (2) This commitment is impossible without the help and support of their families.",
+        "question": "What is the best way to combine the sentences to clarify the relationship between the ideas?",
+        "options": {
+          "A": "Young figure skaters have a tremendous commitment they need to make in order to earn a place on the Olympic team; however, they also need the support of their families.",
+          "B": "While young figure skaters have a tremendous commitment they need to make in order to earn a place on the Olympic team, they also need the support of their families.",
+          "C": "The tremendous commitment that young figure skaters have to make in order to earn a place on the Olympic team is impossible without the help and support of their families.",
+          "D": "The tremendous commitment that young figure skaters have, along with the support of their families, is needed to make the Olympic team."
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Option C keeps the \"impossible without\" dependency relationship from the original two sentences intact, making the commitment's reliance on family support the clear main point."
+        }
+      },
+      "q_number": 103
+    },
+    {
+      "id": "P-FE4-KM1_Q04",
+      "question_type": "mc",
+      "question": "(1) The Thames River winds through London, dividing the city into north and south banks. (2) Although the riverbanks no longer host any shipyards, they include many popular attractions. (3) On a river cruise, visitors can view the Houses of Parliament, historic bridges, and riverside parks. (4) They can also see the famous Tate Modern, a converted power station that becomes a gallery, after it was renovated with new exhibition spaces.\n\nWhich revisions correct the errors in the paragraph?",
+      "options": {
+        "E": "Sentence 1: Change dividing to divides, AND delete the comma after London.",
+        "F": "Sentence 2: Change host to hosts, AND delete the comma after shipyards.",
+        "G": "Sentence 3: Change view to views, AND delete the comma after cruise.",
+        "H": "Sentence 4: Change becomes to became, AND delete the comma after gallery."
+      },
+      "correct": "H",
+      "solution": {
+        "exhibit_text": "Sentence 4 has two errors: \"becomes\" should be \"became\" to match the past-tense context (\"was renovated\"), and the comma after \"gallery\" must go since \"after it was renovated with new exhibition spaces\" is essential information explaining when the power station became a gallery, not an optional aside.\n\n**Why this sounds right:** \"Becomes\" feels vivid and immediate, so it's easy to miss that the surrounding sentence is firmly set in the past (\"was renovated\"). The comma before \"after\" also feels like a natural pause, even though that clause is giving a necessary detail, not an extra one.\n\n**The concept:** When a sentence or paragraph describes a sequence of actions that already happened, every verb in that sequence should stay in the same tense — usually all past tense. If most of the surrounding verbs are past tense but one verb suddenly switches to present tense (or the reverse) with no real reason for the shift, that's a tense-consistency error. Find the \"majority\" tense nearby and match the odd verb out to it.\n\nA comma should only be used where there's a real pause or separation in meaning. Adding one before a clause that's essential to understanding the sentence (one that explains a necessary detail, not just an extra aside) wrongly suggests that clause is optional, removable information when it isn't.\n\n**More examples of this mistake:**\n- \"She walked into the room, picks up her bag, and left.\" (\"Picks\" breaks the past-tense sequence — should be \"picked.\")\n- \"He studied all night, wakes up early, and aces the test.\" (\"Wakes\" and \"aces\" should be \"woke\" and \"aced\" to match the rest of the sequence.)\n- \"Students, who forget their homework, will receive a warning.\" (The commas wrongly suggest ALL students forget their homework. Without commas, \"who forget their homework\" correctly narrows down which students.)\n- \"The bridge, that connects the two islands, was built in 1950.\" (Should be no commas, since the clause is essential to knowing which bridge.)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q04)",
+      "base_question": {
+        "stimulus": "(1) The River Seine cuts through <u>Paris, forming</u> the Left Bank and Right Bank. (2) Although the riverbanks no longer <u>have</u> any <u>factories,</u> they include many famous attractions. (3) On a river <u>cruise,</u> tourists <u>can view</u> the Eiffel Tower, artistic bridges, and lush gardens. (4) They can also see the famous Musée d'Orsay, a renovated train station that <u>becomes</u> <u>a museum,</u> after it was filled with paintings and sculptures.",
+        "question": "Which revisions correct the errors in the paragraph?",
+        "options": {
+          "E": "Sentence 1: Change **forming** to **forms**, AND delete the comma after **Paris**.",
+          "F": "Sentence 2: Change **have** to **has**, AND delete the comma after **factories**.",
+          "G": "Sentence 3: Change **can view** to **view**, AND delete the comma after **cruise**.",
+          "H": "Sentence 4: Change **becomes** to **became**, AND delete the comma after **museum**."
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_text": "Sentence 4's \"becomes\" should be \"became\" to stay consistent with the past-tense context, and the comma after \"museum\" should be deleted since \"after it was filled with paintings and sculptures\" is essential information, not a removable aside."
+        }
+      },
+      "q_number": 104
+    },
+    {
+      "id": "P-FE4-KM1_Q05",
+      "question_type": "mc",
+      "question": "(1) With its sprawling lawns and winding paths in the heart of Manhattan, Central Park offers a peaceful escape from the city. (2) While many tourists visited the park each year, they are a cherished retreat for local residents seeking fresh air. (3) During the autumn, Central Park becomes a vibrant landscape, prompting photographers to flock to it to capture the changing leaves. (4) Hundreds of species, including nearly 200 species of birds, have been observed finding refuge in the park's groves.\n\nHow should the paragraph be revised?",
+      "options": {
+        "A": "Sentence 1: Change its to their, AND change offers to offered.",
+        "B": "Sentence 2: Change visited to visit, AND change they are to it is.",
+        "C": "Sentence 3: Change becomes to became, AND change it to them.",
+        "D": "Sentence 4: Change have been to had been, AND change species to specie."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Sentence 2 has two errors: \"visited\" should be \"visit\" to match the present-tense, habitual-fact tone of the rest of the paragraph, and \"they are\" should be \"it is\" because the pronoun refers back to \"Central Park,\" which is singular, not plural.\n\n**Why this sounds right:** \"Tourists\" (plural) sits right before \"visited,\" so the verb's past tense can slip by unnoticed, and the same word \"tourists\" makes \"they\" feel like it's correctly matching a plural noun — but \"they\" is actually standing in for \"the park,\" a singular place, not for \"tourists.\"\n\n**The concept:** When a sentence or paragraph describes facts that are still true now, every verb describing that ongoing situation should stay in the present tense — don't let a nearby past-tense detail pull a verb into the wrong tense. Separately, a pronoun has to match the number of the noun it's replacing, not the number of whatever noun happens to sit closest to it — singular noun, singular pronoun (\"it\"); plural noun, plural pronoun (\"they\").\n\n**More examples of this mistake:**\n- \"She walked into the room, picks up her bag, and left.\" (\"Picks\" breaks the past-tense sequence — should be \"picked.\")\n- \"He studied all night, wakes up early, and aces the test.\" (\"Wakes\" and \"aces\" should be \"woke\" and \"aced\" to match the rest of the sequence.)\n- \"The band released their first album in 2019.\" (If \"the band\" is being treated as one singular group, the pronoun should be \"its,\" not \"their.\")\n- \"The jury announced their decision this morning.\" (Same issue — \"its,\" if \"the jury\" is acting as a single body.)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q05)",
+      "base_question": {
+        "stimulus": "(1) With <u>its</u> dramatic canyons and gushing geysers in sections of Wyoming, Idaho, and Montana, Yellowstone National Park <u>offers</u> unique hydrothermal and geologic wonders. (2) While many tourists <u>visited</u> the park each year, <u>they are</u> a permanent home for thousands of animals, including bears, elk, and wolves. (3) During the spring, Yellowstone <u>becomes</u> a dynamic landscape, prompting nature lovers to flock to <u>it</u> to see the rushing rivers and flourishing plant and animal life. (4) Hundreds of animal species, including nearly 300 species of birds, 16 species of fish, and 67 species of mammals, <u>have been</u> observed making the park <u>their</u> home.",
+        "question": "How should the paragraph be revised?",
+        "options": {
+          "A": "Sentence 1: Change **its** to **their**, AND change **offers** to **offered**.",
+          "B": "Sentence 2: Change **visited** to **visit**, AND change **they are** to **it is**.",
+          "C": "Sentence 3: Change **becomes** to **became**, AND change **it** to **them**.",
+          "D": "Sentence 4: Change **have been** to **had been**, AND change **their** to **its**."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Sentence 2's \"visited\" should be \"visit\" to match the present-tense tone of the paragraph, and \"they are\" should be \"it is\" since it refers back to the singular \"Yellowstone National Park.\""
+        }
+      },
+      "q_number": 105
+    },
+    {
+      "id": "P-FE4-KM1_Q06",
+      "question_type": "mc",
+      "question": "(1) There is considerable evidence that ancient trade networks flourished wherever merchants could establish reliable routes across difficult terrain, such as the Silk Road through Central Asia. (2) The development of caravan networks allowed for extensive long-distance commerce, which created vast wealth for trading cities. (3) In addition to trading silk, merchants along these routes often exchanged spices, textiles, and precious metals. (4) Greater wealth and cultural exchange allowed cities along these routes to grow faster than was possible in more isolated regions.\n\nWhich sentence should be revised to correct an error in sentence structure?",
+      "options": {
+        "E": "sentence 1",
+        "F": "sentence 2",
+        "G": "sentence 3",
+        "H": "sentence 4"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_text": "In sentence 1, \"such as the Silk Road through Central Asia\" is meant to give an example of the trade networks described at the start of the sentence, but it's placed right after \"difficult terrain,\" so it reads as if it's describing the terrain instead of the networks it's actually meant to illustrate.\n\n**Why this sounds right:** The example feels like it belongs at the end of the sentence simply because that's where extra details usually go, and \"the Silk Road through Central Asia\" does involve difficult terrain too — so the misplacement doesn't jump out, even though it's technically attached to the wrong noun.\n\n**The concept:** A descriptive clause or example phrase has to sit right next to the specific thing it's illustrating — otherwise it reads as describing whatever word actually precedes it. If an example meant to illustrate an earlier noun ends up tacked onto an unrelated word at the end of the sentence instead, move it so it sits immediately after the word it's meant to modify.\n\n**More examples of this mistake:**\n- \"The students toured the laboratory where the discovery was made on a school field trip.\" (Reads as if the discovery was made \"on a school field trip.\" Fix: \"On a school field trip, the students toured the laboratory where the discovery was made.\")\n- \"She finally returned to the town where she was born after twenty years.\" (Reads as if she was born \"after twenty years.\" Fix: \"After twenty years, she finally returned to the town where she was born.\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q06)",
+      "base_question": {
+        "stimulus": "(1) There is considerable evidence that the earliest civilizations were greatly influenced by how well the land could be adapted to provide a stable water supply, such as Sumer and Babylonia in the Tigris-Euphrates valley. (2) The development of irrigation allowed for extremely efficient agricultural production, which created a surplus of food resources. (3) In addition to irrigating crops, early civilizations often developed an elaborate system of canals and drainage networks. (4) Greater resources and improved infrastructure allowed civilizations in these locations to grow faster than was possible in areas where such development was more difficult.",
+        "question": "Which sentence should be revised to correct an error in sentence structure?",
+        "options": {
+          "E": "sentence 1",
+          "F": "sentence 2",
+          "G": "sentence 3",
+          "H": "sentence 4"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_text": "In sentence 1, \"such as Sumer and Babylonia in the Tigris-Euphrates valley\" is meant to illustrate the earliest civilizations described at the start of the sentence, but its placement after \"water supply\" makes it read as describing the water supply instead."
+        }
+      },
+      "q_number": 106
+    },
+    {
+      "id": "P-FE4-KM1_Q07",
+      "question_type": "mc",
+      "question": "City residents have shown growing interest in sustainable food practices since the early 2010s, the rise in urban beekeeping has encouraged the spread of rooftop hives, or RTHs. In addition to producing honey at local markets, small-scale beekeepers maintain a wide variety of hive types and sell honey subscriptions for the season. Members pay a set rate for a subscription and then visit the apiary or a centrally located pick-up site each month to receive a jar of the season's harvest. Small-scale urban beekeeping is a sustainable alternative to industrial agriculture, with many advantages for both producers and consumers.\n\nWhich revision corrects the error in sentence structure in the paragraph?",
+      "options": {
+        "A": "2010s, and the",
+        "B": "season, and members",
+        "C": "subscription, and then they",
+        "D": "agriculture, which includes"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The opening sentence joins two complete, independent clauses (\"City residents have shown...since the early 2010s\" and \"the rise in urban beekeeping has encouraged...\") with only a comma — a comma splice. Inserting \"and\" after the comma correctly joins them.\n\n**Why this sounds right:** Both clauses are part of the same continuous idea about the growth of urban beekeeping, so the sentence reads as one smooth thought — but each half has its own subject and verb and could stand alone, so a bare comma isn't enough to connect them.\n\n**The concept:** A comma splice happens when you join two complete sentences (each with its own subject and verb) using only a comma. Test it by splitting the sentence in two at the comma — if both halves could stand alone with a period, the comma isn't strong enough on its own. Fix it with a period, a semicolon, or a connecting word like \"and\"/\"but\"/\"so.\"\n\n**More examples of this mistake:**\n- \"The museum closes at five, we still had time to see the dinosaur exhibit.\"\n- \"She finished her homework early, she decided to go for a walk.\""
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 (KM1_Q07)",
+      "base_question": {
+        "stimulus": "Consumers have shown a preference for organic fruits and vegetables since the early <u>1990s, the</u> boom in the organic produce market has encouraged the spread of Community Supported Agriculture farms, or CSAs. In addition to selling produce at traditional outlets such as farmers' markets, small farmers grow a wide variety of crops and sell membership subscriptions for the <u>season. Members</u> pay a set rate for a <u>subscription and then</u> come to the farm or to a centrally located pick-up site each week to receive a selection of the week's harvest. Small-scale CSA farming is a sustainable alternative to traditional <u>agriculture, with</u> many advantages for both producers and consumers.",
+        "question": "Which revision corrects the error in sentence structure in the paragraph?",
+        "options": {
+          "A": "1990s, and the",
+          "B": "season, and members",
+          "C": "subscription, and then they",
+          "D": "agriculture, which includes"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "The opening sentence is a comma splice: \"Consumers have shown a preference...since the early 1990s\" and \"the boom in the organic produce market has encouraged...\" are both independent clauses joined with only a comma. Inserting \"and\" after the comma fixes it."
+        }
+      },
+      "q_number": 107
+    }
+  ]
+}
