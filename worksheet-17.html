@@ -691,11 +691,19 @@
         const solutionHtml = (q.solution && q.solution.exhibit_text)
           ? `<div class="tn-results-row-sol"><span class="label">Explanation:</span>${renderQuestionText(q.solution.exhibit_text)}</div>`
           : '';
+        const bq = q.base_question;
+        const baseFigure = bq && (bq.figure_svg || bq.exhibit_image_path)
+          ? (bq.figure_svg || `<img src="${bq.exhibit_image_path}" alt="figure">`)
+          : '';
+        const baseFigureHtml = baseFigure
+          ? `<div class="tn-results-row-sol"><span class="label">Figure from the real exam question${q.base_source ? ' (' + esc(q.base_source) + ')' : ''}:</span><div class="tn-figure">${baseFigure}</div></div>`
+          : '';
         return `<div class="tn-results-row ${status}">
           <div class="tn-results-row-head"><span>${sectionLabel[q.section]} — ${esc(label)}</span><span class="mark">${mark}</span></div>
           <div class="tn-results-row-q">${renderQuestionText(q.question)}</div>
           <div class="tn-results-row-ans"><span class="label">Her answer:</span> ${givenHtml}</div>
           ${status !== 'correct' ? `<div class="tn-results-row-ans"><span class="label">Correct answer:</span> ${correctHtml}</div>` : ''}
+          ${baseFigureHtml}
           ${solutionHtml}
         </div>`;
       }).join('');
@@ -733,6 +741,10 @@
         lines.push('  Her answer: ' + (givenParts ? givenParts.join(' | ') : '(no answer)'));
         if (status !== 'correct') {
           lines.push('  Correct answer: ' + (correctParts ? correctParts.join(' | ') : ''));
+        }
+        const bq = q.base_question;
+        if (bq && (bq.figure_svg || bq.exhibit_image_path)) {
+          lines.push('  (This question has a figure/table from the real exam question — see the website to view it.)');
         }
         if (q.solution && q.solution.exhibit_text) {
           lines.push('  Explanation: ' + q.solution.exhibit_text.replace(/\*\*/g, '').replace(/\n+/g, ' '));
