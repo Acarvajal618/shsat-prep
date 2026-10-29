@@ -717,6 +717,10 @@
           <div class="sub">${pct}% correct &middot; time taken: ${formatDuration(state.finishedAtMs)}</div>
           <div class="tn-results-breakdown">${breakdown}</div>
         </div>
+        <div class="tn-review-unlock">
+          🔓 Review password unlocked: <strong>unlockhe3</strong>
+          <div class="sub">Use this on the <a href="worksheet-26.html">full-content version</a> of this exam to freely review every Solution and Base Question.</div>
+        </div>
         <button class="tn-results-download" id="tn-download-results">⬇ Download Results</button>
         ${rowsHtml}
       `;
@@ -731,6 +735,7 @@
       lines.push('EXAM RESULTS — ' + new Date().toLocaleString());
       lines.push('Score: ' + summary.correct + ' / ' + summary.total);
       lines.push('Time taken: ' + formatDuration(state.finishedAtMs));
+      lines.push('Review password (for worksheet-26.html, the full-content version): unlockhe3');
       Object.keys(summary.bySection).forEach(k => {
         if (summary.bySection[k].total > 0) {
           lines.push(sectionLabel[k] + ': ' + summary.bySection[k].correct + ' / ' + summary.bySection[k].total);

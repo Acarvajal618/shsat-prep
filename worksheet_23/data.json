@@ -1,0 +1,1825 @@
+{
+  "math_questions": [
+    {
+      "id": "P-HE4-M-DM15",
+      "question_type": "mc",
+      "question": "\\[\\dfrac{1}{9} + \\dfrac{1}{18} + \\dfrac{1}{27}\\]\nWhat is the value of the expression shown above?",
+      "options": {
+        "A": "\\(\\dfrac{1}{18}\\)",
+        "B": "\\(\\dfrac{1}{9}\\)",
+        "C": "\\(\\dfrac{11}{54}\\)",
+        "D": "\\(\\dfrac{3}{18}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Using a common denominator of \\(54\\): \\(1/9=6/54\\), \\(1/18=3/54\\), \\(1/27=2/54\\). Sum: \\((6+3+2)/54=11/54\\)."
+      },
+      "base_source": "Exam D — Math Q15 (DM15)",
+      "base_question": {
+        "question": "\\[\\dfrac{1}{11} + \\dfrac{1}{22} + \\dfrac{1}{33}\\]\nWhat is the value of the expression shown above?",
+        "options": {
+          "A": "\\(\\dfrac{1}{22}\\)",
+          "B": "\\(\\dfrac{1}{11}\\)",
+          "C": "\\(\\dfrac{1}{6}\\)",
+          "D": "\\(\\dfrac{3}{22}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Common denom 66: 6/66+3/66+2/66=11/66=1/6."
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-HE4-M-KM2_Q72",
+      "question_type": "mc",
+      "question": "The mean of a set of \\(12\\) numbers is \\(20\\). Two of the numbers (\\(8\\) and \\(14\\)) are removed. What is the mean of the \\(10\\) remaining numbers?",
+      "options": {
+        "A": "\\(17.5\\)",
+        "B": "\\(18\\)",
+        "C": "\\(21.8\\)",
+        "D": "\\(22\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The original sum is \\(12\\times20=240\\). Removing \\(8\\) and \\(14\\) leaves a sum of \\(240-8-14=218\\). The new mean is \\(218/10=21.8\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q72 (KM2_Q72)",
+      "base_question": {
+        "question": "The mean of a set of 10 numbers is 16. Two of the numbers (7 and 13) are removed. What is the mean of the 8 remaining numbers?",
+        "options": {
+          "E": "6",
+          "F": "13.5",
+          "G": "17.5",
+          "H": "18"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "Sum=160, remove 20, left 140/8=17.5."
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-HE4-M-AM06",
+      "question_type": "mc",
+      "question": "9 + (5n + 4) - (6n + 2) =",
+      "options": {
+        "A": "\\(11 - n\\)",
+        "B": "\\(11 + n\\)",
+        "C": "\\(15 - n\\)",
+        "D": "\\(15 + n\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "9 + (5n+4) - (6n+2) = 9 + 5n + 4 - 6n - 2 = (9+4-2) + (5n-6n) = 11 - n."
+      },
+      "base_source": "Exam A — Math Q6 (AM06)",
+      "base_question": {
+        "question": "\\(7 + (3n + 6) - (4n + 8) = \\)",
+        "options": {
+          "A": "\\(5 - n\\)",
+          "B": "\\(5 + n\\)",
+          "C": "\\(21 - n\\)",
+          "D": "\\(21 + n\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "\\(7+(3n+6)-(4n+8)=7+3n+6-4n-8=(7+6-8)+(3n-4n)=5-n\\)."
+        }
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-HE4-M-KM3_Q70",
+      "question_type": "mc",
+      "question": "Which of the following values of \\(s\\) would yield the smallest value for \\(5+\\dfrac{1}{s}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{5}\\)",
+        "B": "\\(\\dfrac{1}{3}\\)",
+        "C": "\\(1\\)",
+        "D": "\\(5\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "To make \\(5+1/s\\) as small as possible, make \\(1/s\\) as small as possible. Of the choices, \\(s=5\\) gives \\(1/s=0.2\\), the smallest, so \\(5+0.2=5.2\\) is the smallest total."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q70 (KM3_Q70)",
+      "base_question": {
+        "question": "Which of the following values of \\(s\\) would yield the smallest value for \\(4+\\dfrac{1}{s}\\)?",
+        "options": {
+          "E": "\\(\\dfrac{1}{4}\\)",
+          "F": "\\(\\dfrac{1}{2}\\)",
+          "G": "1",
+          "H": "4"
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_text": "s=4 gives smallest 1/s=0.25, total 4.25."
+        }
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-HE4-M-KM1_Q78",
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{40}{100}=\\dfrac{x}{400}\\), what is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(40\\)",
+        "C": "\\(160\\)",
+        "D": "\\(1{,}600\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Cross-multiply: \\(40\\times400=100x\\), so \\(16{,}000=100x\\), and \\(x=160\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q78 (KM1_Q78)",
+      "base_question": {
+        "question": "If \\(\\dfrac{30}{100}=\\dfrac{x}{300}\\), what is the value of \\(x\\)?",
+        "options": {
+          "E": "3",
+          "F": "30",
+          "G": "90",
+          "H": "900"
+        },
+        "correct": "G",
+        "solution": {
+          "exhibit_text": "30x300/100=90."
+        }
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-HE4-M-EM20",
+      "question_type": "mc",
+      "question": "\\[Q=\\dfrac{R}{5}=S-8=9T=\\dfrac{U}{12}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+      "options": {
+        "A": "\\(R\\)",
+        "B": "\\(S\\)",
+        "C": "\\(T\\)",
+        "D": "\\(U\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Let \\(Q=9\\) (a convenient positive value). Then \\(R=5Q=45\\), \\(S=Q+8=17\\), \\(T=Q/9=1\\), \\(U=12Q=108\\). Of these, \\(T=1\\) is the smallest."
+      },
+      "base_source": "Exam E — Math Q20 (EM20)",
+      "base_question": {
+        "question": "\\[Q=\\dfrac{R}{3}=S-6=7T=\\dfrac{U}{10}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+        "options": {
+          "A": "\\(R\\)",
+          "B": "\\(S\\)",
+          "C": "\\(T\\)",
+          "D": "\\(U\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "T is always least since it equals Q/7, a fraction of Q, while the others are Q scaled up or offset."
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-HE4-M-BM35",
+      "question_type": "mc",
+      "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-5, -2, 1,\\) and \\(4\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(5\\)",
+        "C": "\\(6\\)",
+        "D": "\\(7\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Midpoint of PQ: \\((-5+(-2))/2=-3.5\\). Midpoint of RS: \\((1+4)/2=2.5\\). Distance between them: \\(2.5-(-3.5)=6\\)."
+      },
+      "base_source": "Exam B — Math Q35 (BM35)",
+      "base_question": {
+        "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-3, -1, 0,\\) and \\(2\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
+        "options": {
+          "A": "\\(1\\)",
+          "B": "\\(2\\)",
+          "C": "\\(3\\)",
+          "D": "\\(4\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Midpoint PQ=-2, midpoint RS=1. Distance=3."
+        }
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-HE4-M-KM2_Q65",
+      "question_type": "mc",
+      "question": "If \\(3(x+y)=15+3y\\), then what is \\(x\\)?",
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(3\\)",
+        "C": "\\(5\\)",
+        "D": "\\(8\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Distribute: \\(3x+3y=15+3y\\). Subtracting \\(3y\\) from both sides: \\(3x=15\\), so \\(x=5\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q65 (KM2_Q65)",
+      "base_question": {
+        "question": "If \\(2(x+y)=8+2y\\), then what is \\(x\\)?",
+        "options": {
+          "A": "-1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "2x+2y=8+2y, 2x=8, x=4."
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-HE4-M-KM1_Q70",
+      "question_type": "mc",
+      "question": "Maria has \\(8\\) boards that are \\(x\\) meters long. She has \\(6\\) boards that are \\(3x\\) meters long. She also has \\(4\\) boards that measure \\(4\\) meters, \\(7\\) meters, \\(10\\) meters, and \\(14\\) meters, respectively. If she were to lay all her boards in a straight line with no gaps between them, the boards would measure \\(269\\) meters. What is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(7\\) meters",
+        "B": "\\(8\\) meters",
+        "C": "\\(9\\) meters",
+        "D": "\\(10\\) meters"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The 8 boards contribute \\(8x\\), the 6 boards contribute \\(6(3x)=18x\\), and the 4 fixed boards add \\(4+7+10+14=35\\). Total: \\(8x+18x+35=26x+35=269\\). So \\(26x=234\\), and \\(x=9\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q70 (KM1_Q70)",
+      "base_question": {
+        "question": "Isabel has 10 boards that are x meters long. She has 5 boards that are 2x meters long. She also has 4 boards that measure 3 meters, 6 meters, 9 meters, and 13 meters, respectively. If she were to lay all her boards in a straight line with no gaps between them, the boards would measure 271 meters. What is the value of x?",
+        "options": {
+          "E": "5 meters",
+          "F": "6 meters",
+          "G": "10 meters",
+          "H": "12 meters"
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_text": "20x+31=271, x=12."
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-HE4-M-CM03",
+      "question_type": "mc",
+      "question": "\\[8x = x - 2{,}100\\]\nWhat is the value of \\(x\\) in the equation shown above?",
+      "options": {
+        "A": "\\(300\\)",
+        "B": "\\(240\\)",
+        "C": "\\(-240\\)",
+        "D": "\\(-300\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "\\(8x-x=-2{,}100\\), so \\(7x=-2{,}100\\), and \\(x=-300\\)."
+      },
+      "base_source": "Exam C — Math Q3 (CM03)",
+      "base_question": {
+        "question": "\\[6x = x - 1{,}680\\]\nWhat is the value of \\(x\\) in the equation shown above?",
+        "options": {
+          "A": "\\(336\\)",
+          "B": "\\(240\\)",
+          "C": "\\(-240\\)",
+          "D": "\\(-336\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "5x=-1680, x=-336."
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-HE4-M-KM1_Q80",
+      "question_type": "mc",
+      "question": "Marcus is saving for a bicycle that costs \\(\\$420.16\\). He has already saved \\(\\$150\\). If Marcus earns \\(\\$7.92\\) per hour at his job, what is the minimum number of whole hours he must work to have enough money to buy the bicycle?",
+      "options": {
+        "A": "\\(33\\)",
+        "B": "\\(34\\)",
+        "C": "\\(35\\)",
+        "D": "\\(36\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Marcus still needs \\(\\$420.16-\\$150=\\$270.16\\). Dividing by his hourly rate: \\(270.16/7.92\\approx34.1\\) hours. Since he can't work a partial hour and needs at least that much, he must work \\(35\\) whole hours (34 hours would only earn \\(\\$269.28\\), not quite enough)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q80 (KM1_Q80)",
+      "base_question": {
+        "question": "Jennifer is saving for a bicycle that costs $310.04. She has already saved $200. If Jennifer earns $6.48 per hour at her job, what is the minimum number of whole hours she must work to have enough money to buy the bicycle?",
+        "options": {
+          "E": "16",
+          "F": "17",
+          "G": "18",
+          "H": "19"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_text": "110.04/6.48=16.98, round up to 17."
+        }
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-HE4-M-AM30",
+      "question_type": "mc",
+      "question": "For a presentation, Maya can create \\(7\\) slides in \\(14\\) minutes, working at a constant rate. Theo can create \\(4\\) slides in \\(20\\) minutes, working at his own constant rate. What is the total number of slides the two of them can create in one hour?",
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(36\\)",
+        "C": "\\(42\\)",
+        "D": "\\(48\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Maya's rate is \\(7/14=0.5\\) slides per minute. Theo's rate is \\(4/20=0.2\\) slides per minute. Together they make \\(0.7\\) slides per minute. In \\(60\\) minutes: \\(0.7\\times60=42\\) slides."
+      },
+      "base_source": "Exam A — Math Q30 (AM30)",
+      "base_question": {
+        "question": "For a presentation, Deion can create \\(5\\) slides in \\(20\\) minutes, working at a constant rate. Kyra can create \\(3\\) slides in \\(10\\) minutes, working at her own constant rate. What is the total number of slides the two of them can create in one hour?",
+        "options": {
+          "A": "\\(16\\)",
+          "B": "\\(30\\)",
+          "C": "\\(33\\)",
+          "D": "\\(55\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Deion: 5/20=0.25 slides/min. Kyra: 3/10=0.3 slides/min. Together 0.55/min x 60 = 33."
+        }
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-HE4-M-GM05",
+      "question_type": "mc",
+      "question": "In May, the electricity used in New York was \\(6{,}000{,}000\\) watts. In June, the number of watts used was \\(4{,}500{,}000\\). By what percentage did the electricity usage decrease from May to June?",
+      "options": {
+        "A": "\\(25\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(40\\%\\)",
+        "D": "\\(75\\%\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The decrease is \\(6{,}000{,}000-4{,}500{,}000=1{,}500{,}000\\) watts. As a percentage of the original: \\(1{,}500{,}000/6{,}000{,}000=0.25=25\\%\\)."
+      },
+      "base_source": "Exam G — Math Q5 (GM05)",
+      "base_question": {
+        "question": "In March, the electricity used in New York was \\(5{,}000{,}000\\) watts. In April, the number of watts used was \\(4{,}000{,}000\\). By what percentage did the electricity usage decrease from March to April?",
+        "options": {
+          "A": "\\(20\\%\\)",
+          "B": "\\(25\\%\\)",
+          "C": "\\(50\\%\\)",
+          "D": "\\(75\\%\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "1,000,000/5,000,000=20%."
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-HE4-M-BM09",
+      "question_type": "mc",
+      "question": "To make party invitations, Macie could buy a package of paper for $\\(12.60\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.18\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
+      "options": {
+        "A": "\\(65\\)",
+        "B": "\\(68\\)",
+        "C": "\\(69\\)",
+        "D": "\\(70\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "We need \\(0.18x < 12.60\\), so \\(x < 70\\). The largest whole number less than \\(70\\) is \\(69\\) — at \\(x=70\\) the cost would equal \\(\\$12.60\\), not be less than it."
+      },
+      "base_source": "Exam B — Math Q9 (BM09)",
+      "base_question": {
+        "question": "To make party invitations, Macie could buy a package of paper for $\\(10.50\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.15\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
+        "options": {
+          "A": "\\(60\\)",
+          "B": "\\(65\\)",
+          "C": "\\(69\\)",
+          "D": "\\(70\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "0.15x<10.50 -> x<70. Largest whole number is 69."
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-HE4-M-CM07",
+      "question_type": "mc",
+      "question": "\\[-20 > 5x\\]\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x > -4\\)",
+        "B": "\\(x < -4\\)",
+        "C": "\\(x < 4\\)",
+        "D": "\\(x > 4\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Dividing both sides by \\(5\\) (positive, so the inequality direction stays the same): \\(-4 > x\\), i.e., \\(x < -4\\)."
+      },
+      "base_source": "Exam C — Math Q7 (CM07)",
+      "base_question": {
+        "question": "\\[-12 > 6x\\]\nFor what values of \\(x\\) is the above inequality true?",
+        "options": {
+          "A": "\\(x > -6\\)",
+          "B": "\\(x < -6\\)",
+          "C": "\\(x < -2\\)",
+          "D": "\\(x > -2\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "-2>x, i.e. x<-2."
+        }
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-HE4-M-KM3_Q65",
+      "question_type": "mc",
+      "question": "Devon has completed \\(90\\) math problems in her SHSAT practice workbook. This is \\(30\\%\\) of the total number of math problems in the workbook. How many math problems are in the workbook in total?",
+      "options": {
+        "A": "\\(210\\)",
+        "B": "\\(270\\)",
+        "C": "\\(288\\)",
+        "D": "\\(300\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "If \\(90\\) is \\(30\\%\\) of the total, then the total is \\(90\\div0.30=300\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q65 (KM3_Q65)",
+      "base_question": {
+        "question": "Keisha has completed 72 math problems in her SHSAT practice workbook. This is 24% of the total number of math problems in the workbook. How many math problems are in the workbook in total?",
+        "options": {
+          "A": "196",
+          "B": "280",
+          "C": "288",
+          "D": "300"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "72/0.24=300."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-HE4-M-CM02",
+      "question_type": "mc",
+      "question": "If \\((10 \\div m) + 5 = 25\\), what is the value of \\(m\\)?",
+      "options": {
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(2\\)",
+        "D": "\\(4\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "\\(10/m = 20\\), so \\(m = 10/20 = 1/2\\)."
+      },
+      "base_source": "Exam C — Math Q2 (CM02)",
+      "base_question": {
+        "question": "If \\((8 \\div m) + 4 = 20\\), what is the value of \\(m\\)?",
+        "options": {
+          "A": "\\(\\dfrac{1}{3}\\)",
+          "B": "\\(\\dfrac{1}{2}\\)",
+          "C": "\\(2\\)",
+          "D": "\\(3\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "8/m=16, m=1/2."
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-HE4-M-FM10",
+      "question_type": "mc",
+      "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by \\(20\\%\\). Then, to determine the final selling price, the manager applies an additional \\(30\\%\\) markup to that new total. Which expression represents the final selling price of each dining table?",
+      "options": {
+        "A": "\\(1.56w\\)",
+        "B": "\\(1.50w\\)",
+        "C": "\\(w+0.50\\)",
+        "D": "\\(1.20w+0.36\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "A \\(20\\%\\) increase on \\(w\\) gives \\(1.20w\\). Applying a further \\(30\\%\\) increase to that: \\(1.20w\\times1.30=1.56w\\)."
+      },
+      "base_source": "Exam F — Math Q10 (FM10)",
+      "base_question": {
+        "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by \\(10\\%\\). Then, to determine the final selling price, the manager applies an additional \\(45\\%\\) markup to that new total. Which expression represents the final selling price of each dining table?",
+        "options": {
+          "A": "\\(1.55w\\)",
+          "B": "\\(1.595w\\)",
+          "C": "\\(w+0.55\\)",
+          "D": "\\(1.10w+0.45\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "1.10w x 1.45 = 1.595w."
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-HE4-M-AM21",
+      "question_type": "mc",
+      "question": "The faculty of a certain four-year college consists of \\(150\\) teachers. There are \\(540\\) first-year students. The student-to-faculty ratio for the entire college is \\(12\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
+      "options": {
+        "A": "\\(1{,}260\\)",
+        "B": "\\(1{,}800\\)",
+        "C": "\\(1{,}980\\)",
+        "D": "\\(2{,}340\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Total students = \\(150\\times12=1{,}800\\). Subtracting the \\(540\\) first-year students leaves \\(1{,}800-540=1{,}260\\) upper-class students."
+      },
+      "base_source": "Exam A — Math Q21 (AM21)",
+      "base_question": {
+        "question": "The faculty of a certain four-year college consists of \\(179\\) teachers. There are \\(663\\) first-year students. The student-to-faculty ratio for the entire college is \\(15\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
+        "options": {
+          "A": "\\(1{,}989\\)",
+          "B": "\\(2{,}022\\)",
+          "C": "\\(2{,}652\\)",
+          "D": "\\(2{,}685\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Total students = 179x15=2685. Upper-class = 2685-663=2022."
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-HE4-M-BM10",
+      "question_type": "mc",
+      "question": "At \\(2{:}00\\) p.m. one day, the temperature was \\(10\\) degrees above zero. During the rest of the day, the temperature fell \\(4\\) degrees per hour. What was the temperature at \\(9{:}00\\) p.m. that day?",
+      "options": {
+        "A": "\\(-18°\\)",
+        "B": "\\(-14°\\)",
+        "C": "\\(-10°\\)",
+        "D": "\\(6°\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "From 2:00 p.m. to 9:00 p.m. is \\(7\\) hours. The temperature fell \\(4\\times7=28\\) degrees from \\(10°\\): \\(10-28=-18°\\)."
+      },
+      "base_source": "Exam B — Math Q10 (BM10)",
+      "base_question": {
+        "question": "At \\(1{:}00\\) p.m. one day, the temperature was \\(8\\) degrees above zero. During the rest of the day, the temperature fell \\(3\\) degrees per hour. What was the temperature at \\(7{:}00\\) p.m. that day?",
+        "options": {
+          "A": "\\(-13°\\)",
+          "B": "\\(-10°\\)",
+          "C": "\\(-7°\\)",
+          "D": "\\(5°\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "6 hours x 3 deg = 18. 8-18=-10."
+        }
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-HE4-M-AM07",
+      "question_type": "mc",
+      "question": "In a certain school, course grades range from \\(0\\) to \\(100\\). Adrianna took \\(3\\) courses and her mean course grade was \\(92\\). Roberto took \\(4\\) courses. If both students have the same sum of course grades, what was Roberto's mean?",
+      "options": {
+        "A": "\\(69\\)",
+        "B": "\\(73\\)",
+        "C": "\\(88\\)",
+        "D": "\\(92\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Adrianna's sum of grades is \\(3\\times92=276\\). Roberto has the same sum, \\(276\\), spread across \\(4\\) courses, so his mean is \\(276\\div4=69\\)."
+      },
+      "base_source": "Exam A — Math Q7 (AM07)",
+      "base_question": {
+        "question": "In a certain school, course grades range from \\(0\\) to \\(100\\). Adrianna took \\(4\\) courses and her mean course grade was \\(90\\). Roberto took \\(5\\) courses. If both students have the same sum of course grades, what was Roberto's mean?",
+        "options": {
+          "A": "\\(72\\)",
+          "B": "\\(80\\)",
+          "C": "\\(90\\)",
+          "D": "\\(92\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Adrianna's sum is 4x90=360. Roberto's mean = 360/5 = 72."
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-HE4-M-GM02",
+      "question_type": "mc",
+      "question": "A gardener has a plot of land that is \\(12\\) feet by \\(24\\) feet. If both sides of the plot are increased by \\(25\\%\\), how many square feet will be added to the plot?",
+      "options": {
+        "A": "\\(72\\)",
+        "B": "\\(90\\)",
+        "C": "\\(144\\)",
+        "D": "\\(162\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Original area: \\(12\\times24=288\\) sq ft. New dimensions: \\(12\\times1.25=15\\), \\(24\\times1.25=30\\). New area: \\(15\\times30=450\\) sq ft. Added: \\(450-288=162\\) sq ft."
+      },
+      "base_source": "Exam G — Math Q2 (GM02)",
+      "base_question": {
+        "question": "A gardener has a plot of land that is \\(10\\) feet by \\(20\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
+        "options": {
+          "A": "\\(20\\)",
+          "B": "\\(35\\)",
+          "C": "\\(88\\)",
+          "D": "\\(180\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Old area 200, new 12x24=288, added 88."
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-HE4-M-FM05",
+      "question_type": "mc",
+      "question": "Priya and Jamal built a model bridge together. If Priya built \\(\\dfrac{3}{8}\\) of the bridge and Jamal built \\(25\\) centimeters of it, what was the total length of the bridge?",
+      "options": {
+        "A": "\\(15\\) cm",
+        "B": "\\(25\\) cm",
+        "C": "\\(40\\) cm",
+        "D": "\\(65\\) cm"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "If Priya built \\(3/8\\) of the bridge, Jamal built the remaining \\(5/8\\), which equals \\(25\\) cm. So \\((5/8)L=25\\), giving \\(L=25\\times(8/5)=40\\) cm."
+      },
+      "base_source": "Exam F — Math Q5 (FM05)",
+      "base_question": {
+        "question": "Nick and Alex worked on a paper together. If Nick wrote \\(\\dfrac{2}{7}\\) of the paper and Alex wrote \\(20\\) pages, then what was the total length of the paper?",
+        "options": {
+          "A": "7 pages",
+          "B": "21 pages",
+          "C": "28 pages",
+          "D": "35 pages"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "5/7 P=20, P=28."
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-HE4-M-DM06",
+      "question_type": "mc",
+      "question": "The cost of shipping a package is $\\(15\\), plus $\\(3\\) for each additional pound over \\(4\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 4\\).",
+      "options": {
+        "A": "\\(15 + 3(p + 4)\\)",
+        "B": "\\(15 + 3(p - 4)\\)",
+        "C": "\\(18p + 4\\)",
+        "D": "\\(18p - 4\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "The flat cost is \\(\\$15\\). Every pound over \\(4\\) adds \\(\\$3\\), and the number of pounds over \\(4\\) is \\((p-4)\\). Total: \\(15+3(p-4)\\)."
+      },
+      "base_source": "Exam D — Math Q6 (DM06)",
+      "base_question": {
+        "question": "The cost of shipping a package is $\\(12\\), plus $\\(2\\) for each additional pound over \\(3\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 3\\).",
+        "options": {
+          "A": "\\(12 + 2(p + 3)\\)",
+          "B": "\\(12 + 2(p - 3)\\)",
+          "C": "\\(14p + 3\\)",
+          "D": "\\(14p - 3\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "12+2(p-3)."
+        }
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-HE4-M-GM06",
+      "question_type": "mc",
+      "question": "Points \\(C\\) and \\(D\\) are on a number line (not shown). The coordinate of point \\(C\\) is \\(-20\\) and the coordinate of point \\(D\\) is \\(16\\). Point \\(E\\) is a point on line segment \\(CD\\). If the distance from point \\(E\\) to point \\(C\\) is \\(\\dfrac{1}{3}\\) the distance from point \\(E\\) to point \\(D\\), what is the coordinate of point \\(E\\)?",
+      "options": {
+        "A": "\\(-11\\)",
+        "B": "\\(-6\\)",
+        "C": "\\(-2\\)",
+        "D": "\\(5\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The total distance from C to D is \\(16-(-20)=36\\). If \\(EC=\\frac{1}{3}ED\\), then \\(EC+ED=36\\) becomes \\(\\frac{1}{3}ED+ED=36\\), so \\(\\frac{4}{3}ED=36\\) and \\(ED=27\\), making \\(EC=9\\). Point E is \\(9\\) units from C: \\(-20+9=-11\\)."
+      },
+      "base_source": "Exam G — Math Q6 (GM06)",
+      "base_question": {
+        "question": "Points \\(C\\) and \\(D\\) are on a number line (not shown). The coordinate of point \\(C\\) is \\(-16\\) and the coordinate of point \\(D\\) is \\(14\\). Point \\(E\\) is a point on line segment \\(CD\\). If the distance from point \\(E\\) to point \\(C\\) is \\(\\dfrac{1}{4}\\) the distance from point \\(E\\) to point \\(D\\), what is the coordinate of point \\(E\\)?",
+        "options": {
+          "A": "\\(-10\\)",
+          "B": "\\(-6\\)",
+          "C": "\\(-3\\)",
+          "D": "\\(5\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "exhibit_text": "Total 30, ED=24, EC=6, E=-16+6=-10."
+        }
+      },
+      "q_number": 25
+    }
+  ],
+  "ela_passages": [
+    {
+      "title": "Bird Talk",
+      "author": "Carl Sandburg",
+      "citation": "“Bird Talk” by Carl Sandburg—Public Domain",
+      "genre": "poem",
+      "lines": [
+        {
+          "num": null,
+          "text": "And now when the branches were beginning to be heavy,"
+        },
+        {
+          "num": null,
+          "text": "It was the time when they once had said, “This is the"
+        },
+        {
+          "num": null,
+          "text": "beginning of summer.”"
+        },
+        {
+          "num": null,
+          "text": "The shrilling of the frogs was not so shrill as in the"
+        },
+        {
+          "num": 5,
+          "text": "first weeks after the broken winter;"
+        },
+        {
+          "num": null,
+          "text": "The birds took their hops and zigzags a little more"
+        },
+        {
+          "num": null,
+          "text": "anxious; a home is a home; worms are worms."
+        },
+        {
+          "num": null,
+          "text": "The yellow spreads of the dandelions and buttercups"
+        },
+        {
+          "num": null,
+          "text": "reached across the green pastures."
+        },
+        {
+          "num": 10,
+          "text": "Tee whee and tee whee came on the breezes, and the grackles"
+        },
+        {
+          "num": null,
+          "text": "chuzzled their syllables."
+        },
+        {
+          "num": null,
+          "text": "And it was the leaves with a strong soft wind over them"
+        },
+        {
+          "num": null,
+          "text": "that talked most of all and said more than any others"
+        },
+        {
+          "num": null,
+          "text": "though speaking the fewest words."
+        },
+        {
+          "num": 15,
+          "text": "It was the green leaves trickling out the gaunt nowhere"
+        },
+        {
+          "num": null,
+          "text": "of winter, out on the gray hungry branches—"
+        },
+        {
+          "num": null,
+          "text": "It was the leaves on the branches, beginning to be heavy,"
+        },
+        {
+          "num": null,
+          "text": "who said as they said one time before, “This is the beginning of summer.”"
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 20,
+          "text": "We shall never blame the birds who come"
+        },
+        {
+          "num": null,
+          "text": "where the river and the road make the Grand Crossing"
+        },
+        {
+          "num": null,
+          "text": "and talk there, sitting in circles talking bird talk."
+        },
+        {
+          "num": null,
+          "text": "If they ask in their circles as to who is here"
+        },
+        {
+          "num": null,
+          "text": "and as to who is not here and who used to be here,"
+        },
+        {
+          "num": 25,
+          "text": "Or if instead of counting up last year as against"
+        },
+        {
+          "num": null,
+          "text": "this year, they count up this year as against next"
+        },
+        {
+          "num": null,
+          "text": "year, and have their bird chatter about who is here"
+        },
+        {
+          "num": null,
+          "text": "this year who won't be here next year,"
+        },
+        {
+          "num": null,
+          "text": "We shall never blame the birds."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 30,
+          "text": "If I have put your face among leaf faces, child,"
+        },
+        {
+          "num": null,
+          "text": "Or if I have put your voice among bird voices,"
+        },
+        {
+          "num": null,
+          "text": "Blame me no more than the bluejays."
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR20",
+          "q_number": 26,
+          "question_type": "mc",
+          "question": "Read lines 6-7 from the poem.\n\n**The birds took their hops and zigzags a little more**\n**anxious; a home is a home; worms are worms.**\n\nWhat idea from the second stanza do the lines help develop?",
+          "options": {
+            "A": "The birds are eager for the return of warmer months.",
+            "B": "The birds are most likely to thrive during the spring.",
+            "C": "The birds naturally adjust to the seasonal changes.",
+            "D": "The birds instinctively prepare for the future."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While lines 6-7 show the birds acting “a little more anxious” as the season changes, the lines do not indicate that the birds are eager for the return of warmer months; rather, the birds simply adjust to the change without much fuss, since “a home is a home; worms are worms” regardless of the season.\nB. Incorrect. The birds are more likely to thrive in warmer weather as evidenced by some birds' migration to a warmer climate during winter, and the creatures in the first stanza are responding to the “'beginning of summer'” (line 3) in their own way, such as the birds who are taking “their hops and zigzags a little more / anxious” (lines 6-7). However, the thriving of birds during a particular season is not the focus of the second stanza; rather, it is focused on the general nature of birds.\nC. CORRECT. The birds are taking “their hops and zigzags a little more / anxious” (lines 6-7) in light of warmer weather, but they are not making a big to-do of the change because “a home is a home; worms are worms” (line 7) any time of the year. Such a natural adjustment to seasonal changes is reflected in the second stanza, where the birds “count up this year as against next / year” (lines 26-27) because they are well accustomed to the cyclical nature of things.\nD. Incorrect. Although the birds' actions of “hops and zigzags” (line 6) may indicate some sort of preparation, these actions are not preparation but rather the internalized cognizance of the change that has occurred with little conscious thought. As revealed in the second stanza, birds do not ponder much about past or future but rather adapt naturally as things change."
+          }
+        },
+        {
+          "id": "CR21",
+          "q_number": 27,
+          "question_type": "mc",
+          "question": "Read lines 12-14 from the poem.\n\n**And it was the leaves with a strong soft wind over them**\n**that talked most of all and said more than any others**\n**though speaking the fewest words.**\n\nWhat does the phrase “talked most of all” in line 13 convey?",
+          "options": {
+            "A": "It establishes that the speaker thinks the sound of wind in the leaves is the best indication that the season is changing.",
+            "B": "It introduces the idea that the sound of the wind in the leaves remains constant throughout the seasons.",
+            "C": "It suggests that the speaker is overwhelmed by the sounds of nature that emerge as the season changes.",
+            "D": "It emphasizes that the sounds of nature enable the speaker to appreciate each season of the year."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The phrase “talked most of all” (line 13) describes the sound of the leaves in the wind as more significant than the other sounds of the season mentioned earlier in the poem, such as the frogs and birds, establishing that the speaker thinks the sound of wind in the leaves is the best indication that the season is changing.\nB. Incorrect. The poem does not suggest that the sound of the wind in the leaves remains constant throughout the seasons; rather, the leaves are specifically described as signaling the change into summer.\nC. Incorrect. The phrase does not suggest that the speaker is overwhelmed by the sounds of nature; rather, it elevates the sound of the leaves above the other sounds of the season.\nD. Incorrect. The phrase emphasizes the significance of the leaves' sound specifically, not a general appreciation of the sounds of each season."
+          }
+        },
+        {
+          "id": "CR22",
+          "q_number": 28,
+          "question_type": "mc",
+          "question": "How does the repetition of “ ‘This is the beginning of summer’ ” in lines 2–3 and lines 18–19 contribute to the meaning of the poem?",
+          "options": {
+            "A": "It suggests that the shift to summer occurs in the same way each year.",
+            "B": "It emphasizes the idea that living things are prepared for the change of season.",
+            "C": "It highlights the idea that the first signs of summer are surprising each year.",
+            "D": "It builds expectations about what the natural world looks like during a change of season."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. This phrase is used twice verbatim, in both cases to show the figurative words spoken by the branches (lines 2-3) and the leaves on the branches (lines 18-19). Repetition of this phrase conveys the idea that the transition to summer occurs in the same manner each subsequent year and thus evokes the same response from nature.\nB. Incorrect. While living things—branches and leaves—both make identical figurative utterances, they do so not because they have prepared for such an event. Rather, these living things take the change in stride because of the sameness and expectedness of the seasonal shifts, which occur in the same way each time.\nC. Incorrect. Even though the branches and leaves have been imbued by the speaker with some degree of consciousness in their figurative ability to speak, they are not surprised by the change in seasons. They say the same thing each year because the same thing occurs each year in the same way.\nD. Incorrect. Certain lines of the poem do describe the natural world during the change of seasons, but the repeated phrase itself is not what builds those expectations—it is the surrounding descriptive imagery that does so."
+          }
+        },
+        {
+          "id": "CR23",
+          "q_number": 29,
+          "question_type": "mc",
+          "question": "Which lines from the poem best contrast with the idea of winter’s scarcity and bleakness?",
+          "options": {
+            "A": "“The shrilling of the frogs was not so shrill as in the / first weeks after the broken winter;” (lines 4-5)",
+            "B": "“The yellow spreads of the dandelions and buttercups / reached across the green pastures.” (lines 8-9)",
+            "C": "“Tee whee and tee whee came on the breezes, and the grackles / chuzzled their syllables.” (lines 10-11)",
+            "D": "“Or if instead of counting up last year as against / this year, they count up this year as against next” (lines 25-26)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This line references winter directly but does not provide a vivid contrast of abundance against winter's scarcity; it simply compares the relative loudness of frog sounds.\nB. CORRECT. The image of “yellow spreads of the dandelions and buttercups” reaching “across the green pastures” (lines 8-9) vividly contrasts with the bleakness and scarcity of winter through its depiction of colorful abundance covering the landscape.\nC. Incorrect. This line describes bird sounds but does not specifically evoke a visual contrast with winter's bleakness in the way that the blooming flowers do.\nD. Incorrect. This line is about birds counting who is present from year to year, not about a contrast with winter's bleakness."
+          }
+        },
+        {
+          "id": "CR24",
+          "q_number": 30,
+          "question_type": "mc",
+          "question": "Throughout the poem, the poet conveys the speaker’s point of view by",
+          "options": {
+            "A": "gradually moving the speaker’s attention from one element of nature to another.",
+            "B": "providing the speaker’s motivation for describing the landscape in great detail.",
+            "C": "highlighting the speaker’s emotional response as each season passes.",
+            "D": "shifting the speaker’s focus from external observations to personal reflection."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "This question asks for an explanation of how the poet conveys the speaker's point of view on the natural world and the change of seasons as presented in the poem.\nA. Incorrect. Though in the first stanza the speaker describes various elements of nature such as branches, frogs, birds, flowers, and leaves, these elemental shifts are not precisely gradual and occur only in the first stanza. Further, the first stanza, though appreciative of the natural world, is primarily descriptive and does not develop the speaker's perspective to the degree that other parts of the poem do.\nB. Incorrect. While it may be inferred that the speaker describes the landscape to such a degree because it has revealed a seasonal shift, that this is indeed the speaker's motivation is never explicitly conveyed by the poet.\nC. Incorrect. Multiple seasons do not pass in the poem; only the shift to the “'beginning of summer'” (line 3) occurs in an endless cycle. Further, the speaker does not reveal an emotional response; it is the responses of nature that the speaker describes.\nD. CORRECT. The first stanza is the speaker's observations of the natural world embracing a new season. In the second stanza, the speaker begins to reflect on how the natural world, as embodied by the birds, calmly accepts seasonal change in its perpetual sameness. The reflection continues in the third stanza, where it is revealed that the speaker has been addressing these observations to a child."
+          }
+        },
+        {
+          "id": "CR25",
+          "q_number": 31,
+          "question_type": "mc",
+          "question": "Over the course of the poem, a central idea is developed mainly through the speaker’s",
+          "options": {
+            "A": "sense of eager anticipation as winter ends.",
+            "B": "description of the changes in nature as the seasons transition.",
+            "C": "observation of the birds’ behavior as summer begins.",
+            "D": "prediction of future alterations in the physical landscape."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks how the central idea about the natural acceptance of change by nature is developed by the speaker of the poem.\nA. Incorrect. The speaker is an observer of the changes in nature as propelled by the seasons and shows no personal eagerness for the end of winter. Further, even though nature rejoices at the end of winter as exemplified by “the shrilling of the frogs” (line 4), the speaker merely records this and does not share in this display.\nB. CORRECT. The response of nature to the “beginning of summer” (line 3) is the primary focus of the poem as revealed by the speaker through vivid descriptions of the sights, sounds, movements, and attitudes of the natural world.\nC. Incorrect. The second stanza of the poem begins a reflection on birds “sitting in circles talking bird talk” (line 22) and taking a sort of attendance of who is present, but this behavioral description is largely figurative and meant to illustrate a point about the way the birds adapt quickly to change, not to develop a central idea of the poem in terms of how nature responds generally.\nD. Incorrect. Seasonal changes are inevitable and cyclical per the speaker, but the speaker does not make predictions about future alterations in the physical landscape."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Serpent Mound (Ohio, 1846)",
+      "author": null,
+      "citation": null,
+      "genre": "poem",
+      "intro_note": "The Great Serpent Mound, located in Adams County, Ohio, is a human-made mound of earth that researchers believe was created between 300 B.C. and A.D. 1100 by an indigenous culture.",
+      "lines": [
+        {
+          "num": null,
+          "text": "Brush Creek stood low when the museum men came"
+        },
+        {
+          "num": null,
+          "text": "with their measuring tapes and sketchbooks."
+        },
+        {
+          "num": null,
+          "text": "It was winter. Fringed with ice,"
+        },
+        {
+          "num": null,
+          "text": "the creek doubled back on itself"
+        },
+        {
+          "num": 5,
+          "text": "as if it had forgotten something."
+        },
+        {
+          "num": null,
+          "text": "Pa was in Cincinnati, or else on his way home,"
+        },
+        {
+          "num": null,
+          "text": "so Ma told me to lead the men"
+        },
+        {
+          "num": null,
+          "text": "into the marshy low grounds. It being winter,"
+        },
+        {
+          "num": null,
+          "text": "there was little underbrush to speak of—"
+        },
+        {
+          "num": 10,
+          "text": "in the summer there would have been"
+        },
+        {
+          "num": null,
+          "text": "briars, poison ivy, biting flies. I listened"
+        },
+        {
+          "num": null,
+          "text": "for the swish of a beaver's heavy tail,"
+        },
+        {
+          "num": null,
+          "text": "the chitter of a chickadee, or the cry of a hawk,"
+        },
+        {
+          "num": null,
+          "text": "but the winter silence of the creek pressed"
+        },
+        {
+          "num": 15,
+          "text": "down on all of us like a weight."
+        },
+        {
+          "num": null,
+          "text": "The humps in the ground were all but"
+        },
+        {
+          "num": null,
+          "text": "invisible until you were right up on them. The figure"
+        },
+        {
+          "num": null,
+          "text": "was even less obvious: the sinuous body,"
+        },
+        {
+          "num": null,
+          "text": "the tail coiled three times around,"
+        },
+        {
+          "num": 20,
+          "text": "and at the other end, the mouth wide open."
+        },
+        {
+          "num": null,
+          "text": "In the summer the creek bottom was crowded"
+        },
+        {
+          "num": null,
+          "text": "with so much life that you could trip over"
+        },
+        {
+          "num": null,
+          "text": "the ridges of earth before you saw"
+        },
+        {
+          "num": null,
+          "text": "anything at all. In winter you could climb"
+        },
+        {
+          "num": 25,
+          "text": "a tree and get some idea of the whole thing:"
+        },
+        {
+          "num": null,
+          "text": "the serpent's body undulating, slithering"
+        },
+        {
+          "num": null,
+          "text": "silently across the ancient"
+        },
+        {
+          "num": null,
+          "text": "earth. At the mouth end, there was an oval mound"
+        },
+        {
+          "num": null,
+          "text": "as if the snake were about to swallow an egg—"
+        },
+        {
+          "num": 30,
+          "text": "as snakes sometimes did in our rickety"
+        },
+        {
+          "num": null,
+          "text": "henhouse—my Pa always said, or"
+        },
+        {
+          "num": null,
+          "text": "as if swallowing the sun, one of the museum"
+        },
+        {
+          "num": null,
+          "text": "men suggested, taking notes with his quill pen,"
+        },
+        {
+          "num": null,
+          "text": "an old-style inkhorn slung at his side."
+        },
+        {
+          "num": 35,
+          "text": "I liked that: swallowing the sun,"
+        },
+        {
+          "num": null,
+          "text": "just the sort of thing a snake might do,"
+        },
+        {
+          "num": null,
+          "text": "might want to do. When, later, I told my sister Ruth,"
+        },
+        {
+          "num": null,
+          "text": "she disagreed. It is singing to the sun,"
+        },
+        {
+          "num": null,
+          "text": "she insisted. That is why its mouth"
+        },
+        {
+          "num": 40,
+          "text": "is wide open. She said, “Sometimes I think"
+        },
+        {
+          "num": null,
+          "text": "I hear it on summer nights. Not swallowing, singing.”"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR26",
+          "q_number": 32,
+          "question_type": "mc",
+          "question": "How does the poem’s form contribute to the poem’s meaning?",
+          "options": {
+            "A": "The uneven line lengths and indents create a visual shape that mimics the sinuous form of the mound itself.",
+            "B": "The uneven line lengths indicate the different interpretations people have of the mound.",
+            "C": "The dashes in the poem signal a change of thought from one speaker to another.",
+            "D": "The single long stanza suggests the speed with which the speaker and the museum men moved through the marsh."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The poem is structured as one long stanza. The line lengths throughout the poem and the line indents (such as those in lines 7-10) create a visual effect so that the poem itself mimics the shape of the Serpent Mound.\nB. Incorrect. The uneven line lengths in the poem do not indicate the different interpretations of the mound; separate stanzas or other stopping points would more effectively point to contrasting ideas.\nC. Incorrect. The dashes in the poem lead to further explanation of a thought, not a change of thought.\nD. Incorrect. The single long stanza reflects the shape of the serpent mound itself rather than the speed of the speaker and the museum men moving through the marsh."
+          }
+        },
+        {
+          "id": "CR27",
+          "q_number": 33,
+          "question_type": "mc",
+          "question": "Which lines reveal how the setting affects the speaker and the men from the museum?",
+          "options": {
+            "A": "“It being winter, / there was little underbrush to speak of—” (lines 8-9)",
+            "B": "“but the winter silence of the creek pressed / down on all of us like a weight.” (lines 14-15)",
+            "C": "“The humps in the ground were all but / invisible until you were right up on them.” (lines 16-17)",
+            "D": "“In the summer the creek bottom was crowded / with so much life that you could trip” (lines 21-22)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. This detail explains a practical feature of the winter setting but does not reveal an effect on the speaker and the men emotionally.\nB. CORRECT. The simile comparing the “winter silence” to a weight “pressed / down on all of us” (lines 14-15) directly reveals how the stillness of the winter setting affects the speaker and the museum men.\nC. Incorrect. This detail describes a visual feature of the mound in winter rather than an effect of the setting on the people present.\nD. Incorrect. This detail describes the summer setting, which is not the setting of the scene being narrated in the poem."
+          }
+        },
+        {
+          "id": "CR28",
+          "q_number": 34,
+          "question_type": "mc",
+          "question": "Lines 1-2 contribute to the development of ideas in the poem by",
+          "options": {
+            "A": "suggesting that the men are too busy with their work to talk to the speaker.",
+            "B": "helping establish the reason for the men’s visit and purposeful behavior.",
+            "C": "hinting that the men have hidden motives for studying the mound.",
+            "D": "indicating why the speaker is fascinated by the men and wants to help them."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The lines do not suggest that the men are too busy to talk to the speaker; rather, they establish the professional purpose of the men's visit.\nB. CORRECT. The mention of the museum men's “measuring tapes and sketchbooks” (line 2) establishes that they have come to study and document the mound, helping establish the reason for their visit and their purposeful, methodical behavior throughout the poem.\nC. Incorrect. The lines give no indication of hidden motives; the tools mentioned are straightforward instruments of academic study.\nD. Incorrect. The lines describe the men's equipment, not a reason for the speaker's own fascination or desire to help them."
+          }
+        },
+        {
+          "id": "CR29",
+          "q_number": 35,
+          "question_type": "mc",
+          "question": "Read line 28 from the poem.\n\n**earth. At the mouth end, there was an oval mound**\n\nHow does the line contribute to the development of ideas in the poem?",
+          "options": {
+            "A": "It explains why the museum men are measuring the mound so precisely.",
+            "B": "It foreshadows the disagreement between the speaker and Ruth about the mound's meaning.",
+            "C": "It introduces a detail that leads to differing interpretations of the mound's symbolism.",
+            "D": "It emphasizes that the shape of the mound is difficult to see clearly in any season."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The line does not explain the museum men's measuring process; it simply describes a physical feature of the mound.\nB. Incorrect. While this detail does eventually lead to differing interpretations, it does not specifically foreshadow the later disagreement between the speaker and Ruth, which centers on the serpent's open mouth rather than the oval mound itself.\nC. CORRECT. The “oval mound” at the serpent's mouth end is the detail that directly leads to the differing interpretations offered in the poem: the Pa's explanation of a snake swallowing an egg (lines 29-31) and the museum man's suggestion of swallowing the sun (lines 32-34), which in turn leads to Ruth's alternate idea that the mound is singing (lines 38-41).\nD. Incorrect. While earlier lines do emphasize the difficulty of seeing the mound's shape, line 28 specifically introduces a feature that becomes the subject of interpretation, not a statement about visibility."
+          }
+        },
+        {
+          "id": "CR30",
+          "q_number": 36,
+          "question_type": "mc",
+          "question": "What impact do the phrases “all but / invisible” and “even less obvious” in lines 16-18 have on the meaning of the poem?",
+          "options": {
+            "A": "They emphasize that understanding the mound's full shape and meaning requires effort and imagination.",
+            "B": "They suggest that the museum men were unqualified to study the mound.",
+            "C": "They indicate that the mound had been intentionally hidden by its original builders.",
+            "D": "They foreshadow that the speaker will fail to see the mound's shape at all."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. By describing the humps in the ground as “all but / invisible” and the figure as “even less obvious,” the poem emphasizes that perceiving the mound's full shape and significance takes effort, careful looking, and imagination, a theme that continues as the poem describes needing to climb a tree to see the whole shape.\nB. Incorrect. The phrases describe the difficulty of seeing the mound itself, not any lack of qualification on the part of the museum men, who are shown taking careful notes.\nC. Incorrect. The poem gives no indication that the mound's builders intentionally hid it; the obscurity described comes from vegetation and the mound's subtlety, not intentional concealment.\nD. Incorrect. The poem goes on to describe the speaker climbing a tree and getting “some idea of the whole thing” (line 25), so the speaker does not fail to see the shape."
+          }
+        },
+        {
+          "id": "CR31",
+          "q_number": 37,
+          "question_type": "mc",
+          "question": "How does the dialogue between the speaker and Ruth in the final lines of the poem contribute to its meaning?",
+          "options": {
+            "A": "It shows that the speaker and Ruth both deny the museum men's interpretation of the mound.",
+            "B": "It reveals that siblings in the speaker's family often disagreed about historical facts.",
+            "C": "It suggests that Ruth's interpretation of the mound is more scientifically valid than the speaker's.",
+            "D": "It demonstrates that the mound's meaning remains open to multiple, equally valid interpretations."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The speaker had earlier favored the museum man's suggestion that the mound was “swallowing the sun” (line 35), but Ruth “disagreed” (line 37) and offered her own idea that the mound is “singing to the sun” (line 38), showing that siblings can arrive at their own distinct, personal interpretations separate from the museum men's academic one.\nB. Incorrect. The poem shows a single disagreement between the speaker and Ruth about the mound's meaning, not a pattern of the siblings disagreeing about historical facts in general.\nC. Incorrect. Ruth's interpretation is presented as a personal, poetic belief (“Sometimes I think / I hear it on summer nights,” lines 40-41) rather than a scientifically valid claim.\nD. Incorrect. While the poem does present multiple interpretations, the final lines focus specifically on the sibling disagreement rather than a broader statement that all interpretations are equally valid."
+          }
+        },
+        {
+          "id": "CR32",
+          "q_number": 38,
+          "question_type": "mc",
+          "question": "Which statement best describes a central idea of the poem?",
+          "options": {
+            "A": "Ancient monuments are best understood through rigorous scientific measurement.",
+            "B": "The meaning people find in an ancient structure can be shaped by personal imagination as much as by careful study.",
+            "C": "Winter is the best season to study ancient earthworks because vegetation does not obscure them.",
+            "D": "Family members rarely agree on the significance of historical sites."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While the museum men do measure the mound, the poem ultimately favors personal, imaginative interpretation (the egg, the sun, the song) over purely scientific measurement as the source of the mound's meaning.\nB. CORRECT. Throughout the poem, the mound's meaning comes not from the museum men's measurements alone but from the personal, imaginative interpretations offered by Pa (a snake and an egg), a museum man (swallowing the sun), and Ruth (singing to the sun), showing that meaning is shaped as much by imagination as by careful study.\nC. Incorrect. While the poem notes that winter reveals the mound's shape more easily than summer's overgrowth, this is a detail of the setting, not the poem's central idea.\nD. Incorrect. The poem shows only one sibling disagreement and does not generalize about families and historical sites."
+          }
+        },
+        {
+          "id": "CR33",
+          "q_number": 39,
+          "question_type": "mc",
+          "question": "Read lines 37-41 from the poem.\n\n**might want to do. When, later, I told my sister Ruth,**\n**she disagreed. It is singing to the sun,**\n**she insisted. That is why its mouth**\n**is wide open. She said, “Sometimes I think**\n**I hear it on summer nights. Not swallowing, singing.”**\n\nWhich choice best describes how Ruth's interpretation of the mound differs from the speaker's?",
+          "options": {
+            "A": "Ruth believes the mound is a practical structure, while the speaker believes it is purely decorative.",
+            "B": "Ruth imagines the mound as expressing a joyful sound, while the speaker imagines it consuming something.",
+            "C": "Ruth agrees with the museum men's interpretation, while the speaker agrees with Pa's.",
+            "D": "Ruth believes the mound was built recently, while the speaker believes it is ancient."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Neither interpretation frames the mound as a practical structure or as purely decorative; both are imaginative readings of the open mouth shape.\nB. CORRECT. Ruth believes the mound's open mouth means it is “singing to the sun” (line 38), an image of joyful sound, while the speaker had favored the idea that the mound was “swallowing the sun” (line 35), an image of consumption.\nC. Incorrect. Ruth's interpretation of singing is her own original idea, not an agreement with the museum man's suggestion of swallowing the sun, which is the idea the speaker favors.\nD. Incorrect. Neither Ruth nor the speaker expresses an opinion about when the mound was built in these lines."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Growing Peppers on the ISS Is Just the Start of Space Farming",
+      "author": "Melanie Canales",
+      "citation": "From “Growing Peppers on the ISS Is Just the Start of Space Farming” by Melanie Canales from WIRED, December 21, 2021. Copyright © 2021 Condé Nast. All rights reserved.",
+      "genre": "informational",
+      "intro_note": "The author, Melanie Canales, is a first-generation Peruvian American farmer and beekeeper based in Virginia's Shenandoah Valley, on lands of the indigenous Monacan and Manahoac tribes. Her work focuses on creating healthy relationships between people and their surrounding ecosystems.",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Unburdened by the constraints of gravity, red and green peppers jut out at 45-degree angles inside the Advanced Plant Habitat (APH), a sort of space terrarium not much larger than a microwave. Four chile pepper plants stand effortlessly upright, despite the dozens of glossy fruits weighing them down. These plants have lived entirely in space; their leaves have never been chewed on by insects or rustled by a summer breeze, [and] their stems are unfamiliar with bending toward the sun's arc across the sky. Scissors glint under the tank's white and blue lights as astronaut Mark Vande Hei and his team snip the stems of those that are ready for harvest. The peppers whirl around their heads until the astronauts catch them and tape them against a board to photograph."
+        },
+        {
+          "num": 2,
+          "text": "Back on Earth, the Plant Habitat-04 team of engineers and plant scientists are observing and conferring with the astronauts. Of the 26 peppers in this batch, only the 14 finest will stay on the International Space Station [ISS] for consumption. The rest will be wrapped in foil, sealed in a Ziploc bag, then frozen at a brisk −80 degrees, until they can come roaring back to Earth in the next cargo capsule to be studied later. Now, after a 137-day growth cycle, the astronauts remove the plants from the module and trash them. Project Plant Habitat-04 is complete. It's taco night on the ISS."
+        },
+        {
+          "num": 3,
+          "text": "Since 2014, NASA has experimented with growing lettuces, brassicas, and zinnias in space, an endeavor that relies on highly specialized technology over 50 years in the making. [Fall 2021's] two successful pepper harvests . . . will provide data on the nutritional and psychological benefits of growing vegetables on-craft, as well as a crop's ability to reliably produce long-term in microgravity. While controlled environmental agriculture is not new, the APH experiment represents an evolution in specialized growth habitats. It doesn't aim to re-create Earth's conditions, but to perfect each isolated variable of plant growth in the clinical environment of a spaceship."
+        },
+        {
+          "num": 4,
+          "text": "“The Advanced Plant Habitat is the most complex plant growth system on orbit today,” says Lashelle Spencer, a plant scientist at NASA's Kennedy Space Center. Its more than 180 sensors control and monitor temperature, humidity, and carbon dioxide. The astronauts can adjust the color and intensity of the light, and how much moisture the plants' roots are getting. It waters itself."
+        },
+        {
+          "num": 5,
+          "text": "It's the day after Thanksgiving, and Spencer has been at Kennedy since 5 a.m. to facilitate the peppers' final harvest. As part of the project team, she played a crucial role in preparing the seeds that were sent hurtling into space in June and guiding the astronauts through maintaining the plants in orbit. . . . Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored. Spencer's goal is to create the conditions necessary for cultivating healthy plants in space, so those plants can sustain healthy astronauts on long-term missions. Astronaut food is great, she says—“especially the shrimp cocktail. But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food.”"
+        },
+        {
+          "num": 6,
+          "text": "The sensory experience of growing productive crops can also help mitigate the psychological effects of long-term space travel. . . . Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners. When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft. . . ."
+        },
+        {
+          "num": 7,
+          "text": "“We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,” says Paul Bosland, who along with his colleagues at the Chile Pepper Institute genetically engineered the NuMex Española Improved chile pepper seeds grown in Plant Habitat-04. . . ."
+        },
+        {
+          "num": 8,
+          "text": "Working with NASA, Bosland cultivated a variety that could accommodate both the nutritional needs of astronauts as well as the logistics of growing a plant in space. . . ."
+        },
+        {
+          "num": 9,
+          "text": ". . . The experiment is helping gather the data necessary to determine the nutritional content of crops grown in space, and therefore how many people they can feed, and for how long. Though much is still unknown, Spencer is certain of one thing that future astronauts will need to do: “I think in an optimal world, a scientist like me would say that they would be growing plants from day one. From the day they left to the day they came back, they would be growing them.”"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CR34",
+          "q_number": 40,
+          "question_type": "mc",
+          "question": "What is the best summary of the astronauts’ process for Project Plant Habitat-04?",
+          "options": {
+            "A": "After a 137-day growth cycle, the astronauts harvest the peppers while being observed and advised by plant scientists. The astronauts remove the peppers from the APH and photograph them before eating the most nutritious ones.",
+            "B": "The astronauts confer with plant scientists and engineers before selecting the 14 finest peppers to keep aboard the ISS for consumption. The remaining peppers are wrapped in foil and sent back to Kennedy Space Center to be studied.",
+            "C": "With the help of plant scientists, the astronauts carefully control and monitor the growing conditions in the APH, ultimately harvesting the peppers after a 137-day growth cycle. The astronauts choose 14 of the peppers for consumption and send the rest back to be studied.",
+            "D": "Astronauts use specialized tools to plant and maintain genetically modified peppers aboard the ISS. After harvesting the fruit, the astronauts tape the peppers to a board to prevent them from floating around the module."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although this summary mentions the pepper harvest and photographing and eating the peppers, it leaves out an important part of the process: the team's preparation for growing the peppers and the return to Earth of some harvested peppers for study.\nB. Incorrect. This summary includes the selection of some peppers for consumption and the return of some peppers for research; however, it omits important information about the previous steps required to develop the process for growing peppers.\nC. CORRECT. This summary accurately and completely summarizes the astronauts' process for Project Plant Habitat-04: collaborating with plant scientists, controlling the APH conditions, completing the 137-day growth cycle, harvesting the peppers, choosing 14 peppers to eat, and sending the remaining peppers back for study.\nD. Incorrect. This summary focuses on information incidental to the process of growing peppers for Project Plant Habitat-04, mentioning the use of genetically modified peppers and the taping of harvested peppers to a board to keep them from floating, while omitting important steps such as the monitoring of growth and the selection of peppers for consumption and study."
+          }
+        },
+        {
+          "id": "CR35",
+          "q_number": 41,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 5.\n\n**Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored.**\n\nThe sentence contributes to the overall meaning of the excerpt by",
+          "options": {
+            "A": "indicating that the attempt to grow crops aboard the ISS is an important endeavor.",
+            "B": "describing the health effects of spending a significant length of time in space.",
+            "C": "revealing why certain kinds of foods are more appealing in space than on Earth.",
+            "D": "emphasizing the difficulty of preserving the nutrients in the crops grown in space."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The sentence explains that astronauts' current food supply consists of dehydrated foods along with vitamin and mineral supplements that lose nutritional value over time. These details support the idea that growing fresh crops in space, as described in the excerpt, is important for astronauts' nutrition during long missions.\nB. Incorrect. While the sentence mentions food and nutrients and astronauts spending “upwards of 100 days in space,” it does not describe the overall health effects of being in space for this long. Instead, the sentence focuses on the limitations of the food available to astronauts.\nC. Incorrect. While the sentence does mention that astronauts eat packaged and dehydrated food while in space and that the food and supplements provided are limited in nutritional value, it does not mention the appeal of foods eaten in space compared with foods eaten on Earth.\nD. Incorrect. The sentence explains that supplements can lose their nutritional value over time, but it does not mention whether crops grown in space might also lose nutrients."
+          }
+        },
+        {
+          "id": "CR36",
+          "q_number": 42,
+          "question_type": "mc",
+          "question": "Which statement best explains why Lashelle Spencer is a relevant source of information for the excerpt?",
+          "options": {
+            "A": "She works at NASA’s Kennedy Space Center.",
+            "B": "She is part of the APH project team.",
+            "C": "She is sensitive to the astronauts’ need for healthy food in space.",
+            "D": "She witnessed how astronauts aboard the APH responded when harvesting their food."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. While paragraphs 5 and 8 do mention that Lashelle Spencer works at NASA's Kennedy Space Center, that fact does not explain her direct expertise on growing plants in space.\nB. CORRECT. In paragraph 4, Spencer is identified as a “plant scientist” at NASA, and paragraph 5 states that she is directly involved with the Advanced Plant Habitat as “part of the project team,” making her a relevant source of information for the excerpt's discussion of growing plants in space.\nC. Incorrect. Although the details in paragraph 5 do indicate that Spencer is interested in providing better food choices to astronauts, her empathy toward the astronauts' needs does not make her a relevant source of information for the excerpt.\nD. Incorrect. Paragraph 5 does mention that Spencer helped facilitate the harvest from the Kennedy Space Center, so she likely did witness the astronauts' reactions as they harvested the peppers; however, this inference does not explain Spencer's relevance as a source of information for the excerpt."
+          }
+        },
+        {
+          "id": "CR37",
+          "q_number": 43,
+          "question_type": "mc",
+          "question": "How does the author support the claim in paragraph 4 that the APH is a complex plant growth system?",
+          "options": {
+            "A": "by indicating how many sensors help control the variables of plant growth",
+            "B": "by detailing how the method of growing plants has been adapted to the conditions of space",
+            "C": "by explaining the steps required to package and return the plants to Earth",
+            "D": "by describing how NASA has spent years experimenting with plants grown in a controlled environment"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "A. CORRECT. The author supports the claim that the APH is a complex plant growth system by stating that it has “more than 180 sensors” that control and monitor temperature, humidity, and carbon dioxide (paragraph 4). These details, along with the description of how astronauts can adjust light and moisture via these sensors, directly illustrate the system's complexity.\nB. Incorrect. Although paragraph 4 describes some of the APH's features, such as monitoring “temperature, humidity, and carbon dioxide,” it does not focus on how the key elements of plant growing are adapted to space conditions. The details instead emphasize the number of sensors and the variety of variables they control.\nC. Incorrect. Although paragraph 2 mentions packaging and returning plants to Earth, the process does not directly contribute to the complexity of the APH system of growing plants in space.\nD. Incorrect. While paragraph 3 references NASA's experimentation “with growing lettuces, brassicas, and zinnias in space” since 2014 and how it relied “on specialized technology,” there is no indication in the paragraph that the APH system existed during the same time period or that this history explains the complexity of the APH specifically."
+          }
+        },
+        {
+          "id": "CR38",
+          "q_number": 44,
+          "question_type": "mc_multi",
+          "question": "Which **two** sentences in paragraphs 5–9 **best** support the idea that the astronauts working in space enjoyed participating in the food-growing experiment?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "“But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food.” (paragraph 5)",
+            "B": "“Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners.” (paragraph 6)",
+            "C": "“When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft.” (paragraph 6)",
+            "D": "“'We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,' says Paul Bosland” (paragraph 7)",
+            "E": "“'I think in an optimal world, a scientist like me would say that they would be growing plants from day one.'” (paragraph 9)"
+          },
+          "correct": [
+            "B",
+            "C"
+          ],
+          "solution": {
+            "exhibit_text": "A. Incorrect. “But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food” is incorrect because it illustrates an opinion on fresh foods of Lashelle Spencer, a plant scientist at NASA's Kennedy Space Center. Although astronauts are likely to enjoy fresh food, the statement does not describe the enjoyment of the astronauts participating in the experiment.\nB. CORRECT. “Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners” is a correct response. The details about the attitude of the astronauts toward the plants and their desire to observe them every day support the idea that they enjoyed participating in the experiment.\nC. CORRECT. “When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft” is a correct response. That the astronauts were taking selfies with the peppers and “delighting in watching the fruits pirouetting around the spacecraft” suggests that the astronauts enjoyed being part of the experiment.\nD. Incorrect. “'We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,' says Paul Bosland” is incorrect because the quotation only gives information about the variables taken into account in the selection of peppers by a scientist at the Chile Pepper Institute. Although the observation suggests that the spicy heat of peppers might be enjoyed by astronauts in space, the sentence does not address the attitude of the astronauts toward the experiment.\nE. Incorrect. “'I think in an optimal world, a scientist like me would say that they would be growing plants from day one'” is incorrect because it emphasizes the opinion of Lashelle Spencer, a plant scientist at NASA's Kennedy Space Center, regarding the growth of plants in space. Although she suggests growing plants is a good idea, the quotation does not support the idea that the astronauts enjoyed participating in the experiment."
+          }
+        },
+        {
+          "id": "CR39",
+          "q_number": 45,
+          "question_type": "mc",
+          "question": "The description in paragraph 5 of Lashelle Spencer’s goal develops a central idea of the excerpt by",
+          "options": {
+            "A": "illustrating that certain types of packaged foods available in space lack particular flavors.",
+            "B": "supporting the notion that spending more than 100 days in space is detrimental to astronauts’ health.",
+            "C": "offering an example of how the limited selection of on-mission meals becomes less appealing over time.",
+            "D": "making an important point about the astronauts’ current reliance on supplements for vitamins and minerals."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although Spencer mentions how astronauts miss certain eating experiences like the “fresh pop” and “green flavor” not found in packaged and dehydrated food, a central idea of the excerpt is that there is a need to provide fresh, healthy foods for long missions, not that food flavor should be improved.\nB. Incorrect. While the excerpt focuses on how spending more than 100 days in space affects nutrition, it does not discuss specific ways in which spending long periods of time in space is detrimental to the health of astronauts.\nC. Incorrect. Although paragraph 5 states that astronauts “can spend upwards of 100 days in space,” the excerpt does not develop a central idea that existing meals in space become less appealing over time.\nD. CORRECT. The paragraph explains that astronauts currently rely on supplements for vitamins and minerals, which lose their nutritional value over time. Spencer's goal for growing plants in space is to “sustain healthy astronauts,” supporting a central idea that astronauts need more nutritionally valuable food to sustain them while in space for long periods of time."
+          }
+        },
+        {
+          "id": "CR40",
+          "q_number": 46,
+          "question_type": "sort_categories",
+          "question": "What is the relationship between the scientists and the astronauts in carrying out the plant-growing experiments?\n\nMove the correct answer to each box.",
+          "sort_items": [
+            {
+              "id": "i1",
+              "text": "growing the plants to harvest"
+            },
+            {
+              "id": "i2",
+              "text": "documenting the nutritional goals"
+            },
+            {
+              "id": "i3",
+              "text": "analyzing the environment"
+            },
+            {
+              "id": "i4",
+              "text": "developing the materials and systems"
+            },
+            {
+              "id": "i5",
+              "text": "determining the most nutritional plants"
+            }
+          ],
+          "sort_categories": [
+            {
+              "id": "c1",
+              "label": "Scientists on Earth are primarily responsible for..."
+            },
+            {
+              "id": "c2",
+              "label": "Astronauts aboard the ISS are responsible for..."
+            }
+          ],
+          "correct": {
+            "i4": "c1",
+            "i1": "c2"
+          },
+          "solution": {
+            "exhibit_text": "The question asks for the two phrases that should be added to the sentence to explain the relationship between the scientists and the astronauts in carrying out the plant-growing experiments.\nCORRECT (Scientists on Earth). “Developing the materials and systems” belongs in this box. The excerpt explains that the scientists on Earth create and prepare the systems, seeds, and equipment needed for the plant-growing experiments in space.\nCORRECT (Astronauts aboard the ISS). “Growing the plants to harvest” belongs in this box. Paragraphs 1 and 2 of the excerpt show that astronauts aboard the ISS are responsible for tending to the plants in the system and harvesting them after the growth cycle is complete.\nIncorrect distractor. “Documenting the nutritional goals” does not belong in either box. While the excerpt does mention that the experiment is helping gather data about the nutritional value of the peppers, there is no evidence that either the scientists on Earth or the astronauts aboard the ISS are tasked with documenting specific nutritional goals.\nIncorrect distractor. “Analyzing the environment” does not belong in either box. Although the experiment requires control of environmental factors like light and moisture, the excerpt does not describe either the scientists on Earth or the astronauts aboard the ISS as being responsible for formally analyzing the environment of the habitat as part of the experiment.\nIncorrect distractor. “Determining the most nutritional plants” does not belong in either box. Although growing nutritious plants is important, the excerpt does not focus on the scientists on Earth or the astronauts aboard the ISS evaluating or selecting plants based on their nutritional value."
+          }
+        },
+        {
+          "id": "CR41",
+          "q_number": 47,
+          "question_type": "mc",
+          "question": "How is the quotation from Lashelle Spencer at the end of paragraph 9 relevant to the discussion of the peppers referred to in paragraph 2?",
+          "options": {
+            "A": "The quotation indicates that larger batches of peppers need to be grown during future missions and suggests a slight criticism of the astronauts discussed in paragraph 2 for not dedicating more of their time to growing peppers during their mission.",
+            "B": "The quotation explains why the 137-day growth cycle mentioned in paragraph 2 is necessary and provides a suggestion on how to grow more peppers during the same growth cycle in future missions.",
+            "C": "The quotation helps explain why some of the peppers discussed in paragraph 2 needed to be sent back to Earth and that increasing the overall number of peppers grown in space will be important in future missions.",
+            "D": "The quotation provides context for understanding why the peppers discussed in paragraph 2 must be sealed and frozen prior to their return to Earth and suggests how this method might be improved in upcoming missions."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. The quotation from Spencer in paragraph 9 suggests that astronauts should spend more time on growing larger and more continuous batches of peppers during long missions, but it does not criticize astronauts for discarding plants and ending the experiment after the 137-day growth cycle.\nB. Incorrect. While the quotation from Spencer in paragraph 9 stresses the value of spending more time growing plants in space, it does not provide specific details about the 137-day growth cycle or offer specific methods for producing more peppers within the same time frame.\nC. CORRECT. The quotation from Spencer in paragraph 9 is relevant to the discussion of the peppers on the ISS in paragraph 2 because it emphasizes the importance of expanding plant-growing efforts on future space missions. Spencer suggests that rather than ending the experiment after the 137-day growth cycle, astronauts could continually replant and replenish their food supply from the beginning to the end of a long mission.\nD. Incorrect. Although the quotation from Spencer in paragraph 9 conveys the importance of dedicating more time to growing plants in space, it does not explain why the peppers were sealed and frozen, nor does it suggest how this method for preserving them might be improved."
+          }
+        },
+        {
+          "id": "CR42",
+          "q_number": 48,
+          "question_type": "mc",
+          "question": "How is the discussion of the genetic engineering of the peppers consumed on the ISS (paragraphs 7–8) important to the excerpt as a whole?",
+          "options": {
+            "A": "It provides a detail that helps the reader identify a particular variety of pepper consumed on the ISS.",
+            "B": "It indicates that the peppers eaten on the ISS resulted from a collaboration between scientists and astronauts.",
+            "C": "It allows the reader to understand how the peppers consumed on the ISS differ from most peppers grown on Earth.",
+            "D": "It suggests that the peppers consumed on the ISS are of a type that could be grown in natural conditions."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although paragraph 7 names the NuMex Española Improved chile pepper as the variety grown on the ISS, this detail is not further developed and does not play a significant role in the overall focus of the excerpt. The passage emphasizes the process and purpose of developing the pepper rather than the pepper itself.\nB. Incorrect. While paragraph 7 notes that Paul Bosland collaborated with colleagues to develop the seeds for the experiment, this fact alone is not the reason why the discussion of genetic engineering is important to the excerpt. The key point is that the pepper variety in the experiment was specifically modified to meet the needs of both astronauts and space cultivation. Who participated in the development of the peppers is secondary.\nC. CORRECT. Paragraph 7 explains how specialists selected a pepper variety and genetically engineered the seeds for the experiment, while paragraph 8 adds that the variety developed also needed to provide astronauts with proper nutrition and be capable of growing in space. These details are important to the excerpt as a whole because they illustrate how the peppers grown on the ISS differ from most peppers cultivated on Earth in both purpose and design.\nD. Incorrect. The details about the genetic engineering of the pepper seeds highlight that the variety was modified to suit specific space-related requirements. However, the excerpt does not discuss whether this type of pepper could be grown in natural conditions on Earth or if doing so is even a goal. Instead, these paragraphs are important because they explain how the pepper was adapted to address astronauts' nutritional needs and the constraints of space farming."
+          }
+        },
+        {
+          "id": "CR43",
+          "q_number": 49,
+          "question_type": "mc",
+          "question": "With which statement would the author most likely agree?",
+          "options": {
+            "A": "Some plants are better adapted for growing in space than on Earth, and focus should be placed on them.",
+            "B": "Attempting to grow plants in space the same way they are grown on Earth would not result in success.",
+            "C": "Plants grown in space provide better nutritional value than plants grown on Earth.",
+            "D": "Successfully growing plants in space is a challenge, so more research must first be completed on plants grown on Earth."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "A. Incorrect. Although paragraphs 7 and 8 discuss plants that have been genetically engineered “to accommodate the logistics of growing a plant in space,” the passage does not indicate that the plants are better adapted for growing in space rather than on Earth. Thus, the author is not likely to agree with this statement.\nB. CORRECT. In paragraph 3, the author points out that growing plants in space “relies on highly specialized technology over 50 years in the making,” and in paragraph 4, the author explains that the Advanced Plant Habitat requires specialized controls and adaptations for light, moisture, and temperature. The author's acknowledgment of the special conditions required to grow plants in space indicate that she would agree that growing methods used on Earth are unlikely to succeed in space.\nC. Incorrect. Although paragraph 8 mentions that pepper plants were genetically engineered to meet “the nutritional needs of astronauts,” the passage gives no indication that astronauts have greater nutritional needs in space than they do on Earth or that plants grown in space are engineered to provide better nutrition than their counterparts on Earth. Thus, the author would not be likely to agree with this sentence.\nD. Incorrect. Although the discussion in paragraph 4 of the rigorously controlled conditions indicates that growing plants in space is, indeed, challenging, the article indicates in paragraph 3 that NASA has been experimenting with growing plants in space “since 2014.” Because plant-growing experiments have already been under way in space for a number of years, it is unlikely that NASA or the author would agree that additional experiments on earth are necessary."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Conscription: Debating the Draft",
+      "author": null,
+      "citation": null,
+      "genre": "informational",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "The military draft, also known as conscription, is a system in which a government requires citizens to serve in the armed forces."
+          },
+          {
+            "num": 2,
+            "text": "Historically, in the United States, the draft was seen by many as a necessary sacrifice for national survival during times of major conflict, such as World War II in the 1940s."
+          },
+          {
+            "num": 3,
+            "text": "The draft was also used to increase the size of the army during the Korean War."
+          }
+        ],
+        [
+          {
+            "num": 4,
+            "text": "By the time the United States entered the Vietnam War in the 1960s, public opinion toward the draft began to shift dramatically."
+          },
+          {
+            "num": 5,
+            "text": "Many young people argued that being forced to fight in a controversial war was a violation of their personal liberty."
+          },
+          {
+            "num": 6,
+            "text": "Protesters often pointed out that the system was unfair because wealthier students could often find ways to avoid military service."
+          }
+        ],
+        [
+          {
+            "num": 7,
+            "text": "Despite the controversy, draftees made up about one-third of those who served in the U.S. military during the Vietnam War (1955–1975), and accounted for over 30% of those killed."
+          },
+          {
+            "num": 8,
+            "text": "The Vietnam War was the second-longest war in United States history, with U.S. involvement increasing after the 1964 Gulf of Tonkin incident."
+          },
+          {
+            "num": 9,
+            "text": "In 1973, the United States officially ended the draft and moved to an all-volunteer military force to end the Vietnam War."
+          },
+          {
+            "num": 10,
+            "text": "Even though there has not been a draft since Vietnam, almost all male citizens aged 18 to 25 must still register with the Selective Service System; this ensures that the government can quickly mobilize a large army if a massive national emergency ever occurs."
+          }
+        ],
+        [
+          {
+            "num": 11,
+            "text": "Some social scientists argue that a draft is more democratic because it forces all layers of society to share the burden of war."
+          },
+          {
+            "num": 12,
+            "text": "They believe that if every family had a stake in the military, the country would be less likely to enter unnecessary conflicts."
+          },
+          {
+            "num": 13,
+            "text": "Some argue that a professional, volunteer army is much more effective and motivated than one made up of forced recruits."
+          },
+          {
+            "num": 14,
+            "text": "They believe that in a free society, serving one's country should always be a matter of individual choice rather than a legal requirement."
+          }
+        ],
+        [
+          {
+            "num": 15,
+            "text": "These two opposite views summarize the issues at stake in this debate, which concerns the fundamental balance between individual rights and the responsibilities of citizenship."
+          },
+          {
+            "num": 16,
+            "text": "Whether the draft is a tool for equality or an infringement on freedom remains one of the most persistent questions in American social science."
+          }
+        ],
+        [
+          {
+            "num": 17,
+            "text": "As global tensions change, the conversation about how a nation should defend itself continues to evolve."
+          },
+          {
+            "num": 18,
+            "text": "Modern technology has also changed the way military leaders think about the need for large numbers of troops."
+          },
+          {
+            "num": 19,
+            "text": "Some wonder if cyber warfare might eventually make a physical draft completely obsolete."
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "ER43",
+          "q_number": 50,
+          "question_type": "mc",
+          "question": "Which sentence should replace sentence 3 to best state the topic of the passage?",
+          "options": {
+            "A": "Many nations have used a draft during times of warfare.",
+            "B": "This idea of the draft as a civic duty came to be challenged in later decades, sparking a debate that is still ongoing.",
+            "C": "Ultimately, the draft may become useless, as modern technology changes how armies function.",
+            "D": "Some have argued that the draft is an unfair system that disadvantages the less wealthy."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Topic Development\nGetting to the Answer: The correct answer will state the passage's topic: a good summary is that the passage summarizes the challenge to the draft during the Vietnam War and the debate surrounding the draft in the United States. This matches the correct answer (B). (A) is Out of Scope; the passage's topic focuses on the United States, not other nations. Both (C) and (D) are too narrow; they focus on small pieces of the text, not the passage as a whole."
+          }
+        },
+        {
+          "id": "ER44",
+          "q_number": 51,
+          "question_type": "mc",
+          "question": "Read this sentence.\n\"For instance, if a person were in college, they could avoid military service through deferment until after they graduated.\"\nWhere should the sentence be added to best support the ideas in the second paragraph (sentences 4-6)?",
+          "options": {
+            "A": "at the beginning of the paragraph (before sentence 4)",
+            "B": "between sentences 4 and 5",
+            "C": "between sentences 5 and 6",
+            "D": "at the end of the paragraph (after sentence 6)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Organization\nGetting to the Answer: Take a moment to skim the second paragraph, thinking about where the new sentence will fit. \"For instance\" introduces an example, so look for a claim that it will support. Sentence (6) discusses a belief that some wealthy people could avoid the draft, and the new sentence explains an example of how this could happen. The best place for the new information is after sentence 6. (D) is correct. The other placements are incorrect because the new sentence does not provide a logical introduction sentence to the paragraph or an example of any of the other ideas in the paragraph."
+          }
+        },
+        {
+          "id": "ER45",
+          "q_number": 52,
+          "question_type": "mc",
+          "question": "Which transition word or phrase should be added to the beginning of sentence 13 to emphasize the relationship between sentences 12 and 13? Move the correct answer to the box.",
+          "options": {
+            "A": "In summary,",
+            "B": "On the other hand,",
+            "C": "Indeed,",
+            "D": "As a result,"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Organization\nGetting to the Answer: Begin by identifying the relationship between sentences 12 and 13. Sentences 11 and 12 present the argument that a draft is good because it is democratic. Sentences 13 and 14 present the argument that a volunteer army is better than a drafted one. These ideas contrast, so the contrast transition \"On the other hand\" is correct. \"In summary\" is incorrect because the argument that a professional army is better does not summarize the argument that a draft is more democratic. \"Indeed\" is incorrect because it is a continuation rather than a contrast transition. \"As a result\" is incorrect because it is a cause-and-effect rather than a contrast transition."
+          }
+        },
+        {
+          "id": "ER46",
+          "q_number": 53,
+          "question_type": "mc",
+          "question": "Which concluding sentence should be added after sentence 19 to support the topic of the passage?",
+          "options": {
+            "A": "Still, the legal framework for the draft remains in place in the United States as a safeguard for the future, despite the disagreements about its role in the balance of American freedoms.",
+            "B": "With the changes to the landscape of the nature of warfare, the use of digital technology to implement a future draft is certainly a possibility.",
+            "C": "Social scientists are unsure about what will happen to the draft, but they are fully prepared to find a solution to the issue.",
+            "D": "This legal framework for the draft dates back to the Civil War, but it is unlikely to again spark the same issues that arose during the Vietnam War."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Topic Development\nGetting to the Answer: The correct answer needs to summarize the entirety of the passage, so review its main points: the draft was challenged during the Vietnam War and has since been debated. The debate is about the balance of government needs (military personnel) and the rights and responsibilities of citizenship. Find the choice that best summarizes these ideas. (A) is correct; it summarizes the debate about the draft. Further, this choice provides a good transition from the last paragraph, which discusses the idea of the draft today, with the continuation (\"Still\") of the legal framework for the draft. (B) is too narrow to conclude the entire essay, as it focuses only on the ideas in the last paragraph. (C) is Extreme, since the essay does not suggest that social scientists would be \"fully prepared to find a solution\" to the draft issue; rather, they continue to debate it. (D) is Opposite. The use of the draft would be likely to spark issues, since it continues to be debated."
+          }
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-HE4-ER49",
+      "question_type": "mc",
+      "question": "The robotics club spent an entire semester designing their competition robot. They tested three different wheel systems before settling on the fastest one. By February, the team had built a working prototype, however, several parts kept breaking under stress during practice runs, so they switched to a sturdier material for the frame. The robot was finally ready just two days before the regional competition.\n\nWhich part of the text contains an error in sentence structure? Select the one error.",
+      "options": {
+        "A": "robot. They",
+        "B": "one. By",
+        "C": "prototype, however,",
+        "D": "frame. The"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The comma before \"however\" incorrectly joins two complete sentences: \"the team had built a working prototype\" and \"several parts kept breaking under stress during practice runs, so they switched to a sturdier material for the frame.\" Both halves could stand alone as their own sentences, so a comma alone isn't strong enough to join them — it needs a semicolon instead: \"...a working prototype; however, several parts kept breaking...\"\n\n**Why this sounds right:** \"However\" already looks like it's doing transition work, so it's easy to assume the surrounding commas are enough to attach it — but \"however\" used this way is just a transitional adverb, not a true joining word like \"and\" or \"but,\" so it can't rescue a comma from being a splice.\n\n**The concept:** A comma splice happens when you join two complete sentences (each with its own subject and verb) using only a comma. Test it by splitting the sentence in two at the comma — if both halves could stand alone with a period, the comma isn't strong enough on its own. Fix it with a period, a semicolon, or a connecting word like \"and\"/\"but\"/\"so.\"\n\n**More examples of this mistake:**\n- \"The museum closes at five, we still had time to see the dinosaur exhibit.\" (Two complete sentences joined by only a comma — needs a period, a semicolon, or a word like \"but.\")\n- \"She finished her homework early, she decided to go for a walk.\" (Same problem — \"she decided to go for a walk\" is a full sentence on its own and needs more than a comma to attach it.)"
+      },
+      "base_source": "Exam E — Standalone (ER49)",
+      "base_question": {
+        "stimulus": "Salsa music became popularized in the United States largely via New York City. It developed over time as Puerto Rican, Cuban, and other Caribbean musicians drew on Afro-Cuban styles while also being influenced by American jazz. This new sound was everywhere by the 1960s, and people began using the catchy name \"salsa\" to describe it. In the 1970s, the music surged in popularity, filling dance halls and spreading through Spanish-language radio, it became closely tied to Latino cultural identity in the United States. As communities grew and moved, they carried the music with them. Salsa spread from New York to other big cities through social clubs, festivals, and dance classes.",
+        "question": "Which part of the text contains an error in sentence structure? Select the one error.",
+        "options": {
+          "A": "City. It",
+          "B": "1960s, and",
+          "C": "radio, it",
+          "D": "them. Salsa"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_text": "Category: Sentence Structure\nGetting to the Answer: If two complete sentences (independent clauses) are joined by only a comma, it is a run-on sentence. Here, \"the music surged in popularity\" is a complete idea, and \"it became closely tied to Latino cultural identity in the United States\" is also a complete sentence. They cannot be joined with just the comma at the end of the parenthetical phrase \"filling dance halls and spreading through Spanish-language radio,\" so \"radio, it\" is the error."
+        }
+      },
+      "q_number": 54
+    },
+    {
+      "id": "P-HE4-ER50",
+      "question_type": "mc",
+      "question": "The old lighthouse was a really tall structure near the coast and had been standing for a long amount of time, so many visitors wondered how it had survived so many storms.\n\nWhich revision of the sentence uses the most precise language?",
+      "options": {
+        "A": "The old lighthouse was an impressive structure near the coast and had endured for a considerable period, so many visitors wondered how it had survived so many storms.",
+        "B": "The old lighthouse stood 120 feet tall and had guarded the coast for over a century, so many visitors wondered how it had survived so many storms.",
+        "C": "The old lighthouse was a massive construction by the shore and had existed for a lengthy stretch of time, so many visitors wondered how it had survived so many storms.",
+        "D": "The old lighthouse featured a towering presence along the water and had remained upright for a notable length of time, so many visitors wondered how it had survived so many storms."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) replaces the vague \"really tall\" and \"long amount of time\" with precise, checkable details: \"120 feet tall\" and \"over a century.\" The reader now knows exactly how tall the lighthouse is and roughly how old. Options A, C, and D all just swap the vague words for different vague words (\"impressive,\" \"considerable period,\" \"massive,\" \"lengthy stretch,\" \"towering,\" \"notable length\") without adding any actual specific information.\n\n**Why this sounds right:** Each wrong option replaces the plain vague word with a fancier-sounding synonym, which can feel like an improvement since the sentence \"sounds\" more sophisticated — but swapping \"really tall\" for \"impressive\" doesn't actually tell the reader anything concrete; only real numbers or named facts count as precise.\n\n**The concept:** Precise language replaces vague, generic words (\"things,\" \"a big distance,\" \"what was happening\") with specific, concrete details — exact names, numbers, or nouns — that tell the reader precisely what's being described. When comparing answer choices, prefer the one with the most specific, checkable information instead of just restating the same vagueness in fancier words.\n\n**More examples of this mistake:**\n- \"The volunteers did a bunch of stuff to help clean up the park.\" → \"The volunteers planted new trees and collected forty bags of trash to clean up the park.\" (\"A bunch of stuff\" tells the reader nothing concrete.)\n- \"The scientist made a big discovery about the ocean.\" → \"The scientist discovered a new species of deep-sea jellyfish.\" (\"A big discovery\" is vague; name the actual discovery.)"
+      },
+      "base_source": "Exam E — Standalone (ER50)",
+      "base_question": {
+        "stimulus": "The Brooklyn Bridge was such a big distance across the water and took a really long time to finish, so many people doubted that the bridge would ever be completed.",
+        "question": "Which revision of the sentence uses the most precise language?",
+        "options": {
+          "A": "The Brooklyn Bridge involved a significant gap across the water and lasted for many years, so many people doubted that the bridge would ever be completed.",
+          "B": "The Brooklyn Bridge required a one-mile span over the East River and fourteen years of construction, so many people doubted that the bridge would ever be completed.",
+          "C": "The Brooklyn Bridge was an immense length over the river and its construction continued for a lengthy duration, so many people doubted that the bridge would ever be completed.",
+          "D": "The Brooklyn Bridge featured a wide reach between landmasses and took an extended amount of time, so many people doubted that the bridge would ever be completed."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Category: Knowledge of Language\nGetting to the Answer: The question asks for the most precise language, so quickly scan the choices looking for specific details about the bridge. (B) tells you how long the bridge is, the name of the river it crosses, and the number of years it took to build the bridge. (B) is correct. The other choices do not provide such specific information, which makes them all incorrect."
+        }
+      },
+      "q_number": 55
+    },
+    {
+      "id": "P-HE4-FR48",
+      "question_type": "mc",
+      "question": "(1) Volcanoes are powerful landforms that form when magma rises through cracks in the Earth's crust. (2) When pressure builds beneath the surface, the resulting eruption releases ash, gas, and molten rock into the atmosphere. (3) Scientists monitored seismic activity around active volcanoes to predict when an eruption might occur. (4) Because these eruptions can affect air travel and local ecosystems, researchers continue to study volcanic behavior closely.\n\nWhich sentence in the paragraph contains an error in construction and should be revised?\n\nMove the answer to the box. There is only one error in construction.",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Sentence 3's verb \"monitored\" is past tense, while the rest of the paragraph uses present tense (\"form,\" \"releases,\" \"continue\"). There's no signal that sentence 3 is describing a past, one-time event rather than the scientists' ongoing, current practice, so it should be \"monitor\" to match. The other three sentences are already consistent.\n\n**Why this sounds right:** \"Monitored\" is a completely normal, correctly-spelled verb, and nothing else in sentence 3 looks wrong — the error only shows up when you compare it against the tense used everywhere else in the paragraph, which is easy to skip if you're reading sentence by sentence instead of checking the whole passage's tense together.\n\n**The concept:** When a sentence or paragraph describes a sequence of actions that already happened, every verb in that sequence should stay in the same tense — usually all past tense. If most of the surrounding verbs are past tense but one verb suddenly switches to present tense (or the reverse) with no real reason for the shift, that's a tense-consistency error. Find the \"majority\" tense nearby and match the odd verb out to it.\n\n**More examples of this mistake:**\n- \"She walked into the room, picks up her bag, and left.\" (\"Picks\" breaks the past-tense sequence — should be \"picked.\")\n- \"He studied all night, wakes up early, and aces the test.\" (\"Wakes\" and \"aces\" should be \"woke\" and \"aced\" to match the rest of the sequence.)"
+      },
+      "base_source": "Exam F — Standalone (FR48)",
+      "base_question": {
+        "stimulus": "(1) Large meteors are massive space rocks that create brilliant streaks of light, known as fireballs, when they crash into Earth's atmosphere. (2) Their incredible speed causes so much friction and heat that the air around them glows brighter than a flashlight in a dark room. (3) The largest meteors can strike the Earth's surface and create deep, wide craters. (4) Because these meteors can cause major changes to the Earth's environment, scientists used powerful telescopes to track these objects and keep our planet safe.",
+        "question": "Which sentence in the paragraph contains an error in construction and should be revised?\n\nMove the answer to the box. There is only one error in construction.",
+        "options": {
+          "A": "Sentence 1",
+          "B": "Sentence 2",
+          "C": "Sentence 3",
+          "D": "Sentence 4"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Category: Usage\nGetting to the Answer: Read each sentence carefully. As you read, check for the subject and verb for each sentence. If there are pronouns, check that they have clear antecedents. If there are modifiers, confirm that they are as close as possible to what they are intended to modify. Sentence 4 has a verb error. The verb \"used\" is past tense, while the other verbs in the paragraph and sentence are present tense (\"can cause,\" \"keep\"). There is no context clue that \"used\" should be past tense. The other three sentences do not have any errors."
+        }
+      },
+      "q_number": 56
+    },
+    {
+      "id": "P-HE4-FR49",
+      "question_type": "mc",
+      "question": "(1) The neighborhood association planted a community garden behind the library. (2) The garden now provides fresh vegetables to over thirty local families each summer.\n\nRead these sentences.\n\nWhat is the best way to combine the sentences to clarify the relationship between the ideas?",
+      "options": {
+        "A": "The neighborhood association planted a community garden behind the library, but the garden now provides fresh vegetables to over thirty local families each summer.",
+        "B": "The neighborhood association planted a community garden behind the library; since then, the garden has provided fresh vegetables to over thirty local families each summer.",
+        "C": "Providing fresh vegetables to over thirty local families each summer, the library was the site chosen by the neighborhood association for a community garden.",
+        "D": "Although the neighborhood association planted a community garden behind the library, the garden now provides fresh vegetables to over thirty local families each summer."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) correctly joins the two independent clauses with a semicolon and adds the logical transition \"since then,\" which matches the real relationship: the garden's ongoing benefit followed from it being planted. (A) uses \"but,\" which wrongly suggests a contrast between the two ideas when there isn't one. (C) has a misplaced modifier — \"Providing fresh vegetables...\" is meant to describe the garden, but as written it describes \"the library,\" the noun sitting right after the comma. (D) uses \"Although,\" which wrongly suggests the garden provides vegetables despite being planted, rather than because it was planted.\n\n**Why this sounds right:** All four options read smoothly and use grammatically correct connecting words — the trap is that \"but\" and \"although\" both sound like reasonable, natural-sounding connectors in isolation, and it's only when you check whether the two ideas actually contrast (they don't — planting the garden directly caused the ongoing benefit) that the wrong choice becomes clear.\n\n**The concept:** When you combine sentences using a connecting word — because, although, while, which, and, but, since — that word has to accurately describe how the two ideas really relate: does one cause the other? Contradict it? Just add detail? Work out the real relationship in plain language first, then check that each answer choice's connecting word actually matches it. A word like \"although\" promises a contradiction; if the ideas don't actually conflict, \"although\" is wrong no matter how smooth the sentence sounds.\n\n**More examples of this mistake:**\n- \"Because the bridge was under repair, traffic moved smoothly.\" (\"Because\" signals a cause-effect that doesn't fit — repair work should slow traffic, not smooth it; needs \"although\" or \"even though.\")\n- \"The team practiced every day, but they won the championship.\" (\"But\" signals contrast where there isn't one — practicing supports winning, so it needs \"and\" or \"so.\")"
+      },
+      "base_source": "Exam F — Standalone (FR49)",
+      "base_question": {
+        "stimulus": "(1) NASA's Artemis program plans to establish a base camp on the Moon. (2) The base camp established by NASA's Artemis program will serve as a critical staging point for future missions to Mars.",
+        "question": "Read these sentences.\n\nWhat is the best way to combine the sentences to clarify the relationship between the ideas?",
+        "options": {
+          "A": "NASA's Artemis program plans to establish a base camp on the Moon, but this lunar presence will serve as a critical staging point for future missions to Mars.",
+          "B": "NASA's Artemis program plans to establish a base camp on the Moon; afterwards, this lunar presence will serve as a critical staging point for future missions to Mars.",
+          "C": "Intending to serve as a critical staging point for future missions to Mars, the Moon will be used to establish a base camp by NASA's Artemis program.",
+          "D": "Although NASA's Artemis program plans to establish a base camp on the Moon, this lunar presence will serve as a critical staging point for future missions to Mars."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_text": "Category: Multiple\nGetting to the Answer: The best way to join these sentences will be to make them structurally correct without any words that would change their meaning. (B) does this, adding the correct punctuation (a semicolon) to join two independent clauses and the logical transition word \"afterwards.\" (B) is correct.\n(A) combines the sentences using the conjunction \"but.\" This suggests a contrast relationship between ideas, but the ideas are in the same direction, not a different direction. (C) contains a misplaced modifier. The introductory descriptive phrase, \"Intending to serve as a critical staging point...,\" is meant to modify the \"base camp,\" as indicated in the original sentence 2. The placement of the phrase in (C) causes it to incorrectly modify the subject immediately following the comma: \"the Moon.\" This structural error suggests the Moon itself, rather than the base camp, is intended to serve as a staging point. In (D), \"Although\" suggests that the NASA program will establish a base camp even though it will be a staging area. This is an inaccurate way to express the relationship between the ideas."
+        }
+      },
+      "q_number": 57
+    }
+  ]
+}
