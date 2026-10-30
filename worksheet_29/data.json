@@ -1051,142 +1051,408 @@
       "q_number": 35
     },
     {
-      "id": "P-FE2-M-KM1_Q108",
+      "id": "P-FE2-M-EM21",
       "question_type": "mc",
-      "question": "At a summer camp, campers are randomly assigned to 1 of 20 cabins and 1 of 5 cafeterias. Priya likes 6 of the cabins and 2 of the cafeterias. What is the probability that Priya is assigned to both a cabin and a cafeteria that she likes?",
+      "question": "At a summer retreat, campers are randomly assigned to one of 20 workshops and one of 5 meal groups. Mia enjoys 6 of the workshops and 3 of the meal groups. What is the probability that she is assigned to both a workshop and a meal group she enjoys?",
       "options": {
-        "A": "\\(12\\%\\)",
-        "B": "\\(30\\%\\)",
-        "C": "\\(40\\%\\)",
-        "D": "\\(70\\%\\)"
+        "A": "18%",
+        "B": "30%",
+        "C": "60%",
+        "D": "90%"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "Probability of a liked cabin: \\(\\dfrac{6}{20}\\). Probability of a liked cafeteria: \\(\\dfrac{2}{5}\\). These are independent, so multiply: \\(\\dfrac{6}{20}\\times\\dfrac{2}{5}=\\dfrac{12}{100}=12\\%\\)."
+        "exhibit_text": "The two assignments are independent, so multiply the probabilities: \\(\\dfrac{6}{20}\\times\\dfrac{3}{5}=\\dfrac{18}{100}=18\\%\\).\n\n(B) is just the workshop probability alone (30%), forgetting to also require the meal group. (C) is just the meal-group probability alone (60%). (D) comes from adding the two probabilities (30%+60%=90%) instead of multiplying them."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q108 (KM1_Q108)",
+      "base_source": "Exam E — Math Q21 (EM21)",
       "base_question": {
-        "question": "At summer camp, campers are randomly assigned to 1 of 25 cabins and 1 of 4 cafeterias. Josef likes 8 of the cabins and 2 of the cafeterias. What is the probability that Josef is assigned to both a cabin and a cafeteria that he likes?",
+        "question": "At summer camp, campers are randomly assigned to one of 25 cabins and one of 4 cafeterias. Josef likes 8 of the cabins and 2 of the cafeterias. What is the probability that he is assigned to both a cabin and a cafeteria that he likes?",
         "options": {
-          "E": "16%",
-          "F": "20%",
-          "G": "34%",
-          "H": "82%"
+          "A": "16%",
+          "B": "20%",
+          "C": "34%",
+          "D": "82%"
         },
-        "correct": "E",
+        "correct": "A",
         "solution": {
-          "exhibit_image": "kaplan_2025_1/solutions/Q108.jpg"
+          "letter": "A",
+          "exhibit_text": "To find the probability that Josef likes *both* the cabin and the cafeteria he is assigned, find the probability of each and multiply the results. The probability that he will be assigned one of the 8 out of 25 cabins that he likes is \\(\\dfrac{8}{25}\\), and the probability that he will be assigned one of the 2 out of 4 cafeterias that he likes is \\(\\dfrac{2}{4}\\). The product is \\(\\dfrac{8}{25} \\times \\dfrac{2}{4} = \\dfrac{16}{100}\\), or 16%."
         }
       },
       "q_number": 36
     },
     {
-      "id": "P-FE2-M-KM1_Q97",
+      "id": "P-FE2-M-FM04",
       "question_type": "mc",
-      "question": "A survey asked students what types of exercise they regularly do. 35 students swim, 42 students run, 10 students do both, and 18 students do neither. How many students were surveyed?",
+      "question": "In the figure above, if lines \\(m\\) and \\(n\\) are parallel, all of the following statements are true **except**",
+      "figure_svg": "<svg viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"60\" y1=\"100\" x2=\"480\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"60\" y1=\"220\" x2=\"480\" y2=\"220\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"150\" y1=\"35\" x2=\"340\" y2=\"300\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"490\" y=\"105\" font-style=\"italic\" font-size=\"15\">m</text>\n<text x=\"490\" y=\"225\" font-style=\"italic\" font-size=\"15\">n</text>\n<text x=\"138.60377358490567\" y=\"72\" font-size=\"14\">35&#176;</text>\n<text x=\"206.60377358490567\" y=\"86\" font-style=\"italic\" font-size=\"14\">p&#176;</text>\n<text x=\"164.60377358490567\" y=\"126\" font-style=\"italic\" font-size=\"14\">r&#176;</text>\n<text x=\"214.60377358490567\" y=\"126\" font-style=\"italic\" font-size=\"14\">q&#176;</text>\n<text x=\"248.64150943396226\" y=\"208\" font-style=\"italic\" font-size=\"14\">s&#176;</text>\n<text x=\"294.64150943396226\" y=\"208\" font-style=\"italic\" font-size=\"14\">t&#176;</text>\n<text x=\"262.64150943396226\" y=\"248\" font-style=\"italic\" font-size=\"14\">v&#176;</text>\n<text x=\"304.64150943396226\" y=\"248\" font-style=\"italic\" font-size=\"14\">u&#176;</text>\n</svg>",
       "options": {
-        "A": "\\(105\\)",
-        "B": "\\(77\\)",
-        "C": "\\(85\\)",
-        "D": "\\(87\\)"
+        "A": "\\(t=145\\)",
+        "B": "\\(q+u=70\\)",
+        "C": "\\(v+35=180\\)",
+        "D": "\\(s=145\\)"
       },
-      "correct": "C",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Use the overlap formula: total \\(=35+42-10+18=85\\)."
+        "exhibit_text": "For parallel lines cut by a transversal, all acute angles are equal and all obtuse angles are equal.\n\nThus, \\(35\\degree=q\\degree=s\\degree=u\\degree\\) and \\(p\\degree=r\\degree=t\\degree=v\\degree\\). Since \\(35\\degree\\) and \\(p\\degree\\) are supplementary, \\(p\\degree=180\\degree-35\\degree=145\\degree\\). Check each answer choice:\n\n(A) is true since \\(t=p=145\\).\n(B) is true since \\(q=u=35\\) and \\(35+35=70\\).\n(C) is true since \\(v=p=145\\) and \\(145+35=180\\).\n(D) is not true since \\(s=q=35\\ne145\\).\n\nThus, the correct answer is (D)."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q97 (KM1_Q97)",
+      "base_source": "Exam F — Math Q4 (FM04)",
       "base_question": {
-        "question": "A survey asked students what types of exercise they regularly do. 40 students jog, 36 students lift weights, 12 students do both, and 16 students do neither. How many students were surveyed?",
+        "question": "In the figure above, if lines \\(m\\) and \\(n\\) are parallel, all of the following statements are true **except**",
         "options": {
-          "A": "72",
-          "B": "76",
-          "C": "80",
-          "D": "104"
+          "A": "\\(t=130\\)",
+          "B": "\\(q+u=100\\)",
+          "C": "\\(v+50=180\\)",
+          "D": "\\(s=150\\)"
         },
-        "correct": "C",
+        "correct": "D",
         "solution": {
-          "exhibit_image": "kaplan_2025_1/solutions/Q97.jpg"
+          "letter": "D",
+          "exhibit_text": "For parallel lines cut by a transversal, all acute angles are equal and all obtuse angles are equal.\n\nThus, \\(50\\degree=q\\degree=s\\degree=u\\degree\\) and \\(p\\degree=r\\degree=t\\degree=v\\degree\\). Since \\(50\\degree\\) and \\(p\\degree\\) are supplementary, \\(p\\degree=180\\degree-50\\degree=130\\degree\\). Check each answer choice:\n\n(A) is true since \\(t=p=130\\).\n(B) is true since \\(q=u=50\\) and \\(50+50=100\\).\n(C) is true since \\(v=p=130\\) and \\(130+50=180\\).\n(D) is not true since \\(s=q=50\\ne150\\).\n\nThus, the correct answer is (D)."
         }
       },
       "q_number": 37
     },
     {
-      "id": "P-FE2-M-KM1_Q109",
+      "id": "P-FE2-M-DM06",
       "question_type": "mc",
-      "question": "How many numbers in the set of consecutive integers from 1 to 120, inclusive, have 4 as a factor but not 8 as a factor?",
+      "question": "The cost of renting a moving truck is a flat fee of $\\(45\\), plus $\\(8\\) for each additional mile over the first \\(10\\) miles. Which expression represents the total cost, in dollars, of a move that is \\(m\\) miles, assuming \\(m \\ge 10\\)?",
       "options": {
-        "A": "\\(30\\)",
-        "B": "\\(7\\)",
-        "C": "\\(15\\)",
-        "D": "\\(23\\)"
+        "A": "\\(45 + 8(m + 10)\\)",
+        "B": "\\(45 + 8(m - 10)\\)",
+        "C": "\\(53m - 10\\)",
+        "D": "\\(53m + 10\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Multiples of 4 from 1-120: \\(30\\). Multiples of 8: \\(15\\). Numbers with 4 as a factor but not 8: \\(30-15=15\\)."
+        "exhibit_text": "The flat fee of $45 is charged no matter what, and the extra miles beyond the first 10 are \\(m-10\\), each costing $8. So the total cost is \\(45+8(m-10)\\).\n\n(A) wrongly adds 10 to m instead of subtracting it. (C) and (D) wrongly combine 45 and 8 into a single per-mile rate (53) instead of keeping the flat fee separate."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q109 (KM1_Q109)",
+      "base_source": "Exam D — Math Q6 (DM06)",
       "base_question": {
-        "question": "How many numbers in the set of consecutive integers from 1 to 99, inclusive, have 3 as a factor but not 6 as a factor?",
+        "question": "The cost of shipping a package is $\\(12\\), plus $\\(2\\) for each additional pound over \\(3\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 3\\).",
         "options": {
-          "A": "1",
-          "B": "3",
-          "C": "9",
-          "D": "17"
+          "A": "\\(12 + 2(p + 3)\\)",
+          "B": "\\(12 + 2(p - 3)\\)",
+          "C": "\\(14p + 3\\)",
+          "D": "\\(14p - 3\\)"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_image": "kaplan_2025_1/solutions/Q109.jpg"
+          "letter": "B",
+          "exhibit_text": "(B) Since the additional cost per pound is **not** added until the package weighs more than \\(3\\) pounds, the total cost for \\(1\\), \\(2\\), or \\(3\\) pounds is $\\(12\\).\n\n• \\(1\\) pound is $\\(12\\)\n• \\(2\\) pounds is $\\(12\\)\n• \\(3\\) pounds is $\\(12\\)\n\nSince \\(p\\) is greater than or equal to \\(3\\) pounds, the total cost for:\n\n• \\(4\\) pounds is\n\\[12 + (4 - 3)(2) = 14\\]\n• \\(5\\) pounds is\n\\[12 + (5 - 3)(2) = 16\\]\n• \\(p\\) pounds is\n\\[12 + (p - 3)(2)\\]"
         }
       },
       "q_number": 38
     },
     {
-      "id": "P-FE2-M-KM1_Q89",
+      "id": "P-FE2-M-FM47",
       "question_type": "mc",
-      "question": "The population of a particular bacteria doubles in size every 15 hours. If the population is 100 at 10:30 a.m. on a given day, at what time of day will the bacteria have doubled twice?",
+      "question": "Suppose \\(P=\\dfrac{x}{y}\\) and \\(Q=\\dfrac{x+2}{y+2}\\), and \\(x\\) and \\(y\\) do not equal \\(-2\\) or \\(0\\). What is \\(\\dfrac{P}{Q}\\) in terms of \\(x\\) and \\(y\\)?",
       "options": {
-        "A": "\\(10\\!:\\!30\\text{ a.m.}\\)",
-        "B": "\\(4\\!:\\!30\\text{ a.m.}\\)",
-        "C": "\\(4\\!:\\!30\\text{ p.m.}\\)",
-        "D": "\\(10\\!:\\!30\\text{ p.m.}\\)"
+        "A": "\\(\\dfrac{2x+y}{2y+x}\\)",
+        "B": "\\(1\\)",
+        "C": "\\(\\dfrac{xy+2}{xy+2}\\)",
+        "D": "\\(\\dfrac{xy+2x}{xy+2y}\\)"
       },
-      "correct": "C",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Doubling twice takes \\(2\\times15=30\\) hours. \\(30\\) hours after 10:30 a.m. is 24 hours later (10:30 a.m. the next day) plus 6 more hours, which is 4:30 p.m."
+        "exhibit_text": "\\[\\dfrac{P}{Q}=\\dfrac{x/y}{(x+2)/(y+2)}=\\dfrac{x(y+2)}{y(x+2)}=\\dfrac{xy+2x}{xy+2y}\\]\n\n(B) wrongly assumes P and Q are equal. (C) mishandles the distribution so both top and bottom end up identical. (A) incorrectly cross-combines the +2 terms with the wrong variable."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q89 (KM1_Q89)",
+      "base_source": "Exam F — Math Q47 (FM47)",
       "base_question": {
-        "question": "The population of a particular bacteria doubles in size every 19 hours. If the population is 100 at 2:15 p.m. on a given day, at what time of day will the bacteria have doubled twice?",
+        "question": "Suppose \\(R=\\dfrac{a}{b}\\) and \\(S=\\dfrac{a+1}{b+1}\\), and \\(a\\) and \\(b\\) do not equal \\(-1\\) or \\(0\\). What is \\(\\dfrac{R}{S}\\) in terms of \\(a\\) and \\(b\\)?",
         "options": {
-          "A": "2:15 a.m.",
-          "B": "4:15 a.m.",
-          "C": "6:15 a.m.",
-          "D": "4:15 p.m."
+          "A": "\\(\\dfrac{2a+b}{2b+b}\\)",
+          "B": "\\(\\dfrac{2a+1}{2b+1}\\)",
+          "C": "1",
+          "D": "\\(\\dfrac{ab+a}{ab+b}\\)"
         },
-        "correct": "B",
+        "correct": "D",
         "solution": {
-          "exhibit_image": "kaplan_2025_1/solutions/Q89.jpg"
+          "letter": "D",
+          "exhibit_text": "Substitute the values of \\(R\\) and \\(S\\) into the fraction \\(\\dfrac{R}{S}\\) and simplify:\n\n\\[\\dfrac{R}{S}=\\dfrac{\\tfrac{a}{b}}{\\tfrac{a+1}{b+1}}\\]\n\\[=\\dfrac{a}{b}\\div\\dfrac{a+1}{b+1}\\]\n\\[=\\dfrac{a}{b}\\times\\dfrac{b+1}{a+1}\\]\n\\[=\\dfrac{a(b+1)}{b(a+1)}\\]\n\nDistribute \\(a\\) and \\(b\\) to get \\(\\dfrac{ab+a}{ab+b}\\)."
         }
       },
       "q_number": 39
     },
     {
-      "id": "P-FE2-M-KM1_Q113",
+      "id": "P-FE2-M-GM49",
       "question_type": "mc",
-      "question": "The sum of the numbers a, b, and c is 28. The ratio of a to b is 3:4, and the ratio of b to c is 4:7. What is the value of b?",
+      "question": "Tank \\(D\\) holds one-third as much water as Tank \\(C\\). If a farmer drains \\(25\\) gallons of water from Tank \\(C\\) and a rainstorm adds \\(15\\) gallons to Tank \\(D\\), Tank \\(D\\) will then have \\(10\\) fewer gallons than Tank \\(C\\) has. How many gallons did Tank \\(C\\) originally hold?",
       "options": {
-        "A": "\\(10\\)",
-        "B": "\\(12\\)",
-        "C": "\\(6\\)",
-        "D": "\\(8\\)"
+        "A": "\\(50\\)",
+        "B": "\\(60\\)",
+        "C": "\\(75\\)",
+        "D": "\\(90\\)"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Since both ratios already share the value \\(4\\) for \\(b\\), they chain directly: \\(a{:}b{:}c = 3{:}4{:}7\\). The parts sum to \\(3+4+7=14\\), and \\(28\\div14=2\\) per part. So \\(b=4\\times2=8\\)."
+        "exhibit_text": "Let \\(C\\) be the original amount in Tank C, so Tank D originally holds \\(D=\\tfrac{1}{3}C\\). After the changes: \\(D+15=(C-25)-10\\). Substituting \\(D=\\tfrac{1}{3}C\\):\n\n\\[\\tfrac{1}{3}C+15=C-35\\]\n\\[50=\\tfrac{2}{3}C\\]\n\\[C=75\\]\n\nCheck: \\(D=25\\); after changes \\(D=40\\) and \\(C=50\\), and \\(50-40=10\\). ✓"
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q113 (KM1_Q113)",
+      "base_source": "Exam G — Math Q49 (GM49)",
       "base_question": {
-        "question": "The sum of the numbers m, n, and p is 24. The ratio of m to n is 2:5, and the ratio of n to p is 5:3. What is the value of n?",
+        "question": "Tank \\(B\\) holds one-fourth as much water as Tank \\(A\\). If a farmer drains \\(40\\) gallons of water from Tank \\(A\\) and a rainstorm adds \\(20\\) gallons to Tank \\(B\\), Tank \\(B\\) will have \\(30\\) fewer gallons than Tank \\(A\\).\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of gallons originally in Tank A (\\(A\\)) and Tank B (\\(B\\)) is \\(B=\\)[blank1]\\(A\\).\n\nAfter \\(40\\) gallons are drained from Tank A and \\(20\\) gallons are added to Tank B, the equation becomes \\(B+20=\\)[blank2].\n\nBy solving the equation, it can be determined that Tank A started with [blank3] gallons.",
+        "options": null,
+        "correct": null,
+        "solution": {
+          "letter": "1/4, A - 70, 120",
+          "exhibit_text": "Let \\(A\\) represent the number of gallons Tank A starts with, and \\(B\\) represent the number of gallons Tank B starts with. So, \"Tank B holds one-fourth as much water as Tank A\" translates to \\(B=\\dfrac{1}{4}A\\); this is the answer to the first blank. When \\(40\\) gallons are drained from Tank A and \\(20\\) gallons are added to Tank B, Tank A's new total is \\(A-40\\), and Tank B's new total is \\(B+20\\). The problem states that Tank B now has \\(30\\) fewer gallons than Tank A. This translates to:\n\nTank B's New Total \\(=\\) Tank A's New Total \\(-30\\)\n\\[B+20=(A-40)-30\\]\n\\[B+20=A-70\\]\n\nThis is the answer to the second blank.\n\nNow, substitute \\(\\dfrac{1}{4}A\\) for \\(B\\) in the equation to solve for \\(A\\):\n\n\\[\\dfrac{1}{4}A+20=A-70\\]\n\nSubtract \\(\\dfrac{1}{4}A\\) from both sides: \\(20=\\dfrac{3}{4}A-70\\). Add \\(70\\) to both sides: \\(90=\\dfrac{3}{4}A\\). Divide both sides by \\(\\dfrac{3}{4}\\) (or multiply both sides by \\(\\dfrac{4}{3}\\)):\n\n\\[\\dfrac{4}{3}(90)=A\\]\n\\[120=A\\]\n\nTank A started with **120** gallons, which is the answer to the third blank."
+        }
+      },
+      "q_number": 40
+    },
+    {
+      "id": "P-FE2-M-BM46",
+      "question_type": "mc",
+      "question": "Jordan subscribes to a cloud storage service. He pays a one-time setup fee of $\\(35\\), plus $\\(15\\) per month for storage. Which equation can be used to determine the total amount, \\(y\\), Jordan will pay for \\(x\\) months of service?",
+      "options": {
+        "A": "\\(y=15x+35\\)",
+        "B": "\\(y=35x+15\\)",
+        "C": "\\(y=15(x+35)\\)",
+        "D": "\\(y=35(x+15)\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The monthly rate ($15) multiplies the number of months \\(x\\), and the one-time fee ($35) is added once: \\(y=15x+35\\).\n\n(B) swaps which number is the rate and which is the flat fee. (C) and (D) wrongly add the flat fee inside the multiplication instead of as a separate one-time charge."
+      },
+      "base_source": "Exam B — Math Q46 (BM46)",
+      "base_question": {
+        "question": "Amiya subscribes to an online streaming service. She pays a onetime setup fee of $\\(50\\), plus $\\(20\\) per month for service.\n\nWrite an equation that can be used to determine the total amount Amiya will pay, \\(y\\), for \\(x\\) months of service.",
+        "options": null,
+        "correct": null,
+        "solution": {
+          "letter": null,
+          "exhibit_text": "Solution: \\(y = 20x + 50\\)\n\nAn equation of the form \\(px + q = r\\) can be used to represent the total amount Amiya will pay.\n\nUsing the information from the scenario, the onetime setup fee of $\\(50\\) is the constant term (\\(q\\)), and the $\\(20\\) per month of service is the coefficient (\\(p\\)) of the number of months (\\(x\\)).\n\nSo, the equation that can be used to determine the total amount Amiya will pay, \\(y\\), for \\(x\\) months of service is \\(y = 20x + 50\\)."
+        }
+      },
+      "q_number": 41
+    },
+    {
+      "id": "P-FE2-M-BM43",
+      "question_type": "mc",
+      "question": "What is the solution set for \\(3x-4 \\le y \\le 6x+5\\) when \\(y=2\\)?",
+      "options": {
+        "A": "\\(-0.5 \\le x \\le 2\\)",
+        "B": "\\(-2 \\le x \\le 0.5\\)",
+        "C": "\\(0.5 \\le x \\le 2\\)",
+        "D": "\\(-0.5 \\le x \\le 6\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Split into two inequalities and solve each with \\(y=2\\):\n\n\\(3x-4\\le2 \\Rightarrow 3x\\le6 \\Rightarrow x\\le2\\)\n\n\\(2\\le6x+5 \\Rightarrow -3\\le6x \\Rightarrow x\\ge-0.5\\)\n\nCombining: \\(-0.5\\le x\\le2\\).\n\n(B) flips the sign of both bounds. (C) drops the negative sign on the lower bound. (D) misreads the 6 from \\(6x+5\\) as the upper bound instead of solving for it."
+      },
+      "base_source": "Exam B — Math Q43 (BM43)",
+      "base_question": {
+        "question": "Which number line below shows the solution set for \\(2x - 2 \\le y \\le 4x + 10\\) when \\(y = 1\\)?",
+        "options": {
+          "A": "<svg viewBox='0 0 420 55' xmlns='http://www.w3.org/2000/svg' style='max-width:380px;'><line x1='10' y1='28' x2='410' y2='28' stroke='#111' stroke-width='1.4'/><path d='M 4 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 416 28 L 402 24 L 402 32 Z' fill='#111'/><line x1='40' y1='24' x2='40' y2='32' stroke='#111'/><line x1='76' y1='24' x2='76' y2='32' stroke='#111'/><line x1='112' y1='24' x2='112' y2='32' stroke='#111'/><line x1='148' y1='24' x2='148' y2='32' stroke='#111'/><line x1='184' y1='24' x2='184' y2='32' stroke='#111'/><line x1='220' y1='24' x2='220' y2='32' stroke='#111'/><line x1='256' y1='24' x2='256' y2='32' stroke='#111'/><line x1='292' y1='24' x2='292' y2='32' stroke='#111'/><line x1='328' y1='24' x2='328' y2='32' stroke='#111'/><line x1='364' y1='24' x2='364' y2='32' stroke='#111'/><line x1='400' y1='24' x2='400' y2='32' stroke='#111'/><text x='40' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>-5</text><text x='220' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>0</text><text x='400' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>5</text><line x1='112' y1='28' x2='292' y2='28' stroke='#111' stroke-width='3'/><circle cx='112' cy='28' r='4.5' fill='#111'/><circle cx='292' cy='28' r='4.5' fill='#111'/></svg>",
+          "B": "<svg viewBox='0 0 420 55' xmlns='http://www.w3.org/2000/svg' style='max-width:380px;'><line x1='10' y1='28' x2='410' y2='28' stroke='#111' stroke-width='1.4'/><path d='M 4 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 416 28 L 402 24 L 402 32 Z' fill='#111'/><line x1='40' y1='24' x2='40' y2='32' stroke='#111'/><line x1='76' y1='24' x2='76' y2='32' stroke='#111'/><line x1='112' y1='24' x2='112' y2='32' stroke='#111'/><line x1='148' y1='24' x2='148' y2='32' stroke='#111'/><line x1='184' y1='24' x2='184' y2='32' stroke='#111'/><line x1='220' y1='24' x2='220' y2='32' stroke='#111'/><line x1='256' y1='24' x2='256' y2='32' stroke='#111'/><line x1='292' y1='24' x2='292' y2='32' stroke='#111'/><line x1='328' y1='24' x2='328' y2='32' stroke='#111'/><line x1='364' y1='24' x2='364' y2='32' stroke='#111'/><line x1='400' y1='24' x2='400' y2='32' stroke='#111'/><text x='40' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>-5</text><text x='220' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>0</text><text x='400' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>5</text><line x1='148' y1='28' x2='274.0' y2='28' stroke='#111' stroke-width='3'/><circle cx='148' cy='28' r='4.5' fill='#111'/><circle cx='274.0' cy='28' r='4.5' fill='#111'/></svg>",
+          "C": "<svg viewBox='0 0 420 55' xmlns='http://www.w3.org/2000/svg' style='max-width:380px;'><line x1='10' y1='28' x2='410' y2='28' stroke='#111' stroke-width='1.4'/><path d='M 4 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 416 28 L 402 24 L 402 32 Z' fill='#111'/><line x1='40' y1='24' x2='40' y2='32' stroke='#111'/><line x1='76' y1='24' x2='76' y2='32' stroke='#111'/><line x1='112' y1='24' x2='112' y2='32' stroke='#111'/><line x1='148' y1='24' x2='148' y2='32' stroke='#111'/><line x1='184' y1='24' x2='184' y2='32' stroke='#111'/><line x1='220' y1='24' x2='220' y2='32' stroke='#111'/><line x1='256' y1='24' x2='256' y2='32' stroke='#111'/><line x1='292' y1='24' x2='292' y2='32' stroke='#111'/><line x1='328' y1='24' x2='328' y2='32' stroke='#111'/><line x1='364' y1='24' x2='364' y2='32' stroke='#111'/><line x1='400' y1='24' x2='400' y2='32' stroke='#111'/><text x='40' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>-5</text><text x='220' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>0</text><text x='400' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>5</text><line x1='139.0' y1='28' x2='274.0' y2='28' stroke='#111' stroke-width='3'/><circle cx='139.0' cy='28' r='4.5' fill='#111'/><circle cx='274.0' cy='28' r='4.5' fill='#111'/></svg>",
+          "D": "<svg viewBox='0 0 420 55' xmlns='http://www.w3.org/2000/svg' style='max-width:380px;'><line x1='10' y1='28' x2='410' y2='28' stroke='#111' stroke-width='1.4'/><path d='M 4 28 L 18 24 L 18 32 Z' fill='#111'/><path d='M 416 28 L 402 24 L 402 32 Z' fill='#111'/><line x1='40' y1='24' x2='40' y2='32' stroke='#111'/><line x1='76' y1='24' x2='76' y2='32' stroke='#111'/><line x1='112' y1='24' x2='112' y2='32' stroke='#111'/><line x1='148' y1='24' x2='148' y2='32' stroke='#111'/><line x1='184' y1='24' x2='184' y2='32' stroke='#111'/><line x1='220' y1='24' x2='220' y2='32' stroke='#111'/><line x1='256' y1='24' x2='256' y2='32' stroke='#111'/><line x1='292' y1='24' x2='292' y2='32' stroke='#111'/><line x1='328' y1='24' x2='328' y2='32' stroke='#111'/><line x1='364' y1='24' x2='364' y2='32' stroke='#111'/><line x1='400' y1='24' x2='400' y2='32' stroke='#111'/><text x='40' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>-5</text><text x='220' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>0</text><text x='400' y='48' text-anchor='middle' font-size='11' font-family='Georgia,serif'>5</text><line x1='184' y1='28' x2='301.0' y2='28' stroke='#111' stroke-width='3'/><circle cx='184' cy='28' r='4.5' fill='#111'/><circle cx='301.0' cy='28' r='4.5' fill='#111'/></svg>"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Separate the compound inequality into two pieces:\n\n\\[2x - 2 \\le y \\text{ and } y \\le 4x + 10\\]\n\nSubstitute \\(y = 1\\) into each inequality and solve for \\(x\\):\n\n\\[2x - 2 \\le 1\\]\n\\[2x \\le 3\\]\n\\[x \\le \\dfrac{3}{2}\\]\n\n\\[1 \\le 4x + 10\\]\n\\[-9 \\le 4x\\]\n\\[-\\dfrac{9}{4} \\le x\\]\n\nThe solution is the number line that shows that \\(x\\) is greater than or equal to \\(-2\\tfrac{1}{4}\\) and less than or equal to \\(1\\tfrac{1}{2}\\)."
+        }
+      },
+      "q_number": 42
+    },
+    {
+      "id": "P-FE2-M-CM05",
+      "question_type": "mc",
+      "question": "Noah read \\(k\\) pages for his history project. Lily read four times as many pages as Noah. Together, Noah and Lily read \\(18\\) more pages than Zoe read. Which expression, in terms of \\(k\\), represents the number of pages Zoe read?",
+      "options": {
+        "A": "\\(5k-18\\)",
+        "B": "\\(5k+18\\)",
+        "C": "\\(4k-18\\)",
+        "D": "\\(k-18\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Noah read \\(k\\) pages, Lily read \\(4k\\) pages, so together they read \\(k+4k=5k\\) pages. Since together they read 18 more than Zoe, Zoe read \\(5k-18\\).\n\n(B) adds instead of subtracts 18. (C) forgets to include Noah's own \\(k\\) pages in the total. (D) only accounts for Noah's pages, ignoring Lily's entirely."
+      },
+      "base_source": "Exam C — Math Q5 (CM05)",
+      "base_question": {
+        "question": "Maya read \\(n\\) pages for her English homework. Trevor read three times as many pages as Maya. Together, Maya and Trevor read \\(12\\) more pages than Ali read. Write an expression that shows how many pages Ali read, in terms of \\(n\\).\n\nEnter your answer in the space provided. Enter only your answer.",
+        "options": null,
+        "correct": null,
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(\\(4n - 12\\)) Let \\(n\\) represent the number of pages that Maya read.\n\nTrevor read three times as many pages as Maya: Trevor's pages \\(= 3n\\).\n\nTo find how many pages they read together, add Maya's and Trevor's pages: \\(n + 3n = 4n\\).\n\nThis means that together, they read \\(4n\\) pages.\n\nAli read \\(12\\) fewer pages than Maya and Trevor read together. So \\(12\\) should be subtracted from the total:\n\nAli's pages \\(= 4n - 12\\)."
+        }
+      },
+      "q_number": 43
+    },
+    {
+      "id": "P-FE2-M-AM49",
+      "question_type": "mc",
+      "question": "There are \\(20\\) students in a class. The frequency table above shows the number of hours of sleep that students in this class reported getting \\(0, 1, 2, 3, 4,\\) or \\(5\\) [extra] hours beyond a base of \\(5\\) hours last night. What is the **mean** number of extra hours of sleep per student in this class?",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>HOURS OF SLEEP LAST NIGHT</caption><thead><tr><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Hours<br>of Sleep</th><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Students</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>6</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr></tbody></table>",
+      "options": {
+        "A": "\\(1\\tfrac{1}{2}\\)",
+        "B": "\\(1\\tfrac{7}{10}\\)",
+        "C": "\\(2\\tfrac{1}{2}\\)",
+        "D": "\\(3\\tfrac{2}{5}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Multiply each number of hours by its frequency and add: \\((0)(4)+(1)(6)+(2)(5)+(3)(3)+(4)(1)+(5)(1)=0+6+10+9+4+5=34\\). Divide by the total number of students: \\(34\\div20=1\\tfrac{7}{10}\\).\n\n(C) is the unweighted average of the hour-values 0 through 5, ignoring how many students are in each group. (D) comes from dividing 34 by 10 instead of 20."
+      },
+      "base_source": "Exam A — Math Q49 (AM49)",
+      "base_question": {
+        "question": "There are \\(20\\) students in a class. The frequency table above shows the number of students in this class who ate \\(0, 1, 2, 3, 4,\\) or \\(5\\) servings of fruits and vegetables yesterday. What is the **mean** number of servings of fruits and vegetables eaten yesterday per student in this class?",
+        "options": {
+          "A": "\\(1\\tfrac{1}{2}\\)",
+          "B": "\\(3\\)",
+          "C": "\\(3\\tfrac{1}{3}\\)",
+          "D": "\\(4\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "(A) Determine the total number of servings of fruits and vegetables that the students ate by multiplying the number of servings by the number of students in each row of the table. Then add that column to get the total number of servings:\n\n\\(0 \\times 5 = 0\\)\n\\(1 \\times 7 = 7\\)\n\\(2 \\times 3 = 6\\)\n\\(3 \\times 4 = 12\\)\n\\(4 \\times 0 = 0\\)\n\\(5 \\times 1 = 5\\)\n\nTotal: \\(30\\)"
+        }
+      },
+      "q_number": 44
+    },
+    {
+      "id": "P-FE2-M-EM43",
+      "question_type": "mc",
+      "question": "On a number line, point \\(J\\) is located at \\(5.3\\) and \\(\\overline{JL}=\\dfrac{3}{5}\\), with \\(L\\) to the right of \\(J\\). Point \\(K\\) (not shown) is located between Point \\(J\\) and Point \\(L\\). Which value below is a possible value for Point \\(K\\)?",
+      "options": {
+        "A": "\\(5.6\\)",
+        "B": "\\(5.9\\)",
+        "C": "\\(6.05\\)",
+        "D": "\\(6.2\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Since \\(\\overline{JL}=\\tfrac{3}{5}=0.6\\), point \\(L\\) is at \\(5.3+0.6=5.9\\). Point \\(K\\) must be strictly between \\(J=5.3\\) and \\(L=5.9\\); only 5.6 falls in that range.\n\n(B) is the value of \\(L\\) itself, not strictly between the two points. (C) and (D) are both greater than \\(L\\)."
+      },
+      "base_source": "Exam E — Math Q43 (EM43)",
+      "base_question": {
+        "question": "On a number line, \\(\\overline{JL} = \\dfrac{9}{20}\\). Point K (not shown) is located between Point J and Point L. Which value below is a possible value for Point K?",
+        "options": {
+          "A": "7.55",
+          "B": "7.70",
+          "C": "7.85",
+          "D": "7.90"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Before doing a lot of calculating, think strategically. Point J, \\(7\\tfrac{1}{4}\\), is 7.25 when written as a decimal. Point J is the left end-point of the segment \\(\\overline{JL}\\), so the smallest answer choice greater than 7.25 *must* be within segment \\(\\overline{JL}\\). Choice (A) is correct.\n\nWith more traditional math, since Point K is located between Point J and Point L, the value for Point K must be greater than the value for Point J and less than the value for Point L. Point J is located at \\(7\\tfrac{1}{4}\\), and the distance of \\(\\overline{JL}\\) is \\(\\dfrac{9}{20}\\), so the location of Point L is \\(7\\tfrac{1}{4}+\\dfrac{9}{20}\\). Convert these values to decimals to determine the possible value for Point K. \\(7\\tfrac{1}{4}=7.25\\). The distance \\(\\dfrac{9}{20}\\) is equal to \\(\\dfrac{45}{100}\\) or 0.45. Therefore, Point L is at \\(7.25+0.45=7.70\\). Of the answer choices, only 7.55 is greater than 7.25 and less than 7.70."
+        }
+      },
+      "q_number": 45
+    },
+    {
+      "id": "P-FE2-M-FM11",
+      "question_type": "mc",
+      "question": "Students in Ms. Ortiz's class drew a scale drawing, pictured above, of a new reading nook they want to install. In the drawing, the length is represented by \\(l\\), the width is represented by \\(w\\), and all angles are right angles. The actual space available is a square of ground that is \\(32\\) feet on a side. What is the **maximum** width of the actual reading nook?",
+      "figure_svg": "<svg viewBox=\"0 0 280 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,30 227,30 227,184 172,184 172,118 40,118\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<text x=\"133\" y=\"20\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">l</text>\n<text x=\"14\" y=\"78\" font-size=\"12\" text-anchor=\"middle\">2 in.</text>\n<text x=\"106\" y=\"132\" font-size=\"12\" text-anchor=\"middle\">5 in.</text>\n<text x=\"150\" y=\"155\" font-size=\"12\" text-anchor=\"middle\">2 in.</text>\n<text x=\"199\" y=\"198\" font-size=\"12\" text-anchor=\"middle\">3 in.</text>\n<text x=\"240\" y=\"111\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">w</text>\n</svg>",
+      "options": {
+        "A": "\\(5\\) feet",
+        "B": "\\(12\\) feet",
+        "C": "\\(20\\) feet",
+        "D": "\\(32\\) feet"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "First, compute the length \\(l\\) and width \\(w\\) of the drawing: \\(l=5+3=8\\) in. and \\(w=3+2=5\\) in. The actual space is a 32-ft square, and the length corresponds proportionally to that 32-ft side:\n\n\\[\\dfrac{8}{5}=\\dfrac{32}{w}\\]\n\nSince \\(32=8\\times4\\), \\(w\\) must equal \\(5\\times4=20\\) feet.\n\n(A) is just the drawn width, forgetting to scale up. (D) is just the given square's side length, not the actual width."
+      },
+      "base_source": "Exam F — Math Q11 (FM11)",
+      "base_question": {
+        "question": "Students in Ms. Bonn's class drew a scale drawing, pictured above, of the new school garden that they want to install. In the drawing, the length is represented by \\(l\\), the width is represented by \\(w\\), and all angles are right angles. The actual space available is a square of ground that is 25.5 feet on a side. What is the **maximum** width of the actual garden?",
+        "options": {
+          "A": "7 feet",
+          "B": "12 feet",
+          "C": "21 feet",
+          "D": "25.5 feet"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "First, compute the length \\(l\\) and width \\(w\\) of the drawing by using the measurements of the parallel sides in the drawing: \\(l=6+2.5=8.5\\) in. and \\(w=4+3=7\\) in. If the actual space available is a square, then the longest side (the length) can be no greater than 25.5 ft, and the width, which is shorter, must be less than 25.5 ft. Remember that you have to find the actual width, not the length; however, use the information about the actual length to set up a proportion:\n\n\\[\\dfrac{8.5}{7}=\\dfrac{25.5}{w}\\]\n\nSolve for \\(w\\) by cross multiplying, or by noticing that since \\(25.5=8.5\\times3\\), then \\(w\\) must equal \\(7\\times3=21\\)."
+        }
+      },
+      "q_number": 46
+    },
+    {
+      "id": "P-FE2-M-EM11",
+      "question_type": "mc",
+      "question": "A box of craft supplies is composed of buttons, beads, and ribbons. If the ratio of buttons to beads is \\(3{:}4\\) and the ratio of buttons to ribbons is \\(5{:}6\\), what is the ratio of beads to ribbons?",
+      "options": {
+        "A": "\\(10{:}9\\)",
+        "B": "\\(9{:}10\\)",
+        "C": "\\(4{:}6\\)",
+        "D": "\\(5{:}6\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Rewrite both ratios with buttons as a common value of 15 (the LCM of 3 and 5): \\(3{:}4 \\to 15{:}20\\) and \\(5{:}6 \\to 15{:}18\\). So beads to ribbons is \\(20{:}18=10{:}9\\).\n\n(B) inverts the correct ratio. (C) and (D) just copy one of the original ratios without combining them through the common buttons value."
+      },
+      "base_source": "Exam E — Math Q11 (EM11)",
+      "base_question": {
+        "question": "The spare change on a dresser is composed of pennies, nickels, and dimes. If the ratio of pennies to nickels is 2:3 and the ratio of pennies to dimes is 3:4, what is the ratio of nickels to dimes?",
+        "options": {
+          "A": "9:8",
+          "B": "5:7",
+          "C": "4:5",
+          "D": "3:4"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Don't fall into the \"obvious answer\" trap of just taking the numbers of nickels and dimes from the two ratios to come up with 3:4. To find the ratio of nickels to dimes, you need to get the two ratios in proportion to one another by getting the same number of pennies in each. Multiplying the first ratio (pennies to nickels) by 3 gives you 6:9; multiplying the second ratio (pennies to dimes) by 2 gives you 6:8. Since the number corresponding to pennies is now the same in each ratio (6), the ratio of nickels to dimes can now be found. The ratio of nickels to dimes is 9:8."
+        }
+      },
+      "q_number": 47
+    },
+    {
+      "id": "P-FE2-M-DM26",
+      "question_type": "mc",
+      "question": "Alex has a budget of $\\(150\\) to rent a kayak. The rental company charges $\\(22\\) per hour, plus a one-time equipment fee of $\\(20\\). Which inequality represents the number of hours, \\(x\\), that Alex can afford to rent the kayak?",
+      "options": {
+        "A": "\\(22x+20 \\le 150\\)",
+        "B": "\\(22x+20 \\ge 150\\)",
+        "C": "\\(20x+22 \\le 150\\)",
+        "D": "\\(22x-20 \\le 150\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The hourly rate ($22) multiplies the number of hours, and the one-time fee ($20) is added once; the total must be at most $150: \\(22x+20\\le150\\).\n\n(B) flips the inequality direction. (C) swaps which number is the rate and which is the flat fee. (D) wrongly subtracts the fee instead of adding it."
+      },
+      "base_source": "Exam D — Math Q26 (DM26)",
+      "base_question": {
+        "question": "Jordan has a budget of $\\(120\\) to rent a food truck. The rental company charges $\\(18\\) per hour to rent the truck, plus a one-time cleaning fee of $\\(30\\).\n\nWrite an inequality that represents this situation, in which \\(x\\) is the number of hours Jordan can rent the truck.\n\nEnter your answer in the space provided. Enter only your answer.",
+        "options": null,
+        "correct": null,
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(\\(30 + 18x \\le 120\\))\n\nLet \\(x\\) represent the number of hours Jordan can rent the truck.\n\nThe hourly rental cost can be represented as $\\(18 \\cdot x\\), written as \\(18x\\).\n\nThe onetime cleaning fee of $\\(30\\) is added to the hourly cost to obtain the total cost.\n\nThe sum of the cleaning fee and the hourly rental cost is represented as \\(30 + 18x\\).\n\nAs Jordan has $\\(120\\) to spend, the total cost must be less than or equal to $\\(120\\).\n\nThis is represented as \\(30 + 18x \\le 120\\) or \\(120 \\ge 30 + 18x\\)."
+        }
+      },
+      "q_number": 48
+    },
+    {
+      "id": "P-FE2-M-FM14",
+      "question_type": "mc",
+      "question": "The sum of the numbers \\(x\\), \\(y\\), and \\(z\\) is \\(45\\). The ratio of \\(x\\) to \\(y\\) is \\(5{:}3\\), and the ratio of \\(y\\) to \\(z\\) is \\(3{:}7\\). What is the value of \\(y\\)?",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(9\\)",
+        "C": "\\(15\\)",
+        "D": "\\(21\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Since \\(y\\) already matches between the two ratios, combine them directly: \\(x{:}y{:}z=5{:}3{:}7\\), for a total of \\(15\\) parts. Each part is worth \\(45\\div15=3\\), so \\(y=3\\times3=9\\).\n\n(C) is the value of \\(x\\) (5 parts), and (D) is the value of \\(z\\) (7 parts) — picking the wrong variable's share. (A) is just the number of parts \\(y\\) represents, not its actual value."
+      },
+      "base_source": "Exam F — Math Q14 (FM14)",
+      "base_question": {
+        "question": "The sum of the numbers \\(m\\), \\(n\\), and \\(p\\) is 24. The ratio of \\(m\\) to \\(n\\) is 2:5, and the ratio of \\(n\\) to \\(p\\) is 5:3. What is the value of \\(n\\)?",
         "options": {
           "A": "6",
           "B": "8",
@@ -1195,307 +1461,39 @@
         },
         "correct": "C",
         "solution": {
-          "exhibit_image": "kaplan_2025_1/solutions/Q113.jpg"
-        }
-      },
-      "q_number": 40
-    },
-    {
-      "id": "P-FE2-M-KM2_Q106",
-      "question_type": "mc",
-      "question": "Suppose \\(A\\) is the sum of the first 40 consecutive multiples of 5, and \\(B\\) is the sum of the first 40 consecutive multiples of 15. What percent of \\(A\\) is \\(B\\)?",
-      "options": {
-        "A": "\\(100\\%\\)",
-        "B": "\\(150\\%\\)",
-        "C": "\\(200\\%\\)",
-        "D": "\\(300\\%\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Every term in \\(B\\) (multiples of 15) is exactly \\(3\\) times the corresponding term in \\(A\\) (multiples of 5), since \\(15=3\\times5\\). So \\(B=3A\\), meaning \\(B\\) is \\(300\\%\\) of \\(A\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q106 (KM2_Q106)",
-      "base_question": {
-        "question": "Suppose \\(A\\) is the sum of the first 50 consecutive multiples of 3, and \\(B\\) is the sum of the first 50 consecutive multiples of 6. What percent of \\(A\\) is \\(B\\)?",
-        "options": {
-          "E": "50%",
-          "F": "75%",
-          "G": "100%",
-          "H": "200%"
-        },
-        "correct": "H",
-        "solution": {
-          "exhibit_image": "kaplan_2025_2/solutions/Q106.jpg"
-        }
-      },
-      "q_number": 41
-    },
-    {
-      "id": "P-FE2-M-KM2_Q110",
-      "question_type": "mc",
-      "question": "If \\(x=\\dfrac{2}{5}\\) and \\(y=\\dfrac{1}{2}-\\dfrac{1}{5}\\), what is the value of \\(x-y\\)?",
-      "options": {
-        "A": "\\(-\\dfrac{3}{10}\\)",
-        "B": "\\(-\\dfrac{1}{10}\\)",
-        "C": "\\(0\\)",
-        "D": "\\(\\dfrac{1}{10}\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "\\(y=\\dfrac{1}{2}-\\dfrac{1}{5}=\\dfrac{5}{10}-\\dfrac{2}{10}=\\dfrac{3}{10}\\). Then \\(x-y=\\dfrac{4}{10}-\\dfrac{3}{10}=\\dfrac{1}{10}\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q110 (KM2_Q110)",
-      "base_question": {
-        "question": "If \\(x=\\dfrac{1}{4}\\) and \\(y=\\dfrac{1}{2}-\\dfrac{1}{3}\\), what is the value of \\(x-y\\)?",
-        "options": {
-          "E": "\\(-\\dfrac{7}{12}\\)",
-          "F": "\\(-\\dfrac{5}{12}\\)",
-          "G": "0",
-          "H": "\\(\\dfrac{1}{12}\\)"
-        },
-        "correct": "H",
-        "solution": {
-          "exhibit_image": "kaplan_2025_2/solutions/Q110.jpg"
-        }
-      },
-      "q_number": 42
-    },
-    {
-      "id": "P-FE2-M-KM2_Q95",
-      "question_type": "mc",
-      "question": "\\[\\{1,2,3,4,\\ldots,198,199,200\\}\\]\nHow many members of the set shown above are multiples of 10 but not multiples of 15?",
-      "options": {
-        "A": "\\(14\\)",
-        "B": "\\(20\\)",
-        "C": "\\(26\\)",
-        "D": "\\(6\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Multiples of 10 from 1-200: \\(20\\). Multiples of both 10 and 15 (i.e. multiples of 30): \\(6\\). Multiples of 10 but not 15: \\(20-6=14\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q95 (KM2_Q95)",
-      "base_question": {
-        "question": "\\[\\{1,2,3,4,\\ldots,297,298,299,300\\}\\]\nHow many members of the set shown above are multiples of 10 but not multiples of 15?",
-        "options": {
-          "A": "20",
-          "B": "24",
-          "C": "25",
-          "D": "30"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_image": "kaplan_2025_2/solutions/Q95.jpg"
-        }
-      },
-      "q_number": 43
-    },
-    {
-      "id": "P-FE2-M-KM2_Q97",
-      "question_type": "mc",
-      "question": "A brass washer used in a mechanical device is intended to have a thickness of 0.5 centimeter, with an allowable error of 4%. What is the greatest allowable thickness of the brass washer?",
-      "options": {
-        "A": "\\(0.52\\text{ cm}\\)",
-        "B": "\\(0.02\\text{ cm}\\)",
-        "C": "\\(0.1\\text{ cm}\\)",
-        "D": "\\(0.48\\text{ cm}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Greatest allowable thickness: \\(0.5\\times1.04=0.52\\) cm."
-      },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q97 (KM2_Q97)",
-      "base_question": {
-        "question": "A brass washer used in a mechanical device is intended to have a thickness of 0.4 centimeter, with an allowable error of 2%. What is the greatest allowable thickness of the brass washer?",
-        "options": {
-          "A": "0.008 cm",
-          "B": "0.048 cm",
-          "C": "0.408 cm",
-          "D": "0.48 cm"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_image": "kaplan_2025_2/solutions/Q97.jpg"
-        }
-      },
-      "q_number": 44
-    },
-    {
-      "id": "P-FE2-M-KM2_Q101",
-      "question_type": "mc",
-      "question": "\\[(-1)^0+1^2+(-1)^2+\\left(\\dfrac{1}{2}\\right)^2\\]\nWhat is the decimal form of the sum above?",
-      "options": {
-        "A": "\\(3.25\\)",
-        "B": "\\(4\\)",
-        "C": "\\(0.25\\)",
-        "D": "\\(2.25\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "\\[(-1)^0+1^2+(-1)^2+\\left(\\dfrac{1}{2}\\right)^2 = 1+1+1+0.25 = 3.25\\]"
-      },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q101 (KM2_Q101)",
-      "base_question": {
-        "question": "\\[(-1)^0+0^2+(-1)^2+\\left(\\dfrac{1}{2}\\right)^2\\]\nWhat is the decimal form of the sum above?",
-        "options": {
-          "A": "-1.75",
-          "B": "0.25",
-          "C": "2.25",
-          "D": "3"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_image": "kaplan_2025_2/solutions/Q101.jpg"
-        }
-      },
-      "q_number": 45
-    },
-    {
-      "id": "P-FE2-M-KM3_Q78",
-      "question_type": "mc",
-      "question": "If \\(2x+2x+18=2x+2x+2x+4\\), then what is the value of \\(x\\)?",
-      "options": {
-        "A": "\\(7\\)",
-        "B": "\\(9\\)",
-        "C": "\\(3\\)",
-        "D": "\\(5\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "\\[4x+18=6x+4\\]\n\\[18-4=6x-4x\\]\n\\[14=2x\\]\n\\[x=7\\]"
-      },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q78 (KM3_Q78)",
-      "base_question": {
-        "question": "If \\(2x+2x+14=2x+2x+2x+6\\), then what is the value of \\(x\\)?",
-        "options": {
-          "E": "3",
-          "F": "4",
-          "G": "5",
-          "H": "7"
-        },
-        "correct": "F",
-        "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q78.jpg"
-        }
-      },
-      "q_number": 46
-    },
-    {
-      "id": "P-FE2-M-KM3_Q82",
-      "question_type": "mc",
-      "question": "Two boxes can hold the same amount of sand. Box 1 is \\(\\dfrac{1}{5}\\) filled, and Box 2 is \\(\\dfrac{3}{4}\\) filled. If the sand in Box 2 is poured into Box 1, what fraction of Box 1 is still **not** filled?",
-      "options": {
-        "A": "\\(\\dfrac{1}{20}\\)",
-        "B": "\\(\\dfrac{2}{5}\\)",
-        "C": "\\(\\dfrac{3}{5}\\)",
-        "D": "\\(\\dfrac{19}{20}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Combined fill: \\(\\dfrac{1}{5}+\\dfrac{3}{4}=\\dfrac{4}{20}+\\dfrac{15}{20}=\\dfrac{19}{20}\\). Not filled: \\(1-\\dfrac{19}{20}=\\dfrac{1}{20}\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q82 (KM3_Q82)",
-      "base_question": {
-        "question": "Two boxes can hold the same amount of sand. Box 1 is \\(\\dfrac{1}{4}\\) filled, and Box 2 is \\(\\dfrac{2}{3}\\) filled. If the sand in Box 2 is poured into Box 1, what fraction of Box 1 is still **not** filled?",
-        "options": {
-          "E": "\\(\\dfrac{1}{12}\\)",
-          "F": "\\(\\dfrac{3}{7}\\)",
-          "G": "\\(\\dfrac{4}{7}\\)",
-          "H": "\\(\\dfrac{11}{12}\\)"
-        },
-        "correct": "E",
-        "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q82.jpg"
-        }
-      },
-      "q_number": 47
-    },
-    {
-      "id": "P-FE2-M-KM3_Q74",
-      "question_type": "mc",
-      "question": "Mr. Reyes has a pencil box containing 6 blue pencils, 9 green pencils, and 10 orange pencils. If he removes one pencil at random, what is the probability that it will **not** be green?",
-      "options": {
-        "A": "\\(\\dfrac{16}{25}\\)",
-        "B": "\\(\\dfrac{3}{5}\\)",
-        "C": "\\(\\dfrac{2}{3}\\)",
-        "D": "\\(\\dfrac{9}{25}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Total pencils: \\(6+9+10=25\\). Not green: \\(6+10=16\\). Probability: \\(\\dfrac{16}{25}\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q74 (KM3_Q74)",
-      "base_question": {
-        "question": "Mrs. Whitby has a pencil box containing 7 blue pencils, 10 green pencils, and 8 orange pencils. If she removes one pencil at random, what is the probability that it will **not** be green?",
-        "options": {
-          "E": "\\(\\dfrac{2}{3}\\)",
-          "F": "\\(\\dfrac{3}{5}\\)",
-          "G": "\\(\\dfrac{1}{2}\\)",
-          "H": "\\(\\dfrac{2}{5}\\)"
-        },
-        "correct": "F",
-        "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q74.jpg"
-        }
-      },
-      "q_number": 48
-    },
-    {
-      "id": "P-FE2-M-KM3_Q71",
-      "question_type": "mc",
-      "question": "\\[\\dfrac{25}{6}=\\dfrac{5}{x}\\]\nWhat value of \\(x\\) makes the equation above true?",
-      "options": {
-        "A": "\\(1\\dfrac{1}{5}\\)",
-        "B": "\\(4\\)",
-        "C": "\\(4\\dfrac{1}{6}\\)",
-        "D": "\\(\\dfrac{5}{6}\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "Cross multiply: \\(25x=30\\), so \\(x=\\dfrac{30}{25}=\\dfrac{6}{5}=1\\dfrac{1}{5}\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q71 (KM3_Q71)",
-      "base_question": {
-        "question": "\\[\\dfrac{49}{9}=\\dfrac{7}{x}\\]\nWhat value of \\(x\\) makes the equation above true?",
-        "options": {
-          "A": "\\(\\dfrac{7}{9}\\)",
-          "B": "\\(1\\dfrac{2}{7}\\)",
-          "C": "5",
-          "D": "\\(5\\dfrac{1}{9}\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q71.jpg"
+          "letter": "C",
+          "exhibit_text": "Since the two ratios have \\(n\\) in common, you can write two equations using the ratios and solve each equation for \\(n\\). Start by writing the given ratios as fractions:\n\n\\[\\dfrac{m}{n}=\\dfrac{2}{5}\\rightarrow m=\\dfrac{2}{5}n\\]\n\\[\\dfrac{n}{p}=\\dfrac{5}{3}\\rightarrow p=\\dfrac{3}{5}n\\]\n\nThe question states that \\(m+n+p=24\\). Substitute in the two equations above and solve for \\(n\\).\n\n\\[m+n+p=24\\]\n\\[\\dfrac{2}{5}n+n+\\dfrac{3}{5}n=24\\]\n\\[\\dfrac{2}{5}n+\\dfrac{5}{5}n+\\dfrac{3}{5}n=24\\]\n\\[\\dfrac{10}{5}n=24\\]\n\\[2n=24\\]\n\\[n=12\\]"
         }
       },
       "q_number": 49
     },
     {
-      "id": "P-FE2-M-KM3_Q75",
+      "id": "P-FE2-M-AM33",
       "question_type": "mc",
-      "question": "In a scale drawing of a cruise ship, 0.3 inches represents 300 feet. How many inches represent 15 feet?",
+      "question": "Maria must read \\(200\\) pages for her book club this weekend. It took her \\(45\\) minutes to read the first \\(30\\) pages. At this rate, how much **additional** time will it take her to finish the reading?",
       "options": {
-        "A": "\\(0.015\\)",
-        "B": "\\(0.15\\)",
-        "C": "\\(1.5\\)",
-        "D": "\\(0.0015\\)"
+        "A": "\\(3\\tfrac{1}{2}\\) hr",
+        "B": "\\(4\\) hr",
+        "C": "\\(4\\tfrac{1}{4}\\) hr",
+        "D": "\\(5\\) hr"
       },
-      "correct": "A",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Set up a proportion: \\(\\dfrac{0.3}{300}=\\dfrac{x}{15}\\). Solve: \\(x=\\dfrac{0.3\\times15}{300}=\\dfrac{4.5}{300}=0.015\\) inches."
+        "exhibit_text": "Her rate is \\(45\\div30=1.5\\) minutes per page. She has \\(200-30=170\\) pages left, which will take \\(170\\times1.5=255\\) minutes, or \\(255\\div60=4\\tfrac{1}{4}\\) hours.\n\n(D) applies the rate to all 200 pages instead of just the 170 remaining. (B) and (A) come from rounding or misdividing the 255 minutes."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q75 (KM3_Q75)",
+      "base_source": "Exam A — Math Q33 (AM33)",
       "base_question": {
-        "question": "In a scale drawing of a cruise ship, 0.2 inches represents 200 feet. How many inches represent 10 feet?",
+        "question": "Ryan must read \\(150\\) pages for school this weekend. It took him \\(30\\) minutes to read the first \\(20\\) pages. At this rate, how much **additional** time will it take him to finish the reading?",
         "options": {
-          "A": "0.001",
-          "B": "0.002",
-          "C": "0.01",
-          "D": "0.02"
+          "A": "\\(2\\tfrac{1}{6}\\) hr",
+          "B": "\\(3\\tfrac{1}{4}\\) hr",
+          "C": "\\(3\\tfrac{3}{4}\\) hr",
+          "D": "\\(7\\tfrac{1}{2}\\) hr"
         },
-        "correct": "C",
+        "correct": "B",
         "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q75.jpg"
+          "letter": "B",
+          "exhibit_text": "(B) Ryan has \\(130\\) pages left to read (\\(150 - 20\\)). He read \\(20\\) pages in \\(30\\) minutes, which means he read at a rate of \\(40\\) pages per \\(1\\) hour. To find out how much longer it will take him to finish the assignment, divide the total number of pages remaining (\\(130\\)) by the number of pages he is able to read per hour (\\(40\\)):\n\n\\[\\dfrac{130}{40} = 3\\tfrac{1}{4}\\]"
         }
       },
       "q_number": 50

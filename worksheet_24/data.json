@@ -1,61 +1,58 @@
 {
   "math_questions": [
     {
-      "id": "P-HE5-M-KM1_Q94",
+      "id": "P-HE5-M-CM47",
       "question_type": "mc",
-      "question": "For what value of \\(x\\) does \\(6(10-x)=4(x-5)\\)?",
+      "question": "The distance a snail crawls, in centimeters, is proportional to the number of minutes it crawls. The snail crawls \\(18\\) centimeters in \\(12\\) minutes. What is the constant of proportionality, in centimeters per minute?",
       "options": {
-        "A": "\\(-8\\)",
-        "B": "\\(-6\\)",
+        "A": "\\(0.67\\)",
+        "B": "\\(1.5\\)",
         "C": "\\(6\\)",
-        "D": "\\(8\\)"
+        "D": "\\(18\\)"
       },
-      "correct": "D",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Distribute both sides: \\(60-6x = 4x-20\\). Add \\(6x\\) and \\(20\\) to both sides: \\(80 = 10x\\). Divide by \\(10\\): \\(x=8\\)."
+        "exhibit_text": "The constant of proportionality is distance divided by time: \\(18 \\div 12 = 1.5\\) centimeters per minute.\n\n(A) inverts the ratio (\\(12 \\div 18\\)). (C) subtracts instead of dividing (\\(18-12\\)). (D) mistakes the total distance for the rate."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q94 (KM1_Q94)",
+      "base_source": "Exam C — Math Q47 (CM47)",
       "base_question": {
-        "question": "For what value of \\(x\\) does \\(6(8-x)=3(x-2)\\)?",
+        "question": "The height of a plant, in millimeters, is proportional to the number of days the plant has grown. The plant has grown \\(20\\) millimeters in \\(8\\) days. What is the constant of proportionality, in millimeters per day?",
         "options": {
-          "A": "-9",
-          "B": "-6",
-          "C": "3",
-          "D": "6"
+          "A": "\\(0.4\\)",
+          "B": "\\(2.5\\)",
+          "C": "\\(12\\)",
+          "D": "\\(20\\)"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "6(8-x)=3(x-2) -> 48-6x=3x-6 -> 54=9x -> x=6."
+          "letter": "B",
+          "exhibit_text": "(B) The constant of proportionality is determined by dividing the number of millimeters by the number of days:\n\n\\[\\dfrac{20 \\text{ mm}}{8 \\text{ days}} = \\dfrac{20}{8} = 2.5 \\text{ mm/day}\\]"
         }
       },
       "q_number": 1
     },
     {
-      "id": "P-HE5-M-KM3_Q91",
+      "id": "P-HE5-M-GM50",
       "question_type": "mc",
-      "question": "If \\(p\\) is a negative number, and the product of \\(q\\) and \\(r\\) is negative, which of the following **must** be true?",
+      "question": "A bike rental company charges an initial fee of \\(\\$5\\), plus a constant rate of \\(\\$1.75\\) per hour. Which equation can be used to determine the cost, \\(y\\), of a bike rental for \\(x\\) hours?",
       "options": {
-        "A": "\\(\\dfrac{p}{r}\\) is negative",
-        "B": "\\(\\dfrac{p}{r}\\) is positive",
-        "C": "\\(\\dfrac{q}{r}\\) is positive",
-        "D": "\\(\\dfrac{q}{r}\\) is negative"
+        "A": "\\(y = 5x + 1.75\\)",
+        "B": "\\(y = 1.75x + 5\\)",
+        "C": "\\(y = 1.75(x + 5)\\)",
+        "D": "\\(y = 1.75x - 5\\)"
       },
-      "correct": "D",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Since the product of \\(q\\) and \\(r\\) is negative, \\(q\\) and \\(r\\) have opposite signs. Two numbers with opposite signs always divide to give a negative result, so \\(\\dfrac{q}{r}\\) must be negative. The sign of \\(r\\) alone isn't determined relative to \\(p\\) (which is given as negative), so \\(\\dfrac{p}{r}\\) could be either positive or negative — it isn't guaranteed."
+        "exhibit_text": "The cost equals the hourly rate times the number of hours, plus the flat initial fee: \\(y = 1.75x + 5\\).\n\n(A) swaps the fee and the rate. (C) incorrectly distributes the rate across the fee. (D) uses the wrong sign for the fee."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q91 (KM3_Q91)",
+      "base_source": "Exam G — Math Q50 (GM50)",
       "base_question": {
-        "question": "If \\(a\\) is a positive number, and the product of \\(b\\) and \\(c\\) is positive, which of the following **must** be true?",
-        "options": {
-          "A": "\\(\\dfrac{a}{c}\\) is negative",
-          "B": "\\(\\dfrac{a}{c}\\) is positive",
-          "C": "\\(\\dfrac{b}{c}\\) is negative",
-          "D": "\\(\\dfrac{b}{c}\\) is positive"
-        },
-        "correct": "D",
+        "question": "A taxi company charges an initial fee of \\(\\$3\\), plus a constant rate of \\(\\$2.50\\) per mile driven.\n\nWrite an equation that can be used to determine the cost, \\(y\\), of a taxi ride for a trip of \\(x\\) miles.\n\nEnter your equation in the space provided. Enter only your equation.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "Since bc is positive, b and c have the same sign, so b/c must be positive. The sign of c relative to a isn't determined, so a/c isn't guaranteed to be any particular sign."
+          "letter": "y=2.5x+3",
+          "exhibit_text": "If the company charges an initial fee plus a constant rate per mile driven, then its cost can be modeled by a linear equation \\(y=mx+b\\). You are told that the initial fee is \\(\\$3\\), so \\(b=3\\). You also know that the company charges a constant rate of \\(\\$2.50\\) per mile driven, so \\(m=2.5\\). The complete equation is therefore \\(y=2.5x+3\\).\n\n(Other equivalent forms, such as \\(y=3+2.5x\\) or \\(2.5x+3=y\\), are also correct.)"
         }
       },
       "q_number": 2
@@ -91,61 +88,69 @@
       "q_number": 3
     },
     {
-      "id": "P-HE5-M-KM3_Q110",
+      "id": "P-HE5-M-EM25",
       "question_type": "mc",
-      "question": "Which statement must be true if \\(y\\) is a whole number such that \\(2 < y < 4\\)?",
+      "question": "Point \\(Q\\) is **not** on line \\(k\\). How many lines can be drawn through \\(Q\\) that form a \\(90\\degree\\) angle with line \\(k\\)?",
       "options": {
-        "A": "\\(\\dfrac{1}{y-2} < \\dfrac{1}{y+2}\\)",
-        "B": "\\(\\dfrac{1}{y-2} > \\dfrac{1}{y+2}-1\\)",
-        "C": "\\(\\dfrac{1}{y-2}+\\dfrac{1}{y+2} < 1\\)",
-        "D": "\\(\\dfrac{1}{y-2}+\\dfrac{1}{y+2} < -\\dfrac{1}{y}\\)"
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Cannot be determined from the information given."
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "The only whole number strictly between \\(2\\) and \\(4\\) is \\(y=3\\). Testing each option: \\(\\dfrac{1}{y-2} = \\dfrac{1}{1} = 1\\) and \\(\\dfrac{1}{y+2} = \\dfrac{1}{5}\\). (A): is \\(1 < \\dfrac{1}{5}\\)? No. (B): is \\(1 > \\dfrac{1}{5}-1 = -0.8\\)? Yes — true. (C): is \\(1+0.2=1.2 < 1\\)? No. (D): is \\(1.2 < -\\dfrac{1}{3}\\)? No. Only (B) holds."
+        "exhibit_text": "Through any point not on a line, exactly one line can be drawn perpendicular to that line.\n\n(A) and (C) misstate this geometric fact. (D) is incorrect because this is always true, regardless of where \\(Q\\) is located."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q110 (KM3_Q110)",
+      "base_source": "Exam E — Math Q25 (EM25)",
       "base_question": {
-        "question": "Which statement must be true if \\(x\\) is a whole number such that \\(1 < x < 3\\)?",
+        "question": "Point P is **not** on line \\(m\\). How many lines can be drawn through P that form a \\(90\\degree\\) angle with line \\(m\\)?",
         "options": {
-          "E": "\\(\\dfrac{1}{x-1} < \\dfrac{1}{x+1}\\)",
-          "F": "\\(\\dfrac{1}{x-1} > \\dfrac{1}{x+1}-1\\)",
-          "G": "\\(\\dfrac{1}{x-1}+\\dfrac{1}{x+1} < 1\\)",
-          "H": "\\(\\dfrac{1}{x-1}+\\dfrac{1}{x+1} < -\\dfrac{1}{x}\\)"
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "Cannot be determined from the information given."
         },
-        "correct": "F",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "The only whole number between 1 and 3 is x=2. Testing the options at x=2 shows only the option matching 1/(x-1) > 1/(x+1) - 1 holds true (1 > -2/3)."
+          "letter": "B",
+          "exhibit_text": "Draw a picture to better visualize the situation.\n\nAs you can see, a line drawn from P perpendicular to line \\(m\\) will create two \\(90\\degree\\) angles. However, a line drawn anywhere else will no longer be perpendicular and therefore will not create any \\(90\\degree\\) angles, so only one line meets the conditions of the question.",
+          "exhibit_svg": "<svg viewBox=\"0 0 150 80\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"10\" y1=\"60\" x2=\"140\" y2=\"60\" stroke=\"#222\" stroke-width=\"1.5\" marker-end=\"url(#a25)\"/><defs><marker id=\"a25\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#222\"/></marker></defs><line x1=\"60\" y1=\"15\" x2=\"60\" y2=\"60\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"55\" y=\"52\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#222\"/><text x=\"55\" y=\"12\" font-size=\"12\" font-weight=\"700\">P</text><text x=\"144\" y=\"64\" font-size=\"12\">m</text></svg>"
         }
       },
       "q_number": 4
     },
     {
-      "id": "P-HE5-M-KM2_Q67",
+      "id": "P-HE5-M-AM10",
       "question_type": "mc",
-      "question": "A certain machine caps 7 bottles every 3 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+      "question": "Three expressions are given:\n\n\\[-2(3n+5)\\]\n\\[7-n\\]\n\\[4(n+3)\\]\n\nWhat is the sum of these three expressions, written in simplest form?",
       "options": {
-        "A": "\\(120\\)",
-        "B": "\\(140\\)",
-        "C": "\\(160\\)",
-        "D": "\\(210\\)"
+        "A": "\\(-3n+9\\)",
+        "B": "\\(-3n-9\\)",
+        "C": "\\(3n+9\\)",
+        "D": "\\(3n-9\\)"
       },
-      "correct": "B",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "There are \\(60\\) seconds in a minute. At \\(7\\) bottles per \\(3\\) seconds, the rate is \\(\\dfrac{7}{3}\\) bottles per second. In \\(60\\) seconds: \\(\\dfrac{7}{3} \\times 60 = 140\\) bottles."
+        "exhibit_text": "Distribute each expression: \\(-6n-10\\), \\(7-n\\), and \\(4n+12\\). Adding the \\(n\\)-terms: \\(-6n-n+4n=-3n\\). Adding the constants: \\(-10+7+12=9\\). The sum is \\(-3n+9\\).\n\n(B), (C), and (D) each result from a sign error while distributing or combining like terms."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q67 (KM2_Q67)",
+      "base_source": "Exam A — Math Q10 (AM10)",
       "base_question": {
-        "question": "A certain machine caps 5 bottles every 2 seconds. At this rate, how many bottles can the machine cap in 1 minute?",
+        "question": "Three expressions are given:\n\n\\[-2(2.5n + 4)\\]\n\\[5 - n\\]\n\\[3(2n + 7)\\]\n\nWhich of these are equivalent to the sum of these three expressions?\n\nSelect the **two** correct answers.",
         "options": {
-          "A": "120",
-          "B": "150",
-          "C": "240",
-          "D": "300"
+          "A": "\\(5 - n + 6n + 21 - 5n - 8\\)",
+          "B": "\\(5 - n + 6n + 21 - 5n + 8\\)",
+          "C": "\\(5 - n + 5n + 21 - 5n - 8\\)",
+          "D": "\\(18 - n\\)",
+          "E": "\\(18\\)",
+          "F": "\\(34\\)"
         },
-        "correct": "B",
+        "correct": [
+          "A",
+          "E"
+        ],
         "solution": {
-          "exhibit_text": "5 bottles every 2 seconds, rate = 5/2 per second. In 60 seconds: (5/2)*60=150."
+          "letter": null,
+          "exhibit_text": "Add the three expressions: \\(5 - n + 3(2n + 7) + (-2)(2.5n + 4)\\).\n\nDistribute \\(3\\) and \\(-2\\): \\(5 - n + 6n + 21 - 5n - 8\\).\n\nCombine the variable terms and combine the constants:\n\\((-n + 6n - 5n) + (5 + 21 - 8) = 18\\)."
         }
       },
       "q_number": 5
@@ -301,31 +306,32 @@
       "q_number": 10
     },
     {
-      "id": "P-HE5-M-KM3_Q98",
+      "id": "P-HE5-M-AM29",
       "question_type": "mc",
-      "question": "Angle P and angle Q are supplementary. If the measure of angle Q is one-fifth the measure of angle P, how many degrees greater is angle P than angle Q?",
+      "question": "There are \\(8\\) different marbles in a bag. Priya will choose \\(3\\) of these marbles to give to a friend. How many different groups of \\(3\\) marbles can she choose from the \\(8\\)?",
       "options": {
-        "A": "\\(90\\degree\\)",
-        "B": "\\(100\\degree\\)",
-        "C": "\\(120\\degree\\)",
-        "D": "\\(150\\degree\\)"
+        "A": "\\(24\\)",
+        "B": "\\(56\\)",
+        "C": "\\(336\\)",
+        "D": "\\(512\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Since \\(Q = \\dfrac{1}{5}P\\), we have \\(P = 5Q\\). Supplementary means \\(5Q + Q = 180\\degree\\), so \\(6Q = 180\\degree\\), giving \\(Q = 30\\degree\\) and \\(P = 150\\degree\\). The difference is \\(150\\degree - 30\\degree = 120\\degree\\)."
+        "exhibit_text": "Since order doesn't matter, use combinations: \\(\\binom{8}{3}=\\dfrac{8\\times7\\times6}{3\\times2\\times1}=56\\).\n\n(A) is \\(8\\times3\\). (C) is the permutation \\(8\\times7\\times6\\) without dividing out the repeated orderings. (D) is \\(8^3\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q98 (KM3_Q98)",
+      "base_source": "Exam A — Math Q29 (AM29)",
       "base_question": {
-        "question": "Angle K and angle L are supplementary. If the measure of angle L is one-fourth the measure of angle K, how many degrees greater is angle K than angle L?",
+        "question": "There are \\(6\\) different cookies on a plate. Aiden will choose \\(2\\) of these cookies to pack in his lunch. How many different pairs of \\(2\\) cookies can he choose from the \\(6\\)?",
         "options": {
-          "E": "36°",
-          "F": "54°",
-          "G": "108°",
-          "H": "144°"
+          "A": "\\(12\\)",
+          "B": "\\(15\\)",
+          "C": "\\(30\\)",
+          "D": "\\(36\\)"
         },
-        "correct": "G",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "K=4L, 4L+L=180, L=36, K=144. K-L = 144-36 = 108 degrees."
+          "letter": "B",
+          "exhibit_text": "(B) Create a list of the possible pairs. Let the cookies be named \\(A\\), \\(B\\), \\(C\\), \\(D\\), \\(E\\), and \\(F\\).\n\nAB, AC, AD, AE, AF\nBC, BD, BE, BF\nCD, CE, CF\nDE, DF\nEF\n\nThere are a total of \\(15\\) possible pairs of cookies that Aiden can choose."
         }
       },
       "q_number": 11
@@ -361,31 +367,27 @@
       "q_number": 12
     },
     {
-      "id": "P-HE5-M-KM1_Q88",
+      "id": "P-HE5-M-AM08",
       "question_type": "mc",
-      "question": "In one month, a factory used 8,000,000 watts of electricity. The following month, the number of watts used was 6,000,000. By what percentage did the electricity usage decrease?",
+      "question": "Maria and Carlos each collect trading cards. Maria has \\(3\\) times as many cards as Carlos. Maria gives \\(10\\) of her cards to Carlos. Maria now has \\(20\\) more cards than Carlos. How many cards did Maria start with?",
       "options": {
-        "A": "\\(20\\%\\)",
-        "B": "\\(25\\%\\)",
-        "C": "\\(33\\dfrac{1}{3}\\%\\)",
-        "D": "\\(75\\%\\)"
+        "A": "\\(40\\)",
+        "B": "\\(50\\)",
+        "C": "\\(60\\)",
+        "D": "\\(90\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "The decrease is \\(8{,}000{,}000 - 6{,}000{,}000 = 2{,}000{,}000\\) watts. As a percentage of the original: \\(\\dfrac{2{,}000{,}000}{8{,}000{,}000} = 0.25 = 25\\%\\)."
+        "exhibit_text": "Let \\(C\\) be Carlos's cards, so Maria starts with \\(3C\\). After the gift: \\(3C-10 = (C+10)+20\\). Solving: \\(2C=40\\), so \\(C=20\\) and Maria started with \\(3(20)=60\\).\n\n(A) uses \\(2C\\) instead of \\(3C\\). (B) is Maria's card count *after* giving cards away, not her starting amount. (D) uses Carlos's final amount instead of Maria's starting amount."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q88 (KM1_Q88)",
+      "base_source": "Exam A — Math Q8 (AM08)",
       "base_question": {
-        "question": "In March, the electricity used in New York was 5,000,000 watts. In April, the number of watts used was 4,000,000. By what percentage did the electricity usage decrease from March to April?",
-        "options": {
-          "E": "20%",
-          "F": "25%",
-          "G": "50%",
-          "H": "75%"
-        },
-        "correct": "E",
+        "question": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives \\(8\\) of his stamps to Kevin. Liam now has \\(12\\) more stamps than Kevin.\n\nHow many stamps did Liam start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of stamps originally in Liam's and Kevin's collections is \\(L =\\) [DROPDOWN_1] \\(K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes \\(L - 8 =\\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Liam started with [DROPDOWN_3] stamps.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "The decrease is 5,000,000 - 4,000,000 = 1,000,000 watts. As a percentage of the original: 1,000,000/5,000,000 = 20%."
+          "letter": null,
+          "exhibit_text": "Liam originally has twice as many stamps as Kevin, so the equation is \\(L = 2K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes\n\\(L - 8 = (K + 8) + 12\\), which simplifies to \\(L - 8 = K + 20\\).\n\nSubstitute \\(L = 2K\\) into the equation: \\(2K - 8 = K + 20\\).\n\nSolve for \\(K\\):\n\\[2K - K = 20 + 8\\]\n\\[K = 28\\]\nSubstitute to find \\(L\\): \\(L = 2K = 2 \\times 28 = 56\\).\n\nSo, Liam started with \\(56\\) stamps."
         }
       },
       "q_number": 13
@@ -451,62 +453,66 @@
       "q_number": 15
     },
     {
-      "id": "P-HE5-M-KM1_Q86",
+      "id": "P-HE5-M-AM48",
       "question_type": "mc",
-      "question": "Angle C and angle D are supplementary. If the measure of angle D is one-fourth the measure of angle C, what is the measure of angle D?",
+      "question": "If \\(6x - 5y = 30\\), what is \\(x\\) in terms of \\(y\\)?",
       "options": {
-        "A": "\\(18\\degree\\)",
-        "B": "\\(30\\degree\\)",
-        "C": "\\(36\\degree\\)",
-        "D": "\\(45\\degree\\)"
+        "A": "\\(x = \\tfrac{5}{6}y + 30\\)",
+        "B": "\\(x = -\\tfrac{5}{6}y + 30\\)",
+        "C": "\\(x = \\tfrac{5}{6}y + 5\\)",
+        "D": "\\(x = -\\tfrac{5}{6}y + 5\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Supplementary angles sum to \\(180\\degree\\). Since \\(D = \\dfrac{1}{4}C\\), we have \\(C = 4D\\). So \\(4D + D = 180\\degree\\), giving \\(5D = 180\\degree\\), so \\(D = 36\\degree\\)."
+        "exhibit_text": "Add \\(5y\\) to both sides: \\(6x=30+5y\\). Divide by \\(6\\): \\(x=5+\\tfrac{5}{6}y\\).\n\n(A) and (B) forget to divide the constant \\(30\\) by \\(6\\). (B) and (D) use the wrong sign on the \\(y\\)-term."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q86 (KM1_Q86)",
+      "base_source": "Exam A — Math Q48 (AM48)",
       "base_question": {
-        "question": "Angle A and angle B are supplementary. If the measure of angle B is one-third the measure of angle A, what is the measure of angle B?",
+        "question": "If \\(4x - 3y = 12\\), what is \\(x\\) in terms of \\(y\\)?",
         "options": {
-          "E": "22.5°",
-          "F": "45°",
-          "G": "67.5°",
-          "H": "135°"
+          "A": "\\(x = \\tfrac{3}{4}y + 12\\)",
+          "B": "\\(x = -\\tfrac{3}{4}y + 12\\)",
+          "C": "\\(x = \\tfrac{3}{4}y + 3\\)",
+          "D": "\\(x = -\\tfrac{3}{4}y + 3\\)"
         },
-        "correct": "F",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "Angle A = 3B, so A + B = 180 gives 3B + B = 180, 4B = 180, B = 45°."
+          "letter": "C",
+          "exhibit_text": "(C)\n\n\\[4x - 3y = 12\\]\n\\[4x = 3y + 12\\]\n\\[x = \\dfrac{3}{4}y + \\dfrac{12}{4}\\]\n\\[x = \\dfrac{3}{4}y + 3\\]"
         }
       },
       "q_number": 16
     },
     {
-      "id": "P-HE5-M-KM3_Q94",
+      "id": "P-HE5-M-GM04",
       "question_type": "mc",
-      "question": "If an integer is randomly chosen from the first 50 positive integers, what is the probability that the integer selected has at least one digit that is a 7?",
+      "question": "Each square in the grid above has a side length of \\(5\\). What is the area of the shaded triangle?",
       "options": {
-        "A": "\\(\\dfrac{1}{10}\\)",
-        "B": "\\(\\dfrac{3}{25}\\)",
-        "C": "\\(\\dfrac{7}{50}\\)",
-        "D": "\\(\\dfrac{1}{5}\\)"
+        "A": "\\(20\\)",
+        "B": "\\(75\\)",
+        "C": "\\(100\\)",
+        "D": "\\(200\\)"
       },
-      "correct": "A",
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"20\" x2=\"170\" y2=\"20\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"140\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"80,20 80,140 140,140\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>",
       "solution": {
-        "exhibit_text": "Among 1–50, the integers containing the digit 7 are \\(7, 17, 27, 37, 47\\) — that's \\(5\\) numbers (no numbers from 70–79 exist in this range). The probability is \\(\\dfrac{5}{50} = \\dfrac{1}{10}\\)."
+        "exhibit_text": "This triangle has a height of \\(20\\) (4 boxes, each counting as \\(5\\)) and a base of \\(10\\) (2 boxes). The area of a triangle is \\(\\tfrac{1}{2}(\\text{base})(\\text{height})=\\tfrac{1}{2}(10)(20)=100\\).\n\n(D) forgets to divide by \\(2\\). (B) miscounts the height as 3 boxes instead of 4. (A) miscounts both the base and height too small."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q94 (KM3_Q94)",
+      "base_source": "Exam G — Math Q4 (GM04)",
       "base_question": {
-        "question": "If an integer is randomly chosen from the first 50 positive integers, what is the probability that the integer selected has at least one digit that is a 3?",
+        "question": "Each square in the grid above has a side length of \\(4\\). What is the area of the shaded triangle?",
         "options": {
-          "E": "\\(\\dfrac{7}{25}\\)",
-          "F": "\\(\\dfrac{3}{10}\\)",
-          "G": "\\(\\dfrac{8}{25}\\)",
-          "H": "\\(\\dfrac{2}{5}\\)"
+          "A": "\\(3\\)",
+          "B": "\\(24\\)",
+          "C": "\\(48\\)",
+          "D": "\\(96\\)"
         },
-        "correct": "E",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "Numbers 1-50 containing digit 3: 3,13,23,30-39,43 = 14 numbers. Probability = 14/50 = 7/25."
-        }
+          "letter": "C",
+          "exhibit_text": "This triangle has a height of \\(8\\) (each box counts as \\(4\\)) and a base of \\(12\\). The area of a triangle is\n\n\\[\\dfrac{1}{2}(\\text{Base})(\\text{Height})=\\dfrac{1}{2}(12)(8)=48.\\]"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"20\" x2=\"170\" y2=\"20\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"140\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"50,20 50,80 140,80\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>"
       },
       "q_number": 17
     },
@@ -541,31 +547,32 @@
       "q_number": 18
     },
     {
-      "id": "P-HE5-M-KM3_Q107",
+      "id": "P-HE5-M-DM49",
       "question_type": "mc",
-      "question": "For how many positive integers \\(x\\) is \\(\\dfrac{210}{x}\\) an integer?",
+      "question": "Deja has a piece of ribbon measuring \\(36\\) inches by \\(60\\) inches. She wants to cut it into squares of equal size, without any ribbon left over. What is the **greatest** possible side length, in inches, of one of those squares?",
       "options": {
-        "A": "\\(8\\)",
-        "B": "\\(12\\)",
-        "C": "\\(16\\)",
-        "D": "\\(20\\)"
+        "A": "\\(4\\)",
+        "B": "\\(6\\)",
+        "C": "\\(12\\)",
+        "D": "\\(36\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "This asks for the number of positive divisors of \\(210\\). Its prime factorization is \\(210 = 2 \\times 3 \\times 5 \\times 7\\), so the number of divisors is \\((1+1)(1+1)(1+1)(1+1) = 2^4 = 16\\)."
+        "exhibit_text": "The greatest possible side length is the greatest common factor of \\(36\\) and \\(60\\), which is \\(12\\).\n\n(A) and (B) are common factors, but not the greatest one. (D) uses one of the original dimensions instead of finding a shared factor."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q107 (KM3_Q107)",
+      "base_source": "Exam D — Math Q49 (DM49)",
       "base_question": {
-        "question": "For how many positive integers \\(x\\) is \\(\\dfrac{130}{x}\\) an integer?",
+        "question": "Anise has a piece of cloth measuring \\(45\\) inches by \\(75\\) inches. She wants to cut it into squares of equal size, without any cloth left over. What is the **greatest** possible side length, in inches, of one of those squares?",
         "options": {
-          "A": "8",
-          "B": "7",
-          "C": "6",
-          "D": "5"
+          "A": "\\(3\\)",
+          "B": "\\(5\\)",
+          "C": "\\(15\\)",
+          "D": "\\(45\\)"
         },
-        "correct": "A",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "130 = 2 x 5 x 13, so the number of divisors is (1+1)(1+1)(1+1) = 8."
+          "letter": "C",
+          "exhibit_text": "(C) Given that each piece will be a square, the length and width will be the same. The greatest possible length can be determined by finding the greatest common factor of the length and width of the original piece of cloth.\n\nBegin by finding the prime factorization of the length (\\(75\\) in.) and width (\\(45\\) in.).\n\n\\[45 = 3 \\times 3 \\times 5\\]\n\\[75 = 3 \\times 5 \\times 5\\]\n\nThe common factors can be seen as \\(3 \\times 5\\).\n\nThe greatest possible side length, in inches, will be \\(3 \\times 5 = 15\\)."
         }
       },
       "q_number": 19
@@ -601,31 +608,32 @@
       "q_number": 20
     },
     {
-      "id": "P-HE5-M-KM1_Q92",
+      "id": "P-HE5-M-DM18",
       "question_type": "mc",
-      "question": "\\((15+6x)-(4-2x)=\\)",
+      "question": "Which of the following decimals is equivalent to \\(2\\dfrac{1}{3} + 1\\dfrac{5}{9}\\)?",
       "options": {
-        "A": "\\(11-8x\\)",
-        "B": "\\(11+4x\\)",
-        "C": "\\(11+8x\\)",
-        "D": "\\(19+4x\\)"
+        "A": "\\(3.\\overline{2}\\)",
+        "B": "\\(3.\\overline{5}\\)",
+        "C": "\\(3.\\overline{8}\\)",
+        "D": "\\(4.\\overline{8}\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Distribute the negative sign: \\(15+6x-4+2x\\). Combine like terms: \\((15-4) + (6x+2x) = 11+8x\\)."
+        "exhibit_text": "Convert to a common denominator: \\(2\\dfrac{1}{3}=\\dfrac{21}{9}\\) and \\(1\\dfrac{5}{9}=\\dfrac{14}{9}\\). Their sum is \\(\\dfrac{35}{9}=3.\\overline{8}\\).\n\n(A), (B), and (D) come from errors in finding the common denominator or adding the whole numbers."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q92 (KM1_Q92)",
+      "base_source": "Exam D — Math Q18 (DM18)",
       "base_question": {
-        "question": "\\((11+4x)-(2-x)=\\)",
+        "question": "Which of the following decimals is equivalent to \\(1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\)?",
         "options": {
-          "E": "9-5x",
-          "F": "9+3x",
-          "G": "9+5x",
-          "H": "13+3x"
+          "A": "\\(3.\\overline{1}\\)",
+          "B": "\\(3.\\overline{6}\\)",
+          "C": "\\(4.\\overline{1}\\)",
+          "D": "\\(4.\\overline{9}\\)"
         },
-        "correct": "G",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "(11+4x)-(2-x) = 11+4x-2+x = 9+5x."
+          "letter": "C",
+          "exhibit_text": "(C) First, add the mixed numbers. Then, convert the fraction \\(\\dfrac{1}{9}\\) to a decimal.\n\n\\[1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\]\n\\[1\\dfrac{6}{9} + 2\\dfrac{4}{9}\\]\n\\[3 + \\dfrac{10}{9}\\]\n\\[3 + 1\\dfrac{1}{9}\\]\n\\[4\\dfrac{1}{9} = 4.111\\ldots = 4.\\overline{1}\\]"
         }
       },
       "q_number": 21
@@ -721,32 +729,35 @@
       "q_number": 24
     },
     {
-      "id": "P-HE5-M-KM2_Q79",
+      "id": "P-HE5-M-BM36",
       "question_type": "mc",
-      "question": "If \\(k=20\\), what is \\((5k+40)-(3k+20)\\)?",
+      "question": "In the quarter circle above, what is \\(n\\) in terms of \\(m\\)?",
       "options": {
-        "A": "\\(40\\)",
-        "B": "\\(50\\)",
-        "C": "\\(60\\)",
-        "D": "\\(80\\)"
+        "A": "\\(n = m - 2\\)",
+        "B": "\\(n = m + 2\\)",
+        "C": "\\(n = m + 10\\)",
+        "D": "\\(n = m - 10\\)"
       },
-      "correct": "C",
+      "correct": "B",
+      "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:300px; margin: 0 auto; display: block;'><path d='M 40 220 L 280 220 A 240 240 0 0 0 40 -20 Z' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,-20)'/><line x1='40' y1='200' x2='40' y2='30' stroke='#111' stroke-width='1.4'/><line x1='40' y1='200' x2='290' y2='200' stroke='#111' stroke-width='1.4'/><path d='M 40 200 A 200 200 0 0 0 240 0' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,0)'/><line x1='40' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><line x1='170' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><path d='M 170 195 L 175 195 L 175 200' fill='none' stroke='#111' stroke-width='1.2'/><text x='170' y='215' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>m + 6</text><text x='185' y='135' font-family='Georgia,serif' font-style='italic' font-size='16'>n + 4</text></svg>",
       "solution": {
-        "exhibit_text": "Simplify first: \\((5k+40)-(3k+20) = 2k+20\\). Substitute \\(k=20\\): \\(2(20)+20 = 40+20 = 60\\)."
+        "exhibit_text": "Both \\(m+6\\) and \\(n+4\\) are radii of the same quarter circle, so they're equal: \\(n+4=m+6\\), which gives \\(n=m+2\\).\n\n(A) subtracts in the wrong direction. (C) and (D) add or subtract the two constants instead of finding their difference."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q79 (KM2_Q79)",
+      "base_source": "Exam B — Math Q36 (BM36)",
       "base_question": {
-        "question": "If \\(k=15\\), what is \\((4k+30)-(2k+15)\\)?",
+        "question": "In the quarter circle above, what is \\(y\\) in terms of \\(x\\)?",
         "options": {
-          "A": "15",
-          "B": "30",
-          "C": "45",
-          "D": "60"
+          "A": "\\(x - 1\\)",
+          "B": "\\(x + 1\\)",
+          "C": "\\(\\dfrac{x+1}{2}\\)",
+          "D": "\\(\\sqrt{\\dfrac{(x+1)^2}{2}}\\)"
         },
-        "correct": "C",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "k=15: (4k+30)-(2k+15) = 2k+15 = 2(15)+15 = 45."
-        }
+          "letter": "A",
+          "exhibit_text": "(A) Both \\(x + 1\\) and \\(y + 2\\) are radii (each is a radius). So, set them equal to each other and solve for \\(y\\):\n\n\\[y + 2 = x + 1\\]\n\\[y = x - 1\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:300px; margin: 0 auto; display: block;'><path d='M 40 220 L 280 220 A 240 240 0 0 0 40 -20 Z' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,-20)'/><line x1='40' y1='200' x2='40' y2='30' stroke='#111' stroke-width='1.4'/><line x1='40' y1='200' x2='290' y2='200' stroke='#111' stroke-width='1.4'/><path d='M 40 200 A 200 200 0 0 0 240 0' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,0)'/><line x1='40' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><line x1='170' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><path d='M 170 195 L 175 195 L 175 200' fill='none' stroke='#111' stroke-width='1.2'/><text x='170' y='215' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>x + 1</text><text x='185' y='135' font-family='Georgia,serif' font-style='italic' font-size='16'>y + 2</text></svg>"
       },
       "q_number": 25
     }

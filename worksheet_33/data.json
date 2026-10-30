@@ -31,64 +31,67 @@
       "q_number": 1
     },
     {
-      "id": "P-FE4-M-KM1_Q105",
+      "id": "P-FE4-M-FM27",
       "question_type": "mc",
-      "question": "Margo bowled a mean of 95 points per game in each of her first 4 games. If she scores 145 points in her 5th game, what is her mean score for all 5 games?",
+      "question": "A trail mix recipe requires \\(\\dfrac{5}{8}\\) of an ounce of cashews per batch. How many full batches of trail mix can be made using a package containing \\(80\\) ounces of cashews?",
       "options": {
-        "A": "110",
-        "B": "105",
-        "C": "115",
-        "D": "120"
+        "A": "\\(50\\)",
+        "B": "\\(64\\)",
+        "C": "\\(100\\)",
+        "D": "\\(128\\)"
       },
-      "correct": "B",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Total for first 4 games: 4 x 95 = 380. Add 5th game: 380+145=525. New mean over 5 games: 525/5 = 105.\n\n**Why this sounds right:** It's tempting to average 95 and 145 directly ((95+145)/2), but that treats the first 4 games as if they were just one data point instead of four."
+        "exhibit_text": "Divide the total amount by the amount needed per batch: \\(80 \\div \\dfrac{5}{8} = 80 \\times \\dfrac{8}{5} = 128\\) batches.\n\n(A) and (C) come from inverting or misreading the fraction. (B) comes from multiplying \\(80\\times\\frac{5}{8}\\) instead of dividing."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q105 (KM1_Q105)",
+      "base_source": "Exam F — Math Q27 (FM27)",
       "base_question": {
-        "question": "Margo bowled a mean of 110 points per game in each of her first 4 games. If she scores 160 points in her 5th game, what is her mean score for all 5 games?",
+        "question": "A granola recipe requires \\(\\dfrac{3}{5}\\) of an ounce of vanilla extract. How many batches of granola can be made using a package containing 60 ounces of vanilla extract?",
         "options": {
-          "A": "120",
-          "B": "132",
-          "C": "135",
-          "D": "142"
+          "A": "36",
+          "B": "48",
+          "C": "80",
+          "D": "100"
         },
-        "correct": "A",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "4x110=440. 440+160=600. 600/5=120."
+          "letter": "D",
+          "exhibit_text": "To answer this question, you have to figure out how many times \\(\\dfrac{3}{5}\\) goes into 60. Since you're dividing by a number smaller than 1, the result must be more than 60, so eliminate (A) and (B). The equation is \\(60\\div\\dfrac{3}{5}=\\dfrac{60}{1}\\times\\dfrac{5}{3}\\). Canceling will make the multiplication easier: \\(\\dfrac{60}{1}\\times\\dfrac{5}{3}=\\dfrac{20}{1}\\times\\dfrac{5}{1}\\), which equals \\(20\\times5\\), or 100."
         }
       },
       "q_number": 2
     },
     {
-      "id": "P-FE4-M-KM3_Q99",
+      "id": "P-FE4-M-EM45",
       "question_type": "mc",
-      "question": "Andre buys two cedar trees to plant in his back yard. One tree is 3 feet, 10 inches tall and the other is 5 feet, 1.5 inches tall. What is the difference in height, in inches, between the two trees?",
+      "question": "On a number line, points \\(A\\), \\(B\\), \\(C\\), and \\(D\\) lie in that order. \\(\\overline{AB}=2\\tfrac{1}{2}\\), \\(\\overline{AD}=9\\), and \\(\\overline{CD}=3\\tfrac{1}{4}\\). What is the length of \\(\\overline{BC}\\)?",
       "options": {
-        "A": "10.5",
-        "B": "19.5",
-        "C": "15.5",
-        "D": "24.5"
+        "A": "\\(0.75\\)",
+        "B": "\\(3.25\\)",
+        "C": "\\(5.75\\)",
+        "D": "\\(6.5\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Tree 1: 3 ft 10 in = 3x12+10 = 46 inches. Tree 2: 5 ft 1.5 in = 5x12+1.5 = 61.5 inches. Difference: 61.5-46=15.5 inches.\n\n**Why this sounds right:** It's easy to forget to convert the FEET portion of each height into inches before subtracting, and accidentally just subtract the inch portions or feet portions separately."
+        "exhibit_text": "First find \\(\\overline{AC}=\\overline{AD}-\\overline{CD}=9-3.25=5.75\\). Then \\(\\overline{BC}=\\overline{AC}-\\overline{AB}=5.75-2.5=3.25\\).\n\n(D) is \\(\\overline{AD}-\\overline{AB}\\), skipping the \\(CD\\) subtraction. (C) is \\(\\overline{AC}\\) itself, forgetting to subtract \\(AB\\). (A) is \\(\\overline{CD}-\\overline{AB}\\), the wrong pair of segments."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q99 (KM3_Q99)",
+      "q_number": 3,
+      "base_source": "Exam E — Math Q45 (EM45)",
       "base_question": {
-        "question": "Andre buys two cedar trees to plant in his back yard. One tree is 4 feet, 9 inches tall and the other is 5 feet, 6.5 inches tall. What is the difference in height, in inches, between the two trees?",
+        "question": "On the number line above, \\(\\overline{AB}=3\\tfrac{1}{5}\\), \\(\\overline{AD}=8\\tfrac{1}{2}\\), and \\(\\overline{CD}=2\\tfrac{3}{4}\\). What is the position of Point C?",
         "options": {
-          "A": "8.5",
-          "B": "9.5",
-          "C": "10.5",
-          "D": "11.5"
+          "A": "\\(1\\tfrac{4}{5}\\)",
+          "B": "\\(2\\tfrac{11}{20}\\)",
+          "C": "\\(3\\tfrac{3}{10}\\)",
+          "D": "\\(4\\tfrac{1}{4}\\)"
         },
-        "correct": "B",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "4ft9in=57in. 5ft6.5in=66.5in. 66.5-57=9.5."
-        }
-      },
-      "q_number": 3
+          "letter": "A",
+          "exhibit_text": "The total distance from A to D is the sum of the segments \\(\\overline{AB}\\), \\(\\overline{BC}\\), and \\(\\overline{CD}\\): \\(\\overline{AD}=\\overline{AB}+\\overline{BC}+\\overline{CD}\\). Find the middle segment \\(\\overline{BC}\\) by subtracting the known segments (\\(\\overline{AB}\\) and \\(\\overline{CD}\\)) from the total length (\\(\\overline{AD}\\)): \\(8\\tfrac{1}{2}=3\\tfrac{1}{5}+\\overline{BC}+2\\tfrac{3}{4}\\).\n\nConvert all fractions to a common denominator (20):\n\n\\[8\\tfrac{10}{20}=3\\tfrac{4}{20}+\\overline{BC}+2\\tfrac{15}{20}\\]\n\\[8\\tfrac{10}{20}-3\\tfrac{4}{20}-2\\tfrac{15}{20}=\\overline{BC}\\]\n\nTo simplify, group the whole numbers together and the fractions together:\n\n\\[(8-3-2)+\\left(\\tfrac{10}{20}-\\tfrac{4}{20}-\\tfrac{15}{20}\\right)=\\overline{BC}\\]\n\\[3+\\left(-\\tfrac{9}{20}\\right)=\\overline{BC}\\]\n\\[\\tfrac{60}{20}-\\tfrac{9}{20}=\\overline{BC}\\]\n\\[\\tfrac{51}{20}=\\overline{BC}\\]\n\nSince Point C is located to the right of Point B, add the length of segment \\(\\overline{BC}\\) to the position of B.\n\n\\[\\text{Position } C=-\\tfrac{3}{4}+\\tfrac{51}{20}\\]\n\\[=-\\tfrac{15}{20}+\\tfrac{51}{20}\\]\n\\[=\\tfrac{36}{20}\\]\n\\[=\\tfrac{9}{5}\\]\n\\[=1\\tfrac{4}{5}\\]"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 280 60\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12\" y1=\"30\" x2=\"268\" y2=\"30\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M10,26 L4,30 L10,34 Z\" fill=\"#222\"/><path d=\"M270,26 L276,30 L270,34 Z\" fill=\"#222\"/><circle cx=\"20\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"20\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">A</text><circle cx=\"90\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"90\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">B</text><text x=\"90\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">-3/4</text><circle cx=\"180\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"180\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">C</text><circle cx=\"250\" cy=\"30\" r=\"3.5\" fill=\"#222\"/><text x=\"250\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">D</text><line x1=\"130\" y1=\"26\" x2=\"130\" y2=\"34\" stroke=\"#222\"/><text x=\"130\" y=\"52\" font-size=\"11\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\">0</text></svg>"
+      }
     },
     {
       "id": "P-FE4-M-FM37",
@@ -121,64 +124,70 @@
       "q_number": 4
     },
     {
-      "id": "P-FE4-M-KM3_Q74",
+      "id": "P-FE4-M-GM14",
       "question_type": "mc",
-      "question": "Mrs. Whitby has a pencil box containing 9 blue pencils, 14 green pencils, and 11 orange pencils. If she removes one pencil at random, what is the probability that it will **not** be green?",
+      "question": "Using the table of equivalent currencies above, how many euros must be exchanged for \\(60\\) Swiss francs and \\(20\\) U.S. dollars?",
       "options": {
-        "E": "\\(\\dfrac{10}{17}\\)",
-        "F": "\\(\\dfrac{14}{34}\\)",
-        "G": "\\(\\dfrac{1}{2}\\)",
-        "H": "\\(\\dfrac{2}{5}\\)"
+        "A": "\\(38\\)",
+        "B": "\\(180\\)",
+        "C": "\\(200\\)",
+        "D": "\\(198\\)"
       },
-      "correct": "E",
+      "correct": "D",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES (MARCH 2024)</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Euro</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.9</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>British Pound</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.7</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Swiss Franc</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.3</td></tr></tbody></table>",
       "solution": {
-        "exhibit_text": "Total pencils: 9+14+11=34. Not green: 34-14=20. P(not green) = 20/34 = 10/17.\n\n**Why this sounds right:** Option F uses the probability of green itself (14/34) — a tempting trap if you forget the question asks for the opposite (NOT green), which is 1 minus that probability."
+        "exhibit_text": "Euro and Swiss franc share the same base: \\(0.9\\) euro \\(=0.3\\) franc, so \\(1\\) franc \\(=3\\) euros. For \\(60\\) francs: \\(60\\times3=180\\) euros.\n\nEuro and USD: \\(0.9\\) euro \\(=1\\) USD, so for \\(20\\) USD: \\(20\\times0.9=18\\) euros.\n\nTotal: \\(180+18=198\\) euros.\n\n(B) forgets to convert the dollars. (C) adds the raw \\(20\\) dollars onto \\(180\\) instead of converting first. (A) uses the inverted ratio ( francs \\(\\div 3\\))."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q74 (KM3_Q74)",
+      "q_number": 5,
+      "base_source": "Exam G — Math Q14 (GM14)",
       "base_question": {
-        "question": "Mrs. Whitby has a pencil box containing 7 blue pencils, 10 green pencils, and 8 orange pencils. If she removes one pencil at random, what is the probability that it will **not** be green?",
+        "question": "Using the table of equivalent currencies above, how many euros must be exchanged for \\(43\\) dinars and \\(10\\) U.S. dollars?",
         "options": {
-          "E": "\\(\\dfrac{2}{3}\\)",
-          "F": "\\(\\dfrac{3}{5}\\)",
-          "G": "\\(\\dfrac{1}{2}\\)",
-          "H": "\\(\\dfrac{2}{5}\\)"
+          "A": "\\(138\\)",
+          "B": "\\(129\\)",
+          "C": "\\(53\\)",
+          "D": "\\(22.9\\)"
         },
-        "correct": "F",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "Total=25. Not green=15. 15/25=3/5."
-        }
-      },
-      "q_number": 5
+          "letter": "A",
+          "exhibit_text": "Proportions are the key to conversion questions like this. First, set up a proportion of euros to dinars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{0.3}{43}\\). You could cross multiply to get \\(0.3e=38.7\\) and solve for \\(e\\). However, it is faster to notice that \\(0.9\\div3\\) would result in \\(0.3\\), so \\(e\\div3\\) would have to result in \\(43\\). So \\(129\\) euros are needed to exchange for \\(43\\) dinars.\n\nDon't forget that you also need to convert dollars! Set up a proportion of euros to dollars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{1}{10}\\). Cross multiplying here is fastest, resulting in \\(e=9\\). Add \\(129+9=138\\) euros."
+        },
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES (MAY 2019)</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Euro</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.9</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Botswana Pula</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>10.75</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Kuwaiti Dinar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.3</td></tr></tbody></table>"
+      }
     },
     {
-      "id": "P-FE4-M-KM2_Q105",
+      "id": "P-FE4-M-CM10",
       "question_type": "mc",
-      "question": "The speed 8 feet per second is equivalent to how many meters per hour? (Use the approximation 1 foot = 0.3 meter.)",
+      "question": "In the figure above, \\(n \\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
       "options": {
-        "A": "8640",
-        "B": "144.0",
-        "C": "2.4",
-        "D": "86400"
+        "A": "\\(32\\)",
+        "B": "\\(116\\)",
+        "C": "\\(122\\)",
+        "D": "\\(148\\)"
       },
-      "correct": "A",
+      "correct": "D",
+      "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='355' y='140' font-family='Georgia,serif' font-size='16'>58°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>",
       "solution": {
-        "exhibit_text": "8 ft/sec x 0.3 m/ft = 2.4 m/sec. Convert to per hour: 2.4 x 3600 sec/hr = 8640 m/hr.\n\n**Why this sounds right:** It's easy to stop after converting feet to meters (getting 2.4 m/sec) and forget the final step of scaling from \"per second\" up to \"per hour\" (a factor of 3600)."
+        "exhibit_text": "The small triangle formed by line \\(p\\), line \\(m\\), and the perpendicular segment contains a \\(58°\\) angle, a right angle (\\(90°\\)), and a missing angle \\(x\\): \\(180=58+90+x\\), so \\(x=32°\\).\n\nLine \\(m\\) is straight, so the angle adjacent to \\(x\\) is \\(180-32=148°\\). Since \\(n\\parallel p\\), that \\(148°\\) angle and \\(r\\) are corresponding angles, so \\(r=148\\).\n\n(A) is just \\(x\\) itself, not its supplement. (B) doubles the given angle. (C) is \\(180-58\\), skipping the triangle step entirely."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q105 (KM2_Q105)",
+      "q_number": 6,
+      "base_source": "Exam C — Math Q10 (CM10)",
       "base_question": {
-        "question": "The speed 5 feet per second is equivalent to how many meters per hour? (Use the approximation 1 foot = 0.3 meter.)",
+        "question": "In the figure above, \\(n \\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
         "options": {
-          "A": "1.5",
-          "B": "16.67",
-          "C": "5,400",
-          "D": "60,000"
+          "A": "\\(17\\)",
+          "B": "\\(117\\)",
+          "C": "\\(163\\)",
+          "D": "\\(173\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "5 x 0.3 = 1.5 m/sec. 1.5 x 3600 = 5400 m/hr."
-        }
-      },
-      "q_number": 6
+          "letter": "C",
+          "exhibit_text": "(C) The triangle formed by line \\(p\\), line \\(m\\), and the line segment connecting the two contains a \\(73°\\) angle, a right angle (\\(90°\\)), and a missing angle measuring \\(x°\\). The sum of the interior angles of a triangle is \\(180°\\), so begin by finding the value of \\(x\\):\n\n\\[180° = 73° + 90° + x\\]\n\\[180° = 163° + x\\]\n\\[17° = x\\]\n\nLine \\(m\\) is a straight line, so it has a measure of \\(180°\\). The \\(17°\\) angle from the triangle and the adjacent angle outside the triangle are supplementary, so they have a sum of \\(180°\\). Let \\(s\\) represent the measure of the adjacent angle outside the triangle. The value of \\(s\\) can be determined by subtracting:\n\n\\[180° - 17° = s\\]\n\\[163° = s\\]\n\nSince \\(n \\parallel p\\), angle \\(s\\) and angle \\(r\\) are corresponding angles, so \\(r = 163°\\)."
+        },
+        "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='355' y='140' font-family='Georgia,serif' font-size='16'>73°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>"
+      }
     },
     {
       "id": "P-FE4-M-EM19",
@@ -211,34 +220,33 @@
       "q_number": 7
     },
     {
-      "id": "P-FE4-M-KM3_Q73",
+      "id": "P-FE4-M-AM43",
       "question_type": "mc",
-      "question": "If a certain train fare costs \\($6.00\\) for the first 12 miles of service, \\($0.25\\) per mile for the next 38 miles, and \\($0.15\\) per mile for each additional mile, what would the train fare be to travel a total distance of 90 miles?",
+      "question": "What is the solution set of the inequality \\(4x-7\\ge9\\)?",
       "options": {
-        "A": "$16.5",
-        "B": "$26.5",
-        "C": "$21.5",
-        "D": "$31.5"
+        "A": "\\(x\\ge4\\)",
+        "B": "\\(x\\le4\\)",
+        "C": "\\(x\\ge-4\\)",
+        "D": "\\(x\\le-4\\)"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "First 12 miles: $6. Next 38 miles: 38 x $0.25 = $9.5. Remaining miles: 90-12-38=40, at $0.15/mile = $6.0. Total: $6+$9.5+$6.0 = $21.5.\n\n**Why this sounds right:** It's tempting to apply a single rate to all 90 miles instead of breaking the trip into the three separate tiers, each with its own rate."
+        "exhibit_text": "Add \\(7\\) to both sides: \\(4x\\ge16\\). Divide by \\(4\\): \\(x\\ge4\\).\n\n(B) flips the inequality direction without a reason to (no negative multiply/divide occurred). (C) and (D) come from sign errors when isolating \\(x\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q73 (KM3_Q73)",
+      "q_number": 8,
+      "base_source": "Exam A — Math Q43 (AM43)",
       "base_question": {
-        "question": "If a certain train fare costs $5.00 for the first 10 miles of service, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile, what would the train fare be to travel a total distance of 100 miles?",
-        "options": {
-          "A": "$15.00",
-          "B": "$17.50",
-          "C": "$20.00",
-          "D": "$25.00"
+        "question": "Graph the solution set for the inequality \\(-3 \\le 2x - 5\\).\n\nSelect a ray. Then click on the number line to position the endpoint.",
+        "options": null,
+        "correct": {
+          "rayType": "CL",
+          "position": 1
         },
-        "correct": "C",
         "solution": {
-          "exhibit_text": "5 + 40(0.25) + 50(0.10) = 5+10+5=20."
+          "letter": "D",
+          "exhibit_text": "Solution:\n\nSolve the inequality for \\(x\\), then graph the solution on the number line:\n\n\\[-3 \\le 2x - 5\\]\n\nAdd \\(5\\) to both sides of the inequality: \\(2 \\le 2x\\)\n\nDivide both sides by \\(2\\): \\(1 \\le x\\)\n\nRewrite the inequality with \\(x\\) on the left side: \\(x \\ge 1\\)\n\nThe graph of \\(x \\ge 1\\) is a closed ray (solid point) beginning at \\(1\\) and extending to the right on the number line."
         }
-      },
-      "q_number": 8
+      }
     },
     {
       "id": "P-FE4-M-DM10",
@@ -331,34 +339,35 @@
       "q_number": 11
     },
     {
-      "id": "P-FE4-M-KM1_Q98",
+      "id": "P-FE4-M-BM20",
       "question_type": "mc",
-      "question": "Larissa spends 3 times as many hours reading as Tom does. Nela spends half as many hours reading as Tom does. If all three of them read a combined total of 27 hours, how many hours did Tom read?",
+      "question": "Marisol bought \\(2\\tfrac{1}{4}\\) yards of cloth at $\\(12.00\\) per yard. If there was a \\(7\\%\\) sales tax, what was the total cost of the cloth?",
       "options": {
-        "E": "4",
-        "F": "6",
-        "G": "9",
-        "H": "12"
+        "A": "$\\(27.00\\)",
+        "B": "$\\(28.89\\)",
+        "C": "$\\(29.16\\)",
+        "D": "$\\(32.10\\)"
       },
-      "correct": "F",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Let Tom = T. Larissa = 3T, Nela = 0.5T. Total: 3T + T + 0.5T = 4.5T = 27. T = 6.\n\n**Why this sounds right:** It's tempting to divide 27 by 3 (the number of people) instead of by the sum of their reading-hour MULTIPLIERS (3+1+0.5=4.5), since the three people don't read equal amounts."
+        "exhibit_text": "Cost before tax: \\(2\\tfrac{1}{4}\\times12=27.00\\). Tax: \\(27.00\\times0.07=1.89\\). Total: \\(27.00+1.89=28.89\\).\n\n(A) forgets the tax entirely. (C) mistakenly applies an \\(8\\%\\) tax rate. (D) uses \\(2.5\\) yards instead of \\(2\\tfrac{1}{4}\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q98 (KM1_Q98)",
+      "q_number": 12,
+      "base_source": "Exam B — Math Q20 (BM20)",
       "base_question": {
-        "question": "Larissa spends 3 times as many hours reading as Tom does. Nela spends half as many hours reading as Tom does. If all three of them read a combined total of 18 hours, how many hours did Tom read?",
+        "question": "Bryana bought \\(1\\tfrac{3}{4}\\) yards of cloth at $\\(8.00\\) per yard. If there was an \\(8\\%\\) sales tax, what was the total cost of the cloth?",
         "options": {
-          "E": "3",
-          "F": "4",
-          "G": "6",
-          "H": "8"
+          "A": "$\\(12.96\\)",
+          "B": "$\\(14.08\\)",
+          "C": "$\\(15.12\\)",
+          "D": "$\\(16.08\\)"
         },
-        "correct": "F",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "T(3+1+0.5)=18 --> 4.5T=18 --> T=4."
+          "letter": "C",
+          "exhibit_text": "(C) Calculate the cost of the cloth before tax:\n\n\\[1\\tfrac{3}{4} \\times 8 = \\dfrac{7}{4} \\times 8 = 14\\]\n\nFind the tax for $\\(14\\) worth of cloth:\n\n\\[14 \\times 8\\% = 14 \\times \\dfrac{8}{100} = 1.12\\]\n\nAdd the cost of the cloth and the tax:\n\n\\[14 + 1.12 = 15.12\\]"
         }
-      },
-      "q_number": 12
+      }
     },
     {
       "id": "P-FE4-M-CM19",
@@ -481,34 +490,35 @@
       "q_number": 16
     },
     {
-      "id": "P-FE4-M-KM3_Q86",
+      "id": "P-FE4-M-CM39",
       "question_type": "mc",
-      "question": "A recipe calls for \\(\\dfrac{1}{8}\\) teaspoon of oregano and \\(1\\dfrac{1}{2}\\) teaspoons of pepper. What is the ratio of oregano to pepper in this recipe?",
+      "question": "A shipment contains \\(240\\) small boxes of electronics. In a random sample of \\(30\\) of these boxes, \\(9\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
       "options": {
-        "E": "1:12",
-        "F": "1:16",
-        "G": "1:4",
-        "H": "4:1"
+        "A": "\\(63\\)",
+        "B": "\\(126\\)",
+        "C": "\\(147\\)",
+        "D": "\\(168\\)"
       },
-      "correct": "E",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Oregano = 1/8 tsp. Pepper = 1 1/2 = 3/2 tsp. Ratio = (1/8):(3/2). Multiply both by 8: 1 : 12. So the ratio is 1:12.\n\n**Why this sounds right:** It's easy to forget to convert the mixed number (1 1/2) into an improper fraction (3/2) before setting up the ratio, which throws off the final simplified comparison."
+        "exhibit_text": "In the sample, \\(30-9=21\\) boxes were undamaged, so the undamaged proportion is \\(\\dfrac{21}{30}=0.7\\). The shipment outside the sample has \\(240-30=210\\) boxes. Predicted undamaged: \\(0.7\\times210=147\\).\n\n(B) applies the proportion to the full \\(240\\) instead of the remaining \\(210\\). (D) uses the damaged proportion by mistake. (A) applies the proportion to the sample size instead of the remaining boxes."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q86 (KM3_Q86)",
+      "q_number": 17,
+      "base_source": "Exam C — Math Q39 (CM39)",
       "base_question": {
-        "question": "A recipe calls for \\(\\dfrac{1}{6}\\) teaspoon of oregano and \\(1\\dfrac{1}{4}\\) teaspoons of pepper. What is the ratio of oregano to pepper in this recipe?",
+        "question": "A shipment contains \\(170\\) small boxes of medical supplies. In a random sample of \\(20\\) of these boxes, \\(8\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
         "options": {
-          "E": "1:12",
-          "F": "2:15",
-          "G": "1:3",
-          "H": "2:3"
+          "A": "\\(60\\)",
+          "B": "\\(68\\)",
+          "C": "\\(90\\)",
+          "D": "\\(102\\)"
         },
-        "correct": "F",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "(1/6):(5/4). Multiply by 12: 2:15."
+          "letter": "C",
+          "exhibit_text": "(C) Determine the fraction of undamaged boxes in the sample, given \\(8\\) of the \\(20\\) boxes are damaged.\n\n\\[\\dfrac{20 - 8}{20} = \\dfrac{12}{20} = \\dfrac{3}{5} \\text{ or } 0.6\\]\n\nSubtract the number of boxes in the sample from \\(170\\).\n\n\\[170 - 20 = 150\\]\n\nBasing the prediction of undamaged boxes on the sample, multiply the number of boxes **not** in the sample by the fraction of undamaged boxes in the sample.\n\n\\[150 \\times 0.6 = 90\\]"
         }
-      },
-      "q_number": 17
+      }
     },
     {
       "id": "P-FE4-M-FM13",
@@ -541,34 +551,35 @@
       "q_number": 18
     },
     {
-      "id": "P-FE4-M-KM3_Q64",
+      "id": "P-FE4-M-BM09",
       "question_type": "mc",
-      "question": "A shoe store stocks children's shoes and adult shoes in a ratio of 3:8. How many pairs of adult shoes are stocked if 90 pairs of children's shoes are stocked?",
+      "question": "To make raffle tickets, Oren could buy a package of cardstock for $\\(14.40\\), or he could buy \\(x\\) individual sheets of the same cardstock for $\\(0.20\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
       "options": {
-        "E": "180",
-        "F": "220",
-        "G": "240",
-        "H": "270"
+        "A": "\\(68\\)",
+        "B": "\\(70\\)",
+        "C": "\\(71\\)",
+        "D": "\\(72\\)"
       },
-      "correct": "G",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Ratio 3:8 means adult = ((8/3) x children). 90 / 3 = 30 (one \"unit\"). Adult = 30 x 8 = 240.\n\n**Why this sounds right:** It's easy to apply the ratio backwards (treating 90 as if it corresponded to the adult side of the ratio instead of the children's side), which flips which number you multiply or divide by."
+        "exhibit_text": "Set up the inequality: \\(0.20x<14.40\\), so \\(x<72\\). The largest whole number less than \\(72\\) is \\(71\\).\n\n(D) is the boundary value itself, where the costs would be equal, not less. (A) and (B) are the result of rounding or arithmetic slips."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q64 (KM3_Q64)",
+      "q_number": 19,
+      "base_source": "Exam B — Math Q9 (BM09)",
       "base_question": {
-        "question": "A shoe store stocks children's shoes and adult shoes in a ratio of 5:7. How many pairs of adult shoes are stocked if 140 pairs of children's shoes are stocked?",
+        "question": "To make party invitations, Macie could buy a package of paper for $\\(10.50\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.15\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
         "options": {
-          "E": "100",
-          "F": "164",
-          "G": "196",
-          "H": "208"
+          "A": "\\(60\\)",
+          "B": "\\(65\\)",
+          "C": "\\(69\\)",
+          "D": "\\(70\\)"
         },
-        "correct": "G",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "140/5=28 (one unit). 28x7=196."
+          "letter": "C",
+          "exhibit_text": "(C) Set up an inequality to compare the costs:\n\n\\[0.15x \\le 10.50\\]\n\\[x \\le 70\\]\n\nTherefore, \\(70\\) individual sheets would cost $\\(10.50\\), so \\(69\\) is the greatest number of individual sheets Macie can buy that would be **less** expensive than the package."
         }
-      },
-      "q_number": 19
+      }
     },
     {
       "id": "P-FE4-M-GM20",
@@ -601,34 +612,35 @@
       "q_number": 20
     },
     {
-      "id": "P-FE4-M-KM3_Q78",
+      "id": "P-FE4-M-AM30",
       "question_type": "mc",
-      "question": "If \\(3x+3x+20=3x+3x+3x+9\\), then what is the value of \\(x\\)?",
+      "question": "For a craft project, Marco can assemble \\(6\\) kits in \\(15\\) minutes, working at a constant rate. Priya can assemble \\(4\\) kits in \\(8\\) minutes, working at her own constant rate. What is the total number of kits the two of them can assemble in one hour?",
       "options": {
-        "E": "5/3",
-        "F": "11/3",
-        "G": "17/3",
-        "H": "26/3"
+        "A": "\\(45\\)",
+        "B": "\\(50\\)",
+        "C": "\\(54\\)",
+        "D": "\\(60\\)"
       },
-      "correct": "F",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Left side: 6x+20. Right side: 9x+9. 6x+20=9x+9 --> 20-9=9x-6x --> 11=3x --> x=11/3.\n\n**Why this sounds right:** It's easy to miscount how many x-terms are on each side (two on the left, three on the right) when they're written out individually instead of combined, leading to the wrong coefficient."
+        "exhibit_text": "Marco's rate: \\(6\\div15=0.4\\) kits/min. Priya's rate: \\(4\\div8=0.5\\) kits/min. Combined: \\(0.9\\) kits/min. In \\(60\\) minutes: \\(0.9\\times60=54\\) kits.\n\n(D) rounds the combined rate up to \\(1\\)/min. (A) and (B) come from using only one person's rate scaled incorrectly."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q78 (KM3_Q78)",
+      "q_number": 21,
+      "base_source": "Exam A — Math Q30 (AM30)",
       "base_question": {
-        "question": "If \\(2x+2x+14=2x+2x+2x+6\\), then what is the value of \\(x\\)?",
+        "question": "For a presentation, Deion can create \\(5\\) slides in \\(20\\) minutes, working at a constant rate. Kyra can create \\(3\\) slides in \\(10\\) minutes, working at her own constant rate. What is the total number of slides the two of them can create in one hour?",
         "options": {
-          "E": "3",
-          "F": "4",
-          "G": "5",
-          "H": "7"
+          "A": "\\(16\\)",
+          "B": "\\(30\\)",
+          "C": "\\(33\\)",
+          "D": "\\(55\\)"
         },
-        "correct": "F",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "4x+14=6x+6 --> 8=2x --> x=4."
+          "letter": "C",
+          "exhibit_text": "(C) Set up proportions to figure out how many slides Deion and Kyra can create in \\(1\\) hour:\n\n**Deion:**\n\\[\\dfrac{5}{20} = \\dfrac{x}{60}\\]\n\\[20x = 300\\]\n\\[x = 15\\]\n\nDeion can create \\(15\\) slides in \\(1\\) hour.\n\n**Kyra:**\n\\[\\dfrac{3}{10} = \\dfrac{x}{60}\\]\n\\[10x = 180\\]\n\\[x = 18\\]\n\nKyra can create \\(18\\) slides in \\(1\\) hour.\n\nTotal: \\(15 + 18 = 33\\) slides."
         }
-      },
-      "q_number": 21
+      }
     },
     {
       "id": "P-FE4-M-FM29",
@@ -661,64 +673,65 @@
       "q_number": 22
     },
     {
-      "id": "P-FE4-M-KM3_Q79",
+      "id": "P-FE4-M-EM30",
       "question_type": "mc",
-      "question": "Darias bought 6 school binders that cost \\($9.00\\) per binder. If a back-to-school discount of 25% was applied to his purchase, and then a 8% sales tax was added, what was the total cost of the binders?",
+      "question": "What is the smallest factor of \\(143\\), other than \\(1\\)?",
       "options": {
-        "A": "$40.5",
-        "B": "$43.74",
-        "C": "$58.32",
-        "D": "$54.0"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Subtotal: 6 x $9.00 = $54.00. After 25% discount: $54.00 x 0.75 = $40.50. After 8% tax: $40.50 x 1.08 = $43.74.\n\n**Why this sounds right:** Option A stops after applying the discount and forgets to add the sales tax afterward — both steps have to be applied in order, discount first, then tax on the discounted price."
-      },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q79 (KM3_Q79)",
-      "base_question": {
-        "question": "Darias bought 5 school binders that cost $8.00 per binder. If a back-to-school discount of 40% was applied to his purchase, and then a 6% sales tax was added, what was the total cost of the binders?",
-        "options": {
-          "A": "$17.12",
-          "B": "$25.44",
-          "C": "$26.40",
-          "D": "$30.40"
-        },
-        "correct": "A",
-        "solution": {
-          "exhibit_text": "5x8=40. 40x0.6=24. 24x1.06=25.44... (official answer A=$17.12 reflects the exact DOE-key value)."
-        }
-      },
-      "q_number": 23
-    },
-    {
-      "id": "P-FE4-M-KM1_Q84",
-      "question_type": "mc",
-      "question": "David is now 3 years more than twice the age of Henry. If Henry will be 21 in 4 years, how old was David 5 years ago?",
-      "options": {
-        "A": "22",
-        "B": "27",
-        "C": "32",
-        "D": "37"
+        "A": "\\(3\\)",
+        "B": "\\(7\\)",
+        "C": "\\(11\\)",
+        "D": "\\(13\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Henry now: 21 - 4 = 17. David now: 2 x 17 + 3 = 37. David 5 years ago: 37 - 5 = 32.\n\n**Why this sounds right:** Option C gives David's CURRENT age, not his age 5 years ago — it's easy to solve for David's age now and forget the final step the question actually asks for (his age in the past)."
+        "exhibit_text": "\\(143=11\\times13\\). Checking small numbers, \\(143\\) is not divisible by \\(2,3,5,\\) or \\(7\\), but it is divisible by \\(11\\). So the smallest factor other than \\(1\\) is \\(11\\).\n\n(D) is the **other** factor of \\(143\\), the larger one. (A) and (B) are not actually factors of \\(143\\) at all."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q84 (KM1_Q84)",
+      "q_number": 23,
+      "base_source": "Exam E — Math Q30 (EM30)",
       "base_question": {
-        "question": "David is now 4 years more than twice the age of Henry. If Henry will be 18 in 3 years, how old was David 2 years ago?",
+        "question": "Which of the following numbers has factors that include the smallest factor (other than 1) of 119?\nSelect the **two** correct answers.",
         "options": {
-          "E": "13",
-          "F": "15",
-          "G": "32",
-          "H": "34"
+          "A": "19",
+          "B": "27",
+          "C": "35",
+          "D": "40",
+          "E": "63"
         },
-        "correct": "G",
+        "correct": [
+          "C",
+          "E"
+        ],
         "solution": {
-          "exhibit_text": "Henry now: 18-3=15. David now: 2x15+4=34. David 2 years ago: 34-2=32."
+          "letter": "C, E",
+          "exhibit_text": "Begin by listing the factors of 119: 1, 7, 17, and 119. The smallest factor (other than 1) is 7. Of the options listed (19, 27, 35, 40, and 63), only 35 \\((5\\times7)\\) and 63 \\((9\\times7)\\) have a factor of 7."
         }
+      }
+    },
+    {
+      "id": "P-FE4-M-FM48",
+      "question_type": "mc",
+      "question": "A rectangular concrete slab is \\(15\\) feet long, \\(10\\) feet wide, and \\(6\\) inches thick. What is the volume of the slab, in cubic feet?",
+      "options": {
+        "A": "\\(37.5\\)",
+        "B": "\\(75\\)",
+        "C": "\\(150\\)",
+        "D": "\\(900\\)"
       },
-      "q_number": 24
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Convert thickness to feet: \\(6\\) inches \\(=0.5\\) feet. Volume \\(=15\\times10\\times0.5=75\\) cubic feet.\n\n(D) forgets to convert the \\(6\\) inches to feet. (C) and (A) come from doubling or halving the correct answer by mistake."
+      },
+      "q_number": 24,
+      "base_source": "Exam F — Math Q48 (FM48)",
+      "base_question": {
+        "question": "A rectangular concrete patio is 20 feet long, 12 feet wide, and 4 inches thick. What is the volume, in cubic feet, of the concrete?",
+        "options": null,
+        "correct": null,
+        "solution": {
+          "letter": "80",
+          "exhibit_text": "First convert 4 inches to \\(\\tfrac{1}{3}\\) foot. Then, multiply the length times the width times the depth to calculate the volume, in cubic feet:\n\n\\[20\\times12\\times\\dfrac{1}{3}=20\\times4=80\\]"
+        }
+      }
     },
     {
       "id": "P-FE4-M-GM13",
@@ -751,34 +764,35 @@
       "q_number": 25
     },
     {
-      "id": "P-FE4-M-KM1_Q104",
+      "id": "P-FE4-M-AM36",
       "question_type": "mc",
-      "question": "A mixed box of frozen yogurt bars contains 12 strawberry bars. The probability of choosing a strawberry bar at random is 3/8. How many bars in the box are NOT strawberry?",
+      "question": "If \\(5n\\) is a positive even number, how many **odd** numbers are in the range from \\(5n\\) up to and including \\(5n+9\\)?",
       "options": {
-        "A": "20",
-        "B": "16",
-        "C": "32",
-        "D": "40"
+        "A": "\\(4\\)",
+        "B": "\\(5\\)",
+        "C": "\\(6\\)",
+        "D": "\\(10\\)"
       },
-      "correct": "A",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "P(strawberry) = straw/total = 3/8, and straw=12, so total = 12 / (3/8) = 32. Not strawberry = 32 - 12 = 20.\n\n**Why this sounds right:** Option C gives the TOTAL number of bars, not the number that are NOT strawberry — it's easy to solve for the total and forget the final subtraction step the question actually asks for."
+        "exhibit_text": "The range \\(5n, 5n+1, \\dots, 5n+9\\) contains \\(10\\) consecutive integers starting at an even number. Consecutive integers alternate even/odd, so exactly half are odd: \\(5\\).\n\n(D) counts every number in the range instead of just the odd ones. (A) and (C) come from miscounting the endpoints."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q104 (KM1_Q104)",
+      "q_number": 26,
+      "base_source": "Exam A — Math Q36 (AM36)",
       "base_question": {
-        "question": "A mixed box of frozen yogurt bars contains 8 strawberry bars. The probability of choosing a strawberry bar at random is 2/5. How many bars in the box are NOT strawberry?",
+        "question": "If \\(3n\\) is a positive even number, how many **odd** numbers are in the range from \\(3n\\) up to and including \\(3n + 5\\)?",
         "options": {
-          "E": "12",
-          "F": "16",
-          "G": "20",
-          "H": "32"
+          "A": "\\(2\\)",
+          "B": "\\(3\\)",
+          "C": "\\(4\\)",
+          "D": "\\(5\\)"
         },
-        "correct": "E",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "8/(2/5)=20 total bars. 20-8=12 not strawberry."
+          "letter": "B",
+          "exhibit_text": "(B) Since \\(3n\\) is even, then \\(3n + 1\\) must be odd. If \\(3n + 1\\) is odd, then \\(3n + 3\\) and \\(3n + 5\\) are also odd. So there are a total of \\(3\\) numbers in this range that are odd."
         }
-      },
-      "q_number": 26
+      }
     },
     {
       "id": "P-FE4-M-CM33",
@@ -811,34 +825,30 @@
       "q_number": 27
     },
     {
-      "id": "P-FE4-M-KM2_Q108",
+      "id": "P-FE4-M-GM30",
       "question_type": "mc",
-      "question": "What is \\(\\dfrac{\\ell m}{\\ell p}+\\ell\\) given that \\(\\ell=18\\), \\(m=2\\ell+2\\), and \\(p=\\ell-10\\)?",
+      "question": "The sum of two consecutive odd integers is \\(32\\). If the larger integer is multiplied by \\(3\\) and the smaller integer is divided by \\(3\\), what is the **difference** of the two resulting values (larger result minus smaller result)?",
       "options": {
-        "E": "21.75",
-        "F": "22.75",
-        "G": "684",
-        "H": "144"
+        "A": "\\(6\\)",
+        "B": "\\(36\\)",
+        "C": "\\(46\\)",
+        "D": "\\(56\\)"
       },
-      "correct": "F",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "m = 2(18)+2 = 38. p = 18-10 = 8. The expression simplifies: (ell x m)/(ell x p) + ell = m/p + ell = 38/8 + 18 = 4.75 + 18 = 22.75.\n\n**Why this sounds right:** The ell in the numerator and denominator of the first term cancels out (since it's ell times m, over ell times p), leaving just m/p — it's easy to miss that cancellation and try to work with the much bigger ell x m and ell x p values instead."
+        "exhibit_text": "The two consecutive odd integers summing to \\(32\\) are \\(15\\) and \\(17\\). The larger (\\(17\\)) times \\(3\\) is \\(51\\). The smaller (\\(15\\)) divided by \\(3\\) is \\(5\\). The difference: \\(51-5=46\\).\n\n(D) adds the two results instead of subtracting (\\(51+5\\)). (A) is just the division result. (B) swaps which integer gets multiplied vs. divided."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q108 (KM2_Q108)",
+      "q_number": 28,
+      "base_source": "Exam G — Math Q30 (GM30)",
       "base_question": {
-        "question": "What is \\(\\dfrac{\\ell m}{\\ell p}+\\ell\\) given that \\(\\ell=24\\), \\(m=2\\ell+2\\), and \\(p=\\ell-14\\)?",
-        "options": {
-          "E": "5.1",
-          "F": "29",
-          "G": "240",
-          "H": "1,200"
-        },
-        "correct": "F",
+        "question": "The sum of two consecutive odd integers is \\(44\\). If the larger integer is multiplied by \\(3\\) and the smaller integer is divided by \\(3\\), what is the **difference** of the two resulting integers?",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "m=50, p=10. (24x50)/(24x10)+24 = 50/10+24=5+24=29."
+          "letter": "62",
+          "exhibit_text": "Because the integers are unknown, let \\(x\\) be the smaller integer and \\(x+2\\) be the larger integer. Their sum can then be represented as \\(x+(x+2)=44\\). Solve for \\(x\\):\n\n\\[x+(x+2)=44\\]\n\\[2x+2=44\\]\n\\[2x=42\\]\n\\[x=21\\]\n\nIf the smaller integer is \\(21\\), then the larger integer must be \\(23\\). Next, transform the integers as the problem instructs: multiply the larger integer by \\(3\\) to get \\(69\\) and divide the smaller integer by \\(3\\) to get \\(7\\). Finally, the question asks for the difference, so subtract \\(69-7=62\\)."
         }
-      },
-      "q_number": 28
+      }
     },
     {
       "id": "P-FE4-M-CM50",
@@ -931,64 +941,61 @@
       "q_number": 31
     },
     {
-      "id": "P-FE4-M-KM3_Q96",
+      "id": "P-FE4-M-DM36",
       "question_type": "mc",
-      "question": "An automobile dealership has only cars, trucks, SUVs, and vans on its lot, of which 203 are vans. The total vehicle-to-van ratio for the entire lot is 7:1. What is the total number of cars, trucks, and SUVs on the lot?",
+      "question": "Nadia has set a goal to read a total of \\(400\\) pages of a textbook. The table shows the book page numbers for the reading she did during three days.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>DAILY READING LOG</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Pages Read</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 20–54, inclusive</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 70–99, inclusive</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 120–154, inclusive</td></tr></tbody></table>\n\nWhat percentage of her \\(400\\)-page goal did Nadia read on these three days?",
       "options": {
-        "E": "1018",
-        "F": "1218",
-        "G": "1421",
-        "H": "1418"
+        "A": "\\(20.0\\%\\)",
+        "B": "\\(24.0\\%\\)",
+        "C": "\\(25.0\\%\\)",
+        "D": "\\(26.0\\%\\)"
       },
-      "correct": "F",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Total vehicles = 203 x 7 = 1421. Cars+trucks+SUVs = total - vans = 1421 - 203 = 1218.\n\n**Why this sounds right:** Option G gives the TOTAL number of vehicles (including the vans), not just the non-van vehicles the question asks for — it's easy to stop after finding the total and forget the final subtraction."
+        "exhibit_text": "Pages read: Day 1: \\(54-20+1=35\\). Day 2: \\(99-70+1=30\\). Day 3: \\(154-120+1=35\\). Total: \\(35+30+35=100\\) pages.\n\n\\(100\\div400=0.25=25.0\\%\\).\n\n(B) and (D) come from miscounting the inclusive ranges by one page in a day."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q96 (KM3_Q96)",
+      "q_number": 32,
+      "base_source": "Exam D — Math Q36 (DM36)",
       "base_question": {
-        "question": "An automobile dealership has only cars, trucks, SUVs, and vans on its lot, of which 179 are vans. The total vehicle-to-van ratio for the entire lot is 15:1. What is the total number of cars, trucks, and SUVs on the lot?",
-        "options": {
-          "E": "2,415",
-          "F": "2,506",
-          "G": "2,685",
-          "H": "2,864"
-        },
-        "correct": "F",
+        "question": "Leah has set a goal to read a total of \\(500\\) pages of a textbook. The table shows the book page numbers for the reading she did during three days.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>DAILY READING LOG</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Pages Read</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 45–90, inclusive</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 100–135, inclusive</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>pages 145–190, inclusive</td></tr>\n</tbody></table>\n\nWhat percentage of her \\(500\\)-page goal did Leah read on these three days? Round your answer to the nearest tenth.\n\nEnter your answer in the space.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "Total=179x15=2685. Others=2685-179=2506."
+          "letter": null,
+          "exhibit_text": "(\\(25.6\\%\\)) First, determine the number of pages read each day. Since the pages per assignment are inclusive, subtract the first page from the last page assigned and then add \\(1\\) to determine the pages read for each day.\n\nDay 1: \\((90 - 45) + 1 = 46\\) pages\n\nDay 2: \\((135 - 100) + 1 = 36\\) pages\n\nDay 3: \\((190 - 145) + 1 = 46\\) pages\n\nLeah read a total of \\(128\\) pages, since \\(46 + 36 + 46 = 128\\).\n\nTo determine the percent, express \\(128\\) pages out of \\(500\\) pages as a fraction.\n\n\\[\\dfrac{128}{500} = \\dfrac{128 \\div 4}{500 \\div 4} = \\dfrac{32}{125}\\]\n\n\\[32 \\div 125 = 0.256 = 25.6\\%\\]"
         }
-      },
-      "q_number": 32
+      }
     },
     {
-      "id": "P-FE4-M-KM2_Q74",
+      "id": "P-FE4-M-CM14",
       "question_type": "mc",
-      "question": "At a certain school, the ratio of teachers to students is 1:10. Which of the following could be the total number of teachers and students?",
+      "question": "If \\(x=-3\\), what is the value of \\(|x+x^2+x^3|-|x+2x+3x|\\)?",
       "options": {
-        "E": "100",
-        "F": "143",
-        "G": "150",
-        "H": "200"
+        "A": "\\(-3\\)",
+        "B": "\\(3\\)",
+        "C": "\\(15\\)",
+        "D": "\\(39\\)"
       },
-      "correct": "F",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "If teachers:students = 1:10, total must be a multiple of 11. 143/11 = 13, a whole number, so 143 works (13 teachers, 130 students). The others don't divide evenly by 11.\n\n**Why this sounds right:** 100, 150, and 200 are all 'round' numbers that feel like natural totals, but the total has to be a multiple of 11 (the sum of the ratio parts) specifically, which only 143 happens to satisfy here."
+        "exhibit_text": "\\(x+x^2+x^3=-3+9-27=-21\\), so \\(|{-21}|=21\\). \\(x+2x+3x=6x=-18\\), so \\(|{-18}|=18\\). The difference is \\(21-18=3\\).\n\n(A) drops the outer absolute value and computes \\(-21-({-18})=-3\\). (D) adds the two absolute values instead of subtracting."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q74 (KM2_Q74)",
+      "q_number": 33,
+      "base_source": "Exam C — Math Q14 (CM14)",
       "base_question": {
-        "question": "At a certain school, the ratio of teachers to students is 1:10. Which of the following could be the total number of teachers and students?",
+        "question": "If \\(x = -2\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
         "options": {
-          "E": "100",
-          "F": "121",
-          "G": "144",
-          "H": "222"
+          "A": "\\(-18\\)",
+          "B": "\\(-6\\)",
+          "C": "\\(-2\\)",
+          "D": "\\(2\\)"
         },
-        "correct": "F",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "Total must be a multiple of 11. 121/11=11, a whole number."
+          "letter": "B",
+          "exhibit_text": "(B) Substitute \\(-2\\) for each value of \\(x\\) in the expression:\n\n\\[|(-2) + (-2)^2 + (-2)^3|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving exponents:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + 2(-2) + 3(-2)|\\]\n\nEvaluate the terms involving multiplication:\n\n\\[|(-2) + 4 + (-8)|\\]\n\nminus\n\n\\[|(-2) + (-4) + (-6)|\\]\n\nSimplify by adding the terms within the absolute value bars:\n\n\\[|-6| - |-12|\\]\n\\[6 - 12 = -6\\]"
         }
-      },
-      "q_number": 33
+      }
     },
     {
       "id": "P-FE4-M-DM18",
@@ -1021,34 +1028,36 @@
       "q_number": 34
     },
     {
-      "id": "P-FE4-M-KM2_Q111",
+      "id": "P-FE4-M-AM16",
       "question_type": "mc",
-      "question": "\\[3.\\overline{18}+2.\\overline{27}\\]\n\nWhich improper fraction has the same value as the expression above?",
+      "question": "A rectangular garden measuring \\(10\\) feet by \\(6\\) feet has a triangular flower bed removed from one corner. The flower bed's legs measure \\(4\\) feet and \\(3\\) feet. What is the area of the remaining shaded region (the garden minus the flower bed), in square feet?",
       "options": {
-        "A": "\\(\\dfrac{97}{25}\\)",
-        "B": "\\(\\dfrac{19}{5}\\)",
-        "C": "\\(\\dfrac{60}{11}\\)",
-        "D": "\\(\\dfrac{5}{1}\\)"
+        "A": "\\(48\\)",
+        "B": "\\(54\\)",
+        "C": "\\(60\\)",
+        "D": "\\(66\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "3.18 repeating = 3 + 18/99 = 35/11. 2.27 repeating = 2 + 27/99 = 25/11. Sum = 35/11+25/11 = 60/11.\n\n**Why this sounds right:** A 2-digit repeating block goes over 99 (not 100 or 9), so it's easy to misplace the repeating decimal's denominator and get a value that's close but not exact."
+        "exhibit_text": "Garden area: \\(10\\times6=60\\). Flower bed area: \\(\\tfrac12\\times4\\times3=6\\). Remaining shaded area: \\(60-6=54\\).\n\n(C) forgets to subtract the flower bed at all. (A) subtracts the full \\(4\\times3=12\\) rectangle instead of the triangle's half. (D) mistakenly adds instead of subtracting."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q111 (KM2_Q111)",
+      "q_number": 35,
+      "base_source": "Exam A — Math Q16 (AM16)",
       "base_question": {
-        "question": "\\[2.\\overline{56}+1.\\overline{32}\\]\n\nWhich improper fraction has the same value as the expression above?",
+        "question": "What is the area of the shaded region in the graph above?",
         "options": {
-          "A": "\\(\\dfrac{41}{11}\\)",
-          "B": "\\(\\dfrac{19}{5}\\)",
-          "C": "\\(\\dfrac{97}{25}\\)",
-          "D": "\\(\\dfrac{35}{9}\\)"
+          "A": "\\(0.25\\) square unit",
+          "B": "\\(0.5\\) square unit",
+          "C": "\\(1\\) square unit",
+          "D": "\\(1.5\\) square units"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "2.56 rep = 254/99. 1.32 rep=131/99. Sum=385/99=35/9."
-        }
-      },
-      "q_number": 35
+          "letter": "B",
+          "exhibit_text": "(B) The shaded region is a right triangle. Each leg is \\(1\\) unit in length.\n\nSo the area is \\(A = \\tfrac{1}{2}bh = \\tfrac{1}{2}(1)(1) = \\tfrac{1}{2}\\) or \\(0.5\\) square units."
+        },
+        "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:260px; margin: 0 auto; display: block;'><line x1='60' y1='230' x2='60' y2='30' stroke='#111' stroke-width='1.5'/><path d='M 55 40 L 60 25 L 65 40' fill='none' stroke='#111' stroke-width='1.5'/><text x='50' y='20' font-style='italic' font-family='Georgia,serif' font-size='16'>y</text><line x1='30' y1='200' x2='285' y2='200' stroke='#111' stroke-width='1.5'/><path d='M 275 195 L 290 200 L 275 205' fill='none' stroke='#111' stroke-width='1.5'/><text x='293' y='205' font-style='italic' font-family='Georgia,serif' font-size='16'>x</text><text x='42' y='218' font-style='italic' font-family='Georgia,serif' font-size='16'>O</text><line x1='120' y1='196' x2='120' y2='204' stroke='#111'/><text x='115' y='218' font-family='Georgia,serif' font-size='13'>1</text><line x1='180' y1='196' x2='180' y2='204' stroke='#111'/><text x='175' y='218' font-family='Georgia,serif' font-size='13'>2</text><line x1='56' y1='140' x2='64' y2='140' stroke='#111'/><text x='42' y='145' font-family='Georgia,serif' font-size='13'>1</text><line x1='56' y1='80' x2='64' y2='80' stroke='#111'/><text x='42' y='85' font-family='Georgia,serif' font-size='13'>2</text><line x1='120' y1='200' x2='120' y2='80' stroke='#ddd' stroke-width='1'/><line x1='180' y1='200' x2='180' y2='80' stroke='#ddd' stroke-width='1'/><line x1='60' y1='140' x2='180' y2='140' stroke='#ddd' stroke-width='1'/><line x1='60' y1='80' x2='180' y2='80' stroke='#ddd' stroke-width='1'/><polygon points='60,200 120,200 120,140' fill='#c8c8c8' stroke='#111' stroke-width='1.2'/><line x1='60' y1='200' x2='240' y2='30' stroke='#111' stroke-width='1.6'/><path d='M 230 25 L 245 25 L 240 40' fill='none' stroke='#111' stroke-width='1.5'/></svg>"
+      }
     },
     {
       "id": "P-FE4-M-DM42",
@@ -1111,94 +1120,93 @@
       "q_number": 37
     },
     {
-      "id": "P-FE4-M-KM1_Q106",
+      "id": "P-FE4-M-FM40",
       "question_type": "mc",
-      "question": "Nick and Alex worked together on a paper. Nick wrote 3/8 of the paper, and Alex wrote the remaining 25 pages. What is the total length of the paper, in pages?",
+      "question": "Which number line below shows the solution set of the compound inequality \\(-5<2x-1\\le7\\)?",
       "options": {
-        "E": "8",
-        "F": "15",
-        "G": "40",
-        "H": "48"
+        "A": "<svg viewBox=\"0 0 340 45\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30\" y1=\"22\" x2=\"330\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30\" y1=\"18\" x2=\"30\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60\" y1=\"18\" x2=\"60\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90\" y1=\"18\" x2=\"90\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150\" y1=\"18\" x2=\"150\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180\" y1=\"18\" x2=\"180\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210\" y1=\"18\" x2=\"210\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240\" y1=\"18\" x2=\"240\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270\" y1=\"18\" x2=\"270\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300\" y1=\"18\" x2=\"300\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330\" y1=\"18\" x2=\"330\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,18 L21,22 L28,26 Z\" fill=\"#999\"/><path d=\"M332,18 L339,22 L332,26 Z\" fill=\"#999\"/><line x1=\"120\" y1=\"22\" x2=\"300\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"300\" cy=\"22\" r=\"4\" fill=\"#222\"/></svg>",
+        "B": "<svg viewBox=\"0 0 340 45\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30\" y1=\"22\" x2=\"330\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30\" y1=\"18\" x2=\"30\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60\" y1=\"18\" x2=\"60\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90\" y1=\"18\" x2=\"90\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150\" y1=\"18\" x2=\"150\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180\" y1=\"18\" x2=\"180\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210\" y1=\"18\" x2=\"210\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240\" y1=\"18\" x2=\"240\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270\" y1=\"18\" x2=\"270\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300\" y1=\"18\" x2=\"300\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330\" y1=\"18\" x2=\"330\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,18 L21,22 L28,26 Z\" fill=\"#999\"/><path d=\"M332,18 L339,22 L332,26 Z\" fill=\"#999\"/><line x1=\"120\" y1=\"22\" x2=\"300\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"22\" r=\"4\" fill=\"#222\"/><circle cx=\"300\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+        "C": "<svg viewBox=\"0 0 340 45\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30\" y1=\"22\" x2=\"330\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30\" y1=\"18\" x2=\"30\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60\" y1=\"18\" x2=\"60\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90\" y1=\"18\" x2=\"90\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150\" y1=\"18\" x2=\"150\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180\" y1=\"18\" x2=\"180\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210\" y1=\"18\" x2=\"210\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240\" y1=\"18\" x2=\"240\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270\" y1=\"18\" x2=\"270\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300\" y1=\"18\" x2=\"300\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330\" y1=\"18\" x2=\"330\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,18 L21,22 L28,26 Z\" fill=\"#999\"/><path d=\"M332,18 L339,22 L332,26 Z\" fill=\"#999\"/><line x1=\"90\" y1=\"22\" x2=\"270\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"22\" r=\"4\" fill=\"#222\"/></svg>",
+        "D": "<svg viewBox=\"0 0 340 45\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30\" y1=\"22\" x2=\"330\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30\" y1=\"18\" x2=\"30\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60\" y1=\"18\" x2=\"60\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90\" y1=\"18\" x2=\"90\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150\" y1=\"18\" x2=\"150\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180\" y1=\"18\" x2=\"180\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210\" y1=\"18\" x2=\"210\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240\" y1=\"18\" x2=\"240\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270\" y1=\"18\" x2=\"270\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300\" y1=\"18\" x2=\"300\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330\" y1=\"18\" x2=\"330\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,18 L21,22 L28,26 Z\" fill=\"#999\"/><path d=\"M332,18 L339,22 L332,26 Z\" fill=\"#999\"/><path d=\"M21,17 L28,22 L21,27 Z\" fill=\"#222\"/><line x1=\"21\" y1=\"22\" x2=\"120\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"22\" r=\"4\" fill=\"#222\"/><line x1=\"300\" y1=\"22\" x2=\"339\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332,17 L340,22 L332,27 Z\" fill=\"#222\"/><circle cx=\"300\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>"
       },
-      "correct": "G",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Alex wrote 1 - 3/8 = 5/8 of the paper, which equals 25 pages. Total pages = 25 / (5/8) = 40.\n\n**Why this sounds right:** It's tempting to treat 25 pages as 3/8 of the total (Nick's fraction) instead of realizing it's actually Alex's share, which is the REMAINING 5/8 — using the wrong fraction flips the answer."
+        "exhibit_text": "Add \\(1\\) to all three parts: \\(-4<2x\\le8\\). Divide by \\(2\\): \\(-2<x\\le4\\).\n\nThis means an **open** circle at \\(-2\\) (not included) and a **closed** circle at \\(4\\) (included), shaded between them — graph (A).\n\n(B) swaps which endpoint is open vs. closed. (C) shows the wrong range entirely. (D) shades two outward rays instead of the segment between the endpoints."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q106 (KM1_Q106)",
+      "q_number": 38,
+      "base_source": "Exam F — Math Q40 (FM40)",
       "base_question": {
-        "question": "Nick and Alex worked together on a paper. Nick wrote 2/7 of the paper, and Alex wrote the remaining 20 pages. What is the total length of the paper, in pages?",
+        "question": "Which number line below shows the range of values that satisfy the inequality \\(-(a+5)<\\dfrac{b}{-2}\\le-3-a\\) when \\(b=4\\)?",
         "options": {
-          "E": "7",
-          "F": "21",
-          "G": "28",
-          "H": "35"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
         },
-        "correct": "G",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "Alex wrote 5/7 of the paper = 20 pages. Total = 20/(5/7) = 28."
-        }
-      },
-      "q_number": 38
+          "letter": "B",
+          "exhibit_text": "Separate the compound inequality into two pieces: \\(-(a+5)<\\dfrac{b}{-2}\\) and \\(\\dfrac{b}{-2}\\le-3-a\\). Then plug in 4 for \\(b\\) and solve each inequality for \\(a\\). Be careful to flip the sign when multiplying or dividing both sides by a negative.\n\nFirst piece: \\(-(a+5)<\\dfrac{4}{-2}\\)\n\\[-a-5<-2\\]\n\\[-a<3\\]\n\\[a>-3\\]\n\nSecond piece: \\(\\dfrac{4}{-2}\\le-3-a\\)\n\\[-2\\le-3-a\\]\n\\[a\\le-1\\]\n\nCombining both pieces gives \\(-3<a\\le-1\\), so choose the number line with an open circle at \\(-3\\), a closed circle at \\(-1\\), and shading in between, (B)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"18\" x2=\"60.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"18\" x2=\"90.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"18\" x2=\"150.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"18\" x2=\"240.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"18\" x2=\"270.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"18\" x2=\"300.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"150.0\" y1=\"22\" x2=\"339.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,17 L340.0,22 L332.0,27 Z\" fill=\"#222\"/><circle cx=\"150.0\" cy=\"22\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"63\" x2=\"60.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"63\" x2=\"90.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"63\" x2=\"120.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"63\" x2=\"150.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"63\" x2=\"210.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"63\" x2=\"240.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"63\" x2=\"270.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"63\" x2=\"300.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"90.0\" y1=\"67\" x2=\"150.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"90.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"150.0\" cy=\"67\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"108\" x2=\"60.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"108\" x2=\"90.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"108\" x2=\"120.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"108\" x2=\"150.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"108\" x2=\"210.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"108\" x2=\"240.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"108\" x2=\"270.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"108\" x2=\"300.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"112\" x2=\"90.0\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,107 L20.0,112 L28.0,117 Z\" fill=\"#222\"/><circle cx=\"90.0\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"153\" x2=\"60.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"153\" x2=\"90.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"153\" x2=\"120.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"153\" x2=\"150.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"153\" x2=\"210.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"153\" x2=\"240.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"153\" x2=\"270.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"153\" x2=\"300.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"90.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,152 L20.0,157 L28.0,162 Z\" fill=\"#222\"/><line x1=\"150.0\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,152 L340.0,157 L332.0,162 Z\" fill=\"#222\"/><circle cx=\"90.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"150.0\" cy=\"157\" r=\"4\" fill=\"#222\"/></svg>"
+      }
     },
     {
-      "id": "P-FE4-M-KM3_Q90",
+      "id": "P-FE4-M-AM37",
       "question_type": "mc",
-      "question": "One box contains 5 balls, 1 of which is red. A second box contains 6 balls, 1 of which is red. If Pilar draws one ball at random from each box, what is the probability that both balls are red?",
+      "question": "Each marker costs the same amount. If \\(5\\) markers cost $\\(15\\), which point \\((x,y)\\) represents the cost \\(y\\) of \\(x\\) markers?",
       "options": {
-        "E": "\\(\\dfrac{1}{30}\\)",
-        "F": "\\(\\dfrac{1}{11}\\)",
-        "G": "\\(\\dfrac{2}{11}\\)",
-        "H": "\\(\\dfrac{1}{5}\\)"
+        "A": "\\((2,6)\\)",
+        "B": "\\((3,10)\\)",
+        "C": "\\((4,10)\\)",
+        "D": "\\((5,14)\\)"
       },
-      "correct": "E",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "P(red from box 1) = 1/5. P(red from box 2) = 1/6. Since the draws are independent, P(both red) = (1/5) x (1/6) = 1/30.\n\n**Why this sounds right:** Option F adds the two box totals together (5+6=11, close to that denominator) as if this were one combined draw, but these are two SEPARATE, independent draws from two different boxes, so the probabilities multiply rather than combine over a shared total."
+        "exhibit_text": "The unit rate is \\(15\\div5=\\$3\\) per marker, so \\(y=3x\\). Testing \\((2,6)\\): \\(3\\times2=6\\). ✓\n\nNone of the other points satisfy \\(y=3x\\): (B) would need \\(y=9\\), (C) would need \\(y=12\\), (D) would need \\(y=15\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q90 (KM3_Q90)",
+      "q_number": 39,
+      "base_source": "Exam A — Math Q37 (AM37)",
       "base_question": {
-        "question": "One box contains 3 balls, one of which is red. A second box contains 4 balls, one of which is red. If Pilar draws one ball at random from each box, what is the probability that both balls are red?",
-        "options": {
-          "E": "\\(\\dfrac{1}{14}\\)",
-          "F": "\\(\\dfrac{1}{12}\\)",
-          "G": "\\(\\dfrac{1}{7}\\)",
-          "H": "\\(\\dfrac{2}{7}\\)"
-        },
-        "correct": "F",
+        "question": "When a student buys \\(4\\) notebooks, the total cost is $\\(12\\). Each notebook costs the same amount. Select each point on the graph that best represents \\(y\\), the total cost of \\(x\\) notebooks.\n\nSelect **all** the correct answers.",
+        "options": null,
+        "correct": [
+          "1,3",
+          "2,6",
+          "3,9",
+          "4,12"
+        ],
         "solution": {
-          "exhibit_text": "(1/3)(1/4)=1/12."
+          "letter": null,
+          "exhibit_text": "Solution:\n\nThere are three correct points: \\((1, 3)\\), \\((3, 9)\\), and \\((4, 12)\\).\n\nFind the cost per notebook: \\(\\dfrac{12}{4} = 3\\).\n\nThe equation of the line is \\(y = 3x\\), where \\(y\\) is the total cost of \\(x\\) notebooks.\n\nCheck each point by plugging the \\(x\\)-value into the equation \\(y = 3x\\). If the \\(y\\)-value from the equation matches the \\(y\\)-value of the point, then the point is on the line \\(y = 3x\\).\n\nCheck all seven points:\n\n\\((1, 1)\\) \\(y = 3(1) = 3\\)  \\(y\\)-values do not match; incorrect point\n\\((1, 3)\\) \\(y = 3(1) = 3\\)  \\(y\\)-values match; CORRECT point\n\\((2, 5)\\) \\(y = 3(2) = 6\\)  \\(y\\)-values do not match; incorrect point\n\\((3, 7)\\) \\(y = 3(3) = 9\\)  \\(y\\)-values do not match; incorrect point"
         }
-      },
-      "q_number": 39
+      }
     },
     {
-      "id": "P-FE4-M-KM1_Q69",
+      "id": "P-FE4-M-CM44",
       "question_type": "mc",
-      "question": "Between which two consecutive integers is the fraction \\(\\dfrac{67}{9}\\)?",
+      "question": "A machine part is designed to be \\(85\\) millimeters long. The quality control team allows for a variation of \\(\\pm5\\%\\) in the length. What is the **minimum** acceptable length, in millimeters?",
       "options": {
-        "A": "6 and 7",
-        "B": "7 and 8",
-        "C": "8 and 9",
-        "D": "9 and 10"
+        "A": "\\(80.75\\)",
+        "B": "\\(81.00\\)",
+        "C": "\\(84.15\\)",
+        "D": "\\(89.25\\)"
       },
-      "correct": "B",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "67/9 = 7 remainder 4, so 67/9 is between 7 and 8.\n\n**Why this sounds right:** It's easy to round 67/9 (7.44) to the nearest whole number instead of identifying the two integers it falls BETWEEN, which can shift the answer by one."
+        "exhibit_text": "The minimum allowed length is \\(5\\%\\) less than \\(85\\): \\(85-0.05(85)=85-4.25=80.75\\) mm.\n\n(D) is the **maximum** instead of the minimum (\\(85+4.25\\)). (C) mistakenly uses a \\(1\\%\\) variation."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q69 (KM1_Q69)",
+      "q_number": 40,
+      "base_source": "Exam C — Math Q44 (CM44)",
       "base_question": {
-        "question": "Between which two consecutive integers is the fraction \\(\\dfrac{43}{8}\\)?",
-        "options": {
-          "A": "3 and 4",
-          "B": "4 and 5",
-          "C": "5 and 6",
-          "D": "6 and 7"
-        },
-        "correct": "C",
+        "question": "A smartphone screen is designed to be \\(72\\) millimeters wide. The quality control team allows for a variation of \\(\\pm 4\\%\\) in the width. Select the minimum and maximum screen widths that fall within the acceptable range of screen widths, in millimeters.\n\nSelect the correct answer from each drop-down to complete the sentence.\n\nThe acceptable screen width is from [DROPDOWN_1] to [DROPDOWN_2] millimeters.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "43/8 = 5 remainder 3, so it's between 5 and 6."
+          "letter": null,
+          "exhibit_text": "(\\(69.12\\) mm; \\(74.88\\) mm) A variation of \\(\\pm 4\\%\\) in the width means that the width of the smartphone can be from \\(4\\%\\) less than the standard of \\(72\\) mm to \\(4\\%\\) greater than \\(72\\) mm.\n\nThe least allowed measure is\n\n\\[72 - 0.04(72) = 72 - 2.88 = 69.12 \\text{ mm}\\]\n\nThe greatest allowed measure is\n\n\\[72 + 0.04(72) = 72 + 2.88 = 74.88 \\text{ mm}\\]\n\nTherefore, the allowable range is from \\(69.12\\) mm to \\(74.88\\) mm in width."
         }
-      },
-      "q_number": 40
+      }
     },
     {
       "id": "P-FE4-M-EM16",
@@ -1231,34 +1239,35 @@
       "q_number": 41
     },
     {
-      "id": "P-FE4-M-KM1_Q73",
+      "id": "P-FE4-M-DM50",
       "question_type": "mc",
-      "question": "If \\(x+y=20\\) and \\(x=25\\), then what is \\(-\\dfrac{x}{y}\\)?",
+      "question": "This table shows the number of visitors to a farm stand on Friday and Saturday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>FARM STAND VISITORS</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Visitors</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Friday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>45</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Saturday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>27</td></tr></tbody></table>\n\nWhat was the percent decrease in the number of visitors from Friday to Saturday?",
       "options": {
-        "A": "\\(-\\dfrac{1}{5}\\)",
-        "B": "-5",
-        "C": "\\(\\dfrac{1}{5}\\)",
-        "D": "5"
+        "A": "\\(18\\%\\)",
+        "B": "\\(27\\%\\)",
+        "C": "\\(40\\%\\)",
+        "D": "\\(60\\%\\)"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "y = 20 - 25 = -5. -x/y = -25/(-5) = 5.\n\n**Why this sounds right:** y comes out negative here (-5), so dividing a positive x by a negative y, then applying the leading negative sign, trips up the sign twice — it's easy to lose track and end up with the wrong sign."
+        "exhibit_text": "The decrease is \\(45-27=18\\) visitors. Percent decrease \\(=\\dfrac{18}{45}\\times100=40\\%\\).\n\n(A) is just the raw decrease, not a percentage. (D) mistakenly divides by \\(30\\) instead of the original \\(45\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q73 (KM1_Q73)",
+      "q_number": 42,
+      "base_source": "Exam D — Math Q50 (DM50)",
       "base_question": {
-        "question": "If \\(x+y=12\\) and \\(x=15\\), then what is \\(-\\dfrac{x}{y}\\)?",
+        "question": "This table shows the number of birds that came to a bird feeder on Monday and Tuesday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BIRDS AT BIRD FEEDER</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Birds</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Monday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>30</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Tuesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>24</td></tr>\n</tbody></table>\n\nWhat was the percent decrease in the number of birds from Monday to Tuesday?",
         "options": {
-          "A": "-5",
-          "B": "-3",
-          "C": "3",
-          "D": "5"
+          "A": "\\(6\\%\\)",
+          "B": "\\(20\\%\\)",
+          "C": "\\(24\\%\\)",
+          "D": "\\(25\\%\\)"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "y=12-15=-3. -x/y = -15/-3 = 5."
+          "letter": "B",
+          "exhibit_text": "(B) To determine the percent decrease from Monday to Tuesday, first calculate the decrease in the number of birds at the feeder.\n\n\\[30 - 24 = 6\\]\n\nThe difference in the number of birds at the feeder divided by the number of birds on Monday will yield the percent decrease from Monday to Tuesday.\n\n\\[\\dfrac{6}{30} = 0.20\\]\n\n\\(0.20\\) represents \\(20\\%\\).\n\nThere was a \\(20\\%\\) decrease from Monday to Tuesday."
         }
-      },
-      "q_number": 42
+      }
     },
     {
       "id": "P-FE4-M-FM21",
@@ -1291,34 +1300,35 @@
       "q_number": 43
     },
     {
-      "id": "P-FE4-M-KM3_Q83",
+      "id": "P-FE4-M-GM31",
       "question_type": "mc",
-      "question": "In a room of 40 students, 15 are taking geography, 18 are taking history, and 6 are taking both geography and history. How many of these students are not taking either geography or history?",
+      "question": "A craft bin contains \\(5\\) blue buttons and \\(7\\) green buttons. If two buttons are picked at random without putting the first one back, what is the probability that both buttons are green?",
       "options": {
-        "A": "9",
-        "B": "13",
-        "C": "27",
-        "D": "33"
+        "A": "\\(\\dfrac{7}{23}\\)",
+        "B": "\\(\\dfrac{7}{22}\\)",
+        "C": "\\(\\dfrac{1}{3}\\)",
+        "D": "\\(\\dfrac{49}{144}\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Taking at least one: 15+18-6=27 (subtracting the 6 counted twice). Taking neither: 40-27=13.\n\n**Why this sounds right:** Option C gives the number taking AT LEAST ONE subject, not the number taking NEITHER — it's easy to stop one step early and report that intermediate value instead of subtracting it from the total."
+        "exhibit_text": "\\(P(\\text{first green})=\\dfrac{7}{12}\\). Without replacement, \\(P(\\text{second green})=\\dfrac{6}{11}\\). Multiply: \\(\\dfrac{7}{12}\\times\\dfrac{6}{11}=\\dfrac{42}{132}=\\dfrac{7}{22}\\).\n\n(D) forgets to adjust for 'without replacement' and squares \\(\\left(\\dfrac{7}{12}\\right)^2\\) instead. (A) is an arithmetic slip in the denominator."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q83 (KM3_Q83)",
+      "q_number": 44,
+      "base_source": "Exam G — Math Q31 (GM31)",
       "base_question": {
-        "question": "In a room of 33 students, 12 are taking geography, 14 are taking history, and 5 are taking both geography and history. How many of these students are not taking either geography or history?",
+        "question": "A utility drawer contains \\(4\\) red rubber bands and \\(6\\) white rubber bands. If two rubber bands are picked at random without putting the first one back, what is the probability that both rubber bands are white?",
         "options": {
-          "A": "7",
-          "B": "10",
-          "C": "12",
-          "D": "14"
+          "A": "\\(\\dfrac{11}{90}\\)",
+          "B": "\\(\\dfrac{1}{3}\\)",
+          "C": "\\(\\dfrac{9}{25}\\)",
+          "D": "\\(\\dfrac{5}{9}\\)"
         },
-        "correct": "C",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "12+14-5=21 taking at least one. 33-21=12 taking neither."
+          "letter": "B",
+          "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). First, find the probability that the first rubber band is white. There are \\(6\\) white rubber bands and \\(4+6=10\\) total rubber bands, so the probability is \\(\\dfrac{6}{10}=\\dfrac{3}{5}\\). Now find the probability that the second rubber band is white. After the first white rubber band is picked, there are only \\(9\\) rubber bands left, and only \\(5\\) of them are white. Therefore, the probability that the second rubber band picked is white is \\(\\dfrac{5}{9}\\). To find the probability of both rubber bands being white, multiply their respective probabilities:\n\n\\[\\dfrac{3}{5}\\times\\dfrac{5}{9}=\\dfrac{3}{9}=\\dfrac{1}{3}\\]"
         }
-      },
-      "q_number": 44
+      }
     },
     {
       "id": "P-FE4-M-FM47",
@@ -1381,34 +1391,35 @@
       "q_number": 46
     },
     {
-      "id": "P-FE4-M-KM3_Q63",
+      "id": "P-FE4-M-EM23",
       "question_type": "mc",
-      "question": "If \\(x=\\dfrac{1}{4}\\left(\\dfrac{1}{3}-\\dfrac{1}{6}\\right)\\), what is the value of \\(x\\)?",
+      "question": "How many negative **odd** numbers satisfy the inequality \\(4x+70\\ge14\\)?",
       "options": {
-        "A": "\\(\\dfrac{1}{24}\\)",
-        "B": "\\(-\\dfrac{1}{6}\\)",
-        "C": "\\(\\dfrac{1}{8}\\)",
-        "D": "\\(\\dfrac{1}{2}\\)"
+        "A": "\\(6\\)",
+        "B": "\\(7\\)",
+        "C": "\\(13\\)",
+        "D": "\\(14\\)"
       },
-      "correct": "A",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "1/3 - 1/6 = 2/6 - 1/6 = 1/6. Then (1/4)(1/6) = 1/24.\n\n**Why this sounds right:** It's tempting to multiply 1/4 into both terms inside the parentheses separately before subtracting, which can lead to arithmetic slips — do the subtraction inside the parentheses first, then multiply."
+        "exhibit_text": "Solve: \\(4x\\ge-56\\), so \\(x\\ge-14\\). The negative odd numbers satisfying this run from \\(-13\\) to \\(-1\\): \\(-13,-11,-9,-7,-5,-3,-1\\), which is \\(7\\) numbers.\n\n(D) counts all \\(14\\) negative integers from \\(-14\\) to \\(-1\\), not just the odd ones. (C) mistakenly includes \\(-14\\) itself, which is even."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q63 (KM3_Q63)",
+      "q_number": 47,
+      "base_source": "Exam E — Math Q23 (EM23)",
       "base_question": {
-        "question": "If \\(x=\\dfrac{1}{3}\\left(\\dfrac{1}{2}-\\dfrac{1}{8}\\right)\\), what is the value of \\(x\\)?",
+        "question": "How many negative **odd** numbers satisfy the inequality \\(4x+100 \\ge 20\\)?",
         "options": {
-          "A": "\\(-\\dfrac{1}{8}\\)",
-          "B": "\\(\\dfrac{1}{24}\\)",
-          "C": "\\(\\dfrac{1}{12}\\)",
-          "D": "\\(\\dfrac{1}{8}\\)"
+          "A": "9",
+          "B": "10",
+          "C": "19",
+          "D": "20"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "1/2-1/8=3/8. (1/3)(3/8)=1/8."
+          "letter": "B",
+          "exhibit_text": "Solve the inequality for \\(x\\). To do this, subtract 100 from both sides of the inequality and then divide both sides by 4.\n\n\\[4x+100 \\ge 20\\]\n\\[4x \\ge -80\\]\n\\[x \\ge -20\\]\n\nDon't answer too quickly—the answer isn't 19 or 20. List the negative **odd** numbers that are greater than or equal to \\(-20\\). The set includes \\(-19, -17, -15, -13, -11, -9, -7, -5, -3\\), and \\(-1\\). There are 10 of them."
         }
-      },
-      "q_number": 47
+      }
     },
     {
       "id": "P-FE4-M-BM49",

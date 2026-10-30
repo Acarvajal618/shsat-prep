@@ -61,31 +61,32 @@
       "q_number": 2
     },
     {
-      "id": "P-FE3-M-KM2_Q78",
+      "id": "P-FE3-M-BM44",
       "question_type": "mc",
-      "question": "If the ratio of \\(a\\) to \\(b\\) is 3:7 and the ratio of \\(a\\) to \\(c\\) is 5:9, what is the ratio of \\(c\\) to \\(b\\)?",
+      "question": "\\[\\dfrac{18}{27} = \\dfrac{p}{9}\\]\n\nIn the equation above, what is the value of \\(p\\)?",
       "options": {
-        "A": "8:35",
-        "B": "5:7",
-        "C": "27:35",
-        "D": "35:8"
+        "A": "\\(\\dfrac{2}{3}\\)",
+        "B": "\\(3\\)",
+        "C": "\\(6\\)",
+        "D": "\\(13\\tfrac{1}{2}\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Scale a:b by 5 -> 15:35. Scale a:c by 3 -> 15:27. Now a matches (15), so c:b = 27:35 = 27:35."
+        "exhibit_text": "Cross-multiply: \\(27p=9(18)=162\\), so \\(p=\\dfrac{162}{27}=6\\). (A) leaves the fraction unreduced to a whole relationship. (D) mistakenly multiplies \\(18\\times9\\div12\\). (B) divides \\(18\\) by \\(9\\) instead of setting up the proportion correctly."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q78 (KM2_Q78)",
+      "base_source": "Exam B — Math Q44 (BM44)",
       "base_question": {
-        "question": "If the ratio of \\(a\\) to \\(b\\) is 4:5 and the ratio of \\(a\\) to \\(c\\) is 2:7, what is the ratio of \\(c\\) to \\(b\\)?",
+        "question": "\\[\\dfrac{14}{21} = \\dfrac{p}{7}\\]\n\nIn the equation above, what is the value of \\(p\\)?",
         "options": {
-          "E": "8:35",
-          "F": "5:7",
-          "G": "14:5",
-          "H": "35:8"
+          "A": "\\(\\dfrac{2}{3}\\)",
+          "B": "\\(3\\)",
+          "C": "\\(\\dfrac{14}{3}\\)",
+          "D": "\\(14\\)"
         },
-        "correct": "G",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "C",
+          "exhibit_text": "(C)\n\n\\[\\dfrac{14}{21} = \\dfrac{p}{7}\\]\n\\[21p = 7(14)\\]\n\\[21p = 98\\]\n\\[p = \\dfrac{98}{21} = \\dfrac{14}{3}\\]"
         }
       },
       "q_number": 3
@@ -213,95 +214,101 @@
       "q_number": 7
     },
     {
-      "id": "P-FE3-M-KM1_Q108",
+      "id": "P-FE3-M-FM09",
       "question_type": "mc",
-      "question": "At summer camp, campers are randomly assigned to 1 of 20 cabins and 1 of 5 cafeterias. Priya likes 6 of the cabins and 2 of the cafeterias. What is the probability that Priya is assigned to both a cabin and a cafeteria that she likes?",
+      "question": "A student is choosing 3 books to read over the summer from a list of 8 different recommended novels. How many different sets of 3 books can the student choose?",
       "options": {
-        "A": "12%",
-        "B": "20%",
-        "C": "34%",
-        "D": "82%"
+        "A": "24",
+        "B": "56",
+        "C": "168",
+        "D": "336"
       },
-      "correct": "A",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "P(liked cabin) = 6/20 = 3/10. P(liked cafeteria) = 2/5 = 2/5. Multiply: 3/10 x 2/5 = 3/25 = 12%."
+        "exhibit_text": "There are \\(8\\times7\\times6=336\\) ways to choose 3 books in order. Since order doesn't matter, divide by the \\(3\\times2\\times1=6\\) ways to arrange 3 books: \\(336\\div6=56\\). (C) and (D) forget to divide out the repeated orderings. (A) incorrectly uses \\(4\\times3\\times2\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q108 (KM1_Q108)",
+      "base_source": "Exam F — Math Q9 (FM09)",
       "base_question": {
-        "question": "At summer camp, campers are randomly assigned to 1 of 25 cabins and 1 of 4 cafeterias. Josef likes 8 of the cabins and 2 of the cafeterias. What is the probability that Josef is assigned to both a cabin and a cafeteria that he likes?",
+        "question": "A student is choosing 3 books to read over the summer from a list of 7 different recommended novels. How many different sets of 3 books can the student choose?",
         "options": {
-          "E": "16%",
-          "F": "20%",
-          "G": "34%",
-          "H": "82%"
+          "A": "21",
+          "B": "35",
+          "C": "105",
+          "D": "210"
         },
-        "correct": "E",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "B",
+          "exhibit_text": "The student must choose 3 books to read. Since there are 7 available books, there are 7 options for the first book. After the first book has been selected, there are only 6 left to choose from. Similarly, after the second has been selected, there are only 5 left. Therefore, there are \\(7\\times6\\times5=210\\) total ways to choose the three books.\n\nHowever, this method imposes an order on the way the books are chosen. In reality, choosing 3 books from a group of 7 can be done in any order you want. To account for this, you must divide by the total number of ways to arrange 3 books, which is \\(3\\times2\\times1=6\\). Therefore, the final result is \\(\\dfrac{210}{6}=35\\)."
         }
       },
       "q_number": 8
     },
     {
-      "id": "P-FE3-M-KM2_Q64",
+      "id": "P-FE3-M-CM17",
       "question_type": "mc",
-      "question": "In 2020, 500 students graduated from Lincoln High School. 14% entered the workforce directly, 26% went to a 2-year college, 18% went to a vocational school, and 42% went to a 4-year college. How many graduates chose either to enter the workforce or to continue at a vocational school?",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?",
       "options": {
-        "A": "70",
-        "B": "130",
-        "C": "210",
-        "D": "160"
+        "A": "\\(\\dfrac{1}{2}\\) unit",
+        "B": "\\(1\\) unit",
+        "C": "\\(1\\dfrac{1}{2}\\) units",
+        "D": "\\(2\\) units"
       },
-      "correct": "D",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Workforce + vocational = 14%+18% = 32% of 500 = 160 students."
+        "exhibit_text": "\\(\\overline{MN}\\) runs from 2 to 11, so its midpoint is \\(\\dfrac{2+11}{2}=6.5\\). \\(\\overline{RS}\\) runs from 5 to 9, so its midpoint is \\(\\dfrac{5+9}{2}=7\\). The distance between 6.5 and 7 is \\(\\dfrac12\\) unit. (B), (C), and (D) come from finding the segment lengths or endpoints instead of the midpoints."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q64 (KM2_Q64)",
+      "base_source": "Exam C — Math Q17 (CM17)",
       "base_question": {
-        "question": "In 2019, how many graduates from Centerville High School chose either to enter the workforce or to continue their education at a vocational school?",
+        "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?\n\n(On the number line: M is at 1, R is at 3, S is at 6, N is at 7.)",
         "options": {
-          "E": "72",
-          "F": "132",
-          "G": "168",
-          "H": "204"
+          "A": "\\(\\dfrac{1}{2}\\) unit",
+          "B": "\\(1\\) unit",
+          "C": "\\(1\\dfrac{1}{2}\\) units",
+          "D": "\\(2\\) units"
         },
-        "correct": "H",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "A",
+          "exhibit_text": "(A) \\(\\overline{MN}\\) begins at \\(1\\) and ends at \\(7\\). Determine the length of \\(\\overline{MN}\\):\n\n\\[7 - 1 = 6\\]\n\nThe midpoint of a line segment is located exactly halfway between the two endpoints. Since \\(\\overline{MN}\\) is \\(6\\) units in length, the two endpoints are \\(6\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(6\\) by \\(2\\):\n\n\\[6 \\div 2 = 3\\]\n\nThe location of the midpoint of \\(\\overline{MN}\\) is \\(3\\) units from either endpoint. Find the midpoint by either adding \\(3\\) to the location of \\(M\\) (\\(1\\)) or subtracting \\(3\\) from the location of \\(N\\) (\\(7\\)):\n\n\\[1 + 3 = 4\\]\n\\[7 - 3 = 4\\]\n\nThe midpoint of \\(\\overline{MN}\\) is located at \\(4\\).\n\n\\(\\overline{RS}\\) begins at \\(3\\) and ends at \\(6\\). Determine the length of \\(\\overline{RS}\\):\n\n\\[6 - 3 = 3\\]\n\nSince \\(\\overline{RS}\\) is \\(3\\) units in length, the two endpoints are \\(3\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(3\\) by \\(2\\):\n\n\\[3 \\div 2 = 1.5\\]\n\nThe location of the midpoint of \\(\\overline{RS}\\) is \\(1.5\\) units from either endpoint. Find the midpoint by either adding \\(1.5\\) to the location of \\(R\\) (\\(3\\)) or subtracting \\(1.5\\) from the location of \\(S\\) (\\(6\\)):\n\n\\[3 + 1.5 = 4.5\\]\n\nThe midpoint of \\(\\overline{RS}\\) is located at \\(4.5\\).\n\nThe distance between the midpoints \\(4\\) and \\(4.5\\) is \\(\\dfrac{1}{2}\\) unit."
         },
-        "figure_svg": "<svg viewBox=\"0 0 300 340\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><circle cx=\"150\" cy=\"150\" r=\"110\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L150.0,40.0 A110,110 0 0 1 225.3,69.8 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L225.3,69.8 A110,110 0 0 1 214.7,239.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L214.7,239.0 A110,110 0 0 1 74.7,230.2 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><path d=\"M150,150 L74.7,230.2 A110,110 0 0 1 150.0,40.0 Z\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"175.1\" y=\"76.6\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"175.1\" dy=\"0\">12%</tspan><tspan x=\"175.1\" dy=\"13\">Workforce</tspan></text><text x=\"218.1\" y=\"144.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"218.1\" dy=\"0\">28%</tspan><tspan x=\"218.1\" dy=\"13\">2-year</tspan><tspan x=\"218.1\" dy=\"13\">College</tspan></text><text x=\"145.7\" y=\"208.1\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"145.7\" dy=\"0\">22%</tspan><tspan x=\"145.7\" dy=\"13\">Vocational</tspan><tspan x=\"145.7\" dy=\"13\">School</tspan></text><text x=\"86.6\" y=\"114.9\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\"><tspan x=\"86.6\" dy=\"0\">38%</tspan><tspan x=\"86.6\" dy=\"13\">4-year</tspan><tspan x=\"86.6\" dy=\"13\">College</tspan></text><text x=\"150\" y=\"285\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">Education/Career Plans for</text><text x=\"150\" y=\"300\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">Centerville High School Graduates</text><text x=\"150\" y=\"320\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555\">2019</text><text x=\"150\" y=\"335\" font-size=\"12\" text-anchor=\"middle\" fill=\"#555\">Total Number of Graduates: 600</text></svg>"
+        "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.3'/><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='104' y1='40' x2='104' y2='50' stroke='#111' stroke-width='1.3'/><text x='104' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='148' y1='40' x2='148' y2='50' stroke='#111' stroke-width='1.3'/><text x='148' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='192' y1='40' x2='192' y2='50' stroke='#111' stroke-width='1.3'/><text x='192' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='236' y1='40' x2='236' y2='50' stroke='#111' stroke-width='1.3'/><text x='236' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280' y1='40' x2='280' y2='50' stroke='#111' stroke-width='1.3'/><text x='280' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='324' y1='40' x2='324' y2='50' stroke='#111' stroke-width='1.3'/><text x='324' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='368' y1='40' x2='368' y2='50' stroke='#111' stroke-width='1.3'/><text x='368' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='412' y1='40' x2='412' y2='50' stroke='#111' stroke-width='1.3'/><text x='412' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><text x='104' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='192' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='324' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>"
       },
-      "q_number": 9
+      "q_number": 9,
+      "figure_svg": "<svg viewBox='0 0 604 90' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='574' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 586 45 L 571 41 L 571 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.3'/><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='104' y1='40' x2='104' y2='50' stroke='#111' stroke-width='1.3'/><text x='104' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='148' y1='40' x2='148' y2='50' stroke='#111' stroke-width='1.3'/><text x='148' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='192' y1='40' x2='192' y2='50' stroke='#111' stroke-width='1.3'/><text x='192' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='236' y1='40' x2='236' y2='50' stroke='#111' stroke-width='1.3'/><text x='236' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280' y1='40' x2='280' y2='50' stroke='#111' stroke-width='1.3'/><text x='280' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='324' y1='40' x2='324' y2='50' stroke='#111' stroke-width='1.3'/><text x='324' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='368' y1='40' x2='368' y2='50' stroke='#111' stroke-width='1.3'/><text x='368' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='412' y1='40' x2='412' y2='50' stroke='#111' stroke-width='1.3'/><text x='412' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><line x1='456' y1='40' x2='456' y2='50' stroke='#111' stroke-width='1.3'/><text x='456' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>9</text><line x1='500' y1='40' x2='500' y2='50' stroke='#111' stroke-width='1.3'/><text x='500' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>10</text><line x1='544' y1='40' x2='544' y2='50' stroke='#111' stroke-width='1.3'/><text x='544' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>11</text><text x='148' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='280' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='456' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='544' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>"
     },
     {
-      "id": "P-FE3-M-KM3_Q78",
+      "id": "P-FE3-M-BM06",
       "question_type": "mc",
-      "question": "If \\(3x+3x+20=3x+3x+3x+8\\), then what is the value of \\(x\\)?",
+      "question": "In the figure above, \\(PQRS\\) is a parallelogram. The measure of \\(\\angle PQT\\) is \\(55°\\), and the measure of \\(\\angle PTQ\\) is \\(65°\\). What is the measure of \\(\\angle QRS\\)?",
       "options": {
-        "A": "2",
-        "B": "4",
-        "C": "6",
-        "D": "8"
+        "A": "\\(60°\\)",
+        "B": "\\(65°\\)",
+        "C": "\\(110°\\)",
+        "D": "\\(120°\\)"
       },
-      "correct": "B",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Combine: 6x+20 = 9x+8. Subtract 6x: 20=3x+8. Subtract 8: 12=3x. x=4."
+        "exhibit_text": "In triangle PQT, angle QPT \\(=180°-65°-55°=60°\\). Since PQRS is a parallelogram, angle QPT is congruent to angle QRS, so angle QRS is also \\(60°\\). (B) mistakes angle QRS for angle PTQ. (C) and (D) add angles incorrectly."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q78 (KM3_Q78)",
+      "base_source": "Exam B — Math Q6 (BM06)",
       "base_question": {
-        "question": "If \\(2x+2x+14=2x+2x+2x+6\\), then what is the value of \\(x\\)?",
+        "question": "In the figure above, \\(PQRS\\) is a parallelogram. The measure of \\(\\angle PQT\\) is \\(50°\\), and the measure of \\(\\angle PTQ\\) is \\(70°\\). What is the measure of \\(\\angle QRS\\)?",
         "options": {
-          "E": "3",
-          "F": "4",
-          "G": "5",
-          "H": "7"
+          "A": "\\(60°\\)",
+          "B": "\\(70°\\)",
+          "C": "\\(80°\\)",
+          "D": "\\(120°\\)"
         },
-        "correct": "F",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
-        }
+          "letter": "A",
+          "exhibit_text": "(A) Find the missing angle, angle QPT, of triangle PQT: 180° − 70° − 50° = 60°\n\nIn parallelogram PQRS, angle QPT is congruent to angle QRS, so the measure of angle QRS is also 60°."
+        },
+        "figure_svg": "<svg viewBox='0 0 620 320' xmlns='http://www.w3.org/2000/svg' style='max-width:520px; margin: 0 auto; display: block;'><line x1='90' y1='260' x2='500' y2='260' stroke='#111' stroke-width='1.6'/><line x1='90' y1='260' x2='220' y2='60' stroke='#111' stroke-width='1.6'/><line x1='220' y1='60' x2='550' y2='60' stroke='#111' stroke-width='1.6'/><line x1='550' y1='60' x2='500' y2='260' stroke='#111' stroke-width='1.6'/><line x1='220' y1='60' x2='260' y2='260' stroke='#111' stroke-width='1.6'/><text x='75' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>P</text><text x='222' y='50' font-family='Georgia,serif' font-style='italic' font-size='20'>Q</text><text x='555' y='50' font-family='Georgia,serif' font-style='italic' font-size='20'>R</text><text x='255' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>T</text><text x='505' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>S</text></svg>"
       },
-      "q_number": 10
+      "q_number": 10,
+      "figure_svg": "<svg viewBox='0 0 620 320' xmlns='http://www.w3.org/2000/svg' style='max-width:520px; margin: 0 auto; display: block;'><line x1='90' y1='260' x2='500' y2='260' stroke='#111' stroke-width='1.6'/><line x1='90' y1='260' x2='220' y2='60' stroke='#111' stroke-width='1.6'/><line x1='220' y1='60' x2='550' y2='60' stroke='#111' stroke-width='1.6'/><line x1='550' y1='60' x2='500' y2='260' stroke='#111' stroke-width='1.6'/><line x1='220' y1='60' x2='260' y2='260' stroke='#111' stroke-width='1.6'/><text x='75' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>P</text><text x='222' y='50' font-family='Georgia,serif' font-style='italic' font-size='20'>Q</text><text x='555' y='50' font-family='Georgia,serif' font-style='italic' font-size='20'>R</text><text x='255' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>T</text><text x='505' y='285' font-family='Georgia,serif' font-style='italic' font-size='20'>S</text></svg>"
     },
     {
       "id": "P-FE3-M-CM26",
@@ -365,31 +372,32 @@
       "q_number": 12
     },
     {
-      "id": "P-FE3-M-KM2_Q73",
+      "id": "P-FE3-M-DM02",
       "question_type": "mc",
-      "question": "If 5% of \\(r\\) is 8.5, then what is 30% of \\(r\\)?",
+      "question": "What is the value of \\(z\\) in \\(\\dfrac{x}{12} + \\dfrac{y - x}{4} = \\dfrac{z}{12}\\)?",
       "options": {
-        "A": "48",
-        "B": "51",
-        "C": "51",
-        "D": "54"
+        "A": "\\(1\\)",
+        "B": "\\(3\\)",
+        "C": "\\(y\\)",
+        "D": "\\(3y - 2x\\)"
       },
-      "correct": "C",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "If 5% of r is 8.5, then r = 8.5 \\div 0.05 = 170. 30% of 170 = 51."
+        "exhibit_text": "Multiply every term by \\(12\\): \\(x + 3(y-x) = z\\). Distribute: \\(x+3y-3x=z\\), so \\(z=3y-2x\\). (A) and (B) are just the denominators' scale factor, not the simplified expression. (C) drops the \\(x\\) terms entirely."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q73 (KM2_Q73)",
+      "base_source": "Exam D — Math Q2 (DM02)",
       "base_question": {
-        "question": "If 4% of \\(r\\) is 6.2, then what is 20% of \\(r\\)?",
+        "question": "What is the value of \\(z\\) in \\(\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\)?",
         "options": {
-          "A": "25",
-          "B": "26",
-          "C": "30",
-          "D": "31"
+          "A": "\\(1\\)",
+          "B": "\\(5\\)",
+          "C": "\\(y\\)",
+          "D": "\\(2y - x\\)"
         },
         "correct": "D",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "D",
+          "exhibit_text": "(D) First, multiply both sides of the equation by \\(10\\) to eliminate the fractions. In other words, multiply each term by \\(10\\).\n\n\\[\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\]\n\\[10\\left(\\dfrac{x}{10} + \\dfrac{y - x}{5}\\right) = 10\\left(\\dfrac{z}{10}\\right)\\]\n\\[\\dfrac{10x}{10} + \\dfrac{10(y - x)}{5} = \\dfrac{10z}{10}\\]\n\\[x + 2(y - x) = z\\]\n\nThen, distribute and combine like terms to find the value for \\(z\\).\n\n\\[x + 2(y - x) = z\\]\n\\[x + 2y - 2x = z\\]\n\\[2y - x = z\\]"
         }
       },
       "q_number": 13
@@ -518,33 +526,33 @@
       "q_number": 17
     },
     {
-      "id": "P-FE3-M-KM2_Q80",
+      "id": "P-FE3-M-FM15",
       "question_type": "mc",
-      "question": "A survey recorded the price of a concert ticket at 15 different resale websites: $55, $55, $63, $63, $63, $70, $70, $70, $70, $78, $78, $78, $78, $85, $85 (listed from lowest to highest). What is the median of this set of prices?",
+      "question": "A yearbook committee must be formed, consisting of exactly 1 editor and 2 photographers. If there are 5 editors and 7 photographers available to join the committee, how many different ways are there to form the committee?",
       "options": {
-        "A": "$63",
-        "B": "$68",
-        "C": "$70",
-        "D": "$78"
+        "A": "35",
+        "B": "105",
+        "C": "210",
+        "D": "420"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "With 15 values already in order, the median is the 8th value (7 below, 7 above). Counting to the 8th price in the list gives $70."
+        "exhibit_text": "There are 5 choices for editor. For the 2 photographers, choose from 7: \\(7\\times6=42\\) ordered pairs, divided by \\(2\\) (since order doesn't matter) gives \\(21\\) groups. Multiply: \\(5\\times21=105\\). (A) is just \\(\\binom{7}{2}\\) alone (forgetting the editor). (C) and (D) forget to divide out the repeated orderings of the 2 photographers."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q80 (KM2_Q80)",
+      "base_source": "Exam F — Math Q15 (FM15)",
       "base_question": {
-        "question": "The table above shows the average price of a ticket to a certain baseball game at 15 different online ticket reseller websites. What is the median of this set of average prices for a ticket to this particular game?",
+        "question": "A school debate committee must be formed, consisting of exactly 1 teacher and 2 students. If there are 4 teachers and 6 students available to join the committee, how many different ways are there to form the committee?",
         "options": {
-          "E": "$68",
-          "F": "$71.50",
-          "G": "$75",
-          "H": "$78.50"
+          "A": "24",
+          "B": "60",
+          "C": "90",
+          "D": "120"
         },
-        "correct": "G",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
-        },
-        "figure_svg": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">AVERAGE TICKET PRICE AT VARIOUS</text><text x=\"160.0\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">ONLINE TICKET RESELLERS</text><rect x=\"15.0\" y=\"48\" width=\"290\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"75.0\" y=\"66.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Average Price</text><text x=\"220.0\" y=\"66.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number of Online Resellers</text><rect x=\"15.0\" y=\"76\" width=\"290\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"75.0\" y=\"94.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">$60</text><text x=\"220.0\" y=\"94.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2</text><rect x=\"15.0\" y=\"104\" width=\"290\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"75.0\" y=\"122.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">$68</text><text x=\"220.0\" y=\"122.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">5</text><rect x=\"15.0\" y=\"132\" width=\"290\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"75.0\" y=\"150.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">$75</text><text x=\"220.0\" y=\"150.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">4</text><rect x=\"15.0\" y=\"160\" width=\"290\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"75.0\" y=\"178.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">$82</text><text x=\"220.0\" y=\"178.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">4</text><line x1=\"135.0\" y1=\"48\" x2=\"135.0\" y2=\"188\" stroke=\"#222\" stroke-width=\"1\"/></svg>"
+          "letter": "B",
+          "exhibit_text": "The committee contains exactly 1 teacher. There are 4 possible teachers to choose from, so there are 4 options for this position. The remaining 2 positions must be filled from the 6 available students. There are thus 6 choices for one position. Once this person is assigned, there are only 5 left to choose from. This appears to yield \\(6\\times5=30\\) options for the students. However, this method counts Student A and Student B as a different group than Student B and Student A. In reality, they should be the same because order does not matter in a committee. To correct for this, divide 30 by the number of different ways of arranging 2 students, which is 2. This yields \\(30\\div2=15\\) groups of 2 students. Multiply this by the number of options for the teacher to arrive at the total number of ways of selecting the committee: \\(4\\times15=60\\)."
+        }
       },
       "q_number": 18
     },
@@ -579,61 +587,63 @@
       "q_number": 19
     },
     {
-      "id": "P-FE3-M-KM1_Q82",
+      "id": "P-FE3-M-GM02",
       "question_type": "mc",
-      "question": "If \\(m\\) is an even integer that is greater than -7.5, what is the least possible value of \\(m\\)?",
+      "question": "A gardener has a plot of land that is 15 feet by 30 feet. If both sides of the plot are increased by 20%, how many square feet will be added to the plot?",
       "options": {
-        "A": "-8",
-        "B": "-7",
-        "C": "-6",
-        "D": "-5"
+        "A": "90",
+        "B": "135",
+        "C": "198",
+        "D": "450"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Integers greater than -7.5 start at -7. The smallest even integer greater than -7.5 is -6 (since -8 is less than -7.5)."
+        "exhibit_text": "Original area: \\(15\\times30=450\\). New dimensions: \\(18\\times36=648\\). Added area: \\(648-450=198\\). (D) is just the new area's increase misread as the total. (A) and (B) only scale one dimension."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q82 (KM1_Q82)",
+      "base_source": "Exam G — Math Q2 (GM02)",
       "base_question": {
-        "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+        "question": "A gardener has a plot of land that is \\(10\\) feet by \\(20\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
         "options": {
-          "E": "-5",
-          "F": "-4",
-          "G": "-3",
-          "H": "-2"
+          "A": "\\(20\\)",
+          "B": "\\(35\\)",
+          "C": "\\(88\\)",
+          "D": "\\(180\\)"
         },
-        "correct": "H",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "C",
+          "exhibit_text": "Start by finding the total area of the plot before it increases. Plug the original dimensions into the area equation, \\(\\text{Area}=\\text{length}\\times\\text{width}\\), to find that \\(\\text{Area}=10\\times20=200\\).\n\nNext, find the new lengths for the plot. To make the math easier, find \\(10\\%\\) and double it to get to \\(20\\%\\). Start with the side length that is \\(10\\) feet. \\(10\\%\\) of \\(10\\) is \\(1\\), so \\(20\\%\\) of \\(10\\) is \\(2\\). The new length is \\(10+2=12\\). Do the same for the other side length. \\(10\\%\\) of \\(20\\) is \\(2\\), so \\(20\\%\\) of \\(20\\) is \\(4\\). The new length is \\(20+4=24\\).\n\nThe new area is \\(12\\times24=288\\). Finally, subtract the starting area from the new area to find how many square feet the plot increased by: \\(288-200=88\\)."
         }
       },
       "q_number": 20
     },
     {
-      "id": "P-FE3-M-DM02",
+      "id": "P-FE3-M-AM07",
       "question_type": "mc",
-      "question": "What is the value of \\(z\\) in \\(\\dfrac{p}{6} + \\dfrac{q - p}{3} = \\dfrac{z}{6}\\)?",
+      "question": "In a certain gym, class attendance scores range from \\(0\\) to \\(100\\). Priya attended \\(6\\) classes and her mean attendance score was \\(84\\). Darius attended \\(8\\) classes. If both students have the same sum of attendance scores, what was Darius's mean?",
       "options": {
-        "A": "1",
-        "B": "q",
-        "C": "p",
-        "D": "2q - p"
+        "A": "\\(63\\)",
+        "B": "\\(72\\)",
+        "C": "\\(84\\)",
+        "D": "\\(96\\)"
       },
-      "correct": "D",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Multiply every term by 6: p + 2(q-p) = z. Distribute: p+2q-2p=z, so z = 2q-p."
+        "exhibit_text": "The sum of Priya's scores equals 6 times her mean: \\(84 \\times 6 = 504\\). Darius has the same sum (504) across 8 classes, so his mean is \\(504 \\div 8 = 63\\).\n\n(C) is just Priya's original mean, left unchanged by mistake. (B) comes from dividing the sum by 7 classes instead of 8. (D) comes from mistakenly adding instead of finding the proportional mean."
       },
-      "base_source": "Exam D — Math Q2 (DM02)",
+      "base_source": "Exam A — Math Q7 (AM07)",
       "base_question": {
-        "question": "What is the value of \\(z\\) in \\(\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\)?",
+        "question": "In a certain school, course grades range from \\(0\\) to \\(100\\). Adrianna took \\(4\\) courses and her mean course grade was \\(90\\). Roberto took \\(5\\) courses. If both students have the same sum of course grades, what was Roberto's mean?",
         "options": {
-          "A": "\\(1\\)",
-          "B": "\\(5\\)",
-          "C": "\\(y\\)",
-          "D": "\\(2y - x\\)"
+          "A": "\\(72\\)",
+          "B": "\\(80\\)",
+          "C": "\\(90\\)",
+          "D": "\\(92\\)"
         },
-        "correct": "D",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "(D) First, multiply both sides of the equation by \\(10\\) to eliminate the fractions. In other words, multiply each term by \\(10\\).\n\n\\[\\dfrac{x}{10} + \\dfrac{y - x}{5} = \\dfrac{z}{10}\\]\n\\[10\\left(\\dfrac{x}{10} + \\dfrac{y - x}{5}\\right) = 10\\left(\\dfrac{z}{10}\\right)\\]\n\\[\\dfrac{10x}{10} + \\dfrac{10(y - x)}{5} = \\dfrac{10z}{10}\\]\n\\[x + 2(y - x) = z\\]\n\nThen, distribute and combine like terms to find the value for \\(z\\).\n\n\\[x + 2(y - x) = z\\]\n\\[x + 2y - 2x = z\\]\n\\[2y - x = z\\]"
+          "letter": "A",
+          "exhibit_text": "(A) The sum of Adrianna's course grades equals \\(4\\) times the mean (average) of her grades:\n\n\\[90 \\times 4 = 360\\]\n\nRoberto has the same sum (\\(360\\)) as Adrianna. Find the mean of his course grades:\n\n\\[360 \\div 5 = 72\\]"
         }
       },
       "q_number": 21
@@ -699,31 +709,32 @@
       "q_number": 23
     },
     {
-      "id": "P-FE3-M-KM1_Q102",
+      "id": "P-FE3-M-DM19",
       "question_type": "mc",
-      "question": "A painter mixes a shade of orange paint made from \\(\\dfrac{1}{4}\\) ounce of red paint and \\(1\\dfrac{3}{4}\\) ounces of yellow paint. What is the ratio of red paint to yellow paint?",
+      "question": "A store manager purchases a piece of furniture for $320.00. To determine the selling price, the manager increases the purchase cost by 140%. A customer buys the furniture and pays an additional 7% sales tax. How much does the customer pay for the furniture?",
       "options": {
-        "A": "1:8",
-        "B": "1:7",
-        "C": "1:4",
-        "D": "1:2"
+        "A": "$448.00",
+        "B": "$768.00",
+        "C": "$821.76",
+        "D": "$1{,}228.80"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Convert to a common fraction: red = 1/4 oz, yellow = 1 3/4 = 7/4 oz. Ratio = (1/4):(7/4) = 1:7."
+        "exhibit_text": "The \\(140\\%\\) increase: \\(320\\times2.40=768\\). That's the selling price. Sales tax: \\(768\\times0.07=53.76\\). Total: \\(768+53.76=821.76\\). (B) forgets to add tax. (A) only adds 40% instead of 140%. (D) mistakenly adds another full 60% instead of 7% tax."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q102 (KM1_Q102)",
+      "base_source": "Exam D — Math Q19 (DM19)",
       "base_question": {
-        "question": "A painter uses a shade of green paint made from \\(\\dfrac{1}{3}\\) ounce of blue paint mixed with \\(1\\dfrac{2}{3}\\) ounces of yellow paint. What is the ratio of blue paint to yellow paint?",
+        "question": "A store manager purchases a piece of furniture for $\\(456.00\\). To determine the selling price, the manager increases the purchase cost by \\(125\\%\\). A customer buys the furniture and pays an additional \\(8\\%\\) sales tax. How much does the customer pay for the furniture?",
         "options": {
-          "E": "1:6",
-          "F": "1:5",
-          "G": "1:3",
-          "H": "1:2"
+          "A": "$\\(615.60\\)",
+          "B": "$\\(627.48\\)",
+          "C": "$\\(1{,}108.08\\)",
+          "D": "$\\(1{,}846.80\\)"
         },
-        "correct": "F",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "C",
+          "exhibit_text": "(C) Given a purchase price of $\\(456.00\\), the \\(125\\%\\) increase in price is calculated as:\n\n\\[456 \\times 1.25 = 570\\]\n\nThe selling price equals the purchase price plus the increase, or:\n\n\\[456 + 570 = 1{,}026\\]\n\nThe sales tax on the selling price is:\n\n\\[1{,}026(0.08) = 82.08\\]\n\nThe customer pays the selling price plus the sales tax:\n\n\\[1{,}026 + 82.08 = 1{,}108.08\\]"
         }
       },
       "q_number": 24
@@ -790,94 +801,99 @@
       "q_number": 26
     },
     {
-      "id": "P-FE3-M-KM3_Q104",
+      "id": "P-FE3-M-CM11",
       "question_type": "mc",
-      "question": "Leo draws a rectangle that is 5 inches by 7 inches to represent his patio. If he used a scale of 1:96, what is the perimeter of his actual patio in feet?",
+      "question": "Priya has 7 stamp albums with 432 stamps in each album. If she transfers her stamp collection to 8 albums, each holding 350 stamps, how many stamps will be left over?",
       "options": {
-        "A": "80 feet",
-        "B": "192 feet",
-        "C": "200 feet",
-        "D": "240 feet"
+        "A": "\\(118\\)",
+        "B": "\\(224\\)",
+        "C": "\\(350\\)",
+        "D": "\\(432\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Perimeter of drawing = 2(5+7) = 24 inches. Actual perimeter = 24 x 96 = 2304 inches = 2304/12 = 192 feet."
+        "exhibit_text": "Total stamps: \\(7\\times432=3{,}024\\). Capacity of new albums: \\(8\\times350=2{,}800\\). Leftover: \\(3{,}024-2{,}800=224\\). (A) subtracts the wrong totals. (C) and (D) just restate given numbers."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q104 (KM3_Q104)",
+      "base_source": "Exam C — Math Q11 (CM11)",
       "base_question": {
-        "question": "Martin draws a rectangle that is 4.5 inches by 6 inches to represent his deck. If he used a scale of 1:80, what is the perimeter of his actual deck in feet?",
+        "question": "Allison has \\(5\\) stamp albums with \\(576\\) stamps in each album. If she transfers her stamp collection to \\(6\\) albums, each holding \\(378\\) stamps, how many stamps will be left over?",
         "options": {
-          "E": "70 feet",
-          "F": "120 feet",
-          "G": "140 feet",
-          "H": "360 feet"
+          "A": "\\(198\\)",
+          "B": "\\(612\\)",
+          "C": "\\(620\\)",
+          "D": "\\(632\\)"
         },
-        "correct": "G",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "B",
+          "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"
         }
       },
       "q_number": 27
     },
     {
-      "id": "P-FE3-M-KM2_Q103",
+      "id": "P-FE3-M-FM24",
       "question_type": "mc",
-      "question": "If \\(x(b-c)=y+x\\) and \\(2b=3c=11\\), what is the value of \\(\\dfrac{y}{x}\\)?",
+      "question": "Elena drove from point A to point B at 20 miles per hour and immediately returned by the same route at 60 miles per hour. What was her average speed, in miles per hour, for the entire trip?",
       "options": {
-        "A": "1/6",
-        "B": "2/3",
-        "C": "5/6",
-        "D": "7/6"
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "45"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "2b=11 so b=11/2; 3c=11 so c=11/3. x(b-c)=y+x means xb-xc-x=y, so y/x = b-c-1 = 11/2-11/3-1 = 5/6."
+        "exhibit_text": "Pick a distance divisible by both rates, like 60 miles each way (120 total). Time: \\(\\dfrac{60}{20}+\\dfrac{60}{60}=3+1=4\\) hours. Average speed: \\(\\dfrac{120}{4}=30\\) mph. (C) is the simple (incorrect) average of 20 and 60. The others misapply the average-speed formula."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q103 (KM2_Q103)",
+      "base_source": "Exam F — Math Q24 (FM24)",
       "base_question": {
-        "question": "If \\(x(b-c)=y+x\\) and \\(2b=3c=7\\), what is the value of \\(\\dfrac{y}{x}\\)?",
+        "question": "Michael drove from point A to point B at 15 miles per hour and immediately returned by the same route at 30 miles per hour. What was his average speed, in miles per hour, for the entire trip?",
         "options": {
-          "A": "\\(\\dfrac{1}{7}\\)",
-          "B": "\\(\\dfrac{1}{6}\\)",
-          "C": "\\(\\dfrac{1}{3}\\)",
-          "D": "\\(\\dfrac{5}{7}\\)"
+          "A": "20",
+          "B": "22.5",
+          "C": "24",
+          "D": "25"
         },
-        "correct": "B",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "A",
+          "exhibit_text": "Pick a number for the distance between A and B. To keep the calculations simple, choose a number that both 15 and 30 divide into evenly, such as 60 miles. The total distance then is \\(60(2)=120\\).\n\nDistance equals rate times time, so you can use \\(T=\\dfrac{D}{R}\\) to find the total time: \\(T_1=\\dfrac{D}{R_1}\\) and \\(T_2=\\dfrac{D}{R_2}\\), \\(R_1=15\\) mph and \\(R_2=30\\) mph.\n\n\\[T_1+T_2=\\dfrac{60}{15}+\\dfrac{60}{30}=4+2=6\\]\n\nNow, use the average speed formula: \\(\\text{Average Speed}=\\dfrac{\\text{Total Distance}}{\\text{Total Time}}\\)\n\nThus, the average speed is \\(\\dfrac{120}{6}=20\\) miles per hour."
         }
       },
       "q_number": 28
     },
     {
-      "id": "P-FE3-M-KM3_Q73",
+      "id": "P-FE3-M-EM02",
       "question_type": "mc",
-      "question": "If a certain ferry fare costs \\(\\$6.00\\) for the first 15 miles of service, \\(\\$0.20\\) per mile for the next 35 miles, and \\(\\$0.08\\) per mile for each additional mile, what would the ferry fare be to travel a total distance of 120 miles?",
+      "question": "What is the circumference of the circle inscribed in the square above?",
       "options": {
-        "A": "\\(\\$16.60\\)",
-        "B": "\\(\\$18.60\\)",
-        "C": "\\(\\$21.60\\)",
-        "D": "\\(\\$24.60\\)"
+        "A": "\\(5\\pi\\)",
+        "B": "\\(10\\pi\\)",
+        "C": "\\(20\\pi\\)",
+        "D": "\\(25\\pi\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "First 15 miles: \\(\\$6.00\\). Next 35 miles: 35 x \\(\\$0.20\\) = \\(\\$7.00\\). Remaining 70 miles: 70 x \\(\\$0.08\\) = \\(\\$5.60\\). Total: \\(\\$6.00+\\$7.00+\\$5.60=\\$18.60\\)."
+        "exhibit_text": "The circle inscribed in a square has a diameter equal to the square's side length, 10. Circumference \\(=\\pi\\times\\text{diameter}=10\\pi\\). (A) uses the radius instead of the diameter. (C) and (D) confuse circumference with area-style calculations."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q73 (KM3_Q73)",
+      "base_source": "Exam E — Math Q2 (EM02)",
       "base_question": {
-        "question": "If a certain train fare costs $5.00 for the first 10 miles of service, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile, what would the train fare be to travel a total distance of 100 miles?",
+        "question": "What is the circumference of the circle inscribed in the square above?",
         "options": {
-          "A": "$15.00",
-          "B": "$17.50",
-          "C": "$20.00",
-          "D": "$25.00"
+          "A": "\\(2\\pi\\)",
+          "B": "\\(3\\pi\\)",
+          "C": "\\(6\\pi\\)",
+          "D": "\\(9\\pi\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
-        }
+          "letter": "C",
+          "exhibit_text": "Recall that the circumference of a circle is \\(\\pi\\) times its diameter. If the circle is inscribed in a square with a side length of 6, it must have a diameter of 6. Therefore, the circle has a circumference of \\(6\\pi\\)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 140 120\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><circle cx=\"60\" cy=\"60\" r=\"50\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"122\" y=\"64\" font-size=\"13\" fill=\"#222\">6</text></svg>"
       },
-      "q_number": 29
+      "q_number": 29,
+      "figure_svg": "<svg viewBox=\"0 0 140 120\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><circle cx=\"60\" cy=\"60\" r=\"50\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"118\" y=\"64\" font-size=\"13\" fill=\"#222\">10</text></svg>"
     },
     {
       "id": "P-FE3-M-BM24",
@@ -910,151 +926,151 @@
       "q_number": 30
     },
     {
-      "id": "P-FE3-M-KM1_Q90",
+      "id": "P-FE3-M-CM42",
       "question_type": "mc",
-      "question": "The sum of 6 consecutive odd numbers is 72. What is the difference between the highest and the lowest of these numbers?",
+      "question": "Tariq is making a clay block in the shape of a cube with a side length of 24 cm. He hollows out the center by removing clay to form a rectangular prism-shaped hole with a base of 6 cm × 6 cm and a height of 24 cm.\n\nWhat is the volume, in cubic centimeters, of the block after the clay is removed from the center?",
       "options": {
-        "A": "1",
-        "B": "6",
-        "C": "10",
-        "D": "14"
+        "A": "\\(864\\)",
+        "B": "\\(12{,}960\\)",
+        "C": "\\(13{,}824\\)",
+        "D": "\\(14{,}688\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "6 consecutive odd numbers: x, x+2, x+4, x+6, x+8, x+10, summing to 6x+30=72, so x=7. The numbers run from 7 to 17, a difference of 10."
+        "exhibit_text": "Volume of the cube: \\(24\\times24\\times24=13{,}824\\). Volume removed: \\(6\\times6\\times24=864\\). Remaining: \\(13{,}824-864=12{,}960\\). (A) is only the removed volume. (C) forgets to subtract. (D) adds instead of subtracting."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q90 (KM1_Q90)",
+      "base_source": "Exam C — Math Q42 (CM42)",
       "base_question": {
-        "question": "The sum of 6 consecutive odd numbers is 36. What is the difference between the highest and the lowest of these numbers?",
-        "options": {
-          "E": "1",
-          "F": "6",
-          "G": "7",
-          "H": "10"
-        },
-        "correct": "H",
+        "question": "Tariq is making a clay block in the shape of a cube with a side length of \\(20\\) cm. He hollows out the center by removing clay to form a rectangular prism-shaped hole with a base of \\(5\\) cm × \\(5\\) cm and a height of \\(20\\) cm.\n\nWhat is the volume, in cubic centimeters, of the block after the clay is removed from the center?\n\nEnter your answer in the space.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": null,
+          "exhibit_text": "(\\(7{,}500\\) cm³) First, find the volume of the cube using the formula \\(V = lwh\\).\n\nThe length, width, and height of the cube are each equal to \\(20\\) cm.\n\n\\[V_c = 20 \\text{ cm} \\times 20 \\text{ cm} \\times 20 \\text{ cm} = 8{,}000 \\text{ cm}^3\\]\n\nNext, find the volume of the cut-out square prism, with equal length and width of \\(5\\) cm and height of \\(20\\) cm.\n\n\\[V_p = 5 \\text{ cm} \\times 5 \\text{ cm} \\times 20 \\text{ cm} = 500 \\text{ cm}^3\\]\n\nFinally, subtract the volume of the prism from the volume of the cube.\n\n\\[8{,}000 \\text{ cm}^3 - 500 \\text{ cm}^3 = 7{,}500 \\text{ cm}^3\\]"
         }
       },
       "q_number": 31
     },
     {
-      "id": "P-FE3-M-KM2_Q114",
+      "id": "P-FE3-M-BM15",
       "question_type": "mc",
-      "question": "A particular brand of concrete mix is made by combining the following ingredients: 1 part cement, 10 parts sand, 5 parts gravel, and 2 parts crushed stone. Pouring one patio requires 180 cubic feet of this concrete. How many total cubic feet of sand are required to pour 5 identical patios?",
+      "question": "A large circular dinner plate has a radius of 15 centimeters. A smaller circular plate with a circumference of \\(10\\pi\\) centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is **not** covered by the smaller plate?",
       "options": {
-        "A": "100",
-        "B": "200",
-        "C": "500",
-        "D": "500"
+        "A": "\\(25\\pi\\) sq cm",
+        "B": "\\(100\\pi\\) sq cm",
+        "C": "\\(200\\pi\\) sq cm",
+        "D": "\\(225\\pi\\) sq cm"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Total parts = 1+10+5+2 = 18. Sand fraction = 10/18. Sand per patio = 10/18 \\times 180 = 100 cubic feet. For 5 patios: 100 \\times 5 = 500."
+        "exhibit_text": "Large plate area: \\(\\pi(15)^2=225\\pi\\). Small plate's circumference \\(10\\pi=2\\pi r\\) gives \\(r=5\\), so its area is \\(\\pi(5)^2=25\\pi\\). Subtract: \\(225\\pi-25\\pi=200\\pi\\). (A) is only the small plate's area. (D) is only the large plate's area, forgetting to subtract."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q114 (KM2_Q114)",
+      "base_source": "Exam B — Math Q15 (BM15)",
       "base_question": {
-        "question": "A particular brand of asphalt used to pave driveways is made by mixing the following ingredients: 1 part asphalt cement, 12 parts sand, 4 parts gravel, and 3 parts porous stone. Covering one driveway requires 200 cubic feet of this asphalt. How many total cubic feet of sand are required to cover 6 identical driveways?",
+        "question": "A large circular dinner plate has a radius of \\(20\\) centimeters. A smaller circular plate with a circumference of \\(20\\pi\\) centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is **not** covered by the smaller plate?",
         "options": {
-          "E": "100",
-          "F": "120",
-          "G": "360",
-          "H": "720"
+          "A": "\\(20\\pi\\) sq cm",
+          "B": "\\(100\\pi\\) sq cm",
+          "C": "\\(200\\pi\\) sq cm",
+          "D": "\\(300\\pi\\) sq cm"
         },
-        "correct": "H",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "D",
+          "exhibit_text": "(D) The radius of the large plate is \\(20\\) cm. Use \\(20\\) cm to find the area of the large plate:\n\n\\[A = \\pi r^2 = \\pi (20^2) = 400\\pi \\text{ sq cm}\\]\n\nThe circumference of the smaller plate is \\(20\\pi\\) cm. Use that to find the radius, and then the area, of the smaller plate:\n\n\\[C = 2\\pi r\\]\n\\[20\\pi = 2\\pi r\\]\n\\[r = 10\\]\n\\[A = \\pi r^2 = \\pi(10^2) = 100\\pi \\text{ sq cm}\\]\n\nSubtract the area of the small plate from the area of the large plate:\n\n\\[400\\pi - 100\\pi = 300\\pi \\text{ sq cm}\\]"
         }
       },
       "q_number": 32
     },
     {
-      "id": "P-FE3-M-KM3_Q64",
+      "id": "P-FE3-M-CM21",
       "question_type": "mc",
-      "question": "A shoe store stocks children's shoes and adult shoes in a ratio of 4:9. How many pairs of adult shoes are stocked if 160 pairs of children's shoes are stocked?",
+      "question": "In a fruit basket, the ratio of apples to oranges is the same as the ratio of cherries to walnuts. If there are 9 oranges, 20 cherries, and 60 walnuts, how many apples are there?",
       "options": {
-        "A": "320",
-        "B": "340",
-        "C": "360",
-        "D": "380"
+        "A": "3",
+        "B": "9",
+        "C": "27",
+        "D": "36"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Set up the proportion 4/9 = 160/x. Since 160 \\div 4 = 40, multiply 9 by 40: 9 \\times 40 = 360 pairs of adult shoes."
+        "exhibit_text": "Set up the proportion \\(\\dfrac{a}{9}=\\dfrac{20}{60}\\). Cross-multiply: \\(60a=180\\), so \\(a=3\\). (B) just restates the orange count. (C) and (D) mix up which numbers belong in the proportion."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q64 (KM3_Q64)",
+      "base_source": "Exam C — Math Q21 (CM21)",
       "base_question": {
-        "question": "A shoe store stocks children's shoes and adult shoes in a ratio of 5:7. How many pairs of adult shoes are stocked if 140 pairs of children's shoes are stocked?",
+        "question": "In a fruit basket, the ratio of apples to oranges is the same as the ratio of cherries to walnuts. If there are \\(6\\) oranges, \\(16\\) cherries, and \\(48\\) walnuts, how many apples are there?",
         "options": {
-          "E": "100",
-          "F": "164",
-          "G": "196",
-          "H": "208"
+          "A": "\\(2\\)",
+          "B": "\\(3\\)",
+          "C": "\\(18\\)",
+          "D": "\\(38\\)"
         },
-        "correct": "G",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "A",
+          "exhibit_text": "(A) The ratios of the items are equal, so they can be expressed using a proportion.\n\nLet \\(a\\) represent the number of apples, \\(o\\) the number of oranges, \\(c\\) the number of cherries, and \\(w\\) the number of walnuts. Write a proportion showing apples:oranges is equal to cherries:walnuts:\n\n\\[\\dfrac{a}{o} = \\dfrac{c}{w}\\]\n\nSubstitute the given values for oranges (\\(6\\)), cherries (\\(16\\)), and walnuts (\\(48\\)):\n\n\\[\\dfrac{a}{6} = \\dfrac{16}{48}\\]\n\nCross multiply to form an equation to solve for the number of apples (\\(a\\)):\n\n\\[(a \\times 48) = (16 \\times 6)\\]\n\\[48a = 96\\]\n\\[a = 2\\]"
         }
       },
       "q_number": 33
     },
     {
-      "id": "P-FE3-M-KM1_Q83",
+      "id": "P-FE3-M-DM24",
       "question_type": "mc",
-      "question": "What is the least common multiple of 6, 18, and 24?",
+      "question": "An athlete runs \\(\\dfrac{1}{6}\\) kilometer in \\(\\dfrac{2}{3}\\) minute. At this rate, how many kilometers would the athlete run in \\(1\\) minute?",
       "options": {
-        "A": "36",
-        "B": "72",
-        "C": "96",
-        "D": "108"
+        "A": "\\(\\dfrac{1}{9}\\)",
+        "B": "\\(\\dfrac{1}{4}\\)",
+        "C": "\\(1\\dfrac{1}{3}\\)",
+        "D": "\\(4\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Prime factorize: 6=2x3, 18=2x3^2, 24=2^3x3. LCM takes the highest power of each prime: 2^3 x 3^2 = 8 x 9 = 72."
+        "exhibit_text": "Find the unit rate: \\(\\dfrac{1}{6}\\div\\dfrac{2}{3}=\\dfrac{1}{6}\\times\\dfrac{3}{2}=\\dfrac{3}{12}=\\dfrac{1}{4}\\) kilometer per minute. (A) multiplies instead of dividing. (C) and (D) flip the reciprocal the wrong way."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q83 (KM1_Q83)",
+      "base_source": "Exam D — Math Q24 (DM24)",
       "base_question": {
-        "question": "What is the least common multiple of 8, 32, and 48?",
+        "question": "An athlete runs \\(\\dfrac{1}{8}\\) kilometer in \\(\\dfrac{3}{4}\\) minute. At this rate, how many kilometers would the athlete run in \\(1\\) minute?",
         "options": {
-          "A": "64",
-          "B": "96",
-          "C": "128",
-          "D": "144"
+          "A": "\\(\\dfrac{3}{32}\\)",
+          "B": "\\(\\dfrac{1}{6}\\)",
+          "C": "\\(1\\dfrac{1}{2}\\)",
+          "D": "\\(6\\)"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "B",
+          "exhibit_text": "(B) To determine the number of kilometers in \\(1\\) minute, find the unit rate in kilometers per minute: \\(\\dfrac{\\frac{1}{8} \\text{ kilometer}}{\\frac{3}{4} \\text{ minute}}\\).\n\nTo evaluate the fraction, use the reciprocal when dividing to get \\(\\dfrac{1}{6}\\) kilometer per \\(1\\) minute.\n\n\\[\\dfrac{1}{8} \\div \\dfrac{3}{4} = \\dfrac{1}{8} \\times \\dfrac{4}{3} = \\dfrac{4}{24} = \\dfrac{1}{6}\\]"
         }
       },
       "q_number": 34
     },
     {
-      "id": "P-FE3-M-KM3_Q105",
+      "id": "P-FE3-M-BM30",
       "question_type": "mc",
-      "question": "\\[\\{3,4,5,6,7\\}\\]\\nBrian made a list of all possible products of two **different** numbers from the set above. What is the ratio of odd products to even products?",
+      "question": "The Garcias spend $7 of every $10 they earn on planned expenses. If the family earns $42,500 in one year, how much will they spend on planned expenses that year?",
       "options": {
-        "A": "3:7",
-        "B": "1:4",
-        "C": "1:2",
-        "D": "2:3"
+        "A": "$12{,}750",
+        "B": "$17{,}000",
+        "C": "$29{,}750",
+        "D": "$42{,}500"
       },
-      "correct": "A",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "There are 10 pairs total. A product is odd only when both factors are odd. Odd numbers in the set: [3, 5, 7]. Counting pairs of two odds gives 3 odd products, leaving 7 even products. Ratio 3:7 = 3:7."
+        "exhibit_text": "Let \\(x\\) be the amount spent: \\(\\dfrac{x}{42{,}500}=\\dfrac{7}{10}\\), so \\(x=\\dfrac{7}{10}(42{,}500)=29{,}750\\). (A) uses the complementary ratio (\\(3/10\\), the part NOT spent). (B) is the leftover amount. (D) just restates total income."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q105 (KM3_Q105)",
+      "base_source": "Exam B — Math Q30 (BM30)",
       "base_question": {
-        "question": "\\[\\{2,3,4,5,6\\}\\]\nAgnes made a list of all possible products of two **different** numbers from the set above. What is the ratio of odd products to even products?",
+        "question": "The Chens spend $\\(5\\) of every $\\(8\\) they earn on planned expenses. If the family earns $\\(29{,}600\\) in one year, how much will they spend on planned expenses that year?",
         "options": {
-          "A": "1:9",
-          "B": "1:4",
-          "C": "1:2",
-          "D": "2:3"
+          "A": "$\\(1{,}850\\)",
+          "B": "$\\(3{,}700\\)",
+          "C": "$\\(5{,}920\\)",
+          "D": "$\\(18{,}500\\)"
         },
-        "correct": "A",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "D",
+          "exhibit_text": "(D) Let \\(x\\) be the amount spent on planned expenses in one year:\n\n\\[\\dfrac{x}{29{,}600} = \\dfrac{5}{8}\\]\n\\[x = \\dfrac{5}{8}(29{,}600) = 18{,}500\\]"
         }
       },
       "q_number": 35
@@ -1091,31 +1107,32 @@
       "q_number": 36
     },
     {
-      "id": "P-FE3-M-KM2_Q88",
+      "id": "P-FE3-M-CM02",
       "question_type": "mc",
-      "question": "How many positive even factors of 150 are greater than 15 and less than 150?",
+      "question": "If \\((12 \\div m) + 5 = 29\\), what is the value of \\(m\\)?",
       "options": {
-        "A": "1",
-        "B": "4",
-        "C": "2",
-        "D": "5"
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(2\\)",
+        "D": "\\(4\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Factors of 150: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150]. Even ones strictly between 15 and 150: [30, 50] -- that's 2."
+        "exhibit_text": "Subtract 5 from both sides: \\(\\dfrac{12}{m}=24\\). Multiply both sides by \\(m\\): \\(12=24m\\), so \\(m=\\dfrac{12}{24}=\\dfrac{1}{2}\\). (A) divides incorrectly. (C) and (D) invert the fraction or forget to subtract 5 first."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q88 (KM2_Q88)",
+      "base_source": "Exam C — Math Q2 (CM02)",
       "base_question": {
-        "question": "How many positive even factors of 120 are greater than 20 and less than 120?",
+        "question": "If \\((8 \\div m) + 4 = 20\\), what is the value of \\(m\\)?",
         "options": {
-          "E": "1",
-          "F": "3",
-          "G": "4",
-          "H": "6"
+          "A": "\\(\\dfrac{1}{3}\\)",
+          "B": "\\(\\dfrac{1}{2}\\)",
+          "C": "\\(2\\)",
+          "D": "\\(3\\)"
         },
-        "correct": "G",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "B",
+          "exhibit_text": "(B) The quantity \\((8 \\div m)\\) means the same as \\(\\dfrac{8}{m}\\), so the equation can be rewritten:\n\n\\[\\left(\\dfrac{8}{m}\\right) + 4 = 20\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\\left(\\dfrac{8}{m}\\right) = 16\\]\n\nMultiply both sides of the equation by \\(m\\):\n\n\\[8 = 16m\\]\n\nSolve for \\(m\\):\n\n\\[\\left(\\dfrac{8}{16}\\right) = m\\]\n\\[\\dfrac{1}{2} = m\\]"
         }
       },
       "q_number": 37
@@ -1151,94 +1168,94 @@
       "q_number": 38
     },
     {
-      "id": "P-FE3-M-KM3_Q96",
+      "id": "P-FE3-M-BM40",
       "question_type": "mc",
-      "question": "A car dealership has only cars, trucks, SUVs, and vans on its lot, of which 215 are vans. The total vehicle-to-van ratio for the entire lot is 12:1. What is the total number of cars, trucks, and SUVs on the lot?",
+      "question": "\\[\\dfrac{210 - x}{14} = 14\\]\n\nWhat is the value of \\(x\\) in the equation shown above?",
       "options": {
-        "A": "2,150",
-        "B": "2,365",
-        "C": "2,580",
-        "D": "2,795"
+        "A": "0",
+        "B": "14",
+        "C": "196",
+        "D": "224"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Total vehicles = 215 x 12 = 2580. Cars+trucks+SUVs = total - vans = 2580 - 215 = 2365."
+        "exhibit_text": "Multiply both sides by 14: \\(210-x=196\\), so \\(x=210-196=14\\). (C) is \\(14\\times14\\) left unsubtracted. (D) adds instead of subtracting. (A) incorrectly assumes \\(210-x=210\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q96 (KM3_Q96)",
+      "base_source": "Exam B — Math Q40 (BM40)",
       "base_question": {
-        "question": "An automobile dealership has only cars, trucks, SUVs, and vans on its lot, of which 179 are vans. The total vehicle-to-van ratio for the entire lot is 15:1. What is the total number of cars, trucks, and SUVs on the lot?",
-        "options": {
-          "E": "2,415",
-          "F": "2,506",
-          "G": "2,685",
-          "H": "2,864"
-        },
-        "correct": "F",
+        "question": "\\[\\dfrac{147 - x}{12} = 12\\]\n\nWhat is the value of \\(x\\) in the equation shown above?\n\nEnter your answer in the space.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": null,
+          "exhibit_text": "(3)\n\n\\[\\dfrac{147 - x}{12} = 12\\]\n\\[147 - x = 144\\]\n\\[x = 3\\]"
         }
       },
       "q_number": 39
     },
     {
-      "id": "P-FE3-M-KM1_Q69",
+      "id": "P-FE3-M-CM19",
       "question_type": "mc",
-      "question": "Between which two consecutive integers is the fraction \\(\\dfrac{59}{9}\\)?",
+      "question": "What is the value of \\(\\left(-\\dfrac{4}{9}\\right)\\left(-\\dfrac{3}{8}\\right)\\)?",
       "options": {
-        "A": "5 and 6",
-        "B": "6 and 7",
-        "C": "7 and 8",
-        "D": "8 and 9"
+        "A": "\\(-\\dfrac{1}{6}\\)",
+        "B": "\\(-\\dfrac{7}{72}\\)",
+        "C": "\\(\\dfrac{1}{6}\\)",
+        "D": "\\(\\dfrac{11}{72}\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Divide: 59 \\div 9 = 6 remainder 5, so the fraction equals 6 and a fraction more — it falls between 6 and 7."
+        "exhibit_text": "The product of two negative numbers is positive, so first multiply the numerators and denominators: \\(\\dfrac{4\\times3}{9\\times8}=\\dfrac{12}{72}=\\dfrac{1}{6}\\). (A) keeps the correct magnitude but forgets that a negative times a negative is positive. (B) and (D) come from multiplying numerator and denominator incorrectly."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q69 (KM1_Q69)",
+      "base_source": "Exam C — Math Q19 (CM19)",
       "base_question": {
-        "question": "Between which two consecutive integers is the fraction \\(\\dfrac{43}{8}\\)?",
+        "question": "What is the value of \\(\\left(-\\dfrac{3}{4}\\right)\\left(-\\dfrac{2}{5}\\right)\\)?",
         "options": {
-          "A": "3 and 4",
-          "B": "4 and 5",
-          "C": "5 and 6",
-          "D": "6 and 7"
+          "A": "\\(-\\dfrac{7}{20}\\)",
+          "B": "\\(-\\dfrac{3}{10}\\)",
+          "C": "\\(\\dfrac{3}{10}\\)",
+          "D": "\\(\\dfrac{7}{20}\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "C",
+          "exhibit_text": "(C) Evaluate the expression by multiplying the terms in the numerator and the terms in the denominator. The product of two negative values is positive:\n\n\\[\\dfrac{(-3) \\times (-2)}{4 \\times 5} = \\dfrac{6}{20}\\]\n\nSimplify the result:\n\n\\[\\dfrac{6 \\div 2}{20 \\div 2} = \\dfrac{3}{10}\\]"
         }
       },
       "q_number": 40
     },
     {
-      "id": "P-FE3-M-KM3_Q83",
+      "id": "P-FE3-M-BM21",
       "question_type": "mc",
-      "question": "In a room of 35 students, 14 are taking geography, 16 are taking history, and 6 are taking both geography and history. How many of these students are not taking either geography or history?",
+      "question": "On the number line above, \\(\\overline{MN} = 6\\tfrac{5}{8}\\). What is the position of point \\(M\\)?",
       "options": {
-        "A": "8",
-        "B": "11",
-        "C": "13",
-        "D": "16"
+        "A": "\\(-8\\tfrac{7}{8}\\)",
+        "B": "\\(-4\\tfrac{3}{8}\\)",
+        "C": "\\(4\\tfrac{3}{8}\\)",
+        "D": "\\(8\\tfrac{7}{8}\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Students in at least one class = 14+16-6 = 24 (subtracting the overlap once so it isn't double-counted). Students in neither = 35-24 = 11."
+        "exhibit_text": "\\(N=2\\tfrac{1}{4}\\). Since \\(N-M=\\overline{MN}\\): \\(2\\tfrac{1}{4}-M=6\\tfrac{5}{8}\\), so \\(M=2\\tfrac{2}{8}-6\\tfrac{5}{8}=-4\\tfrac{3}{8}\\). (C) drops the negative sign. (A) and (D) add \\(N\\) and \\(\\overline{MN}\\) instead of subtracting."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q83 (KM3_Q83)",
+      "base_source": "Exam B — Math Q21 (BM21)",
       "base_question": {
-        "question": "In a room of 33 students, 12 are taking geography, 14 are taking history, and 5 are taking both geography and history. How many of these students are not taking either geography or history?",
+        "question": "On the number line above, \\(\\overline{MN} = 5\\tfrac{5}{6}\\). What is the position of point \\(M\\)?",
         "options": {
-          "A": "7",
-          "B": "10",
-          "C": "12",
-          "D": "14"
+          "A": "\\(-7\\tfrac{1}{6}\\)",
+          "B": "\\(-4\\tfrac{1}{2}\\)",
+          "C": "\\(4\\tfrac{1}{2}\\)",
+          "D": "\\(7\\tfrac{1}{6}\\)"
         },
-        "correct": "C",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
-        }
+          "letter": "B",
+          "exhibit_text": "(B) To find \\(M\\), subtract \\(N - M\\) and set it equal to the length:\n\n\\[1\\tfrac{1}{3} - M = 5\\tfrac{5}{6}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{1}{3}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{2}{6}\\]\n\\[-M = 4\\tfrac{3}{6}\\]\n\\[M = -4\\tfrac{1}{2}\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>1</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>3</text></svg>"
       },
-      "q_number": 41
+      "q_number": 41,
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>2</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>4</text></svg>"
     },
     {
       "id": "P-FE3-M-DM23",
@@ -1271,33 +1288,33 @@
       "q_number": 42
     },
     {
-      "id": "P-FE3-M-KM3_Q81",
+      "id": "P-FE3-M-BM38",
       "question_type": "mc",
-      "question": "In rectangle WXYZ, the length of WZ is 8 units and triangle TYZ has an area of 64 square units. Point T is the midpoint of WX. What is the length of WT?",
+      "question": "Marco chose an Internet service that charges $22.00 per month plus $0.03 per minute. Priya chose an Internet service that charges $40.00 per month for unlimited usage. At the end of the month, Marco's and Priya's charges were identical. For how many minutes did Marco use the Internet service that month?",
       "options": {
-        "A": "6",
-        "B": "8",
-        "C": "12",
-        "D": "16"
+        "A": "60",
+        "B": "300",
+        "C": "600",
+        "D": "733"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "The area of triangle TYZ relates to WZ (the base) and WT (half of WX, the height): area = WZ x WT, so WT = area / WZ = 64/8 = 8."
+        "exhibit_text": "Let \\(x\\) be the minutes used: \\(22+0.03x=40\\). So \\(0.03x=18\\) and \\(x=600\\). (B) divides 18 by 0.06 instead of 0.03. (A) and (D) come from misplacing the decimal."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q81 (KM3_Q81)",
+      "base_source": "Exam B — Math Q38 (BM38)",
       "base_question": {
-        "question": "In rectangle WXYZ in the figure above, the length of WZ is 6 units and triangle TYZ has an area of 48 square units. Point T is the midpoint of WX. What is the length of WT?",
+        "question": "Phan chose an Internet service that charges $\\(18.00\\) per month plus $\\(0.024\\) per minute. Deion chose an Internet service that charges $\\(30.00\\) per month for unlimited usage. At the end of the month, Phan's and Deion's charges were identical. For how many minutes did Phan use the Internet service that month?",
         "options": {
-          "A": "6",
-          "B": "8",
-          "C": "12",
-          "D": "16"
+          "A": "\\(50\\)",
+          "B": "\\(60\\)",
+          "C": "\\(100\\)",
+          "D": "\\(500\\)"
         },
-        "correct": "B",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
-        },
-        "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<polygon points=\"60,40 300,40 300,160 60,160\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"180.0\" y1=\"40\" x2=\"60\" y2=\"160\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<line x1=\"180.0\" y1=\"40\" x2=\"300\" y2=\"160\" stroke=\"#222\" stroke-width=\"1.5\"/>\n<circle cx=\"180.0\" cy=\"40\" r=\"2.5\" fill=\"#222\"/>\n<text x=\"45\" y=\"34\" font-size=\"15\" text-anchor=\"middle\">W</text>\n<text x=\"180.0\" y=\"30\" font-size=\"15\" text-anchor=\"middle\">T</text>\n<text x=\"315\" y=\"34\" font-size=\"15\" text-anchor=\"middle\">X</text>\n<text x=\"45\" y=\"178\" font-size=\"15\" text-anchor=\"middle\">Z</text>\n<text x=\"315\" y=\"178\" font-size=\"15\" text-anchor=\"middle\">Y</text>\n</svg>"
+          "letter": "D",
+          "exhibit_text": "(D) Let \\(x\\) be the number of minutes Phan used his Internet service in the month. Phan's monthly charges were \\(18 + 0.024x\\). Since Deion's charges were the same as Phan's, set the expression equal to \\(30\\) and solve for \\(x\\):\n\n\\[18 + 0.024x = 30\\]\n\\[0.024x = 12\\]\n\\[x = 500\\]\n\nPhan used his service for \\(500\\) minutes."
+        }
       },
       "q_number": 43
     },
@@ -1363,33 +1380,28 @@
       "q_number": 45
     },
     {
-      "id": "P-FE3-M-KM2_Q93",
+      "id": "P-FE3-M-DM05",
       "question_type": "mc",
-      "question": "How many negative odd numbers satisfy the inequality \\(5x+120\\ge20\\)?",
+      "question": "In a school raffle, 1 out of every 30 students wins a prize. Each prize includes a randomly selected trading card from a set of 120 different cards, labeled C1 through C120, with each card equally likely to be chosen. If one student is selected at random, what is the probability that the student both wins a prize and receives Card C17?",
       "options": {
-        "A": "9",
-        "B": "10",
-        "C": "19",
-        "D": "20"
+        "A": "\\(\\dfrac{1}{150}\\)",
+        "B": "\\(\\dfrac{1}{3{,}600}\\)",
+        "C": "\\(\\dfrac{1}{90}\\)",
+        "D": "\\(\\dfrac{151}{3{,}600}\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "5x+120\\ge20 means 5x\\ge-100, so x\\ge-20. The negative odd integers from -19 up to -1 that satisfy x >= -20 are -19,-17,...,-1 -- that's 10 numbers."
+        "exhibit_text": "These are independent events, so multiply the probabilities: \\(\\dfrac{1}{30}\\times\\dfrac{1}{120}=\\dfrac{1}{3{,}600}\\). (A) adds the denominators instead of multiplying. (C) multiplies the numerators of 30 and 120's factors incorrectly. (D) adds the two probabilities instead of multiplying them."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q93 (KM2_Q93)",
+      "base_source": "Exam D — Math Q5 (DM05)",
       "base_question": {
-        "question": "How many negative odd numbers satisfy the inequality \\(4x+100\\ge20\\)?",
-        "options": {
-          "A": "9",
-          "B": "10",
-          "C": "19",
-          "D": "20"
-        },
-        "correct": "B",
+        "question": "In a school raffle, \\(1\\) out of every \\(25\\) students wins a prize. Each prize includes a randomly selected trading card from a set of \\(100\\) different cards, labeled C1 through C100, with each card equally likely to be chosen. If one student is selected at random, what is the probability that the student both wins a prize and receives Card C17?\n\nWrite an expression that represents the probability that a student wins the prize and receives Card C17.\n\nEnter your answer in the space provided. Enter only your answer.",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
-        },
-        "figure_svg": "<svg viewBox=\"0 0 320 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><line x1=\"260\" y1=\"20\" x2=\"100\" y2=\"160\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"40\" y1=\"40\" x2=\"230\" y2=\"160\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"40\" y1=\"160\" x2=\"300\" y2=\"160\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"195\" y=\"55\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">102°</text><text x=\"115\" y=\"178\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">b°</text><text x=\"225\" y=\"178\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">2b°</text></svg>"
+          "letter": null,
+          "exhibit_text": "\\(\\left(\\dfrac{1}{25} \\cdot \\dfrac{1}{100}\\right)\\)\n\nTo calculate the joint probability, first determine the probability of each independent event.\n\nThe probability that a randomly selected student wins the prize is \\(\\dfrac{1}{25}\\).\n\nThe probability that a randomly selected student will receive Card C17 is \\(\\dfrac{1}{100}\\), because Card C17 is \\(1\\) card out of \\(100\\) labeled cards.\n\nThe probability that a student wins the prize and receives Card C17 is the product of those two probabilities, \\(\\dfrac{1}{25} \\cdot \\dfrac{1}{100}\\)."
+        }
       },
       "q_number": 46
     },
@@ -1485,31 +1497,32 @@
       "q_number": 49
     },
     {
-      "id": "P-FE3-M-KM1_Q66",
+      "id": "P-FE3-M-AM15",
       "question_type": "mc",
-      "question": "Priya speed walks 4 kilometers in \\(\\dfrac{4}{5}\\) hour. At that rate, how many meters does she speed walk per minute?",
+      "question": "A box of colored pencils contains exactly \\(8\\) red pencils. The probability of choosing a red pencil from the box is \\(\\dfrac{4}{15}\\). How many of the pencils in the box are **not** red?",
       "options": {
-        "A": "0.83",
-        "B": "83",
-        "C": "83",
-        "D": "8,330"
+        "A": "\\(7\\)",
+        "B": "\\(22\\)",
+        "C": "\\(30\\)",
+        "D": "\\(38\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "4/5 hour = 48 minutes. 4 km = 4000 meters. 4000 \\div 48 = 83 meters per minute."
+        "exhibit_text": "Let \\(x\\) be the total: \\(\\dfrac{4}{15}=\\dfrac{8}{x}\\), so \\(4x=120\\) and \\(x=30\\). Not red: \\(30-8=22\\). (C) is the total, not the non-red count. (A) and (D) miscompute the proportion."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q66 (KM1_Q66)",
+      "base_source": "Exam A — Math Q15 (AM15)",
       "base_question": {
-        "question": "Lucia speed walks 3 kilometers in \\(\\dfrac{2}{3}\\) hour. At that rate, how many meters does she speed walk per minute?",
+        "question": "A box of colored pencils contains exactly \\(6\\) red pencils. The probability of choosing a red pencil from the box is \\(\\dfrac{2}{7}\\). How many of the pencils in the box are **not** red?",
         "options": {
-          "E": "0.75",
-          "F": "75",
-          "G": "750",
-          "H": "7,500"
+          "A": "\\(5\\)",
+          "B": "\\(15\\)",
+          "C": "\\(21\\)",
+          "D": "\\(30\\)"
         },
-        "correct": "F",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the original exam question above for the official solution."
+          "letter": "B",
+          "exhibit_text": "(B) Let \\(x\\) be the total number of colored pencils in the box.\n\nSet up a proportion to find \\(x\\):\n\n\\[\\dfrac{2}{7} = \\dfrac{6}{x}\\]\n\\[2x = 42\\]\n\\[x = 21\\]\n\nIf there are \\(6\\) red pencils, then the number of pencils that are **not** red is \\(21 - 6 = 15\\)."
         }
       },
       "q_number": 50

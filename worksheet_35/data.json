@@ -1,32 +1,29 @@
 {
   "math_questions": [
     {
-      "id": "P-FE5-M-KM1_Q76",
+      "id": "P-FE5-M-CM35",
       "question_type": "mc",
-      "question": "A shipment of 583 tires needs to be packed into crates that each hold 8 tires. How many crates will hold exactly 8 tires, assuming as many crates as possible are filled completely?",
+      "question": "If \\(5(m+3n)=29n+3m\\), what is the value of \\(m\\) in terms of \\(n\\)?",
       "options": {
-        "A": "72",
-        "B": "71",
-        "C": "73",
-        "D": "79"
+        "A": "\\(7n\\)",
+        "B": "\\(14n\\)",
+        "C": "\\(-7n\\)",
+        "D": "\\(22n\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "Divide 583 by 8: 583 / 8 = 72 remainder 7.\nOnly the 72 complete groups of 8 count as fully-packed crates (the leftover 7 tires don't fill another crate)."
+        "exhibit_text": "Distribute the 5: \\(5m+15n=29n+3m\\). Move the \\(m\\) terms to one side and the \\(n\\) terms to the other: \\(5m-3m=29n-15n\\), so \\(2m=14n\\), and \\(m=7n\\).\n\n(B) forgets to divide by 2 after finding \\(2m=14n\\). (C) is a sign error. (D) comes from adding \\(29n+15n\\) instead of subtracting."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q76 (KM1_Q76)",
+      "base_source": "Exam C — Math Q35 (CM35)",
       "base_question": {
-        "question": "A shipment of 469 tires needs to be packed into crates that each hold 9 tires. How many crates will hold exactly 9 tires?",
-        "options": {
-          "E": "51",
-          "F": "52",
-          "G": "53",
-          "H": "58"
-        },
-        "correct": "F",
+        "question": "If \\(4(a + 2b) = 28b + 2a\\), what is the value of \\(a\\) in terms of \\(b\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+        "correct": null,
         "solution": {
-          "exhibit_text": "469/9=52 remainder 1, so 52 full crates"
-        }
+          "letter": null,
+          "exhibit_text": "\\((a = 10b)\\) To find the value of \\(a\\) in terms of \\(b\\), solve \\(4(a + 2b) = 28b + 2a\\) for \\(a\\). Begin by distributing \\(4\\) on the left side of the equation:\n\n\\[(4 \\times a) + (4 \\times 2b) = 28b + 2a\\]\n\\[4a + 8b = 28b + 2a\\]\n\nThen, get the \\(a\\) terms on one side and the \\(b\\) terms on the other:\n\n\\[4a - 2a = 28b - 8b\\]\n\nSolve for the value of \\(a\\) in terms of \\(b\\) by combining like terms and then dividing each side by \\(2\\):\n\n\\[2a = 20b\\]\n\\[a = 10b\\]"
+        },
+        "grid_answer": "10b",
+        "grid_prefix": "a ="
       },
       "q_number": 1
     },
@@ -91,32 +88,28 @@
       "q_number": 3
     },
     {
-      "id": "P-FE5-M-KM2_Q103",
+      "id": "P-FE5-M-GM42",
       "question_type": "mc",
-      "question": "If x(b-c)=y+x and 2b=5c=10, what is the value of y/x?",
+      "question": "What is the solution set for the inequality \\(9-4x\\ge29\\)?",
       "options": {
-        "A": "1",
-        "B": "5",
-        "C": "3",
-        "D": "2"
+        "A": "\\(x\\le-5\\)",
+        "B": "\\(x\\ge-5\\)",
+        "C": "\\(x\\le5\\)",
+        "D": "\\(x\\ge5\\)"
       },
-      "correct": "D",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "From 2b=10, b=5. From 5c=10, c=2.\nx(b-c) = y+x -> x(5-2) = y+x -> 3x = y+x -> y = 2x -> y/x = 2."
+        "exhibit_text": "Subtract 9 from both sides: \\(-4x\\ge20\\). Divide both sides by \\(-4\\); since you divide by a negative number, flip the inequality sign: \\(x\\le-5\\).\n\n(B) forgets to flip the inequality sign. (C) drops the negative sign on \\(-5\\) but correctly flips. (D) makes both of those mistakes."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q103 (KM2_Q103)",
+      "base_source": "Exam G — Math Q42 (GM42)",
       "base_question": {
-        "question": "If x(b-c)=y+x and 2b=3c=7, what is the value of y/x?",
-        "options": {
-          "A": "1/7",
-          "B": "1/6",
-          "C": "1/3",
-          "D": "5/7"
-        },
-        "correct": "B",
+        "question": "Graph the solution set for the inequality: \\(7-5x\\ge22\\).\n\nEnter the solution set (e.g. \\(x\\le-3\\)).",
+        "correct": null,
         "solution": {
-          "exhibit_text": "b=3.5,c=7/3,diff=7/6,y/x=diff-1=1/6"
-        }
+          "letter": "x≤-3",
+          "exhibit_text": "Solve the inequality as you would solve an equation. Subtract \\(7\\) from both sides to isolate the \\(x\\) term:\n\n\\[7-5x\\ge22\\]\n\\[-5x\\ge15\\]\n\nNow, divide both sides by \\(-5\\). Because you divide by a negative number, flip the inequality sign: \\(x\\le-3\\).\n\nSince \\(x\\) is less than or equal to \\(-3\\), select the ray that points to the left. Place the closed circle at \\(-3\\) because the inequality is \\(\\le\\) (inclusive) rather than \\(<\\) (which would not include the \\(-3\\))."
+        },
+        "grid_answer": "x≤-3"
       },
       "q_number": 4
     },
@@ -181,31 +174,32 @@
       "q_number": 6
     },
     {
-      "id": "P-FE5-M-KM3_Q112",
+      "id": "P-FE5-M-AM23",
       "question_type": "mc",
-      "question": "The amount of water in a tank evaporates so that the amount left at the end of each day is 15% less than at the start of that day. Approximately what percent of the original amount of water is left after three days?",
+      "question": "In a scale drawing of a triangular flag, one side measures \\(9\\) centimeters and the other two sides each measure \\(15\\) centimeters. On the actual flag, these two sides each measure \\(45\\) feet. What is the length of the remaining side of the actual flag?",
       "options": {
-        "A": "45%",
-        "B": "55%",
-        "C": "61%",
-        "D": "85%"
+        "A": "\\(15\\) ft",
+        "B": "\\(27\\) ft",
+        "C": "\\(45\\) ft",
+        "D": "\\(75\\) ft"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Each day, 85% of the water remains (100% - 15%).\nAfter 3 days: 0.85 x 0.85 x 0.85 = 0.614125, or about 61%."
+        "exhibit_text": "Set up a proportion between the drawing and the actual flag: \\(\\dfrac{x}{9}=\\dfrac{45}{15}\\), so \\(x=27\\) ft.\n\n(A) is the drawing's side length, not scaled up. (C) just copies the given actual side length. (D) inverts the ratio (\\(15\\times45\\div9\\))."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q112 (KM3_Q112)",
+      "base_source": "Exam A — Math Q23 (AM23)",
       "base_question": {
-        "question": "Water in a bucket evaporates so that the amount left at the end of each day is 10% less than at the start. What percent is left after 3 days?",
-        "options": {
-          "E": "30%",
-          "F": "67%",
-          "G": "70%",
-          "H": "73%"
-        },
-        "correct": "H",
+        "question": "In a scale drawing of a triangular banner, one side measures \\(16\\) centimeters and the other two sides each measure \\(12\\) centimeters. On the actual banner, these two sides each measure \\(36\\) feet. What is the length of the remaining side of the actual banner?",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "0.9^3=0.729~73%"
+          "letter": "D",
+          "exhibit_text": "(D) Let \\(x\\) be the remaining side of the actual banner.\n\nSet up a proportion:\n\n\\[\\dfrac{x}{16} = \\dfrac{36}{12}\\]\n\\[x = 48 \\text{ ft}\\]"
+        },
+        "options": {
+          "A": "\\(16\\) ft",
+          "B": "\\(32\\) ft",
+          "C": "\\(40\\) ft",
+          "D": "\\(48\\) ft"
         }
       },
       "q_number": 7
@@ -301,31 +295,32 @@
       "q_number": 10
     },
     {
-      "id": "P-FE5-M-KM1_Q99",
+      "id": "P-FE5-M-CM11",
       "question_type": "mc",
-      "question": "80 people played tennis on Saturday, and the pro shop sold 12 dozen tennis balls. Approximately how many dozens can the shop expect to sell on Sunday if 120 people are scheduled to play?",
+      "question": "Dana has \\(7\\) photo albums with \\(312\\) photos in each album. If she transfers her photo collection to \\(8\\) albums, each holding \\(260\\) photos, how many photos will be left over?",
       "options": {
-        "A": "14 dozen",
-        "B": "16 dozen",
-        "C": "18 dozen",
-        "D": "20 dozen"
+        "A": "\\(94\\)",
+        "B": "\\(104\\)",
+        "C": "\\(114\\)",
+        "D": "\\(124\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Set up a proportion: 12 dozen / 80 people = x / 120 people.\nx = 12 x (120/80) = 12 x 1.5 = 18 dozen."
+        "exhibit_text": "Total photos: \\(7\\times312=2{,}184\\). Capacity of the new albums: \\(8\\times260=2{,}080\\). Leftover: \\(2{,}184-2{,}080=104\\).\n\n(A), (C), and (D) come from a small multiplication or subtraction slip in one of those two products."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q99 (KM1_Q99)",
+      "base_source": "Exam C — Math Q11 (CM11)",
       "base_question": {
-        "question": "100 people played golf on Monday, and the pro shop sold 14 dozen golf balls. Approximately how many dozens can the shop expect to sell Tuesday if 150 people play?",
-        "options": {
-          "A": "18 dozen",
-          "B": "20 dozen",
-          "C": "21 dozen",
-          "D": "24 dozen"
-        },
-        "correct": "C",
+        "question": "Allison has \\(5\\) stamp albums with \\(576\\) stamps in each album. If she transfers her stamp collection to \\(6\\) albums, each holding \\(378\\) stamps, how many stamps will be left over?",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "14/100 x 150 = 21"
+          "letter": "B",
+          "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"
+        },
+        "options": {
+          "A": "\\(198\\)",
+          "B": "\\(612\\)",
+          "C": "\\(620\\)",
+          "D": "\\(632\\)"
         }
       },
       "q_number": 11
@@ -391,31 +386,32 @@
       "q_number": 13
     },
     {
-      "id": "P-FE5-M-KM2_Q86",
+      "id": "P-FE5-M-GM23",
       "question_type": "mc",
-      "question": "What is the value of (5g-200)/h if h=50 and g=60?",
+      "question": "Which inequality is equivalent to \\(9>3x-6>-9\\)?",
       "options": {
-        "A": "1.6",
-        "B": "2",
-        "C": "20",
-        "D": "200"
+        "A": "\\(-1<x<5\\)",
+        "B": "\\(-5<x<1\\)",
+        "C": "\\(-3<x<15\\)",
+        "D": "\\(x<-1 \\text{ or } x>5\\)"
       },
-      "correct": "B",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Substitute g=60 and h=50: (5(60)-200)/50 = (300-200)/50 = 100/50 = 2."
+        "exhibit_text": "Add \\(6\\) to all three parts: \\(15>3x>-3\\). Divide all three parts by \\(3\\): \\(5>x>-1\\), which is \\(-1<x<5\\).\n\n(B) comes from subtracting 6 instead of adding it. (C) forgets to divide by 3. (D) mistakenly treats the compound inequality as two separate, non-overlapping conditions."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q86 (KM2_Q86)",
+      "base_source": "Exam G — Math Q23 (GM23)",
       "base_question": {
-        "question": "What is the value of (4g-150)/h if h=100 and g=300?",
-        "options": {
-          "E": "1.5",
-          "F": "10.5",
-          "G": "105",
-          "H": "1000"
-        },
-        "correct": "F",
+        "question": "Which of the following is equivalent to the inequality \\(7>2x-5>-7\\)?",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "(1200-150)/100=10.5"
+          "letter": "A",
+          "exhibit_text": "Remember that for three-part inequalities, whenever you make a change to one part, you must make it to all three parts. So, to solve for \\(x\\), first add \\(5\\) to all three parts of the inequality, then divide all three parts by \\(2\\):\n\n\\[7>2x-5>-7\\]\n\\[12>2x>-2\\]\n\\[6>x>-1\\]\n\nFind the number line in the answer choices in which \\(x\\) is less than \\(6\\) and greater than \\(-1\\): (A)."
+        },
+        "options": {
+          "A": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"101.0\" y1=\"23\" x2=\"164.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"101.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+          "B": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"14\" y1=\"23\" x2=\"101.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"164.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"101.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+          "C": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"56.0\" y1=\"23\" x2=\"164.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"56.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+          "D": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"29.0\" y1=\"21\" x2=\"29.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"38.0\" y1=\"21\" x2=\"38.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"47.0\" y1=\"21\" x2=\"47.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"21\" x2=\"56.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"21\" x2=\"74.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"21\" x2=\"83.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"21\" x2=\"92.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"21\" x2=\"101.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"21\" x2=\"119.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"21\" x2=\"128.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"21\" x2=\"137.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"21\" x2=\"146.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"21\" x2=\"164.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"21\" x2=\"173.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"182.0\" y1=\"21\" x2=\"182.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"21\" x2=\"191.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-10</text><text x=\"65.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-5</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"155.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">5</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">10</text>\n<line x1=\"14\" y1=\"23\" x2=\"56.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"164.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"56.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"164.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>"
         }
       },
       "q_number": 14
@@ -481,32 +477,28 @@
       "q_number": 16
     },
     {
-      "id": "P-FE5-M-KM3_Q105",
+      "id": "P-FE5-M-CM41",
       "question_type": "mc",
-      "question": "{1,2,3,4,5} — a list is made of all possible products of two different numbers from the set above. What is the ratio of odd products to even products?",
+      "question": "Maya is at the school store. She wants to buy a backpack for $\\(18.00\\) and some pens that cost $\\(1.50\\) each. She has at most $\\(30.00\\) to spend. Which inequality represents the number of pens, \\(p\\), Maya can purchase?",
       "options": {
-        "A": "3:7",
-        "B": "1:3",
-        "C": "2:5",
-        "D": "3:10"
+        "A": "\\(18.00+1.50p\\le30.00\\)",
+        "B": "\\(18.00+1.50p\\ge30.00\\)",
+        "C": "\\(1.50+18.00p\\le30.00\\)",
+        "D": "\\(18.00p+1.50\\le30.00\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "The pairs are: (1,2)=2,(1,3)=3,(1,4)=4,(1,5)=5,(2,3)=6,(2,4)=8,(2,5)=10,(3,4)=12,(3,5)=15,(4,5)=20 — 10 products total.\nOdd products: 3, 5, 15 — that's 3. Even products: the other 7.\nRatio of odd to even = 3:7."
+        "exhibit_text": "\"At most\" means \"less than or equal to.\" The pens cost \\(\\$1.50\\) each for \\(p\\) pens (\\(1.50p\\)), plus the fixed \\(\\$18.00\\) backpack: \\(18.00+1.50p\\le30.00\\).\n\n(B) reverses the inequality. (C) and (D) swap which price is the fixed cost and which is multiplied by \\(p\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q105 (KM3_Q105)",
+      "base_source": "Exam C — Math Q41 (CM41)",
       "base_question": {
-        "question": "{2,3,4,5,6} — Agnes lists all products of two different numbers from the set. What is the ratio of odd products to even products?",
-        "options": {
-          "A": "1:9",
-          "B": "1:4",
-          "C": "1:2",
-          "D": "2:3"
-        },
-        "correct": "A",
+        "question": "Elijah is at the school bookstore. He wants to buy a water bottle for $\\(12.50\\) and some notebooks that cost $\\(4.75\\) each. He has at most $\\(35.00\\) to spend. Write an inequality that represents the number of notebooks, \\(n\\), Elijah can purchase.\n\nEnter your answer in the space provided. Enter only your answer.",
+        "correct": null,
         "solution": {
-          "exhibit_text": "Only 3x5=15 is odd out of 10 products. 1:9"
-        }
+          "letter": null,
+          "exhibit_text": "\\((12.50 + 4.75n \\le 35.00)\\)\n\nThe question uses the phrase \"at most,\" which means \"less than or equal to\" (\\(\\le\\)).\n\nSince notebooks cost $\\(4.75\\) each and Elijah will buy \\(n\\) notebooks, the total cost just for the notebooks is found by multiplying $\\(4.75\\) by \\(n\\), or \\(4.75n\\).\n\nCombining the cost of a water bottle ($\\(12.50\\)) with the cost of \\(n\\) notebooks, the inequality is \\(12.50 + 4.75n \\le 35.00\\).\n\nThis may also be written as \\(4.75n + 12.50 \\le 35.00\\)."
+        },
+        "grid_answer": "12.50 + 4.75n \\le 35.00"
       },
       "q_number": 17
     },
@@ -601,32 +593,55 @@
       "q_number": 20
     },
     {
-      "id": "P-FE5-M-KM1_Q74",
+      "id": "P-FE5-M-DM46",
       "question_type": "mc",
-      "question": "A deli sold 40 pounds of meat: salami, turkey, ham, and roast beef. It sold 16 pounds of turkey, 12 pounds of ham, and 6 pounds of roast beef. What percentage of the 40 pounds sold was salami?",
+      "question": "A shipping company charges a base fee of $\\(2.00\\) plus $\\(0.75\\) for each pound over the first pound. What is the total cost to ship an \\(8\\)-pound package?",
       "options": {
-        "A": "15%",
-        "B": "10%",
-        "C": "6%",
-        "D": "20%"
+        "A": "\\(\\$5.25\\)",
+        "B": "\\(\\$6.00\\)",
+        "C": "\\(\\$7.25\\)",
+        "D": "\\(\\$8.00\\)"
       },
-      "correct": "A",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Salami = 40 - 16 - 12 - 6 = 6 pounds.\nPercentage: 6/40 x 100 = 15%."
+        "exhibit_text": "The first pound is covered by the base fee, so \\(8-1=7\\) pounds cost \\(\\$0.75\\) each: \\(\\$2.00+\\$0.75(7)=\\$2.00+\\$5.25=\\$7.25\\).\n\n(A) leaves out the base fee. (B) multiplies \\(\\$0.75\\) by all \\(8\\) pounds instead of the \\(7\\) pounds over the first. (D) adds the base fee to the full \\(8\\)-pound charge."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q74 (KM1_Q74)",
+      "base_source": "Exam D — Math Q46 (DM46)",
       "base_question": {
-        "question": "A deli sold 25 pounds of meat: salami, turkey, ham, and roast beef. It sold 10 lb turkey, 8 lb ham, 4 lb roast beef. What percentage was salami?",
-        "options": {
-          "E": "3%",
-          "F": "8%",
-          "G": "12%",
-          "H": "22%"
-        },
-        "correct": "H",
+        "question": "A company charges $\\(3.00\\) to ship a \\(4\\)-pound package. The cost includes a base fee of $\\(1.50\\) plus $\\(0.50\\) for each pound over the first pound. The table below illustrates how the cost depends on the total weight of the package. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.\n\n<div style='text-align:center; font-weight:600; margin: 0.5rem 0 0.35rem;'>SHIPPING COSTS</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Weight (pounds)</th><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Cost to Ship (dollars)</th></tr></thead>\n<tbody><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_1]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_2]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2.50</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>6</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_3]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_4]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>5.50</td></tr></tbody></table>",
+        "correct": null,
         "solution": {
-          "exhibit_text": "25-10-8-4=3, 3/25=12%... (official says 22%, recompute: actually check — using given nums: salami=25-10-8-4=3, 3/25=12% — but official answer listed H=22%, so likely my transcription differs; regardless this is base reference only)"
-        }
+          "letter": null,
+          "exhibit_text": "The completed **SHIPPING COSTS** table:\n\n| Total Weight (pounds) | Total Cost to Ship (dollars) |\n|---|---|\n| 2 | 2 |\n| 3 | 2.50 |\n| 6 | 4 |\n| 9 | 5.50 |\n\nLet \\(x\\) represent the weight of the package in pounds. The first pound is included in the base fee of $\\(1.50\\), so \\((x - 1)\\) represents the number of pounds that cost $\\(0.50\\) each.\n\nThe cost equation can be written as \\(\\text{Cost} = \\$1.50 + \\$0.50(x - 1)\\).\n\n- The cost for a \\(2\\)-pound package is \\(\\$1.50 + \\$0.50(2 - 1) = \\$1.50 + \\$0.50(1) = \\$2.00\\).\n- The cost for a \\(6\\)-pound package is \\(\\$1.50 + \\$0.50(6 - 1) = \\$1.50 + \\$0.50(5) = \\$1.50 + \\$2.50 = \\$4.00\\).\n- The weight of a package that costs $\\(2.50\\) to ship can be found by solving\n\n\\[\\$2.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$1.00 = \\$0.50(x - 1)\\]\n\\[2 = x - 1\\]\n\\[x = 3 \\text{ pounds}\\]\n\n- The weight of a package that costs $\\(5.50\\) to ship can be found by solving\n\n\\[\\$5.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$4.00 = \\$0.50(x - 1)\\]\n\\[8 = x - 1\\]\n\\[x = 9 \\text{ pounds}\\]"
+        },
+        "boxes": [
+          {
+            "label": "BOX_1",
+            "correct_value": "2"
+          },
+          {
+            "label": "BOX_2",
+            "correct_value": "3"
+          },
+          {
+            "label": "BOX_3",
+            "correct_value": "4"
+          },
+          {
+            "label": "BOX_4",
+            "correct_value": "9"
+          }
+        ],
+        "drop_values": [
+          "2",
+          "3",
+          "6",
+          "7",
+          "3.5",
+          "2.5",
+          "9",
+          "4"
+        ]
       },
       "q_number": 21
     },
@@ -691,34 +706,37 @@
       "q_number": 23
     },
     {
-      "id": "P-FE5-M-KM2_Q81",
+      "id": "P-FE5-M-AM11",
       "question_type": "mc",
-      "question": "On a city map, 2 inches represents 7 miles. Two landmarks are 9 inches apart on the map. How many miles apart are they, to the nearest mile?",
+      "question": "In the pyramid above, each triangular face has the same area, and the base \\(MNPQ\\) is a square that measures \\(10\\) centimeters on each side. If the length of \\(\\overline{RS}=7\\) centimeters, what is the surface area of the pyramid **excluding** the base?",
       "options": {
-        "A": "28",
-        "B": "40",
-        "C": "36",
-        "D": "32"
+        "A": "\\(35\\) sq cm",
+        "B": "\\(70\\) sq cm",
+        "C": "\\(140\\) sq cm",
+        "D": "\\(280\\) sq cm"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Set up a proportion: 2 inches / 7 miles = 9 inches / x miles.\nCross-multiply: 2x = 63, so x = 31.5, which rounds to 32 miles."
+        "exhibit_text": "\\(\\overline{RS}\\) is the height of triangle \\(QRP\\), and \\(\\overline{QP}=10\\) cm. Area of one triangular face: \\(\\tfrac{1}{2}(10)(7)=35\\) sq cm. There are 4 congruent triangular faces, so the total is \\(4\\times35=140\\) sq cm.\n\n(A) is just one face. (B) forgets to multiply by all 4 faces (or forgets the \\(\\tfrac12\\)). (D) forgets the \\(\\tfrac12\\) entirely while still multiplying by 4."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q81 (KM2_Q81)",
+      "base_source": "Exam A — Math Q11 (AM11)",
       "base_question": {
-        "question": "On a town map, 3 inches represents 5 miles. The library and water tower are 7 inches apart on the map. How many miles apart are they, to the nearest mile?",
-        "options": {
-          "A": "10",
-          "B": "12",
-          "C": "13",
-          "D": "15"
-        },
+        "question": "In the pyramid above, each triangular face has the same area, and the base \\(MNPQ\\) is a square that measures \\(8\\) centimeters on each side. If the length of \\(\\overline{RS} = 6\\) centimeters, what is the surface area of the pyramid **excluding** the base?",
         "correct": "B",
         "solution": {
-          "exhibit_text": "7 x 5/3 = 11.67 ~ 12"
-        }
+          "letter": "B",
+          "exhibit_text": "(B) Line segment \\(\\overline{RS}\\) is the altitude, or height, of **triangle** \\(QRP\\). The length of \\(\\overline{QP}\\) is \\(8\\) cm.\n\nUse the information to find the area of **triangle** \\(QRP\\):\n\n\\[A = \\tfrac{1}{2}bh = \\tfrac{1}{2}(8)(6) = 24 \\text{ sq cm.}\\]\n\nThere are \\(4\\) congruent triangles in the pyramid, so the surface area of the pyramid **excluding** the base is \\(4 \\times 24 = 96\\) sq cm."
+        },
+        "options": {
+          "A": "\\(48\\) sq cm",
+          "B": "\\(96\\) sq cm",
+          "C": "\\(128\\) sq cm",
+          "D": "\\(160\\) sq cm"
+        },
+        "figure_svg": "<svg viewBox='0 0 700 480' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='400' y1='60' x2='400' y2='180' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='200' y2='320' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='600' y2='300' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='60' x2='200' y2='320' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='200' y1='320' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='400' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='500' y2='350' stroke='#111' stroke-width='1.6'/><path d='M 494 340 L 505 346 L 512 336' fill='none' stroke='#111' stroke-width='1.2'/><text x='393' y='52' font-family='Georgia,serif' font-size='22'>R</text><text x='383' y='178' font-family='Georgia,serif' font-size='22'>N</text><text x='178' y='325' font-family='Georgia,serif' font-size='22'>M</text><text x='608' y='300' font-family='Georgia,serif' font-size='22'>P</text><text x='393' y='425' font-family='Georgia,serif' font-size='22'>Q</text><text x='510' y='360' font-family='Georgia,serif' font-size='22'>S</text></svg>"
       },
-      "q_number": 24
+      "q_number": 24,
+      "figure_svg": "<svg viewBox='0 0 700 480' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='400' y1='60' x2='400' y2='180' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='200' y2='320' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='180' x2='600' y2='300' stroke='#111' stroke-width='1.4' stroke-dasharray='5,4'/><line x1='400' y1='60' x2='200' y2='320' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='200' y1='320' x2='400' y2='400' stroke='#111' stroke-width='1.6'/><line x1='400' y1='400' x2='600' y2='300' stroke='#111' stroke-width='1.6'/><line x1='400' y1='60' x2='500' y2='350' stroke='#111' stroke-width='1.6'/><path d='M 494 340 L 505 346 L 512 336' fill='none' stroke='#111' stroke-width='1.2'/><text x='393' y='52' font-family='Georgia,serif' font-size='22'>R</text><text x='383' y='178' font-family='Georgia,serif' font-size='22'>N</text><text x='178' y='325' font-family='Georgia,serif' font-size='22'>M</text><text x='608' y='300' font-family='Georgia,serif' font-size='22'>P</text><text x='393' y='425' font-family='Georgia,serif' font-size='22'>Q</text><text x='510' y='360' font-family='Georgia,serif' font-size='22'>S</text></svg>"
     },
     {
       "id": "P-FE5-M-DM18",
@@ -781,31 +799,32 @@
       "q_number": 26
     },
     {
-      "id": "P-FE5-M-KM3_Q111",
+      "id": "P-FE5-M-BM01",
       "question_type": "mc",
-      "question": "If x=5(2-y)(3^2-1), what is the value of y in terms of x?",
+      "question": "The decimal \\(0.08\\) can be written as the fraction \\(\\dfrac{x}{25}\\). What is the value of \\(x\\)?",
       "options": {
-        "A": "2-x/8",
-        "B": "x/40-2",
-        "C": "2-x/40",
-        "D": "(x-8)/40"
+        "A": "\\(2\\)",
+        "B": "\\(4\\)",
+        "C": "\\(8\\)",
+        "D": "\\(20\\)"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Simplify 3^2-1 = 8 first: x = 5(2-y)(8) = 40(2-y) = 80-40y.\nSolve for y: 40y = 80-x, so y = (80-x)/40 = 2 - x/40."
+        "exhibit_text": "\\(0.08=\\dfrac{8}{100}\\). Simplify: \\(\\dfrac{8}{100}=\\dfrac{2}{25}\\), so \\(x=2\\).\n\n(B) comes from treating \\(0.08\\) as \\(\\dfrac{1}{2}\\) of \\(8\\) incorrectly. (C) just takes the numerator of \\(\\dfrac{8}{100}\\) without simplifying. (D) multiplies \\(0.08\\times25\\times10\\) by mistake."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q111 (KM3_Q111)",
+      "base_source": "Exam B — Math Q1 (BM01)",
       "base_question": {
-        "question": "If x=4(3-y)(2^2-1), what is the value of y in terms of x?",
-        "options": {
-          "A": "(x-6)/4",
-          "B": "x/4-3",
-          "C": "4-x/3",
-          "D": "3-x/12"
-        },
-        "correct": "D",
+        "question": "The decimal \\(0.06\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "x=12(3-y)=36-12y -> y=(36-x)/12=3-x/12"
+          "letter": "A",
+          "exhibit_text": "(A) \\(0.06 = \\dfrac{6}{100}\\). Simplify the fraction to find the answer: \\(\\dfrac{6}{100} = \\dfrac{3}{50}\\), so \\(x = 3\\)."
+        },
+        "options": {
+          "A": "\\(3\\)",
+          "B": "\\(6\\)",
+          "C": "\\(12\\)",
+          "D": "\\(30\\)"
         }
       },
       "q_number": 27
@@ -901,31 +920,32 @@
       "q_number": 30
     },
     {
-      "id": "P-FE5-M-KM1_Q66",
+      "id": "P-FE5-M-DM44",
       "question_type": "mc",
-      "question": "A cyclist rides 6 km in 2/5 hour. How many meters does the cyclist ride per minute?",
+      "question": "A bakery charges $\\(1.50\\) for each cupcake and $\\(3.00\\) for a serving tray. The equation \\(p=3.00+1.50c\\) describes \\(p\\), the price of \\(c\\) cupcakes and a serving tray, **not** including tax. If Samantha bought some cupcakes and a serving tray for a total of $\\(24.00\\), not including tax, how many cupcakes did she buy?",
       "options": {
-        "A": "25",
-        "B": "100",
-        "C": "250",
-        "D": "400"
+        "A": "\\(9\\)",
+        "B": "\\(14\\)",
+        "C": "\\(16\\)",
+        "D": "\\(18\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Convert: 6 km = 6,000 m. 2/5 hour = 2/5 x 60 = 24 minutes.\n6,000 m / 24 min = 250 meters per minute."
+        "exhibit_text": "Substitute \\(24.00\\) for \\(p\\): \\(24.00=3.00+1.50c\\). Subtract: \\(21.00=1.50c\\). Divide: \\(c=14\\).\n\n(C) forgets to subtract the \\(\\$3.00\\) tray fee before dividing (\\(24\\div1.50=16\\)). (A) and (D) come from similar slips in the subtraction or division step."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q66 (KM1_Q66)",
+      "base_source": "Exam D — Math Q44 (DM44)",
       "base_question": {
-        "question": "Lucia speed walks 3 km in 2/3 hour. How many meters does she speed walk per minute?",
-        "options": {
-          "E": "0.75",
-          "F": "75",
-          "G": "750",
-          "H": "7500"
-        },
-        "correct": "F",
+        "question": "A bakery charges $\\(1.25\\) for each cupcake and $\\(2.50\\) for a serving tray. The equation describes \\(p\\), the price of \\(c\\) cupcakes and a serving tray, **not** including tax.\n\n\\[p = 2.50 + 1.25c\\]\n\nIf Samantha bought some cupcakes and a serving tray for a total of $\\(22.50\\), **not** including tax, how many cupcakes did she buy?",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "3000m/40min=75"
+          "letter": "C",
+          "exhibit_text": "(C) Using the specified equation \\(p = 2.50 + 1.25c\\), determine the number of cupcakes Samantha bought by substituting the total paid ($\\(22.50\\)) for \\(p\\), and solve the equation for the value of \\(c\\), the number of cupcakes bought.\n\n\\[22.50 = 2.50 + 1.25c\\]\n\\[22.50 - 2.50 = 1.25c\\]\n\\[20.00 \\div 1.25 = c\\]\n\\[16 = c\\]"
+        },
+        "options": {
+          "A": "\\(4\\)",
+          "B": "\\(9\\)",
+          "C": "\\(16\\)",
+          "D": "\\(18\\)"
         }
       },
       "q_number": 31
@@ -991,31 +1011,32 @@
       "q_number": 33
     },
     {
-      "id": "P-FE5-M-KM2_Q71",
+      "id": "P-FE5-M-GM02",
       "question_type": "mc",
-      "question": "A warehouse has 8 sections, S shelves per section, and each shelf holds B boxes. Which expression gives the total number of boxes in the warehouse?",
+      "question": "A gardener has a plot of land that is \\(10\\) feet by \\(15\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
       "options": {
-        "A": "8/(SB)",
-        "B": "8SB",
-        "C": "8S+B",
-        "D": "8S+8B"
+        "A": "\\(30\\)",
+        "B": "\\(66\\)",
+        "C": "\\(150\\)",
+        "D": "\\(216\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Total boxes = (number of sections) x (shelves per section) x (boxes per shelf) = 8 x S x B = 8SB."
+        "exhibit_text": "Original area: \\(10\\times15=150\\) sq ft. \\(20\\%\\) of \\(10\\) is \\(2\\), so the new length is \\(12\\); \\(20\\%\\) of \\(15\\) is \\(3\\), so the new width is \\(18\\). New area: \\(12\\times18=216\\) sq ft. Area added: \\(216-150=66\\) sq ft.\n\n(C) is just the original area. (D) is just the new total area, not the amount added. (A) comes from increasing only one side."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q71 (KM2_Q71)",
+      "base_source": "Exam G — Math Q2 (GM02)",
       "base_question": {
-        "question": "A building has 10 floors, R rooms per floor, and each room has C chairs. Which expresses the total number of chairs?",
-        "options": {
-          "A": "10/(RC)",
-          "B": "10RC",
-          "C": "10R+C",
-          "D": "10R+10C"
-        },
-        "correct": "B",
+        "question": "A gardener has a plot of land that is \\(10\\) feet by \\(20\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "10 floors x R rooms x C chairs = 10RC"
+          "letter": "C",
+          "exhibit_text": "Start by finding the total area of the plot before it increases. Plug the original dimensions into the area equation, \\(\\text{Area}=\\text{length}\\times\\text{width}\\), to find that \\(\\text{Area}=10\\times20=200\\).\n\nNext, find the new lengths for the plot. To make the math easier, find \\(10\\%\\) and double it to get to \\(20\\%\\). Start with the side length that is \\(10\\) feet. \\(10\\%\\) of \\(10\\) is \\(1\\), so \\(20\\%\\) of \\(10\\) is \\(2\\). The new length is \\(10+2=12\\). Do the same for the other side length. \\(10\\%\\) of \\(20\\) is \\(2\\), so \\(20\\%\\) of \\(20\\) is \\(4\\). The new length is \\(20+4=24\\).\n\nThe new area is \\(12\\times24=288\\). Finally, subtract the starting area from the new area to find how many square feet the plot increased by: \\(288-200=88\\)."
+        },
+        "options": {
+          "A": "\\(20\\)",
+          "B": "\\(35\\)",
+          "C": "\\(88\\)",
+          "D": "\\(180\\)"
         }
       },
       "q_number": 34
@@ -1081,32 +1102,28 @@
       "q_number": 36
     },
     {
-      "id": "P-FE5-M-KM3_Q86",
+      "id": "P-FE5-M-EM42",
       "question_type": "mc",
-      "question": "A recipe calls for 1/4 teaspoon of cumin and 1 2/3 teaspoons of salt. What is the ratio of cumin to salt in this recipe?",
+      "question": "If \\(\\dfrac{3}{4}(x-8)+\\dfrac{1}{4}x=15\\), what is the value of \\(x\\)?",
       "options": {
-        "A": "3:20",
-        "B": "1:4",
-        "C": "3:4",
-        "D": "4:3"
+        "A": "\\(7\\)",
+        "B": "\\(21\\)",
+        "C": "\\(23\\)",
+        "D": "\\(28\\)"
       },
-      "correct": "A",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Write both amounts as improper fractions: cumin = 1/4 tsp, salt = 5/3 tsp.\nRatio = (1/4) : (5/3). Multiply both sides by 12 to clear denominators: 3 : 20."
+        "exhibit_text": "Multiply every term by 4 to clear the fractions: \\(3(x-8)+x=60\\). Distribute: \\(3x-24+x=60\\), so \\(4x=84\\) and \\(x=21\\).\n\n(A) comes from a sign error when distributing (treating \\(\\tfrac34(x-8)\\) as \\(\\tfrac34x+8\\)). (C) forgets to distribute the \\(\\tfrac34\\) onto the \\(8\\). (D) drops the \\(\\tfrac14x\\) term entirely."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q86 (KM3_Q86)",
+      "base_source": "Exam E — Math Q42 (EM42)",
       "base_question": {
-        "question": "A recipe calls for 1/6 teaspoon of oregano and 1 1/4 teaspoons of pepper. What is the ratio of oregano to pepper?",
-        "options": {
-          "E": "1:12",
-          "F": "2:15",
-          "G": "1:3",
-          "H": "2:3"
-        },
-        "correct": "F",
+        "question": "If \\(\\dfrac{2}{3}(x-6)+\\dfrac{1}{2}x=10\\), what is the value of \\(x\\)?",
+        "correct": null,
         "solution": {
-          "exhibit_text": "(1/6)/(5/4) = 4/30=2/15"
-        }
+          "letter": "12",
+          "exhibit_text": "Clear the fractions by multiplying by the least common multiple of 3 and 2, which is 6.\n\n\\[6\\left[\\dfrac{2}{3}(x-6)+\\dfrac{1}{2}x=10\\right]\\]\n\\[4(x-6)+3x=60\\]\n\nNow distribute, combine like terms, and solve for \\(x\\).\n\n\\[4x-24+3x=60\\]\n\\[7x-24=60\\]\n\\[7x=84\\]\n\\[x=12\\]"
+        },
+        "grid_answer": "12"
       },
       "q_number": 37
     },
@@ -1201,31 +1218,32 @@
       "q_number": 40
     },
     {
-      "id": "P-FE5-M-KM1_Q89",
+      "id": "P-FE5-M-DM50",
       "question_type": "mc",
-      "question": "The population of a bacteria culture doubles every 13 hours. If the population is 50 at 3:20 p.m., at what time of day will the population have doubled twice?",
+      "question": "This table shows the number of birds that came to a bird feeder on Wednesday and Thursday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BIRDS AT BIRD FEEDER</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Birds</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Wednesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>50</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Thursday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>38</td></tr>\n</tbody></table>\n\nWhat was the percent decrease in the number of birds from Wednesday to Thursday?",
       "options": {
-        "A": "5:20 p.m.",
-        "B": "1:20 a.m.",
-        "C": "3:20 a.m.",
-        "D": "9:20 p.m."
+        "A": "\\(12\\%\\)",
+        "B": "\\(23\\%\\)",
+        "C": "\\(24\\%\\)",
+        "D": "\\(25\\%\\)"
       },
-      "correct": "A",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Two doublings take 13 + 13 = 26 hours.\n26 hours after 3:20 p.m. is 24 hours later (back to 3:20 p.m. the next day) plus 2 more hours: 5:20 p.m."
+        "exhibit_text": "Decrease: \\(50-38=12\\). Percent decrease is the decrease divided by the ORIGINAL (Wednesday) amount: \\(\\dfrac{12}{50}=0.24=24\\%\\).\n\n(A) reports the raw decrease (12) as if it were already a percent. (B) and (D) are rounding/division slips near the correct value."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q89 (KM1_Q89)",
+      "base_source": "Exam D — Math Q50 (DM50)",
       "base_question": {
-        "question": "The population of a bacteria doubles every 19 hours. If the population is 100 at 2:15 p.m., at what time will it have doubled twice?",
-        "options": {
-          "A": "2:15 a.m.",
-          "B": "4:15 a.m.",
-          "C": "6:15 a.m.",
-          "D": "4:15 p.m."
-        },
+        "question": "This table shows the number of birds that came to a bird feeder on Monday and Tuesday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BIRDS AT BIRD FEEDER</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Birds</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Monday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>30</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Tuesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>24</td></tr>\n</tbody></table>\n\nWhat was the percent decrease in the number of birds from Monday to Tuesday?",
         "correct": "B",
         "solution": {
-          "exhibit_text": "2 doublings = 38 hours later = 4:15am two days later"
+          "letter": "B",
+          "exhibit_text": "(B) To determine the percent decrease from Monday to Tuesday, first calculate the decrease in the number of birds at the feeder.\n\n\\[30 - 24 = 6\\]\n\nThe difference in the number of birds at the feeder divided by the number of birds on Monday will yield the percent decrease from Monday to Tuesday.\n\n\\[\\dfrac{6}{30} = 0.20\\]\n\n\\(0.20\\) represents \\(20\\%\\).\n\nThere was a \\(20\\%\\) decrease from Monday to Tuesday."
+        },
+        "options": {
+          "A": "\\(6\\%\\)",
+          "B": "\\(20\\%\\)",
+          "C": "\\(24\\%\\)",
+          "D": "\\(25\\%\\)"
         }
       },
       "q_number": 41
@@ -1291,31 +1309,32 @@
       "q_number": 43
     },
     {
-      "id": "P-FE5-M-KM2_Q63",
+      "id": "P-FE5-M-FM23",
       "question_type": "mc",
-      "question": "{3/13,4/13,5/13,6/13,7/13,8/13,9/13} — if a number is chosen at random from the set above, what is the probability the number chosen is less than 1/2?",
+      "question": "The least of a set of 4 consecutive multiples of 4 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{4}\\) in terms of \\(G\\)?",
       "options": {
-        "A": "3/7",
-        "B": "5/7",
-        "C": "1/2",
-        "D": "4/7"
+        "A": "\\(\\dfrac{3}{4}G-3\\)",
+        "B": "\\(\\dfrac{3}{4}G+3\\)",
+        "C": "\\(\\dfrac{1}{4}G-3\\)",
+        "D": "\\(3-\\dfrac{3}{4}G\\)"
       },
-      "correct": "D",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "1/2 equals 6.5/13. Values in the set less than that: 3/13, 4/13, 5/13, 6/13 — 4 of the 7 total values.\nProbability = 4/7."
+        "exhibit_text": "If \\(G\\) is the greatest of 4 consecutive multiples of 4, the least is \\(L=G-12\\). Substitute: \\(\\dfrac{2G+(G-12)}{4}=\\dfrac{3G-12}{4}=\\dfrac{3}{4}G-3\\).\n\nCheck with Picking Numbers: multiples \\(4,8,12,16\\) give \\(L=4,G=16\\): \\(\\dfrac{2(16)+4}{4}=9\\), and \\(\\tfrac34(16)-3=12-3=9\\). ✓\n\n(B) and (D) are sign errors on the constant or the whole expression. (C) uses the wrong coefficient on \\(G\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q63 (KM2_Q63)",
+      "base_source": "Exam F — Math Q23 (FM23)",
       "base_question": {
-        "question": "{2/11,3/11,4/11,5/11,6/11,7/11} — what is the probability a number chosen at random is less than 1/2?",
-        "options": {
-          "A": "5/11",
-          "B": "1/2",
-          "C": "2/3",
-          "D": "5/6"
-        },
-        "correct": "C",
+        "question": "The least of a set of 4 consecutive multiples of 3 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "4 of 6 values (2,3,4,5)/11 < 1/2(=5.5/11). 4/6=2/3"
+          "letter": "A",
+          "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-3\\), then \\(G-6\\), and fourth and last, \\(G-9\\). Thus, \\(G-9\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-9\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-9)}{3}\\]\n\\[\\dfrac{3G-9}{3}\\]\n\\[\\dfrac{3(G-3)}{3}\\]\n\\[G-3\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 3, such as 3, 6, 9, and 12. Plug in 3 for \\(L\\) and 12 for \\(G\\) in the original expression such that \\(\\dfrac{2(12)+3}{3}=\\dfrac{27}{3}=9\\). The correct choice will result in 9 when 12 is plugged in for \\(G\\), and the only choice to do so is (A)."
+        },
+        "options": {
+          "A": "\\(G-3\\)",
+          "B": "\\(3-2G\\)",
+          "C": "\\(\\dfrac{2}{3}G+\\dfrac{4}{3}\\)",
+          "D": "\\(\\dfrac{3}{2}G+1\\)"
         }
       },
       "q_number": 44
@@ -1381,31 +1400,32 @@
       "q_number": 46
     },
     {
-      "id": "P-FE5-M-KM3_Q77",
+      "id": "P-FE5-M-BM35",
       "question_type": "mc",
-      "question": "If Maria went shopping with $20, bought two items that cost the same amount, and ended up with a debt of $4, how much did each of the two items cost?",
+      "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-5, -2, 1,\\) and \\(4\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
       "options": {
-        "A": "$8",
-        "B": "$10",
-        "C": "$12",
-        "D": "$16"
+        "A": "\\(3\\)",
+        "B": "\\(4\\)",
+        "C": "\\(5\\)",
+        "D": "\\(6\\)"
       },
-      "correct": "C",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Maria spent her $20 plus went $4 into debt, so she spent a total of 20+4 = $24.\nSince the two items cost the same, each one cost 24/2 = $12."
+        "exhibit_text": "Midpoint of \\(\\overline{PQ}=\\dfrac{-5+(-2)}{2}=-3.5\\). Midpoint of \\(\\overline{RS}=\\dfrac{1+4}{2}=2.5\\). Distance between the midpoints: \\(2.5-(-3.5)=6\\).\n\n(A), (B), and (C) come from small arithmetic slips averaging the endpoints."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q77 (KM3_Q77)",
+      "base_source": "Exam B — Math Q35 (BM35)",
       "base_question": {
-        "question": "If Thomas went shopping with $15, bought two items that cost the same amount, and ended up with a debt of $5, how much did each item cost?",
-        "options": {
-          "A": "$5",
-          "B": "$10",
-          "C": "$15",
-          "D": "$20"
-        },
-        "correct": "B",
+        "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-3, -1, 0,\\) and \\(2\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "15+5=20 total spent, /2=10 each"
+          "letter": "C",
+          "exhibit_text": "(C)\n\nFind the midpoint of \\(PQ\\) and \\(RS\\):\n\nMidpoint of \\(PQ = \\dfrac{-1-(-3)}{2} = \\dfrac{2}{2} = 1\\) unit.\n\nThe midpoint of \\(PQ\\) is located \\(1\\) unit from each endpoint, so the midpoint is at \\(-2\\).\n\nMidpoint of \\(RS = \\dfrac{2-0}{2} = \\dfrac{2}{2} = 1\\) unit.\n\nThe midpoint of \\(RS\\) is located \\(1\\) unit from each endpoint, so the midpoint is at \\(1\\). The distance between the two midpoints is \\(1 - (-2) = 3\\) units."
+        },
+        "options": {
+          "A": "\\(1\\)",
+          "B": "\\(2\\)",
+          "C": "\\(3\\)",
+          "D": "\\(4\\)"
         }
       },
       "q_number": 47

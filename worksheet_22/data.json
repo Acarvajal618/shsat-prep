@@ -215,32 +215,33 @@
       "q_number": 7
     },
     {
-      "id": "P-HE3-M-KM1_Q64",
+      "id": "P-HE3-M-FM22",
       "question_type": "mc",
-      "question": "A pond contains 2,000 fish. If 30% of the fish are trout and the remaining fish are bass, how many fewer trout are there than bass?",
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q64 (KM1_Q64)",
+      "question": "Priya started her part-time job making $18 an hour. After one month, her wage increased by 10%. Two months later, she received an additional 30% increase. What was the total percentage increase in wages that Priya received?",
+      "base_source": "Exam F — Math Q22 (FM22)",
       "base_question": {
-        "question": "A pond contains 1,600 fish. If 25% of the fish are trout and the remaining fish are bass, how many fewer trout are there than bass?",
+        "question": "Sally started her summer job making $12 an hour. After three weeks, her wages increased by 20%. Two weeks later, she received an additional 15% increase. What was the total percentage increase in wages that Sally received?",
         "options": {
-          "E": "200",
-          "F": "400",
-          "G": "800",
-          "H": "1,200"
+          "A": "20%",
+          "B": "35%",
+          "C": "38%",
+          "D": "71%"
         },
-        "correct": "G",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "Trout: 25% of 1,600 = 400. Bass: 1,600 - 400 = 1,200. Difference: 1,200 - 400 = 800."
+          "letter": "C",
+          "exhibit_text": "The formula for calculating percent increase is \\(\\text{Percent Change}=\\dfrac{\\text{Change}}{\\text{Original}}\\times100\\%\\). The question gives you the original amount ($12), but you need to calculate Sally's final wage before you can use the formula.\n\nHer first increase was by 20%: \\(\\$12\\times1.20=\\$12(1+0.20)=\\$12+\\$2.40=\\$14.40\\). The final increase was by 15%, so:\n\n\\[\\$14.40\\times1.15=\\$14.40(1+0.10+0.05)\\]\n\\[=\\$14.40+\\$1.44+\\$0.72\\]\n\\[=\\$16.56\\]\n\n(Note: adding a 1 before the percentage includes the original whole in the new total wage and saves you the need to add the increase to the original amount.)\n\nNext, put the starting and ending wages into the percent change formula:\n\n\\[\\text{Percent Change}=\\dfrac{16.56-12}{12}\\times100\\%\\]\n\\[=\\dfrac{4.56}{12}\\times100\\%\\]\n\\[=38\\%\\]"
         }
       },
       "options": {
-        "A": "\\(400\\)",
-        "B": "\\(600\\)",
-        "C": "\\(800\\)",
-        "D": "\\(1{,}000\\)"
+        "A": "40%",
+        "B": "30%",
+        "C": "43%",
+        "D": "33%"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Trout: 30% of 2,000 = 600. Bass: 2,000 - 400 = 1,200. Difference: 1,200 - 400 = 800."
+        "exhibit_text": "First increase: \\(18\\times1.10=19.80\\). Second increase: \\(19.80\\times1.30=25.74\\). Percent change: \\(\\dfrac{25.74-18}{18}\\times100\\%=43\\%\\).\n\n(A) wrongly adds the two percentages (10+30=40), ignoring that the second increase applies to the already-raised wage. (B) uses only the second increase and ignores the first. (D) mistakenly uses the once-increased wage ($19.80) as the \"original\" instead of $18."
       },
       "q_number": 8
     },
@@ -335,62 +336,59 @@
       "q_number": 11
     },
     {
-      "id": "P-HE3-M-KM3_Q97",
+      "id": "P-HE3-M-AM27",
       "question_type": "mc",
-      "question": "On Monday, a vendor sold 3 items with a mean sale price of $100. On Tuesday, she sold 7 items with a mean sale price of $130. What was the mean sale price, to the nearest dollar, for all 10 items sold on Monday and Tuesday?",
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q97 (KM3_Q97)",
+      "question": "Solve the equation for \\(x\\): \\(18 = -0.25(x + 12)\\)",
+      "base_source": "Exam A — Math Q27 (AM27)",
       "base_question": {
-        "question": "On Friday, Marvin sold 4 suits that had a mean sale price of $125. On Saturday, he sold 6 suits that had a mean sale price of $140. What was the mean sale price, to the nearest dollar, for all 10 of the suits he sold on Friday and Saturday?",
-        "options": {
-          "A": "$130",
-          "B": "$132",
-          "C": "$133",
-          "D": "$134"
-        },
-        "correct": "D",
+        "question": "Complete the steps to show one way to solve the equation \\(24 = -0.5(x + 8)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used.\n\n\\(24 = -0.5(x + 8)\\)\n\\(24 = -0.5x +\\) [BOX_1]\n[BOX_2] \\(= -0.5x\\)\n[BOX_3] \\(= x\\)",
+        "options": null,
+        "correct": null,
         "solution": {
-          "exhibit_text": "Friday total: 4 × $125 = $500. Saturday total: 6 × $140 = $840. Combined mean: (500+840)/10 = $134."
+          "letter": null,
+          "exhibit_text": "Solution:\n\nAnswer for second equation: \\(-4\\)\nAnswer for third equation: \\(28\\)\nAnswer for fourth equation: \\(-56\\)\n\n\\(24 = -0.5(x + 8)\\)\n\nDistribute the \\(-0.5\\) on the right side of the equation: \\(24 = -0.5x - 4\\).\n\nAdd \\(4\\) to both sides of the equation to eliminate the \\(-4\\) on the right side: \\(28 = -0.5x\\).\n\nDivide both sides by \\(-0.5\\): \\(-56 = x\\)."
         }
       },
       "options": {
-        "A": "\\(\\$115\\)",
-        "B": "\\(\\$118\\)",
-        "C": "\\(\\$121\\)",
-        "D": "\\(\\$124\\)"
+        "A": "\\(-60\\)",
+        "B": "\\(84\\)",
+        "C": "\\(-84\\)",
+        "D": "\\(-48\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Friday total: 3 × $100 = $300. Saturday total: 7 × $130 = $910. Combined mean: (300+910)/10 = $121."
+        "exhibit_text": "Distribute: \\(18=-0.25x-3\\). Add 3 to both sides: \\(21=-0.25x\\). Divide by \\(-0.25\\): \\(x=-84\\).\n\n(A) comes from a sign error while distributing, treating \\(-0.25(x+12)\\) as \\(-0.25x+3\\). (B) comes from dropping the negative sign when dividing by \\(-0.25\\). (D) comes from misreading the coefficient as \\(-0.5\\) instead of \\(-0.25\\)."
       },
       "q_number": 12
     },
     {
-      "id": "P-HE3-M-KM2_Q92",
+      "id": "P-HE3-M-GM26",
       "question_type": "mc",
-      "question": "Tom completed a puzzle in 45.36 seconds. Jerry completed the same puzzle in 45.18 seconds. What was the difference between their times, expressed as a fraction of a second?",
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q92 (KM2_Q92)",
+      "question": "Devon ate \\(\\dfrac{1}{4}\\) of a pizza. Mia ate \\(2\\) times as much of the same pizza as Devon ate. What is the ratio of the amount of the pizza both of them ate to the amount of the pizza remaining?",
+      "base_source": "Exam G — Math Q26 (GM26)",
       "base_question": {
-        "question": "Lisa completed a math competition problem in 33.24 seconds. Deidra completed the same problem in 33.09 seconds. What was the difference between their times, expressed as a fraction of a second?",
+        "question": "Vincent ate \\(\\dfrac{1}{5}\\) of a protein bar. Austin ate \\(3\\) times as much of the same protein bar as Vincent ate. What is the ratio of the amount of the protein bar both of them ate to the amount of the protein bar remaining?",
         "options": {
-          "E": "\\(\\dfrac{1}{20}\\)",
-          "F": "\\(\\dfrac{1}{15}\\)",
-          "G": "\\(\\dfrac{3}{20}\\)",
-          "H": "\\(\\dfrac{1}{5}\\)"
+          "A": "\\(1{:}1\\)",
+          "B": "\\(1{:}4\\)",
+          "C": "\\(4{:}5\\)",
+          "D": "\\(4{:}1\\)"
         },
-        "correct": "G",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "Difference: 33.24 - 33.09 = 0.15 seconds = 15/100 = 3/20."
+          "letter": "D",
+          "exhibit_text": "Identify the type of ratio you are looking for. In this case, it is part:part. You need to decide which parts you have. First, figure out how much Austin ate: \\(\\dfrac{1}{5}\\times3=\\dfrac{3}{5}\\). Now find how much they ate together: \\(\\dfrac{1}{5}+\\dfrac{3}{5}=\\dfrac{4}{5}\\). Figure out how much is left: \\(1-\\dfrac{4}{5}=\\dfrac{5}{5}-\\dfrac{4}{5}=\\dfrac{1}{5}\\).\n\nLast, take the two parts you need:\n\n[what they both ate]:[what is left]\n\n\\(\\dfrac{4}{5}{:}\\dfrac{1}{5}=4{:}1\\)."
         }
       },
       "options": {
-        "A": "\\(\\dfrac{1}{10}\\)",
-        "B": "\\(\\dfrac{9}{50}\\)",
-        "C": "\\(\\dfrac{1}{5}\\)",
-        "D": "\\(\\dfrac{3}{10}\\)"
+        "A": "\\(1{:}1\\)",
+        "B": "\\(1{:}3\\)",
+        "C": "\\(3{:}4\\)",
+        "D": "\\(3{:}1\\)"
       },
-      "correct": "B",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Difference: 45.36 - 45.18 = 0.18 seconds = 18/100 = 9/50."
+        "exhibit_text": "Mia ate \\(2\\times\\dfrac{1}{4}=\\dfrac{1}{2}\\) of the pizza. Together they ate \\(\\dfrac{1}{4}+\\dfrac{1}{2}=\\dfrac{3}{4}\\). What remains is \\(1-\\dfrac{3}{4}=\\dfrac{1}{4}\\). The ratio of eaten to remaining is \\(\\dfrac{3}{4}{:}\\dfrac{1}{4}=3{:}1\\).\n\n(B) flips the correct ratio. (C) confuses part-to-part with part-to-whole (amount eaten out of the whole pizza)."
       },
       "q_number": 13
     },
@@ -426,32 +424,33 @@
       "q_number": 14
     },
     {
-      "id": "P-HE3-M-KM2_Q76",
+      "id": "P-HE3-M-FM41",
       "question_type": "mc",
-      "question": "The perimeter of a decagon is 172 centimeters. The length of one side is 34 centimeters. The length of another side is 42 centimeters. All the remaining 8 sides are equal in length to each other. What is the length of each of the remaining sides, in centimeters?",
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q76 (KM2_Q76)",
+      "question": "Points P, Q, R, S, T, U, V, and W are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points P and W is 63, what is the distance between points Q and T?",
+      "base_source": "Exam F — Math Q41 (FM41)",
       "base_question": {
-        "question": "The perimeter of a decagon is 160 centimeters. The length of one side is 36 centimeters. The length of another side is 44 centimeters. All the remaining sides are equal in length to each other. What is the length of each of the remaining sides, in centimeters?",
+        "question": "Points A, B, C, D, E, F, G, and H are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points A and H is 56, what is the distance between points B and E?",
         "options": {
-          "E": "6",
-          "F": "8",
-          "G": "10",
-          "H": "16"
+          "A": "16",
+          "B": "18",
+          "C": "21",
+          "D": "24"
         },
-        "correct": "G",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "Remaining length: 160 - 36 - 44 = 80 cm split across 8 equal sides: 80 / 8 = 10 cm each."
+          "letter": "D",
+          "exhibit_text": "Because the distance between each pair of adjacent points is the same, each of the 7 segments \\(\\overline{AB},\\overline{BC},\\overline{CD},\\overline{DE},\\overline{EF},\\overline{FG}\\), and \\(\\overline{GH}\\) has the same length. These 7 segments make up segment \\(\\overline{AH}\\). Since the length of \\(\\overline{AH}\\) is 56, the length of each of the 7 small segments is \\(56\\div7\\), or 8. The distance between points B and E is the sum of the lengths of the 3 equal segments \\(\\overline{BC}\\), \\(\\overline{CD}\\), and \\(\\overline{DE}\\), so the distance between points B and E is \\(3\\times8\\), or 24."
         }
       },
       "options": {
-        "A": "\\(12\\)",
-        "B": "\\(8\\)",
-        "C": "\\(10\\)",
-        "D": "\\(14\\)"
+        "A": "\\(18\\)",
+        "B": "\\(45\\)",
+        "C": "\\(36\\)",
+        "D": "\\(27\\)"
       },
-      "correct": "A",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Remaining length: 172 - 34 - 42 = 96 cm across 8 equal sides: 96 / 8 = 12 cm each."
+        "exhibit_text": "There are 7 equal segments between P and W, so each segment is \\(63\\div7=9\\). The distance from Q to T spans 3 of those segments (\\(\\overline{QR},\\overline{RS},\\overline{ST}\\)), so Q to T \\(=3\\times9=27\\).\n\n(A) uses only 2 segments, (C) uses 4 segments, and (B) uses 5 segments instead of the correct 3."
       },
       "q_number": 15
     },
@@ -546,92 +545,95 @@
       "q_number": 18
     },
     {
-      "id": "P-HE3-M-KM3_Q101",
+      "id": "P-HE3-M-BM22",
       "question_type": "mc",
-      "question": "The average (arithmetic mean) of 20 numbers is 5. The average of these 20 numbers and a 21st number is 6. What is the 21st number?",
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q101 (KM3_Q101)",
+      "question": "A commemorative medal is made from an alloy of four metals—gold, silver, copper, and tin—with weights in the ratio of \\(220{:}15{:}10{:}5\\), respectively. The medal weighs a total of \\(10\\) grams. What is the weight of the silver in this medal?",
+      "base_source": "Exam B — Math Q22 (BM22)",
       "base_question": {
-        "question": "The average (arithmetic mean) of 16 numbers is 3. The average of these 16 numbers and a seventeenth number is 4. What is the seventeenth number?",
+        "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
         "options": {
-          "A": "12",
-          "B": "17",
-          "C": "18",
-          "D": "20"
+          "A": "\\(0.28\\) gram",
+          "B": "\\(0.48\\) gram",
+          "C": "\\(0.96\\) gram",
+          "D": "\\(48\\) grams"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "Sum of 16 numbers: 16 × 3 = 48. Sum of all 17 numbers: 17 × 4 = 68. The 17th number: 68 - 48 = 20."
+          "letter": "B",
+          "exhibit_text": "(B) Add the four values in the ratio (\\(177 + 12 + 7 + 4 = 200\\)) and use the sum as the denominator. Use that to find the fraction of zinc in one of the coins. Then reduce the fraction:\n\n\\[\\dfrac{12}{200} = \\dfrac{3}{50}\\]\n\nMultiply this fraction by \\(8\\) to find the number of grams of zinc in decimal form:\n\n\\[\\dfrac{3}{50} \\times 8 = \\dfrac{24}{50} = 0.48 \\text{ g}\\]"
         }
       },
       "options": {
-        "A": "\\(20\\)",
-        "B": "\\(26\\)",
-        "C": "\\(23\\)",
-        "D": "\\(29\\)"
+        "A": "\\(0.06\\) gram",
+        "B": "\\(1.2\\) grams",
+        "C": "\\(0.6\\) gram",
+        "D": "\\(6\\) grams"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Sum of 20 numbers: 20 × 5 = 100. Sum of all 21 numbers: 21 × 6 = 126. The 21st number: 126 - 100 = 26."
+        "exhibit_text": "Add the ratio parts: \\(220+15+10+5=250\\). Silver's share is \\(\\dfrac{15}{250}=\\dfrac{3}{50}\\). Multiply by the total weight: \\(\\dfrac{3}{50}\\times10=0.6\\) gram.\n\n(A) is off by a factor of 10 (a decimal-placement slip). (D) comes from multiplying the fraction by 100 instead of by the actual weight of 10 grams. (B) is double the correct amount."
       },
       "q_number": 19
     },
     {
-      "id": "P-HE3-M-KM1_Q85",
+      "id": "P-HE3-M-CM45",
       "question_type": "mc",
-      "question": "Maria answered 42 out of 60 questions correctly on her science exam. What percentage of the questions did Maria answer correctly?",
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q85 (KM1_Q85)",
+      "question": "Jasmine earns $16 per hour at her job. She wants to change to a job that will pay $20 per hour. What will be the percent increase in Jasmine's hourly pay if she makes this job change?",
+      "base_source": "Exam C — Math Q45 (CM45)",
       "base_question": {
-        "question": "Joe answered 37 out of 50 questions correctly on his history exam. What percentage of the questions did he get wrong?",
+        "question": "Malik earns $\\(10\\) per hour at his job. He wants to change to a job that will pay $\\(12\\) per hour. What will be the percent increase in Malik's hourly pay if he makes this job change?",
         "options": {
-          "A": "13%",
-          "B": "26%",
-          "C": "37%",
-          "D": "74%"
+          "A": "\\(2\\%\\)",
+          "B": "\\(20\\%\\)",
+          "C": "\\(83\\%\\)",
+          "D": "\\(120\\%\\)"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "37 correct out of 50 total: 37/50 = 0.74 = 74%."
+          "letter": "B",
+          "exhibit_text": "(B) Subtract to determine the amount of increase in Malik's hourly pay if he changes jobs.\n\n\\[12 - 10 = 2\\]\n\nDivide the increase amount by the original hourly pay rate.\n\n\\[2 \\div 10 = 0.2\\]\n\nMultiply the quotient by \\(100\\) to express the decimal amount as a percentage.\n\n\\[0.2 \\times 100 = 20\\]"
         }
       },
       "options": {
-        "A": "\\(60\\%\\)",
-        "B": "\\(65\\%\\)",
-        "C": "\\(75\\%\\)",
-        "D": "\\(70\\%\\)"
+        "A": "\\(2.5\\%\\)",
+        "B": "\\(20\\%\\)",
+        "C": "\\(25\\%\\)",
+        "D": "\\(125\\%\\)"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "42/60 = 0.70 = 70%."
+        "exhibit_text": "The increase is \\(20-16=4\\). Divide by the original rate: \\(4\\div16=0.25=25\\%\\).\n\n(B) mistakenly divides the increase by the NEW rate (\\(4\\div20=20\\%\\)) instead of the original rate. (D) mistakenly computes the new rate as a percentage of the old rate (\\(20\\div16=125\\%\\)) rather than finding the percent increase."
       },
       "q_number": 20
     },
     {
-      "id": "P-HE3-M-KM2_Q77",
+      "id": "P-HE3-M-CM36",
       "question_type": "mc",
-      "question": "The sum of two consecutive integers is -15. If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q77 (KM2_Q77)",
+      "question": "A deck of \\(50\\) playing cards contains \\(10\\) diamonds. Jake has \\(15\\) cards from this deck in his hand, \\(5\\) of which are diamonds. The other cards remain in the deck. What is the probability that a card drawn at random from the remainder of the deck will be a diamond?",
+      "base_source": "Exam C — Math Q36 (CM36)",
       "base_question": {
-        "question": "The sum of two consecutive integers is -9. If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
+        "question": "A deck of \\(52\\) playing cards contains \\(13\\) hearts. Sara has \\(12\\) cards from this deck in her hand, \\(3\\) of which are hearts. The other cards remain in the deck. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
         "options": {
-          "A": "-14",
-          "B": "-11",
-          "C": "-10",
-          "D": "-9"
+          "A": "\\(\\dfrac{1}{10}\\)",
+          "B": "\\(\\dfrac{1}{4}\\)",
+          "C": "\\(\\dfrac{3}{13}\\)",
+          "D": "\\(\\dfrac{1}{3}\\)"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "Let the integers be n and n+1: n + (n+1) = -9, so n = -5 and the larger is -4. Double the smaller: 2(-5) = -10. Add 3 to the larger: -4 + 3 = -1. Sum: -10 + (-1) = -11."
+          "letter": "B",
+          "exhibit_text": "(B) First, determine the number of cards in the remaining deck:\n\n\\[52 - 12 = 40\\]\n\nNext, determine the number of hearts left in the remaining deck:\n\n\\[13 - 3 = 10\\]\n\nLast, determine the probability of drawing a heart from the remaining deck:\n\n\\[\\dfrac{10 \\text{ hearts remaining}}{40 \\text{ total cards remaining}} = \\dfrac{10}{40} = \\dfrac{1}{4}\\]"
         }
       },
       "options": {
-        "A": "\\(-23\\)",
-        "B": "\\(-18\\)",
-        "C": "\\(-20\\)",
-        "D": "\\(-15\\)"
+        "A": "\\(\\dfrac{1}{10}\\)",
+        "B": "\\(\\dfrac{1}{7}\\)",
+        "C": "\\(\\dfrac{1}{5}\\)",
+        "D": "\\(\\dfrac{1}{3}\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Let the integers be n and n+1: n + (n+1) = -15, so n = -8 and the larger is -7. Double the smaller: 2(-8) = -16. Add 3 to the larger: -7+3 = -4. Sum: -16 + (-4) = -20."
+        "exhibit_text": "Cards remaining in the deck: \\(50-15=35\\). Diamonds remaining: \\(10-5=5\\). Probability: \\(\\dfrac{5}{35}=\\dfrac{1}{7}\\).\n\n(A) mistakenly uses the original deck size of 50 instead of the remaining 35. (C) uses the fraction of diamonds in the original full deck (\\(10/50\\)), ignoring that any were removed. (D) mixes up the hand and the deck, computing diamonds-in-hand over hand-size (\\(5/15\\))."
       },
       "q_number": 21
     },
@@ -667,32 +669,33 @@
       "q_number": 22
     },
     {
-      "id": "P-HE3-M-KM3_Q95",
+      "id": "P-HE3-M-BM26",
       "question_type": "mc",
-      "question": "If -1 < y < 0, which of the following has the **greatest** value?",
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q95 (KM3_Q95)",
+      "question": "Simplify this expression:\n\n\\[5(6 - 2x) - (7 - x)\\]",
+      "base_source": "Exam B — Math Q26 (BM26)",
       "base_question": {
-        "question": "If \\(-1 < y < 0\\), which of the following has the greatest value?",
+        "question": "Simplify this expression:\n\n\\[4(7 - 3x) - (5 - x)\\]",
         "options": {
-          "A": "\\(y^2\\)",
-          "B": "\\(1-y\\)",
-          "C": "\\(1+y\\)",
-          "D": "\\(2y\\)"
+          "A": "\\(23 - 4x\\)",
+          "B": "\\(23 - 11x\\)",
+          "C": "\\(28 - 4x\\)",
+          "D": "\\(28 - 12x\\)"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "Test a value like y = -0.5: y² = 0.25, 1-y = 1.5, 1+y = 0.5, 2y = -1. Since y is negative, \"1 - y\" always adds a positive amount to 1, making it the largest of the four for any y in this range."
+          "letter": "B",
+          "exhibit_text": "(B)\n\n\\[4(7 - 3x) - (5 - x) = 28 - 12x - 5 + x\\]\n\\[= 23 - 11x\\]"
         }
       },
       "options": {
-        "A": "\\(y^2\\)",
-        "B": "\\(2 - y\\)",
-        "C": "\\(2 + y\\)",
-        "D": "\\(3y\\)"
+        "A": "\\(23 - 11x\\)",
+        "B": "\\(37 - 9x\\)",
+        "C": "\\(23 - 9x\\)",
+        "D": "\\(30 - 11x\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Test y = -0.5: y² = 0.25, 2-y = 2.5, 2+y = 1.5, 3y = -1.5. Since y is negative, \"2 - y\" always adds a positive amount to 2, making it the largest for any y in this range."
+        "exhibit_text": "\\[5(6-2x)-(7-x)=30-10x-7+x=23-9x\\]\n\n(A) comes from a sign error, distributing \\(-(7-x)\\) as \\(-7-x\\) instead of \\(-7+x\\). (B) and (D) come from arithmetic slips combining the constant and \\(x\\)-terms."
       },
       "q_number": 23
     },
@@ -727,32 +730,33 @@
       "q_number": 24
     },
     {
-      "id": "P-HE3-M-KM2_Q100",
+      "id": "P-HE3-M-CM27",
       "question_type": "mc",
-      "question": "Erin has a box of quarters from various states in the Northeast. The box contains 8 quarters from New York, 5 from Pennsylvania, 3 from Delaware, and 4 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are not from New York?",
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q100 (KM2_Q100)",
+      "question": "Some friends are buying bags of rice for a food drive. The graph shows the cost of the rice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?\n\n(RICE COSTS graph: y-axis Cost (dollars) from 0 to 4.0; x-axis Weight of Rice (lb) from 0 to 24; a straight line from the origin through (12, 2.0) and (24, 4.0).)",
+      "base_source": "Exam C — Math Q27 (CM27)",
       "base_question": {
-        "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are not from New York?",
+        "question": "Some friends are buying bags of ice for a picnic. The graph shows the cost of the ice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?\n\n(ICE COSTS graph: y-axis Cost (dollars) from 0 to 3.0; x-axis Weight of Ice (lb) from 0 to 20; a straight line from origin through (10, 1.5) and (20, 3.0).)",
         "options": {
-          "E": "\\(\\dfrac{12}{35}\\)",
-          "F": "\\(\\dfrac{7}{13}\\)",
-          "G": "\\(\\dfrac{4}{7}\\)",
-          "H": "\\(\\dfrac{6}{7}\\)"
+          "A": "The point \\((20, 3)\\) means that \\(3\\) lbs of ice costs $\\(20.00\\).",
+          "B": "The point \\((1, 0.15)\\) means that \\(1\\) bag of ice costs $\\(0.15\\).",
+          "C": "The point \\((10, 1.5)\\) means that \\(10\\) lbs of ice costs $\\(1.50\\).",
+          "D": "The point \\((0, 0)\\) means that \\(0\\) lbs of ice will be needed if \\(0\\) people go to the picnic."
         },
-        "correct": "E",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "Not-New-York quarters: 15 - 6 = 9. P(1st not NY) = 9/15. P(2nd not NY | 1st not NY) = 8/14. P(both) = (9/15)(8/14) = 72/210 = 12/35."
+          "letter": "C",
+          "exhibit_text": "(C) The \\(x\\)-axis represents the weight, in pounds (lbs), of ice purchased, and the \\(y\\)-axis represents the cost of the ice, in dollars.\n\nThe \\(x\\)-value in the point \\((10, 1.5)\\) represents \\(10\\) lbs of ice, and the \\(y\\)-value represents \\(1.5\\) dollars, or $\\(1.50\\). Therefore, the cost of \\(10\\) lbs of ice is $\\(1.50\\)."
         }
       },
       "options": {
-        "A": "\\(\\dfrac{12}{19}\\)",
-        "B": "\\(\\dfrac{33}{95}\\)",
-        "C": "\\(\\dfrac{3}{5}\\)",
-        "D": "\\(\\dfrac{9}{20}\\)"
+        "A": "The point \\((24, 4)\\) means that \\(4\\) lbs of rice costs $\\(24.00\\).",
+        "B": "The point \\((1, 0.1\\overline{6})\\) means that \\(1\\) bag of rice costs $\\(0.17\\).",
+        "C": "The point \\((12, 2)\\) means that \\(12\\) lbs of rice costs $\\(2.00\\).",
+        "D": "The point \\((0, 0)\\) means that \\(0\\) lbs of rice will be needed if \\(0\\) friends go to the food drive."
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Not-New-York quarters: 20 - 8 = 12. P(1st not NY) = 9/20. P(2nd not NY | 1st not NY) = 11/19. P(both) = (9/20)(11/19) = 132/380 = 33/95."
+        "exhibit_text": "The \\(x\\)-axis represents the weight of rice in pounds, and the \\(y\\)-axis represents the cost in dollars. The point \\((12,2)\\) means \\(12\\) lbs of rice costs $2.00.\n\n(A) swaps the meaning of the two axes. (B) misreads the units as \"bags\" rather than pounds. (D) draws an unsupported real-world conclusion the graph doesn't describe (it relates weight to cost, not people to weight)."
       },
       "q_number": 25
     }
