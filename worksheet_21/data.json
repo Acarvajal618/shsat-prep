@@ -445,16 +445,16 @@
     {
       "id": "P-HE2-CM38",
       "question_type": "mc",
-      "question": "This formula can be used to determine \\(t\\), the number of minutes it takes to print \\(n\\) photos, printing at an average of \\(r\\) minutes per photo, with \\(s\\) extra minutes needed to set up the printer.\n\n\\[t = \\dfrac{1}{r}n + s\\]\n\nIf the formula is solved for \\(n\\), what will the formula be?",
+      "question": "This formula can be used to determine \\(t\\), the number of minutes it takes to print \\(n\\) photos, printing at an average of \\(r\\) minutes per photo, with \\(s\\) extra minutes needed to set up the printer.\n\n\\[t = \\dfrac{1}{r}n + s\\]\n\nIf the formula is solved for \\(r\\), what will the formula be?",
       "options": {
-        "A": "\\(n = r + t + s\\)",
-        "B": "\\(n = \\dfrac{1}{r}t + s\\)",
-        "C": "\\(n = s + rt\\)",
-        "D": "\\(n = r(t - s)\\)"
+        "A": "\\(r = \\dfrac{n}{t-s}\\)",
+        "B": "\\(r = \\dfrac{t-s}{n}\\)",
+        "C": "\\(r = n(t-s)\\)",
+        "D": "\\(r = \\dfrac{n}{t}-s\\)"
       },
-      "correct": "D",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "(D) Subtract \\(s\\) from both sides: \\(t-s=\\dfrac{1}{r}n\\). Multiply both sides by \\(r\\): \\(r(t-s)=n\\), so \\(n=r(t-s)\\)."
+        "exhibit_text": "Subtract \\(s\\) from both sides: \\(t-s=\\dfrac{1}{r}n\\), which is the same as \\(t-s=\\dfrac{n}{r}\\). Multiply both sides by \\(r\\): \\(r(t-s)=n\\). Divide both sides by \\((t-s)\\): \\(r=\\dfrac{n}{t-s}\\).\n\n(B) flips the fraction upside down. (C) multiplies by \\((t-s)\\) instead of dividing by it. (D) subtracts \\(s\\) at the wrong point, after dividing instead of before."
       },
       "base_source": "Exam C — Math Q38 (CM38)",
       "base_question": {
