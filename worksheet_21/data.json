@@ -1,35 +1,34 @@
 {
   "math_questions": [
     {
-      "id": "P-HE2-KM2_Q68",
+      "id": "P-HE2-EM27",
       "question_type": "mc",
-      "question": "According to the bar graph above, January donations accounted for approximately what percent of the total first-quarter donations?",
+      "question": "A specific blend of trail mix is made by combining the following ingredients: 2 parts peanuts, 6 parts raisins, 5 parts pretzels, and 7 parts chocolate chips. One batch of this trail mix requires 400 ounces total. How many total ounces of raisins are required to make 3 identical batches?",
       "options": {
-        "E": "12½\\%",
-        "F": "20\\%",
-        "G": "30\\%",
-        "H": "50\\%"
+        "A": "120",
+        "B": "300",
+        "C": "360",
+        "D": "420"
       },
-      "correct": "F",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "The total first-quarter donations are \\(10+15+25=50\\). January's share is \\(\\dfrac{10}{50}=20\\%\\)."
+        "exhibit_text": "Start by finding the total number of parts in the mixture: \\(2+6+5+7=20\\) parts. Since one batch is 400 ounces total, each part is \\(400\\div20=20\\) ounces. Raisins make up 6 parts, so one batch contains \\(6\\times20=120\\) ounces of raisins. For 3 identical batches, that's \\(120\\times3=360\\) ounces.\n\n(A) is the amount of raisins for just 1 batch — forgetting to multiply by 3 batches. (B) and (D) use the wrong ingredient's part count (pretzels' 5 parts or chocolate chips' 7 parts) instead of raisins' 6 parts."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q68 (KM2_Q68)",
+      "base_source": "Exam E — Math Q27 (EM27)",
       "base_question": {
-        "question": "According to the bar graph above, April sales accounted for approximately what percent of the total second-quarter sales?",
+        "question": "A particular brand of asphalt used to pave driveways is made by mixing the following ingredients: 1 part asphalt cement, 12 parts sand, 4 parts gravel, and 3 parts porous stone. Covering one driveway requires 200 cubic feet of this asphalt. How many total cubic feet of sand are required to cover 6 identical driveways?",
         "options": {
-          "E": "12½%",
-          "F": "25%",
-          "G": "37½%",
-          "H": "50%"
+          "A": "100",
+          "B": "120",
+          "C": "360",
+          "D": "720"
         },
-        "correct": "H",
+        "correct": "D",
         "solution": {
-          "exhibit_image": "kaplan_2025_2/solutions/Q68.jpg"
-        },
-        "figure_svg": "<svg viewBox=\"0 0 320 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">SECOND QUARTER SALES</text><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"260\" x2=\"355\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"260.0\" x2=\"70\" y2=\"260.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"264.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">0</text><line x1=\"66\" y1=\"205.0\" x2=\"70\" y2=\"205.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"209.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">10</text><line x1=\"66\" y1=\"150.0\" x2=\"70\" y2=\"150.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"154.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">20</text><line x1=\"66\" y1=\"95.0\" x2=\"70\" y2=\"95.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"99.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">30</text><line x1=\"66\" y1=\"40.0\" x2=\"70\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"44.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">40</text><text x=\"18\" y=\"150.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\" transform=\"rotate(-90 18,150.0)\">Sales (in Millions of Dollars)</text><rect x=\"90\" y=\"40.0\" width=\"55\" height=\"220.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"117.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">April</text><rect x=\"185\" y=\"205.0\" width=\"55\" height=\"55.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"212.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">May</text><rect x=\"280\" y=\"95.0\" width=\"55\" height=\"165.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"307.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">June</text></svg>"
+          "letter": "D",
+          "exhibit_text": "Start by finding the total number of parts represented by the mixture. The ratio is 1:12:4:3, so the total number of parts is 20. Since there are 12 parts sand, the fraction of sand is:\n\n\\[\\dfrac{12}{20} = \\dfrac{3}{5}\\]\n\nThus, the amount of sand in 200 cubic feet of asphalt (for 1 driveway) is:\n\n\\[\\dfrac{3}{5} \\times 200 = 120 \\text{ cubic feet}\\]\n\nTo cover 6 identical driveways, that would be \\(120 \\times 6 = 720\\) cubic feet."
+        }
       },
-      "figure_svg": "<svg viewBox=\"0 0 320 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">FIRST QUARTER DONATIONS</text><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"260\" x2=\"355\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"260.0\" x2=\"70\" y2=\"260.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"264.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">0</text><line x1=\"66\" y1=\"205.0\" x2=\"70\" y2=\"205.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"209.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">10</text><line x1=\"66\" y1=\"150.0\" x2=\"70\" y2=\"150.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"154.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">20</text><line x1=\"66\" y1=\"95.0\" x2=\"70\" y2=\"95.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"99.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">30</text><line x1=\"66\" y1=\"40.0\" x2=\"70\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"44.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">40</text><rect x=\"90\" y=\"205.0\" width=\"55\" height=\"55.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"117.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">Jan</text><rect x=\"185\" y=\"177.5\" width=\"55\" height=\"82.5\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"212.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">Feb</text><rect x=\"280\" y=\"122.5\" width=\"55\" height=\"137.5\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"307.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">Mar</text></svg>",
       "q_number": 1
     },
     {
@@ -349,31 +348,32 @@
       "q_number": 11
     },
     {
-      "id": "P-HE2-KM3_Q92",
+      "id": "P-HE2-EM29",
       "question_type": "mc",
-      "question": "A jar of marbles is composed of red, blue, and green marbles. If the ratio of red to blue is 3:5 and the ratio of red to green is 4:7, what is the ratio of blue to green?",
+      "question": "A juice stand sells 1-gallon jugs of orange juice for $6.00. The stand also sells grape juice in a 6-pack of 8-fluid-ounce bottles for $4.20.\n\nSuppose the stand wants to sell its grape juice in gallon containers instead. To the nearest dollar, how much more would a gallon of grape juice cost than a gallon of orange juice? (Note: 1 gallon = 128 fluid ounces.)",
       "options": {
-        "E": "20:21",
-        "F": "5:7",
-        "G": "21:20",
-        "H": "7:5"
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
       },
-      "correct": "E",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Scale both ratios to a common red value. The LCM of \\(3\\) and \\(4\\) is \\(12\\): red:blue \\(=3{:}5\\to12{:}20\\); red:green \\(=4{:}7\\to12{:}21\\). So blue:green \\(=20{:}21\\)."
+        "exhibit_text": "The 6-pack of grape juice contains \\(6\\times8=48\\) fluid ounces for $4.20. Set up a proportion to find the price of a full gallon (128 fluid ounces):\n\n\\[\\dfrac{48}{4.20}=\\dfrac{128}{x}\\]\n\\[x=\\dfrac{128\\times4.20}{48}=\\$11.20\\]\n\nSubtract the price of a gallon of orange juice: \\(\\$11.20-\\$6.00=\\$5.20\\), which rounds to $5."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q92 (KM3_Q92)",
+      "base_source": "Exam E — Math Q29 (EM29)",
       "base_question": {
-        "question": "The spare change on a dresser is composed of pennies, nickels, and dimes. If the ratio of pennies to nickels is 2:3 and the ratio of pennies to dimes is 3:4, what is the ratio of nickels to dimes?",
+        "question": "A cafe sells 1-gallon jugs of iced tea for $4.50. The cafe also sells lemonade in a 4-pack of 12-fluid-ounce bottles for $3.30.\nSuppose the cafe wants to sell its lemonade in gallon containers instead. To the nearest dollar, how much more would a gallon of lemonade cost than a gallon of iced tea? (Note: 1 gallon = 128 fluid ounces).",
         "options": {
-          "E": "9:8",
-          "F": "5:7",
-          "G": "4:5",
-          "H": "3:4"
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
         },
-        "correct": "E",
+        "correct": "C",
         "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q92.jpg"
+          "letter": "C",
+          "exhibit_text": "Find how much more a gallon of lemonade would cost than a gallon of iced tea. A gallon of iced tea costs $4.50, and a 4-pack of 12-fluid-ounce bottles of lemonade costs $3.30.\n\nLemonade comes in a 4-pack of 12-fluid-ounce bottles. This means that \\(4 \\times 12 = 48\\) fluid ounces cost $3.30. A gallon contains 128 fluid ounces. Let \\(x\\) represent the price of 128 fluid ounces. Set up a proportion and cross-multiply to solve for \\(x\\):\n\n\\[\\dfrac{48 \\text{ ounces}}{\\$3.30} = \\dfrac{128 \\text{ ounces}}{\\$x}\\]\n\\[48x = 128 \\times 3.30\\]\n\\[x = \\dfrac{128 \\times 3.30}{48} = \\$8.80\\]\n\nFinally, subtract the two prices: \\(\\$8.80 - \\$4.50 = \\$4.30\\). This is closest to 4, so (C) is correct."
         }
       },
       "q_number": 12
@@ -602,35 +602,34 @@
       "q_number": 19
     },
     {
-      "id": "P-HE2-KM3_Q84",
+      "id": "P-HE2-FM39",
       "question_type": "mc",
-      "question": "The table above shows the number of each color of umbrella sold at a particular store last year. If 180 umbrellas were sold in April, and the store only sells white, red, or blue umbrellas, what is the best estimate (based on last year's sales) of the number of blue umbrellas sold in April?",
+      "question": "The mean of a set of 12 numbers is 20. Three of the numbers (10, 11, and 12) are removed. What is the mean of the 9 remaining numbers?",
       "options": {
-        "E": "36",
-        "F": "54",
-        "G": "90",
-        "H": "120"
+        "A": "11",
+        "B": "17.25",
+        "C": "20",
+        "D": "23"
       },
-      "correct": "G",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Last year, blue umbrellas made up \\(\\dfrac{2{,}000}{4{,}000}=50\\%\\) of sales. Applying that proportion to April: \\(180\\times0.50=90\\)."
+        "exhibit_text": "Mean \\(\\times\\) count = sum, so the original sum is \\(20\\times12=240\\). Removing 10, 11, and 12 takes away \\(10+11+12=33\\), leaving a new sum of \\(240-33=207\\). Divide by the new count of 9 numbers: \\(207\\div9=23\\).\n\n(A) is just the mean of the 3 removed numbers. (B) mistakenly divides the new sum by the original count of 12 instead of 9. (C) is the original mean, left unchanged by mistake."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q84 (KM3_Q84)",
+      "base_source": "Exam F — Math Q39 (FM39)",
       "base_question": {
-        "question": "The table above shows the number of each color of T-shirt sold at a particular store last year. If 240 T-shirts were sold in June, and the store only sells white, red, or blue T-shirts, what is the best estimate (based on last year's sales) of the number of blue T-shirts sold in June?",
+        "question": "The mean of a set of 10 numbers is 16. Two of the numbers (7 and 13) are removed. What is the mean of the 8 remaining numbers?",
         "options": {
-          "E": "60",
-          "F": "80",
-          "G": "92",
-          "H": "108"
+          "A": "6",
+          "B": "13.5",
+          "C": "17.5",
+          "D": "18"
         },
-        "correct": "E",
+        "correct": "C",
         "solution": {
-          "exhibit_image": "kaplan_2025_3/solutions/Q84.jpg"
-        },
-        "figure_svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">LAST YEAR'S T-SHIRT SALES</text><rect x=\"20.0\" y=\"38\" width=\"280\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Color</text><text x=\"230.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number Sold</text><line x1=\"20.0\" y1=\"38\" x2=\"20.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"38\" x2=\"160.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"38\" x2=\"300.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"20.0\" y=\"66\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">White</text><text x=\"230.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1,650</text><rect x=\"20.0\" y=\"94\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Red</text><text x=\"230.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">600</text><rect x=\"20.0\" y=\"122\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Blue</text><text x=\"230.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">750</text><rect x=\"20.0\" y=\"150\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Total</text><text x=\"230.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">3,000</text></svg>"
+          "letter": "C",
+          "exhibit_text": "The mean of a set of values is the sum of the values divided by the number of values. In this question, you already know the mean (16) of the original 10 values, so you can find the sum of those values by multiplying.\n\n\\[\\text{mean}=\\text{sum}\\div\\text{number of values}\\]\n\\[\\text{sum}=\\text{mean}\\times\\text{number of values}\\]\n\\[\\text{sum}=16\\times10\\]\n\\[\\text{sum}=160\\]\n\nIf 7 and 13 are removed from the set of numbers, the new sum is \\(160-20=140\\). Find the mean of the remaining 8 numbers by dividing:\n\n\\[140\\div8=17.5\\]"
+        }
       },
-      "figure_svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">LAST YEAR'S UMBRELLA SALES</text><rect x=\"20.0\" y=\"38\" width=\"280\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Color</text><text x=\"230.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number Sold</text><line x1=\"20.0\" y1=\"38\" x2=\"20.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"38\" x2=\"160.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"38\" x2=\"300.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"20.0\" y=\"66\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">White</text><text x=\"230.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1,200</text><rect x=\"20.0\" y=\"94\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Red</text><text x=\"230.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">800</text><rect x=\"20.0\" y=\"122\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Blue</text><text x=\"230.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">2,000</text><rect x=\"20.0\" y=\"150\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Total</text><text x=\"230.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">4,000</text></svg>",
       "q_number": 20
     },
     {
