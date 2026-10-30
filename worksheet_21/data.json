@@ -1,756 +1,793 @@
 {
   "math_questions": [
     {
-      "id": "P-HE2-M-AM02",
+      "id": "P-HE2-KM2_Q68",
       "question_type": "mc",
-      "question": "A car is traveling 45 miles per hour, and 1 mile = 5,280 feet. Which of the following calculations would give the car's speed in **feet per second**?",
+      "question": "According to the bar graph above, January donations accounted for approximately what percent of the total first-quarter donations?",
       "options": {
-        "A": "\\(\\dfrac{45 \\cdot 5{,}280}{1}\\)",
-        "B": "\\(\\dfrac{45 \\cdot 5{,}280}{3{,}600}\\)",
-        "C": "\\(\\dfrac{45 \\cdot 3{,}600}{5{,}280}\\)",
-        "D": "\\(\\dfrac{45 \\cdot 5{,}280}{60}\\)"
+        "E": "12½\\%",
+        "F": "20\\%",
+        "G": "30\\%",
+        "H": "50\\%"
       },
-      "correct": "B",
+      "correct": "F",
       "solution": {
-        "exhibit_text": "Convert 45 miles/hour to feet/second: multiply by 5,280 feet/mile to get feet/hour, then divide by 3,600 seconds/hour to get feet/second: \\(\\dfrac{45 \\times 5{,}280}{3{,}600}\\)."
+        "exhibit_text": "The total first-quarter donations are \\(10+15+25=50\\). January's share is \\(\\dfrac{10}{50}=20\\%\\)."
       },
-      "base_source": "Exam A — Math Q02 (AM02)",
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q68 (KM2_Q68)",
       "base_question": {
-        "question": "A car is traveling \\(55\\) miles per hour, and \\(1\\) mile \\(= 5{,}280\\) feet. Which of the following calculations would give the car's speed in **feet per second**?",
+        "question": "According to the bar graph above, April sales accounted for approximately what percent of the total second-quarter sales?",
         "options": {
-          "A": "\\(\\dfrac{55 \\cdot 5{,}280}{1}\\)",
-          "B": "\\(\\dfrac{55 \\cdot 5{,}280}{3{,}600}\\)",
-          "C": "\\(\\dfrac{55 \\cdot 3{,}600}{5{,}280}\\)",
-          "D": "\\(\\dfrac{55 \\cdot 5{,}280}{60}\\)"
+          "E": "12½%",
+          "F": "25%",
+          "G": "37½%",
+          "H": "50%"
         },
-        "correct": "B",
+        "correct": "H",
         "solution": {
-          "exhibit_text": "(B) Divide the rate (\\(55\\) miles per hour) by the number of seconds in an hour (\\(60\\) minutes x \\(60\\) seconds \\(= 3{,}600\\) seconds):\n\n\\[\\dfrac{55}{3{,}600} \\text{ miles per second}\\]\n\nMultiply by the number of feet in a mile (\\(5{,}280\\)):\n\n\\[\\dfrac{55 \\times 5{,}280}{3{,}600} \\text{ feet per second}\\]"
-        }
+          "exhibit_image": "kaplan_2025_2/solutions/Q68.jpg"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 320 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">SECOND QUARTER SALES</text><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"260\" x2=\"355\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"260.0\" x2=\"70\" y2=\"260.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"264.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">0</text><line x1=\"66\" y1=\"205.0\" x2=\"70\" y2=\"205.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"209.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">10</text><line x1=\"66\" y1=\"150.0\" x2=\"70\" y2=\"150.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"154.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">20</text><line x1=\"66\" y1=\"95.0\" x2=\"70\" y2=\"95.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"99.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">30</text><line x1=\"66\" y1=\"40.0\" x2=\"70\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"44.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">40</text><text x=\"18\" y=\"150.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\" transform=\"rotate(-90 18,150.0)\">Sales (in Millions of Dollars)</text><rect x=\"90\" y=\"40.0\" width=\"55\" height=\"220.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"117.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">April</text><rect x=\"185\" y=\"205.0\" width=\"55\" height=\"55.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"212.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">May</text><rect x=\"280\" y=\"95.0\" width=\"55\" height=\"165.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"307.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">June</text></svg>"
       },
+      "figure_svg": "<svg viewBox=\"0 0 320 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">FIRST QUARTER DONATIONS</text><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"260\" x2=\"355\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"260.0\" x2=\"70\" y2=\"260.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"264.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">0</text><line x1=\"66\" y1=\"205.0\" x2=\"70\" y2=\"205.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"209.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">10</text><line x1=\"66\" y1=\"150.0\" x2=\"70\" y2=\"150.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"154.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">20</text><line x1=\"66\" y1=\"95.0\" x2=\"70\" y2=\"95.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"99.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">30</text><line x1=\"66\" y1=\"40.0\" x2=\"70\" y2=\"40.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"44.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">40</text><rect x=\"90\" y=\"205.0\" width=\"55\" height=\"55.0\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"117.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">Jan</text><rect x=\"185\" y=\"177.5\" width=\"55\" height=\"82.5\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"212.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">Feb</text><rect x=\"280\" y=\"122.5\" width=\"55\" height=\"137.5\" fill=\"#ccc\" stroke=\"#333\" stroke-width=\"1.2\"/><text x=\"307.5\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">Mar</text></svg>",
       "q_number": 1
     },
     {
-      "id": "P-HE2-M-KM2_Q89",
+      "id": "P-HE2-BM20",
       "question_type": "mc",
-      "question": "What is the surface area, in square centimeters, of a cube with volume 64 cubic centimeters?",
+      "question": "Taylor bought \\(2\\tfrac{2}{3}\\) yards of cloth at $\\(9.00\\) per yard. If there was a \\(6\\%\\) sales tax, what was the total cost of the cloth?",
       "options": {
-        "A": "48",
-        "B": "64",
-        "C": "80",
-        "D": "96"
+        "A": "$\\(24.00\\)",
+        "B": "$\\(24.80\\)",
+        "C": "$\\(25.44\\)",
+        "D": "$\\(25.92\\)"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Volume = s³ = 64, so s = 4 cm (since 4³ = 64). Surface area = 6s² = 6(16) = 96 sq cm."
+        "exhibit_text": "(C) The cost before tax: \\(2\\tfrac{2}{3}\\times9=\\dfrac{8}{3}\\times9=24\\). The tax is \\(24\\times0.06=1.44\\). The total cost is \\(24+1.44=25.44\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q89 (KM2_Q89)",
+      "base_source": "Exam B — Math Q20 (BM20)",
       "base_question": {
-        "question": "What is the surface area, in square centimeters, of a cube with volume 27 cubic centimeters?",
+        "question": "Bryana bought \\(1\\tfrac{3}{4}\\) yards of cloth at $\\(8.00\\) per yard. If there was an \\(8\\%\\) sales tax, what was the total cost of the cloth?",
         "options": {
-          "A": "24",
-          "B": "27",
-          "C": "36",
-          "D": "54"
+          "A": "$\\(12.96\\)",
+          "B": "$\\(14.08\\)",
+          "C": "$\\(15.12\\)",
+          "D": "$\\(16.08\\)"
         },
-        "correct": "D",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+          "letter": "C",
+          "exhibit_text": "(C) Calculate the cost of the cloth before tax:\n\n\\[1\\tfrac{3}{4} \\times 8 = \\dfrac{7}{4} \\times 8 = 14\\]\n\nFind the tax for $\\(14\\) worth of cloth:\n\n\\[14 \\times 8\\% = 14 \\times \\dfrac{8}{100} = 1.12\\]\n\nAdd the cost of the cloth and the tax:\n\n\\[14 + 1.12 = 15.12\\]"
         }
       },
       "q_number": 2
     },
     {
-      "id": "P-HE2-M-AM47",
+      "id": "P-HE2-FM01",
       "question_type": "mc",
-      "question": "On a number line, points J, K, L, and M appear in that order. JK = 3, JM = 11, and LM = 2. If point J is at position 0, what is the position of point L?",
+      "question": "If \\(N\\) is an odd integer, which of the following **must** be even?",
       "options": {
-        "A": "\\(7\\)",
-        "B": "\\(8\\)",
-        "C": "\\(9\\)",
-        "D": "\\(10\\)"
+        "A": "\\(5N-4\\)",
+        "B": "\\(3N+6\\)",
+        "C": "\\(8N+2\\)",
+        "D": "\\(7N-2\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Since J is at 0 and JM = 11, point M is at position 11. L is 2 units before M (since LM = 2), so L is at 11 - 2 = 9."
+        "exhibit_text": "(C) Since \\(N\\) is odd, any odd coefficient times \\(N\\) is odd; adding or subtracting an even number keeps it odd (options A, B, D). An even coefficient times \\(N\\) is always even, and adding an even number keeps it even: \\(8N+2\\) is always even."
       },
-      "base_source": "Exam A — Math Q47 (AM47)",
+      "base_source": "Exam F — Math Q1 (FM01)",
       "base_question": {
-        "question": "On the number line above, \\(JK = 3\\tfrac{1}{2}\\), \\(JM = 9\\tfrac{3}{4}\\), and \\(LM = 1\\tfrac{1}{8}\\). What is the position of point \\(L\\)?",
+        "question": "If \\(N\\) is an odd integer, which of the following **must** be even?",
         "options": {
-          "A": "\\(5\\tfrac{1}{8}\\)",
-          "B": "\\(5\\tfrac{1}{4}\\)",
-          "C": "\\(5\\tfrac{1}{2}\\)",
-          "D": "\\(6\\tfrac{1}{4}\\)"
+          "A": "\\(2N-1\\)",
+          "B": "\\(3N+2\\)",
+          "C": "\\(4N\\)",
+          "D": "\\(N^2+2N\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) Find the location of \\(J\\) by using \\(JK = 3\\tfrac{1}{2}\\):\n\n\\[\\tfrac{3}{8} - J = 3\\tfrac{1}{2}\\]\n\\[J = \\tfrac{3}{8} - 3\\tfrac{1}{2} = -3\\tfrac{1}{8}\\]\n\nFind the location of \\(M\\) by using \\(JM = 9\\tfrac{3}{4}\\):\n\n\\[M - (-3\\tfrac{1}{8}) = 9\\tfrac{3}{4}\\]\n\\[M + 3\\tfrac{1}{8} = 9\\tfrac{3}{4}\\]\n\\[M = 9\\tfrac{3}{4} - 3\\tfrac{1}{8} = 6\\tfrac{5}{8}\\]"
-        },
-        "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='290' y1='40' x2='290' y2='50' stroke='#111' stroke-width='1.4'/><line x1='370' y1='40' x2='370' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>J</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>K</text><text x='288' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>L</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='207' y='69' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='196' y1='73' x2='218' y2='73' stroke='#111' stroke-width='1.2'/><text x='207' y='87' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text></svg>"
+          "letter": "C",
+          "exhibit_text": "This is a perfect problem for Picking Numbers. Pick a simple number for \\(N\\), like 3. Then plug it into the answer choices and see which one is correct.\n\n(A) \\(2(3)+1=6-1=5\\). Eliminate.\n(B) \\(3(3)+2=9+2=11\\). Eliminate.\n(C) \\(4(3)=12\\). Keep.\n(D) \\((3)^2+2(3)=9+6=15\\). Eliminate.\n\nOnly (C) works."
+        }
       },
       "q_number": 3
     },
     {
-      "id": "P-HE2-M-FM39",
+      "id": "P-HE2-DM39",
       "question_type": "mc",
-      "question": "The mean of a set of 6 numbers is 10. Two of the numbers (4 and 8) are removed. What is the mean of the 4 remaining numbers?",
+      "question": "The table shows the probabilities of a basketball player making different numbers of three-point shots in a game.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>THREE-POINT SHOT PROBABILITIES</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of 3-Pointers</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Probability</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.10</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.18</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.24</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.22</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>4</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.16</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>5</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.10</td></tr></tbody></table>\n\nWhat is the probability that the player will make three or more three-point shots in the next game?",
       "options": {
-        "A": "\\(8\\)",
-        "B": "\\(10\\)",
-        "C": "\\(12\\)",
-        "D": "\\(14\\)"
+        "A": "\\(0.22\\)",
+        "B": "\\(0.26\\)",
+        "C": "\\(0.48\\)",
+        "D": "\\(0.52\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "The sum of the original 6 numbers is \\(6\\times10=60\\). Removing 4 and 8 subtracts 12, leaving a sum of 48 over 4 numbers: \\(48/4=12\\)."
+        "exhibit_text": "(C) Add the probabilities for 3, 4, and 5 three-pointers: \\(0.22+0.16+0.10=0.48\\)."
       },
-      "base_source": "Exam F — Math Q39 (FM39)",
+      "base_source": "Exam D — Math Q39 (DM39)",
       "base_question": {
-        "question": "The mean of a set of 10 numbers is 16. Two of the numbers (7 and 13) are removed. What is the mean of the 8 remaining numbers?",
+        "question": "The table shows the probabilities of a hockey team scoring different numbers of goals in a game.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>HOCKEY GOAL PROBABILITIES</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Goals</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Probability</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.16</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>1</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.21</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>2</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.29</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>3</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.21</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>4</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.09</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>5</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>0.04</td></tr>\n</tbody></table>\n\nWhat is the probability that the team will score three or more goals in the next game?",
         "options": {
-          "A": "6",
-          "B": "13.5",
-          "C": "17.5",
-          "D": "18"
+          "A": "\\(0.13\\)",
+          "B": "\\(0.21\\)",
+          "C": "\\(0.34\\)",
+          "D": "\\(0.50\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "The mean of a set of values is the sum of the values divided by the number of values. In this question, you already know the mean (16) of the original 10 values, so you can find the sum of those values by multiplying.\n\n\\[\\text{mean}=\\text{sum}\\div\\text{number of values}\\]\n\\[\\text{sum}=\\text{mean}\\times\\text{number of values}\\]\n\\[\\text{sum}=16\\times10\\]\n\\[\\text{sum}=160\\]\n\nIf 7 and 13 are removed from the set of numbers, the new sum is \\(160-20=140\\). Find the mean of the remaining 8 numbers by dividing:\n\n\\[140\\div8=17.5\\]"
+          "letter": "C",
+          "exhibit_text": "(C) To find the probability that any one of several mutually exclusive events occurs, use the addition rule, and add the probabilities of each event:\n\n\\[P(A \\text{ or } B) = P(A) + P(B)\\]\n\nUsing the data in the table, the probability that the team will score \\(3\\) or more goals in the next game is represented by\n\n\\[P(3) + P(4) + P(5) =\\]\n\\[0.21 + 0.09 + 0.04 = 0.34\\]"
         }
       },
       "q_number": 4
     },
     {
-      "id": "P-HE2-M-CM11",
+      "id": "P-HE2-CM04",
       "question_type": "mc",
-      "question": "Jamal has 4 boxes with 450 marbles in each box. If he transfers his marble collection to 5 boxes, each holding 320 marbles, how many marbles will be left over?",
+      "question": "A person buys a used motorcycle with a down payment of $\\(1{,}350\\) and makes monthly payments of $\\(225\\) for \\(5\\) years. What is the total amount the person pays for the motorcycle?",
       "options": {
-        "A": "\\(150\\)",
-        "B": "\\(200\\)",
-        "C": "\\(250\\)",
-        "D": "\\(320\\)"
+        "A": "$\\(2{,}475\\)",
+        "B": "$\\(13{,}500\\)",
+        "C": "$\\(14{,}850\\)",
+        "D": "$\\(16{,}200\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Jamal has \\(4\\times450=1{,}800\\) marbles total. The 5 new boxes hold \\(5\\times320=1{,}600\\) marbles. Leftover: \\(1{,}800-1{,}600=200\\)."
+        "exhibit_text": "(C) There are \\(12\\times5=60\\) months of payments. Total monthly payments: \\(225\\times60=13{,}500\\). Add the down payment: \\(13{,}500+1{,}350=14{,}850\\)."
       },
-      "base_source": "Exam C — Math Q11 (CM11)",
+      "base_source": "Exam C — Math Q4 (CM04)",
       "base_question": {
-        "question": "Allison has \\(5\\) stamp albums with \\(576\\) stamps in each album. If she transfers her stamp collection to \\(6\\) albums, each holding \\(378\\) stamps, how many stamps will be left over?",
+        "question": "A person buys a used car with a down payment of $\\(1{,}200\\) and makes monthly payments of $\\(275\\) for \\(3\\) years. What is the total amount the person pays for the car?",
         "options": {
-          "A": "\\(198\\)",
-          "B": "\\(612\\)",
-          "C": "\\(620\\)",
-          "D": "\\(632\\)"
+          "A": "$\\(2{,}025\\)",
+          "B": "$\\(9{,}900\\)",
+          "C": "$\\(11{,}100\\)",
+          "D": "$\\(13{,}500\\)"
         },
-        "correct": "B",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "(B) Determine the total number of stamps in \\(5\\) albums holding \\(576\\) stamps:\n\n\\[5 \\times 576 = 2{,}880\\]\n\nDetermine the total number of stamps in \\(6\\) albums holding \\(378\\) stamps:\n\n\\[6 \\times 378 = 2{,}268\\]\n\nSubtract \\(2{,}268\\) from \\(2{,}880\\) to find the number of stamps that will be left over:\n\n\\[2{,}880 - 2{,}268 = 612\\]"
+          "letter": "C",
+          "exhibit_text": "(C) Determine the total cost of the car by adding the down payment to the total monthly payments over \\(3\\) years.\n\nThere are \\(12\\) months in a year, so multiply (\\(12\\) months/year \\(\\times\\) \\(3\\) years) to get a total of \\(36\\) months. Determine the total monthly payments by multiplying the monthly payment (\\$\\(275\\)) \\(\\times\\) the total number of months (\\(36\\)):\n\n\\[275 \\times 36 = 9{,}900\\]\n\nDetermine the total cost of the car by adding the down payment (\\$\\(1{,}200\\)) to the total monthly payments (\\$\\(9{,}900\\)):\n\n\\[9{,}900 + 1{,}200 = 11{,}100\\]\n\nThe total cost of the car is \\$\\(11{,}100\\)."
         }
       },
       "q_number": 5
     },
     {
-      "id": "P-HE2-M-FM23",
+      "id": "P-HE2-EM17",
       "question_type": "mc",
-      "question": "The least of a set of 4 consecutive multiples of 6 is L, and the greatest is G. What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of G?",
+      "question": "The average of five consecutive multiples of 5 is 35. What is the **largest** of these numbers?",
       "options": {
-        "A": "\\(G-6\\)",
-        "B": "\\(6-2G\\)",
-        "C": "\\(\\dfrac{2}{3}G+6\\)",
-        "D": "\\(\\dfrac{3}{2}G+4\\)"
+        "A": "40",
+        "B": "45",
+        "C": "50",
+        "D": "70"
       },
-      "correct": "A",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "The 4 consecutive multiples of 6, from greatest to least, are \\(G, G-6, G-12, G-18\\), so \\(L=G-18\\). Substitute: \\(\\dfrac{2G+(G-18)}{3}=\\dfrac{3G-18}{3}=G-6\\)."
+        "exhibit_text": "(B) The average of five consecutive multiples of 5 equals the middle (third) value, so the multiples are \\(25, 30, 35, 40, 45\\). The largest is \\(45\\)."
       },
-      "base_source": "Exam F — Math Q23 (FM23)",
+      "base_source": "Exam E — Math Q17 (EM17)",
       "base_question": {
-        "question": "The least of a set of 4 consecutive multiples of 3 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+        "question": "The average of five consecutive multiples of 5 is 20. What is the **largest** of these numbers?",
         "options": {
-          "A": "\\(G-3\\)",
-          "B": "\\(3-2G\\)",
-          "C": "\\(\\dfrac{2}{3}G+\\dfrac{4}{3}\\)",
-          "D": "\\(\\dfrac{3}{2}G+1\\)"
+          "A": "25",
+          "B": "30",
+          "C": "35",
+          "D": "50"
         },
-        "correct": "A",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-3\\), then \\(G-6\\), and fourth and last, \\(G-9\\). Thus, \\(G-9\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-9\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-9)}{3}\\]\n\\[\\dfrac{3G-9}{3}\\]\n\\[\\dfrac{3(G-3)}{3}\\]\n\\[G-3\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 3, such as 3, 6, 9, and 12. Plug in 3 for \\(L\\) and 12 for \\(G\\) in the original expression such that \\(\\dfrac{2(12)+3}{3}=\\dfrac{27}{3}=9\\). The correct choice will result in 9 when 12 is plugged in for \\(G\\), and the only choice to do so is (A)."
+          "letter": "B",
+          "exhibit_text": "The average of a set of evenly-spaced numbers is equal to the median (middle number) of the set. Since the average of five consecutive multiples of 5 is 20, the median equals 20: __, __, 20, __, __. Adding 5 twice to 20 will give you the largest of these numbers, which is 30."
         }
       },
       "q_number": 6
     },
     {
-      "id": "P-HE2-M-KM3_Q97",
+      "id": "P-HE2-BM12",
       "question_type": "mc",
-      "question": "On Monday, a shop sold 5 shirts that had a mean sale price of $40. On Tuesday, it sold 3 shirts that had a mean sale price of $60. What was the mean sale price, to the nearest dollar, for all 8 shirts sold on Monday and Tuesday?",
+      "question": "The table above shows the number of times that different desserts were ordered at a diner. Based on this information, what is the probability of a customer ordering ice cream as a dessert?",
       "options": {
-        "A": "\\(\\$45\\)",
-        "B": "\\(\\$46\\)",
-        "C": "\\(\\$47.50\\)",
-        "D": "\\(\\$50\\)"
+        "A": "\\(20\\%\\)",
+        "B": "\\(24\\%\\)",
+        "C": "\\(28\\%\\)",
+        "D": "\\(32\\%\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Total revenue: \\(5(40)+3(60)=200+180=380\\). Mean for all 8 shirts: \\(380/8=47.50\\)."
+        "exhibit_text": "(B) The total number of desserts ordered is \\(14+10+14+12=50\\). The probability of ice cream is \\(\\dfrac{12}{50}=24\\%\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q97 (KM3_Q97)",
+      "base_source": "Exam B — Math Q12 (BM12)",
       "base_question": {
-        "question": "On Friday, Marvin sold 4 suits that had a mean sale price of $125. On Saturday, he sold 6 suits that had a mean sale price of $140. What was the mean sale price, to the nearest dollar, for all 10 of the suits he sold on Friday and Saturday?",
+        "question": "The table above shows the number of times that different desserts were ordered at a restaurant. Based on this information, what is the probability of a customer ordering ice cream as a dessert?",
         "options": {
-          "A": "$130",
-          "B": "$132",
-          "C": "$133",
-          "D": "$134"
+          "A": "\\(25\\%\\)",
+          "B": "\\(30\\%\\)",
+          "C": "\\(40\\%\\)",
+          "D": "\\(48\\%\\)"
         },
-        "correct": "D",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
-        }
+          "letter": "B",
+          "exhibit_text": "(B) The total number of desserts ordered is \\(42 + 23 + 47 + 48 = 160\\).\n\nThe probability that ice cream was chosen is \\(\\dfrac{48}{160} = \\dfrac{3}{10} = 30\\%\\)."
+        },
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>DESSERT CHOICES</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Dessert</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Number of Times Ordered</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cookies</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>42</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Pie</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>23</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cake</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>47</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Ice Cream</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>48</td></tr></tbody></table>"
       },
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>DESSERT CHOICES</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Dessert</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Number of Times Ordered</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Brownies</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>14</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Pie</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>10</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cake</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>14</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Ice Cream</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>12</td></tr></tbody></table>",
       "q_number": 7
     },
     {
-      "id": "P-HE2-M-KM1_Q75",
+      "id": "P-HE2-DM50",
       "question_type": "mc",
-      "question": "A clown performs 4 tricks during her act. Each trick gets 2 rounds of applause, and each round of applause includes 150 claps from the audience. How many claps does the audience produce during the clown's act?",
+      "question": "This table shows the number of visitors to an aquarium on Saturday and Sunday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>VISITORS TO THE AQUARIUM</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Visitors</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Saturday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>50</td></tr><tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Sunday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>38</td></tr></tbody></table>\n\nWhat was the percent decrease in the number of visitors from Saturday to Sunday?",
       "options": {
-        "A": "300",
-        "B": "600",
-        "C": "1,200",
-        "D": "4,800"
+        "A": "\\(12\\%\\)",
+        "B": "\\(24\\%\\)",
+        "C": "\\(26\\%\\)",
+        "D": "\\(32\\%\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "4 tricks × 2 rounds of applause each = 8 rounds. 8 rounds × 150 claps each = 1,200 claps."
+        "exhibit_text": "(B) The decrease is \\(50-38=12\\). The percent decrease is based on the original (Saturday) value: \\(\\dfrac{12}{50}=24\\%\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 1 — Math Q75 (KM1_Q75)",
+      "base_source": "Exam D — Math Q50 (DM50)",
       "base_question": {
-        "question": "A performer bursts into 2 fits of laughter during her act. Each burst of laughter produces 3 laughs, and each laugh produces 250 giggles from the audience. How many giggles does the audience produce during the performer's act?",
+        "question": "This table shows the number of birds that came to a bird feeder on Monday and Tuesday.\n\n<div style='text-align:center; font-weight:600; margin: 0.75rem 0 0.35rem;'>BIRDS AT BIRD FEEDER</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Day</th><th style='border:1px solid #111; padding: 0.35rem 0.75rem;'>Number of Birds</th></tr></thead>\n<tbody>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Monday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>30</td></tr>\n<tr><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>Tuesday</td><td style='border:1px solid #111; padding: 0.3rem 0.75rem; text-align:center;'>24</td></tr>\n</tbody></table>\n\nWhat was the percent decrease in the number of birds from Monday to Tuesday?",
         "options": {
-          "A": "500",
-          "B": "750",
-          "C": "1,500",
-          "D": "6,000"
+          "A": "\\(6\\%\\)",
+          "B": "\\(20\\%\\)",
+          "C": "\\(24\\%\\)",
+          "D": "\\(25\\%\\)"
         },
-        "correct": "C",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+          "letter": "B",
+          "exhibit_text": "(B) To determine the percent decrease from Monday to Tuesday, first calculate the decrease in the number of birds at the feeder.\n\n\\[30 - 24 = 6\\]\n\nThe difference in the number of birds at the feeder divided by the number of birds on Monday will yield the percent decrease from Monday to Tuesday.\n\n\\[\\dfrac{6}{30} = 0.20\\]\n\n\\(0.20\\) represents \\(20\\%\\).\n\nThere was a \\(20\\%\\) decrease from Monday to Tuesday."
         }
       },
       "q_number": 8
     },
     {
-      "id": "P-HE2-M-FM43",
+      "id": "P-HE2-CM13",
       "question_type": "mc",
-      "question": "If \\(a\\) and \\(b\\) are non-zero integers and \\(a^2b>0\\), which statement **must** be true?",
+      "question": "Start with the number \\(247.56\\) and perform the following steps in order:\n\n• Step 1: Multiply by \\(10\\).\n• Step 2: Add \\(0.5\\) to the result of Step 1.\n• Step 3: Drop the digits after the decimal point.\n• Step 4: Divide by \\(10\\).\n\nWhat is the result?",
       "options": {
-        "A": "\\(b>0\\)",
-        "B": "\\(a>0\\)",
-        "C": "\\(a\\) and \\(b\\) have the same sign",
-        "D": "\\(a<b\\)"
+        "A": "\\(24.8\\)",
+        "B": "\\(247.0\\)",
+        "C": "\\(247.6\\)",
+        "D": "\\(247.7\\)"
       },
-      "correct": "A",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Since \\(a\\) is a non-zero integer, \\(a^2\\) is always positive. For \\(a^2b>0\\) to hold, \\(b\\) must be positive, regardless of the sign of \\(a\\)."
+        "exhibit_text": "(C) \\(247.56\\times10=2{,}475.6\\). Add \\(0.5\\): \\(2{,}476.1\\). Drop the decimal digits: \\(2{,}476\\). Divide by \\(10\\): \\(247.6\\)."
       },
-      "base_source": "Exam F — Math Q43 (FM43)",
+      "base_source": "Exam C — Math Q13 (CM13)",
       "base_question": {
-        "question": "If \\(x\\) and \\(y\\) are non-zero integers and \\(x^2y<0\\), which statement **must** be true?",
+        "question": "Start with the number \\(135.28\\) and perform the following steps in order:\n\n• Step 1: Multiply by \\(10\\).\n• Step 2: Add \\(0.5\\) to the result of Step 1.\n• Step 3: Drop the digits after the decimal point.\n• Step 4: Divide by \\(10\\).\n\nWhat is the result?",
         "options": {
-          "A": "\\(y<0\\)",
-          "B": "\\(x\\) and \\(y\\) have the same sign",
-          "C": "\\(x<0\\)",
-          "D": "\\(x>y\\)"
+          "A": "\\(13.5\\)",
+          "B": "\\(135\\)",
+          "C": "\\(135.2\\)",
+          "D": "\\(135.3\\)"
         },
-        "correct": "A",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "Since \\(x\\) and \\(y\\) are non-zero integers and the square of any non-zero integer is positive, the expression \\(x^2\\) must be positive. You are told that \\(x^2y<0\\), or that \\(x^2y\\) is negative. Since the product of a positive and a negative is negative, this means that \\(y\\) must be negative."
+          "letter": "D",
+          "exhibit_text": "(D) Begin by multiplying \\(135.28\\) by \\(10\\):\n\n\\[135.28 \\times 10 = 1{,}352.8\\]\n\nAdd \\(0.5\\):\n\n\\[1{,}352.8 + 0.5 = 1{,}353.3\\]\n\nDrop the digits after the decimal point, so \\(1{,}353.3\\) becomes \\(1{,}353\\).\n\nDivide by \\(10\\):\n\n\\[1{,}353 \\div 10 = 135.3\\]"
         }
       },
       "q_number": 9
     },
     {
-      "id": "P-HE2-M-GM27",
+      "id": "P-HE2-AM40",
       "question_type": "mc",
-      "question": "The speed 4 feet per second is equivalent to how many meters per hour? (Use the approximation 1 foot = 0.25 meter.)",
+      "question": "Mr. Diaz's gym class is divided into three sections. The same fitness test was given to each section. The table above shows both the lowest score and the range of scores on this test for each section. What is the **overall** range of all scores in all three sections?",
       "options": {
-        "A": "\\(1\\)",
-        "B": "\\(900\\)",
-        "C": "\\(3{,}600\\)",
-        "D": "\\(36{,}000\\)"
+        "A": "\\(18\\)",
+        "B": "\\(25\\)",
+        "C": "\\(27\\)",
+        "D": "\\(31\\)"
       },
-      "correct": "C",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "4 feet/sec × 0.25 meters/foot = 1 meter/sec. 1 meter/sec × 3,600 sec/hour = 3,600 meters/hour."
+        "exhibit_text": "(D) Find the highest score in each section by adding the lowest score to the range: Section I: \\(55+14=69\\). Section II: \\(48+25=73\\). Section III: \\(42+16=58\\). The overall highest score is \\(73\\) and the overall lowest score is \\(42\\). The overall range is \\(73-42=31\\)."
       },
-      "base_source": "Exam G — Math Q27 (GM27)",
+      "base_source": "Exam A — Math Q40 (AM40)",
       "base_question": {
-        "question": "The speed \\(5\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.3\\) meter.)",
+        "question": "Mr. Blake's biology class is divided into three sections. The same test was given to each section. The table above shows both the lowest score and the range of scores on this test for each section. What is the **overall** range of all scores in all three sections?",
         "options": {
-          "A": "\\(1.5\\)",
-          "B": "\\(16.67\\)",
-          "C": "\\(5{,}400\\)",
-          "D": "\\(60{,}000\\)"
+          "A": "\\(25\\)",
+          "B": "\\(27\\)",
+          "C": "\\(28\\)",
+          "D": "\\(31\\)"
         },
-        "correct": "C",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "Convert the units by setting up ratios of known measures. Start with the given speed, \\(5\\) feet per second, and the given conversion, \\(1\\) foot \\(=0.3\\) meters. Then fill in the ratios needed to convert seconds to hours.\n\n\\[\\dfrac{5\\text{ ft}}{1\\text{ sec}}\\times\\dfrac{0.3\\text{ meters}}{1\\text{ ft}}\\times\\dfrac{60\\text{ sec}}{1\\text{ min}}\\times\\dfrac{60\\text{ min}}{1\\text{ hr}}\\]\n\\[=\\dfrac{5{,}400\\text{ meters}}{1\\text{ hr}}\\]"
-        }
+          "letter": "D",
+          "exhibit_text": "(D) Calculate the highest score for each section by adding the lowest score to the range:\n\nSection I: \\(65 + 28 = 93\\)\nSection II: \\(62 + 25 = 87\\)\nSection III: \\(67 + 22 = 89\\)\n\nThe overall highest score is \\(93\\), and the overall lowest score is \\(62\\).\n\nSubtract the lowest score from the highest score to find the overall range:\n\\[93 - 62 = 31\\]"
+        },
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SCORES ON BIOLOGY TEST</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Section</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Lowest Score</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Range</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>I</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>65</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>28</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>II</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>62</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>25</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>III</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>67</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>22</td></tr></tbody></table>"
       },
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SCORES ON GYM CLASS FITNESS TEST</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Section</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Lowest Score</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Range</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>I</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>55</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>14</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>II</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>48</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>25</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>III</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>42</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>16</td></tr></tbody></table>",
       "q_number": 10
     },
     {
-      "id": "P-HE2-M-FM11",
+      "id": "P-HE2-FM25",
       "question_type": "mc",
-      "question": "In a scale drawing, 1 inch represents 5 feet. If the drawing shows a rectangular patio with a length of 4 inches and a width of 2.5 inches, what is the actual length of the patio's longer side, in feet?",
+      "question": "In the figure above, \\(\\overline{MQ}\\) is a straight line segment. If \\(\\overline{PM}=\\overline{PN}\\), what is the value of \\(x\\)?",
       "options": {
-        "A": "\\(12.5\\) feet",
-        "B": "\\(17.5\\) feet",
-        "C": "\\(20\\) feet",
-        "D": "\\(32.5\\) feet"
+        "A": "28",
+        "B": "56",
+        "C": "62",
+        "D": "118"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "The longer side in the drawing is 4 inches (length). Actual length = 4 × 5 feet/inch = 20 feet."
+        "exhibit_text": "(B) The interior angle at \\(N\\) is \\(180-118=62°\\). Since \\(\\overline{PM}=\\overline{PN}\\), triangle \\(PMN\\) is isosceles, so the base angle at \\(M\\) is also \\(62°\\). The angle at \\(P\\) is \\(180-62-62=56°\\)."
       },
-      "base_source": "Exam F — Math Q11 (FM11)",
+      "base_source": "Exam F — Math Q25 (FM25)",
       "base_question": {
-        "question": "Students in Ms. Bonn's class drew a scale drawing, pictured above, of the new school garden that they want to install. In the drawing, the length is represented by \\(l\\), the width is represented by \\(w\\), and all angles are right angles. The actual space available is a square of ground that is 25.5 feet on a side. What is the **maximum** width of the actual garden?",
+        "question": "In the figure above, \\(\\overline{MQ}\\) is a straight line segment. If \\(\\overline{PM}=\\overline{PN}\\), what is the value of \\(x\\)?",
         "options": {
-          "A": "7 feet",
-          "B": "12 feet",
-          "C": "21 feet",
-          "D": "25.5 feet"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "First, compute the length \\(l\\) and width \\(w\\) of the drawing by using the measurements of the parallel sides in the drawing: \\(l=6+2.5=8.5\\) in. and \\(w=4+3=7\\) in. If the actual space available is a square, then the longest side (the length) can be no greater than 25.5 ft, and the width, which is shorter, must be less than 25.5 ft. Remember that you have to find the actual width, not the length; however, use the information about the actual length to set up a proportion:\n\n\\[\\dfrac{8.5}{7}=\\dfrac{25.5}{w}\\]\n\nSolve for \\(w\\) by cross multiplying, or by noticing that since \\(25.5=8.5\\times3\\), then \\(w\\) must equal \\(7\\times3=21\\)."
-        },
-        "figure_svg": "<svg viewBox=\"0 0 280 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"40,30 227,30 227,184 172,184 172,118 40,118\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<text x=\"133\" y=\"20\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">l</text>\n<text x=\"14\" y=\"78\" font-size=\"12\" text-anchor=\"middle\">4 in.</text>\n<text x=\"106\" y=\"132\" font-size=\"12\" text-anchor=\"middle\">6 in.</text>\n<text x=\"150\" y=\"155\" font-size=\"12\" text-anchor=\"middle\">3 in.</text>\n<text x=\"199\" y=\"198\" font-size=\"12\" text-anchor=\"middle\">2.5 in.</text>\n<text x=\"240\" y=\"111\" font-style=\"italic\" font-size=\"13\" text-anchor=\"middle\">w</text>\n</svg>"
-      },
-      "q_number": 11
-    },
-    {
-      "id": "P-HE2-M-GM14",
-      "question_type": "mc",
-      "question": "If 1 euro = 1.5 Swiss francs, and 1 euro = 1.2 US dollars, how many euros must be exchanged for 30 Swiss francs and 6 US dollars?",
-      "options": {
-        "A": "\\(25\\)",
-        "B": "\\(20\\)",
-        "C": "\\(10\\)",
-        "D": "\\(36\\)"
-      },
-      "correct": "A",
-      "solution": {
-        "exhibit_text": "30 Swiss francs ÷ 1.5 francs/euro = 20 euros. 6 US dollars ÷ 1.2 dollars/euro = 5 euros. Total: 20 + 5 = 25 euros."
-      },
-      "base_source": "Exam G — Math Q14 (GM14)",
-      "base_question": {
-        "question": "Using the table of equivalent currencies above, how many euros must be exchanged for \\(43\\) dinars and \\(10\\) U.S. dollars?",
-        "options": {
-          "A": "\\(138\\)",
-          "B": "\\(129\\)",
-          "C": "\\(53\\)",
-          "D": "\\(22.9\\)"
+          "A": "30",
+          "B": "45",
+          "C": "60",
+          "D": "75"
         },
         "correct": "A",
         "solution": {
-          "exhibit_text": "Proportions are the key to conversion questions like this. First, set up a proportion of euros to dinars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{0.3}{43}\\). You could cross multiply to get \\(0.3e=38.7\\) and solve for \\(e\\). However, it is faster to notice that \\(0.9\\div3\\) would result in \\(0.3\\), so \\(e\\div3\\) would have to result in \\(43\\). So \\(129\\) euros are needed to exchange for \\(43\\) dinars.\n\nDon't forget that you also need to convert dollars! Set up a proportion of euros to dollars, letting \\(e\\) be the unknown number of euros: \\(\\dfrac{0.9}{e}=\\dfrac{1}{10}\\). Cross multiplying here is fastest, resulting in \\(e=9\\). Add \\(129+9=138\\) euros."
+          "letter": "A",
+          "exhibit_text": "\\(\\angle PNM\\) is supplementary to \\(\\angle PNQ\\), so \\(m\\angle PNM+105\\degree=180\\degree\\), and \\(m\\angle PNM=75\\degree\\). Since \\(\\overline{PM}=\\overline{PN}\\), triangle MPN is isosceles and \\(m\\angle PMN=m\\angle PNM=75\\degree\\). The interior angles of a triangle sum to \\(180\\degree\\), so \\(75+75+x=180\\), and \\(x=30\\)."
         },
-        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>EQUIVALENT CURRENCIES (MAY 2019)</caption><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>U.S. Dollar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Euro</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.9</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Botswana Pula</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>10.75</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center; background:#f3f3f3; font-weight:bold;'>Kuwaiti Dinar</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>0.3</td></tr></tbody></table>"
+        "figure_svg": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<polygon points=\"90,30 30,140 170,140\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<line x1=\"170\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<text x=\"85\" y=\"20\" font-size=\"14\" font-style=\"italic\">P</text>\n<text x=\"14\" y=\"150\" font-size=\"14\" font-style=\"italic\">M</text>\n<text x=\"168\" y=\"156\" font-size=\"14\" font-style=\"italic\">N</text>\n<text x=\"222\" y=\"150\" font-size=\"14\" font-style=\"italic\">Q</text>\n<text x=\"88\" y=\"52\" font-size=\"12\" font-style=\"italic\">x&#176;</text>\n<text x=\"176\" y=\"132\" font-size=\"12\">105&#176;</text>\n</svg>"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"90,30 30,140 170,140\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"170\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"85\" y=\"20\" font-size=\"14\" font-style=\"italic\">P</text><text x=\"14\" y=\"150\" font-size=\"14\" font-style=\"italic\">M</text><text x=\"168\" y=\"156\" font-size=\"14\" font-style=\"italic\">N</text><text x=\"222\" y=\"150\" font-size=\"14\" font-style=\"italic\">Q</text><text x=\"88\" y=\"52\" font-size=\"12\" font-style=\"italic\">x&#176;</text><text x=\"176\" y=\"132\" font-size=\"12\">118&#176;</text></svg>",
+      "q_number": 11
+    },
+    {
+      "id": "P-HE2-KM3_Q92",
+      "question_type": "mc",
+      "question": "A jar of marbles is composed of red, blue, and green marbles. If the ratio of red to blue is 3:5 and the ratio of red to green is 4:7, what is the ratio of blue to green?",
+      "options": {
+        "E": "20:21",
+        "F": "5:7",
+        "G": "21:20",
+        "H": "7:5"
+      },
+      "correct": "E",
+      "solution": {
+        "exhibit_text": "Scale both ratios to a common red value. The LCM of \\(3\\) and \\(4\\) is \\(12\\): red:blue \\(=3{:}5\\to12{:}20\\); red:green \\(=4{:}7\\to12{:}21\\). So blue:green \\(=20{:}21\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q92 (KM3_Q92)",
+      "base_question": {
+        "question": "The spare change on a dresser is composed of pennies, nickels, and dimes. If the ratio of pennies to nickels is 2:3 and the ratio of pennies to dimes is 3:4, what is the ratio of nickels to dimes?",
+        "options": {
+          "E": "9:8",
+          "F": "5:7",
+          "G": "4:5",
+          "H": "3:4"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q92.jpg"
+        }
       },
       "q_number": 12
     },
     {
-      "id": "P-HE2-M-KM3_Q85",
+      "id": "P-HE2-AM48",
       "question_type": "mc",
-      "question": "How can \\(\\dfrac{1}{4z}-\\dfrac{1}{8z}\\) be rewritten as a single fraction? (Assume \\(z \\ne 0\\).)",
+      "question": "If \\(6x - 4y = 24\\), what is \\(x\\) in terms of \\(y\\)?",
       "options": {
-        "A": "\\(-\\dfrac{1}{4z}\\)",
-        "B": "\\(-\\dfrac{1}{8z}\\)",
-        "C": "\\(\\dfrac{1}{4z}\\)",
-        "D": "\\(\\dfrac{1}{8z}\\)"
+        "A": "\\(x = -\\tfrac{2}{3}y + 4\\)",
+        "B": "\\(x = \\tfrac{2}{3}y + 24\\)",
+        "C": "\\(x = \\tfrac{2}{3}y + 4\\)",
+        "D": "\\(x = -\\tfrac{2}{3}y + 24\\)"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Rewrite with a common denominator of 8z: \\(\\dfrac{2}{8z}-\\dfrac{1}{8z}=\\dfrac{1}{8z}\\)."
+        "exhibit_text": "(C) Add \\(4y\\) to both sides: \\(6x=24+4y\\). Divide by \\(6\\): \\(x=\\dfrac{24+4y}{6}=4+\\dfrac{2}{3}y\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q85 (KM3_Q85)",
+      "base_source": "Exam A — Math Q48 (AM48)",
       "base_question": {
-        "question": "How can \\(\\dfrac{1}{3y}-\\dfrac{1}{6y}\\) be rewritten as a single fraction? (Assume \\(y \\ne 0\\).)",
+        "question": "If \\(4x - 3y = 12\\), what is \\(x\\) in terms of \\(y\\)?",
         "options": {
-          "A": "\\(-\\dfrac{1}{3y}\\)",
-          "B": "\\(-\\dfrac{1}{6y}\\)",
-          "C": "\\(\\dfrac{1}{3y}\\)",
-          "D": "\\(\\dfrac{1}{6y}\\)"
+          "A": "\\(x = \\tfrac{3}{4}y + 12\\)",
+          "B": "\\(x = -\\tfrac{3}{4}y + 12\\)",
+          "C": "\\(x = \\tfrac{3}{4}y + 3\\)",
+          "D": "\\(x = -\\tfrac{3}{4}y + 3\\)"
         },
-        "correct": "D",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+          "letter": "C",
+          "exhibit_text": "(C)\n\n\\[4x - 3y = 12\\]\n\\[4x = 3y + 12\\]\n\\[x = \\dfrac{3}{4}y + \\dfrac{12}{4}\\]\n\\[x = \\dfrac{3}{4}y + 3\\]"
         }
       },
       "q_number": 13
     },
     {
-      "id": "P-HE2-M-FM27",
+      "id": "P-HE2-GM09",
       "question_type": "mc",
-      "question": "A perfume recipe requires \\(\\dfrac{2}{7}\\) of an ounce of saffron extract. How many batches of perfume can be made using a package containing 28 ounces of saffron extract?",
+      "question": "On the number line above, points \\(J\\), \\(K\\), \\(L\\), and \\(M\\) are integers, and \\(JK{:}KL{:}LM=3{:}2{:}4\\). What is the value of \\(\\overline{KM}\\)?",
       "options": {
-        "A": "\\(14\\)",
-        "B": "\\(49\\)",
-        "C": "\\(56\\)",
-        "D": "\\(98\\)"
-      },
-      "correct": "D",
-      "solution": {
-        "exhibit_text": "Divide 28 by \\(\\dfrac{2}{7}\\): \\(28\\div\\dfrac{2}{7}=28\\times\\dfrac{7}{2}=\\dfrac{196}{2}=98\\) batches."
-      },
-      "base_source": "Exam F — Math Q27 (FM27)",
-      "base_question": {
-        "question": "A granola recipe requires \\(\\dfrac{3}{5}\\) of an ounce of vanilla extract. How many batches of granola can be made using a package containing 60 ounces of vanilla extract?",
-        "options": {
-          "A": "36",
-          "B": "48",
-          "C": "80",
-          "D": "100"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "To answer this question, you have to figure out how many times \\(\\dfrac{3}{5}\\) goes into 60. Since you're dividing by a number smaller than 1, the result must be more than 60, so eliminate (A) and (B). The equation is \\(60\\div\\dfrac{3}{5}=\\dfrac{60}{1}\\times\\dfrac{5}{3}\\). Canceling will make the multiplication easier: \\(\\dfrac{60}{1}\\times\\dfrac{5}{3}=\\dfrac{20}{1}\\times\\dfrac{5}{1}\\), which equals \\(20\\times5\\), or 100."
-        }
-      },
-      "q_number": 14
-    },
-    {
-      "id": "P-HE2-M-BM19",
-      "question_type": "mc",
-      "question": "Points M, N, and O are on a straight line, and N is between M and O. Length \\(\\overline{NO} = \\dfrac{2}{3}\\overline{MN}\\), and length \\(\\overline{MN} = 18\\) centimeters. What is the length of \\(\\overline{MO}\\)?",
-      "options": {
-        "A": "\\(20\\) cm",
-        "B": "\\(24\\) cm",
-        "C": "\\(30\\) cm",
-        "D": "\\(36\\) cm"
+        "A": "\\(9\\)",
+        "B": "\\(15\\)",
+        "C": "\\(18\\)",
+        "D": "\\(21\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Since \\(\\overline{MN}=18\\) cm, find \\(\\overline{NO}=\\dfrac{2}{3}(18)=12\\) cm. \\(\\overline{MO}=\\overline{MN}+\\overline{NO}=18+12=30\\) cm."
+        "exhibit_text": "(C) The ratio parts sum to \\(3+2+4=9\\). \\(JM=12-(-15)=27\\), so each part is \\(27\\div9=3\\). \\(\\overline{KM}\\) covers the \\(KL\\) and \\(LM\\) parts: \\((2+4)\\times3=18\\)."
       },
-      "base_source": "Exam B — Math Q19 (BM19)",
+      "base_source": "Exam G — Math Q9 (GM09)",
       "base_question": {
-        "question": "Points \\(X\\), \\(Y\\), and \\(Z\\) are on a straight line, and \\(Y\\) is between \\(X\\) and \\(Z\\). Length \\(\\overline{YZ} = \\dfrac{3}{5}\\overline{XY}\\), and length \\(\\overline{XY} = 20\\) centimeters. What is the length of \\(\\overline{XZ}\\)?",
+        "question": "On the number line above, points \\(J\\), \\(K\\), \\(L\\), and \\(M\\) are integers, and \\(JK{:}KL{:}LM=2{:}1{:}3\\). What is the value of \\(KM\\)?",
         "options": {
-          "A": "\\(12\\) cm",
-          "B": "\\(24\\) cm",
-          "C": "\\(30\\) cm",
-          "D": "\\(32\\) cm"
+          "A": "\\(8\\)",
+          "B": "\\(12\\)",
+          "C": "\\(16\\)",
+          "D": "\\(24\\)"
         },
-        "correct": "D",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "(D) Since \\(\\overline{XY} = 20\\) cm, use that to find \\(\\overline{YZ}\\):\n\n\\[\\overline{YZ} = \\dfrac{3}{5}\\overline{XY} = \\dfrac{3}{5}(20) = 12 \\text{ cm}\\]\n\\[\\overline{XZ} = \\overline{XY} + \\overline{YZ} = 20 + 12 = 32 \\text{ cm}\\]"
+          "letter": "C",
+          "exhibit_text": "In ratio problems, be clear on whether you have a part-to-part or part-to-whole ratio. In this problem, you are given a part-to-part ratio and a number line that allows you to find the length of the whole line segment. Find the whole of the ratio by adding the parts together: \\(2+1+3=6\\). The problem asks for the value of \\(KM\\), which includes both \\(KL\\) and \\(LM\\), so make a new part-to-whole ratio with those two parts: \\((1+3){:}6\\), or \\(4{:}6\\), which simplifies to \\(2{:}3\\). Next, use the number line to find the length of the whole line segment. \\(5-(-19)=5+19=24\\). Finally, set up a proportion using your part-to-whole ratio and cross multiply to solve.\n\n\\[\\dfrac{2}{3}=\\dfrac{x}{24}\\]\n\\[3x=48\\]\n\\[x=16\\]"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 400 90\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"50\" x2=\"380\" y2=\"50\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"20,50 28,45 28,55\" fill=\"#333\"/>\n<polygon points=\"380,50 372,45 372,55\" fill=\"#333\"/>\n<line x1=\"40\" y1=\"43\" x2=\"40\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"40\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">J</text>\n<text x=\"40\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">–19</text>\n<line x1=\"120\" y1=\"43\" x2=\"120\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"120\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">K</text>\n<line x1=\"160\" y1=\"43\" x2=\"160\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"160\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">L</text>\n<line x1=\"280\" y1=\"45\" x2=\"280\" y2=\"55\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"280\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">0</text>\n<line x1=\"320\" y1=\"43\" x2=\"320\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"320\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">M</text>\n<text x=\"320\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">5</text>\n</svg>"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 400 90\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\"><line x1=\"20\" y1=\"50\" x2=\"380\" y2=\"50\" stroke=\"#333\" stroke-width=\"1.3\"/><polygon points=\"20,50 28,45 28,55\" fill=\"#333\"/><polygon points=\"380,50 372,45 372,55\" fill=\"#333\"/><line x1=\"40\" y1=\"43\" x2=\"40\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/><text x=\"40\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">J</text><text x=\"40\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">–15</text><line x1=\"120\" y1=\"43\" x2=\"120\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/><text x=\"120\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">K</text><line x1=\"160\" y1=\"43\" x2=\"160\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/><text x=\"160\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">L</text><line x1=\"280\" y1=\"45\" x2=\"280\" y2=\"55\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"280\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">0</text><line x1=\"320\" y1=\"43\" x2=\"320\" y2=\"57\" stroke=\"#333\" stroke-width=\"1.3\"/><text x=\"320\" y=\"33\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"320\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">12</text></svg>",
+      "q_number": 14
+    },
+    {
+      "id": "P-HE2-CM38",
+      "question_type": "mc",
+      "question": "This formula can be used to determine \\(t\\), the number of minutes it takes to print \\(n\\) photos, printing at an average of \\(r\\) minutes per photo, with \\(s\\) extra minutes needed to set up the printer.\n\n\\[t = \\dfrac{1}{r}n + s\\]\n\nIf the formula is solved for \\(n\\), what will the formula be?",
+      "options": {
+        "A": "\\(n = r + t + s\\)",
+        "B": "\\(n = \\dfrac{1}{r}t + s\\)",
+        "C": "\\(n = s + rt\\)",
+        "D": "\\(n = r(t - s)\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "(D) Subtract \\(s\\) from both sides: \\(t-s=\\dfrac{1}{r}n\\). Multiply both sides by \\(r\\): \\(r(t-s)=n\\), so \\(n=r(t-s)\\)."
+      },
+      "base_source": "Exam C — Math Q38 (CM38)",
+      "base_question": {
+        "question": "This formula can be used to determine \\(p\\), the number of pages that will be in a book that contains \\(w\\) words, with an average of \\(r\\) words per page, and \\(f\\) extra pages in the front for the title and publishing information.\n\n\\[p = \\dfrac{1}{r}w + f\\]\n\nIf the formula is solved for \\(w\\), it can be used to find the number of words in a book with \\(p\\) pages. What will the formula be if it is solved for \\(w\\)?",
+        "options": {
+          "A": "\\(w = r(p - f)\\)",
+          "B": "\\(w = \\dfrac{1}{r}p + f\\)",
+          "C": "\\(w = f + rp\\)",
+          "D": "\\(w = r + p + f\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "(A) Apply the properties of equality to solve for \\(w\\).\n\n\\[p = \\dfrac{1}{r}w + f\\]\n\nSubtract \\(f\\) from both sides of the equation.\n\n\\[p - f = \\dfrac{1}{r}w\\]\n\nMultiply both sides by \\(r\\).\n\n\\[r(p - f) = r\\left(\\dfrac{1}{r}w\\right)\\]\n\\[r(p - f) = w\\]\n\\[w = r(p - f)\\]"
         }
       },
       "q_number": 15
     },
     {
-      "id": "P-HE2-M-FM41",
+      "id": "P-HE2-FM32",
       "question_type": "mc",
-      "question": "Points P, Q, R, S, T, and U are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points P and U is 45, what is the distance between points Q and T?",
+      "question": "The table above shows the number of dogs per family in 150 households in a certain neighborhood. By what **percentage** is the number of families with 2 dogs less than the number of families with no dogs?",
       "options": {
-        "A": "18",
-        "B": "24",
-        "C": "27",
-        "D": "36"
+        "A": "14\\%",
+        "B": "25\\%",
+        "C": "33\\%",
+        "D": "75\\%"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "There are 5 equal gaps between P and U, so each gap = 45/5 = 9. Q to T spans 3 gaps (Q-R, R-S, S-T), so QT = 3 × 9 = 27."
+        "exhibit_text": "(B) The number of families with 2 dogs (\\(42\\)) is less than the number with no dogs (\\(56\\)) by \\(56-42=14\\). As a percentage of the \\(0\\)-dog group: \\(\\dfrac{14}{56}=25\\%\\)."
       },
-      "base_source": "Exam F — Math Q41 (FM41)",
+      "base_source": "Exam F — Math Q32 (FM32)",
       "base_question": {
-        "question": "Points A, B, C, D, E, F, G, and H are all on a straight line in that order. The distance between each pair of adjacent points is the same. If the distance between points A and H is 56, what is the distance between points B and E?",
+        "question": "The table above shows the number of dogs per family in 120 households in a certain neighborhood. By what **percentage** is the number of families with 2 dogs less than the number of families with no dogs?",
         "options": {
-          "A": "16",
-          "B": "18",
-          "C": "21",
-          "D": "24"
+          "A": "15%",
+          "B": "18%",
+          "C": "30%",
+          "D": "40%"
         },
         "correct": "D",
         "solution": {
-          "exhibit_text": "Because the distance between each pair of adjacent points is the same, each of the 7 segments \\(\\overline{AB},\\overline{BC},\\overline{CD},\\overline{DE},\\overline{EF},\\overline{FG}\\), and \\(\\overline{GH}\\) has the same length. These 7 segments make up segment \\(\\overline{AH}\\). Since the length of \\(\\overline{AH}\\) is 56, the length of each of the 7 small segments is \\(56\\div7\\), or 8. The distance between points B and E is the sum of the lengths of the 3 equal segments \\(\\overline{BC}\\), \\(\\overline{CD}\\), and \\(\\overline{DE}\\), so the distance between points B and E is \\(3\\times8\\), or 24."
-        }
+          "letter": "D",
+          "exhibit_text": "Read carefully to identify the \"whole\" value for this problem. In this case, the question asks for the difference *from* families with no dogs, so that value represents the whole. There are 45 families with no dogs, and \\(45-27=18\\) fewer families with 2 dogs. Plug these values into the percent formula: \\(\\dfrac{18}{45}\\times100=40\\%\\)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 284 132\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"13\" font-weight=\"700\" font-size=\"12\">SURVEY OF DOG OWNERSHIP</text><g transform=\"translate(2,20)\"><rect x=\"0\" y=\"0\" width=\"280\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"280\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"280\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"280\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"280\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"280\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\">Number of Dogs</text><text x=\"146\" y=\"15\" font-weight=\"700\">Number of Families</text><text x=\"6\" y=\"37\">0</text><text x=\"146\" y=\"37\">45</text><text x=\"6\" y=\"59\">1</text><text x=\"146\" y=\"59\">38</text><text x=\"6\" y=\"81\">2</text><text x=\"146\" y=\"81\">27</text><text x=\"6\" y=\"103\">3 or more</text><text x=\"146\" y=\"103\">10</text></g></svg>"
       },
+      "figure_svg": "<svg viewBox=\"0 0 284 132\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"13\" font-weight=\"700\" font-size=\"12\">SURVEY OF DOG OWNERSHIP</text><g transform=\"translate(2,20)\"><rect x=\"0\" y=\"0\" width=\"280\" height=\"110\" fill=\"none\" stroke=\"#222\"/><line x1=\"140\" y1=\"0\" x2=\"140\" y2=\"110\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"280\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"22\" x2=\"280\" y2=\"22\" stroke=\"#222\"/><line x1=\"0\" y1=\"44\" x2=\"280\" y2=\"44\" stroke=\"#222\"/><line x1=\"0\" y1=\"66\" x2=\"280\" y2=\"66\" stroke=\"#222\"/><line x1=\"0\" y1=\"88\" x2=\"280\" y2=\"88\" stroke=\"#222\"/><text x=\"6\" y=\"15\" font-weight=\"700\">Number of Dogs</text><text x=\"146\" y=\"15\" font-weight=\"700\">Number of Families</text><text x=\"6\" y=\"37\">0</text><text x=\"146\" y=\"37\">56</text><text x=\"6\" y=\"59\">1</text><text x=\"146\" y=\"59\">40</text><text x=\"6\" y=\"81\">2</text><text x=\"146\" y=\"81\">42</text><text x=\"6\" y=\"103\">3 or more</text><text x=\"146\" y=\"103\">12</text></g></svg>",
       "q_number": 16
     },
     {
-      "id": "P-HE2-M-BM22",
+      "id": "P-HE2-GM40",
       "question_type": "mc",
-      "question": "An alloy coin is made from four metals—copper, tin, zinc, and nickel—with weights in the ratio of 141:30:20:9, respectively. The coin weighs a total of 20 grams. What is the weight of the zinc in this coin?",
+      "question": "Which graph represents the solution to \\(|x+2|>3\\)?",
       "options": {
-        "A": "\\(0.9\\) gram",
-        "B": "\\(1.0\\) gram",
-        "C": "\\(2.0\\) grams",
-        "D": "\\(3.0\\) grams"
+        "A": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\"><line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/><polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/><polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/><line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text><line x1=\"14\" y1=\"23\" x2=\"35.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"125.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><circle cx=\"35.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/><circle cx=\"125.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/></svg>",
+        "B": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\"><line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/><polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/><polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/><line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text><line x1=\"14\" y1=\"23\" x2=\"80.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"170.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><circle cx=\"80.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/><circle cx=\"170.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/></svg>",
+        "C": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\"><line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/><polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/><polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/><line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text><line x1=\"35.0\" y1=\"23\" x2=\"125.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><circle cx=\"35.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/><circle cx=\"125.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/></svg>",
+        "D": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\"><line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/><polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/><polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/><line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text><line x1=\"80.0\" y1=\"23\" x2=\"170.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><circle cx=\"80.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/><circle cx=\"170.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/></svg>"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Add the ratio values: \\(141+30+20+9=200\\). Zinc's fraction is \\(\\dfrac{20}{200}=\\dfrac{1}{10}\\). Multiply by the total weight: \\(\\dfrac{1}{10}\\times 20 = 2.0\\) grams."
+        "exhibit_text": "The inequality \\(|x+2|>3\\) means \\(x+2>3\\) or \\(x+2<-3\\), which gives \\(x>1\\) or \\(x<-5\\). This is two separate rays extending outward from open circles at \\(-5\\) and \\(1\\) (Choice A)."
       },
-      "base_source": "Exam B — Math Q22 (BM22)",
+      "base_source": "Exam G — Math Q40 (GM40)",
       "base_question": {
-        "question": "A United States presidential coin is made from an alloy of four metals—copper, zinc, manganese, and nickel—with weights in the ratio of \\(177{:}12{:}7{:}4\\), respectively. The coin weighs a total of \\(8\\) grams. What is the weight of the zinc in this coin?",
+        "question": "Which graph represents the solution to \\(|x-1|>2\\)?",
         "options": {
-          "A": "\\(0.28\\) gram",
-          "B": "\\(0.48\\) gram",
-          "C": "\\(0.96\\) gram",
-          "D": "\\(48\\) grams"
+          "A": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"14\" y1=\"23\" x2=\"95.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"155.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"95.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"155.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+          "B": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"14\" y1=\"23\" x2=\"65.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/><line x1=\"125.0\" y1=\"23\" x2=\"206\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"65.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"125.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+          "C": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"95.0\" y1=\"23\" x2=\"155.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"95.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"155.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>",
+          "D": "<svg viewBox=\"0 0 220 44\" xmlns=\"http://www.w3.org/2000/svg\" style=\"vertical-align:middle;\" font-family=\"Georgia,serif\" width=\"200\">\n<line x1=\"10\" y1=\"23\" x2=\"210\" y2=\"23\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"10,23 17,19 17,27\" fill=\"#333\"/>\n<polygon points=\"210,23 203,19 203,27\" fill=\"#333\"/>\n<line x1=\"20.0\" y1=\"21\" x2=\"20.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"21\" x2=\"35.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"50.0\" y1=\"21\" x2=\"50.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"21\" x2=\"65.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"21\" x2=\"80.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"21\" x2=\"95.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"21\" x2=\"110.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"21\" x2=\"125.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"21\" x2=\"140.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"21\" x2=\"155.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"21\" x2=\"170.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"185.0\" y1=\"21\" x2=\"185.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"21\" x2=\"200.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1\"/>\n<text x=\"20.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-6</text><text x=\"50.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-4</text><text x=\"80.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">-2</text><text x=\"110.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">0</text><text x=\"140.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">2</text><text x=\"170.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">4</text><text x=\"200.0\" y=\"38\" font-size=\"9\" text-anchor=\"middle\">6</text>\n<line x1=\"65.0\" y1=\"23\" x2=\"125.0\" y2=\"23\" stroke=\"#333\" stroke-width=\"3.5\"/>\n<circle cx=\"65.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<circle cx=\"125.0\" cy=\"23\" r=\"3.2\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>"
         },
-        "correct": "B",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "(B) Add the four values in the ratio (\\(177 + 12 + 7 + 4 = 200\\)) and use the sum as the denominator. Use that to find the fraction of zinc in one of the coins. Then reduce the fraction:\n\n\\[\\dfrac{12}{200} = \\dfrac{3}{50}\\]\n\nMultiply this fraction by \\(8\\) to find the number of grams of zinc in decimal form:\n\n\\[\\dfrac{3}{50} \\times 8 = \\dfrac{24}{50} = 0.48 \\text{ g}\\]"
+          "letter": "A",
+          "exhibit_text": "Absolute value makes the output positive by ignoring the sign of the number inside the absolute value bars. This means that the input can be either positive or negative. Thus, \\(|x-1|>2\\) implies that both \\(x-1>2\\) and \\(-(x-1)>2\\). Rewriting the second inequality gives \\(x-1<-2\\), since the inequality sign flips when dividing or multiplying by a negative. Solve the first inequality for \\(x\\):\n\n\\[x-1>2\\]\n\\[x>3\\]\n\nSolve the second inequality for \\(x\\):\n\n\\[x-1<-2\\]\n\\[x<-1\\]\n\nThus, \\(x<-1\\) or \\(x>3\\). Since the symbol is < (exclusive), use open circles at \\(-1\\) and \\(3\\). The variable \\(x\\) is either less than \\(-1\\) or greater than \\(3\\), so (A) is correct.\n\nAlternatively, use Backsolving. Since \\(0\\) is a solution for (C) and (D) but not in (A) and (B), let \\(x=0\\). When \\(x\\) is \\(0\\), \\(|-1|>2\\), which is not true. Thus, eliminate (C) and (D). Now, let \\(x=2\\). When \\(x\\) is \\(2\\), \\(|2-1|>2\\) is not true. Again, (A) is correct."
         }
       },
       "q_number": 17
     },
     {
-      "id": "P-HE2-M-KM2_Q113",
+      "id": "P-HE2-DM13",
       "question_type": "mc",
-      "question": "Priya selects a marble from a bag and then returns it to the bag. When she does this 3 times, the probability of choosing a red marble all 3 times is \\(\\dfrac{1}{64}\\). Based on this information, what is the probability of Priya choosing a red marble a single time?",
+      "question": "In the right triangle shown above, what is the measure of the smallest angle?",
       "options": {
-        "A": "\\(\\dfrac{1}{64}\\)",
-        "B": "\\(\\dfrac{1}{16}\\)",
-        "C": "\\(\\dfrac{1}{8}\\)",
-        "D": "\\(\\dfrac{1}{4}\\)"
+        "A": "\\(36°\\)",
+        "B": "\\(39°\\)",
+        "C": "\\(41°\\)",
+        "D": "\\(44°\\)"
       },
-      "correct": "D",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "If p is the probability of choosing red once, then \\(p^3=\\dfrac{1}{64}\\), so \\(p=\\dfrac{1}{4}\\) (since \\((1/4)^3=1/64\\))."
+        "exhibit_text": "(B) The two non-right angles sum to \\(90°\\): \\((3x+6)+(2x+9)=90\\), so \\(5x+15=90\\) and \\(x=15\\). The angles are \\(3(15)+6=51°\\) and \\(2(15)+9=39°\\). The smallest angle is \\(39°\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q113 (KM2_Q113)",
+      "base_source": "Exam D — Math Q13 (DM13)",
       "base_question": {
-        "question": "Diego selects a marble from a bag and then returns it to the bag. When he does this 4 times, the probability of choosing a blue marble all 4 times is \\(\\dfrac{1}{81}\\). Based on this information, what is the probability of Diego choosing a blue marble the first time he selects a marble?",
+        "question": "In the right triangle shown above, what is the measure of the smallest angle?",
         "options": {
-          "A": "\\(\\dfrac{4}{81}\\)",
-          "B": "\\(\\dfrac{1}{9}\\)",
-          "C": "\\(\\dfrac{2}{9}\\)",
-          "D": "\\(\\dfrac{1}{3}\\)"
+          "A": "\\(43°\\)",
+          "B": "\\(44°\\)",
+          "C": "\\(46°\\)",
+          "D": "\\(47°\\)"
         },
-        "correct": "D",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
-        }
+          "letter": "A",
+          "exhibit_text": "(A) Since the three angles of a triangle have a sum of \\(180°\\), and since one angle is a right angle, the other two angles have a sum of \\(90°\\). By writing an equation and using inverse operations, the value of \\(x\\) can be found.\n\n\\[(2x + 9) + (3x - 14) = 90\\]\n\\[5x - 5 = 90\\]\n\\[5x = 95\\]\n\\[x = 19\\]\n\nNow, use substitution to find the measure of the two angles to determine the smallest angle of the triangle.\n\n\\[2x + 9 = 2(19) + 9 = 47\\]\n\\[3x - 14 = 3(19) - 14 = 43\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><polygon points='80,50 80,240 300,240' fill='none' stroke='#111' stroke-width='1.4'/><polyline points='96,240 96,224 80,224' fill='none' stroke='#111' stroke-width='1'/><line x1='95' y1='72' x2='150' y2='38' stroke='#666' stroke-width='0.8'/><text x='153' y='36' font-family='Georgia,serif' font-size='13'>(2x + 9)°</text><text x='245' y='232' font-family='Georgia,serif' font-size='13'>(3x − 14)°</text></svg>"
       },
+      "figure_svg": "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg' style='max-width:360px; margin: 0 auto; display: block;'><polygon points='80,50 80,240 300,240' fill='none' stroke='#111' stroke-width='1.4'/><polyline points='96,240 96,224 80,224' fill='none' stroke='#111' stroke-width='1'/><line x1='95' y1='72' x2='150' y2='38' stroke='#666' stroke-width='0.8'/><text x='153' y='36' font-family='Georgia,serif' font-size='13'>(3x + 6)°</text><text x='245' y='232' font-family='Georgia,serif' font-size='13'>(2x + 9)°</text></svg>",
       "q_number": 18
     },
     {
-      "id": "P-HE2-M-CM27",
+      "id": "P-HE2-CM25",
       "question_type": "mc",
-      "question": "A graph shows the cost of gravel, in dollars, as a function of weight, in pounds, at a rate of $0.20 per pound. Which statement about a point on the graph is true?",
+      "question": "For each \\(\\dfrac{5}{6}\\) foot of trim, \\(\\dfrac{7}{8}\\) yard of binding is needed. How many yards of binding are needed per foot of trim?",
       "options": {
-        "A": "The point \\((15, 3)\\) means that \\(3\\) lbs of gravel costs $\\(15.00\\).",
-        "B": "The point \\((1, 0.20)\\) means that \\(1\\) bag of gravel costs $\\(0.20\\).",
-        "C": "The point \\((20, 4)\\) means that \\(20\\) lbs of gravel costs $\\(4.00\\).",
-        "D": "The point \\((0, 0)\\) means that \\(0\\) lbs of gravel will be needed if \\(0\\) people attend."
+        "A": "\\(\\dfrac{35}{48}\\) yd",
+        "B": "\\(\\dfrac{41}{24}\\) yd",
+        "C": "\\(\\dfrac{21}{20}\\) yd",
+        "D": "\\(\\dfrac{20}{21}\\) yd"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "At $0.20/lb, 20 lbs costs 20 × 0.20 = $4.00, matching point (20, 4) where x = weight in pounds and y = cost in dollars. (A) has the axes reversed; (B) misreads the x-value as \"bags\" rather than pounds; (D) is an irrelevant, unsupported claim."
+        "exhibit_text": "(C) Divide to find how many \\(\\dfrac{5}{6}\\)-foot units are in \\(1\\) foot: \\(1 \\div \\dfrac{5}{6} = \\dfrac{6}{5}\\). Multiply by the binding needed per unit: \\(\\dfrac{6}{5}\\times\\dfrac{7}{8}=\\dfrac{42}{40}=\\dfrac{21}{20}\\) yd."
       },
-      "base_source": "Exam C — Math Q27 (CM27)",
+      "base_source": "Exam C — Math Q25 (CM25)",
       "base_question": {
-        "question": "Some friends are buying bags of ice for a picnic. The graph shows the cost of the ice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?\n\n(ICE COSTS graph: y-axis Cost (dollars) from 0 to 3.0; x-axis Weight of Ice (lb) from 0 to 20; a straight line from origin through (10, 1.5) and (20, 3.0).)",
+        "question": "For each \\(\\dfrac{3}{8}\\) foot of curtain width, \\(\\dfrac{5}{6}\\) yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width?",
         "options": {
-          "A": "The point \\((20, 3)\\) means that \\(3\\) lbs of ice costs $\\(20.00\\).",
-          "B": "The point \\((1, 0.15)\\) means that \\(1\\) bag of ice costs $\\(0.15\\).",
-          "C": "The point \\((10, 1.5)\\) means that \\(10\\) lbs of ice costs $\\(1.50\\).",
-          "D": "The point \\((0, 0)\\) means that \\(0\\) lbs of ice will be needed if \\(0\\) people go to the picnic."
+          "A": "\\(\\dfrac{5}{16}\\) yd",
+          "B": "\\(\\dfrac{29}{24}\\) yd",
+          "C": "\\(\\dfrac{20}{9}\\) yd",
+          "D": "\\(\\dfrac{7}{2}\\) yd"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) The \\(x\\)-axis represents the weight, in pounds (lbs), of ice purchased, and the \\(y\\)-axis represents the cost of the ice, in dollars.\n\nThe \\(x\\)-value in the point \\((10, 1.5)\\) represents \\(10\\) lbs of ice, and the \\(y\\)-value represents \\(1.5\\) dollars, or $\\(1.50\\). Therefore, the cost of \\(10\\) lbs of ice is $\\(1.50\\)."
+          "letter": "C",
+          "exhibit_text": "(C) It takes \\(\\dfrac{5}{6}\\) yard of fabric to make \\(\\dfrac{3}{8}\\) foot of curtain width.\n\nTo find the ratio of \\(1\\) foot of curtain width to \\(\\dfrac{3}{8}\\) foot of curtain width \\(\\left(1{:}\\dfrac{3}{8}\\right)\\), divide.\n\n\\[1 \\div \\dfrac{3}{8} = 1 \\times \\dfrac{8}{3} = \\dfrac{8}{3}\\]\n\nSo the amount of fabric needed for \\(1\\) foot of curtain width is \\(\\dfrac{8}{3}\\) times the amount needed for \\(\\dfrac{3}{8}\\) foot of curtain width.\n\n\\[\\dfrac{8}{3} \\times \\dfrac{5}{6} = \\dfrac{40}{18}\\]\n\\[\\dfrac{40 \\div 2}{18 \\div 2} = \\dfrac{20}{9}\\]\n\nThe amount of fabric needed for \\(1\\) foot of curtain width is \\(\\dfrac{20}{9}\\) yd."
         }
       },
       "q_number": 19
     },
     {
-      "id": "P-HE2-M-KM2_Q90",
+      "id": "P-HE2-KM3_Q84",
       "question_type": "mc",
-      "question": "In 2016, a town had a population of 50,000. By 2018, the population had decreased by 20% to 40,000. If the percent decrease from 2018 to 2020 is the same as the percent decrease from 2016 to 2018, what should the 2020 population be?",
+      "question": "The table above shows the number of each color of umbrella sold at a particular store last year. If 180 umbrellas were sold in April, and the store only sells white, red, or blue umbrellas, what is the best estimate (based on last year's sales) of the number of blue umbrellas sold in April?",
       "options": {
-        "E": "\\(28{,}000\\)",
-        "F": "\\(30{,}000\\)",
-        "G": "\\(32{,}000\\)",
-        "H": "\\(35{,}000\\)"
+        "E": "36",
+        "F": "54",
+        "G": "90",
+        "H": "120"
       },
       "correct": "G",
       "solution": {
-        "exhibit_text": "The percent decrease from 2016 to 2018 was 20%. Applying the same 20% decrease to the 2018 population: \\(40{,}000\\times0.8=32{,}000\\)."
+        "exhibit_text": "Last year, blue umbrellas made up \\(\\dfrac{2{,}000}{4{,}000}=50\\%\\) of sales. Applying that proportion to April: \\(180\\times0.50=90\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q90 (KM2_Q90)",
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q84 (KM3_Q84)",
       "base_question": {
-        "question": "Based on the graph above, if the percent decrease from the 2018 population to the 2020 population of City X is the same as the percent decrease from the 2016 population to the 2018 population, what should the 2020 population in City X be?",
+        "question": "The table above shows the number of each color of T-shirt sold at a particular store last year. If 240 T-shirts were sold in June, and the store only sells white, red, or blue T-shirts, what is the best estimate (based on last year's sales) of the number of blue T-shirts sold in June?",
         "options": {
-          "E": "280,000",
-          "F": "300,000",
-          "G": "320,000",
-          "H": "350,000"
-        },
-        "correct": "G",
-        "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
-        },
-        "figure_svg": "<svg viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"20\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">Population of City X, 2014-2018</text><text x=\"160.0\" y=\"34\" font-size=\"13\" text-anchor=\"middle\" fill=\"#222\">(in Hundred Thousands)</text><line x1=\"70\" y1=\"60\" x2=\"70\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"260\" x2=\"304\" y2=\"260\" stroke=\"#333\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"260.0\" x2=\"70\" y2=\"260.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"264.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">0</text><line x1=\"66\" y1=\"226.7\" x2=\"70\" y2=\"226.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"230.7\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">1</text><line x1=\"66\" y1=\"193.3\" x2=\"70\" y2=\"193.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"197.3\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">2</text><line x1=\"66\" y1=\"160.0\" x2=\"70\" y2=\"160.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"164.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">3</text><line x1=\"66\" y1=\"126.7\" x2=\"70\" y2=\"126.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"130.7\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">4</text><line x1=\"66\" y1=\"93.3\" x2=\"70\" y2=\"93.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"97.3\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">5</text><line x1=\"66\" y1=\"60.0\" x2=\"70\" y2=\"60.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"62\" y=\"64.0\" font-size=\"11\" text-anchor=\"end\" fill=\"#222\">6</text><text x=\"99.0\" y=\"54.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">6</text><line x1=\"90\" y1=\"60.0\" x2=\"108\" y2=\"60.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"99.0\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2014</text><text x=\"187.0\" y=\"87.3\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">5</text><line x1=\"178\" y1=\"93.3\" x2=\"196\" y2=\"93.3\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2016</text><text x=\"275.0\" y=\"120.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">4</text><line x1=\"266\" y1=\"126.7\" x2=\"284\" y2=\"126.7\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"275.0\" y=\"276\" font-size=\"12\" text-anchor=\"middle\" fill=\"#222\">2018</text><line x1=\"99.0\" y1=\"60.0\" x2=\"187.0\" y2=\"93.3\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"187.0\" y1=\"93.3\" x2=\"275.0\" y2=\"126.7\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/></svg>"
-      },
-      "q_number": 20
-    },
-    {
-      "id": "P-HE2-M-KM3_Q72",
-      "question_type": "mc",
-      "question": "If \\(5x+3=38\\), then \\(5x+9=\\)",
-      "options": {
-        "A": "\\(38\\)",
-        "B": "\\(41\\)",
-        "C": "\\(44\\)",
-        "D": "\\(47\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "\\(5x+3=38\\) means \\(5x=35\\). So \\(5x+9=35+9=44\\)."
-      },
-      "base_source": "Kaplan 2025 Practice Test 3 — Math Q72 (KM3_Q72)",
-      "base_question": {
-        "question": "If \\(4x+2=26\\), then \\(4x+8=\\)",
-        "options": {
-          "E": "32",
-          "F": "34",
-          "G": "36",
-          "H": "38"
+          "E": "60",
+          "F": "80",
+          "G": "92",
+          "H": "108"
         },
         "correct": "E",
         "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
+          "exhibit_image": "kaplan_2025_3/solutions/Q84.jpg"
+        },
+        "figure_svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">LAST YEAR'S T-SHIRT SALES</text><rect x=\"20.0\" y=\"38\" width=\"280\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Color</text><text x=\"230.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number Sold</text><line x1=\"20.0\" y1=\"38\" x2=\"20.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"38\" x2=\"160.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"38\" x2=\"300.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"20.0\" y=\"66\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">White</text><text x=\"230.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1,650</text><rect x=\"20.0\" y=\"94\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Red</text><text x=\"230.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">600</text><rect x=\"20.0\" y=\"122\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Blue</text><text x=\"230.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">750</text><rect x=\"20.0\" y=\"150\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Total</text><text x=\"230.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">3,000</text></svg>"
+      },
+      "figure_svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\"><text x=\"160.0\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">LAST YEAR'S UMBRELLA SALES</text><rect x=\"20.0\" y=\"38\" width=\"280\" height=\"28\" fill=\"#ddd\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Color</text><text x=\"230.0\" y=\"56.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#222\">Number Sold</text><line x1=\"20.0\" y1=\"38\" x2=\"20.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"38\" x2=\"160.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"38\" x2=\"300.0\" y2=\"178\" stroke=\"#222\" stroke-width=\"1\"/><rect x=\"20.0\" y=\"66\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">White</text><text x=\"230.0\" y=\"84.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">1,200</text><rect x=\"20.0\" y=\"94\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Red</text><text x=\"230.0\" y=\"112.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">800</text><rect x=\"20.0\" y=\"122\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Blue</text><text x=\"230.0\" y=\"140.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">2,000</text><rect x=\"20.0\" y=\"150\" width=\"280\" height=\"28\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"90.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">Total</text><text x=\"230.0\" y=\"168.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"#222\">4,000</text></svg>",
+      "q_number": 20
+    },
+    {
+      "id": "P-HE2-DM19",
+      "question_type": "mc",
+      "question": "A store manager purchases a dining table for $\\(540.00\\). To determine the selling price, the manager increases the purchase cost by \\(60\\%\\). A customer buys the table and pays an additional \\(8\\%\\) sales tax. How much does the customer pay for the table?",
+      "options": {
+        "A": "$\\(583.20\\)",
+        "B": "$\\(864.00\\)",
+        "C": "$\\(933.12\\)",
+        "D": "$\\(1{,}006.56\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "(C) The \\(60\\%\\) increase: \\(540\\times1.60=864\\). This is the selling price. The tax on the selling price: \\(864\\times0.08=69.12\\). The customer pays \\(864+69.12=933.12\\)."
+      },
+      "base_source": "Exam D — Math Q19 (DM19)",
+      "base_question": {
+        "question": "A store manager purchases a piece of furniture for $\\(456.00\\). To determine the selling price, the manager increases the purchase cost by \\(125\\%\\). A customer buys the furniture and pays an additional \\(8\\%\\) sales tax. How much does the customer pay for the furniture?",
+        "options": {
+          "A": "$\\(615.60\\)",
+          "B": "$\\(627.48\\)",
+          "C": "$\\(1{,}108.08\\)",
+          "D": "$\\(1{,}846.80\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Given a purchase price of $\\(456.00\\), the \\(125\\%\\) increase in price is calculated as:\n\n\\[456 \\times 1.25 = 570\\]\n\nThe selling price equals the purchase price plus the increase, or:\n\n\\[456 + 570 = 1{,}026\\]\n\nThe sales tax on the selling price is:\n\n\\[1{,}026(0.08) = 82.08\\]\n\nThe customer pays the selling price plus the sales tax:\n\n\\[1{,}026 + 82.08 = 1{,}108.08\\]"
         }
       },
       "q_number": 21
     },
     {
-      "id": "P-HE2-M-KM2_Q102",
+      "id": "P-HE2-AM39",
       "question_type": "mc",
-      "question": "If a bucket contains 6 ounces of sand and 24 ounces of water, how many ounces of water would need to evaporate in order to make the ratio of the number of ounces of sand to the number of ounces of water 3 to 4?",
+      "question": "On the number line above, points \\(W\\), \\(X\\), \\(Y\\), and \\(Z\\) are integers, and \\(WX{:}XY{:}YZ = 7{:}4{:}5\\). What is the value of \\(\\overline{WY}\\)?",
       "options": {
-        "A": "\\(12\\)",
-        "B": "\\(14\\)",
-        "C": "\\(16\\)",
-        "D": "\\(18\\)"
+        "A": "\\(14\\)",
+        "B": "\\(18\\)",
+        "C": "\\(22\\)",
+        "D": "\\(32\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "Sand stays at 6 oz. We need \\(\\dfrac{6}{w}=\\dfrac{3}{4}\\), so \\(w=8\\) oz of water remain. Water evaporated: \\(24-8=16\\) oz."
+        "exhibit_text": "(C) Convert the ratio into a fraction of \\(WZ\\): \\(WX{:}XY{:}YZ=7{:}4{:}5\\), so \\(WX=\\dfrac{7}{16}\\) and \\(XY=\\dfrac{4}{16}\\) of \\(WZ\\). \\(WZ = 24-(-8)=32\\). \\(WY = WX+XY = \\dfrac{11}{16}(32) = 22\\)."
       },
-      "base_source": "Kaplan 2025 Practice Test 2 — Math Q102 (KM2_Q102)",
+      "base_source": "Exam A — Math Q39 (AM39)",
       "base_question": {
-        "question": "If a bucket contains 4 ounces of sand and 16 ounces of water, how many ounces of water would need to evaporate in order to make the ratio of the number of ounces of sand to the number of ounces of water 2 to 3?",
+        "question": "On the number line above, points \\(W\\), \\(X\\), \\(Y\\), and \\(Z\\) are integers, and \\(WX{:}XY{:}YZ = 4{:}2{:}3\\). What is the value of \\(\\overline{WY}\\)?",
         "options": {
-          "E": "6",
-          "F": "7",
-          "G": "8",
-          "H": "10"
-        },
-        "correct": "H",
-        "solution": {
-          "exhibit_text": "See the generated variant above for a fully worked solution using the same method."
-        }
-      },
-      "q_number": 22
-    },
-    {
-      "id": "P-HE2-M-EM25",
-      "question_type": "mc",
-      "question": "Point Q is not on line n. How many lines can be drawn through Q that are parallel to line n?",
-      "options": {
-        "A": "0",
-        "B": "1",
-        "C": "2",
-        "D": "Cannot be determined from the information given."
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Through a point not on a given line, there is exactly one line parallel to it (the Parallel Postulate). So exactly 1 line can be drawn."
-      },
-      "base_source": "Exam E — Math Q25 (EM25)",
-      "base_question": {
-        "question": "Point P is **not** on line \\(m\\). How many lines can be drawn through P that form a \\(90\\degree\\) angle with line \\(m\\)?",
-        "options": {
-          "A": "0",
-          "B": "1",
-          "C": "2",
-          "D": "Cannot be determined from the information given."
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "Draw a picture to better visualize the situation.\n\nAs you can see, a line drawn from P perpendicular to line \\(m\\) will create two \\(90\\degree\\) angles. However, a line drawn anywhere else will no longer be perpendicular and therefore will not create any \\(90\\degree\\) angles, so only one line meets the conditions of the question."
-        }
-      },
-      "q_number": 23
-    },
-    {
-      "id": "P-HE2-M-CM23",
-      "question_type": "mc",
-      "question": "In parallelogram ABCD, the height from vertex B to side AD is 12 centimeters, and side AD measures 30 centimeters. What is the area of the parallelogram?",
-      "options": {
-        "A": "\\(180\\) sq cm",
-        "B": "\\(252\\) sq cm",
-        "C": "\\(360\\) sq cm",
-        "D": "\\(420\\) sq cm"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "Area of a parallelogram = base × height = \\(30 \\times 12 = 360\\) sq cm."
-      },
-      "base_source": "Exam C — Math Q23 (CM23)",
-      "base_question": {
-        "question": "On parallelogram \\(PQRS\\) above, the length of \\(\\overline{QT}\\) is \\(18\\) centimeters. What is the area of the parallelogram?",
-        "options": {
-          "A": "\\(112\\) sq cm",
-          "B": "\\(396\\) sq cm",
-          "C": "\\(612\\) sq cm",
-          "D": "\\(748\\) sq cm"
+          "A": "\\(8\\)",
+          "B": "\\(11\\)",
+          "C": "\\(12\\)",
+          "D": "\\(18\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "(C) \\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(34\\) cm in length, and the height is the length of the altitude, so the height is \\(18\\) cm.\n\nTo determine the area of a parallelogram, multiply the base \\(\\times\\) the height:\n\n\\[34 \\text{ cm} \\times 18 \\text{ cm} = 612 \\text{ cm}^2\\]"
+          "letter": "C",
+          "exhibit_text": "(C) Convert the ratios into fractions of \\(WZ\\). Use the sum of the ratios for the denominator.\n\n\\[WX{:}XY{:}YZ = 4{:}2{:}3\\]\n\\[WX = \\dfrac{4}{4+2+3} = \\dfrac{4}{9}\\]\n\\[XY = \\dfrac{2}{4+2+3} = \\dfrac{2}{9}\\]\n\nThe part of \\(WZ\\) that is \\(WY\\) is the sum of those fractions:\n\n\\[WY = \\dfrac{4}{9} + \\dfrac{2}{9} = \\dfrac{6}{9} = \\dfrac{2}{3}\\]\n\nFind the length of \\(WZ\\):\n\n\\[WZ = 8 - (-10) = 18\\]\n\nThe value of \\(WY\\) is \\(\\dfrac{2}{3}(18) = 12\\)."
         },
-        "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='187' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='313' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>18 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>22 cm</text><line x1='95' y1='250' x2='305' y2='250' stroke='#111' stroke-width='1'/><path d='M 95 250 L 105 246 L 105 254 Z' fill='#111'/><path d='M 305 250 L 295 246 L 295 254 Z' fill='#111'/><text x='200' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='13'>34 cm</text></svg>"
+        "figure_svg": "<svg viewBox='0 0 460 95' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='330' y1='40' x2='330' y2='50' stroke='#111' stroke-width='1.4'/><line x1='390' y1='40' x2='390' y2='50' stroke='#111' stroke-width='1.4'/><text x='58' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>W</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>X</text><text x='328' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>Y</text><text x='388' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>Z</text><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>−10</text><line x1='270' y1='42' x2='270' y2='48' stroke='#111' stroke-width='1'/><text x='270' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><text x='390' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text></svg>"
+      },
+      "figure_svg": "<svg viewBox='0 0 460 95' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.4'/><line x1='210' y1='40' x2='210' y2='50' stroke='#111' stroke-width='1.4'/><line x1='330' y1='40' x2='330' y2='50' stroke='#111' stroke-width='1.4'/><line x1='390' y1='40' x2='390' y2='50' stroke='#111' stroke-width='1.4'/><text x='58' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>W</text><text x='208' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>X</text><text x='328' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>Y</text><text x='388' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>Z</text><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>−8</text><line x1='270' y1='42' x2='270' y2='48' stroke='#111' stroke-width='1'/><text x='270' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><text x='390' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>24</text></svg>",
+      "q_number": 22
+    },
+    {
+      "id": "P-HE2-BM21",
+      "question_type": "mc",
+      "question": "On the number line above, \\(\\overline{MN} = 7\\tfrac{3}{8}\\). What is the position of point \\(M\\)?",
+      "options": {
+        "A": "\\(-9\\tfrac{5}{8}\\)",
+        "B": "\\(-5\\tfrac{1}{8}\\)",
+        "C": "\\(5\\tfrac{1}{8}\\)",
+        "D": "\\(9\\tfrac{5}{8}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) Point \\(N\\) is at \\(2\\tfrac{1}{4}\\). Since \\(M\\) is to the left of \\(N\\), \\(M=N-\\overline{MN}=2\\tfrac{1}{4}-7\\tfrac{3}{8}=\\dfrac{9}{4}-\\dfrac{59}{8}=\\dfrac{18}{8}-\\dfrac{59}{8}=-\\dfrac{41}{8}=-5\\tfrac{1}{8}\\)."
+      },
+      "base_source": "Exam B — Math Q21 (BM21)",
+      "base_question": {
+        "question": "On the number line above, \\(\\overline{MN} = 5\\tfrac{5}{6}\\). What is the position of point \\(M\\)?",
+        "options": {
+          "A": "\\(-7\\tfrac{1}{6}\\)",
+          "B": "\\(-4\\tfrac{1}{2}\\)",
+          "C": "\\(4\\tfrac{1}{2}\\)",
+          "D": "\\(7\\tfrac{1}{6}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) To find \\(M\\), subtract \\(N - M\\) and set it equal to the length:\n\n\\[1\\tfrac{1}{3} - M = 5\\tfrac{5}{6}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{1}{3}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{2}{6}\\]\n\\[-M = 4\\tfrac{3}{6}\\]\n\\[M = -4\\tfrac{1}{2}\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>1</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>3</text></svg>"
+      },
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>2</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>4</text></svg>",
+      "q_number": 23
+    },
+    {
+      "id": "P-HE2-FM44",
+      "question_type": "mc",
+      "question": "In a recent survey, 75% of the people polled were registered voters and 60% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+      "options": {
+        "A": "\\(\\dfrac{3}{10}\\)",
+        "B": "\\(\\dfrac{2}{5}\\)",
+        "C": "\\(\\dfrac{9}{20}\\)",
+        "D": "\\(\\dfrac{3}{4}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "(A) \\(60\\%\\) of registered voters voted, so \\(40\\%\\) did not. The fraction of ALL surveyed who were registered and did not vote: \\(0.75\\times0.40=0.30=\\dfrac{3}{10}\\)."
+      },
+      "base_source": "Exam F — Math Q44 (FM44)",
+      "base_question": {
+        "question": "In a recent survey, 80% of the people polled were registered voters and 75% of the registered voters voted in the last election. What fraction of all those surveyed were registered voters who did **not** vote in the last election?",
+        "options": {
+          "A": "\\(\\dfrac{1}{10}\\)",
+          "B": "\\(\\dfrac{1}{5}\\)",
+          "C": "\\(\\dfrac{1}{4}\\)",
+          "D": "\\(\\dfrac{2}{5}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "Whenever you have a percent problem that doesn't give you a definite amount and asks a question like \"What fraction of the total...?\" you should pick a number for the total. Since you're dealing with percents here and will be converting the percents to fractions, a good number for the total is 100. So, say that 100 people were polled. 80% of the 100 people were registered voters, so 80 people were registered voters. 75% of the registered voters voted in the last election, so \\(75\\%\\times80\\), or 60 people, voted in the last election. If 60 of the 80 registered voters actually voted in the last election, then \\(80-60=20\\) of the registered voters did **not** vote in the last election. The fraction of the people surveyed who were registered but did not vote is \\(\\dfrac{20}{100}\\), or \\(\\dfrac{1}{5}\\)."
+        }
       },
       "q_number": 24
     },
     {
-      "id": "P-HE2-M-EM50",
+      "id": "P-HE2-DM20",
       "question_type": "mc",
-      "question": "If a coach asks you to randomly pick any 2 team captains from 5 volunteers, how many different pairs of captains can you choose?",
+      "question": "What is the value of \\(\\dfrac{-3(-4)^2 + 34(-4) + 220}{-4}\\)?",
       "options": {
-        "A": "5",
-        "B": "8",
-        "C": "10",
-        "D": "20"
+        "A": "\\(-9\\)",
+        "B": "\\(-4\\)",
+        "C": "\\(9\\)",
+        "D": "\\(36\\)"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "This is a combinations problem: choosing 2 from 5, order doesn't matter. Number of pairs = (5 × 4) / 2 = 10."
+        "exhibit_text": "(A) \\(-3(-4)^2=-3(16)=-48\\). \\(34(-4)=-136\\). The numerator is \\(-48-136+220=36\\). Dividing by \\(-4\\): \\(36\\div(-4)=-9\\)."
       },
-      "base_source": "Exam E — Math Q50 (EM50)",
+      "base_source": "Exam D — Math Q20 (DM20)",
       "base_question": {
-        "question": "A standard deck of playing cards contains 4 different aces (the ace of hearts, the ace of diamonds, the ace of clubs, and the ace of spades). If a magician asks you to randomly pick any 2 aces from the 4, how many different pairs of aces can you choose?",
+        "question": "What is the value of \\(\\dfrac{-9(-4)^2 + 36(-4) + 304}{-4}\\)?",
         "options": {
-          "A": "4",
-          "B": "6",
-          "C": "8",
-          "D": "12"
+          "A": "\\(-76\\)",
+          "B": "\\(-4\\)",
+          "C": "\\(4\\)",
+          "D": "\\(148\\)"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "There are 4 ways to pick the first ace. Once the first ace is picked, there are 3 ways to pick the remaining ace. This yields \\(4\\times3=12\\) possible combinations. But be careful! This method of calculation does not model the fact that the order in which you choose the cards does not matter. For example, this procedure counts an ace of hearts and then an ace of diamonds draw as something different than an ace of diamonds then an ace of hearts draw. However, you know that if you are holding two cards in your hand, their order does not matter. To fix this, simply divide by the number of ways to arrange 2 objects, or 2: \\(12\\div2=6\\).\n\nAlternatively, you could simply list out all of the possible different pairs of aces: hearts & diamonds; hearts & clubs; hearts & spades; diamonds & clubs; diamonds & spades; and clubs & spades. These are the 6 pairs, so this method also leads to the correct answer, (B). Keep in mind that this approach will become increasingly tedious as the numbers get larger."
+          "letter": "B",
+          "exhibit_text": "(B) Use the order of operations to evaluate the expression. It is important to recognize that the fraction bar is a grouping symbol and so the entire numerator should be evaluated first. Exponents are evaluated first.\n\n\\[\\dfrac{-9(-4)^2 + 36(-4) + 304}{-4}\\]\n\\[\\dfrac{-9(16) + 36(-4) + 304}{-4}\\]\n\nThen multiplication, recognizing that the product of a negative factor and a positive factor is negative.\n\n\\[\\dfrac{-9(16) + 36(-4) + 304}{-4}\\]\n\\[\\dfrac{-144 - 144 + 304}{-4}\\]\n\nThen addition and subtraction in order from left to right, recognizing the rules for adding and subtracting signed numbers.\n\n\\[\\dfrac{-144 - 144 + 304}{-4}\\]\n\\[\\dfrac{-288 + 304}{-4} = \\dfrac{16}{-4} = -4\\]"
         }
       },
       "q_number": 25
@@ -1275,189 +1312,182 @@
       ]
     },
     {
-      "title": "New York City and the Hudson Valley Brickmaking Industry",
+      "id": "P-HE2-REV1",
+      "title": "Beyond the Mission's End",
       "genre": "informational",
-      "questions": [
-        {
-          "id": "CR44",
-          "q_number": 47,
-          "question_type": "mc",
-          "question": "Which revision of sentence 10 would **best** maintain the style established in the passage?",
-          "options": {
-            "A": "Builders turned to brick, which was an affordable material that met safety standards while satisfying the city’s large demand for buildings.",
-            "B": "Figuring out that bricks were inexpensive, builders used tons of them to satisfy inspectors and the city’s desperate construction needs.",
-            "C": "Builders favored brick as a pleasingly economical way to meet significant construction demand while following municipal regulations.",
-            "D": "Once builders realized that low-cost brick was a law-abiding way to meet the city’s building needs, they hardly ever used any other materials."
-          },
-          "correct": "A",
-          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.08 PM.png",
-          "solution": {
-            "exhibit_text": "The question asks for the revision of sentence 10 that would best maintain the style established in the passage.\n\nA. CORRECT. This sentence maintains the style established in the passage because it uses clear, precise, and formal language. The phrases “affordable material” and “met safety standards” are accurate and appropriate to the historical and technical context. The word “satisfying” is a precise replacement for “keeping owners happy” from the original sentence, preserving both the meaning and the formal tone of the passage.\n\nB. Incorrect. Although the sentence conveys the same basic ideas as the passage, the phrases “Figuring out” and “tons of them” are informal and inconsistent with the passage’s formal style. In addition, the word “desperate” introduces a subjective and emotional tone, whereas the passage maintains an objective, fact-based style.\n\nC. Incorrect. Although this sentence incorporates some formal vocabulary, the phrase “pleasingly economical” introduces an opinion that is inconsistent with formal historical writing. The passage’s style avoids subjective language and focuses on precise, factual descriptions of events and conditions. The phrase “municipal regulations” is also more technical and at the same time less clear and precise than the style established in the passage.\n\nD. Incorrect. This sentence does not maintain the passage’s formal style because the phrase “law-abiding way” is awkward and informal for a historical description, and the expression “hardly ever” is conversational. The passage uses precise, objective language when describing building practices and material choices, avoiding casual or conversational phrasing."
-          }
-        },
-        {
-          "id": "CR45",
-          "q_number": 48,
-          "question_type": "mc_multi",
-          "question": "Which **two** sentences present information irrelevant to the ideas in the passage and should be deleted?\n\nSelect the **two** correct answers.",
-          "options": {
-            "A": "“Nearly 65 million people visit New York City every year to see these and other attractions.” (sentence 3)",
-            "B": "“The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later.” (sentence 8)",
-            "C": "“Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City.” (sentence 14)",
-            "D": "“History has proven, however, that boom times eventually end.” (sentence 18)",
-            "E": "“Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers.” (sentence 23)"
-          },
-          "correct": [
-            "A",
-            "C"
-          ],
-          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.25 PM.png",
-          "solution": {
-            "exhibit_text": "The question asks which two sentences present information irrelevant to the ideas of the passage and should be deleted.\n\nA. CORRECT. “Nearly 65 million people visit New York City every year to see these and other attractions” (sentence 3) presents irrelevant information and should be deleted. While the statistic is interesting, it focuses on tourism, which is not relevant to either the topic of the passage—the growth and decline of the brickmaking industry—or to the ideas in the first paragraph (sentences 1–6), which focus on the prominence of brick in New York City’s buildings.\n\nB. Incorrect. “The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later” (sentence 8) is relevant to the ideas of the passage and should not be deleted. The numerical details in sentence 8 about the rapid growth in New York City provide relevant evidence that supports a central idea of the passage: that the brickmaking industry of the Hudson River Valley expanded quickly to supply the demands of builders who were, in turn, meeting the demands of a booming population.\n\nC. CORRECT. “Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City” (sentence 14) presents irrelevant details and should be deleted. The information in sentence 14 comparing population growth rates between the region and New York City are not needed to develop the passage’s central focus on the rise and decline of the Hudson River Valley’s brickmaking industry. The sentence also does not support ideas in the third paragraph (sentences 11–17). Although it mentions that brick factories employed much of the Hudson River Valley population, the productivity of the factories, rather than the Valley’s population, is the topic of the paragraph.\n\nD. Incorrect. “History has proven, however, that boom times eventually end” (sentence 18) is relevant to the ideas of the passage and should not be deleted. Sentence 18 effectively introduces the central idea of the passage: the decline of the Hudson River Valley brickmaking industry. The sentence also serves as a clear transition from the third paragraph (sentences 11–17), which provides evidence of the industry’s boom, to the fourth paragraph (sentences 18–21), which provides details about how the industry came to an end.\n\nE. Incorrect. “Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers” (sentence 23) is relevant to the ideas of the passage and should not be deleted. The mention of famous and ordinary buildings provides an effective link to introductory sentences 1 and 2, strengthening the passage’s conclusion, while also emphasizing the productivity of the Hudson Valley brickmaking industry detailed in the third paragraph (sentences 11–17)."
-          }
-        },
-        {
-          "id": "CR46",
-          "q_number": 49,
-          "question_type": "mc",
-          "question": "Which phrase should be added to the beginning of sentence 11 to provide the **best** transition from the ideas in sentence 10?",
-          "options": {
-            "A": "While adapting to new uses for brick,",
-            "B": "Because the building boom preferred brick,",
-            "C": "As a result of New York City’s building boom,",
-            "D": "Although reliance on brick became the norm,"
-          },
-          "correct": "C",
-          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.44 PM.png",
-          "solution": {
-            "exhibit_text": "The question asks which phrase should be added to the beginning of sentence 11 to provide the best transition from the ideas in sentence 10.\n\nA. Incorrect. The phrase “While adapting to new uses for brick” is not the best transition to place at the beginning of sentence 11 because it does not accurately describe the content of sentence 10. Although sentence 10 conveys that brick was a low-cost way for builders to adapt to two demands—New York City’s need for a lot of new buildings and its recently changed fire-safety laws—neither sentence 10 nor any of the preceding sentences in the second paragraph (sentences 7–10) indicate that builders found any new ways to use bricks. The focus is on the amount of bricks used, rather than any changes in how the builders used them.\n\nB. Incorrect. Although the phrase “Because the building boom preferred brick” accurately indicates a cause-and-effect relationship between builders using a lot of bricks and the skyrocketing brick production mentioned in sentence 11, it overstates the position of builders described in sentence 10. While sentence 10 says that builders found bricks to be a low-cost way of meeting several needs, it does not say that builders actually preferred to use bricks. In addition, the phrase is awkward and imprecise because a “building boom” cannot literally “prefer” something. Thus, this is not the best transition phrase to add to sentence 11.\n\nC. CORRECT. The transition phrase “As a result of New York City’s building boom” clearly conveys the cause-and-effect relationship between sentence 10, which describes a trend among New York City’s builders to use a lot of bricks to “quickly throw together a lot of structures while keeping building owners and safety inspectors happy,” and sentence 11, which points out a result of the building trend: brickmaking skyrocketed in the nearby Hudson River Valley.\n\nD. Incorrect. The word “although” in the transition phrase “Although reliance on brick became the norm,” incorrectly indicates an opposing relationship that does not exist between the ideas in sentences 10 and 11. Sentence 10 explains how using a lot of bricks helped New York City’s builders meet the demands of a building boom and new safety regulations. As sentence 16 details, many of the bricks made in the Hudson River Valley were shipped “down the river to New York City.” Thus, it is not logical that the skyrocketing growth of the brickmaking industry in the Hudson River Valley described in sentence 11 happened “although” or despite New York City builders using a lot of brick. Therefore, this transition is not the best one to place at the beginning of sentence 11."
-          }
-        },
-        {
-          "id": "CR47",
-          "q_number": 50,
-          "question_type": "mc",
-          "question": "Which sentence would **best** follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21)?",
-          "options": {
-            "A": "At first many people thought the new materials did not look as strong as brick, but eventually the public embraced the trend.",
-            "B": "Increasingly expensive shipping and labor costs also drove up the costs for brickmaking factories.",
-            "C": "The Flatiron building, completed in 1902, is a notable example of an early steel-framed building.",
-            "D": "The more that New York City builders chose to use these materials, the fewer bricks they bought."
-          },
-          "correct": "D",
-          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.53 PM.png",
-          "solution": {
-            "exhibit_text": "The question asks which sentence would best follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21).\n\nA. Incorrect. Although the information in the sentence that consumers eventually “embraced the trend” of building with steel, glass, and concrete suggests that demand for those building materials likely increased, this detail does not clearly link increased use of steel, glass, and concrete to lower demand for brick. Therefore, this sentence would not be the best choice to follow sentence 20 to support the ideas in the fourth paragraph.\n\nB. Incorrect. This sentence introduces a different cause of the decline of brickmaking—economic costs—rather than providing support or explanation for the idea that the shift to steel, glass, and concrete caused lower demand for brick. Thus, this sentence is not the best one to follow sentence 20.\n\nC. Incorrect. Although this sentence adds detail related to sentence 20 by giving an example of steel use, it shifts focus toward a specific building rather than the overall trend in material preference. It does not help explain the link between a growing preference for steel, glass, and concrete and declining demand for brick. Therefore, this sentence would not best follow sentence 20 to support the ideas in the fourth paragraph.\n\nD. CORRECT. This sentence supports the ideas in the fourth paragraph. It would best follow sentence 20 because it directly states the cause-and-effect relationship between builders’ preference for steel, glass, and concrete described in sentence 20 and the resulting decline in brick use detailed in sentence 21. It also supports, with a detail about the closing of the last factory, the idea in sentence 18 that the entire Hudson Valley brickmaking industry was ended."
-          }
-        }
-      ],
       "sentence_paragraphs": [
         [
           {
             "num": 1,
-            "text": "Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick."
+            "text": "In 2008, the National Aeronautics and Space Administration (NASA) landed a rover, or robotic vehicle, named Horizon in the Hellas Basin region of Mars."
           },
           {
             "num": 2,
-            "text": "Indeed, one author described the bricks that make up some of New York City’s most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as “an inescapable presence.”"
+            "text": "The rover’s mission was to search for evidence of past volcanic activity on the planet."
           },
           {
             "num": 3,
-            "text": "Nearly 65 million people visit New York City every year to see these and other attractions."
-          },
+            "text": "The rover was designed to operate on Mars for about 120 days, but Horizon’s assignment did not come to an end until nearly 11 years later in 2019."
+          }
+        ],
+        [
           {
             "num": 4,
-            "text": "Why was so much brick used in buildings constructed during the century before World War II?"
+            "text": "During the rover’s mission, a high-resolution camera mounted on the rover’s robotic arm took magnified photographs of the surface of Mars."
           },
           {
             "num": 5,
-            "text": "The answer involves an explosion in New York City’s population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany."
+            "text": "The photographs revealed small six-sided rock formations scattered across the basin floor."
           },
           {
             "num": 6,
-            "text": "When demand later declined, the industry would entirely disappear."
+            "text": "The scientists nicknamed these formations “honeycombs” based on the formations’ resemblance to a beehive."
+          },
+          {
+            "num": 7,
+            "text": "These formations were important because their six-sided shape suggested that cooling lava may have hardened there billions of years ago."
           }
         ],
         [
           {
-            "num": 7,
-            "text": "New York City’s appetite for brick was fueled by surging population and demand for safer building materials."
-          },
-          {
             "num": 8,
-            "text": "The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later."
+            "text": "Horizon continued to provide valuable data about ridges and other surface features."
           },
           {
             "num": 9,
-            "text": "Following large, destructive fires in the 1830s, the city had enacted laws requiring the use of fire-resistant materials."
+            "text": "Throughout the mission, the rover traveled a total of 19.3 miles across Mars’ surface."
           },
           {
             "num": 10,
-            "text": "Bricks turned out to be an inexpensive way for builders to quickly throw together a lot of structures while keeping building owners and safety inspectors happy."
+            "text": "When Horizon had traveled nearly the length of a half marathon, scientists celebrated the accomplishment by naming the ridge that the rover was climbing Summit Ridge."
+          },
+          {
+            "num": 11,
+            "text": "However, in 2019, a dust storm spread all over the planet, putting the rover’s progress on hold."
           }
         ],
         [
           {
-            "num": 11,
-            "text": "The brickmaking industry in the Hudson Valley skyrocketed."
-          },
-          {
             "num": 12,
-            "text": "At the industry’s peak, approximately 130 brick factories crammed themselves into a 120-mile stretch along the Hudson River."
+            "text": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover."
           },
           {
             "num": 13,
-            "text": "These factories employed much of the region’s population."
+            "text": "These prevented it from charging its batteries."
           },
           {
             "num": 14,
-            "text": "Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City."
+            "text": "Scientists then had to rely on the passing winds and dust devils to clean off the solar panels."
           },
           {
             "num": 15,
-            "text": "Even though the factories operated only during the summers, their production was immense."
+            "text": "After the massive 2019 dust storm subsided, scientists expected to be able to reestablish communication with Horizon."
           },
           {
             "num": 16,
-            "text": "Hudson Valley factories shipped over a billion bricks on barges down the river to New York City annually."
+            "text": "They made repeated attempts but to no avail."
           },
           {
             "num": 17,
-            "text": "In fact, The New York Times declared, “It’s fairly safe to assume that any brick building constructed between 1800 and 1950 includes some form of sediment from the banks of the Hudson River.”"
+            "text": "In 2020, NASA finally declared Horizon’s mission complete."
           }
         ],
         [
           {
             "num": 18,
-            "text": "History has proven, however, that boom times eventually end."
+            "text": "Horizon was an important asset in scientists’ study of Mars; it returned valuable data about our neighbor planet and survived powerful dust storms."
           },
           {
             "num": 19,
-            "text": "Shifting architectural trends halted not only the Hudson Valley’s brickmaking boom, but its entire industry."
+            "text": "NASA described the mission of Horizon as one of the most productive and long-lasting achievements in the history of planetary exploration."
           },
           {
             "num": 20,
-            "text": "Starting early in the twentieth century, architects and builders increasingly favored steel, glass, and concrete instead of brick."
-          },
-          {
-            "num": 21,
-            "text": "By 1979, reduced demand for brick had driven every Hudson Valley brick factory out of business."
-          }
-        ],
-        [
-          {
-            "num": 22,
-            "text": "The Hudson Valley’s brickmaking legacy lives on in the architecture of New York City."
-          },
-          {
-            "num": 23,
-            "text": "Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers."
-          },
-          {
-            "num": 24,
-            "text": "The brick buildings surrounding New Yorkers today serve as a reminder that, as one amateur brick historian put it, “The skyline of New York City used to be the landscape of the Hudson River Valley.”"
+            "text": "Even though this rover’s journey ended, other rovers still roam the surface of Mars."
           }
         ]
+      ],
+      "questions": [
+        {
+          "id": "P-HE2-REV1-Q1",
+          "question_type": "mc",
+          "question": "Which sentence should follow sentence 3 to **best** introduce the topic of the passage?",
+          "options": {
+            "A": "Despite the challenges of operating on the surface of another planet, the Horizon rover made many valuable contributions to the field of space research.",
+            "B": "The Horizon rover mission was a success because it revealed how lava may have once flowed across the Hellas Basin.",
+            "C": "Throughout the historic mission of the Horizon rover, NASA scientists had to overcome challenges created by flaws in the rover’s solar panels.",
+            "D": "The Horizon rover mission surpassed its original timeline and allowed scientists to collect additional data about the planet Mars."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks for the sentence that should follow sentence 3 to best introduce the topic of the passage.\n\nA. CORRECT. This sentence best introduces the passage’s topic: Horizon made many accomplishments on its mission, despite numerous challenges. Those accomplishments include the honeycomb-formation discovery (paragraph 2), the distance traveled (paragraph 3), and the data about ridges and other surface features (paragraph 3).\n\nB. Incorrect. Although paragraph 2 discusses how photographs taken by the rover showed formations that may have been shaped by cooling lava, this idea alone is not the topic of the entire passage.\n\nC. Incorrect. While this sentence incorporates ideas about difficulties the scientists encountered because of dust on the rover’s solar panels (paragraph 4), the main topic of the passage is not the design flaws and obstacles scientists encountered; the passage primarily focuses on the achievements of the mission.\n\nD. Incorrect. While it is true that the Horizon rover mission lasted much longer than planned (sentence 3), this fact is a supporting detail of the passage, not the main topic; surpassing the original timeline is only one of the rover’s many achievements mentioned in the passage."
+          },
+          "q_number": 47
+        },
+        {
+          "id": "P-HE2-REV1-Q2",
+          "question_type": "mc",
+          "question": "Sentence 7: “These formations were important because their six-sided shape suggested that cooling lava may have hardened there billions of years ago.”\n\nSentence 8: “[blank] Horizon continued to provide valuable data about ridges and other surface features.”\n\nWhich word should be added to the beginning of sentence 8 to provide a better transition to the third paragraph (sentences 8–11)?",
+          "options": {
+            "A": "Overall,",
+            "B": "Furthermore,",
+            "C": "Meanwhile,",
+            "D": "Consequently,"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "The question asks for the word that should be added to the beginning of sentence 8 to provide a better transition to the third paragraph (sentences 8–11).\n\n“Overall,” is incorrect and should not be added. “Overall” would imply that all of the third paragraph features general information about Horizon, but paragraphs 2 and 3 both describe specific accomplishments (the honeycomb discovery and the distance traveled), so the transition should not move from specific to general.\n\n“Furthermore,” is incorrect and should not be added. “Furthermore” would suggest that the author is building an argument in paragraph 2 that paragraph 3 further develops, which is not the case.\n\n“Meanwhile,” is correct and should be added. “Meanwhile” is an appropriate transition, since the actions described in paragraph 2 (taking photographs) and paragraph 3 (traveling and gathering data) happened at the same time and both served critical functions to the overall mission.\n\n“Consequently,” is incorrect and should not be added. “Consequently” would create a cause-and-effect relationship that does not exist between the paragraphs; the passage gives no indication that the rover’s travels resulted from the camera’s discovery."
+          },
+          "q_number": 48
+        },
+        {
+          "id": "P-HE2-REV1-Q3",
+          "question_type": "mc",
+          "question": "Which revision of sentence 11 **best** maintains the formal style established in the passage?",
+          "options": {
+            "A": "However, in 2019, a dust storm covered the planet, bringing the rover’s progress to a standstill.",
+            "B": "However, in 2019, a dust storm shrouded the planet, impermanently halting the rover’s progress.",
+            "C": "However, in 2019, a dust storm enveloped the whole of the planet, arresting the rover’s progress for a time.",
+            "D": "However, in 2019, a dust storm covered up the whole planet, which quickly brought a stop to the progress of the rover."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "The question asks for the revision of sentence 11 that best maintains the formal style established in the passage.\n\nA. CORRECT. This sentence uses clear, formal writing throughout. “Covered the planet” is accurate and formal without being overly poetic, and “standstill” is a precise word for putting something “on hold,” matching the formal style of the passage.\n\nB. Incorrect. The word “shrouded” is overly poetic, and “impermanently halting” is too stilted for the style and tone of the passage.\n\nC. Incorrect. The words “enveloped” and “arresting” are overly poetic, and “the whole of the planet” and “for a time” are needlessly wordy compared with the passage’s formal, scientific language.\n\nD. Incorrect. “Covered up the whole planet” and “quickly brought a stop to the progress of the rover” are less formal and unnecessarily wordy compared with the formal style established by the rest of the passage."
+          },
+          "q_number": 49
+        },
+        {
+          "id": "P-HE2-REV1-Q4",
+          "question_type": "mc",
+          "question": "Read this sentence.\n\n**One of Horizon’s major contributions was discovering evidence of ancient volcanic activity on Mars.**\n\nWhere should the sentence be added to the passage?",
+          "options": {
+            "A": "between sentences 2 and 3",
+            "B": "at the beginning of the second paragraph (before sentence 4)",
+            "C": "at the end of the second paragraph (after sentence 7)",
+            "D": "between sentences 8 and 9"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "The question asks where the sentence should be added to the passage.\n\nA. Incorrect. Sentence 2 refers to Horizon’s mission to search for volcanic evidence, and sentence 3 mentions the rover lasting much longer than anticipated. Placing the new sentence between these two ideas, rather than at the start of the paragraph that develops it, would create a disjointed, confusing experience for the reader.\n\nB. CORRECT. The sentence introduces the idea of discovering evidence of volcanic activity, which is the main topic of the second paragraph.\n\nC. Incorrect. The sentence sets up the main idea of paragraph 2. As a concluding sentence, it would be repetitive and confusing.\n\nD. Incorrect. The sentence introduces the volcanic-activity discovery, while sentences 8 and 9 discuss other surface features and the distance traveled by the rover. Adding the sentence here would create a disorganized paragraph."
+          },
+          "q_number": 50
+        },
+        {
+          "id": "P-HE2-REV1-Q5",
+          "question_type": "mc",
+          "question": "What is the **best** way to combine sentences 12 and 13?",
+          "options": {
+            "A": "Preventing the rover from charging its batteries, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover prior to this planet-wide dust storm.",
+            "B": "Periodically depositing a layer of dust onto the solar panels of the rover prior to this planet-wide dust storm, minor dust storms had prevented it from charging its batteries.",
+            "C": "Minor dust storms, prior to this planet-wide dust storm, prevented the rover from charging its batteries because they had periodically deposited a layer of dust onto the solar panels of the rover.",
+            "D": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover, preventing it from charging its batteries."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "The question asks for the best way to combine sentences 12 and 13.\n\nA. Incorrect. The phrase “this planet-wide dust storm” makes a direct reference to sentence 11 and should stay at the beginning as a transition. Here it is placed at the end, making the sentence confusing and unnecessarily wordy.\n\nB. Incorrect. This combination turns sentence 12 into an overly long dependent clause, making the connection between “it” and its antecedent, “the rover,” unclear.\n\nC. Incorrect. This combination moves the reference to “this planet-wide dust storm” farther from sentence 11 and is unnecessarily wordy, adding “because” and repeating “the rover.”\n\nD. CORRECT. This sentence efficiently and accurately adds sentence 13 to sentence 12 as a dependent clause by changing “These prevented” to “preventing,” while retaining the meaning of both original sentences."
+          },
+          "q_number": 51
+        }
       ]
     }
   ],
@@ -1491,7 +1521,7 @@
           "exhibit_text": "B. CORRECT. Sentence 2 contains a structural error. The current placement of the clause “where the team played for thirty-five seasons” suggests that the clause is modifying the term “financial troubles,” which is illogical. The clause should immediately follow the location, “New Jersey.” A revised version might read, “After the team had financial troubles, the owner of the Nets decided to take the team to New Jersey, where the team played for thirty-five seasons.”"
         }
       },
-      "q_number": 51
+      "q_number": 52
     },
     {
       "id": "P-HE2-CR49",
@@ -1522,7 +1552,7 @@
           "exhibit_text": "C. CORRECT. This combination of sentences clarifies the relationship among the ideas in a logical way. “Because” is the best choice for conveying the cause-and-effect relationship between rehearsing and a successful performance."
         }
       },
-      "q_number": 52
+      "q_number": 53
     },
     {
       "id": "P-HE2-CR50",
@@ -1553,7 +1583,7 @@
           "exhibit_text": "D. CORRECT. Deleting the comma after “gelato” would include the clause “and allow it to melt more quickly” with the first part of the clause. Changing the verb “allow” to “allows” is necessary to match the use of the singular pronoun “which.”"
         }
       },
-      "q_number": 53
+      "q_number": 54
     },
     {
       "id": "P-HE2-DR13",
@@ -1584,7 +1614,7 @@
           "exhibit_text": "A. CORRECT. Sentence 1 contains a structural error. The sentence begins with a list of modifying phrases that, as written, modifies the closest noun phrase, “the animal shelter,” which is illogical. The list should follow the word it modifies, “tasks,” at the end of the sentence."
         }
       },
-      "q_number": 54
+      "q_number": 55
     }
   ]
 }
