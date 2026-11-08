@@ -65,7 +65,7 @@
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "The number of ways to choose 3 fillings out of 8 (order doesn't matter) is C(8,3) = (8x7x6)/(3x2x1) = 56.\nSince there are 4 bread choices, multiply: 4 x 56 = 224."
+        "exhibit_text": "The number of ways to choose \\(3\\) fillings out of \\(8\\), when order doesn't matter, is \\(\\dfrac{8\\times7\\times6}{3\\times2\\times1}=\\dfrac{336}{6}=56\\).\n\nSince there are \\(4\\) bread choices, multiply: \\(4\\times56=224\\)."
       },
       "base_source": "Exam B — Math Q31 (BM31)",
       "base_question": {
@@ -268,7 +268,7 @@
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Total of all 7 quizzes: 88 x 7 = 616.\nTotal of the first 6 quizzes: 85 x 6 = 510.\n7th quiz score: 616 - 510 = 106."
+        "exhibit_text": "Total of all \\(7\\) quizzes: \\(88\\times7=616\\).\n\nTotal of the first \\(6\\) quizzes: \\(85\\times6=510\\).\n\n7th quiz score: \\(616-510=106\\)."
       },
       "base_source": "Exam E — Math Q34 (EM34)",
       "base_question": {
@@ -320,16 +320,16 @@
     {
       "id": "P-FE5-M-AM38",
       "question_type": "mc",
-      "question": "p/q = r/s. In the equation above, p, q, r, and s are positive numbers. Which of these is equal to s?",
+      "question": "\\[\\dfrac{p}{q} = \\dfrac{r}{s}\\]\n\nIn the equation above, \\(p\\), \\(q\\), \\(r\\), and \\(s\\) are positive numbers. Which of these is equal to \\(s\\)?",
       "options": {
-        "A": "q",
-        "B": "qr",
-        "C": "p/(qr)",
-        "D": "qr/p"
+        "A": "\\(q\\)",
+        "B": "\\(qr\\)",
+        "C": "\\(\\dfrac{p}{qr}\\)",
+        "D": "\\(\\dfrac{qr}{p}\\)"
       },
       "correct": "D",
       "solution": {
-        "exhibit_text": "Cross-multiply to clear the fractions: p/q = r/s -> ps = qr -> s = qr/p."
+        "exhibit_text": "Solve the equation for \\(s\\):\n\n\\[\\dfrac{p}{q} = \\dfrac{r}{s}\\]\n\\[ps = qr\\]\n\\[s = \\dfrac{qr}{p}\\]"
       },
       "base_source": "Exam A — Math Q38 (AM38)",
       "base_question": {
@@ -553,16 +553,16 @@
     {
       "id": "P-FE5-M-EM06",
       "question_type": "mc",
-      "question": "What is the value of 150(1-0.3)^2+45?",
+      "question": "What is the value of the expression shown below?\n\\[150(1-0.3)^2+45=\\]",
       "options": {
-        "A": "90",
-        "B": "189",
-        "C": "130.5",
-        "D": "118.5"
+        "A": "\\(90\\)",
+        "B": "\\(189\\)",
+        "C": "\\(130.5\\)",
+        "D": "\\(118.5\\)"
       },
       "correct": "D",
       "solution": {
-        "exhibit_text": "Inside the parentheses: 1 - 0.3 = 0.7. Square it: (0.7)^2 = 0.49.\nMultiply: 150 x 0.49 = 73.5. Add 45: 73.5 + 45 = 118.5."
+        "exhibit_text": "Evaluate the expression using PEMDAS. First, perform the subtraction inside the parentheses: \\(1-0.3=0.7\\). Square the result: \\((0.7)^2=0.49\\). Multiply the result by \\(150\\): \\(150(0.49)=73.5\\). Finally, add \\(45\\): \\(73.5+45=118.5\\)."
       },
       "base_source": "Exam E — Math Q6 (EM06)",
       "base_question": {
@@ -878,16 +878,16 @@
     {
       "id": "P-FE5-M-CM14",
       "question_type": "mc",
-      "question": "If x = -3, what is the value of |x + x^2 + x^3| - |x + 2x + 3x|?",
+      "question": "If \\(x = -3\\), what is the value of \\(|x + x^2 + x^3| - |x + 2x + 3x|\\)?",
       "options": {
-        "A": "3",
-        "B": "-15",
-        "C": "-18",
-        "D": "39"
+        "A": "\\(3\\)",
+        "B": "\\(-15\\)",
+        "C": "\\(-18\\)",
+        "D": "\\(39\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "First term: |(-3) + (-3)^2 + (-3)^3| = |-3 + 9 + (-27)| = |-21| = 21.\nSecond term: |(-3) + 2(-3) + 3(-3)| = |-3-6-9| = |-18| = 18.\nResult: 21 - 18 = 3."
+        "exhibit_text": "Substitute \\(-3\\) for each value of \\(x\\) in the expression:\n\n\\[|(-3) + (-3)^2 + (-3)^3|\\]\n\nminus\n\n\\[|(-3) + 2(-3) + 3(-3)|\\]\n\nEvaluate the terms involving exponents:\n\n\\[|(-3) + 9 + (-27)|\\]\n\nminus\n\n\\[|(-3) + 2(-3) + 3(-3)|\\]\n\nEvaluate the terms involving multiplication:\n\n\\[|(-3) + 9 + (-27)|\\]\n\nminus\n\n\\[|(-3) + (-6) + (-9)|\\]\n\nSimplify by adding the terms within the absolute value bars:\n\n\\[|-21| - |-18|\\]\n\\[21 - 18 = 3\\]"
       },
       "base_source": "Exam C — Math Q14 (CM14)",
       "base_question": {
