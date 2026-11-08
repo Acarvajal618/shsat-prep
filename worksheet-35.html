@@ -600,6 +600,13 @@
     // Handles the 4 question types present in this exam's data:
     // mc (string), mc_multi (array of letters), sort_categories and
     // drag_drop (both objects keyed by item/box id).
+    // Free-typed answers (grid_in / grid_keypad) are compared after
+    // normalizing whitespace and ASCII <=/>= into ≤/≥, so a kid
+    // typing "x<=-5" still matches a stored correct answer of "x≤-5".
+    function normalizeGridAnswer(s) {
+      return String(s).replace(/\s+/g, '').replace(/<=/g, '≤').replace(/>=/g, '≥');
+    }
+
     function gradeQuestion(q) {
       const given = state.answers[q.q_number];
       if (given === undefined || given === null || given === '') return 'unanswered';
@@ -614,6 +621,9 @@
         const correctObj = q.correct || {};
         const allMatch = Object.keys(correctObj).every(k => given[k] === correctObj[k]);
         return allMatch ? 'correct' : 'incorrect';
+      }
+      if (q.question_type === 'grid_in' || q.question_type === 'grid_keypad') {
+        return normalizeGridAnswer(given) === normalizeGridAnswer(q.correct) ? 'correct' : 'incorrect';
       }
       return given === q.correct ? 'correct' : 'incorrect';
     }
@@ -910,6 +920,8 @@
         bodyHtml = renderMcMulti(q);
       } else if (q.question_type === 'grid_keypad') {
         bodyHtml = renderGridKeypad(q);
+      } else if (q.question_type === 'grid_in') {
+        bodyHtml = renderGridIn(q);
       } else if (q.question_type === 'drag_drop') {
         bodyHtml = renderDragDropChips(q);
       } else if (q.question_type === 'sort_categories') {
@@ -986,6 +998,23 @@
             <button class="tn-keypad-btn" data-kp="+">+</button>
             <button class="tn-keypad-btn" data-kp=".">.</button>
           </div>
+        </div>
+      `;
+    }
+
+    // ── Free-typed answer (grid_in): a plain text box the student types
+    // into directly, used when the answer needs characters (letters,
+    // ≤/≥, fractions) the restricted keypad doesn't offer. ──
+    function renderGridIn(q) {
+      const val = state.answers[q.q_number] || '';
+      const prefix = q.grid_prefix || '';
+      const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      return `
+        <div class="tn-grid-label">${esc(label)}</div>
+        <div style="margin-top: 10px; display:flex; align-items:center; gap:8px;">
+          ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;">${esc(prefix)}</span>` : ''}
+          <input type="text" id="tn-grid-in-input" class="tn-grid-in-input" autocomplete="off"
+            value="${esc(val)}" style="font-family:Georgia,serif;font-size:18px;padding:8px 10px;border:1.5px solid #999;border-radius:4px;min-width:220px;">
         </div>
       `;
     }
@@ -1071,6 +1100,13 @@
           if (disp) disp.textContent = cur;
         });
       });
+
+      const gridInInput = document.getElementById('tn-grid-in-input');
+      if (gridInInput) {
+        gridInInput.addEventListener('input', () => {
+          state.answers[q.q_number] = gridInInput.value;
+        });
+      }
 
       // ── Drag-drop (drag_drop) ────────────────────────────
       if (q.question_type === 'drag_drop') {

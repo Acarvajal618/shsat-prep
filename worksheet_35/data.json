@@ -2,17 +2,11 @@
   "math_questions": [
     {
       "id": "P-FE5-M-CM35",
-      "question_type": "mc",
+      "question_type": "grid_keypad",
       "question": "If \\(5(m+3n)=29n+3m\\), what is the value of \\(m\\) in terms of \\(n\\)?",
-      "options": {
-        "A": "\\(7n\\)",
-        "B": "\\(14n\\)",
-        "C": "\\(-7n\\)",
-        "D": "\\(22n\\)"
-      },
-      "correct": "A",
+      "correct": "7n",
       "solution": {
-        "exhibit_text": "Distribute the 5: \\(5m+15n=29n+3m\\). Move the \\(m\\) terms to one side and the \\(n\\) terms to the other: \\(5m-3m=29n-15n\\), so \\(2m=14n\\), and \\(m=7n\\).\n\n(B) forgets to divide by 2 after finding \\(2m=14n\\). (C) is a sign error. (D) comes from adding \\(29n+15n\\) instead of subtracting."
+        "exhibit_text": "Distribute the 5: \\(5m+15n=29n+3m\\). Move the \\(m\\) terms to one side and the \\(n\\) terms to the other: \\(5m-3m=29n-15n\\), so \\(2m=14n\\), and \\(m=7n\\)."
       },
       "base_source": "Exam C — Math Q35 (CM35)",
       "base_question": {
@@ -25,7 +19,9 @@
         "grid_answer": "10b",
         "grid_prefix": "a ="
       },
-      "q_number": 1
+      "q_number": 1,
+      "grid_prefix": "m =",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer."
     },
     {
       "id": "P-FE5-M-AM24",
@@ -89,17 +85,11 @@
     },
     {
       "id": "P-FE5-M-GM42",
-      "question_type": "mc",
+      "question_type": "grid_in",
       "question": "What is the solution set for the inequality \\(9-4x\\ge29\\)?",
-      "options": {
-        "A": "\\(x\\le-5\\)",
-        "B": "\\(x\\ge-5\\)",
-        "C": "\\(x\\le5\\)",
-        "D": "\\(x\\ge5\\)"
-      },
-      "correct": "A",
+      "correct": "x≤-5",
       "solution": {
-        "exhibit_text": "Subtract 9 from both sides: \\(-4x\\ge20\\). Divide both sides by \\(-4\\); since you divide by a negative number, flip the inequality sign: \\(x\\le-5\\).\n\n(B) forgets to flip the inequality sign. (C) drops the negative sign on \\(-5\\) but correctly flips. (D) makes both of those mistakes."
+        "exhibit_text": "Starting with \\(9-4x\\ge29\\), subtract \\(9\\) from both sides: \\(-4x\\ge20\\). Divide both sides by \\(-4\\) and flip the inequality sign (since we divided by a negative number): \\(x\\le-5\\)."
       },
       "base_source": "Exam G — Math Q42 (GM42)",
       "base_question": {
@@ -111,7 +101,8 @@
         },
         "grid_answer": "x≤-3"
       },
-      "q_number": 4
+      "q_number": 4,
+      "grid_label": "Type your answer using x on the left side. You may type <= for ≤ and >= for ≥."
     },
     {
       "id": "P-FE5-M-DM30",
@@ -144,31 +135,32 @@
       "q_number": 5
     },
     {
-      "id": "P-FE5-M-GM17",
+      "id": "P-FE5-M-GM17b",
       "question_type": "mc",
-      "question": "Which of the following numbers has a factor that includes the smallest factor (other than 1) of 161?",
+      "question": "Which of the following numbers has a factor that includes the smallest factor (other than \\(1\\)) of \\(161\\)?",
       "options": {
-        "A": "17",
-        "B": "49",
-        "C": "51",
-        "D": "55"
+        "A": "\\(11\\)",
+        "B": "\\(29\\)",
+        "C": "\\(35\\)",
+        "D": "\\(44\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "161 = 7 x 23 — both prime, so the smallest factor (other than 1) of 161 is 7.\nCheck each option for a factor of 7: 17 is prime, 51 = 3x17, 55 = 5x11 — none divisible by 7.\nOnly 49 = 7x7 shares that smallest factor."
+        "exhibit_text": "\\(161=7\\times23\\), so the smallest factor of \\(161\\) other than \\(1\\) is \\(7\\). Of the choices, only \\(35=7\\times5\\) has \\(7\\) as a factor. \\(11\\) and \\(29\\) are prime, and \\(44=4\\times11\\) has no factor of \\(7\\)."
       },
       "base_source": "Exam G — Math Q17 (GM17)",
       "base_question": {
-        "question": "Which of the following numbers has a factor that includes the smallest factor (other than 1) of 95?",
+        "question": "Which of the following numbers has a factor that includes the smallest factor (other than \\(1\\)) of \\(95\\)?",
         "options": {
-          "A": "19",
-          "B": "21",
-          "C": "25",
-          "D": "31"
+          "A": "\\(19\\)",
+          "B": "\\(21\\)",
+          "C": "\\(25\\)",
+          "D": "\\(31\\)"
         },
         "correct": "C",
         "solution": {
-          "exhibit_text": "95=19x5, smallest factor 5. 25 is the only option divisible by 5."
+          "letter": "C",
+          "exhibit_text": "Numbers that end with \\(0\\) or \\(5\\) are divisible by \\(5\\). The number \\(95\\) is a good candidate for prime factorization: \\(95=19\\times5\\). These are both prime numbers, the smallest being \\(5\\).\n\nOnly one of the answer choices ends with a \\(0\\) or \\(5\\), so choice (C) is the only one that shares the smallest factor of \\(5\\). For practice with prime factorization though:\n\n(A) \\(19\\) is a prime number; its only factors are \\(1\\) and itself.\n(B) \\(21\\) factors to the prime numbers \\(3\\) and \\(7\\).\n(D) \\(31\\) is also a prime number; its only factors are \\(1\\) and itself."
         }
       },
       "q_number": 6
@@ -447,48 +439,43 @@
       "q_number": 15
     },
     {
-      "id": "P-FE5-M-GM33",
+      "id": "P-FE5-M-GM33b",
       "question_type": "mc",
-      "question": "If n is an even integer that is greater than -5.5, what is the least possible value of n?",
+      "question": "If \\(n\\) is an odd integer that is greater than \\(-7.2\\), what is the least possible value of \\(n\\)?",
       "options": {
-        "A": "-6",
-        "B": "-5",
-        "C": "-2",
-        "D": "-4"
+        "A": "\\(-9\\)",
+        "B": "\\(-7\\)",
+        "C": "\\(-5\\)",
+        "D": "\\(-3\\)"
       },
-      "correct": "D",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Picture -5.5 on a number line. The even integers greater than -5.5 are -4, -2, 0, 2, ...\nThe smallest (least) of these is -4."
+        "exhibit_text": "\\(-9\\) is less than \\(-7.2\\), so it does not satisfy \"greater than \\(-7.2\\).\" The next odd integer, \\(-7\\), is greater than \\(-7.2\\) and is the least odd integer that works."
       },
       "base_source": "Exam G — Math Q33 (GM33)",
       "base_question": {
-        "question": "If n is an even integer that is greater than -3.75, what is the least possible value of n?",
+        "question": "If \\(n\\) is an even integer that is greater than \\(-3.75\\), what is the least possible value of \\(n\\)?",
         "options": {
-          "A": "-5",
-          "B": "-4",
-          "C": "-3",
-          "D": "-2"
+          "A": "\\(-5\\)",
+          "B": "\\(-4\\)",
+          "C": "\\(-3\\)",
+          "D": "\\(-2\\)"
         },
         "correct": "D",
         "solution": {
-          "exhibit_text": "Least even integer greater than -3.75 is -2."
+          "letter": "D",
+          "exhibit_text": "When comparing numbers, especially negative numbers, it is helpful to draw a number line. Here, mark a couple of numbers on each side of \\(-3.75\\).\n\nNumbers that are greater than \\(-3.75\\) are to the right of \\(-3.75\\) on the number line. The smallest of these numbers that is *even* is \\(-2\\)."
         }
       },
       "q_number": 16
     },
     {
       "id": "P-FE5-M-CM41",
-      "question_type": "mc",
-      "question": "Maya is at the school store. She wants to buy a backpack for $\\(18.00\\) and some pens that cost $\\(1.50\\) each. She has at most $\\(30.00\\) to spend. Which inequality represents the number of pens, \\(p\\), Maya can purchase?",
-      "options": {
-        "A": "\\(18.00+1.50p\\le30.00\\)",
-        "B": "\\(18.00+1.50p\\ge30.00\\)",
-        "C": "\\(1.50+18.00p\\le30.00\\)",
-        "D": "\\(18.00p+1.50\\le30.00\\)"
-      },
-      "correct": "A",
+      "question_type": "grid_in",
+      "question": "Maya is at the school store. She wants to buy a backpack for $\\(18.00\\) and some pens that cost $\\(1.50\\) each. She has at most $\\(30.00\\) to spend. Write an inequality that represents the number of pens, \\(p\\), Maya can purchase.",
+      "correct": "18.00+1.50p≤30.00",
       "solution": {
-        "exhibit_text": "\"At most\" means \"less than or equal to.\" The pens cost \\(\\$1.50\\) each for \\(p\\) pens (\\(1.50p\\)), plus the fixed \\(\\$18.00\\) backpack: \\(18.00+1.50p\\le30.00\\).\n\n(B) reverses the inequality. (C) and (D) swap which price is the fixed cost and which is multiplied by \\(p\\)."
+        "exhibit_text": "The backpack costs a flat $18.00, and each pen adds $1.50, so the total cost is \\(18.00+1.50p\\). Since Maya can spend at most $30.00, that total must be less than or equal to $30.00: \\(18.00+1.50p\\le30.00\\)."
       },
       "base_source": "Exam C — Math Q41 (CM41)",
       "base_question": {
@@ -500,7 +487,8 @@
         },
         "grid_answer": "12.50 + 4.75n \\le 35.00"
       },
-      "q_number": 17
+      "q_number": 17,
+      "grid_label": "Type your inequality starting with 18.00+1.50p, then <= (for ≤), then 30.00 — for example: 18.00+1.50p<=30.00"
     },
     {
       "id": "P-FE5-M-FM02",
@@ -594,17 +582,16 @@
     },
     {
       "id": "P-FE5-M-DM46",
-      "question_type": "mc",
-      "question": "A shipping company charges a base fee of $\\(2.00\\) plus $\\(0.75\\) for each pound over the first pound. What is the total cost to ship an \\(8\\)-pound package?",
-      "options": {
-        "A": "\\(\\$5.25\\)",
-        "B": "\\(\\$6.00\\)",
-        "C": "\\(\\$7.25\\)",
-        "D": "\\(\\$8.00\\)"
+      "question_type": "drag_drop",
+      "question": "A shipping company charges a base fee of $\\(2.25\\) plus $\\(0.60\\) for each pound over the first pound. The table below shows how the total shipping cost depends on a package's total weight. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.\n\n<div style='text-align:center; font-weight:600; margin: 0.5rem 0 0.35rem;'>SHIPPING COSTS</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Weight (pounds)</th><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Cost to Ship (dollars)</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>3</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_1]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_2]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>4.05</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>9</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_3]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_4]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>6.45</td></tr></tbody></table>",
+      "correct": {
+        "BOX_1": "3.45",
+        "BOX_2": "4",
+        "BOX_3": "7.05",
+        "BOX_4": "8"
       },
-      "correct": "C",
       "solution": {
-        "exhibit_text": "The first pound is covered by the base fee, so \\(8-1=7\\) pounds cost \\(\\$0.75\\) each: \\(\\$2.00+\\$0.75(7)=\\$2.00+\\$5.25=\\$7.25\\).\n\n(A) leaves out the base fee. (B) multiplies \\(\\$0.75\\) by all \\(8\\) pounds instead of the \\(7\\) pounds over the first. (D) adds the base fee to the full \\(8\\)-pound charge."
+        "exhibit_text": "Let \\(x\\) be the weight in pounds. The first pound is covered by the base fee of $2.25, so \\((x-1)\\) pounds cost $0.60 each: \\(\\text{Cost}=2.25+0.60(x-1)\\).\n\n- 3 pounds: \\(2.25+0.60(2)=2.25+1.20=3.45\\).\n- Cost of $4.05: \\(4.05-2.25=1.80\\); \\(1.80\\div0.60=3\\), so \\(x-1=3\\), \\(x=4\\).\n- 9 pounds: \\(2.25+0.60(8)=2.25+4.80=7.05\\).\n- Cost of $6.45: \\(6.45-2.25=4.20\\); \\(4.20\\div0.60=7\\), so \\(x-1=7\\), \\(x=8\\)."
       },
       "base_source": "Exam D — Math Q46 (DM46)",
       "base_question": {
@@ -643,7 +630,36 @@
           "4"
         ]
       },
-      "q_number": 21
+      "q_number": 21,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "3.45"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "4"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "7.05"
+        },
+        {
+          "label": "BOX_4",
+          "correct_value": "8"
+        }
+      ],
+      "drop_values": [
+        "3.45",
+        "4",
+        "7.05",
+        "8",
+        "3",
+        "9",
+        "3.6",
+        "5"
+      ],
+      "drop_allow_reuse": false
     },
     {
       "id": "P-FE5-M-AM18",
@@ -890,22 +906,22 @@
       "q_number": 29
     },
     {
-      "id": "P-FE5-M-EM33",
+      "id": "P-FE5-M-EM33b",
       "question_type": "mc",
-      "question": "A debate club has 9 members: 6 are ninth graders, and 3 are tenth graders. If no member can hold more than one office, how many ways can President, Vice President, and Secretary be filled, given that the President must be a ninth grader?",
+      "question": "A debate club has \\(10\\) members: \\(6\\) are juniors, and \\(4\\) are seniors. The club needs to choose a President, a Vice President, and a Secretary. If no member can hold more than one office, how many different ways can the positions be filled, given that the Secretary must be a senior?",
       "options": {
-        "A": "24",
-        "B": "336",
-        "C": "432",
-        "D": "504"
+        "A": "144",
+        "B": "216",
+        "C": "288",
+        "D": "360"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "There are 6 choices for President (must be a ninth grader).\nAfter that, 8 students remain for Vice President (any of them), then 7 remain for Secretary.\n6 x 8 x 7 = 336."
+        "exhibit_text": "The Secretary must be one of the \\(4\\) seniors: \\(4\\) choices. After that member is chosen, \\(9\\) members remain for President, and then \\(8\\) remain for Vice President: \\(4\\times9\\times8=288\\)."
       },
       "base_source": "Exam E — Math Q33 (EM33)",
       "base_question": {
-        "question": "A school's robotics club has 8 members: 5 are eighth graders, and 3 are seventh graders. If no member can hold more than one office, how many ways can President, Vice President, and Treasurer be filled, given that the President must be an eighth grader?",
+        "question": "A school's robotics club has 8 members: 5 are eighth graders, and 3 are seventh graders. The club needs to choose a President, a Vice President, and a Treasurer. If no member can hold more than one office, how many different ways can the positions be filled, given that the President must be an eighth grader?",
         "options": {
           "A": "18",
           "B": "210",
@@ -914,7 +930,8 @@
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "5 x 7 x 6 = 210"
+          "letter": "B",
+          "exhibit_text": "You are told that the President must be an eighth grader. There are 5 eighth graders, so there are 5 choices for the President.\n\nThere are no constraints on the remaining positions. Since one eighth grader has already been chosen, there are now a total of \\(8-1=7\\) students left. There are thus 7 choices for the Vice President. Once this position is assigned, there are only 6 choices for the Treasurer. Putting everything together gives \\(5\\times7\\times6=210\\) total ways the positions can be filled."
         }
       },
       "q_number": 30
@@ -1103,17 +1120,11 @@
     },
     {
       "id": "P-FE5-M-EM42",
-      "question_type": "mc",
+      "question_type": "grid_in",
       "question": "If \\(\\dfrac{3}{4}(x-8)+\\dfrac{1}{4}x=15\\), what is the value of \\(x\\)?",
-      "options": {
-        "A": "\\(7\\)",
-        "B": "\\(21\\)",
-        "C": "\\(23\\)",
-        "D": "\\(28\\)"
-      },
-      "correct": "B",
+      "correct": "21",
       "solution": {
-        "exhibit_text": "Multiply every term by 4 to clear the fractions: \\(3(x-8)+x=60\\). Distribute: \\(3x-24+x=60\\), so \\(4x=84\\) and \\(x=21\\).\n\n(A) comes from a sign error when distributing (treating \\(\\tfrac34(x-8)\\) as \\(\\tfrac34x+8\\)). (C) forgets to distribute the \\(\\tfrac34\\) onto the \\(8\\). (D) drops the \\(\\tfrac14x\\) term entirely."
+        "exhibit_text": "Distribute: \\(\\dfrac{3}{4}x-6+\\dfrac{1}{4}x=15\\). Combine the \\(x\\) terms: \\(x-6=15\\). Add \\(6\\) to both sides: \\(x=21\\)."
       },
       "base_source": "Exam E — Math Q42 (EM42)",
       "base_question": {
@@ -1125,7 +1136,8 @@
         },
         "grid_answer": "12"
       },
-      "q_number": 37
+      "q_number": 37,
+      "grid_label": "Enter your answer in the space provided. Enter only your answer."
     },
     {
       "id": "P-FE5-M-FM17",
@@ -1279,244 +1291,260 @@
       "q_number": 42
     },
     {
-      "id": "P-FE5-M-BM49",
+      "id": "P-FE5-M-BM21b",
       "question_type": "mc",
-      "question": "Priya flipped a weighted coin 40 times and found that the probability of it landing on heads was 65%. If she flips the coin 160 more times, what is the total number of times she can expect it to land on heads?",
+      "question": "On the number line above, point \\(N\\) is located at \\(3\\tfrac{1}{4}\\), and \\(\\overline{MN} = 7\\tfrac{1}{2}\\). What is the position of point \\(M\\)?",
+      "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>3</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>4</text></svg>",
       "options": {
-        "A": "104",
-        "B": "117",
-        "C": "130",
-        "D": "140"
+        "A": "\\(-10\\tfrac{3}{4}\\)",
+        "B": "\\(-4\\tfrac{1}{4}\\)",
+        "C": "\\(4\\tfrac{1}{4}\\)",
+        "D": "\\(10\\tfrac{3}{4}\\)"
       },
-      "correct": "C",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Priya will flip the coin a total of 40+160 = 200 times.\nExpected number of heads = 0.65 x 200 = 130."
+        "exhibit_text": "Since \\(N-M=\\overline{MN}\\): \\(3\\tfrac{1}{4}-M=7\\tfrac{1}{2}\\), so \\(M=3\\tfrac{1}{4}-7\\tfrac{1}{2}=-4\\tfrac{1}{4}\\). (C) drops the negative sign. (A) and (D) add \\(N\\) and \\(\\overline{MN}\\) instead of subtracting."
       },
-      "base_source": "Exam B — Math Q49 (BM49)",
+      "base_source": "Exam B — Math Q21 (BM21)",
       "base_question": {
-        "question": "Carlos tossed a paper cup in the air 50 times and found that the probability of it landing on its side was 72%. If he tosses the cup 150 more times, what is the total number of times he can expect the cup to land on its side?",
+        "question": "On the number line above, \\(\\overline{MN} = 5\\tfrac{5}{6}\\). What is the position of point \\(M\\)?",
         "options": {
-          "A": "72",
-          "B": "108",
-          "C": "144",
-          "D": "158"
+          "A": "\\(-7\\tfrac{1}{6}\\)",
+          "B": "\\(-4\\tfrac{1}{2}\\)",
+          "C": "\\(4\\tfrac{1}{2}\\)",
+          "D": "\\(7\\tfrac{1}{6}\\)"
         },
-        "correct": "C",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "200 total tosses x 0.72 = 144"
-        }
+          "letter": "B",
+          "exhibit_text": "(B) To find \\(M\\), subtract \\(N - M\\) and set it equal to the length:\n\n\\[1\\tfrac{1}{3} - M = 5\\tfrac{5}{6}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{1}{3}\\]\n\\[-M = 5\\tfrac{5}{6} - 1\\tfrac{2}{6}\\]\n\\[-M = 4\\tfrac{3}{6}\\]\n\\[M = -4\\tfrac{1}{2}\\]"
+        },
+        "figure_svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='140' y1='40' x2='140' y2='50' stroke='#111' stroke-width='1.4'/><line x1='300' y1='40' x2='300' y2='50' stroke='#111' stroke-width='1.4'/><text x='138' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>M</text><text x='298' y='30' font-family='Georgia,serif' font-style='italic' font-size='18'>N</text><text x='294' y='68' font-family='Georgia,serif' font-size='16'>1</text><text x='308' y='62' text-anchor='middle' font-family='Georgia,serif' font-size='13'>1</text><line x1='302' y1='65' x2='316' y2='65' stroke='#111' stroke-width='1'/><text x='308' y='78' text-anchor='middle' font-family='Georgia,serif' font-size='13'>3</text></svg>"
       },
       "q_number": 43
     },
     {
-      "id": "P-FE5-M-FM23",
+      "id": "P-FE5-M-GM32b",
       "question_type": "mc",
-      "question": "The least of a set of 4 consecutive multiples of 4 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{4}\\) in terms of \\(G\\)?",
+      "question": "Suppose that \\(p\\), \\(q\\), \\(r\\), and \\(s\\) are non-zero integers. Under which set of conditions would the expression \\(p^3q|r|s^4\\) always be negative?",
       "options": {
-        "A": "\\(\\dfrac{3}{4}G-3\\)",
-        "B": "\\(\\dfrac{3}{4}G+3\\)",
-        "C": "\\(\\dfrac{1}{4}G-3\\)",
-        "D": "\\(3-\\dfrac{3}{4}G\\)"
+        "A": "\\(p\\) is negative and \\(q\\) is positive.",
+        "B": "\\(r\\) is negative and \\(s\\) is positive.",
+        "C": "\\(r\\) is positive and \\(s\\) is negative.",
+        "D": "\\(p\\) and \\(q\\) are positive, and \\(r\\) and \\(s\\) are negative."
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "If \\(G\\) is the greatest of 4 consecutive multiples of 4, the least is \\(L=G-12\\). Substitute: \\(\\dfrac{2G+(G-12)}{4}=\\dfrac{3G-12}{4}=\\dfrac{3}{4}G-3\\).\n\nCheck with Picking Numbers: multiples \\(4,8,12,16\\) give \\(L=4,G=16\\): \\(\\dfrac{2(16)+4}{4}=9\\), and \\(\\tfrac34(16)-3=12-3=9\\). ✓\n\n(B) and (D) are sign errors on the constant or the whole expression. (C) uses the wrong coefficient on \\(G\\)."
+        "exhibit_text": "\\(|r|\\) is always non-negative and \\(s^4\\) is always non-negative (any non-zero number to an even power is positive), so neither \\(r\\) nor \\(s\\) can affect the sign of the product. The sign depends only on \\(p^3\\) (which keeps the sign of \\(p\\)) and \\(q\\). The product is negative exactly when \\(p^3q\\) is negative, which happens when \\(p\\) is negative and \\(q\\) is positive."
       },
-      "base_source": "Exam F — Math Q23 (FM23)",
+      "base_source": "Exam G — Math Q32 (GM32)",
       "base_question": {
-        "question": "The least of a set of 4 consecutive multiples of 3 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+        "question": "Suppose that \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are non-zero integers. Under which set of conditions would the expression \\(a^3b|c|d^2\\) always be negative?",
+        "options": {
+          "A": "\\(a\\) is negative and \\(b\\) is positive.",
+          "B": "\\(c\\) is negative and \\(d\\) is positive.",
+          "C": "\\(c\\) is positive and \\(d\\) is negative.",
+          "D": "\\(a\\) and \\(b\\) are positive, and \\(c\\) and \\(d\\) are negative."
+        },
         "correct": "A",
         "solution": {
           "letter": "A",
-          "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-3\\), then \\(G-6\\), and fourth and last, \\(G-9\\). Thus, \\(G-9\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-9\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-9)}{3}\\]\n\\[\\dfrac{3G-9}{3}\\]\n\\[\\dfrac{3(G-3)}{3}\\]\n\\[G-3\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 3, such as 3, 6, 9, and 12. Plug in 3 for \\(L\\) and 12 for \\(G\\) in the original expression such that \\(\\dfrac{2(12)+3}{3}=\\dfrac{27}{3}=9\\). The correct choice will result in 9 when 12 is plugged in for \\(G\\), and the only choice to do so is (A)."
-        },
-        "options": {
-          "A": "\\(G-3\\)",
-          "B": "\\(3-2G\\)",
-          "C": "\\(\\dfrac{2}{3}G+\\dfrac{4}{3}\\)",
-          "D": "\\(\\dfrac{3}{2}G+1\\)"
+          "exhibit_text": "The expression \\(a^3b|c|d^2\\) is the product of four terms: \\(a^3\\), \\(b\\), \\(|c|\\), and \\(d^2\\). Two of the terms, \\(|c|\\) (the absolute value of \\(c\\)) and \\(d^2\\), will always be positive. The other two terms, \\(a^3\\) and \\(b\\), can be either positive or negative. In order for the product of all four terms to be negative, either \\(a^3\\) is negative and \\(b\\) is positive, or \\(a^3\\) is positive and \\(b\\) is negative. In other words, \\(a^3\\) and \\(b\\) must have different signs. Of the choices, only (A) has a set of conditions that would cause \\(a^3\\) (a negative number cubed is a negative number) and \\(b\\) to have different signs."
         }
       },
       "q_number": 44
     },
     {
-      "id": "P-FE5-M-DM40",
+      "id": "P-FE5-M-GM43b",
       "question_type": "mc",
-      "question": "A team has 68 points and must have at least 120 points to win a prize. The team earns 4 points for each can collected. Which inequality can be used to find x, the number of cans needed?",
+      "question": "Each month, Darius incurs fixed operating expenses of \\(\\$1{,}800\\) at his workshop. It costs him \\(\\$45\\) to produce a specific wooden chair, and he sells each chair for \\(\\$110\\). What is Darius's profit if he produces and sells \\(30\\) chairs in \\(1\\) month?",
       "options": {
-        "A": "68+4x>=120",
-        "B": "4+68x>=120",
-        "C": "68+4x<=120",
-        "D": "4+68x<=120"
+        "A": "\\(\\$150\\)",
+        "B": "\\(\\$1{,}800\\)",
+        "C": "\\(\\$1{,}950\\)",
+        "D": "\\(\\$3{,}300\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "The team starts with a fixed 68 points, and each can adds 4 points (4x total from cans).\nThey need AT LEAST (>=) 120 points, so the inequality is 68 + 4x >= 120."
+        "exhibit_text": "Profit equals revenue minus total costs: \\(30(110)-30(45)-1800=3300-1350-1800=150\\). (C) forgets to subtract the fixed expenses. (B) is just the fixed expenses. (D) is revenue alone."
       },
-      "base_source": "Exam D — Math Q40 (DM40)",
+      "base_source": "Exam G — Math Q43 (GM43)",
       "base_question": {
-        "question": "A team has 53 points and must have at least 100 points to win a prize. The team earns 5 points for each can collected. Which inequality can be used to find x, the number of cans needed?",
+        "question": "Each month, Maya incurs fixed operating expenses of \\(\\$2{,}400\\) at her boutique. It costs her \\(\\$60\\) to produce a specific designer dress, and she sells each dress for \\(\\$140\\). What is Maya's profit if she produces and sells \\(40\\) dresses in \\(1\\) month?",
         "options": {
-          "A": "5+53x<=100",
-          "B": "5+53x>=100",
-          "C": "53+5x<=100",
-          "D": "53+5x>=100"
+          "A": "\\(\\$800\\)",
+          "B": "\\(\\$2{,}400\\)",
+          "C": "\\(\\$3{,}200\\)",
+          "D": "\\(\\$5{,}600\\)"
         },
-        "correct": "D",
+        "correct": "A",
         "solution": {
-          "exhibit_text": "Starting 53 points plus 5 per can, at least 100: 53+5x>=100"
+          "letter": "A",
+          "exhibit_text": "Profit is sales minus expenses. Maya sells each dress for \\(\\$140\\), and each dress costs her \\(\\$60\\) to produce. Therefore, her profit is \\(\\$140-\\$60=\\$80\\) on each dress. She produces \\(40\\) dresses in \\(1\\) month, so her profit on her dresses is \\(40(\\$80)=\\$3{,}200\\). Her fixed expenses each month are \\(\\$2{,}400\\). Therefore, her total profit is\n\n\\[\\$3{,}200-\\$2{,}400=\\$800\\]"
         }
       },
       "q_number": 45
     },
     {
-      "id": "P-FE5-M-GM24",
+      "id": "P-FE5-M-AM15b",
       "question_type": "mc",
-      "question": "An alloy mixes iron, copper, carbon, and chromium in the ratio 35:2:5:3. If a block of this alloy weighs 45 kilograms, how many kilograms of carbon does it contain?",
+      "question": "A jar of marbles contains exactly \\(8\\) blue marbles. The probability of choosing a blue marble from the jar is \\(\\dfrac{2}{5}\\). How many of the marbles in the jar are **not** blue?",
       "options": {
-        "A": "3 kg",
-        "B": "5 kg",
-        "C": "7 kg",
-        "D": "9 kg"
+        "A": "\\(5\\)",
+        "B": "\\(12\\)",
+        "C": "\\(20\\)",
+        "D": "\\(32\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "The ratio parts add up to 35+2+5+3 = 45 total parts, and carbon is 5 of those parts.\nSince the block weighs 45 kg (conveniently, 1 kg per part), carbon = 5 x 1 = 5 kg."
+        "exhibit_text": "If \\(\\dfrac{2}{5}\\) of the marbles are blue and there are \\(8\\) blue marbles, the total number of marbles is \\(8\\div\\dfrac{2}{5}=8\\times\\dfrac{5}{2}=20\\). The number that are not blue is \\(20-8=12\\)."
       },
-      "base_source": "Exam G — Math Q24 (GM24)",
+      "base_source": "Exam A — Math Q15 (AM15)",
       "base_question": {
-        "question": "An alloy mixes iron, copper, carbon, and chromium in the ratio 44:1:3:2. A 25 kg block — how many kg of carbon?",
+        "question": "A box of colored pencils contains exactly \\(6\\) red pencils. The probability of choosing a red pencil from the box is \\(\\dfrac{2}{7}\\). How many of the pencils in the box are **not** red?",
         "options": {
-          "A": "1 kg",
-          "B": "1.5 kg",
-          "C": "2.25 kg",
-          "D": "5.625"
+          "A": "\\(5\\)",
+          "B": "\\(15\\)",
+          "C": "\\(21\\)",
+          "D": "\\(30\\)"
         },
         "correct": "B",
         "solution": {
-          "exhibit_text": "3/50 x 25 = 1.5"
+          "letter": "B",
+          "exhibit_text": "(B) Let \\(x\\) be the total number of colored pencils in the box.\n\nSet up a proportion to find \\(x\\):\n\n\\[\\dfrac{2}{7} = \\dfrac{6}{x}\\]\n\\[2x = 42\\]\n\\[x = 21\\]\n\nIf there are \\(6\\) red pencils, then the number of pencils that are **not** red is \\(21 - 6 = 15\\)."
         }
       },
       "q_number": 46
     },
     {
-      "id": "P-FE5-M-BM35",
+      "id": "P-FE5-M-GM41b",
       "question_type": "mc",
-      "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-5, -2, 1,\\) and \\(4\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
+      "question": "Based on the graph above, if the percent decrease from the \\(2018\\) population to the \\(2020\\) population of Town \\(Z\\) is the same as the percent decrease from the \\(2016\\) population to the \\(2018\\) population, what should the \\(2020\\) population in Town \\(Z\\) be?",
+      "figure_svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\"><text x=\"130\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Population of Town Z, 2014–2018</text><text x=\"130\" y=\"30\" font-size=\"11\" text-anchor=\"middle\">(in Hundred Thousands)</text><line x1=\"40\" y1=\"45\" x2=\"40\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.3\"/><line x1=\"40\" y1=\"175\" x2=\"230\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.3\"/><text x=\"32\" y=\"179.0\" font-size=\"10\" text-anchor=\"end\">0</text><line x1=\"37\" y1=\"175.0\" x2=\"40\" y2=\"175.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"164.7\" font-size=\"10\" text-anchor=\"end\">1</text><line x1=\"37\" y1=\"160.7\" x2=\"40\" y2=\"160.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"150.3\" font-size=\"10\" text-anchor=\"end\">2</text><line x1=\"37\" y1=\"146.3\" x2=\"40\" y2=\"146.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"136.0\" font-size=\"10\" text-anchor=\"end\">3</text><line x1=\"37\" y1=\"132.0\" x2=\"40\" y2=\"132.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"121.7\" font-size=\"10\" text-anchor=\"end\">4</text><line x1=\"37\" y1=\"117.7\" x2=\"40\" y2=\"117.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"107.3\" font-size=\"10\" text-anchor=\"end\">5</text><line x1=\"37\" y1=\"103.3\" x2=\"40\" y2=\"103.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"93.0\" font-size=\"10\" text-anchor=\"end\">6</text><line x1=\"37\" y1=\"89.0\" x2=\"40\" y2=\"89.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"78.7\" font-size=\"10\" text-anchor=\"end\">7</text><line x1=\"37\" y1=\"74.7\" x2=\"40\" y2=\"74.7\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"64.3\" font-size=\"10\" text-anchor=\"end\">8</text><line x1=\"37\" y1=\"60.3\" x2=\"40\" y2=\"60.3\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"50.0\" font-size=\"10\" text-anchor=\"end\">9</text><line x1=\"37\" y1=\"46.0\" x2=\"40\" y2=\"46.0\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"70\" y1=\"175\" x2=\"70\" y2=\"74.7\" stroke=\"#333\" stroke-width=\"2.5\"/><text x=\"70\" y=\"68.7\" font-size=\"11\" text-anchor=\"middle\">7</text><text x=\"70\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2014</text><line x1=\"130\" y1=\"175\" x2=\"130\" y2=\"60.3\" stroke=\"#333\" stroke-width=\"2.5\"/><text x=\"130\" y=\"54.3\" font-size=\"11\" text-anchor=\"middle\">8</text><text x=\"130\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2016</text><line x1=\"190\" y1=\"175\" x2=\"190\" y2=\"89.0\" stroke=\"#333\" stroke-width=\"2.5\"/><text x=\"190\" y=\"83.0\" font-size=\"11\" text-anchor=\"middle\">6</text><text x=\"190\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2018</text></svg>",
       "options": {
-        "A": "\\(3\\)",
-        "B": "\\(4\\)",
-        "C": "\\(5\\)",
-        "D": "\\(6\\)"
+        "A": "\\(400{,}000\\)",
+        "B": "\\(420{,}000\\)",
+        "C": "\\(450{,}000\\)",
+        "D": "\\(480{,}000\\)"
       },
-      "correct": "D",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "Midpoint of \\(\\overline{PQ}=\\dfrac{-5+(-2)}{2}=-3.5\\). Midpoint of \\(\\overline{RS}=\\dfrac{1+4}{2}=2.5\\). Distance between the midpoints: \\(2.5-(-3.5)=6\\).\n\n(A), (B), and (C) come from small arithmetic slips averaging the endpoints."
+        "exhibit_text": "From \\(2016\\) to \\(2018\\), the population dropped from \\(8\\) to \\(6\\) (hundred thousand), a decrease of \\(2\\), which is \\(\\dfrac{2}{8}=25\\%\\). Applying the same \\(25\\%\\) decrease from \\(2018\\) (\\(6\\) hundred thousand) to \\(2020\\): \\(6-0.25(6)=6-1.5=4.5\\) hundred thousand, or \\(450{,}000\\)."
       },
-      "base_source": "Exam B — Math Q35 (BM35)",
+      "base_source": "Exam G — Math Q41 (GM41)",
       "base_question": {
-        "question": "Points \\(P\\), \\(Q\\), \\(R\\), and \\(S\\) represent \\(-3, -1, 0,\\) and \\(2\\), respectively, on a number line. How many units is the midpoint of \\(\\overline{PQ}\\) from the midpoint of \\(\\overline{RS}\\)?",
+        "question": "Based on the graph above, if the percent decrease from the \\(2018\\) population to the \\(2020\\) population of City \\(X\\) is the same as the percent decrease from the \\(2016\\) population to the \\(2018\\) population, what should the \\(2020\\) population in City \\(X\\) be?",
+        "options": {
+          "A": "\\(280{,}000\\)",
+          "B": "\\(300{,}000\\)",
+          "C": "\\(320{,}000\\)",
+          "D": "\\(350{,}000\\)"
+        },
         "correct": "C",
         "solution": {
           "letter": "C",
-          "exhibit_text": "(C)\n\nFind the midpoint of \\(PQ\\) and \\(RS\\):\n\nMidpoint of \\(PQ = \\dfrac{-1-(-3)}{2} = \\dfrac{2}{2} = 1\\) unit.\n\nThe midpoint of \\(PQ\\) is located \\(1\\) unit from each endpoint, so the midpoint is at \\(-2\\).\n\nMidpoint of \\(RS = \\dfrac{2-0}{2} = \\dfrac{2}{2} = 1\\) unit.\n\nThe midpoint of \\(RS\\) is located \\(1\\) unit from each endpoint, so the midpoint is at \\(1\\). The distance between the two midpoints is \\(1 - (-2) = 3\\) units."
+          "exhibit_text": "For this question, you have to know not only how to read graphs, but also how to find a percent decrease. The bar above \\(2016\\) reaches to \\(5\\) on the graph, and the graph is in units of \\(100{,}000\\), so the population in \\(2016\\) was \\(500{,}000\\). The population in \\(2018\\) was \\(400{,}000\\). To find the percent decrease in population, divide the amount of decrease by the original amount and then multiply by \\(100\\%\\).\n\n\\[\\left(\\dfrac{500{,}000-400{,}000}{500{,}000}\\right)\\times100\\%=\\dfrac{100{,}000}{500{,}000}\\times100\\%\\]\n\\[=\\dfrac{1}{5}\\times100\\%=20\\%\\]\n\nIf the percent decrease in population from \\(2018\\) to \\(2020\\) is the same as the percent decrease from \\(2016\\) to \\(2018\\), then from \\(2018\\) to \\(2020\\), the population should also decrease by \\(20\\%\\). \\(20\\%\\) of the \\(2018\\) population is \\(20\\%\\) of \\(400{,}000\\), or \\(80{,}000\\), so the \\(2020\\) population should be \\(400{,}000-80{,}000=320{,}000\\)."
         },
-        "options": {
-          "A": "\\(1\\)",
-          "B": "\\(2\\)",
-          "C": "\\(3\\)",
-          "D": "\\(4\\)"
-        }
+        "figure_svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<text x=\"130\" y=\"16\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Population of City X, 2014–2018</text>\n<text x=\"130\" y=\"30\" font-size=\"11\" text-anchor=\"middle\">(in Hundred Thousands)</text>\n<line x1=\"40\" y1=\"45\" x2=\"40\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<line x1=\"40\" y1=\"175\" x2=\"230\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"32\" y=\"179.0\" font-size=\"10\" text-anchor=\"end\">0</text><line x1=\"37\" y1=\"175.0\" x2=\"40\" y2=\"175.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"157.5\" font-size=\"10\" text-anchor=\"end\">1</text><line x1=\"37\" y1=\"153.5\" x2=\"40\" y2=\"153.5\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"136.0\" font-size=\"10\" text-anchor=\"end\">2</text><line x1=\"37\" y1=\"132.0\" x2=\"40\" y2=\"132.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"114.5\" font-size=\"10\" text-anchor=\"end\">3</text><line x1=\"37\" y1=\"110.5\" x2=\"40\" y2=\"110.5\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"93.0\" font-size=\"10\" text-anchor=\"end\">4</text><line x1=\"37\" y1=\"89.0\" x2=\"40\" y2=\"89.0\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"71.5\" font-size=\"10\" text-anchor=\"end\">5</text><line x1=\"37\" y1=\"67.5\" x2=\"40\" y2=\"67.5\" stroke=\"#333\" stroke-width=\"1\"/><text x=\"32\" y=\"50.0\" font-size=\"10\" text-anchor=\"end\">6</text><line x1=\"37\" y1=\"46.0\" x2=\"40\" y2=\"46.0\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"70\" y1=\"175\" x2=\"70\" y2=\"46.9\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"70\" y=\"40\" font-size=\"11\" text-anchor=\"middle\">6</text>\n<text x=\"70\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2014</text>\n<line x1=\"130\" y1=\"175\" x2=\"130\" y2=\"68.4\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"130\" y=\"61\" font-size=\"11\" text-anchor=\"middle\">5</text>\n<text x=\"130\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2016</text>\n<line x1=\"190\" y1=\"175\" x2=\"190\" y2=\"89.9\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"190\" y=\"83\" font-size=\"11\" text-anchor=\"middle\">4</text>\n<text x=\"190\" y=\"190\" font-size=\"10\" text-anchor=\"middle\">2018</text>\n</svg>"
       },
       "q_number": 47
     },
     {
-      "id": "P-FE5-M-FM34",
+      "id": "P-FE5-M-CM26b",
       "question_type": "mc",
-      "question": "In a sample of 80 ties, 10 are purple and 40 are striped; of the 10 purple, 6 have stripes. What is the probability a tie selected at random is NOT purple and does NOT have stripes?",
+      "question": "Which straight line is the graph of a proportional relationship?",
+      "figure_svg": "<svg viewBox='0 0 400 290' xmlns='http://www.w3.org/2000/svg' style='max-width:380px; margin:0 auto; display:block;'><line x1='50' y1='10' x2='50' y2='270' stroke='#111' stroke-width='1.3'/><line x1='40' y1='260' x2='400' y2='260' stroke='#111' stroke-width='1.3'/><line x1='50.0' y1='257' x2='50.0' y2='263' stroke='#111'/><line x1='74.0' y1='257' x2='74.0' y2='263' stroke='#111'/><text x='74.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>1</text><line x1='98.0' y1='257' x2='98.0' y2='263' stroke='#111'/><text x='98.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>2</text><line x1='122.0' y1='257' x2='122.0' y2='263' stroke='#111'/><text x='122.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>3</text><line x1='146.0' y1='257' x2='146.0' y2='263' stroke='#111'/><text x='146.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>4</text><line x1='170.0' y1='257' x2='170.0' y2='263' stroke='#111'/><text x='170.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>5</text><line x1='194.0' y1='257' x2='194.0' y2='263' stroke='#111'/><text x='194.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>6</text><line x1='218.0' y1='257' x2='218.0' y2='263' stroke='#111'/><text x='218.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>7</text><line x1='242.0' y1='257' x2='242.0' y2='263' stroke='#111'/><text x='242.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>8</text><line x1='266.0' y1='257' x2='266.0' y2='263' stroke='#111'/><text x='266.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>9</text><line x1='290.0' y1='257' x2='290.0' y2='263' stroke='#111'/><text x='290.0' y='276' font-size='11' text-anchor='middle' font-family='Georgia,serif'>10</text><line x1='47' y1='260.0' x2='53' y2='260.0' stroke='#111'/><line x1='47' y1='236.0' x2='53' y2='236.0' stroke='#111'/><text x='38' y='240.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>1</text><line x1='47' y1='212.0' x2='53' y2='212.0' stroke='#111'/><text x='38' y='216.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>2</text><line x1='47' y1='188.0' x2='53' y2='188.0' stroke='#111'/><text x='38' y='192.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>3</text><line x1='47' y1='164.0' x2='53' y2='164.0' stroke='#111'/><text x='38' y='168.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>4</text><line x1='47' y1='140.0' x2='53' y2='140.0' stroke='#111'/><text x='38' y='144.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>5</text><line x1='47' y1='116.0' x2='53' y2='116.0' stroke='#111'/><text x='38' y='120.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>6</text><line x1='47' y1='92.0' x2='53' y2='92.0' stroke='#111'/><text x='38' y='96.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>7</text><line x1='47' y1='68.0' x2='53' y2='68.0' stroke='#111'/><text x='38' y='72.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>8</text><line x1='47' y1='44.0' x2='53' y2='44.0' stroke='#111'/><text x='38' y='48.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>9</text><line x1='47' y1='20.0' x2='53' y2='20.0' stroke='#111'/><text x='38' y='24.0' font-size='11' text-anchor='end' font-family='Georgia,serif'>10</text><circle cx='98.0' cy='92.0' r='3.2' fill='#111'/><text x='105.0' y='86.0' font-size='13' font-family='Georgia,serif' font-style='italic'>J</text><circle cx='170.0' cy='188.0' r='3.2' fill='#111'/><text x='177.0' y='182.0' font-size='13' font-family='Georgia,serif' font-style='italic'>K</text><circle cx='74.0' cy='188.0' r='3.2' fill='#111'/><text x='81.0' y='182.0' font-size='13' font-family='Georgia,serif' font-style='italic'>L</text><circle cx='122.0' cy='44.0' r='3.2' fill='#111'/><text x='129.0' y='38.0' font-size='13' font-family='Georgia,serif' font-style='italic'>M</text><circle cx='74.0' cy='68.0' r='3.2' fill='#111'/><text x='81.0' y='62.0' font-size='13' font-family='Georgia,serif' font-style='italic'>N</text><circle cx='146.0' cy='212.0' r='3.2' fill='#111'/><text x='153.0' y='206.0' font-size='13' font-family='Georgia,serif' font-style='italic'>P</text><circle cx='146.0' cy='44.0' r='3.2' fill='#111'/><text x='153.0' y='38.0' font-size='13' font-family='Georgia,serif' font-style='italic'>R</text><circle cx='242.0' cy='236.0' r='3.2' fill='#111'/><text x='249.0' y='230.0' font-size='13' font-family='Georgia,serif' font-style='italic'>S</text></svg>",
       "options": {
-        "A": "1/8",
-        "B": "3/8",
-        "C": "11/20",
-        "D": "9/20"
+        "A": "\\(\\overleftrightarrow{JK}\\)",
+        "B": "\\(\\overleftrightarrow{LM}\\)",
+        "C": "\\(\\overleftrightarrow{NP}\\)",
+        "D": "\\(\\overleftrightarrow{RS}\\)"
       },
-      "correct": "D",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Purple or striped (avoiding double-counting the overlap): 10 + 40 - 6 = 44.\nNeither purple nor striped: 80 - 44 = 36.\nProbability = 36/80 = 9/20."
+        "exhibit_text": "The graph of any proportional line must pass through the origin, \\((0,0)\\). The only line here that contains \\((0,0)\\) is \\(\\overleftrightarrow{LM}\\): both \\(L(1,3)\\) and \\(M(3,9)\\) satisfy \\(y=3x\\), which passes through the origin when \\(x=0\\). None of the other lines, when extended, pass through \\((0,0)\\)."
       },
-      "base_source": "Exam F — Math Q34 (FM34)",
+      "base_source": "Exam C — Math Q26 (CM26)",
       "base_question": {
-        "question": "In a sample of 60 ties, 8 are purple and 32 are striped; of the 8 purple, 5 have stripes. What is the probability a tie is NOT purple and does NOT have stripes?",
+        "question": "Which straight line is the graph of a proportional relationship?\n\n(Coordinate plane with points labeled: M(1,8), P(3,6), V(2,2), Q(6,2), T(1,4), R(2,8), S(8,0).)",
         "options": {
-          "A": "1/12",
-          "B": "1/3",
-          "C": "5/12",
-          "D": "9/20"
+          "A": "\\(\\overleftrightarrow{MS}\\)",
+          "B": "\\(\\overleftrightarrow{VP}\\)",
+          "C": "\\(\\overleftrightarrow{VQ}\\)",
+          "D": "\\(\\overleftrightarrow{TR}\\)"
         },
-        "correct": "C",
+        "correct": "D",
         "solution": {
-          "exhibit_text": "60-(8+32-5)=25. 25/60=5/12"
-        }
+          "letter": "D",
+          "exhibit_text": "(D) The graph of any proportional line must intersect the origin, \\((0, 0)\\).\n\nThe **only** line on the coordinate plane that contains \\((0, 0)\\) is \\(\\overleftrightarrow{TR}\\).\n\nBoth point \\(T(1, 4)\\) and point \\(R(2, 8)\\) have a \\(y\\)-value that is \\(4\\) times the \\(x\\)-value, and every point on the line fits the proportional equation \\(y = 4x\\).\n\nWhen \\(x = 0\\), \\(y = 4(0)\\). So the line contains the origin, \\((0, 0)\\)."
+        },
+        "exhibit_image_path": "images/exam_c/CM26.png"
       },
       "q_number": 48
     },
     {
-      "id": "P-FE5-M-CM36",
+      "id": "P-FE5-M-BM37b",
       "question_type": "mc",
-      "question": "A deck of 52 playing cards contains 13 spades. Sara has 15 cards from this deck in her hand, 4 of which are spades. What is the probability that a card drawn at random from the remainder of the deck will be a spade?",
+      "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point \\(R\\)?",
+      "figure_svg": "<svg viewBox='0 0 460 110' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='55' x2='430' y2='55' stroke='#111' stroke-width='1.4'/><path d='M 18 55 L 33 51 L 33 59 Z' fill='#111'/><path d='M 442 55 L 427 51 L 427 59 Z' fill='#111'/><line x1='160' y1='48' x2='160' y2='62' stroke='#111' stroke-width='1.6'/><line x1='188' y1='50' x2='188' y2='60' stroke='#111'/><line x1='216' y1='50' x2='216' y2='60' stroke='#111'/><line x1='244' y1='48' x2='244' y2='62' stroke='#111' stroke-width='1.6'/><line x1='272' y1='50' x2='272' y2='60' stroke='#111'/><line x1='300' y1='48' x2='300' y2='62' stroke='#111' stroke-width='1.6'/><text x='160' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='244' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='300' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='153' y='80' font-family='Georgia,serif' font-size='13'>−</text><text x='168' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>2</text><line x1='161' y1='78' x2='176' y2='78' stroke='#111' stroke-width='0.8'/><text x='168' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>5</text><text x='306' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>3</text><line x1='299' y1='78' x2='314' y2='78' stroke='#111' stroke-width='0.8'/><text x='306' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>5</text></svg>",
       "options": {
-        "A": "9/37",
-        "B": "4/15",
-        "C": "1/4",
-        "D": "9/13"
+        "A": "\\(-\\dfrac{1}{5}\\)",
+        "B": "\\(\\dfrac{1}{5}\\)",
+        "C": "\\(\\dfrac{2}{5}\\)",
+        "D": "\\(\\dfrac{3}{5}\\)"
       },
-      "correct": "A",
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Cards remaining in the deck: 52-15 = 37.\nSpades remaining: 13-4 = 9.\nProbability = 9/37."
+        "exhibit_text": "There are \\(5\\) equal gaps between \\(M=-\\dfrac{2}{5}\\) and \\(T=\\dfrac{3}{5}\\): each gap is \\(\\left(\\dfrac{3}{5}-\\left(-\\dfrac{2}{5}\\right)\\right)\\div5=1\\div5=\\dfrac{1}{5}\\). \\(R\\) is \\(3\\) gaps from \\(M\\): \\(-\\dfrac{2}{5}+3\\left(\\dfrac{1}{5}\\right)=-\\dfrac{2}{5}+\\dfrac{3}{5}=\\dfrac{1}{5}\\)."
       },
-      "base_source": "Exam C — Math Q36 (CM36)",
+      "base_source": "Exam B — Math Q37 (BM37)",
       "base_question": {
-        "question": "A deck of 52 playing cards contains 13 hearts. Sara has 12 cards from this deck in her hand, 3 of which are hearts. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
+        "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point \\(R\\)?",
         "options": {
-          "A": "1/10",
-          "B": "1/4",
-          "C": "3/13",
-          "D": "1/3"
+          "A": "\\(\\dfrac{7}{40}\\)",
+          "B": "\\(\\dfrac{9}{40}\\)",
+          "C": "\\(\\dfrac{11}{40}\\)",
+          "D": "\\(\\dfrac{21}{40}\\)"
         },
-        "correct": "B",
+        "correct": "C",
         "solution": {
-          "exhibit_text": "(13-3)/(52-12) = 10/40 = 1/4"
-        }
+          "letter": "C",
+          "exhibit_text": "(C) There are \\(5\\) sections between \\(M\\) and \\(T\\). To find the length of one of these sections, find the distance between \\(M\\) and \\(T\\) and divide by \\(5\\):\n\n\\[\\left(\\dfrac{5}{8} - \\left(-\\dfrac{1}{4}\\right)\\right) \\div \\dfrac{5}{1} =\\]\n\\[\\left(\\dfrac{5}{8} + \\dfrac{2}{8}\\right) \\div \\dfrac{5}{1} =\\]\n\\[\\dfrac{7}{8} \\div \\dfrac{5}{1} = \\dfrac{7}{8} \\times \\dfrac{1}{5} = \\dfrac{7}{40}\\]\n\n\\(R\\) is \\(3\\) sections away from \\(M\\), so add:\n\n\\[-\\dfrac{1}{4} + 3\\left(\\dfrac{7}{40}\\right) = -\\dfrac{10}{40} + \\dfrac{21}{40} = \\dfrac{11}{40}\\]\n\n\\(R\\) is located at \\(\\dfrac{11}{40}\\)."
+        },
+        "figure_svg": "<svg viewBox='0 0 460 110' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='55' x2='430' y2='55' stroke='#111' stroke-width='1.4'/><path d='M 18 55 L 33 51 L 33 59 Z' fill='#111'/><path d='M 442 55 L 427 51 L 427 59 Z' fill='#111'/><line x1='160' y1='48' x2='160' y2='62' stroke='#111' stroke-width='1.6'/><line x1='188' y1='50' x2='188' y2='60' stroke='#111'/><line x1='216' y1='50' x2='216' y2='60' stroke='#111'/><line x1='244' y1='48' x2='244' y2='62' stroke='#111' stroke-width='1.6'/><line x1='272' y1='50' x2='272' y2='60' stroke='#111'/><line x1='300' y1='48' x2='300' y2='62' stroke='#111' stroke-width='1.6'/><text x='160' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='244' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='300' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='153' y='80' font-family='Georgia,serif' font-size='13'>−</text><text x='168' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>1</text><line x1='161' y1='78' x2='176' y2='78' stroke='#111' stroke-width='0.8'/><text x='168' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>4</text><text x='294' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>5</text><line x1='287' y1='78' x2='302' y2='78' stroke='#111' stroke-width='0.8'/><text x='294' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>8</text></svg>"
       },
       "q_number": 49
     },
     {
-      "id": "P-FE5-M-EM16",
+      "id": "P-FE5-M-FM40b",
       "question_type": "mc",
-      "question": "Which inequality is equivalent to -3(x+5) <= 12?",
+      "question": "Which number line below shows the range of values that satisfy the inequality \\(-(a+7)<\\dfrac{b}{-4}\\le-5-a\\) when \\(b=12\\)?",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"18\" x2=\"60.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"18\" x2=\"90.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"18\" x2=\"150.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"18\" x2=\"240.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"18\" x2=\"270.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"18\" x2=\"300.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,18 L21,22 L28,26 Z\" fill=\"#999\"/><path d=\"M332,18 L339,22 L332,26 Z\" fill=\"#999\"/><line x1=\"120.0\" y1=\"22\" x2=\"339.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,17 L340.0,22 L332.0,27 Z\" fill=\"#222\"/><circle cx=\"120.0\" cy=\"22\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"63\" x2=\"60.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"63\" x2=\"90.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"63\" x2=\"120.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"63\" x2=\"150.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"63\" x2=\"210.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"63\" x2=\"240.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"63\" x2=\"270.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"63\" x2=\"300.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,63 L21,67 L28,71 Z\" fill=\"#999\"/><path d=\"M332,63 L339,67 L332,71 Z\" fill=\"#999\"/><line x1=\"60.0\" y1=\"67\" x2=\"120.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"60.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"120.0\" cy=\"67\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"108\" x2=\"60.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"108\" x2=\"90.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"108\" x2=\"120.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"108\" x2=\"150.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"108\" x2=\"210.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"108\" x2=\"240.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"108\" x2=\"270.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"108\" x2=\"300.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,108 L21,112 L28,116 Z\" fill=\"#999\"/><path d=\"M332,108 L339,112 L332,116 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"112\" x2=\"60.0\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,107 L20.0,112 L28.0,117 Z\" fill=\"#222\"/><circle cx=\"60.0\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"153\" x2=\"60.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"153\" x2=\"90.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"153\" x2=\"120.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"153\" x2=\"150.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"153\" x2=\"210.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"153\" x2=\"240.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"153\" x2=\"270.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"153\" x2=\"300.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28,153 L21,157 L28,161 Z\" fill=\"#999\"/><path d=\"M332,153 L339,157 L332,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"60.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,152 L20.0,157 L28.0,162 Z\" fill=\"#222\"/><circle cx=\"60.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><line x1=\"120.0\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,152 L340.0,157 L332.0,162 Z\" fill=\"#222\"/><circle cx=\"120.0\" cy=\"157\" r=\"4\" fill=\"#222\"/></svg>",
       "options": {
-        "A": "x >= -5",
-        "B": "x >= -9",
-        "C": "x <= -9",
-        "D": "x <= -5"
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Distribute: -3x - 15 <= 12. Add 15 to both sides: -3x <= 27.\nDivide both sides by -3, flipping the inequality sign: x >= -9."
+        "exhibit_text": "With \\(b=12\\), \\(\\dfrac{b}{-4}=-3\\), so the inequality becomes \\(-(a+7)<-3\\le-5-a\\). From \\(-(a+7)<-3\\): \\(a>-4\\). From \\(-3\\le-5-a\\): \\(a\\le-2\\). So \\(-4<a\\le-2\\), an open circle at \\(-4\\) and a closed circle at \\(-2\\) — that is number line B."
       },
-      "base_source": "Exam E — Math Q16 (EM16)",
+      "base_source": "Exam F — Math Q40 (FM40)",
       "base_question": {
-        "question": "Which inequality is equivalent to -2(x+4) <= 10?",
+        "question": "Which number line below shows the range of values that satisfy the inequality \\(-(a+5)<\\dfrac{b}{-2}\\le-3-a\\) when \\(b=4\\)?",
         "options": {
-          "A": "x >= -9",
-          "B": "x >= -5",
-          "C": "x <= -9",
-          "D": "x <= -5"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
         },
-        "correct": "A",
+        "correct": "B",
         "solution": {
-          "exhibit_text": "-2x-8<=10 -> -2x<=18 -> x>=-9 (flip)"
-        }
+          "letter": "B",
+          "exhibit_text": "Separate the compound inequality into two pieces: \\(-(a+5)<\\dfrac{b}{-2}\\) and \\(\\dfrac{b}{-2}\\le-3-a\\). Then plug in 4 for \\(b\\) and solve each inequality for \\(a\\). Be careful to flip the sign when multiplying or dividing both sides by a negative.\n\nFirst piece: \\(-(a+5)<\\dfrac{4}{-2}\\)\n\\[-a-5<-2\\]\n\\[-a<3\\]\n\\[a>-3\\]\n\nSecond piece: \\(\\dfrac{4}{-2}\\le-3-a\\)\n\\[-2\\le-3-a\\]\n\\[a\\le-1\\]\n\nCombining both pieces gives \\(-3<a\\le-1\\), so choose the number line with an open circle at \\(-3\\), a closed circle at \\(-1\\), and shading in between, (B)."
+        },
+        "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"18\" x2=\"60.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"18\" x2=\"90.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"18\" x2=\"150.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"18\" x2=\"240.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"18\" x2=\"270.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"18\" x2=\"300.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"150.0\" y1=\"22\" x2=\"339.0\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,17 L340.0,22 L332.0,27 Z\" fill=\"#222\"/><circle cx=\"150.0\" cy=\"22\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"63\" x2=\"60.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"63\" x2=\"90.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"63\" x2=\"120.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"63\" x2=\"150.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"63\" x2=\"210.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"63\" x2=\"240.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"63\" x2=\"270.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"63\" x2=\"300.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"90.0\" y1=\"67\" x2=\"150.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"90.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"150.0\" cy=\"67\" r=\"4\" fill=\"#222\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"108\" x2=\"60.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"108\" x2=\"90.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"108\" x2=\"120.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"108\" x2=\"150.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"108\" x2=\"210.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"108\" x2=\"240.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"108\" x2=\"270.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"108\" x2=\"300.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"112\" x2=\"90.0\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,107 L20.0,112 L28.0,117 Z\" fill=\"#222\"/><circle cx=\"90.0\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-5</text><line x1=\"60.0\" y1=\"153\" x2=\"60.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"60.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"90.0\" y1=\"153\" x2=\"90.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"90.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-3</text><line x1=\"120.0\" y1=\"153\" x2=\"120.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"120.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-2</text><line x1=\"150.0\" y1=\"153\" x2=\"150.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"150.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-1</text><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"210.0\" y1=\"153\" x2=\"210.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"210.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">1</text><line x1=\"240.0\" y1=\"153\" x2=\"240.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"240.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">2</text><line x1=\"270.0\" y1=\"153\" x2=\"270.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"270.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">3</text><line x1=\"300.0\" y1=\"153\" x2=\"300.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"300.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">5</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"90.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,152 L20.0,157 L28.0,162 Z\" fill=\"#222\"/><line x1=\"150.0\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,152 L340.0,157 L332.0,162 Z\" fill=\"#222\"/><circle cx=\"90.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"150.0\" cy=\"157\" r=\"4\" fill=\"#222\"/></svg>"
       },
       "q_number": 50
     }
