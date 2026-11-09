@@ -138,6 +138,8 @@
     .tn-keypad-btn:hover { background: #eee; }
     .tn-keypad-btn.icon svg { display: block; margin: 0 auto; }
     .tn-keypad-input { display: inline-block; padding: 8px 14px; border: 1.5px solid #7a7a7a; border-radius: 3px; min-height: 30px; min-width: 240px; font-family: Georgia, serif; font-size: 18px; vertical-align: middle; background: #fff; }
+    .tn-grid-in-symbol { min-width: 42px; height: 42px; background: #fff; border: 1px solid #bbb; border-radius: 3px; font-family: Georgia, serif; font-size: 19px; cursor: pointer; }
+    .tn-grid-in-symbol:hover { background: #eee; }
     .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
 
     /* ── Drag-drop fill-in-the-blank (drag_drop) ─────────────────────── */
@@ -665,12 +667,17 @@
       const val = state.answers[q.q_number] || '';
       const prefix = q.grid_prefix || '';
       const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      const symbols = q.grid_in_symbols || ['≤', '≥'];
+      const symbolBtns = symbols.map(s =>
+        `<button type="button" class="tn-grid-in-symbol" data-symbol="${esc(s)}" title="Insert ${esc(s)}">${esc(s)}</button>`
+      ).join('');
       return `
         <div class="tn-grid-label">${esc(label)}</div>
-        <div style="margin-top: 10px; display:flex; align-items:center; gap:8px;">
+        <div style="margin-top: 10px; display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
           ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;">${esc(prefix)}</span>` : ''}
           <input type="text" id="tn-grid-in-input" class="tn-grid-in-input" autocomplete="off"
             value="${esc(val)}" style="font-family:Georgia,serif;font-size:18px;padding:8px 10px;border:1.5px solid #999;border-radius:4px;min-width:220px;">
+          <div class="tn-grid-in-symbols" style="display:flex; gap:4px;">${symbolBtns}</div>
         </div>
       `;
     }
@@ -761,6 +768,20 @@
       if (gridInInput) {
         gridInInput.addEventListener('input', () => {
           state.answers[q.q_number] = gridInInput.value;
+        });
+        document.querySelectorAll('.tn-grid-in-symbol').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const sym = btn.dataset.symbol;
+            const start = gridInInput.selectionStart ?? gridInInput.value.length;
+            const end = gridInInput.selectionEnd ?? gridInInput.value.length;
+            const cur = gridInInput.value;
+            const next = cur.slice(0, start) + sym + cur.slice(end);
+            gridInInput.value = next;
+            state.answers[q.q_number] = next;
+            gridInInput.focus();
+            const pos = start + sym.length;
+            gridInInput.setSelectionRange(pos, pos);
+          });
         });
       }
 
