@@ -1,802 +1,814 @@
 {
   "math_questions": [
     {
-      "id": "P-HE5-M-CM47",
+      "id": "P-HE5-M-AM05",
       "question_type": "mc",
-      "question": "The distance a snail crawls, in centimeters, is proportional to the number of minutes it crawls. The snail crawls \\(18\\) centimeters in \\(12\\) minutes. What is the constant of proportionality, in centimeters per minute?",
+      "question": "The sum of the numbers \\(x\\), \\(y\\), and \\(z\\) is \\(45\\). The ratio of \\(x\\) to \\(y\\) is \\(3{:}5\\), and the ratio of \\(y\\) to \\(z\\) is \\(5{:}7\\). What is the value of \\(y\\)?",
       "options": {
-        "A": "\\(0.67\\)",
-        "B": "\\(1.5\\)",
-        "C": "\\(6\\)",
-        "D": "\\(18\\)"
+        "A": "\\(9\\)",
+        "B": "\\(12\\)",
+        "C": "\\(15\\)",
+        "D": "\\(21\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "The constant of proportionality is distance divided by time: \\(18 \\div 12 = 1.5\\) centimeters per minute.\n\n(A) inverts the ratio (\\(12 \\div 18\\)). (C) subtracts instead of dividing (\\(18-12\\)). (D) mistakes the total distance for the rate."
+        "exhibit_text": "Let \\(x=3k\\), \\(y=5k\\), \\(z=7k\\) so the ratios match. Their sum is \\(3k+5k+7k=15k=45\\), so \\(k=3\\). Then \\(y=5k=15\\)."
       },
-      "base_source": "Exam C — Math Q47 (CM47)",
+      "base_source": "Exam A — Math Q5 (AM05)",
       "base_question": {
-        "question": "The height of a plant, in millimeters, is proportional to the number of days the plant has grown. The plant has grown \\(20\\) millimeters in \\(8\\) days. What is the constant of proportionality, in millimeters per day?",
+        "question": "The sum of the numbers \\(x\\), \\(y\\), and \\(z\\) is \\(50\\). The ratio of \\(x\\) to \\(y\\) is \\(1{:}4\\), and the ratio of \\(y\\) to \\(z\\) is \\(4{:}5\\). What is the value of \\(y\\)?",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "(D) Since both ratios have \\(y\\) in common, solve for \\(x\\) and \\(z\\) in terms of \\(y\\) in both equations.\n\nUsing \\(y : x = 1 : 4\\), solve for \\(x\\) in terms of \\(y\\):\n\n\\[\\dfrac{x}{y} = \\dfrac{1}{4}\\]\n\n\\[x = \\dfrac{1}{4}y\\]\n\nUsing the ratio \\(y : z = 4 : 5\\), solve for \\(z\\) in terms of \\(y\\):\n\n\\[\\dfrac{y}{z} = \\dfrac{4}{5}\\]\n\n\\[z = \\dfrac{5}{4}y\\]\n\nThe question states \\(x + y + z = 50\\). Substitute from the two equations above and solve for \\(y\\):\n\n\\[\\dfrac{1}{4}y + y + \\dfrac{5}{4}y = 50\\]\n\n\\[\\dfrac{10}{4}y = 50\\]\n\n\\[10y = 200\\]\n\n\\[y = 20\\]"
+        },
         "options": {
-          "A": "\\(0.4\\)",
-          "B": "\\(2.5\\)",
-          "C": "\\(12\\)",
+          "A": "\\(4\\)",
+          "B": "\\(8\\)",
+          "C": "\\(10\\)",
           "D": "\\(20\\)"
         },
-        "correct": "B",
-        "solution": {
-          "letter": "B",
-          "exhibit_text": "(B) The constant of proportionality is determined by dividing the number of millimeters by the number of days:\n\n\\[\\dfrac{20 \\text{ mm}}{8 \\text{ days}} = \\dfrac{20}{8} = 2.5 \\text{ mm/day}\\]"
-        }
+        "correct": "D"
       },
       "q_number": 1
     },
     {
-      "id": "P-HE5-M-GM50",
-      "question_type": "grid_keypad",
-      "question": "A bike rental company charges an initial fee of \\(\\$5\\), plus a constant rate of \\(\\$1.75\\) per hour. Write an equation that can be used to determine the cost, \\(y\\), of a bike rental for \\(x\\) hours.",
-      "correct": "y=1.75x+5",
+      "id": "P-HE5-M-AM25",
+      "question_type": "grid_in",
+      "question": "A nursery plants maple trees and birch trees in a ratio of \\(5{:}2\\). How many birch trees are planted if \\(185\\) maple trees are planted?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "74",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
       "solution": {
-        "exhibit_text": "The cost equals the hourly rate times the number of hours, plus the flat initial fee: \\(y = 1.75x + 5\\). (Equivalent forms, such as \\(y=5+1.75x\\), are also correct.)"
+        "exhibit_text": "The ratio of maple to birch is \\(5:2\\), so birch \\(=\\dfrac{2}{5}\\times185=74\\)."
       },
-      "base_source": "Exam G — Math Q50 (GM50)",
+      "base_source": "Exam A — Math Q25 (AM25)",
       "base_question": {
-        "question": "A taxi company charges an initial fee of \\(\\$3\\), plus a constant rate of \\(\\$2.50\\) per mile driven.\n\nWrite an equation that can be used to determine the cost, \\(y\\), of a taxi ride for a trip of \\(x\\) miles.\n\nEnter your equation in the space provided. Enter only your equation.",
-        "options": null,
-        "correct": null,
+        "question": "The owner of a tree farm plants pine trees and oak trees in a ratio of \\(8{:}3\\). How many oak trees are planted if \\(264\\) pine trees are planted?",
         "solution": {
-          "letter": "y=2.5x+3",
-          "exhibit_text": "If the company charges an initial fee plus a constant rate per mile driven, then its cost can be modeled by a linear equation \\(y=mx+b\\). You are told that the initial fee is \\(\\$3\\), so \\(b=3\\). You also know that the company charges a constant rate of \\(\\$2.50\\) per mile driven, so \\(m=2.5\\). The complete equation is therefore \\(y=2.5x+3\\).\n\n(Other equivalent forms, such as \\(y=3+2.5x\\) or \\(2.5x+3=y\\), are also correct.)"
-        }
+          "letter": null,
+          "exhibit_text": "(99) Let \\(x\\) be the number of oak trees when \\(264\\) pine trees are planted.\n\nSet up a proportion and solve for \\(x\\):\n\n\\[\\dfrac{x}{264} = \\dfrac{3}{8}\\]\n\\[8x = 792\\]\n\\[x = 99\\]"
+        },
+        "grid_answer": "99"
       },
-      "q_number": 2,
-      "grid_label": "Use the keypad to enter your equation. Enter only your equation.",
-      "grid_variables": [
-        "x",
-        "y"
-      ],
-      "correct_alt": [
-        "y=5+1.75x",
-        "1.75x+5=y",
-        "5+1.75x=y"
-      ]
+      "q_number": 2
     },
     {
-      "id": "P-HE5-M-BM45",
+      "id": "P-HE5-M-BM01",
       "question_type": "mc",
-      "question": "A ball is selected at random from a box that contains \\(6\\) black balls, \\(9\\) green balls, and \\(15\\) orange balls. What is the probability that the ball selected is black?",
+      "question": "The decimal \\(0.08\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
       "options": {
-        "A": "\\(\\dfrac{1}{5}\\)",
-        "B": "\\(\\dfrac{1}{6}\\)",
-        "C": "\\(\\dfrac{1}{3}\\)",
-        "D": "\\(\\dfrac{3}{5}\\)"
+        "A": "\\(4\\)",
+        "B": "\\(8\\)",
+        "C": "\\(16\\)",
+        "D": "\\(40\\)"
       },
       "correct": "A",
       "solution": {
-        "exhibit_text": "The total number of balls is \\(6 + 9 + 15 = 30\\). The probability the ball is black is \\(\\dfrac{6}{30} = \\dfrac{1}{5}\\)."
+        "exhibit_text": "\\(0.08\\times50=4\\), so \\(x=4\\)."
       },
-      "base_source": "Exam B — Math Q45 (BM45)",
+      "base_source": "Exam B — Math Q1 (BM01)",
       "base_question": {
-        "question": "A ball is selected at random from a box that contains \\(7\\) black balls, \\(14\\) green balls, and \\(21\\) red balls. What is the probability that the ball selected is black?",
-        "options": {
-          "A": "\\(\\dfrac{1}{6}\\)",
-          "B": "\\(\\dfrac{1}{5}\\)",
-          "C": "\\(\\dfrac{1}{3}\\)",
-          "D": "\\(\\dfrac{5}{6}\\)"
-        },
-        "correct": "A",
+        "question": "The decimal \\(0.06\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
         "solution": {
-          "exhibit_text": "(A) The total number of balls in the box is \\(7 + 14 + 21 = 42\\).\n\nThe probability that the ball is black is \\(\\dfrac{7}{42} = \\dfrac{1}{6}\\)."
-        }
+          "letter": "A",
+          "exhibit_text": "(A) \\(0.06 = \\dfrac{6}{100}\\). Simplify the fraction to find the answer: \\(\\dfrac{6}{100} = \\dfrac{3}{50}\\), so \\(x = 3\\)."
+        },
+        "options": {
+          "A": "\\(3\\)",
+          "B": "\\(6\\)",
+          "C": "\\(12\\)",
+          "D": "\\(30\\)"
+        },
+        "correct": "A"
       },
       "q_number": 3
     },
     {
-      "id": "P-HE5-M-EM25",
+      "id": "P-HE5-M-BM24",
       "question_type": "mc",
-      "question": "Point \\(Q\\) is **not** on line \\(k\\). How many lines can be drawn through \\(Q\\) that form a \\(90\\degree\\) angle with line \\(k\\)?",
+      "question": "A chemical decays in such a way that the amount left at the end of each week is \\(30\\%\\) less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
       "options": {
-        "A": "0",
-        "B": "1",
-        "C": "2",
-        "D": "Cannot be determined from the information given."
+        "A": "\\(30\\%\\)",
+        "B": "\\(49\\%\\)",
+        "C": "\\(70\\%\\)",
+        "D": "\\(90\\%\\)"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Through any point not on a line, exactly one line can be drawn perpendicular to that line.\n\n(A) and (C) misstate this geometric fact. (D) is incorrect because this is always true, regardless of where \\(Q\\) is located."
+        "exhibit_text": "Each week, \\(70\\%\\) of the amount remains. After two weeks: \\((0.7)^2=0.49=49\\%\\)."
       },
-      "base_source": "Exam E — Math Q25 (EM25)",
+      "base_source": "Exam B — Math Q24 (BM24)",
       "base_question": {
-        "question": "Point P is **not** on line \\(m\\). How many lines can be drawn through P that form a \\(90\\degree\\) angle with line \\(m\\)?",
-        "options": {
-          "A": "0",
-          "B": "1",
-          "C": "2",
-          "D": "Cannot be determined from the information given."
-        },
-        "correct": "B",
+        "question": "A chemical decays in such a way that the amount left at the end of each week is \\(20\\%\\) less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks?",
         "solution": {
-          "letter": "B",
-          "exhibit_text": "Draw a picture to better visualize the situation.\n\nAs you can see, a line drawn from P perpendicular to line \\(m\\) will create two \\(90\\degree\\) angles. However, a line drawn anywhere else will no longer be perpendicular and therefore will not create any \\(90\\degree\\) angles, so only one line meets the conditions of the question.",
-          "exhibit_svg": "<svg viewBox=\"0 0 150 80\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"10\" y1=\"60\" x2=\"140\" y2=\"60\" stroke=\"#222\" stroke-width=\"1.5\" marker-end=\"url(#a25)\"/><defs><marker id=\"a25\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#222\"/></marker></defs><line x1=\"60\" y1=\"15\" x2=\"60\" y2=\"60\" stroke=\"#222\" stroke-width=\"1.5\"/><rect x=\"55\" y=\"52\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#222\"/><text x=\"55\" y=\"12\" font-size=\"12\" font-weight=\"700\">P</text><text x=\"144\" y=\"64\" font-size=\"12\">m</text></svg>"
-        }
+          "letter": "C",
+          "exhibit_text": "(C) Let \\(x\\) be the original amount of the chemical. It loses \\(20\\%\\) after each week, which means \\(80\\%\\) of the chemical remains at the end of each week. End of first week: \\(0.80x\\).\n\nAt the end of the second week, \\(80\\%\\) of the amount left at the end of the first week remains.\n\nEnd of second week: \\(0.80(0.80x) = 0.64x\\) or \\(64\\%\\)."
+        },
+        "options": {
+          "A": "\\(40\\%\\)",
+          "B": "\\(60\\%\\)",
+          "C": "\\(64\\%\\)",
+          "D": "\\(80\\%\\)"
+        },
+        "correct": "C"
       },
       "q_number": 4
     },
     {
-      "id": "P-HE5-M-AM10",
-      "question_type": "mc_multi",
-      "question": "Three expressions are given:\n\n\\[-2(2n+5)\\]\n\\[9-n\\]\n\\[5(n+3)\\]\n\nWhat is the sum of these three expressions? Select the **two** correct answers.",
+      "id": "P-HE5-M-BM37",
+      "question_type": "mc",
+      "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point \\(R\\)?",
+      "figure_svg": "<svg viewBox='0 0 460 110' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='55' x2='430' y2='55' stroke='#111' stroke-width='1.4'/><path d='M 18 55 L 33 51 L 33 59 Z' fill='#111'/><path d='M 442 55 L 427 51 L 427 59 Z' fill='#111'/><line x1='160' y1='48' x2='160' y2='62' stroke='#111' stroke-width='1.6'/><line x1='188' y1='50' x2='188' y2='60' stroke='#111'/><line x1='216' y1='50' x2='216' y2='60' stroke='#111'/><line x1='244' y1='48' x2='244' y2='62' stroke='#111' stroke-width='1.6'/><line x1='272' y1='50' x2='272' y2='60' stroke='#111'/><line x1='300' y1='48' x2='300' y2='62' stroke='#111' stroke-width='1.6'/><text x='160' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='244' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='300' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='153' y='80' font-family='Georgia,serif' font-size='13'>−</text><text x='168' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>1</text><line x1='161' y1='78' x2='176' y2='78' stroke='#111' stroke-width='0.8'/><text x='168' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>2</text><text x='306' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>1</text><line x1='299' y1='78' x2='314' y2='78' stroke='#111' stroke-width='0.8'/><text x='306' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>2</text></svg>",
       "options": {
-        "A": "\\(9-n+5n+15-4n-10\\)",
-        "B": "\\(9-n+5n+15+4n+10\\)",
-        "C": "\\(9-n+4n+15-4n-10\\)",
-        "D": "\\(14-n\\)",
-        "E": "\\(14\\)",
-        "F": "\\(34\\)"
+        "A": "\\(-\\dfrac{1}{10}\\)",
+        "B": "\\(\\dfrac{1}{10}\\)",
+        "C": "\\(\\dfrac{3}{10}\\)",
+        "D": "\\(\\dfrac{1}{2}\\)"
       },
-      "correct": [
-        "A",
-        "E"
-      ],
+      "correct": "B",
       "solution": {
-        "exhibit_text": "Distribute the first and third expressions: \\(-2(2n+5)=-4n-10\\) and \\(5(n+3)=5n+15\\).\n\nAdd all three: \\(9-n+5n+15-4n-10\\). Combine the \\(n\\)-terms: \\(-n+5n-4n=0\\). Combine the constants: \\(9+15-10=14\\).\n\nThe sum simplifies completely to \\(14\\), so both the full combined expression and its simplified value, \\(14\\), are correct."
+        "exhibit_text": "There are \\(5\\) equal gaps between \\(M=-\\dfrac{1}{2}\\) and \\(T=\\dfrac{1}{2}\\): each gap is \\(\\left(\\dfrac{1}{2}-\\left(-\\dfrac{1}{2}\\right)\\right)\\div5=1\\div5=\\dfrac{1}{5}\\). \\(R\\) is \\(3\\) gaps from \\(M\\): \\(-\\dfrac{1}{2}+3\\left(\\dfrac{1}{5}\\right)=-\\dfrac{5}{10}+\\dfrac{6}{10}=\\dfrac{1}{10}\\)."
       },
-      "base_source": "Exam A — Math Q10 (AM10)",
+      "base_source": "Exam B — Math Q37 (BM37)",
       "base_question": {
-        "question": "Three expressions are given:\n\n\\[-2(2.5n + 4)\\]\n\\[5 - n\\]\n\\[3(2n + 7)\\]\n\nWhich of these are equivalent to the sum of these three expressions?\n\nSelect the **two** correct answers.",
-        "options": {
-          "A": "\\(5 - n + 6n + 21 - 5n - 8\\)",
-          "B": "\\(5 - n + 6n + 21 - 5n + 8\\)",
-          "C": "\\(5 - n + 5n + 21 - 5n - 8\\)",
-          "D": "\\(18 - n\\)",
-          "E": "\\(18\\)",
-          "F": "\\(34\\)"
-        },
-        "correct": [
-          "A",
-          "E"
-        ],
+        "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point \\(R\\)?",
         "solution": {
-          "letter": null,
-          "exhibit_text": "Add the three expressions: \\(5 - n + 3(2n + 7) + (-2)(2.5n + 4)\\).\n\nDistribute \\(3\\) and \\(-2\\): \\(5 - n + 6n + 21 - 5n - 8\\).\n\nCombine the variable terms and combine the constants:\n\\((-n + 6n - 5n) + (5 + 21 - 8) = 18\\)."
-        }
+          "letter": "C",
+          "exhibit_text": "(C) There are \\(5\\) sections between \\(M\\) and \\(T\\). To find the length of one of these sections, find the distance between \\(M\\) and \\(T\\) and divide by \\(5\\):\n\n\\[\\left(\\dfrac{5}{8} - \\left(-\\dfrac{1}{4}\\right)\\right) \\div \\dfrac{5}{1} =\\]\n\\[\\left(\\dfrac{5}{8} + \\dfrac{2}{8}\\right) \\div \\dfrac{5}{1} =\\]\n\\[\\dfrac{7}{8} \\div \\dfrac{5}{1} = \\dfrac{7}{8} \\times \\dfrac{1}{5} = \\dfrac{7}{40}\\]\n\n\\(R\\) is \\(3\\) sections away from \\(M\\), so add:\n\n\\[-\\dfrac{1}{4} + 3\\left(\\dfrac{7}{40}\\right) = -\\dfrac{10}{40} + \\dfrac{21}{40} = \\dfrac{11}{40}\\]\n\n\\(R\\) is located at \\(\\dfrac{11}{40}\\)."
+        },
+        "options": {
+          "A": "\\(\\dfrac{7}{40}\\)",
+          "B": "\\(\\dfrac{9}{40}\\)",
+          "C": "\\(\\dfrac{11}{40}\\)",
+          "D": "\\(\\dfrac{21}{40}\\)"
+        },
+        "correct": "C",
+        "figure_svg": "<svg viewBox='0 0 460 110' xmlns='http://www.w3.org/2000/svg' style='max-width:440px; margin: 0 auto; display: block;'><line x1='30' y1='55' x2='430' y2='55' stroke='#111' stroke-width='1.4'/><path d='M 18 55 L 33 51 L 33 59 Z' fill='#111'/><path d='M 442 55 L 427 51 L 427 59 Z' fill='#111'/><line x1='160' y1='48' x2='160' y2='62' stroke='#111' stroke-width='1.6'/><line x1='188' y1='50' x2='188' y2='60' stroke='#111'/><line x1='216' y1='50' x2='216' y2='60' stroke='#111'/><line x1='244' y1='48' x2='244' y2='62' stroke='#111' stroke-width='1.6'/><line x1='272' y1='50' x2='272' y2='60' stroke='#111'/><line x1='300' y1='48' x2='300' y2='62' stroke='#111' stroke-width='1.6'/><text x='160' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='244' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='300' y='38' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='153' y='80' font-family='Georgia,serif' font-size='13'>−</text><text x='168' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>1</text><line x1='161' y1='78' x2='176' y2='78' stroke='#111' stroke-width='0.8'/><text x='168' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>4</text><text x='294' y='75' text-anchor='middle' font-family='Georgia,serif' font-size='12'>5</text><line x1='287' y1='78' x2='302' y2='78' stroke='#111' stroke-width='0.8'/><text x='294' y='92' text-anchor='middle' font-family='Georgia,serif' font-size='12'>8</text></svg>"
       },
       "q_number": 5
     },
     {
-      "id": "P-HE5-M-CM39",
+      "id": "P-HE5-M-BM48",
       "question_type": "mc",
-      "question": "A shipment contains \\(240\\) small boxes of medical supplies. In a random sample of \\(30\\) of these boxes, \\(9\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
-      "options": {
-        "A": "\\(126\\)",
-        "B": "\\(147\\)",
-        "C": "\\(168\\)",
-        "D": "\\(189\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "The fraction of undamaged boxes in the sample is \\(\\dfrac{30-9}{30} = \\dfrac{21}{30} = \\dfrac{7}{10}\\). The boxes not in the sample number \\(240 - 30 = 210\\). Predicted undamaged: \\(\\dfrac{7}{10} \\times 210 = 147\\)."
-      },
-      "base_source": "Exam C — Math Q39 (CM39)",
-      "base_question": {
-        "question": "A shipment contains \\(170\\) small boxes of medical supplies. In a random sample of \\(20\\) of these boxes, \\(8\\) have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, **not** including the boxes in the random sample?",
-        "options": {
-          "A": "\\(60\\)",
-          "B": "\\(68\\)",
-          "C": "\\(90\\)",
-          "D": "\\(102\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "(C) Determine the fraction of undamaged boxes in the sample, given \\(8\\) of the \\(20\\) boxes are damaged.\n\n\\[\\dfrac{20 - 8}{20} = \\dfrac{12}{20} = \\dfrac{3}{5} \\text{ or } 0.6\\]\n\nSubtract the number of boxes in the sample from \\(170\\).\n\n\\[170 - 20 = 150\\]\n\nBasing the prediction of undamaged boxes on the sample, multiply the number of boxes **not** in the sample by the fraction of undamaged boxes in the sample.\n\n\\[150 \\times 0.6 = 90\\]"
-        }
-      },
-      "q_number": 6
-    },
-    {
-      "id": "P-HE5-M-DM27",
-      "question_type": "mc",
-      "question": "A birdseed mixture is \\(\\dfrac{3}{8}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.08\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(40\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
-      "options": {
-        "A": "$\\(12.80\\)",
-        "B": "$\\(16.00\\)",
-        "C": "$\\(19.20\\)",
-        "D": "$\\(24.00\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "40 pounds of birdseed is \\(40 \\times 16 = 640\\) ounces. The sunflower seeds make up \\(\\dfrac{3}{8}\\) of that: \\(\\dfrac{3}{8} \\times 640 = 240\\) ounces. Cost: \\(240 \\times 0.08 = \\$19.20\\)."
-      },
-      "base_source": "Exam D — Math Q27 (DM27)",
-      "base_question": {
-        "question": "A birdseed mixture is \\(\\dfrac{2}{5}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.10\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(25\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
-        "options": {
-          "A": "$\\(10.00\\)",
-          "B": "$\\(16.00\\)",
-          "C": "$\\(40.00\\)",
-          "D": "$\\(160.00\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) First, calculate the amount of sunflower seeds in \\(25\\) pounds of this birdseed by using ratio reasoning to find that there are \\(10\\) pounds of sunflower seeds in the birdseed.\n\n\\[\\dfrac{2}{5} = \\dfrac{10}{25}\\]\n\nThen, use ratio reasoning to find the cost of the sunflower seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.10}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$1.60\\]\n\nThe cost of the sunflower seeds is $\\(1.60\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(10\\) pounds.\n\n\\[\\dfrac{\\$1.60}{1 \\text{ pound}} \\times \\dfrac{10 \\text{ pounds}}{1} = \\$16.00\\]"
-        }
-      },
-      "q_number": 7
-    },
-    {
-      "id": "P-HE5-M-FM09",
-      "question_type": "mc",
-      "question": "A student is choosing 3 movies to watch over break from a list of 8 different recommended films. How many different sets of 3 movies can the student choose?",
+      "question": "There are now \\(x\\) cans stacked on a shelf that holds \\(48\\) cans when full. If \\(6\\) of these cans were removed, the shelf would be half full. What is the value of \\(x\\)?",
       "options": {
         "A": "\\(24\\)",
-        "B": "\\(56\\)",
-        "C": "\\(112\\)",
-        "D": "\\(336\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "This is a combination: choosing 3 of 8 where order doesn't matter. \\(\\binom{8}{3} = \\dfrac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = \\dfrac{336}{6} = 56\\)."
-      },
-      "base_source": "Exam F — Math Q09 (FM09)",
-      "base_question": {
-        "question": "A student is choosing 3 books to read over the summer from a list of 7 different recommended novels. How many different sets of 3 books can the student choose?",
-        "options": {
-          "A": "21",
-          "B": "35",
-          "C": "105",
-          "D": "210"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "The student must choose 3 books to read. Since there are 7 available books, there are 7 options for the first book. After the first book has been selected, there are only 6 left to choose from. Similarly, after the second has been selected, there are only 5 left. Therefore, there are \\(7\\times6\\times5=210\\) total ways to choose the three books.\n\nHowever, this method imposes an order on the way the books are chosen. In reality, choosing 3 books from a group of 7 can be done in any order you want. To account for this, you must divide by the total number of ways to arrange 3 books, which is \\(3\\times2\\times1=6\\). Therefore, the final result is \\(\\dfrac{210}{6}=35\\)."
-        }
-      },
-      "q_number": 8
-    },
-    {
-      "id": "P-HE5-M-EM26",
-      "question_type": "mc",
-      "question": "If Jordan drove \\(180\\) miles between 10:00 a.m. and 12:30 p.m. on the same day, what was his average speed in miles per hour?",
-      "options": {
-        "A": "\\(60\\)",
-        "B": "\\(65\\)",
-        "C": "\\(72\\)",
-        "D": "\\(75\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "From 10:00 a.m. to 12:30 p.m. is \\(2.5\\) hours. Average speed \\(= 180 \\div 2.5 = 72\\) miles per hour."
-      },
-      "base_source": "Exam E — Math Q26 (EM26)",
-      "base_question": {
-        "question": "If Morgan drove 247 miles between 9:15 a.m. and 12:30 p.m. on the same day, what was her average speed in miles per hour?",
-        "options": {
-          "A": "60",
-          "B": "63",
-          "C": "67",
-          "D": "76"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "Start by finding out how long Morgan drove by counting the number of hours and quarter hours. Going from 9:15 a.m. to 12:15 p.m. is 3 hours, and from 12:15 to 12:30 is one quarter of an hour. Thus, Morgan's total driving time was 3.25 hours.\n\nNext, divide the total distance traveled by the driving time to get the average speed: \\(247 \\div 3.25 = 76\\). To make the division easier, you may want to divide 24,700 by 325.\n\nAlternatively, you can use Backsolving. Start with (C). You are looking for a number that will get you to 247 when multiplied by 3.25: \\(3.25 \\times 67 = 217.75\\). This is too small, and since (A) and (B) are smaller, you can also eliminate them, leaving only choice (D)."
-        }
-      },
-      "q_number": 9
-    },
-    {
-      "id": "P-HE5-M-FM33",
-      "question_type": "mc",
-      "question": "A committee of 3 people is to be chosen from a group of six 11th graders and five 12th graders. If the committee must consist of two 11th graders and one 12th grader, how many different committees can be formed?",
-      "options": {
-        "A": "\\(30\\)",
-        "B": "\\(55\\)",
-        "C": "\\(75\\)",
-        "D": "\\(150\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "Choose 2 of the 6 eleventh graders: \\(\\binom{6}{2} = 15\\). Choose 1 of the 5 twelfth graders: \\(\\binom{5}{1} = 5\\). Multiply: \\(15 \\times 5 = 75\\)."
-      },
-      "base_source": "Exam F — Math Q33 (FM33)",
-      "base_question": {
-        "question": "A committee of 3 people is to be chosen from a group of five 9th graders and four 10th graders. If the committee must consist of two 9th graders and one 10th grader, how many different committees can be formed?",
-        "options": {
-          "A": "20",
-          "B": "40",
-          "C": "84",
-          "D": "120"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "There are five 9th graders, and two must be chosen to be part of the committee. There are 5 ways to select the first 9th grader. After he has been chosen, only 4 remain. It appears that there are \\(5\\times4=20\\) selections possible. However, the order in which these 9th graders appear on the committee does not matter. Therefore, you must divide by the number of ways to arrange 2 objects, or \\(2\\times1\\). The final result is \\(\\dfrac{20}{2\\times1}=10\\).\n\nThere are 4 ways to choose one 10th grader out of a group of four 10th graders.\n\nEach of the 10 ways to choose the 9th graders can be paired with each of the 4 ways to choose the 10th graders. Therefore, a total of \\(10\\times4=40\\) committees are possible."
-        }
-      },
-      "q_number": 10
-    },
-    {
-      "id": "P-HE5-M-AM29",
-      "question_type": "mc",
-      "question": "There are \\(8\\) different marbles in a bag. Priya will choose \\(3\\) of these marbles to give to a friend. How many different groups of \\(3\\) marbles can she choose from the \\(8\\)?",
-      "options": {
-        "A": "\\(24\\)",
-        "B": "\\(56\\)",
-        "C": "\\(336\\)",
-        "D": "\\(512\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Since order doesn't matter, use combinations: \\(\\binom{8}{3}=\\dfrac{8\\times7\\times6}{3\\times2\\times1}=56\\).\n\n(A) is \\(8\\times3\\). (C) is the permutation \\(8\\times7\\times6\\) without dividing out the repeated orderings. (D) is \\(8^3\\)."
-      },
-      "base_source": "Exam A — Math Q29 (AM29)",
-      "base_question": {
-        "question": "There are \\(6\\) different cookies on a plate. Aiden will choose \\(2\\) of these cookies to pack in his lunch. How many different pairs of \\(2\\) cookies can he choose from the \\(6\\)?",
-        "options": {
-          "A": "\\(12\\)",
-          "B": "\\(15\\)",
-          "C": "\\(30\\)",
-          "D": "\\(36\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "letter": "B",
-          "exhibit_text": "(B) Create a list of the possible pairs. Let the cookies be named \\(A\\), \\(B\\), \\(C\\), \\(D\\), \\(E\\), and \\(F\\).\n\nAB, AC, AD, AE, AF\nBC, BD, BE, BF\nCD, CE, CF\nDE, DF\nEF\n\nThere are a total of \\(15\\) possible pairs of cookies that Aiden can choose."
-        }
-      },
-      "q_number": 11
-    },
-    {
-      "id": "P-HE5-M-FM31",
-      "question_type": "mc",
-      "question": "What is the probability of rolling a number less than 3 twice in a row on a fair six-sided die, with each of the numbers 1–6 on each side?",
-      "options": {
-        "A": "\\(\\dfrac{1}{12}\\)",
-        "B": "\\(\\dfrac{1}{9}\\)",
-        "C": "\\(\\dfrac{1}{6}\\)",
-        "D": "\\(\\dfrac{1}{3}\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Numbers less than 3 are \\(1\\) and \\(2\\), so the probability of rolling one on a single roll is \\(\\dfrac{2}{6} = \\dfrac{1}{3}\\). For two independent rolls: \\(\\dfrac{1}{3} \\times \\dfrac{1}{3} = \\dfrac{1}{9}\\)."
-      },
-      "base_source": "Exam F — Math Q31 (FM31)",
-      "base_question": {
-        "question": "What is the probability of rolling a number greater than 3 twice in a row on a fair six-sided die, with each of the numbers 1–6 on each side?",
-        "options": {
-          "A": "\\(\\dfrac{1}{8}\\)",
-          "B": "\\(\\dfrac{1}{4}\\)",
-          "C": "\\(\\dfrac{1}{2}\\)",
-          "D": "\\(\\dfrac{3}{4}\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "To find the probability of two independent events, find the probability of each individual event and then multiply those probabilities together. Remember that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). You need to find the probability of rolling a 4, 5, or 6 on the die and then multiply that number by itself. In this scenario, there are 3 desired outcomes out of a total of 6, so the probability of rolling a 4, 5, or 6 is \\(\\dfrac{3}{6}=\\dfrac{1}{2}\\). Multiply this number by itself to obtain \\(\\dfrac{1}{2}\\times\\dfrac{1}{2}=\\dfrac{1}{4}\\)."
-        }
-      },
-      "q_number": 12
-    },
-    {
-      "id": "P-HE5-M-AM08",
-      "question_type": "dropdown",
-      "question": "Maria and Carlos each collect trading cards. Maria has \\(3\\) times as many cards as Carlos. Maria gives \\(10\\) of her cards to Carlos. Maria now has \\(20\\) more cards than Carlos.\n\nHow many cards did Maria start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of cards originally in Maria's and Carlos's collections is \\(M = \\) [DROPDOWN_1] \\(C\\).\n\nAfter Maria gives \\(10\\) cards to Carlos, the equation becomes \\(M - 10 = \\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Maria started with [DROPDOWN_3] cards.",
-      "correct": {
-        "DROPDOWN_1": "3",
-        "DROPDOWN_2": "C+30",
-        "DROPDOWN_3": "60"
-      },
-      "solution": {
-        "exhibit_text": "Maria originally has \\(3\\) times as many cards as Carlos, so the equation is \\(M = 3C\\).\n\nAfter Maria gives \\(10\\) cards to Carlos, the equation becomes \\(M - 10 = (C + 10) + 20\\), which simplifies to \\(M - 10 = C + 30\\).\n\nSubstitute \\(M = 3C\\) into the equation: \\(3C - 10 = C + 30\\).\n\nSolve for \\(C\\):\n\\[3C - C = 30 + 10\\]\\[2C = 40\\]\\[C = 20\\]\n\nSubstitute to find \\(M\\): \\(M = 3C = 3 \\times 20 = 60\\).\n\nSo, Maria started with \\(60\\) cards."
-      },
-      "base_source": "Exam A — Math Q8 (AM08)",
-      "base_question": {
-        "question": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives \\(8\\) of his stamps to Kevin. Liam now has \\(12\\) more stamps than Kevin.\n\nHow many stamps did Liam start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of stamps originally in Liam's and Kevin's collections is \\(L =\\) [DROPDOWN_1] \\(K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes \\(L - 8 =\\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Liam started with [DROPDOWN_3] stamps.",
-        "options": null,
-        "correct": null,
-        "solution": {
-          "letter": null,
-          "exhibit_text": "Liam originally has twice as many stamps as Kevin, so the equation is \\(L = 2K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes\n\\(L - 8 = (K + 8) + 12\\), which simplifies to \\(L - 8 = K + 20\\).\n\nSubstitute \\(L = 2K\\) into the equation: \\(2K - 8 = K + 20\\).\n\nSolve for \\(K\\):\n\\[2K - K = 20 + 8\\]\n\\[K = 28\\]\nSubstitute to find \\(L\\): \\(L = 2K = 2 \\times 28 = 56\\).\n\nSo, Liam started with \\(56\\) stamps."
-        }
-      },
-      "q_number": 13,
-      "dropdowns": [
-        {
-          "label": "DROPDOWN_1",
-          "choices": [
-            "2",
-            "3",
-            "C/2",
-            "C/3"
-          ],
-          "answer_display": "3"
-        },
-        {
-          "label": "DROPDOWN_2",
-          "choices": [
-            "C+20",
-            "C+30",
-            "C-20",
-            "C+10"
-          ],
-          "answer_display": "C+30"
-        },
-        {
-          "label": "DROPDOWN_3",
-          "choices": [
-            "40",
-            "50",
-            "60",
-            "90"
-          ],
-          "answer_display": "60"
-        }
-      ]
-    },
-    {
-      "id": "P-HE5-M-DM32",
-      "question_type": "mc",
-      "question": "There were \\(40\\) people at Jason's party. If each person at the party drank \\(3\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(= 4\\) quarts; \\(1\\) quart \\(= 4\\) cups.",
-      "options": {
-        "A": "\\(3\\dfrac{3}{4}\\)",
-        "B": "\\(7\\dfrac{1}{2}\\)",
-        "C": "\\(10\\)",
-        "D": "\\(15\\)"
-      },
-      "correct": "B",
-      "solution": {
-        "exhibit_text": "Total cups: \\(40 \\times 3 = 120\\). Since \\(1\\) gallon \\(= 4 \\times 4 = 16\\) cups, convert: \\(120 \\div 16 = 7\\dfrac{1}{2}\\) gallons."
-      },
-      "base_source": "Exam D — Math Q32 (DM32)",
-      "base_question": {
-        "question": "There were \\(36\\) people at Emily's party. If each person at the party drank \\(2\\) cups of juice, how many **gallons** of juice did they drink altogether?\n\nNote: \\(1\\) gallon \\(= 4\\) quarts; \\(1\\) quart \\(= 4\\) cups.",
-        "options": {
-          "A": "\\(2\\dfrac{1}{4}\\)",
-          "B": "\\(4\\dfrac{1}{2}\\)",
-          "C": "\\(9\\)",
-          "D": "\\(72\\)"
-        },
-        "correct": "B",
-        "solution": {
-          "exhibit_text": "(B) Since \\(36\\) people each drank \\(2\\) cups of juice, the total amount of juice they drank was \\(36 \\times 2 = 72\\) cups.\n\nConvert \\(72\\) cups to gallons:\n\n\\[72 \\text{ cups} \\times \\dfrac{1 \\text{ quart}}{4 \\text{ cups}} \\times \\dfrac{1 \\text{ gallon}}{4 \\text{ quarts}} =\\]\n\\[\\dfrac{72}{16} \\text{ gallons} =\\]\n\\[\\dfrac{9}{2} \\text{ gallons} =\\]\n\\[4\\dfrac{1}{2} \\text{ gallons}\\]"
-        }
-      },
-      "q_number": 14
-    },
-    {
-      "id": "P-HE5-M-GM16",
-      "question_type": "mc",
-      "question": "Elena had \\(5\\) times as much money as Carlos. Elena gives Carlos \\(\\$8\\), but she still has \\(\\$20\\) more than Carlos. How much money do the two of them have in all?",
-      "options": {
-        "A": "\\(\\$36\\)",
-        "B": "\\(\\$45\\)",
-        "C": "\\(\\$54\\)",
-        "D": "\\(\\$63\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "Let \\(C\\) = Carlos's money, so Elena has \\(E = 5C\\). After Elena gives Carlos \\$8: Elena has \\(E-8\\), Carlos has \\(C+8\\), and \\(E - 8 = (C+8) + 20\\), so \\(E = C + 36\\). Setting \\(5C = C + 36\\) gives \\(4C = 36\\), so \\(C = 9\\) and \\(E = 45\\). Total: \\(9 + 45 = \\$54\\)."
-      },
-      "base_source": "Exam G — Math Q16 (GM16)",
-      "base_question": {
-        "question": "Marcus had three times as much money as José. Marcus gives José \\(\\$5.30\\), but he still has \\(\\$10\\) more than José. How much money do the two boys have in all?",
-        "options": {
-          "A": "\\(\\$10.30\\)",
-          "B": "\\(\\$30.90\\)",
-          "C": "\\(\\$33.60\\)",
-          "D": "\\(\\$41.20\\)"
-        },
-        "correct": "D",
-        "solution": {
-          "exhibit_text": "First, set up an equation to represent the initial situation. Marcus (\\(M\\)) has three times as much money as José (\\(J\\)): \\(M=3J\\). Next, set up an equation for the new situation. Marcus gives José \\(\\$5.30\\), so \\(M-5.30\\) and \\(J+5.30\\). Marcus still has \\(\\$10\\) more than José, so \\(M-5.30=(J+5.30)+10\\). Simplify to get \\(M=J+20.6\\). From the first equation, you know \\(M\\) is equal to \\(3J\\), so set \\(3J\\) equal to \\(J+20.60\\) and solve for \\(J\\).\n\n\\[3J=J+20.6\\]\n\\[2J=20.6\\]\n\\[J=10.3\\]\n\nJosé started out with \\(\\$10.30\\), which means Marcus started out with \\(3\\times10.60=30.90\\). Be careful! The question asks how much the boys have in sum, so add \\(10.60+30.90=41.20\\)."
-        }
-      },
-      "q_number": 15
-    },
-    {
-      "id": "P-HE5-M-AM48",
-      "question_type": "mc",
-      "question": "If \\(6x - 5y = 30\\), what is \\(x\\) in terms of \\(y\\)?",
-      "options": {
-        "A": "\\(x = \\tfrac{5}{6}y + 30\\)",
-        "B": "\\(x = -\\tfrac{5}{6}y + 30\\)",
-        "C": "\\(x = \\tfrac{5}{6}y + 5\\)",
-        "D": "\\(x = -\\tfrac{5}{6}y + 5\\)"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "Add \\(5y\\) to both sides: \\(6x=30+5y\\). Divide by \\(6\\): \\(x=5+\\tfrac{5}{6}y\\).\n\n(A) and (B) forget to divide the constant \\(30\\) by \\(6\\). (B) and (D) use the wrong sign on the \\(y\\)-term."
-      },
-      "base_source": "Exam A — Math Q48 (AM48)",
-      "base_question": {
-        "question": "If \\(4x - 3y = 12\\), what is \\(x\\) in terms of \\(y\\)?",
-        "options": {
-          "A": "\\(x = \\tfrac{3}{4}y + 12\\)",
-          "B": "\\(x = -\\tfrac{3}{4}y + 12\\)",
-          "C": "\\(x = \\tfrac{3}{4}y + 3\\)",
-          "D": "\\(x = -\\tfrac{3}{4}y + 3\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "letter": "C",
-          "exhibit_text": "(C)\n\n\\[4x - 3y = 12\\]\n\\[4x = 3y + 12\\]\n\\[x = \\dfrac{3}{4}y + \\dfrac{12}{4}\\]\n\\[x = \\dfrac{3}{4}y + 3\\]"
-        }
-      },
-      "q_number": 16
-    },
-    {
-      "id": "P-HE5-M-GM04",
-      "question_type": "mc",
-      "question": "Each square in the grid above has a side length of \\(5\\). What is the area of the shaded triangle?",
-      "options": {
-        "A": "\\(20\\)",
-        "B": "\\(75\\)",
-        "C": "\\(100\\)",
-        "D": "\\(200\\)"
-      },
-      "correct": "C",
-      "figure_svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"20\" x2=\"170\" y2=\"20\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"140\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"80,20 80,140 140,140\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>",
-      "solution": {
-        "exhibit_text": "This triangle has a height of \\(20\\) (4 boxes, each counting as \\(5\\)) and a base of \\(10\\) (2 boxes). The area of a triangle is \\(\\tfrac{1}{2}(\\text{base})(\\text{height})=\\tfrac{1}{2}(10)(20)=100\\).\n\n(D) forgets to divide by \\(2\\). (B) miscounts the height as 3 boxes instead of 4. (A) miscounts both the base and height too small."
-      },
-      "base_source": "Exam G — Math Q4 (GM04)",
-      "base_question": {
-        "question": "Each square in the grid above has a side length of \\(4\\). What is the area of the shaded triangle?",
-        "options": {
-          "A": "\\(3\\)",
-          "B": "\\(24\\)",
-          "C": "\\(48\\)",
-          "D": "\\(96\\)"
-        },
-        "correct": "C",
-        "solution": {
-          "letter": "C",
-          "exhibit_text": "This triangle has a height of \\(8\\) (each box counts as \\(4\\)) and a base of \\(12\\). The area of a triangle is\n\n\\[\\dfrac{1}{2}(\\text{Base})(\\text{Height})=\\dfrac{1}{2}(12)(8)=48.\\]"
-        },
-        "figure_svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"20\" x2=\"170\" y2=\"20\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"50\" x2=\"170\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#333\" stroke-width=\"1\"/>\n<line x1=\"20\" y1=\"140\" x2=\"170\" y2=\"140\" stroke=\"#333\" stroke-width=\"1\"/>\n<polygon points=\"50,20 50,80 140,80\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n</svg>"
-      },
-      "q_number": 17
-    },
-    {
-      "id": "P-HE5-M-FM05",
-      "question_type": "mc",
-      "question": "Maria and Daniel worked on a report together. If Maria wrote \\(\\dfrac{3}{8}\\) of the report and Daniel wrote \\(25\\) pages, then what was the total length of the report?",
-      "options": {
-        "A": "\\(15\\) pages",
-        "B": "\\(25\\) pages",
-        "C": "\\(40\\) pages",
-        "D": "\\(64\\) pages"
-      },
-      "correct": "C",
-      "solution": {
-        "exhibit_text": "If Maria wrote \\(\\dfrac{3}{8}\\) of the report, Daniel wrote the remaining \\(\\dfrac{5}{8}\\), which equals \\(25\\) pages. So \\(\\dfrac{5}{8}P = 25\\), meaning \\(P = 25 \\times \\dfrac{8}{5} = 40\\) pages."
-      },
-      "base_source": "Exam F — Math Q05 (FM05)",
-      "base_question": {
-        "question": "Nick and Alex worked on a paper together. If Nick wrote \\(\\dfrac{2}{7}\\) of the paper and Alex wrote \\(20\\) pages, then what was the total length of the paper?",
-        "options": {
-          "A": "7 pages",
-          "B": "21 pages",
-          "C": "28 pages",
-          "D": "35 pages"
-        },
-        "correct": "C",
-        "solution": {
-          "exhibit_text": "If Nick wrote \\(\\dfrac{2}{7}\\) of the paper, then Alex must have written the other \\(\\dfrac{5}{7}\\) of the paper. This means \\(\\dfrac{5}{7}\\) of the paper is equal to 20 pages.\n\n\\[\\dfrac{5}{7}P=20\\]\n\nTo solve for \\(P\\), multiply both sides of the equation by the reciprocal of \\(\\dfrac{5}{7}\\), which is \\(\\dfrac{7}{5}\\).\n\n\\[P=\\dfrac{7}{5}\\times20\\]\n\\[P=28\\]\n\nThe paper is 28 pages long."
-        }
-      },
-      "q_number": 18
-    },
-    {
-      "id": "P-HE5-M-DM49",
-      "question_type": "mc",
-      "question": "Deja has a piece of ribbon measuring \\(36\\) inches by \\(60\\) inches. She wants to cut it into squares of equal size, without any ribbon left over. What is the **greatest** possible side length, in inches, of one of those squares?",
-      "options": {
-        "A": "\\(4\\)",
-        "B": "\\(6\\)",
-        "C": "\\(12\\)",
+        "B": "\\(26\\)",
+        "C": "\\(30\\)",
         "D": "\\(36\\)"
       },
       "correct": "C",
       "solution": {
-        "exhibit_text": "The greatest possible side length is the greatest common factor of \\(36\\) and \\(60\\), which is \\(12\\).\n\n(A) and (B) are common factors, but not the greatest one. (D) uses one of the original dimensions instead of finding a shared factor."
+        "exhibit_text": "Half full means \\(24\\) cans. If removing \\(6\\) cans leaves \\(24\\): \\(x-6=24\\), so \\(x=30\\)."
       },
-      "base_source": "Exam D — Math Q49 (DM49)",
+      "base_source": "Exam B — Math Q48 (BM48)",
       "base_question": {
-        "question": "Anise has a piece of cloth measuring \\(45\\) inches by \\(75\\) inches. She wants to cut it into squares of equal size, without any cloth left over. What is the **greatest** possible side length, in inches, of one of those squares?",
-        "options": {
-          "A": "\\(3\\)",
-          "B": "\\(5\\)",
-          "C": "\\(15\\)",
-          "D": "\\(45\\)"
+        "question": "There are now \\(x\\) cans stacked on a shelf that holds \\(36\\) cans when full. If \\(4\\) of these cans were removed, the shelf would be half full. What is the value of \\(x\\)?",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "(D) The shelf, when full, holds \\(36\\) cans. When the shelf is half full, it holds \\(18\\) cans.\n\n\\[x - 4 = 18\\]\n\\[x = 22\\]"
         },
-        "correct": "C",
+        "options": {
+          "A": "\\(14\\)",
+          "B": "\\(16\\)",
+          "C": "\\(18\\)",
+          "D": "\\(22\\)"
+        },
+        "correct": "D"
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-HE5-M-BM49",
+      "question_type": "mc",
+      "question": "Priya tossed a paper cup in the air \\(40\\) times and found that the probability of it landing on its side was \\(75\\%\\). If she tosses the cup in the air \\(160\\) **more** times, what is the total number of times she can expect the cup to land on its side?",
+      "options": {
+        "A": "\\(75\\)",
+        "B": "\\(120\\)",
+        "C": "\\(150\\)",
+        "D": "\\(165\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Apply the \\(75\\%\\) rate to all \\(40+160=200\\) tosses: \\(0.75\\times200=150\\)."
+      },
+      "base_source": "Exam B — Math Q49 (BM49)",
+      "base_question": {
+        "question": "Carlos tossed a paper cup in the air \\(50\\) times and found that the probability of it landing on its side was \\(72\\%\\). If he tosses the cup in the air \\(150\\) **more** times, what is the total number of times he can expect the cup to land on its side?",
         "solution": {
           "letter": "C",
-          "exhibit_text": "(C) Given that each piece will be a square, the length and width will be the same. The greatest possible length can be determined by finding the greatest common factor of the length and width of the original piece of cloth.\n\nBegin by finding the prime factorization of the length (\\(75\\) in.) and width (\\(45\\) in.).\n\n\\[45 = 3 \\times 3 \\times 5\\]\n\\[75 = 3 \\times 5 \\times 5\\]\n\nThe common factors can be seen as \\(3 \\times 5\\).\n\nThe greatest possible side length, in inches, will be \\(3 \\times 5 = 15\\)."
+          "exhibit_text": "(C) The probability of the cup landing on its side is \\(72\\%\\). Carlos tossed the cup a total of \\(200\\) times (\\(50 + 150\\)). The number of times the cup lands on its side is \\(72\\%\\) of \\(200\\):\n\n\\[0.72 \\times 200 = 144\\]"
+        },
+        "options": {
+          "A": "\\(72\\)",
+          "B": "\\(108\\)",
+          "C": "\\(144\\)",
+          "D": "\\(158\\)"
+        },
+        "correct": "C"
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-HE5-M-CM10",
+      "question_type": "mc",
+      "question": "In the figure above, \\(n \\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
+      "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='355' y='140' font-family='Georgia,serif' font-size='16'>42°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>",
+      "options": {
+        "A": "\\(42\\)",
+        "B": "\\(48\\)",
+        "C": "\\(132\\)",
+        "D": "\\(138\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The triangle formed by line \\(p\\), line \\(m\\), and the connecting segment contains a \\(42°\\) angle, a right angle (\\(90°\\)), and a missing angle \\(x°\\). Since the angles of a triangle sum to \\(180°\\): \\[180°=42°+90°+x\\]\\[48°=x\\]\n\nLine \\(m\\) is straight, so the \\(48°\\) angle and the adjacent angle outside the triangle (call it \\(s\\)) are supplementary: \\[180°-48°=s\\]\\[132°=s\\]\n\nSince \\(n\\parallel p\\), angle \\(s\\) and angle \\(r\\) are corresponding angles, so \\(r=132°\\)."
+      },
+      "base_source": "Exam C — Math Q10 (CM10)",
+      "base_question": {
+        "question": "In the figure above, \\(n \\parallel p\\). Straight line \\(m\\) intersects both line \\(n\\) and line \\(p\\). What is the value of \\(r\\)?",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) The triangle formed by line \\(p\\), line \\(m\\), and the line segment connecting the two contains a \\(73°\\) angle, a right angle (\\(90°\\)), and a missing angle measuring \\(x°\\). The sum of the interior angles of a triangle is \\(180°\\), so begin by finding the value of \\(x\\):\n\n\\[180° = 73° + 90° + x\\]\n\\[180° = 163° + x\\]\n\\[17° = x\\]\n\nLine \\(m\\) is a straight line, so it has a measure of \\(180°\\). The \\(17°\\) angle from the triangle and the adjacent angle outside the triangle are supplementary, so they have a sum of \\(180°\\). Let \\(s\\) represent the measure of the adjacent angle outside the triangle. The value of \\(s\\) can be determined by subtracting:\n\n\\[180° - 17° = s\\]\n\\[163° = s\\]\n\nSince \\(n \\parallel p\\), angle \\(s\\) and angle \\(r\\) are corresponding angles, so \\(r = 163°\\)."
+        },
+        "options": {
+          "A": "\\(17\\)",
+          "B": "\\(117\\)",
+          "C": "\\(163\\)",
+          "D": "\\(173\\)"
+        },
+        "correct": "C",
+        "figure_svg": "<svg viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' style='max-width:480px; margin: 0 auto; display: block;'><line x1='20' y1='240' x2='480' y2='240' stroke='#111' stroke-width='1.5'/><path d='M 10 240 L 22 236 L 22 244 Z' fill='#111'/><path d='M 490 240 L 478 236 L 478 244 Z' fill='#111'/><text x='0' y='236' font-family='Georgia,serif' font-style='italic' font-size='18'>m</text><line x1='40' y1='320' x2='280' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 30 331 L 42 328 L 39 316 Z' fill='#111'/><path d='M 290 49 L 278 52 L 281 64 Z' fill='#111'/><text x='15' y='325' font-family='Georgia,serif' font-style='italic' font-size='18'>n</text><line x1='190' y1='320' x2='430' y2='60' stroke='#111' stroke-width='1.5'/><path d='M 180 331 L 192 328 L 189 316 Z' fill='#111'/><path d='M 440 49 L 428 52 L 431 64 Z' fill='#111'/><text x='170' y='330' font-family='Georgia,serif' font-style='italic' font-size='18'>p</text><line x1='380' y1='114.17' x2='380' y2='240' stroke='#111' stroke-width='1.4'/><polyline points='380,228 368,228 368,240' fill='none' stroke='#111' stroke-width='1'/><text x='355' y='140' font-family='Georgia,serif' font-size='16'>73°</text><path d='M 130.3 222.34 A 24 24 0 0 0 90 240' fill='none' stroke='#111' stroke-width='1.2'/><text x='95' y='218' font-family='Georgia,serif' font-style='italic' font-size='18'>r°</text></svg>",
+        "exhibit_image_path": null
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-HE5-M-CM15",
+      "question_type": "grid_in",
+      "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(2.99\\). The store also sells orange juice in a \\(5\\)-pack of \\(8\\)-fluid-ounce bottles for $\\(2.50\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "5",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "solution": {
+        "exhibit_text": "The \\(5\\)-pack holds \\(5\\times8=40\\) fluid ounces for $\\(2.50\\). A gallon is \\(128\\) fluid ounces, so a gallon of orange juice costs \\(2.50\\times\\dfrac{128}{40}=2.50\\times3.2=\\$8.00\\). The difference from milk is \\(8.00-2.99=5.01\\), which rounds to \\(\\$5\\)."
+      },
+      "base_source": "Exam C — Math Q15 (CM15)",
+      "base_question": {
+        "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(3.99\\). The store also sells orange juice in a \\(6\\)-pack of \\(5.5\\)-fluid-ounce bottles for $\\(1.79\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space.",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(3) To determine the cost of a gallon of orange juice, begin by finding the total number of ounces in the **6-pack** of bottles:\n\n\\[5.5 \\text{ oz} \\times 6 = 33 \\text{ oz}\\]\n\nSo, \\(33\\) oz of orange juice costs $\\(1.79\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion using the $\\(1.79\\) cost per \\(33\\) oz of orange juice and the unknown cost \\((x)\\) per \\(1\\) gallon of orange juice:\n\n\\[\\dfrac{33 \\text{ oz}}{$1.79} = \\dfrac{128 \\text{ oz}}{x}\\]\n\nCross multiply to solve for \\(x\\) in the proportion:\n\n\\[(33) \\times (x) = ($1.79) \\times (128)\\]\n\\[33x = $229.12\\]\n\nDivide both sides by \\(33\\):\n\n\\[x = $6.94 \\text{ per gallon}\\]\n\nSubtract the cost of \\(1\\) gallon of milk from the cost of \\(1\\) gallon of orange juice:\n\n\\[$6.94 - $3.99 = $2.95\\]\n\nTo the nearest dollar, a gallon of orange juice costs $\\(3\\) more than a gallon of milk."
+        },
+        "grid_answer": "3"
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-HE5-M-CM17",
+      "question_type": "mc",
+      "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?",
+      "figure_svg": "<svg viewBox='0 0 530 90' xmlns='http://www.w3.org/2000/svg' style='max-width:460px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='530' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 542 45 L 527 41 L 527 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.3'/><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='104' y1='40' x2='104' y2='50' stroke='#111' stroke-width='1.3'/><text x='104' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='148' y1='40' x2='148' y2='50' stroke='#111' stroke-width='1.3'/><text x='148' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='192' y1='40' x2='192' y2='50' stroke='#111' stroke-width='1.3'/><text x='192' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='236' y1='40' x2='236' y2='50' stroke='#111' stroke-width='1.3'/><text x='236' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280' y1='40' x2='280' y2='50' stroke='#111' stroke-width='1.3'/><text x='280' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='324' y1='40' x2='324' y2='50' stroke='#111' stroke-width='1.3'/><text x='324' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='368' y1='40' x2='368' y2='50' stroke='#111' stroke-width='1.3'/><text x='368' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='412' y1='40' x2='412' y2='50' stroke='#111' stroke-width='1.3'/><text x='412' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><line x1='456' y1='40' x2='456' y2='50' stroke='#111' stroke-width='1.3'/><text x='456' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>9</text><line x1='500' y1='40' x2='500' y2='50' stroke='#111' stroke-width='1.3'/><text x='500' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>10</text><text x='148' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='280' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='456' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='500' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>",
+      "options": {
+        "A": "\\(1\\) unit",
+        "B": "\\(\\dfrac{1}{2}\\) unit",
+        "C": "\\(1\\dfrac{1}{2}\\) units",
+        "D": "\\(2\\) units"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The midpoint of \\(\\overline{MN}\\) (from \\(2\\) to \\(10\\)) is \\(\\dfrac{2+10}{2}=6\\). The midpoint of \\(\\overline{RS}\\) (from \\(5\\) to \\(9\\)) is \\(\\dfrac{5+9}{2}=7\\). The distance between \\(6\\) and \\(7\\) is \\(1\\) unit."
+      },
+      "base_source": "Exam C — Math Q17 (CM17)",
+      "base_question": {
+        "question": "What is the distance between the midpoints of \\(\\overline{MN}\\) and \\(\\overline{RS}\\)?\n\n(On the number line: M is at 1, R is at 3, S is at 6, N is at 7.)",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "(A) \\(\\overline{MN}\\) begins at \\(1\\) and ends at \\(7\\). Determine the length of \\(\\overline{MN}\\):\n\n\\[7 - 1 = 6\\]\n\nThe midpoint of a line segment is located exactly halfway between the two endpoints. Since \\(\\overline{MN}\\) is \\(6\\) units in length, the two endpoints are \\(6\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(6\\) by \\(2\\):\n\n\\[6 \\div 2 = 3\\]\n\nThe location of the midpoint of \\(\\overline{MN}\\) is \\(3\\) units from either endpoint. Find the midpoint by either adding \\(3\\) to the location of \\(M\\) (\\(1\\)) or subtracting \\(3\\) from the location of \\(N\\) (\\(7\\)):\n\n\\[1 + 3 = 4\\]\n\\[7 - 3 = 4\\]\n\nThe midpoint of \\(\\overline{MN}\\) is located at \\(4\\).\n\n\\(\\overline{RS}\\) begins at \\(3\\) and ends at \\(6\\). Determine the length of \\(\\overline{RS}\\):\n\n\\[6 - 3 = 3\\]\n\nSince \\(\\overline{RS}\\) is \\(3\\) units in length, the two endpoints are \\(3\\) units apart. Determine the location of the midpoint, in relation to each endpoint, by dividing \\(3\\) by \\(2\\):\n\n\\[3 \\div 2 = 1.5\\]\n\nThe location of the midpoint of \\(\\overline{RS}\\) is \\(1.5\\) units from either endpoint. Find the midpoint by either adding \\(1.5\\) to the location of \\(R\\) (\\(3\\)) or subtracting \\(1.5\\) from the location of \\(S\\) (\\(6\\)):\n\n\\[3 + 1.5 = 4.5\\]\n\nThe midpoint of \\(\\overline{RS}\\) is located at \\(4.5\\).\n\nThe distance between the midpoints \\(4\\) and \\(4.5\\) is \\(\\dfrac{1}{2}\\) unit."
+        },
+        "options": {
+          "A": "\\(\\dfrac{1}{2}\\) unit",
+          "B": "\\(1\\) unit",
+          "C": "\\(1\\dfrac{1}{2}\\) units",
+          "D": "\\(2\\) units"
+        },
+        "correct": "A",
+        "figure_svg": "<svg viewBox='0 0 460 90' xmlns='http://www.w3.org/2000/svg' style='max-width:420px; margin: 0 auto; display: block;'><line x1='30' y1='45' x2='430' y2='45' stroke='#111' stroke-width='1.4'/><path d='M 18 45 L 33 41 L 33 49 Z' fill='#111'/><path d='M 442 45 L 427 41 L 427 49 Z' fill='#111'/><line x1='60' y1='40' x2='60' y2='50' stroke='#111' stroke-width='1.3'/><text x='60' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>0</text><line x1='104' y1='40' x2='104' y2='50' stroke='#111' stroke-width='1.3'/><text x='104' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>1</text><line x1='148' y1='40' x2='148' y2='50' stroke='#111' stroke-width='1.3'/><text x='148' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>2</text><line x1='192' y1='40' x2='192' y2='50' stroke='#111' stroke-width='1.3'/><text x='192' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>3</text><line x1='236' y1='40' x2='236' y2='50' stroke='#111' stroke-width='1.3'/><text x='236' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>4</text><line x1='280' y1='40' x2='280' y2='50' stroke='#111' stroke-width='1.3'/><text x='280' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>5</text><line x1='324' y1='40' x2='324' y2='50' stroke='#111' stroke-width='1.3'/><text x='324' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>6</text><line x1='368' y1='40' x2='368' y2='50' stroke='#111' stroke-width='1.3'/><text x='368' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>7</text><line x1='412' y1='40' x2='412' y2='50' stroke='#111' stroke-width='1.3'/><text x='412' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='14'>8</text><text x='104' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>M</text><text x='192' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='324' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='368' y='30' font-family='Georgia,serif' font-style='italic' font-size='16'>N</text></svg>"
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-HE5-M-DM04",
+      "question_type": "mc",
+      "question": "If \\(x = \\dfrac{1}{3}\\), what is the value of \\(\\dfrac{2}{2 - x}\\)?",
+      "options": {
+        "A": "\\(\\dfrac{5}{6}\\)",
+        "B": "\\(\\dfrac{6}{7}\\)",
+        "C": "\\(1\\dfrac{1}{5}\\)",
+        "D": "\\(2\\dfrac{1}{2}\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "\\(2-\\dfrac{1}{3}=\\dfrac{5}{3}\\). Then \\(\\dfrac{2}{\\frac{5}{3}}=2\\times\\dfrac{3}{5}=\\dfrac{6}{5}=1\\dfrac{1}{5}\\)."
+      },
+      "base_source": "Exam D — Math Q4 (DM04)",
+      "base_question": {
+        "question": "If \\(x = \\dfrac{1}{4}\\), what is the value of \\(\\dfrac{2}{2 - x}\\)?",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) The first step is to substitute the value for \\(x\\) into the expression to get \\(\\dfrac{2}{2 - \\tfrac{1}{4}}\\).\n\nThen, evaluate the denominator and finally divide the numerator by the denominator.\n\n\\[\\dfrac{2}{\\left(\\tfrac{7}{4}\\right)} = 2 \\div \\left(\\dfrac{7}{4}\\right) = 2 \\left(\\dfrac{4}{7}\\right) = \\dfrac{8}{7} = 1\\tfrac{1}{7}\\]"
+        },
+        "options": {
+          "A": "\\(\\dfrac{3}{4}\\)",
+          "B": "\\(\\dfrac{8}{9}\\)",
+          "C": "\\(1\\tfrac{1}{7}\\)",
+          "D": "\\(3\\tfrac{1}{2}\\)"
+        },
+        "correct": "C"
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-HE5-M-DM10",
+      "question_type": "mc",
+      "question": "\\[3x + 14 > 5x + 6\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+      "options": {
+        "A": "\\(x < 4\\)",
+        "B": "\\(x > 4\\)",
+        "C": "\\(x < 40\\)",
+        "D": "\\(x > 40\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Subtract \\(3x\\) from both sides: \\(14>2x+6\\). Subtract \\(6\\): \\(8>2x\\). Divide by \\(2\\): \\(4>x\\), so \\(x<4\\)."
+      },
+      "base_source": "Exam D — Math Q10 (DM10)",
+      "base_question": {
+        "question": "\\[2x + 11 > 3x + 9\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "(A) Use inverse operations to isolate the variable \\(x\\) by first getting the \\(x\\) variable on one side.\n\n\\[2x + 11 > 3x + 9\\]\n\\[2x - 3x + 11 > 3x - 3x + 9\\]\n\\[-x + 11 > 9\\]\n\\[-x + 11 - 11 > 9 - 11\\]\n\\[-x > -2\\]\n\nNow, when dividing by \\(-1\\), the direction of the inequality sign changes.\n\n\\[-x > -2\\]\n\\[x < 2\\]\n\nAnother way to solve is to keep the coefficient of \\(x\\) positive and then recognizing that \\(2 > x\\) is the same as \\(x < 2\\)."
+        },
+        "options": {
+          "A": "\\(x < 2\\)",
+          "B": "\\(x > 2\\)",
+          "C": "\\(x < 20\\)",
+          "D": "\\(x > 20\\)"
+        },
+        "correct": "A"
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-HE5-M-DM19",
+      "question_type": "mc",
+      "question": "A store manager purchases a piece of furniture for $\\(320.00\\). To determine the selling price, the manager increases the purchase cost by \\(150\\%\\). A customer buys the furniture and pays an additional \\(6\\%\\) sales tax. How much does the customer pay for the furniture?",
+      "options": {
+        "A": "$\\(339.20\\)",
+        "B": "$\\(800.00\\)",
+        "C": "$\\(848.00\\)",
+        "D": "$\\(1{,}120.00\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Increasing by \\(150\\%\\) means multiplying by \\(2.5\\): \\(320\\times2.5=\\$800.00\\). Adding \\(6\\%\\) sales tax: \\(800\\times1.06=\\$848.00\\)."
+      },
+      "base_source": "Exam D — Math Q19 (DM19)",
+      "base_question": {
+        "question": "A store manager purchases a piece of furniture for $\\(456.00\\). To determine the selling price, the manager increases the purchase cost by \\(125\\%\\). A customer buys the furniture and pays an additional \\(8\\%\\) sales tax. How much does the customer pay for the furniture?",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Given a purchase price of $\\(456.00\\), the \\(125\\%\\) increase in price is calculated as:\n\n\\[456 \\times 1.25 = 570\\]\n\nThe selling price equals the purchase price plus the increase, or:\n\n\\[456 + 570 = 1{,}026\\]\n\nThe sales tax on the selling price is:\n\n\\[1{,}026(0.08) = 82.08\\]\n\nThe customer pays the selling price plus the sales tax:\n\n\\[1{,}026 + 82.08 = 1{,}108.08\\]"
+        },
+        "options": {
+          "A": "$\\(615.60\\)",
+          "B": "$\\(627.48\\)",
+          "C": "$\\(1{,}108.08\\)",
+          "D": "$\\(1{,}846.80\\)"
+        },
+        "correct": "C"
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-HE5-M-DM45",
+      "question_type": "grid_in",
+      "question": "Priya and Sam are saving money to buy concert tickets.\n\n- They decide to save the same amount each week.\n- They already have $\\(10\\) saved.\n- After \\(4\\) weeks, the two have $\\(42\\) saved in total.\n\nHow much money, in dollars, is being saved by Priya and Sam each week?\n\nEnter your answer in the space provided.",
+      "correct": "8",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "solution": {
+        "exhibit_text": "The extra amount saved over \\(4\\) weeks is \\(42-10=32\\). Divide by \\(4\\) weeks: \\(32\\div4=8\\)."
+      },
+      "base_source": "Exam D — Math Q45 (DM45)",
+      "base_question": {
+        "question": "Marcus and Isla are saving money to buy concert tickets.\n\n- They decide to save the same amount each week.\n- They already have $\\(8\\) saved.\n- After \\(3\\) weeks, the two have $\\(26\\) saved in total.\n\nHow much money, in dollars, is being saved by Marcus and Isla each week?\n\nEnter your answer in the space.",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(\\(6\\))\n\nDefine the variable:\n\nLet \\(w\\) represent the amount of money Marcus and Isla save per week.\n\nConstruct an equation:\n\nStart with $\\(8\\).\n\nMarcus and Isla save \\(w\\) each week for \\(3\\) weeks, which can be expressed as \\(3 \\cdot w\\) or \\(3w\\).\n\nThe total amount saved can be represented by the expression \\(8 + 3w\\).\n\nAfter \\(3\\) weeks, Marcus and Isla have $\\(26\\). This can be represented by the equation \\(8 + 3w = 26\\).\n\nSolve for \\(w\\):\n\n\\[8 + 3w = 26\\]\n\\[3w = 18\\]\n\\[w = 6\\]"
+        },
+        "grid_answer": "6"
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-HE5-M-DM46",
+      "question_type": "drag_drop",
+      "question": "A company charges $\\(1.75\\) to ship a package, plus a base fee that covers the first pound, plus $\\(0.45\\) for each pound over the first pound. The table below shows how the total shipping cost depends on a package's total weight. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.\n\n<div style='text-align:center; font-weight:600; margin: 0.5rem 0 0.35rem;'>SHIPPING COSTS</div><table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'><thead><tr><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Weight (pounds)</th><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Cost to Ship (dollars)</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>4</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_1]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_2]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2.65</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>8</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_3]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_4]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>4.45</td></tr></tbody></table>",
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "3.10"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "3"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "4.90"
+        },
+        {
+          "label": "BOX_4",
+          "correct_value": "7"
         }
+      ],
+      "drop_values": [
+        "3.10",
+        "3",
+        "4.90",
+        "7",
+        "4",
+        "8",
+        "3.55",
+        "5"
+      ],
+      "drop_allow_reuse": false,
+      "correct": {
+        "BOX_1": "3.10",
+        "BOX_2": "3",
+        "BOX_3": "4.90",
+        "BOX_4": "7"
+      },
+      "solution": {
+        "exhibit_text": "Let \\(x\\) be the weight in pounds. The first pound is covered by a base fee of \\(\\$1.75\\), so \\((x-1)\\) pounds cost \\(\\$0.45\\) each: \\(\\text{Cost}=1.75+0.45(x-1)\\).\n\n- \\(4\\) pounds: \\(1.75+0.45(3)=1.75+1.35=3.10\\).\n- Cost of $2.65: \\(2.65-1.75=0.90\\); \\(0.90\\div0.45=2\\), so \\(x-1=2\\), \\(x=3\\).\n- \\(8\\) pounds: \\(1.75+0.45(7)=1.75+3.15=4.90\\).\n- Cost of $4.45: \\(4.45-1.75=2.70\\); \\(2.70\\div0.45=6\\), so \\(x-1=6\\), \\(x=7\\)."
+      },
+      "base_source": "Exam D — Math Q46 (DM46)",
+      "base_question": {
+        "question": "A company charges $\\(3.00\\) to ship a \\(4\\)-pound package. The cost includes a base fee of $\\(1.50\\) plus $\\(0.50\\) for each pound over the first pound. The table below illustrates how the cost depends on the total weight of the package. Complete the table by matching each total weight to its correct total shipping cost.\n\nMove the correct answer to each box. Not all answers will be used.\n\n<div style='text-align:center; font-weight:600; margin: 0.5rem 0 0.35rem;'>SHIPPING COSTS</div>\n<table style='margin: 0 auto; border-collapse: collapse; font-family: Georgia, serif;'>\n<thead><tr><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Weight (pounds)</th><th style='border:1px solid #111; padding:0.4rem 0.9rem;'>Total Cost to Ship (dollars)</th></tr></thead>\n<tbody><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_1]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_2]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>2.50</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>6</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_3]</td></tr><tr><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>[BOX_4]</td><td style='border:1px solid #111; padding:0.35rem 0.9rem; text-align:center;'>5.50</td></tr></tbody></table>",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "The completed **SHIPPING COSTS** table:\n\n| Total Weight (pounds) | Total Cost to Ship (dollars) |\n|---|---|\n| 2 | 2 |\n| 3 | 2.50 |\n| 6 | 4 |\n| 9 | 5.50 |\n\nLet \\(x\\) represent the weight of the package in pounds. The first pound is included in the base fee of $\\(1.50\\), so \\((x - 1)\\) represents the number of pounds that cost $\\(0.50\\) each.\n\nThe cost equation can be written as \\(\\text{Cost} = \\$1.50 + \\$0.50(x - 1)\\).\n\n- The cost for a \\(2\\)-pound package is \\(\\$1.50 + \\$0.50(2 - 1) = \\$1.50 + \\$0.50(1) = \\$2.00\\).\n- The cost for a \\(6\\)-pound package is \\(\\$1.50 + \\$0.50(6 - 1) = \\$1.50 + \\$0.50(5) = \\$1.50 + \\$2.50 = \\$4.00\\).\n- The weight of a package that costs $\\(2.50\\) to ship can be found by solving\n\n\\[\\$2.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$1.00 = \\$0.50(x - 1)\\]\n\\[2 = x - 1\\]\n\\[x = 3 \\text{ pounds}\\]\n\n- The weight of a package that costs $\\(5.50\\) to ship can be found by solving\n\n\\[\\$5.50 = \\$1.50 + \\$0.50(x - 1)\\]\n\\[\\$4.00 = \\$0.50(x - 1)\\]\n\\[8 = x - 1\\]\n\\[x = 9 \\text{ pounds}\\]"
+        },
+        "boxes": [
+          {
+            "label": "BOX_1",
+            "correct_value": "2"
+          },
+          {
+            "label": "BOX_2",
+            "correct_value": "3"
+          },
+          {
+            "label": "BOX_3",
+            "correct_value": "4"
+          },
+          {
+            "label": "BOX_4",
+            "correct_value": "9"
+          }
+        ],
+        "drop_values": [
+          "2",
+          "3",
+          "6",
+          "7",
+          "3.5",
+          "2.5",
+          "9",
+          "4"
+        ]
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-HE5-M-EM10",
+      "question_type": "mc",
+      "question": "In pentagon ABCDE shown above, each side is \\(1\\) centimeter. If a particle starts at point A and travels clockwise \\(892\\) centimeters along ABCDE, at which point will the particle stop?",
+      "figure_svg": "<svg viewBox=\"0 0 170 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"27.9,76.5 85.0,35.0 142.1,76.5 120.3,143.5 49.7,143.5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"13.9\" y=\"74.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">A</text><text x=\"85.0\" y=\"21.0\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">B</text><text x=\"156.1\" y=\"74.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">C</text><text x=\"134.3\" y=\"159.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">D</text><text x=\"33.7\" y=\"159.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">E</text></svg>",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Every full trip around the pentagon (back to A) is \\(5\\) centimeters. Dividing \\(892\\) by \\(5\\): \\(892=5\\times178+2\\). So the particle ends up the same place as after traveling just \\(2\\) more centimeters from A, which is \\(A\\to B\\to C\\): point \\(C\\)."
+      },
+      "base_source": "Exam E — Math Q10 (EM10)",
+      "base_question": {
+        "question": "In pentagon ABCDE shown above, each side is 1 centimeter. If a particle starts at point A and travels clockwise 723 centimeters along ABCDE, at which point will the particle stop?",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "If the particle travels from A to B to C to D to E and then back to A, it has traveled 5 centimeters, since each side of the pentagon measures 1 centimeter. If it goes all the way around the pentagon again, it has traveled another 5 centimeters, for a total of 10 centimeters. In fact, every time the particle makes a complete revolution around the pentagon (from point A back to point A again), it travels an additional 5 centimeters. So, if the number of centimeters the particle has traveled is a multiple of 5, the particle must be at point A. The number 723 is 3 more than a multiple of 5. If the particle had gone 720 centimeters it would be at point A; since it has gone 3 more centimeters, it must be at point D."
+        },
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
+        },
+        "correct": "D",
+        "figure_svg": "<svg viewBox=\"0 0 170 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"27.9,76.5 85.0,35.0 142.1,76.5 120.3,143.5 49.7,143.5\" fill=\"none\" stroke=\"#222\" stroke-width=\"1.5\"/><text x=\"13.9\" y=\"74.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">A</text><text x=\"85.0\" y=\"21.0\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">B</text><text x=\"156.1\" y=\"74.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">C</text><text x=\"134.3\" y=\"159.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">D</text><text x=\"33.7\" y=\"159.5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">E</text></svg>"
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-HE5-M-EM20",
+      "question_type": "mc",
+      "question": "\\[Q=\\dfrac{R}{4}=S-9=5T=\\dfrac{U}{8}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+      "options": {
+        "A": "\\(R\\)",
+        "B": "\\(S\\)",
+        "C": "\\(T\\)",
+        "D": "\\(U\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Let all four expressions equal some positive value \\(Q\\). Then \\(R=4Q\\), \\(S=Q+9\\), \\(T=\\dfrac{Q}{5}\\), and \\(U=8Q\\). Since \\(Q>0\\), \\(T=\\dfrac{Q}{5}\\) is the smallest of these four expressions, so \\(T\\) has the least value."
+      },
+      "base_source": "Exam E — Math Q20 (EM20)",
+      "base_question": {
+        "question": "\\[Q=\\dfrac{R}{3}=S-6=7T=\\dfrac{U}{10}>0\\]\nAccording to the statement above, which variable has the **least** value?",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "Because it's easiest to compare these quantities if you have numbers instead of variables, pick a simple number to substitute for \\(Q\\), like 2. Take each piece of the equation at a time and solve for each of the answer choices:\n\n\\[Q=\\dfrac{R}{3} \\Rightarrow 2=\\dfrac{R}{3} \\Rightarrow R=6\\]\n\\[Q=S-6 \\Rightarrow 2=S-6 \\Rightarrow S=8\\]\n\\[Q=7T \\Rightarrow 2=7T \\Rightarrow T=\\dfrac{2}{7}\\]\n\\[Q=\\dfrac{U}{10} \\Rightarrow 2=\\dfrac{U}{10} \\Rightarrow U=20\\]\n\nThe only fraction and thus the smallest number is \\(T\\)."
+        },
+        "options": {
+          "A": "\\(R\\)",
+          "B": "\\(S\\)",
+          "C": "\\(T\\)",
+          "D": "\\(U\\)"
+        },
+        "correct": "C"
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-HE5-M-EM22",
+      "question_type": "mc",
+      "question": "Over a one-month period, a software team is assigned a total of \\(200\\) tasks for a new application. The table above shows the first three phases of tasks within the larger project. What percentage of the \\(200\\) tasks is the **total** number of tasks in these first three phases?",
+      "figure_svg": "<svg viewBox=\"0 0 260 110\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"8\" y=\"16\" font-size=\"12\" font-weight=\"700\">PROJECT MILESTONES</text><g transform=\"translate(8,26)\" font-size=\"11\"><rect x=\"0\" y=\"0\" width=\"244\" height=\"72\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"72\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"18\" x2=\"244\" y2=\"18\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"36\" x2=\"244\" y2=\"36\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"54\" x2=\"244\" y2=\"54\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"6\" y=\"13\" font-weight=\"700\">Phase</text><text x=\"58\" y=\"13\" font-weight=\"700\">Tasks Assigned</text><text x=\"6\" y=\"31\">I</text><text x=\"58\" y=\"31\">1-10, inclusive</text><text x=\"6\" y=\"49\">II</text><text x=\"58\" y=\"49\">21-40, inclusive</text><text x=\"6\" y=\"67\">III</text><text x=\"58\" y=\"67\">51-65, inclusive</text></g></svg>",
+      "options": {
+        "A": "20.0%",
+        "B": "22.5%",
+        "C": "24.5%",
+        "D": "27.0%"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Because the ranges are inclusive, use End − Start + 1.\n\nPhase I: \\((10-1)+1=10\\)\nPhase II: \\((40-21)+1=20\\)\nPhase III: \\((65-51)+1=15\\)\n\nTotal: \\(10+20+15=45\\). \\[\\dfrac{45}{200}\\times100\\%=22.5\\%\\]"
+      },
+      "base_source": "Exam E — Math Q22 (EM22)",
+      "base_question": {
+        "question": "Over a one-month period, a software team is assigned a total of 250 tasks for a new application. The table above shows the first three phases of tasks within the larger project. What percentage of the 250 tasks is the **total** number of tasks in these first three phases?",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "To find the percentage, you must first calculate the total number of tasks in the three phases and then divide by the total project size. Because the ranges are inclusive, use the formula End − Start + 1.\n\nPhase I: \\((12-1)+1=12\\)\nPhase II: \\((34-20)+1=15\\)\nPhase III: \\((60-42)+1=19\\)\n\nThus, the total number of tasks for these three phases is \\(12+15+19=46\\). Use \\(\\text{Percent}=\\dfrac{\\text{Part}}{\\text{Whole}}\\times 100\\%\\) to calculate the percentage:\n\n\\[\\dfrac{46}{250}\\times 100\\% = \\dfrac{46}{250}\\times\\dfrac{4}{4}\\times 100\\%\\]\n\\[=\\dfrac{184}{1{,}000}\\times 100\\%\\]\n\\[=\\dfrac{184}{10}\\%\\]\n\\[=18.4\\%\\]"
+        },
+        "options": {
+          "A": "18.0%",
+          "B": "18.4%",
+          "C": "20.4%",
+          "D": "24.0%"
+        },
+        "correct": "B",
+        "figure_svg": "<svg viewBox=\"0 0 260 110\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"8\" y=\"16\" font-size=\"12\" font-weight=\"700\">PROJECT MILESTONES</text><g transform=\"translate(8,26)\" font-size=\"11\"><rect x=\"0\" y=\"0\" width=\"244\" height=\"72\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"72\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"18\" x2=\"244\" y2=\"18\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"36\" x2=\"244\" y2=\"36\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"0\" y1=\"54\" x2=\"244\" y2=\"54\" stroke=\"#222\" stroke-width=\"1\"/><text x=\"6\" y=\"13\" font-weight=\"700\">Phase</text><text x=\"58\" y=\"13\" font-weight=\"700\">Tasks Assigned</text><text x=\"6\" y=\"31\">I</text><text x=\"58\" y=\"31\">1-12, inclusive</text><text x=\"6\" y=\"49\">II</text><text x=\"58\" y=\"49\">20-34, inclusive</text><text x=\"6\" y=\"67\">III</text><text x=\"58\" y=\"67\">42-60, inclusive</text></g></svg>"
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-HE5-M-EM23",
+      "question_type": "mc",
+      "question": "How many negative **odd** numbers satisfy the inequality \\(5x+90\\ge15\\)?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "15",
+        "D": "16"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Subtract \\(90\\): \\(5x\\ge-75\\). Divide by \\(5\\): \\(x\\ge-15\\). The negative odd integers satisfying this are \\(-15,-13,\\ldots,-1\\), which is \\(8\\) numbers."
+      },
+      "base_source": "Exam E — Math Q23 (EM23)",
+      "base_question": {
+        "question": "How many negative **odd** numbers satisfy the inequality \\(4x+100 \\ge 20\\)?",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "Solve the inequality for \\(x\\). To do this, subtract 100 from both sides of the inequality and then divide both sides by 4.\n\n\\[4x+100 \\ge 20\\]\n\\[4x \\ge -80\\]\n\\[x \\ge -20\\]\n\nDon't answer too quickly—the answer isn't 19 or 20. List the negative **odd** numbers that are greater than or equal to \\(-20\\). The set includes \\(-19, -17, -15, -13, -11, -9, -7, -5, -3\\), and \\(-1\\). There are 10 of them."
+        },
+        "options": {
+          "A": "9",
+          "B": "10",
+          "C": "19",
+          "D": "20"
+        },
+        "correct": "B"
       },
       "q_number": 19
     },
     {
-      "id": "P-HE5-M-AM21",
+      "id": "P-HE5-M-EM44",
       "question_type": "mc",
-      "question": "The faculty of a certain four-year college consists of \\(150\\) teachers. There are \\(600\\) first-year students. The student-to-faculty ratio for the entire college is \\(12\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
+      "question": "The sum of two consecutive integers is \\(-15\\). If the smaller integer is doubled and \\(3\\) is added to the larger integer, what is the sum of the two resulting integers?",
       "options": {
-        "A": "\\(1{,}100\\)",
-        "B": "\\(1{,}200\\)",
-        "C": "\\(1{,}800\\)",
-        "D": "\\(2{,}400\\)"
+        "A": "-24",
+        "B": "-20",
+        "C": "-18",
+        "D": "-15"
       },
       "correct": "B",
       "solution": {
-        "exhibit_text": "Total students at the college: \\(150 \\times 12 = 1{,}800\\). Subtract the \\(600\\) first-year students: \\(1{,}800 - 600 = 1{,}200\\)."
+        "exhibit_text": "Let the smaller integer be \\(n\\) and the larger be \\(n+1\\). \\(2n+1=-15\\), so \\(n=-8\\) and the larger is \\(-7\\). Doubling the smaller: \\(2(-8)=-16\\). Adding \\(3\\) to the larger: \\(-7+3=-4\\). Sum: \\(-16+(-4)=-20\\)."
       },
-      "base_source": "Exam A — Math Q21 (AM21)",
+      "base_source": "Exam E — Math Q44 (EM44)",
       "base_question": {
-        "question": "The faculty of a certain four-year college consists of \\(179\\) teachers. There are \\(663\\) first-year students. The student-to-faculty ratio for the entire college is \\(15\\) to \\(1\\). What is the total number of second-, third-, and fourth-year students?",
-        "options": {
-          "A": "\\(1{,}989\\)",
-          "B": "\\(2{,}022\\)",
-          "C": "\\(2{,}652\\)",
-          "D": "\\(2{,}685\\)"
-        },
-        "correct": "B",
+        "question": "The sum of two consecutive integers is \\(-9\\). If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
         "solution": {
-          "exhibit_text": "(B) Let \\(x\\) be the number of second-, third-, and fourth-year students. Then the total number of students in the college is \\(663 + x\\).\n\nSet up a proportion and solve for \\(x\\):\n\n\\[\\dfrac{15}{1} = \\dfrac{663 + x}{179}\\]\n\\[663 + x = 179(15)\\]\n\\[663 + x = 2{,}685\\]\n\\[x = 2{,}022\\]"
-        }
+          "letter": "B",
+          "exhibit_text": "When a question involves two consecutive integers, let the smaller integer be \\(x\\) and the larger be \\(x+1\\). Here, start by using the given sum \\((-9)\\) to find the two integers, then worry about all the other details.\n\n\\[x+(x+1)=-9\\]\n\\[2x+1=-9\\]\n\\[2x=-10\\]\n\\[x=-5\\]\n\nRemember, the variable \\(x\\) represents the smaller integer, so the two integers are \\(-5\\) and \\(-4\\). Now, work out the rest of the information.\n\nIf the smaller integer \\((-5)\\) is doubled, then that integer becomes \\(2(-5)=-10\\). If 3 is added to the larger integer \\((-4)\\), then that integer becomes \\(-4+3=-1\\). The sum of the two new integers is \\(-10+(-1)=-11\\)."
+        },
+        "options": {
+          "A": "-14",
+          "B": "-11",
+          "C": "-10",
+          "D": "-9"
+        },
+        "correct": "B"
       },
       "q_number": 20
     },
     {
-      "id": "P-HE5-M-DM18",
+      "id": "P-HE5-M-FM06",
       "question_type": "mc",
-      "question": "Which of the following decimals is equivalent to \\(2\\dfrac{1}{3} + 1\\dfrac{5}{9}\\)?",
+      "question": "A chemist is preparing a solution by combining the contents of several containers:\n• Four \\(1.2\\)-liter flasks\n• Six \\(300\\)-milliliter beakers\n• Three \\(50\\)-milliliter test tubes\n\nIf the chemist pours all of these into one large vat, what is the total volume of the solution, in liters?",
       "options": {
-        "A": "\\(3.\\overline{2}\\)",
-        "B": "\\(3.\\overline{5}\\)",
-        "C": "\\(3.\\overline{8}\\)",
-        "D": "\\(4.\\overline{8}\\)"
+        "A": "2.115",
+        "B": "4.8",
+        "C": "6.6",
+        "D": "6.75"
       },
-      "correct": "C",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "Convert to a common denominator: \\(2\\dfrac{1}{3}=\\dfrac{21}{9}\\) and \\(1\\dfrac{5}{9}=\\dfrac{14}{9}\\). Their sum is \\(\\dfrac{35}{9}=3.\\overline{8}\\).\n\n(A), (B), and (D) come from errors in finding the common denominator or adding the whole numbers."
+        "exhibit_text": "Flasks: \\(4\\times1.2=4.8\\) L. Beakers: \\(6\\times300=1{,}800\\) mL \\(=1.8\\) L. Test tubes: \\(3\\times50=150\\) mL \\(=0.15\\) L.\n\nTotal: \\(4.8+1.8+0.15=6.75\\) L."
       },
-      "base_source": "Exam D — Math Q18 (DM18)",
+      "base_source": "Exam F — Math Q6 (FM06)",
       "base_question": {
-        "question": "Which of the following decimals is equivalent to \\(1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\)?",
-        "options": {
-          "A": "\\(3.\\overline{1}\\)",
-          "B": "\\(3.\\overline{6}\\)",
-          "C": "\\(4.\\overline{1}\\)",
-          "D": "\\(4.\\overline{9}\\)"
-        },
-        "correct": "C",
+        "question": "A chemist is preparing a solution by combining the contents of several containers:\n• Three 1.5-liter flasks\n• Five 250-milliliter beakers\n• Two 75-milliliter test tubes\n\nIf the chemist pours all of these into one large vat, what is the total volume of the solution, in liters?",
         "solution": {
-          "letter": "C",
-          "exhibit_text": "(C) First, add the mixed numbers. Then, convert the fraction \\(\\dfrac{1}{9}\\) to a decimal.\n\n\\[1\\dfrac{2}{3} + 2\\dfrac{4}{9}\\]\n\\[1\\dfrac{6}{9} + 2\\dfrac{4}{9}\\]\n\\[3 + \\dfrac{10}{9}\\]\n\\[3 + 1\\dfrac{1}{9}\\]\n\\[4\\dfrac{1}{9} = 4.111\\ldots = 4.\\overline{1}\\]"
-        }
+          "letter": "D",
+          "exhibit_text": "To determine the total volume, add up all of the chemist's containers. Three 1.5 liter flasks give \\(3\\times1.5\\) liters \\(=4.5\\) liters. Five 250-milliliter beakers total \\(5\\times250=1{,}250\\) milliliters. Since there are 1,000 milliliters in 1 liter, this is equivalent to \\(\\dfrac{1{,}250}{1{,}000}=1.250\\) liters.\n\nSo far, \\(4.5+1.25=5.75\\), but there's one more container to add. Choice (D) is the only larger choice and must be correct.\n\nOn test day, choose (D) with confidence and move to the next question. For more practice, use similar logic to evaluate the last container. Two 75-milliliter test tubes are \\(2\\times75=150\\) milliliters, or \\(\\dfrac{150}{1{,}000}=0.150\\) liters. Summing these three components gives \\(4.5+1.250+0.150=5.9\\) liters."
+        },
+        "options": {
+          "A": "1.825",
+          "B": "4.5",
+          "C": "5.75",
+          "D": "5.9"
+        },
+        "correct": "D"
       },
       "q_number": 21
     },
     {
-      "id": "P-HE5-M-EM07",
-      "question_type": "mc",
-      "question": "Lina has a box of coins from various countries. The box contains \\(5\\) coins from Country A, \\(3\\) from Country B, \\(2\\) from Country C, and \\(2\\) from Country D. If Lina selects \\(2\\) coins at random from this box, without replacing them, what is the probability that both coins are **not** from Country A?",
+      "id": "P-HE5-M-FM08",
+      "question_type": "mc_multi",
+      "question": "A certain wind turbine completed \\(40\\) full rotations in \\(8\\) minutes and generated \\(400\\) megajoules of electricity. Assuming that the wind speed and electricity generation rate remain constant, which proportions can be used to determine how many rotations it will take the turbine to generate \\(1{,}500\\) megajoules of electricity?\nSelect the **three** correct answers.",
       "options": {
-        "A": "\\(\\dfrac{7}{22}\\)",
-        "B": "\\(\\dfrac{5}{12}\\)",
-        "C": "\\(\\dfrac{1}{2}\\)",
-        "D": "\\(\\dfrac{7}{12}\\)"
+        "A": "\\(\\dfrac{400}{40}=\\dfrac{1{,}500}{x}\\)",
+        "B": "\\(\\dfrac{1{,}500}{400}=\\dfrac{x}{40}\\)",
+        "C": "\\(\\dfrac{40}{400}=\\dfrac{x}{1{,}500}\\)",
+        "D": "\\(\\dfrac{400}{x}=\\dfrac{1{,}500}{40}\\)",
+        "E": "\\(\\dfrac{1{,}500}{40}=\\dfrac{400}{x}\\)"
       },
-      "correct": "A",
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
       "solution": {
-        "exhibit_text": "There are \\(12\\) coins total, of which \\(7\\) are not from Country A. The probability the first coin is not from Country A is \\(\\dfrac{7}{12}\\). Given that, \\(6\\) of the remaining \\(11\\) coins are not from Country A, so the probability the second also isn't is \\(\\dfrac{6}{11}\\). Multiply: \\(\\dfrac{7}{12} \\times \\dfrac{6}{11} = \\dfrac{42}{132} = \\dfrac{7}{22}\\)."
+        "exhibit_text": "All correct proportions relate \\(400\\) MJ with \\(40\\) rotations the same way \\(1{,}500\\) MJ relates to \\(x\\) rotations: \\(\\dfrac{400}{40}=\\dfrac{1{,}500}{x}\\), which is equivalent to \\(\\dfrac{1{,}500}{400}=\\dfrac{x}{40}\\) and \\(\\dfrac{40}{400}=\\dfrac{x}{1{,}500}\\). (D) and (E) incorrectly swap the roles of the two given quantities."
       },
-      "base_source": "Exam E — Math Q07 (EM07)",
+      "base_source": "Exam F — Math Q8 (FM08)",
       "base_question": {
-        "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are **not** from New York?",
-        "options": {
-          "A": "\\(\\dfrac{12}{35}\\)",
-          "B": "\\(\\dfrac{7}{13}\\)",
-          "C": "\\(\\dfrac{4}{7}\\)",
-          "D": "\\(\\dfrac{6}{7}\\)"
-        },
-        "correct": "A",
+        "question": "A certain wind turbine completed 32 full rotations in 5 minutes and generated 324 megajoules of electricity. Assuming that the wind speed and electricity generation rate remain constant, which proportions can be used to determine how many rotations it will take the turbine to generate 1,200 megajoules of electricity?\nSelect the **three** correct answers.",
         "solution": {
-          "exhibit_text": "Since Erin does not replace the coins, you must pay careful attention to the number of coins each time she chooses a coin. The total number of quarters in the box to start is \\(6+4+2+3=15\\). The number of quarters that are not from New York is \\(4+2+3=9\\).\n\nThe probability that the first quarter is not from New York is \\(\\dfrac{9}{15}\\), or \\(\\dfrac{3}{5}\\). Now, out of the 14 remaining quarters, there are 8 quarters left that are not from New York. The probability that the second quarter is not from New York is \\(\\dfrac{8}{14}\\), or \\(\\dfrac{4}{7}\\).\n\nMultiply these two probabilities to find the probability that both coins are not from New York:\n\n\\[\\dfrac{3}{5} \\times \\dfrac{4}{7} = \\dfrac{12}{35}\\]"
-        }
+          "letter": "A, B, C",
+          "exhibit_text": "Let \\(x\\) be the number of rotations needed to generate 1,200 megajoules of electricity. The ratio \\(\\dfrac{324\\text{ megajoules}}{32\\text{ rotations}}\\) reflects the rate of 324 megajoules generated in 32 rotations. Set up a proportion to solve for \\(x\\), keeping megajoules in the numerators and rotations in the denominators: \\(\\dfrac{324\\text{ megajoules}}{32\\text{ rotations}}=\\dfrac{1{,}200\\text{ megajoules}}{x\\text{ rotations}}\\). This proportion matches (A). (Note that the detail of 5 minutes was not needed to solve the question.) Evaluate the remaining answer choices by cross multiplying to see which are equivalent to \\((324)(x)=(32)(1{,}200)\\).\n\n(B): \\((32)(1{,}200)=(324)(x)\\) is equivalent to \\((324)(x)=(32)(1{,}200)\\); correct\n(C): \\((1{,}200)(32)=(324)(x)\\) is equivalent to \\((324)(x)=(32)(1{,}200)\\); correct\n(D): \\((324)(32)=(x)(1{,}200)\\) is not equivalent to \\((324)(x)=(32)(1{,}200)\\); eliminate\n(E): \\((1{,}200)(x)=(32)(324)\\) is not equivalent to \\((324)(x)=(32)(1{,}200)\\); eliminate"
+        },
+        "options": {
+          "A": "\\(\\dfrac{324}{32}=\\dfrac{1{,}200}{x}\\)",
+          "B": "\\(\\dfrac{1{,}200}{324}=\\dfrac{x}{32}\\)",
+          "C": "\\(\\dfrac{32}{324}=\\dfrac{x}{1{,}200}\\)",
+          "D": "\\(\\dfrac{324}{x}=\\dfrac{1{,}200}{32}\\)",
+          "E": "\\(\\dfrac{1{,}200}{32}=\\dfrac{324}{x}\\)"
+        },
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
       },
       "q_number": 22
     },
     {
-      "id": "P-HE5-M-AM42",
+      "id": "P-HE5-M-GM02",
       "question_type": "mc",
-      "question": "\\[\\dfrac{1}{7} = 0.\\overline{142857}\\]\n\nIn the infinitely repeating decimal above, \\(1\\) is the first digit in the repeating pattern. What is the \\(200\\)th digit?",
+      "question": "A gardener has a plot of land that is \\(15\\) feet by \\(25\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
       "options": {
-        "A": "\\(1\\)",
-        "B": "\\(4\\)",
-        "C": "\\(7\\)",
-        "D": "\\(8\\)"
+        "A": "\\(33\\)",
+        "B": "\\(75\\)",
+        "C": "\\(165\\)",
+        "D": "\\(375\\)"
       },
-      "correct": "B",
+      "correct": "C",
       "solution": {
-        "exhibit_text": "The repeating pattern \\(142857\\) has \\(6\\) digits. Divide \\(200\\) by \\(6\\): \\(200 \\div 6 = 33\\) remainder \\(2\\). A remainder of \\(2\\) means the \\(200\\)th digit matches the \\(2\\)nd digit of the pattern, which is \\(4\\)."
+        "exhibit_text": "Original area: \\(15\\times25=375\\). New dimensions: \\(18\\times30=540\\). Added area: \\(540-375=165\\)."
       },
-      "base_source": "Exam A — Math Q42 (AM42)",
+      "base_source": "Exam G — Math Q2 (GM02)",
       "base_question": {
-        "question": "\\[\\dfrac{10}{13} = 0.\\overline{769230}\\]\n\nIn the infinitely repeating decimal above, \\(7\\) is the first digit in the repeating pattern. What is the \\(391\\)st digit?",
-        "options": {
-          "A": "\\(0\\)",
-          "B": "\\(3\\)",
-          "C": "\\(6\\)",
-          "D": "\\(7\\)"
-        },
-        "correct": "D",
+        "question": "A gardener has a plot of land that is \\(10\\) feet by \\(20\\) feet. If both sides of the plot are increased by \\(20\\%\\), how many square feet will be added to the plot?",
         "solution": {
-          "exhibit_text": "(D) There are \\(6\\) digits in the repeating decimal (\\(769230\\)), so \\(7\\) would be the first, seventh, thirteenth digit and so on. To find the \\(391\\)st digit, divide \\(391\\) by \\(6\\).\n\n\\[391 \\div 6 = 65 \\text{ R}1\\]\n\nSince the remainder is \\(1\\), that means the \\(391\\)st digit is the same as the \\(1\\)st digit, which is \\(7\\)."
-        }
+          "letter": "C",
+          "exhibit_text": "Start by finding the total area of the plot before it increases. Plug the original dimensions into the area equation, \\(\\text{Area}=\\text{length}\\times\\text{width}\\), to find that \\(\\text{Area}=10\\times20=200\\).\n\nNext, find the new lengths for the plot. To make the math easier, find \\(10\\%\\) and double it to get to \\(20\\%\\). Start with the side length that is \\(10\\) feet. \\(10\\%\\) of \\(10\\) is \\(1\\), so \\(20\\%\\) of \\(10\\) is \\(2\\). The new length is \\(10+2=12\\). Do the same for the other side length. \\(10\\%\\) of \\(20\\) is \\(2\\), so \\(20\\%\\) of \\(20\\) is \\(4\\). The new length is \\(20+4=24\\).\n\nThe new area is \\(12\\times24=288\\). Finally, subtract the starting area from the new area to find how many square feet the plot increased by: \\(288-200=88\\)."
+        },
+        "options": {
+          "A": "\\(20\\)",
+          "B": "\\(35\\)",
+          "C": "\\(88\\)",
+          "D": "\\(180\\)"
+        },
+        "correct": "C"
       },
       "q_number": 23
     },
     {
-      "id": "P-HE5-M-GM45",
+      "id": "P-HE5-M-GM22",
       "question_type": "mc",
-      "question": "Bucket \\(C\\) and Bucket \\(D\\) each contain \\(\\dfrac{2}{3}\\) cups of chicken feed. If \\(\\dfrac{1}{4}\\) of the chicken feed in Bucket \\(C\\) is poured into Bucket \\(D\\), how much chicken feed is now in Bucket \\(D\\)?",
+      "question": "If \\(n\\) is a positive integer such that \\(n\\) and \\(n+1\\) are both factors of \\(20\\), what is the sum of all possible values of \\(n\\)?",
       "options": {
-        "A": "\\(\\dfrac{1}{2}\\text{ cups}\\)",
-        "B": "\\(\\dfrac{2}{3}\\text{ cups}\\)",
-        "C": "\\(\\dfrac{5}{6}\\text{ cups}\\)",
-        "D": "\\(1\\dfrac{1}{6}\\text{ cups}\\)"
+        "A": "\\(5\\)",
+        "B": "\\(6\\)",
+        "C": "\\(9\\)",
+        "D": "\\(10\\)"
       },
-      "correct": "C",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "The amount poured from Bucket C is \\(\\dfrac{1}{4} \\times \\dfrac{2}{3} = \\dfrac{1}{6}\\) cups. Bucket D now has \\(\\dfrac{2}{3} + \\dfrac{1}{6} = \\dfrac{4}{6} + \\dfrac{1}{6} = \\dfrac{5}{6}\\) cups."
+        "exhibit_text": "The factors of \\(20\\) are \\(1,2,4,5,10,20\\). Checking consecutive pairs: \\(1\\) and \\(2\\) work (\\(n=1\\)); \\(4\\) and \\(5\\) work (\\(n=4\\)). No other pair of consecutive factors exists. Sum: \\(1+4=5\\)."
       },
-      "base_source": "Exam G — Math Q45 (GM45)",
+      "base_source": "Exam G — Math Q22 (GM22)",
       "base_question": {
-        "question": "Bucket \\(A\\) and Bucket \\(B\\) each contain \\(\\dfrac{3}{4}\\) liters of chicken feed. If \\(\\dfrac{1}{3}\\) of the chicken feed in Bucket \\(A\\) is poured into Bucket \\(B\\), how much chicken feed is now in Bucket \\(B\\)?",
-        "options": {
-          "A": "\\(\\dfrac{1}{2}\\text{ liters}\\)",
-          "B": "\\(\\dfrac{5}{6}\\text{ liters}\\)",
-          "C": "\\(1\\text{ liter}\\)",
-          "D": "\\(1\\dfrac{1}{12}\\text{ liters}\\)"
-        },
-        "correct": "C",
+        "question": "If \\(n\\) is a positive integer such that \\(n\\) and \\(n+1\\) are both factors of \\(42\\), what is the sum of all possible values of \\(n\\)?",
         "solution": {
-          "exhibit_text": "Bucket B currently contains \\(\\dfrac{3}{4}\\) liters of chicken feed. The question says that \\(\\dfrac{1}{3}\\) of the chicken feed in Bucket A is poured into Bucket B. Since Bucket A also contains \\(\\dfrac{3}{4}\\) liters of chicken feed, \\(\\dfrac{3}{4}\\times\\dfrac{1}{3}=\\dfrac{1}{4}\\) liters are poured into Bucket B. Bucket B now contains \\(\\dfrac{3}{4}+\\dfrac{1}{4}=1\\) liter of chicken feed."
-        }
+          "letter": "A",
+          "exhibit_text": "List out all of the factors of, or numbers that divide into, \\(42\\): \\(1,2,3,6,7,14,26,42\\). You are told that \\(n\\) and \\(n+1\\) are factors of \\(42\\). In other words, these two factors are consecutive integers, or integers that occur right next to each other. There are several pairs of consecutive integer factors in this list: \\(1\\) and \\(2\\), \\(2\\) and \\(3\\), and \\(6\\) and \\(7\\). The variable \\(n\\) represents the smaller one in each pair. Therefore, \\(n=1\\) for the first pair, \\(n=2\\) for the second pair, and \\(n=6\\) for the third pair. The question asks for the sum of all possible values of \\(n\\), which is \\(1+2+6=9\\)."
+        },
+        "options": {
+          "A": "\\(9\\)",
+          "B": "\\(10\\)",
+          "C": "\\(13\\)",
+          "D": "\\(15\\)"
+        },
+        "correct": "A"
       },
       "q_number": 24
     },
     {
-      "id": "P-HE5-M-BM36",
+      "id": "P-HE5-M-GM39",
       "question_type": "mc",
-      "question": "In the quarter circle above, what is \\(n\\) in terms of \\(m\\)?",
+      "question": "If an integer is randomly chosen from the first \\(60\\) positive integers, what is the probability that the integer selected has at least one digit that is a \\(4\\)?",
       "options": {
-        "A": "\\(n = m - 2\\)",
-        "B": "\\(n = m + 2\\)",
-        "C": "\\(n = m + 10\\)",
-        "D": "\\(n = m - 10\\)"
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{3}{20}\\)",
+        "C": "\\(\\dfrac{7}{30}\\)",
+        "D": "\\(\\dfrac{3}{10}\\)"
       },
-      "correct": "B",
-      "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:300px; margin: 0 auto; display: block;'><path d='M 40 220 L 280 220 A 240 240 0 0 0 40 -20 Z' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,-20)'/><line x1='40' y1='200' x2='40' y2='30' stroke='#111' stroke-width='1.4'/><line x1='40' y1='200' x2='290' y2='200' stroke='#111' stroke-width='1.4'/><path d='M 40 200 A 200 200 0 0 0 240 0' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,0)'/><line x1='40' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><line x1='170' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><path d='M 170 195 L 175 195 L 175 200' fill='none' stroke='#111' stroke-width='1.2'/><text x='170' y='215' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>m + 6</text><text x='185' y='135' font-family='Georgia,serif' font-style='italic' font-size='16'>n + 4</text></svg>",
+      "correct": "A",
       "solution": {
-        "exhibit_text": "Both \\(m+6\\) and \\(n+4\\) are radii of the same quarter circle, so they're equal: \\(n+4=m+6\\), which gives \\(n=m+2\\).\n\n(A) subtracts in the wrong direction. (C) and (D) add or subtract the two constants instead of finding their difference."
+        "exhibit_text": "The integers from \\(1\\) to \\(60\\) with a digit \\(4\\): \\(4,14,24,34,40,41,42,43,44,45,46,47,48,49,54\\) — that's \\(15\\) numbers. Probability: \\(\\dfrac{15}{60}=\\dfrac{1}{4}\\)."
       },
-      "base_source": "Exam B — Math Q36 (BM36)",
+      "base_source": "Exam G — Math Q39 (GM39)",
       "base_question": {
-        "question": "In the quarter circle above, what is \\(y\\) in terms of \\(x\\)?",
-        "options": {
-          "A": "\\(x - 1\\)",
-          "B": "\\(x + 1\\)",
-          "C": "\\(\\dfrac{x+1}{2}\\)",
-          "D": "\\(\\sqrt{\\dfrac{(x+1)^2}{2}}\\)"
-        },
-        "correct": "A",
+        "question": "If an integer is randomly chosen from the first \\(50\\) positive integers, what is the probability that the integer selected has at least one digit that is a \\(3\\)?",
         "solution": {
           "letter": "A",
-          "exhibit_text": "(A) Both \\(x + 1\\) and \\(y + 2\\) are radii (each is a radius). So, set them equal to each other and solve for \\(y\\):\n\n\\[y + 2 = x + 1\\]\n\\[y = x - 1\\]"
+          "exhibit_text": "If an integer is chosen randomly from the first \\(50\\) integers, the probability of choosing any particular number is \\(1\\) divided by \\(50\\), and the probability of choosing an integer with at least one digit of \\(3\\) is the number of integers with at least one digit of \\(3\\), divided by \\(50\\). The integers \\(3,13,23,30,31,32,33,34,35,36,37,38,39\\), and \\(43\\) are the only integers with a \\(3\\) in them, for a total of \\(14\\) different integers, so the probability is \\(\\dfrac{14}{50}=\\dfrac{7}{25}\\)."
         },
-        "figure_svg": "<svg viewBox='0 0 320 260' xmlns='http://www.w3.org/2000/svg' style='max-width:300px; margin: 0 auto; display: block;'><path d='M 40 220 L 280 220 A 240 240 0 0 0 40 -20 Z' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,-20)'/><line x1='40' y1='200' x2='40' y2='30' stroke='#111' stroke-width='1.4'/><line x1='40' y1='200' x2='290' y2='200' stroke='#111' stroke-width='1.4'/><path d='M 40 200 A 200 200 0 0 0 240 0' fill='none' stroke='#111' stroke-width='1.4' transform='translate(0,0)'/><line x1='40' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><line x1='170' y1='200' x2='170' y2='60' stroke='#111' stroke-width='1.2'/><path d='M 170 195 L 175 195 L 175 200' fill='none' stroke='#111' stroke-width='1.2'/><text x='170' y='215' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='16'>x + 1</text><text x='185' y='135' font-family='Georgia,serif' font-style='italic' font-size='16'>y + 2</text></svg>"
+        "options": {
+          "A": "\\(\\dfrac{7}{25}\\)",
+          "B": "\\(\\dfrac{3}{10}\\)",
+          "C": "\\(\\dfrac{4}{25}\\)",
+          "D": "\\(\\dfrac{2}{5}\\)"
+        },
+        "correct": "A"
       },
       "q_number": 25
     }
