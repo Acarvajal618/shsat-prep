@@ -33,7 +33,7 @@
     },
     {
       "id": "P-HE5-M-GM50",
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "A bike rental company charges an initial fee of \\(\\$5\\), plus a constant rate of \\(\\$1.75\\) per hour. Write an equation that can be used to determine the cost, \\(y\\), of a bike rental for \\(x\\) hours.",
       "correct": "y=1.75x+5",
       "solution": {
@@ -50,12 +50,16 @@
         }
       },
       "q_number": 2,
+      "grid_label": "Use the keypad to enter your equation. Enter only your equation.",
+      "grid_variables": [
+        "x",
+        "y"
+      ],
       "correct_alt": [
         "y=5+1.75x",
         "1.75x+5=y",
         "5+1.75x=y"
-      ],
-      "grid_label": "Enter your equation in the space provided, using y and x — for example: y=1.75x+5"
+      ]
     },
     {
       "id": "P-HE5-M-BM45",

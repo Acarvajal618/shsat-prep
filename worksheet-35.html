@@ -979,6 +979,8 @@
       const val = state.answers[q.q_number] || '';
       const prefix = q.grid_prefix || '';
       const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      const variables = q.grid_variables || ['n'];
+      const varBtns = variables.map(v => `<button class="tn-keypad-btn" data-kp="${esc(v)}">${esc(v)}</button>`).join('');
       return `
         <div class="tn-grid-label">${esc(label)}</div>
         <div style="margin-top: 10px;">
@@ -1001,10 +1003,15 @@
             ${['6','7','8','9','0'].map(n => `<button class="tn-keypad-btn" data-kp="${n}">${n}</button>`).join('')}
           </div>
           <div class="tn-keypad-row">
-            <button class="tn-keypad-btn" data-kp="n">n</button>
+            ${varBtns}
             <button class="tn-keypad-btn" data-kp="-">−</button>
             <button class="tn-keypad-btn" data-kp="+">+</button>
             <button class="tn-keypad-btn" data-kp=".">.</button>
+          </div>
+          <div class="tn-keypad-row">
+            <button class="tn-keypad-btn" data-kp="=">=</button>
+            <button class="tn-keypad-btn" data-kp="≤">≤</button>
+            <button class="tn-keypad-btn" data-kp="≥">≥</button>
           </div>
         </div>
       `;
