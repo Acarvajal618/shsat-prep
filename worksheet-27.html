@@ -89,6 +89,7 @@
       margin-top: 2px;
     }
     .tn-passage-para .tn-passage-text { flex: 1; }
+    .tn-passage-subheading { font-weight: 700; margin: 18px 0 10px; font-size: 1.02em; }
     .tn-passage-citation { margin-top: 16px; font-size: 12px; color: #777; font-style: italic; }
     .tn-passage-intro { font-style: italic; color: #444; margin-bottom: 16px; font-size: 14px; }
     .tn-passage-sentpara { margin-bottom: 14px; }
@@ -500,10 +501,14 @@
         });
       } else if (p.paragraphs) {
         p.paragraphs.forEach(para => {
-          html += `<div class="tn-passage-para">
-            <span class="tn-passage-paranum">${para.num}</span>
-            <span class="tn-passage-text">${renderBoldText(para.text)}</span>
-          </div>`;
+          if (para.num == null) {
+            html += `<div class="tn-passage-subheading">${renderBoldText(para.text)}</div>`;
+          } else {
+            html += `<div class="tn-passage-para">
+              <span class="tn-passage-paranum">${para.num}</span>
+              <span class="tn-passage-text">${renderBoldText(para.text)}</span>
+            </div>`;
+          }
         });
       } else if (p.lines) {
         p.lines.forEach(line => {
@@ -629,8 +634,16 @@
       const val = state.answers[q.q_number] || '';
       const prefix = q.grid_prefix || '';
       const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
-      const variables = q.grid_variables || ['n'];
+      // Letter and extra-symbol buttons only appear when the answer actually
+      // needs them — a plain numeric answer gets a plain numeric keypad,
+      // not decoration that doesn't match anything on the real exam.
+      const variables = q.grid_variables || [];
       const varBtns = variables.map(v => `<button class="tn-keypad-btn" data-kp="${esc(v)}">${esc(v)}</button>`).join('');
+      const answerText = [q.correct, ...(q.correct_alt || [])].filter(Boolean).join(' ');
+      const extraSymbols = ['=', '≤', '≥'].filter(s => answerText.includes(s));
+      const extraRow = extraSymbols.length
+        ? `<div class="tn-keypad-row">${extraSymbols.map(s => `<button class="tn-keypad-btn" data-kp="${s}">${s}</button>`).join('')}</div>`
+        : '';
       return `
         <div class="tn-grid-label">${esc(label)}</div>
         <div style="margin-top: 10px;">
@@ -658,11 +671,7 @@
             <button class="tn-keypad-btn" data-kp="+">+</button>
             <button class="tn-keypad-btn" data-kp=".">.</button>
           </div>
-          <div class="tn-keypad-row">
-            <button class="tn-keypad-btn" data-kp="=">=</button>
-            <button class="tn-keypad-btn" data-kp="≤">≤</button>
-            <button class="tn-keypad-btn" data-kp="≥">≥</button>
-          </div>
+          ${extraRow}
         </div>
       `;
     }

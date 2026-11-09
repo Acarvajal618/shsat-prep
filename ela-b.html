@@ -95,6 +95,7 @@
       margin-top: 2px;
     }
     .tn-passage-para .tn-passage-text { flex: 1; }
+    .tn-passage-subheading { font-weight: 700; margin: 18px 0 10px; font-size: 1.02em; }
     .tn-passage-intro { font-style: italic; color: #444; margin-bottom: 16px; font-size: 14px; }
     .tn-passage-sentpara { margin-bottom: 14px; }
     .tn-passage-sentnum { color: #888; font-size: 11px; font-weight: 700; margin-right: 2px; }
@@ -376,10 +377,14 @@
         });
       } else if (p.paragraphs) {
         p.paragraphs.forEach(para => {
-          html += `<div class="tn-passage-para">
-            <span class="tn-passage-paranum">${para.num}</span>
-            <span class="tn-passage-text">${esc(para.text)}</span>
-          </div>`;
+          if (para.num == null) {
+            html += `<div class="tn-passage-subheading">${esc(para.text)}</div>`;
+          } else {
+            html += `<div class="tn-passage-para">
+              <span class="tn-passage-paranum">${para.num}</span>
+              <span class="tn-passage-text">${esc(para.text)}</span>
+            </div>`;
+          }
         });
       } else {
         (p.lines || []).forEach(line => {

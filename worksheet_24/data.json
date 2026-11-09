@@ -33,10 +33,10 @@
     },
     {
       "id": "P-HE5-M-AM25",
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "A nursery plants maple trees and birch trees in a ratio of \\(5{:}2\\). How many birch trees are planted if \\(185\\) maple trees are planted?\n\nEnter your answer in the space provided. Enter only your answer.",
       "correct": "74",
-      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_label": "Use the keypad to enter your answer.",
       "solution": {
         "exhibit_text": "The ratio of maple to birch is \\(5:2\\), so birch \\(=\\dfrac{2}{5}\\times185=74\\)."
       },
@@ -52,33 +52,33 @@
       "q_number": 2
     },
     {
-      "id": "P-HE5-M-BM01",
+      "id": "P-HE5-M-EM34",
       "question_type": "mc",
-      "question": "The decimal \\(0.08\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
+      "question": "Jordan took \\(8\\) tests and earned a mean score of \\(90\\) points. If the mean score for the first \\(7\\) tests was \\(88\\) points, how many points did Jordan score on the \\(8\\)th test?",
       "options": {
-        "A": "\\(4\\)",
-        "B": "\\(8\\)",
-        "C": "\\(16\\)",
-        "D": "\\(40\\)"
+        "A": "\\(88\\)",
+        "B": "\\(92\\)",
+        "C": "\\(100\\)",
+        "D": "\\(104\\)"
       },
-      "correct": "A",
+      "correct": "D",
       "solution": {
-        "exhibit_text": "\\(0.08\\times50=4\\), so \\(x=4\\)."
+        "exhibit_text": "The total of the first \\(7\\) tests is \\(7\\times88=616\\). The total of all \\(8\\) tests is \\(8\\times90=720\\). The \\(8\\)th test score is \\(720-616=104\\)."
       },
-      "base_source": "Exam B — Math Q1 (BM01)",
+      "base_source": "Exam E — Math Q34 (EM34)",
       "base_question": {
-        "question": "The decimal \\(0.06\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
-        "solution": {
-          "letter": "A",
-          "exhibit_text": "(A) \\(0.06 = \\dfrac{6}{100}\\). Simplify the fraction to find the answer: \\(\\dfrac{6}{100} = \\dfrac{3}{50}\\), so \\(x = 3\\)."
-        },
+        "question": "Annette took 6 quizzes and earned a mean score of 85 points. If the mean score for the first 5 quizzes was 82 points, how many points did Annette score on the 6th quiz?",
         "options": {
-          "A": "\\(3\\)",
-          "B": "\\(6\\)",
-          "C": "\\(12\\)",
-          "D": "\\(30\\)"
+          "A": "85",
+          "B": "88",
+          "C": "97",
+          "D": "100"
         },
-        "correct": "A"
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "Recall that \\(\\text{Average}=\\dfrac{\\text{Sum of Values}}{\\text{Number of Values}}\\). Let \\(x\\) represent the sum of the first five quizzes. You are told that Annette's mean score on the first five quizzes was 82, so \\(82=\\dfrac{x}{5}\\) and \\(x=410\\); Annette scores 410 total points on her first 5 quizzes. You also know that the mean score of six quizzes is 85. Let \\(y\\) represent the score on the 6th quiz. Therefore, \\(85=\\dfrac{410+y}{6}\\). Multiply both sides by 6 to get \\(510=410+y\\) and \\(y=100\\)."
+        }
       },
       "q_number": 3
     },
@@ -243,22 +243,33 @@
       "q_number": 8
     },
     {
-      "id": "P-HE5-M-CM15",
-      "question_type": "grid_in",
-      "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(2.99\\). The store also sells orange juice in a \\(5\\)-pack of \\(8\\)-fluid-ounce bottles for $\\(2.50\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space provided. Enter only your answer.",
-      "correct": "5",
-      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
-      "solution": {
-        "exhibit_text": "The \\(5\\)-pack holds \\(5\\times8=40\\) fluid ounces for $\\(2.50\\). A gallon is \\(128\\) fluid ounces, so a gallon of orange juice costs \\(2.50\\times\\dfrac{128}{40}=2.50\\times3.2=\\$8.00\\). The difference from milk is \\(8.00-2.99=5.01\\), which rounds to \\(\\$5\\)."
+      "id": "P-HE5-M-BM15",
+      "question_type": "mc",
+      "question": "A large circular dinner plate has a radius of \\(15\\) centimeters. A smaller circular plate with a circumference of \\(12\\pi\\) centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is **not** covered by the smaller plate?",
+      "options": {
+        "A": "\\(36\\pi\\) sq cm",
+        "B": "\\(144\\pi\\) sq cm",
+        "C": "\\(189\\pi\\) sq cm",
+        "D": "\\(225\\pi\\) sq cm"
       },
-      "base_source": "Exam C — Math Q15 (CM15)",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The large plate has radius \\(15\\), so its area is \\(A=\\pi r^2=\\pi(15^2)=225\\pi\\) sq cm.\n\nThe small plate's circumference is \\(12\\pi\\): \\(C=2\\pi r\\), so \\(12\\pi=2\\pi r\\) and \\(r=6\\). Its area is \\(\\pi(6^2)=36\\pi\\) sq cm.\n\nSubtract: \\(225\\pi-36\\pi=189\\pi\\) sq cm."
+      },
+      "base_source": "Exam B — Math Q15 (BM15)",
       "base_question": {
-        "question": "A grocery store sells \\(1\\)-gallon containers of milk for $\\(3.99\\). The store also sells orange juice in a \\(6\\)-pack of \\(5.5\\)-fluid-ounce bottles for $\\(1.79\\). Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?\n\nEnter your answer in the space.",
-        "solution": {
-          "letter": null,
-          "exhibit_text": "(3) To determine the cost of a gallon of orange juice, begin by finding the total number of ounces in the **6-pack** of bottles:\n\n\\[5.5 \\text{ oz} \\times 6 = 33 \\text{ oz}\\]\n\nSo, \\(33\\) oz of orange juice costs $\\(1.79\\).\n\nThere are \\(128\\) oz in \\(1\\) gallon. Set up a proportion using the $\\(1.79\\) cost per \\(33\\) oz of orange juice and the unknown cost \\((x)\\) per \\(1\\) gallon of orange juice:\n\n\\[\\dfrac{33 \\text{ oz}}{$1.79} = \\dfrac{128 \\text{ oz}}{x}\\]\n\nCross multiply to solve for \\(x\\) in the proportion:\n\n\\[(33) \\times (x) = ($1.79) \\times (128)\\]\n\\[33x = $229.12\\]\n\nDivide both sides by \\(33\\):\n\n\\[x = $6.94 \\text{ per gallon}\\]\n\nSubtract the cost of \\(1\\) gallon of milk from the cost of \\(1\\) gallon of orange juice:\n\n\\[$6.94 - $3.99 = $2.95\\]\n\nTo the nearest dollar, a gallon of orange juice costs $\\(3\\) more than a gallon of milk."
+        "question": "A large circular dinner plate has a radius of \\(20\\) centimeters. A smaller circular plate with a circumference of \\(20\\pi\\) centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is **not** covered by the smaller plate?",
+        "options": {
+          "A": "\\(20\\pi\\) sq cm",
+          "B": "\\(100\\pi\\) sq cm",
+          "C": "\\(200\\pi\\) sq cm",
+          "D": "\\(300\\pi\\) sq cm"
         },
-        "grid_answer": "3"
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "(D) The radius of the large plate is \\(20\\) cm. Use \\(20\\) cm to find the area of the large plate:\n\n\\[A = \\pi r^2 = \\pi (20^2) = 400\\pi \\text{ sq cm}\\]\n\nThe circumference of the smaller plate is \\(20\\pi\\) cm. Use that to find the radius, and then the area, of the smaller plate:\n\n\\[C = 2\\pi r\\]\n\\[20\\pi = 2\\pi r\\]\n\\[r = 10\\]\n\\[A = \\pi r^2 = \\pi(10^2) = 100\\pi \\text{ sq cm}\\]\n\nSubtract the area of the small plate from the area of the large plate:\n\n\\[400\\pi - 100\\pi = 300\\pi \\text{ sq cm}\\]"
+        }
       },
       "q_number": 9
     },
@@ -390,10 +401,10 @@
     },
     {
       "id": "P-HE5-M-DM45",
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "Priya and Sam are saving money to buy concert tickets.\n\n- They decide to save the same amount each week.\n- They already have $\\(10\\) saved.\n- After \\(4\\) weeks, the two have $\\(42\\) saved in total.\n\nHow much money, in dollars, is being saved by Priya and Sam each week?\n\nEnter your answer in the space provided.",
       "correct": "8",
-      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_label": "Use the keypad to enter your answer.",
       "solution": {
         "exhibit_text": "The extra amount saved over \\(4\\) weeks is \\(42-10=32\\). Divide by \\(4\\) weeks: \\(32\\div4=8\\)."
       },

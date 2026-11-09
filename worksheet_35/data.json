@@ -21,7 +21,10 @@
       },
       "q_number": 1,
       "grid_prefix": "m =",
-      "grid_label": "Enter your answer in the space provided. Enter only your answer."
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_variables": [
+        "n"
+      ]
     },
     {
       "id": "P-FE5-M-AM24",
@@ -85,7 +88,7 @@
     },
     {
       "id": "P-FE5-M-GM42",
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "What is the solution set for the inequality \\(9-4x\\ge29\\)?",
       "correct": "x≤-5",
       "solution": {
@@ -102,7 +105,10 @@
         "grid_answer": "x≤-3"
       },
       "q_number": 4,
-      "grid_label": "Type your answer using x on the left side. You may type <= for ≤ and >= for ≥."
+      "grid_label": "Use the keypad to enter your answer.",
+      "grid_variables": [
+        "x"
+      ]
     },
     {
       "id": "P-FE5-M-DM30",
@@ -471,7 +477,7 @@
     },
     {
       "id": "P-FE5-M-CM41",
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "Maya is at the school store. She wants to buy a backpack for $\\(18.00\\) and some pens that cost $\\(1.50\\) each. She has at most $\\(30.00\\) to spend. Write an inequality that represents the number of pens, \\(p\\), Maya can purchase.",
       "correct": "18.00+1.50p≤30.00",
       "solution": {
@@ -488,7 +494,10 @@
         "grid_answer": "12.50 + 4.75n \\le 35.00"
       },
       "q_number": 17,
-      "grid_label": "Type your inequality starting with 18.00+1.50p, then <= (for ≤), then 30.00 — for example: 18.00+1.50p<=30.00"
+      "grid_label": "Use the keypad to enter your inequality.",
+      "grid_variables": [
+        "p"
+      ]
     },
     {
       "id": "P-FE5-M-FM02",
@@ -1120,7 +1129,7 @@
     },
     {
       "id": "P-FE5-M-EM42",
-      "question_type": "grid_in",
+      "question_type": "grid_keypad",
       "question": "If \\(\\dfrac{3}{4}(x-8)+\\dfrac{1}{4}x=15\\), what is the value of \\(x\\)?",
       "correct": "21",
       "solution": {
@@ -1137,7 +1146,7 @@
         "grid_answer": "12"
       },
       "q_number": 37,
-      "grid_label": "Enter your answer in the space provided. Enter only your answer."
+      "grid_label": "Use the keypad to enter your answer."
     },
     {
       "id": "P-FE5-M-FM17",
