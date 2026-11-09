@@ -171,6 +171,9 @@
     .tn-keypad-btn:hover { background: #eee; }
     .tn-keypad-btn.icon svg { display: block; margin: 0 auto; }
     .tn-keypad-input { display: inline-block; padding: 8px 14px; border: 1.5px solid #7a7a7a; border-radius: 3px; min-height: 30px; min-width: 240px; font-family: Georgia, serif; font-size: 18px; vertical-align: middle; background: #fff; }
+    .tn-grid-in-symbol { min-width: 42px; height: 42px; background: #fff; border: 1px solid #bbb; border-radius: 3px; font-family: Georgia, serif; font-size: 19px; cursor: pointer; }
+    .tn-grid-in-symbol:hover { background: #eee; }
+    .tn-dropdown { font-family: Georgia, serif; font-size: 16px; padding: 3px 6px; border: 1.5px solid #7a7a7a; border-radius: 3px; background: #fff; margin: 0 2px; }
     .tn-grid-label { margin-top: 14px; color: #333; font-size: 14px; }
 
     /* ── Drag-drop fill-in-the-blank (drag_drop) ─────────────────────── */
@@ -519,6 +522,10 @@
         const boxes = q.boxes || [];
         return boxes.length > 0 && boxes.every(b => given && given[b.label]);
       }
+      if (q.question_type === 'dropdown') {
+        const dropdowns = q.dropdowns || [];
+        return dropdowns.length > 0 && dropdowns.every(d => given && given[d.label]);
+      }
       return given != null && given !== '';
     }
     function incompleteMessage(q) {
@@ -530,6 +537,9 @@
       }
       if (q.question_type === 'drag_drop') {
         return 'Please fill in every blank before moving on.';
+      }
+      if (q.question_type === 'dropdown') {
+        return 'Please choose an answer for every drop-down before moving on.';
       }
       return 'Please answer this question before moving on.';
     }
@@ -600,6 +610,13 @@
     // Handles the 4 question types present in this exam's data:
     // mc (string), mc_multi (array of letters), sort_categories and
     // drag_drop (both objects keyed by item/box id).
+    // Free-typed answers (grid_in / grid_keypad) are compared after
+    // normalizing whitespace and ASCII <=/>= into ≤/≥, so a kid
+    // typing "x<=-5" still matches a stored correct answer of "x≤-5".
+    function normalizeGridAnswer(s) {
+      return String(s).replace(/\s+/g, '').replace(/<=/g, '≤').replace(/>=/g, '≥');
+    }
+
     function gradeQuestion(q) {
       const given = state.answers[q.q_number];
       if (given === undefined || given === null || given === '') return 'unanswered';
@@ -609,11 +626,17 @@
         const b = [...(q.correct || [])].sort();
         return (a.length === b.length && a.every((v, i) => v === b[i])) ? 'correct' : 'incorrect';
       }
-      if (q.question_type === 'sort_categories' || q.question_type === 'drag_drop') {
+      if (q.question_type === 'sort_categories' || q.question_type === 'drag_drop' || q.question_type === 'dropdown') {
         if (typeof given !== 'object' || Object.keys(given).length === 0) return 'unanswered';
         const correctObj = q.correct || {};
         const allMatch = Object.keys(correctObj).every(k => given[k] === correctObj[k]);
         return allMatch ? 'correct' : 'incorrect';
+      }
+      if (q.question_type === 'grid_in' || q.question_type === 'grid_keypad') {
+        const norm = normalizeGridAnswer(given);
+        if (norm === normalizeGridAnswer(q.correct)) return 'correct';
+        const alts = q.correct_alt || [];
+        return alts.some(alt => norm === normalizeGridAnswer(alt)) ? 'correct' : 'incorrect';
       }
       return given === q.correct ? 'correct' : 'incorrect';
     }
@@ -641,6 +664,13 @@
           const short = text.length > 70 ? text.slice(0, 70) + '…' : text;
           return '"' + short + '" → ' + (catId ? (catLabel[catId] || catId) : '(not placed)');
         });
+      }
+      if (q.question_type === 'dropdown') {
+        if (typeof value !== 'object') return null;
+        return (q.dropdowns || []).map(d => '[' + d.label + '] = "' + (value[d.label] || '(blank)') + '"');
+      }
+      if (q.question_type === 'grid_in' || q.question_type === 'grid_keypad') {
+        return [String(value)];
       }
       return [value + '. ' + ((q.options || {})[value] || '')];
     }
@@ -900,6 +930,8 @@
 
       const questionTextHtml = q.question_type === 'drag_drop'
         ? renderDragDropProse(q)
+        : q.question_type === 'dropdown'
+        ? renderDropdownProse(q)
         : renderQuestionText(q.question);
       document.getElementById('tn-question').innerHTML = figureHtml + stimulusHtml + questionTextHtml;
 
@@ -910,6 +942,8 @@
         bodyHtml = renderMcMulti(q);
       } else if (q.question_type === 'grid_keypad') {
         bodyHtml = renderGridKeypad(q);
+      } else if (q.question_type === 'grid_in') {
+        bodyHtml = renderGridIn(q);
       } else if (q.question_type === 'drag_drop') {
         bodyHtml = renderDragDropChips(q);
       } else if (q.question_type === 'sort_categories') {
@@ -988,6 +1022,45 @@
           </div>
         </div>
       `;
+    }
+
+    // ── Free-typed answer (grid_in): a plain text box the student types
+    // into directly, used when the answer needs characters (letters,
+    // ≤/≥, fractions) the restricted keypad doesn't offer. ──
+    function renderGridIn(q) {
+      const val = state.answers[q.q_number] || '';
+      const prefix = q.grid_prefix || '';
+      const label = q.grid_label || 'Enter your answer in the space provided. Enter only your answer.';
+      const symbols = q.grid_in_symbols || ['≤', '≥'];
+      const symbolBtns = symbols.map(s =>
+        `<button type="button" class="tn-grid-in-symbol" data-symbol="${esc(s)}" title="Insert ${esc(s)}">${esc(s)}</button>`
+      ).join('');
+      return `
+        <div class="tn-grid-label">${esc(label)}</div>
+        <div style="margin-top: 10px; display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+          ${prefix ? `<span style="font-family:Georgia,serif;font-size:20px;font-style:italic;">${esc(prefix)}</span>` : ''}
+          <input type="text" id="tn-grid-in-input" class="tn-grid-in-input" autocomplete="off"
+            value="${esc(val)}" style="font-family:Georgia,serif;font-size:18px;padding:8px 10px;border:1.5px solid #999;border-radius:4px;min-width:220px;">
+          <div class="tn-grid-in-symbols" style="display:flex; gap:4px;">${symbolBtns}</div>
+        </div>
+      `;
+    }
+
+    // ── Fill-in-the-blank with drop-down menus: question text has
+    // "[DROPDOWN_1]"-style markers; each one becomes a <select>. ──
+    function renderDropdownProse(q) {
+      let html = renderQuestionText(q.question);
+      const given = state.answers[q.q_number] || {};
+      (q.dropdowns || []).forEach(d => {
+        const marker = '[' + d.label + ']';
+        const sel = given[d.label] || '';
+        const opts = ['<option value="">Choose...</option>'].concat(
+          (d.choices || []).map(c => `<option value="${esc(c)}"${c === sel ? ' selected' : ''}>${esc(c)}</option>`)
+        ).join('');
+        html = html.split(marker).join(
+          `<select class="tn-dropdown" data-label="${d.label}">${opts}</select>`);
+      });
+      return html;
     }
 
     // ── Drag-drop fill-in-the-blank: question text has a "[B1]"-style
@@ -1071,6 +1144,40 @@
           if (disp) disp.textContent = cur;
         });
       });
+
+      const gridInInput = document.getElementById('tn-grid-in-input');
+      if (gridInInput) {
+        gridInInput.addEventListener('input', () => {
+          state.answers[q.q_number] = gridInInput.value;
+        });
+        document.querySelectorAll('.tn-grid-in-symbol').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const sym = btn.dataset.symbol;
+            const start = gridInInput.selectionStart ?? gridInInput.value.length;
+            const end = gridInInput.selectionEnd ?? gridInInput.value.length;
+            const cur = gridInInput.value;
+            const next = cur.slice(0, start) + sym + cur.slice(end);
+            gridInInput.value = next;
+            state.answers[q.q_number] = next;
+            gridInInput.focus();
+            const pos = start + sym.length;
+            gridInInput.setSelectionRange(pos, pos);
+          });
+        });
+      }
+
+      // ── Fill-in-the-blank drop-downs (dropdown) ───────────
+      if (q.question_type === 'dropdown') {
+        document.querySelectorAll('.tn-dropdown').forEach(sel => {
+          sel.addEventListener('change', () => {
+            const lbl = sel.dataset.label;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = sel.value || undefined;
+            if (!sel.value) delete state.answers[q.q_number][lbl];
+            render();
+          });
+        });
+      }
 
       // ── Drag-drop (drag_drop) ────────────────────────────
       if (q.question_type === 'drag_drop') {

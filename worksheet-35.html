@@ -625,7 +625,10 @@
         return allMatch ? 'correct' : 'incorrect';
       }
       if (q.question_type === 'grid_in' || q.question_type === 'grid_keypad') {
-        return normalizeGridAnswer(given) === normalizeGridAnswer(q.correct) ? 'correct' : 'incorrect';
+        const norm = normalizeGridAnswer(given);
+        if (norm === normalizeGridAnswer(q.correct)) return 'correct';
+        const alts = q.correct_alt || [];
+        return alts.some(alt => norm === normalizeGridAnswer(alt)) ? 'correct' : 'incorrect';
       }
       return given === q.correct ? 'correct' : 'incorrect';
     }
@@ -653,6 +656,9 @@
           const short = text.length > 70 ? text.slice(0, 70) + '…' : text;
           return '"' + short + '" → ' + (catId ? (catLabel[catId] || catId) : '(not placed)');
         });
+      }
+      if (q.question_type === 'grid_in' || q.question_type === 'grid_keypad') {
+        return [String(value)];
       }
       return [value + '. ' + ((q.options || {})[value] || '')];
     }

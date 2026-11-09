@@ -33,17 +33,11 @@
     },
     {
       "id": "P-HE5-M-GM50",
-      "question_type": "mc",
-      "question": "A bike rental company charges an initial fee of \\(\\$5\\), plus a constant rate of \\(\\$1.75\\) per hour. Which equation can be used to determine the cost, \\(y\\), of a bike rental for \\(x\\) hours?",
-      "options": {
-        "A": "\\(y = 5x + 1.75\\)",
-        "B": "\\(y = 1.75x + 5\\)",
-        "C": "\\(y = 1.75(x + 5)\\)",
-        "D": "\\(y = 1.75x - 5\\)"
-      },
-      "correct": "B",
+      "question_type": "grid_in",
+      "question": "A bike rental company charges an initial fee of \\(\\$5\\), plus a constant rate of \\(\\$1.75\\) per hour. Write an equation that can be used to determine the cost, \\(y\\), of a bike rental for \\(x\\) hours.",
+      "correct": "y=1.75x+5",
       "solution": {
-        "exhibit_text": "The cost equals the hourly rate times the number of hours, plus the flat initial fee: \\(y = 1.75x + 5\\).\n\n(A) swaps the fee and the rate. (C) incorrectly distributes the rate across the fee. (D) uses the wrong sign for the fee."
+        "exhibit_text": "The cost equals the hourly rate times the number of hours, plus the flat initial fee: \\(y = 1.75x + 5\\). (Equivalent forms, such as \\(y=5+1.75x\\), are also correct.)"
       },
       "base_source": "Exam G — Math Q50 (GM50)",
       "base_question": {
@@ -55,7 +49,13 @@
           "exhibit_text": "If the company charges an initial fee plus a constant rate per mile driven, then its cost can be modeled by a linear equation \\(y=mx+b\\). You are told that the initial fee is \\(\\$3\\), so \\(b=3\\). You also know that the company charges a constant rate of \\(\\$2.50\\) per mile driven, so \\(m=2.5\\). The complete equation is therefore \\(y=2.5x+3\\).\n\n(Other equivalent forms, such as \\(y=3+2.5x\\) or \\(2.5x+3=y\\), are also correct.)"
         }
       },
-      "q_number": 2
+      "q_number": 2,
+      "correct_alt": [
+        "y=5+1.75x",
+        "1.75x+5=y",
+        "5+1.75x=y"
+      ],
+      "grid_label": "Enter your equation in the space provided, using y and x — for example: y=1.75x+5"
     },
     {
       "id": "P-HE5-M-BM45",
@@ -121,17 +121,22 @@
     },
     {
       "id": "P-HE5-M-AM10",
-      "question_type": "mc",
-      "question": "Three expressions are given:\n\n\\[-2(3n+5)\\]\n\\[7-n\\]\n\\[4(n+3)\\]\n\nWhat is the sum of these three expressions, written in simplest form?",
+      "question_type": "mc_multi",
+      "question": "Three expressions are given:\n\n\\[-2(2n+5)\\]\n\\[9-n\\]\n\\[5(n+3)\\]\n\nWhat is the sum of these three expressions? Select the **two** correct answers.",
       "options": {
-        "A": "\\(-3n+9\\)",
-        "B": "\\(-3n-9\\)",
-        "C": "\\(3n+9\\)",
-        "D": "\\(3n-9\\)"
+        "A": "\\(9-n+5n+15-4n-10\\)",
+        "B": "\\(9-n+5n+15+4n+10\\)",
+        "C": "\\(9-n+4n+15-4n-10\\)",
+        "D": "\\(14-n\\)",
+        "E": "\\(14\\)",
+        "F": "\\(34\\)"
       },
-      "correct": "A",
+      "correct": [
+        "A",
+        "E"
+      ],
       "solution": {
-        "exhibit_text": "Distribute each expression: \\(-6n-10\\), \\(7-n\\), and \\(4n+12\\). Adding the \\(n\\)-terms: \\(-6n-n+4n=-3n\\). Adding the constants: \\(-10+7+12=9\\). The sum is \\(-3n+9\\).\n\n(B), (C), and (D) each result from a sign error while distributing or combining like terms."
+        "exhibit_text": "Distribute the first and third expressions: \\(-2(2n+5)=-4n-10\\) and \\(5(n+3)=5n+15\\).\n\nAdd all three: \\(9-n+5n+15-4n-10\\). Combine the \\(n\\)-terms: \\(-n+5n-4n=0\\). Combine the constants: \\(9+15-10=14\\).\n\nThe sum simplifies completely to \\(14\\), so both the full combined expression and its simplified value, \\(14\\), are correct."
       },
       "base_source": "Exam A — Math Q10 (AM10)",
       "base_question": {
@@ -368,17 +373,15 @@
     },
     {
       "id": "P-HE5-M-AM08",
-      "question_type": "mc",
-      "question": "Maria and Carlos each collect trading cards. Maria has \\(3\\) times as many cards as Carlos. Maria gives \\(10\\) of her cards to Carlos. Maria now has \\(20\\) more cards than Carlos. How many cards did Maria start with?",
-      "options": {
-        "A": "\\(40\\)",
-        "B": "\\(50\\)",
-        "C": "\\(60\\)",
-        "D": "\\(90\\)"
+      "question_type": "dropdown",
+      "question": "Maria and Carlos each collect trading cards. Maria has \\(3\\) times as many cards as Carlos. Maria gives \\(10\\) of her cards to Carlos. Maria now has \\(20\\) more cards than Carlos.\n\nHow many cards did Maria start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of cards originally in Maria's and Carlos's collections is \\(M = \\) [DROPDOWN_1] \\(C\\).\n\nAfter Maria gives \\(10\\) cards to Carlos, the equation becomes \\(M - 10 = \\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Maria started with [DROPDOWN_3] cards.",
+      "correct": {
+        "DROPDOWN_1": "3",
+        "DROPDOWN_2": "C+30",
+        "DROPDOWN_3": "60"
       },
-      "correct": "C",
       "solution": {
-        "exhibit_text": "Let \\(C\\) be Carlos's cards, so Maria starts with \\(3C\\). After the gift: \\(3C-10 = (C+10)+20\\). Solving: \\(2C=40\\), so \\(C=20\\) and Maria started with \\(3(20)=60\\).\n\n(A) uses \\(2C\\) instead of \\(3C\\). (B) is Maria's card count *after* giving cards away, not her starting amount. (D) uses Carlos's final amount instead of Maria's starting amount."
+        "exhibit_text": "Maria originally has \\(3\\) times as many cards as Carlos, so the equation is \\(M = 3C\\).\n\nAfter Maria gives \\(10\\) cards to Carlos, the equation becomes \\(M - 10 = (C + 10) + 20\\), which simplifies to \\(M - 10 = C + 30\\).\n\nSubstitute \\(M = 3C\\) into the equation: \\(3C - 10 = C + 30\\).\n\nSolve for \\(C\\):\n\\[3C - C = 30 + 10\\]\\[2C = 40\\]\\[C = 20\\]\n\nSubstitute to find \\(M\\): \\(M = 3C = 3 \\times 20 = 60\\).\n\nSo, Maria started with \\(60\\) cards."
       },
       "base_source": "Exam A — Math Q8 (AM08)",
       "base_question": {
@@ -390,7 +393,39 @@
           "exhibit_text": "Liam originally has twice as many stamps as Kevin, so the equation is \\(L = 2K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes\n\\(L - 8 = (K + 8) + 12\\), which simplifies to \\(L - 8 = K + 20\\).\n\nSubstitute \\(L = 2K\\) into the equation: \\(2K - 8 = K + 20\\).\n\nSolve for \\(K\\):\n\\[2K - K = 20 + 8\\]\n\\[K = 28\\]\nSubstitute to find \\(L\\): \\(L = 2K = 2 \\times 28 = 56\\).\n\nSo, Liam started with \\(56\\) stamps."
         }
       },
-      "q_number": 13
+      "q_number": 13,
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "2",
+            "3",
+            "C/2",
+            "C/3"
+          ],
+          "answer_display": "3"
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "C+20",
+            "C+30",
+            "C-20",
+            "C+10"
+          ],
+          "answer_display": "C+30"
+        },
+        {
+          "label": "DROPDOWN_3",
+          "choices": [
+            "40",
+            "50",
+            "60",
+            "90"
+          ],
+          "answer_display": "60"
+        }
+      ]
     },
     {
       "id": "P-HE5-M-DM32",
