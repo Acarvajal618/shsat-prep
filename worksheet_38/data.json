@@ -1,0 +1,1774 @@
+{
+  "math_questions": [
+    {
+      "id": "P-HE6-M-BM04",
+      "question_type": "grid_keypad",
+      "question": "Dana is playing a game in which players earn points called glimmers, forts, and dax.\n\n\\(1\\) glimmer \\(= 4\\) forts\n\\(1\\) glimmer \\(= \\dfrac{1}{5}\\) dax\n\nDana has \\(80\\) forts and \\(30\\) dax. She wants to exchange her forts and dax for glimmers. How many glimmers will Dana receive from the exchange?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "170",
+      "grid_label": "Use the keypad to enter your answer.",
+      "solution": {
+        "exhibit_text": "Step 1: Convert forts to glimmers. Since \\(1\\) glimmer \\(= 4\\) forts, \\(80 \\div 4 = 20\\) glimmers.\n\nStep 2: Convert dax to glimmers. Since \\(1\\) glimmer \\(= \\dfrac{1}{5}\\) dax, \\(1\\) dax \\(= 5\\) glimmers. So \\(30 \\times 5 = 150\\) glimmers.\n\nStep 3: Total glimmers \\(= 20 + 150 = 170\\)."
+      },
+      "base_source": "Exam B — Math Q4 (BM04)",
+      "base_question": {
+        "question": "Maria is playing a game in which players earn points called minks, zogs, and barts.\n\n\\(1\\) mink \\(= 3\\) zogs\n\\(1\\) mink \\(= \\dfrac{1}{4}\\) bart\n\nMaria has \\(60\\) zogs and \\(24\\) barts. She wants to exchange her zogs and barts for minks. How many minks will Maria receive from the exchange?\n\nEnter your answer in the space.",
+        "grid_answer": "116",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "Step 1: Convert zogs to minks. Since \\(1\\) mink \\(= 3\\) zogs, \\(60 \\div 3 = 20\\) minks.\n\nStep 2: Convert barts to minks. Since \\(1\\) mink \\(= \\dfrac{1}{4}\\) bart, \\(1\\) bart \\(= 4\\) minks. So \\(24 \\times 4 = 96\\) minks.\n\nStep 3: Total minks \\(= 20 + 96 = 116\\)."
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-HE6-M-BM42",
+      "question_type": "mc",
+      "question": "The cards in the table above are mixed in a box. Which fruit pictured on a card has exactly a \\(1\\) in \\(4\\) chance of being picked at random from the box?\n\n(FRUIT CARDS table: Apple=9, Banana=6, Cherry=5, Date=3, Fig=1.)",
+      "options": {
+        "A": "apple",
+        "B": "banana",
+        "C": "date",
+        "D": "fig"
+      },
+      "correct": "B",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>FRUIT CARDS</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Number of Cards</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Picture on Card</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>9</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Apple</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>6</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Banana</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cherry</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Date</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Fig</td></tr></tbody></table>",
+      "solution": {
+        "exhibit_text": "(B) The total number of cards in the box is \\(9 + 6 + 5 + 3 + 1 = 24\\). Set up a proportion to figure out which card has exactly a \\(1\\) in \\(4\\) chance of being picked at random: \\(\\dfrac{x}{24} = \\dfrac{1}{4}\\) or \\(x = 6\\). The banana card has a \\(1\\) in \\(4\\) chance of being randomly selected."
+      },
+      "base_source": "Exam B — Math Q42 (BM42)",
+      "base_question": {
+        "question": "The cards in the table above are mixed in a box. Which animal pictured on a card has exactly a \\(1\\) in \\(4\\) chance of being picked at random from the box?\n\n(ANIMAL CARDS table: Cat=8, Dog=6, Bird=5, Fish=4, Horse=1.)",
+        "options": {
+          "A": "cat",
+          "B": "dog",
+          "C": "fish",
+          "D": "horse"
+        },
+        "correct": "B",
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>ANIMAL CARDS</caption><thead><tr><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Number of Cards</th><th style='border:1px solid #111; padding:8px 22px; background:#f3f3f3;'>Picture on Card</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>8</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Cat</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>6</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Dog</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Bird</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Fish</td></tr><tr><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 22px; text-align:center;'>Horse</td></tr></tbody></table>",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) The total number of cards in the box is \\(8 + 6 + 5 + 4 + 1 = 24\\). Set up a proportion to figure out which card has exactly a \\(1\\) in \\(4\\) chance of being picked at random: \\(\\dfrac{x}{24} = \\dfrac{1}{4}\\) or \\(x = 6\\). The dog card has a \\(1\\) in \\(4\\) chance of being randomly selected."
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-HE6-M-CM23",
+      "question_type": "mc",
+      "question": "On parallelogram \\(PQRS\\) above, the length of \\(\\overline{QT}\\) is \\(15\\) centimeters. What is the area of the parallelogram?",
+      "options": {
+        "A": "\\(210\\) sq cm",
+        "B": "\\(300\\) sq cm",
+        "C": "\\(420\\) sq cm",
+        "D": "\\(560\\) sq cm"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='187' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='313' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>15 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>20 cm</text><line x1='95' y1='250' x2='305' y2='250' stroke='#111' stroke-width='1'/><path d='M 95 250 L 105 246 L 105 254 Z' fill='#111'/><path d='M 305 250 L 295 246 L 295 254 Z' fill='#111'/><text x='200' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='13'>28 cm</text></svg>",
+      "solution": {
+        "exhibit_text": "(C) \\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(28\\) cm in length, and the height is the length of the altitude, so the height is \\(15\\) cm.\n\nTo determine the area of a parallelogram, multiply the base \\(\\times\\) the height:\n\n\\[28 \\text{ cm} \\times 15 \\text{ cm} = 420 \\text{ cm}^2\\]"
+      },
+      "base_source": "Exam C — Math Q23 (CM23)",
+      "base_question": {
+        "question": "On parallelogram \\(PQRS\\) above, the length of \\(\\overline{QT}\\) is \\(18\\) centimeters. What is the area of the parallelogram?",
+        "options": {
+          "A": "\\(112\\) sq cm",
+          "B": "\\(396\\) sq cm",
+          "C": "\\(612\\) sq cm",
+          "D": "\\(748\\) sq cm"
+        },
+        "correct": "C",
+        "figure_svg": "<svg viewBox='0 0 460 260' xmlns='http://www.w3.org/2000/svg' style='max-width:400px; margin: 0 auto; display: block;'><polygon points='90,220 190,50 410,50 310,220' fill='none' stroke='#111' stroke-width='1.6'/><line x1='190' y1='50' x2='190' y2='220' stroke='#111' stroke-width='1.6'/><path d='M 190 210 L 200 210 L 200 220' fill='none' stroke='#111' stroke-width='1'/><text x='183' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>Q</text><text x='413' y='40' font-family='Georgia,serif' font-style='italic' font-size='16'>R</text><text x='75' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>P</text><text x='187' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>T</text><text x='313' y='240' font-family='Georgia,serif' font-style='italic' font-size='16'>S</text><text x='200' y='140' font-family='Georgia,serif' font-size='14'>18 cm</text><text x='365' y='140' font-family='Georgia,serif' font-size='14'>22 cm</text><line x1='95' y1='250' x2='305' y2='250' stroke='#111' stroke-width='1'/><path d='M 95 250 L 105 246 L 105 254 Z' fill='#111'/><path d='M 305 250 L 295 246 L 295 254 Z' fill='#111'/><text x='200' y='258' text-anchor='middle' font-family='Georgia,serif' font-size='13'>34 cm</text></svg>",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) \\(PQRS\\) is a parallelogram in which \\(\\overline{PS}\\) is a base and \\(\\overline{QT}\\) is an altitude. The base is \\(34\\) cm in length, and the height is the length of the altitude, so the height is \\(18\\) cm.\n\nTo determine the area of a parallelogram, multiply the base \\(\\times\\) the height:\n\n\\[34 \\text{ cm} \\times 18 \\text{ cm} = 612 \\text{ cm}^2\\]"
+        }
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-HE6-M-CM49",
+      "question_type": "drag_drop",
+      "question": "The box plot illustrates the number of hours eighth-grade students spend reading during a typical week. What is the difference between the range and the interquartile range (IQR) of the reading-time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of reading hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+      "drop_values": [
+        "6",
+        "10",
+        "16",
+        "19"
+      ],
+      "drop_allow_reuse": false,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "16"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "6"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "10"
+        }
+      ],
+      "figure_svg": "<svg viewBox='0 0 500 140' xmlns='http://www.w3.org/2000/svg' style='max-width:500px; margin:0 auto; display:block;'><line x1='93.75' y1='76.0' x2='165.41666666666669' y2='76.0' stroke='#111' stroke-width='1.4'/><line x1='272.91666666666663' y1='76.0' x2='380.4166666666667' y2='76.0' stroke='#111' stroke-width='1.4'/><line x1='93.75' y1='64' x2='93.75' y2='88' stroke='#111' stroke-width='1.4'/><line x1='380.4166666666667' y1='64' x2='380.4166666666667' y2='88' stroke='#111' stroke-width='1.4'/><rect x='165.41666666666669' y='60' width='107.49999999999994' height='32' fill='none' stroke='#111' stroke-width='1.4'/><line x1='219.16666666666666' y1='60' x2='219.16666666666666' y2='92' stroke='#111' stroke-width='1.6'/><line x1='40' y1='100' x2='470' y2='100' stroke='#111' stroke-width='1.2'/><line x1='40.0' y1='96' x2='40.0' y2='104' stroke='#111' stroke-width='1'/><text x='40.0' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>0</text><line x1='75.83333333333334' y1='96' x2='75.83333333333334' y2='104' stroke='#111' stroke-width='1'/><text x='75.83333333333334' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>2</text><line x1='111.66666666666667' y1='96' x2='111.66666666666667' y2='104' stroke='#111' stroke-width='1'/><text x='111.66666666666667' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>4</text><line x1='147.5' y1='96' x2='147.5' y2='104' stroke='#111' stroke-width='1'/><text x='147.5' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>6</text><line x1='183.33333333333334' y1='96' x2='183.33333333333334' y2='104' stroke='#111' stroke-width='1'/><text x='183.33333333333334' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>8</text><line x1='219.16666666666666' y1='96' x2='219.16666666666666' y2='104' stroke='#111' stroke-width='1'/><text x='219.16666666666666' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>10</text><line x1='255.0' y1='96' x2='255.0' y2='104' stroke='#111' stroke-width='1'/><text x='255.0' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>12</text><line x1='290.83333333333337' y1='96' x2='290.83333333333337' y2='104' stroke='#111' stroke-width='1'/><text x='290.83333333333337' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>14</text><line x1='326.6666666666667' y1='96' x2='326.6666666666667' y2='104' stroke='#111' stroke-width='1'/><text x='326.6666666666667' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>16</text><line x1='362.5' y1='96' x2='362.5' y2='104' stroke='#111' stroke-width='1'/><text x='362.5' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>18</text><line x1='398.3333333333333' y1='96' x2='398.3333333333333' y2='104' stroke='#111' stroke-width='1'/><text x='398.3333333333333' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>20</text><line x1='434.1666666666667' y1='96' x2='434.1666666666667' y2='104' stroke='#111' stroke-width='1'/><text x='434.1666666666667' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>22</text><line x1='470.0' y1='96' x2='470.0' y2='104' stroke='#111' stroke-width='1'/><text x='470.0' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>24</text><text x='250.0' y='134' text-anchor='middle' font-family='Georgia,serif' font-size='12'>hours</text></svg>",
+      "solution": {
+        "exhibit_text": "\\((16; 6; 10)\\)\n\nDetermine the range by subtracting the minimum value on the box plot from the maximum value on the box plot:\n\nMaximum value \\(= 19\\) hr; Minimum value \\(= 3\\) hr\n\n\\[19 \\text{ hr} - 3 \\text{ hr} = 16 \\text{ hr}\\]\n\nDetermine the interquartile range by subtracting the lower quartile value on the box plot from the upper quartile value on the box plot:\n\nUpper Quartile Value \\(= 13\\) hr, Lower Quartile Value \\(= 7\\) hr\n\n\\[13 \\text{ hr} - 7 \\text{ hr} = 6 \\text{ hr}\\]\n\nDetermine the difference between the range (\\(16\\) hr) and the interquartile range (\\(6\\) hr):\n\n\\[16 \\text{ hr} - 6 \\text{ hr} = 10 \\text{ hr}\\]"
+      },
+      "base_source": "Exam C — Math Q49 (CM49)",
+      "base_question": {
+        "question": "The box plot illustrates the number of hours eighth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data?\n\nMove the correct answer to each box. Not all answers will be used.\n\nThe range of screen time hours is [BOX_1] hours.\nThe IQR is [BOX_2] hours.\nThe difference between the range and the IQR is [BOX_3] hours.",
+        "boxes": [
+          {
+            "label": "BOX_1",
+            "correct_value": "15"
+          },
+          {
+            "label": "BOX_2",
+            "correct_value": "8"
+          },
+          {
+            "label": "BOX_3",
+            "correct_value": "7"
+          }
+        ],
+        "drop_values": [
+          "5",
+          "7",
+          "8",
+          "15"
+        ],
+        "drop_allow_reuse": false,
+        "figure_svg": "<svg viewBox='0 0 500 140' xmlns='http://www.w3.org/2000/svg' style='max-width:500px; margin:0 auto; display:block;'><line x1='129.58333333333334' y1='76.0' x2='183.33333333333331' y2='76.0' stroke='#111' stroke-width='1.4'/><line x1='308.75' y1='76.0' x2='398.33333333333337' y2='76.0' stroke='#111' stroke-width='1.4'/><line x1='129.58333333333334' y1='64' x2='129.58333333333334' y2='88' stroke='#111' stroke-width='1.4'/><line x1='398.33333333333337' y1='64' x2='398.33333333333337' y2='88' stroke='#111' stroke-width='1.4'/><rect x='183.33333333333331' y='60' width='125.41666666666669' height='32' fill='none' stroke='#111' stroke-width='1.4'/><line x1='255.0' y1='60' x2='255.0' y2='92' stroke='#111' stroke-width='1.6'/><line x1='40' y1='100' x2='470' y2='100' stroke='#111' stroke-width='1.2'/><line x1='40.0' y1='96' x2='40.0' y2='104' stroke='#111' stroke-width='1'/><text x='40.0' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>0</text><line x1='75.83333333333333' y1='96' x2='75.83333333333333' y2='104' stroke='#111' stroke-width='1'/><text x='75.83333333333333' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>2</text><line x1='111.66666666666666' y1='96' x2='111.66666666666666' y2='104' stroke='#111' stroke-width='1'/><text x='111.66666666666666' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>4</text><line x1='147.5' y1='96' x2='147.5' y2='104' stroke='#111' stroke-width='1'/><text x='147.5' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>6</text><line x1='183.33333333333331' y1='96' x2='183.33333333333331' y2='104' stroke='#111' stroke-width='1'/><text x='183.33333333333331' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>8</text><line x1='219.16666666666669' y1='96' x2='219.16666666666669' y2='104' stroke='#111' stroke-width='1'/><text x='219.16666666666669' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>10</text><line x1='255.0' y1='96' x2='255.0' y2='104' stroke='#111' stroke-width='1'/><text x='255.0' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>12</text><line x1='290.83333333333337' y1='96' x2='290.83333333333337' y2='104' stroke='#111' stroke-width='1'/><text x='290.83333333333337' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>14</text><line x1='326.66666666666663' y1='96' x2='326.66666666666663' y2='104' stroke='#111' stroke-width='1'/><text x='326.66666666666663' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>16</text><line x1='362.5' y1='96' x2='362.5' y2='104' stroke='#111' stroke-width='1'/><text x='362.5' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>18</text><line x1='398.33333333333337' y1='96' x2='398.33333333333337' y2='104' stroke='#111' stroke-width='1'/><text x='398.33333333333337' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>20</text><line x1='434.16666666666663' y1='96' x2='434.16666666666663' y2='104' stroke='#111' stroke-width='1'/><text x='434.16666666666663' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>22</text><line x1='470.0' y1='96' x2='470.0' y2='104' stroke='#111' stroke-width='1'/><text x='470.0' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='11'>24</text><text x='250.0' y='134' text-anchor='middle' font-family='Georgia,serif' font-size='12'>hours</text></svg>",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "\\((15; 7; 8)\\)\n\nDetermine the range by subtracting the minimum value on the box plot from the maximum value on the box plot:\n\nMaximum value \\(= 20\\) hr; Minimum value \\(= 5\\) hr\n\n\\[20 \\text{ hr} - 5 \\text{ hr} = 15 \\text{ hr}\\]\n\nDetermine the interquartile range by subtracting the lower quartile value on the box plot from the upper quartile value on the box plot:\n\nUpper Quartile Value \\(= 15\\) hr, Lower Quartile Value \\(= 8\\) hr\n\n\\[15 \\text{ hr} - 8 \\text{ hr} = 7 \\text{ hr}\\]\n\nDetermine the difference between the range (\\(15\\) hr) and the interquartile range (\\(7\\) hr):\n\n\\[15 \\text{ hr} - 7 \\text{ hr} = 8 \\text{ hr}\\]"
+        }
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-HE6-M-DM03",
+      "question_type": "mc",
+      "question": "Two sets, \\(R\\) and \\(S\\), are described below. The sum of the elements in set \\(R\\) equals the sum of the elements in set \\(S\\).\n\n\\[R = \\{6, x, 4, 9\\}\\]\n\\[S = \\{8, y, 5, 3\\}\\]\n\nWhat is the value of \\(x - y\\)?",
+      "options": {
+        "A": "\\(-7\\)",
+        "B": "\\(-3\\)",
+        "C": "\\(3\\)",
+        "D": "\\(7\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) First, find the sum for each set by adding the terms in each set separately.\n\nThe sum for set \\(R\\) is \\(6 + x + 4 + 9\\), which is \\(x + 19\\).\n\nThe sum for set \\(S\\) is \\(8 + y + 5 + 3\\), which is \\(y + 16\\).\n\nThe question states that these two sums are equal to each other, so write the equation and then rearrange using inverse operations.\n\n\\[x + 19 = y + 16\\]\n\\[x = y - 3\\]\n\\[x - y = -3\\]"
+      },
+      "base_source": "Exam D — Math Q3 (DM03)",
+      "base_question": {
+        "question": "Two sets, \\(R\\) and \\(S\\), are described below. The sum of the elements in set \\(R\\) equals the sum of the elements in set \\(S\\).\n\n\\[R = \\{5, x, 3, 8\\}\\]\n\\[S = \\{6, y, 4, 1\\}\\]\n\nWhat is the value of \\(x - y\\)?",
+        "options": {
+          "A": "\\(-7\\)",
+          "B": "\\(-5\\)",
+          "C": "\\(5\\)",
+          "D": "\\(7\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) First, find the sum for each set by adding the terms in each set separately.\n\nThe sum for set \\(R\\) is \\(5 + x + 3 + 8\\), which is \\(x + 16\\).\n\nThe sum for set \\(S\\) is \\(6 + y + 4 + 1\\), which is \\(y + 11\\).\n\nThe question states that these two sums are equal to each other, so write the equation and then rearrange using inverse operations.\n\n\\[x + 16 = y + 11\\]\n\\[x = y - 5\\]\n\\[x - y = -5\\]"
+        }
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-HE6-M-DM07",
+      "question_type": "grid_keypad",
+      "question": "A middle school library has a shelf with \\(50\\) books, each labeled with a different number from \\(301\\) to \\(350\\). One book is selected at random. What is the probability, as a **percentage**, of selecting book number \\(323\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "2",
+      "grid_label": "Use the keypad to enter your answer.",
+      "solution": {
+        "exhibit_text": "(2%) The probability that book number \\(323\\) will be selected at random from \\(50\\) books is \\(1\\) out of \\(50\\). To find the probability as a percentage, convert the fraction to a decimal.\n\nThe chance of selecting one specific book is \\(\\dfrac{1}{50} = 0.02\\).\n\nConvert the decimal to a percentage: \\(0.02 \\times 100 = 2\\%\\)."
+      },
+      "base_source": "Exam D — Math Q7 (DM07)",
+      "base_question": {
+        "question": "A middle school library has a shelf with \\(40\\) books, each labeled with a different number from \\(201\\) to \\(240\\). One book is selected at random. What is the probability, as a **percentage**, of selecting book number \\(223\\)?\n\nEnter your answer in the space provided.",
+        "grid_answer": "2.5",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(2.5%) The probability that book number \\(223\\) will be selected at random from \\(40\\) books is \\(1\\) out of \\(40\\). To find the probability as a percentage, convert the fraction to a decimal.\n\nThe chance of selecting one specific book is \\(\\dfrac{1}{40} = 0.025\\).\n\nConvert the decimal to a percentage: \\(0.025 \\times 100 = 2.5\\%\\)."
+        }
+      },
+      "q_number": 6
+    },
+    {
+      "id": "P-HE6-M-DM27",
+      "question_type": "mc",
+      "question": "A birdseed mixture is \\(\\dfrac{1}{4}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.15\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(32\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+      "options": {
+        "A": "$\\(4.80\\)",
+        "B": "$\\(19.20\\)",
+        "C": "$\\(38.40\\)",
+        "D": "$\\(76.80\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) First, calculate the amount of sunflower seeds in \\(32\\) pounds of this birdseed by using ratio reasoning to find that there are \\(8\\) pounds of sunflower seeds in the birdseed.\n\n\\[\\dfrac{1}{4} = \\dfrac{8}{32}\\]\n\nThen, use ratio reasoning to find the cost of the sunflower seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.15}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$2.40\\]\n\nThe cost of the sunflower seeds is $\\(2.40\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(8\\) pounds.\n\n\\[\\dfrac{\\$2.40}{1 \\text{ pound}} \\times \\dfrac{8 \\text{ pounds}}{1} = \\$19.20\\]"
+      },
+      "base_source": "Exam D — Math Q27 (DM27)",
+      "base_question": {
+        "question": "A birdseed mixture is \\(\\dfrac{2}{5}\\) sunflower seeds. The cost of the sunflower seeds is $\\(0.10\\) per ounce. At this rate, what is the cost of the sunflower seeds in \\(25\\) pounds of this birdseed? (Note: \\(1\\) lb \\(= 16\\) oz.)",
+        "options": {
+          "A": "$\\(10.00\\)",
+          "B": "$\\(16.00\\)",
+          "C": "$\\(40.00\\)",
+          "D": "$\\(160.00\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) First, calculate the amount of sunflower seeds in \\(25\\) pounds of this birdseed by using ratio reasoning to find that there are \\(10\\) pounds of sunflower seeds in the birdseed.\n\n\\[\\dfrac{2}{5} = \\dfrac{10}{25}\\]\n\nThen, use ratio reasoning to find the cost of the sunflower seeds per pound.\n\n\\[\\left(\\dfrac{\\$0.10}{1 \\text{ ounce}}\\right)\\left(\\dfrac{16 \\text{ ounces}}{1 \\text{ pound}}\\right) = \\$1.60\\]\n\nThe cost of the sunflower seeds is $\\(1.60\\) per pound.\n\nFinally, find the total cost using ratios by multiplying the unit cost per pound by \\(10\\) pounds.\n\n\\[\\dfrac{\\$1.60}{1 \\text{ pound}} \\times \\dfrac{10 \\text{ pounds}}{1} = \\$16.00\\]"
+        }
+      },
+      "q_number": 7
+    },
+    {
+      "id": "P-HE6-M-DM35",
+      "question_type": "mc",
+      "question": "XYZ Corporation hired \\(5\\) people as summer workers. Of these \\(5\\) people, \\(3\\) will be hired as permanent employees in the fall. If \\(2\\) of the \\(5\\) people are male, how many of the possible groups of \\(3\\) people hired in the fall will include **only** \\(1\\) male?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(6\\)",
+        "C": "\\(9\\)",
+        "D": "\\(18\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "(B) An organized list can be used to determine the number of groups of \\(3\\) people that include **only** \\(1\\) male.\n\nLet the letters A, B, and C represent the females, and let the numbers \\(1\\) and \\(2\\) represent the males.\n\nThen, create a list of all possible combinations of \\(3\\) people with **only** \\(1\\) male.\n\nAB1, AB2, AC1, AC2, BC1, BC2\n\nThere are \\(6\\) possible groups with **only** \\(1\\) male."
+      },
+      "base_source": "Exam D — Math Q35 (DM35)",
+      "base_question": {
+        "question": "XYZ Corporation hired \\(6\\) people as summer workers. Of these \\(6\\) people, \\(3\\) will be hired as permanent employees in the fall. If \\(2\\) of the \\(6\\) people are male, how many of the possible groups of \\(3\\) people hired in the fall will include **only** \\(1\\) male?",
+        "options": {
+          "A": "\\(4\\)",
+          "B": "\\(6\\)",
+          "C": "\\(12\\)",
+          "D": "\\(24\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) An organized list can be used to determine the number of groups of \\(3\\) people that include **only** \\(1\\) male.\n\nLet the letters A, B, C, and D represent the females, and let the numbers \\(1\\) and \\(2\\) represent the males.\n\nThen, create a list of all possible combinations of \\(3\\) people with **only** \\(1\\) male.\n\nAB1, AB2, AC1, AC2, AD1, AD2\n\nBC1, BC2, BD1, BD2\n\nCD1, CD2\n\nThere are \\(12\\) possible groups with **only** \\(1\\) male."
+        }
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-HE6-M-EM13",
+      "question_type": "mc",
+      "question": "Margo bowled a mean of \\(95\\) points per game in her first \\(5\\) games. In her \\(6\\)th game, she bowled \\(155\\) points. What is her mean score for the first \\(6\\) games?",
+      "options": {
+        "A": "\\(100\\)",
+        "B": "\\(105\\)",
+        "C": "\\(110\\)",
+        "D": "\\(125\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Margo bowled a mean of \\(95\\) points per game in each of the first \\(5\\) games, so she earned a total of \\(95 \\times 5 = 475\\) points for the first \\(5\\) games. Use this information to calculate the mean over the first \\(6\\) games:\n\n\\[\\dfrac{475+155}{6} = \\dfrac{630}{6} = 105\\]"
+      },
+      "base_source": "Exam E — Math Q13 (EM13)",
+      "base_question": {
+        "question": "Margo bowled a mean of 110 points per game in her first 4 games. In her 5th game, she bowled 160 points. What is her mean score for the first 5 games?",
+        "options": {
+          "A": "120",
+          "B": "132",
+          "C": "135",
+          "D": "142"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Margo bowled a mean of 110 points per game in each of the first 4 games, so she earned a total of \\(110 \\times 4 = 440\\) points for the first 4 games. Use this information to calculate the mean over the first 5 games:\n\n\\[\\dfrac{440+160}{5} = \\dfrac{600}{5} = 120\\]"
+        }
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-HE6-M-EM35",
+      "question_type": "mc",
+      "question": "An oatmeal raisin protein bar recipe calls for \\(3\\) cups of raisins per batch of dough, and \\(1\\) batch of dough makes \\(6\\) dozen bars. If \\(1\\) cup \\(= 36\\) teaspoons, which of the following calculations would give the number of teaspoons of raisins per bar in \\(1\\) batch?",
+      "options": {
+        "A": "\\(\\dfrac{3\\times36}{72}\\)",
+        "B": "\\(\\dfrac{3\\times36}{6}\\)",
+        "C": "\\(\\dfrac{3\\times6}{72}\\)",
+        "D": "\\(\\dfrac{3\\times72}{36}\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The question asks for the amount of raisins per bar, so divide the amount of raisins by the total number of bars. Multiply \\(3\\) cups \\(\\times 36\\) teaspoons to get the total amount of raisins. Eliminate (C) and (D), because the numerator does not match that calculation. The number of bars in \\(1\\) batch of dough is \\(6\\times12=72\\) bars, so eliminate (B) and choose (A)."
+      },
+      "base_source": "Exam E — Math Q35 (EM35)",
+      "base_question": {
+        "question": "An oatmeal raisin protein bar recipe calls for 2 cups of raisins per batch of dough, and 1 batch of dough makes 5 dozen bars. If 1 cup = 48 teaspoons, which of the following calculations would give the number of teaspoons of raisins per bar in 1 batch?",
+        "options": {
+          "A": "\\(\\dfrac{2\\times48}{60}\\)",
+          "B": "\\(\\dfrac{2\\times48}{5}\\)",
+          "C": "\\(\\dfrac{2\\times5}{60}\\)",
+          "D": "\\(\\dfrac{2\\times60}{48}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "The question asks for the amount of raisins per bar, so divide the amount of raisins by the total number of bars. Multiply \\(2\\) cups \\(\\times 48\\) teaspoons to get the total amount of raisins. Eliminate (C) and (D), because the numerator does not match that calculation. The number of bars in 1 batch of dough is \\(5\\times12=60\\) bars, so eliminate (B) and choose (A)."
+        }
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-HE6-M-EM36",
+      "question_type": "grid_keypad",
+      "question": "Simplify:\n\\[5-8\\div|-2|+(-3)^3\\times1\\tfrac{2}{3}\\]\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "-44",
+      "grid_label": "Use the keypad to enter your answer.",
+      "solution": {
+        "exhibit_text": "Follow the order of operations: PEMDAS. Remember that absolute value bars act like parentheses, so evaluate that part first.\n\n\\[5-8\\div|-2|+(-3)^3\\times1\\tfrac{2}{3}\\]\n\\[=5-8\\div2+(-3)^3\\times1\\tfrac{2}{3}\\]\n\\[=5-(8\\div2)+(-27)\\times1\\tfrac{2}{3}\\]\n\\[=5-4+(-27)\\times1\\tfrac{2}{3}\\]\n\\[=5-4+\\left(-27\\times\\tfrac{5}{3}\\right)\\]\n\\[=5-4+(-45)\\]\n\\[=-44\\]"
+      },
+      "base_source": "Exam E — Math Q36 (EM36)",
+      "base_question": {
+        "question": "Simplify:\n\\[4-6\\div|-2|+(-3)^3\\times2\\tfrac{1}{3}\\]",
+        "grid_answer": "-62",
+        "solution": {
+          "letter": "-62",
+          "exhibit_text": "Follow the order of operations: PEMDAS. Remember that absolute value bars act like parentheses, so evaluate that part first.\n\n\\[4-6\\div|-2|+(-3)^3\\times2\\tfrac{1}{3}\\]\n\\[=4-6\\div2+(-3)^3\\times2\\tfrac{1}{3}\\]\n\\[=4-(6\\div2)+(-27)\\times2\\tfrac{1}{3}\\]\n\\[=4-3+(-27)\\times2\\tfrac{1}{3}\\]\n\\[=4-3+\\left(-27\\times\\tfrac{7}{3}\\right)\\]\n\\[=4-3+(-63)\\]\n\\[=-62\\]"
+        }
+      },
+      "q_number": 11
+    },
+    {
+      "id": "P-HE6-M-EM37",
+      "question_type": "mc",
+      "question": "Three friends are preparing to run a 5K together. They all use the same route for practice. The table above shows each friend's fastest time on the practice route and her range of times across all practice runs. What is the **overall** range for all three girls?",
+      "options": {
+        "A": "5:30",
+        "B": "6:15",
+        "C": "7:20",
+        "D": "8:05"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 224 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"12\" font-weight=\"700\" font-size=\"12\">PRACTICE 5K TIMES</text><g transform=\"translate(2,18)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"80\" fill=\"none\" stroke=\"#222\"/><line x1=\"70\" y1=\"0\" x2=\"70\" y2=\"80\" stroke=\"#222\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"80\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"220\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"20\" x2=\"220\" y2=\"20\" stroke=\"#222\"/><line x1=\"0\" y1=\"40\" x2=\"220\" y2=\"40\" stroke=\"#222\"/><line x1=\"0\" y1=\"60\" x2=\"220\" y2=\"60\" stroke=\"#222\"/><text x=\"6\" y=\"14\" font-weight=\"700\">Name</text><text x=\"76\" y=\"14\" font-weight=\"700\">Fastest Time</text><text x=\"166\" y=\"14\" font-weight=\"700\">Range</text><text x=\"6\" y=\"34\">Kira</text><text x=\"76\" y=\"34\">30:10</text><text x=\"166\" y=\"34\">5:20</text><text x=\"6\" y=\"54\">Lena</text><text x=\"76\" y=\"54\">32:45</text><text x=\"166\" y=\"54\">3:05</text><text x=\"6\" y=\"74\">Priya</text><text x=\"76\" y=\"74\">28:30</text><text x=\"166\" y=\"74\">2:50</text></g></svg>",
+      "solution": {
+        "exhibit_text": "This question asks for the *overall* range for the friends, meaning the difference between the slowest time and fastest time among all three of them. The fastest time is Priya's, at 28:30. Next, find the slowest time among the three girls. Kira's is \\(30{:}10+5{:}20=35{:}30\\), and Lena's is \\(32{:}45+3{:}05=35{:}50\\). Lena has the slowest time (35:50), so subtract Priya's fastest time: \\(35{:}50-28{:}30=7{:}20\\)."
+      },
+      "base_source": "Exam E — Math Q37 (EM37)",
+      "base_question": {
+        "question": "Three friends are preparing to run a 5K together. They all use the same route for practice. The table above shows each friend's fastest time on the practice route and her range of times across all practice runs. What is the **overall** range for all three girls?",
+        "options": {
+          "A": "4:38",
+          "B": "5:43",
+          "C": "6:05",
+          "D": "7:51"
+        },
+        "correct": "C",
+        "figure_svg": "<svg viewBox=\"0 0 224 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\" font-size=\"11\"><text x=\"2\" y=\"12\" font-weight=\"700\" font-size=\"12\">PRACTICE 5K TIMES</text><g transform=\"translate(2,18)\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"80\" fill=\"none\" stroke=\"#222\"/><line x1=\"70\" y1=\"0\" x2=\"70\" y2=\"80\" stroke=\"#222\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"80\" stroke=\"#222\"/><line x1=\"0\" y1=\"0\" x2=\"220\" y2=\"0\" stroke=\"#222\"/><line x1=\"0\" y1=\"20\" x2=\"220\" y2=\"20\" stroke=\"#222\"/><line x1=\"0\" y1=\"40\" x2=\"220\" y2=\"40\" stroke=\"#222\"/><line x1=\"0\" y1=\"60\" x2=\"220\" y2=\"60\" stroke=\"#222\"/><text x=\"6\" y=\"14\" font-weight=\"700\">Name</text><text x=\"76\" y=\"14\" font-weight=\"700\">Fastest Time</text><text x=\"166\" y=\"14\" font-weight=\"700\">Range</text><text x=\"6\" y=\"34\">Krisanta</text><text x=\"76\" y=\"34\">31:16</text><text x=\"166\" y=\"34\">4:37</text><text x=\"6\" y=\"54\">Lindsey</text><text x=\"76\" y=\"54\">33:02</text><text x=\"166\" y=\"54\">2:29</text><text x=\"6\" y=\"74\">Tara</text><text x=\"76\" y=\"74\">29:48</text><text x=\"166\" y=\"74\">3:35</text></g></svg>",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "This question asks for the *overall* range for the friends, meaning the difference between the slowest time and fastest time among all three of them. The fastest time is Tara's, at 29:48. Next, find the slowest time among the three girls. Krisanta's is \\(31{:}16+4{:}37=35{:}53\\), and Lindsey's is \\(33{:}02+2{:}29=35{:}31\\). Since Tara's range is smaller than Krisanta's and her best time is faster, she cannot have the slowest time, so there's no need to calculate hers. The slowest time is Krisanta's (35:53), so subtract Tara's fastest time: \\(35{:}53-29{:}48=6{:}05\\)."
+        }
+      },
+      "q_number": 12
+    },
+    {
+      "id": "P-HE6-M-EM40",
+      "question_type": "mc",
+      "question": "\\[\\dfrac{A}{4}=5B=C+9=D-4>8\\]\nBased on the statement above, which variable has the **greatest** value?",
+      "options": {
+        "A": "\\(A\\)",
+        "B": "\\(B\\)",
+        "C": "\\(C\\)",
+        "D": "\\(D\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Since all expressions are equal to a value greater than 8, pick a number greater than 8 that is easy to work with (ideally, a multiple of 4 and 5). The number 20 fits the bill. Set each part equal to 20 and solve for the variable. Thus,\n\n\\[\\dfrac{A}{4}=20\\]\n\\[5B=20\\]\n\\[C+9=20\\]\n\\[D-4=20\\]\n\nNow, solve each equation:\n\n\\[A=80\\]\n\\[B=\\dfrac{20}{5}=4\\]\n\\[C=20-9=11\\]\n\\[D=20+4=24\\]\n\nThe greatest value is \\(A\\)."
+      },
+      "base_source": "Exam E — Math Q40 (EM40)",
+      "base_question": {
+        "question": "\\[\\dfrac{A}{3}=5B=C+8=D-2>5\\]\nBased on the statement above, which variable has the **greatest** value?",
+        "options": {
+          "A": "\\(A\\)",
+          "B": "\\(B\\)",
+          "C": "\\(C\\)",
+          "D": "\\(D\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Since all expressions are equal to a value greater than 5, pick a number greater than 5 that is easy to work with (ideally, a multiple of 3 and 5). The number 15 fits the bill. Set each part equal to 15 and solve for the variable. Thus,\n\n\\[\\dfrac{A}{3}=15\\]\n\\[5B=15\\]\n\\[C+8=15\\]\n\\[D-2=15\\]\n\nNow, solve each equation:\n\n\\[A=45\\]\n\\[B=\\dfrac{15}{5}=3\\]\n\\[C=15-8=7\\]\n\\[D=15+2=17\\]\n\nThe greatest value is \\(A\\)."
+        }
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-HE6-M-FM12",
+      "question_type": "mc_multi",
+      "question": "Two expressions are given:\n\\(9-x\\)\n\\(-4(2x+3)\\)\n\nWhich of these are equivalent to the difference of these expressions, if the second expression is subtracted from the first expression?\nSelect the **two** correct answers.",
+      "options": {
+        "A": "\\(9-x-8x-12\\)",
+        "B": "\\(9-x+8x-12\\)",
+        "C": "\\(9-x+8x+12\\)",
+        "D": "\\(7x+21\\)",
+        "E": "\\(7x+9\\)",
+        "F": "\\(-9x+21\\)"
+      },
+      "n_correct": 2,
+      "correct": [
+        "C",
+        "D"
+      ],
+      "solution": {
+        "exhibit_text": "Set up an expression that subtracts the second expression from the first expression, using parentheses to make sure you don't lose any of the signs: \\(9-x-[-4(2x+3)]\\). Distribute the \\(-4\\): \\(9-x-(-8x-12)\\). Rewrite the terms that are in parentheses, making sure to distribute the subtraction sign before the parentheses: \\(9-x+8x+12\\). Then combine like terms: \\(9+12-x+8x=21+7x\\). This matches (D). (C) is also correct, since it shows the step before adding like terms."
+      },
+      "base_source": "Exam F — Math Q12 (FM12)",
+      "base_question": {
+        "question": "Two expressions are given:\n\\(11-x\\)\n\\(-5(1.5x+2)\\)\n\nWhich of these are equivalent to the difference of these expressions, if the second expression is subtracted from the first expression?\nSelect the **two** correct answers.",
+        "options": {
+          "A": "\\(11-x+7.5x-10\\)",
+          "B": "\\(11-x-7.5x+10\\)",
+          "C": "\\(11-x+7.5x+10\\)",
+          "D": "\\(6.5x+21\\)",
+          "E": "\\(6.5x+1\\)",
+          "F": "\\(-8.5x+1\\)"
+        },
+        "correct": [
+          "C",
+          "D"
+        ],
+        "n_correct": 2,
+        "solution": {
+          "letter": "C, D",
+          "exhibit_text": "Set up an expression that subtracts the second expression from the first expression, using parentheses to make sure you don't lose any of the signs: \\(11-x-[-5(1.5x+2)]\\). Distribute the \\(-5\\): \\(11-x-(-7.5x-10)\\). Rewrite the terms that are in parentheses, making sure to distribute the subtraction sign before the parentheses: \\(11-x+7.5x+10\\). Then combine like terms: \\(11+10-x+7.5x=21+6.5x\\). This matches (D). (C) is also correct, since it shows the step before adding like terms."
+        }
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-HE6-M-FM23",
+      "question_type": "mc",
+      "question": "The least of a set of 4 consecutive multiples of 5 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+      "options": {
+        "A": "\\(G-5\\)",
+        "B": "\\(5-2G\\)",
+        "C": "\\(\\dfrac{2}{3}G+\\dfrac{5}{3}\\)",
+        "D": "\\(\\dfrac{3}{2}G+2\\)"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-5\\), then \\(G-10\\), and fourth and last, \\(G-15\\). Thus, \\(G-15\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-15\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-15)}{3}\\]\n\\[\\dfrac{3G-15}{3}\\]\n\\[\\dfrac{3(G-5)}{3}\\]\n\\[G-5\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 5, such as 5, 10, 15, and 20. Plug in 5 for \\(L\\) and 20 for \\(G\\) in the original expression such that \\(\\dfrac{2(20)+5}{3}=\\dfrac{45}{3}=15\\). The correct choice will result in 15 when 20 is plugged in for \\(G\\), and the only choice to do so is (A)."
+      },
+      "base_source": "Exam F — Math Q23 (FM23)",
+      "base_question": {
+        "question": "The least of a set of 4 consecutive multiples of 3 is \\(L\\), and the greatest is \\(G\\). What is the value of \\(\\dfrac{2G+L}{3}\\) in terms of \\(G\\)?",
+        "options": {
+          "A": "\\(G-3\\)",
+          "B": "\\(3-2G\\)",
+          "C": "\\(\\dfrac{2}{3}G+\\dfrac{4}{3}\\)",
+          "D": "\\(\\dfrac{3}{2}G+1\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "The greatest multiple is \\(G\\), so the next greatest multiple must be \\(G-3\\), then \\(G-6\\), and fourth and last, \\(G-9\\). Thus, \\(G-9\\) must be equal to the least value of the set, \\(L\\). Plug in \\(G-9\\) for \\(L\\) in the expression and simplify.\n\n\\[\\dfrac{2G+L}{3}\\]\n\\[\\dfrac{2G+(G-9)}{3}\\]\n\\[\\dfrac{3G-9}{3}\\]\n\\[\\dfrac{3(G-3)}{3}\\]\n\\[G-3\\]\n\nAlternatively, use Picking Numbers to solve. Choose a set of 4 consecutive multiples of 3, such as 3, 6, 9, and 12. Plug in 3 for \\(L\\) and 12 for \\(G\\) in the original expression such that \\(\\dfrac{2(12)+3}{3}=\\dfrac{27}{3}=9\\). The correct choice will result in 9 when 12 is plugged in for \\(G\\), and the only choice to do so is (A)."
+        }
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-HE6-M-FM26",
+      "question_type": "mc",
+      "question": "A man is walking 4 miles per hour toward point B from point A. At the same time, a woman is running 6 miles per hour toward point A from point B. If point A and point B are 20 miles apart, how far from point B will they meet?",
+      "options": {
+        "A": "6 miles",
+        "B": "8 miles",
+        "C": "12 miles",
+        "D": "15 miles"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Try to visualize this problem as two people moving toward each other on a number line. Each hour, these two people move 10 miles closer to each other, so if you divide the total distance of 20 miles by 10, you get the time it takes for them to meet: \\(\\dfrac{20}{10}=2\\) hours. To determine the distance from point B, see how far the person beginning at point B travels in that time: \\(6(2)=12\\) miles.\n\nYou could also Backsolve this problem. To do so, choose an answer and determine how long it would take the woman beginning at point B to travel that distance. Then, find how far the man beginning at point A could travel in that same time. If the two distances add up to 20, then the answer is correct."
+      },
+      "base_source": "Exam F — Math Q26 (FM26)",
+      "base_question": {
+        "question": "A man is walking 3 miles per hour toward point B from point A. At the same time, a woman is running 6 miles per hour toward point A from point B. If point A and point B are 15 miles apart, how far from point B will they meet?",
+        "options": {
+          "A": "5 miles",
+          "B": "6 miles",
+          "C": "9 miles",
+          "D": "10 miles"
+        },
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "Try to visualize this problem as two people moving toward each other on a number line. Each hour, these two people move 9 miles closer to each other, so if you divide the total distance of 15 miles by 9, you get the time it takes for them to meet: \\(\\dfrac{15}{9}=\\dfrac{5}{3}=1\\tfrac{2}{3}\\) hours. To determine the distance from point B, see how far the person beginning at point B travels in that time: \\(6\\left(1\\tfrac{2}{3}\\right)=10\\) miles.\n\nYou could also Backsolve this problem. To do so, choose an answer and determine how long it would take the woman beginning at point B to travel that distance. Then, find how far the man beginning at point A could travel in that same time. If the two distances add up to 15, then the answer is correct."
+        }
+      },
+      "q_number": 16
+    },
+    {
+      "id": "P-HE6-M-FM34",
+      "question_type": "mc",
+      "question": "In a sample of 80 ties at a local clothing store, there are 12 purple ties and 40 striped ties. Of the 12 purple ties, 7 have stripes. If a tie is selected at random from the given sample, what is the probability that **both** of the following are true: the tie is **not** purple and does **not** have stripes?",
+      "options": {
+        "A": "\\(\\dfrac{7}{20}\\)",
+        "B": "\\(\\dfrac{7}{16}\\)",
+        "C": "\\(\\dfrac{9}{20}\\)",
+        "D": "\\(\\dfrac{1}{2}\\)"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of non-purple unstriped ties. Find the number of purple or striped ties and subtract from 80. \\(12\\text{ purple}+40\\text{ striped}=52\\) ties. You might be tempted to go ahead and subtract from 80 now, but remember that 7 ties are *both* purple and striped. You don't want to count those twice, so subtract them: \\(52-7=45\\). Now you can subtract from 80 to get 35 ties that are neither purple nor striped. The probability of selecting one of these is \\(\\dfrac{35}{80}\\), or \\(\\dfrac{7}{16}\\)."
+      },
+      "base_source": "Exam F — Math Q34 (FM34)",
+      "base_question": {
+        "question": "In a sample of 60 ties at a local clothing store, there are 8 purple ties and 32 striped ties. Of the 8 purple ties, 5 have stripes. If a tie is selected at random from the given sample, what is the probability that **both** of the following are true: the tie is **not** purple and does **not** have stripes?",
+        "options": {
+          "A": "\\(\\dfrac{1}{12}\\)",
+          "B": "\\(\\dfrac{1}{3}\\)",
+          "C": "\\(\\dfrac{5}{12}\\)",
+          "D": "\\(\\dfrac{9}{20}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "There's a lot of information in this problem, so break it down piece by piece. In order to find the probability the question asks for, you need to find the number of non-purple unstriped ties. Find the number of purple or striped ties and subtract from 60. \\(8\\text{ purple}+32\\text{ striped}=40\\) ties. You might be tempted to go ahead and subtract from 60 now (which would give a probability of \\(\\dfrac{20}{60}\\), or \\(\\dfrac{1}{3}\\)), but remember that 5 ties are *both* purple and striped. You don't want to count those twice, so subtract them: \\(40-5=35\\). Now you can subtract from 60 to get 25 ties that are neither purple nor striped. The probability of selecting one of these is \\(\\dfrac{25}{60}\\), or \\(\\dfrac{5}{12}\\)."
+        }
+      },
+      "q_number": 17
+    },
+    {
+      "id": "P-HE6-M-FM38",
+      "question_type": "mc",
+      "question": "\\[-2<\\dfrac{x}{4}<1\\]\nWhich number line shows the solution to the inequality above?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": "B",
+      "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.75\" y1=\"18\" x2=\"48.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"18\" x2=\"67.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"18\" x2=\"86.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"18\" x2=\"105.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.75\" y1=\"18\" x2=\"123.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"18\" x2=\"142.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"18\" x2=\"161.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.75\" y1=\"18\" x2=\"198.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"18\" x2=\"217.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"18\" x2=\"236.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"18\" x2=\"255.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.75\" y1=\"18\" x2=\"273.75\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"18\" x2=\"292.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"18\" x2=\"311.25\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"142.5\" y1=\"22\" x2=\"198.75\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"142.5\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"198.75\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.75\" y1=\"63\" x2=\"48.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"63\" x2=\"67.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"63\" x2=\"86.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"63\" x2=\"105.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.75\" y1=\"63\" x2=\"123.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"63\" x2=\"142.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"63\" x2=\"161.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.75\" y1=\"63\" x2=\"198.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"63\" x2=\"217.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"63\" x2=\"236.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"63\" x2=\"255.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.75\" y1=\"63\" x2=\"273.75\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"63\" x2=\"292.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"63\" x2=\"311.25\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"30.0\" y1=\"67\" x2=\"255.0\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"30.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"255.0\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.75\" y1=\"108\" x2=\"48.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"108\" x2=\"67.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"108\" x2=\"86.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"108\" x2=\"105.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.75\" y1=\"108\" x2=\"123.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"108\" x2=\"142.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"108\" x2=\"161.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.75\" y1=\"108\" x2=\"198.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"108\" x2=\"217.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"108\" x2=\"236.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"108\" x2=\"255.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.75\" y1=\"108\" x2=\"273.75\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"108\" x2=\"292.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"108\" x2=\"311.25\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"86.25\" y1=\"112\" x2=\"217.5\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"86.25\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"217.5\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.75\" y1=\"153\" x2=\"48.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"153\" x2=\"67.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.25\" y1=\"153\" x2=\"86.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"153\" x2=\"105.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.75\" y1=\"153\" x2=\"123.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"153\" x2=\"142.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.25\" y1=\"153\" x2=\"161.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.75\" y1=\"153\" x2=\"198.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"153\" x2=\"217.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.25\" y1=\"153\" x2=\"236.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"153\" x2=\"255.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.75\" y1=\"153\" x2=\"273.75\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"153\" x2=\"292.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.25\" y1=\"153\" x2=\"311.25\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"30.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M23.0,152 L15.0,157 L23.0,162 Z\" fill=\"#222\"/><line x1=\"255.0\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M262.0,152 L270.0,157 L262.0,162 Z\" fill=\"#222\"/><circle cx=\"30.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"255.0\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+      "solution": {
+        "exhibit_text": "Multiply each term in the equation by 4 to clear the fraction. This will isolate the \\(x\\).\n\n\\[-2(4)<\\left(\\dfrac{x}{4}\\right)(4)<1(4)\\]\n\\[-8<x<4\\]\n\nSince \\(x\\) is between \\(-8\\) and 4, choose the number line that is shaded between \\(-8\\) and 4, with open circles at both endpoints since the inequality is strict, (B)."
+      },
+      "base_source": "Exam F — Math Q38 (FM38)",
+      "base_question": {
+        "question": "\\[-2<\\dfrac{x}{3}<1\\]\nWhich number line shows the solution to the inequality above?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
+        },
+        "correct": "B",
+        "figure_svg": "<svg viewBox=\"0 0 340 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><text x=\"0\" y=\"27\" font-size=\"12\" font-weight=\"700\">A.</text><line x1=\"30.0\" y1=\"22\" x2=\"330.0\" y2=\"22\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"18\" x2=\"30.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"18\" x2=\"48.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"18\" x2=\"67.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"18\" x2=\"86.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"18\" x2=\"105.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"18\" x2=\"123.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"18\" x2=\"142.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"18\" x2=\"161.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"18\" x2=\"180.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"18\" x2=\"198.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"18\" x2=\"217.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"18\" x2=\"236.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"18\" x2=\"255.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"18\" x2=\"273.8\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"18\" x2=\"292.5\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"18\" x2=\"311.2\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"18\" x2=\"330.0\" y2=\"26\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,18 L21.0,22 L28.0,26 Z\" fill=\"#999\"/><path d=\"M332.0,18 L339.0,22 L332.0,26 Z\" fill=\"#999\"/><line x1=\"161.2\" y1=\"22\" x2=\"198.8\" y2=\"22\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"161.2\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"198.8\" cy=\"22\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"72\" font-size=\"12\" font-weight=\"700\">B.</text><line x1=\"30.0\" y1=\"67\" x2=\"330.0\" y2=\"67\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"63\" x2=\"30.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"63\" x2=\"48.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"63\" x2=\"67.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"63\" x2=\"86.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"63\" x2=\"105.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"63\" x2=\"123.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"63\" x2=\"142.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"63\" x2=\"161.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"63\" x2=\"180.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"63\" x2=\"198.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"63\" x2=\"217.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"63\" x2=\"236.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"63\" x2=\"255.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"63\" x2=\"273.8\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"63\" x2=\"292.5\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"63\" x2=\"311.2\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"63\" x2=\"330.0\" y2=\"71\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"85\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,63 L21.0,67 L28.0,71 Z\" fill=\"#999\"/><path d=\"M332.0,63 L339.0,67 L332.0,71 Z\" fill=\"#999\"/><line x1=\"67.5\" y1=\"67\" x2=\"236.2\" y2=\"67\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"67.5\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"236.2\" cy=\"67\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"117\" font-size=\"12\" font-weight=\"700\">C.</text><line x1=\"30.0\" y1=\"112\" x2=\"330.0\" y2=\"112\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"108\" x2=\"30.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"108\" x2=\"48.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"108\" x2=\"67.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"108\" x2=\"86.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"108\" x2=\"105.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"108\" x2=\"123.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"108\" x2=\"142.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"108\" x2=\"161.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"108\" x2=\"180.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"108\" x2=\"198.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"108\" x2=\"217.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"108\" x2=\"236.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"108\" x2=\"255.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"108\" x2=\"273.8\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"108\" x2=\"292.5\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"108\" x2=\"311.2\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"108\" x2=\"330.0\" y2=\"116\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,108 L21.0,112 L28.0,116 Z\" fill=\"#999\"/><path d=\"M332.0,108 L339.0,112 L332.0,116 Z\" fill=\"#999\"/><line x1=\"86.2\" y1=\"112\" x2=\"217.5\" y2=\"112\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"86.2\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"217.5\" cy=\"112\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><text x=\"0\" y=\"162\" font-size=\"12\" font-weight=\"700\">D.</text><line x1=\"30.0\" y1=\"157\" x2=\"330.0\" y2=\"157\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"153\" x2=\"30.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"30.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-8</text><line x1=\"48.8\" y1=\"153\" x2=\"48.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"67.5\" y1=\"153\" x2=\"67.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"86.2\" y1=\"153\" x2=\"86.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"105.0\" y1=\"153\" x2=\"105.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">-4</text><line x1=\"123.8\" y1=\"153\" x2=\"123.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"142.5\" y1=\"153\" x2=\"142.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"161.2\" y1=\"153\" x2=\"161.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"153\" x2=\"180.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"180.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">0</text><line x1=\"198.8\" y1=\"153\" x2=\"198.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"217.5\" y1=\"153\" x2=\"217.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"153\" x2=\"236.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"255.0\" y1=\"153\" x2=\"255.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"255.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">4</text><line x1=\"273.8\" y1=\"153\" x2=\"273.8\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"153\" x2=\"292.5\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"311.2\" y1=\"153\" x2=\"311.2\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"153\" x2=\"330.0\" y2=\"161\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"330.0\" y=\"175\" font-size=\"10\" text-anchor=\"middle\" fill=\"#555\">8</text><path d=\"M28.0,153 L21.0,157 L28.0,161 Z\" fill=\"#999\"/><path d=\"M332.0,153 L339.0,157 L332.0,161 Z\" fill=\"#999\"/><line x1=\"21.0\" y1=\"157\" x2=\"67.5\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M28.0,152 L20.0,157 L28.0,162 Z\" fill=\"#222\"/><line x1=\"236.2\" y1=\"157\" x2=\"339.0\" y2=\"157\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M332.0,152 L340.0,157 L332.0,162 Z\" fill=\"#222\"/><circle cx=\"67.5\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/><circle cx=\"236.2\" cy=\"157\" r=\"4\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"1.6\"/></svg>",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "Multiply each term in the equation by 3 to clear the fraction. This will isolate the \\(x\\).\n\n\\[-2(3)<\\left(\\dfrac{x}{3}\\right)(3)<1(3)\\]\n\\[-6<x<3\\]\n\nSince \\(x\\) is between \\(-6\\) and 3, choose the number line that is shaded between \\(-6\\) and 3, with open circles at both endpoints since the inequality is strict, (B)."
+        }
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-HE6-M-FM45",
+      "question_type": "mc",
+      "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point K?",
+      "options": {
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{1}{8}\\)",
+        "D": "\\(\\dfrac{3}{8}\\)"
+      },
+      "correct": "A",
+      "figure_svg": "<svg viewBox=\"0 0 340 90\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<line x1=\"3.0\" y1=\"40\" x2=\"327.0\" y2=\"40\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<path d=\"M5.0,36 L-3.0,40 L5.0,44 Z\" fill=\"#222\"/>\n<path d=\"M325.0,36 L333.0,40 L325.0,44 Z\" fill=\"#222\"/>\n<circle cx=\"30.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<circle cx=\"210.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<circle cx=\"300.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<line x1=\"120.0\" y1=\"35\" x2=\"120.0\" y2=\"45\" stroke=\"#222\" stroke-width=\"1.2\"/>\n<text x=\"30.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">J</text>\n<text x=\"210.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">K</text>\n<text x=\"300.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">L</text>\n<text x=\"30.0\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">-1</text>\n<line x1=\"24.0\" y1=\"62\" x2=\"36.0\" y2=\"62\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"30.0\" y=\"74\" font-size=\"12\" text-anchor=\"middle\">4</text>\n<text x=\"300.0\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">1</text>\n<line x1=\"294.0\" y1=\"62\" x2=\"306.0\" y2=\"62\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"300.0\" y=\"74\" font-size=\"12\" text-anchor=\"middle\">2</text>\n</svg>",
+      "solution": {
+        "exhibit_text": "First, determine the total distance between the two endpoints J and L:\n\n\\[\\dfrac{1}{2}-\\left(-\\dfrac{1}{4}\\right)=\\dfrac{2}{4}+\\dfrac{1}{4}=\\dfrac{3}{4}\\]\n\nThere are three intervals between J and L, so each interval is \\(\\dfrac{3}{4}\\div3=\\dfrac{3}{4}\\times\\dfrac{1}{3}=\\dfrac{1}{4}\\). Since there is only one interval between K and L, subtract the interval from the coordinate of point L to determine the coordinate of point K:\n\n\\[\\dfrac{1}{2}-\\dfrac{1}{4}=\\dfrac{2}{4}-\\dfrac{1}{4}=\\dfrac{1}{4}\\]"
+      },
+      "base_source": "Exam F — Math Q45 (FM45)",
+      "base_question": {
+        "question": "The hash marks on the number line above are evenly spaced. What is the coordinate of point K?",
+        "options": {
+          "A": "\\(\\dfrac{1}{30}\\)",
+          "B": "\\(\\dfrac{4}{15}\\)",
+          "C": "\\(\\dfrac{3}{10}\\)",
+          "D": "\\(\\dfrac{7}{30}\\)"
+        },
+        "correct": "B",
+        "figure_svg": "<svg viewBox=\"0 0 340 90\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\">\n<line x1=\"3.0\" y1=\"40\" x2=\"327.0\" y2=\"40\" stroke=\"#222\" stroke-width=\"1.4\"/>\n<path d=\"M5.0,36 L-3.0,40 L5.0,44 Z\" fill=\"#222\"/>\n<path d=\"M325.0,36 L333.0,40 L325.0,44 Z\" fill=\"#222\"/>\n<circle cx=\"30.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<circle cx=\"210.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<circle cx=\"300.0\" cy=\"40\" r=\"3.5\" fill=\"#222\"/>\n<line x1=\"120.0\" y1=\"35\" x2=\"120.0\" y2=\"45\" stroke=\"#222\" stroke-width=\"1.2\"/>\n<text x=\"30.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">J</text>\n<text x=\"210.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">K</text>\n<text x=\"300.0\" y=\"26\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\">L</text>\n<text x=\"30.0\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">-1</text>\n<line x1=\"24.0\" y1=\"62\" x2=\"36.0\" y2=\"62\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"30.0\" y=\"74\" font-size=\"12\" text-anchor=\"middle\">5</text>\n<text x=\"300.0\" y=\"58\" font-size=\"12\" text-anchor=\"middle\">1</text>\n<line x1=\"294.0\" y1=\"62\" x2=\"306.0\" y2=\"62\" stroke=\"#222\" stroke-width=\"1\"/>\n<text x=\"300.0\" y=\"74\" font-size=\"12\" text-anchor=\"middle\">2</text>\n</svg>",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "First, determine the total distance between the two endpoints J and L:\n\n\\[\\dfrac{1}{2}-\\left(-\\dfrac{1}{5}\\right)=\\dfrac{5}{10}+\\dfrac{2}{10}=\\dfrac{7}{10}\\]\n\nThere are three intervals between J and L, so each interval is \\(\\dfrac{7}{10}\\div3=\\dfrac{7}{10}\\times\\dfrac{1}{3}=\\dfrac{7}{30}\\). Since there is only one interval between K and L, subtract the interval from the coordinate of point L to determine the coordinate of point K:\n\n\\[\\dfrac{1}{2}-\\dfrac{7}{30}=\\dfrac{15}{30}-\\dfrac{7}{30}=\\dfrac{8}{30}=\\dfrac{4}{15}\\]"
+        }
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-HE6-M-FM49",
+      "question_type": "dropdown",
+      "question": "A local community center surveyed its members to determine whether they take Yoga classes, Pilates classes, both, or neither. The results were as follows:\n• 50 members take Yoga.\n• 38 members take Pilates.\n• 16 members take both Yoga and Pilates.\n• 7 members take neither class.\n\nUse the information provided to determine how many members were surveyed and how many take only Pilates.\n\nThere were [blank1] members surveyed, and [blank2] members take only Pilates.",
+      "dropdowns": [
+        {
+          "label": "blank1",
+          "choices": [
+            "109",
+            "95",
+            "79",
+            "50",
+            "38"
+          ],
+          "answer_display": "79"
+        },
+        {
+          "label": "blank2",
+          "choices": [
+            "109",
+            "95",
+            "79",
+            "50",
+            "38",
+            "22"
+          ],
+          "answer_display": "22"
+        }
+      ],
+      "correct": {
+        "blank1": "79",
+        "blank2": "22"
+      },
+      "solution": {
+        "exhibit_text": "To find the number of members who take only Yoga, subtract those who take both classes from the total number of Yoga participants: \\(50-16=34\\). Similarly, the number of members who take only Pilates is \\(38-16=22\\). The total number of members surveyed is the sum of those who take only Yoga, only Pilates, both classes, and neither: \\(34+22+16+7=79\\). There were **79** members surveyed, and **22** members take only Pilates."
+      },
+      "base_source": "Exam F — Math Q49 (FM49)",
+      "base_question": {
+        "question": "A local community center surveyed its members to determine whether they take Yoga classes, Pilates classes, both, or neither. The results were as follows:\n• 42 members take Yoga.\n• 36 members take Pilates.\n• 14 members take both Yoga and Pilates.\n• 9 members take neither class.\n\nUse the information provided to determine how many members were surveyed and how many take only Pilates.\n\nThere were [blank1] members surveyed, and [blank2] members take only Pilates.",
+        "dropdowns": [
+          {
+            "label": "blank1",
+            "choices": [
+              "101",
+              "87",
+              "73",
+              "42",
+              "36"
+            ],
+            "answer_display": "73"
+          },
+          {
+            "label": "blank2",
+            "choices": [
+              "101",
+              "87",
+              "73",
+              "42",
+              "36",
+              "22"
+            ],
+            "answer_display": "22"
+          }
+        ],
+        "solution": {
+          "letter": "73, 22",
+          "exhibit_text": "To find the number of members who take only Yoga, subtract those who take both classes from the total number of Yoga participants: \\(42-14=28\\). Similarly, the number of members who take only Pilates is \\(36-14=22\\). The total number of members surveyed is the sum of those who take only Yoga, only Pilates, both classes, and neither: \\(28+22+14+9=73\\). There were **73** members surveyed, and **22** members take only Pilates."
+        }
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-HE6-M-GM11",
+      "question_type": "mc",
+      "question": "The table shows the cups of ingredients used to make \\(6\\) servings of trail mix. What is the unit rate for cups of peanuts per cup of raisins?",
+      "options": {
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(4\\)",
+        "C": "\\(\\dfrac{25}{18}\\)",
+        "D": "\\(\\dfrac{10}{3}\\)"
+      },
+      "correct": "A",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>INGREDIENTS FOR 6 SERVINGS OF TRAIL MIX</caption><thead><tr><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Ingredient</th><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Cups</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>Peanuts</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>\\(\\dfrac{5}{6}\\)</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>Raisins</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>\\(3\\dfrac{1}{3}\\)</td></tr></tbody></table>",
+      "solution": {
+        "exhibit_text": "The word \"per\" means \"divide.\" To find the unit rate for cups of peanuts per cup of raisins, divide the amount of peanuts by the amount of raisins:\n\n\\[\\dfrac{\\text{cups of peanuts}}{\\text{cups of raisins}}=\\dfrac{\\frac{5}{6}}{3\\frac{1}{3}}\\]\n\nFirst, convert the mixed number \\(3\\dfrac{1}{3}\\) into an improper fraction: \\(3\\dfrac{1}{3}=\\dfrac{10}{3}\\).\n\nNext, divide the fractions. To divide by a fraction, multiply by its reciprocal:\n\n\\[\\dfrac{\\text{cups of peanuts}}{\\text{cups of raisins}}=\\dfrac{5}{6}\\div\\dfrac{10}{3}=\\dfrac{5}{6}\\times\\dfrac{3}{10}=\\dfrac{15}{60}=\\dfrac{1}{4}\\]"
+      },
+      "base_source": "Exam G — Math Q11 (GM11)",
+      "base_question": {
+        "question": "The table shows the cups of ingredients used to make \\(5\\) servings of trail mix. What is the unit rate for cups of peanuts per cup of raisins?",
+        "options": {
+          "A": "\\(\\dfrac{3}{10}\\)",
+          "B": "\\(\\dfrac{8}{15}\\)",
+          "C": "\\(\\dfrac{15}{8}\\)",
+          "D": "\\(\\dfrac{10}{3}\\)"
+        },
+        "correct": "A",
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>INGREDIENTS FOR 5 SERVINGS OF TRAIL MIX</caption><thead><tr><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Ingredient</th><th style='border:1px solid #111; padding:8px 18px; background:#f3f3f3;'>Cups</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>Peanuts</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>\\(\\dfrac{3}{4}\\)</td></tr><tr><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>Raisins</td><td style='border:1px solid #111; padding:8px 18px; text-align:center;'>\\(2\\dfrac{1}{2}\\)</td></tr></tbody></table>",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "The word \"per\" means \"divide.\" To find the unit rate for cups of peanuts per cup of raisins, divide the amount of peanuts by the amount of raisins:\n\n\\[\\dfrac{\\text{cups of peanuts}}{\\text{cups of raisins}}=\\dfrac{\\frac{3}{4}}{2\\frac{1}{2}}\\]\n\nFirst, convert the mixed number \\(2\\dfrac{1}{2}\\) into an improper fraction: \\(2\\dfrac{1}{2}=\\dfrac{5}{2}\\).\n\nNext, divide the fractions. To divide by a fraction, multiply by its reciprocal:\n\n\\[\\dfrac{\\text{cups of peanuts}}{\\text{cups of raisins}}=\\dfrac{3}{4}\\div\\dfrac{5}{2}=\\dfrac{3}{4}\\times\\dfrac{2}{5}=\\dfrac{6}{20}=\\dfrac{3}{10}\\]"
+        }
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-HE6-M-GM21",
+      "question_type": "mc",
+      "question": "A meteorologist recorded the temperatures for three different cities on the same day. The table above shows the highest temperature and the range of temperatures for each city. What is the **overall** range of temperatures for all three cities combined?",
+      "options": {
+        "A": "\\(25\\)",
+        "B": "\\(34\\)",
+        "C": "\\(40\\)",
+        "D": "\\(58\\)"
+      },
+      "correct": "C",
+      "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><thead><tr><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>City</th><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>Highest Temperature (°F)</th><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>Range (°F)</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>A</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>78</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>12</td></tr><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>B</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>88</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>25</td></tr><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>C</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>82</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>34</td></tr></tbody></table>",
+      "solution": {
+        "exhibit_text": "The overall range is the highest temperature minus the lowest temperature. The highest overall temperature is given in the table and is \\(88\\degree F\\). To find the lowest overall temperature, subtract the range from the highest temperature for each city.\n\nCity A: \\(78\\degree F-12\\degree F=66\\degree F\\)\nCity B: \\(88\\degree F-25\\degree F=63\\degree F\\)\nCity C: \\(82\\degree F-34\\degree F=48\\degree F\\)\n\nThe lowest temperature is \\(48\\degree F\\), so the overall range is \\(88-48=40\\)."
+      },
+      "base_source": "Exam G — Math Q21 (GM21)",
+      "base_question": {
+        "question": "A meteorologist recorded the temperatures for three different cities on the same day. The table above shows the highest temperature and the range of temperatures for each city. What is the **overall** range of temperatures for all three cities combined?",
+        "options": {
+          "A": "\\(15\\)",
+          "B": "\\(33\\)",
+          "C": "\\(36\\)",
+          "D": "\\(66\\)"
+        },
+        "correct": "C",
+        "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><thead><tr><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>City</th><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>Highest Temperature (°F)</th><th style='border:1px solid #111; padding:8px 16px; background:#f3f3f3;'>Range (°F)</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>A</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>80</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>15</td></tr><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>B</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>91</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>21</td></tr><tr><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>C</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>85</td><td style='border:1px solid #111; padding:8px 16px; text-align:center;'>30</td></tr></tbody></table>",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "The overall range is the highest temperature minus the lowest temperature. The highest overall temperature is given in the table and is \\(91\\degree F\\). To find the lowest overall temperature, subtract the range from the highest temperature for each city.\n\nCity A: \\(80\\degree F-15\\degree F=65\\degree F\\)\nCity B: \\(91\\degree F-21\\degree F=70\\degree F\\)\nCity C: \\(85\\degree F-30\\degree F=55\\degree F\\)\n\nThe lowest temperature is \\(55\\degree F\\), so the overall range is \\(91-55=36\\)."
+        }
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-HE6-M-GM25",
+      "question_type": "mc",
+      "question": "What is the area of the shaded parallelogram shown above?",
+      "options": {
+        "A": "\\(b-a\\)",
+        "B": "\\(\\dfrac{7}{2}(b-a)\\)",
+        "C": "\\(7(b-a)\\)",
+        "D": "\\(7(b+a)\\)"
+      },
+      "correct": "C",
+      "figure_svg": "<svg viewBox=\"0 0 170 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"35\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"160,140 152,136 152,144\" fill=\"#333\"/>\n<text x=\"166\" y=\"144\" font-size=\"13\" font-style=\"italic\">x</text>\n<line x1=\"35\" y1=\"140\" x2=\"35\" y2=\"20\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"35,20 31,28 39,28\" fill=\"#333\"/>\n<text x=\"35\" y=\"14\" font-size=\"13\" font-style=\"italic\">y</text>\n<text x=\"24\" y=\"144\" font-size=\"12\">O</text>\n<line x1=\"35\" y1=\"60\" x2=\"55\" y2=\"60\" stroke=\"#333\" stroke-width=\"0.8\" stroke-dasharray=\"2,2\"/>\n<text x=\"25\" y=\"64\" font-size=\"12\">7</text>\n<polygon points=\"65,140 110,140 130,60 85,60\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"65\" y=\"153\" font-size=\"12\" font-style=\"italic\">a</text>\n<text x=\"110\" y=\"153\" font-size=\"12\" font-style=\"italic\">b</text>\n</svg>",
+      "solution": {
+        "exhibit_text": "To find the area of a parallelogram, multiply the length of its base by its height (\\(A=bh\\)). Look at the coordinates on the \\(x\\)-axis to find the length of the base. The base spans from \\(a\\) to \\(b\\), so its length is the difference between the two points: \\(b-a\\). Next, look at the \\(y\\)-axis to find the height. The dashed line indicates that the top edge of the parallelogram is at a constant \\(y\\)-value of \\(7\\), meaning the height is \\(7\\) units. Multiplying the base and the height together gives an area of \\(7(b-a)\\)."
+      },
+      "base_source": "Exam G — Math Q25 (GM25)",
+      "base_question": {
+        "question": "What is the area of the shaded parallelogram shown above?",
+        "options": {
+          "A": "\\(b-a\\)",
+          "B": "\\(\\dfrac{5}{2}(b-a)\\)",
+          "C": "\\(5(b-a)\\)",
+          "D": "\\(5(b+a)\\)"
+        },
+        "correct": "C",
+        "figure_svg": "<svg viewBox=\"0 0 170 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Georgia,serif\">\n<line x1=\"35\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"160,140 152,136 152,144\" fill=\"#333\"/>\n<text x=\"166\" y=\"144\" font-size=\"13\" font-style=\"italic\">x</text>\n<line x1=\"35\" y1=\"140\" x2=\"35\" y2=\"20\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<polygon points=\"35,20 31,28 39,28\" fill=\"#333\"/>\n<text x=\"35\" y=\"14\" font-size=\"13\" font-style=\"italic\">y</text>\n<text x=\"24\" y=\"144\" font-size=\"12\">O</text>\n<line x1=\"35\" y1=\"60\" x2=\"55\" y2=\"60\" stroke=\"#333\" stroke-width=\"0.8\" stroke-dasharray=\"2,2\"/>\n<text x=\"25\" y=\"64\" font-size=\"12\">5</text>\n<polygon points=\"65,140 110,140 130,60 85,60\" fill=\"#999\" stroke=\"#333\" stroke-width=\"1.3\"/>\n<text x=\"65\" y=\"153\" font-size=\"12\" font-style=\"italic\">a</text>\n<text x=\"110\" y=\"153\" font-size=\"12\" font-style=\"italic\">b</text>\n</svg>",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "To find the area of a parallelogram, multiply the length of its base by its height (\\(A=bh\\)). Look at the coordinates on the \\(x\\)-axis to find the length of the base. The base spans from \\(a\\) to \\(b\\), so its length is the difference between the two points: \\(b-a\\). Next, look at the \\(y\\)-axis to find the height. The dashed line indicates that the top edge of the parallelogram is at a constant \\(y\\)-value of \\(5\\), meaning the height is \\(5\\) units. Multiplying the base and the height together gives an area of \\(5(b-a)\\)."
+        }
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-HE6-M-GM27",
+      "question_type": "mc",
+      "question": "The speed \\(8\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.25\\) meter.)",
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(720\\)",
+        "C": "\\(7{,}200\\)",
+        "D": "\\(28{,}800\\)"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Convert the units by setting up ratios of known measures. Start with the given speed, \\(8\\) feet per second, and the given conversion, \\(1\\) foot \\(=0.25\\) meters. Then fill in the ratios needed to convert seconds to hours.\n\n\\[\\dfrac{8\\text{ ft}}{1\\text{ sec}}\\times\\dfrac{0.25\\text{ meters}}{1\\text{ ft}}\\times\\dfrac{60\\text{ sec}}{1\\text{ min}}\\times\\dfrac{60\\text{ min}}{1\\text{ hr}}\\]\n\\[=\\dfrac{7{,}200\\text{ meters}}{1\\text{ hr}}\\]"
+      },
+      "base_source": "Exam G — Math Q27 (GM27)",
+      "base_question": {
+        "question": "The speed \\(5\\) feet per second is equivalent to how many meters per hour? (Use the approximation \\(1\\) foot \\(=0.3\\) meter.)",
+        "options": {
+          "A": "\\(1.5\\)",
+          "B": "\\(16.67\\)",
+          "C": "\\(5{,}400\\)",
+          "D": "\\(60{,}000\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "Convert the units by setting up ratios of known measures. Start with the given speed, \\(5\\) feet per second, and the given conversion, \\(1\\) foot \\(=0.3\\) meters. Then fill in the ratios needed to convert seconds to hours.\n\n\\[\\dfrac{5\\text{ ft}}{1\\text{ sec}}\\times\\dfrac{0.3\\text{ meters}}{1\\text{ ft}}\\times\\dfrac{60\\text{ sec}}{1\\text{ min}}\\times\\dfrac{60\\text{ min}}{1\\text{ hr}}\\]\n\\[=\\dfrac{5{,}400\\text{ meters}}{1\\text{ hr}}\\]"
+        }
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-HE6-M-GM44",
+      "question_type": "mc",
+      "question": "At basketball practice, Jason has attempted \\(40\\) free throws so far, and \\(45\\%\\) of his shots made it in. If he attempts \\(160\\) **more** free throws, with the same amount of accuracy, by the end of practice, how many free throws will he have made in total?",
+      "options": {
+        "A": "\\(18\\)",
+        "B": "\\(45\\)",
+        "C": "\\(72\\)",
+        "D": "\\(90\\)"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "The question asks for his *total* number of successful free throws, so first find his total number of shots: \\(40+160=200\\) shots. \\(45\\%\\) of \\(200\\) is \\(0.45\\times200\\), or \\(90\\)."
+      },
+      "base_source": "Exam G — Math Q44 (GM44)",
+      "base_question": {
+        "question": "At basketball practice, Keira has attempted \\(25\\) free throws so far, and \\(36\\%\\) of her shots made it in. If she attempts \\(125\\) **more** free throws, with the same amount of accuracy, by the end of practice, how many free throws will she have made in total?",
+        "options": {
+          "A": "\\(9\\)",
+          "B": "\\(36\\)",
+          "C": "\\(45\\)",
+          "D": "\\(54\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "The question asks for her *total* number of successful free throws, so first find her total number of shots: \\(25+125=150\\) shots. \\(36\\%\\) of \\(150\\) is \\(0.36\\times150\\), or \\(54\\)."
+        }
+      },
+      "q_number": 25
+    }
+  ],
+  "ela_passages": [
+    {
+      "genre": "informational",
+      "title": "From Twigs to Tech: The Evolution of the Toothbrush",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Although your own toothbrush should not be more than three or four months old, according to the World Health Organization and the American Dental Association, toothbrushes have a history spanning thousands of years. People of today are aware that their mornings and evenings should include flossing, mouthwash, and two minutes of teeth-brushing. Last year in the United States, people spent $189 billion in the pursuit of healthy teeth. But even long before now, ancient civilizations understood that if they did not clean their teeth, they would fall out. In fact, the earliest known \"toothbrush\" was not a brush at all—it was a chew stick."
+        },
+        {
+          "num": 2,
+          "text": "Today, our electric toothbrushes do most, if not all, of the work for the toothbrusher. However, chew sticks used in ancient Babylon and Egypt required significantly more effort. First, the right twig or plant stem would be harvested and, if necessary, soaked overnight. Next, one end was broken down to separate the stick's fibers so it could reach around and between the teeth. The other end was sharpened to a narrow point. Finally, the frayed end would be used to brush buildup off the teeth. The narrow point was used to pick between the teeth. This method prevailed for thousands of years, until being replaced by the Miswak."
+        },
+        {
+          "num": 3,
+          "text": "Around 600 C.E., over 4,000 years after the known advent of chew-stick usage, the use of Miswak started spreading. Originating in the Islamic world, this type of chew stick is made from the Salvadora persica tree. It contains natural minerals such as fluoride and silica that actually help strengthen teeth and kill bacteria. Today, many people in parts of the Middle East and Africa still use the Miswak because of its natural effectiveness."
+        },
+        {
+          "num": 4,
+          "text": "It was during the Tang Dynasty (619–907 C.E.) in China that the first bristle-style, handled toothbrush was invented. The Chinese used coarse hairs from the back of a Siberian wild hog's neck. These hairs were stiff and sturdy, making them perfect for scrubbing away disease-causing plaque and tartar. The bristles were attached to handles made of bamboo or animal bone. When travelers from Europe visited China, they brought these \"bristle brushes\" back with them. However, the idea did not catch on immediately in the West. Europeans thought the hog hair was too stiff and preferred softer feathers or sponges. Unfortunately, those were not as effective at cleaning between and around teeth."
+        },
+        {
+          "num": 5,
+          "text": "For centuries, Europeans continued using linens and pastes to polish their teeth. But as the amount of carbohydrates in people's diet steadily increased, the effectiveness of linens and paste decreased. Carbohydrates convert to sugars, and the bacteria in people's mouths feed on the sugars, producing acids that eat away at the teeth's protective enamel. The materials that most of the Western world relied on for dental health were becoming outdated because they were no longer effective. There were some effective toothbrushes available, but they were handcrafted and too expensive for most people. Fortunately, an affordable new product would be heading to the market in the late 1700s."
+        },
+        {
+          "num": 6,
+          "text": "In 1780, Englishman William Addis started the first Western company to mass-produce toothbrushes. Legend says Addis was sitting in a prison cell for starting a riot. He was comparing the rags and soot used to clean teeth with the brooms sweeping the floors. He decided there had to be a better way to brush teeth. He used a small animal bone from his meal, bored tiny holes into it, and tied tufts of animal hair through with wire. Thus was born the prototype of the first toothbrush that would be mass-produced."
+        },
+        {
+          "num": 7,
+          "text": "Unfortunately, mass-produced does not mean mass-improved. The animal-hair bristles stayed wet for a long time and harbored bacteria. Everything changed in 1938 when the chemical company DuPont invented nylon. Nylon was perfect for mass-produced toothbrushes because it was cheap, its stiffness could be controlled, and it dried quickly. The modern toothbrush had arrived, but modern hygiene practices in the West had further to go."
+        },
+        {
+          "num": 8,
+          "text": "In the early 1900s, only 7% of American households were brushing their teeth. The practice was often dismissed as a luxury or unnecessary. It was not until after World War II that oral hygiene became a major priority. U.S. soldiers were required to brush their teeth twice a day to prevent dental infections. When the soldiers returned home, they brought this habit with them. This sparked a nationwide trend in the United States that continues to this day."
+        }
+      ],
+      "passage_figure_html": "<table style=\"border-collapse:collapse;width:100%;margin:8px 0;font-size:0.85em;\"><caption style=\"font-weight:700;text-align:left;margin-bottom:6px;\">A Brief History of Dental Powder</caption><thead><tr><th style=\"border:1px solid #999;padding:4px 8px;background:#eee;text-align:left;\">Date</th><th style=\"border:1px solid #999;padding:4px 8px;background:#eee;text-align:left;\">Region</th><th style=\"border:1px solid #999;padding:4px 8px;background:#eee;text-align:left;\">Dental Powder Ingredients</th></tr></thead><tbody><tr><td style=\"border:1px solid #999;padding:4px 8px;\">c. 5000 B.C.E.</td><td style=\"border:1px solid #999;padding:4px 8px;\">Ancient Egypt</td><td style=\"border:1px solid #999;padding:4px 8px;\">Crushed eggshells, pumice, myrrh, and burned ox hooves</td></tr><tr><td style=\"border:1px solid #999;padding:4px 8px;\">c. 600 C.E.</td><td style=\"border:1px solid #999;padding:4px 8px;\">Ancient China</td><td style=\"border:1px solid #999;padding:4px 8px;\">Salts, mint, and ginseng</td></tr><tr><td style=\"border:1px solid #999;padding:4px 8px;\">c. 1700</td><td style=\"border:1px solid #999;padding:4px 8px;\">Europe</td><td style=\"border:1px solid #999;padding:4px 8px;\">Burnt bread, resin, and cinnamon</td></tr><tr><td style=\"border:1px solid #999;padding:4px 8px;\">1800s</td><td style=\"border:1px solid #999;padding:4px 8px;\">United States</td><td style=\"border:1px solid #999;padding:4px 8px;\">Crushed charcoal, chalk, salts, mint, and/or cinnamon</td></tr></tbody></table>",
+      "questions": [
+        {
+          "id": "ER01",
+          "q_number": 1,
+          "question_type": "mc",
+          "question": "The author's use of sequence in paragraphs 2 and 3 contributes to the development of ideas in the passage by",
+          "options": {
+            "A": "describing the invention of the toothbrush and its widespread use throughout Europe.",
+            "B": "comparing the effectiveness of the chew stick to that of the Miswak.",
+            "C": "explaining how the chew stick was eventually replaced by the modern toothbrush.",
+            "D": "listing the locations and refinements of the earliest known examples of teeth-cleaning tools."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: Paragraphs 2 and 3 describe the chew stick used in Babylon and Egypt, then the Miswak that originated in the Islamic world and spread to the Middle East and Africa — a sequence of early teeth-cleaning tools and where they were refined and used. (D) is correct."
+          }
+        },
+        {
+          "id": "ER02",
+          "q_number": 2,
+          "question_type": "mc",
+          "question": "Miswaks are considered particularly effective for cleaning teeth because",
+          "options": {
+            "A": "the trees from which they are made have naturally occurring fluoride and silica that help keep teeth clean and healthy.",
+            "B": "many regions throughout the Middle East and Africa still make and use a form of the Miswak.",
+            "C": "use of the Salvadora persica tree was restricted to the upper class and merchants who could afford to hand-craft their own chew sticks.",
+            "D": "people in any place in the world were able to quickly and safely make themselves a Miswak with few tools."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Use your passage Roadmap to help direct you to the answer. Paragraph 3 explains that the Miswak has minerals that helped teeth. Specifically, the tree from which they are made has \"minerals such as fluoride and silica that . . . strengthen teeth and kill bacteria.\" Use this and match to (A), the correct answer. (B) is a Misused Detail. Though accurate, this choice does not explain why Miswaks are \"particularly effective.\" (C) is Out of Scope; there is no mention of Miswak being class-specific. (D) is also Out of Scope. While paragraph 2 describes how to make a general chew stick, the passage does not discuss how easy it is to make a Miswak specifically."
+          }
+        },
+        {
+          "id": "ER03",
+          "q_number": 3,
+          "question_type": "mc",
+          "question": "How does paragraph 8 fit into the overall structure of the passage?",
+          "options": {
+            "A": "It introduces the concept of wartime influence on cultural practices in the United States.",
+            "B": "It presents a short timeline of toothbrushing practices in the United States after 1900.",
+            "C": "It creates a sense of urgency that shows how desperate people were to improve their dental hygiene in the early 1900s.",
+            "D": "It summarizes the detailed history provided of the toothbrush that we use today."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: Since the stem contains the phrase \"overall structure,\" this is a Global question, and the Main Idea in your Roadmap will be a helpful tool. The passage is about the history of the toothbrush and the long time it took to arrive in the West. Paragraph 8 is about how toothbrushing became more common in the U.S. after World War II. Use this to form a prediction. (B) correctly identifies that the paragraph gives the history of toothbrushing in the U.S. since the early 1900s: few people brushed, soldiers brushed during WWII, soldiers brought the practice home, and the practice spread. (A) is incorrect because, while it is accurate, it does not connect to the \"overall structure\" of the passage, which emphasizes the toothbrush's history. Furthermore, \"cultural practices in the United States\" is far too broad to refer to tooth care only. (C) is Opposite. The passage states that people \"dismissed\" teethbrushing. (D) is incorrect because it is Out of Scope. The paragraph does not summarize the entire history of the toothbrush, only toothbrushing in the U.S. since 1900."
+          }
+        },
+        {
+          "id": "ER04",
+          "q_number": 4,
+          "question_type": "mc",
+          "question": "Which sentence best summarizes the evolution of the toothbrush as it is described in the passage?",
+          "options": {
+            "A": "The first documented chew sticks, made from the Salvadora persica tree, originated in Babylon and Egypt; the Miswak, from the Islamic world, is still used in the Middle East and Africa; during the Tang Dynasty in China, bristle-and-handled toothbrushes were made; and, finally, hand-crafted toothbrushes were all that was used in Europe before the 1700s.",
+            "B": "The chew stick, first originating in the Islamic world, was made from a tree with naturally teeth-protecting minerals; the Miswak was a stick first found in Babylon and Egypt and is currently still used in some regions; in China, toothbrushes were made with bristles and carved from animal bones; and lastly, Europe relied on linens and toothpowder before the 1700s.",
+            "C": "First documented in Babylon and Egypt, the chew stick was made from twigs or plants; the Miswak, made from the Salvadora persica tree, succeeded the chew stick and is still used in the Middle East and Africa; in China, during the Tang Dynasty, toothbrushes were made from boar hair and animal bone; and finally, mass-produced toothbrushes began gaining popularity in the Western world.",
+            "D": "During the Tang Dynasty in China, the first bristle-and-handled toothbrushes were produced; the first documented chew sticks were whittled from twigs or plants in ancient Babylon and Egypt; the Islamic Miswak came next, made from pieces of the Salvadora persica tree; and eventually, mass-produced toothbrushes gained popularity."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Inference\nGetting to the Answer: For questions summarizing parts of a passage, reference your Roadmap to help you briskly eliminate the incorrect choices. Eliminate (A) because it is the Miswak that is made from the Salvadora persica tree, and hand-carved toothbrushes weren't \"all that were used in Europe.\" Eliminate (B) because the first chew sticks were found in Babylon and Egypt, while the Miswak originated in the Islamic world. (C) correctly summarizes the passage. On test day, select that choice with confidence and move on. But for reference, note that (D) is incorrect because it places the developments out of order, incorrectly placing the Tang Dynasty toothbrush as earliest."
+          }
+        },
+        {
+          "id": "ER05",
+          "q_number": 5,
+          "question_type": "mc_multi",
+          "question": "Which two sentences from the passage support the idea that teeth cleaning is effectively done with bristles? Select the two correct answers.",
+          "options": {
+            "A": "\"People of today are aware that their mornings and evenings should include flossing, mouthwash, and two minutes of teeth-brushing.\" (paragraph 1)",
+            "B": "\"Finally, the frayed end would be used to brush buildup off the teeth.\" (paragraph 2)",
+            "C": "\"These hairs were stiff and sturdy, making them perfect for scrubbing away disease-causing plaque and tartar.\" (paragraph 4)",
+            "D": "\"The materials that most of the Western world relied on for dental health were becoming outdated because they were no longer effective.\" (paragraph 5)",
+            "E": "\"The animal-hair bristles stayed wet for a long time and harbored bacteria.\" (paragraph 7)"
+          },
+          "correct": [
+            "B",
+            "C"
+          ],
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: This question is asking for two details from the passage that best support the idea that cleaning your teeth with bristles is effective. Eliminate the first quote (\"People of today...\") from paragraph 1, which focuses on the entire process of teeth cleaning and not on bristles. The second quote (\"Finally, the frayed...\") correctly supports the idea that bristles effectively brush off buildup on the teeth. Similarly, the third quote (\"These hairs were stiff...\") correctly references how bristles are \"perfect\" for cleaning. The fourth quote (\"The materials...\") refers to practices other than brushing with bristles (linens and pastes), and the fifth quote (\"The animal-hair...\") is Opposite, showing a way that bristles are not effective."
+          }
+        },
+        {
+          "id": "ER06",
+          "q_number": 6,
+          "question_type": "mc",
+          "question": "Read these sentences from paragraph 1.\n\"Although your own toothbrush should not be more than three or four months old, according to the World Health Organization and the American Dental Association, toothbrushes have a history spanning thousands of years.\"\nHow does this sentence contribute to the development of ideas in the passage?",
+          "options": {
+            "A": "It establishes a contrast between modern dental guidance and the long, evolving history of the toothbrush that the passage goes on to describe.",
+            "B": "It proves that ancient toothbrushes were just as effective as modern toothbrushes.",
+            "C": "It argues that the World Health Organization's recommendations have changed very little over the history of the toothbrush.",
+            "D": "It suggests that people today replace their toothbrushes too infrequently compared to ancient practices."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The opening sentence contrasts a short, modern timeframe (three or four months) with a long historical span (thousands of years), setting up the passage's chronological account of the toothbrush's evolution. (A) matches this prediction."
+          }
+        },
+        {
+          "id": "ER07",
+          "q_number": 7,
+          "question_type": "mc",
+          "question": "Which detail from the passage best supports the idea that the invention of nylon was a turning point for the toothbrush?",
+          "options": {
+            "A": "\"In 1780, Englishman William Addis started the first Western company to mass-produce toothbrushes.\" (paragraph 6)",
+            "B": "\"The animal-hair bristles stayed wet for a long time and harbored bacteria.\" (paragraph 7)",
+            "C": "\"Everything changed in 1938 when the chemical company DuPont invented nylon.\" (paragraph 7)",
+            "D": "\"In the early 1900s, only 7% of American households were brushing their teeth.\" (paragraph 8)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: Paragraph 7 directly signals a turning point with the phrase \"Everything changed in 1938 when the chemical company DuPont invented nylon,\" explaining that nylon solved the bacteria problem of animal-hair bristles. (C) is correct."
+          }
+        }
+      ]
+    },
+    {
+      "genre": "fiction",
+      "title": "My First Football Match",
+      "author": "Talbot Baines Reed",
+      "citation": "Excerpt adapted from Parkhurst Days by Talbot Baines Reed",
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "It was a proud moment in my existence when Wright, captain of our football club, came up to me in school one Friday and said, \"Adams, your name is down to play in the match against Craven tomorrow.\""
+        },
+        {
+          "num": 2,
+          "text": "I could have knighted him on the spot. To be one of the picked \"fifteen,\" whose glory it was to fight the battles of their school, had been the leading ambition of my life—I suppose I ought to be ashamed to confess it—ever since, as a little chap of ten, I entered Parkhurst six years ago. Every Saturday had seen me either looking on at some big match, or more often still scrimmaging about with a score or so of other juniors in a scratch game. But for a long time, do what I would, I always seemed as far as ever from the coveted goal, and was half despairing of ever rising to win my \"first fifteen cap.\" Lately, however, I had noticed Wright and a few others of our best players more than once lounging about where we juniors used to play, evidently taking observations with an eye to business. Under the awful gaze of these heroes, need I say I exerted myself as I had never done before? Did I care for hacks or bruises, if I could distinguish myself in their eyes? And never was music sweeter than the occasional \"Bravo, young 'un!\" with which some of them would applaud any special feat of skill or daring."
+        },
+        {
+          "num": 3,
+          "text": "So I knew my time was coming at last, and only hoped it would arrive before the day of the Craven match, the great match of our season—always looked forward to as the event of the Christmas term, when victory was regarded by us boys as the summit of all human glory, and defeat as an overwhelming disgrace."
+        },
+        {
+          "num": 4,
+          "text": "It will therefore be understood why I was almost beside myself with delight when, the very day before the match, Wright made the announcement I have referred to."
+        },
+        {
+          "num": 5,
+          "text": "I scarcely slept a wink that night for dreaming of the wonderful exploits which were to signal my first appearance—how I was to run the ball from one end of the field to the other, overturning, dodging, and distancing every one of the enemy, finishing up with a brilliant and mighty kick over the goal. After which I was to have my broken limbs set by a doctor on the spot, to receive a perfect ovation from friend and foe, to be carried round the field, to be the \"lion\" at the supper afterwards, and finally to have a whole column of the Times devoted to my exploits! What glorious creatures we are in our dreams!"
+        },
+        {
+          "num": 6,
+          "text": "Well, the eventful day dawned at last. It was a holiday at Parkhurst, and as fine a day as any one could wish."
+        },
+        {
+          "num": 7,
+          "text": "As I made my appearance, wearing the blue-and-red jersey of a \"first fifteen man\" under my jacket, I found myself quite an object of veneration among the juniors who had lately been my peers, and I accepted their homage with a vast amount of condescension. Nothing was talked of during the morning but the coming match. Would the Craven fellows turn up a strong team? Would that fellow Slider, who made the tremendous run last year, play for them again this year? Would Wright select the chapel end of the field or the other, if we won the choice? How were we off behind the scrimmage?"
+        },
+        {
+          "num": 8,
+          "text": "\"Is Adams to be trusted?\" I heard one voice ask."
+        },
+        {
+          "num": 9,
+          "text": "Two or three small boys promptly replied, \"Yes\"; but the seniors said nothing, except Wright, who took the opportunity of giving me a little good advice in private."
+        },
+        {
+          "num": 10,
+          "text": "\"Look here, Adams; you are to play half-back, you know. All you've got to take care of is to keep cool, and never let your eyes go off the ball. You know all the rest.\""
+        },
+        {
+          "num": 11,
+          "text": "A lecture half an hour long could not have made a greater impression. I remembered those two hints, \"Keep cool, and watch the ball,\" as long as I played football, and I would advise every half-back to take them to heart in like manner."
+        }
+      ],
+      "questions": [
+        {
+          "id": "ER35",
+          "q_number": 8,
+          "question_type": "mc",
+          "question": "Read these sentences from the excerpt.\n\"It was a proud moment in my existence when Wright, captain of our football club, came up to me in school one Friday and said, 'Adams, your name is down to play in the match against Craven tomorrow.'\" (paragraph 1)\n\"Under the awful gaze of these heroes, need I say I exerted myself as I had never done before?\" (paragraph 2)\nThe sentences help develop a central idea of the excerpt by",
+          "options": {
+            "A": "showing that hard work is not always recognized by others.",
+            "B": "revealing that it can be difficult to perform well while someone else is evaluating you.",
+            "C": "illustrating that practice does not always result in a strong performance.",
+            "D": "suggesting that perseverance in the face of difficulties is rewarding."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: The question asks about a central idea of the excerpt, so this is a Global question. Start by using your Roadmap to review the Theme and the overall tone of the excerpt. The tone is positive, as the excerpt recalls the narrator's excitement at being selected for his school's football team. Now consider the sentences from the excerpt. The first indicates how \"proud\" the narrator feels when he is told he's been chosen to play in the football match. The second describes how hard the narrator worked while the football players were watching. Predict that the narrator's hard work in the practice games has paid off, since he's been selected to play in the big match. Choice (D) is correct. A central idea of the excerpt is that the narrator fulfilled his dream of playing on the team through his hard work.\n(A) is incorrect because it is Opposite. Although some seniors fail to support the narrator in paragraph 9, the sentence in the question from paragraph 1 shows the narrator's success in being selected for the team. (B) is incorrect because the difficulty of performing well while being evaluated is not a central idea of the excerpt. (C) is incorrect because the idea that practice may not lead to success is not a central idea of the passage."
+          }
+        },
+        {
+          "id": "ER36",
+          "q_number": 9,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 2.\n\"Lately, however, I had noticed Wright and a few others of our best players more than once lounging about where we juniors used to play, evidently taking observations with an eye to business.\"\nThis sentence helps develop the plot by establishing that the narrator",
+          "options": {
+            "A": "believed that the older players were ready to add younger players to the football team.",
+            "B": "thought the football players were relaxing when they came to watch the practice game.",
+            "C": "resented the older players interfering with the younger players' game.",
+            "D": "disliked being observed by the older players, who then commented on the game."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The question asks how a sentence from the excerpt contributes to the plot, so this is a Function question. Use your Roadmap to help you recall the plot of the story: the narrator is chosen for the football team, recalls the other players watching him practice, and on the day of the game realizes some of the players doubt him, but the captain gives him good advice. Now, read the sentence in the question and connect it to the plot. The sentence describes the narrator noticing the captain and best players on the football team watching the juniors' practice game. The narrator uses the expression \"with an eye to business\" to suggest that the older players were watching the game to choose new players to join the school team. This prediction matches (A), the correct answer. As a result of these observations, the narrator is chosen to play in the big game against Craven.\n(B) is incorrect because it is a Distortion. Although the sentence says the older players were \"lounging about,\" the narrator thinks they had \"an eye to business\" for observing the players and were not simply \"relaxing.\" (C) and (D) are Distortions. Nothing in the sentence has a negative tone, so there's no evidence the narrator \"resents\" (C) or \"dislikes\" (D) the actions of the older players. Rather, he plays hard to impress them and considers their praise to be \"sweet\" music."
+          }
+        },
+        {
+          "id": "ER37",
+          "q_number": 10,
+          "question_type": "mc",
+          "question": "Read this sentence from paragraph 2.\n\"Under the awful gaze of these heroes, need I say I exerted myself as I had never done before?\"\nHow does the phrase 'awful gaze' contribute to the meaning of the excerpt?",
+          "options": {
+            "A": "It emphasizes the fear and intimidation the narrator feels because he thinks the senior players are judging him harshly.",
+            "B": "It highlights the deep respect and intense pressure the narrator feels while being observed by players he greatly admires.",
+            "C": "It suggests that the senior players are angry and displeased with the way the junior students are playing the game.",
+            "D": "It indicates that the narrator is distracted from the game because he is worried about the physical appearance of the older boys."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Function\nGetting to the Answer: The question asks how a phrase contributes to the excerpt, so this is a Function question. Start by recalling the Theme of the passage: the narrator is excited about being chosen to play for the big football match. Now reread the sentence and consider the meaning of the phrase. In context, \"awful\" is used in its sense meaning \"inspiring awe or wonder.\" The narrator refers to the senior players as \"heroes.\" The \"awful gaze\" is the weight of their attention; because he admires them so much, their observation feels heavy and significant, pushing him to exert himself more than ever before to win their approval and be selected for the team. Match this prediction to (B), the correct answer.\nChoice (A) is incorrect because it is a Distortion. The narrator is not afraid of the players in a negative way; he is eager to \"distinguish [him]self in their eyes.\" Choice (C) is also a Distortion. The text states the seniors were \"evidently taking observations with an eye to business,\" meaning they were scouting the juniors' talent, not watching with anger or displeasure. Choice (D) is Opposite. The narrator is not distracted; rather, the seniors' presence makes him more focused and determined to play better."
+          }
+        },
+        {
+          "id": "ER38",
+          "q_number": 11,
+          "question_type": "mc",
+          "question": "How does paragraph 2 contribute to the development of a central idea of the excerpt?",
+          "options": {
+            "A": "It establishes that the narrator's desire for athletic success is rooted in a long-standing personal commitment rather than a sudden whim.",
+            "B": "It provides a detailed history of the Parkhurst school's football team to explain why the match against Craven is so important.",
+            "C": "It reveals that the narrator is more interested in the praise of his peers than in making it onto Parkhurst's football team.",
+            "D": "It argues that the junior players are better athletes than the senior \"first fifteen\" players who observe them."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: The question asks for the contribution of a paragraph to the central idea, so this is a Global question. Start by recalling the Theme: the narrator is excited about being chosen to play for the big game. Now review your Roadmap note for paragraph 2. The paragraph describes the narrator's long-standing dream, ever since he was \"a little chap of ten,\" to become a member of the football team and his hard work in practice games. Match this prediction to the choices. Choice (A) is correct. The paragraph details that being part of the team has been the \"leading ambition\" of the narrator's life for six years. This supports the central idea that the narrator's identity and sense of purpose are deeply tied to his long-term pursuit of athletic recognition.\n(B) is incorrect because it is Out of Scope. The paragraph focuses on the narrator's personal history and efforts, not the institutional history of the school or the team. (C) is a Distortion. Although the narrator appreciates the \"sweet music\" of the seniors' applause, the paragraph indicates the narrator's \"leading ambition\" is to actually make the team. The praise is a motivating factor, but making the team and actually becoming part of the group he admires is the ultimate goal. (D) is Opposite. The narrator refers to the seniors as \"heroes\" and \"best players,\" clearly placing them above the juniors in terms of skill and status."
+          }
+        },
+        {
+          "id": "ER39",
+          "q_number": 12,
+          "question_type": "mc",
+          "question": "Read paragraph 3.\n\"So I knew my time was coming at last, and only hoped it would arrive before the day of the Craven match, the great match of our season—always looked forward to as the event of the Christmas term, when victory was regarded by us boys as the summit of all human glory, and defeat as an overwhelming disgrace.\"\nThe paragraph helps develop a theme of the excerpt by",
+          "options": {
+            "A": "suggesting that patience is usually necessary for success.",
+            "B": "emphasizing that the circumstances of some events contribute to our emotional reactions.",
+            "C": "implying that the effort required for meeting greater challenges leads to greater success.",
+            "D": "demonstrating the importance of holiday celebrations for building community."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Global\nGetting to the Answer: The question asks how a paragraph in the text contributes to a Theme of the excerpt, so this is a Global question. Start by refreshing your memory of the Theme: the narrator is very excited to be chosen to play in his school's big game. Now, put the main idea of paragraph 3 into your own words. The paragraph explains that the narrator is so eager to play in the match against Craven because it is considered a very important game. Keep all these ideas in mind as you evaluate the choices.\nEliminate (A) as Out of Scope. The narrator says his time \"was coming at last,\" but patience is not emphasized in the paragraph. Choice (B) is correct. The narrator's description of winning this particular game as \"the summit of all human glory\" emphasizes the Theme of how excited he is to be playing in it. (C) is incorrect because the paragraph identifies that the game is considered very important, but it does not reflect the idea of needing more \"effort\" to meet harder challenges. (D) is a Distortion. The paragraph mentions that the game occurs around Christmas, but \"building community\" through \"holiday celebrations\" is not a Theme of the excerpt."
+          }
+        },
+        {
+          "id": "ER40",
+          "q_number": 13,
+          "question_type": "mc",
+          "question": "The question asked in paragraph 8 creates tension in the excerpt by causing the narrator to feel",
+          "options": {
+            "A": "unsure of his ability to perform in the game.",
+            "B": "thrilled to play in the game despite criticism.",
+            "C": "irritation that his ability is questioned.",
+            "D": "fear that the captain will select Slider to play instead of him."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_text": "Category: Inference\nGetting to the Answer: The question asks you to interpret how a character feels based on an event in the excerpt, so this is an Inference question. In paragraph 8, an unnamed person asks if Adams (the narrator) can be \"trusted.\" In other words, the person asks if the narrator is good enough to play in the game. The narrator's response is not given, so base your prediction on what happens next. The captain speaks to the narrator privately, away from the offending question. In addition, the captain encourages the narrator with some simple advice and tells him \"You know all the rest.\" Predict that if the captain thought the narrator needed to be encouraged, the captain likely sensed that the narrator was doubting his ability to perform well in the game. Matching this prediction to the choices yields (A), the correct answer.\nNone of the remaining choices are supported by the excerpt. If the narrator was still feeling only \"thrilled\" (B), the captain would not have seen a need to offer private encouragement. (C) is incorrect because there is no evidence to support that the narrator felt \"irritation.\" Further, this negative word is too strong for the overall positive tone of the excerpt. (D) is a Distortion. Paragraph 7 indicates that Slider plays for Craven."
+          }
+        },
+        {
+          "id": "ER41",
+          "q_number": 14,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best describes the reaction of the narrator's friends to his being selected for the team?",
+          "options": {
+            "A": "\"'To be one of the picked \"fifteen,\"' whose glory it was to fight the battles of their school, had been the leading ambition of my life—I suppose I ought to be ashamed to confess it—ever since, as a little chap of ten, I entered Parkhurst six years ago.\" (paragraph 2)",
+            "B": "\"As I made my appearance, wearing the blue-and-red jersey of a 'first fifteen man' under my jacket, I found myself quite an object of veneration among the juniors who had lately been my peers, and I accepted their homage with a vast amount of condescension.\" (paragraph 7)",
+            "C": "\"'Is Adams to be trusted?' I heard one voice ask.\" (paragraph 8)",
+            "D": "\"Two or three small boys promptly replied, 'Yes'; but the seniors said nothing, except Wright, who took the opportunity of giving me a little good advice in private.\" (paragraph 9)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: The question asks for a quotation from the excerpt to support an idea, so this is a Detail question. Read the question carefully and put it into your own words. The sentence must describe what the narrator's friends thought about him being chosen to play in the important football game. Evaluate the answer choices, looking for the one that indicates the opinion of the narrator's friends.\nEliminate (A). This quotation reflects the narrator's view, not the view of his friends. Choice (B) is correct. The narrator is \"an object of veneration among the juniors who had lately been my peers,\" which means he is now highly respected by his classmates. Eliminate (C). This is the view of only one person, and it is unclear if that person is a friend of the narrator. Eliminate (D). While some \"small boys\" (younger students) speak up for the narrator, this choice also includes the silence of the \"seniors\" (older students). Neither group represents the narrator's \"peers\" or immediate circle of friends as clearly as correct answer (B) does."
+          }
+        },
+        {
+          "id": "ER42",
+          "q_number": 15,
+          "question_type": "mc",
+          "question": "Which detail from the excerpt best supports the idea that the narrator is aware that his fantasies can be unrealistic?",
+          "options": {
+            "A": "\"'To be one of the picked \"fifteen,\"' whose glory it was to fight the battles of their school, had been the leading ambition of my life—I suppose I ought to be ashamed to confess it—ever since, as a little chap of ten, I entered Parkhurst six years ago.\" (paragraph 2)",
+            "B": "\"What glorious creatures we are in our dreams!\" (paragraph 5)",
+            "C": "\"I found myself quite an object of veneration among the juniors who had lately been my peers, and I accepted their homage with a vast amount of condescension.\" (paragraph 7)",
+            "D": "\"Would Wright select the chapel end of the field or the other, if we won the choice? How were we off behind the scrimmage?\" (paragraph 7)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_text": "Category: Detail\nGetting to the Answer: The question asks for a quotation from the excerpt that supports an idea, so this is a Detail question. Start by putting the idea in the question into your own words. The correct answer will show that the narrator knows he has unrealistic thoughts in his fantasies. Keep this idea firmly in mind as you evaluate the choices.\nEliminate (A). This choice describes the narrator's ambition of playing for the team. Although he exaggerates this ambition by describing it as \"fight[ing] the battles\" of the school, making the team is a realistic goal. Further, the narrator doesn't acknowledge the exaggeration he's making. (B) is correct. The narrator acknowledges that our thoughts in dreams can make us seem \"glorious.\" In the previous sentence, he describes several unrealistic fantasies about playing for the game, such as having broken bones fixed on the field and having a long story written about him in the newspaper. His comment that we are \"glorious\" in our dreams shows he is aware these ideas are figments of his imagination rather than realistic expectations. (C) is incorrect because it describes the narrator's actual experience on the morning of the game. It focuses on the real social status he has gained among the other juniors, not on a fantasy he knows is unrealistic. (D) is incorrect because it reflects practical, tactical questions being asked by the boys before the match rather than the narrator's grand, unrealistic imagination."
+          }
+        }
+      ]
+    },
+    {
+      "genre": "poem",
+      "title": "Ode to Fireworks",
+      "author": null,
+      "citation": null,
+      "lines": [
+        {
+          "num": 1,
+          "text": "In autumn my mother drove us to the edge of the field"
+        },
+        {
+          "num": null,
+          "text": "where the fair was set up year after year:"
+        },
+        {
+          "num": null,
+          "text": "the carousel, the bumper cars, the long, low sheds"
+        },
+        {
+          "num": null,
+          "text": "filled with prizewinning animals."
+        },
+        {
+          "num": 5,
+          "text": "We—my sister, my cousin, and I—were ready for bed,"
+        },
+        {
+          "num": null,
+          "text": "already in our pajamas. This was a treat we waited"
+        },
+        {
+          "num": null,
+          "text": "all year for. We waited in the darkness"
+        },
+        {
+          "num": null,
+          "text": "for the first low, dull thwumps, like someone"
+        },
+        {
+          "num": null,
+          "text": "beating an old, filthy rug hung on a wash line."
+        },
+        {
+          "num": 10,
+          "text": "Then we counted the seconds between the lightning"
+        },
+        {
+          "num": null,
+          "text": "and thunder, as we also used to do, until the sky"
+        },
+        {
+          "num": null,
+          "text": "lit up: red, blue, green, gold. In my mind’s eye"
+        },
+        {
+          "num": null,
+          "text": "I can still see the straggly, ancient oak whose branches"
+        },
+        {
+          "num": null,
+          "text": "reached up past the exhibition halls, silhouetted"
+        },
+        {
+          "num": 15,
+          "text": "against the spectrum of stars that cascaded behind it."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 16,
+          "text": "It was one thing to look up into the sky"
+        },
+        {
+          "num": null,
+          "text": "and imagine yourself in it or to make out pictures"
+        },
+        {
+          "num": null,
+          "text": "among the clouds, which my sister liked to do."
+        },
+        {
+          "num": null,
+          "text": "No, I would tell her, that cloud"
+        },
+        {
+          "num": 20,
+          "text": "does not look like an elephant, a hat, an umbrella."
+        },
+        {
+          "num": null,
+          "text": "But it was another thing to see"
+        },
+        {
+          "num": null,
+          "text": "the sky at night written upon"
+        },
+        {
+          "num": null,
+          "text": "with those jewels. (We lived in the country:"
+        },
+        {
+          "num": null,
+          "text": "night was night.) All around us, crickets"
+        },
+        {
+          "num": 25,
+          "text": "stridulated in the stubble of what had been"
+        },
+        {
+          "num": null,
+          "text": "somebody’s cornfield, their song rising and falling."
+        },
+        {
+          "num": null,
+          "text": "You could smell winter on the air’s edge."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": 28,
+          "text": "Now, in the city, when the sky dips into shadow"
+        },
+        {
+          "num": null,
+          "text": "at New Year’s or on the Fourth of July, I find myself"
+        },
+        {
+          "num": 30,
+          "text": "craning my neck upward at odd moments."
+        },
+        {
+          "num": null,
+          "text": "The city sky is always lit up. This is where we live now,"
+        },
+        {
+          "num": null,
+          "text": "and it is how we live now, awash in light"
+        },
+        {
+          "num": null,
+          "text": "of every hue. Everything is a constant celebration:"
+        },
+        {
+          "num": null,
+          "text": "picking up washing at the cleaner’s or stopping by"
+        },
+        {
+          "num": 35,
+          "text": "the corner market for a loaf of heavy bread."
+        },
+        {
+          "num": null,
+          "text": "And the music around me is the music of people,"
+        },
+        {
+          "num": null,
+          "text": "their voices rising and falling in a hundred languages."
+        },
+        {
+          "num": null,
+          "text": "But beneath the yellowish glow deep in the sky"
+        },
+        {
+          "num": null,
+          "text": "of all our city lights pelting out into the universe,"
+        },
+        {
+          "num": 40,
+          "text": "I remember the feel of the pickup truck bumping"
+        },
+        {
+          "num": null,
+          "text": "across the ridged field, as I kept waiting for those"
+        },
+        {
+          "num": null,
+          "text": "childhood bursts, watching as they escorted us home."
+        }
+      ],
+      "questions": [
+        {
+          "id": "DR35",
+          "q_number": 16,
+          "question_type": "mc",
+          "question": "The comparison in lines 8-9 of the poem is used to convey",
+          "options": {
+            "A": "the muffled pounding of explosions in the distance.",
+            "B": "the way lightning streaks through the clouds.",
+            "C": "the echoes of thunder on an autumn night.",
+            "D": "the glow of sparks falling from the sky."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR36",
+          "q_number": 17,
+          "question_type": "mc",
+          "question": "Read lines 22-23 from the poem.\n\nthe sky at night written upon\nwith those jewels.\n\nWhat does the word choice in these lines convey about the speaker?",
+          "options": {
+            "A": "The speaker values material possessions.",
+            "B": "The speaker imagines that the fireworks are magical.",
+            "C": "The speaker believes that the country setting is distinctive.",
+            "D": "The speaker cherishes the memory of seeing fireworks as a child."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR37",
+          "q_number": 18,
+          "question_type": "mc",
+          "question": "How does the second stanza (lines 16-27) contribute to the development of a central idea in the poem?",
+          "options": {
+            "A": "It shows that the speaker preferred looking at clouds rather than fireworks.",
+            "B": "It emphasizes the contrast between the speaker's imagination and reality.",
+            "C": "It demonstrates how the natural darkness of the countryside made the fireworks more vivid.",
+            "D": "It explains why the speaker's sister was afraid of the dark."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR38",
+          "q_number": 19,
+          "question_type": "mc",
+          "question": "What is the purpose of the repeated words “rising and falling” in lines 26 and 37?",
+          "options": {
+            "A": "to emphasize the unpredictable nature of fireworks",
+            "B": "to connect the sounds of nature in the countryside to the sounds of people in the city",
+            "C": "to show that the speaker prefers the city to the countryside",
+            "D": "to contrast the stillness of the countryside with the chaos of the city"
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR39",
+          "q_number": 20,
+          "question_type": "mc",
+          "question": "Read lines 41-42 from the poem.\n\nI remember the feel of the pickup truck bumping\nacross the ridged field, as I kept waiting for those\n\nHow does this memory affect the speaker?",
+          "options": {
+            "A": "It makes the speaker feel nostalgic for the simplicity of childhood.",
+            "B": "It causes the speaker to feel disconnected from the present.",
+            "C": "It reminds the speaker of a frightening experience.",
+            "D": "It connects the speaker's childhood anticipation to present-day city life."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_D/"
+        },
+        {
+          "id": "DR40",
+          "q_number": 21,
+          "question_type": "mc",
+          "question": "The fireworks in the poem represent the speaker’s",
+          "options": {
+            "A": "desire to return to the countryside.",
+            "B": "enduring connection between childhood wonder and present-day life.",
+            "C": "fear of losing touch with nature.",
+            "D": "preference for city celebrations over rural ones."
+          },
+          "correct": "B",
+          "source_screenshot": "Problems/ELA_D/"
+        }
+      ]
+    },
+    {
+      "genre": "informational",
+      "title": "New York City and the Hudson Valley Brickmaking Industry",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick."
+          },
+          {
+            "num": 2,
+            "text": "Indeed, one author described the bricks that make up some of New York City’s most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as “an inescapable presence.”"
+          },
+          {
+            "num": 3,
+            "text": "Nearly 65 million people visit New York City every year to see these and other attractions."
+          },
+          {
+            "num": 4,
+            "text": "Why was so much brick used in buildings constructed during the century before World War II?"
+          },
+          {
+            "num": 5,
+            "text": "The answer involves an explosion in New York City’s population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany."
+          },
+          {
+            "num": 6,
+            "text": "When demand later declined, the industry would entirely disappear."
+          }
+        ],
+        [
+          {
+            "num": 7,
+            "text": "New York City’s appetite for brick was fueled by surging population and demand for safer building materials."
+          },
+          {
+            "num": 8,
+            "text": "The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later."
+          },
+          {
+            "num": 9,
+            "text": "Following large, destructive fires in the 1830s, the city had enacted laws requiring the use of fire-resistant materials."
+          },
+          {
+            "num": 10,
+            "text": "Bricks turned out to be an inexpensive way for builders to quickly throw together a lot of structures while keeping building owners and safety inspectors happy."
+          }
+        ],
+        [
+          {
+            "num": 11,
+            "text": "The brickmaking industry in the Hudson Valley skyrocketed."
+          },
+          {
+            "num": 12,
+            "text": "At the industry’s peak, approximately 130 brick factories crammed themselves into a 120-mile stretch along the Hudson River."
+          },
+          {
+            "num": 13,
+            "text": "These factories employed much of the region’s population."
+          },
+          {
+            "num": 14,
+            "text": "Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City."
+          },
+          {
+            "num": 15,
+            "text": "Even though the factories operated only during the summers, their production was immense."
+          },
+          {
+            "num": 16,
+            "text": "Hudson Valley factories shipped over a billion bricks on barges down the river to New York City annually."
+          },
+          {
+            "num": 17,
+            "text": "In fact, The New York Times declared, “It’s fairly safe to assume that any brick building constructed between 1800 and 1950 includes some form of sediment from the banks of the Hudson River.”"
+          }
+        ],
+        [
+          {
+            "num": 18,
+            "text": "History has proven, however, that boom times eventually end."
+          },
+          {
+            "num": 19,
+            "text": "Shifting architectural trends halted not only the Hudson Valley’s brickmaking boom, but its entire industry."
+          },
+          {
+            "num": 20,
+            "text": "Starting early in the twentieth century, architects and builders increasingly favored steel, glass, and concrete instead of brick."
+          },
+          {
+            "num": 21,
+            "text": "By 1979, reduced demand for brick had driven every Hudson Valley brick factory out of business."
+          }
+        ],
+        [
+          {
+            "num": 22,
+            "text": "The Hudson Valley’s brickmaking legacy lives on in the architecture of New York City."
+          },
+          {
+            "num": 23,
+            "text": "Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers."
+          },
+          {
+            "num": 24,
+            "text": "The brick buildings surrounding New Yorkers today serve as a reminder that, as one amateur brick historian put it, “The skyline of New York City used to be the landscape of the Hudson River Valley.”"
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "CR44",
+          "q_number": 22,
+          "question_type": "mc",
+          "question": "Which revision of sentence 10 would **best** maintain the style established in the passage?",
+          "options": {
+            "A": "Builders turned to brick, which was an affordable material that met safety standards while satisfying the city’s large demand for buildings.",
+            "B": "Figuring out that bricks were inexpensive, builders used tons of them to satisfy inspectors and the city’s desperate construction needs.",
+            "C": "Builders favored brick as a pleasingly economical way to meet significant construction demand while following municipal regulations.",
+            "D": "Once builders realized that low-cost brick was a law-abiding way to meet the city’s building needs, they hardly ever used any other materials."
+          },
+          "correct": "A",
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.08 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks for the revision of sentence 10 that would best maintain the style established in the passage.\n\nA. CORRECT. This sentence maintains the style established in the passage because it uses clear, precise, and formal language. The phrases “affordable material” and “met safety standards” are accurate and appropriate to the historical and technical context. The word “satisfying” is a precise replacement for “keeping owners happy” from the original sentence, preserving both the meaning and the formal tone of the passage.\n\nB. Incorrect. Although the sentence conveys the same basic ideas as the passage, the phrases “Figuring out” and “tons of them” are informal and inconsistent with the passage’s formal style. In addition, the word “desperate” introduces a subjective and emotional tone, whereas the passage maintains an objective, fact-based style.\n\nC. Incorrect. Although this sentence incorporates some formal vocabulary, the phrase “pleasingly economical” introduces an opinion that is inconsistent with formal historical writing. The passage’s style avoids subjective language and focuses on precise, factual descriptions of events and conditions. The phrase “municipal regulations” is also more technical and at the same time less clear and precise than the style established in the passage.\n\nD. Incorrect. This sentence does not maintain the passage’s formal style because the phrase “law-abiding way” is awkward and informal for a historical description, and the expression “hardly ever” is conversational. The passage uses precise, objective language when describing building practices and material choices, avoiding casual or conversational phrasing."
+          }
+        },
+        {
+          "id": "CR45",
+          "q_number": 23,
+          "question_type": "mc_multi",
+          "question": "Which **two** sentences present information irrelevant to the ideas in the passage and should be deleted?\n\nSelect the **two** correct answers.",
+          "options": {
+            "A": "“Nearly 65 million people visit New York City every year to see these and other attractions.” (sentence 3)",
+            "B": "“The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later.” (sentence 8)",
+            "C": "“Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City.” (sentence 14)",
+            "D": "“History has proven, however, that boom times eventually end.” (sentence 18)",
+            "E": "“Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers.” (sentence 23)"
+          },
+          "correct": [
+            "A",
+            "C"
+          ],
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.25 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks which two sentences present information irrelevant to the ideas of the passage and should be deleted.\n\nA. CORRECT. “Nearly 65 million people visit New York City every year to see these and other attractions” (sentence 3) presents irrelevant information and should be deleted. While the statistic is interesting, it focuses on tourism, which is not relevant to either the topic of the passage—the growth and decline of the brickmaking industry—or to the ideas in the first paragraph (sentences 1–6), which focus on the prominence of brick in New York City’s buildings.\n\nB. Incorrect. “The city’s population ballooned from about 313,000 people in 1840 to more than 7 million a century later” (sentence 8) is relevant to the ideas of the passage and should not be deleted. The numerical details in sentence 8 about the rapid growth in New York City provide relevant evidence that supports a central idea of the passage: that the brickmaking industry of the Hudson River Valley expanded quickly to supply the demands of builders who were, in turn, meeting the demands of a booming population.\n\nC. CORRECT. “Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City” (sentence 14) presents irrelevant details and should be deleted. The information in sentence 14 comparing population growth rates between the region and New York City are not needed to develop the passage’s central focus on the rise and decline of the Hudson River Valley’s brickmaking industry. The sentence also does not support ideas in the third paragraph (sentences 11–17). Although it mentions that brick factories employed much of the Hudson River Valley population, the productivity of the factories, rather than the Valley’s population, is the topic of the paragraph.\n\nD. Incorrect. “History has proven, however, that boom times eventually end” (sentence 18) is relevant to the ideas of the passage and should not be deleted. Sentence 18 effectively introduces the central idea of the passage: the decline of the Hudson River Valley brickmaking industry. The sentence also serves as a clear transition from the third paragraph (sentences 11–17), which provides evidence of the industry’s boom, to the fourth paragraph (sentences 18–21), which provides details about how the industry came to an end.\n\nE. Incorrect. “Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley’s brickmakers” (sentence 23) is relevant to the ideas of the passage and should not be deleted. The mention of famous and ordinary buildings provides an effective link to introductory sentences 1 and 2, strengthening the passage’s conclusion, while also emphasizing the productivity of the Hudson Valley brickmaking industry detailed in the third paragraph (sentences 11–17)."
+          }
+        },
+        {
+          "id": "CR46",
+          "q_number": 24,
+          "question_type": "mc",
+          "question": "Which phrase should be added to the beginning of sentence 11 to provide the **best** transition from the ideas in sentence 10?",
+          "options": {
+            "A": "While adapting to new uses for brick,",
+            "B": "Because the building boom preferred brick,",
+            "C": "As a result of New York City’s building boom,",
+            "D": "Although reliance on brick became the norm,"
+          },
+          "correct": "C",
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.44 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks which phrase should be added to the beginning of sentence 11 to provide the best transition from the ideas in sentence 10.\n\nA. Incorrect. The phrase “While adapting to new uses for brick” is not the best transition to place at the beginning of sentence 11 because it does not accurately describe the content of sentence 10. Although sentence 10 conveys that brick was a low-cost way for builders to adapt to two demands—New York City’s need for a lot of new buildings and its recently changed fire-safety laws—neither sentence 10 nor any of the preceding sentences in the second paragraph (sentences 7–10) indicate that builders found any new ways to use bricks. The focus is on the amount of bricks used, rather than any changes in how the builders used them.\n\nB. Incorrect. Although the phrase “Because the building boom preferred brick” accurately indicates a cause-and-effect relationship between builders using a lot of bricks and the skyrocketing brick production mentioned in sentence 11, it overstates the position of builders described in sentence 10. While sentence 10 says that builders found bricks to be a low-cost way of meeting several needs, it does not say that builders actually preferred to use bricks. In addition, the phrase is awkward and imprecise because a “building boom” cannot literally “prefer” something. Thus, this is not the best transition phrase to add to sentence 11.\n\nC. CORRECT. The transition phrase “As a result of New York City’s building boom” clearly conveys the cause-and-effect relationship between sentence 10, which describes a trend among New York City’s builders to use a lot of bricks to “quickly throw together a lot of structures while keeping building owners and safety inspectors happy,” and sentence 11, which points out a result of the building trend: brickmaking skyrocketed in the nearby Hudson River Valley.\n\nD. Incorrect. The word “although” in the transition phrase “Although reliance on brick became the norm,” incorrectly indicates an opposing relationship that does not exist between the ideas in sentences 10 and 11. Sentence 10 explains how using a lot of bricks helped New York City’s builders meet the demands of a building boom and new safety regulations. As sentence 16 details, many of the bricks made in the Hudson River Valley were shipped “down the river to New York City.” Thus, it is not logical that the skyrocketing growth of the brickmaking industry in the Hudson River Valley described in sentence 11 happened “although” or despite New York City builders using a lot of brick. Therefore, this transition is not the best one to place at the beginning of sentence 11."
+          }
+        },
+        {
+          "id": "CR47",
+          "q_number": 25,
+          "question_type": "mc",
+          "question": "Which sentence would **best** follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21)?",
+          "options": {
+            "A": "At first many people thought the new materials did not look as strong as brick, but eventually the public embraced the trend.",
+            "B": "Increasingly expensive shipping and labor costs also drove up the costs for brickmaking factories.",
+            "C": "The Flatiron building, completed in 1902, is a notable example of an early steel-framed building.",
+            "D": "The more that New York City builders chose to use these materials, the fewer bricks they bought."
+          },
+          "correct": "D",
+          "source_screenshot": "Problems/ELA_C/Screenshot 2026-10-24 at 12.58.53 PM.png",
+          "solution": {
+            "exhibit_text": "The question asks which sentence would best follow sentence 20 to support ideas in the fourth paragraph (sentences 18–21).\n\nA. Incorrect. Although the information in the sentence that consumers eventually “embraced the trend” of building with steel, glass, and concrete suggests that demand for those building materials likely increased, this detail does not clearly link increased use of steel, glass, and concrete to lower demand for brick. Therefore, this sentence would not be the best choice to follow sentence 20 to support the ideas in the fourth paragraph.\n\nB. Incorrect. This sentence introduces a different cause of the decline of brickmaking—economic costs—rather than providing support or explanation for the idea that the shift to steel, glass, and concrete caused lower demand for brick. Thus, this sentence is not the best one to follow sentence 20.\n\nC. Incorrect. Although this sentence adds detail related to sentence 20 by giving an example of steel use, it shifts focus toward a specific building rather than the overall trend in material preference. It does not help explain the link between a growing preference for steel, glass, and concrete and declining demand for brick. Therefore, this sentence would not best follow sentence 20 to support the ideas in the fourth paragraph.\n\nD. CORRECT. This sentence supports the ideas in the fourth paragraph. It would best follow sentence 20 because it directly states the cause-and-effect relationship between builders’ preference for steel, glass, and concrete described in sentence 20 and the resulting decline in brick use detailed in sentence 21. It also supports, with a detail about the closing of the last factory, the idea in sentence 18 that the entire Hudson Valley brickmaking industry was ended."
+          }
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-HE6-FR48",
+      "question_type": "mc",
+      "stimulus": "(1) Many deep-sea creatures use bioluminescence, a natural ability to produce light, in order to lure prey or ward off predators in the darkness of the ocean. (2) This glowing light comes from a chemical reaction inside specialized cells, and it can appear in colors ranging from blue to green to red. (3) Some species can control exactly when and where their light appears, flashing it in quick bursts to confuse an approaching predator. (4) Because this ability is so useful for survival, marine biologists used special cameras to study how different species control their glow.",
+      "question": "Which sentence in the paragraph contains an error in construction and should be revised?\n\nMove the answer to the box. There is only one error in construction.",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "**The fix:** Sentence 4 switches to the past tense (\"used\") in the middle of a paragraph that's otherwise written in the present tense (\"use,\" \"can appear,\" \"can control\"). It should read \"marine biologists **use** special cameras,\" not \"used.\"\n\n**Why this sounds right:** \"Used special cameras to study\" reads smoothly as a complete thought on its own, so the tense mismatch is easy to miss unless you're actively comparing it to the verbs around it.\n\n**The concept:** When a paragraph describes an ongoing fact or general truth (how something works, what scientists generally do), every main verb needs to stay in the same tense — usually present tense for \"this is how it is\" statements. If one sentence suddenly shifts to past tense with no signal that time has changed, that's a verb-tense consistency error.\n\n**How to check it:** Underline the main verb in every sentence of the paragraph. If they're all present tense except one, that one is the error — even if it sounds fine as a standalone sentence.\n\n**More examples of this mistake:**\n- \"Bees communicate through movement. They waggled their bodies to share directions.\" (should be \"waggle\")\n- \"The heart pumps blood through the body. Valves prevented it from flowing backward.\" (should be \"prevent\")"
+      },
+      "base_source": "Exam F — Standalone (FR48)",
+      "base_question": {
+        "stimulus": "(1) Large meteors are massive space rocks that create brilliant streaks of light, known as fireballs, when they crash into Earth's atmosphere. (2) Their incredible speed causes so much friction and heat that the air around them glows brighter than a flashlight in a dark room. (3) The largest meteors can strike the Earth's surface and create deep, wide craters. (4) Because these meteors can cause major changes to the Earth's environment, scientists used powerful telescopes to track these objects and keep our planet safe.",
+        "question": "Which sentence in the paragraph contains an error in construction and should be revised?\n\nMove the answer to the box. There is only one error in construction.",
+        "options": {
+          "A": "Sentence 1",
+          "B": "Sentence 2",
+          "C": "Sentence 3",
+          "D": "Sentence 4"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_text": "Category: Usage\nGetting to the Answer: Read each sentence carefully. As you read, check for the subject and verb for each sentence. If there are pronouns, check that they have clear antecedents. If there are modifiers, confirm that they are as close as possible to what they are intended to modify. Sentence 4 has a verb error. The verb \"used\" is past tense, while the other verbs in the paragraph and sentence are present tense (\"can cause,\" \"keep\"). There is no context clue that \"used\" should be past tense. The other three sentences do not have any errors."
+        }
+      },
+      "q_number": 1
+    },
+    {
+      "id": "P-HE6-DR14",
+      "question_type": "mc",
+      "stimulus": "In the dome of a historic planetarium, a word spoken softly at the center can be heard clearly along the curved walls, no matter how many people are talking nearby, because the smooth surface <u>moves the sound around the room</u>.",
+      "question": "Which revision to the underlined words uses the most precise language?",
+      "options": {
+        "A": "sends the sound to several areas",
+        "B": "carries the sound to a wider space",
+        "C": "reflects the sound evenly along the curve of the dome",
+        "D": "pushes the sound in a certain way"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "**The fix:** (C), \"reflects the sound evenly along the curve of the dome,\" is the most precise because it names the specific action (reflects) and the specific physical feature responsible (the curve of the dome).\n\n**Why the others sound okay but aren't:** (A) \"several areas\" and (B) \"a wider space\" are vague location words — they don't say *where* or *how* the sound travels. (D) \"a certain way\" is a filler phrase that avoids specifics entirely; it could describe almost anything.\n\n**The concept:** \"Most precise language\" questions ask you to replace a vague, general phrase with one that's specific and concrete. A revision is more precise when it names an exact mechanism, shape, or outcome instead of a generic placeholder word like \"certain,\" \"various,\" \"a lot,\" or \"some.\"\n\n**How to check it:** Ask: could this phrase describe a completely different situation without changing any words? If \"pushes the sound in a certain way\" could describe literally any sound phenomenon, it's too vague. \"Reflects...along the curve of the dome\" can only describe this one setup.\n\n**More examples of this mistake:**\n- \"The machine does things to the material.\" → more precise: \"The machine compresses the material.\"\n- \"The road curves in a way that slows cars.\" → more precise: \"The road curves sharply, forcing cars to slow down.\""
+      },
+      "base_source": "Exam D — Standalone (DR14)",
+      "base_question": {
+        "stimulus": "In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways <u>send the sound through the environment</u>.",
+        "question": "Which revision to the words **send the sound through the environment** uses the most precise language?\n\nDrag the correct phrase into the box.",
+        "correct": "direct the sound waves to move along the curves of the arches",
+        "drop_choices": [
+          "guide the sound waves in a specific direction",
+          "focus the sound waves to travel through the space",
+          "direct the sound waves to move along the curves of the arches",
+          "transfer the sound waves to a variety of different locations"
+        ],
+        "drop_box_label": "Your answer",
+        "solution": {
+          "exhibit_text": "The question asks for the revision to the words “send the sound through the environment” that uses the most precise language.\n\nIncorrect. The phrase “guide the sound waves in a specific direction” is not the most precise revision. “A specific direction” does not explain precisely where the sound waves travel.\n\nIncorrect. The phrase “focus the sound waves to travel through the space” is not the most precise revision, because it does not precisely describe where the waves move. The phrase “through the space” does not provide the reader with more specific information as to where in the space the sound waves travel.\n\nCORRECT. The phrase “direct the sound waves to move along the curves of the arches” uses precise language to explain how the waves travel. The wording “direct the sound waves” is more specific than “send the sound” as in the original sentence, and the action “move along the curves” conveys more detail than the phrase “moving through the environment.”\n\nIncorrect. The phrase “transfer the sound waves to a variety of different locations” is not the most precise revision, because it does not precisely convey where the waves move to. The phrase “variety of different locations” is vague and does not add clarity."
+        }
+      },
+      "q_number": 2
+    },
+    {
+      "id": "P-HE6-KM3_Q03",
+      "question_type": "mc",
+      "stimulus": "Lakeside needed increased funding, from grants, and consequently the city built a new library, a community pool, and a public garden in the main plaza.",
+      "question": "How should the sentence be revised?",
+      "options": {
+        "A": "Insert a comma after **Lakeside**, AND delete the comma after **pool**.",
+        "B": "Delete the comma after **funding**, AND insert a comma after **consequently**.",
+        "C": "Insert a comma after **city**, AND delete the comma after **library**.",
+        "D": "Insert a comma after **garden**, AND insert a comma after **main**."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "**The fix:** Two things are wrong here. First, \"from grants\" is a short phrase that identifies exactly *which* funding — it's essential to the meaning, so it shouldn't be boxed off with commas. Delete the comma after \"funding.\" Second, \"consequently\" is a transitional word connecting two ideas; when it opens a clause like this, it needs a comma right after it, not before: \"...and consequently, the city built...\"\n\n**The concept — essential vs. nonessential phrases:** A comma pair sets off *nonessential* information — detail you could delete without losing the sentence's core meaning. \"From grants\" isn't extra detail here; it's the specific source of funding the sentence is about, so it's essential and shouldn't have commas around it.\n\n**The concept — transitional words:** Words like \"consequently,\" \"however,\" and \"therefore\" act as connectors between ideas. When one of these words introduces a clause, a comma goes immediately after it, separating the connector from the statement it introduces.\n\n**How to check it:** For comma pairs, try removing the phrase between them — if the sentence changes meaning or loses necessary information, the phrase is essential and the commas don't belong. For transitional words, picture the word as a bridge: the comma goes on the side where the new idea starts.\n\n**More examples of this mistake:**\n- \"The store, on Main Street, is closing.\" (if there's only one relevant store, \"on Main Street\" is essential — no commas)\n- \"The team practiced hard and, therefore they won the match.\" (comma is on the wrong side — should be \"and, therefore, they won\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q03)",
+      "base_question": {
+        "stimulus": "Point Pleasant needed increased revenue, from tourism, and consequently the town built a new park, a large hotel, and a fine restaurant in the main square.",
+        "question": "How should the sentence be revised?",
+        "options": {
+          "A": "Insert a comma after **Point Pleasant**, AND delete the comma after **hotel**.",
+          "B": "Delete the comma after **revenue**, AND insert a comma after **consequently**.",
+          "C": "Insert a comma after **town**, AND delete the comma after **park**.",
+          "D": "Insert a comma after **restaurant**, AND insert a comma after **main**."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q3.jpg"
+        }
+      },
+      "q_number": 3
+    },
+    {
+      "id": "P-HE6-KM2_Q02",
+      "question_type": "mc",
+      "stimulus": "(1) After finishing basic training, the next three years of a firefighter's career are spent gaining hands-on experience responding to emergencies. (2) The daily routine involves inspecting equipment, which is the process of checking that every tool functions properly before a shift begins. (3) Firefighters learn protocols as well as techniques that improve response time during emergencies. (4) With new safety standards every year, the firefighting field requires professionals to constantly update their training.",
+      "question": "Which sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "**The fix:** Sentence 1 has a dangling modifier. \"After finishing basic training\" is meant to describe a *person* — the firefighter — but the subject of the sentence is actually \"the next three years,\" and years don't finish basic training. The sentence should instead say something like \"After finishing basic training, a firefighter spends the next three years gaining hands-on experience.\"\n\n**Why this sounds right:** The paragraph is clearly *about* a firefighter's career, so your brain fills in the connection automatically — but grammatically, the introductory phrase has nothing correct to attach to.\n\n**The concept:** An introductory phrase that describes an action (\"After finishing...,\" \"Having completed...,\" \"Before starting...\") needs to be immediately followed by the person or thing actually doing that action. If the subject right after the comma can't logically do what the phrase describes, it's a dangling modifier.\n\n**How to check it:** Read the introductory phrase, then ask \"who or what is doing this?\" immediately using the sentence's subject. \"After finishing basic training, the next three years...\" — can \"the next three years\" finish basic training? No, so it's dangling.\n\n**More examples of this mistake:**\n- \"Walking to school, the rain soaked my backpack.\" (rain didn't walk to school)\n- \"After studying all night, the exam felt easier.\" (the exam didn't study)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 (KM2_Q02)",
+      "base_question": {
+        "stimulus": "(1) After graduating from college, the next five years of a software engineer's life are spent working toward a graduate degree in computer science. (2) The coursework revolves around programming, which is the preparation of instructions that tell the computer which operations it needs to perform. (3) Students learn formulas as well as programs that translate complex computer languages. (4) With new advancements every day, the computer science field requires professionals to constantly learn about applying the latest technology.",
+        "question": "Which sentence contains an error in its construction and should be revised?",
+        "options": {
+          "E": "sentence 1",
+          "F": "sentence 2",
+          "G": "sentence 3",
+          "H": "sentence 4"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q02.jpg"
+        }
+      },
+      "q_number": 4
+    }
+  ]
+}
