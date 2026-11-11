@@ -734,7 +734,7 @@
           ? `<div class="tn-results-row-sol"><span class="label">Figure from the real exam question${q.base_source ? ' (' + esc(q.base_source) + ')' : ''}:</span><div class="tn-figure">${baseFigure}</div></div>`
           : '';
         return `<div class="tn-results-row ${status}">
-          <div class="tn-results-row-head"><span>${sectionLabel[q.section]} — ${esc(label)}</span><span class="mark">${mark}</span></div>
+          <div class="tn-results-row-head"><span>Question ${q.q_number} &middot; ${sectionLabel[q.section]} — ${esc(label)}</span><span class="mark">${mark}</span></div>
           <div class="tn-results-row-q">${renderQuestionText(q.question)}</div>
           <div class="tn-results-row-ans"><span class="label">Her answer:</span> ${givenHtml}</div>
           ${status !== 'correct' ? `<div class="tn-results-row-ans"><span class="label">Correct answer:</span> ${correctHtml}</div>` : ''}
