@@ -165,6 +165,7 @@
     }
     .tn-dropbox.filled { border-style: solid; background: #dbe9ff; border-color: #4a90d9; }
     .tn-dropbox.drag-over { background: #ffeeaa; }
+    .tn-dropdown { font-family: Georgia, serif; font-size: 16px; padding: 3px 6px; border: 1.5px solid #7a7a7a; border-radius: 3px; background: #fff; margin: 0 2px; }
 
     /* ── Sort into categories (sort_categories) ──────────────────────── */
     .tn-sort-pool {
@@ -567,6 +568,8 @@
 
       const questionTextHtml = q.question_type === 'drag_drop'
         ? renderDragDropProse(q)
+        : q.question_type === 'dropdown'
+        ? renderDropdownProse(q)
         : renderQuestionText(q.question);
       document.getElementById('tn-question').innerHTML = figureHtml + stimulusHtml + questionTextHtml;
 
@@ -670,6 +673,23 @@
           ${extraRow}
         </div>
       `;
+    }
+
+    // ── Fill-in-the-blank with drop-down menus: question text has
+    // "[DROPDOWN_1]"-style markers; each one becomes a <select>. ──
+    function renderDropdownProse(q) {
+      let html = renderQuestionText(q.question);
+      const given = state.answers[q.q_number] || {};
+      (q.dropdowns || []).forEach(d => {
+        const marker = '[' + d.label + ']';
+        const sel = given[d.label] || '';
+        const opts = ['<option value="">Choose...</option>'].concat(
+          (d.choices || []).map(c => `<option value="${esc(c)}"${c === sel ? ' selected' : ''}>${esc(c)}</option>`)
+        ).join('');
+        html = html.split(marker).join(
+          `<select class="tn-dropdown" data-label="${d.label}">${opts}</select>`);
+      });
+      return html;
     }
 
     // ── Drag-drop fill-in-the-blank: question text has a "[B1]"-style
@@ -790,6 +810,19 @@
               delete state.answers[q.q_number][lbl];
               render();
             }
+          });
+        });
+      }
+
+      // ── Fill-in-the-blank drop-downs (dropdown) ───────────
+      if (q.question_type === 'dropdown') {
+        document.querySelectorAll('.tn-dropdown').forEach(sel => {
+          sel.addEventListener('change', () => {
+            const lbl = sel.dataset.label;
+            state.answers[q.q_number] = state.answers[q.q_number] || {};
+            state.answers[q.q_number][lbl] = sel.value || undefined;
+            if (!sel.value) delete state.answers[q.q_number][lbl];
+            render();
           });
         });
       }
