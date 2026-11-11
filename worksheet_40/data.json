@@ -1,0 +1,3148 @@
+{
+  "math_questions": [
+    {
+      "id": "P-FE6-M-AM08",
+      "question_type": "dropdown",
+      "question": "Jade and Marcus each collect trading cards. Jade has three times as many cards as Marcus. Jade gives \\(10\\) of her cards to Marcus. Jade now has \\(6\\) more cards than Marcus.\n\nHow many cards did Jade start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of cards originally in Jade's and Marcus's collections is \\(J =\\) [DROPDOWN_1] \\(M\\).\n\nAfter Jade gives \\(10\\) cards to Marcus, the equation becomes \\(J - 10 =\\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Jade started with [DROPDOWN_3] cards.",
+      "correct": {
+        "DROPDOWN_1": "3",
+        "DROPDOWN_2": "M + 16",
+        "DROPDOWN_3": "39"
+      },
+      "solution": {
+        "exhibit_text": "Jade starts with three times as many cards as Marcus, so the equation is \\(J = 3M\\). After Jade gives \\(10\\) cards to Marcus, the equation becomes \\(J - 10 = (M + 10) + 6\\), which simplifies to \\(J - 10 = M + 16\\). Substitute \\(J = 3M\\) into the equation: \\(3M - 10 = M + 16\\). Solve for \\(M\\): \\[3M - M = 16 + 10\\] \\[2M = 26\\] \\[M = 13\\] Substitute to find \\(J\\): \\(J = 3M = 3 \\times 13 = 39\\). So, Jade started with **39** cards."
+      },
+      "base_source": "Exam A — Math Q8 (AM08)",
+      "base_question": {
+        "question_type": "dropdown",
+        "question": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives \\(8\\) of his stamps to Kevin. Liam now has \\(12\\) more stamps than Kevin.\n\nHow many stamps did Liam start with?\n\nSelect the correct answer from each drop-down to complete the sentences.\n\nAn equation that relates the number of stamps originally in Liam's and Kevin's collections is \\(L =\\) [DROPDOWN_1] \\(K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes \\(L - 8 =\\) [DROPDOWN_2].\n\nBy solving the equation, it can be determined that Liam started with [DROPDOWN_3] stamps.",
+        "dropdowns": [
+          {
+            "label": "DROPDOWN_1",
+            "choices": null,
+            "answer_display": "2"
+          },
+          {
+            "label": "DROPDOWN_2",
+            "choices": null,
+            "answer_display": "K + 20"
+          },
+          {
+            "label": "DROPDOWN_3",
+            "choices": null,
+            "answer_display": "56"
+          }
+        ],
+        "solution": {
+          "letter": null,
+          "exhibit_text": "Liam originally has twice as many stamps as Kevin, so the equation is \\(L = 2K\\).\n\nAfter Liam gives \\(8\\) stamps to Kevin, the equation becomes\n\\(L - 8 = (K + 8) + 12\\), which simplifies to \\(L - 8 = K + 20\\).\n\nSubstitute \\(L = 2K\\) into the equation: \\(2K - 8 = K + 20\\).\n\nSolve for \\(K\\):\n\\[2K - K = 20 + 8\\]\n\\[K = 28\\]\nSubstitute to find \\(L\\): \\(L = 2K = 2 \\times 28 = 56\\).\n\nSo, Liam started with \\(56\\) stamps."
+        }
+      },
+      "dropdowns": [
+        {
+          "label": "DROPDOWN_1",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_display": "3"
+        },
+        {
+          "label": "DROPDOWN_2",
+          "choices": [
+            "M + 16",
+            "M + 6",
+            "M - 16",
+            "M + 20"
+          ],
+          "answer_display": "M + 16"
+        },
+        {
+          "label": "DROPDOWN_3",
+          "choices": [
+            "13",
+            "26",
+            "39",
+            "52"
+          ],
+          "answer_display": "39"
+        }
+      ],
+      "q_number": 1
+    },
+    {
+      "id": "P-FE6-M-AM27",
+      "question_type": "drag_drop",
+      "question": "Complete the steps to show one way to solve the equation \\(18 = -0.25(x + 12)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used.\n\n\\(18 = -0.25(x + 12)\\)\n\\(18 = -0.25x +\\) [BOX_1]\n[BOX_2] \\(= -0.25x\\)\n[BOX_3] \\(= x\\)",
+      "correct": {
+        "BOX_1": "-3",
+        "BOX_2": "21",
+        "BOX_3": "-84"
+      },
+      "solution": {
+        "exhibit_text": "Distribute the \\(-0.25\\) on the right side of the equation: \\(18 = -0.25x - 3\\).\n\nAdd \\(3\\) to both sides of the equation to eliminate the \\(-3\\) on the right side: \\(21 = -0.25x\\).\n\nDivide both sides by \\(-0.25\\): \\(-84 = x\\)."
+      },
+      "base_source": "Exam A — Math Q27 (AM27)",
+      "base_question": {
+        "question_type": "drag_drop",
+        "question": "Complete the steps to show one way to solve the equation \\(24 = -0.5(x + 8)\\) for \\(x\\).\n\nMove the correct answer to each box. Each answer may be used more than once. Not all answers will be used.\n\n\\(24 = -0.5(x + 8)\\)\n\\(24 = -0.5x +\\) [BOX_1]\n[BOX_2] \\(= -0.5x\\)\n[BOX_3] \\(= x\\)",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "Solution:\n\nAnswer for second equation: \\(-4\\)\nAnswer for third equation: \\(28\\)\nAnswer for fourth equation: \\(-56\\)\n\n\\(24 = -0.5(x + 8)\\)\n\nDistribute the \\(-0.5\\) on the right side of the equation: \\(24 = -0.5x - 4\\).\n\nAdd \\(4\\) to both sides of the equation to eliminate the \\(-4\\) on the right side: \\(28 = -0.5x\\).\n\nDivide both sides by \\(-0.5\\): \\(-56 = x\\)."
+        },
+        "drop_values": [
+          "-56",
+          "-40",
+          "-4",
+          "4",
+          "20",
+          "28",
+          "40",
+          "56"
+        ],
+        "drop_allow_reuse": true,
+        "boxes": [
+          {
+            "label": "BOX_1",
+            "correct_value": "-4"
+          },
+          {
+            "label": "BOX_2",
+            "correct_value": "28"
+          },
+          {
+            "label": "BOX_3",
+            "correct_value": "-56"
+          }
+        ]
+      },
+      "drop_values": [
+        "-84",
+        "-72",
+        "-3",
+        "3",
+        "15",
+        "21",
+        "72",
+        "84"
+      ],
+      "drop_allow_reuse": true,
+      "boxes": [
+        {
+          "label": "BOX_1",
+          "correct_value": "-3"
+        },
+        {
+          "label": "BOX_2",
+          "correct_value": "21"
+        },
+        {
+          "label": "BOX_3",
+          "correct_value": "-84"
+        }
+      ],
+      "q_number": 2
+    },
+    {
+      "id": "P-FE6-M-AM32",
+      "question_type": "grid_keypad",
+      "question": "What is the value of \\(x\\) in the equation \\(8x = 10x + 18\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "-9",
+      "solution": {
+        "exhibit_text": "Start with \\(8x = 10x + 18\\).\n\nSubtract \\(10x\\) from both sides to move all terms involving \\(x\\) to one side.\n\n\\[8x - 10x = 18\\]\n\nCombine like terms.\n\n\\[-2x = 18\\]\n\nDivide both sides by \\(-2\\) to solve for \\(x\\).\n\n\\[x = -9\\]"
+      },
+      "base_source": "Exam A — Math Q32 (AM32)",
+      "base_question": {
+        "question_type": "grid_keypad",
+        "question": "What is the value of \\(x\\) in the equation \\(6x = 9x + 13\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+        "grid_answer": "-13/3",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "Solution:\n\nStart with \\(6x = 9x + 13\\).\n\nSubtract \\(9x\\) from both sides to move all terms involving \\(x\\) to one side.\n\n\\[6x - 9x = 13\\]\n\nCombine like terms.\n\n\\[-3x = 13\\]\n\nDivide both sides by \\(-3\\) to solve for \\(x\\).\n\n\\[x = -\\dfrac{13}{3}\\]\n\\[x = -4\\tfrac{1}{3}\\]"
+        },
+        "grid_prefix": "x =",
+        "grid_label": "Enter your answer in the space provided. Enter only your answer."
+      },
+      "grid_prefix": "x =",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "q_number": 3
+    },
+    {
+      "id": "P-FE6-M-AM05",
+      "question_type": "mc",
+      "question": "The sum of the numbers \\(a\\), \\(b\\), and \\(c\\) is \\(60\\). The ratio of \\(a\\) to \\(b\\) is \\(2{:}3\\), and the ratio of \\(b\\) to \\(c\\) is \\(3{:}7\\). What is the value of \\(b\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Since both ratios have \\(b\\) in common, solve for \\(a\\) and \\(c\\) in terms of \\(b\\) in both equations.\n\nUsing \\(a : b = 2 : 3\\), solve for \\(a\\) in terms of \\(b\\): \\[\\dfrac{a}{b} = \\dfrac{2}{3}\\] \\[a = \\dfrac{2}{3}b\\]\n\nUsing the ratio \\(b : c = 3 : 7\\), solve for \\(c\\) in terms of \\(b\\): \\[\\dfrac{b}{c} = \\dfrac{3}{7}\\] \\[c = \\dfrac{7}{3}b\\]\n\nThe question states \\(a + b + c = 60\\). Substitute from the two equations above and solve for \\(b\\): \\[\\dfrac{2}{3}b + b + \\dfrac{7}{3}b = 60\\] \\[\\dfrac{12}{3}b = 60\\] \\[4b = 60\\] \\[b = 15\\]"
+      },
+      "base_source": "Exam A — Math Q5 (AM05)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "The sum of the numbers \\(x\\), \\(y\\), and \\(z\\) is \\(50\\). The ratio of \\(x\\) to \\(y\\) is \\(1{:}4\\), and the ratio of \\(y\\) to \\(z\\) is \\(4{:}5\\). What is the value of \\(y\\)?",
+        "options": {
+          "A": "\\(4\\)",
+          "B": "\\(8\\)",
+          "C": "\\(10\\)",
+          "D": "\\(20\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "(D) Since both ratios have \\(y\\) in common, solve for \\(x\\) and \\(z\\) in terms of \\(y\\) in both equations.\n\nUsing \\(y : x = 1 : 4\\), solve for \\(x\\) in terms of \\(y\\):\n\n\\[\\dfrac{x}{y} = \\dfrac{1}{4}\\]\n\n\\[x = \\dfrac{1}{4}y\\]\n\nUsing the ratio \\(y : z = 4 : 5\\), solve for \\(z\\) in terms of \\(y\\):\n\n\\[\\dfrac{y}{z} = \\dfrac{4}{5}\\]\n\n\\[z = \\dfrac{5}{4}y\\]\n\nThe question states \\(x + y + z = 50\\). Substitute from the two equations above and solve for \\(y\\):\n\n\\[\\dfrac{1}{4}y + y + \\dfrac{5}{4}y = 50\\]\n\n\\[\\dfrac{10}{4}y = 50\\]\n\n\\[10y = 200\\]\n\n\\[y = 20\\]"
+        }
+      },
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(10\\)",
+        "C": "\\(15\\)",
+        "D": "\\(30\\)"
+      },
+      "q_number": 4
+    },
+    {
+      "id": "P-FE6-M-AM18",
+      "question_type": "mc",
+      "question": "Mr. Delgado bought six bottles of juice for $\\(1.25\\) each and \\(5\\) pounds of cheese. He paid a total of $\\(21.75\\) for these items, **not** including tax. What was the price per pound of the cheese?",
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Let \\(x\\) be the price per pound of the cheese. Set up an equation to show what Mr. Delgado spent: \\[6(1.25) + 5x = 21.75\\] \\[7.50 + 5x = 21.75\\] \\[5x = 14.25\\] \\[x = 2.85\\] The price per pound of the cheese was $\\(2.85\\)."
+      },
+      "base_source": "Exam A — Math Q18 (AM18)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Mrs. Cranston bought five bottles of water for $\\(0.90\\) each and \\(8\\) pounds of meat. She paid a total of $\\(26.90\\) for these items, **not** including tax. What was the price per pound of the meat?",
+        "options": {
+          "A": "$\\(2.80\\)",
+          "B": "$\\(3.25\\)",
+          "C": "$\\(14.40\\)",
+          "D": "$\\(22.40\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "(A) Let \\(x\\) be the price per pound of the meat. Set up an equation to show what Mrs. Cranston spent:\n\n\\[5(0.90) + 8x = 26.90\\]\n\\[4.50 + 8x = 26.90\\]\n\\[8x = 22.40\\]\n\\[x = 2.80\\]\n\nThe price per pound of the meat was $\\(2.80\\)."
+        }
+      },
+      "options": {
+        "A": "$\\(2.85\\)",
+        "B": "$\\(2.50\\)",
+        "C": "$\\(4.25\\)",
+        "D": "$\\(14.25\\)"
+      },
+      "q_number": 5
+    },
+    {
+      "id": "P-FE6-M-BM17",
+      "question_type": "grid_keypad",
+      "question": "How many positive integers satisfy the inequality \\(x + 9 < 20\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "10",
+      "solution": {
+        "exhibit_text": "Solve the inequality for \\(x\\). \\[x + 9 < 20\\] \\[x < 11\\] There are \\(10\\) positive integers that are less than \\(11\\)."
+      },
+      "base_source": "Exam B — Math Q17 (BM17)",
+      "base_question": {
+        "question_type": "grid_in",
+        "question": "How many positive integers satisfy the inequality \\(x + 7 < 23\\)?\n\nEnter your answer in the space.",
+        "grid_answer": "15",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(15) Solve the inequality for \\(x\\).\n\n\\[x + 7 < 23\\]\n\\[x < 16\\]\n\nThere are \\(15\\) positive integers that are less than \\(16\\)."
+        }
+      },
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "q_number": 6
+    },
+    {
+      "id": "P-FE6-M-BM03",
+      "question_type": "mc_multi",
+      "question": "At a bakery, \\(24\\) dozen rolls were used yesterday for \\(200\\) breakfast customers. Today, there were \\(320\\) breakfast customers. Assuming that the roll usage rate is the same for both days, which proportions can be used to determine how many dozen rolls are needed for \\(320\\) customers?\n\nSelect the **three** correct answers.",
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "solution": {
+        "exhibit_text": "The three correct answers are: \\[\\dfrac{24}{200} = \\dfrac{x}{320}\\] \\[\\dfrac{200}{24} = \\dfrac{320}{x}\\] \\[\\dfrac{x}{24} = \\dfrac{320}{200}\\] Each simplifies to \\(200x = 24(320) = 7{,}680\\), so \\(x = 38.4\\)."
+      },
+      "base_source": "Exam B — Math Q3 (BM03)",
+      "base_question": {
+        "question_type": "mc_multi",
+        "question": "At a diner, \\(18\\) dozen buns were used yesterday for \\(150\\) lunch customers. Today, there were \\(250\\) lunch customers. Assuming that the bun usage rate is the same for both days, which proportions can be used to determine how many dozen buns are needed for \\(250\\) lunch customers?\n\nSelect the **three** correct answers.",
+        "options": {
+          "A": "\\(\\dfrac{18}{150} = \\dfrac{x}{250}\\)",
+          "B": "\\(\\dfrac{18}{250} = \\dfrac{x}{150}\\)",
+          "C": "\\(\\dfrac{150}{18} = \\dfrac{250}{x}\\)",
+          "D": "\\(\\dfrac{x}{18} = \\dfrac{250}{150}\\)",
+          "E": "\\(\\dfrac{x}{150} = \\dfrac{18}{250}\\)"
+        },
+        "n_correct": 3,
+        "correct": [
+          "A",
+          "C",
+          "D"
+        ],
+        "solution": {
+          "letter": null,
+          "exhibit_text": "The three correct answers are:\n\n\\[\\dfrac{18}{150} = \\dfrac{x}{250}\\]\n\\[\\dfrac{150}{18} = \\dfrac{250}{x}\\]\n\\[\\dfrac{x}{18} = \\dfrac{250}{150}\\]\n\nEach simplifies to \\(150x = 18(250) = 4{,}500\\), so \\(x = 30\\)."
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{24}{200} = \\dfrac{x}{320}\\)",
+        "B": "\\(\\dfrac{24}{320} = \\dfrac{x}{200}\\)",
+        "C": "\\(\\dfrac{200}{24} = \\dfrac{320}{x}\\)",
+        "D": "\\(\\dfrac{x}{24} = \\dfrac{320}{200}\\)",
+        "E": "\\(\\dfrac{x}{200} = \\dfrac{24}{320}\\)"
+      },
+      "n_correct": 3,
+      "q_number": 7
+    },
+    {
+      "id": "P-FE6-M-BM09",
+      "question_type": "mc",
+      "question": "To make greeting cards, Priya could buy a package of cardstock for $\\(12.60\\), or she could buy \\(x\\) individual sheets of the same cardstock for $\\(0.20\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Set up an inequality to compare the costs: \\[0.20x \\le 12.60\\] \\[x \\le 63\\] Therefore, \\(63\\) individual sheets would cost $\\(12.60\\), the same as the package, so \\(62\\) is the greatest number of individual sheets Priya can buy that would be **less** expensive than the package."
+      },
+      "base_source": "Exam B — Math Q9 (BM09)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "To make party invitations, Macie could buy a package of paper for $\\(10.50\\), or she could buy \\(x\\) individual sheets of the same paper for $\\(0.15\\) each. What is the largest value of \\(x\\) that would make buying the individual sheets **less** expensive than buying the package?",
+        "options": {
+          "A": "\\(60\\)",
+          "B": "\\(65\\)",
+          "C": "\\(69\\)",
+          "D": "\\(70\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Set up an inequality to compare the costs:\n\n\\[0.15x \\le 10.50\\]\n\\[x \\le 70\\]\n\nTherefore, \\(70\\) individual sheets would cost $\\(10.50\\), so \\(69\\) is the greatest number of individual sheets Macie can buy that would be **less** expensive than the package."
+        }
+      },
+      "options": {
+        "A": "\\(60\\)",
+        "B": "\\(61\\)",
+        "C": "\\(62\\)",
+        "D": "\\(63\\)"
+      },
+      "q_number": 8
+    },
+    {
+      "id": "P-FE6-M-BM20",
+      "question_type": "mc",
+      "question": "Jasmine bought \\(2\\tfrac{1}{2}\\) yards of ribbon at $\\(6.00\\) per yard. If there was a \\(5\\%\\) sales tax, what was the total cost of the ribbon?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Calculate the cost of the ribbon before tax: \\[2\\tfrac{1}{2} \\times 6 = \\dfrac{5}{2} \\times 6 = 15\\] Find the tax for $\\(15\\) worth of ribbon: \\[15 \\times 5\\% = 15 \\times \\dfrac{5}{100} = 0.75\\] Add the cost of the ribbon and the tax: \\[15 + 0.75 = 15.75\\]"
+      },
+      "base_source": "Exam B — Math Q20 (BM20)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Bryana bought \\(1\\tfrac{3}{4}\\) yards of cloth at $\\(8.00\\) per yard. If there was an \\(8\\%\\) sales tax, what was the total cost of the cloth?",
+        "options": {
+          "A": "$\\(12.96\\)",
+          "B": "$\\(14.08\\)",
+          "C": "$\\(15.12\\)",
+          "D": "$\\(16.08\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Calculate the cost of the cloth before tax:\n\n\\[1\\tfrac{3}{4} \\times 8 = \\dfrac{7}{4} \\times 8 = 14\\]\n\nFind the tax for $\\(14\\) worth of cloth:\n\n\\[14 \\times 8\\% = 14 \\times \\dfrac{8}{100} = 1.12\\]\n\nAdd the cost of the cloth and the tax:\n\n\\[14 + 1.12 = 15.12\\]"
+        }
+      },
+      "options": {
+        "A": "$\\(15.00\\)",
+        "B": "$\\(15.30\\)",
+        "C": "$\\(15.75\\)",
+        "D": "$\\(16.50\\)"
+      },
+      "q_number": 9
+    },
+    {
+      "id": "P-FE6-M-BM01",
+      "question_type": "mc",
+      "question": "The decimal \\(0.08\\) can be written as the fraction \\(\\dfrac{x}{25}\\). What is the value of \\(x\\)?",
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "\\(0.08 = \\dfrac{8}{100}\\). Simplify the fraction to find the answer: \\(\\dfrac{8}{100} = \\dfrac{2}{25}\\), so \\(x = 2\\)."
+      },
+      "base_source": "Exam B — Math Q1 (BM01)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "The decimal \\(0.06\\) can be written as the fraction \\(\\dfrac{x}{50}\\). What is the value of \\(x\\)?",
+        "options": {
+          "A": "\\(3\\)",
+          "B": "\\(6\\)",
+          "C": "\\(12\\)",
+          "D": "\\(30\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "(A) \\(0.06 = \\dfrac{6}{100}\\). Simplify the fraction to find the answer: \\(\\dfrac{6}{100} = \\dfrac{3}{50}\\), so \\(x = 3\\)."
+        }
+      },
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(4\\)",
+        "C": "\\(8\\)",
+        "D": "\\(16\\)"
+      },
+      "q_number": 10
+    },
+    {
+      "id": "P-FE6-M-CM41",
+      "question_type": "grid_keypad",
+      "question": "Sofia is at the art supply store. She wants to buy a sketchbook for $\\(9.25\\) and some paintbrushes that cost $\\(2.50\\) each. She has at most $\\(29.75\\) to spend. Write an inequality that represents the number of paintbrushes, \\(n\\), Sofia can purchase.\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "9.25+2.50n≤29.75",
+      "solution": {
+        "exhibit_text": "The question uses the phrase \"at most,\" which means \"less than or equal to\" (\\(\\le\\)). Since paintbrushes cost $\\(2.50\\) each and Sofia will buy \\(n\\) of them, the total cost just for the paintbrushes is \\(2.50n\\). Combining the cost of a sketchbook ($\\(9.25\\)) with the cost of \\(n\\) paintbrushes, the inequality is \\(9.25 + 2.50n \\le 29.75\\)."
+      },
+      "base_source": "Exam C — Math Q41 (CM41)",
+      "base_question": {
+        "question_type": "grid_keypad",
+        "question": "Elijah is at the school bookstore. He wants to buy a water bottle for $\\(12.50\\) and some notebooks that cost $\\(4.75\\) each. He has at most $\\(35.00\\) to spend. Write an inequality that represents the number of notebooks, \\(n\\), Elijah can purchase.\n\nEnter your answer in the space provided. Enter only your answer.",
+        "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+        "grid_answer": "12.50 + 4.75n \\le 35.00",
+        "solution": {
+          "letter": null,
+          "exhibit_text": "\\((12.50 + 4.75n \\le 35.00)\\)\n\nThe question uses the phrase \"at most,\" which means \"less than or equal to\" (\\(\\le\\)).\n\nSince notebooks cost $\\(4.75\\) each and Elijah will buy \\(n\\) notebooks, the total cost just for the notebooks is found by multiplying $\\(4.75\\) by \\(n\\), or \\(4.75n\\).\n\nCombining the cost of a water bottle ($\\(12.50\\)) with the cost of \\(n\\) notebooks, the inequality is \\(12.50 + 4.75n \\le 35.00\\).\n\nThis may also be written as \\(4.75n + 12.50 \\le 35.00\\)."
+        }
+      },
+      "correct_alt": [
+        "29.75≥9.25+2.50n",
+        "2.50n+9.25≤29.75"
+      ],
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_variables": [
+        "n"
+      ],
+      "q_number": 11
+    },
+    {
+      "id": "P-FE6-M-CM08",
+      "question_type": "mc_multi",
+      "question": "Diego is helping plan snacks for a school fair. He knows that \\(0.6\\) of the students voted for popcorn, and he wants to record the same amount using a fraction.\n\nWhich fractions are equivalent to the decimal \\(0.6\\)?\n\nSelect the **four** correct answers.",
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "solution": {
+        "exhibit_text": "Check each fraction to determine whether it is equal to \\(0.6\\) when simplified or converted to a decimal.\n\n\\(\\dfrac{3}{5} \\to 3 \\div 5 = 0.6\\). This is the most common fraction equal to \\(0.6\\).\n\n\\(\\dfrac{6}{10} \\to 6 \\div 10 = 0.6\\). This is a direct match to \\(0.6\\) when written as a decimal.\n\n\\(\\dfrac{60}{100} \\to 60 \\div 100 = 0.6\\). Also a direct match.\n\n\\(\\dfrac{2}{5} \\to 2 \\div 5 = 0.4\\), which is less than \\(0.6\\).\n\n\\(\\dfrac{9}{15} \\to 9 \\div 15 = 0.6\\). Simplifies to \\(3/5\\), because \\(9\\) and \\(15\\) can both be divided by \\(3\\).\n\n\\(\\dfrac{5}{8} \\to 5 \\div 8 = 0.625\\), which is greater than \\(0.6\\)."
+      },
+      "base_source": "Exam C — Math Q8 (CM08)",
+      "base_question": {
+        "question_type": "mc_multi",
+        "question": "Jordan is helping plan snacks for a school dance. He knows that \\(0.75\\) of the students voted for pizza, and he wants to record the same amount using a fraction.\n\nWhich fractions are equivalent to the decimal \\(0.75\\)?\n\nSelect the **four** correct answers.",
+        "options": {
+          "A": "\\(\\dfrac{3}{4}\\)",
+          "B": "\\(\\dfrac{15}{20}\\)",
+          "C": "\\(\\dfrac{75}{100}\\)",
+          "D": "\\(\\dfrac{2}{5}\\)",
+          "E": "\\(\\dfrac{6}{8}\\)",
+          "F": "\\(\\dfrac{8}{10}\\)"
+        },
+        "n_correct": 4,
+        "correct": [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(A, B, C, E) Check each fraction to determine whether it is equal to \\(0.75\\) when simplified or converted to a decimal.\n\n\\(\\dfrac{3}{4} \\to 3 \\div 4 = 0.75\\)\nThis is the most common fraction equal to \\(0.75\\).\n\n\\(\\dfrac{15}{20} \\to 15 \\div 20 = 0.75\\)\nSimplifies to \\(3/4\\), because \\(15\\) and \\(20\\) can both be divided by \\(5\\).\n\n\\(\\dfrac{75}{100} \\to 75 \\div 100 = 0.75\\)\nThis is a direct match to \\(0.75\\) when written as a decimal.\n\n\\(\\dfrac{2}{5} \\to 2 \\div 5 = 0.4\\), which is less than \\(0.75\\)."
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{3}{5}\\)",
+        "B": "\\(\\dfrac{6}{10}\\)",
+        "C": "\\(\\dfrac{60}{100}\\)",
+        "D": "\\(\\dfrac{2}{5}\\)",
+        "E": "\\(\\dfrac{9}{15}\\)",
+        "F": "\\(\\dfrac{5}{8}\\)"
+      },
+      "n_correct": 4,
+      "q_number": 12
+    },
+    {
+      "id": "P-FE6-M-CM02",
+      "question_type": "mc",
+      "question": "If \\((9 \\div m) + 3 = 15\\), what is the value of \\(m\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The quantity \\((9 \\div m)\\) means the same as \\(\\dfrac{9}{m}\\), so the equation can be rewritten: \\[\\left(\\dfrac{9}{m}\\right) + 3 = 15\\] Subtract \\(3\\) from both sides: \\[\\left(\\dfrac{9}{m}\\right) = 12\\] Multiply both sides of the equation by \\(m\\): \\[9 = 12m\\] Solve for \\(m\\): \\[\\left(\\dfrac{9}{12}\\right) = m\\] \\[\\dfrac{3}{4} = m\\]"
+      },
+      "base_source": "Exam C — Math Q2 (CM02)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "If \\((8 \\div m) + 4 = 20\\), what is the value of \\(m\\)?",
+        "options": {
+          "A": "\\(\\dfrac{1}{3}\\)",
+          "B": "\\(\\dfrac{1}{2}\\)",
+          "C": "\\(2\\)",
+          "D": "\\(3\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) The quantity \\((8 \\div m)\\) means the same as \\(\\dfrac{8}{m}\\), so the equation can be rewritten:\n\n\\[\\left(\\dfrac{8}{m}\\right) + 4 = 20\\]\n\nSubtract \\(4\\) from both sides:\n\n\\[\\left(\\dfrac{8}{m}\\right) = 16\\]\n\nMultiply both sides of the equation by \\(m\\):\n\n\\[8 = 16m\\]\n\nSolve for \\(m\\):\n\n\\[\\left(\\dfrac{8}{16}\\right) = m\\]\n\\[\\dfrac{1}{2} = m\\]"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{1}{4}\\)",
+        "B": "\\(\\dfrac{1}{2}\\)",
+        "C": "\\(\\dfrac{3}{4}\\)",
+        "D": "\\(1\\)"
+      },
+      "q_number": 13
+    },
+    {
+      "id": "P-FE6-M-CM04",
+      "question_type": "mc",
+      "question": "A person buys a used sofa with a down payment of $\\(450\\) and makes monthly payments of $\\(85\\) for \\(2\\) years. What is the total amount the person pays for the sofa?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Determine the total cost of the sofa by adding the down payment to the total monthly payments over \\(2\\) years.\n\nThere are \\(12\\) months in a year, so multiply (\\(12\\) months/year \\(\\times\\) \\(2\\) years) to get a total of \\(24\\) months. Determine the total monthly payments by multiplying the monthly payment (\\$\\(85\\)) \\(\\times\\) the total number of months (\\(24\\)): \\[85 \\times 24 = 2{,}040\\] Determine the total cost of the sofa by adding the down payment (\\$\\(450\\)) to the total monthly payments (\\$\\(2{,}040\\)): \\[2{,}040 + 450 = 2{,}490\\] The total cost of the sofa is \\$\\(2{,}490\\)."
+      },
+      "base_source": "Exam C — Math Q4 (CM04)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "A person buys a used car with a down payment of $\\(1{,}200\\) and makes monthly payments of $\\(275\\) for \\(3\\) years. What is the total amount the person pays for the car?",
+        "options": {
+          "A": "$\\(2{,}025\\)",
+          "B": "$\\(9{,}900\\)",
+          "C": "$\\(11{,}100\\)",
+          "D": "$\\(13{,}500\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Determine the total cost of the car by adding the down payment to the total monthly payments over \\(3\\) years.\n\nThere are \\(12\\) months in a year, so multiply (\\(12\\) months/year \\(\\times\\) \\(3\\) years) to get a total of \\(36\\) months. Determine the total monthly payments by multiplying the monthly payment (\\$\\(275\\)) \\(\\times\\) the total number of months (\\(36\\)):\n\n\\[275 \\times 36 = 9{,}900\\]\n\nDetermine the total cost of the car by adding the down payment (\\$\\(1{,}200\\)) to the total monthly payments (\\$\\(9{,}900\\)):\n\n\\[9{,}900 + 1{,}200 = 11{,}100\\]\n\nThe total cost of the car is \\$\\(11{,}100\\)."
+        }
+      },
+      "options": {
+        "A": "$\\(1{,}020\\)",
+        "B": "$\\(2{,}040\\)",
+        "C": "$\\(2{,}490\\)",
+        "D": "$\\(2{,}940\\)"
+      },
+      "q_number": 14
+    },
+    {
+      "id": "P-FE6-M-CM07",
+      "question_type": "mc",
+      "question": "\\[-20 > 5x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Divide to solve for \\(x\\): \\[\\dfrac{(-20)}{5} > \\dfrac{5x}{5}\\] \\[-4 > x\\] Rewriting \\(-4 > x\\) with the \\(x\\) term first requires reversing the inequality symbol in order to keep the meaning \"\\(x\\) is less than \\((-4)\\)\". \\[x < -4\\]"
+      },
+      "base_source": "Exam C — Math Q7 (CM07)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "\\[-12 > 6x\\]\n\nFor what values of \\(x\\) is the above inequality true?",
+        "options": {
+          "A": "\\(x > -6\\)",
+          "B": "\\(x < -6\\)",
+          "C": "\\(x < -2\\)",
+          "D": "\\(x > -2\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) Divide to solve for \\(x\\):\n\n\\[\\dfrac{(-12)}{6} > \\dfrac{6x}{6}\\]\n\\[-2 > x\\]\n\nRewriting \\(-2 > x\\) with the \\(x\\) term first requires reversing the inequality symbol in order to keep the meaning \"\\(x\\) is less than \\((-2)\\)\".\n\n\\[x < -2\\]"
+        }
+      },
+      "options": {
+        "A": "\\(x > -4\\)",
+        "B": "\\(x < -4\\)",
+        "C": "\\(x < -5\\)",
+        "D": "\\(x > -5\\)"
+      },
+      "q_number": 15
+    },
+    {
+      "id": "P-FE6-M-DM26",
+      "question_type": "grid_keypad",
+      "question": "Maria has a budget of $\\(200\\) to rent a party hall. The rental company charges $\\(25\\) per hour to rent the hall, plus a one-time setup fee of $\\(50\\).\n\nWrite an inequality that represents this situation, in which \\(x\\) is the number of hours Maria can rent the hall.\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "50+25x≤200",
+      "solution": {
+        "exhibit_text": "Let \\(x\\) represent the number of hours Maria can rent the hall. The hourly rental cost can be represented as $\\(25 \\cdot x\\), written as \\(25x\\). The one-time setup fee of $\\(50\\) is added to the hourly cost to obtain the total cost. The sum of the setup fee and the hourly rental cost is represented as \\(50 + 25x\\). As Maria has $\\(200\\) to spend, the total cost must be less than or equal to $\\(200\\). This is represented as \\(50 + 25x \\le 200\\) or \\(200 \\ge 50 + 25x\\)."
+      },
+      "base_source": "Exam D — Math Q26 (DM26)",
+      "base_question": {
+        "question_type": "grid_keypad",
+        "question": "Jordan has a budget of $\\(120\\) to rent a food truck. The rental company charges $\\(18\\) per hour to rent the truck, plus a one-time cleaning fee of $\\(30\\).\n\nWrite an inequality that represents this situation, in which \\(x\\) is the number of hours Jordan can rent the truck.\n\nEnter your answer in the space provided. Enter only your answer.",
+        "grid_answer": "30+18x≤120",
+        "accepted_answers": [
+          "30+18x≤120",
+          "120≥30+18x"
+        ],
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(\\(30 + 18x \\le 120\\))\n\nLet \\(x\\) represent the number of hours Jordan can rent the truck.\n\nThe hourly rental cost can be represented as $\\(18 \\cdot x\\), written as \\(18x\\).\n\nThe onetime cleaning fee of $\\(30\\) is added to the hourly cost to obtain the total cost.\n\nThe sum of the cleaning fee and the hourly rental cost is represented as \\(30 + 18x\\).\n\nAs Jordan has $\\(120\\) to spend, the total cost must be less than or equal to $\\(120\\).\n\nThis is represented as \\(30 + 18x \\le 120\\) or \\(120 \\ge 30 + 18x\\)."
+        }
+      },
+      "correct_alt": [
+        "200≥50+25x",
+        "25x+50≤200"
+      ],
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "grid_variables": [
+        "x"
+      ],
+      "q_number": 16
+    },
+    {
+      "id": "P-FE6-M-DM09",
+      "question_type": "mc_multi",
+      "question": "Let \\(p\\) be a negative integer and \\(q\\) be a positive integer.\n\nWhich of the expressions below must result in a **positive** value?\n\nSelect the **three** correct answers.",
+      "correct": [
+        "A",
+        "B",
+        "D"
+      ],
+      "solution": {
+        "exhibit_text": "Each of the expressions must be considered:\n\n\\(-p + q\\), where \\(p\\) is a negative integer and \\(q\\) is a positive integer: **Correct**. The \"\\(-\\)\" in front of \\(p\\) acts like a \\(-1\\) multiplier that flips the sign of \\(p\\), so \\(-p + q\\) is positive when \\(p\\) is negative and \\(q\\) is positive.\n\n\\(-p \\cdot q\\): **Correct**. The \"\\(-\\)\" in front of \\(p\\) flips its sign, so \\(-p \\cdot q\\) is positive when \\(p\\) is negative and \\(q\\) is positive.\n\n\\(p - q\\): a negative minus a positive is always negative. **Not correct**.\n\n\\(-q \\cdot p\\): **Correct**. The \"\\(-\\)\" in front of \\(q\\) makes it negative; multiplied by a negative \\(p\\) yields a positive product.\n\n\\(\\dfrac{p}{q}\\): a negative divided by a positive is always negative. **Not correct**."
+      },
+      "base_source": "Exam D — Math Q9 (DM09)",
+      "base_question": {
+        "question_type": "mc_multi",
+        "question": "Let \\(m\\) be a negative integer and \\(k\\) be a positive integer.\n\nWhich of the expressions below must result in a **positive** value?\n\nSelect the **three** correct answers.",
+        "options": {
+          "A": "\\(-m + k\\)",
+          "B": "\\(-m \\cdot k\\)",
+          "C": "\\(m - k\\)",
+          "D": "\\(-k \\cdot m\\)",
+          "E": "\\(\\dfrac{m}{k}\\)"
+        },
+        "n_correct": 3,
+        "correct": [
+          "A",
+          "B",
+          "D"
+        ],
+        "solution": {
+          "letter": null,
+          "exhibit_text": "(A, B, D) Each of the expressions must be considered:\n\n\\(-m + k\\), where \\(m\\) is a negative integer and \\(k\\) is a positive integer: **Correct**\n\nThe \"\\(-\\)\" in front of \\(m\\) acts like a \\(-1\\) multiplier that flips the sign of \\(m\\), so \\(-m + k\\) is positive when \\(m\\) is negative and \\(k\\) is positive.\n\n\\(-m \\cdot k\\), where \\(m\\) is a negative integer and \\(k\\) is a positive integer: **Correct**\n\nThe \"\\(-\\)\" in front of \\(m\\) acts like a \\(-1\\) multiplier that flips the sign of \\(m\\), so \\(-m \\cdot k\\) is positive when \\(m\\) is negative and \\(k\\) is positive.\n\n\\(-k \\cdot m\\), where \\(m\\) is a negative integer and \\(k\\) is a positive integer: **Correct**\n\nThe \"\\(-\\)\" in front of \\(k\\) makes it negative; multiplied by a negative \\(m\\) yields a positive product."
+        }
+      },
+      "options": {
+        "A": "\\(-p + q\\)",
+        "B": "\\(-p \\cdot q\\)",
+        "C": "\\(p - q\\)",
+        "D": "\\(-q \\cdot p\\)",
+        "E": "\\(\\dfrac{p}{q}\\)"
+      },
+      "n_correct": 3,
+      "q_number": 17
+    },
+    {
+      "id": "P-FE6-M-DM04",
+      "question_type": "mc",
+      "question": "If \\(x = \\dfrac{1}{3}\\), what is the value of \\(\\dfrac{3}{3 - x}\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The first step is to substitute the value for \\(x\\) into the expression to get \\(\\dfrac{3}{3 - \\tfrac{1}{3}}\\). Then, evaluate the denominator and finally divide the numerator by the denominator. \\[\\dfrac{3}{\\left(\\tfrac{8}{3}\\right)} = 3 \\div \\left(\\dfrac{8}{3}\\right) = 3 \\left(\\dfrac{3}{8}\\right) = \\dfrac{9}{8} = 1\\tfrac{1}{8}\\]"
+      },
+      "base_source": "Exam D — Math Q4 (DM04)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "If \\(x = \\dfrac{1}{4}\\), what is the value of \\(\\dfrac{2}{2 - x}\\)?",
+        "options": {
+          "A": "\\(\\dfrac{3}{4}\\)",
+          "B": "\\(\\dfrac{8}{9}\\)",
+          "C": "\\(1\\tfrac{1}{7}\\)",
+          "D": "\\(3\\tfrac{1}{2}\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "(C) The first step is to substitute the value for \\(x\\) into the expression to get \\(\\dfrac{2}{2 - \\tfrac{1}{4}}\\).\n\nThen, evaluate the denominator and finally divide the numerator by the denominator.\n\n\\[\\dfrac{2}{\\left(\\tfrac{7}{4}\\right)} = 2 \\div \\left(\\dfrac{7}{4}\\right) = 2 \\left(\\dfrac{4}{7}\\right) = \\dfrac{8}{7} = 1\\tfrac{1}{7}\\]"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{3}{4}\\)",
+        "B": "\\(1\\)",
+        "C": "\\(1\\tfrac{1}{8}\\)",
+        "D": "\\(2\\)"
+      },
+      "q_number": 18
+    },
+    {
+      "id": "P-FE6-M-DM06",
+      "question_type": "mc",
+      "question": "The cost of renting a bike is $\\(8\\), plus $\\(3\\) for each additional hour over \\(2\\) hours. Which expression represents the total cost, in dollars, of renting a bike for \\(h\\) hours? Assume that \\(h \\ge 2\\).",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Since the additional cost per hour is **not** added until the rental exceeds \\(2\\) hours, the total cost for \\(1\\) or \\(2\\) hours is $\\(8\\).\n\n• \\(1\\) hour is $\\(8\\)\n• \\(2\\) hours is $\\(8\\)\n\nSince \\(h\\) is greater than or equal to \\(2\\) hours, the total cost for:\n\n• \\(3\\) hours is \\[8 + (3 - 2)(3) = 11\\]\n• \\(4\\) hours is \\[8 + (4 - 2)(3) = 14\\]\n• \\(h\\) hours is \\[8 + (h - 2)(3)\\]"
+      },
+      "base_source": "Exam D — Math Q6 (DM06)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "The cost of shipping a package is $\\(12\\), plus $\\(2\\) for each additional pound over \\(3\\) pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs \\(p\\) pounds? Assume that \\(p \\ge 3\\).",
+        "options": {
+          "A": "\\(12 + 2(p + 3)\\)",
+          "B": "\\(12 + 2(p - 3)\\)",
+          "C": "\\(14p + 3\\)",
+          "D": "\\(14p - 3\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) Since the additional cost per pound is **not** added until the package weighs more than \\(3\\) pounds, the total cost for \\(1\\), \\(2\\), or \\(3\\) pounds is $\\(12\\).\n\n• \\(1\\) pound is $\\(12\\)\n• \\(2\\) pounds is $\\(12\\)\n• \\(3\\) pounds is $\\(12\\)\n\nSince \\(p\\) is greater than or equal to \\(3\\) pounds, the total cost for:\n\n• \\(4\\) pounds is\n\\[12 + (4 - 3)(2) = 14\\]\n• \\(5\\) pounds is\n\\[12 + (5 - 3)(2) = 16\\]\n• \\(p\\) pounds is\n\\[12 + (p - 3)(2)\\]"
+        }
+      },
+      "options": {
+        "A": "\\(8 + 3(h + 2)\\)",
+        "B": "\\(8 + 3(h - 2)\\)",
+        "C": "\\(11h + 2\\)",
+        "D": "\\(11h - 2\\)"
+      },
+      "q_number": 19
+    },
+    {
+      "id": "P-FE6-M-DM14",
+      "question_type": "mc",
+      "question": "Maya must read \\(96\\) pages of a book for a class assignment. If she reads \\(\\dfrac{1}{4}\\) of the pages in the morning and \\(\\dfrac{1}{3}\\) of the **remaining** pages in the afternoon, how many pages will she still need to read?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Pages read in the morning: \\(\\left(\\dfrac{1}{4}\\right)(96) = 24\\)\n\nPages remaining after the morning: \\(96 - 24 = 72\\)\n\nPages read in the afternoon: \\(\\left(\\dfrac{1}{3}\\right)(72) = 24\\)\n\nPages she still needs to read: \\(72 - 24 = 48\\)"
+      },
+      "base_source": "Exam D — Math Q14 (DM14)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "James must read \\(84\\) pages of a book for a class assignment. If he reads \\(\\dfrac{1}{4}\\) of the pages in the morning and \\(\\dfrac{1}{3}\\) of the **remaining** pages in the afternoon, how many pages will he still need to read?",
+        "options": {
+          "A": "\\(35\\)",
+          "B": "\\(42\\)",
+          "C": "\\(45\\)",
+          "D": "\\(56\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "(B) Pages read in the morning: \\(\\left(\\dfrac{1}{4}\\right)(84) = 21\\)\n\nPages remaining after the morning: \\(84 - 21 = 63\\)\n\nPages read in the afternoon: \\(\\left(\\dfrac{1}{3}\\right)(63) = 21\\)\n\nPages he still needs to read: \\(63 - 21 = 42\\)"
+        }
+      },
+      "options": {
+        "A": "\\(36\\)",
+        "B": "\\(40\\)",
+        "C": "\\(48\\)",
+        "D": "\\(64\\)"
+      },
+      "q_number": 20
+    },
+    {
+      "id": "P-FE6-M-EM13",
+      "question_type": "mc",
+      "question": "Nora bowled a mean of \\(95\\) points per game in her first \\(3\\) games. In her \\(4\\)th game, she bowled \\(155\\) points. What is her mean score for the first \\(4\\) games?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Nora bowled a mean of \\(95\\) points per game in each of the first \\(3\\) games, so she earned a total of \\(95 \\times 3 = 285\\) points for the first \\(3\\) games. Use this information to calculate the mean over the first \\(4\\) games: \\[\\dfrac{285+155}{4} = \\dfrac{440}{4} = 110\\]"
+      },
+      "base_source": "Exam E — Math Q13 (EM13)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Margo bowled a mean of 110 points per game in her first 4 games. In her 5th game, she bowled 160 points. What is her mean score for the first 5 games?",
+        "options": {
+          "A": "120",
+          "B": "132",
+          "C": "135",
+          "D": "142"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Margo bowled a mean of 110 points per game in each of the first 4 games, so she earned a total of \\(110 \\times 4 = 440\\) points for the first 4 games. Use this information to calculate the mean over the first 5 games:\n\n\\[\\dfrac{440+160}{5} = \\dfrac{600}{5} = 120\\]"
+        }
+      },
+      "options": {
+        "A": "\\(105\\)",
+        "B": "\\(110\\)",
+        "C": "\\(115\\)",
+        "D": "\\(120\\)"
+      },
+      "q_number": 21
+    },
+    {
+      "id": "P-FE6-M-EM14",
+      "question_type": "mc",
+      "question": "A fuel tank currently contains \\(1{,}800\\) liters of fuel. If this amount fills the tank to exactly \\(\\dfrac{3}{4}\\) of its total capacity, how many **kiloliters** of fuel must be added to fill the tank completely?",
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Let the total capacity of the fuel tank be \\(x\\). The question says that \\(1{,}800\\) liters of fuel fill the tank to \\(\\dfrac{3}{4}\\) of its capacity. Therefore, \\(1{,}800 = \\dfrac{3}{4}x\\). Solve for \\(x\\): \\(x = \\dfrac{1{,}800 \\times 4}{3} = 600 \\times 4 = 2{,}400\\) liters. The tank needs an additional \\(2{,}400-1{,}800=600\\) liters. There are 1,000 liters in 1 kiloliter. Therefore: \\[600 \\text{ liters} \\times \\left(\\dfrac{1 \\text{ kiloliter}}{1{,}000 \\text{ liters}}\\right) = 0.6 \\text{ kiloliters}\\]"
+      },
+      "base_source": "Exam E — Math Q14 (EM14)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "A water storage tank currently contains 2,400 liters of water. If this amount fills the tank to exactly \\(\\dfrac{3}{5}\\) of its total capacity, how many **kiloliters** of water must be added to fill the tank completely?",
+        "options": {
+          "A": "1.6",
+          "B": "4.0",
+          "C": "16",
+          "D": "1,600"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Let the total capacity of the water tank be \\(x\\). The question says that 2,400 liters of water fill the tank to \\(\\dfrac{3}{5}\\) of its capacity. Therefore, \\(2{,}400 = \\dfrac{3}{5}x\\). Solve for \\(x\\) to determine the total capacity of the tank: \\(2{,}400 \\times 5 = 3x\\) and \\(x = \\dfrac{2{,}400 \\times 5}{3} = 800 \\times 5 = 4{,}000\\) liters. The question asks how many kiloliters of water must be added to fill the tank completely. The tank needs an additional \\(4{,}000-2{,}400=1{,}600\\) liters. There are 1,000 liters in 1 kiloliter. Therefore:\n\n\\[1{,}600 \\text{ liters} \\times \\left(\\dfrac{1 \\text{ kiloliter}}{1{,}000 \\text{ liters}}\\right) = 1.6 \\text{ kiloliters}\\]"
+        }
+      },
+      "options": {
+        "A": "\\(0.6\\)",
+        "B": "\\(2.4\\)",
+        "C": "\\(6\\)",
+        "D": "\\(600\\)"
+      },
+      "q_number": 22
+    },
+    {
+      "id": "P-FE6-M-EM15",
+      "question_type": "mc",
+      "question": "In a certain town, \\(32\\%\\) of residents work in retail. \\(60\\%\\) of residents are age \\(35\\) or younger, and \\(18\\%\\) of residents are people age \\(35\\) or younger who work in retail. What percentage of the population are people older than \\(35\\) who do **not** work in retail?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Read word problems carefully to sort through the information they give you. Here, the question asks for residents older than 35 who do *not* work in retail. First, find the percent of residents older than 35: the problem tells you the percent of residents age 35 or younger (60%), so you can subtract from 100 to get 40% of the population is older than 35. To find how many of these residents *don't* work in retail, you need to know how many *do*, which the problem doesn't tell you directly. However, it does tell you how many total residents work in retail (32%) and how many of those are 35 or younger (18%), so you can subtract to find residents over 35 who work in retail: \\(32\\%-18\\%=14\\%\\). Finally, subtract over-35 residents in retail from all over-35 residents: \\(40\\%-14\\%=26\\%\\) of residents are older than 35 and *don't* work in retail."
+      },
+      "base_source": "Exam E — Math Q15 (EM15)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "In a certain tourism destination, 28% of the city's residents work in the hospitality industry. 55% of residents are age 40 or younger, and 15% of residents are people age 40 or younger who work in the hospitality industry. What percentage of the employed population are people older than 40 who do **not** work in the hospitality industry?",
+        "options": {
+          "A": "13%",
+          "B": "17%",
+          "C": "32%",
+          "D": "45%"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "Read word problems carefully to sort through the information they give you. Here, the question asks for residents older than 40 who do *not* work in hospitality. First, find the percent of residents older than 40: the problem tells you the percent of residents age 40 or younger (55%), so you can subtract from 100 to get 45% of the population is older than 40. To find how many of these residents *don't* work in hospitality, you need to know how many *do*, which the problem doesn't tell you. However, it does tell you how many total residents work in hospitality (28%) and how many of those are 40 or younger (15%), so you can subtract to find residents over 40 who work in hospitality: \\(28\\%-15\\%=13\\%\\). Finally, subtract over-40 residents in hospitality from all over-40 residents: \\(45\\%-13\\%=32\\%\\) of residents are older than 40 and *don't* work in hospitality."
+        }
+      },
+      "options": {
+        "A": "\\(14\\%\\)",
+        "B": "\\(18\\%\\)",
+        "C": "\\(26\\%\\)",
+        "D": "\\(40\\%\\)"
+      },
+      "q_number": 23
+    },
+    {
+      "id": "P-FE6-M-EM17",
+      "question_type": "mc",
+      "question": "The average of five consecutive multiples of \\(4\\) is \\(24\\). What is the **largest** of these numbers?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "The average of a set of evenly-spaced numbers is equal to the median (middle number) of the set. Since the average of five consecutive multiples of 4 is 24, the median equals 24: \\_\\_, \\_\\_, 24, \\_\\_, \\_\\_. Adding 4 twice to 24 will give you the largest of these numbers, which is 32."
+      },
+      "base_source": "Exam E — Math Q17 (EM17)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "The average of five consecutive multiples of 5 is 20. What is the **largest** of these numbers?",
+        "options": {
+          "A": "25",
+          "B": "30",
+          "C": "35",
+          "D": "50"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "The average of a set of evenly-spaced numbers is equal to the median (middle number) of the set. Since the average of five consecutive multiples of 5 is 20, the median equals 20: __, __, 20, __, __. Adding 5 twice to 20 will give you the largest of these numbers, which is 30."
+        }
+      },
+      "options": {
+        "A": "\\(28\\)",
+        "B": "\\(30\\)",
+        "C": "\\(32\\)",
+        "D": "\\(40\\)"
+      },
+      "q_number": 24
+    },
+    {
+      "id": "P-FE6-M-EM07",
+      "question_type": "mc",
+      "question": "Priya has a jar of buttons in several colors. The jar contains \\(5\\) red buttons, \\(3\\) blue, \\(2\\) green, and \\(4\\) yellow. If Priya selects \\(2\\) buttons at random from the jar, without replacing them, what is the probability that both buttons are **not** red?",
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "Since Priya does not replace the buttons, you must pay careful attention to the number of buttons each time she chooses one. The total number of buttons in the jar to start is \\(5+3+2+4=14\\). The number of buttons that are not red is \\(3+2+4=9\\).\n\nThe probability that the first button is not red is \\(\\dfrac{9}{14}\\). Now, out of the \\(13\\) remaining buttons, there are \\(8\\) left that are not red. The probability that the second button is not red is \\(\\dfrac{8}{13}\\).\n\nMultiply these two probabilities to find the probability that both buttons are not red: \\[\\dfrac{9}{14} \\times \\dfrac{8}{13} = \\dfrac{72}{182} = \\dfrac{36}{91}\\]"
+      },
+      "base_source": "Exam E — Math Q7 (EM07)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Erin has a box of quarters from various states in the Northeast. The box contains 6 quarters from New York, 4 from Pennsylvania, 2 from Delaware, and 3 from New Jersey. If Erin selects 2 quarters at random from this box, without replacing them, what is the probability that both coins are **not** from New York?",
+        "options": {
+          "A": "\\(\\dfrac{12}{35}\\)",
+          "B": "\\(\\dfrac{7}{13}\\)",
+          "C": "\\(\\dfrac{4}{7}\\)",
+          "D": "\\(\\dfrac{6}{7}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "Since Erin does not replace the coins, you must pay careful attention to the number of coins each time she chooses a coin. The total number of quarters in the box to start is \\(6+4+2+3=15\\). The number of quarters that are not from New York is \\(4+2+3=9\\).\n\nThe probability that the first quarter is not from New York is \\(\\dfrac{9}{15}\\), or \\(\\dfrac{3}{5}\\). Now, out of the 14 remaining quarters, there are 8 quarters left that are not from New York. The probability that the second quarter is not from New York is \\(\\dfrac{8}{14}\\), or \\(\\dfrac{4}{7}\\).\n\nMultiply these two probabilities to find the probability that both coins are not from New York:\n\n\\[\\dfrac{3}{5} \\times \\dfrac{4}{7} = \\dfrac{12}{35}\\]"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{36}{91}\\)",
+        "B": "\\(\\dfrac{9}{14}\\)",
+        "C": "\\(\\dfrac{4}{7}\\)",
+        "D": "\\(\\dfrac{5}{7}\\)"
+      },
+      "q_number": 25
+    },
+    {
+      "id": "P-FE6-M-FM05",
+      "question_type": "mc",
+      "question": "Maya and Josh worked on a project together. If Maya completed \\(\\dfrac{3}{8}\\) of the project and Josh completed \\(25\\) pages, then what was the total length of the project?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "If Maya completed \\(\\dfrac{3}{8}\\) of the project, then Josh must have completed the other \\(\\dfrac{5}{8}\\) of the project. This means \\(\\dfrac{5}{8}\\) of the project is equal to \\(25\\) pages. \\[\\dfrac{5}{8}P=25\\] To solve for \\(P\\), multiply both sides of the equation by the reciprocal of \\(\\dfrac{5}{8}\\), which is \\(\\dfrac{8}{5}\\). \\[P=\\dfrac{8}{5}\\times25\\] \\[P=40\\] The project is 40 pages long."
+      },
+      "base_source": "Exam F — Math Q5 (FM05)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Nick and Alex worked on a paper together. If Nick wrote \\(\\dfrac{2}{7}\\) of the paper and Alex wrote \\(20\\) pages, then what was the total length of the paper?",
+        "options": {
+          "A": "7 pages",
+          "B": "21 pages",
+          "C": "28 pages",
+          "D": "35 pages"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "If Nick wrote \\(\\dfrac{2}{7}\\) of the paper, then Alex must have written the other \\(\\dfrac{5}{7}\\) of the paper. This means \\(\\dfrac{5}{7}\\) of the paper is equal to 20 pages.\n\n\\[\\dfrac{5}{7}P=20\\]\n\nTo solve for \\(P\\), multiply both sides of the equation by the reciprocal of \\(\\dfrac{5}{7}\\), which is \\(\\dfrac{7}{5}\\).\n\n\\[P=\\dfrac{7}{5}\\times20\\]\n\\[P=28\\]\n\nThe paper is 28 pages long."
+        }
+      },
+      "options": {
+        "A": "15 pages",
+        "B": "25 pages",
+        "C": "35 pages",
+        "D": "40 pages"
+      },
+      "q_number": 26
+    },
+    {
+      "id": "P-FE6-M-FM06",
+      "question_type": "mc",
+      "question": "A painter is mixing paint using several containers:\n• Four 2-liter cans\n• Six 300-milliliter jars\n• Three 50-milliliter droppers\n\nIf the painter pours all of these into one large bucket, what is the total volume of the mixture, in liters?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "To determine the total volume, add up all of the painter's containers. Four 2-liter cans give \\(4\\times2\\) liters \\(=8\\) liters. Six 300-milliliter jars total \\(6\\times300=1{,}800\\) milliliters. Since there are 1,000 milliliters in 1 liter, this is equivalent to \\(\\dfrac{1{,}800}{1{,}000}=1.8\\) liters.\n\nSo far, \\(8+1.8=9.8\\), but there's one more container to add. Three 50-milliliter droppers are \\(3\\times50=150\\) milliliters, or \\(\\dfrac{150}{1{,}000}=0.15\\) liters. Summing all three components gives \\(8+1.8+0.15=9.95\\) liters."
+      },
+      "base_source": "Exam F — Math Q6 (FM06)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "A chemist is preparing a solution by combining the contents of several containers:\n• Three 1.5-liter flasks\n• Five 250-milliliter beakers\n• Two 75-milliliter test tubes\n\nIf the chemist pours all of these into one large vat, what is the total volume of the solution, in liters?",
+        "options": {
+          "A": "1.825",
+          "B": "4.5",
+          "C": "5.75",
+          "D": "5.9"
+        },
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "To determine the total volume, add up all of the chemist's containers. Three 1.5 liter flasks give \\(3\\times1.5\\) liters \\(=4.5\\) liters. Five 250-milliliter beakers total \\(5\\times250=1{,}250\\) milliliters. Since there are 1,000 milliliters in 1 liter, this is equivalent to \\(\\dfrac{1{,}250}{1{,}000}=1.250\\) liters.\n\nSo far, \\(4.5+1.25=5.75\\), but there's one more container to add. Choice (D) is the only larger choice and must be correct.\n\nOn test day, choose (D) with confidence and move to the next question. For more practice, use similar logic to evaluate the last container. Two 75-milliliter test tubes are \\(2\\times75=150\\) milliliters, or \\(\\dfrac{150}{1{,}000}=0.150\\) liters. Summing these three components gives \\(4.5+1.250+0.150=5.9\\) liters."
+        }
+      },
+      "options": {
+        "A": "\\(1.95\\)",
+        "B": "\\(8.0\\)",
+        "C": "\\(9.8\\)",
+        "D": "\\(9.95\\)"
+      },
+      "q_number": 27
+    },
+    {
+      "id": "P-FE6-M-FM07",
+      "question_type": "mc",
+      "question": "There are \\(80\\) cards of varying colors in a stack. The probability of drawing a green card is \\(0.25\\). If \\(5\\) green cards are removed from the stack, what is the probability of drawing a green card from the remaining stack?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). There are 80 total cards, and the probability of drawing a green card is 0.25. If \\(g\\) represents the number of green cards, the probability of drawing a green card is \\(0.25=\\dfrac{g}{80}\\). This yields \\(g=80\\times0.25=20\\). Thus, there are 20 green cards in the stack. The question asks for the probability of drawing a green card after 5 green cards are removed. This leaves \\(20-5=15\\) green cards out of a total of \\(80-5=75\\) remaining cards. The probability is thus \\(\\dfrac{15}{75}=0.20\\)."
+      },
+      "base_source": "Exam F — Math Q7 (FM07)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "There are 50 cards of varying colors in a stack. The probability of drawing a yellow card is 0.4. If 10 yellow cards are removed from the stack, what is the probability of drawing a yellow card from the remaining stack?",
+        "options": {
+          "A": "0.20",
+          "B": "0.25",
+          "C": "0.30",
+          "D": "0.40"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "Recall that \\(\\text{Probability}=\\dfrac{\\text{Number of Desired Outcomes}}{\\text{Number of Total Outcomes}}\\). There are 50 total cards, and the probability of drawing a yellow card is 0.4. If \\(y\\) represents the number of yellow cards, the probability of drawing a yellow card is \\(0.4=\\dfrac{y}{50}\\). This yields \\(y=50\\times0.4=20\\). Thus, there are 20 yellow cards in the stack. The question asks for the probability of drawing a yellow card after 10 yellow cards are removed. This leaves \\(20-10=10\\) yellow cards out of a total of \\(50-10=40\\) remaining cards. The probability is thus \\(\\dfrac{10}{40}=0.25\\)."
+        }
+      },
+      "options": {
+        "A": "\\(0.15\\)",
+        "B": "\\(0.20\\)",
+        "C": "\\(0.25\\)",
+        "D": "\\(0.30\\)"
+      },
+      "q_number": 28
+    },
+    {
+      "id": "P-FE6-M-FM10",
+      "question_type": "mc",
+      "question": "A bookstore buys novels for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by \\(20\\%\\). Then, to determine the final selling price, the manager applies an additional \\(25\\%\\) markup to that new total. Which expression represents the final selling price of each novel?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "To find the expression for the final selling price, you must apply each percentage increase sequentially rather than adding the percentages together. A 20% increase on the wholesale cost \\(w\\) is \\(w+0.2w=1.20w\\). Apply the second increase to the new value. A 25% increase on \\(1.20w\\) is: \\[1.20w+(0.25)(1.20w)=1.20w(1+0.25)\\] \\[=1.20w\\times1.25\\] \\[=1.5w\\]"
+      },
+      "base_source": "Exam F — Math Q10 (FM10)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "A furniture store buys dining tables for a wholesale cost of \\(w\\) dollars each. To cover shipping and handling, the manager first increases the purchase cost by 10%. Then, to determine the final selling price, the manager applies an additional 45% markup to that new total. Which expression represents the final selling price of each dining table?",
+        "options": {
+          "A": "\\(1.55w\\)",
+          "B": "\\(1.595w\\)",
+          "C": "\\(w+0.55\\)",
+          "D": "\\(1.10w+0.45\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "letter": "B",
+          "exhibit_text": "To find the expression for the final selling price, you must apply each percentage increase sequentially rather than adding the percentages together. A 10% increase on the wholesale cost \\(w\\) is \\(w+0.1w=1.10w\\). Apply the second increase to the new value. A 45% increase on \\(1.10w\\) is:\n\n\\[1.10w+(0.45)(1.10w)=1.10w(1+0.45)\\]\n\\[=1.10w\\times1.45\\]\n\\[=(1+0.10)\\times1.45w\\]\n\\[=1.45w+0.145w\\]\n\\[=1.595w\\]"
+        }
+      },
+      "options": {
+        "A": "\\(1.45w\\)",
+        "B": "\\(1.5w\\)",
+        "C": "\\(w+0.45\\)",
+        "D": "\\(1.20w+0.25\\)"
+      },
+      "q_number": 29
+    },
+    {
+      "id": "P-FE6-M-FM01",
+      "question_type": "mc",
+      "question": "If \\(N\\) is an odd integer, which of the following **must** be even?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "This is a perfect problem for Picking Numbers. Pick a simple odd number for \\(N\\), like 3. Then plug it into the answer choices and see which one is correct.\n\n(A) \\(6(3)-1=18-1=17\\). Eliminate.\n(B) \\(5(3)+4=15+4=19\\). Eliminate.\n(C) \\(8(3)=24\\). Keep.\n(D) \\((3)^2+4(3)=9+12=21\\). Eliminate.\n\nOnly (C) works, and \\(8N\\) is always even no matter what odd value \\(N\\) takes, since \\(8\\) itself is even."
+      },
+      "base_source": "Exam F — Math Q1 (FM01)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "If \\(N\\) is an odd integer, which of the following **must** be even?",
+        "options": {
+          "A": "\\(2N-1\\)",
+          "B": "\\(3N+2\\)",
+          "C": "\\(4N\\)",
+          "D": "\\(N^2+2N\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "This is a perfect problem for Picking Numbers. Pick a simple number for \\(N\\), like 3. Then plug it into the answer choices and see which one is correct.\n\n(A) \\(2(3)+1=6-1=5\\). Eliminate.\n(B) \\(3(3)+2=9+2=11\\). Eliminate.\n(C) \\(4(3)=12\\). Keep.\n(D) \\((3)^2+2(3)=9+6=15\\). Eliminate.\n\nOnly (C) works."
+        }
+      },
+      "options": {
+        "A": "\\(6N-1\\)",
+        "B": "\\(5N+4\\)",
+        "C": "\\(8N\\)",
+        "D": "\\(N^2+4N\\)"
+      },
+      "q_number": 30
+    },
+    {
+      "id": "P-FE6-M-GM05",
+      "question_type": "mc",
+      "question": "In June, the water used by a factory was \\(8{,}000{,}000\\) gallons. In July, the number of gallons used was \\(6{,}000{,}000\\). By what percentage did the water usage decrease from June to July?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "To find a percent change, find the amount of *change* and divide by the *original* amount.\n\n\\(8{,}000{,}000-6{,}000{,}000=2{,}000{,}000\\). This is the amount of change. Now divide by the original amount. \\[\\dfrac{2{,}000{,}000}{8{,}000{,}000}=\\dfrac{1}{4}=\\dfrac{25}{100}=25\\%\\]"
+      },
+      "base_source": "Exam G — Math Q5 (GM05)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "In March, the electricity used in New York was \\(5{,}000{,}000\\) watts. In April, the number of watts used was \\(4{,}000{,}000\\). By what percentage did the electricity usage decrease from March to April?",
+        "options": {
+          "A": "\\(20\\%\\)",
+          "B": "\\(25\\%\\)",
+          "C": "\\(50\\%\\)",
+          "D": "\\(75\\%\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "To find a percent change, find the amount of *change* and divide by the *original* amount.\n\n\\(5{,}000{,}000-4{,}000{,}000=1{,}000{,}000\\). This is the amount of change. Now divide by the original amount.\n\n\\[\\dfrac{1{,}000{,}000}{5{,}000{,}000}=\\dfrac{1}{5}=\\dfrac{20}{100}=20\\%\\]"
+        }
+      },
+      "options": {
+        "A": "\\(20\\%\\)",
+        "B": "\\(25\\%\\)",
+        "C": "\\(33\\%\\)",
+        "D": "\\(75\\%\\)"
+      },
+      "q_number": 31
+    },
+    {
+      "id": "P-FE6-M-GM10",
+      "question_type": "mc",
+      "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.3,\\ 0.5,\\ 1.0,\\ 1.4,\\ 2.5\\}\\). If \\(\\dfrac{8.4N}{1.2}\\) is an integer, what is \\(N\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "First, simplify the fraction: \\[\\dfrac{8.4N}{1.2}=\\dfrac{84N}{12}=7N\\] Look carefully at this expression. For \\(7N\\) to be an integer, \\(N\\) must itself be a value that, multiplied by \\(7\\), lands on a whole number. Check each candidate: \\(7(0.3)=2.1\\); \\(7(0.5)=3.5\\); \\(7(1.0)=7\\) — an integer; \\(7(1.4)=9.8\\). The only integer whole-number candidate in the set is \\(1.0\\), so (C) must be the answer."
+      },
+      "base_source": "Exam G — Math Q10 (GM10)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "\\(N\\) belongs to the set of rational numbers \\(\\{0.4,\\ 0.5,\\ 1.1,\\ 2.0,\\ 3.5\\}\\). If \\(\\dfrac{4.9N}{1.4}\\) is an integer, what is \\(N\\)?",
+        "options": {
+          "A": "\\(0.4\\)",
+          "B": "\\(0.5\\)",
+          "C": "\\(1.1\\)",
+          "D": "\\(2.0\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "First, simplify the fraction:\n\n\\[\\dfrac{4.9N}{1.4}=\\dfrac{49N}{14}=\\dfrac{7N}{2}\\]\n\nLook carefully at this fraction. Since there is a \\(2\\) in the denominator, \\(N\\) must be an integer that is divisible by \\(2\\) in order for the entire fraction to be equal to an integer. The only integer divisible by \\(2\\) in the given set of numbers is \\(2.0\\), so (D) must be the answer."
+        }
+      },
+      "options": {
+        "A": "\\(0.3\\)",
+        "B": "\\(0.5\\)",
+        "C": "\\(1.0\\)",
+        "D": "\\(1.4\\)"
+      },
+      "q_number": 32
+    },
+    {
+      "id": "P-FE6-M-GM16",
+      "question_type": "mc",
+      "question": "Devon had three times as much money as Priya. Devon gives Priya \\(\\$6\\), but he still has \\(\\$10\\) more than Priya. How much money do the two have in all?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "First, set up an equation to represent the initial situation. Devon (\\(D\\)) has three times as much money as Priya (\\(P\\)): \\(D=3P\\). Next, set up an equation for the new situation. Devon gives Priya \\(\\$6\\), so Devon has \\(D-6\\) and Priya has \\(P+6\\). Devon still has \\(\\$10\\) more than Priya, so \\(D-6=(P+6)+10\\). Simplify to get \\(D=P+22\\). From the first equation, you know \\(D\\) is equal to \\(3P\\), so set \\(3P\\) equal to \\(P+22\\) and solve for \\(P\\). \\[3P=P+22\\] \\[2P=22\\] \\[P=11\\] Priya started out with \\(\\$11\\), which means Devon started out with \\(3\\times11=33\\). Be careful! The question asks how much the two have in sum, so add \\(11+33=44\\)."
+      },
+      "base_source": "Exam G — Math Q16 (GM16)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Marcus had three times as much money as José. Marcus gives José \\(\\$5.30\\), but he still has \\(\\$10\\) more than José. How much money do the two boys have in all?",
+        "options": {
+          "A": "\\(\\$10.30\\)",
+          "B": "\\(\\$30.90\\)",
+          "C": "\\(\\$33.60\\)",
+          "D": "\\(\\$41.20\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "letter": "D",
+          "exhibit_text": "First, set up an equation to represent the initial situation. Marcus (\\(M\\)) has three times as much money as José (\\(J\\)): \\(M=3J\\). Next, set up an equation for the new situation. Marcus gives José \\(\\$5.30\\), so \\(M-5.30\\) and \\(J+5.30\\). Marcus still has \\(\\$10\\) more than José, so \\(M-5.30=(J+5.30)+10\\). Simplify to get \\(M=J+20.6\\). From the first equation, you know \\(M\\) is equal to \\(3J\\), so set \\(3J\\) equal to \\(J+20.60\\) and solve for \\(J\\).\n\n\\[3J=J+20.6\\]\n\\[2J=20.6\\]\n\\[J=10.3\\]\n\nJosé started out with \\(\\$10.30\\), which means Marcus started out with \\(3\\times10.60=30.90\\). Be careful! The question asks how much the boys have in sum, so add \\(10.60+30.90=41.20\\)."
+        }
+      },
+      "options": {
+        "A": "\\(\\$16\\)",
+        "B": "\\(\\$27\\)",
+        "C": "\\(\\$38\\)",
+        "D": "\\(\\$44\\)"
+      },
+      "q_number": 33
+    },
+    {
+      "id": "P-FE6-M-GM20",
+      "question_type": "mc",
+      "question": "A catering company uses the formula \\(C=\\dfrac{p}{k}+b\\) to calculate the total cost, \\(C\\), for an event. In this formula, \\(p\\) represents the number of guests, \\(k\\) is a constant representing the guest-to-cost ratio, and \\(b\\) is a fixed setup fee. If the company wants to determine the number of guests based on the total cost, which of the following represents the formula solved for \\(p\\)?",
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "To solve this question, rearrange the equation so that \\(p\\) is alone on one side and everything else is on the other. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{p}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=p\\)."
+      },
+      "base_source": "Exam G — Math Q20 (GM20)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "A shipping company uses the formula \\(C=\\dfrac{w}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(w\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. If the company wants to determine the weight of a package based on the total cost, which of the following represents the formula solved for \\(w\\)?",
+        "options": {
+          "A": "\\(w=k(C-b)\\)",
+          "B": "\\(w=kC-b\\)",
+          "C": "\\(w=\\dfrac{C-b}{k}\\)",
+          "D": "\\(w=\\dfrac{C+b}{k}\\)"
+        },
+        "correct": "A",
+        "solution": {
+          "letter": "A",
+          "exhibit_text": "To solve this question, rearrange the equation so that \\(w\\) is alone on one side and everything else is on the other. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{w}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=w\\)."
+        }
+      },
+      "options": {
+        "A": "\\(p=k(C-b)\\)",
+        "B": "\\(p=kC-b\\)",
+        "C": "\\(p=\\dfrac{C-b}{k}\\)",
+        "D": "\\(p=\\dfrac{C+b}{k}\\)"
+      },
+      "q_number": 34
+    },
+    {
+      "id": "P-FE6-M-GM17",
+      "question_type": "mc",
+      "question": "Which of the following numbers has a factor that includes the smallest factor (other than \\(1\\)) of \\(85\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Numbers that end with \\(0\\) or \\(5\\) are divisible by \\(5\\). The number \\(85\\) is a good candidate for prime factorization: \\(85=17\\times5\\). These are both prime numbers, the smallest being \\(5\\).\n\nOnly one of the answer choices ends with a \\(0\\) or \\(5\\), so choice (C) is the only one that shares the smallest factor of \\(5\\). For practice with prime factorization though:\n\n(A) \\(21\\) factors to the prime numbers \\(3\\) and \\(7\\).\n(B) \\(33\\) factors to the prime numbers \\(3\\) and \\(11\\).\n(D) \\(41\\) is a prime number; its only factors are \\(1\\) and itself."
+      },
+      "base_source": "Exam G — Math Q17 (GM17)",
+      "base_question": {
+        "question_type": "mc",
+        "question": "Which of the following numbers has a factor that includes the smallest factor (other than \\(1\\)) of \\(95\\)?",
+        "options": {
+          "A": "\\(19\\)",
+          "B": "\\(21\\)",
+          "C": "\\(25\\)",
+          "D": "\\(31\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "letter": "C",
+          "exhibit_text": "Numbers that end with \\(0\\) or \\(5\\) are divisible by \\(5\\). The number \\(95\\) is a good candidate for prime factorization: \\(95=19\\times5\\). These are both prime numbers, the smallest being \\(5\\).\n\nOnly one of the answer choices ends with a \\(0\\) or \\(5\\), so choice (C) is the only one that shares the smallest factor of \\(5\\). For practice with prime factorization though:\n\n(A) \\(19\\) is a prime number; its only factors are \\(1\\) and itself.\n(B) \\(21\\) factors to the prime numbers \\(3\\) and \\(7\\).\n(D) \\(31\\) is also a prime number; its only factors are \\(1\\) and itself."
+        }
+      },
+      "options": {
+        "A": "\\(21\\)",
+        "B": "\\(33\\)",
+        "C": "\\(40\\)",
+        "D": "\\(41\\)"
+      },
+      "q_number": 35
+    },
+    {
+      "id": "P-FE6-M-KM1_Q59",
+      "question_type": "grid_keypad",
+      "question": "If \\(5x+6=46\\), what is the value of \\(x\\)?\n\nEnter your answer in the space provided. Enter only your answer.",
+      "correct": "8",
+      "solution": {
+        "exhibit_text": "Subtract \\(6\\) from both sides: \\[5x = 40\\] Divide both sides by \\(5\\): \\[x = 8\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q59 (KM1_Q59)",
+      "base_question": {
+        "question_type": "grid_in",
+        "section_label": "PART 2 - MATHEMATICS (GRID-IN)",
+        "question": "If \\(3x+8=44\\), what is the value of \\(x\\)?",
+        "grid_answer": "12",
+        "solution": {
+          "exhibit_image": "kaplan_2025_1/solutions/Q59.jpg"
+        }
+      },
+      "grid_prefix": "x =",
+      "grid_label": "Enter your answer in the space provided. Enter only your answer.",
+      "q_number": 36
+    },
+    {
+      "id": "P-FE6-M-KM1_Q65",
+      "question_type": "mc",
+      "question": "The number \\(77\\) has a smallest factor, other than \\(1\\), of \\(7\\). Which of the following numbers does **NOT** have a smallest factor (other than \\(1\\)) of \\(7\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "A number's smallest factor other than \\(1\\) is its smallest prime factor. Check each option:\n\n(A) \\(49=7\\times7\\), smallest factor \\(7\\).\n(B) \\(91=7\\times13\\), smallest factor \\(7\\).\n(C) \\(42=2\\times3\\times7\\), smallest factor \\(2\\) — **not** \\(7\\), because \\(42\\) is even.\n(D) \\(119=7\\times17\\), smallest factor \\(7\\).\n\nOnly (C) fails to have \\(7\\) as its smallest factor, since any even number's smallest factor is always \\(2\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q65 (KM1_Q65)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "The number 119 has a smallest factor, other than 1, of 7. Which of the following numbers does NOT have a smallest factor (other than 1) of 7?",
+        "options": {
+          "A": "28",
+          "B": "35",
+          "C": "40",
+          "D": "63"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_image": "kaplan_2025_1/solutions/Q65.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(49\\)",
+        "B": "\\(91\\)",
+        "C": "\\(42\\)",
+        "D": "\\(119\\)"
+      },
+      "q_number": 37
+    },
+    {
+      "id": "P-FE6-M-KM1_Q73",
+      "question_type": "mc",
+      "question": "If \\(a+b=10\\) and \\(a=15\\), then what is \\(-\\dfrac{a}{b}\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Solve for \\(b\\) first: since \\(a+b=10\\) and \\(a=15\\), \\(b=10-15=-5\\). Substitute into the expression: \\[-\\dfrac{a}{b}=-\\dfrac{15}{-5}=3\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q73 (KM1_Q73)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(x+y=12\\) and \\(x=15\\), then what is \\(-\\dfrac{x}{y}\\)?",
+        "options": {
+          "A": "-5",
+          "B": "-3",
+          "C": "3",
+          "D": "5"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_1/solutions/Q73.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(-5\\)",
+        "B": "\\(-3\\)",
+        "C": "\\(3\\)",
+        "D": "\\(5\\)"
+      },
+      "q_number": 38
+    },
+    {
+      "id": "P-FE6-M-KM1_Q83",
+      "question_type": "mc",
+      "question": "What is the least common multiple of \\(6\\), \\(18\\), and \\(24\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Write the prime factorization of each number: \\(6=2\\times3\\); \\(18=2\\times3^2\\); \\(24=2^3\\times3\\). The least common multiple takes the highest power of each prime that appears: \\(2^3\\times3^2=8\\times9=72\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q83 (KM1_Q83)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "What is the least common multiple of 8, 32, and 48?",
+        "options": {
+          "A": "64",
+          "B": "96",
+          "C": "128",
+          "D": "144"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_image": "kaplan_2025_1/solutions/Q83.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(36\\)",
+        "B": "\\(48\\)",
+        "C": "\\(72\\)",
+        "D": "\\(108\\)"
+      },
+      "q_number": 39
+    },
+    {
+      "id": "P-FE6-M-KM1_Q94",
+      "question_type": "mc",
+      "question": "For what value of \\(x\\) does \\(4(9-x)=2(x-3)\\)?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Distribute both sides: \\[36-4x=2x-6\\] Add \\(4x\\) to both sides and add \\(6\\) to both sides: \\[42=6x\\] Divide both sides by \\(6\\): \\[x=7\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 1 — Math Q94 (KM1_Q94)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "For what value of \\(x\\) does \\(6(8-x)=3(x-2)\\)?",
+        "options": {
+          "A": "-9",
+          "B": "-6",
+          "C": "3",
+          "D": "6"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_1/solutions/Q94.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(-9\\)",
+        "B": "\\(-6\\)",
+        "C": "\\(3\\)",
+        "D": "\\(7\\)"
+      },
+      "q_number": 40
+    },
+    {
+      "id": "P-FE6-M-KM2_Q65",
+      "question_type": "mc",
+      "question": "If \\(3(x+y)=15+3y\\), then what is \\(x\\)?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Distribute the left side: \\[3x+3y=15+3y\\] Subtract \\(3y\\) from both sides: \\[3x=15\\] Divide both sides by \\(3\\): \\[x=5\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q65 (KM2_Q65)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(2(x+y)=8+2y\\), then what is \\(x\\)?",
+        "options": {
+          "A": "-1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q65.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(-1\\)",
+        "B": "\\(3\\)",
+        "C": "\\(4\\)",
+        "D": "\\(5\\)"
+      },
+      "q_number": 41
+    },
+    {
+      "id": "P-FE6-M-KM2_Q73",
+      "question_type": "mc",
+      "question": "If \\(5\\%\\) of \\(r\\) is \\(7.5\\), then what is \\(25\\%\\) of \\(r\\)?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Since \\(25\\%\\) is \\(5\\) times as large as \\(5\\%\\), the value of \\(25\\%\\) of \\(r\\) is \\(5\\) times as large as the value of \\(5\\%\\) of \\(r\\): \\[7.5 \\times 5 = 37.5\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q73 (KM2_Q73)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If 4% of \\(r\\) is 6.2, then what is 20% of \\(r\\)?",
+        "options": {
+          "A": "25",
+          "B": "26",
+          "C": "30",
+          "D": "31"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q73.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(30\\)",
+        "B": "\\(32.5\\)",
+        "C": "\\(35\\)",
+        "D": "\\(37.5\\)"
+      },
+      "q_number": 42
+    },
+    {
+      "id": "P-FE6-M-KM2_Q77",
+      "question_type": "mc",
+      "question": "The sum of two consecutive integers is \\(-15\\). If the smaller integer is tripled and \\(4\\) is added to the larger integer, what is the sum of the two resulting integers?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Let the smaller integer be \\(n\\) and the larger be \\(n+1\\). \\[n+(n+1)=-15\\] \\[2n=-16\\] \\[n=-8\\] So the smaller integer is \\(-8\\) and the larger is \\(-7\\). Triple the smaller: \\(3(-8)=-24\\). Add \\(4\\) to the larger: \\(-7+4=-3\\). Sum of the resulting integers: \\(-24+(-3)=-27\\)."
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q77 (KM2_Q77)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "The sum of two consecutive integers is -9. If the smaller integer is doubled and 3 is added to the larger integer, what is the sum of the two resulting integers?",
+        "options": {
+          "A": "-14",
+          "B": "-11",
+          "C": "-10",
+          "D": "-9"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q77.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(-30\\)",
+        "B": "\\(-27\\)",
+        "C": "\\(-24\\)",
+        "D": "\\(-21\\)"
+      },
+      "q_number": 43
+    },
+    {
+      "id": "P-FE6-M-KM2_Q79",
+      "question_type": "mc",
+      "question": "If \\(k=20\\), what is \\((5k+40)-(3k+20)\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Simplify the expression first: \\[(5k+40)-(3k+20)=2k+20\\] Substitute \\(k=20\\): \\[2(20)+20=40+20=60\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q79 (KM2_Q79)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(k=15\\), what is \\((4k+30)-(2k+15)\\)?",
+        "options": {
+          "A": "15",
+          "B": "30",
+          "C": "45",
+          "D": "60"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q79.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(40\\)",
+        "B": "\\(50\\)",
+        "C": "\\(60\\)",
+        "D": "\\(70\\)"
+      },
+      "q_number": 44
+    },
+    {
+      "id": "P-FE6-M-KM2_Q83",
+      "question_type": "mc",
+      "question": "Solve for \\(x\\) in terms of \\(y\\) if \\(4x-7=y\\).",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Add \\(7\\) to both sides: \\[4x=y+7\\] Divide both sides by \\(4\\): \\[x=\\dfrac{y+7}{4}\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 2 — Math Q83 (KM2_Q83)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "Solve for \\(x\\) in terms of \\(y\\) if \\(3x-5=y\\).",
+        "options": {
+          "A": "\\(x=\\dfrac{y-5}{3}\\)",
+          "B": "\\(x=3(y+5)\\)",
+          "C": "\\(x=\\dfrac{y+5}{3}\\)",
+          "D": "\\(x=3(5-y)\\)"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_image": "kaplan_2025_2/solutions/Q83.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(x=\\dfrac{y-7}{4}\\)",
+        "B": "\\(x=4(y+7)\\)",
+        "C": "\\(x=\\dfrac{y+7}{4}\\)",
+        "D": "\\(x=4(7-y)\\)"
+      },
+      "q_number": 45
+    },
+    {
+      "id": "P-FE6-M-KM3_Q72",
+      "question_type": "mc",
+      "question": "If \\(5x+3=38\\), then \\(5x+9=\\)",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Subtract \\(3\\) from both sides of \\(5x+3=38\\): \\[5x=35\\] Then add \\(9\\) to both sides of that equation (not \\(38\\)): \\[5x+9=35+9=44\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q72 (KM3_Q72)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(4x+2=26\\), then \\(4x+8=\\)",
+        "options": {
+          "E": "32",
+          "F": "34",
+          "G": "36",
+          "H": "38"
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q72.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(38\\)",
+        "B": "\\(41\\)",
+        "C": "\\(44\\)",
+        "D": "\\(47\\)"
+      },
+      "q_number": 46
+    },
+    {
+      "id": "P-FE6-M-KM3_Q78",
+      "question_type": "mc",
+      "question": "If \\(2x+2x+20=2x+2x+2x+8\\), then what is the value of \\(x\\)?",
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "Combine like terms on each side: the left side is \\(4x+20\\) and the right side is \\(6x+8\\). \\[4x+20=6x+8\\] Subtract \\(4x\\) from both sides and subtract \\(8\\) from both sides: \\[12=2x\\] Divide both sides by \\(2\\): \\[x=6\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q78 (KM3_Q78)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(2x+2x+14=2x+2x+2x+6\\), then what is the value of \\(x\\)?",
+        "options": {
+          "E": "3",
+          "F": "4",
+          "G": "5",
+          "H": "7"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q78.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(5\\)",
+        "C": "\\(6\\)",
+        "D": "\\(7\\)"
+      },
+      "q_number": 47
+    },
+    {
+      "id": "P-FE6-M-KM3_Q89",
+      "question_type": "mc",
+      "question": "If \\(x-\\dfrac{3}{8}=y\\), and \\(y=3\\), what is the value of \\(x\\)?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Add \\(\\dfrac{3}{8}\\) to both sides: \\[x=y+\\dfrac{3}{8}\\] Substitute \\(y=3\\): \\[x=3+\\dfrac{3}{8}=\\dfrac{24}{8}+\\dfrac{3}{8}=\\dfrac{27}{8}\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q89 (KM3_Q89)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(x-\\dfrac{7}{10}=y\\), and \\(y=2\\), what is the value of \\(x\\)?",
+        "options": {
+          "A": "\\(-\\dfrac{3}{10}\\)",
+          "B": "\\(\\dfrac{9}{10}\\)",
+          "C": "\\(\\dfrac{13}{10}\\)",
+          "D": "\\(\\dfrac{27}{10}\\)"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q89.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(-\\dfrac{21}{8}\\)",
+        "B": "\\(\\dfrac{9}{8}\\)",
+        "C": "\\(\\dfrac{21}{8}\\)",
+        "D": "\\(\\dfrac{27}{8}\\)"
+      },
+      "q_number": 48
+    },
+    {
+      "id": "P-FE6-M-KM3_Q100",
+      "question_type": "mc",
+      "question": "If \\(\\dfrac{1}{y}=\\dfrac{x}{4}\\), and \\(y=\\dfrac{1}{6}\\), what is the value of \\(x\\)?",
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "Substitute \\(y=\\dfrac{1}{6}\\) into the left side: \\(\\dfrac{1}{\\tfrac{1}{6}}=6\\). So the equation becomes \\[6=\\dfrac{x}{4}\\] Multiply both sides by \\(4\\): \\[x=24\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q100 (KM3_Q100)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "If \\(\\dfrac{1}{y}=\\dfrac{x}{3}\\), and \\(y=\\dfrac{1}{5}\\), what is the value of \\(x\\)?",
+        "options": {
+          "E": "\\(\\dfrac{1}{15}\\)",
+          "F": "\\(\\dfrac{3}{5}\\)",
+          "G": "\\(\\dfrac{5}{3}\\)",
+          "H": "15"
+        },
+        "correct": "H",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q100.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{1}{24}\\)",
+        "B": "\\(\\dfrac{2}{3}\\)",
+        "C": "\\(\\dfrac{3}{2}\\)",
+        "D": "\\(24\\)"
+      },
+      "q_number": 49
+    },
+    {
+      "id": "P-FE6-M-KM3_Q71",
+      "question_type": "mc",
+      "question": "\\[\\dfrac{64}{9}=\\dfrac{8}{x}\\]\n\nWhat value of \\(x\\) makes the equation above true?",
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "Cross multiply: \\[64x=9\\times8\\] \\[64x=72\\] Divide both sides by \\(64\\): \\[x=\\dfrac{72}{64}=\\dfrac{9}{8}=1\\tfrac{1}{8}\\]"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 — Math Q71 (KM3_Q71)",
+      "base_question": {
+        "question_type": "mc",
+        "section_label": "PART 2 - MATHEMATICS",
+        "question": "\\[\\dfrac{49}{9}=\\dfrac{7}{x}\\]\nWhat value of \\(x\\) makes the equation above true?",
+        "options": {
+          "A": "\\(\\dfrac{7}{9}\\)",
+          "B": "\\(1\\dfrac{2}{7}\\)",
+          "C": "5",
+          "D": "\\(5\\dfrac{1}{9}\\)"
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q71.jpg"
+        }
+      },
+      "options": {
+        "A": "\\(\\dfrac{8}{9}\\)",
+        "B": "\\(1\\tfrac{1}{8}\\)",
+        "C": "\\(8\\)",
+        "D": "\\(8\\tfrac{8}{9}\\)"
+      },
+      "q_number": 50
+    }
+  ],
+  "ela_passages": [
+    {
+      "id": "sweat_lodges",
+      "genre": "editing",
+      "title": "Sweat Lodges",
+      "sentence_paragraphs": [
+        [
+          {
+            "num": 1,
+            "text": "Medicines derived from nature have been around for centuries and often complement natural therapies."
+          },
+          {
+            "num": 2,
+            "text": "The most widely used natural therapy is the sweat lodge, a practice established by some groups of indigenous peoples of the Americas; similar practices have evolved in other cultures as well."
+          },
+          {
+            "num": 3,
+            "text": "The Finnish sauna and the Turkish steam room share many characteristics of the sweat lodge."
+          },
+          {
+            "num": 4,
+            "text": "The basic purpose of these therapies is to raise the body's core temperature to between 102 and 106 degrees Fahrenheit."
+          },
+          {
+            "num": 5,
+            "text": "The heat can also ease muscle tension and soreness, the resulting perspiration flushes the system of toxins."
+          }
+        ],
+        [
+          {
+            "num": 6,
+            "text": "A traditional sweat lodge is often built of willow."
+          },
+          {
+            "num": 7,
+            "text": "Its bark is considered to be medicinal."
+          },
+          {
+            "num": 8,
+            "text": "It also contains the same analgesic as aspirin."
+          },
+          {
+            "num": 9,
+            "text": "Some lodges are covered with animal skins, while others are made with canvas or blankets."
+          },
+          {
+            "num": 10,
+            "text": "Large rocks are heated and brought inside the lodge."
+          },
+          {
+            "num": 11,
+            "text": "Water is then poured over the rocks, filling the lodge with steam."
+          }
+        ],
+        [
+          {
+            "num": 12,
+            "text": "Traditional sweat lodge ceremonies, which often included songs, prayers, and chants, were believed to purify not only the body but also the mind."
+          },
+          {
+            "num": 13,
+            "text": "“Healing comes on a spiritual level,” wrote Dr. Lewis Mehl-Madrona in his book Coyote Medicine."
+          },
+          {
+            "num": 14,
+            "text": "“Ceremony and ritual provide the means of making ourselves available.”"
+          }
+        ],
+        [
+          {
+            "num": 15,
+            "text": "Mehl-Madrona's focus on ceremony and ritual has influenced many groups."
+          },
+          {
+            "num": 16,
+            "text": "He also improves his mental stamina through the game of chess."
+          },
+          {
+            "num": 17,
+            "text": "These aspects of the sweat lodge have even been adopted by the Jewish group Aquarian Minyan."
+          },
+          {
+            "num": 18,
+            "text": "Incorporating the ceremonial aspect of the traditional shvitz, participants gather in a willow structure covered with blankets, one of which bears the Star of David."
+          },
+          {
+            "num": 19,
+            "text": "Regarding this ceremony of mixed Native American and Jewish tradition, Miriam Stampfer, a biologist at U.C. Berkeley, has said, “You purify yourself on the physical level, by cleaning the toxins out of your system, and on a spiritual level, by following ritual paths, which bring in the spirits of the ancestors and the divine presence.”"
+          }
+        ]
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q08",
+          "q_number": 51,
+          "question_type": "mc",
+          "question": "Which introductory sentence, if inserted before sentence 1, would best support the argument presented in the passage?",
+          "options": {
+            "E": "As people become more interested in healthy living, many new trends have emerged.",
+            "F": "The twenty-first century has seen a marked increase in the popularity of natural medicines and therapies.",
+            "G": "Natural remedies and approaches are an integral part of living the healthiest way possible.",
+            "H": "Some people may be skeptical about natural approaches to treating ailments, but many people find them helpful."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q8.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q09",
+          "q_number": 52,
+          "question_type": "mc",
+          "question": "Which transition should be added to the beginning of sentence 3?",
+          "options": {
+            "A": "For instance,",
+            "B": "Conversely,",
+            "C": "On the other hand,",
+            "D": "Even though"
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q9.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q10",
+          "q_number": 53,
+          "question_type": "mc",
+          "question": "Which sentence would best follow and support sentence 4?",
+          "options": {
+            "E": "Many indigenous remedies are now being prescribed by medical professionals.",
+            "F": "Turkey and Russia also have similar forms of heat therapy.",
+            "G": "This is approximately three to seven degrees above normal.",
+            "H": "At this temperature, bacterial and viral infections within the body cannot easily survive."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q10.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q11",
+          "q_number": 54,
+          "question_type": "mc",
+          "question": "Which transition word should be added after the comma in sentence 5?",
+          "options": {
+            "A": "however",
+            "B": "furthermore",
+            "C": "but",
+            "D": "and"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q11.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q12",
+          "q_number": 55,
+          "question_type": "mc",
+          "question": "What is the best way to combine sentences 6 through 8 to clarify the relationship between ideas?",
+          "options": {
+            "E": "A traditional sweat lodge is often built of willow, its bark is considered to be medicinal, and it contains the same analgesic as aspirin.",
+            "F": "A traditional sweat lodge is often built of willow, having its bark considered to be medicinal and containing the same analgesic as aspirin.",
+            "G": "A traditional sweat lodge is often built of willow bark, which is considered to be medicinal and contains the same analgesic as aspirin.",
+            "H": "A traditional sweat lodge, often built of willow, with bark considered to be medicinal and containing the same analgesic as aspirin."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q12.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q13",
+          "q_number": 56,
+          "question_type": "mc",
+          "question": "Which concluding sentence would best follow sentence 19 and support the argument presented in the passage?",
+          "options": {
+            "A": "Research shows that sweat lodges have influenced not only Jewish traditions but also Christian communities.",
+            "B": "Mehl-Madrona and Stampfer have recently collaborated on a book about the latest health trends.",
+            "C": "Sweat lodges have been a means of purifying the body and the mind for centuries, and recent studies suggest that their influence is expanding and will continue to grow.",
+            "D": "Indigenous Americans traditionally used primarily limestones to heat their lodges, and this is very efficient, maintaining high temperatures with very few rocks."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q13.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q14",
+          "q_number": 57,
+          "question_type": "mc",
+          "question": "Which sentence presents information that shifts away from the main topic of paragraph 4 (sentences 15-19) and should be removed?",
+          "options": {
+            "E": "sentence 15",
+            "F": "sentence 16",
+            "G": "sentence 17",
+            "H": "sentence 18"
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q14.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "murals_cityscape",
+      "genre": "informational",
+      "title": "Murals for Cityscape",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The modern city has become an increasingly colorless environment. The spread of industry has transformed the urban landscape, covering everything in a thin layer of gray soot. But the monotony of city life is not just due to airborne pollution. Since the Industrial Revolution, city architects have mostly favored the use of somber, neutral colors in their buildings. This may be out of a simple desire to imitate the austere look of the monotone marble and stone materials used in ancient Greece and Rome. If so, that choice is misguided because surprisingly, historians and archaeologists note that these ancient cities were actually very colorful places. For whatever reasons, eschewing the vibrancy of the past and the full array of possibilities, most modern architects have long tended to avoid designing colorful buildings in prominent public places."
+        },
+        {
+          "num": 2,
+          "text": "But simply because city buildings are monotone doesn't mean that cities themselves must be colorless places. Fortunately, the last 30 years have seen an upsurge in the number of urban art projects using decorative color. One especially exciting way to introduce color back into the cityscape is through the use of murals as public art. The mural has a long history of brightening public places. The first important muralists of the twentieth century were three Mexican artists—Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros. In the 1920s, these artists became famous by creating gigantic paintings that retraced major episodes in the history of Mexico. These paintings covered large portions of the public landscape and brought excitement to cities. The artists received commissions to produce large-scale works later in the United States, inspiring a vast program of publicly financed commissions in the 1930s, which were designed to provide work for unemployed American artists during the Great Depression."
+        },
+        {
+          "num": 3,
+          "text": "While the mural movement during the Great Depression was vigorous, it was also short-lived. Murals enjoyed a resurgence of popularity in the United States during the 1960s, when artists used the medium to make statements about political changes. In 1967, a team of artists led by William Walker created a “collage” of portraits, photographs, and poetic verse on a derelict building in Chicago. Entitled “The Wall of Respect,” the work paid tribute to public figures who had fought for civil rights for African Americans. This group effort sparked other similar projects in such American cities as Los Angeles, San Francisco, Baltimore, and New York."
+        },
+        {
+          "num": 4,
+          "text": "The power of murals to inspire and invigorate dull urban centers has been discovered yet again by urban planners, landscape architects, and artists. Much of the street art currently being produced reminds us of important historical events or highlights changes happening in our culture. Murals portraying important political, religious, and artistic events are being employed in otherwise traditional cityscapes. The impact of murals goes far beyond these educational and historical aims, by creating a unique sense of place and establishing a bold spirit of vitality in the urban centers where murals grace the scenery."
+        },
+        {
+          "num": 5,
+          "text": "Murals are one piece of a solution to bring color back into cities. Color can help to rehabilitate, revitalize, or even save neighborhoods that might otherwise be doomed to demolition. The aim is to provide the city-dweller with the opportunity to participate in the rebirth of a more human environment."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q15",
+          "q_number": 58,
+          "question_type": "mc",
+          "question": "How does the information about Rivera, Orozco, and Siqueiros in paragraph 2 contribute to the development of the passage?",
+          "options": {
+            "A": "It illustrates how their success was largely due to a team effort.",
+            "B": "It conveys how other artists benefited from their initiative.",
+            "C": "It shows how their frescoes were the largest works ever produced.",
+            "D": "It highlights how they imitated the colors of ancient Greece and Rome."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q15.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q16",
+          "q_number": 59,
+          "question_type": "mc",
+          "question": "The infographic provides additional support to the ideas of paragraph 2 mainly by",
+          "options": {
+            "E": "illustrating that 2,500 artists were encouraged by three influential Mexican muralists in the 1930s to create frescos in American cities.",
+            "F": "showing the extent of the Mexican government program inspired by the frescoes of muralists Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros.",
+            "G": "revealing the number of United States mural artists who were assisted through the Federal Art Project due to the work of the Mexican muralists.",
+            "H": "providing evidence that many artists were available to decorate modern cities with murals, sculpture, frescoes, and other art forms."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q16.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q17",
+          "q_number": 60,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that “the use of somber, neutral colors in their buildings” by city architects may be the result of a mistake?",
+          "options": {
+            "A": "“The spread of industry has transformed the urban landscape, covering everything in a thin layer of gray soot.” (paragraph 1)",
+            "B": "“This may be out of a simple desire to imitate the austere look of the monotone marble and stone materials used in ancient Greece and Rome.” (paragraph 1)",
+            "C": "“But simply because city buildings are monotone doesn't mean that cities themselves must be colorless places.” (paragraph 2)",
+            "D": "“The power of murals to inspire and invigorate dull urban centers has been discovered yet again by urban planners, landscape architects, and artists.” (paragraph 4)"
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q17.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q18",
+          "q_number": 61,
+          "question_type": "mc",
+          "question": "How does paragraph 2 fit into the overall structure of the excerpt?",
+          "options": {
+            "E": "It illustrates how the revival of murals can reverse the colorless nature of modern cities.",
+            "F": "It discusses how murals reflect changes in culture in both Mexico and the United States.",
+            "G": "It contrasts the drab nature of modern cities with the colorful cityscapes of the ancient world.",
+            "H": "It demonstrates how colorful murals can save neighborhoods from urban decay."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q18.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q19",
+          "q_number": 62,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that “color can help to rehabilitate, revitalize, or even save neighborhoods” (paragraph 5)?",
+          "options": {
+            "A": "“The mural has a long history of brightening public places.” (paragraph 2)",
+            "B": "“Much of the street art currently being produced reminds us of important historical events or highlights changes happening in our culture.” (paragraph 4)",
+            "C": "“The impact of murals goes far beyond these educational and historical aims, by creating a unique sense of place and establishing a bold spirit of vitality in the urban centers where murals grace the scenery.” (paragraph 4)",
+            "D": "“The aim is to provide the city-dweller with the opportunity to participate in the rebirth of a more human environment.” (paragraph 5)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q19.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q20",
+          "q_number": 63,
+          "question_type": "mc",
+          "question": "With which statement would the author of the passage most likely agree?",
+          "options": {
+            "E": "Colorful urban art can help save condemned buildings.",
+            "F": "Urban art projects should avoid political issues.",
+            "G": "Murals have caused many important historical events.",
+            "H": "The city will always be a colorless environment."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q20.jpg"
+          }
+        }
+      ],
+      "passage_figure_html": "<img src=\"kaplan_2025_3/figures/murals_infographic.jpg\" alt=\"Federal Art Project employment infographic\" style=\"max-width:100%;border-radius:4px;\">"
+    },
+    {
+      "id": "miles_davis",
+      "genre": "informational",
+      "title": "Miles Davis: Legend of Jazz",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The death of trumpeter Miles Davis in 1991 brought an end to one of the most celebrated careers in the history of jazz. Davis's career spanned six decades and reached heights of enduring influence and popularity that few musicians have ever enjoyed. His legacy in the world of jazz is secure."
+        },
+        {
+          "num": 2,
+          "text": "Davis was born in 1926 in southern Illinois, in a suburb of St. Louis, to a mother who was a music teacher and violinist. His father was a successful dentist and, to many people's surprise—given preconceived notions about jazz musicians—Davis actually enjoyed a very comfortable upbringing. He picked up the trumpet in his early teens and not only showed considerable interest in music but also demonstrated a great deal of musical talent. He arrived in New York City in 1944, and developed his skills at what is now the Juilliard School of Music. He may have enhanced his musical skills by day, but he truly found his musical style at night while haunting the city's jazz clubs. There, Davis received a different kind of education. Bebop, the hot, frantic new style of jazz, was played by such musical revolutionaries as Charlie Parker, Dizzy Gillespie, and Thelonious Monk; Davis was sometimes invited up on the bandstand to play with them. Though obviously talented, Davis had to struggle to keep up with these musicians; there, he found tremendous inspiration, and he worked tirelessly to perfect his technique. Ultimately, he dropped out of Juilliard to focus on his career."
+        },
+        {
+          "num": 3,
+          "text": "Even at this early stage in his craft, Davis's sound and style on the trumpet set him apart. Rather than filling the air with a headlong rush of notes, as other bebop musicians did, Davis played sparingly in a unique, intimate tone. He seemed more interested in the silences between the notes than in the notes themselves. By 1948, Davis was performing and recording music with a small group of jazz musicians. Releasing a dozen singles, the group developed a style that blended the improvisational ideals of bebop with a thickly orchestral sound and paved the way for the West Coast style of jazz."
+        },
+        {
+          "num": 4,
+          "text": "Davis's “less-is-more” approach became the basis of “cool” jazz, a new style of jazz that Davis led and which dominated the genre in the 1950s. The Miles Davis Quintet set the standard for all other jazz groups of the era. Featuring many legendary performers in his work, Davis produced a series of profoundly influential recordings culminating in the classic Kind of Blue. That album is notable for its modal style of jazz that features sparse elements and nonstandard scales, as well as complex, frequently changing chords."
+        },
+        {
+          "num": 5,
+          "text": "For many critics, the late 1950s represents the high point of Davis's career. And yet, even though he had developed a very popular and successful brand of music, he soon moved on to play other styles. Indeed, he continued to expand his musical horizons over the next 40 years, always playing with young, emerging musicians in a restless search for new sounds. Although he never topped the critical acclaim of Kind of Blue, Davis continued to reach new audiences by dabbling in new genres such as dance music and blues. Davis continued to play and record music up until the last days of his life. His final album, Doo-Bop, was released posthumously in 1992."
+        },
+        {
+          "num": 6,
+          "text": "Although, like any enduring artist, Davis's career was faced with uneven critical approval, personal highs and lows, and a changing sound, Davis will always be remembered for his great influence on jazz music, particularly for the way he experimented with style and tone."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q21",
+          "q_number": 64,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "A": "Miles Davis sparked the musical revolution of the 1940s.",
+            "B": "Miles Davis learned to play jazz in school and in nightclubs.",
+            "C": "Miles Davis played a pivotal role in the origins of bebop jazz.",
+            "D": "Miles Davis enjoyed a long and artistically notable career."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q21.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q22",
+          "q_number": 65,
+          "question_type": "mc",
+          "stimulus": "Read this sentence from paragraph 2.<br><br>“His father was a successful dentist and, to many people's surprise—given preconceived notions about jazz musicians—Davis actually enjoyed a very comfortable upbringing.”",
+          "question": "The sentence contributes to the development of ideas in the passage by",
+          "options": {
+            "E": "hinting that Davis's career would be one marked by distinctions from those of other jazz musicians of his era.",
+            "F": "highlighting that Davis was a poor fit for the field of jazz music because of his classical training at Juilliard.",
+            "G": "justifying why Davis was able to afford to pay to visit so many New York City jazz clubs to meet famous musicians.",
+            "H": "revealing that Davis was raised by his father in a middle-class single-parent household."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q22.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q23",
+          "q_number": 66,
+          "question_type": "mc",
+          "question": "Which sentence from the passage best supports the idea that “For many critics, the late 1950s represents the high point of Davis's career” (paragraph 5)?",
+          "options": {
+            "A": "“Releasing a dozen singles, the group developed a style that blended the improvisational ideals of bebop with a thickly orchestral sound and paved the way for the West Coast style of jazz.” (paragraph 3)",
+            "B": "“Featuring many legendary performers in his work, Davis produced a series of profoundly influential recordings culminating in the classic Kind of Blue.” (paragraph 4)",
+            "C": "“And yet, even though he had developed a very popular and successful brand of music, he soon moved on to play other styles.” (paragraph 5)",
+            "D": "“Although he never topped the critical acclaim of Kind of Blue, Davis continued to reach new audiences by dabbling in new genres such as dance music and blues.” (paragraph 5)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q23.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q24",
+          "q_number": 67,
+          "question_type": "mc",
+          "question": "The passage describes Davis's early musical education by stating that he",
+          "options": {
+            "E": "preferred playing classical music to playing jazz.",
+            "F": "learned from playing with club musicians.",
+            "G": "rarely needed to practice to keep up with his classmates.",
+            "H": "was dissatisfied with his studies at the Juilliard School."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q24.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q25",
+          "q_number": 68,
+          "question_type": "mc",
+          "stimulus": "Read this sentence from paragraph 3.<br><br>“He seemed more interested in the silences between the notes than in the notes themselves.”",
+          "question": "The sentence contributes to the development of ideas in the excerpt by",
+          "options": {
+            "A": "illustrating how Davis first developed “cool” jazz in the 1970s.",
+            "B": "highlighting how “cool” jazz was unpopular on the East Coast.",
+            "C": "showing that Davis continued to play “cool” jazz in the 1960s.",
+            "D": "showing how “cool” jazz was less frantic than bebop jazz."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q25.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q26",
+          "q_number": 69,
+          "question_type": "mc",
+          "question": "The phrase “expand his musical horizons” in paragraph 5 suggests that",
+          "options": {
+            "E": "Miles Davis went on to explore other art forms.",
+            "F": "Miles Davis traveled to perform his music all over the world.",
+            "G": "Miles Davis constantly experimented with new styles of music.",
+            "H": "Miles Davis rarely let the opinions of his critics influence him."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q26.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q27",
+          "q_number": 70,
+          "question_type": "mc",
+          "question": "How does the word “haunting” in paragraph 2 contribute to the development of ideas in the paragraph?",
+          "options": {
+            "A": "It highlights how dangerous it was to attend the jazz clubs.",
+            "B": "It conveys the idea that Davis had to frequent the jazz clubs often in order to learn.",
+            "C": "It indicates that Davis loomed over junior artists at the jazz clubs.",
+            "D": "It shows why Davis was unable to gain admission to jazz clubs."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q27.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q28",
+          "q_number": 71,
+          "question_type": "mc",
+          "question": "The “less-is-more” approach of Miles Davis is best illustrated through the",
+          "options": {
+            "E": "short and concise musical selections he chose to play.",
+            "F": "limited number of musicians in his band.",
+            "G": "way he limited playing in jazz clubs to once or twice a week.",
+            "H": "pauses between notes throughout his performances."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q28.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "immigrant_family_groups",
+      "genre": "informational",
+      "title": "The Influence of Immigrant Family Groups",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "Immigrants to the United States during the nineteenth century faced many changes when they reached the New World. Coming from all over Europe and practicing vastly different cultural traditions, they found themselves in a large collective surrounded by others of vastly different backgrounds. Interestingly, most of the immigrant groups at this time were able to remain within the confines of their own small communities even under tremendous external forces. It is notable that while groups of immigrants sometimes bound together through the links of friendship, village, or region, mostly it was blood ties—kinship groups—that formed the basis for these smaller, stable immigrant populations. This coping mechanism of staying with one's own people surely assisted with the transition to the New World, but it assisted with another transition as well: from a rural lifestyle to urban economics. However, the dynamics of these smaller immigrant kinship communities have not always been well understood."
+        },
+        {
+          "num": 2,
+          "text": "Until recently, many historians believed that the immigrant family group broke down upon the transition from a rural to an urban economy. But this argument rested upon assumptions that have proven to be untrue: that families became less important in urban-industrial society and that families operated in isolation from the larger economy of industrial capitalism that surrounded them upon their arrival in the United States. In fact, the family structure continued to thrive during the transition to an urban economy. Further, modern historical scholarship has made it quite clear that the family dynamic fit well with and even supported the underpinnings of American capitalism. In short, the family played an essential role in shaping the urban economy."
+        },
+        {
+          "num": 3,
+          "text": "The immigrant family survived the transition from subsistence agriculture in the home world to an industrial capitalist economy in the new one through its central and enduring attachment to the value of cooperation. What it means to be a “family” is at the root of this. Family members are continually instructed in the necessity of sharing, while notions of reciprocity are constantly reinforced. Thus, in the new world, families, consisting of parents, children, boarders, or others who shared particular households, were ready to share resources and workload. All household members were assigned a series of duties and obligations. By working together, pooling limited resources, and muting individual inclinations, families attempted to assemble the resources sufficient for economic survival and, occasionally, for an improvement in their standard of living."
+        },
+        {
+          "num": 4,
+          "text": "The features of this collaborative interest that helped families thrive served the family's economic interests in this new industrial urban landscape. But immigrant kinship associations didn't just help themselves, they supported the larger machinery of the industrial city. For instance, such groups were able to help organize the movement of workers into different places, facilitate communication, and even to anticipate and meet the demands of the workplace. At times, the relationship between the industrial economy and immigrant families could almost be described as symbiotic, as kinship groups proved very responsive to demands of the workplace, the city, and the individual."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q29",
+          "q_number": 72,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "A": "Immigrant families dissolved over time after moving to the United States.",
+            "B": "Immigrant families have been misunderstood in modern history books.",
+            "C": "Immigrant families thrived in the urban landscapes of the United States.",
+            "D": "Immigrant families enjoyed a high standard of living in the United States."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q29.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q30",
+          "q_number": 73,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that kinship groups served as a “coping mechanism” (paragraph 1)?",
+          "options": {
+            "E": "“Coming from all over Europe and practicing vastly different cultural traditions, they found themselves in a large collective surrounded by others of vastly different backgrounds.” (paragraph 1)",
+            "F": "“In short, the family played an essential role in shaping the urban economy.” (paragraph 2)",
+            "G": "“Family members are continually instructed in the necessity of sharing, while notions of reciprocity are constantly reinforced.” (paragraph 3)",
+            "H": "“For instance, such groups were able to help organize the movement of workers into different places, facilitate communication, and even to anticipate and meet the demands of the workplace.” (paragraph 4)"
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q30.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q31",
+          "q_number": 74,
+          "question_type": "mc",
+          "question": "How does paragraph 2 fit into the overall structure of the excerpt?",
+          "options": {
+            "A": "It contrasts the living standards of Old World countries with those enjoyed by many immigrant families in the New World.",
+            "B": "It elaborates on why the assumed breakdown of immigrant families in the United States has been proven to be inaccurate.",
+            "C": "It highlights the insubstantial evidence presented in modern history books about immigrant families.",
+            "D": "It elaborates on the economic dimension of the family and how it benefits immigrants."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q31.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q32",
+          "q_number": 75,
+          "question_type": "mc",
+          "question": "How do the details in paragraphs 3-4 help convey a central idea of the excerpt?",
+          "options": {
+            "E": "They establish how historians have misunderstood immigrant families.",
+            "F": "They reveal that immigrant families always prosper in the United States.",
+            "G": "They provide concrete examples of how kinship groups operate.",
+            "H": "They offer precise definitions of immigrant and native family groups."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q32.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q33",
+          "q_number": 76,
+          "question_type": "mc",
+          "question": "With which statement would the author of this excerpt most likely agree?",
+          "options": {
+            "A": "Immigrant families tend to value communal needs over individual needs.",
+            "B": "Immigrant families prefer to live in rural communities over urban areas.",
+            "C": "Immigrant families work best in isolation from the larger community around them.",
+            "D": "Immigrant families have not had much influence on the U.S. economy."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q33.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q34",
+          "q_number": 77,
+          "question_type": "mc",
+          "question": "The phrase “the larger machinery” in paragraph 4 serves to support the idea that urban life",
+          "options": {
+            "E": "lacked the sense of belonging common to that of agriculturally-focused rural communities.",
+            "F": "depended on a large workforce to maintain its factories and other physical infrastructure.",
+            "G": "improved thanks to immigrant families helping to unionize factories and anticipate workers' needs.",
+            "H": "benefited in many ways from the influence of immigrant kinship associations."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q34.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q35",
+          "q_number": 78,
+          "question_type": "mc",
+          "question": "The phrase “muting individual inclinations” in paragraph 3 conveys the idea that immigrant families had to",
+          "options": {
+            "A": "weather economic declines in the United States.",
+            "B": "endure economic hardships after their arrival.",
+            "C": "sacrifice their personal wishes to prosper.",
+            "D": "resolve their individual disputes to work together."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q35.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q36",
+          "q_number": 79,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best supports the idea that immigrant families succeeded in adapting to the demands of industrial urban work?",
+          "options": {
+            "E": "“Interestingly, most of the immigrant groups at this time were able to remain within the confines of their own small communities even under tremendous external forces.” (paragraph 1)",
+            "F": "“It is notable that while groups of immigrants sometimes bound together through the links of friendship, village, or region, mostly it was blood ties—kinship groups—that formed the basis for these smaller, stable immigrant populations.” (paragraph 1)",
+            "G": "“Thus, in the new world, families, consisting of parents, children, boarders, or others who shared particular households, were ready to share resources and workload.” (paragraph 3)",
+            "H": "“But immigrant kinship associations didn't just help themselves, they supported the larger machinery of the industrial city.” (paragraph 4)"
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q36.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "old_man_of_the_mountain",
+      "genre": "informational",
+      "title": "New Hampshire's Old Man",
+      "author": null,
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "On May 3, 2003, the state of New Hampshire lost its most beloved old man. The Old Man of the Mountain, a rock outcropping that had jutted from the side of Cannon Mountain—in New Hampshire's White Mountains region—collapsed. This remarkable and prominent feature had graced the cliff face for thousands of years, long attracting the attention of residents, naturalists, and hikers, but its vulnerability was well understood long before the fateful collapse. In fact, since 1915, steel cables and turnbuckles had been used to shore up the ledges that formed the profile. The forces of erosion couldn't be kept at bay forever and, after the unusually harsh spring of 2003 proved to be too much, portions of the rock profile crumbled and fell to the valley below."
+        },
+        {
+          "num": 2,
+          "text": "Composed of a series of five Conway red granite ledges stacked one on top of the other, the Old Man of the Mountain was about 40 feet high and 25 feet across. Before the rockfall, the granite ledges had jutted out from the rock face of the cliff in striking formation, suggesting the features of a face in profile. Although the natural cliff remains, the distinctive profile is now gone, probably forever. Plans to restore the face have been suggested, but have been deemed impractical and the government of New Hampshire has chosen instead to honor the Old Man of the Mountain with a museum. Though the famous rock face is no more, its history is far from forgotten."
+        },
+        {
+          "num": 3,
+          "text": "The discovery of the Old Man of the Mountain in 1805 has been credited to surveyors Luke Brooks and Francis Whitcomb. However, Native Americans stated long before that time that they had seen a stone face in the White Mountains. As more and more people settled in New Hampshire, the fame of the rocky profile grew. Statesman Daniel Webster, a famed U.S. congressman originally from New Hampshire, is credited with having said, “Men hang out their signs indicative of their respective trades: shoemakers hang out a gigantic shoe, jewelers a monster watch, and the dentist hangs out a gold tooth, but in the mountains of New Hampshire, God Almighty has hung out a sign to show that there, He makes men.” In 1945, the Old Man of the Mountain became the state symbol of New Hampshire and has appeared on highway road signs and license plates, as well as the state quarter."
+        },
+        {
+          "num": 4,
+          "text": "Although the remarkable history of the Old Man of the Mountain is as old as the United States, its geologic history is much older. According to geologists, the stone face was the result of processes that began millions of years ago. The White Mountains were created from magma intrusions that, more than 100 million years ago, created the foundational granite that comprises the feature. However, it probably wasn't until the Ice Age, when glaciers descended from the arctic and sculpted the White Mountains, that the surface materials were scrubbed away leaving behind the prominent granite ledges. When the Ice Age ended approximately 10,000 years ago, the glaciers receded and the ice melted. Part of the Old Man's profile was formed by the melting and falling of large chunks of ice from Cannon Mountain during this thawing period. The profile was completed through the eroding process of water collecting and freezing in crevices of the rock face."
+        },
+        {
+          "num": 5,
+          "text": "Erosion moves steadily forward, relentlessly, regardless of human interests. Ironically, the same erosion that formed the Old Man of the Mountain ultimately removed it, and the erosion will continue to shape and reshape the cliffs of New Hampshire for eternity. In time, another “Old Man” could form. In fact, other distinctive rock formations appear all over the world, including Der große Kurfürst (said to look like a nobleman) in Germany, the Heathen Maiden in Slovenia, or the Sleeping Giant in Connecticut. However, few formations possess such a clear, distinctive image, and none hold the special place in the hearts of the citizens of New Hampshire as does that of the Old Man of the Mountain."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q37",
+          "q_number": 80,
+          "question_type": "mc",
+          "question": "Which statement best describes the central idea of the passage?",
+          "options": {
+            "A": "The Old Man of the Mountain illustrates how the forces of nature can create lifelike sculptures from rock.",
+            "B": "The Old Man of the Mountain can and will be reconstructed by the New Hampshire government.",
+            "C": "The Old Man of the Mountain was discovered during the exploration and settlement of the White Mountains.",
+            "D": "The Old Man of the Mountain had a long and notable history prior to its collapse in 2003."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q37.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q38",
+          "q_number": 81,
+          "question_type": "mc",
+          "stimulus": "Read this sentence from paragraph 1.<br><br>“The forces of erosion couldn't be kept at bay forever and, after the unusually harsh spring of 2003 proved to be too much, portions of the rock profile crumbled and fell to the valley below.”",
+          "question": "Which statement describes the effect of the phrase “proved to be too much” in the passage?",
+          "options": {
+            "E": "It foreshadows the disastrous effects of ice falling from Cannon Mountain.",
+            "F": "It indicates the immediate cause of the collapse of the Old Man of the Mountain.",
+            "G": "It establishes why the cables and turnbuckles holding the Old Man of the Mountain in place broke.",
+            "H": "It explains why water was collecting and freezing in crevices of the mountain."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q38.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q39",
+          "q_number": 82,
+          "question_type": "mc",
+          "question": "The author indicates that people in New Hampshire have known about the Old Man of the Mountain for a long time mainly by",
+          "options": {
+            "A": "demonstrating how Brooks and Whitcomb discovered the Old Man of the Mountain.",
+            "B": "presenting the controversy surrounding the proposed efforts at reconstructing this famous landmark.",
+            "C": "discussing the construction of the memorial museum for the Old Man of the Mountain.",
+            "D": "highlighting how Native Americans knew of a face in the White Mountains."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q39.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q40",
+          "q_number": 83,
+          "question_type": "mc",
+          "question": "How does the author's use of Daniel Webster's quote in paragraph 3 contribute to the development of ideas in the passage?",
+          "options": {
+            "E": "It demonstrates the fame and the significance of the Old Man of the Mountain.",
+            "F": "It illustrates why Daniel Webster gained a reputation as a superb orator.",
+            "G": "It explains why the Old Man of the Mountain was chosen as New Hampshire's state symbol.",
+            "H": "It conveys how the loss of the Old Man of the Mountain affects the people of New Hampshire."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q40.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q41",
+          "q_number": 84,
+          "question_type": "mc",
+          "question": "How does paragraph 4 fit into the overall structure of the passage?",
+          "options": {
+            "A": "It explains in geological terms how the Old Man of the Mountain collapsed.",
+            "B": "It explains how the Old Man of the Mountain rock formation existed long before the state of New Hampshire.",
+            "C": "It illustrates how well-formed the profile of the Old Man of the Mountain was prior to its collapse.",
+            "D": "It emphasizes how old New Hampshire is compared to other states."
+          },
+          "correct": "B",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q41.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q42",
+          "q_number": 85,
+          "question_type": "mc",
+          "question": "Which sentence best demonstrates the cultural importance of the Old Man of the Mountain in the present day?",
+          "options": {
+            "E": "“Before the rockfall, the granite ledges had jutted out from the rock face of the cliff in striking formation, suggesting the features of a face in profile.” (paragraph 2)",
+            "F": "“Plans to restore the face have been suggested, but have been deemed impractical and the government of New Hampshire has chosen instead to honor the Old Man of the Mountain with a museum.” (paragraph 2)",
+            "G": "“Men hang out their signs indicative of their respective trades: shoemakers hang out a gigantic shoe, jewelers a monster watch, and the dentist hangs out a gold tooth, but in the mountains of New Hampshire, God Almighty has hung out a sign to show that there, He makes men.” (paragraph 3)",
+            "H": "“In fact, other distinctive rock formations appear all over the world, including Der große Kurfürst (said to look like a nobleman) in Germany, the Heathen Maiden in Slovenia, or the Sleeping Giant in Connecticut.” (paragraph 5)"
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q42.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q43",
+          "q_number": 86,
+          "question_type": "mc",
+          "question": "Which sentence from the excerpt best explains the Old Man of the Mountain's name?",
+          "options": {
+            "A": "“The Old Man of the Mountain, a rock outcropping that had jutted from the side of Cannon Mountain—in New Hampshire's White Mountains region—collapsed.” (paragraph 1)",
+            "B": "“Composed of a series of five Conway red granite ledges stacked one on top of the other, the Old Man of the Mountain was about 40 feet high and 25 feet across.” (paragraph 2)",
+            "C": "“However, Native Americans stated long before that time that they had seen a stone face in the White Mountains.” (paragraph 3)",
+            "D": "“Ironically, the same erosion that formed the Old Man of the Mountain ultimately removed it, and the erosion will continue to shape and reshape the cliffs of New Hampshire for eternity.” (paragraph 4)"
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q43.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q44",
+          "q_number": 87,
+          "question_type": "mc",
+          "stimulus": "Read this sentence from paragraph 1.<br><br>“This remarkable and prominent feature had graced the cliff face for thousands of years, long attracting the attention of residents, naturalists, and hikers, but its vulnerability was well understood long before the fateful collapse.”",
+          "question": "The sentence contributes to the overall theme of the passage by",
+          "options": {
+            "E": "conveying the sheer age of the Old Man of the Mountain without using specific numbers.",
+            "F": "highlighting that the structural weakness of this rock formation had been appreciated for many years.",
+            "G": "revealing that the loss of the Old Man of the Mountain came as a shock to tourists and residents of New Hampshire.",
+            "H": "shifting the focus from the cultural history of this rock formation to its geological history."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q44.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tales_of_space_and_time",
+      "genre": "literary fiction",
+      "title": "Excerpt from Tales of Space and Time",
+      "author": "H.G. Wells",
+      "intro_note": "In this excerpt, astronomers in the year 1900 have observed a strange, bright star which, according to the calculations of a master mathematician, seems to be headed for a collision, or close fly-by with Earth, causing a catastrophe. With scholarly detachment, the mathematician, who is also a teacher, explains his findings to his students.",
+      "citation": null,
+      "paragraphs": [
+        {
+          "num": 1,
+          "text": "The master mathematician sat in his private room and pushed the papers from him. His calculations were already finished. In a small white phial there still remained a little of the drug that had kept him awake and active for four long nights. Each day, serene, explicit, patient as ever, he had given his lecture to his students, and then had come back at once to this momentous calculation. His face was grave, a little drawn and hectic from his drugged activity. For some time he seemed lost in thought. Then he went to the window, and the blind went up with a click. Halfway up the sky, over the clustering roofs, chimneys and steeples of the city, hung the star."
+        },
+        {
+          "num": 2,
+          "text": "He looked at the little phial. “There will be no need of sleep again,” he said. The next day at noon—punctual to the minute, he entered his lecture theatre, put his hat on the end of the table as his habit was, and carefully selected a large piece of chalk. It was a joke among his students that he could not lecture without that piece of chalk to fumble in his fingers, and once he had been stricken to impotence by their hiding his supply. He came and looked under his grey eyebrows at the rising tiers of young fresh faces, and spoke with his accustomed studied commonness of phrasing. “Circumstances have arisen—circumstances beyond my control,” he said and paused, “which will debar me from completing the course I had designed. It would seem, gentlemen, if I may put the thing clearly and briefly, that—Man has lived in vain.”"
+        },
+        {
+          "num": 3,
+          "text": "The students glanced at one another. Had they heard aright? Mad? Raised eyebrows and grinning lips there were, but one or two faces remained intent upon his calm grey-fringed face. “It will be interesting,” he was saying, “to devote this morning to an exposition, so far as I can make it clear to you, of the calculations that have led me to this conclusion. Let us assume—”"
+        },
+        {
+          "num": 4,
+          "text": "He turned towards the blackboard, meditating a diagram in the way that was usual to him. “What was that about ‘lived in vain’?” whispered one student to another. “Listen,” said the other, nodding towards the lecturer."
+        },
+        {
+          "num": 5,
+          "text": "And presently they began to understand."
+        },
+        {
+          "num": 6,
+          "text": "That night the star rose later. And everywhere the world was awake that night, and throughout Christendom a sombre murmur hung in the keen air over the countryside like the belling of bees in the heather, and this murmurous tumult grew to a clangour in the cities. It was the tolling of the bells in a million belfry towers and steeples, summoning the people to sleep no more, to sin no more, but to gather in their churches and pray. And overhead, growing larger and brighter as the earth rolled on its way and the night passed, rose the dazzling star."
+        },
+        {
+          "num": 7,
+          "text": "And the streets and houses were alight in all the cities, the shipyards glared, and whatever roads led to high country were lit and crowded all night long. And in all the seas about the civilized lands, ships with throbbing engines, and ships with bellying sails, crowded with men and living creatures, were standing out to ocean and the north. For already the warning of the master mathematician had been telegraphed all over the world, and translated into a hundred tongues. The new planet and Neptune, locked in a fiery embrace, were whirling headlong, ever faster and faster towards the sun. Already every second this blazing mass flew a hundred miles, and every second its terrific velocity increased. As it flew now, indeed, it must pass a hundred million miles wide of the earth and scarcely affect it. But near its destined path, as yet only slightly perturbed, spun the mighty planet Jupiter and his moons sweeping splendid round the sun. Every moment now the attraction between the fiery star and the greatest of the planets grew stronger. And the result of that attraction? Inevitably Jupiter would be deflected from its orbit into an elliptical path, and the burning star, swung by his attraction wide of its sunward rush, would “describe a curved path” and perhaps collide with, and certainly pass very close to, our earth. “Earthquakes, volcanic outbreaks, cyclones, sea waves, floods, and a steady rise in temperature to I know not what limit”—so prophesied the master mathematician."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q45",
+          "q_number": 88,
+          "question_type": "mc",
+          "stimulus": "Read these sentences from paragraph 2.<br><br>“[He] carefully selected a large piece of chalk. It was a joke among his students that he could not lecture without that piece of chalk to fumble in his fingers, and once he had been stricken to impotence by their hiding his supply.”",
+          "question": "The sentences contribute to the development of ideas in the passage by",
+          "options": {
+            "A": "laying the foundation for a contrast between the typical school day routine and the professor's extraordinary news.",
+            "B": "describing the fussy nature of the professor in order to show that his students did not respect him.",
+            "C": "alluding to the professor's distress over the implications of his calculations by showing him fidgeting with the chalk.",
+            "D": "showing that the professor needed to handle the chalk in order to teach as it was coated with the drug that he kept using."
+          },
+          "correct": "A",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q45.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q46",
+          "q_number": 89,
+          "question_type": "mc",
+          "question": "How does paragraph 3 fit into the overall structure of the excerpt?",
+          "options": {
+            "E": "It establishes that the students are immediately riveted by the professor's announcement.",
+            "F": "It showcases the obvious distress, panic, and fear that the students feel toward the professor's announcement.",
+            "G": "It highlights the confusion the students feel while trying to catch on to what the professor is telling them.",
+            "H": "It showcases how completely uninterested the students are in the professor's lecture."
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q46.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q47",
+          "q_number": 90,
+          "question_type": "mc",
+          "question": "The phrase “circumstances beyond [his] control” in paragraph 2 conveys the idea that",
+          "options": {
+            "A": "the frail old professor has fallen ill and is unable to finish teaching the term.",
+            "B": "the professor's miscalculation may have actually contributed to the collision that is about to take place.",
+            "C": "the professor is not really to blame for the calamity despite his obvious guilt.",
+            "D": "the professor is a man who favors exacting precision in his life yet is unable to prevent the calamity that is unfolding."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q47.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q48",
+          "q_number": 91,
+          "question_type": "mc",
+          "question": "Which sentence best supports the idea that the professor is “serene, explicit, patient as ever” despite the looming calamity?",
+          "options": {
+            "E": "“He looked at the little phial. ‘There will be no need of sleep again,’ he said.” (paragraph 1)",
+            "F": "“It was a joke among his students that he could not lecture without that piece of chalk to fumble in his fingers, and once he had been stricken to impotence by their hiding his supply.” (paragraph 2)",
+            "G": "“He came and looked under his grey eyebrows at the rising tiers of young fresh faces, and spoke with his accustomed studied commonness of phrasing.” (paragraph 2)",
+            "H": "“And overhead, growing larger and brighter as the earth rolled on its way and the night passed, rose the dazzling star.” (paragraph 6)"
+          },
+          "correct": "G",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q48.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q49",
+          "q_number": 92,
+          "question_type": "mc",
+          "question": "How does the author's description of wakefulness in paragraph 6 contribute to the development of ideas in the passage?",
+          "options": {
+            "A": "It highlights how the cosmic rays were preventing people from sleeping.",
+            "B": "It conveys how people under stress take substances to prevent them from sleeping.",
+            "C": "It foreshadows how the human race was in denial about the events to come.",
+            "D": "It establishes that the people everywhere were aware of what was about to happen."
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q49.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q50",
+          "q_number": 93,
+          "question_type": "mc",
+          "stimulus": "Read this sentence from paragraph 6.<br><br>“It was the tolling of the bells in a million belfry towers and steeples, summoning the people to sleep no more, to sin no more, but to gather in their churches and pray.”",
+          "question": "The sentence contributes to the development of ideas in the passage by",
+          "options": {
+            "E": "suggesting there is a religious revival taking place.",
+            "F": "confirming that there is to be an important meeting for all to attend.",
+            "G": "explaining how the noise of the bells, bees, and clamoring voice prohibit sleep.",
+            "H": "conveying that people are likely to soon face death."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q50.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dawn_poem",
+      "genre": "poem",
+      "title": "Dawn",
+      "author": "John Gould Fletcher",
+      "citation": null,
+      "lines": [
+        {
+          "num": null,
+          "text": "Above the east horizon,"
+        },
+        {
+          "num": null,
+          "text": "The great red flower of the dawn"
+        },
+        {
+          "num": null,
+          "text": "Opens slowly, petal by petal;"
+        },
+        {
+          "num": null,
+          "text": "The trees emerge from darkness"
+        },
+        {
+          "num": 5,
+          "text": "With ghostly silver leaves,"
+        },
+        {
+          "num": null,
+          "text": "Dew powdered."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "Now consciousness emerges"
+        },
+        {
+          "num": null,
+          "text": "Reluctantly out of tides of sleep;"
+        },
+        {
+          "num": null,
+          "text": "Finding with cold surprise"
+        },
+        {
+          "num": 10,
+          "text": "No strange new thing to match its dreams,"
+        },
+        {
+          "num": null,
+          "text": "But merely the familiar shapes"
+        },
+        {
+          "num": null,
+          "text": "Of bedpost, window-pane, and wall."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "Within the city,"
+        },
+        {
+          "num": null,
+          "text": "The streets which were the last to fall to sleep,"
+        },
+        {
+          "num": 15,
+          "text": "Hold yet stale fragments of the night."
+        },
+        {
+          "num": null,
+          "text": "Sleep oozes out of stagnant ash-barrels,"
+        },
+        {
+          "num": null,
+          "text": "Sleep drowses over litter in the streets."
+        },
+        {
+          "num": null,
+          "text": "Sleep nods upon the milkcans by back doors."
+        },
+        {
+          "num": null,
+          "text": "And, in shut rooms,"
+        },
+        {
+          "num": 20,
+          "text": "Behind the lowered window-blinds,"
+        },
+        {
+          "num": null,
+          "text": "Drawn white faces unwittingly flout the day."
+        },
+        {
+          "num": null,
+          "text": ""
+        },
+        {
+          "num": null,
+          "text": "But, at the edges of the city,"
+        },
+        {
+          "num": null,
+          "text": "Sleep is already washed away;"
+        },
+        {
+          "num": null,
+          "text": "Light filters through the moist green leaves,"
+        },
+        {
+          "num": 25,
+          "text": "It runs into the cups of flowers,"
+        },
+        {
+          "num": null,
+          "text": "It leaps in sparks through drops of dew,"
+        },
+        {
+          "num": null,
+          "text": "It whirls against the window-panes"
+        },
+        {
+          "num": null,
+          "text": "With waking birds;"
+        },
+        {
+          "num": null,
+          "text": "Blinds are rolled up and chimneys smoke,"
+        },
+        {
+          "num": 30,
+          "text": "Feet clatter past in silent paths,"
+        },
+        {
+          "num": null,
+          "text": "And down white vanishing ways of steel,"
+        },
+        {
+          "num": null,
+          "text": "A dozen railway trains converge"
+        },
+        {
+          "num": null,
+          "text": "Upon night's stronghold."
+        }
+      ],
+      "questions": [
+        {
+          "id": "KM3_Q51",
+          "q_number": 94,
+          "question_type": "mc",
+          "question": "The details in the first stanza (lines 1-12) contribute to the development of the poem's theme by",
+          "options": {
+            "A": "describing the surreal imagery from the waking person's dream.",
+            "B": "comparing the flower's slowly unfurling petals to a person gradually waking.",
+            "C": "establishing the drowsy feeling of sleep that lingers at the start of the day.",
+            "D": "illustrating the waking person's dawning realization that he is in a strange bed."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q51.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q52",
+          "q_number": 95,
+          "question_type": "mc",
+          "stimulus": "Read lines 4-6 from the poem.<br><br>“The trees emerge from darkness<br>With ghostly silver leaves,<br>Dew powdered.”",
+          "question": "How do these lines contribute to the development of ideas in the poem?",
+          "options": {
+            "E": "They help connect the flowering dawn imagery to vegetation language throughout the poem.",
+            "F": "They show how the night leaves evidence of its passing.",
+            "G": "They highlight how the dreamer in the first stanza imagines the trees to have silver leaves.",
+            "H": "They are examples of the damage that comes to light with the dawn."
+          },
+          "correct": "F",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q52.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q53",
+          "q_number": 96,
+          "question_type": "mc",
+          "question": "Which line from the poem best supports the idea that people in the city react differently to the dawn than those who live in the outskirts?",
+          "options": {
+            "A": "“Hold yet stale fragments of the night” (line 15)",
+            "B": "“Sleep oozes out of stagnant ash-barrels” (line 16)",
+            "C": "“Sleep drowses over litter in the streets” (line 17)",
+            "D": "“Drawn white faces unwittingly flout the day” (line 21)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q53.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q54",
+          "q_number": 97,
+          "question_type": "mc",
+          "question": "What impact does the phrase “stale fragments of the night” in line 15 have in the poem?",
+          "options": {
+            "E": "It establishes that the city's nightlife leaves behind a lot of waste that must soon be collected.",
+            "F": "It contrasts the clean, orderly rhythms of city living with life in the countryside.",
+            "G": "It highlights how people who live in the city are no different than those living outside of it.",
+            "H": "It emphasizes the contrast between those who live in the city and those who live with nature's rhythms."
+          },
+          "correct": "H",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q54.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q55",
+          "q_number": 98,
+          "question_type": "mc",
+          "question": "How does the line “It runs into the cups of flowers” contribute to the development of ideas in the stanza?",
+          "options": {
+            "A": "The line conveys an image of the sun slowly rising on the horizon.",
+            "B": "The line highlights that the morning dew is collecting in the flowers.",
+            "C": "The line establishes that the open flowers are receiving light from the sun.",
+            "D": "The line conveys how beautiful the flowers are in the daytime."
+          },
+          "correct": "C",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q55.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q56",
+          "q_number": 99,
+          "question_type": "mc",
+          "question": "The line “Blinds are rolled up and chimneys smoke” helps develop the theme of the poem by suggesting that",
+          "options": {
+            "E": "people outside of the city rise with the morning sun.",
+            "F": "people outside of the city resist getting up early in the day.",
+            "G": "people outside of the city are disoriented when they first wake.",
+            "H": "people outside of the city are woken by the chirping and music of birds."
+          },
+          "correct": "E",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q56.jpg"
+          }
+        },
+        {
+          "id": "KM3_Q57",
+          "q_number": 100,
+          "question_type": "mc",
+          "question": "Which line(s) from the poem best support(s) the idea that day is overcoming the night?",
+          "options": {
+            "A": "“With ghostly silver leaves, / Dew powdered.” (lines 5-6)",
+            "B": "“No strange new thing to match its dreams,” (line 10)",
+            "C": "“Drawn white faces unwittingly flout the day.” (line 21)",
+            "D": "“A dozen railway trains converge / Upon night's stronghold.” (lines 32-33)"
+          },
+          "correct": "D",
+          "solution": {
+            "exhibit_image": "kaplan_2025_3/solutions/Q57.jpg"
+          }
+        }
+      ]
+    }
+  ],
+  "grammar_questions": [
+    {
+      "id": "P-FE6-KM3_Q01",
+      "question_type": "mc",
+      "stimulus": "(1) Mae Jemison became the first African American woman to travel to space in 1992. (2) This accomplished astronaut studied at Stanford and Cornell before beginning her career in medicine and eventually joining NASA's astronaut corps. (3) Her research exploring the effects of space travel on the human body. (4) In addition to working as an astronaut, Jemison founded a company that develops technology for daily life.",
+      "question": "Which sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "C",
+      "solution": {
+        "exhibit_text": "**The fix:** Sentence 3 is missing a main verb. \"Her research exploring the effects...\" isn't a complete sentence — it should read \"Her research **explores** the effects...\" or \"Her research **is exploring** the effects...\"\n\n**Why this sounds right:** \"Exploring the effects of space travel on the human body\" sounds like a normal, flowing descriptive phrase, so it's easy to read right past it without noticing nothing is actually happening grammatically — there's no verb doing the work of the sentence.\n\n**Why the others sound okay but aren't the error:** Sentences 1, 2, and 4 each have a clear subject paired with a complete verb (\"became,\" \"studied... beginning... joining,\" \"founded\"), so they're complete thoughts even though they're long.\n\n**The concept:** Every sentence needs a subject and a finite (complete) verb. A word ending in \"-ing\" (a present participle, like \"exploring\") can describe or modify something, but it can't be the only verb in a sentence — you need a helper verb like \"is\" or \"are,\" or you need to change it to a plain verb form like \"explores.\"\n\n**How to check it:** Try reading just the subject and the verb candidate by themselves: \"Her research exploring\" — that's not a complete sentence. Compare to \"Her research explores\" — that IS complete.\n\n**More examples of this mistake:**\n- \"The committee meeting to discuss the new budget.\" (should be \"is meeting\" or \"met\")\n- \"The data showing a clear downward trend.\" (should be \"shows\" or \"is showing\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q01)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "(1) John Updike wrote many novels, including the Pulitzer Prize-winning Rabbit Is Rich. (2) This famous American author studied at Harvard and Oxford before beginning his career in literature and eventually earning more than one Pulitzer Prize. (3) His novels exploring contemporary human relationships in the United States. (4) In addition to creating novels, Updike wrote poems and collections of short stories.",
+        "question": "Which sentence contains an error in its construction and should be revised?",
+        "options": {
+          "A": "sentence 1",
+          "B": "sentence 2",
+          "C": "sentence 3",
+          "D": "sentence 4"
+        },
+        "correct": "C",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q1.jpg"
+        }
+      },
+      "q_number": 101
+    },
+    {
+      "id": "P-FE6-KM3_Q02",
+      "question_type": "mc",
+      "stimulus": "During the heated debate between the city council members and the construction crew about a critical decision that could delay the opening of the new bridge, the local reporter calmly and clearly <u>explained to all of the people who were watching channel WKRP on their phones what was happening</u>.",
+      "question": "Which revision uses the most precise language for the underlined words?",
+      "options": {
+        "A": "told the people about the events",
+        "B": "reported on the dispute for WKRP",
+        "C": "explained the dialogue for the people at home watching WKRP",
+        "D": "discussed the issue on live television"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "**The fix:** \"Reported on the dispute for WKRP\" replaces the vague, wordy phrase with precise language — \"reported\" names the exact action a journalist does, and \"dispute\" names the exact situation, instead of the generic \"what was happening.\"\n\n**Why this sounds right:** The original underlined phrase technically describes the right idea, so a revision that just shortens it without sharpening the vocabulary (like choice A, \"told the people about the events\") can feel like enough of an improvement — but it's still vague.\n\n**Why the others sound okay but aren't:** (A) \"told the people about the events\" is shorter but still generic — \"told\" and \"events\" aren't precise. (C) keeps the vague word \"dialogue\" and the wordy \"people at home watching.\" (D) \"discussed the issue\" is still a general phrase, and it drops the specific detail that the reporter was working for WKRT.\n\n**The concept:** \"Most precise language\" questions ask you to replace vague, generic, or wordy phrasing with specific words that name the exact action, thing, or idea — without changing the sentence's meaning or adding new information.\n\n**How to check it:** Ask: does this revision name a specific action/thing, or does it just restate the same vague idea in fewer words? A precise revision should let a reader picture exactly what happened.\n\n**More examples of this mistake:**\n- \"She said a lot of things about the problem\" → more precise: \"She criticized the plan.\"\n- \"He did stuff to fix the car\" → more precise: \"He replaced the engine.\""
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q02)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "During the intense exchange between the basketball coaches and the referees about a pivotal decision that could change the outcome of the playoff game, the sports journalist calmly and clearly explained to all of the people who were viewing channel KXTV on their televisions what was happening.",
+        "question": "Which revision uses the most precise language for the words **explained to all of the people who were viewing channel KXTV on their televisions what was happening**?",
+        "options": {
+          "E": "told the people about the events",
+          "F": "reported on the disagreement for KXTV",
+          "G": "explained the dialogue for the people at home watching KXTV",
+          "H": "discussed the issue on live television"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q2.jpg"
+        }
+      },
+      "q_number": 102
+    },
+    {
+      "id": "P-FE6-KM3_Q03",
+      "question_type": "mc",
+      "stimulus": "Riverton needed increased tourism, from festivals, and consequently the town built a new amphitheater, a boardwalk, and a scenic overlook along the main river.",
+      "question": "How should the sentence be revised?",
+      "options": {
+        "A": "Insert a comma after **Riverton**, AND delete the comma after **boardwalk**.",
+        "B": "Delete the comma after **tourism**, AND insert a comma after **consequently**.",
+        "C": "Insert a comma after **town**, AND delete the comma after **amphitheater**.",
+        "D": "Insert a comma after **overlook**, AND insert a comma after **scenic**."
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "**The fix:** The comma after \"tourism\" incorrectly separates \"tourism\" from the phrase that describes it (\"from festivals\") — that comma should be deleted. Then, \"consequently\" is a transitional word joining two ideas, and transitional words at the start of a clause need a comma right after them: \"...and consequently, the town built...\"\n\n**Why this sounds right:** The original punctuation isn't wildly wrong-looking — commas appear in plausible-seeming places, so it's easy to assume they're doing their job without checking what each one is actually separating.\n\n**Why the others sound okay but aren't:** (A), (C), and (D) all touch commas that are already working correctly (the ones in the list \"amphitheater, a boardwalk, and a scenic overlook\") or add commas where none are needed (after \"Riverton\" or \"scenic\" — there's no pause or clause break there).\n\n**The concept:** Don't place a comma between a noun and a short phrase that directly describes or specifies it (like \"tourism\" and \"from festivals\") unless the phrase is a non-essential aside. Separately, transitional words like \"consequently,\" \"therefore,\" and \"however\" almost always need a comma immediately after them when they introduce a new clause.\n\n**How to check it:** Read the phrase right after the comma — if removing the comma makes the sentence read more naturally as one continuous idea, the comma was probably misplaced. For transitional words, say the sentence aloud; there's a natural pause right after the transition word.\n\n**More examples of this mistake:**\n- \"The team needed more funding, from donors, and therefore the coach held a car wash.\" (delete comma after \"funding,\" add one after \"therefore\")\n- \"She wanted better grades, in math class, and consequently she hired a tutor.\" (same pattern)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q03)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "Point Pleasant needed increased revenue, from tourism, and consequently the town built a new park, a large hotel, and a fine restaurant in the main square.",
+        "question": "How should the sentence be revised?",
+        "options": {
+          "A": "Insert a comma after **Point Pleasant**, AND delete the comma after **hotel**.",
+          "B": "Delete the comma after **revenue**, AND insert a comma after **consequently**.",
+          "C": "Insert a comma after **town**, AND delete the comma after **park**.",
+          "D": "Insert a comma after **restaurant**, AND insert a comma after **main**."
+        },
+        "correct": "B",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q3.jpg"
+        }
+      },
+      "q_number": 103
+    },
+    {
+      "id": "P-FE6-KM3_Q04",
+      "question_type": "mc",
+      "stimulus": "(1) The reason for the continued fascination with mountain climbers is that their struggle to reach the summit draws on experiences with which people can identify. (2) Showcasing dramatic conquests and unforgettable expeditions, many climbers have attempted Everest over the years. (3) Dedicated climbers from all backgrounds have made history and have inspired others to pursue their own goals. (4) Mountain climbing has become a global passion and a shared challenge among various cultures.",
+      "question": "Which sentence contains an error in its construction and should be revised?",
+      "options": {
+        "A": "Sentence 1",
+        "B": "Sentence 2",
+        "C": "Sentence 3",
+        "D": "Sentence 4"
+      },
+      "correct": "B",
+      "solution": {
+        "exhibit_text": "**The fix:** Sentence 2 opens with the modifying phrase \"Showcasing dramatic conquests and unforgettable expeditions,\" which should describe whatever comes right after the comma — but \"many climbers\" didn't showcase anything; it's the *expeditions themselves* (or the sport, or history) that showcase those things. The modifier is attached to the wrong noun.\n\n**Why this sounds right:** The sentence flows smoothly and the ideas (showcasing feats, climbers attempting Everest) are related, so it doesn't *sound* broken — but logically, the phrase at the start doesn't describe the subject that follows it.\n\n**Why the others sound okay but aren't the error:** Sentences 1, 3, and 4 each have their modifying words and phrases correctly attached to the subject they describe — nothing is left describing the wrong noun.\n\n**The concept:** When a sentence opens with a descriptive phrase followed by a comma, that phrase must logically describe the subject that comes right after the comma. If it doesn't — if the subject \"couldn't have done\" what the opening phrase describes — that's a misplaced (or \"dangling\") modifier.\n\n**How to check it:** Isolate the opening phrase and the subject: \"Showcasing dramatic conquests... many climbers...\" — ask, \"are the climbers the ones doing the showcasing?\" Here, no — so the modifier is misplaced.\n\n**More examples of this mistake:**\n- \"Highlighting key moments in history, the museum exhibit was visited by many students.\" (the exhibit does the highlighting, not the students — but check who the sentence actually attaches it to)\n- \"Known for excellent coffee, tourists often visit the small café.\" (the café is known for coffee, not the tourists — misplaced)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q04)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "(1) The reason for the continued interest in Olympic athletes is that their struggle to win draws on experiences with which people can identify. (2) Highlighting legendary feats and memorable occasions, many competitors have participated in Olympic games over the years. (3) Dedicated athletes from all countries have made history and have inspired their fans to pursue their goals. (4) The Olympic games have become a social event and a shared experience among various cultures.",
+        "question": "Which sentence contains an error in its construction and should be revised?",
+        "options": {
+          "E": "sentence 1",
+          "F": "sentence 2",
+          "G": "sentence 3",
+          "H": "sentence 4"
+        },
+        "correct": "F",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q4.jpg"
+        }
+      },
+      "q_number": 104
+    },
+    {
+      "id": "P-FE6-KM3_Q05",
+      "question_type": "mc",
+      "stimulus": "While the feeding behavior of many birds is dictated by instinct, it is also influenced by experience. Complex behaviors can be learned through individual trial-and-error or practice, as long as that practice is motivated by natural instincts. For example, young songbirds aren't born knowing their species' complete song, but their instincts prompt them to listen and mimic, and they gradually become more skilled singers. Parrots aren't born knowing how to interact with a flock, the experience of living in a group results in their eventual ability to find their place in the social order.",
+      "question": "Which revision corrects the error in sentence structure in the paragraph?",
+      "options": {
+        "A": "instinct, and it",
+        "B": "instincts, for example, young",
+        "C": "singers; parrots",
+        "D": "flock, but the"
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "**The fix:** The last sentence joins two complete, independent clauses (\"Parrots aren't born knowing how to interact with a flock\" and \"the experience of living in a group results in their eventual ability...\") with only a comma. Changing it to \"flock, **but** the\" adds a connecting word that properly links the two clauses.\n\n**Why this sounds right:** Both halves of the sentence are about the same topic (how parrots learn social behavior), so it reads as one flowing idea — but each half has its own subject and verb and could stand alone as a complete sentence, which means a plain comma isn't strong enough to join them.\n\n**Why the others sound okay but aren't:** (A), (B), and (C) all point to places in the paragraph that are already punctuated correctly — the earlier sentences use \"but,\" \"for example,\" and an already-correct period/semicolon-style break.\n\n**The concept:** This is a comma splice — joining two complete sentences (each with its own subject and verb) using only a comma. Test it by splitting the sentence in two at the comma: if both halves could stand alone with a period, the comma isn't strong enough on its own. Fix it with a period, a semicolon, or a connecting word like \"and,\" \"but,\" or \"so.\"\n\n**How to check it:** Cover everything before the comma, then everything after. If both pieces are complete sentences on their own, you have a splice.\n\n**More examples of this mistake:**\n- \"The museum closes at five, we still had time to see the exhibit.\" (needs \"but\" or a period)\n- \"She finished her homework early, she decided to go for a walk.\" (needs \"so\" or a period)"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q05)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "While the learning behavior of many mammals is dictated by instinct, it is also influenced by experience. Complex behaviors can be learned through individual trial-and-error or practice, as long as that practice is motivated by natural instincts. For example, predatory cats aren't born knowing how to hunt, but their instincts prompt them to stalk, pounce on, and bite things they perceive as prey, and they gradually become more skilled and effective hunters. Wolves aren't born knowing how to get along with other wolves, the experience of living in the pack results in their eventual ability to find their place in the hierarchy.",
+        "question": "Which revision corrects the error in sentence structure in the paragraph?",
+        "options": {
+          "A": "instinct, and it",
+          "B": "instincts, for example, predatory",
+          "C": "hunters; wolves",
+          "D": "wolves, but the"
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q5.jpg"
+        }
+      },
+      "q_number": 105
+    },
+    {
+      "id": "P-FE6-KM3_Q06",
+      "question_type": "mc",
+      "stimulus": "The tall powerful Usain Bolt set a world record in 2009 when he beat the old record for the 100-meter sprint by 0.11 seconds and improved his previous best by nearly a tenth of a second.",
+      "question": "Which edit should be made to correct this sentence?",
+      "options": {
+        "A": "Insert a comma after **tall**.",
+        "B": "Insert a comma after **seconds**.",
+        "C": "Insert a comma after **previous**.",
+        "D": "Insert a comma after **best**."
+      },
+      "correct": "A",
+      "solution": {
+        "exhibit_text": "**The fix:** \"Tall\" and \"powerful\" are two separate, equal adjectives both describing \"Usain Bolt,\" so they need a comma between them: \"The tall, powerful Usain Bolt...\"\n\n**Why this sounds right:** Stacked adjectives before a noun often don't need commas (like \"three tall glass windows\"), so it's easy to assume no comma is needed here either — but that rule only applies to adjectives from *different categories* (number, size, material), not two adjectives that could each independently describe the noun.\n\n**Why the others sound okay but aren't:** (B), (C), and (D) all point to spots in the sentence that are already correctly unpunctuated — there's no clause break or list item requiring a comma at \"seconds,\" \"previous,\" or \"best.\"\n\n**The concept:** When two or more adjectives of the same \"rank\" (both just describing quality, like \"tall\" and \"powerful\") appear before a noun, separate them with a comma — the same way you'd separate items in a list. A good test: if you can swap their order or insert \"and\" between them and it still sounds natural (\"powerful, tall Usain Bolt\" / \"tall and powerful Usain Bolt\"), they need a comma.\n\n**How to check it:** Try inserting \"and\" between the two adjectives. If it sounds fine, a comma belongs there instead.\n\n**More examples of this mistake:**\n- \"The bright cheerful classroom welcomed new students.\" (needs a comma after \"bright\")\n- \"A quiet determined athlete trained every morning.\" (needs a comma after \"quiet\")"
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q06)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "The swift nimble Florence Griffith Joyner set a world record in 1988 when she beat the old record for the 100-meter sprint by 0.27 seconds and improved her previous best by more than half a second.",
+        "question": "Which edit should be made to correct this sentence?",
+        "options": {
+          "E": "Insert a comma after **swift**.",
+          "F": "Insert a comma after **seconds**.",
+          "G": "Insert a comma after **previous**.",
+          "H": "Insert a comma after **best**."
+        },
+        "correct": "E",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q6.jpg"
+        }
+      },
+      "q_number": 106
+    },
+    {
+      "id": "P-FE6-KM3_Q07",
+      "question_type": "mc",
+      "stimulus": "(1) Known for his curiosity, American engineer Percy Spencer wondered if the microwaves produced by a radar-related magnetron could be used for something besides detecting enemy aircraft. (2) After noticing that a chocolate bar in his pocket had melted near the device, Spencer successfully tested the effect with popcorn kernels and an egg. (3) He named the invention the Radarange a combination of the words \"radar\" and \"range,\" and formally patented it in 1945. (4) Early news reports, such as one that appeared in a trade magazine in 1947, describe the product as a revolutionary kitchen appliance.",
+      "question": "Which pair of revisions need to be made in this paragraph?",
+      "options": {
+        "A": "Sentence 1: Delete the comma after **curiosity**.\nSentence 4: Change **describe** to **described**.",
+        "B": "Sentence 1: Delete the comma after **curiosity**.\nSentence 2: Change **successfully tested** to **successfully tests**.",
+        "C": "Sentence 3: Insert a comma after **Radarange**.\nSentence 2: Change **successfully tested** to **successfully tests**.",
+        "D": "Sentence 3: Insert a comma after **Radarange**.\nSentence 4: Change **describe** to **described**."
+      },
+      "correct": "D",
+      "solution": {
+        "exhibit_text": "**The fix:** Sentence 3 names the invention (\"the Radarange\") and then adds an appositive explaining the name's origin (\"a combination of the words...\") — that appositive needs a comma right before it: \"...the Radarange, a combination of...\" Sentence 4 uses present-tense \"describe,\" but the whole paragraph is telling a story about events that already happened (\"wondered,\" \"tested,\" \"named,\" \"patented\"), so it should be past tense: \"describe**d**.\"\n\n**Why this sounds right:** Sentence 1's comma after \"curiosity\" is actually correct (it sets off the introductory phrase \"Known for his curiosity\"), so it's tempting to suspect it's wrong just because it's the first comma you see — the real errors are elsewhere.\n\n**Why the others sound okay but aren't:** (A) and (B) both wrongly flag sentence 1's comma, which is already correct. (B) and (C) both suggest changing \"tested\" to \"tests,\" which would actually break the paragraph's consistent past tense rather than fix anything.\n\n**The concept:** Two separate skills here: (1) an appositive (a phrase that renames or explains a noun) needs a comma before it when it follows directly after the noun it explains, and (2) when a paragraph narrates a sequence of past events, every main verb should stay in past tense — a sudden shift to present tense is an error.\n\n**How to check it:** For the comma: read the noun and the phrase right after it together — if the phrase is just re-explaining the noun, it needs a comma before it. For the tense: underline every main verb in the paragraph; if most are past tense and one isn't, that one is likely the error.\n\n**More examples of this mistake:**\n- \"She adopted a kitten Max a playful orange tabby.\" (needs a comma before \"a playful orange tabby\")\n- \"He built the treehouse last summer. Now neighbors describe it as a landmark.\" is fine on its own, but inside a paragraph of past-tense narration, a sudden \"describe\" instead of \"described\" would be the error."
+      },
+      "base_source": "Kaplan 2025 Practice Test 3 (KM3_Q07)",
+      "base_question": {
+        "question_type": "mc",
+        "stimulus": "(1) Known for his curiosity, Swiss engineer Georges de Mestral wondered if the burrs that clung to his pants and his dog's fur when they went walking in the woods could be turned into something useful. (2) After nearly eight years of research, de Mestral successfully reproduced the effect with two strips of fabric, one with thousands of tiny hooks and another with thousands of tiny loops. (3) He named the invention Velcro a combination of the words \"velvet\" and \"crochet,\" and formally patented it in 1955. (4) Early news reports, such as one that appeared in TIME magazine in 1958, describe the product as a zipperless zipper.",
+        "question": "Which pair of revisions need to be made in this paragraph?",
+        "options": {
+          "A": "Sentence 1: Delete the comma after **curiosity**.\nSentence 4: Change **describe** to **described**.",
+          "B": "Sentence 1: Delete the comma after **curiosity**.\nSentence 2: Change **reproduced** to **reproduces**.",
+          "C": "Sentence 3: Insert a comma after **Velcro**.\nSentence 2: Change **reproduced** to **reproduces**.",
+          "D": "Sentence 3: Insert a comma after **Velcro**.\nSentence 4: Change **describe** to **described**."
+        },
+        "correct": "D",
+        "solution": {
+          "exhibit_image": "kaplan_2025_3/solutions/Q7.jpg"
+        }
+      },
+      "q_number": 107
+    }
+  ]
+}
