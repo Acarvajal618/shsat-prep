@@ -489,12 +489,12 @@
         fb.textContent = '✓ Correct!';
         checkBtn.style.display = 'none';
         retryBtn.style.display = 'none';
-        nextBtn.style.display = '';
+        nextBtn.style.display = 'inline-block';
       } else {
         fb.className = 'tn-feedback wrong';
         fb.textContent = '✗ Not quite — try this version of the same question.';
         checkBtn.style.display = 'none';
-        retryBtn.style.display = '';
+        retryBtn.style.display = 'inline-block';
         nextBtn.style.display = 'none';
       }
     }
