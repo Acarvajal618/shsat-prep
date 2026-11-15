@@ -146,7 +146,7 @@
     <span class="sep">/</span>
     <span id="tn-position-label">Question 1 of 519</span>
     <span class="sep">/</span>
-    <span id="tn-form-label">Original</span>
+    <span id="tn-form-label">Variant 1</span>
   </div>
 
   <div class="tn-main">
@@ -217,10 +217,18 @@
     }
 
     function currentPosition() { return state.positions[state.pos] || null; }
+    // forms[0] is always the real original question -- she's already seen
+    // those elsewhere on the site, so the drill only ever serves variants
+    // (forms[1] onward). state.formIdx indexes into that variants-only
+    // subset, wrapping around if she misses more times than there are
+    // variants.
     function currentForm() {
       const p = currentPosition();
       if (!p) return null;
-      return p.forms[state.formIdx % p.forms.length] || p.forms[0];
+      const variantCount = p.forms.length - 1;
+      if (variantCount <= 0) return p.forms[0]; // safety fallback; shouldn't happen
+      const idx = 1 + (state.formIdx % variantCount);
+      return p.forms[idx];
     }
 
     function loadForm(pos, formIdx) {
@@ -276,7 +284,8 @@
     function onRetry() {
       const p = currentPosition();
       if (!p) return;
-      const nextFormIdx = (state.formIdx + 1) % p.forms.length;
+      const variantCount = Math.max(1, p.forms.length - 1);
+      const nextFormIdx = (state.formIdx + 1) % variantCount;
       loadForm(state.pos, nextFormIdx);
       render();
     }
@@ -416,8 +425,7 @@
       document.getElementById('tn-jump-input').value = state.pos;
       document.getElementById('tn-position-label').textContent =
         'Question ' + (state.pos + 1) + ' of ' + state.positions.length;
-      document.getElementById('tn-form-label').textContent =
-        state.formIdx === 0 ? 'Original' : 'Variant ' + state.formIdx;
+      document.getElementById('tn-form-label').textContent = 'Variant ' + (state.formIdx + 1);
       document.getElementById('tn-tally-correct').textContent = '✓ ' + state.tally.correct;
       document.getElementById('tn-tally-wrong').textContent = '✗ ' + state.tally.wrong;
 
