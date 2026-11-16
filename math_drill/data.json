@@ -2054,7 +2054,7 @@
     {
      "id": "P-HE4-AM20",
      "question_type": "mc",
-     "question": "\\(1\\) nix \\(= 4\\) pebs\n\\(2\\) quors \\(= 5\\) tals\n\\(5\\) nixes \\(= 2\\) orbs\n\\(1\\) quor \\(= 3\\) orbs\n\nA game uses five types of tokens: nixes, tals, pebs, orbs, and quors. The relationship between the tokens is shown above. Which token is most valuable?",
+     "question": "\\(1\\) nix \\(= 3\\) pebs\n\\(3\\) quors \\(= 7\\) tals\n\\(7\\) nixes \\(= 3\\) orbs\n\\(1\\) quor \\(= 4\\) orbs\n\nA nation has five types of coins: nixes, pebs, quors, tals, and orbs. The relationship between the coins is shown above. Which coin is most valuable?",
      "options": {
       "A": "nix",
       "B": "tal",
@@ -2063,7 +2063,7 @@
      },
      "correct": "D",
      "solution": {
-      "exhibit_text": "\\(1\\) nix \\(=4\\) pebs, so \\(1\\) nix \\(>1\\) peb.\n\n\\(5\\) nixes \\(=2\\) orbs, so \\(1\\) orb \\(>1\\) nix.\n\n\\(1\\) quor \\(=3\\) orbs, so \\(1\\) quor \\(>1\\) orb, meaning \\(1\\) quor\\(>1\\) nix and \\(1\\) peb too.\n\n\\(2\\) quors \\(=5\\) tals, so \\(1\\) quor \\(>1\\) tal.\n\nTherefore, the quor is the most valuable."
+      "exhibit_text": "(D) \\(1\\) quor \\(= 4\\) orbs, so \\(1\\) quor \\(> 1\\) orb.\n\n\\(3\\) quors \\(= 7\\) tals, so \\(1\\) quor \\(> 1\\) tal (since \\(\\tfrac{7}{3} < 3\\)).\n\n\\(7\\) nixes \\(= 3\\) orbs, so \\(1\\) orb \\(> 1\\) nix, meaning \\(1\\) quor > 1\\) orb \\(> 1\\) nix.\n\n\\(1\\) nix \\(= 3\\) pebs, so \\(1\\) nix \\(> 1\\) peb, placing peb at the bottom.\n\nSince \\(1\\) quor is worth more than every other coin in the chain, the quor is the most valuable."
      },
      "base_source": "Exam A \u2014 Math Q20 (AM20)",
      "base_question": {
@@ -8692,12 +8692,12 @@
     {
      "id": "P-DRILL-BM32-V1",
      "question_type": "mc",
-     "question": "At South High School, a survey asked two questions, Question A and Question B. For each question, students could answer either \\\"yes\\\" or \\\"no.\\\" Of the \\(500\\) students who responded to the survey, \\(450\\) answered \\\"yes\\\" to Question A, and \\(380\\) answered \\\"yes\\\" to Question B. What is the **least** possible number of these students who could have answered \\\"yes\\\" to **both** questions?",
+     "question": "At South High School, a survey asked two questions, Question A and Question B. For each question, students could answer either \"yes\" or \"no.\" Of the \\(650\\) students who responded to the survey, \\(580\\) answered \"yes\" to Question A, and \\(430\\) answered \"yes\" to Question B. What is the **least** possible number of these students who could have answered \"yes\" to **both** questions?",
      "options": {
-      "A": "\\(50\\)",
-      "B": "\\(100\\)",
-      "C": "\\(330\\)",
-      "D": "\\(380\\)"
+      "A": "\\(70\\)",
+      "B": "\\(140\\)",
+      "C": "\\(360\\)",
+      "D": "\\(430\\)"
      },
      "correct": "C",
      "base_question": {
@@ -8722,7 +8722,7 @@
      },
      "base_source": "Exam B \u2014 Math Q32 (BM32)",
      "solution": {
-      "exhibit_text": "(C) None of the \\(50\\) students (\\(500 - 450\\)) who answered \\\"no\\\" to Question A could have answered \\\"yes\\\" to both questions. Therefore, the least possible number of students who could have answered \\\"yes\\\" to both questions can be found by subtracting the \\(50\\) who answered \\\"no\\\" to Question A from the \\(380\\) who answered \\\"yes\\\" to Question B, or \\(380 - 50 = 330\\)."
+      "exhibit_text": "(C) None of the \\(70\\) students (\\(650 - 580\\)) who answered \"no\" to Question A could have answered \"yes\" to both questions. Therefore, the least possible number of students who answered \"yes\" to both questions is found by subtracting those \\(70\\) from the \\(430\\) who answered \"yes\" to Question B: \\(430 - 70 = 360\\)."
      }
     }
    ]
@@ -10075,12 +10075,12 @@
     {
      "id": "P-DRILL-BM47-V1",
      "question_type": "mc",
-     "question": "Mia is at least \\(5\\) years older than Theo. Which of the following inequalities gives the relationship between Mia's age \\((m)\\) and Theo's age \\((t)\\)?",
+     "question": "Jade is at least \\(7\\) years older than Liam. Which of the following inequalities gives the relationship between Jade's age \\((j)\\) and Liam's age \\((l)\\)?",
      "options": {
-      "A": "\\(m - t \\ge 5\\)",
-      "B": "\\(m - t \\le 5\\)",
-      "C": "\\(5 - t \\le m\\)",
-      "D": "\\(5 - m \\le t\\)"
+      "A": "\\(j - l \\ge 7\\)",
+      "B": "\\(j - l \\le 7\\)",
+      "C": "\\(7 - l \\le j\\)",
+      "D": "\\(7 - j \\le l\\)"
      },
      "correct": "A",
      "base_question": {
@@ -10105,7 +10105,7 @@
      },
      "base_source": "Exam B \u2014 Math Q47 (BM47)",
      "solution": {
-      "exhibit_text": "(A) Mia is at least \\(5\\) years older than Theo, which can be written as \\(m \\ge t + 5\\).\n\nRewrite this inequality to match the answer options:\n\n\\[m - t \\ge 5\\]"
+      "exhibit_text": "(A) Jade is at least \\(7\\) years older than Liam, which can be written as \\(j \\ge l + 7\\).\n\nRewrite this inequality to match the answer options:\n\n\\[j - l \\ge 7\\]"
      }
     }
    ]
@@ -18457,16 +18457,16 @@
     {
      "id": "P1029-M-DM29",
      "question_type": "mc",
-     "question": "Each of two spinners is divided into \\(5\\) equal sections, numbered \\(1\\) through \\(5\\). Both spinners are spun once. What is the probability that the two numbers, when multiplied together, will have \\(6\\) as a product?",
+     "question": "Each of two spinners is divided into \\(5\\) equal sections, numbered \\(1\\) through \\(5\\). Both spinners are spun once. What is the probability that the two numbers, when multiplied together, will have \\(4\\) as a product?",
      "options": {
       "A": "\\(\\dfrac{1}{25}\\)",
       "B": "\\(\\dfrac{2}{25}\\)",
       "C": "\\(\\dfrac{3}{25}\\)",
       "D": "\\(\\dfrac{4}{25}\\)"
      },
-     "correct": "B",
+     "correct": "C",
      "solution": {
-      "exhibit_text": "There are \\(5 \\times 5 = 25\\) possible outcomes. The pairs with a product of \\(6\\) (using numbers \\(1\\)-\\(5\\)) are \\((2,3)\\) and \\((3,2)\\) \u2014 only \\(2\\) outcomes. The probability is \\(\\dfrac{2}{25}\\)."
+      "exhibit_text": "There are \\(5 \\times 5 = 25\\) possible outcomes. The pairs multiplying to \\(4\\) within \\(1\\)\u2013\\(5\\) are \\((1,4)\\), \\((4,1)\\), and \\((2,2)\\) \u2014 \\(3\\) outcomes. The probability is \\(\\dfrac{3}{25}\\)."
      },
      "base_source": "Exam D \u2014 Math Q29 (DM29)",
      "base_question": {
@@ -19193,12 +19193,12 @@
     {
      "id": "P1028E-M-DM38",
      "question_type": "mc",
-     "question": "Leah has a bag of marbles that are all the same size. The bag contains four red (R) marbles, two blue (B) marbles, and three yellow (Y) marbles. For an experiment, she will take two marbles out of the bag without looking. Which list shows the sample space for Leah's experiment?",
+     "question": "Leah has a bag of marbles that are all the same size. The bag contains five red (R) marbles, one blue (B) marble, and three yellow (Y) marbles. For an experiment, she will take two marbles out of the bag without looking. Which list shows the sample space for Leah's experiment?",
      "options": {
       "A": "R, B, Y",
       "B": "RR, RB, RY, BB, BY, YY",
       "C": "RB, RY, BY",
-      "D": "R, R, R, R, B, B, Y, Y, Y"
+      "D": "R, R, R, R, R, B, Y, Y, Y"
      },
      "correct": "B",
      "solution": {
@@ -19223,11 +19223,11 @@
     {
      "id": "P-HE4-DM38",
      "question_type": "mc",
-     "question": "Priya has a bag of marbles that are all the same size. The bag contains four blue (B) marbles, two yellow (Y) marbles, and three orange (O) marbles. For an experiment, she will take two marbles out of the bag without looking. Which list shows the sample space for Priya's experiment?",
+     "question": "Priya has a bag of marbles that are all the same size. The bag contains two blue (B) marbles, five yellow (Y) marbles, and two orange (O) marbles. For an experiment, she will take two marbles out of the bag without looking. Which list shows the sample space for Priya's experiment?",
      "options": {
       "A": "B, Y, O",
       "B": "BY, BO, YO",
-      "C": "B, B, B, B, Y, Y, O, O, O",
+      "C": "B, B, Y, Y, Y, Y, Y, O, O",
       "D": "BB, BY, BO, YY, YO, OO"
      },
      "correct": "D",
@@ -21333,16 +21333,16 @@
       },
       "transcription_status": "verbatim_verified"
      },
-     "question": "Priya has a box of ribbons from various colors. The box contains \\(5\\) red ribbons, \\(3\\) blue ribbons, \\(4\\) green ribbons, and \\(2\\) yellow ribbons. If Priya selects \\(2\\) ribbons at random from this box, without replacing them, what is the probability that both ribbons are **not** red?",
+     "question": "Priya has a box of ribbons from various colors. The box contains \\(4\\) red ribbons, \\(6\\) blue ribbons, \\(3\\) green ribbons, and \\(2\\) yellow ribbons. If Priya selects \\(2\\) ribbons at random from this box, without replacing them, what is the probability that both ribbons are **not** red?",
      "options": {
-      "A": "\\(\\dfrac{36}{91}\\)",
-      "B": "\\(\\dfrac{9}{14}\\)",
-      "C": "\\(\\dfrac{4}{7}\\)",
-      "D": "\\(\\dfrac{5}{7}\\)"
+      "A": "\\(\\dfrac{11}{21}\\)",
+      "B": "\\(\\dfrac{3}{5}\\)",
+      "C": "\\(\\dfrac{4}{5}\\)",
+      "D": "\\(\\dfrac{5}{6}\\)"
      },
      "correct": "A",
      "solution": {
-      "exhibit_text": "Total ribbons: \\(5+3+4+2=14\\). Not red: \\(9\\). Probability first is not red: \\(\\dfrac{9}{14}\\). After removing one, \\(13\\) remain, \\(8\\) not red: \\(\\dfrac{8}{13}\\).\n\n\\[\\dfrac{9}{14}\\times\\dfrac{8}{13}=\\dfrac{72}{182}=\\dfrac{36}{91}\\]"
+      "exhibit_text": "Total ribbons: \\(4+6+3+2=15\\). Not red: \\(11\\). Probability the first is not red: \\(\\dfrac{11}{15}\\). After removing one, \\(14\\) remain, \\(10\\) not red: \\(\\dfrac{10}{14}=\\dfrac{5}{7}\\).\n\n\\[\\dfrac{11}{15}\\times\\dfrac{5}{7}=\\dfrac{55}{105}=\\dfrac{11}{21}\\]"
      },
      "q_number": 22
     }
@@ -26657,16 +26657,16 @@
       },
       "transcription_status": "verbatim_verified"
      },
-     "question": "A bookstore buys novels for a wholesale cost of \\(c\\) dollars each. To cover overhead, the manager first increases the purchase cost by \\(20\\%\\). Then, to determine the final selling price, the manager applies an additional \\(25\\%\\) markup to that new total. Which expression represents the final selling price of each novel?",
+     "question": "A bookstore buys novels for a wholesale cost of \\(c\\) dollars each. To cover overhead, the manager first increases the purchase cost by \\(15\\%\\). Then, to determine the final selling price, the manager applies an additional \\(30\\%\\) markup to that new total. Which expression represents the final selling price of each novel?",
      "options": {
       "A": "\\(1.45c\\)",
-      "B": "\\(1.5c\\)",
+      "B": "\\(1.495c\\)",
       "C": "\\(c+0.45\\)",
-      "D": "\\(1.20c+0.25\\)"
+      "D": "\\(1.15c+0.30\\)"
      },
      "correct": "B",
      "solution": {
-      "exhibit_text": "Apply each percentage sequentially. A \\(20\\%\\) increase on \\(c\\) is \\(1.20c\\). A \\(25\\%\\) increase on \\(1.20c\\) is:\n\n\\[1.20c\\times1.25=1.5c\\]"
+      "exhibit_text": "Apply each percentage sequentially, not added together. A \\(15\\%\\) increase on \\(c\\) is \\(1.15c\\). A \\(30\\%\\) increase on \\(1.15c\\) is:\n\n\\[1.15c\\times1.30=1.495c\\]"
      },
      "q_number": 7
     }
@@ -27228,16 +27228,16 @@
     {
      "id": "P-FE4-M-FM16",
      "question_type": "mc",
-     "question": "If \\(\\dfrac{x}{y}+\\dfrac{5}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
+     "question": "If \\(\\dfrac{x}{y}+\\dfrac{7}{x}=\\dfrac{\\square}{xy}\\) and \\(x,y\\ne0\\), what expression is represented by \\(\\square\\)?",
      "options": {
-      "A": "\\(x^2+5y\\)",
-      "B": "\\(5x+y\\)",
-      "C": "\\(x^2+5\\)",
-      "D": "\\(x+5y\\)"
+      "A": "\\(x^2+7y\\)",
+      "B": "\\(7x+y\\)",
+      "C": "\\(x^2+7\\)",
+      "D": "\\(x+7y\\)"
      },
      "correct": "A",
      "solution": {
-      "exhibit_text": "Common denominator xy: x/y = x*x/(xy) = x^2/(xy). 5/x = 5y/(xy). Sum = (x^2+5y)/(xy). So square = x^2+5y.\n\n**Why this sounds right:** Option C (x^2+5) forgets to multiply the second term's numerator (5) by y when converting to the common denominator xy \u2014 only the first term's numerator needs an x factor, but the second needs a y factor."
+      "exhibit_text": "Give both fractions the common denominator \\(xy\\): \\(\\dfrac{x}{y}\\left(\\dfrac{x}{x}\\right)+\\dfrac{7}{x}\\left(\\dfrac{y}{y}\\right)=\\dfrac{x^2}{xy}+\\dfrac{7y}{xy}=\\dfrac{x^2+7y}{xy}\\). So \\(\\square=x^2+7y\\).\n\n**Why this sounds right:** Option C (\\(x^2+7\\)) forgets to multiply the second term's numerator (\\(7\\)) by \\(y\\) when converting to the common denominator \\(xy\\)."
      },
      "base_source": "Exam F \u2014 Math Q16 (FM16)",
      "base_question": {
@@ -31242,16 +31242,16 @@
       },
       "transcription_status": "verbatim_verified"
      },
-     "question": "In June, a factory used \\(8{,}000{,}000\\) gallons of water. In July, the amount used was \\(6{,}000{,}000\\) gallons. By what percentage did water usage decrease from June to July?",
+     "question": "In March, a factory used \\(10{,}000{,}000\\) gallons of water. In April, the amount used was \\(9{,}000{,}000\\) gallons. By what percentage did water usage decrease from March to April?",
      "options": {
-      "A": "20%",
-      "B": "25%",
-      "C": "33%",
-      "D": "75%"
+      "A": "10%",
+      "B": "20%",
+      "C": "25%",
+      "D": "50%"
      },
-     "correct": "B",
+     "correct": "A",
      "solution": {
-      "exhibit_text": "\\(8{,}000{,}000-6{,}000{,}000=2{,}000{,}000\\).\n\n\\[\\dfrac{2{,}000{,}000}{8{,}000{,}000}=25\\%\\]"
+      "exhibit_text": "\\(10{,}000{,}000-9{,}000{,}000=1{,}000{,}000\\).\n\n\\[\\dfrac{1{,}000{,}000}{10{,}000{,}000}=\\dfrac{1}{10}=10\\%\\]"
      },
      "q_number": 44
     }
@@ -32744,16 +32744,16 @@
     {
      "id": "P-FE4-M-GM20",
      "question_type": "mc",
-     "question": "A shipping company uses the formula \\(C=\\dfrac{w}{k}+b\\) to calculate the total shipping cost, \\(C\\), for a package. In this formula, \\(w\\) represents the weight of the package in pounds, \\(k\\) is a constant representing the weight-to-shipping-rate ratio, and \\(b\\) is a fixed handling fee. Which of the following represents the formula solved for \\(w\\)?",
+     "question": "A moving company uses the formula \\(C=\\dfrac{d}{k}+b\\) to calculate the total cost, \\(C\\), of a move. In this formula, \\(d\\) represents the distance of the move in miles, \\(k\\) is a constant representing the distance-to-cost ratio, and \\(b\\) is a fixed base fee. If the company wants to determine the distance of a move based on the total cost, which of the following represents the formula solved for \\(d\\)?",
      "options": {
-      "A": "\\(w=\\dfrac{C+b}{k}\\)",
-      "B": "\\(w=kC-b\\)",
-      "C": "\\(w=\\dfrac{C-b}{k}\\)",
-      "D": "\\(w=k(C-b)\\)"
+      "A": "\\(d=k(C-b)\\)",
+      "B": "\\(d=kC-b\\)",
+      "C": "\\(d=\\dfrac{C-b}{k}\\)",
+      "D": "\\(d=\\dfrac{C+b}{k}\\)"
      },
-     "correct": "D",
+     "correct": "A",
      "solution": {
-      "exhibit_text": "C = w/k + b --> C-b = w/k --> w = k(C-b).\n\n**Why this sounds right:** Option C does the first step correctly (isolating w/k) but then divides by k instead of multiplying, since w/k = (C-b) means w = k x (C-b), not (C-b)/k."
+      "exhibit_text": "Rearrange the equation so \\(d\\) is alone on one side. Begin by subtracting \\(b\\) from both sides to obtain \\(C-b=\\dfrac{d}{k}\\). Now multiply both sides by \\(k\\) to clear the fraction: \\(k(C-b)=d\\)."
      },
      "base_source": "Exam G \u2014 Math Q20 (GM20)",
      "base_question": {
@@ -38109,16 +38109,16 @@
     {
      "id": "P-DRILL-KM1_Q85-V1",
      "question_type": "mc",
-     "question": "Aisha answered 42 out of 60 questions correctly on her history exam. What percentage of the questions did she get wrong?",
+     "question": "Aisha answered \\(51\\) out of \\(75\\) questions correctly on her history exam. What percentage of the questions did she get wrong?",
      "options": {
-      "A": "18%",
-      "B": "30%",
-      "C": "42%",
-      "D": "70%"
+      "A": "16%",
+      "B": "32%",
+      "C": "51%",
+      "D": "68%"
      },
      "correct": "B",
      "solution": {
-      "exhibit_text": "Aisha got \\(60-42=18\\) questions wrong out of 60.\nPercentage wrong: \\(18\\div 60 = 0.30 = 30\\%\\)."
+      "exhibit_text": "Aisha got \\(75-51=24\\) questions wrong out of \\(75\\).\n\nPercentage wrong: \\(24\\div75=0.32=32\\%\\)."
      },
      "base_question": {
       "id": "KM1_Q85",
@@ -49445,16 +49445,16 @@
        "exhibit_image": "kaplan_2025_3/solutions/Q100.jpg"
       }
      },
-     "question": "If \\(\\dfrac{1}{n}=\\dfrac{m}{4}\\), and \\(n=\\dfrac{1}{6}\\), what is the value of \\(m\\)?",
+     "question": "If \\(\\dfrac{1}{n}=\\dfrac{m}{5}\\), and \\(n=\\dfrac{1}{7}\\), what is the value of \\(m\\)?",
      "options": {
-      "A": "\\(\\dfrac{1}{24}\\)",
-      "B": "\\(\\dfrac{2}{3}\\)",
-      "C": "\\(\\dfrac{3}{2}\\)",
-      "D": "24"
+      "A": "\\(\\dfrac{1}{35}\\)",
+      "B": "\\(\\dfrac{5}{7}\\)",
+      "C": "\\(\\dfrac{7}{5}\\)",
+      "D": "35"
      },
      "correct": "D",
      "solution": {
-      "exhibit_text": "Since \\(n=\\dfrac{1}{6}\\), \\(\\dfrac{1}{n}=6\\). So \\(\\dfrac{m}{4}=6\\), and \\(m=24\\)."
+      "exhibit_text": "Since \\(n=\\dfrac{1}{7}\\), \\(\\dfrac{1}{n}=7\\). So \\(\\dfrac{m}{5}=7\\), and \\(m=35\\)."
      },
      "q_number": 12
     }

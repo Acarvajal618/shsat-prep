@@ -56,6 +56,14 @@
     .tn-progress-line { height: 3px; background: #62a3ea; }
     .tn-infobar { background: #6d6d6d; color: #fff; padding: 6px 22px; font-size: 12px; letter-spacing: 0.05em; }
     .tn-infobar .sep { margin: 0 6px; opacity: 0.55; }
+    .tn-variant-btn {
+      background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.4); color: #fff;
+      border-radius: 3px; width: 20px; height: 18px; line-height: 1; cursor: pointer;
+      font-size: 12px; padding: 0; margin: 0 2px; vertical-align: middle;
+    }
+    .tn-variant-btn:hover:not(:disabled) { background: rgba(255,255,255,0.3); }
+    .tn-variant-btn:disabled { opacity: 0.35; cursor: default; }
+    #tn-form-id { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; opacity: 0.85; }
 
     .tn-main { max-width: 820px; margin: 32px auto; padding: 0 24px; }
     .tn-card { background: #fff; border: 1px solid var(--tn-card-border); padding: 30px 34px; min-height: 260px; }
@@ -143,7 +151,11 @@
     <span class="sep">/</span>
     <span id="tn-position-label">Question 1 of 519</span>
     <span class="sep">/</span>
-    <span id="tn-form-label">Variant 1</span>
+    <button class="tn-variant-btn" id="tn-variant-prev" title="Previous variant">‹</button>
+    <span id="tn-form-label">Variant 1 of 1</span>
+    <button class="tn-variant-btn" id="tn-variant-next" title="Next variant">›</button>
+    <span class="sep">/</span>
+    <span id="tn-form-id"></span>
   </div>
 
   <div class="tn-main">
@@ -219,14 +231,12 @@
       return p.forms[idx];
     }
 
-    // Loads a position and picks a random variant for it (never the
-    // original, never a fixed/predictable one) so returning to the same
-    // question later doesn't always show the identical variant.
+    // Loads a position, always starting on its first variant (Variant 1)
+    // so it's always predictable which one is showing -- use the ‹ ›
+    // variant buttons to deliberately cycle to a different one.
     function loadForm(pos) {
       state.pos = pos;
-      const p = currentPosition();
-      const variantCount = p ? Math.max(1, p.forms.length - 1) : 1;
-      state.formIdx = Math.floor(Math.random() * variantCount);
+      state.formIdx = 0;
       state.answers = {};
       state.crossedOut = {};
       state._selectedChip = null;
@@ -241,9 +251,25 @@
       render();
     }
 
+    // Cycle to a different variant of the SAME question (does not touch pos).
+    function cycleVariant(delta) {
+      const p = currentPosition();
+      if (!p) return;
+      const variantCount = Math.max(1, p.forms.length - 1);
+      const next = state.formIdx + delta;
+      if (next < 0 || next >= variantCount) return;
+      state.formIdx = next;
+      state.answers = {};
+      state.crossedOut = {};
+      state._selectedChip = null;
+      render();
+    }
+
     function wireToolbar() {
       document.getElementById('tn-prev').onclick = () => go(-1);
       document.getElementById('tn-next-pos').onclick = () => go(1);
+      document.getElementById('tn-variant-prev').onclick = () => cycleVariant(-1);
+      document.getElementById('tn-variant-next').onclick = () => cycleVariant(1);
       document.addEventListener('keydown', (e) => {
         if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
         if (e.key === 'ArrowRight') go(1);
@@ -344,12 +370,17 @@
       const p = currentPosition();
       const q = currentForm();
 
+      const variantCount = p ? Math.max(1, p.forms.length - 1) : 1;
       document.getElementById('tn-jump-input').value = state.pos;
       document.getElementById('tn-position-label').textContent =
         'Question ' + (state.pos + 1) + ' of ' + state.positions.length;
-      document.getElementById('tn-form-label').textContent = 'Variant ' + (state.formIdx + 1);
+      document.getElementById('tn-form-label').textContent =
+        'Variant ' + (state.formIdx + 1) + ' of ' + variantCount;
+      document.getElementById('tn-form-id').textContent = q ? q.id : '';
       document.getElementById('tn-prev').disabled = state.pos === 0;
       document.getElementById('tn-next-pos').disabled = state.pos === state.positions.length - 1;
+      document.getElementById('tn-variant-prev').disabled = state.formIdx === 0;
+      document.getElementById('tn-variant-next').disabled = state.formIdx >= variantCount - 1;
 
       const exhibitPanel = document.getElementById('tn-exhibit-panel');
       exhibitPanel.classList.remove('open');
