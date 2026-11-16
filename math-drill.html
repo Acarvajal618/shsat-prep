@@ -31,18 +31,27 @@
       border-bottom: 1px solid #dcdcdc;
       flex-wrap: wrap;
     }
+    .tn-nav-arrows { display: flex; gap: 2px; }
+    .tn-btn {
+      background: #ffffff;
+      border: 1px solid #b3b3b3;
+      border-radius: 4px;
+      width: 40px; height: 34px;
+      display: inline-flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 15px; padding: 0;
+      color: #333;
+    }
+    .tn-btn:hover:not(:disabled) { background: #f0f0f0; border-color: #909090; }
+    .tn-btn:disabled { opacity: 0.4; cursor: default; background: #fff; }
     .tn-jump { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #444; }
     .tn-jump input {
       width: 70px; padding: 6px 8px; border: 1px solid #b3b3b3; border-radius: 4px; font-size: 14px;
     }
-    .tn-jump button, .tn-btn-finish {
+    .tn-jump button {
       background: #fff; border: 1px solid #b3b3b3; border-radius: 4px;
       padding: 6px 14px; font-size: 13px; cursor: pointer; color: #333;
     }
     .tn-jump button:hover { background: #f0f0f0; }
-    .tn-tally { margin-left: auto; display: flex; gap: 14px; font-size: 14px; font-weight: 600; }
-    .tn-tally .ok { color: #1a7a1a; }
-    .tn-tally .bad { color: #c23b3b; }
 
     .tn-progress-line { height: 3px; background: #62a3ea; }
     .tn-infobar { background: #6d6d6d; color: #fff; padding: 6px 22px; font-size: 12px; letter-spacing: 0.05em; }
@@ -95,19 +104,8 @@
     .tn-graph-dot.selected { fill: var(--tn-accent); stroke: var(--tn-accent); }
 
     .tn-card-actions { margin-top: 22px; padding-top: 16px; border-top: 1px solid #eee; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    .tn-btn-check { background: #4a90d9; color: #fff; border: none; border-radius: 3px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; }
-    .tn-btn-check:disabled { background: #bcd4ec; cursor: default; }
-    .tn-btn-check:hover:not(:disabled) { background: #3878be; }
-    .tn-btn-next { background: #1a7a1a; color: #fff; border: none; border-radius: 3px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; display: none; }
-    .tn-btn-next:hover { background: #156015; }
-    .tn-btn-retry { background: #fff; border: 1px solid #c23b3b; color: #c23b3b; border-radius: 3px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; display: none; }
-    .tn-btn-retry:hover { background: #fdeaea; }
     .tn-btn-solution { background: #fff; border: 1px solid #b8b8b8; border-radius: 2px; padding: 8px 16px; font-size: 13px; color: #333; cursor: pointer; font-family: inherit; }
     .tn-btn-solution:hover { background: #ebebeb; }
-
-    .tn-feedback { margin-top: 16px; padding: 12px 16px; border-radius: 4px; font-size: 14px; font-weight: 600; display: none; }
-    .tn-feedback.correct { display: block; background: #eafbea; border: 1px solid #b7e4b7; color: #1a3a1a; }
-    .tn-feedback.wrong { display: block; background: #fdeaea; border: 1px solid #e4b7b7; color: #5a1a1a; }
 
     .tn-exhibit-panel { margin-top: 18px; background: #ffffff; border: 1px solid #cfcfcf; border-radius: 3px; display: none; }
     .tn-exhibit-panel.open { display: block; }
@@ -128,15 +126,14 @@
   <script src="nav.js?v=1"></script>
 
   <div class="tn-toolbar">
+    <div class="tn-nav-arrows">
+      <button class="tn-btn" id="tn-prev" title="Previous question">←</button>
+      <button class="tn-btn" id="tn-next-pos" title="Next question">→</button>
+    </div>
     <div class="tn-jump">
       <label for="tn-jump-input">Go to #</label>
       <input type="number" id="tn-jump-input" min="0" max="518" value="0">
       <button id="tn-jump-go">Go</button>
-    </div>
-    <button class="tn-btn-finish" id="tn-reset-session" title="Reset today's tally to 0/0">Reset tally</button>
-    <div class="tn-tally">
-      <span class="ok" id="tn-tally-correct">✓ 0</span>
-      <span class="bad" id="tn-tally-wrong">✗ 0</span>
     </div>
   </div>
 
@@ -154,11 +151,7 @@
       <div class="tn-base-tag" id="tn-base-tag"></div>
       <div class="tn-question" id="tn-question">Loading…</div>
       <div id="tn-body"></div>
-      <div class="tn-feedback" id="tn-feedback"></div>
       <div class="tn-card-actions">
-        <button class="tn-btn-check" id="tn-check">Check Answer</button>
-        <button class="tn-btn-retry" id="tn-retry">Try a New Version →</button>
-        <button class="tn-btn-next" id="tn-next">Next Question →</button>
         <button class="tn-btn-solution" id="tn-toggle-solution">Show solution</button>
       </div>
       <div class="tn-exhibit-panel" id="tn-exhibit-panel">
@@ -182,9 +175,6 @@
       formIdx: 0,
       answers: {},
       crossedOut: {},
-      checked: false,  // has the current form been checked yet
-      lastStatus: null, // 'correct' | 'wrong' | null
-      tally: { correct: 0, wrong: 0 },
       _selectedChip: null,
     };
 
@@ -212,16 +202,14 @@
       const maxPos = Math.max(0, state.positions.length - 1);
       document.getElementById('tn-jump-input').max = maxPos;
       state.pos = Math.min(Math.max(loadPos(), 0), maxPos);
-      loadForm(state.pos, 0);
+      loadForm(state.pos);
       render();
     }
 
     function currentPosition() { return state.positions[state.pos] || null; }
     // forms[0] is always the real original question -- she's already seen
     // those elsewhere on the site, so the drill only ever serves variants
-    // (forms[1] onward). state.formIdx indexes into that variants-only
-    // subset, wrapping around if she misses more times than there are
-    // variants.
+    // (forms[1] onward).
     function currentForm() {
       const p = currentPosition();
       if (!p) return null;
@@ -231,30 +219,41 @@
       return p.forms[idx];
     }
 
-    function loadForm(pos, formIdx) {
+    // Loads a position and picks a random variant for it (never the
+    // original, never a fixed/predictable one) so returning to the same
+    // question later doesn't always show the identical variant.
+    function loadForm(pos) {
       state.pos = pos;
-      state.formIdx = formIdx;
+      const p = currentPosition();
+      const variantCount = p ? Math.max(1, p.forms.length - 1) : 1;
+      state.formIdx = Math.floor(Math.random() * variantCount);
       state.answers = {};
       state.crossedOut = {};
-      state.checked = false;
-      state.lastStatus = null;
       state._selectedChip = null;
       savePos();
     }
 
+    function go(delta) {
+      const maxPos = state.positions.length - 1;
+      const next = state.pos + delta;
+      if (next < 0 || next > maxPos) return;
+      loadForm(next);
+      render();
+    }
+
     function wireToolbar() {
+      document.getElementById('tn-prev').onclick = () => go(-1);
+      document.getElementById('tn-next-pos').onclick = () => go(1);
+      document.addEventListener('keydown', (e) => {
+        if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+        if (e.key === 'ArrowRight') go(1);
+        if (e.key === 'ArrowLeft') go(-1);
+      });
       document.getElementById('tn-jump-go').onclick = doJump;
       document.getElementById('tn-jump-input').addEventListener('keydown', (e) => {
         if (e.key === 'Enter') doJump();
       });
-      document.getElementById('tn-reset-session').onclick = () => {
-        state.tally = { correct: 0, wrong: 0 };
-        render();
-      };
-      document.getElementById('tn-check').onclick = onCheck;
-      document.getElementById('tn-retry').onclick = onRetry;
-      document.getElementById('tn-next').onclick = onNext;
-      document.getElementById('tn-toggle-solution').onclick = toggleSolution;
+      document.getElementById('tn-toggle-solution').onclick = onToggleSolutionClick;
       document.getElementById('tn-exhibit-close').onclick = () => {
         document.getElementById('tn-exhibit-panel').classList.remove('open');
       };
@@ -266,107 +265,30 @@
       let n = parseInt(input.value, 10);
       if (!Number.isFinite(n)) n = 0;
       n = Math.max(0, Math.min(maxPos, n));
-      loadForm(n, 0);
+      loadForm(n);
       render();
     }
 
-    function onCheck() {
-      const q = currentForm();
-      if (!q || !canCheck(q)) return;
-      const status = gradeQuestion(q);
-      state.checked = true;
-      state.lastStatus = status;
-      if (status === 'correct') state.tally.correct++;
-      else state.tally.wrong++;
-      render();
-    }
-
-    function onRetry() {
-      const p = currentPosition();
-      if (!p) return;
-      const variantCount = Math.max(1, p.forms.length - 1);
-      const nextFormIdx = (state.formIdx + 1) % variantCount;
-      loadForm(state.pos, nextFormIdx);
-      render();
-    }
-
-    function onNext() {
-      const maxPos = state.positions.length - 1;
-      let next = state.pos + 1;
-      let wrapped = false;
-      if (next > maxPos) { next = 0; wrapped = true; }
-      loadForm(next, 0);
-      render();
-      if (wrapped) {
-        const fb = document.getElementById('tn-feedback');
-        fb.className = 'tn-feedback correct';
-        fb.textContent = "🎉 You've been through the whole pool — starting back at the top!";
+    // ── Solution is password-gated: same mechanism as the site-wide
+    // solution-lock scripts (window.prompt, no persistence across page
+    // loads). Only you should have this password -- it's never shown
+    // anywhere in the page or given to her. ──────────────────────────
+    const SOLUTION_PASSWORD = 'unlockdrill';
+    let solutionUnlocked = false;
+    function onToggleSolutionClick() {
+      const panel = document.getElementById('tn-exhibit-panel');
+      if (solutionUnlocked) {
+        panel.classList.toggle('open');
+        return;
       }
-    }
-
-    function toggleSolution() {
-      document.getElementById('tn-exhibit-panel').classList.toggle('open');
-    }
-
-    // ── Completeness gate for enabling "Check Answer" ───────────────
-    function canCheck(q) {
-      const given = state.answers[ANSWER_KEY];
-      if (q.question_type === 'mc') return given != null && given !== '';
-      if (q.question_type === 'mc_multi') return Array.isArray(given) && given.length > 0;
-      if (q.question_type === 'grid_in' || q.question_type === 'grid_keypad') return given != null && given !== '';
-      if (q.question_type === 'dropdown') {
-        const dropdowns = q.dropdowns || [];
-        return dropdowns.length > 0 && dropdowns.every(d => given && given[d.label]);
+      const attempt = window.prompt('Enter the solution password:');
+      if (attempt === null) return;
+      if (attempt.trim().toLowerCase() === SOLUTION_PASSWORD) {
+        solutionUnlocked = true;
+        panel.classList.add('open');
+      } else {
+        window.alert('Incorrect password.');
       }
-      if (q.question_type === 'drag_drop') {
-        const boxes = q.boxes || [];
-        return boxes.length > 0 && boxes.every(b => given && given[b.label]);
-      }
-      if (q.question_type === 'graph_select') return Array.isArray(given) && given.length > 0;
-      if (q.question_type === 'ray_place') return !!(given && given.rayType && given.position !== null && given.position !== undefined);
-      if (q.question_type === 'numberline_click') return given != null;
-      return given != null && given !== '';
-    }
-
-    // ── Grading ───────────────────────────────────────────────────────
-    function gradeQuestion(q) {
-      const given = state.answers[ANSWER_KEY];
-      if (given === undefined || given === null || given === '') return 'wrong';
-      if (q.question_type === 'mc_multi') {
-        if (!Array.isArray(given) || given.length === 0) return 'wrong';
-        const a = [...given].sort();
-        const b = [...(q.correct || [])].sort();
-        return (a.length === b.length && a.every((v, i) => v === b[i])) ? 'correct' : 'wrong';
-      }
-      if (q.question_type === 'drag_drop' || q.question_type === 'dropdown') {
-        if (typeof given !== 'object' || Object.keys(given).length === 0) return 'wrong';
-        const correctObj = q.correct || {};
-        const allMatch = Object.keys(correctObj).every(k => given[k] === correctObj[k]);
-        return allMatch ? 'correct' : 'wrong';
-      }
-      if (q.question_type === 'grid_in') {
-        return String(given).trim() === String(q.grid_answer).trim() ? 'correct' : 'wrong';
-      }
-      if (q.question_type === 'grid_keypad') {
-        const candidates = [q.correct, ...(q.correct_alt || [])].filter(Boolean).map(String);
-        return candidates.includes(String(given).trim()) ? 'correct' : 'wrong';
-      }
-      if (q.question_type === 'graph_select') {
-        if (!Array.isArray(given) || given.length === 0) return 'wrong';
-        const a = [...given].sort();
-        const b = [...(q.correct || [])].sort();
-        return (a.length === b.length && a.every((v, i) => v === b[i])) ? 'correct' : 'wrong';
-      }
-      if (q.question_type === 'ray_place') {
-        if (typeof given !== 'object') return 'wrong';
-        const c = q.correct || {};
-        return (given.rayType === c.rayType && given.position === c.position) ? 'correct' : 'wrong';
-      }
-      if (q.question_type === 'numberline_click') {
-        const c = typeof q.correct === 'number' ? q.correct : parseFloat(q.correct);
-        return Math.abs(given - c) < 1e-6 ? 'correct' : 'wrong';
-      }
-      return given === q.correct ? 'correct' : 'wrong';
     }
 
     function typesetMath(root, retriesLeft) {
@@ -426,8 +348,8 @@
       document.getElementById('tn-position-label').textContent =
         'Question ' + (state.pos + 1) + ' of ' + state.positions.length;
       document.getElementById('tn-form-label').textContent = 'Variant ' + (state.formIdx + 1);
-      document.getElementById('tn-tally-correct').textContent = '✓ ' + state.tally.correct;
-      document.getElementById('tn-tally-wrong').textContent = '✗ ' + state.tally.wrong;
+      document.getElementById('tn-prev').disabled = state.pos === 0;
+      document.getElementById('tn-next-pos').disabled = state.pos === state.positions.length - 1;
 
       const exhibitPanel = document.getElementById('tn-exhibit-panel');
       exhibitPanel.classList.remove('open');
@@ -463,7 +385,6 @@
       document.getElementById('tn-body').innerHTML = bodyHtml;
 
       renderSolution(q);
-      renderFeedbackAndButtons(q);
 
       wireInputs(q);
       typesetMath(document.getElementById('tn-card'));
@@ -477,34 +398,6 @@
       if (sol.exhibit_image) html += `<div class="tn-figure"><img src="${esc(sol.exhibit_image)}" alt="solution"></div>`;
       if (!html) html = '<em>No written solution on file for this one yet.</em>';
       body.innerHTML = html;
-    }
-
-    function renderFeedbackAndButtons(q) {
-      const fb = document.getElementById('tn-feedback');
-      const checkBtn = document.getElementById('tn-check');
-      const retryBtn = document.getElementById('tn-retry');
-      const nextBtn = document.getElementById('tn-next');
-
-      if (!state.checked) {
-        fb.className = 'tn-feedback';
-        fb.textContent = '';
-        checkBtn.style.display = '';
-        checkBtn.disabled = !canCheck(q);
-        retryBtn.style.display = 'none';
-        nextBtn.style.display = 'none';
-      } else if (state.lastStatus === 'correct') {
-        fb.className = 'tn-feedback correct';
-        fb.textContent = '✓ Correct!';
-        checkBtn.style.display = 'none';
-        retryBtn.style.display = 'none';
-        nextBtn.style.display = 'inline-block';
-      } else {
-        fb.className = 'tn-feedback wrong';
-        fb.textContent = '✗ Not quite — try this version of the same question.';
-        checkBtn.style.display = 'none';
-        retryBtn.style.display = 'inline-block';
-        nextBtn.style.display = 'none';
-      }
     }
 
     function renderOptionContent(v) {
@@ -744,8 +637,6 @@
     }
 
     function wireInputs(q) {
-      if (state.checked) return; // lock interaction once checked — use Retry/Next instead
-
       document.querySelectorAll('.tn-option').forEach((el) => {
         el.addEventListener('click', () => {
           const letter = el.dataset.letter;
@@ -765,7 +656,6 @@
       if (grid) {
         grid.addEventListener('input', (e) => {
           state.answers[ANSWER_KEY] = e.target.value;
-          document.getElementById('tn-check').disabled = !canCheck(q);
         });
       }
 
@@ -780,7 +670,6 @@
           state.answers[ANSWER_KEY] = cur;
           const disp = document.getElementById('tn-grid-display');
           if (disp) disp.textContent = cur;
-          document.getElementById('tn-check').disabled = !canCheck(q);
         });
       });
 
