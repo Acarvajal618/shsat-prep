@@ -290,6 +290,16 @@
         <div class="tn-base-tag" id="tn-base-tag"></div>
         <div class="tn-question" id="tn-question">Loading…</div>
         <div id="tn-body"></div>
+        <div class="tn-card-actions">
+          <button class="tn-btn-solution" id="tn-show-solution">Show solution</button>
+        </div>
+        <div class="tn-exhibit-panel" id="tn-exhibit-panel">
+          <div class="tn-exhibit-header">
+            <span>Solution</span>
+            <button class="tn-exhibit-close" id="tn-exhibit-close" title="Close">✕</button>
+          </div>
+          <div class="tn-exhibit-body" id="tn-exhibit-body"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -440,9 +450,43 @@
       counter.textContent = q.sectionIndex + ' OF ' + q.sectionTotal;
     }
 
+    // ── Solution view, locked behind a parent-only password. Same mechanism
+    // as the site's other solution locks: window.prompt, and the unlock does
+    // NOT persist -- it resets on every page load. ─────────────────────
+    const SOLUTION_PASSWORD = 'unlockela';
+    let solutionUnlocked = false;
+    let solutionOpenFor = null; // q_number whose solution is showing
+    function onShowSolutionClick() {
+      const q = currentQ();
+      if (!q) return;
+      if (solutionOpenFor === q.q_number) { solutionOpenFor = null; render(); return; }
+      if (!solutionUnlocked) {
+        const attempt = window.prompt('Enter the solution password:');
+        if (attempt === null) return;
+        if (attempt.trim().toLowerCase() !== SOLUTION_PASSWORD) { window.alert('Incorrect password.'); return; }
+        solutionUnlocked = true;
+      }
+      solutionOpenFor = q.q_number;
+      render();
+    }
+    function renderSolutionPanel(q) {
+      const open = solutionOpenFor === q.q_number;
+      document.getElementById('tn-exhibit-panel').classList.toggle('open', open);
+      document.getElementById('tn-show-solution').textContent = open ? 'Hide solution' : 'Show solution';
+      if (!open) return;
+      const correctParts = answerParts(q, q.correct) || [];
+      let html = '<div><strong>Correct answer:</strong> ' + correctParts.map(p => esc(p)).join('<br>') + '</div><div style="height:0.9em;"></div>';
+      html += (q.solution && q.solution.exhibit_text)
+        ? renderQuestionText(q.solution.exhibit_text)
+        : '<em>No written explanation on file for this question — the correct answer is shown above.</em>';
+      document.getElementById('tn-exhibit-body').innerHTML = html;
+    }
+
     function wireControls() {
       document.getElementById('tn-prev').onclick = () => go(-1);
       document.getElementById('tn-next').onclick = () => go(+1);
+      document.getElementById('tn-show-solution').onclick = onShowSolutionClick;
+      document.getElementById('tn-exhibit-close').onclick = () => { solutionOpenFor = null; render(); };
       document.getElementById('tn-finish-exam').onclick = () => {
         if (!allQuestionsComplete()) {
           alert('Some questions are still unanswered. Please go back and finish every question before finishing the exam.');
@@ -918,6 +962,7 @@
       document.getElementById('tn-body').innerHTML = bodyHtml;
 
       wireInputs(q);
+      renderSolutionPanel(q);
       typesetMath(document.getElementById('tn-card'));
     }
 
