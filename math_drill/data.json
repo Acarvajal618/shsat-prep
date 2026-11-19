@@ -11114,16 +11114,16 @@
     {
      "id": "P-FE3-M-AM49",
      "question_type": "mc",
-     "question": "There are 20 students in a class. 4 students ate 0 servings of fruit yesterday, 6 ate 1 serving, 5 ate 2 servings, 3 ate 3 servings, 1 ate 4 servings, and 1 ate 5 servings. What is the **mean** number of servings of fruit eaten yesterday per student in this class?",
+     "question": "There are \\(20\\) students in a class. The frequency table above shows the number of students in this class who ate \\(0, 1, 2, 3, 4,\\) or \\(5\\) servings of fruit yesterday. What is the **mean** number of servings of fruit eaten yesterday per student in this class?",
      "options": {
-      "A": "17/10",
-      "B": "2",
-      "C": "2 1/2",
-      "D": "3"
+      "A": "\\(2\\tfrac{1}{2}\\)",
+      "B": "\\(2\\tfrac{1}{5}\\)",
+      "C": "\\(3\\tfrac{1}{3}\\)",
+      "D": "\\(4\\tfrac{2}{5}\\)"
      },
-     "correct": "A",
+     "correct": "B",
      "solution": {
-      "exhibit_text": "Total servings = 0(4)+1(6)+2(5)+3(3)+4(1)+5(1) = 34. Mean = 34/20 = 17/10."
+      "exhibit_text": "(B) Multiply each number of servings by its number of students and add:\n\n\\[0 \\times 3 + 1 \\times 4 + 2 \\times 5 + 3 \\times 4 + 4 \\times 2 + 5 \\times 2 = 44\\]\n\nDivide by the total number of students:\n\n\\[44 \\div 20 = 2\\tfrac{1}{5}\\]\n\n(A) is the plain average of the values \\(0\\) through \\(5\\), ignoring how many students are in each row. (D) divides \\(44\\) by \\(10\\) instead of \\(20\\)."
      },
      "base_source": "Exam A \u2014 Math Q49 (AM49)",
      "base_question": {
@@ -11140,7 +11140,8 @@
       },
       "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SERVINGS OF FRUITS AND VEGETABLES</caption><thead><tr><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Servings of<br>Fruits and Vegetables</th><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Students</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>7</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr></tbody></table>"
      },
-     "q_number": 44
+     "q_number": 44,
+     "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>SERVINGS OF FRUIT</caption><thead><tr><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Servings<br>of Fruit</th><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Students</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td></tr></tbody></table>"
     },
     {
      "id": "P-DRILL2-AM49-V1",
@@ -11259,8 +11260,8 @@
     {
      "id": "P-FE2-M-AM49",
      "question_type": "mc",
-     "question": "There are \\(20\\) students in a class. The frequency table above shows the number of hours of sleep that students in this class reported getting \\(0, 1, 2, 3, 4,\\) or \\(5\\) [extra] hours beyond a base of \\(5\\) hours last night. What is the **mean** number of extra hours of sleep per student in this class?",
-     "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>HOURS OF SLEEP LAST NIGHT</caption><thead><tr><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Hours<br>of Sleep</th><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Students</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>6</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr></tbody></table>",
+     "question": "There are \\(20\\) students in a class. The frequency table above shows the number of students in this class who spent \\(0, 1, 2, 3, 4,\\) or \\(5\\) hours on homework yesterday. What is the **mean** number of hours spent on homework yesterday per student in this class?",
+     "figure_svg": "<table style='margin:0 auto; border-collapse:collapse; font-family: Georgia, serif; font-size: 14px;'><caption style='font-weight:bold; padding:6px 0; letter-spacing:0.04em;'>HOURS SPENT ON HOMEWORK</caption><thead><tr><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Hours<br>on Homework</th><th style='border:1px solid #111; padding:8px 14px; background:#f3f3f3;'>Number of Students</th></tr></thead><tbody><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>0</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>6</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>2</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>3</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>4</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr><tr><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>5</td><td style='border:1px solid #111; padding:8px 14px; text-align:center;'>1</td></tr></tbody></table>",
      "options": {
       "A": "\\(1\\tfrac{1}{2}\\)",
       "B": "\\(1\\tfrac{7}{10}\\)",
